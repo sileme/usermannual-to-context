@@ -1,7 +1,6 @@
 """Merge minerU per-part outputs back into a single doc.
 
-minerU's cloud-API zips actually have a *flat* layout (not the nested
-`auto/<doc>.md` we initially assumed):
+minerU's cloud-API zips have a *flat* layout:
 
     <part_root>/
         full.md
@@ -11,12 +10,12 @@ minerU's cloud-API zips actually have a *flat* layout (not the nested
         <uuid>_origin.pdf
         images/<hash>.jpg
 
-This module normalises that into the local-minerU style and stitches
-multiple parts together. Output written under `target_dir`:
+This module normalises that layout and stitches multiple parts together.
+Output written directly under `target_dir` (no `auto/` wrapper):
 
-    <target_dir>/auto/<doc_name>.md
-    <target_dir>/auto/<doc_name>_content_list.json
-    <target_dir>/auto/images/<part_stem>_<orig>.{png,jpg,...}
+    <target_dir>/<doc_name>.md
+    <target_dir>/<doc_name>_content_list.json
+    <target_dir>/images/<part_stem>_<orig>.{png,jpg,...}
 
 `page_idx` in the content-list JSON is rebased to the *original* PDF's
 page numbering by adding the cumulative offset of preceding parts.
@@ -71,17 +70,16 @@ def merge_parts(
     `part_page_counts[i]` is the page count of part i in the *original* PDF
     (used to advance the page_idx offset between parts).
 
-    Writes:
-        <target_dir>/auto/<doc_name>.md
-        <target_dir>/auto/<doc_name>_content_list.json
-        <target_dir>/auto/images/<part_stem>_<file>
+    Writes directly under `target_dir` (no `auto/` wrapper):
+        <target_dir>/<doc_name>.md
+        <target_dir>/<doc_name>_content_list.json
+        <target_dir>/images/<part_stem>_<file>
     """
     if len(part_roots) != len(part_page_counts):
         raise ValueError("part_roots and part_page_counts must have the same length")
 
-    target_auto = target_dir / "auto"
-    target_auto.mkdir(parents=True, exist_ok=True)
-    target_imgs = target_auto / "images"
+    target_dir.mkdir(parents=True, exist_ok=True)
+    target_imgs = target_dir / "images"
     target_imgs.mkdir(exist_ok=True)
 
     md_chunks: list[str] = []
@@ -127,10 +125,40 @@ def merge_parts(
 
         page_offset += page_count
 
-    (target_auto / f"{doc_name}.md").write_text(
+    (target_dir / f"{doc_name}.md").write_text(
         "\n\n".join(md_chunks) + "\n", encoding="utf-8"
     )
-    (target_auto / f"{doc_name}_content_list.json").write_text(
+    (target_dir / f"{doc_name}_content_list.json").write_text(
         json.dumps(content_chunks, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+
+def flatten_auto_dir(doc_dir: Path) -> bool:
+    """Move contents of `doc_dir/auto/` up into `doc_dir/`, then remove auto/.
+
+    Use this after local minerU runs, since minerU's own CLI writes into an
+    `auto/` subdirectory.  For the API path, `merge_parts` already writes
+    directly to `target_dir` so this is not needed.
+
+    Returns True if an auto/ directory was found and flattened.
+    """
+    auto_dir = doc_dir / "auto"
+    if not auto_dir.is_dir():
+        return False
+
+    for item in sorted(auto_dir.iterdir()):
+        dest = doc_dir / item.name
+        if dest.exists():
+            print(f"[flatten] skip {dest} — already exists")
+            continue
+        shutil.move(str(item), str(dest))
+
+    remaining = list(auto_dir.iterdir())
+    if remaining:
+        print(f"[flatten] warn: {auto_dir} not empty after move, "
+              f"leaving in place: {[p.name for p in remaining]}")
+    else:
+        auto_dir.rmdir()
+
+    return True

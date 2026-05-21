@@ -154,7 +154,7 @@ software_usermanual_context/
     <software>/<doc>/diagnostics/        curated 错误诊断（M2）
   corpus/                                gitignored（PDF + 中间产物）
     raw/<software>/*.pdf                 原始 PDF（只读）
-    markdown/<software>/<doc>/auto/...   minerU 输出
+    markdown/<software>/<doc>/...        minerU 输出
     markdown/<software>/.parts/...       超 200 页 PDF 的拆分中间产物（API 模式自动）
   scripts/
     01_pdf_to_markdown.py                PDF → Markdown 包装（local CLI / cloud API 两套）

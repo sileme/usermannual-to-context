@@ -6,7 +6,7 @@ Two engines supported:
                              needs MINERU_API_TOKEN env var
 
 Reads:  corpus/raw/<software>/*.pdf
-Writes: corpus/markdown/<software>/<doc>/<backend>/<doc>.md
+Writes: corpus/markdown/<software>/<doc>/<doc>.md
         + <doc>_content_list.json + images/   (same layout for both engines)
 
 Local backend defaults to `auto`: GPU if CUDA is detected, else CPU pipeline.
@@ -173,6 +173,11 @@ def main() -> int:
         if code != 0:
             print(f"[warn] {pdf.name} exited with code {code}", file=sys.stderr)
             rc = code
+        # minerU CLI writes into <out_dir>/<doc>/auto/ — flatten it away so
+        # the layout matches the API path: <out_dir>/<doc>/<doc>.md etc.
+        from lib.markdown_merge import flatten_auto_dir
+        doc_dir = out_dir / pdf.stem
+        flatten_auto_dir(doc_dir)
     return rc
 
 

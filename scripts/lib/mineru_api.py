@@ -7,12 +7,11 @@ Async/job-based flow (different from the local CLI):
   3. Poll GET /extract-results/batch/{batch_id} until every file is state=done
   4. Download each `full_zip_url` and unpack into corpus/markdown/<software>/<doc>/
 
-The downloaded zip has a FLAT layout (not the `auto/<doc>.md` we initially
-assumed): `full.md`, `<uuid>_content_list.json`, `<uuid>_content_list_v2.json`,
-`<uuid>_model.json`, `<uuid>_origin.pdf`, `images/<hash>.jpg`. `markdown_merge.py`
-normalises that into local-minerU style — `<doc>/auto/<doc>.md` +
-`<doc>_content_list.json` — so `scripts/02_markdown_to_context.py` doesn't
-care whether the markdown came from local minerU or the API.
+The downloaded zip has a FLAT layout: `full.md`, `<uuid>_content_list.json`,
+`<uuid>_content_list_v2.json`, `<uuid>_model.json`, `<uuid>_origin.pdf`,
+`images/<hash>.jpg`. `markdown_merge.py` normalises that into
+`<doc>/<doc>.md` + `<doc>_content_list.json` — so `scripts/02_markdown_to_context.py`
+doesn't care whether the markdown came from local minerU or the API.
 
 The API also caps each uploaded file at 200 pages. PDFs longer than that
 are pre-split by `pdf_split.py` into `<stem>_partNN.pdf`; each part is
@@ -220,7 +219,7 @@ def download_and_extract(zip_url: str, target_dir: Path) -> None:
     The zip's layout is flat: `full.md`, `<uuid>_content_list.json`, `images/`.
     Extracting into `.parts/<doc>/<part_stem>/` therefore yields
     `.parts/<doc>/<part_stem>/full.md` etc. — `markdown_merge.merge_parts`
-    then normalises this into `<doc>/auto/<doc>.md`.
+    then normalises this into `<doc>/<doc>.md`.
     """
     target_dir.mkdir(parents=True, exist_ok=True)
     with urllib.request.urlopen(zip_url) as resp:
@@ -240,7 +239,7 @@ def run_api_pipeline(
     """End-to-end API call for a list of PDFs. Returns 0 on success, nonzero on partial failure.
 
     For each PDF `foo.pdf` ≤ `max_pages_per_file` pages (or if max_pages_per_file<=0),
-    the result is unpacked into `out_dir/foo/`, yielding `out_dir/foo/auto/foo.md` etc.
+    the result is unpacked into `out_dir/foo/`, yielding `out_dir/foo/foo.md` etc.
 
     PDFs longer than the limit are pre-split into `<stem>_partNN.pdf`, each part
     is sent to the API individually, and the resulting markdowns are merged back
@@ -266,11 +265,22 @@ def run_api_pipeline(
         for part_path, _ in parts:
             upload_list.append(part_path)
 
-    # 2. Upload all parts together as one batch.
-    print(f"[api] uploading {len(upload_list)} file(s) (model_version={model_version})")
-    batch_id = upload_pdfs(upload_list, model_version=model_version)
-    results = poll_batch(batch_id, poll_interval=poll_interval, timeout=timeout)
-    by_name = {r.get("file_name"): r for r in results}
+    # 2. Upload in chunks of 50 (API rate limit).
+    CHUNK = 50
+    by_name: dict[str, dict] = {}
+    for chunk_start in range(0, len(upload_list), CHUNK):
+        chunk = upload_list[chunk_start : chunk_start + CHUNK]
+        n = chunk_start // CHUNK + 1
+        total = (len(upload_list) + CHUNK - 1) // CHUNK
+        print(f"[api] batch {n}/{total}: uploading {len(chunk)} file(s) "
+              f"(model_version={model_version})")
+        batch_id = upload_pdfs(chunk, model_version=model_version)
+        results = poll_batch(batch_id, poll_interval=poll_interval, timeout=timeout)
+        for r in results:
+            by_name[r.get("file_name")] = r
+        if chunk_start + CHUNK < len(upload_list):
+            print(f"[api] rate-limit pause 65s...")
+            time.sleep(65)
 
     # 3. Download per part, then merge (always — merge handles single-part too
     #    so the API zip's flat layout gets normalised to <doc>/auto/<doc>.md).
@@ -309,6 +319,6 @@ def run_api_pipeline(
             merge_target = out_dir / pdf.stem
             label = "merge" if len(part_roots) > 1 else "normalize"
             print(f"[{label}] {pdf.name}: {len(part_roots)} part(s) -> "
-                  f"{merge_target}/auto/{pdf.stem}.md")
+                  f"{merge_target}/{pdf.stem}.md")
             merge_parts(part_roots, part_pages, merge_target, pdf.stem)
     return rc
