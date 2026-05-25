@@ -138,11 +138,13 @@ def process_doc(
 
     if tier != "T0":
         depth_by_tier = {"T1": 3, "T2": 2, "T3": 1}
+        budget_by_tier = {"T1": 3_000, "T2": 5_000, "T3": 8_000}
         outline_text = build_outline(
             doc_name=doc_name,
             md_text=anchored_md,
             full_md_rel="./full.md",
             max_depth=depth_by_tier.get(tier, 2),
+            token_budget=budget_by_tier.get(tier, 5_000),
         )
         outline_md.write_text(outline_text, encoding="utf-8")
         entry["outputs"]["outline_md"] = str(outline_md.relative_to(REPO_ROOT)).replace("\\", "/")

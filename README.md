@@ -13,6 +13,7 @@
 - [快速上手](#快速上手)
   - [角色 A：查询软件用法](#角色-a查询软件用法)
   - [角色 B：把新软件接入仓库](#角色-b把新软件接入仓库)
+  - [角色 C：在你自己的项目里复用 `context_layer/`](#角色-c在你自己的项目里复用-context_layer)
 - [仓库结构](#仓库结构)
 - [技术栈](#技术栈)
 - [核心硬规则](#核心硬规则)
@@ -141,6 +142,19 @@ git commit -m "context_layer: add <software>"
 > **大文件自动拆分**：minerU 云端 API 单文件 ≤ 200 页。本仓库的 01 脚本会自动把超长 PDF（如 Sentaurus sdevice_ug 的 1530 页）拆成 ≤ 200 页一片上传，再把多份 markdown 合并回单个文件，`page_idx` 重新校准到原 PDF 页码。下游 02 脚本完全感知不到拆分发生过。可用 `--max-pages-per-file 0` 关闭拆分。
 
 > **`corpus/` 不入 git**：手册可能受版权限制，且生成的 markdown 体积大且可重生成；仓库只追踪 `context_layer/` 这一层 curated 产物。
+
+---
+
+### 角色 C：在你自己的项目里复用 `context_layer/`
+
+你在做一个工程项目（比如 Sentaurus TCAD 仿真），希望 Claude Code 在那个项目里也能查手册——而不想把入库流程或 minerU 装到那个项目里。
+
+最常见的两种模式：
+
+1. **git submodule** 把本仓库挂到你项目的 `vendor/usermanual_context/`，随上游同步更新。
+2. **直接复制** `context_layer/<software>/` 子集进你项目（适合网络受限或只用某一个软件）。
+
+完整说明、CLAUDE.md 配置示例、最小工作示例见 [docs/use_in_other_projects.md](docs/use_in_other_projects.md)。
 
 ---
 

@@ -2,173 +2,77 @@
 
 Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
 
-- **Enigma User Guide** _(p.1)_ <a id="enigma-user-guide"></a>
-- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
-  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursua…
-- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
-  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to natio…
-- **Disclaimer** <a id="disclaimer"></a>
-  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITE…
-- **Trademarks** <a id="trademarks"></a>
-  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-b…
-- **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
-  - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
-- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
-  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible…
-- **Contents** _(p.3)_ <a id="contents"></a>
 - **1 Introduction 6** _(p.3)_ <a id="1-introduction-6"></a>
-  - 1.1 API Reference 6
 - **2 Concepts 8** _(p.4)_ <a id="2-concepts-8"></a>
-  - 2.4.1 Starting the database 12 2.4.2 Stopping and deleting the database . 14 2.4.3 Project and Dataset creation 14 2.4.4 Copying/moving a p…
-- **2.7 Sentaurus Workbench Integration 22** _(p.4)_ <a id="2-7-sentaurus-workbench-integration-22"></a>
+  - **2.7 Sentaurus Workbench Integration 22** _(p.4)_ <a id="2-7-sentaurus-workbench-integration-22"></a>
 - **3 Tutorials 27** <a id="3-tutorials-27"></a>
-- **3.1 Running a Stand-Alone Script 27** <a id="3-1-running-a-stand-alone-script-27"></a>
-- **3.2 Using Templates 27** <a id="3-2-using-templates-27"></a>
-- **3.3 Common Data Containers . 40** <a id="3-3-common-data-containers-40"></a>
-  - 3.3.1 Creating and Manipulating Data 40 3.3.2 Uploading Data 41 3.3.3 Using Data for Optimisation 42
+  - **3.1 Running a Stand-Alone Script 27** <a id="3-1-running-a-stand-alone-script-27"></a>
+  - **3.2 Using Templates 27** <a id="3-2-using-templates-27"></a>
+  - **3.3 Common Data Containers . 40** <a id="3-3-common-data-containers-40"></a>
 - **4 Example Workflows 44** <a id="4-example-workflows-44"></a>
-- **4.1 Example Device 44** <a id="4-1-example-device-44"></a>
-- **4.2 Calibration 44** <a id="4-2-calibration-44"></a>
-  - 4.2.1 Poisson Schrödinger 46 4.2.2 Density Gradient 47 4.2.3 Oxide Capacitance Calibration 53 4.2.4 Mobility Model Calibration 55 4.2.5 Gar…
-- **4.3 TCAD to SPICE Flow 62** _(p.5)_ <a id="4-3-tcad-to-spice-flow-62"></a>
+  - **4.1 Example Device 44** <a id="4-1-example-device-44"></a>
+  - **4.2 Calibration 44** <a id="4-2-calibration-44"></a>
+  - **4.3 TCAD to SPICE Flow 62** _(p.5)_ <a id="4-3-tcad-to-spice-flow-62"></a>
 - **5 Enigma Command Reference 79** _(p.5)_ <a id="5-enigma-command-reference-79"></a>
-  - 5.1 Run Command 80 5.2 Run\_template Command 80 5.3 Startdb Command 81 5.4 Stopdb Command 81 5.5 Rmdb Command 81 5.6 Template Command 81
-- **Index 83** _(p.6)_ <a id="index-83"></a>
 - **1 Introduction** _(p.6)_ <a id="1-introduction"></a>
-  - Enigma is the Synopsys workflow, automation and productivity framework, which delivers a powerful and flexible environment for rapid TCAD t…
-- **1.1 API Reference** _(p.8)_ <a id="1-1-api-reference"></a>
-  - Since Enigma provides a toolkit for job automation and productivity, an API Reference is also included in the form of HTML documentation wi…
+  - **1.1 API Reference** _(p.8)_ <a id="1-1-api-reference"></a>
 - **2 Concepts** _(p.8)_ <a id="2-concepts"></a>
-- **2.1 Enigma directory** _(p.8–9)_ <a id="2-1-enigma-directory"></a>
-  - As Enigma normally runs within Sentaurus Workbench , it maintains a separate data directory within the Sentaurus Workbench project containi…
-- **2.2 Templates** _(p.9–10)_ <a id="2-2-templates"></a>
-  - Note: While the Enigma preprocessor is now deprecated in favour of the Sentaurus Workbench preprocessor, Enigma templates are still constru…
-- **2.3 Options Files** _(p.10–12)_ <a id="2-3-options-files"></a>
-  - Note: Options files apply only if you use the Enigma preprocessor. Variable substitutions should be defined in Sentaurus Workbench when usi…
-- **2.4 Database** _(p.12)_ <a id="2-4-database"></a>
-  - Enigma employs MongoDB for storing data and transferring data between flow stages. No specific knowledge of MongoDB is required or assumed,…
-- **2.4.1 Starting the database** _(p.12)_ <a id="2-4-1-starting-the-database"></a>
-  - Enigma automatically manages the database server startup, and no user intervention should be necessary. In the event of problems starting t…
-- **2.4.2 Stopping and deleting the database** _(p.14)_ <a id="2-4-2-stopping-and-deleting-the-database"></a>
-  - Normally, the database server starts when Enigma first executes a script, and then it continues to run for use by downstream stages of the…
-- **2.4.3 Project and Dataset creation** _(p.14)_ <a id="2-4-3-project-and-dataset-creation"></a>
-  - When Enigma is run through Sentaurus Workbench, it will automatically create a project for the current node number. The Sentaurus Workbench…
-- **2.4.4 Copying/moving a project** _(p.15)_ <a id="2-4-4-copying-moving-a-project"></a>
-  - When a Sentaurus Workbench project is moved or copied, the Enigma database will be moved or copied with it. The next time Enigma is execute…
-- **2.4.5 Checking the server address** _(p.15)_ <a id="2-4-5-checking-the-server-address"></a>
-  - If it is necessary to check where the MongoDB server is running, you can look in the file \$DECK/enigma/mongodb.conf, which lists the serve…
-- **2.5 Optimiser** _(p.15)_ <a id="2-5-optimiser"></a>
-  - Enigma uses the Optimiser library for generic multi-parameter optimisation to extract optimal calibration parameters (Section 2.6.1). The O…
-- **Examples** _(p.16)_ <a id="examples"></a>
-  - The following examples illustrate how to change the solver and stopping criteria. To set the optimiser to the scipy implementation of TR, t…
-- **2.5.1 Optimisation Parameters** <a id="2-5-1-optimisation-parameters"></a>
-  - Parameters used in the optimisation process must first be set up with appropriate default values and boundaries. To set up optimisation par…
-- **Parameters:** <a id="parameters"></a>
-  - ```txt name Name of the model parameter, e.g. alpha. default Default value to use for the parameter. minval Minimum value to allow for the…
-- **Examples** _(p.17)_ <a id="examples"></a>
-  - The following example illustrates the creation of a parameter object to represent the Yamaguchi mobility model parameter alpha for the cond…
-- **2.6 The DTCO Flow** _(p.17)_ <a id="2-6-the-dtco-flow"></a>
-  - Enigma provides a platform to run a DTCO simulation flow. This section explains the general structure of a DTCO flow and how Enigma drives…
-- **2.6.1 Calibration** _(p.20)_ <a id="2-6-1-calibration"></a>
-  - The first step in most Enigma workflows is a calibration step. This allows a baseline to be established with respect to: measurement, targe…
-- **2.6.2 Garand Simulations** _(p.20)_ <a id="2-6-2-garand-simulations"></a>
-  - Garand simulation is mainly utilised for predictive variability modelling using the ‘atomistic’ variability approach described in detail in…
-- **2.6.2.1 Uniform** _(p.21)_ <a id="2-6-2-1-uniform"></a>
-  - Although Garand uniform data is not used directly for SPICE compact model extraction in the DTCO flow (by default Sentaurus Device data is…
-- **2.6.2.2 Statistical** _(p.21)_ <a id="2-6-2-2-statistical"></a>
-  - Statistical $I _ { D } V _ { G }$ data is generated by Garand for the purpose of device variability analysis and statistical SPICE compact…
-- **2.6.3 SPICE Compact Model Extraction** <a id="2-6-3-spice-compact-model-extraction"></a>
-  - Compact model extraction is performed by the tool Mystic. Enigma is utilised to populate the Mystic extraction strategy with device specifi…
-- **2.6.3.1 Uniform** <a id="2-6-3-1-uniform"></a>
-  - Uniform SPICE model extraction is usually split into multiple stages with individual Mystic strategy files to build up uniform compact mode…
-- **2.6.3.2 Statistical** <a id="2-6-3-2-statistical"></a>
-  - For statistical SPICE model extraction, a subset of the SPICE model parameters is chosen and reextracted. The result of the statistical ext…
-- **2.6.4 RandomSpice Library Building** _(p.22)_ <a id="2-6-4-randomspice-library-building"></a>
-  - Multiple splits can be combined together in a single RandomSpice model library. This library can be used to build response surface models (…
-- **2.6.5 Circuit Simulations** _(p.22)_ <a id="2-6-5-circuit-simulations"></a>
-  - SPICE circuit simulations are performed with RandomSpice and HSPICE. Enigma’s scripting capabilities can be utilised to programmatically pr…
-- **2.7 Sentaurus Workbench Integration** _(p.22)_ <a id="2-7-sentaurus-workbench-integration"></a>
-  - TCAD to SPICE provides improved integration with Sentaurus Workbench. For example, the Bridge tool provides access to the parent project di…
-- **2.7.1 Bridge Tool** _(p.23)_ <a id="2-7-1-bridge-tool"></a>
-  - The Bridge tool provides options to open the corresponding parent project in either the current Sentaurus Workbench instance or in a new in…
-- **2.7.2 Database Nodes** _(p.23)_ <a id="2-7-2-database-nodes"></a>
-  - Sentaurus Workbench nodes are directly represented in the TCAD to SPICE database, so that all data generated by a single node can be groupe…
-- **2.7.3 Database Start/Stop** <a id="2-7-3-database-start-stop"></a>
-  - Sentaurus Workbench automatically manages starting up and closing the Enigma database. When launching jobs in a TCAD to SPICE project, Sent…
-- **2.7.4 Clean Database** _(p.25)_ <a id="2-7-4-clean-database"></a>
-  - During typical project cleanup in Sentaurus Workbench, the Enigma database is also cleaned up as appropriate. For example, when cleaning up…
-- **2.7.5 Dump Node Data** _(p.25–27)_ <a id="2-7-5-dump-node-data"></a>
-  - Node data can be saved to a CSV file by right-clicking a node and choosing Dump Project Database (see Figure 2.10) or by clicking Create No…
+  - **2.1 Enigma directory** _(p.8–9)_ <a id="2-1-enigma-directory"></a>
+  - **2.2 Templates** _(p.9–10)_ <a id="2-2-templates"></a>
+  - **2.3 Options Files** _(p.10–12)_ <a id="2-3-options-files"></a>
+  - **2.4 Database** _(p.12)_ <a id="2-4-database"></a>
+    - **2.4.1 Starting the database** _(p.12)_ <a id="2-4-1-starting-the-database"></a>
+    - **2.4.2 Stopping and deleting the database** _(p.14)_ <a id="2-4-2-stopping-and-deleting-the-database"></a>
+    - **2.4.3 Project and Dataset creation** _(p.14)_ <a id="2-4-3-project-and-dataset-creation"></a>
+    - **2.4.4 Copying/moving a project** _(p.15)_ <a id="2-4-4-copying-moving-a-project"></a>
+    - **2.4.5 Checking the server address** _(p.15)_ <a id="2-4-5-checking-the-server-address"></a>
+  - **2.5 Optimiser** _(p.15)_ <a id="2-5-optimiser"></a>
+    - **2.5.1 Optimisation Parameters** <a id="2-5-1-optimisation-parameters"></a>
+  - **2.6 The DTCO Flow** _(p.17)_ <a id="2-6-the-dtco-flow"></a>
+    - **2.6.1 Calibration** _(p.20)_ <a id="2-6-1-calibration"></a>
+    - **2.6.2 Garand Simulations** _(p.20)_ <a id="2-6-2-garand-simulations"></a>
+    - **2.6.3 SPICE Compact Model Extraction** <a id="2-6-3-spice-compact-model-extraction"></a>
+    - **2.6.4 RandomSpice Library Building** _(p.22)_ <a id="2-6-4-randomspice-library-building"></a>
+    - **2.6.5 Circuit Simulations** _(p.22)_ <a id="2-6-5-circuit-simulations"></a>
+  - **2.7 Sentaurus Workbench Integration** _(p.22)_ <a id="2-7-sentaurus-workbench-integration"></a>
+    - **2.7.1 Bridge Tool** _(p.23)_ <a id="2-7-1-bridge-tool"></a>
+    - **2.7.2 Database Nodes** _(p.23)_ <a id="2-7-2-database-nodes"></a>
+    - **2.7.3 Database Start/Stop** <a id="2-7-3-database-start-stop"></a>
+    - **2.7.4 Clean Database** _(p.25)_ <a id="2-7-4-clean-database"></a>
+    - **2.7.5 Dump Node Data** _(p.25–27)_ <a id="2-7-5-dump-node-data"></a>
 - **3 Tutorials** _(p.27)_ <a id="3-tutorials"></a>
-- **3.1 Running a Stand-Alone Script** _(p.27)_ <a id="3-1-running-a-stand-alone-script"></a>
-  - While one of the keys to the flexibility of Enigma is its templating system, there is no requirement to use this. Instead, a stand-alone En…
-- **3.2 Using Templates** <a id="3-2-using-templates"></a>
-  - Note: Enigma templates have been deprecated in favour of the Sentaurus Workbench preprocessor, however the Enigma preprocessor remains avai…
-- **3.2.1 Mako Quickstart** _(p.28–29)_ <a id="3-2-1-mako-quickstart"></a>
-  - An Enigma template is no different than a stand-alone script described above, except that some of the variables have been replaced with pla…
-- **3.2.2 Copying a Template** _(p.29–30)_ <a id="3-2-2-copying-a-template"></a>
-  - Copying a template will prepare it for use by combining it with the Enigma options file(s). This can be achieved by running enigma template…
-- **3.2.3 Options Files** _(p.32–35)_ <a id="3-2-3-options-files"></a>
-  - As described above, Enigma searches in several locations for options files that are used to populate templates with parameters specific to…
-- **3.2.4 Template Structure** _(p.35–40)_ <a id="3-2-4-template-structure"></a>
-  - To illustrate the general structure of a template, we take an example used for uniform device simulation using Garand. The template can be…
-- **3.3 Common Data Containers** _(p.40)_ <a id="3-3-common-data-containers"></a>
-  - Enigma provides a flexible data class to represent simulation data in the extraction environment. They allow you to read in data from measu…
-- **3.3.1 Creating and Manipulating Data** _(p.41)_ <a id="3-3-1-creating-and-manipulating-data"></a>
-  - There are three main ways to create Data objects in the Enigma environment. From plt files (from\_plt), from csv files (from\_csv) and from…
-- **3.3.2 Uploading Data** _(p.42)_ <a id="3-3-2-uploading-data"></a>
-  - Uploading data to the Enigma database allows you to use the data at downstream stages of the tool flow without having to reattach the metad…
-- **3.3.3 Using Data for Optimisation** _(p.42–44)_ <a id="3-3-3-using-data-for-optimisation"></a>
-  - In the TCAD to SPICE tool flow the data containers are used to store target data for optimisation. When used for this purpose they provide…
+  - **3.1 Running a Stand-Alone Script** _(p.27)_ <a id="3-1-running-a-stand-alone-script"></a>
+  - **3.2 Using Templates** <a id="3-2-using-templates"></a>
+    - **3.2.1 Mako Quickstart** _(p.28–29)_ <a id="3-2-1-mako-quickstart"></a>
+    - **3.2.2 Copying a Template** _(p.29–30)_ <a id="3-2-2-copying-a-template"></a>
+    - **3.2.3 Options Files** _(p.32–35)_ <a id="3-2-3-options-files"></a>
+    - **3.2.4 Template Structure** _(p.35–40)_ <a id="3-2-4-template-structure"></a>
+  - **3.3 Common Data Containers** _(p.40)_ <a id="3-3-common-data-containers"></a>
+    - **3.3.1 Creating and Manipulating Data** _(p.41)_ <a id="3-3-1-creating-and-manipulating-data"></a>
+    - **3.3.2 Uploading Data** _(p.42)_ <a id="3-3-2-uploading-data"></a>
+    - **3.3.3 Using Data for Optimisation** _(p.42–44)_ <a id="3-3-3-using-data-for-optimisation"></a>
 - **4 Example Workflows** _(p.43–44)_ <a id="4-example-workflows"></a>
-  - This chapter presents examples that demonstrate the workflow for the calibration of physical models in Garand using Enigmaas well as the co…
-- **4.1 Example Device** <a id="4-1-example-device"></a>
-  - The sample device and Sentaurus Process/Sentaurus Device steps are outlined in detail in the application note “Three-Dimensional Simulation…
-- **4.2 Calibration** _(p.46)_ <a id="4-2-calibration"></a>
-  - This section will outline the calibration of physical models in Garand using Enigma.
-- **4.2.1 Poisson Schrödinger** _(p.46–47)_ <a id="4-2-1-poisson-schr-dinger"></a>
-  - The first two stages of the flow are used to calibrate the density gradient quantum corrections to a more fundamental quantum confinement m…
-- **4.2.2 Density Gradient** _(p.47–53)_ <a id="4-2-2-density-gradient"></a>
-  - With target data generated, the next step is to calibrate the quantum correction model in the Garand TCAD simulator.
-- **4.2.3 Oxide Capacitance Calibration** _(p.53–55)_ <a id="4-2-3-oxide-capacitance-calibration"></a>
-  - The inversion sheet-charge density $( N _ { i n v } )$ calibration stage is utilised to calibrate the electrical properties of the gate sta…
-- **4.2.4 Mobility Model Calibration** _(p.55–58)_ <a id="4-2-4-mobility-model-calibration"></a>
-  - Calibration of the mobility models of a DD simulator is a critical step in any modern advanced technology TCAD flow. A list of available mo…
-- **4.2.5 Garand Simulations** _(p.58–62)_ <a id="4-2-5-garand-simulations"></a>
-  - This section demonstrates how to run the Garand simulations for this demonstration device. The uniform and statistical simulation stages sh…
-- **4.3 TCAD to SPICE Flow** _(p.62–65)_ <a id="4-3-tcad-to-spice-flow"></a>
-  - In this example, we demonstrate the full TCAD to SPICE flow. The local variability simulation is provided by the local variability analysis…
-- **4.3.1 Flow Step Results** _(p.65)_ <a id="4-3-1-flow-step-results"></a>
-  - The following sections will analyze the results of each stage of the flow and explain how the results from previous stages are propagated d…
-- **4.3.2 Sentaurus Device** _(p.65–67)_ <a id="4-3-2-sentaurus-device"></a>
-  - Sentaurus Device is used to simulate the drain current as a function of gate voltage at low and high drain biases $( I _ { D } V _ { G } )$…
-- **4.3.3 Calibration** _(p.66–70)_ <a id="4-3-3-calibration"></a>
-  - Once the Sentaurus Device stages have been run, the variability simulator Garand must be calibrated to match the results, ensuring that the…
-- **4.3.4 Garand** _(p.72)_ <a id="4-3-4-garand"></a>
-  - Once the Garand simulator has been calibrated, uniform and variability device simulations can be run at each of the DoE points to generate…
-- **4.3.5 SPICE Compact Model Extraction** _(p.72–77)_ <a id="4-3-5-spice-compact-model-extraction"></a>
-  - The compact model extraction can be done one of two ways depending on how the flow has been set up. Compact models can be extracted directl…
-- **4.3.6 Circuit Simulation** _(p.76–79)_ <a id="4-3-6-circuit-simulation"></a>
-  - This project uses two different circuits to demonstrate how physically accurate variability-aware TCAD simulations can be used to assess ci…
+  - **4.1 Example Device** <a id="4-1-example-device"></a>
+  - **4.2 Calibration** _(p.46)_ <a id="4-2-calibration"></a>
+    - **4.2.1 Poisson Schrödinger** _(p.46–47)_ <a id="4-2-1-poisson-schr-dinger"></a>
+    - **4.2.2 Density Gradient** _(p.47–53)_ <a id="4-2-2-density-gradient"></a>
+    - **4.2.3 Oxide Capacitance Calibration** _(p.53–55)_ <a id="4-2-3-oxide-capacitance-calibration"></a>
+    - **4.2.4 Mobility Model Calibration** _(p.55–58)_ <a id="4-2-4-mobility-model-calibration"></a>
+    - **4.2.5 Garand Simulations** _(p.58–62)_ <a id="4-2-5-garand-simulations"></a>
+  - **4.3 TCAD to SPICE Flow** _(p.62–65)_ <a id="4-3-tcad-to-spice-flow"></a>
+    - **4.3.1 Flow Step Results** _(p.65)_ <a id="4-3-1-flow-step-results"></a>
+    - **4.3.2 Sentaurus Device** _(p.65–67)_ <a id="4-3-2-sentaurus-device"></a>
+    - **4.3.3 Calibration** _(p.66–70)_ <a id="4-3-3-calibration"></a>
+    - **4.3.4 Garand** _(p.72)_ <a id="4-3-4-garand"></a>
+    - **4.3.5 SPICE Compact Model Extraction** _(p.72–77)_ <a id="4-3-5-spice-compact-model-extraction"></a>
+    - **4.3.6 Circuit Simulation** _(p.76–79)_ <a id="4-3-6-circuit-simulation"></a>
 - **5 Enigma Command Reference** _(p.79–80)_ <a id="5-enigma-command-reference"></a>
-  - This chapter describes the commands used by Enigma.
-- **5.1 Run Command** _(p.80)_ <a id="5-1-run-command"></a>
-  - This command is used to run a script. It takes a single mandatory argument, the path to the script to run. It takes several optional flags…
-- **5.2 Run\_template Command** _(p.81)_ <a id="5-2-run-template-command"></a>
-  - This command combines the template copy and run commands into a single command. It takes all arguments that can be passed to template copy…
-- **5.3 Startdb Command** _(p.81)_ <a id="5-3-startdb-command"></a>
-  - This command starts an Enigma MongoDB server and makes it available for use by further calls to Enigma and the other TCAD to SPICE tools.
-- **5.4 Stopdb Command** _(p.81)_ <a id="5-4-stopdb-command"></a>
-  - This command stops a running MongoDB server in the current project. Note that this command must be run from the same machine that the Mongo…
-- **5.5 Rmdb Command** <a id="5-5-rmdb-command"></a>
-  - This command stops a running MongoDB server in the current project and delete the database folder. Note that this command must be run from…
-- **5.6 Template Command** _(p.82)_ <a id="5-6-template-command"></a>
-  - This command provides sub-commands for managing Enigma templates.
-- **5.6.1 template copy** _(p.82)_ <a id="5-6-1-template-copy"></a>
-  - This sub-command copies the named template if found anywhere in the template search path, and populates it with options file variables as a…
-- **5.6.2 template ls** <a id="5-6-2-template-ls"></a>
-  - This sub-command will lists the available module templates that were found in the template search path. It supports a single optional flag,…
-- **5.7 Ver Command** _(p.83)_ <a id="5-7-ver-command"></a>
-  - This command shows information about the current Enigma version and its components.
-- **Index** _(p.83–84)_ <a id="index"></a>
-  - API Reference, 6
+  - **5.1 Run Command** _(p.80)_ <a id="5-1-run-command"></a>
+  - **5.2 Run\_template Command** _(p.81)_ <a id="5-2-run-template-command"></a>
+  - **5.3 Startdb Command** _(p.81)_ <a id="5-3-startdb-command"></a>
+  - **5.4 Stopdb Command** _(p.81)_ <a id="5-4-stopdb-command"></a>
+  - **5.5 Rmdb Command** <a id="5-5-rmdb-command"></a>
+  - **5.6 Template Command** _(p.82)_ <a id="5-6-template-command"></a>
+    - **5.6.1 template copy** _(p.82)_ <a id="5-6-1-template-copy"></a>
+    - **5.6.2 template ls** <a id="5-6-2-template-ls"></a>
+  - **5.7 Ver Command** _(p.83)_ <a id="5-7-ver-command"></a>

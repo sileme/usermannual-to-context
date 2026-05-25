@@ -2,162 +2,59 @@
 
 Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
 
-- **RandomSpice User Guide** _(p.1)_ <a id="randomspice-user-guide"></a>
-- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
-  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursua…
-- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
-  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to natio…
-- **Disclaimer** <a id="disclaimer"></a>
-  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITE…
-- **Trademarks** <a id="trademarks"></a>
-  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-b…
-- **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
-  - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
-- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
-  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible…
-- **Contents** _(p.3)_ <a id="contents"></a>
 - **1 Overview 5** _(p.3)_ <a id="1-overview-5"></a>
 - **2 Simulation Guide 6** _(p.3)_ <a id="2-simulation-guide-6"></a>
-  - 2.1 Quick Start Example 6 2.2 Command Line Options . 11 2.3 Simulation Modes 14 2.4 Ageing Models 14
 - **3 Input Files 22** _(p.4)_ <a id="3-input-files-22"></a>
-  - 3.1 Input File Sections 22 3.2 Input File Options . 23
 - **4 Database Backend 34** <a id="4-database-backend-34"></a>
-  - 4.1 Enabling the Database Backend 34 4.2 Usage 34
 - **5 Examples 37** <a id="5-examples-37"></a>
-  - 5.1 Simple Post-Processor Example 37 5.2 Database Post-Processor Example 38
 - **6 Compact Modelling Strategies 43** <a id="6-compact-modelling-strategies-43"></a>
-  - 6.1 Subcircuit device model support 43 6.2 Response Surface Model 44 6.3 Statistical Compact Model 46 6.4 Gaussian Parameter Generation 46…
-- **Enigma-Based Library Generation 49** <a id="enigma-based-library-generation-49"></a>
-  - 7.1 Library Builder Example 49
 - **8 Reference 52** <a id="8-reference-52"></a>
-- **Index 55** _(p.5)_ <a id="index-55"></a>
-  - RandomSpice User Guide 4
 - **1 Overview** _(p.5–6)_ <a id="1-overview"></a>
-  - RandomSpice is a Monte Carlo circuit simulation engine part of the Synopsys “TCAD to SPICE” flow, which enables large-scale simulation of s…
 - **2 Simulation Guide** _(p.6)_ <a id="2-simulation-guide"></a>
-  - This section outlines the basic simulation procedure when using RandomSpice. RandomSpice is a command line driven program, invoked using th…
-- **2.1 Quick Start Example** _(p.8–11)_ <a id="2-1-quick-start-example"></a>
-  - This example will show you how to get started with RandomSpice, using a simple CMOS inverter circuit. The input files needed for this examp…
-- **2.2 Command Line Options** _(p.10–14)_ <a id="2-2-command-line-options"></a>
-  - The following command line arguments are available for RandomSpice. Note that command line arguments will always override the options given…
-- **2.3 Simulation Modes** _(p.14)_ <a id="2-3-simulation-modes"></a>
-  - RandomSpice can operate in three different simulation modes which have been tailored to account for differences between the computational e…
-- **2.4 Ageing Models** _(p.15)_ <a id="2-4-ageing-models"></a>
-  - RandomSpice includes ageing models that account for the long term effects of bias temperature instability (BTI) and hot carrier injection (…
-- **2.4.1 Legacy Library Generation** _(p.15–16)_ <a id="2-4-1-legacy-library-generation"></a>
-  - Generic library generation is currently propagated to Enigma. The following section covers the historic support of the LibraryMaker availab…
-- **2.4.2 Stress Time Model** _(p.17–19)_ <a id="2-4-2-stress-time-model"></a>
-  - As indicated above, RandomSpice includes a model that allows stress time and workload to be translated into a corresponding trapped charge…
-- **2.4.3 Ageing Parameters** _(p.19)_ <a id="2-4-3-ageing-parameters"></a>
-  - The model described in Section 2.4.2 can be controlled via two additional MOSFET instance parameters, AGE and WORKLOAD. Boundaries and defa…
-- **2.4.4 Example** _(p.20)_ <a id="2-4-4-example"></a>
-  - The netlist below illustrates a simple example of two inverters subject to the same overall stress time, but different workload factors.
-- **2.5 Interconnect Variability** _(p.20–22)_ <a id="2-5-interconnect-variability"></a>
-  - RandomSpice can include variations in interconnect components (resistors, capacitors and inductors). This works very similarly to introduci…
+  - **2.1 Quick Start Example** _(p.8–11)_ <a id="2-1-quick-start-example"></a>
+  - **2.2 Command Line Options** _(p.10–14)_ <a id="2-2-command-line-options"></a>
+  - **2.3 Simulation Modes** _(p.14)_ <a id="2-3-simulation-modes"></a>
+  - **2.4 Ageing Models** _(p.15)_ <a id="2-4-ageing-models"></a>
+    - **2.4.1 Legacy Library Generation** _(p.15–16)_ <a id="2-4-1-legacy-library-generation"></a>
+    - **2.4.2 Stress Time Model** _(p.17–19)_ <a id="2-4-2-stress-time-model"></a>
+    - **2.4.3 Ageing Parameters** _(p.19)_ <a id="2-4-3-ageing-parameters"></a>
+    - **2.4.4 Example** _(p.20)_ <a id="2-4-4-example"></a>
+  - **2.5 Interconnect Variability** _(p.20–22)_ <a id="2-5-interconnect-variability"></a>
 - **3 Input Files** _(p.21–22)_ <a id="3-input-files"></a>
-  - RandomSpice requires two files to operate. The first is the SPICE netlist that will be used as a template for randomisation and the second…
-- **3.1 Input File Sections** _(p.22–23)_ <a id="3-1-input-file-sections"></a>
-  - The input file is structured into a number of optional sections, each prefaced by a heading, as follows:
-- **3.2 Input File Options** _(p.23)_ <a id="3-2-input-file-options"></a>
-  - There are several options available under each input file heading. Note that options and headings are case-insensitive. The available optio…
-- **3.2.1 Circuit Section Options** _(p.23–24)_ <a id="3-2-1-circuit-section-options"></a>
-  - The options available under the Circuit heading are:
-- **3.2.2 Simulation Section Options** _(p.24–25)_ <a id="3-2-2-simulation-section-options"></a>
-  - <table><tr><td>Option</td><td>Description</td><td>Default Value</td><td>Notes</td></tr><tr><td>Spice</td><td>The SPICE backend to use for s…
-- **3.2.3 Output Section Options** _(p.25)_ <a id="3-2-3-output-section-options"></a>
-  - <table><tr><td>Option</td><td>Description</td><td>Default Value</td><td>Notes</td></tr><tr><td>Dir</td><td>The output directory to save res…
-- **3.2.4 Models Section Options** _(p.26)_ <a id="3-2-4-models-section-options"></a>
-  - <table><tr><td>Option</td><td>Description</td><td>Default Value</td></tr><tr><td>Library</td><td>File name of the compact model library to…
-- **3.2.5 Variability Section Options** _(p.26)_ <a id="3-2-5-variability-section-options"></a>
-  - <table><tr><td>Option</td><td>Description</td><td>Default Value</td><td>Notes</td></tr><tr><td>Process</td><td>Enable/disable process varia…
-- **3.2.6 Advanced Section Options** <a id="3-2-6-advanced-section-options"></a>
-  - It will usually not be necessary to change these options for most simulations carried out with Random-Spice, however they are provided for…
-- **3.2.7 Database Section Options** _(p.27)_ <a id="3-2-7-database-section-options"></a>
-  - The database backend is used in conjunction with the post-processor module, and an example of usage can be found in Chapter 4. The followin…
-- **3.2.8 Auto-generating Input Files** _(p.27–29)_ <a id="3-2-8-auto-generating-input-files"></a>
-  - When setting up a new simulation, RandomSpice provides a convenience option to generate a template input file that can be filled out by the…
-- **3.3 Preparing a Netlist** _(p.29–30)_ <a id="3-3-preparing-a-netlist"></a>
-  - RandomSpice uses keywords to identify the transistors in a circuit that should be randomised. The keywords are used in place of the model i…
-- **3.3.1 Subcircuit Randomisation** _(p.31)_ <a id="3-3-1-subcircuit-randomisation"></a>
-  - In addition, randomisation can be applied at the subcircuit level by appending the keyword :RAND to the subcircuit name. In this case, a ne…
-- **3.4 Plug-in Post-Processing Modules** _(p.31–33)_ <a id="3-4-plug-in-post-processing-modules"></a>
-  - RandomSpice provides the capability to post-process the results of each SPICE simulation as part of its own simulation flow. The default si…
-- **3.4.1 Python Library Modules** _(p.33–34)_ <a id="3-4-1-python-library-modules"></a>
-  - Some of the Python library modules are available for use in custom post-processing modules, as well as some addition ones. The modules that…
+  - **3.1 Input File Sections** _(p.22–23)_ <a id="3-1-input-file-sections"></a>
+  - **3.2 Input File Options** _(p.23)_ <a id="3-2-input-file-options"></a>
+    - **3.2.1 Circuit Section Options** _(p.23–24)_ <a id="3-2-1-circuit-section-options"></a>
+    - **3.2.2 Simulation Section Options** _(p.24–25)_ <a id="3-2-2-simulation-section-options"></a>
+    - **3.2.3 Output Section Options** _(p.25)_ <a id="3-2-3-output-section-options"></a>
+    - **3.2.4 Models Section Options** _(p.26)_ <a id="3-2-4-models-section-options"></a>
+    - **3.2.5 Variability Section Options** _(p.26)_ <a id="3-2-5-variability-section-options"></a>
+    - **3.2.6 Advanced Section Options** <a id="3-2-6-advanced-section-options"></a>
+    - **3.2.7 Database Section Options** _(p.27)_ <a id="3-2-7-database-section-options"></a>
+    - **3.2.8 Auto-generating Input Files** _(p.27–29)_ <a id="3-2-8-auto-generating-input-files"></a>
+  - **3.3 Preparing a Netlist** _(p.29–30)_ <a id="3-3-preparing-a-netlist"></a>
+    - **3.3.1 Subcircuit Randomisation** _(p.31)_ <a id="3-3-1-subcircuit-randomisation"></a>
+  - **3.4 Plug-in Post-Processing Modules** _(p.31–33)_ <a id="3-4-plug-in-post-processing-modules"></a>
+    - **3.4.1 Python Library Modules** _(p.33–34)_ <a id="3-4-1-python-library-modules"></a>
 - **4 Database Backend** _(p.34)_ <a id="4-database-backend"></a>
-- **4.1 Enabling the Database Backend** _(p.34)_ <a id="4-1-enabling-the-database-backend"></a>
-  - The database backend can be enabled in the RandomSpice input file. A proxy object is then made available to the user in the post-processing…
-- **4.2 Usage** <a id="4-2-usage"></a>
-  - The results proxy is provided as part of the extra dictionary that is passed to the post-processor. It can be accessed as follows:
-- **4.2.1 Adding Data** _(p.35)_ <a id="4-2-1-adding-data"></a>
-  - To add new data to the database, use the add method of the results object. This method has the following signature:
-- **Parameters:** _(p.35)_ <a id="parameters"></a>
-  - name Name to use for this group of data.
-- **4.2.2 Saving Data** _(p.36)_ <a id="4-2-2-saving-data"></a>
-  - Once data has been added, it needs to be saved in order to be committed to the backend database. This can be done by explicitly calling the…
-- **4.2.3 Accessing Data** _(p.36)_ <a id="4-2-3-accessing-data"></a>
-  - If multiple simulations are being carried out as part of the same dataset, then data already in the database from previous simulations can…
-- **results[name]** _(p.36–37)_ <a id="results-name"></a>
-  - Parameters:
+  - **4.1 Enabling the Database Backend** _(p.34)_ <a id="4-1-enabling-the-database-backend"></a>
+  - **4.2 Usage** <a id="4-2-usage"></a>
+    - **4.2.1 Adding Data** _(p.35)_ <a id="4-2-1-adding-data"></a>
+    - **4.2.2 Saving Data** _(p.36)_ <a id="4-2-2-saving-data"></a>
+    - **4.2.3 Accessing Data** _(p.36)_ <a id="4-2-3-accessing-data"></a>
 - **5 Examples** _(p.37)_ <a id="5-examples"></a>
-  - This chapter contains several usage examples for RandomSpice. These examples illustrate some of the different ways in which RandomSpice can…
-- **5.1 Simple Post-Processor Example** _(p.37–38)_ <a id="5-1-simple-post-processor-example"></a>
-  - The files for this example can be found in <INSTALL\_PATH>/RandomSpice2/Examples/PostProcessor. The SPICE netlist is the same CMOS inverter…
-- **5.2 Database Post-Processor Example** _(p.40)_ <a id="5-2-database-post-processor-example"></a>
-  - In this section, we show an example of using the database for a two-stage SRAM simulation. In this case, we calculate the static noise marg…
-- **5.2.1 Input File** _(p.40)_ <a id="5-2-1-input-file"></a>
-  - The input file for RandomSpice must be set up with the appropriate information to store results in the database. An example database sectio…
-- **5.2.2 Running the Simulations** <a id="5-2-2-running-the-simulations"></a>
-  - The simulations can be run in exactly the same way as the previous examples, but do note that SNM\_Right.rs2 must be run before SNM\_Left.r…
-- **5.2.3 Post-processor Scripts** _(p.41–42)_ <a id="5-2-3-post-processor-scripts"></a>
-  - Having run the simulations, we will look in a bit more detail at the post-processor scripts in order to see what happened behind the scenes…
-- **5.3 Parallel Processing on a Workstation** _(p.42–43)_ <a id="5-3-parallel-processing-on-a-workstation"></a>
-  - Although RandomSpice does not currently support native parallel processing, multiple instances can be run on the same host, allowing users…
+  - **5.1 Simple Post-Processor Example** _(p.37–38)_ <a id="5-1-simple-post-processor-example"></a>
+  - **5.2 Database Post-Processor Example** _(p.40)_ <a id="5-2-database-post-processor-example"></a>
+    - **5.2.1 Input File** _(p.40)_ <a id="5-2-1-input-file"></a>
+    - **5.2.2 Running the Simulations** <a id="5-2-2-running-the-simulations"></a>
+    - **5.2.3 Post-processor Scripts** _(p.41–42)_ <a id="5-2-3-post-processor-scripts"></a>
+  - **5.3 Parallel Processing on a Workstation** _(p.42–43)_ <a id="5-3-parallel-processing-on-a-workstation"></a>
 - **6 Compact Modelling Strategies** _(p.43)_ <a id="6-compact-modelling-strategies"></a>
-- **6.1 Subcircuit device model support** _(p.43–44)_ <a id="6-1-subcircuit-device-model-support"></a>
-  - From this release, RandomSpice supports generators for generic subcircuit models, effectively providing the following:
-- **6.2 Response Surface Model** _(p.44–46)_ <a id="6-2-response-surface-model"></a>
-  - The device DoEs simulated as part of the TCAD to SPICE flow can be handled in two different ways. These different approaches depend on the…
-- **6.3 Statistical Compact Model** _(p.46)_ <a id="6-3-statistical-compact-model"></a>
-  - Accurate statistical compact models (SCM) are the backbone of statistical circuit and system simulation and verification, providing vital i…
-- **6.4 Gaussian Parameter Generation** _(p.47)_ <a id="6-4-gaussian-parameter-generation"></a>
-  - A common approach to SCM parameter generation is to treat parameters as uncorrelated Gaussianbehaved distributions. Average and standard de…
-- **6.5 Principal Component Analysis** _(p.47–48)_ <a id="6-5-principal-component-analysis"></a>
-  - The SCM parameters directly extracted from target sets of current voltage characteristics are correlated and may have distinctly non-normal…
-- **6.6 ModelGen** _(p.48–49)_ <a id="6-6-modelgen"></a>
-  - Directly extracted SCM (SCM) parameters do not always follow normal distributions as typically assumed by the standard PCA approach. This c…
+  - **6.1 Subcircuit device model support** _(p.43–44)_ <a id="6-1-subcircuit-device-model-support"></a>
+  - **6.2 Response Surface Model** _(p.44–46)_ <a id="6-2-response-surface-model"></a>
+  - **6.3 Statistical Compact Model** _(p.46)_ <a id="6-3-statistical-compact-model"></a>
+  - **6.4 Gaussian Parameter Generation** _(p.47)_ <a id="6-4-gaussian-parameter-generation"></a>
+  - **6.5 Principal Component Analysis** _(p.47–48)_ <a id="6-5-principal-component-analysis"></a>
+  - **6.6 ModelGen** _(p.48–49)_ <a id="6-6-modelgen"></a>
 - **7 Enigma-Based Library Generation** _(p.49)_ <a id="7-enigma-based-library-generation"></a>
-  - The recommended way of generating RandomSpice libraries is now through the RandomSpice library builder, which is accessible from Enigma. Th…
-- **7.1 Library Builder Example** _(p.50–52)_ <a id="7-1-library-builder-example"></a>
-  - Prerequisites: Mystic uniform extraction for the “base” model card. Mystic RSM extraction, and Mystic local variability extraction for all…
+  - **7.1 Library Builder Example** _(p.50–52)_ <a id="7-1-library-builder-example"></a>
 - **8 Reference** _(p.52–54)_ <a id="8-reference"></a>
-  - The following table summarises all of the input file options and, where appropriate, command-line overrides available in RandomSpice.
-- **Bibliography** _(p.54–55)_ <a id="bibliography"></a>
-  - [1] B. Cheng, N. Moezi, D. Dideban, G. Roy, S. Roy, and A. Asenov. Benchmarking the accuracy of pca generated statistical compact model par…
-- **Index** _(p.55)_ <a id="index"></a>
-- **B** _(p.55)_ <a id="b"></a>
-- **C** <a id="c"></a>
-  - Circuit number, 32
-- **D** <a id="d"></a>
-  - Database, 34
-- **E** <a id="e"></a>
-  - Database post-processor, 38
-- **F** <a id="f"></a>
-  - Flash memory, 48
-- **G** <a id="g"></a>
-- **I** <a id="i"></a>
-  - Input file, 22
-- **K** _(p.56)_ <a id="k"></a>
-  - Keywords, 29
-- **N** _(p.56)_ <a id="n"></a>
-  - Example RandomSpice netlist, 30
-- **O** <a id="o"></a>
-  - Output data, 14
-- **P** <a id="p"></a>
-  - Parallel processing, 42
-- **Q** <a id="q"></a>
-  - Quick start example, 6
-- **R** <a id="r"></a>
-  - RAND keyword, 30
-- **S** <a id="s"></a>
-  - Simulation modes, 14

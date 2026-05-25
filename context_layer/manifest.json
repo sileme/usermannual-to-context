@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-25T13:16:45+00:00",
+  "generated_at": "2026-05-25T13:32:13+00:00",
   "software": {
     "dakota": {
       "total_estimated_tokens": 253763,
@@ -18,7 +18,7 @@
             "full_md": "context_layer/dakota/dakota_Users-6.16.0/full.md",
             "outline_md": "context_layer/dakota/dakota_Users-6.16.0/outline.md"
           },
-          "outline_estimated_tokens": 28553,
+          "outline_estimated_tokens": 4890,
           "chapters_pending": true
         }
       }
@@ -39,7 +39,7 @@
             "full_md": "context_layer/sentaurus/advcal_ug/full.md",
             "outline_md": "context_layer/sentaurus/advcal_ug/outline.md"
           },
-          "outline_estimated_tokens": 21831,
+          "outline_estimated_tokens": 999,
           "chapters_pending": true
         },
         "advcald_ug": {
@@ -53,7 +53,7 @@
             "full_md": "context_layer/sentaurus/advcald_ug/full.md",
             "outline_md": "context_layer/sentaurus/advcald_ug/outline.md"
           },
-          "outline_estimated_tokens": 6804
+          "outline_estimated_tokens": 258
         },
         "calikit_ug": {
           "source_pdf": "corpus/raw/sentaurus/calikit_ug.pdf",
@@ -66,7 +66,7 @@
             "full_md": "context_layer/sentaurus/calikit_ug/full.md",
             "outline_md": "context_layer/sentaurus/calikit_ug/outline.md"
           },
-          "outline_estimated_tokens": 3328
+          "outline_estimated_tokens": 1681
         },
         "cm_ug": {
           "source_pdf": "corpus/raw/sentaurus/cm_ug.pdf",
@@ -79,7 +79,7 @@
             "full_md": "context_layer/sentaurus/cm_ug/full.md",
             "outline_md": "context_layer/sentaurus/cm_ug/outline.md"
           },
-          "outline_estimated_tokens": 8599,
+          "outline_estimated_tokens": 4461,
           "chapters_pending": true
         },
         "cpps": {
@@ -115,7 +115,7 @@
             "full_md": "context_layer/sentaurus/dmc_ug/full.md",
             "outline_md": "context_layer/sentaurus/dmc_ug/outline.md"
           },
-          "outline_estimated_tokens": 34922,
+          "outline_estimated_tokens": 740,
           "chapters_pending": true
         },
         "emw_ug": {
@@ -129,7 +129,7 @@
             "full_md": "context_layer/sentaurus/emw_ug/full.md",
             "outline_md": "context_layer/sentaurus/emw_ug/outline.md"
           },
-          "outline_estimated_tokens": 8987
+          "outline_estimated_tokens": 386
         },
         "enigma_ug": {
           "source_pdf": "corpus/raw/sentaurus/enigma_ug.pdf",
@@ -142,7 +142,7 @@
             "full_md": "context_layer/sentaurus/enigma_ug/full.md",
             "outline_md": "context_layer/sentaurus/enigma_ug/outline.md"
           },
-          "outline_estimated_tokens": 4983
+          "outline_estimated_tokens": 2300
         },
         "garand_ug": {
           "source_pdf": "corpus/raw/sentaurus/garand_ug.pdf",
@@ -155,7 +155,7 @@
             "full_md": "context_layer/sentaurus/garand_ug/full.md",
             "outline_md": "context_layer/sentaurus/garand_ug/outline.md"
           },
-          "outline_estimated_tokens": 70886,
+          "outline_estimated_tokens": 2779,
           "chapters_pending": true
         },
         "inspect_ug": {
@@ -169,7 +169,7 @@
             "full_md": "context_layer/sentaurus/inspect_ug/full.md",
             "outline_md": "context_layer/sentaurus/inspect_ug/outline.md"
           },
-          "outline_estimated_tokens": 12762
+          "outline_estimated_tokens": 396
         },
         "mystic_ug": {
           "source_pdf": "corpus/raw/sentaurus/mystic_ug.pdf",
@@ -182,7 +182,7 @@
             "full_md": "context_layer/sentaurus/mystic_ug/full.md",
             "outline_md": "context_layer/sentaurus/mystic_ug/outline.md"
           },
-          "outline_estimated_tokens": 5864
+          "outline_estimated_tokens": 1913
         },
         "optimizer_ug": {
           "source_pdf": "corpus/raw/sentaurus/optimizer_ug.pdf",
@@ -195,7 +195,7 @@
             "full_md": "context_layer/sentaurus/optimizer_ug/full.md",
             "outline_md": "context_layer/sentaurus/optimizer_ug/outline.md"
           },
-          "outline_estimated_tokens": 8810
+          "outline_estimated_tokens": 135
         },
         "parallel_ug": {
           "source_pdf": "corpus/raw/sentaurus/parallel_ug.pdf",
@@ -219,7 +219,7 @@
             "full_md": "context_layer/sentaurus/qtx_ug/full.md",
             "outline_md": "context_layer/sentaurus/qtx_ug/outline.md"
           },
-          "outline_estimated_tokens": 9286
+          "outline_estimated_tokens": 424
         },
         "randomspice_ug": {
           "source_pdf": "corpus/raw/sentaurus/randomspice_ug.pdf",
@@ -232,7 +232,7 @@
             "full_md": "context_layer/sentaurus/randomspice_ug/full.md",
             "outline_md": "context_layer/sentaurus/randomspice_ug/outline.md"
           },
-          "outline_estimated_tokens": 4115
+          "outline_estimated_tokens": 1694
         },
         "sdataex_ug": {
           "source_pdf": "corpus/raw/sentaurus/sdataex_ug.pdf",
@@ -245,7 +245,7 @@
             "full_md": "context_layer/sentaurus/sdataex_ug/full.md",
             "outline_md": "context_layer/sentaurus/sdataex_ug/outline.md"
           },
-          "outline_estimated_tokens": 21602
+          "outline_estimated_tokens": 234
         },
         "sdevice_ug": {
           "source_pdf": "corpus/raw/sentaurus/sdevice_ug.pdf",
@@ -258,7 +258,7 @@
             "full_md": "context_layer/sentaurus/sdevice_ug/full.md",
             "outline_md": "context_layer/sentaurus/sdevice_ug/outline.md"
           },
-          "outline_estimated_tokens": 80699,
+          "outline_estimated_tokens": 1700,
           "chapters_pending": true
         },
         "sense_ug": {
@@ -272,7 +272,7 @@
             "full_md": "context_layer/sentaurus/sense_ug/full.md",
             "outline_md": "context_layer/sentaurus/sense_ug/outline.md"
           },
-          "outline_estimated_tokens": 96045,
+          "outline_estimated_tokens": 489,
           "chapters_pending": true
         },
         "sentaurus_relnote": {
@@ -297,7 +297,7 @@
             "full_md": "context_layer/sentaurus/sinterconnect_ug/full.md",
             "outline_md": "context_layer/sentaurus/sinterconnect_ug/outline.md"
           },
-          "outline_estimated_tokens": 60393,
+          "outline_estimated_tokens": 608,
           "chapters_pending": true
         },
         "smesh_ug": {
@@ -311,7 +311,7 @@
             "full_md": "context_layer/sentaurus/smesh_ug/full.md",
             "outline_md": "context_layer/sentaurus/smesh_ug/outline.md"
           },
-          "outline_estimated_tokens": 8590
+          "outline_estimated_tokens": 304
         },
         "solvers_ug": {
           "source_pdf": "corpus/raw/sentaurus/solvers_ug.pdf",
@@ -324,7 +324,7 @@
             "full_md": "context_layer/sentaurus/solvers_ug/full.md",
             "outline_md": "context_layer/sentaurus/solvers_ug/outline.md"
           },
-          "outline_estimated_tokens": 4960
+          "outline_estimated_tokens": 2380
         },
         "solvnet_appnotes": {
           "source_pdf": "corpus/raw/sentaurus/solvnet_appnotes.pdf",
@@ -348,7 +348,7 @@
             "full_md": "context_layer/sentaurus/sprocess_ug/full.md",
             "outline_md": "context_layer/sentaurus/sprocess_ug/outline.md"
           },
-          "outline_estimated_tokens": 89957,
+          "outline_estimated_tokens": 560,
           "chapters_pending": true
         },
         "stopography3d_ug": {
@@ -362,7 +362,7 @@
             "full_md": "context_layer/sentaurus/stopography3d_ug/full.md",
             "outline_md": "context_layer/sentaurus/stopography3d_ug/outline.md"
           },
-          "outline_estimated_tokens": 18796,
+          "outline_estimated_tokens": 400,
           "chapters_pending": true
         },
         "stopography_ug": {
@@ -376,7 +376,7 @@
             "full_md": "context_layer/sentaurus/stopography_ug/full.md",
             "outline_md": "context_layer/sentaurus/stopography_ug/outline.md"
           },
-          "outline_estimated_tokens": 17320,
+          "outline_estimated_tokens": 328,
           "chapters_pending": true
         },
         "svisual_ug": {
@@ -390,7 +390,7 @@
             "full_md": "context_layer/sentaurus/svisual_ug/full.md",
             "outline_md": "context_layer/sentaurus/svisual_ug/outline.md"
           },
-          "outline_estimated_tokens": 50569,
+          "outline_estimated_tokens": 511,
           "chapters_pending": true
         },
         "swb_ug": {
@@ -404,7 +404,7 @@
             "full_md": "context_layer/sentaurus/swb_ug/full.md",
             "outline_md": "context_layer/sentaurus/swb_ug/outline.md"
           },
-          "outline_estimated_tokens": 19638,
+          "outline_estimated_tokens": 519,
           "chapters_pending": true
         },
         "utilities_ug": {
@@ -418,7 +418,7 @@
             "full_md": "context_layer/sentaurus/utilities_ug/full.md",
             "outline_md": "context_layer/sentaurus/utilities_ug/outline.md"
           },
-          "outline_estimated_tokens": 3352
+          "outline_estimated_tokens": 1674
         }
       }
     }
