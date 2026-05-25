@@ -3,584 +3,397 @@
 Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
 
 - **Sentaurus™ Device Electromagnetic Wave Solver User Guide** _(p.1)_ <a id="sentaurus-device-electromagnetic-wave-solver-user-guide"></a>
-  - Version O-2018.06, June 2018
-  - _Keywords:_ Version, June
 - **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
-  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
-  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursua…
 - **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
-  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
-  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to natio…
 - **Disclaimer** <a id="disclaimer"></a>
-  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITE…
 - **Trademarks** <a id="trademarks"></a>
-  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html.
-  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-b…
 - **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
-  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
-  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible…
 - **About This Guide ix** _(p.3)_ <a id="about-this-guide-ix"></a>
   - Related Publications . . ix
-  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
 - **Chapter 1 Getting Started 1** <a id="chapter-1-getting-started-1"></a>
   - Starting EMW . .
-  - _Keywords:_ Starting, EMW, Tensor, Grid, Plot, Extractor, Save, Result
 - **Chapter 2 Basic Theory of Finite-Difference Time-Domain Method 7** _(p.4)_ <a id="chapter-2-basic-theory-of-finite-difference-time-domain-meth"></a>
   - Basic Theory of FDTD . . .
-  - _Keywords:_ Lorentz, Drude, Modified, Basic, Theory, FDTD, Discretized, Maxwell
 - **Chapter 3 Boundary Conditions 19** _(p.4)_ <a id="chapter-3-boundary-conditions-19"></a>
   - Introduction . . . 19
-  - _Keywords:_ Boundary, Conditions, CPML, Introduction, PEC, PMC, Periodic, Absorbing
 - **Chapter 4 Building the Correct Mesh 25** <a id="chapter-4-building-the-correct-mesh-25"></a>
   - Generating Tensor Meshes for EMW . . 25
-  - _Keywords:_ Tensor, Meshing, Generating, Meshes, EMW, Sentaurus, Mesh, Product
 - **Chapter 5 Specifying Material Parameters 33** <a id="chapter-5-specifying-material-parameters-33"></a>
   - Introduction . . . . 33
-  - _Keywords:_ Model, Complex, Refractive, Index, Dispersive, Specification, Material, Introduction
 - **Chapter 6 Specifying Excitations 45** _(p.5)_ <a id="chapter-6-specifying-excitations-45"></a>
   - Overview . . . . 45
-  - _Keywords:_ Field, Specifying, Illumination, Direction, Polarization, Gaussian, Overview, Total
 - **Chapter 7 Terminating Simulations 61** <a id="chapter-7-terminating-simulations-61"></a>
   - Options for Terminating FDTD Time-Stepping Loop . . . . . 61
-  - _Keywords:_ Terminating, FDTD, Time, Stepping, Loop, Detectors
 - **Chapter 8 Extracting and Visualizing Results 65** <a id="chapter-8-extracting-and-visualizing-results-65"></a>
   - Overview. . . 65
-  - _Keywords:_ Field, Far, Sensors, DFT, Extractors, Sensor, Computation, Overview
 - **Chapter 9 Parallelization 93** _(p.6)_ <a id="chapter-9-parallelization-93"></a>
   - Overview of Parallelization . . . 93
-  - _Keywords:_ Parallel, Parallelization, Mode, EMW, Hardware, Shared, Memory, Installing
 - **Appendix A Commands 105** <a id="appendix-a-commands-105"></a>
   - Boundary. . . . . 105
-  - _Keywords:_ Boundary, CodeVExcitation, ComplexRefractiveIndex, Detector, DFT, DispersiveMedia, Extractor, Farfield
 - **Appendix B Troubleshooting Simulations 139** _(p.7)_ <a id="appendix-b-troubleshooting-simulations-139"></a>
   - Unexpected Results. . . . 139
-  - _Keywords:_ Unexpected, Results, Simulations, Run, Nonstop, Simulator, Terminates
 - **Glossary 141** _(p.8–9)_ <a id="glossary-141"></a>
   - Contents
-  - _Keywords:_ EMW, domain, electromagnetic, optical, Contents, Synopsys, Sentaurus, Device
 - **Related Publications** _(p.9)_ <a id="related-publications"></a>
   - For additional information, see:
-  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
 - **Conventions** <a id="conventions"></a>
   - The following conventions are used in Synopsys documentation.
-  - _Keywords:_ Identifies, screen, identifies, conventions, Synopsys, documentation, Convention, Description
 - **Customer Support** _(p.10)_ <a id="customer-support"></a>
   - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
-  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
 - **Accessing SolvNet** _(p.10)_ <a id="accessing-solvnet"></a>
-  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
-  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synops…
 - **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
   - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
-  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
 - **Contacting Your Local TCAD Support Team Directly** _(p.11)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
   - Send an e-mail message to:
-  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
 - **Starting EMW** _(p.11–12)_ <a id="starting-emw"></a>
-  - Sentaurus Device Electromagnetic Wave Solver (EMW) is an electromagnetic solver based on the finite-difference time-domain (FDTD) method. It can numerically solve the temporal evolution of electromagnetic waves in a device structure defi...
-  - _Keywords:_ EMW, electromagnetic, releases, version, Sentaurus, Device, Electromagnetic, Wave
+  - Sentaurus Device Electromagnetic Wave Solver (EMW) is an electromagnetic solver based on the finite-difference time-domain (FDTD) method. I…
 - **Input and Output File Types** _(p.12)_ <a id="input-and-output-file-types"></a>
   - The main input and output file types used in EMW simulations are shown in Figure 1. The file names can be specified in the EMW command file.
-  - _Keywords:_ EMW, details, summary, simulations, specified, images, emw_ug_f91979e47b4d0b2a692a29dfc91419f963be56c312cbbe01525ab6e6ffa1ff1d, flowchart
 - **Command File (\*\_eml.cmd)** _(p.13)_ <a id="command-file-eml-cmd"></a>
-  - The command file is the main input file for EMW. It contains all the model settings and file specifications, and can be edited. This file is referred to as the command file or input file.
-  - _Keywords:_ EMW, simulation, keyword, Plot, contains, settings, specifications, edited
+  - The command file is the main input file for EMW. It contains all the model settings and file specifications, and can be edited. This file i…
 - **NOTE Regarding the command file:** _(p.13)_ <a id="note-regarding-the-command-file"></a>
-  - Keywords are case insensitive, but identifiers such as region names and materials are surrounded by double quotation marks and are case sensitive. • Lists are defined in braces with their items separated by a comma. Each command must be ...
-  - _Keywords:_ Keywords, insensitive, identifiers, region, materials, surrounded, double, quotation
+  - Keywords are case insensitive, but identifiers such as region names and materials are surrounded by double quotation marks and are case sen…
 - **Tensor-Grid File (\*\_msh.tdr)** _(p.14)_ <a id="tensor-grid-file-msh-tdr"></a>
-  - EMW needs a tensor grid to run FDTD simulations. A typical example of a tensor grid is shown in Figure 2 on page 4. To generate a suitable tensor-grid file with Sentaurus Mesh, see Generating Tensor Meshes for EMW on page 25 and the Sent...
-  - _Keywords:_ tensor, EMW, Sentaurus, Mesh, details, summary, FDTD, simulations
+  - EMW needs a tensor grid to run FDTD simulations. A typical example of a tensor grid is shown in Figure 2 on page 4. To generate a suitable…
 - **Parameter File (\*\_eml.par)** _(p.14)_ <a id="parameter-file-eml-par"></a>
-  - EMW allows you to define the optical parameters as a complex refractive index (CRI) in the material parameter file. It uses the same CRI library as Sentaurus Device. Therefore, the same parameter file as for Sentaurus Device can be used ...
-  - _Keywords:_ Sentaurus, Device, optical, CRI, ComplexRefractiveIndex, EMW, allows, define
+  - EMW allows you to define the optical parameters as a complex refractive index (CRI) in the material parameter file. It uses the same CRI li…
 - **Plot, Extractor, and Save Files (\*\_eml.tdr)** _(p.15)_ <a id="plot-extractor-and-save-files-eml-tdr"></a>
-  - As multiple Plot, Extractor, and Save sections are allowed, the file names are defined in the corresponding sections. Extracting useful simulation results is described in more detail in Chapter 8 on page 65.
-  - _Keywords:_ multiple, Plot, Extractor, Save, allowed, defined, corresponding, Extracting
+  - As multiple Plot, Extractor, and Save sections are allowed, the file names are defined in the corresponding sections. Extracting useful sim…
 - **Result File (\*\_eml.plt)** _(p.15)_ <a id="result-file-eml-plt"></a>
-  - A result file is used when global values have to be stored, such as the integrated absorbed photon density in a certain volume or the photon flux through a surface. The results can be viewed using Inspect or Sentaurus Visual. For discret...
-  - _Keywords:_ photon, Sentaurus, Visual, result, global, stored, integrated, absorbed
+  - A result file is used when global values have to be stored, such as the integrated absorbed photon density in a certain volume or the photo…
 - **Log Files (\*\_eml.log, \*\_eml.out)** <a id="log-files-eml-log-eml-out"></a>
-  - EMW generates the log file during a simulation run. It contains information about input parameters, and the models and values of physical parameters used in the simulation. The log file contains more details than the brief information wr...
-  - _Keywords:_ simulation, during, contains, information, EMW, generates, models, physical
+  - EMW generates the log file during a simulation run. It contains information about input parameters, and the models and values of physical p…
 - **File Compression** <a id="file-compression"></a>
-  - You can control further compression, beyond a basic standard compression for plot, sensor, extractor, and save files as well as the result file, in the Globals section by specifying CompressTDR=Yes | No.
-  - _Keywords:_ compression, You, control, further, beyond, standard, sensor, extractor
+  - You can control further compression, beyond a basic standard compression for plot, sensor, extractor, and save files as well as the result…
 - **Accessing Help on Syntax** _(p.16)_ <a id="accessing-help-on-syntax"></a>
-  - Help for the syntax of each keyword can be obtained by using the EMW binary with the -P command-line option. For example, to view all of the allowed options for the keyword Quantity in the Plot section, in a shell, type in a shell prompt:
-  - _Keywords:_ keyword, EMW, Quantity, Help, syntax, obtained, binary, allowed
+  - Help for the syntax of each keyword can be obtained by using the EMW binary with the -P command-line option. For example, to view all of th…
 - **1: Getting Started** _(p.16–17)_ <a id="1-getting-started"></a>
   - Accessing Help on Syntax
-  - _Keywords:_ Accessing, Help, Syntax, Exclusive, AbsElectricDisplacement, AbsElectricField, describes, theory
 - **Basic Theory of FDTD** _(p.17)_ <a id="basic-theory-of-fdtd"></a>
-  - EMW provides a FDTD kernel that specifically targets 3D periodic structures for which light is incident at an oblique angle. Typically, periodic boundary conditions must be imposed in the lateral directions; whereas, absorbing boundary c...
-  - _Keywords:_ FDTD, kernel, periodic, boundary, conditions, oblique, cosine, structures
+  - EMW provides a FDTD kernel that specifically targets 3D periodic structures for which light is incident at an oblique angle. Typically, per…
 - **Discretized Maxwell’s Equations** <a id="discretized-maxwell-s-equations"></a>
   - Maxwell’s curl equations in linear, isotropic, nondispersive material are [1]:
-  - _Keywords:_ mathbf, partial, varepsilon, Maxwell, equations, linear, isotropic, nondispersive
 - **2: Basic Theory of Finite-Difference Time-Domain Method** <a id="2-basic-theory-of-finite-difference-time-domain-method"></a>
 - **Basic Theory of FDTD** <a id="basic-theory-of-fdtd"></a>
 - **where:** <a id="where"></a>
-  - ■ is the vectorial electric field in .E V/m is the vectorial magnetic field in .H A/m ■ is the electric current density inJ $\mathrm { A } / \mathrm { m } ^ { 2 }$ . is the magnetic current density in M $\mathrm { V } / \mathrm { m } ^ {...
-  - _Keywords:_ partial, Big, Delta, mathrm, sigma_, magnetic, equations, varepsilon_
+  - ■ is the vectorial electric field in .E V/m is the vectorial magnetic field in .H A/m ■ is the electric current density inJ $\mathrm { A }…
 - **Accuracy of the Finite Difference Stencil** <a id="accuracy-of-the-finite-difference-stencil"></a>
-  - The accuracy of the finite difference stencil critically depends on cell size and mesh uniformity. For a uniform tensor mesh, the Yee algorithm [3] is second-order accurate for both time and spatial discretization. However, the accuracy ...
-  - _Keywords:_ accuracy, finite, difference, uniform, convergence, stencil, critically, depends
+  - The accuracy of the finite difference stencil critically depends on cell size and mesh uniformity. For a uniform tensor mesh, the Yee algor…
 - **Stability (Courant) Criteria** <a id="stability-courant-criteria"></a>
-  - The explicit FDTD-updating algorithm initially proposed by Yee [3] is conditionally stable, which means that there is an upper limit to the allowed time step for stable operation:
-  - _Keywords:_ Delta, stable, mathrm, FDTD, increments, explicit, updating, algorithm
+  - The explicit FDTD-updating algorithm initially proposed by Yee [3] is conditionally stable, which means that there is an upper limit to the…
 - **Modeling of Dispersive Media** <a id="modeling-of-dispersive-media"></a>
-  - In the derivation of the FDTD-updating scheme, which forms the basis of EMW, it is generally assumed that the material parameters , , , and ε μ σ $\sigma _ { \mathrm { m } }$ are independent of frequency. As long as interest is restricte...
-  - _Keywords:_ material, frequency, dispersive, FDTD, EMW, materials, frequencies, modeling
+  - In the derivation of the FDTD-updating scheme, which forms the basis of EMW, it is generally assumed that the material parameters , , , and…
 - **Physical Model** <a id="physical-model"></a>
-  - If the electric permittivity depends on the frequency, the constitutive relation between the electric field and the displacement density becomes:
-  - _Keywords:_ electric, varepsilon, varepsilon_, mathfrak, susceptibility, permittivity, depends, frequency
+  - If the electric permittivity depends on the frequency, the constitutive relation between the electric field and the displacement density be…
 - **Debye Relaxation** <a id="debye-relaxation"></a>
-  - The Debye dispersive model describes the relaxation behavior of water molecules. Therefore, this dispersive type plays an important role in modeling electromagnetic polarization in biological tissues. The susceptibility of a multiterm De...
-  - _Keywords:_ Debye, dispersive, mathfrak, relaxation, Delta, mathrm, describes, behavior
+  - The Debye dispersive model describes the relaxation behavior of water molecules. Therefore, this dispersive type plays an important role in…
 - **Lorentzian Resonance** <a id="lorentzian-resonance"></a>
-  - The Lorentzian dispersive model adequately describes the frequency-dependent response caused by damped oscillation of bounded electrons due to the applied external fields, and it is typically used for modeling semiconductors and insulators.
-  - _Keywords:_ mathfrak, Lorentzian, mathrm, dispersive, frequency, Lorentz, Delta, omega_
+  - The Lorentzian dispersive model adequately describes the frequency-dependent response caused by damped oscillation of bounded electrons due…
 - **Unmagnetized Plasma** <a id="unmagnetized-plasma"></a>
-  - The Drude dispersive model describes the behavior that is exhibited by free electrons in metals. The susceptibility of a multiterm Drude medium is given by:
-  - _Keywords:_ Drude, dispersive, describes, behavior, exhibited, electrons, metals, susceptibility
+  - The Drude dispersive model describes the behavior that is exhibited by free electrons in metals. The susceptibility of a multiterm Drude me…
 - **Drude–Lorentz** <a id="drude-lorentz"></a>
-  - For modeling certain semiconductors and metals with higher accuracy, you can combine the Lorentz and Drude models to characterize dispersive media over a wide frequency range [4]. The susceptibility of a multiterm Drude–Lorentz medium is...
-  - _Keywords:_ Lorentz, Drude, omega_, dispersive, modeling, certain, semiconductors, metals
+  - For modeling certain semiconductors and metals with higher accuracy, you can combine the Lorentz and Drude models to characterize dispersiv…
 - **Modified Lorentz** <a id="modified-lorentz"></a>
-  - Another effective dispersive model for semiconductors and metals is the modified Lorentz model. This model offers a better description of the dielectric function of silicon, aluminum, silver, and gold in the visible wavelength range, alt...
-  - _Keywords:_ Lorentz, dispersive, modified, medium, omega_, delta_, Another, effective
+  - Another effective dispersive model for semiconductors and metals is the modified Lorentz model. This model offers a better description of t…
 - **Drude–Modified Lorentz** <a id="drude-modified-lorentz"></a>
-  - The Drude model can be combined with the modified Lorentz model to form the Drude–modified Lorentz model. The susceptibility of a multiterm Drude–modified Lorentz medium is given by:
-  - _Keywords:_ Drude, dispersive, modified, Lorentz, omega_, delta_, CPMLs, materials
+  - The Drude model can be combined with the modified Lorentz model to form the Drude–modified Lorentz model. The susceptibility of a multiterm…
 - **References** _(p.18)_ <a id="references"></a>
-  - [1] A. Taflove and S. C. Hagness, Computational Electrodynamics: The Finite-Difference Time-Domain Method, Boston: Artech House, 3rd ed., 2005. [2] P. Harms, R. Mittra, and W. Ko, “Implementation of the Periodic Boundary Condition in the...
-  - _Keywords:_ Finite, Difference, Time, Domain, Electrodynamics, Method, Boundary, IEEE
+  - [1] A. Taflove and S. C. Hagness, Computational Electrodynamics: The Finite-Difference Time-Domain Method, Boston: Artech House, 3rd ed., 2…
 - **Introduction** <a id="introduction"></a>
-  - Setting the right boundary conditions and the corresponding parameters, if required by the specific type of boundary condition, can play a crucial role in the quality of the simulation results.
-  - _Keywords:_ BCs, boundary, conditions, simulation, Setting, corresponding, required, specific
+  - Setting the right boundary conditions and the corresponding parameters, if required by the specific type of boundary condition, can play a…
 - **PEC and PMC Boundary Conditions** <a id="pec-and-pmc-boundary-conditions"></a>
-  - Perfect electric conductor (PEC) and perfect magnetic conductor (PMC) boundary conditions are defined as BCs with zero tangential components of E- and H-fields, respectively.
-  - _Keywords:_ PEC, conductor, boundary, conditions, Perfect, electric, perfect, magnetic
+  - Perfect electric conductor (PEC) and perfect magnetic conductor (PMC) boundary conditions are defined as BCs with zero tangential component…
 - **Periodic Boundary Conditions** <a id="periodic-boundary-conditions"></a>
   - Two types of periodic boundary condition are available:
-  - _Keywords:_ periodic, incidence, normal, periodicoblique, fields, updated, Periodic, oblique
 - **Absorbing Boundary Conditions** <a id="absorbing-boundary-conditions"></a>
   - Three types of absorbing boundary condition are available:
-  - _Keywords:_ Mur, Higdon, CPML, absorbing, boundary, CPMLs, BCs, simulation
 - **Specifying Parameters of CPML Boundary Condition** <a id="specifying-parameters-of-cpml-boundary-condition"></a>
-  - The CPML BC is configured with three different parameter profiles, , , and , whichσ κ α determine the properties of each CPML. The number of layers can be specified independently for each side by setting the keyword Thickness to the corr...
-  - _Keywords:_ CPML, boundary, specified, profiles, Thickness, profile, polynomial, grading
+  - The CPML BC is configured with three different parameter profiles, , , and , whichσ κ α determine the properties of each CPML. The number o…
 - **3: Boundary Conditions** _(p.20)_ <a id="3-boundary-conditions"></a>
   - Absorbing Boundary Conditions
-  - _Keywords:_ boundary, mathrm, OrderAlpha, AlphaMax, OrderSigma, SigmaMax, sigma_, Thickness
 - **Combining CPML With Other Boundary Conditions** <a id="combining-cpml-with-other-boundary-conditions"></a>
-  - The CPML boundary condition can be combined with other types of boundary condition to suit various applications. Table 1 and Table 2 list the possible combinations for 2D and 3D simulations, respectively.
-  - _Keywords:_ CPML, mathbf, Periodic, Oblique, condition, PEC, PMC, combinations
+  - The CPML boundary condition can be combined with other types of boundary condition to suit various applications. Table 1 and Table 2 list t…
 - **References** <a id="references"></a>
-  - [1] P. Harms, R. Mittra, and W. Ko, “Implementation of the Periodic Boundary Condition in the Finite-Difference Time-Domain Algorithm for FSS Structures,” IEEE Transactions on Antennas and Propagation, vol. 42, no. 9, pp. 1317–1324, 1994...
-  - _Keywords:_ Finite, Difference, Time, Domain, Harms, Mittra, Implementation, Periodic
+  - [1] P. Harms, R. Mittra, and W. Ko, “Implementation of the Periodic Boundary Condition in the Finite-Difference Time-Domain Algorithm for F…
 - **Generating Tensor Meshes for EMW** <a id="generating-tensor-meshes-for-emw"></a>
-  - To perform FDTD simulations with EMW, a tensor mesh must be generated using Sentaurus Mesh. The size and quality of the tensor mesh have significant impact on the FDTD simulation time and the accuracy of the results.
-  - _Keywords:_ tensor, FDTD, Sentaurus, Mesh, simulation, EMW, quality, perform
+  - To perform FDTD simulations with EMW, a tensor mesh must be generated using Sentaurus Mesh. The size and quality of the tensor mesh have si…
 - **Using the Sentaurus Mesh Tensor-Product Generator** _(p.21–23)_ <a id="using-the-sentaurus-mesh-tensor-product-generator"></a>
   - The tensor-product meshes for EMW are generated by Sentaurus Mesh using the command:
-  - _Keywords:_ EMW, tensor, Mesh, maxCellSize, controls, minCellSize, direction, Sentaurus
 - **Specifying Nodes per Wavelength in Meshing** _(p.24)_ <a id="specifying-nodes-per-wavelength-in-meshing"></a>
-  - Using the EMW subsection is an alternative (or additive) solution to control the tensor-mesh generation. The controls in the EMW subsection allow for the structure to be meshed by specifying nodes per wavelength criteria directly:
-  - _Keywords:_ integer, EMW, material, materialName, region, regionName, ComplexRefractiveIndex, WavelengthDep
+  - Using the EMW subsection is an alternative (or additive) solution to control the tensor-mesh generation. The controls in the EMW subsection…
 - **where:** _(p.24)_ <a id="where"></a>
-  - wavelength specifies the wavelength of the incident wave in micrometers (default is 0.555). parameter filename indicates a user-defined parameter file that contains the ComplexRefractiveIndex optical database table of the materials that ...
-  - _Keywords:_ wavelength, grading, available, ComplexRefractiveIndex, materials, Sentaurus, Guide, nodesperwavelength
+  - wavelength specifies the wavelength of the incident wave in micrometers (default is 0.555). parameter filename indicates a user-defined par…
 - **Meshing Examples** <a id="meshing-examples"></a>
-  - Two examples of generating suitable tensor grids for EMW simulations are presented here. First, tensor-grid generation for a simple planar two-layer silicon–air example is performed. Such simple examples are usually used to benchmark FDT...
-  - _Keywords:_ tensor, generation, simple, Two, generating, suitable, EMW, simulations
+  - Two examples of generating suitable tensor grids for EMW simulations are presented here. First, tensor-grid generation for a simple planar…
 - **Example 1: Planar Two-Layer Silicon–Air** <a id="example-1-planar-two-layer-silicon-air"></a>
-  - Tensor-mesh generation with Sentaurus Mesh requires two input files: a boundary file and a command file. The boundary file for a simple planar two-layer silicon–air structure can be generated by Sentaurus Structure Editor using the follo...
-  - _Keywords:_ Sentaurus, simple, Mesh, position, direction, boundary, tensor, Tensor
+  - Tensor-mesh generation with Sentaurus Mesh requires two input files: a boundary file and a command file. The boundary file for a simple pla…
 - **Example 2: Image Sensor** <a id="example-2-image-sensor"></a>
-  - In this section, the meshing controls to obtain a suitable tensor mesh for an EMW image sensor simulation are described only, without the Sentaurus Structure Editor command files. For details of generating boundary files with Sentaurus S...
-  - _Keywords:_ minCellSize, Sentaurus, direction, EMW, Structure, Editor, wavelength, materials
+  - In this section, the meshing controls to obtain a suitable tensor mesh for an EMW image sensor simulation are described only, without the S…
 - **4: Building the Correct Mesh** <a id="4-building-the-correct-mesh"></a>
 - **Meshing Examples** <a id="meshing-examples"></a>
-  - ```solidity ... 0.5904 3.969 0.03; 0.5961 3.956 0.027; 0.6019 3.943 0.025; 0.6078 3.931 0.025; 0.6138 3.918 0.024; ... ) } } ```
-  - _Keywords:_ tensor, wavelength, direction, grading, typical, sensor, boundary, details
+  - The wavelength is set to . The wave periodicity in the material is calculated using0.6 μm the real part of the complex refractive index at…
 - **Inspecting and Troubleshooting Tensor-Grid Generation** <a id="inspecting-and-troubleshooting-tensor-grid-generation"></a>
-  - If EMW simulations do not work as expected, the tensor grid is most often the problem. If the grid is too coarse, simulation results are not accurate. If the grid is too fine, the number of cells in the tensor grid will be huge (for exam...
-  - _Keywords:_ EMW, tensor, simulation, FDTD, whether, results, accurate, excessive
+  - If EMW simulations do not work as expected, the tensor grid is most often the problem. If the grid is too coarse, simulation results are no…
 - **4: Building the Correct Mesh** <a id="4-building-the-correct-mesh"></a>
   - Inspecting and Troubleshooting Tensor-Grid Generation
-  - _Keywords:_ material, Inspecting, Troubleshooting, Tensor, Grid, Generation, explains, specify
 - **Introduction** <a id="introduction"></a>
-  - The material parameters used in EMW are based on the complex refractive index (CRI) module. Parameters used in the fundamental equations of the FDTD method (see Chapter 2 on page 7), such as permittivity and conductivity or dispersive mo...
-  - _Keywords:_ material, CRI, EMW, specification, Sentaurus, defined, region, complex
+  - The material parameters used in EMW are based on the complex refractive index (CRI) module. Parameters used in the fundamental equations of…
 - **Complex Refractive Index Model** <a id="complex-refractive-index-model"></a>
-  - To activate the CRI model, a ComplexRefractiveIndex section must be defined in the command file that specifies the dependencies of the CRI for a given region or material. If neither a region nor a material is assigned to the ComplexRefra...
-  - _Keywords:_ CRI, dependencies, region, temperature, material, ComplexRefractiveIndex, device, spatially
+  - To activate the CRI model, a ComplexRefractiveIndex section must be defined in the command file that specifies the dependencies of the CRI…
 - **Complex Refractive Index Model Interface** <a id="complex-refractive-index-model-interface"></a>
-  - The complex refractive index model interface (CRIMI) allows the addition of new CRI models. These models must be implemented as C++ functions, and EMW loads the functions at runtime using the dynamic loader. No access to the EMW source c...
-  - _Keywords:_ CRI, Sentaurus, models, EMW, Device, Guide, shared, object
+  - The complex refractive index model interface (CRIMI) allows the addition of new CRI models. These models must be implemented as C++ functio…
 - **Spatially Dependent Complex Refractive Index Model** <a id="spatially-dependent-complex-refractive-index-model"></a>
-  - EMW allows for the definition of a spatially dependent CRI in contrast to a regionwise constant profile. For certain devices, the dependency of the CRI on temperature, carrier concentration, electric field, mole fraction, or any other sp...
-  - _Keywords:_ CRI, FieldDataFile, EMW, spatially, ComplexRefractiveIndex, varying, specified, Inhomogeneous
+  - EMW allows for the definition of a spatially dependent CRI in contrast to a regionwise constant profile. For certain devices, the dependenc…
 - **Limitations** <a id="limitations"></a>
   - The use of a spatially dependent CRI is subject to the following limitations:
-  - _Keywords:_ supported, dependency, FieldDataFile, memory, during, spatially, dependent, CRI
 - **Dispersive Model Parameters** <a id="dispersive-model-parameters"></a>
-  - To use one of the dispersive models described in Modeling of Dispersive Media on page 12, it is necessary to choose the regions or materials in which the selected model should be applied in the EMW command file. The corresponding dispers...
-  - _Keywords:_ dispersive, models, described, Modeling, Dispersive, Media, necessary, choose
+  - To use one of the dispersive models described in Modeling of Dispersive Media on page 12, it is necessary to choose the regions or material…
 - **Dispersive Model Command Syntax** <a id="dispersive-model-command-syntax"></a>
   - Activation of the dispersive material requires a separate DispersiveMedia section as shown here.
-  - _Keywords:_ dispersive, material, DispersiveMedia, Drude, Model, Lorentz, Debye, InterfaceAveraging
 - **Specifying User-Defined Dispersive Model Poles in Parameter File** <a id="specifying-user-defined-dispersive-model-poles-in-parameter-"></a>
   - The following syntax sets a material with the types Debye, Lorentz, modified Lorentz, and Drude, respectively, in a material parameter file:
-  - _Keywords:_ material, Lorentz, Material, EMW, sigma_m, syntax, Debye, modified
 - **5: Specifying Material Parameters** <a id="5-specifying-material-parameters"></a>
 - **Dispersive Model Parameters** <a id="dispersive-model-parameters"></a>
-  - ```txt sigma_m = sigma_m LorentzModel ( Epsilon_static = epsilon_s Epsilon_inf = epsilon_infty Number_E_poles = N_p E_polesTable ( # amplitude, frequency (Hz), damping factor (rad/s) A_1 f_1 gamma_1 A_2 f_2 gamma_2 ... ) ) }
-  - _Keywords:_ sigma_m, damping, factor, Epsilon_inf, epsilon_infty, Number_E_poles, N_p, E_polesTable
+  - ```txt sigma_m = sigma_m LorentzModel ( Epsilon_static = epsilon_s Epsilon_inf = epsilon_infty Number_E_poles = N_p E_polesTable ( # amplit…
 - **Explicit Specification of EMW Material Parameters** <a id="explicit-specification-of-emw-material-parameters"></a>
-  - If no ComplexRefractiveIndex section in the command file exists for a specific region or material, EMW assumes that its material parameters are specified explicitly. To this end, an EMW section must be defined in the material parameter f...
-  - _Keywords:_ material, EMW, region, permittivity, conductivity, definition, epsilon_r, sigma_m
+  - If no ComplexRefractiveIndex section in the command file exists for a specific region or material, EMW assumes that its material parameters…
 - **PEC and PMC Materials** <a id="pec-and-pmc-materials"></a>
-  - Perfect electric conductor (PEC) and perfect magnetic conductor (PMC) materials are defined as materials with zero tangential components of E- and H-fields, respectively.
-  - _Keywords:_ substrate, PECMedia, PEC, PMC, materials, region, electric, conductor
+  - Perfect electric conductor (PEC) and perfect magnetic conductor (PMC) materials are defined as materials with zero tangential components of…
 - **Precedence of Material Specification** <a id="precedence-of-material-specification"></a>
-  - In complex setups, different material models are assigned to specific regions or materials using the keywords Region, Material, ExcludeRegion, and ExcludeMaterial, in the respective material model section.
-  - _Keywords:_ material, different, models, specify, priority, complex, setups, assigned
+  - In complex setups, different material models are assigned to specific regions or materials using the keywords Region, Material, ExcludeRegi…
 - **Overview** <a id="overview"></a>
-  - An excitation is defined by its spatial and temporal dependencies. The spatial dependency is characterized by a constant phase wavefront whose propagation direction and polarization can be specified by the user. For the temporal dependen...
-  - _Keywords:_ excitation, defined, spatial, sources, temporal, dependency, Gaussian, Field
+  - An excitation is defined by its spatial and temporal dependencies. The spatial dependency is characterized by a constant phase wavefront wh…
 - **Total-Field Scattered-Field** <a id="total-field-scattered-field"></a>
-  - In EMW, all excitations have been implemented using the TFSF formulation. This excitation method is based on splitting the simulation space into a total-field zone and a scattered-field zone. The excitation source has an effect at the in...
-  - _Keywords:_ mathbf, mathrm, TFSF, excitation, Field, Region, simulation, scattered
+  - In EMW, all excitations have been implemented using the TFSF formulation. This excitation method is based on splitting the simulation space…
 - **Specification of the Illumination Direction** <a id="specification-of-the-illumination-direction"></a>
-  - For excitations based on the TFSF formalism such as plane wave or Gaussian beam, illumination from the top or the bottom of a device structure can be specified directly in the respective excitation section:
-  - _Keywords:_ Direction, specifying, illumination, device, excitation, direction, incidence, explicitly
+  - For excitations based on the TFSF formalism such as plane wave or Gaussian beam, illumination from the top or the bottom of a device struct…
 - **Plane Waves** <a id="plane-waves"></a>
-  - Parameters specifying the plane wave excitation such as propagation direction and polarization are defined in the PlaneWaveExcitation or TruncatedPlaneWaveExcitation section of the command file.
-  - _Keywords:_ specifying, excitation, propagation, direction, polarization, defined, PlaneWaveExcitation, TruncatedPlaneWaveExcitation
+  - Parameters specifying the plane wave excitation such as propagation direction and polarization are defined in the PlaneWaveExcitation or Tr…
 - **Specifying Excitation Regions or Boxes** <a id="specifying-excitation-regions-or-boxes"></a>
-  - The TFSF boundary is most conveniently defined by specifying the excitation plane normal in the PlaneWaveExcitation section using the keyword PlaneX, PlaneY, or PlaneZ. Alternatively, you can specify the opposing corners of a box using t...
-  - _Keywords:_ truncated, boundary, excitation, specify, waveguide, TFSF, PlaneWaveExcitation, PlaneZ
+  - The TFSF boundary is most conveniently defined by specifying the excitation plane normal in the PlaneWaveExcitation section using the keywo…
 - **Specifying Direction and Polarization** _(p.25)_ <a id="specifying-direction-and-polarization"></a>
   - Using for the coordinate along the propagation direction, the plane wave is defined as:ζ
-  - _Keywords:_ boldsymbol, Psi, details, summary, Theta, Polarization, Phi, direction
 - **Specifying Elliptical Polarization** <a id="specifying-elliptical-polarization"></a>
-  - By default, the plane wave excitation is linearly polarized, that is, the E-field and H-field vectors always maintain fixed directions as the incident wave propagates. It is also possible to simulate plane waves that are polarized ellipt...
-  - _Keywords:_ polarized, polarization, linearly, propagates, EllipticalPolarizationMagnitude, EllipticalPolarizationPhase, PlaneWaveExcitation, direction
+  - By default, the plane wave excitation is linearly polarized, that is, the E-field and H-field vectors always maintain fixed directions as t…
 - **Spatially Incoherent Illumination** <a id="spatially-incoherent-illumination"></a>
-  - To model an incoherent illumination due to a source of finite extent, you must sum the fields contributed by plane waves incident from different directions [3].
-  - _Keywords:_ incoherent, incident, illumination, source, objective, circular, angles, mathrm
+  - To model an incoherent illumination due to a source of finite extent, you must sum the fields contributed by plane waves incident from diff…
 - **Gaussian Beam or Gaussian Field Distribution** <a id="gaussian-beam-or-gaussian-field-distribution"></a>
-  - For applications involving converging or diverging light beams, such as light passing through a lens, it is helpful to use spatially Gaussian-distributed incident fields on the TFSF excitation plane. EMW adopts the formulation in [2] for...
-  - _Keywords:_ Gaussian, fields, TFSF, excitation, scalar, dimensions, applications, involving
+  - For applications involving converging or diverging light beams, such as light passing through a lens, it is helpful to use spatially Gaussi…
 - **In Eq. 27 and Eq. 28:** <a id="in-eq-27-and-eq-28"></a>
-  - ■ is the radial distance from the center axis of the beam.r $z ^ { \prime }$ is the axial distance from the beam waist. is the imaginary unit (for whichi $i ^ { 2 } = - 1 )$ ). ■ $k = 2 \pi / \lambda$ is the wave number. $w _ { 0 }$ is t...
-  - _Keywords:_ Gaussian, excitation, mathrm, lambda, radius, paraxial, distance, intensity
+  - ■ is the radial distance from the center axis of the beam.r $z ^ { \prime }$ is the axial distance from the beam waist. is the imaginary un…
 - **Temporal Dependency** <a id="temporal-dependency"></a>
-  - Signals are used to define the time dependency of the incident field in the respective excitation section. By default, a ramped harmonic signal of the following form is used:
-  - _Keywords:_ signal, lambda, periods, Gaussian, details, summary, excitation, harmonic
+  - Signals are used to define the time dependency of the incident field in the respective excitation section. By default, a ramped harmonic si…
 - **CODE V Interface** <a id="code-v-interface"></a>
-  - EMW uses the CodeVExcitation section to specify the excitation type that inputs complex vectorial field data from CODE V. The equivalence theorem is used to set up such an excitation on the excitation plane using the TFSF formalism.
-  - _Keywords:_ excitation, CODE, EMW, CodeVExcitation, specify, complex, design, vectorial
+  - EMW uses the CodeVExcitation section to specify the excitation type that inputs complex vectorial field data from CODE V. The equivalence t…
 - **where:** _(p.26)_ <a id="where"></a>
-  - InputDataFile specifies two slices of complex electric-field data that are output from CODE V. The beam is assumed to propagate from the first slice to the second slice. AnchorPoint1 and AnchorPoint2 specify the physical coordinates to p...
-  - _Keywords:_ CPML, slices, ExRe, ExIm, EyRe, EyIm, EzRe, EzIm
+  - InputDataFile specifies two slices of complex electric-field data that are output from CODE V. The beam is assumed to propagate from the fi…
 - **References** _(p.26–29)_ <a id="references"></a>
-  - [1] A. Taflove and S. C. Hagness, Computational Electrodynamics: The Finite-Difference Time-Domain Method, Boston: Artech House, 3rd ed., 2005. [2] H. Kogelnik and T. Li, “Laser Beams and Resonators,” Applied Optics, vol. 5, no. 10, pp. ...
-  - _Keywords:_ Optics, Optical, Taflove, Hagness, Computational, Electrodynamics, Finite, Difference
+  - [1] A. Taflove and S. C. Hagness, Computational Electrodynamics: The Finite-Difference Time-Domain Method, Boston: Artech House, 3rd ed., 2…
 - **Options for Terminating FDTD Time-Stepping Loop** <a id="options-for-terminating-fdtd-time-stepping-loop"></a>
   - There are different options for terminating the FDTD time-stepping loop:
-  - _Keywords:_ simulation, process, signal, INT, terminating, directly, allows, However
 - **Detectors** <a id="detectors"></a>
-  - A detector works on a specified domain, which can be defined by a region of the tensor mesh or by specifying a box using the keywords BoxCorner1 and BoxCorner2 (see Chapter 8 on page 65). If nothing is specified, the detector is applied ...
-  - _Keywords:_ simulation, detector, maximum, domain, period, specified, criterion, detection
+  - A detector works on a specified domain, which can be defined by a region of the tensor mesh or by specifying a box using the keywords BoxCo…
 - **Overview** <a id="overview"></a>
-  - EMW offers several ways of extracting and visualizing its simulation results. Besides plotting spatially resolved data such as electrical field values and material parameters that were used in the FDTD formulation, integrated data derive...
-  - _Keywords:_ sensors, extractors, simulation, results, FDTD, quantities, monitors, domain
+  - EMW offers several ways of extracting and visualizing its simulation results. Besides plotting spatially resolved data such as electrical f…
 - **Plots** <a id="plots"></a>
-  - Field values and material parameters can be output to either a tensor grid or a mixed-element grid. In both cases, you can output the data to either the entire grid or only a subdomain. Subdomains can be specified directly by providing t...
-  - _Keywords:_ tensor, Plot, element, region, specified, keyword, Region, Quantity
+  - Field values and material parameters can be output to either a tensor grid or a mixed-element grid. In both cases, you can output the data…
 - **Monitors** <a id="monitors"></a>
-  - Monitors are used to probe field values at specific tensor-grid points in the device structure. Similar to plots and sensors, it is possible to control when fields are probed during the simulation using the keywords StartTick/Time, EndTi...
-  - _Keywords:_ probed, Monitors, specific, points, device, possible, Time, TickStep
+  - Monitors are used to probe field values at specific tensor-grid points in the device structure. Similar to plots and sensors, it is possibl…
 - **Extractors** <a id="extractors"></a>
-  - Extractors compute the quasi-monochromatic power flux density, the absorbed photon density, and the charge carrier generation rates assuming a quantum yield of 1 in absorbing semiconductor or metal media. A time-harmonic excitation signa...
-  - _Keywords:_ density, absorbed, photon, boldsymbol, mathrm, generation, quantities, computed
+  - Extractors compute the quasi-monochromatic power flux density, the absorbed photon density, and the charge carrier generation rates assumin…
 - **Sensors** <a id="sensors"></a>
-  - In general, sensors compute some integral quantity based on the values of the electromagnetic field available on the simulation grid. Their results are written to a file whose name is specified using the keyword ResultFile in the Globals...
-  - _Keywords:_ surface, defined, coordinate, integration, density, Average, sensor, domain
+  - In general, sensors compute some integral quantity based on the values of the electromagnetic field available on the simulation grid. Their…
 - **Reflection, Transmission, and Absorption Sensors** <a id="reflection-transmission-and-absorption-sensors"></a>
-  - Quantifying the reflection, transmission, and absorption of light incident on a device structure, for example, a CMOS image sensor, is a common simulation task. If you specify the illumination direction with the keyword Direction in a su...
-  - _Keywords:_ RTA, sensors, reflection, sensor, transmission, absorption, simulation, incident
+  - Quantifying the reflection, transmission, and absorption of light incident on a device structure, for example, a CMOS image sensor, is a co…
 - **Using Multiple Domains in a Sensor** <a id="using-multiple-domains-in-a-sensor"></a>
   - When more than one integration domain is specified, the keyword Domains controls how they are plotted as follows:
-  - _Keywords:_ integration, Domains, domain, domains, specified, Intersecting, intersecting, region
 - **Nonaxis-Aligned Sensor** <a id="nonaxis-aligned-sensor"></a>
   - Power flux sensors also can be defined as nonaxis-aligned boxes (see Figure 10).
-  - _Keywords:_ defined, aligned, sensor, dimensions, mathrm, overline, mathbf, nonaxis
 - **Far Field** <a id="far-field"></a>
-  - EMW supports the computation of the far field by a near-to-far-field transformation, which is based on the derivation described in [3][4]. The near field is the result of a single FDTD simulation and it is extracted in the scattered-fiel...
-  - _Keywords:_ mathrm, diffraction, details, summary, computation, direction, scattering, boldsymbol
+  - EMW supports the computation of the far field by a near-to-far-field transformation, which is based on the derivation described in [3][4].…
 - **Specifying the Far-Field Computation** <a id="specifying-the-far-field-computation"></a>
-  - The far-field computation can be performed at the end of the FDTD simulation similar to sensors and extractors, or in a postprocessing step in which a previously saved near field is loaded from a file. In both cases, the far-field comput...
-  - _Keywords:_ Farfield, intensity, computation, azimuthal, angles, integration, angular, direction
+  - The far-field computation can be performed at the end of the FDTD simulation similar to sensors and extractors, or in a postprocessing step…
 - **Visualizing Results of the Far-Field Computation** <a id="visualizing-results-of-the-far-field-computation"></a>
-  - This section summarizes the various output quantities produced by the far-field computation. They are saved either in the TDR file specified in the Farfield section or in the general PLT ResultFile specified in the Globals section. The n...
-  - _Keywords:_ integration, specified, Far, defined, PLT, Polar, intensity, Quantity
+  - This section summarizes the various output quantities produced by the far-field computation. They are saved either in the TDR file specifie…
 - **Postprocessing of Extractors, Sensors, and Far Field** <a id="postprocessing-of-extractors-sensors-and-far-field"></a>
-  - To use the postprocessing feature of extractors, sensors, and the far field, the required underlying data must be saved in a file at the end of the FDTD simulation. This file can be loaded later by EMW to apply extractors, sensors, and t...
-  - _Keywords:_ postprocessing, extractors, sensors, Extractor, Globals, quantities, Quantities, domain
+  - To use the postprocessing feature of extractors, sensors, and the far field, the required underlying data must be saved in a file at the en…
 - **Discrete Fourier Transform** <a id="discrete-fourier-transform"></a>
-  - This section presents an overview of the discrete Fourier transform (DFT) feature that is implemented in EMW. A major motivation of the DFT is to obtain frequency responses at multiple frequencies from a single transient simulation. Afte...
-  - _Keywords:_ DFT, frequencies, multiple, simulation, presents, overview, discrete, Fourier
+  - This section presents an overview of the discrete Fourier transform (DFT) feature that is implemented in EMW. A major motivation of the DFT…
 - **On-the-Fly DFT** <a id="on-the-fly-dft"></a>
-  - Suppose represents the space- and time-dependent field values in the FDTD simulation,g( ) r, t where $\boldsymbol { r } = ( x , y , z )$ and $g \ : = \ : E _ { x } , E _ { y } , E _ { z } , H _ { x } , H _ { y } , H _ { z }$ . Since the ...
-  - _Keywords:_ Delta, FDTD, dependent, simulation, Since, DFT, Fourier, transform
+  - Suppose represents the space- and time-dependent field values in the FDTD simulation,g( ) r, t where $\boldsymbol { r } = ( x , y , z )$ an…
 - **Defining the DFT Wavelength Table** <a id="defining-the-dft-wavelength-table"></a>
-  - Light is often described in wavelengths instead of frequencies in optical simulations. Therefore, the DFT section in EMW defines a wavelength table for extracting the DFT fields. The DFT wavelength table is defined by:
-  - _Keywords:_ wavelength, DFT, lambda, wavelengths, WavelengthList, defined, lambda_, Delta
+  - Light is often described in wavelengths instead of frequencies in optical simulations. Therefore, the DFT section in EMW defines a waveleng…
 - **Normalizing Field Values** <a id="normalizing-field-values"></a>
-  - When the input signal is a sinusoid, its Fourier-transformed input spectrum is the sum of two delta functions. Since EMW deals only with linear materials (therefore, a linear system), the output spectrum consequently consists of delta fu...
-  - _Keywords:_ spectrum, frequency, Gaussian, DFT, simulation, center, signal, sinusoid
+  - When the input signal is a sinusoid, its Fourier-transformed input spectrum is the sum of two delta functions. Since EMW deals only with li…
 - **Downsampling of DFT** <a id="downsampling-of-dft"></a>
-  - In many practical cases, the sampling frequency intrinsic to FDTD ( ) is much larger than1 ⁄ Δt the maximum DFT frequency $( f _ { \mathrm { m a x } } )$ , while the Nyquist–Shannon sampling theorem requires $f _ { \mathrm { s a m p l e ...
-  - _Keywords:_ Delta, mathrm, sampling, frequency, FDTD, DFT, theorem, downsampling
+  - In many practical cases, the sampling frequency intrinsic to FDTD ( ) is much larger than1 ⁄ Δt the maximum DFT frequency $( f _ { \mathrm…
 - **Limitation of Single-Frequency Periodic Boundary Condition** _(p.32)_ <a id="limitation-of-single-frequency-periodic-boundary-condition"></a>
-  - The limitation on broadband simulation mainly comes from the single-frequency periodic boundary condition (PBC). For the sine–cosine method, the fields are copied from one periodic boundary to another with a phase shift that is dependent...
-  - _Keywords:_ frequency, mathrm, incident, broadband, periodic, boldsymbol, angles, DFT
+  - The limitation on broadband simulation mainly comes from the single-frequency periodic boundary condition (PBC). For the sine–cosine method…
 - **EMW Syntax** _(p.34)_ <a id="emw-syntax"></a>
   - To set up a DFT wavelength table with 10 wavelengths, use:
-  - _Keywords:_ DFT, lambda_, lambda, operatorname, specified, keyword, downsampling, EMW
 - **References** _(p.34)_ <a id="references"></a>
-  - [1] F. Alauzet and M. Mehrenberger, “P1 -conservative solution interpolation on unstructured triangular meshes,” International Journal for Numerical Methods in Engineering, vol. 84, no. 13, pp. 1552–1588, 2010.
-  - _Keywords:_ Alauzet, Mehrenberger, conservative, solution, interpolation, unstructured, triangular, meshes
+  - [1] F. Alauzet and M. Mehrenberger, “P1 -conservative solution interpolation on unstructured triangular meshes,” International Journal for…
 - **8: Extracting and Visualizing Results References** <a id="8-extracting-and-visualizing-results-references"></a>
-  - [3] A. Taflove and S. C. Hagness, Computational Electromagnetics: The Finite-Difference Time-Domain Method, Boston: Artech House, 3rd ed., 2005. [4] C. A. Balanis, Advanced Engineering Electromagnetics, New York: John Wiley & Sons, 1989.
-  - _Keywords:_ Electromagnetics, Taflove, Hagness, Computational, Finite, Difference, Time, Domain
+  - [3] A. Taflove and S. C. Hagness, Computational Electromagnetics: The Finite-Difference Time-Domain Method, Boston: Artech House, 3rd ed.,…
 - **Overview of Parallelization** <a id="overview-of-parallelization"></a>
-  - EMW supports parallel finite-difference time-domain (FDTD) computation for wave propagation, radiation, and scattering on shared-memory parallelization (SMP) systems, distributed processing (DP) systems, and hardware-accelerated systems.
-  - _Keywords:_ systems, SMP, EMW, parallel, domain, memory, referred, supports
+  - EMW supports parallel finite-difference time-domain (FDTD) computation for wave propagation, radiation, and scattering on shared-memory par…
 - **Shared-Memory Parallelization** <a id="shared-memory-parallelization"></a>
-  - In general, the number of threads to be used in an EMW simulation can be specified either in the Globals section of the command file or by an environment variable. If both are specified, the value in the command file overrides the value ...
-  - _Keywords:_ threads, environment, variable, EMW, Globals, maximum, specified, specification
+  - In general, the number of threads to be used in an EMW simulation can be specified either in the Globals section of the command file or by…
 - **Parallelization Using the Message Passing Interface** <a id="parallelization-using-the-message-passing-interface"></a>
-  - Distributed computation of FDTD can be activated using EMW with the message passing interface (MPI) [1]. EMW uses the MPICH library for MPI implementation [2]. In this methodology, domain decomposition is used, and each subdomain problem...
-  - _Keywords:_ machines, FDTD, MPI, cluster, SMP, computation, EMW, subdomain
+  - Distributed computation of FDTD can be activated using EMW with the message passing interface (MPI) [1]. EMW uses the MPICH library for MPI…
 - **Domain Decomposition** <a id="domain-decomposition"></a>
-  - The automatic domain decomposition (ADD) algorithm in EMW decomposes both 2D and 3D structures for optimal performance of the code in parallel mode.
-  - _Keywords:_ ADD, algorithm, domain, decomposition, EMW, structures, processes, direction
+  - The automatic domain decomposition (ADD) algorithm in EMW decomposes both 2D and 3D structures for optimal performance of the code in paral…
 - **Installing and Running EMW MPI on DP Systems** <a id="installing-and-running-emw-mpi-on-dp-systems"></a>
   - See TCAD Parallelization Environment Setup User Guide.
-  - _Keywords:_ TCAD, Parallelization, Environment, Setup, Guide
 - **Choosing Between Shared-Memory Parallelization and Distributed Processing** <a id="choosing-between-shared-memory-parallelization-and-distribut"></a>
-  - In SMP systems, many cores share one set of memory. The operating system manages the distribution of multiple threads to the cores, and multithreading is largely invisible to users. Threads are not bound to specific cores, and the number...
-  - _Keywords:_ SMP, programs, systems, memory, threads, performance, computing, communication
+  - In SMP systems, many cores share one set of memory. The operating system manages the distribution of multiple threads to the cores, and mul…
 - **Hardware Acceleration Using Graphics Processing Units** <a id="hardware-acceleration-using-graphics-processing-units"></a>
-  - Hardware acceleration using graphics processing units (GPUs) has been used successfully in many fields of computational science and engineering to significantly increase the simulation performance. Due to its regular structure, the FDTD ...
-  - _Keywords:_ GPU, simulations, EMW, single, GPUs, FDTD, hardware, SMP
+  - Hardware acceleration using graphics processing units (GPUs) has been used successfully in many fields of computational science and enginee…
 - **Installing EMW GPU** <a id="installing-emw-gpu"></a>
-  - To run EMW with hardware acceleration, denoted by EMW GPU, you must run it on a machine with a supported NVIDIA Tesla GPU accelerator [3] such as:
-  - _Keywords:_ hardware, EMW, GPU, acceleration, denoted, machine, supported, NVIDIA
+  - To run EMW with hardware acceleration, denoted by EMW GPU, you must run it on a machine with a supported NVIDIA Tesla GPU accelerator [3] s…
 - **Hardware and Software Setup** <a id="hardware-and-software-setup"></a>
-  - If you do not have access to a server with a supported GPU, you must first purchase one of the accelerators previously mentioned. They differ in performance and the size of the GPU device memory, where the latter determines the maximum F...
-  - _Keywords:_ GPU, driver, server, installed, install, NVIDIA, software, access
+  - If you do not have access to a server with a supported GPU, you must first purchase one of the accelerators previously mentioned. They diff…
 - **Optimization Settings** <a id="optimization-settings"></a>
-  - For high-performance computing workloads, changing the default settings of the GPU can increase performance. It is recommended to run the GPU in persistence mode, which can be activated for all GPUs by running the following command (requ...
-  - _Keywords:_ GPU, nvidia, speeds, maximum, memory, performance, persistence, privileges
+  - For high-performance computing workloads, changing the default settings of the GPU can increase performance. It is recommended to run the G…
 - **Running EMW GPU** <a id="running-emw-gpu"></a>
   - To run EMW GPU on an NVIDIA® GPU accelerated server, use the following command:
-  - _Keywords:_ GPU, simulations, nvidia, server, single, EMW, GPUs, simulation
 - **General Considerations and Recommendations** <a id="general-considerations-and-recommendations"></a>
-  - When launching EMW GPU on a GPU-accelerated server, you must ensure that the targeted GPU has sufficient memory for the part of the program that is off-loaded to the GPU. Essentially, the arrays holding the electric and magnetic vector f...
-  - _Keywords:_ GPU, memory, EMW, FDTD, simulation, simulations, problem, during
+  - When launching EMW GPU on a GPU-accelerated server, you must ensure that the targeted GPU has sufficient memory for the part of the program…
 - **Performance** <a id="performance"></a>
-  - The performance of a GPU simulation strongly depends on the occupancy of its streaming multiprocessors. For small FDTD problem sizes, there is not sufficient work to do to exploit the high level of parallelism available on a GPU, and the...
-  - _Keywords:_ GPU, simulations, throughput, performance, simulation, strongly, FDTD, problem
+  - The performance of a GPU simulation strongly depends on the occupancy of its streaming multiprocessors. For small FDTD problem sizes, there…
 - **Monitoring** _(p.46)_ <a id="monitoring"></a>
-  - To monitor the use of GPU resources for an EMW GPU simulation, run the nvidia-smi command. Without any command-line options, it provides some basic usage information about the visible GPUs (see the environment variable CUDA\_VISIBLE\_DEV...
-  - _Keywords:_ GPU, EMW, process, monitor, resources, simulation, nvidia, Without
+  - To monitor the use of GPU resources for an EMW GPU simulation, run the nvidia-smi command. Without any command-line options, it provides so…
 - **Limitations** _(p.46)_ <a id="limitations"></a>
-  - EMW GPU currently supports the most commonly used simulation setups for CMOS image sensor simulations and reports an error if unsupported features are specified such as:
-  - _Keywords:_ GPU, simulations, simulation, EMW, boundary, conditions, computations, currently
+  - EMW GPU currently supports the most commonly used simulation setups for CMOS image sensor simulations and reports an error if unsupported f…
 - **Licensing for Different Parallel Modes** <a id="licensing-for-different-parallel-modes"></a>
-  - Different license features are available for running EMW in parallel mode. The type of license feature to be checked out depends on whether you run EMW in SMP parallel mode, DP parallel mode, mixed DP and SMP parallel mode, or hardware-a...
-  - _Keywords:_ parallel, license, EMW, SMP, Different, features, available, running
+  - Different license features are available for running EMW in parallel mode. The type of license feature to be checked out depends on whether…
 - **SMP Parallel Mode** <a id="smp-parallel-mode"></a>
-  - In SMP parallel mode, EMW first tries to check out a license for DP parallelization as it entitles the user to run the program with an unlimited number of threads. If it fails because the license is not available or already in use by ano...
-  - _Keywords:_ license, SMP, Sentaurus, EMW, parallelization, threads, licenses, parallel
+  - In SMP parallel mode, EMW first tries to check out a license for DP parallelization as it entitles the user to run the program with an unli…
 - **DP Parallel Mode** <a id="dp-parallel-mode"></a>
-  - Running EMW in DP parallel mode requires one license for DP parallelization for every multiple of four MPI processes. For example, an EMW simulation distributed over n nodes using 18 MPI processes checks out five licenses for DP parallel...
-  - _Keywords:_ EMW, parallelization, MPI, processes, Running, parallel, requires, license
+  - Running EMW in DP parallel mode requires one license for DP parallelization for every multiple of four MPI processes. For example, an EMW s…
 - **Mixed DP and SMP Parallel Mode** <a id="mixed-dp-and-smp-parallel-mode"></a>
-  - Since one license for DP parallelization allows the use of an unlimited number of threads, the DP licensing scheme described in DP Parallel Mode also applies to the mixed DP and SMP parallel mode.
-  - _Keywords:_ Since, license, parallelization, allows, unlimited, threads, licensing, scheme
+  - Since one license for DP parallelization allows the use of an unlimited number of threads, the DP licensing scheme described in DP Parallel…
 - **Hardware-Accelerated Parallel Mode** <a id="hardware-accelerated-parallel-mode"></a>
-  - Running EMW on hardware-accelerated systems requires one license for DP parallelization for every accelerator used by the simulation. For example, an EMW simulation on a single node using two available GPUs on that node or an EMW simulat...
-  - _Keywords:_ EMW, license, parallelization, simulation, hardware, accelerated, available, threads
+  - Running EMW on hardware-accelerated systems requires one license for DP parallelization for every accelerator used by the simulation. For e…
 - **Controlling Parallel Licenses** _(p.69)_ <a id="controlling-parallel-licenses"></a>
-  - You can further control the license checkout behavior described for the SMP, DP, and hardware-accelerated parallel modes by specifying the following keywords in the Globals section:
-  - _Keywords:_ parallel, SMP, license, licenses, UnavailableLicenseAction, ParallelLicenses, available, keyword
+  - You can further control the license checkout behavior described for the SMP, DP, and hardware-accelerated parallel modes by specifying the…
 - **References** _(p.69–115)_ <a id="references"></a>
-  - [1] For more information, go to http://www.mpi-forum.org/. [2] For more information, go to http://www.mpich.org/. [3] For more information, go to http://www.nvidia.com/.
-  - _Keywords:_ information, nvidia, Parallelization, References, appendix, describes, keywords, available
+  - [1] For more information, go to http://www.mpi-forum.org/. [2] For more information, go to http://www.mpich.org/. [3] For more information,…
 - **Boundary** _(p.115–117)_ <a id="boundary"></a>
   - This section is mandatory and can occur six times.
-  - _Keywords:_ PML, grading, tensor, polynomial, coefficient, Thickness, Omega, Maximum
 - **CodeVExcitation** _(p.117–118)_ <a id="codevexcitation"></a>
   - This section is optional and can occur only once.
-  - _Keywords:_ signal, Signal, electric, amplitude, Anchor, smallest, coordinates, periods
 - **ComplexRefractiveIndex** _(p.118–119)_ <a id="complexrefractiveindex"></a>
   - This section is optional and can occur multiple times.
-  - _Keywords:_ complex, refractive, Controls, Exclusive, dependency, imaginary, RealImag, interpolation
 - **Detector** _(p.119–121)_ <a id="detector"></a>
   - This section is optional and can occur only once.
-  - _Keywords:_ detector, simulation, maximum, Exclusive, Detection, performed, direction, Detector
 - **DFT** _(p.121)_ <a id="dft"></a>
   - This section is optional and can occur only once.
-  - _Keywords:_ DFT, wavelength, optional, Keywords, Keyword, Unit, Description, DownSampling
 - **DispersiveMedia** _(p.122)_ <a id="dispersivemedia"></a>
   - This section is optional and can occur multiple times.
-  - _Keywords:_ dispersive, medium, specification, materials, regions, Exclusive, DeltaK, applies
 - **Extractor** _(p.122–125)_ <a id="extractor"></a>
   - This section is optional and can occur multiple times.
-  - _Keywords:_ minimum, maximum, device, extents, corresponding, coordinate, extractor, dimensions
 - **Farfield** _(p.125–127)_ <a id="farfield"></a>
   - This section is optional and can occur multiple times.
-  - _Keywords:_ denotes, azimuthal, format, angles, Defines, computation, domain, constant
 - **GaussianBeamExcitation** _(p.127–129)_ <a id="gaussianbeamexcitation"></a>
   - This section is optional and can occur only once.
-  - _Keywords:_ Signal, coordinate, Polarization, excitation, minimum, maximum, device, extents
 - **Globals** _(p.129–131)_ <a id="globals"></a>
   - This section is mandatory and must occur only once.
-  - _Keywords:_ Exclusive, MPI, simulation, identifier, Automatic, NumberOfThreads, tensor, compressed
 - **Monitor** _(p.131–133)_ <a id="monitor"></a>
   - This section is optional and can occur multiple times.
-  - _Keywords:_ Specifies, interval, monitor, active, DFT, wavelength, wavelengths, Monitor
 - **PECMedia** _(p.133)_ <a id="pecmedia"></a>
   - This section is optional and can occur multiple times.
-  - _Keywords:_ PEC, medium, specification, materials, regions, applies, optional, multiple
 - **PlaneWaveExcitation** _(p.135)_ <a id="planewaveexcitation"></a>
   - This section is optional and can occur only once.
-  - _Keywords:_ excitation, coordinate, Polarization, Signal, minimum, maximum, device, extents
 - **Plot** _(p.135–140)_ <a id="plot"></a>
   - This section is optional and can occur multiple times.
-  - _Keywords:_ Specifies, Exclusive, plotted, minimum, maximum, device, extents, corresponding
 - **PMCMedia** _(p.140)_ <a id="pmcmedia"></a>
   - This section is optional and can occur multiple times.
-  - _Keywords:_ PMC, medium, specification, materials, regions, applies, optional, multiple
 - **RTA** _(p.142)_ <a id="rta"></a>
   - This section is optional and can occur only once.
-  - _Keywords:_ Specifies, interval, active, DFT, wavelengths, written, design, experiments
 - **Save** _(p.142–143)_ <a id="save"></a>
   - This section is optional and can occur multiple times.
-  - _Keywords:_ Save, Specifies, DFT, wavelengths, One, corners, Use, minimum
 - **Sensor** _(p.143–146)_ <a id="sensor"></a>
   - This section is optional and can occur multiple times.
-  - _Keywords:_ Specifies, sensor, domain, coordinate, Exclusive, Sensor, minimum, maximum
 - **TruncatedPlaneWaveExcitation** _(p.146–149)_ <a id="truncatedplanewaveexcitation"></a>
   - This section is optional and can occur only once.
-  - _Keywords:_ excitation, coordinate, Polarization, Signal, minimum, maximum, device, extents
 - **Unexpected Results** <a id="unexpected-results"></a>
 - **Did the simulation converge?** <a id="did-the-simulation-converge"></a>
   - If the simulation converged successfully, you should see the following line in the .out file:
-  - _Keywords:_ simulation, converged, successfully, Detector, Termination, criterion
 - **Is the excitation correct?** <a id="is-the-excitation-correct"></a>
   - You can double-check the excitation angle in the .out file:
-  - _Keywords:_ Excitation, angles, specification, Theta, Psi, You, double, excitation
 - **Are the material parameters correct?** _(p.150)_ <a id="are-the-material-parameters-correct"></a>
   - In the log file, you can check all values for the refractive index and extinction coefficient:
-  - _Keywords:_ refractive, extinction, coefficient, Setting, region, substrate, Complex
 - **Simulations Run Nonstop** _(p.150)_ <a id="simulations-run-nonstop"></a>
 - **Did the simulation converge?** _(p.150)_ <a id="did-the-simulation-converge"></a>
   - If the simulation converged successfully, you should see the following line in the .out file:
-  - _Keywords:_ simulation, converged, successfully, Detector, Termination, criterion
 - **Is the value of the time step reasonable?** <a id="is-the-value-of-the-time-step-reasonable"></a>
   - In the .out file, you can find the chosen time step:
-  - _Keywords:_ chosen, Time, typically, shorter, probably, Refer, Sentaurus, Mesh
 - **The maximum deviation first decreases but then increases again. What can I do?** <a id="the-maximum-deviation-first-decreases-but-then-increases-aga"></a>
 - **You can:** <a id="you-can"></a>
-  - 1. From the log file, extract the time steps when the deviation starts to increase. 2. Perform some plotting around this time step to see where the problem is located. 3. Very often, the wave front hits a certain structure or boundary. I...
-  - _Keywords:_ boundary, extract, deviation, starts, increase, Perform, plotting, around
+  - 1. From the log file, extract the time steps when the deviation starts to increase. 2. Perform some plotting around this time step to see w…
 - **Simulator Terminates** <a id="simulator-terminates"></a>
 - **If EMW terminates:** _(p.151)_ <a id="if-emw-terminates"></a>
-  - 1. Check the .out file for error messages. 2. Remove freshly added features, or try to reduce your command file as much as possible, for example, remove all Plot, Extractor, Detector, Sensor, and Save sections.
-  - _Keywords:_ Check, messages, Remove, freshly, features, reduce, possible, remove
+  - 1. Check the .out file for error messages. 2. Remove freshly added features, or try to reduce your command file as much as possible, for ex…
 - **A** _(p.151)_ <a id="a"></a>
 - **ADD** _(p.151–152)_ <a id="add"></a>
   - Automatic domain decomposition.
-  - _Keywords:_ Automatic, domain, decomposition
 - **ADE** _(p.152)_ <a id="ade"></a>
   - Auxiliary differential equation.
-  - _Keywords:_ Auxiliary, differential, equation
 - **B** _(p.152)_ <a id="b"></a>
 - **BC** <a id="bc"></a>
   - Boundary condition.
-  - _Keywords:_ Boundary, condition
 - **C** <a id="c"></a>
 - **CFL** _(p.153)_ <a id="cfl"></a>
   - Courant–Friedrichs–Lewy.
-  - _Keywords:_ Courant, Friedrichs, Lewy
 - **CPML** _(p.153)_ <a id="cpml"></a>
   - Convolutional perfectly matching layer.
-  - _Keywords:_ Convolutional, perfectly, matching
 - **CRI** _(p.153)_ <a id="cri"></a>
   - Complex refractive index.
-  - _Keywords:_ Complex, refractive
 - **CRIMI** <a id="crimi"></a>
   - Complex refractive index model interface.
-  - _Keywords:_ Complex, refractive, interface
 - **D** <a id="d"></a>
 - **DFT** <a id="dft"></a>
   - Discrete Fourier transform.
-  - _Keywords:_ Discrete, Fourier, transform
 - **DP** <a id="dp"></a>
   - Distributed processing.
-  - _Keywords:_ Distributed, processing
 - **E** <a id="e"></a>
 - **EMW MPI** <a id="emw-mpi"></a>
   - The distributed processing mode of EMW.
-  - _Keywords:_ distributed, processing, EMW
 - **F** <a id="f"></a>
 - **FDTD** <a id="fdtd"></a>
   - Finite-difference time-domain.
-  - _Keywords:_ Finite, difference, domain
 - **G** <a id="g"></a>
 - **GPU** <a id="gpu"></a>
   - Graphics processing unit.
-  - _Keywords:_ Graphics, processing
 - **L** <a id="l"></a>
 - **LSF** <a id="lsf"></a>
   - Load Sharing Facility.
-  - _Keywords:_ Load, Sharing, Facility
 - **M** <a id="m"></a>
 - **MPD** <a id="mpd"></a>
   - Management process or daemon.
-  - _Keywords:_ Management, process, daemon
 - **MPI** <a id="mpi"></a>
   - Message passing interface.
-  - _Keywords:_ Message, passing, interface
 - **N** <a id="n"></a>
 - **NaN** <a id="nan"></a>
   - Not a number.
 - **P** <a id="p"></a>
 - **PEC** <a id="pec"></a>
   - Perfect electric conductor.
-  - _Keywords:_ Perfect, electric, conductor
 - **PMC** <a id="pmc"></a>
   - Perfect magnetic conductor.
-  - _Keywords:_ Perfect, magnetic, conductor
 - **Q** <a id="q"></a>
 - **QSC** <a id="qsc"></a>
-  - Qualified system configuration. The Synopsys Platforms Core Team defines and communicates the standard system configurations for the build and release environment for all Synopsys products. The environment is documented as the QSC and is...
-  - _Keywords:_ system, Synopsys, environment, Qualified, configuration, Platforms, Core, Team
+  - Qualified system configuration. The Synopsys Platforms Core Team defines and communicates the standard system configurations for the build…
 - **S** <a id="s"></a>
 - **SMP** <a id="smp"></a>
   - Shared-memory parallelization.
-  - _Keywords:_ Shared, memory, parallelization
 - **T** <a id="t"></a>
 - **TFSF** _(p.154)_ <a id="tfsf"></a>
   - Total-field scattered-field.
-  - _Keywords:_ Total, scattered, Glossary

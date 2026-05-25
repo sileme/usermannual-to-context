@@ -3,1291 +3,866 @@
 Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
 
 - **Sentaurus™ Workbench User Guide** _(p.1)_ <a id="sentaurus-workbench-user-guide"></a>
-  - Version O-2018.06, June 2018
-  - _Keywords:_ Version, June
 - **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
-  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
-  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursua…
 - **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
-  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
-  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to natio…
 - **Disclaimer** <a id="disclaimer"></a>
-  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITE…
 - **Trademarks** <a id="trademarks"></a>
-  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html. All other product or company names may be trademarks of their respective owners.
-  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-b…
 - **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
   - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
-  - _Keywords:_ applicable, Free, Open, Source, Software, FOSS, licensing, notices
 - **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
-  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
-  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible…
 - **About This Guide xiii** _(p.3)_ <a id="about-this-guide-xiii"></a>
   - Related Publications . . xiii
-  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
 - **Chapter 1 Introduction to Sentaurus Workbench 1** <a id="chapter-1-introduction-to-sentaurus-workbench-1"></a>
   - Functionality of Sentaurus Workbench. . .
-  - _Keywords:_ Sentaurus, Workbench, Directories, Projects, Functionality, Compatibility, Previous, Versions
 - **Chapter 2 Managing Projects 11** _(p.4)_ <a id="chapter-2-managing-projects-11"></a>
   - Creating Project Directories . . .
-  - _Keywords:_ Projects, Folders, Project, Creating, Changing, Runtime, Editing, Mode
 - **Chapter 3 View Settings 25** _(p.5)_ <a id="chapter-3-view-settings-25"></a>
   - View Settings for Projects. . . . . 25
-  - _Keywords:_ View, Project, Nodes, Settings, Configuring, Tool, Viewing, Exporting
 - **Chapter 4 Editing Projects 55** _(p.6)_ <a id="chapter-4-editing-projects-55"></a>
   - Read-Only and Writable Projects . . . . 55
-  - _Keywords:_ Experiments, Adding, Variables, Nodes, Tools, Copying, Deleting, Changing
 - **Chapter 5 Design-of-Experiments Wizard and Taguchi Wizard 109** _(p.7)_ <a id="chapter-5-design-of-experiments-wizard-and-taguchi-wizard-10"></a>
   - Design-of-Experiments (DoE) Wizard . . . . 109
-  - _Keywords:_ Step, Design, Selecting, Experiments, Wizard, Mode, Final, Specifying
 - **Chapter 6 Preprocessing Projects 127** _(p.8)_ <a id="chapter-6-preprocessing-projects-127"></a>
   - Introduction to Project Parameterization . 127
-  - _Keywords:_ Tcl, Blocks, Preprocessing, Variables, Expressions, Expression, Node, Dependencies
 - **Chapter 7 Running Projects 145** _(p.9)_ <a id="chapter-7-running-projects-145"></a>
   - Running Projects From the Project Editor . . . . . 145
-  - _Keywords:_ Projects, Execution, Nodes, Project, Running, Runtime, Editing, Mode
 - **Chapter 8 Cleaning Up Projects 177** _(p.9)_ <a id="chapter-8-cleaning-up-projects-177"></a>
   - Cleaning Up Projects . . . . 177
-  - _Keywords:_ Cleaning, Projects, Nodes, Line, Detecting, Remove, Specifying, Project
 - **Chapter 9 Configuring Sentaurus Workbench 183** <a id="chapter-9-configuring-sentaurus-workbench-183"></a>
   - Preferences . . 183
-  - _Keywords:_ Preferences, Configuring, Tool, Run, Limits, Settings, Global, Users
 - **Chapter 10 Integrating Sentaurus Workbench With Other Tools 211** _(p.10)_ <a id="chapter-10-integrating-sentaurus-workbench-with-other-tools-"></a>
   - Creating Symbolic Links to Node Output Files . . . . . . 211
-  - _Keywords:_ Visualization, Visualizing, Step, RSM, Model, Creating, Symbolic, Links
 - **Chapter 11 Schedulers 217** _(p.10)_ <a id="chapter-11-schedulers-217"></a>
   - Scheduling Systems . . . 217
-  - _Keywords:_ Scheduler, Queues, Troubleshooting, Job, Tool, Associations, LSF, SGE
 - **Chapter 12 Organization of Projects 241** _(p.11)_ <a id="chapter-12-organization-of-projects-241"></a>
   - Limitations of the Traditional Project Organization . . . . 241
-  - _Keywords:_ Project, Organization, Hierarchical, Traditional, Without, Projects, Storage, Renumbering
 - **Appendix A Preprocessor and Reference Syntax 257** <a id="appendix-a-preprocessor-and-reference-syntax-257"></a>
   - @-References and Tree Navigation . . . . 257
-  - _Keywords:_ Flow, Orientation, References, Tree, Navigation, Horizontal, Vertical, Split
 - **Appendix B Menus and Toolbar Buttons of the User Interface 267** _(p.12–13)_ <a id="appendix-b-menus-and-toolbar-buttons-of-the-user-interface-2"></a>
   - Project Menu . . . . . 267
-  - _Keywords:_ Menu, Sentaurus, Workbench, Project, Appendix, Configuration, simulation, Tool
 - **Related Publications** _(p.13)_ <a id="related-publications"></a>
   - For additional information, see:
-  - _Keywords:_ available, SolvNet, Sentaurus, additional, information, documentation, installed, software
 - **Conventions** _(p.14)_ <a id="conventions"></a>
   - The following conventions are used in Synopsys documentation.
-  - _Keywords:_ Identifies, screen, identifies, Key, Indicates, Ctrl, New, conventions
 - **Customer Support** _(p.14)_ <a id="customer-support"></a>
   - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
-  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
 - **Accessing SolvNet** _(p.14)_ <a id="accessing-solvnet"></a>
-  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
-  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synops…
 - **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
   - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
-  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
 - **Contacting Your Local TCAD Support Team Directly** _(p.15)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
 - **Send an e-mail message to:** _(p.15–17)_ <a id="send-an-e-mail-message-to"></a>
-  - ■ support-tcad-us@synopsys.com from within North America and South America support-tcad-eu@synopsys.com from within Europe support-tcad-ap@synopsys.com from within Asia Pacific (China, Taiwan, Singapore, Malaysia, India, Australia) suppo...
-  - _Keywords:_ support, synopsys, within, America, North, South, Europe, Asia
+  - ■ support-tcad-us@synopsys.com from within North America and South America support-tcad-eu@synopsys.com from within Europe support-tcad-ap@…
 - **Functionality of Sentaurus Workbench** _(p.17–18)_ <a id="functionality-of-sentaurus-workbench"></a>
-  - Sentaurus Workbench is the framework environment designed to simplify the use of Synopsys TCAD tools. It frees you from typing system commands for handling data files or starting applications. One of its main advantages is the possibilit...
-  - _Keywords:_ simulation, projects, environment, interface, Sentaurus, Workbench, handling, flexible
+  - Sentaurus Workbench is the framework environment designed to simplify the use of Synopsys TCAD tools. It frees you from typing system comma…
 - **Sentaurus Workbench Projects** _(p.18)_ <a id="sentaurus-workbench-projects"></a>
-  - A project consists of a family of scenarios. Each scenario consists of several experiments where certain input variables take different values. Parameters can be introduced at any point in the simulation flow, from the process to the dev...
-  - _Keywords:_ simulation, project, phases, directory, Sentaurus, Workbench, Family, Tree
+  - A project consists of a family of scenarios. Each scenario consists of several experiments where certain input variables take different val…
 - **Compatibility With Previous Versions** _(p.19)_ <a id="compatibility-with-previous-versions"></a>
-  - Sentaurus Workbench can load, edit, and run projects created in previous versions of the tool. Sentaurus Workbench makes all of the necessary conversions automatically.
-  - _Keywords:_ Sentaurus, Workbench, projects, versions, created, previous, necessary, conversions
+  - Sentaurus Workbench can load, edit, and run projects created in previous versions of the tool. Sentaurus Workbench makes all of the necessa…
 - **Starting Sentaurus Workbench** _(p.19)_ <a id="starting-sentaurus-workbench"></a>
   - You must set up environment variables before starting Sentaurus Workbench.
-  - _Keywords:_ You, environment, variables, before, starting, Sentaurus, Workbench
 - **Setting Up Environment Variables** _(p.19)_ <a id="setting-up-environment-variables"></a>
   - You must set up the following environment variables before starting Sentaurus Workbench:
-  - _Keywords:_ setenv, Sentaurus, Workbench, STDB, STRELEASE, version, STROOT, You
 - **Launching Sentaurus Workbench From the Command Line** _(p.20)_ <a id="launching-sentaurus-workbench-from-the-command-line"></a>
   - You can launch Sentaurus Workbench from the command line by specifying:
-  - _Keywords:_ Sentaurus, Workbench, Initializes, Optimizer, Calibration, hierarchical, You, launch
 - **1: Introduction to Sentaurus Workbench** _(p.20)_ <a id="1-introduction-to-sentaurus-workbench"></a>
   - User Interface
-  - _Keywords:_ Sentaurus, Workbench, license, launch, available, nowait, Switches, traditional
 - **Examples** <a id="examples"></a>
   - Launch Sentaurus Workbench Basic mode:
-  - _Keywords:_ Launch, Sentaurus, Workbench, Basic, project, directory, jbrown, sample_app
 - **User Interface** <a id="user-interface"></a>
-  - The main window of Sentaurus Workbench consists of the projects browser and tabs for the Project Editor (Project tab) and the Scheduler (Scheduler tab).
-  - _Keywords:_ Project, Scheduler, window, Sentaurus, Workbench, consists, projects, browser
+  - The main window of Sentaurus Workbench consists of the projects browser and tabs for the Project Editor (Project tab) and the Scheduler (Sc…
 - **Projects Browser** _(p.21)_ <a id="projects-browser"></a>
-  - You can manage projects in the projects browser (the Projects panel) (see Figure 1 on page 5). The projects are organized hierarchically as a tree. The tree displays the current file system as specified by the setting of the STDB environ...
-  - _Keywords:_ projects, project, folders, browser, STDB, Sentaurus, Workbench, Projects
+  - You can manage projects in the projects browser (the Projects panel) (see Figure 1 on page 5). The projects are organized hierarchically as…
 - **Viewing Directories** _(p.22)_ <a id="viewing-directories"></a>
-  - The directories can be expanded or collapsed, allowing you to view the subdirectories and project folders below directories. You can navigate the directories using keyboard and mouse operations.
-  - _Keywords:_ directories, expanded, collapsed, allowing, subdirectories, project, folders, You
+  - The directories can be expanded or collapsed, allowing you to view the subdirectories and project folders below directories. You can naviga…
 - **Attaching Root Directories** _(p.22)_ <a id="attaching-root-directories"></a>
-  - While you can specify the file system directory where all your projects reside using the STDB environment variable, you can also include other directories at the same level, in the projects browser.
-  - _Keywords:_ directory, projects, directories, project, browser, specify, system, reside
+  - While you can specify the file system directory where all your projects reside using the STDB environment variable, you can also include ot…
 - **Updating the Status of Directories** <a id="updating-the-status-of-directories"></a>
-  - In the projects browser, the status of the directory structure, attached root directories, and projects is updated regularly. The interval for updates is set in the preferences. However, you can update a project directory or root directo...
-  - _Keywords:_ directory, projects, status, update, browser, structure, attached, directories
+  - In the projects browser, the status of the directory structure, attached root directories, and projects is updated regularly. The interval…
 - **Project Editor** _(p.23)_ <a id="project-editor"></a>
-  - The Project Editor allows you to access, organize, and edit a database of simulation projects on the Project tab. The simulation flow can be oriented horizontally (see Figure 1 on page 5) or vertically (see Figure 2 on page 7).
-  - _Keywords:_ simulation, orientation, Project, experiments, vertical, ldVg_lin, SDEVICE, SVISUAL
+  - The Project Editor allows you to access, organize, and edit a database of simulation projects on the Project tab. The simulation flow can b…
 - **Scheduler** _(p.23–24)_ <a id="scheduler"></a>
-  - You can use the Scheduler to submit, terminate, and monitor the simulation jobs of a project. You can also define scheduling queues and job-mapping restrictions. The Scheduler gives you an overview of the running jobs and their distribut...
-  - _Keywords:_ slowfs, vryvkin, STDB, CMOS, synopsys, sprocess, ch10cae5users, internal
+  - You can use the Scheduler to submit, terminate, and monitor the simulation jobs of a project. You can also define scheduling queues and job…
 - **Utilities** _(p.24)_ <a id="utilities"></a>
   - This section describes the different utilities available in Sentaurus Workbench.
-  - _Keywords:_ describes, different, utilities, available, Sentaurus, Workbench
 - **gcleanup** _(p.24)_ <a id="gcleanup"></a>
-  - This utility cleans up a project and performs all of the cleanup operations including the renumbering of the tree (see Cleaning Up Projects From the Command Line on page 179).
-  - _Keywords:_ utility, cleans, project, performs, cleanup, operations, including, renumbering
+  - This utility cleans up a project and performs all of the cleanup operations including the renumbering of the tree (see Cleaning Up Projects…
 - **gjob** _(p.25)_ <a id="gjob"></a>
-  - This utility manages the execution of individual jobs and controls the evaluation of the job prologue and epilogue, and the running of the corresponding simulation tool (see Launching a Specific Job on page 147).
-  - _Keywords:_ utility, manages, execution, individual, controls, evaluation, prologue, epilogue
+  - This utility manages the execution of individual jobs and controls the evaluation of the job prologue and epilogue, and the running of the…
 - **gsub** _(p.25)_ <a id="gsub"></a>
-  - This utility consists of a simple command to submit jobs to the Scheduler for execution. It also constitutes the interface of Sentaurus Workbench to different internal or external batch systems (see Submitting Jobs to Queues on page 146).
-  - _Keywords:_ utility, consists, simple, submit, Scheduler, execution, constitutes, interface
+  - This utility consists of a simple command to submit jobs to the Scheduler for execution. It also constitutes the interface of Sentaurus Wor…
 - **gtclsh** _(p.25)_ <a id="gtclsh"></a>
-  - This utility is a tool command language (Tcl) shell that has been extended with all of the internal commands of Sentaurus Workbench, such as tree manipulation.
-  - _Keywords:_ utility, language, Tcl, extended, internal, Sentaurus, Workbench, manipulation
+  - This utility is a tool command language (Tcl) shell that has been extended with all of the internal commands of Sentaurus Workbench, such a…
 - **spp** <a id="spp"></a>
   - This utility is the Sentaurus Workbench preprocessor that prepares a project for execution, which includes:
-  - _Keywords:_ execution, utility, Sentaurus, Workbench, preprocessor, prepares, project, includes
 - **swbdiag** <a id="swbdiag"></a>
-  - This utility is used to troubleshoot issues originating in customer environments that might affect the behavior of Sentaurus Workbench (see Appendix E on page 291).
-  - _Keywords:_ utility, troubleshoot, issues, originating, customer, environments, affect, behavior
+  - This utility is used to troubleshoot issues originating in customer environments that might affect the behavior of Sentaurus Workbench (see…
 - **swblm** _(p.26)_ <a id="swblm"></a>
-  - This daemon process is a dispatcher of interprocess communications between the Sentaurus Workbench components swb, gjob, gsub, and spp. Sentaurus Workbench starts this process automatically when needed. You do not need to terminate a run...
-  - _Keywords:_ process, daemon, Sentaurus, Workbench, dispatcher, interprocess, communications, between
+  - This daemon process is a dispatcher of interprocess communications between the Sentaurus Workbench components swb, gjob, gsub, and spp. Sen…
 - **swbopt** _(p.26–27)_ <a id="swbopt"></a>
-  - This utility is available in the Sentaurus Workbench Advanced mode and is designed for parametric studies in large-scale projects with hundreds of individual simulations, such as automatic iterative optimization, sensitivity analysis, an...
-  - _Keywords:_ projects, analysis, utility, available, Sentaurus, Workbench, Advanced, designed
+  - This utility is available in the Sentaurus Workbench Advanced mode and is designed for parametric studies in large-scale projects with hund…
 - **Creating Project Directories** _(p.27–28)_ <a id="creating-project-directories"></a>
   - To create a project directory:
-  - _Keywords:_ project, directory, Project, New, Rename, characters, create, Choose
 - **Creating Folders** _(p.28)_ <a id="creating-folders"></a>
   - NOTE You cannot create folders inside project directories.
-  - _Keywords:_ folder, New, Folder, create, project, directory, characters, You
 - **Opening Projects** <a id="opening-projects"></a>
   - To open a project:
-  - _Keywords:_ project, projects, browser, Double, Alternatively, Select, Press, Enter
 - **Changing the Runtime Editing Mode of a Project** <a id="changing-the-runtime-editing-mode-of-a-project"></a>
   - NOTE Projects must be in the writable area to change the runtime editing mode.
-  - _Keywords:_ project, change, runtime, editing, Runtime, Editing, Mode, Locked
 - **Changing the Default Runtime Editing Mode of Projects** _(p.29)_ <a id="changing-the-default-runtime-editing-mode-of-projects"></a>
-  - The Editable mode is the default mode for projects. However, you can configure Sentaurus Workbench to set up the runtime editing mode automatically for new projects and any old projects that do not have a runtime editing mode selected.
-  - _Keywords:_ projects, runtime, editing, Editable, Preferences, Mode, However, configure
+  - The Editable mode is the default mode for projects. However, you can configure Sentaurus Workbench to set up the runtime editing mode autom…
 - **Copying Projects or Folders** _(p.30)_ <a id="copying-projects-or-folders"></a>
   - You can copy multiple projects or folders.
-  - _Keywords:_ folder, projects, project, folders, copied, Copy, Projects, original
 - **Linking Projects** _(p.30)_ <a id="linking-projects"></a>
-  - You can link two different projects, which allows you to refer to the simulation results of one project in another project without executing the referred nodes.
-  - _Keywords:_ project, projects, parent, Sentaurus, Workbench, Bridge, You, different
+  - You can link two different projects, which allows you to refer to the simulation results of one project in another project without executin…
 - **Command File of the Bridge Tool** _(p.31)_ <a id="command-file-of-the-bridge-tool"></a>
-  - The command file of the Bridge tool specifies the name of a parent project and the nodes from the parent project to be linked to a child project.
-  - _Keywords:_ project, parent, setting, Bridge, Path, stored, Parent, PStoSync
+  - The command file of the Bridge tool specifies the name of a parent project and the nodes from the parent project to be linked to a child pr…
 - **Synchronizing Dependent Projects** _(p.32)_ <a id="synchronizing-dependent-projects"></a>
   - Different synchronization modes of parent and child projects are available under the Tool menu when the Bridge tool is selected:
-  - _Keywords:_ project, Bridge, parent, available, Tool, required, Different, synchronization
 - **Tool > Synchronize With Parent Project** _(p.32–33)_ <a id="tool-synchronize-with-parent-project"></a>
   - This command performs the following operations:
-  - _Keywords:_ project, colspan, rowspan, parent, synchronized, Parent, Vdd, Vgg
 - **Saving Projects** _(p.33–34)_ <a id="saving-projects"></a>
   - To save the current project in the same directory:
-  - _Keywords:_ Project, project, Choose, Save, directory, copying, Clean, create
 - **Automatically Saving Projects** _(p.34)_ <a id="automatically-saving-projects"></a>
-  - You can configure Sentaurus Workbench to save your projects automatically. Sentaurus Workbench periodically saves the currently opened project for your convenience.
-  - _Keywords:_ Sentaurus, Workbench, projects, project, saving, Preferences, Project, Auto
+  - You can configure Sentaurus Workbench to save your projects automatically. Sentaurus Workbench periodically saves the currently opened proj…
 - **Moving Projects or Folders** _(p.35)_ <a id="moving-projects-or-folders"></a>
   - You can move projects and folders across directories by either a drag-and-drop operation or a cut-and-paste operation.
-  - _Keywords:_ project, projects, folder, You, folders, operation, cannot, Projects
 - **Renaming Projects or Folders** _(p.35)_ <a id="renaming-projects-or-folders"></a>
   - NOTE Operations on the Family Tree directly act on the file system. Therefore, any delete, move, or rename operation cannot be undone.
-  - _Keywords:_ system, rename, project, folder, characters, Operations, Family, Tree
 - **Deleting Projects or Folders** <a id="deleting-projects-or-folders"></a>
   - You can delete multiple projects or folders.
-  - _Keywords:_ project, delete, folder, Delete, You, multiple, projects, folders
 - **Accessing Project Documentation** _(p.36)_ <a id="accessing-project-documentation"></a>
-  - You can attach a documentation file to a project. The file format must be PDF, and the file name should be greadme.pdf. The file can contain any information about the project.
-  - _Keywords:_ project, documentation, You, attach, format, PDF, greadme, contain
+  - You can attach a documentation file to a project. The file format must be PDF, and the file name should be greadme.pdf. The file can contai…
 - **Exporting and Importing Projects** _(p.37–38)_ <a id="exporting-and-importing-projects"></a>
   - You can export projects and directories into a package.
-  - _Keywords:_ projects, directories, Package, Export, package, selected, SWB, details
 - **Encrypted Packages** _(p.38)_ <a id="encrypted-packages"></a>
-  - Many users have difficulties using email to send packaged Sentaurus Workbench projects. Firewalls and email filters unpack the package, detect files with potentially dangerous extensions (.cmd), and block those files or even the entire e...
-  - _Keywords:_ package, packaged, Sentaurus, Workbench, encryption, projects, encrypted, project
+  - Many users have difficulties using email to send packaged Sentaurus Workbench projects. Firewalls and email filters unpack the package, det…
 - **Configuring Sentaurus Workbench to Exit Automatically** _(p.39)_ <a id="configuring-sentaurus-workbench-to-exit-automatically"></a>
-  - You might forget to exit Sentaurus Workbench, for example, before leaving for vacation or the weekend. As the result, inactive tools keep checked out licenses. You can configure Sentaurus Workbench to exit automatically if no user activi...
-  - _Keywords:_ Sentaurus, Workbench, dialog, before, SWB, inactivity, warning, Preferences
+  - You might forget to exit Sentaurus Workbench, for example, before leaving for vacation or the weekend. As the result, inactive tools keep c…
 - **Resetting the Inactivity Time-Out** _(p.40)_ <a id="resetting-the-inactivity-time-out"></a>
   - Click the mouse button or press any key in the user interface of Sentaurus Workbench or Sentaurus Visual to reset the inactivity time-out.
-  - _Keywords:_ Sentaurus, Click, button, interface, Workbench, Visual, inactivity
 - **2: Managing Projects** _(p.40–41)_ <a id="2-managing-projects"></a>
   - Configuring Sentaurus Workbench to Exit Automatically
-  - _Keywords:_ Sentaurus, Workbench, Configuring, Exit, Automatically, describes, modify, settings
 - **View Settings for Projects** _(p.41–42)_ <a id="view-settings-for-projects"></a>
-  - The Project tab consists of the following main sections: Family Tree, Experimental Plan, Parameter Values, and Variable Values (see Figure 6).
-  - _Keywords:_ project, settings, Project, database, projects, These, View, oriented
+  - The Project tab consists of the following main sections: Family Tree, Experimental Plan, Parameter Values, and Variable Values (see Figure…
 - **Configuring the Default View Settings in Preferences** <a id="configuring-the-default-view-settings-in-preferences"></a>
-  - The default view settings are configured in the preferences (see Preferences on page 183). These settings apply to any project that does not have project-level view settings, that is, the project does not have the .database file in its d...
-  - _Keywords:_ settings, project, preferences, projects, configured, Preferences, These, database
+  - The default view settings are configured in the preferences (see Preferences on page 183). These settings apply to any project that does no…
 - **Restoring the Default View Settings in Preferences** _(p.43)_ <a id="restoring-the-default-view-settings-in-preferences"></a>
   - The view settings stored in the .database file under the project directory override the settings in the preferences.
-  - _Keywords:_ settings, project, preferences, View, stored, database, directory, override
 - **Configuring the Project Orientation** <a id="configuring-the-project-orientation"></a>
-  - By default, Sentaurus Workbench displays projects in the horizontal orientation, where the tool flow is shown in the topmost row from left to right, and parameterized experiments are rows of the Family Tree (see Figure 6 on page 25).
-  - _Keywords:_ orientation, projects, project, vertical, horizontal, parameterized, experiments, Family
+  - By default, Sentaurus Workbench displays projects in the horizontal orientation, where the tool flow is shown in the topmost row from left…
 - **Setting the Project View Mode** _(p.44)_ <a id="setting-the-project-view-mode"></a>
   - Sentaurus Workbench allows you to display projects in two modes:
-  - _Keywords:_ rowspan, compact, View, allows, projects, simulation, displayed, parameterization
 - **Customizing the View of the Current Project** _(p.45–46)_ <a id="customizing-the-view-of-the-current-project"></a>
   - You can customize the view of the current project by showing or hiding the following flow elements manually:
-  - _Keywords:_ View, elements, hidden, instance, CMOS, Project, SIM2P, Customize
 - **3: View Settings** _(p.46–47)_ <a id="3-view-settings"></a>
   - View Settings for Projects
-  - _Keywords:_ instance, View, Variables, details, summary, Customize, Current, Step
 - **Changing the Font of the Project View** _(p.47–48)_ <a id="changing-the-font-of-the-project-view"></a>
   - You can change the font attributes of the project view for the currently open project.
-  - _Keywords:_ Font, attributes, project, Choose, dialog, Family, Tree, change
 - **Changing the Application Font** _(p.48)_ <a id="changing-the-application-font"></a>
-  - Sentaurus Workbench uses the default system font as the default application font except for the project view, that is, the main menus, projects browser, and dialog boxes.
-  - _Keywords:_ application, change, medium, fixedfont, Sentaurus, Workbench, system, except
+  - Sentaurus Workbench uses the default system font as the default application font except for the project view, that is, the main menus, proj…
 - **Configuring the Column Width and Row Height** <a id="configuring-the-column-width-and-row-height"></a>
-  - By default, Sentaurus Workbench automatically calculates the column widths and the row heights to adjust the project data. You can customize the width of all columns and the height of all rows in the project table by manually changing th...
-  - _Keywords:_ column, project, Sentaurus, Workbench, widths, heights, automatically, calculates
+  - By default, Sentaurus Workbench automatically calculates the column widths and the row heights to adjust the project data. You can customiz…
 - **Magnifying the Project View** _(p.49)_ <a id="magnifying-the-project-view"></a>
-  - You can change the magnification of the project view. When a project has a large Family Tree, it can be useful to zoom out of the project view.
-  - _Keywords:_ project, Zoom, View, Choose, Ctrl, button, change, Out
+  - You can change the magnification of the project view. When a project has a large Family Tree, it can be useful to zoom out of the project v…
 - **Freezing Columns and Rows** _(p.50)_ <a id="freezing-columns-and-rows"></a>
-  - When a project has many tools and parametric steps, you might want to freeze a certain part of the Family Tree and keep it visible on your screen when scrolling through the rest of the Family Tree to the right.
-  - _Keywords:_ columns, rowspan, freeze, Family, Tree, project, visible, screen
+  - When a project has many tools and parametric steps, you might want to freeze a certain part of the Family Tree and keep it visible on your…
 - **Copying Data to Other Tools** _(p.50)_ <a id="copying-data-to-other-tools"></a>
-  - You can easily copy data from the table on the Project tab to other tools. Spreadsheet applications support direct copy-and-paste operations of tabbed data.
-  - _Keywords:_ You, easily, Project, Spreadsheet, applications, support, direct, operations
+  - You can easily copy data from the table on the Project tab to other tools. Spreadsheet applications support direct copy-and-paste operation…
 - **Main Sections of Project View** <a id="main-sections-of-project-view"></a>
   - The main sections of the project view are:
-  - _Keywords:_ project, Family, Tree, Experimental, Plan, Variable
 - **Family Tree** _(p.51–52)_ <a id="family-tree"></a>
-  - The Family Tree shows the simulation flow, which is the backbone of all projects. It defines the sequence of tools and parameters involved in the simulations. Each parameter belongs to a tool instance, and experiments are arranged vertic...
-  - _Keywords:_ colspan, Tree, rowspan, Family, Shows, project, images, View
+  - The Family Tree shows the simulation flow, which is the backbone of all projects. It defines the sequence of tools and parameters involved…
 - **Specifying a Tool Comment** _(p.53)_ <a id="specifying-a-tool-comment"></a>
-  - You can specify comments for any tool in the project flow. The comments are displayed in the tool comment row. Sentaurus Workbench displays this row when at least one tool contains a comment. A comment is arbitrary multiline text.
-  - _Keywords:_ comment, comments, project, specify, Sentaurus, Workbench, displays, You
+  - You can specify comments for any tool in the project flow. The comments are displayed in the tool comment row. Sentaurus Workbench displays…
 - **Specifying a Parameter Process Name** _(p.53)_ <a id="specifying-a-parameter-process-name"></a>
-  - You can specify a process name for each parameter of all process tools in the tool flow. This allows process engineers who often involve many process variations and splits in process simulations to conveniently group process parameters. ...
-  - _Keywords:_ process, Sentaurus, Process, specify, splits, Workbench, project, Topography
+  - You can specify a process name for each parameter of all process tools in the tool flow. This allows process engineers who often involve ma…
 - **Showing the Tool Labels** <a id="showing-the-tool-labels"></a>
   - In addition to tool icons, you can also display the tool label as rollover text. This feature is switched off by default.
-  - _Keywords:_ addition, feature, Choose, View, Tool, Labels, permanently, display
 - **Experimental Plan** _(p.54)_ <a id="experimental-plan"></a>
-  - The Experimental Plan view provides a way to view parametric combinations. It is used for viewing purposes only. The header rows show all parameters and their values.
-  - _Keywords:_ Experimental, Plan, provides, parametric, combinations, viewing, purposes, header
+  - The Experimental Plan view provides a way to view parametric combinations. It is used for viewing purposes only. The header rows show all p…
 - **Parameter Values** <a id="parameter-values"></a>
-  - The Parameter Values view contains the tools and their parameters on separate header rows. It is used for viewing purposes only. The parameter value is shown for each experiment and for each parameter.
-  - _Keywords:_ contains, separate, header, viewing, purposes, experiment, switch, Choose
+  - The Parameter Values view contains the tools and their parameters on separate header rows. It is used for viewing purposes only. The parame…
 - **Variable Values** <a id="variable-values"></a>
-  - The Variable Values view is used for viewing, editing, deleting, and adding variables. By default, it shows all variable types (see Variables on page 81).
-  - _Keywords:_ View, Variable, variable, Variables, Current, viewing, editing, deleting
+  - The Variable Values view is used for viewing, editing, deleting, and adding variables. By default, it shows all variable types (see Variabl…
 - **Nodes** _(p.55)_ <a id="nodes"></a>
-  - Nodes are colored according to their status and are labeled with unique numbers called node keys. All nodes in the Family Tree can be one of the following:
-  - _Keywords:_ intermediate, status, Nodes, simulation, Virtual, colored, according, Tree
+  - Nodes are colored according to their status and are labeled with unique numbers called node keys. All nodes in the Family Tree can be one o…
 - **Configuring Node Colors** _(p.56)_ <a id="configuring-node-colors"></a>
   - Nodes are colored according to their status. The default color scheme for nodes is displayed in the status bar (see Figure 14).
-  - _Keywords:_ colors, status, details, summary, RGB, Choose, Status, Color
 - **Selecting Nodes With Mouse and Keyboard Operations** _(p.57)_ <a id="selecting-nodes-with-mouse-and-keyboard-operations"></a>
   - You can select nodes as for any spreadsheet application. You can make a typical rectangular node selection using mouse operations.
-  - _Keywords:_ rectangular, select, selection, You, region, Family, Tree, Click
 - **Viewing the Output Files of Nodes** _(p.58–59)_ <a id="viewing-the-output-files-of-nodes"></a>
-  - Each real node can have several output files. You can view the contents of these files using Sentaurus Visual (the default visualization tool in Sentaurus Workbench), Inspect, or the text editor.
-  - _Keywords:_ Sentaurus, colspan, Select, Visual, rowspan, Workbench, visualization, selected
+  - Each real node can have several output files. You can view the contents of these files using Sentaurus Visual (the default visualization to…
 - **Viewing the Output Files of Nodes in Sentaurus Visual** _(p.60)_ <a id="viewing-the-output-files-of-nodes-in-sentaurus-visual"></a>
-  - Sentaurus Visual is the default visualization tool in Sentaurus Workbench. The comprehensive integration of Sentaurus Workbench and Sentaurus Visual provides special capabilities that are not available in Inspect.
-  - _Keywords:_ Sentaurus, Visual, instance, Workbench, instances, launched, visualize, running
+  - Sentaurus Visual is the default visualization tool in Sentaurus Workbench. The comprehensive integration of Sentaurus Workbench and Sentaur…
 - **4. Click OK.** <a id="4-click-ok"></a>
-  - ![](images/swb_ug_part01_5d6e46385b9a7e8aef01d41d594e7eb69c68d257dfb8d8f6348301dc8469052b.jpg)
-  - _Keywords:_ Visual, details, summary, Sentaurus, Visualization, Choose, visualize, images
+  - <details> <summary>text_image</summary>
 - **Selecting Files Using Filters** _(p.61)_ <a id="selecting-files-using-filters"></a>
-  - The number of files that can be visualized can be very large. If you apply file filters using the text box below the left pane, this will reduce the list, displaying only the files you want.
-  - _Keywords:_ filters, filter, patterns, selected, matching, displayed, Sentaurus, button
+  - The number of files that can be visualized can be very large. If you apply file filters using the text box below the left pane, this will r…
 - **Viewing Visualizer Nodes Simultaneously** _(p.62)_ <a id="viewing-visualizer-nodes-simultaneously"></a>
-  - You can view one or more visualizer nodes simultaneously. Visualizer nodes are those belonging to either Sentaurus Visual or Inspect tool instances.
-  - _Keywords:_ Sentaurus, Visual, You, Inspect, results, simulation, visualizer, simultaneously
+  - You can view one or more visualizer nodes simultaneously. Visualizer nodes are those belonging to either Sentaurus Visual or Inspect tool i…
 - **Comparing Command Files of Nodes** <a id="comparing-command-files-of-nodes"></a>
   - You can compare the content of command files of selected nodes using a comparison application.
-  - _Keywords:_ selected, You, compare, comparison, application, Preferences, Nodes, content
 - **Running Sentaurus Process Nodes Interactively** _(p.63)_ <a id="running-sentaurus-process-nodes-interactively"></a>
-  - From Sentaurus Workbench, you can open the interface between Sentaurus Visual and Sentaurus Process to interactively run the process flow of a selected Sentaurus Process node.
-  - _Keywords:_ Sentaurus, Process, Visual, Select, Nodes, Run, interface, Visualize
+  - From Sentaurus Workbench, you can open the interface between Sentaurus Visual and Sentaurus Process to interactively run the process flow o…
 - **Query utility: Returns the dimension of the selected simulation domain.** <a id="query-utility-returns-the-dimension-of-the-selected-simulati"></a>
   - LogFile "icwb: dimension -> $DIM"
-  - _Keywords:_ LogFile, dimension, DIM
 - **Query utility: Returns the boundaries of the 2D simulation domain** <a id="query-utility-returns-the-boundaries-of-the-2d-simulation-do"></a>
-  - set Ymin [icwb bbox left] set Ymax [icwb bbox right] LogFile "icwb: Domain boundaries -> $Ymin $Ymax" set Ymid [expr ($Ymax-$Ymin)/2.0] set CNode 30 init tdr=n26 strip Oxynitride strip PolySilicon transform cut min= {-10 -10 -10} max= {0...
-  - _Keywords:_ Sentaurus, Ymin, Ymax, Interface, Visual, Process, LogFile, Domain
+  - set Ymin [icwb bbox left] set Ymax [icwb bbox right] LogFile "icwb: Domain boundaries -> $Ymin $Ymax" set Ymid [expr ($Ymax-$Ymin)/2.0] set…
 - **Node Explorer** _(p.64–66)_ <a id="node-explorer"></a>
-  - The Node Explorer assembles all node-related data and files in one place, which simplifies navigating through node files, analyzing simulation results, and tracking simulation problems.
-  - _Keywords:_ Node, Explorer, Displays, n47_fps, simulation, standard, database, Job
+  - The Node Explorer assembles all node-related data and files in one place, which simplifies navigating through node files, analyzing simulat…
 - **Exporting Spreadsheets** _(p.66)_ <a id="exporting-spreadsheets"></a>
   - This section describes how to export spreadsheets for viewing in spreadsheet applications or Inspect.
-  - _Keywords:_ describes, export, spreadsheets, viewing, spreadsheet, applications, Inspect
 - **Exporting a Spreadsheet to a Text File** _(p.66)_ <a id="exporting-a-spreadsheet-to-a-text-file"></a>
   - A spreadsheet can be exported as a character-separated value file, which can be loaded into different spreadsheet applications.
-  - _Keywords:_ spreadsheet, Select, character, Choose, Experiments, Export, Click, current
 - **Exporting a Spreadsheet to a Plot File** _(p.67)_ <a id="exporting-a-spreadsheet-to-a-plot-file"></a>
   - A spreadsheet can be exported for viewing in Inspect.
-  - _Keywords:_ Inspect, spreadsheet, Choose, Experiments, Export, exported, viewing, export
 - **Viewing Log Files** _(p.67)_ <a id="viewing-log-files"></a>
   - To view the preprocessor and project log files for projects of Sentaurus Workbench:
-  - _Keywords:_ Project, Choose, Logs, preprocessor, project, projects, Sentaurus, Workbench
 - **Visualizing Response Surfaces** <a id="visualizing-response-surfaces"></a>
   - See Visualizing Response Surface Models on page 212.
-  - _Keywords:_ Visualizing, Response, Surface, Models
 - **View Settings for Scheduler** <a id="view-settings-for-scheduler"></a>
-  - The Scheduler tab lists all the running nodes that belong to the selected running projects in the projects browser. The status of nodes is updated based on the refresh frequency setting.
-  - _Keywords:_ running, projects, Scheduler, belong, selected, browser, status, updated
+  - The Scheduler tab lists all the running nodes that belong to the selected running projects in the projects browser. The status of nodes is…
 - **Modifying User-Level Tool Queues** _(p.68)_ <a id="modifying-user-level-tool-queues"></a>
   - To modify user-level tool queues (see Tool Associations on page 234):
-  - _Keywords:_ Queues, Global, Configure, Scheduler, dialog, details, summary, modify
 - **Modifying Project-Level Tool Queues** _(p.68–69)_ <a id="modifying-project-level-tool-queues"></a>
   - To modify project-level tool queues (see Tool Associations on page 234):
-  - _Keywords:_ Global, normal, sinterconnect, Project, sptopo, Queues, Configure, project
 - **Editing Queue Files** _(p.69–70)_ <a id="editing-queue-files"></a>
-  - The Scheduler does not have an interface to add node constraints for user-level or project-level queues. You can only do so by editing the user queue or project queue files manually.
-  - _Keywords:_ Queues, Scheduler, project, Choose, Configure, Edit, interface, constraints
+  - The Scheduler does not have an interface to add node constraints for user-level or project-level queues. You can only do so by editing the…
 - **3: View Settings** _(p.70–71)_ <a id="3-view-settings"></a>
   - View Settings for Scheduler
-  - _Keywords:_ View, Settings, Scheduler, describes, projects, Sentaurus, Workbench
 - **Read-Only and Writable Projects** _(p.71)_ <a id="read-only-and-writable-projects"></a>
-  - Sentaurus Workbench projects must be placed in a disk-writable location to edit, preprocess, and execute those projects. Sentaurus Workbench recognizes a disk-writable location by analyzing user permissions of a project directory and pro...
-  - _Keywords:_ project, writable, Sentaurus, Workbench, directory, projects, permissions, runtime
+  - Sentaurus Workbench projects must be placed in a disk-writable location to edit, preprocess, and execute those projects. Sentaurus Workbenc…
 - **Undoing Changes** _(p.72)_ <a id="undoing-changes"></a>
   - To undo a change:
-  - _Keywords:_ Choose, Ctrl, change, Edit, Undo, modifications, undone, Modified
 - **Limiting the Number of Changes** <a id="limiting-the-number-of-changes"></a>
-  - If you work with the same instance of Sentaurus Workbench for long periods, you can observe that the Sentaurus Workbench process consumes considerable memory on the host where it runs. The reason for such an increase in memory consumptio...
-  - _Keywords:_ Sentaurus, Workbench, changes, memory, consumption, Family, Tree, SWB
+  - If you work with the same instance of Sentaurus Workbench for long periods, you can observe that the Sentaurus Workbench process consumes c…
 - **Tools** <a id="tools"></a>
-  - Tools are, in general, TCAD simulation tools. Other tools can be available depending on the configuration of the tool databases of Sentaurus Workbench (see Tool Databases on page 198).
-  - _Keywords:_ simulation, Tools, general, TCAD, Other, available, depending, configuration
+  - Tools are, in general, TCAD simulation tools. Other tools can be available depending on the configuration of the tool databases of Sentauru…
 - **Adding Tools to the Flow** _(p.73–74)_ <a id="adding-tools-to-the-flow"></a>
   - In a new project, to add the first tool to the flow:
-  - _Keywords:_ master, select, Click, Tool, Sentaurus, dialog, applicable, either
 - **4: Editing Projects** _(p.74–77)_ <a id="4-editing-projects"></a>
   - Tools
-  - _Keywords:_ Tool, details, summary, Add, Properties, images, text_image, Parallelization
 - **Deleting Tools From the Flow** _(p.78)_ <a id="deleting-tools-from-the-flow"></a>
   - To delete a tool instance from the flow:
-  - _Keywords:_ Tool, Delete, delete, required, details, summary, Assign, instance
 - **Copying Tools** <a id="copying-tools"></a>
   - You can copy tools in a project as well as between projects.
-  - _Keywords:_ project, Paste, Choose, Edit, Copy, Ctrl, choose, target
 - **Controlling the Copying of Tools** _(p.79)_ <a id="controlling-the-copying-of-tools"></a>
-  - By default, Sentaurus Workbench copies tools with their parameterization, including variables specified on the nodes of the parameterization. You can control exactly what you want to insert.
-  - _Keywords:_ Tools, Tool, configuration, parameterization, Paste, variables, specified, control
+  - By default, Sentaurus Workbench copies tools with their parameterization, including variables specified on the nodes of the parameterizatio…
 - **Resolving File Conflicts** _(p.80)_ <a id="resolving-file-conflicts"></a>
-  - Sentaurus Workbench copies tools and their input files including command files and parameter files. Before copying tools into the target project directory, Sentaurus Workbench checks for potential file conflicts. If the target project di...
-  - _Keywords:_ Sentaurus, Workbench, project, directory, target, Resolve, Conflict, original
+  - Sentaurus Workbench copies tools and their input files including command files and parameter files. Before copying tools into the target pr…
 - **Changing Tool Properties** _(p.81)_ <a id="changing-tool-properties"></a>
   - To change tool properties:
-  - _Keywords:_ Tool, Properties, dialog, changes, Tools, Apply, project, details
 - **Editing Tool Input Files** _(p.81–82)_ <a id="editing-tool-input-files"></a>
   - To edit tool input files:
-  - _Keywords:_ Edit, Tool, Properties, Ctrl, Select, required, dialog, Click
 - **Editing the Parameter File for Sentaurus Device** _(p.83–84)_ <a id="editing-the-parameter-file-for-sentaurus-device"></a>
   - Sentaurus Workbench allows you to edit an optional parameter file for Sentaurus Device.
-  - _Keywords:_ Sentaurus, Create, Device, Materials, material, Choose, Silicon, materials
 - **Including Additional Materials to a Parameter File** _(p.85–87)_ <a id="including-additional-materials-to-a-parameter-file"></a>
   - To include more materials to a Sentaurus Device parameter file:
-  - _Keywords:_ Sentaurus, Device, Tool, IdVg_des, Edit, Include, Materials, details
 - **Locking and Unlocking Tools** _(p.87)_ <a id="locking-and-unlocking-tools"></a>
-  - You can lock tool instances temporarily to prevent executing them. This means that nodes belonging to a locked tool are not involved in the next simulation run of the corresponding project. After unlocking the tool, it is a part again of...
-  - _Keywords:_ rowspan, colspan, locked, belonging, simulation, project, unlocked, After
+  - You can lock tool instances temporarily to prevent executing them. This means that nodes belonging to a locked tool are not involved in the…
 - **Configuring Double-Click Operations on Tools** _(p.88)_ <a id="configuring-double-click-operations-on-tools"></a>
   - You can configure the behavior of double-clicking a tool and link it to the required action.
-  - _Keywords:_ double, Properties, Tool, configure, clicking, Edit, Preferences, dialog
 - **Parameters** _(p.89)_ <a id="parameters"></a>
-  - A parameter is part of a tool and splits the flow at the insertion point to derive variations of that tool. Each parameter is characterized by a unique name and an arbitrary number of values.
-  - _Keywords:_ simulation, splits, insertion, derive, variations, characterized, unique, arbitrary
+  - A parameter is part of a tool and splits the flow at the insertion point to derive variations of that tool. Each parameter is characterized…
 - **Adding Parameters to a Tool** _(p.89)_ <a id="adding-parameters-to-a-tool"></a>
   - NOTE Parameters can be added only to existing tools in a flow.
-  - _Keywords:_ existing
 - **Adding the First Parameter to a Tool** _(p.89–90)_ <a id="adding-the-first-parameter-to-a-tool"></a>
   - To add the first parameter to a flow with only one tool:
-  - _Keywords:_ Add, dialog, generate, Specify, various, fields, Gaussian, Insert
 - **Adding Subsequent Parameters to a Tool** _(p.91)_ <a id="adding-subsequent-parameters-to-a-tool"></a>
   - To add another parameter to a tool or to add a parameter to a tool with more than one split:
-  - _Keywords:_ Add, dialog, Insert, Select, select, before, another, position
 - **Adding Values to Parameters** _(p.91–92)_ <a id="adding-values-to-parameters"></a>
   - To add new values to an existing parameter in the flow:
-  - _Keywords:_ dialog, existing, Add, selected, specified, fields, Select, displayed
 - **Deleting New Values** _(p.92)_ <a id="deleting-new-values"></a>
   - In the Add Parameter/Values dialog box, click Cancel to cancel adding of new values to a parameter.
-  - _Keywords:_ Add, dialog, Cancel, cancel, adding, Choose, Edit, Undo
 - **Limiting the Number of Values Specified for Parameters** <a id="limiting-the-number-of-values-specified-for-parameters"></a>
-  - You can unintentionally add too many values to parameters using the Lin, Log, or Gaussian option. For example, a typographic error using the Lin option can lead to a large minimum–maximum range with a small step and a huge number of valu...
-  - _Keywords:_ maximum, You, Lin, Preferences, unintentionally, Log, Gaussian, typographic
+  - You can unintentionally add too many values to parameters using the Lin, Log, or Gaussian option. For example, a typographic error using th…
 - **Deleting Parameters** _(p.93–94)_ <a id="deleting-parameters"></a>
   - To delete a parameter from a flow:
-  - _Keywords:_ Delete, branches, delete, ____________________________, details, summary, simulation, Cancel
 - **Copying Parameters** _(p.94)_ <a id="copying-parameters"></a>
   - You can copy parameters in a project as well as between projects.
-  - _Keywords:_ project, Select, Choose, Edit, Copy, Ctrl, choose, select
 - **Controlling the Copying of Parameters** <a id="controlling-the-copying-of-parameters"></a>
   - You can control exactly what you want to insert into a project.
-  - _Keywords:_ Paste, control, details, summary, You, exactly, insert, project
 - **2. Select one of the following options:** _(p.95)_ <a id="2-select-one-of-the-following-options"></a>
-  - <table><tr><td>Option</td><td>What is inserted into project...</td></tr><tr><td>Parameters</td><td>• Parameters with default values.</td></tr><tr><td>Parameters, Values</td><td>• Parameters with default values.• Value variation for each ...
-  - _Keywords:_ variation, inserted, project, Variables, defined, variables, specified, parameterization
+  - <table><tr><td>Option</td><td>What is inserted into project...</td></tr><tr><td>Parameters</td><td>• Parameters with default values.</td></…
 - **3. Click OK.** _(p.95)_ <a id="3-click-ok"></a>
 - **Changing Parameter Properties** _(p.95)_ <a id="changing-parameter-properties"></a>
   - NOTE You can change the properties of parameters only if the project is in edit mode.
-  - _Keywords:_ Properties, change, properties, details, summary, You, project, Select
 - **3. Rename the parameter as required.** <a id="3-rename-the-parameter-as-required"></a>
-  - NOTE If you change the parameter name, it changes only in the Family Tree. All references to that parameter in input files and variables are not changed.
-  - _Keywords:_ change, changes, Family, Tree, references, variables, changed
+  - NOTE If you change the parameter name, it changes only in the Family Tree. All references to that parameter in input files and variables ar…
 - **4. Type a new default value as required.** _(p.96)_ <a id="4-type-a-new-default-value-as-required"></a>
   - 5. (Optional) For the parameters of process tools, change the process name as required. 6. Click OK.
-  - _Keywords:_ process, Optional, change, required, Click
 - **Removing Parameter Values** _(p.96)_ <a id="removing-parameter-values"></a>
   - NOTE You can remove parameter values only if the project is in edit mode.
-  - _Keywords:_ Remove, remove, Select, dialog, details, summary, Apply, You
 - **Configuring Double-Click Operations on Parameters** <a id="configuring-double-click-operations-on-parameters"></a>
   - You can configure the behavior of double-clicking a parameter and link it to the required action.
-  - _Keywords:_ double, configure, Preferences, You, behavior, clicking, required, action
 - **3. Select one of the following options:** <a id="3-select-one-of-the-following-options"></a>
-  - <table><tr><td>Option</td><td>Double-clicking a parameter launches</td></tr><tr><td>Show Properties</td><td>Parameter Properties dialog box (see Changing Parameter Properties on page 79)</td></tr><tr><td>Add Parameter Value</td><td>Add P...
-  - _Keywords:_ Properties, dialog, Add, Remove, Double, clicking, launches, Show
+  - <table><tr><td>Option</td><td>Double-clicking a parameter launches</td></tr><tr><td>Show Properties</td><td>Parameter Properties dialog box…
 - **4. Click Apply.** <a id="4-click-apply"></a>
 - **Variables** <a id="variables"></a>
   - Variables are not part of the simulation. They are intended to help you interpret the results and for preprocessing.
-  - _Keywords:_ variables, definitions, Variables, You, global, simulation, preprocessing, overwrite
 - **Adding Global Variables** <a id="adding-global-variables"></a>
   - To add a new global variable to a project:
-  - _Keywords:_ variable, Variable, Selected, Add, param1, Tcl, details, summary
 - **Changing the Default Value of Global Variables** <a id="changing-the-default-value-of-global-variables"></a>
   - To change the default value of a global variable:
-  - _Keywords:_ variable, Variables, Properties, change, global, Select, Choose, choose
 - **Deleting Global Variables** <a id="deleting-global-variables"></a>
   - To delete a global variable:
-  - _Keywords:_ variable, Delete, delete, global, Select, Hold, Ctrl, select
 - **Copying Global Variables** <a id="copying-global-variables"></a>
   - You can copy global variables in a project as well as between projects.
-  - _Keywords:_ variables, project, global, variable, Paste, Select, Choose, Edit
 - **Formatting Variables** <a id="formatting-variables"></a>
 - **To format a variable:** <a id="to-format-a-variable"></a>
   - 1. Select a variable in the parameter row. 2. Choose Variables > Format.
-  - _Keywords:_ format, Select, Format, variable, Choose, Variables, Variable, dialog
 - **Defining Variables Per Node** <a id="defining-variables-per-node"></a>
-  - If you define a variable at a particular node, it will overwrite the default value of that variable as well as any value of that variable that is defined higher in the simulation tree (that is, closer to the root).
-  - _Keywords:_ variable, define, particular, overwrite, defined, higher, simulation, closer
+  - If you define a variable at a particular node, it will overwrite the default value of that variable as well as any value of that variable t…
 - **To define a variable per node:** <a id="to-define-a-variable-per-node"></a>
   - 1. Select a node. 2. Choose Nodes > Set Variable Value.
-  - _Keywords:_ variable, Variable, Select, Choose, Nodes, Add, Node, dialog
 - **Changing and Deleting Variable Values at a Node** <a id="changing-and-deleting-variable-values-at-a-node"></a>
-  - NOTE Variable values at a node can be modified only for global variables. To see which nodes have global variables, choose View > Tree Options > Show Variables.
-  - _Keywords:_ Node, variable, variables, Variables, global, change, delete, Properties
+  - NOTE Variable values at a node can be modified only for global variables. To see which nodes have global variables, choose View > Tree Opti…
 - **Configuring Double-Click Operations on Variables** _(p.97–100)_ <a id="configuring-double-click-operations-on-variables"></a>
   - You can configure the behavior of double-clicking a variable and link it to the required action.
-  - _Keywords:_ double, clicking, variable, dialog, Variables, configure, Preferences, Double
 - **Nodes** _(p.100)_ <a id="nodes"></a>
-  - A node is a point in the Family Tree where (possibly virtual) parametric splits can occur or where a simulation tool can be changed in the tool flow. Real nodes have simulation results. In one sense, a node is an atom of the simulation.
-  - _Keywords:_ simulation, Family, Tree, possibly, virtual, parametric, splits, changed
+  - A node is a point in the Family Tree where (possibly virtual) parametric splits can occur or where a simulation tool can be changed in the…
 - **Viewing and Editing Node Properties** _(p.101)_ <a id="viewing-and-editing-node-properties"></a>
   - To view and edit node properties:
-  - _Keywords:_ Node, Properties, dialog, change, Status, details, summary, properties
 - **Changing Parameter Values Directly in Node Cells** <a id="changing-parameter-values-directly-in-node-cells"></a>
   - You can change parameter values directly in node cells. By default, this feature is switched off.
-  - _Keywords:_ rowspan, Edit, directly, change, feature, Click, Nodes, switched
 - **Editing Parameter Values of Multiple Nodes** <a id="editing-parameter-values-of-multiple-nodes"></a>
   - Sentaurus Workbench allows you to change parameter values defined on several nodes at the same time:
-  - _Keywords:_ Nodes, Modify, Multiple, Click, details, summary, Apply, New
 - **Configuring Double-Click Operations on Nodes** _(p.102–104)_ <a id="configuring-double-click-operations-on-nodes"></a>
   - You can configure the behavior of double-clicking a node and link it to the required action.
-  - _Keywords:_ Node, double, dialog, Explorer, configure, clicking, Edit, Preferences
 - **Copying Nodes** <a id="copying-nodes"></a>
   - You can copy nodes in a project and between projects.
-  - _Keywords:_ project, target, copied, Paste, copying, You, between, Select
 - **Viewing Node Dependencies** <a id="viewing-node-dependencies"></a>
   - You can view nodes that are prerequisites of selected nodes. Both implicit and explicit node dependencies are taken into account.
-  - _Keywords:_ prerequisites, selected, Nodes, You, Both, implicit, explicit, dependencies
 - **Experiments and Scenarios** <a id="experiments-and-scenarios"></a>
-  - An experiment or parameter setting is a tuple that contains one value for each parameter of the flow. A scenario is a subtree of a simulation tree that contains a particular subset of experiments. Scenarios can overlap, that is, a partic...
-  - _Keywords:_ scenario, experiment, contains, particular, experiments, Scenarios, project, included
+  - An experiment or parameter setting is a tuple that contains one value for each parameter of the flow. A scenario is a subtree of a simulati…
 - **Adding Experiments** <a id="adding-experiments"></a>
   - An experiment can be added only if parameters are defined in a flow.
-  - _Keywords:_ experiment, scenario, experiments, Add, Experiment, dialog, Select, selected
 - **Excluding Experiments** <a id="excluding-experiments"></a>
   - Excluding experiments removes them from the current scenario but retains them in other scenarios in which they are included.
-  - _Keywords:_ experiments, scenario, Experiments, current, experiment, Excluding, removes, retains
 - **Deleting Experiments** <a id="deleting-experiments"></a>
   - Deleting experiments excludes them from all project scenarios and removes them permanently from a project.
-  - _Keywords:_ experiments, Experiments, project, delete, Delete, Deleting, excludes, scenarios
 - **Sorting Experiments** <a id="sorting-experiments"></a>
   - You can sort experiments according to the values of a selected parameter.
-  - _Keywords:_ Select, experiments, Sort, Experiments, dialog, sorting, details, summary
 - **Importing Experiments From a File** <a id="importing-experiments-from-a-file"></a>
   - You can import experiments from a text file that contains character-separated values, for example, a .csv file:
-  - _Keywords:_ Select, experiments, Import, import, separated, Experiments, dialog, displayed
 - **4: Editing Projects** <a id="4-editing-projects"></a>
   - Experiments and Scenarios
-  - _Keywords:_ Column, nMOS, Experiments, Preview, PMOS, Click, details, summary
 - **Viewing Experiment Properties** <a id="viewing-experiment-properties"></a>
   - To view the properties of an experiment:
-  - _Keywords:_ experiment, properties, Select, experiments, column, Choose, Experiments, Properties
 - **Adding Scenarios** <a id="adding-scenarios"></a>
   - To add a scenario to the simulation tree:
-  - _Keywords:_ Scenario, scenario, Add, expression, details, summary, simulation, Choose
 - **Removing Scenarios** <a id="removing-scenarios"></a>
   - To remove a scenario from the simulation tree:
-  - _Keywords:_ scenario, Remove, Scenarios, details, summary, Delete, Included, Experiments
 - **Including Experiments in Different Scenarios** <a id="including-experiments-in-different-scenarios"></a>
   - You can manage which experiments are included in different scenarios.
-  - _Keywords:_ experiments, Scenarios, scenarios, Common, Select, Scenario, include, selected
 - **Excluding Experiments From Scenarios** <a id="excluding-experiments-from-scenarios"></a>
   - To exclude experiments from dedicated scenarios:
-  - _Keywords:_ experiments, Scenarios, scenarios, Common, selected, Click, exclude, included
 - **Copying and Moving Experiments Between Projects** <a id="copying-and-moving-experiments-between-projects"></a>
   - To copy and move experiments between projects if both projects have same number of parameters in the flow:
-  - _Keywords:_ experiments, projects, Edit, project, Select, copied, Choose, choose
 - **Pruning and Unpruning** <a id="pruning-and-unpruning"></a>
   - Pruning removes superfluous paths from a simulation tree. An entire subtree can be removed, reducing the simulation tree.
-  - _Keywords:_ simulation, entire, subtree, Choose, Pruning, Select, starting, pruned
 - **Locking Nodes** <a id="locking-nodes"></a>
-  - Node locking is useful for large projects where preprocessing all nodes is cumbersome. In addition, if you need to keep the current status of the preprocessing results for a specific tool, scenario, or node, the corresponding nodes can b...
-  - _Keywords:_ preprocessing, Select, Choose, Nodes, Configuration, Node, locking, useful
+  - Node locking is useful for large projects where preprocessing all nodes is cumbersome. In addition, if you need to keep the current status…
 - **Quick-Running Nodes** <a id="quick-running-nodes"></a>
-  - The quick-running of nodes submits nodes directly to the queue specified, and nodes are run based on the function of the queue. The project is set to a running state.
-  - _Keywords:_ running, specified, definition, submits, directly, project, Select, Choose
+  - The quick-running of nodes submits nodes directly to the queue specified, and nodes are run based on the function of the queue. The project…
 - **Folding and Unfolding Nodes** <a id="folding-and-unfolding-nodes"></a>
-  - It can be difficult to navigate projects having large tables with thousands of experiments. You can reduce the size of the table by folding multiple experiments into one experiment. You can apply folding to split points of the parameteri...
-  - _Keywords:_ rowspan, experiments, folded, You, project, operation, folding, Choose
+  - It can be difficult to navigate projects having large tables with thousands of experiments. You can reduce the size of the table by folding…
 - **Project Consistency Control** <a id="project-consistency-control"></a>
-  - Project consistency control prevents you from running simulations that could be based on invalid results from previous simulations. Sentaurus Workbench automatically identifies nodes that might need to be reexecuted after making changes ...
-  - _Keywords:_ Modifying, project, simulations, Project, consistency, control, results, removing
+  - Project consistency control prevents you from running simulations that could be based on invalid results from previous simulations. Sentaur…
 - **Switching On Project Consistency Control** _(p.106)_ <a id="switching-on-project-consistency-control"></a>
   - To switch on project consistency control:
-  - _Keywords:_ Preferences, Nothing, Project, Nodes, consistency, control, SWB, details
 - **Value Description** <a id="value-description"></a>
   - Mark Ambiguous
-  - _Keywords:_ Sentaurus, Workbench, exclamation, Mark, Ambiguous, information, potentially, reexecuted
 - **4. Click Apply.** <a id="4-click-apply"></a>
-  - <table><tr><td></td><td colspan="10">Family Tree</td><td>Variable Values</td></tr><tr><td></td><td colspan="5">TSUPREM4</td><td colspan="4">TSUPREM4</td><td>TSUPREM4</td><td>No Variables</td></tr><tr><td></td><td colspan="5">tsuprem4</td...
-  - _Keywords:_ rowspan, colspan, TSUPREM4, Family, Tree, Variable, Variables, tsuprem4
+  - <table><tr><td></td><td colspan="10">Family Tree</td><td>Variable Values</td></tr><tr><td></td><td colspan="5">TSUPREM4</td><td colspan="4"…
 - **Removing Exclamation Marks** <a id="removing-exclamation-marks"></a>
   - You must remove red exclamation marks if you decide some marked nodes should not be rerun.
-  - _Keywords:_ remove, exclamation, You, decide, marked, Select, Choose, Nodes
 - **Reexecuting Marked Nodes** <a id="reexecuting-marked-nodes"></a>
   - You must clean up nodes if you need to reexecute marked nodes.
-  - _Keywords:_ marked, Sentaurus, Workbench, reexecute, Nodes, Wizard, You, Select
 - **Design-of-Experiments (DoE) Wizard** <a id="design-of-experiments-doe-wizard"></a>
-  - This wizard facilitates the use of tools for DoE available in Sentaurus Workbench. You sequentially specify settings of different factors that determine the type of design to generate.
-  - _Keywords:_ wizard, facilitates, DoE, available, Sentaurus, Workbench, You, sequentially
+  - This wizard facilitates the use of tools for DoE available in Sentaurus Workbench. You sequentially specify settings of different factors t…
 - **Step 1: Selecting the Design-of-Experiments Option** <a id="step-1-selecting-the-design-of-experiments-option"></a>
-  - In Step 1 (see Figure 41), you choose one of the design options. These design options implicitly relate to the objectives of users for that design. Each option is explained briefly in the lower part of the window.
-  - _Keywords:_ design, Step, DoE, Wizard, Design, details, summary, stochastic
+  - In Step 1 (see Figure 41), you choose one of the design options. These design options implicitly relate to the objectives of users for that…
 - **Step 2: Selecting Parameters** <a id="step-2-selecting-parameters"></a>
-  - In Step 2 (see Figure 42), you select which parameters will be included in the study. The listed parameters in the left pane are those in the current project.
-  - _Keywords:_ DoE, Step, selected, Wizard, SDoE, different, experiment, select
+  - In Step 2 (see Figure 42), you select which parameters will be included in the study. The listed parameters in the left pane are those in t…
 - **Step 3: Screening Option** <a id="step-3-screening-option"></a>
   - For a screening process, in Step 3, you must specify the levels for each parameter and the scale in which they are measured (see Figure 43).
-  - _Keywords:_ Step, DoE, details, summary, Wizard, Res, screening, design
 - **Step 3: Response Surface Model Option** <a id="step-3-response-surface-model-option"></a>
-  - Step 3 for a response surface model (RSM) is the same as for screening (see Figure 43 on page 111). Nevertheless, you must be aware that, for the Response Surface Model option, the objective is to fit a second-order model. This implies t...
-  - _Keywords:_ Step, second, DoE, Wizard, response, surface, RSM, Central
+  - Step 3 for a response surface model (RSM) is the same as for screening (see Figure 43 on page 111). Nevertheless, you must be aware that, f…
 - **Step 3: Stochastic Design Option** <a id="step-3-stochastic-design-option"></a>
-  - Step 3 for stochastic design (see Figure 46) allows you to define the characteristics of stochastic parameters. This means that you must associate each parameter with a probabilistic distribution and a number of collocation points (param...
-  - _Keywords:_ stochastic, experiments, Step, design, DoE, random, define, distribution
+  - Step 3 for stochastic design (see Figure 46) allows you to define the characteristics of stochastic parameters. This means that you must as…
 - **To use this mode of DoE:** <a id="to-use-this-mode-of-doe"></a>
   - 1. Select the Monte Carlo Design option (see Figure 47). 2. In the Experiments box, specify the final number of experiments to generate.
-  - _Keywords:_ Monte, Carlo, Design, DoE, Experiments, details, summary, Wizard
 - **Step 3: Square Design Option** <a id="step-3-square-design-option"></a>
-  - Square designs are deterministic designs that are used to study more than two levels for each parameter effectively, using Latin or Greco Latin or Hyper Greco Latin square.
-  - _Keywords:_ DoE, Latin, Step, Square, designs, levels, Greco, square
+  - Square designs are deterministic designs that are used to study more than two levels for each parameter effectively, using Latin or Greco L…
 - **Step 3: Sensitivity Analysis Option** <a id="step-3-sensitivity-analysis-option"></a>
-  - Sensitivity analysis is used to analyze model outputs as a function of very small changes to a single parameter with all other parameters fixed. Therefore, sensitivity analysis reveals only the local gradient of the response surface of t...
-  - _Keywords:_ analysis, sensitivity, Workbench, experiments, Taurus, Sensitivity, analyze, changes
+  - Sensitivity analysis is used to analyze model outputs as a function of very small changes to a single parameter with all other parameters f…
 - **Standard Mode** <a id="standard-mode"></a>
   - Step 3 for sensitivity analysis consists of the following group boxes.
-  - _Keywords:_ Step, sensitivity, analysis, consists
 - **TWB Compatibility Group Box** <a id="twb-compatibility-group-box"></a>
   - In this group box, you leave the TWB Sensitivity Analysis option unselected to use the standard mode (see Figure 49).
-  - _Keywords:_ Sensitivity, TWB, Analysis, DoE, Range, Points, Smooth, standard
 - **Global Settings Group Box** <a id="global-settings-group-box"></a>
-  - In this group box, you can specify settings that apply to all of the involved parameters. This can save time when several parameters have similar values of the sensitivity range and the number of samples inside that range.
-  - _Keywords:_ sensitivity, settings, samples, inside, Sensitivity, Range, nominal, corresponding
+  - In this group box, you can specify settings that apply to all of the involved parameters. This can save time when several parameters have s…
 - **Parameter Settings Group Box** <a id="parameter-settings-group-box"></a>
   - In this group box, you define settings specifically for each involved parameter.
-  - _Keywords:_ sensitivity, nominal, Smooth, Range, around, smooth, Min, Max
 - **Taurus Workbench–Compatible Mode** <a id="taurus-workbench-compatible-mode"></a>
   - Step 3 for sensitivity analysis consists of the following group boxes.
-  - _Keywords:_ Step, sensitivity, analysis, consists
 - **TWB Compatibility Group Box** <a id="twb-compatibility-group-box"></a>
   - In this group box, you select the TWB Sensitivity Analysis option for the Taurus Workbench–compatibility mode (see Figure 51).
-  - _Keywords:_ Sensitivity, DoE, TWB, Analysis, details, summary, Wizard, Step
 - **Global Setting Group Box** <a id="global-setting-group-box"></a>
   - In this group box, you specify the sensitivity range, which is a global option for all of the involved parameters. The default is 10%.
-  - _Keywords:_ specify, sensitivity, global, involved
 - **Parameter Settings Group Box** <a id="parameter-settings-group-box"></a>
   - In this group box, you can define the following parameter-specific values:
-  - _Keywords:_ Sensitivity, rowspan, colspan, Sentaurus, Workbench, After, applying, generates
 - **Step 3: User-Defined Parameters** <a id="step-3-user-defined-parameters"></a>
-  - So far, only DoE and SDoE parameters have been explained, but user-defined parameters can be defined in the same way, despite the option selected in Step 1. These parameters can be defined as either continuous with any number of levels o...
-  - _Keywords:_ DoE, defined, Step, SDoE, details, summary, Wizard, Levels
+  - So far, only DoE and SDoE parameters have been explained, but user-defined parameters can be defined in the same way, despite the option se…
 - **Final Step: Summary** <a id="final-step-summary"></a>
-  - This step is common to all the design options chosen in Step 1 and summarizes all the relevant information about the design you will generate. It helps you to detect problems such as unfeasible combinations or excessive runs for the reso...
-  - _Keywords:_ Lin, DoE, Step, Wizard, design, details, summary, Final
+  - This step is common to all the design options chosen in Step 1 and summarizes all the relevant information about the design you will genera…
 - **Taguchi Wizard** <a id="taguchi-wizard"></a>
-  - The Taguchi Wizard helps you to create a Taguchi DoE. This wizard offers basic options that allow for the definition of the characteristics of the required Taguchi design. An optional step shows the values generated according to user spe...
-  - _Keywords:_ Taguchi, wizard, design, generated, Wizard, create, DoE, offers
+  - The Taguchi Wizard helps you to create a Taguchi DoE. This wizard offers basic options that allow for the definition of the characteristics…
 - **Step 1: Selecting the Design** <a id="step-1-selecting-the-design"></a>
   - In Step 1 (see Figure 56), you select the number level of the Taguchi design.
-  - _Keywords:_ Select, Design, Taguchi, design, Multilevel, Noise, details, summary
 - **Step 2: Specifying the Inner Array** <a id="step-2-specifying-the-inner-array"></a>
   - In the next step:
-  - _Keywords:_ Step, details, summary, Factors, Taguchi, column, contains, selection
 - **Step 3: Specifying the Outer Array** <a id="step-3-specifying-the-outer-array"></a>
-  - Step 3 of Multilevel With Noise models (see Figure 59) contains entries to specify the values of the outer (noise) array. The No Noise, N1, and N2 columns allow you to insert three levels of error factor that will be used to create the e...
-  - _Keywords:_ Noise, factor, applied, Step, Multilevel, Percentage, Error, details
+  - Step 3 of Multilevel With Noise models (see Figure 59) contains entries to specify the values of the outer (noise) array. The No Noise, N1,…
 - **Final Step: Viewing the Design** <a id="final-step-viewing-the-design"></a>
-  - You can click the View Design button (see Figure 59 on page 124) to display the View Design dialog box (see Figure 60), where you can see the design that will be generated.
-  - _Keywords:_ Taguchi, Wizard, rowspan, Design, View, button, dialog, design
+  - You can click the View Design button (see Figure 59 on page 124) to display the View Design dialog box (see Figure 60), where you can see t…
 - **Introduction to Project Parameterization** <a id="introduction-to-project-parameterization"></a>
-  - An important feature of Sentaurus Workbench is support for project parameterization. A parameterized project consists of a set of experiments where certain sensible input variables take different values. A parameterized project is repres...
-  - _Keywords:_ Sentaurus, Workbench, project, preprocessor, Tcl, parameterized, variables, templates
+  - An important feature of Sentaurus Workbench is support for project parameterization. A parameterized project consists of a set of experimen…
 - **Global and Runtime Preprocessing** <a id="global-and-runtime-preprocessing"></a>
   - NOTE Locked nodes are not preprocessed.
-  - _Keywords:_ preprocessing, project, variable, global, before, execution, extracted, replaced
 - **Preprocessor #-Commands** <a id="preprocessor-commands"></a>
-  - The #-commands give instructions to the Sentaurus Workbench preprocessor (the spp utility). They are used when simple @-references are not sufficient to modify the behavior of a tool. For example, conditional commands instruct spp to cre...
-  - _Keywords:_ Sentaurus, indices, Workbench, different, coupled, Poisson, Electron, Hole
+  - The #-commands give instructions to the Sentaurus Workbench preprocessor (the spp utility). They are used when simple @-references are not…
 - **@-References and Tree Navigation** <a id="references-and-tree-navigation"></a>
-  - Since Sentaurus Workbench must control all tool input and output files in the simulation tree and determine job interdependencies, file names must appear only as file references in input files.
-  - _Keywords:_ Sentaurus, references, Workbench, current, absolute, refers, Device, simulation
+  - Since Sentaurus Workbench must control all tool input and output files in the simulation tree and determine job interdependencies, file nam…
 - **@-Expressions** <a id="expressions"></a>
   - Sentaurus Workbench supports two @-expression types that are evaluated during preprocessing: @[...]@ and @<...>@.
-  - _Keywords:_ expression, expressions, HaloDose, Sentaurus, Workbench, supports, evaluated, during
 - **Expression @[...]@** <a id="expression"></a>
-  - When the preprocessor finds an expression of @[...]@ type, it extracts the expression from the brackets and evaluates it in Tcl interpreter like this:
-  - _Keywords:_ expression, Tcl, interpreter, string, compare, HaloDose, preprocessor, extracts
+  - When the preprocessor finds an expression of @[...]@ type, it extracts the expression from the brackets and evaluates it in Tcl interpreter…
 - **Expression @<...>@** <a id="expression"></a>
-  - When the preprocessor finds an expression of @<...>@ type, it extracts the expression from the angle brackets and evaluates it in Tcl interpreter like this:
-  - _Keywords:_ expression, Tcl, interpreter, HaloDose, preprocessor, extracts, brackets, evaluates
+  - When the preprocessor finds an expression of @<...>@ type, it extracts the expression from the angle brackets and evaluates it in Tcl inter…
 - **Redefining Delimiters** <a id="redefining-delimiters"></a>
   - NOTE Redefining delimiters works only when the Sentaurus Workbench preprocessor (the spp utility) is used.
-  - _Keywords:_ delimiter, preprocessor, language, problems, preprocessing, Sentaurus, Workbench, variables
 - **Preprocessing Nodes** <a id="preprocessing-nodes"></a>
   - You can use node filters and node expressions when preprocessing projects.
-  - _Keywords:_ You, filters, expressions, preprocessing, projects
 - **Node Filters** <a id="node-filters"></a>
-  - A node filter is a Tcl expression that evaluates to true (!=0) or false (0) for any existing node in the simulation tree. The syntax of a filter is:
-  - _Keywords:_ expression, filter, EXPR, Tcl, evaluates, existing, evaluate, variable
+  - A node filter is a Tcl expression that evaluates to true (!=0) or false (0) for any existing node in the simulation tree. The syntax of a f…
 - **Node Expressions** <a id="node-expressions"></a>
-  - Sentaurus Workbench provides expressions – abbreviated to gexpr – to selected nodes in the simulation tree. A node expression gexpr returns a list of node keys and is used especially in the Scheduler to submit nodes for execution. See No...
-  - _Keywords:_ expressions, Sentaurus, Workbench, provides, abbreviated, selected, simulation, expression
+  - Sentaurus Workbench provides expressions – abbreviated to gexpr – to selected nodes in the simulation tree. A node expression gexpr returns…
 - **Examples** <a id="examples"></a>
   - Combining node expressions and node filters is a powerful tool for scripting in tool input command files.
-  - _Keywords:_ nMOS, preprocessor, expression, resolved, Combining, expressions, filters, powerful
 - **Split Points** <a id="split-points"></a>
-  - A parameter introduces a new level in the simulation tree to the right of the tool step. Viewed from the tree, a parameter splits the overall tool simulation phase into two subphases. This is only an abstract view because each tool insta...
-  - _Keywords:_ simulation, linear, executed, Sentaurus, subphases, beginning, Workbench, facility
+  - A parameter introduces a new level in the simulation tree to the right of the tool step. Viewed from the tree, a parameter splits the overa…
 - **Preprocessing Variables** <a id="preprocessing-variables"></a>
-  - Like parameters, variables hold a value and can be referenced in any form of @-references. The main difference is that a variable does not create a split in the simulation flow and, therefore, does not change the shape of the simulation ...
-  - _Keywords:_ variable, variables, reference, referenced, simulation, preprocessed, directive, another
+  - Like parameters, variables hold a value and can be referenced in any form of @-references. The main difference is that a variable does not…
 - **Extracted Variables** <a id="extracted-variables"></a>
   - Another common use of variables is to extract a value from the tool output file and refer to it in the next tool input file.
-  - _Keywords:_ variable, extracted, DOE, specified, Sentaurus, database, variables, defined
 - **Execution Dependencies** <a id="execution-dependencies"></a>
   - During preprocessing, all dependencies in the files are analyzed in the following way.
-  - _Keywords:_ dependencies, references, previous, reference, execution, Dependencies, setdep, creates
 - **Setting and Unsetting Dependencies** <a id="setting-and-unsetting-dependencies"></a>
-  - The order in which dependencies are set or unset is important. Unsetting a dependency does not have any effect if the dependency is reset later in the same input file, either implicitly or explicitly. Therefore, a #remdep command at the ...
-  - _Keywords:_ dependency, effect, dependencies, important, Unsetting, either, implicitly, explicitly
+  - The order in which dependencies are set or unset is important. Unsetting a dependency does not have any effect if the dependency is reset l…
 - **Using Tcl Command Blocks** <a id="using-tcl-command-blocks"></a>
-  - The concept of Tcl command blocks is to bring the power of Tcl to the complex languages used by some tools incorporated in Sentaurus Workbench.
-  - _Keywords:_ Tcl, concept, blocks, complex, languages, incorporated, Sentaurus, Workbench
+  - The concept of Tcl command blocks is to bring the power of Tcl to the complex languages used by some tools incorporated in Sentaurus Workbe…
 - **Creating Tcl Command Blocks** <a id="creating-tcl-command-blocks"></a>
-  - Tcl command blocks consist of an arbitrary set of Tcl command lines that are delimited by "!(" and ")!". During the final stage of preprocessing, the preprocessor extracts and evaluates Tcl command blocks. In the node input file, each Tc...
-  - _Keywords:_ Tcl, AlGaN, polarization, format, blocks, spontaneous, charge, GaN
+  - Tcl command blocks consist of an arbitrary set of Tcl command lines that are delimited by "!(" and ")!". During the final stage of preproce…
 - **Preprocessing Tcl Command Blocks** <a id="preprocessing-tcl-command-blocks"></a>
-  - The Sentaurus Workbench preprocessor evaluates Tcl command blocks automatically at the final stage of project preprocessing. After the evaluation of preprocessor #-commands, @- references, and @-expressions is completed, Sentaurus Workbe...
-  - _Keywords:_ Tcl, blocks, preprocessing, experiment, preprocessor, Sentaurus, Workbench, project
+  - The Sentaurus Workbench preprocessor evaluates Tcl command blocks automatically at the final stage of project preprocessing. After the eval…
 - **Tcl Command Blocks and Sentaurus Workbench Variables** <a id="tcl-command-blocks-and-sentaurus-workbench-variables"></a>
-  - Tcl command blocks provide a possibility to create or update Sentaurus Workbench variables. They are equivalent to preprocessing variables created with the #set command. For this purpose, a special SWB\_VARIABLES Tcl array must be update...
-  - _Keywords:_ Tcl, variables, SWB_VARIABLES, Sentaurus, Workbench, colspan, blocks, provide
+  - Tcl command blocks provide a possibility to create or update Sentaurus Workbench variables. They are equivalent to preprocessing variables…
 - **Input and Output Operations Inside Tcl Command Blocks** <a id="input-and-output-operations-inside-tcl-command-blocks"></a>
-  - It is necessary to force flushing of output streams in Tcl command blocks. Use the Tcl flush command when writing files inside a Tcl command block. Otherwise, the file will not be available until the node has been executed, for example:
-  - _Keywords:_ FID, Tcl, necessary, flushing, streams, blocks, Use, writing
+  - It is necessary to force flushing of output streams in Tcl command blocks. Use the Tcl flush command when writing files inside a Tcl comman…
 - **When to Use Tcl Command Blocks** <a id="when-to-use-tcl-command-blocks"></a>
   - Using Tcl command blocks is helpful in the following circumstances:
-  - _Keywords:_ Tcl, Sentaurus, Poisson, Electron, Hole, blocks, native, Device
 - **Summary of Rules for Using Tcl Command Blocks** <a id="summary-of-rules-for-using-tcl-command-blocks"></a>
   - When using Tcl command blocks, note the following requirements:
-  - _Keywords:_ Tcl, blocks, Sentaurus, Workbench, standard, preprocessing, variables, contain
 - **Running Projects From the Project Editor** <a id="running-projects-from-the-project-editor"></a>
 - **To run a project:** <a id="to-run-a-project"></a>
   - 1. Browse the projects on the tree. 2. Open the project in the Project Editor. 3. Select the nodes or open the required scenario.
-  - _Keywords:_ projects, Browse, Open, project, Project, Editor, Select, required
 - **To run the selected nodes:** <a id="to-run-the-selected-nodes"></a>
-  - 1. Select nodes (see Selecting Nodes With Mouse and Keyboard Operations on page 40). 2. Choose Project > Operations > Run, or press Ctrl+R, or click the Run button.
-  - _Keywords:_ Operations, Run, Select, Selecting, Nodes, Mouse, Keyboard, Choose
+  - 1. Select nodes (see Selecting Nodes With Mouse and Keyboard Operations on page 40). 2. Choose Project > Operations > Run, or press Ctrl+R,…
 - **To run a scenario:** <a id="to-run-a-scenario"></a>
-  - 1. Select the required scenario (default is all). 2. Select the nodes to run from either remaining (all nodes that do not have the status done) or all.
-  - _Keywords:_ Run, Select, remaining, submits, Project, button, required, scenario
+  - 1. Select the required scenario (default is all). 2. Select the nodes to run from either remaining (all nodes that do not have the status d…
 - **Running Projects From the Command Line** <a id="running-projects-from-the-command-line"></a>
   - You can submit jobs to queues or launch a specific job.
-  - _Keywords:_ You, submit, queues, launch, specific
 - **Submitting Jobs to Queues** <a id="submitting-jobs-to-queues"></a>
   - The gsub utility is the actual backend system, which performs the following:
-  - _Keywords:_ Displays, information, expression, Submits, FILENAME, PROJECT, GEXPR, utility
 - **Example** <a id="example"></a>
   - gsub -verbose -e all -q local:default @STDB@/folder/project
-  - _Keywords:_ project, verbose, STDB, folder, launches, locally
 - **Launching a Specific Job** <a id="launching-a-specific-job"></a>
   - The gjob utility runs a given job or the node of a project locally. It performs the following:
-  - _Keywords:_ project, locally, Displays, information, FILENAME, PROJECT, Job, preprocessing
 - **Example** <a id="example"></a>
   - gjob -verbose -job 2 -nopp -nice -10 @STDB@/folder/project
-  - _Keywords:_ project, verbose, STDB, folder, launches, locally, priority, instructs
 - **Running Projects From the Scheduler** <a id="running-projects-from-the-scheduler"></a>
   - Sentaurus Workbench submits nodes in the order that is defined by implicit and explicit node dependencies of the project:
-  - _Keywords:_ Sentaurus, Workbench, strict, project, prerequisite, Tool, Properties, dependencies
 - **Runtime Editing Modes for Projects** <a id="runtime-editing-modes-for-projects"></a>
   - Projects can have different runtime editing modes.
-  - _Keywords:_ Projects, different, runtime, editing
 - **Locked Runtime Editing Mode** <a id="locked-runtime-editing-mode"></a>
-  - As soon as a project is running, it is locked for any changes in the parameterization table. All you can do is run additional nodes, or terminate selected nodes or the entire running project.
-  - _Keywords:_ project, Sentaurus, Workbench, running, execution, Run, changes, failure
+  - As soon as a project is running, it is locked for any changes in the parameterization table. All you can do is run additional nodes, or ter…
 - **Editable Runtime Editing Mode** <a id="editable-runtime-editing-mode"></a>
-  - In contrast to projects in Locked mode, a running project in Editable mode is not locked for changes. You can add or remove tools, parameters, and experiments, and edit tool input files and Sentaurus Workbench configuration files, and so...
-  - _Keywords:_ project, Run, preprocess, Project, Editable, changes, Sentaurus, Workbench
+  - In contrast to projects in Locked mode, a running project in Editable mode is not locked for changes. You can add or remove tools, paramete…
 - **Choosing the Appropriate Runtime Editing Mode for Projects** <a id="choosing-the-appropriate-runtime-editing-mode-for-projects"></a>
-  - Sentaurus Workbench creates new projects using the runtime editing mode specified in the preferences (see Changing the Default Runtime Editing Mode of Projects on page 13). The Editable mode is the default.
-  - _Keywords:_ project, runtime, editing, Changing, Sentaurus, Workbench, projects, preferences
+  - Sentaurus Workbench creates new projects using the runtime editing mode specified in the preferences (see Changing the Default Runtime Edit…
 - **Concurrency Mode for Experiments** <a id="concurrency-mode-for-experiments"></a>
-  - The order in which projects are scheduled for execution is defined by node dependencies (see Running Projects From the Scheduler on page 148). This approach guarantees the most effective project execution because Sentaurus Workbench imme...
-  - _Keywords:_ project, concurrency, execution, Limited, Sentaurus, Workbench, experiments, dependencies
+  - The order in which projects are scheduled for execution is defined by node dependencies (see Running Projects From the Scheduler on page 14…
 - **Configuring the Execution of Jobs** <a id="configuring-the-execution-of-jobs"></a>
-  - TCAD Sentaurus simulator jobs can run in parallel using either shared-memory parallelization (SMP) or message passing interface (MPI) parallelization. SMP means that the job process launches multiple parallel threads. MPI parallelization...
-  - _Keywords:_ execution, Sentaurus, parallel, parallelization, MPI, process, SMP, Workbench
+  - TCAD Sentaurus simulator jobs can run in parallel using either shared-memory parallelization (SMP) or message passing interface (MPI) paral…
 - **1. Select Activate Parallel Settings.** <a id="1-select-activate-parallel-settings"></a>
   - The fields are now available.
-  - _Keywords:_ Sentaurus, Workbench, MPI, processes, Process, scheduler, memory, Threads
 - **7: Running Projects** <a id="7-running-projects"></a>
   - Auto-Detection of Threads for Shared-Memory Parallelization
-  - _Keywords:_ Threads, Tool, Properties, Auto, Detection, Memory, Parallelization, details
 - **Auto-Detection of Threads for Shared-Memory Parallelization** <a id="auto-detection-of-threads-for-shared-memory-parallelization"></a>
-  - You can instruct Sentaurus Workbench to assess the number of threads required for job execution. By default, this feature is switched off. To activate it, select Auto-Detection of Threads (see Figure 68 on page 159).
-  - _Keywords:_ Sentaurus, Threads, Process, Workbench, Auto, Detection, threads, Tool
+  - You can instruct Sentaurus Workbench to assess the number of threads required for job execution. By default, this feature is switched off.…
 - **7: Running Projects** <a id="7-running-projects"></a>
   - Auto-Detection of Threads for Shared-Memory Parallelization
-  - _Keywords:_ numThreadsMC, numThreads, requirements, Sentaurus, multithreading, Auto, Detection, Threads
 - **Limiting the Number of Threads Requested** <a id="limiting-the-number-of-threads-requested"></a>
-  - The auto-detection of threads might lead to requesting too many threads to be allocated, which can potentially exceed the limit provided by the hardware.
-  - _Keywords:_ threads, detection, allocated, Preferences, requesting, potentially, exceed, provided
+  - The auto-detection of threads might lead to requesting too many threads to be allocated, which can potentially exceed the limit provided by…
 - **Defining Run Limits** <a id="defining-run-limits"></a>
-  - Sentaurus Workbench helps you to organize effective use of both available TCAD Sentaurus licenses and corporate computational resources for a group of users sharing the same installation of TCAD Sentaurus. This goal is achieved by contro...
-  - _Keywords:_ Sentaurus, TCAD, maximum, limits, Workbench, organize, effective, available
+  - Sentaurus Workbench helps you to organize effective use of both available TCAD Sentaurus licenses and corporate computational resources for…
 - **Defining the User Quota** <a id="defining-the-user-quota"></a>
-  - The following example illustrates how run limits are taken into account when running simulations. Assume you want to run no more than four Sentaurus Process instances simultaneously. When the next Sentaurus Process job is ready to be sub...
-  - _Keywords:_ limits, Sentaurus, Workbench, running, Run, account, simulations, currently
+  - The following example illustrates how run limits are taken into account when running simulations. Assume you want to run no more than four…
 - **Defining a Submission Delay** <a id="defining-a-submission-delay"></a>
-  - Together with the user quota, you can define a delay between two sequential submissions of a given tool. This delay might be helpful if you want to set up a fair distribution of computational resources among TCAD users and to ensure that...
-  - _Keywords:_ submission, define, limits, Together, between, sequential, submissions, helpful
+  - Together with the user quota, you can define a delay between two sequential submissions of a given tool. This delay might be helpful if you…
 - **Defining Project Run Limits** <a id="defining-project-run-limits"></a>
-  - Another important aspect of organizing effective use of available TCAD Sentaurus licenses and corporate computational resources is the ability to partition your user quota among different projects that you want to run simultaneously. By ...
-  - _Keywords:_ project, limits, Run, Project, running, Sentaurus, dialog, projects
+  - Another important aspect of organizing effective use of available TCAD Sentaurus licenses and corporate computational resources is the abil…
 - **Changing the Order of the Execution of Nodes** <a id="changing-the-order-of-the-execution-of-nodes"></a>
-  - NOTE This feature is available only if run limits are active. When run limits are not active, use the concurrency mode to access the same functionality (see Concurrency Mode for Experiments on page 152).
-  - _Keywords:_ Sentaurus, Workbench, dependencies, _First, limits, active, orders, Depth
+  - NOTE This feature is available only if run limits are active. When run limits are not active, use the concurrency mode to access the same f…
 - **Delaying the Execution of Projects and Nodes** <a id="delaying-the-execution-of-projects-and-nodes"></a>
-  - The Delayed Execution button on the Run Project dialog box allows you to define the time at which a project or selected nodes are submitted (see Figure 71).
-  - _Keywords:_ Delayed, Run, Project, Sentaurus, submission, dialog, Workbench, project
+  - The Delayed Execution button on the Run Project dialog box allows you to define the time at which a project or selected nodes are submitted…
 - **Configuring a Delay Between Simulations** <a id="configuring-a-delay-between-simulations"></a>
-  - You might have a situation where node execution fails unexpectedly because the simulation process cannot source some input files. For example, the TDR file stored on the previous node cannot be loaded for the next node. Such a problem co...
-  - _Keywords:_ simulation, cannot, network, require, between, Preferences, You, situation
+  - You might have a situation where node execution fails unexpectedly because the simulation process cannot source some input files. For examp…
 - **Protecting Executed Nodes** <a id="protecting-executed-nodes"></a>
-  - When working with a large project, you might accidentally select and submit nodes that have been completed already, which will delete the previous results. Such an error might cost substantial time and computational resources.
-  - _Keywords:_ executed, Preferences, Nodes, project, completed, Sentaurus, Workbench, status
+  - When working with a large project, you might accidentally select and submit nodes that have been completed already, which will delete the p…
 - **Preprocessing Projects** <a id="preprocessing-projects"></a>
-  - Preprocessing is the initial step before jobs actually run and can be performed separately from execution either from the user interface (choose Project > Operations > Preprocess or press Ctrl+P) or from the command line (call the Sentau...
-  - _Keywords:_ Preprocess, process, Project, utility, STDB, Displays, information, initial
+  - Preprocessing is the initial step before jobs actually run and can be performed separately from execution either from the user interface (c…
 - **Terminating Projects and Nodes** <a id="terminating-projects-and-nodes"></a>
   - You can terminate projects and nodes as required.
-  - _Keywords:_ You, terminate, projects, required
 - **Terminating Projects** <a id="terminating-projects"></a>
   - You can terminate a running project from the Project Editor or the projects browser.
-  - _Keywords:_ project, Project, terminate, projects, browser, Abort, You, running
 - **Terminating Nodes** <a id="terminating-nodes"></a>
   - You can terminate specific running nodes in a project from the Project Editor, the Scheduler, or the command line.
-  - _Keywords:_ project, running, terminate, Abort, Scheduler, Select, choose, Project
 - **Unexpected Termination of Running Projects** <a id="unexpected-termination-of-running-projects"></a>
-  - If the terminal from which Sentaurus Workbench was launched is closed or crashes, it might lead to the unexpected termination of Sentaurus Workbench and the running projects you launched in this Sentaurus Workbench instance. In this case...
-  - _Keywords:_ Sentaurus, Workbench, terminal, launched, running, projects, crashes, processes
+  - If the terminal from which Sentaurus Workbench was launched is closed or crashes, it might lead to the unexpected termination of Sentaurus…
 - **Updating Node Statuses and Extracted Variables** <a id="updating-node-statuses-and-extracted-variables"></a>
-  - Sentaurus Workbench updates the node statuses of running projects and extracts simulation results automatically as soon as the node status changes.
-  - _Keywords:_ project, status, running, simulation, results, extracted, Sentaurus, Workbench
+  - Sentaurus Workbench updates the node statuses of running projects and extracts simulation results automatically as soon as the node status…
 - **Customizing the Execution of Projects and Nodes** <a id="customizing-the-execution-of-projects-and-nodes"></a>
   - You can customize the execution of projects and nodes.
-  - _Keywords:_ You, customize, execution, projects
 - **Customizing Project Execution** <a id="customizing-project-execution"></a>
-  - Sentaurus Workbench allows you to customize project execution by defining optional prologue and epilogue Tcl scripts in the tool database. The syntax is:
-  - _Keywords:_ script, Tcl, project, execution, prologue, epilogue, WB_tool, arbitrary
+  - Sentaurus Workbench allows you to customize project execution by defining optional prologue and epilogue Tcl scripts in the tool database.…
 - **Customizing Node Execution** <a id="customizing-node-execution"></a>
-  - A similar approach to project execution can be used to customize node execution. Sentaurus Workbench allows you to customize node execution by defining tool-specific prologue and epilogue Tcl scripts in the tool database. The syntax is:
-  - _Keywords:_ Tcl, epilogue, prologue, script, Sentaurus, Workbench, scripts, WB_tool
+  - A similar approach to project execution can be used to customize node execution. Sentaurus Workbench allows you to customize node execution…
 - **Viewing Project Files** <a id="viewing-project-files"></a>
   - To view a project log file:
-  - _Keywords:_ Project, project, Select, Choose, Logs, Ctrl, choose, View
 - **Viewing the Project Summary** <a id="viewing-the-project-summary"></a>
-  - The project summary provides a short description of a project that was run. The summary file is stored under gsummary.txt in the project directory and is generated automatically when the project finishes.
-  - _Keywords:_ project, summary, status, Project, information, Total, runtime, provides
+  - The project summary provides a short description of a project that was run. The summary file is stored under gsummary.txt in the project di…
 - **Recognizing Suspended Jobs** <a id="recognizing-suspended-jobs"></a>
-  - For some TCAD Sentaurus simulators, such as Sentaurus Process and Sentaurus Device, you can suspend and resume their execution. The simulator releases its license during the suspension period and checks it out again when you resume job e...
-  - _Keywords:_ Sentaurus, resume, suspend, Workbench, rowspan, suspended, execution, colspan
+  - For some TCAD Sentaurus simulators, such as Sentaurus Process and Sentaurus Device, you can suspend and resume their execution. The simulat…
 - **7: Running Projects** <a id="7-running-projects"></a>
   - Recognizing Suspended Jobs
-  - _Keywords:_ Recognizing, Suspended, Jobs
 - **NOTE** <a id="note"></a>
-  - You might experience a delay until the issued command takes effect and suspends or resumes the job running on a remote scheduler. This delay is configurable on the cluster. If you experience an unreasonable delay, contact your IT.
-  - _Keywords:_ experience, scheduler, suspension, signal, suspended, license, released, You
+  - You might experience a delay until the issued command takes effect and suspends or resumes the job running on a remote scheduler. This dela…
 - **Cleaning Up Projects** <a id="cleaning-up-projects"></a>
   - You can clean up multiple selected projects from the projects browser.
-  - _Keywords:_ Deletes, Data, project, Project, Variables, preprocessor, Cleanup, Preprocessor
 - **3. Click Cleanup or Fast Cleanup.** <a id="3-click-cleanup-or-fast-cleanup"></a>
-  - NOTE The Fast Cleanup button initiates a faster project cleanup, which is especially noticeable on large projects with many files. The original project directory is removed and then is re-created during this type of cleanup. Therefore, i...
-  - _Keywords:_ project, cleanup, Fast, Cleanup, button, initiates, faster, especially
+  - NOTE The Fast Cleanup button initiates a faster project cleanup, which is especially noticeable on large projects with many files. The orig…
 - **Cleaning Up the Output of Nodes** _(p.115)_ <a id="cleaning-up-the-output-of-nodes"></a>
   - To delete the output and preprocessor data of selected nodes:
-  - _Keywords:_ Select, delete, preprocessor, selected, Nodes, whether, variables, Selecting
 - **Cleaning Up Projects From the Command Line** _(p.115)_ <a id="cleaning-up-projects-from-the-command-line"></a>
   - The gcleanup utility can clean up a project from the command line, for example:
-  - _Keywords:_ Clean, project, gcleanup, Display, information, unlock, directory, variables
 - **Detecting Files to Remove** <a id="detecting-files-to-remove"></a>
-  - The default Sentaurus Workbench cleanup scenario detects a reproducible part of a project and removes it. All files that appear as the result of project preprocessing and execution are considered to be reproducible files.
-  - _Keywords:_ cleanup, project, Sentaurus, Workbench, reproducible, patterns, scenario, detects
+  - The default Sentaurus Workbench cleanup scenario detects a reproducible part of a project and removes it. All files that appear as the resu…
 - **Specifying Project Exclude File Patterns** <a id="specifying-project-exclude-file-patterns"></a>
-  - Sentaurus Workbench allows you to specify several exclude file patterns. These patterns define the project files that must be excluded from the project packaging and must be removed during project cleanup. The default Sentaurus Workbench...
-  - _Keywords:_ project, WB_tool, patterns, cleanup, setting, removed, during, _exclude
+  - Sentaurus Workbench allows you to specify several exclude file patterns. These patterns define the project files that must be excluded from…
 - **Backing Up Node Files Automatically** _(p.121)_ <a id="backing-up-node-files-automatically"></a>
-  - Sentaurus Workbench allows you to back up simulation results automatically. The automatic backup stores a copy of each node file being deleted after automatic or manual node-level cleanup under the .backup subdirectory inside the project...
-  - _Keywords:_ backup, project, Sentaurus, Workbench, automatic, subdirectory, deleted, cleanup
+  - Sentaurus Workbench allows you to back up simulation results automatically. The automatic backup stores a copy of each node file being dele…
 - **Preferences** <a id="preferences"></a>
-  - Sentaurus Workbench preferences combine different settings that control the appearance and the overall behavior of Sentaurus Workbench (see Available Preferences on page 187).
-  - _Keywords:_ Sentaurus, Workbench, preferences, combine, different, settings, control, appearance
+  - Sentaurus Workbench preferences combine different settings that control the appearance and the overall behavior of Sentaurus Workbench (see…
 - **Preference Levels** <a id="preference-levels"></a>
-  - Typically, preferences are configured on the user level. You can configure Sentaurus Workbench as required. However, in some cases, the systems administrator must configure some settings on the global level and propagate them to all user...
-  - _Keywords:_ preferences, global, Sentaurus, Workbench, preference, STRELEASE, settings, TCAD
+  - Typically, preferences are configured on the user level. You can configure Sentaurus Workbench as required. However, in some cases, the sys…
 - **Configuring User Preferences** <a id="configuring-user-preferences"></a>
   - To configure user preferences:
-  - _Keywords:_ Preferences, Editable, Mode, Save, SWB, details, summary, Settings
 - **Configuring Global and Site Preferences** <a id="configuring-global-and-site-preferences"></a>
   - NOTE You can configuring global and site preferences only if you have write permission to the corresponding preference file.
-  - _Keywords:_ preference, Editable, global, preferences, Preferences, dialog, Mode, Save
 - **Forcing Global Preferences to All Users** <a id="forcing-global-preferences-to-all-users"></a>
-  - The standard hierarchical order of overriding settings can be changed in the site or global preferences. For each individual preference setting, you can prohibit changing lower precedence levels. To do this, set the attribute Editable of...
-  - _Keywords:_ settings, setting, global, preferences, preference, levels, propagate, standard
+  - The standard hierarchical order of overriding settings can be changed in the site or global preferences. For each individual preference set…
 - **Propagating Default Preferences to Users** <a id="propagating-default-preferences-to-users"></a>
-  - As the TCAD administrator, you might want to establish a corporate set of Sentaurus Workbench settings, so that new users start working with Sentaurus Workbench using your default settings rather than the Synopsys defaults. To do this, e...
-  - _Keywords:_ settings, Sentaurus, Workbench, preferences, stored, TCAD, administrator, establish
+  - As the TCAD administrator, you might want to establish a corporate set of Sentaurus Workbench settings, so that new users start working wit…
 - **Restoring Default Preferences** <a id="restoring-default-preferences"></a>
   - To restore the default user settings, run Sentaurus Workbench with the -default commandline option.
-  - _Keywords:_ Sentaurus, Workbench, restore, settings, commandline, Alternatively, remove, preference
 - **Available Preferences** <a id="available-preferences"></a>
   - The following tables describe all of the supported Sentaurus Workbench preferences.
-  - _Keywords:_ Sentaurus, Enumeration, Show, Specifies, Workbench, Boolean, View, project
 - **Tool Databases** <a id="tool-databases"></a>
   - All tools are defined in the tool databases of Sentaurus Workbench. The tool databases (tooldb) are global, site, user, and project.
-  - _Keywords:_ database, Sentaurus, Simulation, databases, Edit, Tool, entries, Process
 - **Configuring Tool Databases** <a id="configuring-tool-databases"></a>
-  - The global tool database is usually set up by the systems administrator and is not writable. Initially, the global tool database contains the complete set of TCAD simulation tools and an example of the definition of a user tool such as m...
-  - _Keywords:_ database, Sentaurus, project, Workbench, global, extract, standard, extraction
+  - The global tool database is usually set up by the systems administrator and is not writable. Initially, the global tool database contains t…
 - **Project Tool Database** <a id="project-tool-database"></a>
-  - Sentaurus Workbench handles the project tool database in a different way to other tool databases. Global, site, and user tool databases are sourced in a global Tcl namespace. The project tool database is sourced in a separate Tcl namespa...
-  - _Keywords:_ database, project, global, Tcl, Use, getactual, higher, hierarchical
+  - Sentaurus Workbench handles the project tool database in a different way to other tool databases. Global, site, and user tool databases are…
 - **Run Limits Settings** <a id="run-limits-settings"></a>
-  - Run limits are switched off by default, which means that no restrictions are applied. To switch on run limits, they must be specified on the global, site, or user levels in XML-compatible files.
-  - _Keywords:_ limits, settings, Run, project, global, runlimits, Sentaurus, specific
+  - Run limits are switched off by default, which means that no restrictions are applied. To switch on run limits, they must be specified on th…
 - **Format of XML-Compatible Run Limits Settings File** <a id="format-of-xml-compatible-run-limits-settings-file"></a>
   - Table 18 describes the available tags, their attributes, and the attribute value types for specifying run limits settings.
-  - _Keywords:_ String, Editable, Prohibits, allows, editing, attribute, limits, settings
 - **Example 1** <a id="example-1"></a>
   - Assume you want to define the following run limits for Sentaurus Process (sprocess), which can be redefined on a user level:
-  - _Keywords:_ Weekdays, TimeSegment, limits, sprocess, RunLimit, RunLimitsTable, Tool, Begin
 - **Example 2** <a id="example-2"></a>
-  - Assume you want to implement a more complex run limits timetable for Sentaurus Process (sprocess), which cannot be redefined on a user level:
-  - _Keywords:_ RunLimit, TimeSegment, General, Weekdays, implement, limits, sprocess, Weekends
+  - Assume you want to implement a more complex run limits timetable for Sentaurus Process (sprocess), which cannot be redefined on a user leve…
 - **9: Configuring Sentaurus Workbench** <a id="9-configuring-sentaurus-workbench"></a>
 - **Run Limits Settings** <a id="run-limits-settings"></a>
-  - ```xml </Weekends> <Mon> <TimeSegment Begin="13:00" End="14:00"> <RunLimit Value="10" /> </TimeSegment> </Mon> <Tue> <TimeSegment Begin="15:00" End="17:00"> <RunLimit Value="15" /> </TimeSegment> </Tue> <Wed> <TimeSegment Begin="17:00" E...
-  - _Keywords:_ TimeSegment, Begin, RunLimit, End, Holiday, Mon, Tue, Wed
+  - ```xml </Weekends> <Mon> <TimeSegment Begin="13:00" End="14:00"> <RunLimit Value="10" /> </TimeSegment> </Mon> <Tue> <TimeSegment Begin="15…
 - **Changing the Run Limits Settings** <a id="changing-the-run-limits-settings"></a>
-  - Sentaurus Workbench automatically recognizes any changes you apply to the global, site, or user run limits settings. Changes in the corresponding files apply to both already running projects and projects you will launch after the changes.
-  - _Keywords:_ changes, global, limits, projects, licenses, Sentaurus, Workbench, automatically
+  - Sentaurus Workbench automatically recognizes any changes you apply to the global, site, or user run limits settings. Changes in the corresp…
 - **Bypassing Unwanted License Checks** <a id="bypassing-unwanted-license-checks"></a>
-  - Sentaurus Workbench checks the availability of Sentaurus PCM Studio licenses on startup. If licenses are available, Sentaurus Workbench extends the menu bar with additional items (see Table 34 on page 281).
-  - _Keywords:_ Sentaurus, Workbench, licenses, checks, availability, PCM, Studio, startup
+  - Sentaurus Workbench checks the availability of Sentaurus PCM Studio licenses on startup. If licenses are available, Sentaurus Workbench ext…
 - **Creating Symbolic Links to Node Output Files** <a id="creating-symbolic-links-to-node-output-files"></a>
-  - In some process simulation projects, it can be useful to look for simulation results not by node number, but by a combination of experiment number, parameter name, or parameter process name. Sentaurus Workbench allows you to create these...
-  - _Keywords:_ symbolic, process, simulation, create, results, experiment, Sentaurus, Workbench
+  - In some process simulation projects, it can be useful to look for simulation results not by node number, but by a combination of experiment…
 - **Visualizing Response Surface Models** <a id="visualizing-response-surface-models"></a>
   - You can visualize a surface corresponding to a response surface model (RSM).
-  - _Keywords:_ RSM, colspan, surface, response, Visualization, visualize, project, You
 - **Step 1 of RSM Visualization** <a id="step-1-of-rsm-visualization"></a>
   - In Step 1 of RSM visualization (see Figure 74), specify the following fields to define the RSM to be visualized:
-  - _Keywords:_ RSM, Model, Scenario, Step, project, numeric, standard, second
 - **Including Parameters in the Modeling** <a id="including-parameters-in-the-modeling"></a>
   - To include parameters in the modeling:
-  - _Keywords:_ column, include, modeling, Select, corresponding, Include, Specify, Model
 - **Step 2 of RSM Visualization** <a id="step-2-of-rsm-visualization"></a>
-  - In Step 2 of RSM visualization (see Figure 75), select the values that determine the plot ranges and the number of points for the parameters attached to the x-axis and y-axis of the resulting plot. Sentaurus Workbench automatically calcu...
-  - _Keywords:_ points, Contour, Step, RSM, Visualization, Variable, linear, logarithmic
+  - In Step 2 of RSM visualization (see Figure 75), select the values that determine the plot ranges and the number of points for the parameter…
 - **Visualization Options** <a id="visualization-options"></a>
   - Sentaurus Workbench offers different visualization options to display the RSM.
-  - _Keywords:_ response, Displays, surface, contour, plotting, select, selected, displayed
 - **Model Information** <a id="model-information"></a>
   - Click the Model Info button to see information about the model (see Figure 76).
-  - _Keywords:_ Model, Info, RSM, information, details, summary, Variance, ANOVA
 - **Visualizing the Model** <a id="visualizing-the-model"></a>
   - To visualize the model, click the Generate button (see Figure 75 on page 214).
-  - _Keywords:_ details, summary, Sentaurus, visualize, Generate, button, images, swb_ug_part02_1f8cee95cd04337d06f8e220628f5d4d94b60fa0233e37fbc984c3c838e6777a
 - **Scheduling Systems** <a id="scheduling-systems"></a>
-  - Parameter studies involving several parameters usually require a large number of simulation runs. The limited interdependency of the individual simulation steps makes this type of application an excellent candidate for exploiting coarse-...
-  - _Keywords:_ system, scheduling, Sentaurus, Workbench, systems, usually, simulation, application
+  - Parameter studies involving several parameters usually require a large number of simulation runs. The limited interdependency of the indivi…
 - **Supported Schedulers** <a id="supported-schedulers"></a>
   - Sentaurus Workbench supports the following backend execution engines:
-  - _Keywords:_ Grid, Engine, LSF, Sun, SGE, supports, execution, IBM
 - **TORQUE Resource Manager** <a id="torque-resource-manager"></a>
-  - TORQUE Resource Manager (TM), supported by Adaptive Computing, Inc., provides control over batch jobs and distributed computing resources. It is an advanced open-source product based on the original PBS project and incorporates the best ...
-  - _Keywords:_ TORQUE, Resource, Manager, supported, Adaptive, Computing, Inc, provides
+  - TORQUE Resource Manager (TM), supported by Adaptive Computing, Inc., provides control over batch jobs and distributed computing resources.…
 - **Runtime Design Automation NetworkComputer™** <a id="runtime-design-automation-networkcomputer"></a>
-  - NetworkComputer (RTDA) is an enterprise-grade high-performance job scheduler, otherwise known as a batch processing system or a distributed resource management system (DRMS). It provides a cost-effective solution for distributing an IT w...
-  - _Keywords:_ NetworkComputer, RTDA, system, enterprise, performance, scheduler, otherwise, processing
+  - NetworkComputer (RTDA) is an enterprise-grade high-performance job scheduler, otherwise known as a batch processing system or a distributed…
 - **Local** <a id="local"></a>
-  - The local scheduler executes jobs sequentially on the local machine. It does not require any special setup and does not produce any scheduling overhead. It is useful for running short simulations, or setting up and debugging more complex...
-  - _Keywords:_ workstations, systems, Synopsys, software, installed, absolute, easiest, obtain
+  - The local scheduler executes jobs sequentially on the local machine. It does not require any special setup and does not produce any schedul…
 - **LSF Scheduler** _(p.122)_ <a id="lsf-scheduler"></a>
-  - Sentaurus Workbench provides an interface to the Load Sharing Facility (LSF) system, which integrates a cluster of heterogeneous workstations into a single system environment and provides sophisticated job scheduling policies. It can be ...
-  - _Keywords:_ LSF, resource, Sentaurus, Workbench, project, Open, Active, database
+  - Sentaurus Workbench provides an interface to the Load Sharing Facility (LSF) system, which integrates a cluster of heterogeneous workstatio…
 - **Troubleshooting LSF** <a id="troubleshooting-lsf"></a>
   - This section describes how to solve two typical issues you might experience with the LSF cluster.
-  - _Keywords:_ describes, typical, issues, experience, LSF, cluster
 - **Nodes Submitted But Not Executed** <a id="nodes-submitted-but-not-executed"></a>
-  - This issue can appear on overworked or slow LSF clusters. After Sentaurus Workbench submits node jobs in the LSF environment with the bsub command, it starts periodical checking of job polling by calling the bjobs command to obtain the s...
-  - _Keywords:_ LSF, Sentaurus, Workbench, appear, overworked, clusters, After, submits
+  - This issue can appear on overworked or slow LSF clusters. After Sentaurus Workbench submits node jobs in the LSF environment with the bsub…
 - **Workaround** <a id="workaround"></a>
-  - Sentaurus Workbench provides options to control the job-polling algorithm, which you can fine-tune to allow the LSF cluster to work more effectively with Sentaurus Workbench:
-  - _Keywords:_ Sentaurus, Workbench, LSF, interval, setting, specifies, between, seconds
+  - Sentaurus Workbench provides options to control the job-polling algorithm, which you can fine-tune to allow the LSF cluster to work more ef…
 - **Nodes Not Executed and Log File Contains Complaints About bjobs Output** <a id="nodes-not-executed-and-log-file-contains-complaints-about-bj"></a>
-  - This issue can appear when the LSF bjobs command provides output in a format that is not expected by Sentaurus Workbench, for example, when a user-specific script or application is called instead of the standard LSF bjobs command.
-  - _Keywords:_ LSF, appear, provides, format, expected, Sentaurus, Workbench, specific
+  - This issue can appear when the LSF bjobs command provides output in a format that is not expected by Sentaurus Workbench, for example, when…
 - **Workaround** <a id="workaround"></a>
-  - You can adapt nonstandard bjobs output by defining your own parsing algorithm. Implement the following Tcl function and put it into the tool database:
-  - _Keywords:_ Tcl, parsing, Sentaurus, Workbench, status, EXIT, PEND, You
+  - You can adapt nonstandard bjobs output by defining your own parsing algorithm. Implement the following Tcl function and put it into the too…
 - **SGE Scheduler** <a id="sge-scheduler"></a>
-  - As an alternative to the LSF scheduler, Sentaurus Workbench provides an interface to the SGE scheduler. SGE is a queuing facility that manages various system resources, running different operating systems, and helps you to submit and man...
-  - _Keywords:_ SGE, resource, Sentaurus, Workbench, global, submit, database, descriptions
+  - As an alternative to the LSF scheduler, Sentaurus Workbench provides an interface to the SGE scheduler. SGE is a queuing facility that mana…
 - **Troubleshooting SGE** <a id="troubleshooting-sge"></a>
-  - Systems administrators of overworked SGE clusters might receive complaints from Sentaurus Workbench users about job polling occurring too frequently. This section describes how to fine-tune Sentaurus Workbench schedule settings in this c...
-  - _Keywords:_ Sentaurus, Workbench, Systems, administrators, overworked, SGE, clusters, receive
+  - Systems administrators of overworked SGE clusters might receive complaints from Sentaurus Workbench users about job polling occurring too f…
 - **Job Polling Occurs Too Frequently** <a id="job-polling-occurs-too-frequently"></a>
-  - This issue can occur on overworked or slow SGE clusters. After Sentaurus Workbench submits node jobs in the SGE environment with the qsub command, it starts a periodical check of job polling by calling the qstat command to obtain the sta...
-  - _Keywords:_ SGE, overworked, clusters, After, Sentaurus, Workbench, submits, environment
+  - This issue can occur on overworked or slow SGE clusters. After Sentaurus Workbench submits node jobs in the SGE environment with the qsub c…
 - **Workaround** <a id="workaround"></a>
   - You can reduce this frequency in the Sentaurus Workbench preferences and the tool database.
-  - _Keywords:_ preferences, SGE, interval, You, reduce, frequency, Sentaurus, Workbench
 - **TM Scheduler** <a id="tm-scheduler"></a>
-  - As an alternative to LSF and SGE, Sentaurus Workbench provides an interface to the TORQUE Resource Manager (TM) scheduler. This scheduler is an advanced open-source product and incorporates the best of both community and professional dev...
-  - _Keywords:_ resource, Sentaurus, Workbench, database, descriptions, environment, accessible, submit
+  - As an alternative to LSF and SGE, Sentaurus Workbench provides an interface to the TORQUE Resource Manager (TM) scheduler. This scheduler i…
 - **Troubleshooting TM** <a id="troubleshooting-tm"></a>
-  - Systems administrators of overworked TM clusters might receive complaints from Sentaurus Workbench users about job polling occurring too frequently. This section describes how to fine-tune the Sentaurus Workbench schedule settings in thi...
-  - _Keywords:_ Sentaurus, Workbench, Systems, administrators, overworked, clusters, receive, complaints
+  - Systems administrators of overworked TM clusters might receive complaints from Sentaurus Workbench users about job polling occurring too fr…
 - **Job Polling Occurs Too Frequently** <a id="job-polling-occurs-too-frequently"></a>
-  - This issue can occur on overworked or slow TM clusters. After Sentaurus Workbench submits node jobs in the TM environment with the qsub command, it starts a periodical check of job polling by calling the qstat command to obtain the statu...
-  - _Keywords:_ overworked, clusters, After, Sentaurus, Workbench, submits, environment, starts
+  - This issue can occur on overworked or slow TM clusters. After Sentaurus Workbench submits node jobs in the TM environment with the qsub com…
 - **Workaround** <a id="workaround"></a>
   - You can reduce this frequency in the Sentaurus Workbench preferences and the tool database.
-  - _Keywords:_ preferences, interval, You, reduce, frequency, Sentaurus, Workbench, database
 - **RTDA Scheduler** <a id="rtda-scheduler"></a>
-  - Sentaurus Workbench provides an interface to the Runtime Design Automation (RTDA) NetworkComputer. It is used to manage a computer farm or computer cluster, and is responsible for accepting, scheduling, dispatching, and managing the remo...
-  - _Keywords:_ RTDA, resource, Sentaurus, Workbench, database, descriptions, environment, accessible
+  - Sentaurus Workbench provides an interface to the Runtime Design Automation (RTDA) NetworkComputer. It is used to manage a computer farm or…
 - **Troubleshooting RTDA** <a id="troubleshooting-rtda"></a>
-  - Systems administrators of overworked RTDA clusters might receive complaints from Sentaurus Workbench users about job polling occurring too frequently. This section describes how to fine-tune Sentaurus Workbench schedule settings in this ...
-  - _Keywords:_ Sentaurus, Workbench, Systems, administrators, overworked, RTDA, clusters, receive
+  - Systems administrators of overworked RTDA clusters might receive complaints from Sentaurus Workbench users about job polling occurring too…
 - **Job Polling Occurs Too Frequently** <a id="job-polling-occurs-too-frequently"></a>
-  - This issue can occur on overworked or slow RTDA clusters. After Sentaurus Workbench submits node jobs in the RTDA environment with the nc run command, it starts a periodical check of job polling by calling the nc list command to obtain t...
-  - _Keywords:_ RTDA, overworked, clusters, After, Sentaurus, Workbench, submits, environment
+  - This issue can occur on overworked or slow RTDA clusters. After Sentaurus Workbench submits node jobs in the RTDA environment with the nc r…
 - **Workaround** <a id="workaround"></a>
   - You can reduce this frequency in the Sentaurus Workbench preferences and the tool database.
-  - _Keywords:_ preferences, RTDA, interval, You, reduce, frequency, Sentaurus, Workbench
 - **Configuring Scheduling Systems** <a id="configuring-scheduling-systems"></a>
-  - Scheduling systems require a queue configuration file gqueues.dat to be defined on a global or site level. The systems administrator must set up this file.
-  - _Keywords:_ systems, configuration, Scheduling, require, gqueues, defined, global, administrator
+  - Scheduling systems require a queue configuration file gqueues.dat to be defined on a global or site level. The systems administrator must s…
 - **Global Queue Configuration File** <a id="global-queue-configuration-file"></a>
-  - A queue configuration file (gqueues.dat) combines definitions of all resources available to you for running simulations in Sentaurus Workbench. The file contains a list of Sentaurus Workbench queue definitions.
-  - _Keywords:_ queues, Sentaurus, Workbench, gqueues, global, normal, Release, directory
+  - A queue configuration file (gqueues.dat) combines definitions of all resources available to you for running simulations in Sentaurus Workbe…
 - **Local Queues** <a id="local-queues"></a>
   - The queue configuration for local queues (that is, for jobs that are run on a local machine) is set up as follows:
-  - _Keywords:_ priority, queues, configuration, machine, follows, queue_name, desired, Sentaurus
 - **LSF Queues** <a id="lsf-queues"></a>
   - For installing and setting up LSF queues, refer to the LSF installation manual.
-  - _Keywords:_ LSF, Sentaurus, Workbench, string, constraint, mylsfqueue, resource, normal
 - **11: Schedulers** <a id="11-schedulers"></a>
 - **Configuring Scheduling Systems** <a id="configuring-scheduling-systems"></a>
-  - These Sentaurus Workbench queues refqueue1, refqueue2, and refqueue3 are not real LSF queues, that is, they do not exist in the LSF environment. In fact, these queues refer to the same LSF normal queue. The LSF bsub command supports mult...
-  - _Keywords:_ LSF, queues, Sentaurus, Workbench, normal, These, refqueue1, refqueue2
+  - These Sentaurus Workbench queues refqueue1, refqueue2, and refqueue3 are not real LSF queues, that is, they do not exist in the LSF environ…
 - **SGE Queues** <a id="sge-queues"></a>
   - For installing and setting up SGE queues, refer to the SGE documentation.
-  - _Keywords:_ SGE, Sentaurus, Workbench, project, script, documentation, string, _queue
 - **TM Queues** <a id="tm-queues"></a>
   - For installing and setting up TM queues, refer to the TORQUE Resource Manager documentation.
-  - _Keywords:_ queues, TORQUE, Resource, Manager, documentation, SGE, arguments, installing
 - **RTDA Queues** <a id="rtda-queues"></a>
   - For installing and setting up RTDA queues and job classes, refer to the NetworkComputer documentation.
-  - _Keywords:_ RTDA, NetworkComputer, documentation, _queue, additional, Sentaurus, Workbench, CPUS
 - **Site Queue Configuration** <a id="site-queue-configuration"></a>
-  - When your company has multiple groups of users of the Sentaurus platform, distributed in different sites, it might be useful to redefine global queue configuration settings for all users of the specific site.
-  - _Keywords:_ company, multiple, groups, Sentaurus, platform, distributed, different, useful
+  - When your company has multiple groups of users of the Sentaurus platform, distributed in different sites, it might be useful to redefine gl…
 - **To do this:** <a id="to-do-this"></a>
-  - 1. Create your site-specific settings in the gqueues.dat file. 2. Place the file under an arbitrary directory. 3. Set up the following environment variable to refer to this directory:
-  - _Keywords:_ settings, global, gqueues, directory, configuration, specific, environment, variable
+  - 1. Create your site-specific settings in the gqueues.dat file. 2. Place the file under an arbitrary directory. 3. Set up the following envi…
 - **Tool Associations** _(p.131)_ <a id="tool-associations"></a>
-  - Sentaurus Workbench supports the following levels of tool-queue associations: global, user, project, and node. The systems administrator sets up the global tool-queue association. You can configure the other three levels to meet your req...
-  - _Keywords:_ project, levels, associations, specific, You, queues, Sentaurus, global
+  - Sentaurus Workbench supports the following levels of tool-queue associations: global, user, project, and node. The systems administrator se…
 - **Global Tool Associations** <a id="global-tool-associations"></a>
-  - Global tool associations are written to the global queue configuration file or site queue configuration file or both, and are loaded with the setup. These associations apply to all users.
-  - _Keywords:_ associations, global, configuration, These, Global, written, loaded, Sentaurus
+  - Global tool associations are written to the global queue configuration file or site queue configuration file or both, and are loaded with t…
 - **User Tool Associations** <a id="user-tool-associations"></a>
-  - You can use the list of queues and prepare the assignment of tools to queues. Options can be modified according to the requirements. The user tool associations are stored in the file gqueues\_<username>.dat in the \$STDB directory of the...
-  - _Keywords:_ queues, definitions, You, prepare, assignment, modified, according, requirements
+  - You can use the list of queues and prepare the assignment of tools to queues. Options can be modified according to the requirements. The us…
 - **Project Tool Associations** <a id="project-tool-associations"></a>
-  - You can configure the tool queue associations at the project level. These definitions are stored in the gqueues.dat file in the project directory.
-  - _Keywords:_ project, definitions, You, configure, associations, These, stored, gqueues
+  - You can configure the tool queue associations at the project level. These definitions are stored in the gqueues.dat file in the project dir…
 - **Node-Specific Constraints** <a id="node-specific-constraints"></a>
-  - Node-specific constraints are handled by expanding the expression and applying the constraints to the nodes that match the expression. Node-level constraints are applied during runtime:
-  - _Keywords:_ constraints, global, definition, Node, loaded, specific, expression, project
+  - Node-specific constraints are handled by expanding the expression and applying the constraints to the nodes that match the expression. Node…
 - **Extended Scheduler Log** <a id="extended-scheduler-log"></a>
-  - The Sentaurus Workbench Scheduler can generate detailed log information, which can help to debug scheduling-related problems. This additional information is accumulated in the project log file (glog.txt) and in the node-related job files...
-  - _Keywords:_ related, feature, information, project, GSUB, _ADVANCED, _LOG, advanced
+  - The Sentaurus Workbench Scheduler can generate detailed log information, which can help to debug scheduling-related problems. This addition…
 - **Launching Sentaurus Workbench as an Interactive Job on the Cluster** <a id="launching-sentaurus-workbench-as-an-interactive-job-on-the-c"></a>
-  - Some clusters offer the possibility to launch interactive jobs. For example, the LSF and SGE schedulers can launch an interactive terminal job on the cluster, which can be used to work with Sentaurus Workbench. Alternatively, clusters al...
-  - _Keywords:_ interactive, launch, cluster, terminal, Sentaurus, Workbench, clusters, LSF
+  - Some clusters offer the possibility to launch interactive jobs. For example, the LSF and SGE schedulers can launch an interactive terminal…
 - **Batch Processes** <a id="batch-processes"></a>
-  - Sentaurus Workbench is a serial process. However, the Sentaurus Workbench infrastructure includes other batch processes running in the background. Sentaurus Workbench launches these processes on the same host, that is, they run on your i...
-  - _Keywords:_ Sentaurus, Workbench, CPU, interactive, process, resources, processes, running
+  - Sentaurus Workbench is a serial process. However, the Sentaurus Workbench infrastructure includes other batch processes running in the back…
 - **11: Schedulers** <a id="11-schedulers"></a>
   - Launching Sentaurus Workbench as an Interactive Job on the Cluster
-  - _Keywords:_ Sentaurus, Workbench, project, organization, Launching, Interactive, Job, Cluster
 - **Limitations of the Traditional Project Organization** <a id="limitations-of-the-traditional-project-organization"></a>
-  - Sentaurus Workbench traditionally supports the organization of projects where all files are placed inside one directory that contains the following (see Figure 78):
-  - _Keywords:_ Sentaurus, Workbench, traditionally, supports, organization, projects, placed, inside
+  - Sentaurus Workbench traditionally supports the organization of projects where all files are placed inside one directory that contains the f…
 - **Project Folder** <a id="project-folder"></a>
 - **Project** <a id="project"></a>
 - **Internal Files (metadata)** <a id="internal-files-metadata"></a>
   - − simulation flow − DoE table − variables − execution graph − project status − nodes status − view settings
-  - _Keywords:_ status, simulation, DoE, variables, execution, project, settings
 - **User Files** <a id="user-files"></a>
 - **Predefined in tool database:** <a id="predefined-in-tool-database"></a>
   - − tool input files
 - **Unknown:** <a id="unknown"></a>
   - − Tcl-sourced files − #include files − arbitrary files
-  - _Keywords:_ Tcl, sourced, include, arbitrary
 - **Project** <a id="project"></a>
 - **Project Quota** <a id="project-quota"></a>
 - **Core Data** <a id="core-data"></a>
 - **Reproducible Data** <a id="reproducible-data"></a>
 - **Project Logs** <a id="project-logs"></a>
   - − preprocessing log − execution log − error log − optimizer log
-  - _Keywords:_ preprocessing, execution, optimizer
 - **Node Files** <a id="node-files"></a>
   - − preprocessed − results − run log − error log
-  - _Keywords:_ preprocessed, results, Traditional, project, organization, Sentaurus, Workbench
 - **12: Organization of Projects** <a id="12-organization-of-projects"></a>
   - Hierarchical Project Organization
-  - _Keywords:_ project, experiments, traditional, Sentaurus, Workbench, organization, queries, selected
 - **Hierarchical Project Organization** <a id="hierarchical-project-organization"></a>
-  - While the traditional project organization is the default in Sentaurus Workbench, to address its limitations, in Version O-2018.06, you can use the hierarchical project organization.
-  - _Keywords:_ project, organization, traditional, Sentaurus, Workbench, address, limitations, Version
+  - While the traditional project organization is the default in Sentaurus Workbench, to address its limitations, in Version O-2018.06, you can…
 - **Location of Project Files** <a id="location-of-project-files"></a>
   - With the hierarchical project organization (see Figure 79 on page 243):
-  - _Keywords:_ n64_des, n100_des, project, results, Node, organization, stored, Core
 - **Advantages of the Hierarchical Project Organization** <a id="advantages-of-the-hierarchical-project-organization"></a>
 - **Better Performance** <a id="better-performance"></a>
   - The hierarchical project organization significantly improves performance with large DoE projects.
-  - _Keywords:_ project, organization, operations, simulation, experiments, traditional, hierarchical, significantly
 - **Split Storage of Project Files** <a id="split-storage-of-project-files"></a>
-  - Activating the hierarchical project organization allows you to split the storage of project files on to different disks (see Separate Storage of Project Files on page 250).
-  - _Keywords:_ project, Activating, hierarchical, organization, allows, storage, different, Separate
+  - Activating the hierarchical project organization allows you to split the storage of project files on to different disks (see Separate Stora…
 - **Renumbering Nodes Without Cleaning Up a Project** <a id="renumbering-nodes-without-cleaning-up-a-project"></a>
-  - With the traditional project organization, you can renumber nodes only when cleaning up a projects. With the hierarchical project organization, you can renumber nodes without losing the simulation results (see Renumbering Nodes Without C...
-  - _Keywords:_ project, organization, renumber, traditional, cleaning, projects, hierarchical, without
+  - With the traditional project organization, you can renumber nodes only when cleaning up a projects. With the hierarchical project organizat…
 - **Activating the Hierarchical Mode of Sentaurus Workbench** <a id="activating-the-hierarchical-mode-of-sentaurus-workbench"></a>
-  - Sentaurus Workbench has two modes of project organization: traditional and hierarchical. Each mode has its own set of binaries. You work with traditionally organized projects in the traditional mode of Sentaurus Workbench, which is the d...
-  - _Keywords:_ hierarchical, traditional, project, organization, Sentaurus, Workbench, projects, organized
+  - Sentaurus Workbench has two modes of project organization: traditional and hierarchical. Each mode has its own set of binaries. You work wi…
 - **12: Organization of Projects** <a id="12-organization-of-projects"></a>
   - Hierarchical Project Organization
-  - _Keywords:_ Sentaurus, Workbench, traditional, hierarchical, Hierarchical, Project, Organization, You
 - **Compatibility With the Traditional Project Organization** <a id="compatibility-with-the-traditional-project-organization"></a>
   - Sentaurus Workbench in hierarchical mode recognizes projects with traditional organization.
-  - _Keywords:_ Sentaurus, Workbench, traditional, project, hierarchical, organization, details, summary
 - **Converting Projects to Hierarchical Organization** <a id="converting-projects-to-hierarchical-organization"></a>
-  - The Convert Project to Hierarchical Organization option (this is the default) allows you to configure the conversion from traditional to hierarchical project organization.
-  - _Keywords:_ project, Sentaurus, Workbench, selected, conversion, Convert, Project, Organization
+  - The Convert Project to Hierarchical Organization option (this is the default) allows you to configure the conversion from traditional to hi…
 - **Loading Projects Without Conversion** <a id="loading-projects-without-conversion"></a>
-  - The Load Project Without Conversion (Read-Only) option opens a project as is, with no conversion and no changes applied (see Figure 82 on page 247). The project retains its traditional organization, which Sentaurus Workbench displays in ...
-  - _Keywords:_ project, organization, traditional, Sentaurus, Workbench, Load, Project, Without
+  - The Load Project Without Conversion (Read-Only) option opens a project as is, with no conversion and no changes applied (see Figure 82 on p…
 - **Loading Projects in Traditional Mode** <a id="loading-projects-in-traditional-mode"></a>
-  - The Open in Traditional Mode option launches a new Sentaurus Workbench session in traditional mode and opens the project in this session (see Figure 82 on page 247). Then, you can proceed working with the project as usual.
-  - _Keywords:_ project, traditional, Sentaurus, Workbench, session, convert, organization, Open
+  - The Open in Traditional Mode option launches a new Sentaurus Workbench session in traditional mode and opens the project in this session (s…
 - **Navigating Through Node Files** <a id="navigating-through-node-files"></a>
-  - Typically, you use the Node Explorer to navigate through node files, analyzing simulation results, and tracking simulation problems. It supports both traditional and hierarchical project organizations (see Node Explorer on page 47).
-  - _Keywords:_ rowspan, Node, Explorer, Web, simulation, project, navigate, through
+  - Typically, you use the Node Explorer to navigate through node files, analyzing simulation results, and tracking simulation problems. It sup…
 - **Renumbering Nodes Without Cleaning Up a Project** <a id="renumbering-nodes-without-cleaning-up-a-project"></a>
   - You can renumber nodes without cleaning up a project in one of the following ways:
-  - _Keywords:_ Nodes, cleaning, Renumber, You, renumber, without, project, Choose
 - **To renumber nodes:** <a id="to-renumber-nodes"></a>
-  - 1. Choose Project > Operations > Clean Up, or press Ctrl+L. 2. In the Cleanup Options dialog box, select Renumber the Tree. 3. Deselect Node Files (Output, Preprocessed). 4. Click Cleanup.
-  - _Keywords:_ Cleanup, content, Choose, Project, Operations, Clean, Ctrl, dialog
+  - 1. Choose Project > Operations > Clean Up, or press Ctrl+L. 2. In the Cleanup Options dialog box, select Renumber the Tree. 3. Deselect Nod…
 - **Separate Storage of Project Files** <a id="separate-storage-of-project-files"></a>
-  - Sentaurus Workbench projects usually require substantial storage space due to the size of TDR files, even though TDR files are compressed internally.
-  - _Keywords:_ Project, project, Sentaurus, Workbench, hierarchy, reproducible, stored, Organization
+  - Sentaurus Workbench projects usually require substantial storage space due to the size of TDR files, even though TDR files are compressed i…
 - **12: Organization of Projects** <a id="12-organization-of-projects"></a>
   - Hierarchical Project Organization
-  - _Keywords:_ Project, Organization, Hierarchical, STDB, Sentaurus, Workbench, location, preferences
 - **Migration to the Hierarchical Project Organization** <a id="migration-to-the-hierarchical-project-organization"></a>
   - The following rules will help you to migrate from the traditional project organization to the hierarchical project organization:
-  - _Keywords:_ project, organization, hierarchical, stored, directory, projects, migrate, traditional
 - **Example: Sentaurus Visual input file assumes all node files are in the same directory** <a id="example-sentaurus-visual-input-file-assumes-all-node-files-a"></a>
   - With the traditional project organization, you would use:
-  - _Keywords:_ sdevice, project, organization, IdVg, PLT, traditional, hierarchical
 - **Example: Sentaurus Process input file assumes the current directory is the root project directory** <a id="example-sentaurus-process-input-file-assumes-the-current-dir"></a>
   - With the traditional project organization, you would use:
-  - _Keywords:_ project, organization, filename, SRAM, traditional, hierarchical
 - **Extended Preprocessor Syntax** <a id="extended-preprocessor-syntax"></a>
-  - With the hierarchical project organization switched on, Sentaurus Workbench launches simulation tasks in the dedicated node folders. The preprocessor substitutes @...@ references to node files, with their corresponding relative path to t...
-  - _Keywords:_ STDB, storage, results, project, organization, Common, out_root, Sentaurus
+  - With the hierarchical project organization switched on, Sentaurus Workbench launches simulation tasks in the dedicated node folders. The pr…
 - **Linking Input Project Files in Node Folders** <a id="linking-input-project-files-in-node-folders"></a>
-  - NOTE Sentaurus Workbench provides this capability solely to improve user experience with the hierarchical project organization and to allow you to work with legacy projects that are difficult to convert. Avoid using this capability for a...
-  - _Keywords:_ project, Sentaurus, Workbench, capability, hierarchical, organization, projects, source
+  - NOTE Sentaurus Workbench provides this capability solely to improve user experience with the hierarchical project organization and to allow…
 - **12: Organization of Projects Extended Preprocessor Syntax** _(p.145)_ <a id="12-organization-of-projects-extended-preprocessor-syntax"></a>
   - The project stores this setting until you change it to No.
-  - _Keywords:_ project, setting, preferences, capability, Preferences, Project, Organization, stores
 - **@-References and Tree Navigation** _(p.145)_ <a id="references-and-tree-navigation"></a>
-  - The syntax of @-references in EBNF notation is: ```ocaml reference: simple_reference [ operator [operator] ] simple_reference: ("node" | "previous" | file_type ["/i"] | ["/o"] | "experiment" | "experiments" | "process_name" | "swb_parame...
-  - _Keywords:_ orientation, horizontal, vertical, reference, operator, direction, Vertical, relative
+  - The syntax of @-references in EBNF notation is: ```ocaml reference: simple_reference [ operator [operator] ] simple_reference: ("node" | "p…
 - **Horizontal Flow Orientation** <a id="horizontal-flow-orientation"></a>
-  - In the vertical direction, a unit represents an entire simulation phase. Intermediate nodes (virtual nodes or split points) are not taken into account. For horizontal operators, the following additional keywords can be used instead of nu...
-  - _Keywords:_ horizontal, indicated, leftmost, respective, vertical, instead, reference, rightmost
+  - In the vertical direction, a unit represents an entire simulation phase. Intermediate nodes (virtual nodes or split points) are not taken i…
 - **The reference evaluates to:** <a id="the-reference-evaluates-to"></a>
-  - ■ A horizontal node index if index, min, or max is used as the horizontal operator. A parameter value if parameter\_name is used as the reference. ■ A file name if file\_type is used as the reference. ■ A tool label if tool\_label is use...
-  - _Keywords:_ current, file_type, tool_label, Label, reference, column, previous, Node
+  - ■ A horizontal node index if index, min, or max is used as the horizontal operator. A parameter value if parameter\_name is used as the ref…
 - **Vertical Flow Orientation** <a id="vertical-flow-orientation"></a>
-  - In the horizontal direction, a unit represents an entire simulation phase. Intermediate nodes (virtual nodes or split points) are not taken into account. For vertical operators, the following additional keywords can be used instead of nu...
-  - _Keywords:_ vertical, indicated, upward, respective, horizontal, instead, reference, downward
+  - In the horizontal direction, a unit represents an entire simulation phase. Intermediate nodes (virtual nodes or split points) are not taken…
 - **The reference evaluates to:** <a id="the-reference-evaluates-to"></a>
-  - ■ A vertical node index if index, min, or max is used as the vertical operator. A parameter value if parameter\_name is used as the reference. ■ A file name if file\_type is used as the reference. ■ A tool label if tool\_label is used as...
-  - _Keywords:_ current, file_type, tool_label, reference, Label, previous, Node, simulation
+  - ■ A vertical node index if index, min, or max is used as the vertical operator. A parameter value if parameter\_name is used as the referen…
 - **#-Commands** <a id="commands"></a>
-  - Any preprocessor command starts with a hash (#) as the first character on a line. Space or tab characters are allowed after the initial # for indentation. The spp utility recognizes the following commands:
-  - _Keywords:_ expression, current, matching, evaluates, preceding, allowed, subsequent, included
+  - Any preprocessor command starts with a hash (#) as the first character on a line. Space or tab characters are allowed after the initial # f…
 - **Split Commands** _(p.149)_ <a id="split-commands"></a>
   - The following preprocessor commands handle split points:
-  - _Keywords:_ header, partial, define, preprocessor, points, endheader, replaced, postheader
 - **Node Expressions** _(p.149)_ <a id="node-expressions"></a>
-  - The EBNF syntax of a node expression GEXPR is: ```txt gexpr : gterm [operator gterm] operator : "+" | "*" | "-" | "^" gterm : scnr["| "level][":{" filter"}"] | tool_label[:{" filter"}"] | node | "(" gterm ")" | "~" gterm node : integer s...
-  - _Keywords:_ filter, operator, tool_label, integer, identifier, EBNF, syntax, expression
+  - The EBNF syntax of a node expression GEXPR is: ```txt gexpr : gterm [operator gterm] operator : "+" | "*" | "-" | "^" gterm : scnr["| "leve…
 - **A: Preprocessor and Reference Syntax** <a id="a-preprocessor-and-reference-syntax"></a>
   - Node Expressions
-  - _Keywords:_ binary, operator, Node, Expressions, intersection, difference, exclusive, extend
 - **Project Menu** <a id="project-menu"></a>
   - Table 21 Project menu commands
-  - _Keywords:_ project, Ctrl, Project, Creates, images, selected, projects, Opens
 - **Edit Menu** <a id="edit-menu"></a>
   - Table 22 Edit menu commands
-  - _Keywords:_ Ctrl, database, Global, Site, limits, settings, images, selection
 - **Scheduler Menu** <a id="scheduler-menu"></a>
   - Table 23 Scheduler menu commands
-  - _Keywords:_ Queues, queues, Scheduler, QueuesEdit, Configures, interface, project, Edits
 - **View Menu** <a id="view-menu"></a>
   - Table 24 View menu commands
-  - _Keywords:_ Shows, Show, Ctrl, simulation, project, View, Displays, Configures
 - **Scenario Menu** <a id="scenario-menu"></a>
   - Table 25 Scenario menu commands
-  - _Keywords:_ scenario, current, Alt, Shows, preprocessing, Scenario, Toolbar, button
 - **Tool Menu** <a id="tool-menu"></a>
   - Table 26 Tool menu commands
-  - _Keywords:_ selected, project, Parent, Project, parent, images, experiment, variable
 - **Parameter Menu** <a id="parameter-menu"></a>
   - Table 27 Parameter menu commands
-  - _Keywords:_ selected, Add, images, Displays, dialog, Delete, Shows, Toolbar
 - **Experiments Menu** <a id="experiments-menu"></a>
   - Table 28 Experiments menu commands
-  - _Keywords:_ experiments, selected, Experiments, experiment, Wizard, Exports, images, DoE
 - **Nodes Menu** <a id="nodes-menu"></a>
   - Table 29 Node menu commands
-  - _Keywords:_ selected, Visualizes, Nodes, Sentaurus, Visual, rowspan, Select, Ctrl
 - **Variables Menu** <a id="variables-menu"></a>
   - Table 31 Variables menu commands
-  - _Keywords:_ variable, selected, variables, Variables, images, project, Delete, Shows
 - **Optimization Menu** _(p.192)_ <a id="optimization-menu"></a>
   - NOTE This menu is shown only in Sentaurus Workbench Advanced mode.
-  - _Keywords:_ Optimization, Optimizer, View, Views, optimization, RSM, Visualization, Displays
 - **Calibration Menu** <a id="calibration-menu"></a>
   - NOTE This menu is shown only in Sentaurus Workbench Advanced mode.
-  - _Keywords:_ Calibration, Wizard, Kit, Guide, Sentaurus, Workbench, Advanced, Toolbar
 - **PCM Studio Menu** <a id="pcm-studio-menu"></a>
-  - NOTE This menu is shown only when a license for Sentaurus PCM Studio is available. Refer to the Sentaurus™ PCM Studio User Guide for more information.
-  - _Keywords:_ PCM, Studio, CSV, Sentaurus, Export, Current, Scenario, Exports
+  - NOTE This menu is shown only when a license for Sentaurus PCM Studio is available. Refer to the Sentaurus™ PCM Studio User Guide for more i…
 - **Extensions Menu** <a id="extensions-menu"></a>
   - Table 35 Extensions menu commands
-  - _Keywords:_ Sentaurus, Run, Launches, Process, Visual, Browser, project, selected
 - **Help Menu** <a id="help-menu"></a>
   - Table 36 Help menu commands
-  - _Keywords:_ Opens, Help, Toolbar, button, Shortcut, Description, Ctrl, Provides
 - **Toolbar Buttons of Project Editor** <a id="toolbar-buttons-of-project-editor"></a>
   - Table 37 Project Editor toolbar buttons
-  - _Keywords:_ images, project, selected, Opens, Displays, simulation, experiment, current
 - **Keyboard Navigation Keys** <a id="keyboard-navigation-keys"></a>
   - Table 38 Keyboard navigation keys
-  - _Keywords:_ Keyboard, navigation, Key, Description, Tab, Moves, between, projects
 - **Project Files** <a id="project-files"></a>
   - The following project files are specific to Sentaurus Workbench:
-  - _Keywords:_ project, Contains, greadme, preprocessor, Optimizer, specific, Sentaurus, Workbench
 - **Hidden Files** <a id="hidden-files"></a>
   - The following hidden files are not necessarily visible in the directory listings of a project:
-  - _Keywords:_ project, directory, history, organization, Project, status, hidden, necessarily
 - **User Configuration Files** <a id="user-configuration-files"></a>
   - All these files are in the env(STDB) directory:
-  - _Keywords:_ Sentaurus, release, Workbench, Version, gpref2_jsmith, SP1, STDB, directory
 - **Global Configuration Files** <a id="global-configuration-files"></a>
   - These files are in the following directories:
-  - _Keywords:_ STROOT, STRELEASE, Global, These, directories, queues, gqueues, Queues
 - **Site Configuration Files** <a id="site-configuration-files"></a>
   - These files are in the following directories:
-  - _Keywords:_ Site, These, directories, SWB, _SITE, _SETTINGS, _DIR, gqueues
 - **Typical Input and Output Files** <a id="typical-input-and-output-files"></a>
   - These are some typical file patterns seen in projects. The actual file names depend on the definitions of the tool database:
-  - _Keywords:_ _acronym, database, _label, _number, Node, These, typical, patterns
 - **C: Sentaurus Workbench Files** <a id="c-sentaurus-workbench-files"></a>
   - Typical Input and Output Files
-  - _Keywords:_ Typical, appendix, discusses, issues, related, running, Sentaurus, Workbench
 - **Double-Clicking Operation Does Not Work** _(p.234–237)_ <a id="double-clicking-operation-does-not-work"></a>
-  - On some VNC clients, double-clicking a node, parameter, tool, or variable does not work as expected. For example, if the action of double-clicking a tool is bound to editing the tool input file in the preferences, the expected text edito...
-  - _Keywords:_ cursor, TightVNC, double, clicking, details, summary, remote, Connection
+  - On some VNC clients, double-clicking a node, parameter, tool, or variable does not work as expected. For example, if the action of double-c…
 - **Workaround** _(p.237)_ <a id="workaround"></a>
-  - In the Connection Options dialog box (see Figure 86 on page 289), the Emulate 3 buttons (with 2-button click) option is selected by default, which results in incorrect double-clicking action in Sentaurus Workbench. This option must be cl...
-  - _Keywords:_ Sentaurus, Workbench, Connection, dialog, Emulate, buttons, button, selected
+  - In the Connection Options dialog box (see Figure 86 on page 289), the Emulate 3 buttons (with 2-button click) option is selected by default…
 - **Sentaurus Workbench Diagnostics Tool** <a id="sentaurus-workbench-diagnostics-tool"></a>
-  - Synopsys’ customers work in differently configured distributed environments. It might be that networking issues or incorrect environment settings affect Sentaurus Workbench operations.
-  - _Keywords:_ issues, Sentaurus, Workbench, customers, network, Synopsys, differently, configured
+  - Synopsys’ customers work in differently configured distributed environments. It might be that networking issues or incorrect environment se…
 - **Troubleshooting the Sentaurus Workbench Network** <a id="troubleshooting-the-sentaurus-workbench-network"></a>
-  - To test and debug possible issues with the communication architecture of Sentaurus Workbench, the Sentaurus Workbench Diagnostics tool must be executed.
-  - _Keywords:_ Sentaurus, Workbench, issues, environment, STROOT, machines, daemon, trying
+  - To test and debug possible issues with the communication architecture of Sentaurus Workbench, the Sentaurus Workbench Diagnostics tool must…
 - **E: Troubleshooting Network Issues** _(p.254)_ <a id="e-troubleshooting-network-issues"></a>
   - Troubleshooting the Sentaurus Workbench Network
-  - _Keywords:_ variable, machine, warning, issues, server, daemon, STROOT, Sentaurus
 - **Limitations and Assumptions** _(p.307)_ <a id="limitations-and-assumptions"></a>
   - The Sentaurus Workbench Diagnostics tool does not check the validity of host names. It assumes these follow the proper rules of the system.
-  - _Keywords:_ Sentaurus, Workbench, system, remote, Diagnostics, validity, assumes, follow
 - **Usage** _(p.308)_ <a id="usage"></a>
   - To start the test, execute the following command in the shell:
-  - _Keywords:_ swbdiag, specified, Displays, Sentaurus, Workbench, Diagnostics, specify, containing
 - **Report and Log File** _(p.308–310)_ <a id="report-and-log-file"></a>
-  - The Sentaurus Workbench Diagnostics tool prints to the screen the current step of the test. If the tool successfully terminates any previous instance of the swblm daemon (item 1, Step 2), at the end of the test, a report is generated and...
-  - _Keywords:_ SWBLM, Sentaurus, Workbench, report, printed, variable, delimited, composed
+  - The Sentaurus Workbench Diagnostics tool prints to the screen the current step of the test. If the tool successfully terminates any previou…

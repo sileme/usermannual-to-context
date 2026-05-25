@@ -3,206 +3,137 @@
 Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
 
 - **Calibration Kit User Guide** _(p.1)_ <a id="calibration-kit-user-guide"></a>
-  - Version O-2018.06, June 2018
-  - _Keywords:_ Version, June
 - **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
-  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
-  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursua…
 - **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
-  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
-  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to natio…
 - **Disclaimer** <a id="disclaimer"></a>
-  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITE…
 - **Trademarks** <a id="trademarks"></a>
-  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html.
-  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-b…
 - **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
-  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
-  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible…
 - **About This Guide v** _(p.3)_ <a id="about-this-guide-v"></a>
   - Related Publications . .
-  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
 - **Chapter 1 Introduction to the Calibration Kit 1** <a id="chapter-1-introduction-to-the-calibration-kit-1"></a>
   - Functionality of the Calibration Kit
-  - _Keywords:_ Calibration, Sentaurus, Process, Directory, Kit, Advanced, Optional, Functionality
 - **Chapter 2 Working With Calibration Kit Projects 9** _(p.4)_ <a id="chapter-2-working-with-calibration-kit-projects-9"></a>
   - Manipulating Calibration Kit Projects . . .
-  - _Keywords:_ New, Project, Creating, Viewing, Scenario, Manipulating, Calibration, Kit
 - **Chapter 3 Calibration Library, Process Searches, and Profiles 29** _(p.4–5)_ <a id="chapter-3-calibration-library-process-searches-and-profiles-"></a>
   - Experiment Database: Calibration Library . . . . 29
-  - _Keywords:_ Process, Calibration, Relative, Syntax, calibration, Database, Sentaurus, Search
 - **Related Publications** _(p.5)_ <a id="related-publications"></a>
   - For additional information, see:
-  - _Keywords:_ available, SolvNet, Calibration, Kit, additional, information, documentation, installed
 - **Conventions** <a id="conventions"></a>
   - The following conventions are used in Synopsys documentation.
-  - _Keywords:_ Identifies, screen, identifies, New, conventions, Synopsys, documentation, Convention
 - **Customer Support** _(p.6)_ <a id="customer-support"></a>
   - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
-  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
 - **Accessing SolvNet** _(p.6)_ <a id="accessing-solvnet"></a>
-  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
-  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synops…
 - **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
   - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
-  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
 - **Contacting Your Local TCAD Support Team Directly** _(p.7)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
   - Send an e-mail message to:
-  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
 - **Functionality of the Calibration Kit** _(p.7–8)_ <a id="functionality-of-the-calibration-kit"></a>
-  - The Calibration Kit extends the functionality of Sentaurus Workbench, with which you can perform efficient 1D calibrations of the Synopsys process simulators Sentaurus Process and Sentaurus Process Kinetic Monte Carlo.
-  - _Keywords:_ Sentaurus, Workbench, Calibration, Kit, process, calibration, simulation, Advanced
+  - The Calibration Kit extends the functionality of Sentaurus Workbench, with which you can perform efficient 1D calibrations of the Synopsys…
 - **Input Modules** _(p.8)_ <a id="input-modules"></a>
-  - Process descriptions and data, which are calibration libraries such as the Calibration Library, and simulator calibration files such as Advanced Calibration are used as input to the Calibration Kit.
-  - _Keywords:_ Calibration, calibration, Process, descriptions, libraries, Library, simulator, Advanced
+  - Process descriptions and data, which are calibration libraries such as the Calibration Library, and simulator calibration files such as Adv…
 - **Calibration Libraries** _(p.8)_ <a id="calibration-libraries"></a>
   - Calibration libraries are experiment databases consisting of the following directories:
-  - _Keywords:_ Calibration, directories, experiments, database, directory, process, Sentaurus, Process
 - **Process Directory** _(p.9)_ <a id="process-directory"></a>
-  - In the processes\_\* directory, each process file contains a recipe for wafer processing and a reference to the corresponding SIMS measurements. By default, these recipes are written in Sentaurus Process syntax. In this case, the directo...
-  - _Keywords:_ process, Sentaurus, SIMS, Process, recipes, statement, Calibration, Kit
+  - In the processes\_\* directory, each process file contains a recipe for wafer processing and a reference to the corresponding SIMS measurem…
 - **Experiment Directory** _(p.9)_ <a id="experiment-directory"></a>
-  - The experiments directory contains the measured SIMS profiles in xy format. The first column is the depth [nm] and the second column is the concentration of the chemical dopant [ ]. File names match the names specified in the 1D commands...
-  - _Keywords:_ SIMS, profiles, column, Sentaurus, Workbench, project, Calibration, Kit
+  - The experiments directory contains the measured SIMS profiles in xy format. The first column is the depth [nm] and the second column is the…
 - **Preference Directory** <a id="preference-directory"></a>
-  - The preferences directory contains additional information. For each SIMS profile name.sims in the experiments directory, there is one preference file name\_sims.prf in the preferences directory that specifies the following (Tcl) variables:
-  - _Keywords:_ profile, directory, preferences, SIMS, preference, simulation, preferred, minimal
+  - The preferences directory contains additional information. For each SIMS profile name.sims in the experiments directory, there is one prefe…
 - **Calibration Files** <a id="calibration-files"></a>
-  - The directory \$STROOT/tcad/\$STRELEASE/lib/fabpackagelib contains calibration (text) files with physical models and parameters for Sentaurus Process and Sentaurus Process Kinetic Monte Carlo.
-  - _Keywords:_ Sentaurus, Process, directory, STROOT, STRELEASE, fabpackagelib, contains, calibration
+  - The directory \$STROOT/tcad/\$STRELEASE/lib/fabpackagelib contains calibration (text) files with physical models and parameters for Sentaur…
 - **Advanced Calibration for Sentaurus Process** _(p.10)_ <a id="advanced-calibration-for-sentaurus-process"></a>
-  - Two files in the fabpackagelib directory are used for calibrated 1D simulations of Sentaurus Process with the Calibration Kit: AdvCal\_2018.06.fps and calib\_1d\_2018.06.fps.
-  - _Keywords:_ _2018, AdvCal, directory, Sentaurus, Process, fabpackagelib, simulations, Calibration
+  - Two files in the fabpackagelib directory are used for calibrated 1D simulations of Sentaurus Process with the Calibration Kit: AdvCal\_2018…
 - **Advanced Calibration for Sentaurus Process Kinetic Monte Carlo** _(p.11)_ <a id="advanced-calibration-for-sentaurus-process-kinetic-monte-car"></a>
-  - Two files in the fabpackagelib directory are used for calibrated pseudo-1D simulations of Sentaurus Process Kinetic Monte Carlo (Sentaurus Process KMC) with the Calibration Kit: AdvCal\_KMC\_2018.06.fps and calib\_KMC\_2018.06.fps.
-  - _Keywords:_ _KMC, _2018, AdvCal, atomistic, simulations, Sentaurus, Process, contains
+  - Two files in the fabpackagelib directory are used for calibrated pseudo-1D simulations of Sentaurus Process Kinetic Monte Carlo (Sentaurus…
 - **Structure of Calibration Kit Projects** _(p.12)_ <a id="structure-of-calibration-kit-projects"></a>
-  - A Calibration Kit project is a special type of Sentaurus Workbench project with either three or five tools, and one to seven parameters. Both traditional and hierarchical project organizations are supported. For details about Sentaurus W...
-  - _Keywords:_ Sentaurus, project, process, Calibration, Workbench, Kit, experiment, instance
+  - A Calibration Kit project is a special type of Sentaurus Workbench project with either three or five tools, and one to seven parameters. Bo…
 - **Sentaurus Process** _(p.13)_ <a id="sentaurus-process"></a>
-  - The project structure is the same for Sentaurus Process in continuum mode or in kinetic Monte Carlo mode. The mode is defined in the calibration files.
-  - _Keywords:_ Sentaurus, Process, profile, calibration, process, integer, sources, Therefore
+  - The project structure is the same for Sentaurus Process in continuum mode or in kinetic Monte Carlo mode. The mode is defined in the calibr…
 - **Sentaurus Mesh (Optional)** <a id="sentaurus-mesh-optional"></a>
-  - Sentaurus Mesh is used for the mesh generation of a 2D device simulation. For the calculation of sheet resistance, a 2D device is defined to represent the sheet of an ultrashallow junction of a transistor. The device definition is taken ...
-  - _Keywords:_ defines, Sentaurus, device, _sheet, Mesh, defined, position, _contact
+  - Sentaurus Mesh is used for the mesh generation of a 2D device simulation. For the calculation of sheet resistance, a 2D device is defined t…
 - **Sentaurus Device (Optional)** _(p.14)_ <a id="sentaurus-device-optional"></a>
-  - Sentaurus Device performs a 2D device simulation on the sheet defined in the n@node|mesh@\_msh.tdr file. The voltage and the total current distribution of the sheet are computed for a voltage of 0.01 V between the left and right contacts...
-  - _Keywords:_ Sentaurus, Device, voltage, performs, device, simulation, defined, current
+  - Sentaurus Device performs a 2D device simulation on the sheet defined in the n@node|mesh@\_msh.tdr file. The voltage and the total current…
 - **Inspect** _(p.14)_ <a id="inspect"></a>
-  - Inspect calculates the sheet resistance and the curve differences. Inspect takes the voltage and the total current distribution from the n@node|sdevice@\_des.plt file and calculates the sheet resistance. The Sentaurus Workbench variable ...
-  - _Keywords:_ profile, integer, Inspect, measured, calculates, resistance, Sentaurus, variable
+  - Inspect calculates the sheet resistance and the curve differences. Inspect takes the voltage and the total current distribution from the n@…
 - **Sentaurus Visual** _(p.15)_ <a id="sentaurus-visual"></a>
-  - Sentaurus Visual visualizes all measured and simulated profiles of a process in one xy plot. For each node, Sentaurus Visual takes all profiles (b@nr@\_@{profile\_@integer@}@.plx and b@nr@\_@{profile\_@integer@}@\_simulation.plt), the cu...
-  - _Keywords:_ profile, integer, Sentaurus, Visual, profiles, comparison, simulated, results
+  - Sentaurus Visual visualizes all measured and simulated profiles of a process in one xy plot. For each node, Sentaurus Visual takes all prof…
 - **Manipulating Calibration Kit Projects** _(p.15)_ <a id="manipulating-calibration-kit-projects"></a>
-  - You can manipulate a Calibration Kit project like other Sentaurus Workbench projects (for details about editing projects, see the Sentaurus™ Workbench User Guide). However, you can use special Calibration Kit wizards to guide you through...
-  - _Keywords:_ Calibration, Sentaurus, Workbench, Wizard, Kit, project, projects, details
+  - You can manipulate a Calibration Kit project like other Sentaurus Workbench projects (for details about editing projects, see the Sentaurus…
 - **Creating a New Project or a New Scenario for an Existing Project** _(p.16–17)_ <a id="creating-a-new-project-or-a-new-scenario-for-an-existing-pro"></a>
   - You can create a new Calibration Kit project or extend an existing project by adding a new scenario.
-  - _Keywords:_ Process, Calibration, Click, syntax, Kit, database, process, project
 - **6. Click Next.** <a id="6-click-next"></a>
   - 7. Select the process simulator and calibration from the following options:
-  - _Keywords:_ select, Calibration, Select, calibration, Sentaurus, Process, implantation, either
 - **8. Click Next.** <a id="8-click-next"></a>
   - 9. Select the device simulation to calculate the sheet resistance from the following options:
-  - _Keywords:_ Device, Sentaurus, Simulation, select, project, Select, device, simulation
 - **10. Click Next.** _(p.18)_ <a id="10-click-next"></a>
   - 11. Select the methodology for the simulation and the experiment profile comparison.
-  - _Keywords:_ Relative, Select, comparison, Square, Difference, Mean, Error, Data
 - **12. Click Next.** _(p.18)_ <a id="12-click-next"></a>
   - 13. Select a project and scenario name in one of the following ways:
-  - _Keywords:_ project, scenario, select, Enter, Project, Click, Browse, directory
 - **14. Click Finish.** _(p.19)_ <a id="14-click-finish"></a>
   - 15. If the project or scenario is created and loaded successfully, click OK in the Progress dialog box.
-  - _Keywords:_ process, variable, preference, Sentaurus, Process, sheetresistance, profile, processinfo
 - **Creating a New Scenario for a Project** _(p.19–20)_ <a id="creating-a-new-scenario-for-a-project"></a>
-  - To focus on a specific selection of experiments for a Calibration Kit project, a project can be split into scenarios. For example, a project can be split into scenarios of different dopant elements.
-  - _Keywords:_ Calibration, Kit, project, Search, Scenario, Process, scenario, Click
+  - To focus on a specific selection of experiments for a Calibration Kit project, a project can be split into scenarios. For example, a projec…
 - **Creating a New Short-Loop Experiment** _(p.20–23)_ <a id="creating-a-new-short-loop-experiment"></a>
   - You can add a new short-loop experiment in Sentaurus Process syntax to a database or add a new experiment to a Calibration Kit project.
-  - _Keywords:_ process, Select, Click, experiment, project, Calibration, Next, profile
 - **Creating a New Parameterized Project** _(p.24–25)_ <a id="creating-a-new-parameterized-project"></a>
-  - You can create a new Calibration Kit project with new physical Sentaurus Process parameters, and an optional command file for the Optimizer tool.
-  - _Keywords:_ Calibration, Select, Kit, experiment, project, Click, Next, energy
+  - You can create a new Calibration Kit project with new physical Sentaurus Process parameters, and an optional command file for the Optimizer…
 - **7. Click Next.** _(p.25)_ <a id="7-click-next"></a>
   - 8. Select a calibration parameter file for the process simulator of the parameterized process file:
-  - _Keywords:_ Select, Calibration, calibration, process, select, simulator, parameterized, implantation
 - **9. Click Next.** <a id="9-click-next"></a>
   - 10. Select the device simulation to calculate the sheet resistance from the following options:
-  - _Keywords:_ Device, Sentaurus, Simulation, select, project, Select, device, simulation
 - **11. Click Next.** <a id="11-click-next"></a>
   - 12. Select an Optimizer task and the corresponding task conditions, if required, from the following options:
-  - _Keywords:_ Optimization, Select, Optimizer, corresponding, conditions, required, Sentaurus, PCM
 - **13. Click Next.** _(p.26)_ <a id="13-click-next"></a>
   - 14. Select the methodology for the simulation and the experiment profile comparison.
-  - _Keywords:_ project, process, Optimizer, selected, Select, Relative, comparison, Click
 - **Creating a New Project for Optimization** _(p.27–29)_ <a id="creating-a-new-project-for-optimization"></a>
-  - You can create a new Calibration Kit project with new calibration parameters of Sentaurus Process, and an optional command file of the Optimizer tool.
-  - _Keywords:_ select, Calibration, Sentaurus, Process, calibration, Select, Optimizer, Click
+  - You can create a new Calibration Kit project with new calibration parameters of Sentaurus Process, and an optional command file of the Opti…
 - **12. Click Next.** _(p.29)_ <a id="12-click-next"></a>
   - 13. Select the device simulation to calculate the sheet resistance from the following options:
-  - _Keywords:_ Device, Sentaurus, Simulation, select, project, Select, device, simulation
 - **14. Click Next.** _(p.30–31)_ <a id="14-click-next"></a>
   - 15. Select the methodology for the simulation and the experiment profile comparison.
-  - _Keywords:_ project, process, Optimizer, Select, Relative, selected, experiment, comparison
 - **Editing Variables** _(p.31–32)_ <a id="editing-variables"></a>
   - You can change the variable values of a Calibration Kit experiment using Sentaurus Workbench.
-  - _Keywords:_ variable, Sentaurus, process, variables, calibration, integer, Edit, Choose
 - **Visualizing Project Files** _(p.32)_ <a id="visualizing-project-files"></a>
-  - Each Calibration Kit project has dedicated viewers that are defined in the project tool database (gtooldb.tcl) of Sentaurus Workbench. These viewers are specifically for the files of Calibration Kit projects.
-  - _Keywords:_ Select, Calibration, Sentaurus, Visual, Kit, viewers, PCM, Studio
+  - Each Calibration Kit project has dedicated viewers that are defined in the project tool database (gtooldb.tcl) of Sentaurus Workbench. Thes…
 - **Viewing Process Files** _(p.33)_ <a id="viewing-process-files"></a>
   - To view process files:
-  - _Keywords:_ Process, Sentaurus, process, SEdit, Choose, button, Calibration, These
 - **Viewing Profile Files** _(p.33)_ <a id="viewing-profile-files"></a>
   - To view profile files:
-  - _Keywords:_ Inspect, profiles, selected, details, summary, profile, Choose, button
 - **Viewing Visualization Files** _(p.34)_ <a id="viewing-visualization-files"></a>
   - To view visualization files:
-  - _Keywords:_ Visual, Sentaurus, visualization, selected, profiles, Choose, button, Calibration
 - **Confidentiality Warning** _(p.34–35)_ <a id="confidentiality-warning"></a>
-  - The file \$STROOT/tcad/\$STRELEASE/lib/fabpackagelib/confidentwarning.txt contains the text for the confidentiality warning that appears on the first page of the Project, Scenario, and Optimization wizards. If the file is empty or does n...
-  - _Keywords:_ confidentiality, warning, displayed, contains, appears, Project, Optimization, wizards
+  - The file \$STROOT/tcad/\$STRELEASE/lib/fabpackagelib/confidentwarning.txt contains the text for the confidentiality warning that appears on…
 - **Experiment Database: Calibration Library** _(p.35)_ <a id="experiment-database-calibration-library"></a>
-  - The default experiment database of the Calibration Kit is the Calibration Library, which is defined using the system environment variable STCALIB. By default, STCALIB is set to the directory \$STROOT\_LIB/fabpackagelib, which contains a ...
-  - _Keywords:_ directory, contains, Calibration, STCALIB, process, database, Library, databases
+  - The default experiment database of the Calibration Kit is the Calibration Library, which is defined using the system environment variable S…
 - **Process File Syntax** <a id="process-file-syntax"></a>
-  - In general, the Calibration Kit uses databases of process recipes in Sentaurus Process syntax as input. For the Calibration Library and other user databases to be input to the Calibration Kit, Sentaurus Process syntax is subject to restr...
-  - _Keywords:_ Calibration, Kit, databases, Sentaurus, Process, syntax, general, process
+  - In general, the Calibration Kit uses databases of process recipes in Sentaurus Process syntax as input. For the Calibration Library and oth…
 - **Restrictions on Sentaurus Process Syntax** _(p.36)_ <a id="restrictions-on-sentaurus-process-syntax"></a>
-  - The process recipes in Sentaurus Process syntax in the database must include only process physics parameters. However, if you include simulator or model parameters in the process recipe files, the reliability of the simulation might be r...
-  - _Keywords:_ comment, statement, profile, process, _2018, Sentaurus, Process, contain
+  - The process recipes in Sentaurus Process syntax in the database must include only process physics parameters. However, if you include simul…
 - **Process Searches** <a id="process-searches"></a>
-  - The Quick Process Search (QPS) module provides basic functionality for the process search in the process directory of the database. The Database Process Search (DBPS) module and the Calibration Project Process Search (CPPS) module are ba...
-  - _Keywords:_ Process, Search, module, QPS, process, Quick, provides, functionality
+  - The Quick Process Search (QPS) module provides basic functionality for the process search in the process directory of the database. The Dat…
 - **Syntax of the QPS List File** _(p.37)_ <a id="syntax-of-the-qps-list-file"></a>
-  - The results of DBPS and CPPS as well as the input process list to the Calibration Kit project and the scenario wizards are QPS files file.qps. The file contains a header line and a process list. The syntax is:
-  - _Keywords:_ process, results, DBPS, CPPS, Calibration, Kit, project, scenario
+  - The results of DBPS and CPPS as well as the input process list to the Calibration Kit project and the scenario wizards are QPS files file.q…
 - **Database Process Search** _(p.37–38)_ <a id="database-process-search"></a>
-  - The DBPS module looks for process flows written in Sentaurus Process syntax in a directory (such as \$STCALIB/processes\_\*). Processes that match the search criterion are listed in the process list file.
-  - _Keywords:_ process, statement, argument, arguments, DBPS, search, criterion, connected
+  - The DBPS module looks for process flows written in Sentaurus Process syntax in a directory (such as \$STCALIB/processes\_\*). Processes tha…
 - **Calibration Project Process Search** _(p.38–39)_ <a id="calibration-project-process-search"></a>
-  - The CPPS module looks for experiments in a calibration project of Sentaurus Workbench. It scans process flows written in Sentaurus Process syntax in the same way as DBPS. However, CPPS scans variables of Sentaurus Workbench. Experiments ...
-  - _Keywords:_ process, statement, arguments, argument, CPPS, Sentaurus, criterion, evaluated
+  - The CPPS module looks for experiments in a calibration project of Sentaurus Workbench. It scans process flows written in Sentaurus Process…
 - **Profiles** _(p.39)_ <a id="profiles"></a>
   - This section discusses different aspects of profiles.
-  - _Keywords:_ discusses, different, aspects, profiles
 - **Visualizing Profiles** _(p.39–40)_ <a id="visualizing-profiles"></a>
   - You can set the visualization limits of each profile in the preference file. The depth [nm] is set by:
-  - _Keywords:_ integer, visualization, limits, preference, You, profile, vis_xmin, vis_xmax
 - **Comparing Profile Curves** _(p.40)_ <a id="comparing-profile-curves"></a>
-  - Inspect calculates the differences of the measured and computed profile curves, which can be viewed in the Inspect log file. Optionally, you can filter the noise of profile curves by splinebased curve-smoothing. The difference is process...
-  - _Keywords:_ profile, limits, comparison, difference, integer, borders, Inspect, curves
+  - Inspect calculates the differences of the measured and computed profile curves, which can be viewed in the Inspect log file. Optionally, yo…
 - **Relative Logarithmic Square Difference** _(p.41)_ <a id="relative-logarithmic-square-difference"></a>
   - The formula for the relative logarithmic square difference for the experiment profile curve fe and the simulated profile curve is:fs
-  - _Keywords:_ profile, relative, logarithmic, square, difference, formula, experiment, simulated
 - **Relative Linear Square Difference** _(p.41)_ <a id="relative-linear-square-difference"></a>
   - The formula for the relative linear square difference for the experiment profile curve $f e$ and the simulated profile curve $f s$ is:
-  - _Keywords:_ profile, relative, linear, square, difference, formula, experiment, simulated
 - **Arithmetic Mean of Relative Error** <a id="arithmetic-mean-of-relative-error"></a>
   - The formula for the arithmetic mean of the relative error for the experiment profile curve $f e$ and the simulated profile curve $f s$ is:
-  - _Keywords:_ profile, formula, arithmetic, relative, experiment, simulated, borders, integration
 - **Quadratic Mean of Relative Error** _(p.42)_ <a id="quadratic-mean-of-relative-error"></a>
-  - The formula for the quadratic mean (or root-mean-square) of the relative error for the experiment profile curve $f e$ and the simulated profile curve $f s$ is:
-  - _Keywords:_ profile, Profiles, formula, quadratic, square, relative, experiment, simulated
+  - The formula for the quadratic mean (or root-mean-square) of the relative error for the experiment profile curve $f e$ and the simulated pro…

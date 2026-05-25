@@ -3,4237 +3,2837 @@
 Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
 
 - **Sentaurus™ Interconnect User Guide** _(p.1)_ <a id="sentaurus-interconnect-user-guide"></a>
-  - Version O-2018.06, June 2018
-  - _Keywords:_ Version, June
 - **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
-  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
-  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursua…
 - **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
-  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
-  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to natio…
 - **Disclaimer** <a id="disclaimer"></a>
-  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITE…
 - **Trademarks** <a id="trademarks"></a>
-  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html. All other product or company names may be trademarks of their respective owners.
-  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-b…
 - **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
   - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
-  - _Keywords:_ applicable, Free, Open, Source, Software, FOSS, licensing, notices
 - **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
-  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
-  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible…
 - **About This Guide xix** _(p.3)_ <a id="about-this-guide-xix"></a>
   - Related Publications . . xix
-  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
 - **Chapter 1 Working With the Simulator 1** _(p.4)_ <a id="chapter-1-working-with-the-simulator-1"></a>
   - Introduction to Sentaurus Interconnect . .
-  - _Keywords:_ Structure, Saving, Sentaurus, Interface, Browser, Simulation, Mode, Loading
 - **Chapter 2 Computing Mechanical Stress 45** _(p.5–6)_ <a id="chapter-2-computing-mechanical-stress-45"></a>
   - Overview of Mechanical Stress . . . . . 45
-  - _Keywords:_ Stress, Boundary, Condition, Materials, Model, Law, Analysis, Mechanical
 - **Chapter 3 Mechanics Postprocessing 119** <a id="chapter-3-mechanics-postprocessing-119"></a>
   - Stress-Induced Mobility Enhancement . . . . 119
-  - _Keywords:_ Integral, Stress, Induced, Mobility, Enhancement, Displacement, Field, References
 - **Chapter 4 Thermal Analysis 127** <a id="chapter-4-thermal-analysis-127"></a>
   - Overview of Thermal Analysis . . . . . 127
-  - _Keywords:_ Thermal, Boundary, Analysis, Conditions, Condition, Contacts, Overview, Model
 - **Chapter 5 Electrical Current Analysis 137** _(p.7)_ <a id="chapter-5-electrical-current-analysis-137"></a>
   - Overview of Electrical Current Analysis . . . . 137
-  - _Keywords:_ Electrical, Model, Dependent, Current, Analysis, Size, Boundary, Conditions
 - **Chapter 6 Electrostatic Analysis 149** <a id="chapter-6-electrostatic-analysis-149"></a>
   - Overview of Electrostatic Analysis. . . . . 149
-  - _Keywords:_ Electrostatic, Analysis, Boundary, Conditions, Electrodes, Overview, Model, Defining
 - **Chapter 7 Mixed-Mode Analysis 155** _(p.8)_ <a id="chapter-7-mixed-mode-analysis-155"></a>
   - Overview of Mixed-Mode Analysis . . . . . 155
-  - _Keywords:_ Circuit, Models, SPICE, Mixed, Mode, Analysis, Compact, Overview
 - **Chapter 8 Complementary Models 169** _(p.8)_ <a id="chapter-8-complementary-models-169"></a>
   - Grain Growth Model. . . 169
-  - _Keywords:_ Grain, Growth, Model, Initializing, Size, Data, Fields, References
 - **Chapter 9 Advanced Calibration 173** <a id="chapter-9-advanced-calibration-173"></a>
   - Overview. . . . 173
-  - _Keywords:_ Calibration, Overview, Advanced, Additional, Users
 - **Chapter 10 Mesh Generation 175** _(p.9)_ <a id="chapter-10-mesh-generation-175"></a>
   - Overview of Mesh Generation . . . 175
-  - _Keywords:_ Refinement, Mesh, Criteria, Boxes, Adaptive, Meshing, Difference, Moving
 - **Chapter 11 Structure Generation 217** _(p.10–11)_ <a id="chapter-11-structure-generation-217"></a>
   - Overview of Etching, Deposition, and Geometric Operations . . . . . 217
-  - _Keywords:_ Etching, Deposition, Handling, During, MGOALS, Boundary, Refinement, Trapezoidal
 - **Chapter 12 ICWBEV Plus Interface for Layout-Driven Simulations 293** _(p.12)_ <a id="chapter-12-icwbev-plus-interface-for-layout-driven-simulatio"></a>
   - Introduction . . . . . 293
-  - _Keywords:_ Layout, TCAD, ICWBEV, Plus, Sentaurus, Simulation, Markup, Finding
 - **Chapter 13 Extracting Results 327** _(p.13)_ <a id="chapter-13-extracting-results-327"></a>
   - Overview. . . . 327
-  - _Keywords:_ Data, Fields, Extracting, Overview, Saving, Selecting, Viewing, Analysis
 - **Chapter 14 Numerics 337** _(p.13)_ <a id="chapter-14-numerics-337"></a>
   - Overview. . . . 337
-  - _Keywords:_ Time, Step, Control, Matrix, PDEs, Overview, Setting, Iterative
 - **Chapter 15 Writing Partial Differential Equations Using Alagator 353** _(p.14)_ <a id="chapter-15-writing-partial-differential-equations-using-alag"></a>
   - Available Operators and Variables . . . . 353
-  - _Keywords:_ Differential, Equations, Boundary, Operators, Specifying, Partial, Building, Condition
 - **Appendix A Commands 371** _(p.15–17)_ <a id="appendix-a-commands-371"></a>
   - Syntax Conventions . . 371
-  - _Keywords:_ Related, transform, update, Syntax, Arguments, contact, create, _stress
 - **Appendix B Resistance, Capacitance, and Thermal Resistance 705** _(p.18–19)_ <a id="appendix-b-resistance-capacitance-and-thermal-resistance-705"></a>
   - Overview. . . . 705
-  - _Keywords:_ Analysis, Netlists, Thermal, Sentaurus, Matrix, Merging, Interconnect, analysis
 - **Related Publications** <a id="related-publications"></a>
   - For additional information, see:
-  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
 - **Conventions** _(p.20)_ <a id="conventions"></a>
   - The following conventions are used in Synopsys documentation.
-  - _Keywords:_ Identifies, screen, identifies, New, conventions, Synopsys, documentation, Convention
 - **Customer Support** _(p.20)_ <a id="customer-support"></a>
   - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
-  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
 - **Accessing SolvNet** _(p.20)_ <a id="accessing-solvnet"></a>
-  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
-  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synops…
 - **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
   - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
-  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
 - **Contacting Your Local TCAD Support Team Directly** _(p.21)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
 - **Send an e-mail message to:** _(p.21)_ <a id="send-an-e-mail-message-to"></a>
-  - ■ support-tcad-us@synopsys.com from within North America and South America support-tcad-eu@synopsys.com from within Europe support-tcad-ap@synopsys.com from within Asia Pacific (China, Taiwan, Singapore, Malaysia, India, Australia) suppo...
-  - _Keywords:_ support, synopsys, within, America, North, South, Europe, Asia
+  - ■ support-tcad-us@synopsys.com from within North America and South America support-tcad-eu@synopsys.com from within Europe support-tcad-ap@…
 - **Acknowledgments** _(p.22)_ <a id="acknowledgments"></a>
-  - Sentaurus Interconnect is based on the 2000 and 2002 releases of FLOOPS written by Professor Mark Law and coworkers at the University of Florida. Synopsys acknowledges the contribution of Professor Law and his advice in the development o...
-  - _Keywords:_ Sentaurus, Interconnect, Professor, Law, University, Florida, releases, FLOOPS
+  - Sentaurus Interconnect is based on the 2000 and 2002 releases of FLOOPS written by Professor Mark Law and coworkers at the University of Fl…
 - **About This Guide** _(p.22)_ <a id="about-this-guide"></a>
 - **Acknowledgments** _(p.22–23)_ <a id="acknowledgments"></a>
   - This chapter describes the functionality of Sentaurus Interconnect, how to start the tool, and how Sentaurus Interconnect operates.
-  - _Keywords:_ Sentaurus, Interconnect, Creating, describes, functionality, operates, syntax, features
 - **Introduction to Sentaurus Interconnect** _(p.24)_ <a id="introduction-to-sentaurus-interconnect"></a>
-  - Sentaurus Interconnect is a complete and highly flexible, multidimensional, IC interconnect reliability analysis environment. With its modern software architecture and extensive breadth of capabilities, Sentaurus Interconnect is a state-...
-  - _Keywords:_ Sentaurus, Interconnect, interconnect, reliability, analysis, modern, capabilities, structures
+  - Sentaurus Interconnect is a complete and highly flexible, multidimensional, IC interconnect reliability analysis environment. With its mode…
 - **Simulation Projects** _(p.24)_ <a id="simulation-projects"></a>
-  - The Sentaurus Interconnect module of the TCAD Sentaurus Tutorial provides various projects demonstrating the capabilities of Sentaurus Interconnect.
-  - _Keywords:_ Sentaurus, TCAD, Tutorial, Interconnect, access, STROOT, STRELEASE, indicates
+  - The Sentaurus Interconnect module of the TCAD Sentaurus Tutorial provides various projects demonstrating the capabilities of Sentaurus Inte…
 - **Setting Up the Environment** _(p.25)_ <a id="setting-up-the-environment"></a>
-  - The STROOT environment variable is the TCAD Sentaurus root directory, and you must set this variable to the installation directory of TCAD Sentaurus.
-  - _Keywords:_ directory, Sentaurus, STROOT, Add, environment, variable, TCAD, version
+  - The STROOT environment variable is the TCAD Sentaurus root directory, and you must set this variable to the installation directory of TCAD…
 - **Environment Variables for Supporting Files** _(p.25)_ <a id="environment-variables-for-supporting-files"></a>
-  - The Sentaurus Interconnect binary relies on several supporting files found using the environment variables SIHOME and SCHOME. To change default models and parameters without modifying the installed Sentaurus Interconnect files, copy the ...
-  - _Keywords:_ SIHOME, SCHOME, TclLib, Sentaurus, Interconnect, environment, variables, STROOT
+  - The Sentaurus Interconnect binary relies on several supporting files found using the environment variables SIHOME and SCHOME. To change def…
 - **Starting Sentaurus Interconnect** _(p.26–27)_ <a id="starting-sentaurus-interconnect"></a>
   - The following syntax is used to start Sentaurus Interconnect on the command line:
-  - _Keywords:_ Sentaurus, Interconnect, sinterconnect, process, Synopsys, Inc, commandfile, specify
 - **Command-Line Options** _(p.27)_ <a id="command-line-options"></a>
   - Table 1 lists the command-line options that are available in Sentaurus Interconnect.
-  - _Keywords:_ Sentaurus, Switch, sinterconnect, Interconnect, Usage, syntax, releases, versions
 - **Example of Starting Different Version of Sentaurus Interconnect** _(p.28)_ <a id="example-of-starting-different-version-of-sentaurus-interconn"></a>
   - The following command starts the simulation of nmos\_sis.cmd using version 1.2 of release N-2017.09 as long as this version is installed:
-  - _Keywords:_ version, starts, simulation, release, installed, sinterconnect
 - **Interactive Mode** _(p.28–29)_ <a id="interactive-mode"></a>
-  - Sentaurus Interconnect runs in interactive mode if no command file is given. In this mode, commands can be entered (at the command prompt) line-by-line and are executed immediately.
-  - _Keywords:_ interactive, Tcl, simulation, Sentaurus, Interconnect, useful, obtain, entered
+  - Sentaurus Interconnect runs in interactive mode if no command file is given. In this mode, commands can be entered (at the command prompt)…
 - **Batch Mode** _(p.29–30)_ <a id="batch-mode"></a>
-  - Instead of entering Sentaurus Interconnect commands line-by-line, the required sequence of commands can be saved to a command file, which can be written entirely by users. To save time and reduce syntax errors, you can copy and edit exam...
-  - _Keywords:_ Sentaurus, Interconnect, Workbench, syntax, character, extension, Tcl, _filename
+  - Instead of entering Sentaurus Interconnect commands line-by-line, the required sequence of commands can be saved to a command file, which c…
 - **Terminating Execution** _(p.30)_ <a id="terminating-execution"></a>
-  - You can terminate a running Sentaurus Interconnect job in several ways. In some cases, the termination will take time or will fail for other reasons. The most fail-safe method is to use the UNIX command:
-  - _Keywords:_ Sentaurus, Interconnect, signal, UNIX, terminate, running, process, immediately
+  - You can terminate a running Sentaurus Interconnect job in several ways. In some cases, the termination will take time or will fail for othe…
 - **Fast Mode** _(p.31)_ <a id="fast-mode"></a>
-  - When working on a new process flow, it is useful to run Sentaurus Interconnect a few times using the fast mode (-f command-line option). Developing a new process flow can be complex, involving many etch, deposit, and photo steps, some wi...
-  - _Keywords:_ process, structure, working, useful, Sentaurus, Interconnect, Developing, complex
+  - When working on a new process flow, it is useful to run Sentaurus Interconnect a few times using the fast mode (-f command-line option). De…
 - **File Types** _(p.31–32)_ <a id="file-types"></a>
   - The following file types are the main ones used in Sentaurus Interconnect:
-  - _Keywords:_ Sentaurus, TDR, information, Interconnect, simulation, Log, specified, structure
 - **Interactive Visualization** _(p.33)_ <a id="interactive-visualization"></a>
   - The options for interactive visualization in Sentaurus Interconnect are:
-  - _Keywords:_ Sentaurus, Windows, display, interactive, visualization, Interconnect, graphical, viewer
 - **Interface to Sentaurus Visual** _(p.33–34)_ <a id="interface-to-sentaurus-visual"></a>
-  - The interface to Sentaurus Visual can visualize 1D, 2D, and 3D structures and data evolution while the simulation progresses (see Figure 1 on page 12). The interface is initiated and controlled from Sentaurus Visual, including control of...
-  - _Keywords:_ temperature, images, deposit, Sentaurus, Visual, thickness, running, Run
+  - The interface to Sentaurus Visual can visualize 1D, 2D, and 3D structures and data evolution while the simulation progresses (see Figure 1…
 - **Setting Up the Interface** _(p.35)_ <a id="setting-up-the-interface"></a>
   - To set up and to run the interface:
-  - _Keywords:_ Sentaurus, Visual, Preferences, interface, Launch, svisual, choose, Edit
 - **Loading Command Files** <a id="loading-command-files"></a>
   - To load a command file:
-  - _Keywords:_ Load, Simulation, Control, button, dialog, displayed, Select, Click
 - **Inserting Breakpoints in the Flow** _(p.36)_ <a id="inserting-breakpoints-in-the-flow"></a>
   - To set breakpoints to pause the simulation at a particular step in the flow:
-  - _Keywords:_ breakpoints, Click, Run, button, execute, simulation, particular, margin
 - **Deleting Breakpoints in the Flow** _(p.36)_ <a id="deleting-breakpoints-in-the-flow"></a>
   - To delete a breakpoint:
-  - _Keywords:_ summary, delete, breakpoint, Click, circle, margin, images, sinterconnect_ug_part01_4251bf06f9258be279f00efb5095fa98a45998511207e4ed188f6420719ef38e
 - **Testcase: SI Current Analysis, fixed potential biases** <a id="testcase-si-current-analysis-fixed-potential-biases"></a>
 - **Define regional contacts** <a id="define-regional-contacts"></a>
   - contact region=contact1 name=ct1 contact region=contact2 name=ct2
-  - _Keywords:_ contact, region, contact1, contact2
 - **Bias the contacts** <a id="bias-the-contacts"></a>
   - supply contact.name=ct1 voltage=1.0e-4<V> supply contact.name=ct2 voltage=0<V>
-  - _Keywords:_ supply, contact, voltage
 - **Grid settings** <a id="grid-settings"></a>
-  - pdbSet Grid No3DMerge 1 ;# Test continuous BC's between same material interfaces refinebox clear refinebox interface.materials = {Copper Metal Oxide} min.normal.size = 0.02 normal.growth.ratio = 1.2
-  - _Keywords:_ refinebox, normal, pdbSet, Grid, No3DMerge, Test, continuous, between
+  - pdbSet Grid No3DMerge 1 ;# Test continuous BC's between same material interfaces refinebox clear refinebox interface.materials = {Copper Me…
 - **Start simulation** <a id="start-simulation"></a>
   - solve info=2
-  - _Keywords:_ LogFile, struct, Gas, max_E_field, select, max_curr_dens, MAX, contact
 - **Indicating Status of Steps** _(p.37)_ <a id="indicating-status-of-steps"></a>
-  - In the Simulation Control panel, as the flow is being executed, a green triangle in the left margin (in the same location as breakpoints) indicates the step that will be executed next. A red triangle indicates the step that is currently ...
-  - _Keywords:_ executed, triangle, indicates, indicated, background, Simulation, Control, margin
+  - In the Simulation Control panel, as the flow is being executed, a green triangle in the left margin (in the same location as breakpoints) i…
 - **Updating the Structure** _(p.37)_ <a id="updating-the-structure"></a>
-  - In 3D simulations, two plots are shown with the titles ‘bulk’ and ‘boundary’ (see Figure 1 on page 12). This is because, in 3D simulations, both the bulk and boundary are not always up to date. The plot with its title in bold shows the l...
-  - _Keywords:_ boundary, updated, simulations, titles, because, always, information, insert
+  - In 3D simulations, two plots are shown with the titles ‘bulk’ and ‘boundary’ (see Figure 1 on page 12). This is because, in 3D simulations,…
 - **Controlling the Interface to Sentaurus Visual With the graphics Command** _(p.37)_ <a id="controlling-the-interface-to-sentaurus-visual-with-the-graph"></a>
-  - To quickly visualize the evolution of a structure or data, the use of the graphics command is not necessary. Simply launch the interface to Sentaurus Visual and adjust the plot settings in Sentaurus Visual.
-  - _Keywords:_ graphics, Sentaurus, Visual, settings, executed, specified, quickly, visualize
+  - To quickly visualize the evolution of a structure or data, the use of the graphics command is not necessary. Simply launch the interface to…
 - **Syntax for Creating Command Files** _(p.38)_ <a id="syntax-for-creating-command-files"></a>
-  - This section describes how to create command files manually. It is important to remember that Sentaurus Interconnect is written as an extension of the tool command language (Tcl). This means that the full capability and features of Tcl a...
-  - _Keywords:_ syntax, Tcl, switch, executed, CHECKOFF, CHECKON, Sentaurus, Interconnect
+  - This section describes how to create command files manually. It is important to remember that Sentaurus Interconnect is written as an exten…
 - **Tcl Input** _(p.39–40)_ <a id="tcl-input"></a>
   - Sentaurus Interconnect has been designed to optimize the use of Tcl. Some examples of this interaction include:
-  - _Keywords:_ Tcl, Sentaurus, Interconnect, appear, evaluated, opening, enclosed, double
 - **Specifying Materials** _(p.40)_ <a id="specifying-materials"></a>
-  - Materials are specified in the same way for all Parameter Database (PDB) commands that require a material parameter. For a bulk material, specify only one material. For an interface material, specify two materials combined with an unders...
-  - _Keywords:_ material, materials, specify, interface, applies, Materials, specified, PDB
+  - Materials are specified in the same way for all Parameter Database (PDB) commands that require a material parameter. For a bulk material, s…
 - **Aliases** _(p.41)_ <a id="aliases"></a>
-  - Sentaurus Interconnect allows more control over the names of command parameters, the abbreviations of parameter names, as well as interface names. These aliases only apply to parameters of built-in Sentaurus Interconnect commands, and th...
-  - _Keywords:_ sinterconnect, aliases, Vaca, interface, Vacancy, Sentaurus, Interconnect, abbreviations
+  - Sentaurus Interconnect allows more control over the names of command parameters, the abbreviations of parameter names, as well as interface…
 - **Default Simulator Settings: SINTERCONNECT.models File** _(p.42)_ <a id="default-simulator-settings-sinterconnect-models-file"></a>
-  - Sentaurus Interconnect starts a simulation by reading the SINTERCONNECT.models file in the \$SIHOME/TclLib directory. This file defines various default parameters and directories used during the simulation such as:
-  - _Keywords:_ simulation, SINTERCONNECT, models, Sentaurus, Interconnect, starts, reading, SIHOME
+  - Sentaurus Interconnect starts a simulation by reading the SINTERCONNECT.models file in the \$SIHOME/TclLib directory. This file defines var…
 - **Compatibility With Previous Releases** _(p.43)_ <a id="compatibility-with-previous-releases"></a>
-  - Occasionally, the default parameter and model settings change in Sentaurus Interconnect to ensure that the default behavior gives robust, accurate, and computationally efficient results on current production technologies. Usually, when n...
-  - _Keywords:_ release, Compatibility, settings, change, Sentaurus, results, algorithm, releases
+  - Occasionally, the default parameter and model settings change in Sentaurus Interconnect to ensure that the default behavior gives robust, a…
 - **Parameter Database** _(p.43–44)_ <a id="parameter-database"></a>
-  - The parameter database stores all Sentaurus Interconnect material and model parameters as well as global information needed for save and reload capabilities. There is a hierarchical tree directory inside the Params directory, which store...
-  - _Keywords:_ database, material, directory, Params, specific, Silicon, inside, pdbGet
+  - The parameter database stores all Sentaurus Interconnect material and model parameters as well as global information needed for save and re…
 - **where:** _(p.44)_ <a id="where"></a>
-  - <NAME> is the parameter name. <TYPE> is one of Boolean, String, Double, DoubleArray, or Switch. <VALUE> is a Tcl expression that sets the default value.
-  - _Keywords:_ Sentaurus, region, Tcl, Arrhenius, Interconnect, pdbGet, temperature, DoubleArray
+  - <NAME> is the parameter name. <TYPE> is one of Boolean, String, Double, DoubleArray, or Switch. <VALUE> is a Tcl expression that sets the d…
 - **Like Materials: Material Parameter Inheritance** _(p.45)_ <a id="like-materials-material-parameter-inheritance"></a>
-  - The parameters of a material can be inherited from the parameters of another material using the special Like parameter in the PDB. When this is the case, the two materials are referred to as like materials. This can be used to specify di...
-  - _Keywords:_ material, materials, different, inherited, another, special, PDB, referred
+  - The parameters of a material can be inherited from the parameters of another material using the special Like parameter in the PDB. When thi…
 - **where:** _(p.45)_ <a id="where"></a>
-  - name specifies the name of the material to be created. new.like is the name of the existing material from which all default values are inherited.
-  - _Keywords:_ material, existing, specifies, created, inherited, important, instead, directly
+  - name specifies the name of the material to be created. new.like is the name of the existing material from which all default values are inhe…
 - **Interpolation Between Like Materials** <a id="interpolation-between-like-materials"></a>
-  - By default, data is interpolated between like materials, for example, when you insert a region that overlaps an existing region of a like material. The inheritance direction does not matter; either the inserted material is like the exist...
-  - _Keywords:_ material, existing, between, materials, region, inserted, interpolated, insert
+  - By default, data is interpolated between like materials, for example, when you insert a region that overlaps an existing region of a like m…
 - **Interface Parameters** <a id="interface-parameters"></a>
-  - When using the Parameter Database commands and the Alagator language, interfaces are specified as a pair of materials separated by an underscore (\_), for example, Gas\_Oxide and Oxide\_Silicon. The official name follows alphabetic order...
-  - _Keywords:_ Gas, _Silicon, interface, Abs, Error, Database, Alagator, language
+  - When using the Parameter Database commands and the Alagator language, interfaces are specified as a pair of materials separated by an under…
 - **Regionwise Parameters and Region Name-Handling** _(p.46–47)_ <a id="regionwise-parameters-and-region-name-handling"></a>
-  - Many parameters in the parameter database can be specified regionwise including parameters related to meshing and mechanics parameters. Those parameters used by Alagator as part of equations and terms, however, cannot be specified region...
-  - _Keywords:_ layer1, region, regions, coordinate, lowest, specified, regionwise, highest
+  - Many parameters in the parameter database can be specified regionwise including parameters related to meshing and mechanics parameters. Tho…
 - **Parameter Database Browser: Viewing the Defaults** _(p.47–48)_ <a id="parameter-database-browser-viewing-the-defaults"></a>
-  - The Parameter Database (PDB) Browser is a graphical representation of the parameter database that allows you to view and edit parameters. The PDB Browser has three distinct areas (see Figure 4 on page 26):
-  - _Keywords:_ temperature, representation, PDB, Browser, window, coordinate, Database, graphical
+  - The Parameter Database (PDB) Browser is a graphical representation of the parameter database that allows you to view and edit parameters. T…
 - **1: Working With the Simulator** _(p.48)_ <a id="1-working-with-the-simulator"></a>
   - Parameter Database Browser: Viewing the Defaults
-  - _Keywords:_ Database, Browser, Viewing, images, sinterconnect_ug_part01_37ea393c9b2f63f778b14ac919dee24ba8d089da0bb6633c9e0baa96059d0f68
 - **Starting the Parameter Database Browser** _(p.49)_ <a id="starting-the-parameter-database-browser"></a>
   - To start the PDB Browser from the command line, type:
-  - _Keywords:_ PDB, Browser, database, location, Sentaurus, Interconnect, You, sinterconnect
 - **PDB Browser Functions** <a id="pdb-browser-functions"></a>
   - The following functions are available from the File and Tools menus:
-  - _Keywords:_ available, Tools
 - **File > Export Node** <a id="file-export-node"></a>
   - Saves the selected node into a specified file in tab-delimited format.
-  - _Keywords:_ Saves, selected, specified, delimited, format
 - **File > Export Tree** <a id="file-export-tree"></a>
-  - Saves the entire parameter database into a specified file in tab-delimited format. The fields of the file are Parameter Name, Type, Value Evaluation, Original Value, and Comments.
-  - _Keywords:_ Saves, entire, database, specified, delimited, format, fields, Evaluation
+  - Saves the entire parameter database into a specified file in tab-delimited format. The fields of the file are Parameter Name, Type, Value E…
 - **Tools > Evaluate** <a id="tools-evaluate"></a>
-  - Evaluates the value of the selected parameter and displays the result in the Evaluate column of the spreadsheet. Values can contain Tcl expressions.
-  - _Keywords:_ Evaluates, selected, displays, result, Evaluate, column, spreadsheet, contain
+  - Evaluates the value of the selected parameter and displays the result in the Evaluate column of the spreadsheet. Values can contain Tcl exp…
 - **Tools > Plot** <a id="tools-plot"></a>
-  - (Applies only to parameters of type double and double array.) Plots the dependency of the selected parameter on the temperature in logarithmic coordinates versus 1/T. The default set of temperature values is {700.0 800.0 900.0 1000.0 110...
-  - _Keywords:_ double, temperature, displayed, Applies, Plots, dependency, selected, logarithmic
+  - (Applies only to parameters of type double and double array.) Plots the dependency of the selected parameter on the temperature in logarith…
 - **Tools > Plot Over** <a id="tools-plot-over"></a>
   - The same as Plot but it does not clear the graphic window of previous graphs.
-  - _Keywords:_ Zoom, Plot, graphic, window, previous, graphs, You, dragging
 - **Tools > Arrhenius Fit** _(p.50)_ <a id="tools-arrhenius-fit"></a>
-  - Using the Arrhenius Fit dialog box, you can find the best prefactor and energy for an Arrhenius fit of a given profile, taken from the list of temperature–value pairs.
-  - _Keywords:_ Arrhenius, Fit, dialog, prefactor, energy, profile, temperature
+  - Using the Arrhenius Fit dialog box, you can find the best prefactor and energy for an Arrhenius fit of a given profile, taken from the list…
 - **1: Working With the Simulator** _(p.50)_ <a id="1-working-with-the-simulator"></a>
   - Parameter Database Browser: Viewing the Defaults
-  - _Keywords:_ details, summary, Plot, Database, Browser, Viewing, results, plotted
 - **Tools > Find, Tools > Find Next** <a id="tools-find-tools-find-next"></a>
-  - Matches the pattern entered against parameter names according to the options selected in the Find dialog box. Patterns can include regular Tcl expressions. The match is highlighted when found:
-  - _Keywords:_ Find, details, summary, Matches, pattern, entered, against, according
+  - Matches the pattern entered against parameter names according to the options selected in the Find dialog box. Patterns can include regular…
 - **Tools > Goto Line** <a id="tools-goto-line"></a>
   - Highlights a table row or tree node that corresponds to the number entered.
-  - _Keywords:_ Highlights, corresponds, entered
 - **Tools > Filter** <a id="tools-filter"></a>
   - Selects which parameters to display.
-  - _Keywords:_ Selects, display
 - **Tools > Info Level** <a id="tools-info-level"></a>
   - Chooses which parameters to display ranging from basic parameters to all parameters.
-  - _Keywords:_ Chooses, display, ranging
 - **Viewing Parameter Information** _(p.51)_ <a id="viewing-parameter-information"></a>
-  - Double-clicking a nonempty cell in the spreadsheet allows you to view the corresponding parameter information in a separate window. To close the window, click the Close button.
-  - _Keywords:_ window, Double, clicking, nonempty, spreadsheet, allows, corresponding, information
+  - Double-clicking a nonempty cell in the spreadsheet allows you to view the corresponding parameter information in a separate window. To clos…
 - **PDB Browser Preferences** _(p.51–52)_ <a id="pdb-browser-preferences"></a>
-  - The PDB Browser allows you to reset the default settings for the following values using the Preferences menu, the shortcut keys, or the shortcut menu of the graphic window:
-  - _Keywords:_ Preferences, Graph, Resets, Editor, Reset, Temperature, temperature, Points
+  - The PDB Browser allows you to reset the default settings for the following values using the Preferences menu, the shortcut keys, or the sho…
 - **Viewing Parameters Stored in TDR Files** _(p.53)_ <a id="viewing-parameters-stored-in-tdr-files"></a>
-  - Parameters stored in TDR files can be viewed using the pdbBrowser command run from the command line instead of through Sentaurus Interconnect. By default, the PDB Browser reads parameters from the Sentaurus Interconnect database director...
-  - _Keywords:_ TDR, database, pdbBrowser, Sentaurus, Interconnect, PDB, Browser, stored
+  - Parameters stored in TDR files can be viewed using the pdbBrowser command run from the command line instead of through Sentaurus Interconne…
 - **Understanding Coordinate Systems** _(p.53)_ <a id="understanding-coordinate-systems"></a>
   - Sentaurus Interconnect and related tools use different coordinate systems.
-  - _Keywords:_ Sentaurus, Interconnect, related, different, coordinate, systems
 - **Wafer Coordinate System** _(p.53)_ <a id="wafer-coordinate-system"></a>
-  - The wafer coordinate system is fixed with respect to the wafer flat or notch, and is used to define the relationship of all other coordinate systems to the physical wafer.
-  - _Keywords:_ coordinate, system, details, summary, images, text_image, respect, define
+  - The wafer coordinate system is fixed with respect to the wafer flat or notch, and is used to define the relationship of all other coordinat…
 - **Simulation Coordinate System** _(p.54)_ <a id="simulation-coordinate-system"></a>
-  - The simulation coordinate system is used to define the mesh for the simulation. The default coordinate system is the unified coordinate system (UCS).
-  - _Keywords:_ details, summary, coordinate, system, simulation, UCS, images, text_image
+  - The simulation coordinate system is used to define the mesh for the simulation. The default coordinate system is the unified coordinate sys…
 - **Creating and Loading Structures and Data** _(p.55)_ <a id="creating-and-loading-structures-and-data"></a>
-  - The first step in most simulations is either to load an existing structure or to create a new one. New structures are created through a combination of the line, region, and init commands. The initial mesh is a tensor-product mesh where t...
-  - _Keywords:_ defined, region, initial, regions, aligned, dimensions, simulations, either
+  - The first step in most simulations is either to load an existing structure or to create a new one. New structures are created through a com…
 - **Defining the Structure: The line and region Commands** _(p.55–56)_ <a id="defining-the-structure-the-line-and-region-commands"></a>
-  - The line and region commands are used together to define the structure. In the init command, the structure is actually formed. Care must be taken when creating a structure because there are few checks for errors.
-  - _Keywords:_ region, structure, substrate, defined, spacing, location, created, define
+  - The line and region commands are used together to define the structure. In the init command, the structure is actually formed. Care must be…
 - **Creating the Structure and Initializing Data** _(p.57)_ <a id="creating-the-structure-and-initializing-data"></a>
-  - The init command is used to create the structure. If the line and region commands have been given to create a structure from the beginning, the init command does not require any options. It will take the structure definition and create a...
-  - _Keywords:_ structure, region, initialize, create, created, format, require, Sentaurus
+  - The init command is used to create the structure. If the line and region commands have been given to create a structure from the beginning,…
 - **Defining the Crystal Orientation** _(p.58)_ <a id="defining-the-crystal-orientation"></a>
-  - Generally, the orientation of a hexagonal crystal system can be described using four Miller indices <ijtk>; whereas, only three Miller indices <ijk> are needed for other systems. In a hexagonal crystal system, the sum of the first three ...
-  - _Keywords:_ orientation, indices, Miller, orient, surface, direction, crystal, systems
+  - Generally, the orientation of a hexagonal crystal system can be described using four Miller indices <ijtk>; whereas, only three Miller indi…
 - **Automatic Dimension Control** _(p.59)_ <a id="automatic-dimension-control"></a>
   - The maximum dimension of a simulation is determined by the specified line commands:
-  - _Keywords:_ dimension, structure, simulation, specified, maximum, dimensions, Sentaurus, Interconnect
 - **Interpolating Field Data From an External Structure File Using the load Command** _(p.59–60)_ <a id="interpolating-field-data-from-an-external-structure-file-usi"></a>
-  - The load command can be used to interpolate data from a TDR file onto the current structure (see load on page 501). For 1D structures, 1D TDR files are allowed. For 3D structures, 3D TDR files are allowed. However, for 2D structures, eit...
-  - _Keywords:_ structure, datasets, TDR, transform, structures, allowed, existing, actions
+  - The load command can be used to interpolate data from a TDR file onto the current structure (see load on page 501). For 1D structures, 1D T…
 - **Loading 1D Profiles: The profile Command** <a id="loading-1d-profiles-the-profile-command"></a>
-  - The profile command can load a 1D profile into 1D, 2D, or 3D structures (see profile on page 597). The file to be read must contain one x-coordinate data pair per line. Both linear and logarithmic interpolation are available. For example...
-  - _Keywords:_ profile, Boron, structures, contain, coordinate, Both, linear, logarithmic
+  - The profile command can load a 1D profile into 1D, 2D, or 3D structures (see profile on page 597). The file to be read must contain one x-c…
 - **Saving Structures** _(p.61)_ <a id="saving-structures"></a>
-  - Sentaurus Interconnect uses the TDR file format for saving the structure geometry with and without the bulk mesh and data, and with contacts. TDR files contain simply connected regions to operate smoothly with other Synopsys TCAD tools. ...
-  - _Keywords:_ TDR, simulation, stored, fields, SetTDRList, Solutions, saving, format
+  - Sentaurus Interconnect uses the TDR file format for saving the structure geometry with and without the bulk mesh and data, and with contact…
 - **Saving a Structure for Restarting Simulations** _(p.61–62)_ <a id="saving-a-structure-for-restarting-simulations"></a>
-  - When saving files using the TDR format, the current state of the parameter database is, by default, saved in the file. The parameter database contains all of the information necessary to restart a simulation including:
-  - _Keywords:_ TDR, stored, coordinate, system, database, simulation, settings, created
+  - When saving files using the TDR format, the current state of the parameter database is, by default, saved in the file. The parameter databa…
 - **Saving a Structure for Device Simulation** _(p.63)_ <a id="saving-a-structure-for-device-simulation"></a>
   - In general, the main steps to saving a structure appropriate for device simulation are:
-  - _Keywords:_ contact, structure, device, simulation, Delaunay, refinebox, contacts, refinement
 - **Saving 1D Profiles for Inspect** <a id="saving-1d-profiles-for-inspect"></a>
-  - To store .plx files, use the WritePlx command. The command SetPlxList selects the fields to be stored in the .plx file. The SetPlxList command is similar to the SetTDRList command, except that no fields are selected by default. Only the ...
-  - _Keywords:_ SetPlxList, WritePlx, fields, stored, selects, similar, SetTDRList, except
+  - To store .plx files, use the WritePlx command. The command SetPlxList selects the fields to be stored in the .plx file. The SetPlxList comm…
 - **Saving 1D TDR Files From 2D and 3D Simulations, and 2D TDR Files From 3D Simulations** _(p.64)_ <a id="saving-1d-tdr-files-from-2d-and-3d-simulations-and-2d-tdr-fi"></a>
-  - The command struct also saves a 1D TDR file if the proper cutting coordinates are specified (see struct on page 663). In two dimensions, only one cutting coordinate is needed (either x or y; the z-coordinate makes no sense here). In thre...
-  - _Keywords:_ struct, TDR, coordinates, cutting, specified, coordinate, filename, dimensions
+  - The command struct also saves a 1D TDR file if the proper cutting coordinates are specified (see struct on page 663). In two dimensions, on…
 - **The select Command (More 1D Saving Options)** _(p.65)_ <a id="the-select-command-more-1d-saving-options"></a>
-  - The select command is a versatile command for many operations such as viewing results, postprocessing, and initializing or changing datasets. The basic command is:
-  - _Keywords:_ select, expression, selected, create, MyDataField, Vacancy, Void, versatile
+  - The select command is a versatile command for many operations such as viewing results, postprocessing, and initializing or changing dataset…
 - **The datexcodes.txt File** _(p.65)_ <a id="the-datexcodes-txt-file"></a>
-  - The datexcodes.txt file is the Synopsys configuration database for materials, doping species, and other quantities that are used in semiconductor process and device simulations. Sentaurus Interconnect uses this file in two ways:
-  - _Keywords:_ datexcodes, floops, property, VacancyConcentration, VTotal, Sentaurus, Interconnect, conversion
+  - The datexcodes.txt file is the Synopsys configuration database for materials, doping species, and other quantities that are used in semicon…
 - **References** _(p.66–67)_ <a id="references"></a>
   - [1] B. B. Welch, Practical Programming in Tcl & Tk, Upper Saddle River, New Jersey: Prentice Hall PTR, 3rd ed., 2000.
-  - _Keywords:_ Welch, Practical, Programming, Tcl, Upper, Saddle, River, New
 - **Overview of Mechanical Stress** _(p.67–68)_ <a id="overview-of-mechanical-stress"></a>
-  - Mechanical stress has an important role in process modeling. It controls the structural integrity of the device, the yield from the process depends on stresses, the mobility of charged carriers is changed by stresses, and leakage current...
-  - _Keywords:_ stresses, equations, material, materials, Sentaurus, Interconnect, stress, process
+  - Mechanical stress has an important role in process modeling. It controls the structural integrity of the device, the yield from the process…
 - **Material Models** _(p.69)_ <a id="material-models"></a>
-  - Sentaurus Interconnect implements the viscous, viscoelastic, and elastic models in a general manner, where the viscous model and elastic model can be derived from the viscoelastic model. The viscous and viscoelastic models use shear stre...
-  - _Keywords:_ models, elastic, viscous, viscoelastic, dependent, material, behavior, Sentaurus
+  - Sentaurus Interconnect implements the viscous, viscoelastic, and elastic models in a general manner, where the viscous model and elastic mo…
 - **Viscoelastic Materials** _(p.69)_ <a id="viscoelastic-materials"></a>
-  - The viscoelastic material response is characterized by elastic and viscous components. The combined response depends on how elastic and viscous stresses or strains are coupled. Sentaurus Interconnect provides two commonly used combinations:
-  - _Keywords:_ response, elastic, viscous, viscoelastic, material, characterized, components, combined
+  - The viscoelastic material response is characterized by elastic and viscous components. The combined response depends on how elastic and vis…
 - **Maxwell Model** _(p.70)_ <a id="maxwell-model"></a>
-  - The viscoelastic behavior for the Maxwell model is obtained by combining elastic and viscous responses in series. The stress–strain equations are written in terms of dilatational and deviatoric components. The equations for the volumetri...
-  - _Keywords:_ sigma_, stress, boldsymbol, viscosity, deviatoric, mathsf, modulus, viscoelastic
+  - The viscoelastic behavior for the Maxwell model is obtained by combining elastic and viscous responses in series. The stress–strain equatio…
 - **Standard Linear Solid Model** _(p.71)_ <a id="standard-linear-solid-model"></a>
-  - In the standard linear solid model, the material behavior is modeled by combining the elastic response in parallel with the Maxwell model–based viscoelastic response:
-  - _Keywords:_ mathrm, sigma_, viscoelastic, stress, elastic, response, Maxwell, varepsilon_
+  - In the standard linear solid model, the material behavior is modeled by combining the elastic response in parallel with the Maxwell model–b…
 - **where:** _(p.71–72)_ <a id="where"></a>
-  - ■ $K _ { \mathrm { b a s e } }$ and $G _ { \mathrm { b a s e } }$ are the bulk and shear moduli for the elastic response, respectively. ■ and are the bulk and shear moduli for the elastic component of the viscoelasticK G response, respec...
-  - _Keywords:_ response, mathrm, elastic, viscoelastic, respectively, material, Mechanics, Maxwell
+  - ■ $K _ { \mathrm { b a s e } }$ and $G _ { \mathrm { b a s e } }$ are the bulk and shear moduli for the elastic response, respectively. ■ a…
 - **Purely Viscous Materials** _(p.72)_ <a id="purely-viscous-materials"></a>
-  - Oxide and nitride, by default, are treated as viscoelastic materials. However, the viscosity is a function of temperature (see Eq. 7). With increasing temperature, the viscosity decreases, that is, the material becomes increasingly more ...
-  - _Keywords:_ material, viscosity, sigma_, viscoelastic, temperature, varepsilon, viscous, process
+  - Oxide and nitride, by default, are treated as viscoelastic materials. However, the viscosity is a function of temperature (see Eq. 7). With…
 - **Shear Stress–Dependent Viscosity** _(p.73)_ <a id="shear-stress-dependent-viscosity"></a>
-  - For viscous and viscoelastic materials, the viscosity can depend on the temperature and the shear stress $\sigma _ { \mathrm { { s } } }$ . The temperature dependency is described by Eq. 7. The dependency on the shear stress is given by:
-  - _Keywords:_ sigma_, mathrm, stress, viscosity, VcritW, viscoelastic, materials, temperature
+  - For viscous and viscoelastic materials, the viscosity can depend on the temperature and the shear stress $\sigma _ { \mathrm { { s } } }$ .…
 - **Purely Elastic Materials** <a id="purely-elastic-materials"></a>
   - If the viscosity in Eq. 4, p. 47 is chosen high enough, the second term on the left can be neglected and the equation reads:
-  - _Keywords:_ modulus, elastic, material, materials, Young, Poisson, viscosity, equation
 - **Anisotropic Elastic Materials** _(p.74)_ <a id="anisotropic-elastic-materials"></a>
   - The stress and strain relations for anisotropic elastic materials can be described using:
-  - _Keywords:_ mathrm, mathfrak, strain, components, stress, engineering, tensor, corresponds
 - **Cubic Crystal Anisotropy** _(p.74)_ <a id="cubic-crystal-anisotropy"></a>
-  - The mechanical responses of a crystalline solid vary along various crystal orientations. For a cubic crystal, the axes of reference are chosen to be parallel to the crystal axes. In a coordinate system with axes aligned along the crystal...
-  - _Keywords:_ crystal, pdbSet, Silicon, Mechanics, anisotropic, crystalline, coordinate, stiffness
+  - The mechanical responses of a crystalline solid vary along various crystal orientations. For a cubic crystal, the axes of reference are cho…
 - **Hexagonal Crystal Anisotropy** _(p.75)_ <a id="hexagonal-crystal-anisotropy"></a>
-  - The mechanical responses of a crystalline solid vary along various crystal orientations. Hexagonal close-packed crystals contain a plane of isotropy. In a coordinate system with axes aligned along the crystal axes, the symmetric stiffnes...
-  - _Keywords:_ material, pdbSet, Mechanics, crystal, crystalline, Hexagonal, coordinate, stiffness
+  - The mechanical responses of a crystalline solid vary along various crystal orientations. Hexagonal close-packed crystals contain a plane of…
 - **Orthotropic Model** _(p.76–77)_ <a id="orthotropic-model"></a>
-  - Orthotropic materials have three planes of symmetry. In a coordinate system with axes aligned along the symmetry planes, the symmetric stiffness matrix has the following nonzeroC components: $C _ { 1 1 } , C _ { 2 2 } , C _ { 3 3 } , C _...
-  - _Keywords:_ material, Mechanics, pdbSetDouble, specified, planes, symmetry, Poisson, Orthotropic
+  - Orthotropic materials have three planes of symmetry. In a coordinate system with axes aligned along the symmetry planes, the symmetric stif…
 - **Plastic Materials** _(p.78)_ <a id="plastic-materials"></a>
-  - Materials such as metals show linear elastic behavior at lower stresses but undergo permanent deformation at higher stresses. At low temperatures, permanent deformation in these materials is not sensitive to the rate of loading. Such mat...
-  - _Keywords:_ deformation, material, plastic, behavior, stresses, permanent, loading, plasticity
+  - Materials such as metals show linear elastic behavior at lower stresses but undergo permanent deformation at higher stresses. At low temper…
 - **Incremental Plasticity** _(p.78–80)_ <a id="incremental-plasticity"></a>
   - Plastic material behavior under nonmonotonic loading is modeled using incremental formulation.
-  - _Keywords:_ mathrm, Incremental, hardening, plastic, Plasticity, material, Mechanics, isotropic
 - **Deformation Plasticity** _(p.80–81)_ <a id="deformation-plasticity"></a>
-  - Plastic materials that do not have well-defined yield stress can be modeled using deformation plasticity. This model is based on the Ramberg–Osgood formula [3][4], which is only valid for monotonic loading. It is used mostly for plastic ...
-  - _Keywords:_ mathrm, sigma_, plastic, material, strain, Mechanics, Deformation, deformation
+  - Plastic materials that do not have well-defined yield stress can be modeled using deformation plasticity. This model is based on the Ramber…
 - **Viscoplastic Materials** <a id="viscoplastic-materials"></a>
-  - Materials, such as metals at high temperatures, exhibit rate-dependent plasticity also known as viscoplasticity or creep. There are different ways to model such behavior:
-  - _Keywords:_ Materials, metals, temperatures, exhibit, dependent, plasticity, viscoplasticity, different
+  - Materials, such as metals at high temperatures, exhibit rate-dependent plasticity also known as viscoplasticity or creep. There are differe…
 - **Anand Model** _(p.82–84)_ <a id="anand-model"></a>
   - The Anand model [5][6] is used for rate-dependent plasticity that combines creep and plastic deformation.
-  - _Keywords:_ material, mathrm, Mechanics, pdbSetDouble, Viscoplasticity, deformation, viscoplastic, strain
 - **Power Law Creep** _(p.84)_ <a id="power-law-creep"></a>
-  - Power law creep models primary (transient) and secondary (steady-state) creep behavior in metals at high temperatures. Depending on the microstructural processes being modeled, power law creep can be formulated as either Bailey–Norton cr...
-  - _Keywords:_ material, Power, models, primary, transient, secondary, steady, behavior
+  - Power law creep models primary (transient) and secondary (steady-state) creep behavior in metals at high temperatures. Depending on the mic…
 - **Bailey–Norton Creep** _(p.85)_ <a id="bailey-norton-creep"></a>
   - Bailey–Norton creep [10] assumes creep strain to be of the following form:
-  - _Keywords:_ mathrm, material, pdbSet, Mechanics, Creep, strain, varepsilon, mathfrak
 - **Mukherjee–Bird–Dorn Creep** _(p.86)_ <a id="mukherjee-bird-dorn-creep"></a>
   - Mukherjee–Bird–Dorn creep [12][13] assumes creep strain to be of the following form:
-  - _Keywords:_ material, mathrm, pdbSetDouble, Mechanics, Creep, mathfrak, growth, strain
 - **Integrating Creep Equations** _(p.87)_ <a id="integrating-creep-equations"></a>
   - Under a small strain assumption, strains (and strain rates) can be decomposed additively as:
-  - _Keywords:_ mathrm, varepsilon_, varepsilon, equations, convergence, strains, overline, iterations
 - **Swelling** _(p.87–88)_ <a id="swelling"></a>
-  - Swelling refers to volumetric expansion of material. Swelling material behavior is defined by specifying strain rates at various temperatures that are interpolated linearly. To switch on the model, use the command:
-  - _Keywords:_ strain, material, mathrm, temperature, Mechanics, SSR1, SSR2, SSR3
+  - Swelling refers to volumetric expansion of material. Swelling material behavior is defined by specifying strain rates at various temperatur…
 - **Temperature-Dependent Mechanical Properties** _(p.89–90)_ <a id="temperature-dependent-mechanical-properties"></a>
-  - The mechanical properties of materials are different at high temperature from those at room temperature. The elastic modulus of typical materials decreases as temperature rises. Some materials show nonnegligible changes of mechanical pro...
-  - _Keywords:_ temperature, dependency, Mechanics, materials, linear, Incremental, Plasticity, anisotropic
+  - The mechanical properties of materials are different at high temperature from those at room temperature. The elastic modulus of typical mat…
 - **Plane Stress Analysis** _(p.90)_ <a id="plane-stress-analysis"></a>
-  - In 2D problems, the elastic models implemented in Sentaurus Interconnect follow the plane strain formulation by default. Under the plane strain assumption:
-  - _Keywords:_ strain, varepsilon_, stress, structures, elastic, assumption, sigma_, compared
+  - In 2D problems, the elastic models implemented in Sentaurus Interconnect follow the plane strain formulation by default. Under the plane st…
 - **Equations: Global Equilibrium Condition** _(p.91)_ <a id="equations-global-equilibrium-condition"></a>
   - The equations for mechanics in Sentaurus Interconnect are the quasistatic equations of force equilibrium.
-  - _Keywords:_ equations, partial, mechanics, strain, velocity, stresses, corners, quasistatic
 - **Second-Order Finite Element Analysis** _(p.92–93)_ <a id="second-order-finite-element-analysis"></a>
-  - The first-order finite element method (FEM) might not always be accurate enough, depending on the problem, mesh, and so on. Other than mesh refinement, which might cause an order of magnitude increase in the computational cost, switching...
-  - _Keywords:_ elements, second, element, details, summary, freedom, images, finite
+  - The first-order finite element method (FEM) might not always be accurate enough, depending on the problem, mesh, and so on. Other than mesh…
 - **Mechanics Simulations on Mixed or Hybrid Meshes** _(p.95)_ <a id="mechanics-simulations-on-mixed-or-hybrid-meshes"></a>
-  - Mechanics simulations can be performed on hybrid meshes including triangular and quadrilateral (axis-aligned) elements in two dimensions, and tetrahedral, brick, pyramid, and prism elements in three dimensions.
-  - _Keywords:_ hybrid, meshes, elements, simulations, mechanics, performed, including, triangular
+  - Mechanics simulations can be performed on hybrid meshes including triangular and quadrilateral (axis-aligned) elements in two dimensions, a…
 - **Mechanics Simulations With Composite Solid Shell Element** _(p.96–97)_ <a id="mechanics-simulations-with-composite-solid-shell-element"></a>
-  - A composite solid shell element (CSSE) is a solid finite element that exhibits shell behavior in the thickness direction. The CSSE falls between thin shell and conventional solid elements and has the same degree-of-freedom configuration ...
-  - _Keywords:_ CSSE, material, thickness, element, Mechanics, behavior, elements, layers
+  - A composite solid shell element (CSSE) is a solid finite element that exhibits shell behavior in the thickness direction. The CSSE falls be…
 - **Boundary Conditions** _(p.98–99)_ <a id="boundary-conditions"></a>
-  - Equations for stress equilibrium require boundary conditions to define the system completely. The default boundary conditions are zero velocities in the direction perpendicular to the boundary planes. Since velocities are set to fixed va...
-  - _Keywords:_ boundary, conditions, condition, Dirichlet, specify, forces, penalty, defined
+  - Equations for stress equilibrium require boundary conditions to define the system completely. The default boundary conditions are zero velo…
 - **Example: Applying Boundary Conditions** _(p.100)_ <a id="example-applying-boundary-conditions"></a>
   - This 2D example simulates silicon covered with oxide, with the right side free to move:
-  - _Keywords:_ spacing, Mechanics, silicon, region, stressdata, location, pdbSet, Oxide
 - **Deprecated Syntax** _(p.100–101)_ <a id="deprecated-syntax"></a>
   - You can select various boundary conditions using:
-  - _Keywords:_ boundary, HomNeumann, condition, pdbSet, Mechanics, conditions, BoundaryCondition, Right
 - **Variable Boundary Condition** <a id="variable-boundary-condition"></a>
   - To define values for displacement rates, total forces, and distributed forces that depend on temperature or time, use the command:
-  - _Keywords:_ forces, define, displacement, distributed, depend, temperature, stressdata, location
 - **where:** <a id="where"></a>
-  - dxP, dyP, and dzP specify the procedure names for the displacement rates. fxP, fyP, and fzP specify the procedure names for the total forces. sxP, syP, and szP specify the procedure names for the distributed forces.
-  - _Keywords:_ CurrTemp, lindex, specify, procedure, temperature, current, Time, velocity
+  - dxP, dyP, and dzP specify the procedure names for the displacement rates. fxP, fyP, and fzP specify the procedure names for the total force…
 - **Pressure Boundary Condition** _(p.102)_ <a id="pressure-boundary-condition"></a>
-  - The pressure boundary condition is used to apply uniform pressure on the exterior boundary. The direction of the loading depends on the normal of the exterior surface. To apply the pressure boundary condition, use the stressdata command,...
-  - _Keywords:_ pressure, boundary, condition, exterior, stressdata, uniform, direction, loading
+  - The pressure boundary condition is used to apply uniform pressure on the exterior boundary. The direction of the loading depends on the nor…
 - **Advanced Dirichlet Boundary Condition** _(p.102)_ <a id="advanced-dirichlet-boundary-condition"></a>
-  - A more advanced Dirichlet-type boundary condition can be defined that specifies both the translational and rotational velocities on the boundaries. It is defined using the command:
-  - _Keywords:_ specify, Dirichlet, boundary, defined, rotational, velocities, rotation, advanced
+  - A more advanced Dirichlet-type boundary condition can be defined that specifies both the translational and rotational velocities on the bou…
 - **Advanced Neumann Boundary Condition** _(p.103)_ <a id="advanced-neumann-boundary-condition"></a>
   - A Neumann-type boundary condition can be defined at an external point constrained to a face or contact. It is specified using the command:
-  - _Keywords:_ specify, external, moments, Neumann, boundary, condition, defined, constrained
 - **Point-Force Boundary Condition** _(p.103)_ <a id="point-force-boundary-condition"></a>
-  - Point-force boundary condition allows force to be applied directly on a bulk node. This boundary condition can be defined using the stressdata command:
-  - _Keywords:_ boundary, condition, Point, applied, defined, coordinate, nearest, tolerance
+  - Point-force boundary condition allows force to be applied directly on a bulk node. This boundary condition can be defined using the stressd…
 - **Point-Displacement Rate Boundary Condition** _(p.104)_ <a id="point-displacement-rate-boundary-condition"></a>
-  - The point-displacement rate boundary condition allows velocity, that is, displacement rate, to be applied directly to a bulk node. This boundary condition can be defined using the stressdata command:
-  - _Keywords:_ displacement, boundary, condition, applied, defined, coordinate, nearest, specified
+  - The point-displacement rate boundary condition allows velocity, that is, displacement rate, to be applied directly to a bulk node. This bou…
 - **Periodic Boundary Condition** _(p.105)_ <a id="periodic-boundary-condition"></a>
-  - The periodic boundary condition is used for structures with a periodically repeating pattern. This condition is used on periodic structures with assigned master and slave boundaries. The slave boundary has the same deformation profile as...
-  - _Keywords:_ boundary, periodic, condition, pdbSet, Periodic, Mechanics, conditions, penalty
+  - The periodic boundary condition is used for structures with a periodically repeating pattern. This condition is used on periodic structures…
 - **Coupling Boundary Condition** _(p.106)_ <a id="coupling-boundary-condition"></a>
-  - Depending on the structure and loading, certain degrees of freedom must be coupled. One particularly useful case is the coupling boundary condition. The coupling boundary condition on a sidewall enforces an equal displacement component a...
-  - _Keywords:_ boundary, coupling, condition, pdbSet, sidewall, displacement, component, details
+  - Depending on the structure and loading, certain degrees of freedom must be coupled. One particularly useful case is the coupling boundary c…
 - **Stress-Causing Mechanisms** <a id="stress-causing-mechanisms"></a>
-  - Every mechanical system needs a set of stress-driving mechanisms to reach a stressed state. The stress-inducing mechanisms in Sentaurus Interconnect are described here.
-  - _Keywords:_ stress, mechanisms, Every, mechanical, system, driving, stressed, inducing
+  - Every mechanical system needs a set of stress-driving mechanisms to reach a stressed state. The stress-inducing mechanisms in Sentaurus Int…
 - **Densification** _(p.107)_ <a id="densification"></a>
-  - A typical densification process uses thermal heating to increase the density of a porous material. As the material density increases, its volume shrinks and the volume shrinkage generates stresses.
-  - _Keywords:_ density, increase, densification, material, process, volume, temperature, TEOS
+  - A typical densification process uses thermal heating to increase the density of a porous material. As the material density increases, its v…
 - **Selectively Switching Off Grid Movement** <a id="selectively-switching-off-grid-movement"></a>
-  - The parameter MinimumVelocity can be used to selectively switch off point or interface movement. This can be useful, for example, when a mechanics simulation computes a small amount of boundary movement that is either unwanted or could c...
-  - _Keywords:_ material, MinimumVelocity, interface, movement, points, underscore, applies, truncation
+  - The parameter MinimumVelocity can be used to selectively switch off point or interface movement. This can be useful, for example, when a me…
 - **Grain Growth** _(p.108)_ <a id="grain-growth"></a>
-  - Grain growth means elimination of the grain boundary, which can lead to the evolution of stress. Using the model of spherical grains, the polycrystalline metal is dilated relative to the previous state with smaller grains by [12]:
-  - _Keywords:_ growth, stress, grains, GISGeomFactor, Width, GIS, Grain, elimination
+  - Grain growth means elimination of the grain boundary, which can lead to the evolution of stress. Using the model of spherical grains, the p…
 - **Thermal Mismatch** _(p.109)_ <a id="thermal-mismatch"></a>
-  - Temperature changes during the process described by the temp\_ramp command or the keyword ramprate in the solve command lead to stress in the structure caused by the different coefficients of thermal expansion of the relevant materials.
-  - _Keywords:_ mathbf, thermal, expansion, substrate, coefficient, stress, Mechanics, coefficients
+  - Temperature changes during the process described by the temp\_ramp command or the keyword ramprate in the solve command lead to stress in t…
 - **Gravity Force** _(p.110)_ <a id="gravity-force"></a>
-  - Certain structures can deform significantly under their own weight. To account for such an effect, you must consider gravity force. The gravity force as a volume load depends on the mass density of the material. For a new material, you c...
-  - _Keywords:_ gravity, density, material, pdbSet, MassDensity, applied, Certain, structures
+  - Certain structures can deform significantly under their own weight. To account for such an effect, you must consider gravity force. The gra…
 - **Edge Dislocation** _(p.110)_ <a id="edge-dislocation"></a>
-  - The existence of crystal lattice defects, such as dislocation, affects the channel stress state. The impact of edge dislocation is included by superposing the dislocation-induced stress field for an isotropic infinite medium from elastic...
-  - _Keywords:_ dislocation, stress, orient, existence, crystal, lattice, defects, affects
+  - The existence of crystal lattice defects, such as dislocation, affects the channel stress state. The impact of edge dislocation is included…
 - **where:** _(p.111–112)_ <a id="where"></a>
-  - dislocation.origin is the location of the dislocation core. para.orient specifies the direction of the edge dislocation or the direction of the half plane. perp.orient is the Burgers vector in the perpendicular direction to the half plan...
-  - _Keywords:_ dislocation, stress, origin, direction, dislocations, region, defined, Burgers
+  - dislocation.origin is the location of the dislocation core. para.orient specifies the direction of the edge dislocation or the direction of…
 - **Inverse Piezoelectric Effect** _(p.113)_ <a id="inverse-piezoelectric-effect"></a>
-  - The effect of the electric field on stresses can be taken into account in simulations using the inverse piezoelectric effect. To include this effect in a stress simulation, the fields ElectricField and PrevElectricField are required to b...
-  - _Keywords:_ piezoelectric, effect, components, tensor, electric, inverse, stress, simulation
+  - The effect of the electric field on stresses can be taken into account in simulations using the inverse piezoelectric effect. To include th…
 - **Effective Surface Tension and Pressure due to Fluid** _(p.114)_ <a id="effective-surface-tension-and-pressure-due-to-fluid"></a>
-  - Residual fluid can cause pattern deformation by unbalanced capillary forces and surface tension. These effects are treated as effective surface tension with the line force boundary condition and effective pressure, respectively.
-  - _Keywords:_ surface, tension, material, effective, region, defined, pressure, FluidMaterial
+  - Residual fluid can cause pattern deformation by unbalanced capillary forces and surface tension. These effects are treated as effective sur…
 - **Intrinsic Stress** _(p.115)_ <a id="intrinsic-stress"></a>
-  - Certain process steps require the deposition of materials with intrinsic stresses. Sentaurus Interconnect can be used to model these process steps. The intrinsic stresses (StressELXX, StressELYY, StressELZZ, StressELXY, StressELYZ, Stres...
-  - _Keywords:_ sigma_, material, intrinsic, stresses, Mechanics, stress, stressdata, Deposit
+  - Certain process steps require the deposition of materials with intrinsic stresses. Sentaurus Interconnect can be used to model these proces…
 - **Stress Rebalancing After Etching and Deposition** _(p.116)_ <a id="stress-rebalancing-after-etching-and-deposition"></a>
-  - When materials are removed from or added to a given structure, physical stress distributions generally change with the corresponding geometry and boundary changes. In simulations, a stress-rebalancing step is required to re-establish the...
-  - _Keywords:_ stress, rebalancing, materials, balancing, structure, distributions, required, etching
+  - When materials are removed from or added to a given structure, physical stress distributions generally change with the corresponding geomet…
 - **Automated Tracing of Stress History** <a id="automated-tracing-of-stress-history"></a>
-  - Thermal residual stress in a given device structure is a function of its fabrication history, which consists of process steps at various temperatures and temperature ramps in between. To model stress evolution accurately, all temperature...
-  - _Keywords:_ stress, temperature, history, process, between, traced, StressHistory, rebalancing
+  - Thermal residual stress in a given device structure is a function of its fabrication history, which consists of process steps at various te…
 - **Saving Stress and Strain Components** _(p.117)_ <a id="saving-stress-and-strain-components"></a>
-  - By default, stress-tensor components are saved on both elements and nodes. The elastic portions of the strain-tensor components also are saved on both elements and nodes by default. The elastic strains are computed from stresses using is...
-  - _Keywords:_ stress, tensor, components, elastic, elements, strain, elasticity, pdbSet
+  - By default, stress-tensor components are saved on both elements and nodes. The elastic portions of the strain-tensor components also are sa…
 - **Description of Output Fields** _(p.117–123)_ <a id="description-of-output-fields"></a>
-  - Sentaurus Interconnect assumes that stresses and strains are defined on element Gauss points. Values from the element Gauss points also are interpolated to the element centers using local averaging. However, not all tools can read or vis...
-  - _Keywords:_ unitless, component, strain, element, stress, elastic, Stress, StressEL
+  - Sentaurus Interconnect assumes that stresses and strains are defined on element Gauss points. Values from the element Gauss points also are…
 - **Tracking Maximum Stresses** _(p.123)_ <a id="tracking-maximum-stresses"></a>
-  - During a typical process flow, the maximum stresses might be reached in a process step and, subsequently, the stresses might fall. If the material is prone to failure through delamination or nucleation of dislocations, the failure might ...
-  - _Keywords:_ stress, maximum, stresses, process, largest, reached, failure, stored
+  - During a typical process flow, the maximum stresses might be reached in a process step and, subsequently, the stresses might fall. If the m…
 - **Principal Stresses** _(p.124–125)_ <a id="principal-stresses"></a>
   - Principal stresses are normal stresses that act on the planes where shear stresses are zero, that is:
-  - _Keywords:_ sigma_, principal, stress, stresses, largest, Principal, normal, pdbSet
 - **Principal Strains** _(p.125–126)_ <a id="principal-strains"></a>
   - Principal strains are normal strains that act on the planes where shear strains are zero, that is:
-  - _Keywords:_ varepsilon_, mathfrak, principal, strain, strains, largest, Principal, normal
 - **Nodal Stress and Strain at Like-Material Interface** <a id="nodal-stress-and-strain-at-like-material-interface"></a>
-  - Nodal stress and strain data fields are interpolated regionwise from the corresponding element data fields. They are discontinuous across the interfaces of different materials. At the interface of like materials, the nodal fields Pressur...
-  - _Keywords:_ fields, interpolated, materials, interface, continuous, Mechanics, Boundary, Continuous
+  - Nodal stress and strain data fields are interpolated regionwise from the corresponding element data fields. They are discontinuous across t…
 - **Submodeling** _(p.127–128)_ <a id="submodeling"></a>
-  - Submodeling is a technique to obtain accurate stress in a local region with mesh refinements, while the full model can be simulated with a coarser mesh. This technique extracts the displacement field from the global structure, interpolat...
-  - _Keywords:_ global, analysis, displacement, boundary, submodeling, specified, displacements, stress
+  - Submodeling is a technique to obtain accurate stress in a local region with mesh refinements, while the full model can be simulated with a…
 - **Crack Analysis** _(p.129)_ <a id="crack-analysis"></a>
-  - Crack analysis refers to introducing pre-existing cracks in structures and performing stress analysis. If no cohesive zone model (CZM) is used (see Cohesive Zone Modeling on page 109), the crack surfaces remain traction free. Depending o...
-  - _Keywords:_ interface, CZM, bounding, Crack, structure, defined, materials, material
+  - Crack analysis refers to introducing pre-existing cracks in structures and performing stress analysis. If no cohesive zone model (CZM) is u…
 - **V-Notch Cracks** _(p.130)_ <a id="v-notch-cracks"></a>
-  - The notched specimen has been extensively used to study crack initiation. For structures with a V-shaped notch (see Figure 20 on page 108), the same syntax for crack definition can be applied. This will not affect stress analysis, but it...
-  - _Keywords:_ definition, surface, structure, notched, specimen, extensively, initiation, structures
+  - The notched specimen has been extensively used to study crack initiation. For structures with a V-shaped notch (see Figure 20 on page 108),…
 - **Bulk Cracks** _(p.130–131)_ <a id="bulk-cracks"></a>
-  - A bulk crack is an alternative way of defining a crack in bulk material without creating an interface. In two dimensions, a bulk crack is defined using one or more line segments specified in terms of point coordinates. Multiple connected...
-  - _Keywords:_ defined, cracks, material, segments, define, polygons, dimensions, specified
+  - A bulk crack is an alternative way of defining a crack in bulk material without creating an interface. In two dimensions, a bulk crack is d…
 - **Cohesive Zone Modeling** _(p.131)_ <a id="cohesive-zone-modeling"></a>
-  - Cohesive zone modeling is a way to model propagation of a crack along a predefined path, for example, delamination or separation of material interfaces. It involves defining a CZM law to model the traction–separation behavior of cohesive...
-  - _Keywords:_ CZM, separation, exponential, triangular, normal, stress, toughness, Cohesive
+  - Cohesive zone modeling is a way to model propagation of a crack along a predefined path, for example, delamination or separation of materia…
 - **Exponential Law** _(p.132)_ <a id="exponential-law"></a>
   - The exponential constitutive law for a cohesive surface is defined by the interface potential [18]:
-  - _Keywords:_ delta_, normal, direction, surface, tangent, opening, details, summary
 - **Triangular Law** _(p.133–134)_ <a id="triangular-law"></a>
-  - The triangular law for cohesive surfaces is defined by a bilinear curve with a specified peak. The constitutive behavior is assumed to be elastic but without any coupling between the normal and the tangential responses.
-  - _Keywords:_ delta_, mathrm, CZM, normal, Big, triangular, tangent, details
+  - The triangular law for cohesive surfaces is defined by a bilinear curve with a specified peak. The constitutive behavior is assumed to be e…
 - **Damage Variable** _(p.135–136)_ <a id="damage-variable"></a>
-  - The damage variable is an indicator of the extent of material failure based on CZM element separation. Normal and shear damage variables are calculated independently and range between 0 (no damage) and 1 (complete damage). For both trian...
-  - _Keywords:_ delta_, mathrm, damage, variable, material, failure, maximum, complete
+  - The damage variable is an indicator of the extent of material failure based on CZM element separation. Normal and shear damage variables ar…
 - **Stress Filtering** _(p.136–137)_ <a id="stress-filtering"></a>
-  - Stress anomalies, such as nonphysical values due to a singularity, are well known in finite element analysis. Examples of singularities include cracks, sharp corners, and point loads [19]. Most singularities are based on the unrealistic ...
-  - _Keywords:_ filter, filtering, stress, window, maximum, minimum, regions, stressdata
+  - Stress anomalies, such as nonphysical values due to a singularity, are well known in finite element analysis. Examples of singularities inc…
 - **Examples** _(p.138)_ <a id="examples"></a>
-  - ```python stressdata syy stressdata syy filter.type=Open region.list= {PolySilicon_1} stressdata syy filter.type=Open region.list= {Nitride_1} filter.layers=1 ```
-  - _Keywords:_ stressdata, filter, Open, region, python, PolySilicon_1, Nitride_1, layers
+  - ```python stressdata syy stressdata syy filter.type=Open region.list= {PolySilicon_1} stressdata syy filter.type=Open region.list= {Nitride…
 - **References** _(p.138–141)_ <a id="references"></a>
-  - [1] Y. Li and J. Barbic, “Stable Orthotropic Materials,” in Eurographics/ACM SIGGRAPH Symposium on Computer Animation, Copenhagen, Denmark, pp. 41–46, July 2014. [2] J. C. Simo and T. J. R. Hughes, Computational Inelasticity, vol. 7, New...
-  - _Keywords:_ Materials, Plasticity, Anand, Journal, New, York, Stress, Constitutive
+  - [1] Y. Li and J. Barbic, “Stable Orthotropic Materials,” in Eurographics/ACM SIGGRAPH Symposium on Computer Animation, Copenhagen, Denmark,…
 - **Stress-Induced Mobility Enhancement** _(p.141–142)_ <a id="stress-induced-mobility-enhancement"></a>
   - The mobility enhancement induced by the stress field is defined through piezoresistance change [1]:
-  - _Keywords:_ mobility, P11, material, Mechanics, P12, P44, FinFET, stress
 - **Displacement Field** _(p.143)_ <a id="displacement-field"></a>
-  - The stress analysis kernel in Sentaurus Interconnect solves the velocity at grid points of the given structure. The deformation is obtained by integrating the solution over time. By default, the displacement field is saved in the result ...
-  - _Keywords:_ displacement, Displacement, structure, solution, Saving, pdbSet, Mechanics, Save
+  - The stress analysis kernel in Sentaurus Interconnect solves the velocity at grid points of the given structure. The deformation is obtained…
 - **J-Integral** _(p.143–146)_ <a id="j-integral"></a>
-  - J-integral is an expression to compute the strain-energy release rate, based on the distribution of stresses around a crack tip. It is defined as [2][3]:
-  - _Keywords:_ integral, details, summary, around, stress, domain, elastic, materials
+  - J-integral is an expression to compute the strain-energy release rate, based on the distribution of stresses around a crack tip. It is defi…
 - **C(t)-Integral** _(p.146)_ <a id="c-t-integral"></a>
-  - For viscoplastic materials (seeViscoelastic Materials on page 47), a time-dependent contour integral called C(t)-integral is used to characterize the amplitude of stresses around crack tips [6][7][8]. It is obtained by replacing strains ...
-  - _Keywords:_ integral, strains, around, independent, domains, dependent, stresses, strain
+  - For viscoplastic materials (seeViscoelastic Materials on page 47), a time-dependent contour integral called C(t)-integral is used to charac…
 - **Jv-Integral** _(p.147)_ <a id="jv-integral"></a>
-  - For viscoelastic material (see Viscoelastic Materials on page 47), the J-integral value changes with time. At any time after applying the load, the value depends on stresses and strains at that time.
-  - _Keywords:_ partial, mathfrak, integral, pseudo, domains, stresses, obtain, reference
+  - For viscoelastic material (see Viscoelastic Materials on page 47), the J-integral value changes with time. At any time after applying the l…
 - **References** _(p.148)_ <a id="references"></a>
-  - [1] Y. Kanda, “A Graphical Representation of the Piezoresistance Coefficients in Silicon,” IEEE Transactions on Electron Devices, vol. ED-29, no. 1, pp. 64–70, 1982. [2] C. F. Shih, B. Moran, and T. Nakamura, “Energy release rate along a...
-  - _Keywords:_ Journal, Mechanics, Rice, Strain, Crack, Hardening, Material, Physics
+  - [1] Y. Kanda, “A Graphical Representation of the Piezoresistance Coefficients in Silicon,” IEEE Transactions on Electron Devices, vol. ED-2…
 - **3: Mechanics Postprocessing** _(p.148–149)_ <a id="3-mechanics-postprocessing"></a>
   - References
-  - _Keywords:_ Fracture, Solids, Mechanics, International, Journal, analysis, References, Riedel
 - **Overview of Thermal Analysis** _(p.149)_ <a id="overview-of-thermal-analysis"></a>
-  - In a backend simulation tool, thermal analysis is a key requirement because the temperature distribution in a structure is an important entity. Moreover, many parameters used in other physical models depend on local temperature.
-  - _Keywords:_ simulation, thermal, analysis, temperature, during, backend, requirement, because
+  - In a backend simulation tool, thermal analysis is a key requirement because the temperature distribution in a structure is an important ent…
 - **Thermal Model** _(p.150–151)_ <a id="thermal-model"></a>
-  - The thermal analysis available in Sentaurus Interconnect is based on the time-dependent nonlinear heat equation with distributed heat sources:
-  - _Keywords:_ material, thermal, conductivity, pdbSet, string, _expression, Temperature, Conductivity
+  - The thermal analysis available in Sentaurus Interconnect is based on the time-dependent nonlinear heat equation with distributed heat sourc…
 - **Boundary Conditions** _(p.152)_ <a id="boundary-conditions"></a>
-  - To ensure that the heat equation has a well-defined steady-state solution, the problem must be properly constrained. This is done by applying thermal boundary conditions to a set of contacts (thermodes). To establish a fixed temperature ...
-  - _Keywords:_ boundary, conditions, temperature, constant, thermal, system, kappa_, interface
+  - To ensure that the heat equation has a well-defined steady-state solution, the problem must be properly constrained. This is done by applyi…
 - **Bottom Boundary Condition** _(p.152)_ <a id="bottom-boundary-condition"></a>
-  - At the bottom, the boundary condition depends on whether the thermal resistor is attached. The thermal resistor can be switched on using the command:
-  - _Keywords:_ bottom, thermal, resistor, pdbSet, material, switched, emission, thickness
+  - At the bottom, the boundary condition depends on whether the thermal resistor is attached. The thermal resistor can be switched on using th…
 - **Side Boundary Condition** _(p.153)_ <a id="side-boundary-condition"></a>
   - At the sides, the flux is calculated by:
-  - _Keywords:_ transfer, SideHeatTransfer, calculated, specify, pdbSet, material, materials
 - **Top Boundary Condition** _(p.154)_ <a id="top-boundary-condition"></a>
-  - At the top surface, that is, the gas interface, the boundary condition depends on whether the thermal resistor is attached. The thermal resistor can be switched on using the command:
-  - _Keywords:_ boundary, condition, pdbSet, emission, thermal, mathrm, transfer, material
+  - At the top surface, that is, the gas interface, the boundary condition depends on whether the thermal resistor is attached. The thermal res…
 - **Defining Thermal Contacts** <a id="defining-thermal-contacts"></a>
   - To define thermal contacts, use the contact command (see contact on page 392), for example:
-  - _Keywords:_ contact, Silicon, define, thermal, contacts, therm1, sidewall, therm2
 - **Applying Boundary Conditions to Thermal Contacts** _(p.155)_ <a id="applying-boundary-conditions-to-thermal-contacts"></a>
   - To apply boundary conditions to the thermal contacts, use the supply command (see supply on page 667), for example:
-  - _Keywords:_ temperature, contact, supply, Tramp1, boundary, thermal, therm1, therm2
 - **Thermal Submodeling** _(p.155)_ <a id="thermal-submodeling"></a>
-  - Thermal submodeling is a technique to obtain accurate thermal results in a local region with mesh refinements, while the full model can be simulated with a coarser mesh. This technique extracts the temperature from the global structure, ...
-  - _Keywords:_ thermal, temperature, global, boundary, submodeling, conditions, technique, surfaces
+  - Thermal submodeling is a technique to obtain accurate thermal results in a local region with mesh refinements, while the full model can be…
 - **Thermal Resistance Matrix** _(p.156)_ <a id="thermal-resistance-matrix"></a>
-  - Sentaurus Interconnect calculates the thermal resistance matrix for the listed contacts. If no contact information is given, conductors are treated as contacts. The resistances are calculated where resistances may be required. The mathem...
-  - _Keywords:_ thermal, resistance, matrix, resistances, Sentaurus, Interconnect, calculates, contacts
+  - Sentaurus Interconnect calculates the thermal resistance matrix for the listed contacts. If no contact information is given, conductors are…
 - **Thermal RC Network** <a id="thermal-rc-network"></a>
   - Sentaurus Interconnect performs transient thermal analysis to calculate the thermal RC networks for the listed contacts.
-  - _Keywords:_ thermal, analysis, calculate, networks, network, contact, Sentaurus, Interconnect
 - **Output Data Fields** <a id="output-data-fields"></a>
   - Table 9 lists the data fields pertinent to thermal analysis. Table 9 Data fields associated with thermal analysis
-  - _Keywords:_ Node, temperature, thermal, analysis, fields, Temperature, Final, profile
 - **Example: 2D Thermal Analysis With Joule Heating** _(p.157–158)_ <a id="example-2d-thermal-analysis-with-joule-heating"></a>
-  - The following self-contained example runs a thermal analysis on a simple structure containing a current-carrying straight copper wire surrounded by oxide (see Figure 27 on page 136). Fixed temperature boundary conditions are applied to t...
-  - _Keywords:_ contact, thermal, temperature, location, spacing, Copper, current, sidewall
+  - The following self-contained example runs a thermal analysis on a simple structure containing a current-carrying straight copper wire surro…
 - **References** _(p.158–159)_ <a id="references"></a>
-  - [1] J. R. Cannon, The One-Dimensional Heat Equation, Encyclopedia of Mathematics and Its Applications, vol. 23, Menlo Park, California: Addison-Wesley, 1984.
-  - _Keywords:_ Cannon, One, Dimensional, Heat, Equation, Encyclopedia, Mathematics, Its
+  - [1] J. R. Cannon, The One-Dimensional Heat Equation, Encyclopedia of Mathematics and Its Applications, vol. 23, Menlo Park, California: Add…
 - **Overview of Electrical Current Analysis** _(p.159)_ <a id="overview-of-electrical-current-analysis"></a>
-  - In an interconnect reliability analysis tool, electrical analysis is a key requirement because the electric potential and the electric field are important entities in their own right.
-  - _Keywords:_ analysis, current, electric, electrical, potential, Electrical, performed, interconnect
+  - In an interconnect reliability analysis tool, electrical analysis is a key requirement because the electric potential and the electric fiel…
 - **Electrical Current Model** _(p.160)_ <a id="electrical-current-model"></a>
   - Electrical current analysis in Sentaurus Interconnect is based on the continuity equation for conducting media [1]:
-  - _Keywords:_ bullet, varphi, partial, Electrical, current, analysis, Sentaurus, Interconnect
 - **where:** _(p.160)_ <a id="where"></a>
   - is the electric potentialϕ $J _ { D }$ is the displacement current. is the permittivity (see Electrostatic Model on page 149).ε
-  - _Keywords:_ displacement, current, temperature, electric, permittivity, Electrostatic, Model, currents
 - **where:** _(p.161)_ <a id="where"></a>
   - $\sigma _ { 3 0 0 }$ is the electrical conductivity at 300 K. is a linear temperature coefficient.α
-  - _Keywords:_ material, pdbSet, conductivity, Potential, Conductivity, current, electrical, defined
 - **Electrical Conductivity Models** _(p.161)_ <a id="electrical-conductivity-models"></a>
   - Different semiempirical conductivity models for narrow wires are available to calculate conductivity:
-  - _Keywords:_ dependent, conductivity, Different, semiempirical, models, narrow, available, calculate
 - **Proximity Field–Dependent Model** _(p.162–163)_ <a id="proximity-field-dependent-model"></a>
   - This model is based on the proximity effect. In this model, the resistivity $\rho _ { i }$ at the -th nodei of a conductor is expressed as:
-  - _Keywords:_ mathrm, conductor, Potential, pdbSetDouble, region, ProximityField, Copper, proximity
 - **Nearest Distance–Dependent Model** _(p.164)_ <a id="nearest-distance-dependent-model"></a>
   - This model is based on the nearest distance to the conductor surface [2]. In this model, the resistivity is calculated using:
-  - _Keywords:_ mathrm, conductor, nearest, distance, NearestDistance, Conductivity, surface, resistivity
 - **Wire Size–Dependent Model** <a id="wire-size-dependent-model"></a>
   - This model depends solely on the size of the narrow wire. In this model, resistivity at a node is calculated with:
-  - _Keywords:_ WireSize, resistivity, conductivity, conductor, Conductivity, bulkR, calculated, mathrm
 - **Grain Size–Dependent Model** _(p.165)_ <a id="grain-size-dependent-model"></a>
-  - Mayadas and Shatzkes [3] proposed a model of electron scattering due to a distribution of planar potentials, that is, grain boundaries, so that smaller grains cause more electron scattering, leading to greater resistivity:
-  - _Keywords:_ material, electron, scattering, sigma_, Fermi, pdbSet, Mayadas, Shatzkes
+  - Mayadas and Shatzkes [3] proposed a model of electron scattering due to a distribution of planar potentials, that is, grain boundaries, so…
 - **Boundary Conditions** _(p.165)_ <a id="boundary-conditions"></a>
-  - To ensure that the current Laplace equation (see Eq. 83, p. 137) has a well-defined steady-state solution, the problem must be properly constrained. This is performed by applying electrical boundary conditions to two or more contacts def...
-  - _Keywords:_ boundary, conditions, constant, current, contacts, defined, system, voltage
+  - To ensure that the current Laplace equation (see Eq. 83, p. 137) has a well-defined steady-state solution, the problem must be properly con…
 - **Defining Electrical Contacts** <a id="defining-electrical-contacts"></a>
   - Use the contact command to define electrical contacts (see contact on page 392), for example:
-  - _Keywords:_ contact, Copper, Use, define, electrical, contacts, elect1, sidewall
 - **Applying Boundary Conditions to Electrical Contacts** _(p.166)_ <a id="applying-boundary-conditions-to-electrical-contacts"></a>
   - Use the supply command to apply boundary conditions for electrical current analysis to contacts (see supply on page 667).
-  - _Keywords:_ supply, Use, boundary, conditions, electrical, current, analysis, contacts
 - **For example:** _(p.166–167)_ <a id="for-example"></a>
-  - ```txt supply contact.name=elect1 voltage=1.0e-3<V> supply contact.name=elect2 current.density=1.0e5<A/cm2> supply contact.name=elect3 current=1.0e-4<A> ```
-  - _Keywords:_ contact, current, voltage, constant, boundary, condition, supply, elect1
+  - ```txt supply contact.name=elect1 voltage=1.0e-3<V> supply contact.name=elect2 current.density=1.0e5<A/cm2> supply contact.name=elect3 curr…
 - **Resistance Matrix** _(p.167)_ <a id="resistance-matrix"></a>
-  - Sentaurus Interconnect calculates the resistance matrix among electrodes. To calculate the resistance matrix, use the mode command (see mode on page 532), for example:
-  - _Keywords:_ resistance, matrix, Sentaurus, Interconnect, calculates, electrodes, calculate, detailed
+  - Sentaurus Interconnect calculates the resistance matrix among electrodes. To calculate the resistance matrix, use the mode command (see mod…
 - **Output Data Fields** <a id="output-data-fields"></a>
   - Table 10 lists the data fields relevant to electrical current analysis and whether the field applies to elements or nodes.
-  - _Keywords:_ Node, fields, electrical, current, analysis, Electric, relevant, whether
 - **Example: 2D Electrical Current Analysis** _(p.169–170)_ <a id="example-2d-electrical-current-analysis"></a>
-  - The following self-contained example demonstrates electrical current analysis on a simple structure containing a copper T-junction embedded in oxide (see Figure 28 on page 147). Two constant current boundary conditions and one (mandatory...
-  - _Keywords:_ current, contact, Potential, location, spacing, Copper, voltage, contacts
+  - The following self-contained example demonstrates electrical current analysis on a simple structure containing a copper T-junction embedded…
 - **References** _(p.170–171)_ <a id="references"></a>
-  - [1] J. R. Reitz, F. J. Milford, and R. W. Christy, Foundations of Electromagnetic Theory, Chapters 3–4, Reading, Massachusetts: Addison-Wesley, 4th ed., 1993. [2] I. Ciofi et al., “Impact of Wire Geometry on Interconnect RC and Circuit D...
-  - _Keywords:_ Interconnect, Reitz, Milford, Christy, Foundations, Electromagnetic, Theory, Reading
+  - [1] J. R. Reitz, F. J. Milford, and R. W. Christy, Foundations of Electromagnetic Theory, Chapters 3–4, Reading, Massachusetts: Addison-Wes…
 - **Overview of Electrostatic Analysis** _(p.171)_ <a id="overview-of-electrostatic-analysis"></a>
-  - In an interconnect reliability analysis tool, electrical analysis is a key requirement because the electric potential and the electric field are important entities in their own right.
-  - _Keywords:_ analysis, electric, electrostatic, potential, electrical, Electrostatic, performed, regions
+  - In an interconnect reliability analysis tool, electrical analysis is a key requirement because the electric potential and the electric fiel…
 - **Electrostatic Model** _(p.172–173)_ <a id="electrostatic-model"></a>
   - Electrostatic analysis in Sentaurus Interconnect is based on the Poisson equation [1]:
-  - _Keywords:_ permittivity, pdbSet, material, Potential, Permittivity, anisotropic, Aniso, relative
 - **Boundary Conditions** _(p.173)_ <a id="boundary-conditions"></a>
-  - To ensure that the Poisson equation has a well-defined steady-state solution, the problem must be properly constrained. This is done by applying boundary conditions to a set of electrodes, one boundary condition per electrode.
-  - _Keywords:_ boundary, conditions, nonelectrode, component, electric, ensure, Poisson, equation
+  - To ensure that the Poisson equation has a well-defined steady-state solution, the problem must be properly constrained. This is done by app…
 - **Defining Electrodes** <a id="defining-electrodes"></a>
   - To define electrodes, use the contact command (see contact on page 392), for example:
-  - _Keywords:_ contact, Copper, define, electrodes, elect1, sidewall, elect2, bottom
 - **Applying Boundary Conditions to Electrodes** _(p.174)_ <a id="applying-boundary-conditions-to-electrodes"></a>
   - To apply boundary conditions for electrostatic analysis to electrodes, use the supply command (see supply on page 667), for example:
-  - _Keywords:_ supply, contact, boundary, elect1, voltage, elect2, charge, specifies
 - **Capacitance Matrix** _(p.174)_ <a id="capacitance-matrix"></a>
-  - Sentaurus Interconnect calculates the capacitance matrix among electrodes. To calculate the capacitance matrix, use the mode command (see mode on page 532), for example:
-  - _Keywords:_ capacitance, matrix, Sentaurus, Interconnect, calculates, electrodes, calculate, detailed
+  - Sentaurus Interconnect calculates the capacitance matrix among electrodes. To calculate the capacitance matrix, use the mode command (see m…
 - **Output Data Fields** <a id="output-data-fields"></a>
   - Table 11 lists the data fields pertinent to electrostatic analysis, and whether the field applies to elements or nodes.
-  - _Keywords:_ Node, fields, pertinent, electrostatic, analysis, Electric, whether, applies
 - **Example: Electrostatic Analysis of Strip Between Two Ground Planes** _(p.176)_ <a id="example-electrostatic-analysis-of-strip-between-two-ground-p"></a>
-  - The following self-contained example demonstrates electrostatic analysis on a simple structure containing a straight copper wire embedded in oxide between two metal ground planes (see Figure 30 on page 154). The wire and the ground plane...
-  - _Keywords:_ location, spacing, region, Oxide, contact, StructLeft, StructRight, StripTop
+  - The following self-contained example demonstrates electrostatic analysis on a simple structure containing a straight copper wire embedded i…
 - **6: Electrostatic Analysis** _(p.176)_ <a id="6-electrostatic-analysis"></a>
 - **References** _(p.176)_ <a id="references"></a>
-  - ```txt select z="ElectricField_mag > 1.2e4" Oxide name=Max_E_FieldExceeded store struct tdr=strip !Gas !interfaces !contacts set max_E_field [select name=ElectricField max] LogFile "MAX(E-field) = $max_E_field V/cm" ```
-  - _Keywords:_ select, max_E_field, potential, details, summary, Electrostatic, Blue, ElectricField_mag
+  - ```txt select z="ElectricField_mag > 1.2e4" Oxide name=Max_E_FieldExceeded store struct tdr=strip !Gas !interfaces !contacts set max_E_fiel…
 - **References** _(p.177)_ <a id="references"></a>
-  - [1] J. R. Reitz, F. J. Milford, and R. W. Christy, Foundations of Electromagnetic Theory, Chapters 3–4, Reading, Massachusetts: Addison-Wesley, 4th ed., 1993.
-  - _Keywords:_ Reitz, Milford, Christy, Foundations, Electromagnetic, Theory, Reading, Massachusetts
+  - [1] J. R. Reitz, F. J. Milford, and R. W. Christy, Foundations of Electromagnetic Theory, Chapters 3–4, Reading, Massachusetts: Addison-Wes…
 - **Overview of Mixed-Mode Analysis** _(p.177–178)_ <a id="overview-of-mixed-mode-analysis"></a>
-  - Sentaurus Interconnect is an interconnect reliability analysis simulator with circuit simulator capabilities in mixed mode. For a mixed-mode simulation, the command file must include specifications of the mesh, the contacts, and the mode...
-  - _Keywords:_ circuit, interconnect, structure, Interconnect, netlist, Sentaurus, simulator, simulation
+  - Sentaurus Interconnect is an interconnect reliability analysis simulator with circuit simulator capabilities in mixed mode. For a mixed-mod…
 - **Compact Models** _(p.178–180)_ <a id="compact-models"></a>
   - In Sentaurus Interconnect, each compact model is described by a three-level hierarchy:
-  - _Keywords:_ HSPICE, Level, models, SPICE, controlled, source, Device, circuit
 - **Example: Compact Models** _(p.180–182)_ <a id="example-compact-models"></a>
   - Consider the following simple rectifier circuit:
-  - _Keywords:_ circuit, INSTANCE, PSET, SPICE, D1n4148, END, current, resistance
 - **SPICE Circuit Files** _(p.183)_ <a id="spice-circuit-files"></a>
-  - Compact models can be specified in an external SPICE circuit file, which is recognized by the extension .scf. The declaration of a parameter set can be:
-  - _Keywords:_ circuit, SPICE, Compact, extension, declaration, PSET, parameter0, value0
+  - Compact models can be specified in an external SPICE circuit file, which is recognized by the extension .scf. The declaration of a paramete…
 - **System Section** _(p.184)_ <a id="system-section"></a>
-  - The System section (see System on page 671) defines the netlist of the physical device and the circuit elements to be solved. The netlist is connected through circuit nodes. By default, a circuit node is electrical. Each electrical node ...
-  - _Keywords:_ circuit, device, physical, connected, contact, netlist, Compact, SPICE
+  - The System section (see System on page 671) defines the netlist of the physical device and the circuit elements to be solved. The netlist i…
 - **Circuit Devices** _(p.185)_ <a id="circuit-devices"></a>
-  - SPICE instances can be declared in SPICE circuit files as discussed in SPICE Circuit Files on page 160. They also can appear directly in the System section of the command file, for example:
-  - _Keywords:_ SPICE, circuit, System, internal, instance, instances, appear, declaration
+  - SPICE instances can be declared in SPICE circuit files as discussed in SPICE Circuit Files on page 160. They also can appear directly in th…
 - **Temperature Dependency** _(p.186)_ <a id="temperature-dependency"></a>
-  - You can perform coupled electrothermal analysis in compact models through the definition of thermal nodes in the circuit. Compact model instances are declared as before, however, the nodes associated with these instances can be specified...
-  - _Keywords:_ circuit, thermodes, System, thermal, specified, instance, interconnect, contact
+  - You can perform coupled electrothermal analysis in compact models through the definition of thermal nodes in the circuit. Compact model ins…
 - **SPICE Circuit Models** <a id="spice-circuit-models"></a>
-  - Sentaurus Interconnect supports SPICE circuit models for mixed-mode simulations. These models are based on Berkeley SPICE 3 Version 3F5. Several frequently used HSPICE models also are available. For a detailed description of the SPICE mo...
-  - _Keywords:_ models, SPICE, Sentaurus, Interconnect, supports, circuit, simulations, These
+  - Sentaurus Interconnect supports SPICE circuit models for mixed-mode simulations. These models are based on Berkeley SPICE 3 Version 3F5. Se…
 - **SPICE Circuit Parameters** _(p.187)_ <a id="spice-circuit-parameters"></a>
-  - The SPICE circuit parameters, model path, model file extension, minimum conductivity, temperature, and nominal temperature can be specified using the pdb commands:
-  - _Keywords:_ SPICE, Temperature, pdbSet, Circuit, temperature, circuit, minimum, nominal
+  - The SPICE circuit parameters, model path, model file extension, minimum conductivity, temperature, and nominal temperature can be specified…
 - **User-Defined Circuit Models** _(p.187)_ <a id="user-defined-circuit-models"></a>
-  - Sentaurus Interconnect provides a compact model interface (CMI) for user-defined circuit models. The models are implemented in C++ by users and are linked to Sentaurus Interconnect at runtime. Access to the source code of Sentaurus Inter...
-  - _Keywords:_ Sentaurus, Interconnect, compact, CMI, defined, circuit, models, runtime
+  - Sentaurus Interconnect provides a compact model interface (CMI) for user-defined circuit models. The models are implemented in C++ by users…
 - **Example: Mixed-Mode Electrical Current Analysis** _(p.188)_ <a id="example-mixed-mode-electrical-current-analysis"></a>
-  - The following self-contained example demonstrates mixed-mode electrical current analysis on a simple structure containing a copper wire, three resistors, and a sinusoidal voltage source (see Figure 32 on page 166). The example demonstrat...
-  - _Keywords:_ demonstrates, voltage, circuit, device, contacts, contact, Copper, sidewall
+  - The following self-contained example demonstrates mixed-mode electrical current analysis on a simple structure containing a copper wire, th…
 - **7: Mixed-Mode Analysis** _(p.188–190)_ <a id="7-mixed-mode-analysis"></a>
   - Example: Mixed-Mode Electrical Current Analysis
-  - _Keywords:_ GoldContact, MetalContact, location, spacing, voltage, circuit, details, summary
 - **7: Mixed-Mode Analysis** _(p.190–191)_ <a id="7-mixed-mode-analysis"></a>
   - Example: Mixed-Mode Electrical Current Analysis
-  - _Keywords:_ growth, stress, Mixed, Mode, Electrical, Current, Analysis, describes
 - **Grain Growth Model** _(p.191–193)_ <a id="grain-growth-model"></a>
   - Grain growth during thermal processing can be simulated by setting:
-  - _Keywords:_ mathrm, material, pdbSet, GBSurface, Energy, Density, growth, GISFactor
 - **Initializing the Grain Size** _(p.193)_ <a id="initializing-the-grain-size"></a>
   - The grain size is initialized when a polycrystalline material is first deposited. The initial grain size is set as:
-  - _Keywords:_ material, GrainSize, GrainSizeTempC, pdbSet, Frac, GrainSizeFactor, depositing, surface
 - **Output Data Fields** _(p.194)_ <a id="output-data-fields"></a>
   - Table 16 lists the data fields pertinent to complementary models, and whether the field applies to elements or nodes.
-  - _Keywords:_ Node, fields, pertinent, complementary, models, whether, applies, elements
 - **References** _(p.194–195)_ <a id="references"></a>
-  - [1] L. Mei and R. W. Dutton, “A Process Simulation Model for Multilayer Structures Involving Polycrystalline Silicon,” IEEE Transactions on Electron Devices, vol. ED-29, no. 11, pp. 1726–1734, 1982. [2] L. Mei et al., “Grain-Growth Mecha...
-  - _Keywords:_ Mei, Dutton, Process, Simulation, Model, Multilayer, Structures, Involving
+  - [1] L. Mei and R. W. Dutton, “A Process Simulation Model for Multilayer Structures Involving Polycrystalline Silicon,” IEEE Transactions on…
 - **Overview** _(p.195)_ <a id="overview"></a>
-  - Synopsys’ Consulting and Engineering is working continually on improving the simulation models and optimizing the model parameters for the latest technology. This effort is based on long-standing experience of model calibration for custo...
-  - _Keywords:_ models, located, AdvCal, Synopsys, Consulting, Engineering, working, continually
+  - Synopsys’ Consulting and Engineering is working continually on improving the simulation models and optimizing the model parameters for the…
 - **Using Advanced Calibration** _(p.196)_ <a id="using-advanced-calibration"></a>
   - To use Advanced Calibration in Sentaurus Interconnect, at the beginning of the command file, insert the line:
-  - _Keywords:_ AdvCal, AdvancedCalibration, Advanced, Calibration, sources, STROOT, STRELEASE, sinterconnect
 - **Additional Calibration by Users** _(p.196–197)_ <a id="additional-calibration-by-users"></a>
-  - Advanced Calibration is based on the assumption that all parameters that are not changed in the parameter files are the Sentaurus Interconnect default parameters. To use the Advanced Calibration file AdvCal\_2018.06.sis, it must be sourc...
-  - _Keywords:_ Advanced, Calibration, process, Sentaurus, Interconnect, calibration, changes, physical
+  - Advanced Calibration is based on the assumption that all parameters that are not changed in the parameter files are the Sentaurus Interconn…
 - **Overview of Mesh Generation** _(p.197–198)_ <a id="overview-of-mesh-generation"></a>
-  - Sentaurus Interconnect automatically generates meshes as they are needed. The behavior of the automatic-meshing scheme differs depending on the dimension of the simulation because of the time required to generate meshes. In one dimension...
-  - _Keywords:_ Sentaurus, Mesh, algorithm, meshes, refinement, Interconnect, meshing, created
+  - Sentaurus Interconnect automatically generates meshes as they are needed. The behavior of the automatic-meshing scheme differs depending on…
 - **Mesh Refinement** _(p.198–199)_ <a id="mesh-refinement"></a>
   - By default, no mesh refinement is applied. You must add refinement to achieve accurate results.
-  - _Keywords:_ refinement, criteria, constraints, refinebox, argument, Mesh, define, remesh
 - **Viewing Mesh Refinement** <a id="viewing-mesh-refinement"></a>
   - To aid in setting mesh refinement, you can store the current minimum edge length in each direction as a field using the command:
-  - _Keywords:_ length, direction, structures, setting, refinement, current, minimum, pdbSet
 - **Static Mesh Refinement** <a id="static-mesh-refinement"></a>
   - This section discusses static (not adaptive) mesh refinement.
-  - _Keywords:_ discusses, static, adaptive, refinement
 - **Standard Refinement Boxes** _(p.200)_ <a id="standard-refinement-boxes"></a>
-  - The standard refinement box allows you to specify a smoothly varying mesh density inside the refinement box at three locations in the x-, y- and z-directions using the xrefine, yrefine, and zrefine parameter lists, respectively.
-  - _Keywords:_ density, specified, refinement, xrefine, yrefine, zrefine, region, varying
+  - The standard refinement box allows you to specify a smoothly varying mesh density inside the refinement box at three locations in the x-, y…
 - **Interface Axis-Aligned Refinement Boxes** _(p.201)_ <a id="interface-axis-aligned-refinement-boxes"></a>
-  - Refinement near interfaces can be specified globally or constrained spatially inside a refinement box using the refinebox command. So it is possible to have a large global default minimum interface mesh-spacing, for example, and a smalle...
-  - _Keywords:_ normal, growth, interface, interfaces, refinement, global, pdbSet, Grid
+  - Refinement near interfaces can be specified globally or constrained spatially inside a refinement box using the refinebox command. So it is…
 - **Interface Offsetting Refinement Boxes** _(p.201)_ <a id="interface-offsetting-refinement-boxes"></a>
-  - In addition, the Sentaurus Mesh offsetting algorithm can be used to create offsetting layers that are conformal to the interface rather than aligned to the coordinate axes by specifying the offsetting keyword, which also permits regionwi...
-  - _Keywords:_ interface, offsetting, maxlevel, refinebox, Sentaurus, region, defined, addition
+  - In addition, the Sentaurus Mesh offsetting algorithm can be used to create offsetting layers that are conformal to the interface rather tha…
 - **Refinement Inside a Mask** _(p.202)_ <a id="refinement-inside-a-mask"></a>
-  - Mask-based refinements are similar to standard refinements (see Standard Refinement Boxes on page 177), except that they have an additional constraint that is defined by a volume specified by a previously existing mask. This constraint i...
-  - _Keywords:_ refinement, refinements, extend, Mask, constraint, specified, defined, applied
+  - Mask-based refinements are similar to standard refinements (see Standard Refinement Boxes on page 177), except that they have an additional…
 - **Example** <a id="example"></a>
   - First, create a mask, and then a refinement box can be issued:
-  - _Keywords:_ refinement, Mask, extrusion, First, create, issued, polygon, segments
 - **Refinement Near Mask Edges or Mark Corners** _(p.203–204)_ <a id="refinement-near-mask-edges-or-mark-corners"></a>
   - Refinement also can be constrained to be near mask edges or mask corners. The following arguments are available in the refinebox command:
-  - _Keywords:_ corner, refinement, extent, refinebox, refine, normal, specified, arguments
 - **Uniform Mesh Scaling** _(p.204–205)_ <a id="uniform-mesh-scaling"></a>
-  - Often in simulations, uniform mesh refinement is required to study mesh effects or convergence. After defining all of the other mesh refinement criteria, the mesh can be further split uniformly by a specified factor in each direction. Th...
-  - _Keywords:_ factor, binarytree, pdbSet, Grid, SnMesh, specified, refinement, direction
+  - Often in simulations, uniform mesh refinement is required to study mesh effects or convergence. After defining all of the other mesh refine…
 - **Adaptive Mesh Refinement** <a id="adaptive-mesh-refinement"></a>
-  - Tailoring a mesh to a specific problem with static refinement boxes can be tedious and timeconsuming. In addition, for some applications, solution profiles evolve so much during the process that the areas where a finer mesh was needed at...
-  - _Keywords:_ during, Adaptive, remesh, static, refinement, addition, needed, necessary
+  - Tailoring a mesh to a specific problem with static refinement boxes can be tedious and timeconsuming. In addition, for some applications, s…
 - **Adaptive Refinement Criteria** _(p.206)_ <a id="adaptive-refinement-criteria"></a>
-  - Numerous refinement functions are available to deal with differing fields and situations. All functions involve some comparison between values on neighboring nodes and possible values between neighboring nodes. In some cases, the same re...
-  - _Keywords:_ refinement, difference, available, between, neighboring, Sentaurus, Mesh, Numerous
+  - Numerous refinement functions are available to deal with differing fields and situations. All functions involve some comparison between val…
 - **10: Mesh Generation** _(p.206)_ <a id="10-mesh-generation"></a>
 - **Adaptive Mesh Refinement** _(p.206)_ <a id="adaptive-mesh-refinement"></a>
   - ■ Local dose error Interval refinement
-  - _Keywords:_ meshing, refinement, adaptive, produce, Adaptive, pdbSet, Grid, Local
 - **Relative Difference Criteria** _(p.207)_ <a id="relative-difference-criteria"></a>
   - The relative difference between two neighboring nodes is computed as follows:
-  - _Keywords:_ Refine, Error, relative, difference, Field, Rel, Abs, between
 - **Absolute Difference Criteria** _(p.207)_ <a id="absolute-difference-criteria"></a>
   - The absolute difference between two neighboring nodes is computed simply:
-  - _Keywords:_ absolute, difference, between, maximum, neighboring, computed, simply, expression
 - **Logarithmic Difference Criteria** <a id="logarithmic-difference-criteria"></a>
   - The logarithmic (base 10) difference between two neighboring nodes is computed as follows:
-  - _Keywords:_ difference, logarithmic, between, pdbSet, Grid, Field, Refine, refinebox
 - **Inverse Hyperbolic Sine (asinh) Difference Criteria** _(p.208)_ <a id="inverse-hyperbolic-sine-asinh-difference-criteria"></a>
   - The asinh difference between two neighboring nodes is computed as follows:
-  - _Keywords:_ difference, between, operatorname, maximum, asinhdiff, neighboring, computed, follows
 - **Gradient Criteria** <a id="gradient-criteria"></a>
   - The gradient between two neighboring nodes is computed as follows:
-  - _Keywords:_ gradient, between, maximum, neighboring, computed, follows, length, expression
 - **Local Dose Error Criteria** <a id="local-dose-error-criteria"></a>
   - If an edge between two neighboring nodes is not split, the local dose error is computed as follows:
-  - _Keywords:_ between, neighboring, computed, follows
 - **where:** _(p.209–210)_ <a id="where"></a>
-  - $C _ { i }$ is the field value on node .i $C _ { i j }$ is the concentration at the midpoint between nodes and .i j $l _ { i j }$ is the length of the edge between nodes and .i j ■ $s _ { i j }$ is the box size perpendicular to the edge ...
-  - _Keywords:_ between, details, summary, simulation, concentration, perpendicular, images, text_image
+  - $C _ { i }$ is the field value on node .i $C _ { i j }$ is the concentration at the midpoint between nodes and .i j $l _ { i j }$ is the le…
 - **Interval Refinement Criteria** _(p.210–211)_ <a id="interval-refinement-criteria"></a>
-  - Interval refinement provides a way to refine the mesh such that field values within a certain interval are well resolved. Interval refinement produces mesh edges of a specified length wherever the field values are within a specified inte...
-  - _Keywords:_ length, interval, mathrm, target, refinement, effective, Interval, specified
+  - Interval refinement provides a way to refine the mesh such that field values within a certain interval are well resolved. Interval refineme…
 - **Summary of Refinement Parameters** _(p.211)_ <a id="summary-of-refinement-parameters"></a>
-  - Table 17 lists refinebox parameters in the left column that can be used to specify boxwise refinement. The right column lists the corresponding PDB parameters that can be used to specify refinement criteria globally.
-  - _Keywords:_ Grid, Field, Refine, Max, refinement, refinebox, column, specify
+  - Table 17 lists refinebox parameters in the left column that can be used to specify boxwise refinement. The right column lists the correspon…
 - **Localizing Adaptive Meshing Using refinebox Command** _(p.212)_ <a id="localizing-adaptive-meshing-using-refinebox-command"></a>
-  - Adaptive meshing has been implemented through generalized refinement boxes. As such, adaptive refinement and the refinement parameters themselves can be set in a boxwise manner. The default adaptive refinement box covers the entire struc...
-  - _Keywords:_ refinement, adaptive, refinebox, refine, fields, created, overrides, Field1
+  - Adaptive meshing has been implemented through generalized refinement boxes. As such, adaptive refinement and the refinement parameters them…
 - **Examples** <a id="examples"></a>
   - To switch on adaptive meshing, use:
-  - _Keywords:_ adaptive, refinebox, refine, meshing, Boron, create, modified, switch
 - **Adaptive Meshing During Analysis** _(p.213)_ <a id="adaptive-meshing-during-analysis"></a>
-  - Adaptive meshing during thermal and electrical analysis is switched on by default when adaptive meshing is switched on (in other words, pdbGet Grid Adaptive returns 1). An additional control that prevents adaptive meshing at low temperat...
-  - _Keywords:_ Adaptive, meshing, switched, adaptive, Grid, Temp, during, thermal
+  - Adaptive meshing during thermal and electrical analysis is switched on by default when adaptive meshing is switched on (in other words, pdb…
 - **The command:** _(p.213)_ <a id="the-command"></a>
   - pdbSet Compute Compute.Regrid.Steps 10 ;# during inert annealings
-  - _Keywords:_ Compute, Regrid, Steps, checked, whether, refinement, criteria, performed
 - **where:** _(p.214)_ <a id="where"></a>
-  - ■ Refine.Factor is a direction-dependent parameter of the PDB under Grid. error is the error functions given in Eq. 103–Eq. 108. ■ maxerror is the maximum error parameter associated with each refinement type. actual is the ‘actual’ edge ...
-  - _Keywords:_ Refine, Grid, refinement, Compute, remesh, criteria, remeshing, Factor
+  - ■ Refine.Factor is a direction-dependent parameter of the PDB under Grid. error is the error functions given in Eq. 103–Eq. 108. ■ maxerror…
 - **Tips for Adaptive Meshing** _(p.214–215)_ <a id="tips-for-adaptive-meshing"></a>
   - Some useful suggestions when using adaptive meshing are:
-  - _Keywords:_ criteria, refinement, interface, Grid, adaptive, meshing, refinebox, normal
 - **Examples** _(p.215)_ <a id="examples"></a>
   - The interfaces to be refined are defined as follows:
-  - _Keywords:_ normal, interface, refinebox, interfaces, refinement, silicon, materials, growth
 - **Manipulating Refinement Boxes: transform.refinement Command** _(p.216)_ <a id="manipulating-refinement-boxes-transform-refinement-command"></a>
-  - Transformations can be performed on refinement boxes using the transform.refinement command (see transform.refinement on page 692), which works like the transform command, except for refinement boxes.
-  - _Keywords:_ refinement, original, transform, translate, transformation, specified, specifies, transformed
+  - Transformations can be performed on refinement boxes using the transform.refinement command (see transform.refinement on page 692), which w…
 - **Settings for Sentaurus Mesh** _(p.216–221)_ <a id="settings-for-sentaurus-mesh"></a>
   - Table 19 lists the parameters available for Sentaurus Mesh. To set the parameters, use:
-  - _Keywords:_ Specifies, algorithm, DelPSC, degrees, Sentaurus, Mesh, regions, boundary
 - **Displaying Refinement Boxes** _(p.221–222)_ <a id="displaying-refinement-boxes"></a>
-  - Refinement boxes are saved to TDR files for displaying in Sentaurus Visual. When loading a TDR file in Sentaurus Visual, if refinement boxes are present, RefinementBox will be listed on the Materials tab (see Figure 36 (left)). The list ...
-  - _Keywords:_ refinement, Materials, Lines, Particles, details, summary, RefinementBox, TDR
+  - Refinement boxes are saved to TDR files for displaying in Sentaurus Visual. When loading a TDR file in Sentaurus Visual, if refinement boxe…
 - **10: Mesh Generation** _(p.222)_ <a id="10-mesh-generation"></a>
   - Displaying Refinement Boxes
-  - _Keywords:_ details, summary, images, natural_image, symbols, Abstract, geometric, background
 - **Controlling the Mesh During Moving-Boundary Problems** <a id="controlling-the-mesh-during-moving-boundary-problems"></a>
-  - Moving-boundary problems create new regions and dramatically alter the shape of existing ones. Controlling the mesh is important. This section covers some mesh control methods.
-  - _Keywords:_ boundary, Moving, problems, create, regions, dramatically, existing, Controlling
+  - Moving-boundary problems create new regions and dramatically alter the shape of existing ones. Controlling the mesh is important. This sect…
 - **TSUPREM-4 Moving-Boundary Meshing Library** <a id="tsuprem-4-moving-boundary-meshing-library"></a>
-  - The TSUPREM-4 moving-boundary meshing library is available from within Sentaurus Interconnect (hereafter, referred to as the TS4 mesh library). By default, the TS4 mesh library performs all mesh updates in 2D moving-boundary oxidation si...
-  - _Keywords:_ library, moving, boundary, TS4, TSUPREM, meshing, available, within
+  - The TSUPREM-4 moving-boundary meshing library is available from within Sentaurus Interconnect (hereafter, referred to as the TS4 mesh libra…
 - **Control Parameters in TS4 Mesh Library** <a id="control-parameters-in-ts4-mesh-library"></a>
   - The control parameters of the TS4 mesh library are specified with:
-  - _Keywords:_ control, mechanics, Grid, MergeSubAndAdd, addition, moving, boundary, removed
 - **10: Mesh Generation** _(p.223–224)_ <a id="10-mesh-generation"></a>
   - Controlling the Mesh During Moving-Boundary Problems
-  - _Keywords:_ material, triangle, interface, growing, ExactGridSpace, spacing, control, shrinking
 - **Moving Mesh and Mechanics Displacements** _(p.225)_ <a id="moving-mesh-and-mechanics-displacements"></a>
-  - The displacements computed by the mechanics solution are applied to the nodes after checking against the MinimumVelocity criterion defined for each region. Velocity is the computed solution variable and is multiplied by the time step to ...
-  - _Keywords:_ computed, MinimumVelocity, displacements, mechanics, solution, applied, against, Grid
+  - The displacements computed by the mechanics solution are applied to the nodes after checking against the MinimumVelocity criterion defined…
 - **Controlling the Grid Spacing** <a id="controlling-the-grid-spacing"></a>
-  - Grid spacing in the growing region is controlled by perp.add.dist. Its unit is centimeter, and the edges in growing regions are checked to see whether they are nearly perpendicular to the interface.
-  - _Keywords:_ Grid, growing, perpendicular, spacing, region, controlled, Its, centimeter
+  - Grid spacing in the growing region is controlled by perp.add.dist. Its unit is centimeter, and the edges in growing regions are checked to…
 - **Cleaning Up the Grid** _(p.226)_ <a id="cleaning-up-the-grid"></a>
-  - During boundary movement, a region can increase at the expense of a shrinking region. The shrinking regions then have a problem of small edges. Below a certain value, these edges must be removed entirely, and the mesh around them must be...
-  - _Keywords:_ region, shrinking, specified, Remove, Dist, During, boundary, movement
+  - During boundary movement, a region can increase at the expense of a shrinking region. The shrinking regions then have a problem of small ed…
 - **Miscellaneous Tricks** <a id="miscellaneous-tricks"></a>
-  - Since Sentaurus Interconnect moving boundary does not allow the interface to traverse more than one element thickness at a time, speed can be achieved by having elements with longer edge lengths near the interface.
-  - _Keywords:_ interface, normal, Grid, SnMesh, structures, devices, increased, accuracy
+  - Since Sentaurus Interconnect moving boundary does not allow the interface to traverse more than one element thickness at a time, speed can…
 - **Meshing for 3D Moving-Boundary Problems** _(p.227)_ <a id="meshing-for-3d-moving-boundary-problems"></a>
-  - Maintaining a conformal high-quality mesh during the simulation of a 3D moving mesh is very difficult because of the following requirements: moving boundaries, accurate profiles, dose conservation, minimization of the number of mesh poin...
-  - _Keywords:_ quality, moving, points, during, simulation, conservation, maintaining, elements
+  - Maintaining a conformal high-quality mesh during the simulation of a 3D moving mesh is very difficult because of the following requirements…
 - **MovingMesh Algorithm** _(p.227–230)_ <a id="movingmesh-algorithm"></a>
   - NOTE The MovingMesh algorithm is experimental and requires careful parameter settings. Contact TCAD Support for technical assistance.
-  - _Keywords:_ Grid, pdbSet, MovingMesh, DelPSC, surface, Repair, Geometry, Apply
 - **UseLines: Keeping User-Defined Mesh Lines** <a id="uselines-keeping-user-defined-mesh-lines"></a>
-  - During the init command, the line location and spacing specifications given by line commands are expanded into ticks and stored in the PDB and in TDR files. This is performed by default.
-  - _Keywords:_ change, performed, During, location, spacing, specifications, expanded, stored
+  - During the init command, the line location and spacing specifications given by line commands are expanded into ticks and stored in the PDB…
 - **Using line Commands After init Command** _(p.231)_ <a id="using-line-commands-after-init-command"></a>
-  - The expansion of lines from line commands into ticks (in other words, all starting mesh line locations) is performed only at the point that the lines in that direction are needed. For example, x-lines are always expanded in the init comm...
-  - _Keywords:_ dimension, direction, expanded, possible, expand, current, simulation, dimensional
+  - The expansion of lines from line commands into ticks (in other words, all starting mesh line locations) is performed only at the point that…
 - **Dimension Within Current Spatial Dimension** <a id="dimension-within-current-spatial-dimension"></a>
-  - This is encountered if the user-specified x-lines and the current spatial dimension of analyses is 1D. Or, it could happen if you specify x- or y-lines in 2D, or x-, y-, or z- lines in 3D.
-  - _Keywords:_ spacing, dimension, existing, expanded, additional, encountered, specified, current
+  - This is encountered if the user-specified x-lines and the current spatial dimension of analyses is 1D. Or, it could happen if you specify x…
 - **Dimension Greater Than Current Spatial Dimension** <a id="dimension-greater-than-current-spatial-dimension"></a>
-  - This is encountered if you specified y- or z-lines, and the current spatial dimension of analyses is 1D. Or, it could happen if you specify z-lines and the current spatial dimension of analyses is 2D.
-  - _Keywords:_ current, spatial, dimension, analyses, encountered, specified, happen, specify
+  - This is encountered if you specified y- or z-lines, and the current spatial dimension of analyses is 1D. Or, it could happen if you specify…
 - **Using line Commands to Create Virtual Spacing** _(p.232)_ <a id="using-line-commands-to-create-virtual-spacing"></a>
-  - By default, the ticks created by the line command with the spacing argument are hard lines that Sentaurus Mesh enforces whenever possible. Since such lines traverse the entire structure, they can result in unnecessary refinement, especia...
-  - _Keywords:_ spacing, virtual, created, refinement, argument, Sentaurus, Mesh, between
+  - By default, the ticks created by the line command with the spacing argument are hard lines that Sentaurus Mesh enforces whenever possible.…
 - **UseLines and the transform Command** <a id="uselines-and-the-transform-command"></a>
   - The ticks must be handled in a special manner with the transform command (see transform on page 682).
-  - _Keywords:_ transform, handled, special, manner
 - **Reflection** <a id="reflection"></a>
   - Using transform reflect, in the reflected region, the ticks are created after applying lateral inversion along the appropriate plane.
-  - _Keywords:_ transform, reflect, reflected, region, created, applying, lateral, inversion
 - **Stretch** _(p.233)_ <a id="stretch"></a>
-  - On applying transform stretch at a given coordinate in a given direction, the existing ticks in the stretched area are translated by the amount of the stretch. You must insert lines in the stretched area appropriately.
-  - _Keywords:_ stretch, stretched, applying, transform, coordinate, direction, existing, translated
+  - On applying transform stretch at a given coordinate in a given direction, the existing ticks in the stretched area are translated by the am…
 - **Rotation** _(p.233)_ <a id="rotation"></a>
   - When applying transform rotate, the ticks also are rotated and properly transferred between x-ticks, y-ticks, and z-ticks.
-  - _Keywords:_ applying, transform, rotate, rotated, properly, transferred, between
 - **Translation** _(p.233)_ <a id="translation"></a>
   - The transform translate command shifts the ticks by the specified amount.
-  - _Keywords:_ transform, translate, shifts, specified, amount
 - **Cut** <a id="cut"></a>
   - Using transform cut, the lines in the part of the structure that is cut are deleted.
-  - _Keywords:_ transform, structure, deleted
 - **Example: Testing line Commands** <a id="example-testing-line-commands"></a>
   - Use the following example to test line commands:
-  - _Keywords:_ spacing, thickness, deposit, remesh, Use, region, silicon, DelayFullD
 - **Example: Showing Clearing Lines for a New Structure** _(p.234)_ <a id="example-showing-clearing-lines-for-a-new-structure"></a>
   - Use the following example to show clearing lines and to prepare for another structure definition within the same command file:
-  - _Keywords:_ region, silicon, FullD, Use, clearing, prepare, another, structure
 - **Data Interpolation** _(p.235)_ <a id="data-interpolation"></a>
-  - Sentaurus Interconnect stores a copy of the mesh with all its data before performing any geometry-changing operation. This is the reference mesh used to interpolate data onto the new mesh. In three dimensions, a mesh is generated only wh...
-  - _Keywords:_ material, interpolation, interpolated, interface, materials, elements, geometry, necessary
+  - Sentaurus Interconnect stores a copy of the mesh with all its data before performing any geometry-changing operation. This is the reference…
 - **Data Interpolation Near Boundaries** _(p.236)_ <a id="data-interpolation-near-boundaries"></a>
   - Region boundaries in a mesh can move for various reasons, including:
-  - _Keywords:_ boundary, points, distance, interpolated, transferred, Interpolation, operations, tolerance
 - **Troubleshooting** _(p.236–238)_ <a id="troubleshooting"></a>
-  - Sometimes, the mesh generation step fails and it is unclear what the problem could be. The following are recommendations of where to look when problems arise during meshing:
-  - _Keywords:_ problem, structure, geometry, problems, Sentaurus, around, generator, Sometimes
+  - Sometimes, the mesh generation step fails and it is unclear what the problem could be. The following are recommendations of where to look w…
 - **Checking Mesh Quality** _(p.239–240)_ <a id="checking-mesh-quality"></a>
-  - At the end of each mesh generation step, Sentaurus Interconnect checks the quality of the produced mesh and prints a report if the information level is 1 or higher.
-  - _Keywords:_ pdbSet, Grid, SnMesh, double, element, Minimum, elements, generation
+  - At the end of each mesh generation step, Sentaurus Interconnect checks the quality of the produced mesh and prints a report if the informat…
 - **Overview of Etching, Deposition, and Geometric Operations** _(p.239–240)_ <a id="overview-of-etching-deposition-and-geometric-operations"></a>
-  - During device fabrication, several etching and deposition steps are necessary. Such steps can be modeled in Sentaurus Interconnect by simple geometric operations or simple mathematical formulations in which no physical processing is simu...
-  - _Keywords:_ Sentaurus, etching, deposition, geometric, Topography, Interconnect, operations, Interface
+  - During device fabrication, several etching and deposition steps are necessary. Such steps can be modeled in Sentaurus Interconnect by simpl…
 - **Etching** _(p.241–242)_ <a id="etching"></a>
   - The main specifications required for all etching steps are:
-  - _Keywords:_ etching, Etching, rowspan, isotropic, instead, Etches, anisotropic, direction
 - **11: Structure Generation** _(p.242)_ <a id="11-structure-generation"></a>
 - **Etching** _(p.242–243)_ <a id="etching"></a>
-  - NOTE To remove materials exposed to the top gas, use the strip command not the etch command. The strip command is used specifically for this purpose. It is more straightforward, less prone to user error, and more robust in delivering the...
-  - _Keywords:_ etching, method, specified, material, different, methods, analytic, general
+  - NOTE To remove materials exposed to the top gas, use the strip command not the etch command. The strip command is used specifically for thi…
 - **Isotropic Etching** _(p.244)_ <a id="isotropic-etching"></a>
   - Isotropic etching removes material at the same rate in all directions.
-  - _Keywords:_ Segment, isotropic, method, etching, material, either, general, resolution
 - **11: Structure Generation Etching** _(p.244)_ <a id="11-structure-generation-etching"></a>
   - An example of a multimaterial isotropic etch is (see Figure 42):
-  - _Keywords:_ isotropic, details, summary, multimaterial, material, Silicon, Oxide, Poly
 - **Anisotropic and Directional Etching** _(p.245)_ <a id="anisotropic-and-directional-etching"></a>
-  - Anisotropic etching is designed to work primarily with masks or masking layers. Anisotropic etching removes material in a direction that is purely vertically downwards (see Figure 43).
-  - _Keywords:_ etching, Anisotropic, details, summary, material, structure, images, natural_image
+  - Anisotropic etching is designed to work primarily with masks or masking layers. Anisotropic etching removes material in a direction that is…
 - **NOTE With regard to anisotropic etching:** _(p.246)_ <a id="note-with-regard-to-anisotropic-etching"></a>
-  - Anisotropic operations are sensitive to numeric noise at vertical or nearly vertical walls. If the etch command is supposed to remove the entire layer, care must be taken to overetch by a small amount to prevent thin regions remaining du...
-  - _Keywords:_ etching, etched, material, anisotropic, underneath, materials, numeric, vertical
+  - Anisotropic operations are sensitive to numeric noise at vertical or nearly vertical walls. If the etch command is supposed to remove the e…
 - **11: Structure Generation Etching** _(p.246–248)_ <a id="11-structure-generation-etching"></a>
-  - ![](images/sinterconnect_ug_part02_2ac51249b37d04a4aaa25acb98d835e11a3b3c92bcb0b956ae3c601a9f11ea0a.jpg)
-  - _Keywords:_ details, summary, etching, images, direction, natural_image, symbols, material
+  - <details> <summary>natural_image</summary>
 - **Polygonal Etching and CMP** _(p.248–249)_ <a id="polygonal-etching-and-cmp"></a>
-  - Polygonal etching provides a way of modifying a region without having to define etching rates or the direction of the etch. The parts of the region inside the polygon that is etched are replaced by gas.
-  - _Keywords:_ etching, polygon, details, summary, material, Polygonal, region, CMP
+  - Polygonal etching provides a way of modifying a region without having to define etching rates or the direction of the etch. The parts of th…
 - **Fourier Etching** _(p.249–250)_ <a id="fourier-etching"></a>
-  - In Fourier etching, the etching rate is a function of the angle between the incident etching beam and the normal vector of the surface being etched. This allows for reasonably directional etching with control of the slope of sidewalls. T...
-  - _Keywords:_ etching, direction, incidence, surface, factor, Fourier, strength, between
+  - In Fourier etching, the etching rate is a function of the angle between the incident etching beam and the normal vector of the surface bein…
 - **11: Structure Generation** _(p.250)_ <a id="11-structure-generation"></a>
 - **Etching** _(p.250–251)_ <a id="etching"></a>
   - The sources argument of the etch command lists the names of etching beams to be used in an etching operation.
-  - _Keywords:_ etching, details, summary, Fourier, Segment, sources, coeffs, images
 - **The shadowing and shadowing.nonisotropic Options** _(p.252)_ <a id="the-shadowing-and-shadowing-nonisotropic-options"></a>
   - NOTE Shadowing is not implemented in 3D Fourier etching.
-  - _Keywords:_ Fourier, shadowing, etching, shadowed, nonisotropic, coefficient, prevents, Shadowing
 - **Crystallographic Etching** _(p.252)_ <a id="crystallographic-etching"></a>
-  - The argument crystal.rate defines etching rates for different crystallographic orientations to be used in crystallographic etching (see Defining the Crystal Orientation on page 35).
-  - _Keywords:_ etching, crystal, crystallographic, etch_rate, Crystallographic, indices, corresponding, component
+  - The argument crystal.rate defines etching rates for different crystallographic orientations to be used in crystallographic etching (see Def…
 - **Trapezoidal Etching** _(p.253)_ <a id="trapezoidal-etching"></a>
-  - Trapezoidal etching provides a simple but flexible approximation to a number of real etching processes. The location of the etch is determined by masking layers (that is, layers of nonetchable material that, if nonexistent, can be easily...
-  - _Keywords:_ etching, thickness, specifies, Trapezoidal, processes, location, masking, layers
+  - Trapezoidal etching provides a simple but flexible approximation to a number of real etching processes. The location of the etch is determi…
 - **Two-Dimensional Trapezoidal Etching** _(p.254)_ <a id="two-dimensional-trapezoidal-etching"></a>
   - Trapezoidal etching is performed as follows:
-  - _Keywords:_ etching, Step, exposed, undercut, distance, Perform, vertical, thickness
 - **11: Structure Generation Etching** _(p.254)_ <a id="11-structure-generation-etching"></a>
-  - This is the case whenever two or fewer of these arguments are specified with the Trapezoidal.Etch.Undercut parameter switched on (default is 0):
-  - _Keywords:_ Trapezoidal, Etch, Undercut, whenever, arguments, specified, switched, pdbSet
+  - This is the case whenever two or fewer of these arguments are specified with the Trapezoidal.Etch.Undercut parameter switched on (default i…
 - **For example:** _(p.255)_ <a id="for-example"></a>
   - etch material= silicon type= trapezoidal thickness= 0.25 undercut= 0.1
-  - _Keywords:_ Step, bottom, thickness, undercut, details, summary, etching, region
 - **Three-Dimensional Trapezoidal Etching** _(p.255–256)_ <a id="three-dimensional-trapezoidal-etching"></a>
   - There are two possible cases for 3D trapezoidal etching:
-  - _Keywords:_ specified, thickness, optional, bottom, etching, Case, vertical, possible
 - **11: Structure Generation** _(p.256)_ <a id="11-structure-generation"></a>
 - **Etching** _(p.256)_ <a id="etching"></a>
   - NOTE For 3D trapezoidal etching to succeed, the initial etching surface must be flat.
-  - _Keywords:_ etching, details, summary, thickness, trapezoidal, images, natural_image, diagram
 - **Trapezoidal Etching Using force.full.levelset Option** _(p.257)_ <a id="trapezoidal-etching-using-force-full-levelset-option"></a>
   - When the force.full.levelset option is specified for trapezoidal etching:
-  - _Keywords:_ levelset, etching, controlled, argument, ambient, undercut, specified, thickness
 - **Piecewise Linear Etching** _(p.257–258)_ <a id="piecewise-linear-etching"></a>
-  - In piecewise linear etching, the etching rate is a user-defined piecewise linear function of the angle between the incident etching beam and the normal vector of the surface being etched. You define the points of angle versus rate on a m...
-  - _Keywords:_ etching, linear, piecewise, angles, define, anglen, defined, between
+  - In piecewise linear etching, the etching rate is a user-defined piecewise linear function of the angle between the incident etching beam an…
 - **Etching Beams** _(p.258)_ <a id="etching-beams"></a>
-  - The beam command defines the direction and the relative strength of etching beams to be used with piecewise linear etching (see Fourier Etching on page 227).
-  - _Keywords:_ etching, defines, direction, relative, strength, piecewise, linear, Fourier
+  - The beam command defines the direction and the relative strength of etching beams to be used with piecewise linear etching (see Fourier Etc…
 - **Etching Tips** <a id="etching-tips"></a>
 - **Some tips for etching are:** _(p.259)_ <a id="some-tips-for-etching-are"></a>
-  - ■ If the total etch thickness is exactly the same thickness as the layer to be etched, numeric round-off errors can cause thin pieces of the material to be retained. You should etch a little more (for example, 0.1%) than the thickness of...
-  - _Keywords:_ thickness, simulation, memory, increased, boundary, movement, exactly, etched
+  - ■ If the total etch thickness is exactly the same thickness as the layer to be etched, numeric round-off errors can cause thin pieces of th…
 - **Deposition** _(p.259–260)_ <a id="deposition"></a>
   - Three main specifications are required for all deposition steps:
-  - _Keywords:_ deposition, Deposition, Performs, specified, instead, anisotropic, material, argument
 - **11: Structure Generation** _(p.260)_ <a id="11-structure-generation"></a>
 - **Deposition** _(p.260–262)_ <a id="deposition"></a>
-  - Each deposition type requires the setting of parameters particular to that type. Many options are available and some options are available only with certain deposition types. Table 23 summarizes the syntax options for each deposition type.
-  - _Keywords:_ deposition, material, method, deposited, deposit, rowspan, thickness, specified
+  - Each deposition type requires the setting of parameters particular to that type. Many options are available and some options are available…
 - **Isotropic Deposition** _(p.262)_ <a id="isotropic-deposition"></a>
   - For simple, conforming, isotropic deposition, the boundary is offset an equal distance in all directions. For example (see Figure 62):
-  - _Keywords:_ Segment, isotropic, deposition, details, summary, simple, conforming, boundary
 - **Polygonal Deposition and Fill** _(p.263)_ <a id="polygonal-deposition-and-fill"></a>
-  - Polygonal deposition allows you to deposit polygonal shapes. The corners must be specified as pairs of xy coordinates. Existing non-gas regions will not be overwritten.
-  - _Keywords:_ deposition, details, summary, Polygonal, deposit, specified, material, polygonal
+  - Polygonal deposition allows you to deposit polygonal shapes. The corners must be specified as pairs of xy coordinates. Existing non-gas reg…
 - **Crystallographic Deposition** <a id="crystallographic-deposition"></a>
-  - Crystallographic deposition uses the full level-set method to grow single materials whose rate of growth is determined by the crystallographic directions. The crystal is assumed to be cubic regardless of the material being deposited. Dep...
-  - _Keywords:_ directions, crystal, Layer, Crystallographic, deposition, material, details, summary
+  - Crystallographic deposition uses the full level-set method to grow single materials whose rate of growth is determined by the crystallograp…
 - **Fourier Deposition** _(p.264)_ <a id="fourier-deposition"></a>
-  - Fourier deposition uses the full level-set method to grow single materials whose rate of growth is defined by a function of the angle between the surface normal of the material boundary and the deposition beams. The definition and calcul...
-  - _Keywords:_ Fourier, deposition, etching, coeffs, nitride, deposit, direction, factor
+  - Fourier deposition uses the full level-set method to grow single materials whose rate of growth is defined by a function of the angle betwe…
 - **Trapezoidal Deposition** _(p.265)_ <a id="trapezoidal-deposition"></a>
-  - Trapezoidal deposition creates a shape with sidewalls of a defined height and angle. Height is defined by thickness. Angle is defined by angle, measured in degrees from the horizontal, where:
-  - _Keywords:_ deposition, Trapezoidal, defined, height, thickness, deposit, PolySilicon, outward
+  - Trapezoidal deposition creates a shape with sidewalls of a defined height and angle. Height is defined by thickness. Angle is defined by an…
 - **Selective Deposition** _(p.266)_ <a id="selective-deposition"></a>
   - Selective deposition is optionally available and can be used with isotropic, anisotropic, or Fourier deposition.
-  - _Keywords:_ materials, deposition, selective, Selective, optionally, available, isotropic, anisotropic
 - **Fields in Deposited Layers** _(p.266)_ <a id="fields-in-deposited-layers"></a>
-  - For isotropic deposition, piecewise linear fields can be specified in the deposited layer. For crystallographic deposition, piecewise linear fields with time also can be specified. A doping command must be used for each field; each dopin...
-  - _Keywords:_ doping, fields, deposit, isotropic, deposition, linear, deposited, material
+  - For isotropic deposition, piecewise linear fields can be specified in the deposited layer. For crystallographic deposition, piecewise linea…
 - **Handling Stress in Etching and Deposition** _(p.267)_ <a id="handling-stress-in-etching-and-deposition"></a>
-  - In addition to optionally including an automatic ramp-up or ramp-down before etching and deposition, by default, Sentaurus Interconnect automatically rebalances the stresses after etching and deposition. This updates the stress fields at...
-  - _Keywords:_ stress, etching, deposition, temperature, automatically, history, rebalancing, addition
+  - In addition to optionally including an automatic ramp-up or ramp-down before etching and deposition, by default, Sentaurus Interconnect aut…
 - **Suppressing Mesh Generation in 3D Simulations** _(p.268)_ <a id="suppressing-mesh-generation-in-3d-simulations"></a>
-  - During typical operations in three dimensions, a new mesh is generated only when necessary to perform a task that requires a mesh. Operations such as etching and deposition are performed on the boundary representation and do not necessar...
-  - _Keywords:_ deposition, etching, generated, mechanics, stress, rebalance, suppress, requires
+  - During typical operations in three dimensions, a new mesh is generated only when necessary to perform a task that requires a mesh. Operatio…
 - **Shape Library** _(p.268)_ <a id="shape-library"></a>
-  - The shape library provides commands for generating special-shaped polyhedra in Sentaurus Interconnect. Sentaurus Structure Editor creates these shapes. The shape library is an interface to use those shapes in Sentaurus Interconnect.
-  - _Keywords:_ creates, shaped, Sentaurus, polyhedron, shapes, library, polyhedra, Interconnect
+  - The shape library provides commands for generating special-shaped polyhedra in Sentaurus Interconnect. Sentaurus Structure Editor creates t…
 - **PolyHedronSTI** _(p.269)_ <a id="polyhedronsti"></a>
   - The PolyHedronSTI command creates an STI-shaped polyhedron.
-  - _Keywords:_ PolyHedronSTI, creates, STI, shaped, polyhedron, syntax, direction, Depth
 - **where:** _(p.269–270)_ <a id="where"></a>
-  - name is the name of the polyhedron. direction can be left, right, front, or back, which sets the facing direction of the STI polyhedron. material is optional and specifies the material of the inserted shape in SDE mode. In MGOALS mode, t...
-  - _Keywords:_ polyhedron, material, direction, STI, inserted, details, summary, facing
+  - name is the name of the polyhedron. direction can be left, right, front, or back, which sets the facing direction of the STI polyhedron. ma…
 - **11: Structure Generation** _(p.270)_ <a id="11-structure-generation"></a>
 - **Shape Library** _(p.270–271)_ <a id="shape-library"></a>
-  - Figure 69 shows some generated STI shapes in different directions. ![](images/sinterconnect_ug_part02_6d75f4e64b157e9ae879ff557127659338e4bfc79dc5d017ba8fa58b746d3c6f.jpg)
-  - _Keywords:_ STI, different, details, summary, shapes, directions, images, shaped
+  - <details> <summary>text_image</summary>
 - **PolyHedronSTIaccc** _(p.271)_ <a id="polyhedronstiaccc"></a>
   - The PolyHedronSTIaccc creates an STI concave active corner-shaped polyhedron.
-  - _Keywords:_ STI, concave, corner, shaped, different, PolyHedronSTIaccc, polyhedron, direction
 - **PolyHedronSTIaccv** _(p.272)_ <a id="polyhedronstiaccv"></a>
   - The PolyHedronSTIaccv command creates an STI convex active corner-shaped polyhedron.
-  - _Keywords:_ PolyHedronSTIaccv, polyhedron, direction, creates, STI, convex, active, corner
 - **11: Structure Generation** _(p.272)_ <a id="11-structure-generation"></a>
 - **Shape Library** _(p.272)_ <a id="shape-library"></a>
   - Rac is the radius of the convex corner. Figure 68 on page 247 describes the other parameters.
-  - _Keywords:_ details, summary, STI, convex, corner, polyhedron, images, generated
 - **PolyHedronCylinder** _(p.273)_ <a id="polyhedroncylinder"></a>
   - The PolyHedronCylinder command creates a cylinder-shaped polyhedron.
-  - _Keywords:_ cylinder, Rotate, polyhedron, PolyHedronCylinder, shaped, specified, rotated, rotation
 - **PolyHedronEllipticCylinder** _(p.273–274)_ <a id="polyhedronellipticcylinder"></a>
   - The PolyHedronEllipticCylinder command creates an elliptic cylinder-shaped polyhedron.
-  - _Keywords:_ cylinder, Rotate, ellipse, PolyHedronEllipticCylinder, polyhedron, Ratio, coordinates, specified
 - **11: Structure Generation** _(p.274)_ <a id="11-structure-generation"></a>
 - **Shape Library** _(p.274)_ <a id="shape-library"></a>
   - If Rotate.Z is specified, the cylinder is rotated along the z-axis. The right-hand rule determines the direction of the rotation.
-  - _Keywords:_ cylinder, rotation, details, summary, Rotate, specified, rotated, determines
 - **PolygonSTI** <a id="polygonsti"></a>
-  - The PolygonSTI command creates a 2D STI-shaped polygon. The syntax is the same as for PolyHedronSTI, except it does not have the Zmin and Zmax parameters (see PolyHedronSTI on page 246).
-  - _Keywords:_ PolygonSTI, syntax, PolyHedronSTI, creates, STI, shaped, polygon, except
+  - The PolygonSTI command creates a 2D STI-shaped polygon. The syntax is the same as for PolyHedronSTI, except it does not have the Zmin and Z…
 - **where:** _(p.275)_ <a id="where"></a>
-  - name is the name of the polygon. ■ direction can be left or right only. This sets the facing direction of the STI polygon. material is optional and specifies the material of the inserted shape in SDE mode. In MGOALS mode, the material of...
-  - _Keywords:_ material, polygon, direction, inserted, facing, STI, optional, specifies
+  - name is the name of the polygon. ■ direction can be left or right only. This sets the facing direction of the STI polygon. material is opti…
 - **PolygonWaferMask** _(p.275)_ <a id="polygonwafermask"></a>
   - The PolygonWaferMask command creates a wafer mask polygon.
-  - _Keywords:_ polygon, PolygonWaferMask, details, summary, creates, syntax, Other, location
 - **PolyHedronEpiDiamond** _(p.276)_ <a id="polyhedronepidiamond"></a>
   - The PolyHedronEpiDiamond command creates an epitaxial diamond-shaped polyhedron.
-  - _Keywords:_ polyhedron, PolyHedronEpiDiamond, epitaxial, diamond, shaped, details, summary, creates
 - **Tailored Structure Generation** _(p.276)_ <a id="tailored-structure-generation"></a>
   - This section describes how to generate a pillar structure and a multiple-pillar structure with a hexahedral mesh.
-  - _Keywords:_ pillar, structure, describes, generate, multiple, hexahedral
 - **Pillar Structure With Hexahedral Mesh** _(p.276–277)_ <a id="pillar-structure-with-hexahedral-mesh"></a>
-  - Various pillar structures with a hexahedral mesh can be generated quickly to be used for mechanical analysis. Figure 78 shows the geometry of a general pillar structure. One or more concentric or eccentric pillars are embedded in a surro...
-  - _Keywords:_ pillar, structure, hexahedral, arguments, generated, geometry, general, pillars
+  - Various pillar structures with a hexahedral mesh can be generated quickly to be used for mechanical analysis. Figure 78 shows the geometry…
 - **Examples of Generating Different Pillar Structures** _(p.278)_ <a id="examples-of-generating-different-pillar-structures"></a>
-  - The following example generates an eccentric tapered pillar structure. The two interfaces are different and form a tapered pillar structure. There are three eccentric circles on each interface, which result in three pillar regions. The m...
-  - _Keywords:_ pillar, eccentric, tapered, structure, materials, PolySilicon, Aluminum, Copper
+  - The following example generates an eccentric tapered pillar structure. The two interfaces are different and form a tapered pillar structure…
 - **11: Structure Generation** _(p.278)_ <a id="11-structure-generation"></a>
   - Tailored Structure Generation
-  - _Keywords:_ pillar, details, summary, structure, images, natural_image, wireframe, object
 - **Multiple-Pillar Structure With Hexahedral Mesh** _(p.279–280)_ <a id="multiple-pillar-structure-with-hexahedral-mesh"></a>
-  - Structures that are composed of multiple-pillar cells can also be generated. All cells can be identical or can have process variability that allows you to vary the center locations and radii of pillars according to certain variation types.
-  - _Keywords:_ details, summary, variation, Bound, pillar, multiple, identical, images
+  - Structures that are composed of multiple-pillar cells can also be generated. All cells can be identical or can have process variability tha…
 - **11: Structure Generation** _(p.280–281)_ <a id="11-structure-generation"></a>
   - Tailored Structure Generation
-  - _Keywords:_ variation, multiple, pillar, Gaussian, structure, interface0, Uniform, different
 - **Masks and Lithographic Patterning** _(p.281–282)_ <a id="masks-and-lithographic-patterning"></a>
-  - The photo command can be used to mimic lithographic patterning. The photo command takes a mask and effectively performs a resist spin-on step followed by an exposure bake and etch. The resist layer produced has vertical walls and is a ne...
-  - _Keywords:_ specified, defined, deposition, negative, deposit, directly, argument, layout
+  - The photo command can be used to mimic lithographic patterning. The photo command takes a mask and effectively performs a resist spin-on st…
 - **11: Structure Generation** _(p.282)_ <a id="11-structure-generation"></a>
   - Masks and Lithographic Patterning
-  - _Keywords:_ coordinates, defined, segments, Masks, Lithographic, Patterning, Pairs, subsequent
 - **where:** _(p.283–284)_ <a id="where"></a>
-  - left and right define the minimum and maximum extensions of the mask along the y-axis, respectively. front and back define the minimum and maximum extensions of the mask along the z-axis, respectively.
-  - _Keywords:_ defined, layout, Sentaurus, polygon, coordinate, Interconnect, specified, simulation
+  - left and right define the minimum and maximum extensions of the mask along the y-axis, respectively. front and back define the minimum and…
 - **11: Structure Generation** _(p.284)_ <a id="11-structure-generation"></a>
   - Masks and Lithographic Patterning
-  - _Keywords:_ extensions, defined, specified, direction, Sentaurus, Interconnect, simulation, Cutline2D
 - **Photoresist Masks** <a id="photoresist-masks"></a>
-  - To define photoresist layers, use the photo command and specify a mask. Sentaurus Interconnect defines photoresist layers by specifying the minimum thickness of the resist and selecting the name of a mask that has been defined by the mas...
-  - _Keywords:_ photoresist, layers, resist, specified, define, specify, Sentaurus, Interconnect
+  - To define photoresist layers, use the photo command and specify a mask. Sentaurus Interconnect defines photoresist layers by specifying the…
 - **Boolean Masks** _(p.286)_ <a id="boolean-masks"></a>
-  - Two masks can be combined using the bool argument of the mask command. Table 24 on page 263 presents the Boolean operations that can be specified in the bool argument as well as examples. The bool argument only accepts simple expressions.
-  - _Keywords:_ specified, operation, Produces, respect, argument, negative, direction, coordinate
+  - Two masks can be combined using the bool argument of the mask command. Table 24 on page 263 presents the Boolean operations that can be spe…
 - **Line Edge Roughness Effect** _(p.286–288)_ <a id="line-edge-roughness-effect"></a>
-  - Line edge roughness (LER) is the deviation of feature edges from ideal straight lines due to statistical fluctuations in photolithographic processes. Sentaurus Interconnect uses the line\_edge\_roughness command to apply randomized devia...
-  - _Keywords:_ LER, random, deviation, length, _roughness, normal, points, correlation
+  - Line edge roughness (LER) is the deviation of feature edges from ideal straight lines due to statistical fluctuations in photolithographic…
 - **11: Structure Generation** _(p.288)_ <a id="11-structure-generation"></a>
   - Masks and Lithographic Patterning
-  - _Keywords:_ LER, applied, length, Masks, Lithographic, Patterning, exceeded, Sentaurus
 - **Mirror Boundary Conditions** _(p.289)_ <a id="mirror-boundary-conditions"></a>
-  - The addition of LER is inherently 3D and nonsymmetric; therefore, it is not easily compatible as a simulation problem with the assumption of symmetry reduction. Adding LER to a structure reduced by symmetry might produce rough geometric ...
-  - _Keywords:_ LER, smooth, points, boundary, structure, symmetry, boundaries, reduced
+  - The addition of LER is inherently 3D and nonsymmetric; therefore, it is not easily compatible as a simulation problem with the assumption o…
 - **Geometric Transformations** _(p.289)_ <a id="geometric-transformations"></a>
   - Transformations supported in Sentaurus Interconnect are reflection, stretch, cut, rotation, translation, and flip:
-  - _Keywords:_ structure, transform, algorithm, arguments, reflection, merged, pieces, cutplane
 - **Refinement Handling During Transformation** _(p.290)_ <a id="refinement-handling-during-transformation"></a>
   - All transformations apply to the existing refinements created with either the refinebox command or the line command by default.
-  - _Keywords:_ transformations, existing, refinements, created, either, refinebox, disable, feature
 - **Contact Handling During Transformation** _(p.291)_ <a id="contact-handling-during-transformation"></a>
-  - The only special contact handling occurs during transform reflect. In this case, contacts that straddle or touch the reflecting plane are enlarged to the reflected area (only one contact remains). The remainder of the contacts are duplic...
-  - _Keywords:_ contact, original, reflection, contacts, transform, reflect, during, reflected
+  - The only special contact handling occurs during transform reflect. In this case, contacts that straddle or touch the reflecting plane are e…
 - **Reflection** _(p.291)_ <a id="reflection"></a>
-  - The transform reflect command reflects the structure about the left, right, front, or back boundary (at minimum y, maximum y, maximum z, or minimum z). If any remeshing or other mesh modification operations are performed after a transfor...
-  - _Keywords:_ transform, reflect, structure, minimum, maximum, original, reflects, boundary
+  - The transform reflect command reflects the structure about the left, right, front, or back boundary (at minimum y, maximum y, maximum z, or…
 - **Examples:** _(p.291)_ <a id="examples"></a>
   - ```txt transform reflect left transform reflect ymin transform reflect front transform reflect left !keep.original ```
-  - _Keywords:_ transform, reflect, original, remesh, disabled, because, disrupt, symmetry
 - **Refinement Handling During Reflection** <a id="refinement-handling-during-reflection"></a>
-  - In the case of !keep.original, lines coming from both the line command and refinement boxes are reflected along with the structure. However, when the original structure is kept, some special handling is required.
-  - _Keywords:_ refinement, original, reflected, structure, created, coming, However, special
+  - In the case of !keep.original, lines coming from both the line command and refinement boxes are reflected along with the structure. However…
 - **Stretch** _(p.292)_ <a id="stretch"></a>
-  - The transform stretch command stretches the structure in the left, right, down, up, front, or back directions at a given coordinate location by offsetting one side of the structure by the specified length. If there is no vertical line of...
-  - _Keywords:_ stretch, length, transform, structure, location, stretches, specified, directions
+  - The transform stretch command stretches the structure in the left, right, down, up, front, or back directions at a given coordinate locatio…
 - **Refinement Handling During Stretch** <a id="refinement-handling-during-stretch"></a>
-  - During the stretch operation, mesh lines that were created with the line command in the part of the structure being stretched are translated with the structure. No new lines are introduced into the expanded region. The refinement boxes t...
-  - _Keywords:_ stretch, structure, During, operation, created, stretched, translated, introduced
+  - During the stretch operation, mesh lines that were created with the line command in the part of the structure being stretched are translate…
 - **Cut** _(p.293)_ <a id="cut"></a>
-  - The transform cut command cuts at or near the requested coordinate location. The location defines a line in two dimensions, or a plane in three dimensions, that divides the structure into the left and right, or front and back, or up and ...
-  - _Keywords:_ specified, dimensions, element, transform, operation, location, MGOALS, elements
+  - The transform cut command cuts at or near the requested coordinate location. The location defines a line in two dimensions, or a plane in t…
 - **Refinement Handling During Cut** <a id="refinement-handling-during-cut"></a>
-  - During the cut operation, lines created with the line command that are outside of the simulation domain after the cut are removed. Similarly, any refinement box that lies completely outside the simulation domain after the cut is removed ...
-  - _Keywords:_ outside, simulation, domain, removed, During, operation, created, Similarly
+  - During the cut operation, lines created with the line command that are outside of the simulation domain after the cut are removed. Similarl…
 - **Flip and Backside Processing** _(p.294)_ <a id="flip-and-backside-processing"></a>
-  - The transform flip command provides a convenient way to perform process steps on the back of a wafer. During the transform flip command, the structure is rotated about180° a line by default in the center of the structure parallel to the ...
-  - _Keywords:_ structure, material, Gas, BackMat, region, converted, Sentaurus, Interconnect
+  - The transform flip command provides a convenient way to perform process steps on the back of a wafer. During the transform flip command, th…
 - **Refinement Handling During Flip** _(p.294)_ <a id="refinement-handling-during-flip"></a>
-  - Refinements during a flip operation are handled in the same way as refinements during reflection in the case of !keep.original. Lines coming from both the line command and refinement boxes are reflected along with the structure.
-  - _Keywords:_ during, Refinements, operation, handled, refinements, reflection, original, Lines
+  - Refinements during a flip operation are handled in the same way as refinements during reflection in the case of !keep.original. Lines comin…
 - **Rotation** _(p.294)_ <a id="rotation"></a>
-  - The transform rotate command rotates the structure at the specified angle in the specified axis using (0,0,0) as the rotation center. It accepts two arguments angle and axis to specify the rotation angle and the rotation axis, respective...
-  - _Keywords:_ rotation, structure, specified, transform, rotate, degrees, simulations, produce
+  - The transform rotate command rotates the structure at the specified angle in the specified axis using (0,0,0) as the rotation center. It ac…
 - **Refinement Handling During Rotation** <a id="refinement-handling-during-rotation"></a>
   - During a rotation operation, lines coming from both the line command and refinement boxes are rotated along with the structure.
-  - _Keywords:_ During, rotation, operation, coming, refinement, rotated, structure
 - **Translation** _(p.295)_ <a id="translation"></a>
-  - The transform translate command does not change the aspect of the structure. It only adds the coordinate specified in the translate argument to all nodes, that is, it displaces the structure or shifts it in space. It is equivalent to cha...
-  - _Keywords:_ structure, translate, specified, transform, change, aspect, coordinate, argument
+  - The transform translate command does not change the aspect of the structure. It only adds the coordinate specified in the translate argumen…
 - **MGOALS** _(p.295)_ <a id="mgoals"></a>
   - By default, etching and deposition operations are performed using MGOALS in all dimensions. MGOALS operates as follows:
-  - _Keywords:_ dimensions, structure, operations, performed, MGOALS, remeshed, remeshing, retained
 - **MGOALS Boundary-Moving Algorithms** _(p.296)_ <a id="mgoals-boundary-moving-algorithms"></a>
-  - MGOALS uses either the analytic method or the fast level-set method to perform boundarymodifying operations. In general, the analytic method is fast, less memory intensive, and more accurate, and uses a simplified string algorithm. Howev...
-  - _Keywords:_ method, analytic, etching, MGOALS, handle, boundary, interface, either
+  - MGOALS uses either the analytic method or the fast level-set method to perform boundarymodifying operations. In general, the analytic metho…
 - **11: Structure Generation MGOALS** _(p.296)_ <a id="11-structure-generation-mgoals"></a>
-  - initial-value formulation of the same equation. The fast-marching scheme computes the new boundary location for all times in a single step. The nature of the equation is such that it captures and handles collisions. However, the equation...
-  - _Keywords:_ boundary, performed, MGOALS, simulation, equation, etching, Cartesian, extracted
+  - initial-value formulation of the same equation. The fast-marching scheme computes the new boundary location for all times in a single step.…
 - **MGOALS Boundary-Moving Parameters** <a id="mgoals-boundary-moving-parameters"></a>
-  - Parameters to specify the resolution of the Cartesian mesh and the interface fidelity are defined in an mgoals command before the etch or deposit command. These parameters are applied to the entire structure. The interface quality and re...
-  - _Keywords:_ resolution, interface, Cartesian, initial, extended, specify, fidelity, defined
+  - Parameters to specify the resolution of the Cartesian mesh and the interface fidelity are defined in an mgoals command before the etch or d…
 - **The accuracy Argument** _(p.297)_ <a id="the-accuracy-argument"></a>
-  - The accuracy argument controls the noise and features at an interface. A small value of accuracy allows only small deviations between the boundary extracted from the level-set method and the piecewise linear segments incorporated into th...
-  - _Keywords:_ accuracy, argument, features, boundary, segments, simulation, extracted, piecewise
+  - The accuracy argument controls the noise and features at an interface. A small value of accuracy allows only small deviations between the b…
 - **The resolution Argument** <a id="the-resolution-argument"></a>
-  - The value of the resolution argument controls the element size in the Cartesian mesh used to perform level set–based etching and deposition. Since the thickness of the layer to be deposited or etched is user specified, the grid size is d...
-  - _Keywords:_ resolution, deposition, thickness, etching, specified, argument, element, deposited
+  - The value of the resolution argument controls the element size in the Cartesian mesh used to perform level set–based etching and deposition…
 - **General Time-Stepping Level-Set Parameters** _(p.298)_ <a id="general-time-stepping-level-set-parameters"></a>
   - The general time-stepping level-set method has some additional parameters to control and balance accuracy, simulation time, and memory use.
-  - _Keywords:_ method, stepping, direction, control, simulation, memory, etching, levelset
 - **Level-Set Cartesian Mesh and Resolution: Internal Calculations** _(p.299)_ <a id="level-set-cartesian-mesh-and-resolution-internal-calculation"></a>
-  - The Cartesian mesh extent or bounding box, the resolution and full.resolution criteria, and the grid spacing criteria dx, dy, and dz interplay in the following ways.
-  - _Keywords:_ etching, Cartesian, resolution, spacing, bounding, distance, maximum, estimated
+  - The Cartesian mesh extent or bounding box, the resolution and full.resolution criteria, and the grid spacing criteria dx, dy, and dz interp…
 - **Limitations of Level Set** _(p.299)_ <a id="limitations-of-level-set"></a>
-  - As a general approach, while the level-set method is especially useful for shadowing, multimaterial, sophisticated etch velocity functions (for example, surface normal dependent or crystal direction dependent), and for complex evolution ...
-  - _Keywords:_ dependent, evolution, surfaces, general, approach, method, especially, useful
+  - As a general approach, while the level-set method is especially useful for shadowing, multimaterial, sophisticated etch velocity functions…
 - **MGOALS 3D Boundary-Moving Algorithms** _(p.300)_ <a id="mgoals-3d-boundary-moving-algorithms"></a>
-  - In three dimensions, a combination of level set, fast marching, and analytic techniques are used to perform geometric operations similar to the 2D mode. In three dimensions, MGOALS can reliably handle complicated polyhedral boundaries. T...
-  - _Keywords:_ dimensions, analytic, geometric, operations, perform, MGOALS, performed, method
+  - In three dimensions, a combination of level set, fast marching, and analytic techniques are used to perform geometric operations similar to…
 - **Summary of MGOALS Etching** _(p.300–301)_ <a id="summary-of-mgoals-etching"></a>
   - Table 25 summarizes the methods used internally to implement etching:
-  - _Keywords:_ Level, rowspan, Geometric, Analytic, etching, Fastmarch, Material, Shadowing
 - **MGOALS Backward Compatibility** _(p.301)_ <a id="mgoals-backward-compatibility"></a>
-  - Default parameters and algorithm settings used by MGOALS can change from release to release in the pursuit of more accurate, more realistic, and more stable structure generation results. To use the default parameters and settings from a ...
-  - _Keywords:_ release, settings, version, mgoals, algorithm, MGOALS, change, pursuit
+  - Default parameters and algorithm settings used by MGOALS can change from release to release in the pursuit of more accurate, more realistic…
 - **Boundary Repair Algorithm** _(p.301–302)_ <a id="boundary-repair-algorithm"></a>
-  - Anisotropic or directional operations can produce residual material when the walls of the etched material are not perfectly vertical or aligned to the etching beam. These residual materials usually cause problems for the mesh generator s...
-  - _Keywords:_ repair, algorithm, boundary, deposit, material, residual, These, features
+  - Anisotropic or directional operations can produce residual material when the walls of the etched material are not perfectly vertical or ali…
 - **Structure Assembly in MGOALS Mode** <a id="structure-assembly-in-mgoals-mode"></a>
   - Sentaurus Interconnect can read a 2D or 3D structure from a file and paste it into the current 2D or 3D simulation, respectively.
-  - _Keywords:_ structure, Sentaurus, Interconnect, current, simulation, respectively, perform, assembly
 - **where:** _(p.303)_ <a id="where"></a>
-  - In two dimensions, direction can be left or right. In three dimensions, direction can be back, front, left, or right. ■ tdr specifies the TDR file from which a structure will be read and pasted into a simulation.
-  - _Keywords:_ structure, dimensions, assembly, direction, Sentaurus, Interconnect, automatically, incoming
+  - In two dimensions, direction can be left or right. In three dimensions, direction can be back, front, left, or right. ■ tdr specifies the T…
 - **Multithreading** _(p.303)_ <a id="multithreading"></a>
-  - Some of the more sophisticated etching and deposition types require the use of the level-set method (such as multimaterial etching, crystallographic etching and deposition, and Fourier etching and deposition). This can be time consuming,...
-  - _Keywords:_ etching, deposition, multithreaded, Some, sophisticated, require, method, multimaterial
+  - Some of the more sophisticated etching and deposition types require the use of the level-set method (such as multimaterial etching, crystal…
 - **Insertion: Internal Mode** <a id="insertion-internal-mode"></a>
   - This section describes different insertion operations.
-  - _Keywords:_ describes, different, insertion, operations
 - **Inserting Segments** <a id="inserting-segments"></a>
-  - The insert command defines and inserts regions defined by segments in one dimension (see insert on page 477). You can choose which materials or regions are replaced, and the name and the material of the new region.
-  - _Keywords:_ regions, insert, inserted, multiple, defines, inserts, defined, segments
+  - The insert command defines and inserts regions defined by segments in one dimension (see insert on page 477). You can choose which material…
 - **Inserting Polygons** _(p.304)_ <a id="inserting-polygons"></a>
-  - Two-dimensional regions defined by polygons can be created and inserted directly into a 2D simulation. Polygons are created with the polygon command, which accepts several arguments to specify how to create the polygon:
-  - _Keywords:_ polygon, specifies, created, arguments, materials, regions, specify, create
+  - Two-dimensional regions defined by polygons can be created and inserted directly into a 2D simulation. Polygons are created with the polygo…
 - **Inserting Polyhedra** <a id="inserting-polyhedra"></a>
-  - Regions defined by polyhedra can be inserted into 3D structures. The polyhedron command creates a polyhedron and adds it to the internal polyhedron list.
-  - _Keywords:_ polyhedron, polyhedra, Creating, Regions, defined, inserted, structures, creates
+  - Regions defined by polyhedra can be inserted into 3D structures. The polyhedron command creates a polyhedron and adds it to the internal po…
 - **Reading Polyhedra From TDR Boundary File** _(p.305)_ <a id="reading-polyhedra-from-tdr-boundary-file"></a>
   - To read all the polyhedra included in a TDR boundary file called <c>, use the command:
-  - _Keywords:_ materials, regions, included, TDR, boundary, polyhedra, optional, argument
 - **Creating a Cuboid (Brick) Polyhedron** <a id="creating-a-cuboid-brick-polyhedron"></a>
   - To create a cuboid polyhedron given the coordinates of two diametrically opposite corners, use the command:
-  - _Keywords:_ polyhedron, create, cuboid, coordinates, diametrically, opposite, corners
 - **Extruding 2D Polygons** <a id="extruding-2d-polygons"></a>
-  - To take a 2D polygon (created with the polygon command) and to extrude it in the x-direction from min to max to build a 3D polyhedron, use the command:
-  - _Keywords:_ polygon, polyhedron, polygons, created, extrude, direction, expects, planar
+  - To take a 2D polygon (created with the polygon command) and to extrude it in the x-direction from min to max to build a 3D polyhedron, use…
 - **Creating Polyhedron From Its Constituent Polygonal Faces** <a id="creating-polyhedron-from-its-constituent-polygonal-faces"></a>
   - To build a polyhedron given its definition as a set of polygons, use the command:
-  - _Keywords:_ polygons, polyhedron, polygon, definition, Obviously, expects, compact, enclosed
 - **Insertion: External Mode** _(p.306)_ <a id="insertion-external-mode"></a>
-  - This mode differs from the standard Sentaurus Structure Editor mode (see Sentaurus Structure Editor Interface on page 285) in that a structure can be created inside Sentaurus Structure Editor independently of the existing Sentaurus Inter...
-  - _Keywords:_ Sentaurus, external, structure, Structure, Editor, polyhedron, sphere, Interconnect
+  - This mode differs from the standard Sentaurus Structure Editor mode (see Sentaurus Structure Editor Interface on page 285) in that a struct…
 - **Inserting Polyhedra** _(p.307)_ <a id="inserting-polyhedra"></a>
   - The insert command is:
-  - _Keywords:_ polyhedron, materials, replace, regions, material, insert, argument, specified
 - **Sentaurus Structure Editor Interface** _(p.308)_ <a id="sentaurus-structure-editor-interface"></a>
-  - Sentaurus Structure Editor can perform 3D etching, deposition, and geometric transformation operations. It uses the ACIS solid geometry modeling kernel and the Scheme scripting language. Structures are created using CAD operations and pr...
-  - _Keywords:_ Sentaurus, Structure, Editor, structure, operations, interface, Scheme, scripting
+  - Sentaurus Structure Editor can perform 3D etching, deposition, and geometric transformation operations. It uses the ACIS solid geometry mod…
 - **11: Structure Generation** _(p.308–310)_ <a id="11-structure-generation"></a>
   - Sentaurus Structure Editor Interface
-  - _Keywords:_ Sentaurus, Structure, Editor, Scheme, structure, etching, simulation, Interconnect
 - **Sentaurus Topography Interface** _(p.311)_ <a id="sentaurus-topography-interface"></a>
   - Sentaurus Interconnect provides an interface to Sentaurus Topography, which is a 2D physical etching and deposition simulator.
-  - _Keywords:_ Sentaurus, Topography, sptopo, Interconnect, geometry, structure, Tcl, modified
 - **Example 1** <a id="example-1"></a>
-  - The following command performs two planar deposition steps in Sentaurus Topography, where the first step fills the structure with oxide up to 5 nm above the top material position, and the second step adds a planar layer of 180 nm polysil...
-  - _Keywords:_ material, planar, deposition, Sentaurus, Topography, structure, deposit, thickness
+  - The following command performs two planar deposition steps in Sentaurus Topography, where the first step fills the structure with oxide up…
 - **Example 2** _(p.312)_ <a id="example-2"></a>
-  - If masks are required in a Sentaurus Topography simulation, segments can be specified in the sptopo command as shown here. Alternatively, you can use the Sentaurus Interconnect photo command with a mask to define a photoresist layer that...
-  - _Keywords:_ sptopo, Sentaurus, Interconnect, photoresist, required, Topography, simulation, segments
+  - If masks are required in a Sentaurus Topography simulation, segments can be specified in the sptopo command as shown here. Alternatively, y…
 - **Example 3** _(p.312)_ <a id="example-3"></a>
   - The following example defines a mask in Sentaurus Topography including:
-  - _Keywords:_ Sentaurus, Topography, etching, anisotropic, sptopo, material, defines, including
 - **Sentaurus Topography 3D Interface** _(p.313)_ <a id="sentaurus-topography-3d-interface"></a>
-  - Sentaurus Interconnect provides an interface to Sentaurus Topography 3D, which is a threedimensional physical etching and deposition simulator. Sentaurus Topography 3D can also act as a two-dimensional simulator for certain models. There...
-  - _Keywords:_ Sentaurus, Topography, interface, Interconnect, etching, deposition, simulator, models
+  - Sentaurus Interconnect provides an interface to Sentaurus Topography 3D, which is a threedimensional physical etching and deposition simula…
 - **References** _(p.313–315)_ <a id="references"></a>
-  - [1] J. A. Sethian, Level Set Methods and Fast Marching Methods: Evolving interfaces in computational geometry, fluid mechanics, computer vision, and materials science, Cambridge: Cambridge University Press, 1999.
-  - _Keywords:_ Methods, Cambridge, Sethian, Level, Fast, Marching, Evolving, interfaces
+  - [1] J. A. Sethian, Level Set Methods and Fast Marching Methods: Evolving interfaces in computational geometry, fluid mechanics, computer vi…
 - **Introduction** _(p.315–316)_ <a id="introduction"></a>
-  - The IC WorkBench Edit/View Plus (ICWBEV Plus)–TCAD Sentaurus interface drives the TCAD simulations from the GDSII or OASIS® layout file provided by designers, which could be at any level of integration in the hierarchy: full chip, test c...
-  - _Keywords:_ TCAD, Plus, ICWBEV, Sentaurus, layout, interface, provides, single
+  - The IC WorkBench Edit/View Plus (ICWBEV Plus)–TCAD Sentaurus interface drives the TCAD simulations from the GDSII or OASIS® layout file pro…
 - **Introducing ICWBEV Plus for TCAD Users** <a id="introducing-icwbev-plus-for-tcad-users"></a>
   - Before discussing the ICWBEV Plus–TCAD Sentaurus interface, it is important to have an understanding of ICWBEV Plus itself.
-  - _Keywords:_ ICWBEV, Plus, TCAD, Sentaurus, documentation, Help, Before, discussing
 - **Opening GDSII Layout Files** _(p.317)_ <a id="opening-gdsii-layout-files"></a>
   - To open a GDSII or an OASIS layout file:
-  - _Keywords:_ ICWBEV, Open, _USER, Plus, typing, GDSII, OASIS, layout
 - **User Interface of ICWBEV Plus** _(p.317)_ <a id="user-interface-of-icwbev-plus"></a>
-  - Figure 84 shows the user interface of ICWBEV Plus and illustrates the typical layout of work, panes, and toolbars. The panes can be moved and reconfigured as needed. ![](images/sinterconnect_ug_part02_a9ab3f616341227a27791d37c23bf03d227c...
-  - _Keywords:_ BV_LDMO, Cell, Layers, Plus, summary, Edit, View, Layout
+  - Figure 84 shows the user interface of ICWBEV Plus and illustrates the typical layout of work, panes, and toolbars. The panes can be moved a…
 - **-> 10** <a id="10"></a>
-  - highlight add (6300.0 6600.0 7400.0 9800.0) BJT3D
-  - _Keywords:_ highlight, BJT3D
 - **-> 11** <a id="11"></a>
-  - highlight add (6300.0 3500.0 7750.0 3750.0) LDMOS3D
-  - _Keywords:_ highlight, LDMOS3D
 - **-> 12** _(p.318)_ <a id="12"></a>
-  - select clear 1dbu = 1e-09m -1751.2000, -183.8588 nm Browse </details>
-  - _Keywords:_ TCAD, Sentaurus, toolbar, buttons, simulation, domain, details, specific
+  - Figure 84 ICWBEV Plus main window with toolbar buttons specific to TCAD Sentaurus shown in red box at top
 - **Sentaurus Markups** <a id="sentaurus-markups"></a>
-  - Sentaurus markups are used to add the simulation domain in 1D, 2D, and 3D domains as needed. The Command Pane in Figure 85 shows the commands after adding Sentaurus markups in the layout using GUI actions.
-  - _Keywords:_ Layers, Layout, Sentaurus, markups, Pane, layout, summary, Edit
+  - Sentaurus markups are used to add the simulation domain in 1D, 2D, and 3D domains as needed. The Command Pane in Figure 85 shows the comman…
 - **-> 8** <a id="8"></a>
-  - highlight add [2600.0 4250.0 3850.0 5700.0] NMOs3D
-  - _Keywords:_ highlight, NMOs3D
 - **-> 9** <a id="9"></a>
-  - highlight add [1300.0 6700.0 3350.0 9800.0] PMOS3D
-  - _Keywords:_ highlight, PMOS3D
 - **-> 10** _(p.319)_ <a id="10"></a>
-  - highlight add [6300.0 6600.0 7400.0 9800.0] BJT3D Type highlight Parent Inverter 1dbu = 1e-09m 6559.1059, 8650.3059 nm Browse </details>
-  - _Keywords:_ simulation, domain, layout, highlight, composite, domains, through, contact
+  - Figure 85 Adding Sentaurus markups to a layout
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** _(p.320)_ <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - Introducing ICWBEV Plus for TCAD Users
-  - _Keywords:_ simulation, TCAD, composite, domain, BJTBE, BJTC, results, consisting
 - **Stretch Utility** _(p.321)_ <a id="stretch-utility"></a>
-  - The stretch utility provides a convenient way to parameterize a layout by inserting a uniformly stretched segment into the layout. For example, this feature can be used to generate a set of transistors that have different gate lengths bu...
-  - _Keywords:_ stretch, layout, NMOS, details, summary, length, utility, images
+  - The stretch utility provides a convenient way to parameterize a layout by inserting a uniformly stretched segment into the layout. For exam…
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** _(p.322)_ <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - Introducing ICWBEV Plus for TCAD Users
-  - _Keywords:_ stretch, NMOS, variable, Introducing, ICWBEV, Plus, TCAD, Users
 - **Renaming Markups** _(p.323)_ <a id="renaming-markups"></a>
   - Markups can be renamed and edited.
-  - _Keywords:_ Open, Cells, edited, markups, Views, markup, Highlights, Click
 - **Auxiliary Layers** _(p.323)_ <a id="auxiliary-layers"></a>
-  - Auxiliary layers are used, for example, to denote the position of electrical contacts in a layout. To add auxiliary layers, first a layer must be declared and attributes must be defined.
-  - _Keywords:_ layers, layout, auxiliary, polygon, Select, Auxiliary, denote, position
+  - Auxiliary layers are used, for example, to denote the position of electrical contacts in a layout. To add auxiliary layers, first a layer m…
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** _(p.324)_ <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - Introducing ICWBEV Plus for TCAD Users
-  - _Keywords:_ Layer, Plus, summary, Edit, View, New, NMS3D, Color
 - **-> 1** <a id="1"></a>
-  - gui dockable dock layout::open_cells gui dockable hide layout::open_cells gui dockable hide layout::layout_lay Layout Layers Layers in this layout Cell Outline NWELL(1:0) NACTIVE(2:0) PACTIVE(3:0) NPLUS(4:0) POLY(5:0) PBASE(6:0) EMIT(7:0...
-  - _Keywords:_ layout, dockable, Layers, open_cells, Layout, attributes, layout_lay, Cell
+  - gui dockable dock layout::open_cells gui dockable hide layout::open_cells gui dockable hide layout::layout_lay Layout Layers Layers in this…
 - **Text Labels** _(p.325)_ <a id="text-labels"></a>
   - As an alternative to auxiliary layers, you can use text labels to denote the position of electrical contacts in a layout.
-  - _Keywords:_ layout, choosing, Select, alternative, auxiliary, layers, labels, denote
 - **Editing Polygons** _(p.325)_ <a id="editing-polygons"></a>
   - If required, polygons can be edited. You can edit polygons by either:
-  - _Keywords:_ polygons, rectangle, required, edited, You, either, Resizing, Converting
 - **Resizing a Rectangle** <a id="resizing-a-rectangle"></a>
   - To resize a rectangle:
-  - _Keywords:_ rectangle, editing, select, details, summary, resize, already, layout
 - **Converting a Rectangle to a Polygon** _(p.326)_ <a id="converting-a-rectangle-to-a-polygon"></a>
   - To convert a rectangle to a polygon:
-  - _Keywords:_ polygon, Edge, rectangle, select, Split, Move, details, summary
 - **Nonaxis-Aligned Simulation Domains** _(p.326)_ <a id="nonaxis-aligned-simulation-domains"></a>
-  - The ICWBEV Plus–TCAD Sentaurus interface supports nonaxis-aligned domains. To realize nonaxis-aligned simulation domains, the GDSII layout is rotated by a given angle, and the TCAD simulation domain is added as discussed in Sentaurus Mar...
-  - _Keywords:_ layout, Cell, Layers, GDSII, transformation, Layout, Transform, Plus
+  - The ICWBEV Plus–TCAD Sentaurus interface supports nonaxis-aligned domains. To realize nonaxis-aligned simulation domains, the GDSII layout…
 - **Sentaurus Markup Files and TCAD Layout Files** <a id="sentaurus-markup-files-and-tcad-layout-files"></a>
   - After adding Sentaurus Interconnect markups in ICWBEV Plus, the markup information is saved in two different files:
-  - _Keywords:_ Sentaurus, ICWBEV, Plus, markup, layout, format, TCAD, After
 - **Saving the Sentaurus Markup File** <a id="saving-the-sentaurus-markup-file"></a>
   - To save a Sentaurus markup file:
-  - _Keywords:_ layout, Sentaurus, Export, markup, layers, GDSII, Layout, select
 - **Contents of Sentaurus Markup File** <a id="contents-of-sentaurus-markup-file"></a>
-  - This section describes a typical markup file with a brief explanation. For a description of keywords, refer to the IC WorkBench Edit/View Plus User Guide.
-  - _Keywords:_ Version, information, layout, describes, typical, markup, explanation, description
+  - This section describes a typical markup file with a brief explanation. For a description of keywords, refer to the IC WorkBench Edit/View P…
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** _(p.327)_ <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - Sentaurus Markup Files and TCAD Layout Files
-  - _Keywords:_ Sentaurus, Markup, TCAD, Layout, Open, editing, adding, polygons
 - **Reloading the Markup File** <a id="reloading-the-markup-file"></a>
   - To edit a markup file, you must reload it.
-  - _Keywords:_ Open, markup, reload, dialog, Flags, details, summary, Supported
 - **Saving the TCAD Layout File** _(p.328)_ <a id="saving-the-tcad-layout-file"></a>
   - To save the TCAD layout file:
-  - _Keywords:_ layout, TCAD, Sentaurus, Export, polygons, Click, select, button
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - Sentaurus Markup Files and TCAD Layout Files
-  - _Keywords:_ layout, Sentaurus, TCAD, Layout, details, summary, Export, Markup
 - **Contents of TCAD Layout File** _(p.329–333)_ <a id="contents-of-tcad-layout-file"></a>
-  - This section describes the contents of the TCAD layout file and the differences between the contents of the Sentaurus markup file and TCAD layout file.
-  - _Keywords:_ layout, Sentaurus, domains, Contents, Markup, simulation, Same, contents
+  - This section describes the contents of the TCAD layout file and the differences between the contents of the Sentaurus markup file and TCAD…
 - **Reloading the TCAD Layout File** _(p.333)_ <a id="reloading-the-tcad-layout-file"></a>
   - For debugging purposes, reload the TCAD layout file.
-  - _Keywords:_ TCAD, layout, Open, reload, debugging, purposes, Choose, dialog
 - **Starting ICWBEV Plus in Batch Mode and Using Macros** _(p.334)_ <a id="starting-icwbev-plus-in-batch-mode-and-using-macros"></a>
   - To extract the TCAD layout file in batch mode, add the following command to the end of the markup file:
-  - _Keywords:_ layout, extract, TCAD, markup, typescript, sentaurus, export, noMerge
 - **ICWBEV Plus Macros** <a id="icwbev-plus-macros"></a>
   - ICWBEV Plus macros can be used to create simple layouts. An example of a macro is:
-  - _Keywords:_ configure, ff0000, polygon, ICWBEV, Plus, macros, create, simple
 - **Tcl-Based Macros for Layout Parameterization** _(p.335)_ <a id="tcl-based-macros-for-layout-parameterization"></a>
-  - The macro language of ICWBEV Plus is Tcl based. Figure 99 on page 313 shows a rectangle that has been replicated four times. The following Tcl command performed the replication:
-  - _Keywords:_ SHIFT, Layout, Plus, Tcl, rectangle, SHIFTS, details, summary
+  - The macro language of ICWBEV Plus is Tcl based. Figure 99 on page 313 shows a rectangle that has been replicated four times. The following…
 - **TCAD Layout Reader** _(p.335–336)_ <a id="tcad-layout-reader"></a>
-  - The TCAD layout reader of Sentaurus Interconnect provides a file-based interface between ICWBEV Plus and Sentaurus Interconnect. Some of its key features include:
-  - _Keywords:_ TCAD, layout, Sentaurus, Interconnect, features, Mask, driven, reader
+  - The TCAD layout reader of Sentaurus Interconnect provides a file-based interface between ICWBEV Plus and Sentaurus Interconnect. Some of it…
 - **Loading the TCAD Layout** _(p.336)_ <a id="loading-the-tcad-layout"></a>
   - To load a TCAD layout in Sentaurus Interconnect, use the command:
-  - _Keywords:_ TCAD, layout, Sentaurus, Interconnect, filename, Coordinates, multiplied, optional
 - **Finding Simulation Domains** <a id="finding-simulation-domains"></a>
   - To generate a list of the simulation domains, use:
-  - _Keywords:_ domains, Domains, generate, simulation, Emit1D, NBODY, NMOS, BJT3D
 - **Finding Layer Names and Layer IDs** _(p.337)_ <a id="finding-layer-names-and-layer-ids"></a>
-  - Each layer in the TCAD layout file has a unique ID of the form <integer>:<integer>, for example 3:0. A layer also can have an optional explicit layer name such as NWELL. If no explicit layer name has been set in ICWBEV Plus, the TCAD lay...
-  - _Keywords:_ TCAD, layout, integer, explicit, NWELL, reader, layerNames, LNames
+  - Each layer in the TCAD layout file has a unique ID of the form <integer>:<integer>, for example 3:0. A layer also can have an optional expl…
 - **Selecting the Simulation Domain** <a id="selecting-the-simulation-domain"></a>
   - To select a single or a composite simulation domain, use one of the following commands:
-  - _Keywords:_ domain, simulation, select, single, composite, PMOS, domain_name1, domain_name2
 - **Loading a GDSII Layout** _(p.338)_ <a id="loading-a-gdsii-layout"></a>
   - To load a GDSII layout directly in Sentaurus Interconnect, use the command:
-  - _Keywords:_ domain, stretches, simulation, layout, composite, GDSII, directly, Sentaurus
 - **Finding Domain Dimensions** _(p.338)_ <a id="finding-domain-dimensions"></a>
   - To find the domain dimensions, use:
-  - _Keywords:_ dimension, simulation, domains, domain, dimensions, highlight, DIM
 - **Finding Bounding Box of Domain** _(p.339)_ <a id="finding-bounding-box-of-domain"></a>
   - To find the coordinates of the bounding box of the simulation domain in the global layout coordinates, use:
-  - _Keywords:_ coordinates, layout, bounding, simulation, domain, Bounding, Box, Sentaurus
 - **Interface With line Commands** _(p.339)_ <a id="interface-with-line-commands"></a>
-  - After storing the bounding box of the simulation domain in the Tcl variables such as Ymin, Ymax, Zmin, and Zmax, these variables can be used in line commands to define the initial substrate and mesh in Sentaurus Interconnect. For example:
-  - _Keywords:_ location, spacing, Ydim, Zdim, Ymin, Ymax, variables, Zmin
+  - After storing the bounding box of the simulation domain in the Tcl variables such as Ymin, Ymax, Zmin, and Zmax, these variables can be use…
 - **Creating Masks** <a id="creating-masks"></a>
   - To create a mask from a layer, use the command:
-  - _Keywords:_ create, string, polarity, positive, negative, stretchypos, stretchyneg
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** _(p.340)_ <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
 - **TCAD Layout Reader** _(p.340–342)_ <a id="tcad-layout-reader"></a>
   - ```txt [stretchzpos= {<zo> <dz>}] [stretchzneg= {<zo> <dz>}] [reflecty= <yo>] [reflectz= <zo>] ```
-  - _Keywords:_ create, layers, stretch, negative, applied, TDR, created, positive
 - **Mask-Driven Meshing** _(p.342–343)_ <a id="mask-driven-meshing"></a>
   - To create a refinement box that is tied to a mask, use:
-  - _Keywords:_ extend, extrusion, region, details, summary, refinebox, corner, meshing
 - **Layout-Driven Contact Assignment** _(p.343)_ <a id="layout-driven-contact-assignment"></a>
-  - The icwb.contact.mask command creates contacts for subsequent device simulations that are tied to a layer or a text label in the TCAD layout file. The command serves as an interface between the TCAD layout and the Sentaurus Interconnect ...
-  - _Keywords:_ contact, vertical, material, automatically, extent, dimensions, layout, lateral
+  - The icwb.contact.mask command creates contacts for subsequent device simulations that are tied to a layer or a text label in the TCAD layou…
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** _(p.344–346)_ <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - TCAD Layout Reader
-  - _Keywords:_ contact, contacts, Layers, Layout, layout, source, details, summary
 - **Aligning Wafer and Simulation Domain** _(p.346)_ <a id="aligning-wafer-and-simulation-domain"></a>
-  - To correctly support tilted process steps for 2D and 3D simulation domains, the alignment between the wafer and the simulation domain must be declared using the slice.angle argument of the init command.
-  - _Keywords:_ simulation, domain, offset, layout, tilted, process, domains, returned
+  - To correctly support tilted process steps for 2D and 3D simulation domains, the alignment between the wafer and the simulation domain must…
 - **Additional Query Functions** _(p.347)_ <a id="additional-query-functions"></a>
-  - The TCAD layout reader of Sentaurus Interconnect provides additional layout query functions. For example, the following command returns a list of segments in the given layer for a 2D simulation domain:
-  - _Keywords:_ domain, bounding, polygon, layout, simulation, Segments, containing, polygons
+  - The TCAD layout reader of Sentaurus Interconnect provides additional layout query functions. For example, the following command returns a l…
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** _(p.348)_ <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
 - **TCAD Layout Reader** _(p.348–349)_ <a id="tcad-layout-reader"></a>
-  - ```txt icwb domain= "SIM3D2" set BBoxes [icwb list polygon.bounding.boxes layer.name= "0:0"] LogFile "BBoxes: $BBoxes" set Tessellations [icwb list polygon.tessellations layer.name= "0:0"] LogFile "Tessellations: $Tessellations" ```
-  - _Keywords:_ polygon, rectangles, bounding, BBoxes, Tessellations, details, summary, SIM3D2
+  - ```txt icwb domain= "SIM3D2" set BBoxes [icwb list polygon.bounding.boxes layer.name= "0:0"] LogFile "BBoxes: $BBoxes" set Tessellations [i…
 - **Overview** _(p.349)_ <a id="overview"></a>
-  - This chapter covers basic tasks such as obtaining a list of materials currently in the structure, and obtaining 1D solution profiles from 2D or 3D structures to more complex ones, such as looping through all materials and extracting para...
-  - _Keywords:_ Tcl, obtaining, materials, complex, perform, select, language, These
+  - This chapter covers basic tasks such as obtaining a list of materials currently in the structure, and obtaining 1D solution profiles from 2…
 - **Saving Data Fields** _(p.350)_ <a id="saving-data-fields"></a>
-  - Sentaurus Interconnect automatically saves all solutions along with mechanical stress results in a TDR file. You can control the fields that will be saved in the TDR file using the SetTDRList command (see SetTDRList on page 639).
-  - _Keywords:_ TDR, MyField, results, You, fields, SetTDRList, DataField, select
+  - Sentaurus Interconnect automatically saves all solutions along with mechanical stress results in a TDR file. You can control the fields tha…
 - **Selecting Fields for Viewing or Analysis** _(p.350)_ <a id="selecting-fields-for-viewing-or-analysis"></a>
-  - Most analytic tasks begin with the select command, which is used to select a data field to be viewed or operated on (see select on page 628). A data field in Sentaurus Interconnect is a quantity that varies over the simulation domain, su...
-  - _Keywords:_ select, expression, Potential, selected, solution, viewed, operated, variable
+  - Most analytic tasks begin with the select command, which is used to select a data field to be viewed or operated on (see select on page 628…
 - **Obtaining 1D Data Cuts** _(p.351)_ <a id="obtaining-1d-data-cuts"></a>
-  - After a select command has been issued, you can obtain 1D cuts through the data along one of the principal axes using the slice or print.1d command. The slice command returns a list of coordinate data pairs. To make a cut perpendicular t...
-  - _Keywords:_ coordinate, perpendicular, similarly, After, select, issued, obtain, through
+  - After a select command has been issued, you can obtain 1D cuts through the data along one of the principal axes using the slice or print.1d…
 - **Examples** _(p.351–352)_ <a id="examples"></a>
-  - Sentaurus Interconnect can run in interactive mode if there is no command file given on the command line. In this case, you are prompted with the sinterconnect> prompt for commands. If a command file is given, commands are read from this...
-  - _Keywords:_ modList, Tcl, coordinate, sinterconnect, myList, offset, MyData, Oxide
+  - Sentaurus Interconnect can run in interactive mode if there is no command file given on the command line. In this case, you are prompted wi…
 - **Determining the Dose: Layers** _(p.353)_ <a id="determining-the-dose-layers"></a>
-  - The layers command computes the dose of the selected data field along one of the principal axes. The syntax to specify the cut is the same as the slice command (see slice on page 642).
-  - _Keywords:_ sinterconnect, layers, layerInfo, information, Integral, element, llength, lindex
+  - The layers command computes the dose of the selected data field along one of the principal axes. The syntax to specify the cut is the same…
 - **Extracting Values and Level Crossings: interpolate** _(p.354)_ <a id="extracting-values-and-level-crossings-interpolate"></a>
-  - The interpolate command has two purposes: to obtain the position at which a profile crosses a particular value and to retrieve a value at a particular location in space. Interpolation is used to accomplish both tasks.
-  - _Keywords:_ arguments, simulations, interpolate, profile, crosses, particular, location, selected
+  - The interpolate command has two purposes: to obtain the position at which a profile crosses a particular value and to retrieve a value at a…
 - **Extracting Values During solve Step: extract** _(p.354–355)_ <a id="extracting-values-during-solve-step-extract"></a>
-  - The extract command is used to extract historical data during solve steps. This command allows you to define the data extraction script with the command parameter. The extraction script is composed typically of the select command for cho...
-  - _Keywords:_ extract, extraction, script, interpolate, Potential, historical, returned, position
+  - The extract command is used to extract historical data during solve steps. This command allows you to define the data extraction script wit…
 - **Optimizing Parameters Automatically** <a id="optimizing-parameters-automatically"></a>
-  - Previously, users relied on the Optimizer tool in Sentaurus Workbench to perform parameter optimization. Sentaurus Interconnect provides a built-in capability for automatic optimization of parameters using the optimize command (see optim...
-  - _Keywords:_ optimization, optimize, procedure, allows, Sentaurus, automatic, feature, Tcl
+  - Previously, users relied on the Optimizer tool in Sentaurus Workbench to perform parameter optimization. Sentaurus Interconnect provides a…
 - **Fitting Routines** <a id="fitting-routines"></a>
   - The following commands provide fitting capabilities.
-  - _Keywords:_ provide, fitting, capabilities
 - **FitArrhenius Command** _(p.356)_ <a id="fitarrhenius-command"></a>
   - This command is used to find the best prefactor and energy for an Arrhenius fit of a given profile, for example:
-  - _Keywords:_ sinterconnect, prefactor, energy, Arrhenius, profile, passed, FitArrhenius, foreach
 - **13: Extracting Results** _(p.356)_ <a id="13-extracting-results"></a>
   - Storing Time Versus Resistance, Current, and Voltage
-  - _Keywords:_ Arrhenius, prefactor, energy, factor, member, lappend, activation, sinterconnect
 - **FitLine Command** <a id="fitline-command"></a>
   - This command is used to find the best offset and slope for a given set of data, for example:
-  - _Keywords:_ offset, sinterconnect, lappend, foreach, FitLine, correlation, factor
 - **Storing Time Versus Resistance, Current, and Voltage** _(p.357–358)_ <a id="storing-time-versus-resistance-current-and-voltage"></a>
-  - The option command allows you to store time versus resistance between two contacts, or current at a contact, or voltage at a contact for a time-dependent simulation, for example:
-  - _Keywords:_ versus, current, voltage, resistance, circuit, WritePlx, contacts, between
+  - The option command allows you to store time versus resistance between two contacts, or current at a contact, or voltage at a contact for a…
 - **13: Extracting Results** _(p.358–359)_ <a id="13-extracting-results"></a>
   - Storing Time Versus Resistance, Current, and Voltage
-  - _Keywords:_ Storing, Time, Versus, Resistance, Current, Voltage, discusses, numerics
 - **Overview** _(p.359–360)_ <a id="overview"></a>
   - In Sentaurus Interconnect, during the simulation of solve steps, different sets of nonlinear partial differential equations must be solved:
-  - _Keywords:_ equations, Newton, solver, ILS, Sentaurus, Interconnect, simulation, nonlinear
 - **Setting Parameters of the Iterative Solver ILS** _(p.361–362)_ <a id="setting-parameters-of-the-iterative-solver-ils"></a>
-  - The iterative solver ILS is used by default to solve the linear systems for mechanics, thermal, and electrical analyses in 3D simulations. Default parameters for ILS have been added to the parameter database. To specify modified paramete...
-  - _Keywords:_ ILS, pdbSet, Math, Double, Flow, compute, method, specify
+  - The iterative solver ILS is used by default to solve the linear systems for mechanics, thermal, and electrical analyses in 3D simulations.…
 - **14: Numerics** _(p.362)_ <a id="14-numerics"></a>
   - Partitioning and Parallel Matrix Assembly
-  - _Keywords:_ solver, pdbSet, Math, Flow, ILS, refine, enhanced, version
 - **Partitioning and Parallel Matrix Assembly** _(p.363–364)_ <a id="partitioning-and-parallel-matrix-assembly"></a>
   - Sentaurus Interconnect can assemble the solution matrix in parallel on multicore machines. To switch on the parallel assembly, use:
-  - _Keywords:_ domains, threads, matrix, assembly, Sentaurus, Interconnect, numThreads, numThreadsAssembly
 - **14: Numerics** _(p.364)_ <a id="14-numerics"></a>
   - Numeric Accuracy and Reproducibility of Results
-  - _Keywords:_ Numeric, Accuracy, Reproducibility, Results
 - **For example:** _(p.364)_ <a id="for-example"></a>
   - ```txt pdbSet Silicon PartitionWeight 10 pdbSet Gas PartitionWeight 0 ```
-  - _Keywords:_ assembly, pdbSet, PartitionWeight, weights, elements, allows, threads, mechanics
 - **Numeric Accuracy and Reproducibility of Results** _(p.365)_ <a id="numeric-accuracy-and-reproducibility-of-results"></a>
-  - Sentaurus Interconnect simulations might show different results due to different hardware or operating systems, its build-in libraries, different orders of operations, and different rounding.
-  - _Keywords:_ different, results, Sentaurus, Interconnect, operating, operations, reproducibility, Simulations
+  - Sentaurus Interconnect simulations might show different results due to different hardware or operating systems, its build-in libraries, dif…
 - **Matrix Size Manipulation** _(p.365)_ <a id="matrix-size-manipulation"></a>
-  - The size of the matrix used during PDE assembly is automatically determined based on the number of solution variables and nodes in the structure. In most cases the allocated matrix size is more than sufficient. If the matrix size becomes...
-  - _Keywords:_ matrix, automatically, during, assembly, determined, You, pdbSet, Math
+  - The size of the matrix used during PDE assembly is automatically determined based on the number of solution variables and nodes in the stru…
 - **Node and Equation Ordering** _(p.366)_ <a id="node-and-equation-ordering"></a>
-  - Because the order of nodes in meshes does not follow a specific order by default, adjacent nodes might be far from each other in the internal node list. The order might not have much effect on simulation time for small examples (such as ...
-  - _Keywords:_ solution, meshes, simulation, degrade, results, structure, pdbSet, Math
+  - Because the order of nodes in meshes does not follow a specific order by default, adjacent nodes might be far from each other in the intern…
 - **Time Integration** _(p.366–367)_ <a id="time-integration"></a>
-  - The TRBDF method [1] is used for time integration by default for time-dependent problems. It also is possible to choose the backward Euler method for the time integration. The following command can be used to switch between methods:
-  - _Keywords:_ method, truncation, integration, coefficients, TRBDF, difference, Linear, geometric
+  - The TRBDF method [1] is used for time integration by default for time-dependent problems. It also is possible to choose the backward Euler…
 - **Time-Step Control** _(p.367)_ <a id="time-step-control"></a>
   - This section discussed different time-step controls.
-  - _Keywords:_ discussed, different, controls
 - **Time-Step Control for PDEs** _(p.367–368)_ <a id="time-step-control-for-pdes"></a>
   - Sentaurus Interconnect provides automatic time-step control. You can modify some of the control parameters.
-  - _Keywords:_ IncreaseRatio, pdbSet, Compute, reduced, ReduceRatio, Org, Updt, control
 - **where:** _(p.368–369)_ <a id="where"></a>
-  - Org.Val is the original value at the node. Org.Updt is the original update at the node. Org.-Updt is the Original Value – Original Update. Apld. Updt. is the applied update. Location is the location (in ) of the node in both the unified ...
-  - _Keywords:_ BPTS, NGLTS, Org, Updt, original, update, Original, coordinate
+  - Org.Val is the original value at the node. Org.Updt is the original update at the node. Org.-Updt is the Original Value – Original Update.…
 - **Error Control for PDEs** _(p.369–370)_ <a id="error-control-for-pdes"></a>
   - To control errors during transient simulation, Sentaurus Interconnect uses the following to calculate the error:
-  - _Keywords:_ solution, pdbSetDouble, control, AbsErr, variables, Error, errors, during
 - **Time-Step Control for Mechanics** _(p.370)_ <a id="time-step-control-for-mechanics"></a>
-  - Automatic time-step control for mechanics is activated only if the structure contains certain nonlinear features that require Newton iterations, such as CZM, plasticity, viscoplasticity, and creep. The size of the time step is adjusted b...
-  - _Keywords:_ certain, Automatic, control, mechanics, activated, structure, contains, nonlinear
+  - Automatic time-step control for mechanics is activated only if the structure contains certain nonlinear features that require Newton iterat…
 - **Convergence Criteria** _(p.370–372)_ <a id="convergence-criteria"></a>
   - To check the convergence of Newton iterations for mechanics equations [2][3], the criteria are:
-  - _Keywords:_ pdbSet, Mechanics, Convergence, residual, reference, displacement, Newton, criteria
 - **Time-Step Adjustment** _(p.372)_ <a id="time-step-adjustment"></a>
-  - The first time step for solving mechanics equations is set to the initial time given with the solve command. The size of subsequent time steps is decided based on the convergence history of the preceding time step. The time-step size is ...
-  - _Keywords:_ strain, preceding, viscoplastic, pdbSet, Mechanics, Tolerance, maximum, iterations
+  - The first time step for solving mechanics equations is set to the initial time given with the solve command. The size of subsequent time st…
 - **Time-Step Cutback** _(p.373)_ <a id="time-step-cutback"></a>
-  - An automatic time-step cutback procedure interrupts the Newton iteration loop and restarts the time step with a smaller size when any of the following issues is encountered:
-  - _Keywords:_ Convergence, Val, convergence, criteria, satisfied, maximum, iterations, Mechanics
+  - An automatic time-step cutback procedure interrupts the Newton iteration loop and restarts the time step with a smaller size when any of th…
 - **References** _(p.373–375)_ <a id="references"></a>
-  - [1] R. E. Bank et al., “Transient Simulation of Silicon Devices and Circuits,” IEEE Transactions on Electron Devices, vol. ED-32, no. 10, pp. 1992–2007, 1985. [2] O. C. Zienkiewicz and R. L. Taylor, The Finite Element Method, Butterworth...
-  - _Keywords:_ differential, Devices, Finite, Element, partial, equations, strings, operators
+  - [1] R. E. Bank et al., “Transient Simulation of Silicon Devices and Circuits,” IEEE Transactions on Electron Devices, vol. ED-32, no. 10, p…
 - **Available Operators and Variables** <a id="available-operators-and-variables"></a>
-  - The operators and variables of the Alagator scripting language include binary operators, simple functions, differential functions, string names, solution names, subexpressions, constants, and parameters.
-  - _Keywords:_ operators, variables, Alagator, scripting, language, include, binary, simple
+  - The operators and variables of the Alagator scripting language include binary operators, simple functions, differential functions, string n…
 - **Binary and Unary Operators** _(p.376–377)_ <a id="binary-and-unary-operators"></a>
-  - Most common binary algebraic operators are supported. Unary negation is also supported with the usual mathematical rules applying. Table 28 lists the supported binary and unary operators in order of precedence. Parentheses are supported ...
-  - _Keywords:_ operators, MyData, operator, supported, conditional, select, binary, Logical
+  - Most common binary algebraic operators are supported. Unary negation is also supported with the usual mathematical rules applying. Table 28…
 - **Simple Functions** _(p.377)_ <a id="simple-functions"></a>
-  - All simple functions take one argument that must be enclosed in parentheses. The argument can be any expression. Most common functions are available, including:
-  - _Keywords:_ argument, natural, derivatives, provide, operation, simple, enclosed, parentheses
+  - All simple functions take one argument that must be enclosed in parentheses. The argument can be any expression. Most common functions are…
 - **Differential Functions** _(p.378)_ <a id="differential-functions"></a>
   - Differential functions are used in PDEs only and are not evaluated with the select command. The differential operators are ddt and grad.
-  - _Keywords:_ operator, Time, supported, argument, automatically, divergence, Differential, PDEs
 - **String Names** _(p.378)_ <a id="string-names"></a>
   - Strings that are not recognized as real numbers, operators, or functions are compared to four sets of possible matches:
-  - _Keywords:_ solution, created, Strings, recognized, operators, compared, possible, matches
 - **Solution Names and Subexpressions** <a id="solution-names-and-subexpressions"></a>
-  - Solution names must match exactly the string specified in the solution name=<c> command (see solution on page 645). This is important because solution names link PDEs to the variables to be solved. Derivatives are taken automatically of ...
-  - _Keywords:_ solution, Terms, exactly, string, specified, PDEs, Solution, important
+  - Solution names must match exactly the string specified in the solution name=<c> command (see solution on page 645). This is important becau…
 - **Constants and Parameters** _(p.379)_ <a id="constants-and-parameters"></a>
-  - Anything that does not match the name of a term or solution passes to the Tcl expression parser to see whether it evaluates as a valid expression. The result is treated as a constant. The evaluation of the expression is performed again i...
-  - _Keywords:_ expression, Tcl, parser, Anything, solution, passes, whether, evaluates
+  - Anything that does not match the name of a term or solution passes to the Tcl expression parser to see whether it evaluates as a valid expr…
 - **For example:** _(p.379)_ <a id="for-example"></a>
-  - ```txt pdbSetDouble Si Test Param1 { [Arrhenius 1 2] } (1) pdbSetDouble Si Test Param2 {2.0* [pdbDelayDouble Si Test Param1] } (2) pdbSetDouble Si Test Param3 {2.0* [pdbGetDouble Si Test Param1] } (3) pdbGet Si Test Param2 (4) pdbGet Si ...
-  - _Keywords:_ Test, Param1, Param2, Param3, pdbSetDouble, pdbDelayDouble, message, expression
+  - ```txt pdbSetDouble Si Test Param1 { [Arrhenius 1 2] } (1) pdbSetDouble Si Test Param2 {2.0* [pdbDelayDouble Si Test Param1] } (2) pdbSetDo…
 - **Basics of Specifying Partial Differential Equations** _(p.380)_ <a id="basics-of-specifying-partial-differential-equations"></a>
-  - In this section, an example is used to illustrate how to specify PDEs using the Alagator scripting language. The general expression for diffusion of species $C _ { X }$ is given by:
-  - _Keywords:_ mathrm, operator, PDEs, Alagator, language, partial, operatorname, solution
+  - In this section, an example is used to illustrate how to specify PDEs using the Alagator scripting language. The general expression for dif…
 - **Building Partial Differential Equations** _(p.380–381)_ <a id="building-partial-differential-equations"></a>
-  - The simplest diffusion equation uses a constant diffusivity and can be described by Fick’s first law and second law. Two main steps are required to initialize and solve this equation:
-  - _Keywords:_ solution, Arrhenius, equation, second, solved, PDE, constant, defined
+  - The simplest diffusion equation uses a constant diffusivity and can be described by Fick’s first law and second law. Two main steps are req…
 - **Setting the Boundary Conditions** _(p.381)_ <a id="setting-the-boundary-conditions"></a>
   - After defining a solution and entering the equation into the parameter database, you need to set boundary conditions.
-  - _Keywords:_ After, defining, solution, entering, equation, database, boundary, conditions
 - **Dirichlet Boundary Condition** _(p.381)_ <a id="dirichlet-boundary-condition"></a>
-  - The previous example can be enhanced by adding a boundary condition. For simplicity, it is assumed that the surface concentration of variable CX is at the Gas\_Silicon5 19 ×10 cm–3 interface.
-  - _Keywords:_ boundary, condition, interface, _Silicon, concentration, variable, silicon, Fixed
+  - The previous example can be enhanced by adding a boundary condition. For simplicity, it is assumed that the surface concentration of variab…
 - **Segregation Boundary Condition** _(p.382)_ <a id="segregation-boundary-condition"></a>
   - If a segregation-type boundary condition is needed, for example, at the oxide–silicon interface, use the following commands:
-  - _Keywords:_ interface, silicon, segregation, boundary, condition, pdbSetString, Oxide_Silicon, CX_Oxide
 - **Using Terms** <a id="using-terms"></a>
-  - A term is a common subexpression that can be used in multiple instances or to retrieve information. When the term appears in multiple equations, it reduces the maintenance of equations, and the values are easily retrieved from memory and...
-  - _Keywords:_ multiple, equations, Silicon, variable, common, subexpression, instances, retrieve
+  - A term is a common subexpression that can be used in multiple instances or to retrieve information. When the term appears in multiple equat…
 - **Modifying Built-in Equations and Terms** _(p.383)_ <a id="modifying-built-in-equations-and-terms"></a>
-  - Sentaurus Interconnect builds equations and terms for known solution variables by default. If you want to add a new expression to an existing equation or term, or to subtract a new expression from an existing equation or term, you can us...
-  - _Keywords:_ variable, expression, existing, equation, callback, procedures, included, define
+  - Sentaurus Interconnect builds equations and terms for known solution variables by default. If you want to add a new expression to an existi…
 - **UserAddEqnTerm and UserSubEqnTerm** _(p.383–384)_ <a id="useraddeqnterm-and-usersubeqnterm"></a>
-  - The UserAddEqnTerm and UserSubEqnTerm commands allow you to add a new expression to an existing solution variable equation or to subtract the new expression from an existing solution variable equation. The commands have the format:
-  - _Keywords:_ expression, overwrite, _Silicon, solution, Oxide, equation, material, UserAddEqnTerm
+  - The UserAddEqnTerm and UserSubEqnTerm commands allow you to add a new expression to an existing solution variable equation or to subtract t…
 - **UserAddToTerm and UserSubFromTerm** _(p.384)_ <a id="useraddtoterm-and-usersubfromterm"></a>
-  - The UserAddToTerm and UserSubFromTerm commands add a new expression to an existing term or subtract the new expression from an existing term. The commands have the format:
-  - _Keywords:_ expression, material, UserAddToTerm, UserSubFromTerm, existing, MyTerm, silicon, Silicon
+  - The UserAddToTerm and UserSubFromTerm commands add a new expression to an existing term or subtract the new expression from an existing ter…
 - **Using Callback Procedures to Build Models** _(p.385)_ <a id="using-callback-procedures-to-build-models"></a>
   - NOTE Callback procedures involve complex operations. Only advanced users should use them.
-  - _Keywords:_ procedures, callback, Alagator, equation, procedure, PDEs, called, strings
 - **Callbacks During Execution of the solve Command** _(p.386)_ <a id="callbacks-during-execution-of-the-solve-command"></a>
-  - In addition to calling the callback procedures at various stages during the execution of a solve command, Sentaurus Interconnect calls the solvePreProcess procedure before executing the solve command and the solvePostProcess procedure af...
-  - _Keywords:_ callback, procedure, procedures, during, execution, solvePreProcess, executing, solvePostProcess
+  - In addition to calling the callback procedures at various stages during the execution of a solve command, Sentaurus Interconnect calls the…
 - **The solvePreProcess Procedure** _(p.386–387)_ <a id="the-solvepreprocess-procedure"></a>
-  - Sentaurus Interconnect can initialize solution variable fields on the command line using commands such as select (see select on page 628) and profile (see profile on page 597). If the initialization can be standardized, it is better to u...
-  - _Keywords:_ procedure, fields, solvePreProcess, initializes, solution, select, profile, initialization
+  - Sentaurus Interconnect can initialize solution variable fields on the command line using commands such as select (see select on page 628) a…
 - **Building and Solving PDEs** _(p.387)_ <a id="building-and-solving-pdes"></a>
-  - After the execution of the solvePreProcess procedure, Sentaurus Interconnect checks all material and solution names to see whether a callback procedure has been specified using the InitProc keyword (see Cleaning Up Equation Strings: Init...
-  - _Keywords:_ procedure, solution, callback, material, specified, equation, defined, equations
+  - After the execution of the solvePreProcess procedure, Sentaurus Interconnect checks all material and solution names to see whether a callba…
 - **The solvePostProcess Procedure** <a id="the-solvepostprocess-procedure"></a>
-  - Finally, the solvePostProcess procedure is called when the solve command is finished. By default, it deletes the data fields that are no longer needed and stores the conduction current density, the electric fields, and the temperature gr...
-  - _Keywords:_ procedure, solvePostProcess, finished, fields, UserSolvePostProcess, Finally, called, deletes
+  - Finally, the solvePostProcess procedure is called when the solve command is finished. By default, it deletes the data fields that are no lo…
 - **Specifying Callback Procedures Using Keywords** _(p.388)_ <a id="specifying-callback-procedures-using-keywords"></a>
   - This section demonstrates how to use keywords to specify callback procedures.
-  - _Keywords:_ demonstrates, keywords, specify, callback, procedures
 - **Common Features of Using Keywords** _(p.388)_ <a id="common-features-of-using-keywords"></a>
-  - To avoid unnecessary repetition of content, this section describes common features that apply to all keywords described in the next sections.
-  - _Keywords:_ procedure, callback, Mat, Sol, CleanEquations, keyword, Silicon, unsets
+  - To avoid unnecessary repetition of content, this section describes common features that apply to all keywords described in the next section…
 - **Generic Procedure** _(p.389)_ <a id="generic-procedure"></a>
-  - When neither the material name nor the solution name is used in the implementation of a callback procedure, it is a generic procedure and can be used for several materials and solutions.
-  - _Keywords:_ procedure, generic, neither, material, solution, implementation, callback, several
+  - When neither the material name nor the solution name is used in the implementation of a callback procedure, it is a generic procedure and c…
 - **Cleaning Up Equation Strings: InitProc** _(p.389)_ <a id="cleaning-up-equation-strings-initproc"></a>
   - The InitProc keyword specifies the name of the callback procedure that cleans up equation strings.
-  - _Keywords:_ procedure, callback, ResetEquations, InitProc, equation, Silicon, pdbSetString, unsets
 - **Constructing Equation Strings: EquationProc** _(p.390)_ <a id="constructing-equation-strings-equationproc"></a>
   - The EquationProc keyword specifies the name of the callback procedure that constructs the equation string in the parameter database.
-  - _Keywords:_ procedure, SetEquations, callback, equation, Silicon, Sol, EquationProc, pdbSetString
 - **Summary** _(p.391)_ <a id="summary"></a>
-  - You have been shown how to set up PDEs and boundary conditions, and to initialize solution variables. The example can be divided into three parts.
-  - _Keywords:_ solution, variables, models, database, defines, pdbSetString, Silicon, You
+  - You have been shown how to set up PDEs and boundary conditions, and to initialize solution variables. The example can be divided into three…
 - **References** _(p.392–393)_ <a id="references"></a>
-  - [1] R. E. Bank et al., “Transient Simulation of Silicon Devices and Circuits,” IEEE Transactions on Electron Devices, vol. ED-32, no. 10, pp. 1992–2007, 1985.
-  - _Keywords:_ Devices, Bank, Transient, Simulation, Silicon, Circuits, IEEE, Transactions
+  - [1] R. E. Bank et al., “Transient Simulation of Silicon Devices and Circuits,” IEEE Transactions on Electron Devices, vol. ED-32, no. 10, p…
 - **Syntax Conventions** _(p.392–394)_ <a id="syntax-conventions"></a>
   - The commands are designed to optimize the use of the tool command language (Tcl).
-  - _Keywords:_ syntax, Replace, braces, Tcl, indicate, enclosed, brackets, arguments
 - **Example of Command Syntax** _(p.395)_ <a id="example-of-command-syntax"></a>
   - An example of command syntax is:
-  - _Keywords:_ argument, arguments, specify, between, syntax, argument1, argument2, argument3
 - **Common Arguments** <a id="common-arguments"></a>
-  - Nearly all Sentaurus Interconnect commands (with the exception of those implemented as Tcl procedures as well as a few others) support two common optional arguments:
-  - _Keywords:_ arguments, argument, information, Tcl, procedures, amount, printed, screen
+  - Nearly all Sentaurus Interconnect commands (with the exception of those implemented as Tcl procedures as well as a few others) support two…
 - **Quantities and Units for Command Arguments** _(p.396–400)_ <a id="quantities-and-units-for-command-arguments"></a>
-  - Table 30 lists the quantities and units for arguments used in the commands. Many command arguments specify physical values. Such arguments are given a quantity, and any unit of a given quantity can be used. The factor listed is the value...
-  - _Keywords:_ rowspan, Angs, arguments, density, Current, Power, quantity, factor
+  - Table 30 lists the quantities and units for arguments used in the commands. Many command arguments specify physical values. Such arguments…
 - **alias** _(p.400)_ <a id="alias"></a>
   - Sets and prints aliases.
-  - _Keywords:_ prints, aliases
 - **Syntax** _(p.400)_ <a id="syntax"></a>
   - ```txt alias <c> [<c>] [-list] ```
 - **Arguments** <a id="arguments"></a>
-  - ```txt <c> If one argument is specified, only one alias for this value is printed. If two arguments are specified, a new alias is set. -list Prints a list of allowed aliases. ```
-  - _Keywords:_ specified, argument, printed, arguments, Prints, allowed, aliases
+  - ```txt <c> If one argument is specified, only one alias for this value is printed. If two arguments are specified, a new alias is set. -lis…
 - **Description** <a id="description"></a>
   - This interactive mode command sets and prints aliases.
-  - _Keywords:_ aliases, argument, printed, interactive, prints, allowed, Otherwise, corresponding
 - **Examples** _(p.401)_ <a id="examples"></a>
   - Set a new alias of Temperature:
-  - _Keywords:_ Temp, Temperature, Print, allowed, aliases
 - **ArrBreak** _(p.401–402)_ <a id="arrbreak"></a>
   - Creates two Arrhenius expressions that depend on a break temperature.
-  - _Keywords:_ Creates, Arrhenius, expressions, depend, temperature
 - **Syntax** _(p.402)_ <a id="syntax"></a>
   - ```txt ArrBreak <n> <n> <n> <n> <n> ```
-  - _Keywords:_ ArrBreak
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ argument, prefactor, second, activation, energy, Arrhenius, expression, fourth
 - **Description** <a id="description"></a>
   - This command creates two Arrhenius expressions and switches from the first expression to the second one at the given break temperature.
-  - _Keywords:_ temperature, Arrhenius, expression, second, computed, creates, expressions, switches
 - **Examples** <a id="examples"></a>
-  - Create two Arrhenius expressions – $3 . 0 ~ e ^ { - 0 . 5 / k _ { \mathrm { B } } T }$ and $2 . 0 ~ e ^ { - 0 . 4 / k _ { \mathrm { B } } T }$ – with a break temperature of $8 2 5 ^ { \circ } \mathrm { C }$ . The first Arrhenius expressi...
-  - _Keywords:_ mathrm, Arrhenius, expression, computed, Create, expressions, temperature, second
+  - Create two Arrhenius expressions – $3 . 0 ~ e ^ { - 0 . 5 / k _ { \mathrm { B } } T }$ and $2 . 0 ~ e ^ { - 0 . 4 / k _ { \mathrm { B } } T…
 - **Arrhenius** <a id="arrhenius"></a>
   - Creates an Arrhenius expression.
-  - _Keywords:_ Creates, Arrhenius, expression
 - **Syntax** <a id="syntax"></a>
   - ```txt Arrhenius <n> <n> ```
-  - _Keywords:_ Arrhenius
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ argument, prefactor, second, activation, energy, Arrhenius, expression
 - **Description** <a id="description"></a>
   - This command creates an Arrhenius expression.
-  - _Keywords:_ creates, Arrhenius, expression
 - **Examples** _(p.403)_ <a id="examples"></a>
   - Create the Arrhenius expression $4 . 0 ~ e ^ { - 0 . 5 / k _ { \mathrm { B } } T } ;$
-  - _Keywords:_ Arrhenius, Create, expression, mathrm
 - **beam** _(p.403)_ <a id="beam"></a>
   - Creates a beam for multiple-beam etching.
-  - _Keywords:_ Creates, multiple, etching
 - **Syntax** _(p.403)_ <a id="syntax"></a>
   - ```txt beam name=<c> (direction= {<x> <y>} | incidence=<n>) factor=<n> [list] ```
-  - _Keywords:_ direction, incidence, factor
 - **Arguments** <a id="arguments"></a>
   - direction
-  - _Keywords:_ direction, incidence, Defines, vector, factor, implies, entering, towards
 - **Description** _(p.404)_ <a id="description"></a>
-  - This command defines the direction and relative strength of etchant beams. The beam name is referenced in the etch command. The angle of incidence of the beam can be given using direction or incidence. The relative strength factor is use...
-  - _Keywords:_ direction, strength, relative, incidence, defines, etchant, referenced, factor
+  - This command defines the direction and relative strength of etchant beams. The beam name is referenced in the etch command. The angle of in…
 - **Examples** _(p.404)_ <a id="examples"></a>
-  - Define a vertical beam called source1 and a beam called source2 at half the strength of source1 at an angle of (positive angle implies that the beam travels from the upper left10° to the lower right). A third beam called source3 at one-t...
-  - _Keywords:_ source1, called, factor, source2, strength, source3, incidence, Define
+  - Define a vertical beam called source1 and a beam called source2 at half the strength of source1 at an angle of (positive angle implies that…
 - **See Also** _(p.405)_ <a id="see-also"></a>
-  - etch on page 425
 - **bound** _(p.405–406)_ <a id="bound"></a>
   - Extracts the boundary of a material or region, and returns the outline as a list of coordinates.
-  - _Keywords:_ Extracts, boundary, material, region, outline, coordinates
 - **Syntax** _(p.406)_ <a id="syntax"></a>
   - ```txt bound <material> | region=<c> [list.all] ```
-  - _Keywords:_ material, region
 - **Arguments** <a id="arguments"></a>
   - ```txt <material> ```
-  - _Keywords:_ boundary, region, material, Specifying, extracts, regions, ordering, listed
 - **Description** <a id="description"></a>
-  - This command is used to plot the limits of the regions for further processing. It returns a list of lists of coordinates of the boundary. The outer lists are distinct parts of the regions. Each outer list comprises a complete circle arou...
-  - _Keywords:_ regions, around, coordinate, limits, further, processing, coordinates, boundary
+  - This command is used to plot the limits of the regions for further processing. It returns a list of lists of coordinates of the boundary. T…
 - **Examples** <a id="examples"></a>
   - Return the boundary of oxide material:
-  - _Keywords:_ boundary, region, Silicon, material
 - **boundary** <a id="boundary"></a>
-  - Controls the conversion of GC structures generated by Sentaurus Process Explorer into the boundary representation (brep) used by Sentaurus Interconnect.
-  - _Keywords:_ Sentaurus, Controls, conversion, structures, generated, Process, Explorer, boundary
+  - Controls the conversion of GC structures generated by Sentaurus Process Explorer into the boundary representation (brep) used by Sentaurus…
 - **Syntax** _(p.407)_ <a id="syntax"></a>
-  - ```txt boundary [spx2brep.advanced.neighbor.ratio=<n>] [spx2brep.advanced.smoothing] [spx2brep.advanced.tolerance=<n>] [spx2brep.advanced.vertical.aspect.ratio=<n>] [spx2brep.advanced.vertical.resolution=<n>] [spx2brep.method= Advanced |...
-  - _Keywords:_ spx2brep, standard, advanced, decimation, tolerance, vertical, accuracy, boundary
+  - ```txt boundary [spx2brep.advanced.neighbor.ratio=<n>] [spx2brep.advanced.smoothing] [spx2brep.advanced.tolerance=<n>] [spx2brep.advanced.v…
 - **Arguments** _(p.408)_ <a id="arguments"></a>
   - spx2brep.advanced.neighbor.ratio
-  - _Keywords:_ algorithm, spx2brep, conversion, resolution, advanced, tolerance, vertical, smoothing
 - **A: Commands boundary** _(p.408–409)_ <a id="a-commands-boundary"></a>
   - spx2brep.mls.decimatebrep
-  - _Keywords:_ spx2brep, decimation, standard, specified, tolerance, structure, performed, during
 - **Description** _(p.409–410)_ <a id="description"></a>
-  - Conversions occur when Sentaurus Interconnect reads a TDR GC file using the init command. After the init command is executed, Sentaurus Interconnect works as usual, using the MGOALS module to produce structures.
-  - _Keywords:_ Sentaurus, Interconnect, Conversions, TDR, After, executed, MGOALS, module
+  - Conversions occur when Sentaurus Interconnect reads a TDR GC file using the init command. After the init command is executed, Sentaurus Int…
 - **circuit** _(p.410)_ <a id="circuit"></a>
   - Defines a circuit for mixed-mode simulation.
-  - _Keywords:_ Defines, circuit, simulation
 - **Syntax** _(p.410–411)_ <a id="syntax"></a>
-  - ```txt circuit [add] [clear] [contact] [current] [electrodes= {<c> <c>}] [element] [instance.parameters= {<c>}] [interconnect= { {<c> <c>} {<c> <c>} }] [list] [model.name=<c>] [name=<c>] [node] [print] [set= { {<c> <n>} {<c> <n>} }] [<so...
-  - _Keywords:_ circuit, contact, current, electrodes, element, instance, interconnect, solution
+  - ```txt circuit [add] [clear] [contact] [current] [electrodes= {<c> <c>}] [element] [instance.parameters= {<c>}] [interconnect= { {<c> <c>}…
 - **Arguments** <a id="arguments"></a>
   - add
-  - _Keywords:_ circuit, element, information, Specifies, Retrieves, contact, thermodes, solution
 - **Description** <a id="description"></a>
   - This command adds circuit elements to a mixed-mode simulation. It also can be used to obtain information about circuit nodes and elements.
-  - _Keywords:_ circuit, elements, simulation, obtain, information
 - **Examples** _(p.412)_ <a id="examples"></a>
-  - Add a circuit element (resistor) that is derived from the model Resistor\_pset. The name of the element is r3, and its electrodes are 1 and 0. The circuit element resistance is 1000 units:
-  - _Keywords:_ circuit, element, electrodes, resistance, Add, resistor, derived, Resistor
+  - Add a circuit element (resistor) that is derived from the model Resistor\_pset. The name of the element is r3, and its electrodes are 1 and…
 - **A: Commands** _(p.412–413)_ <a id="a-commands"></a>
   - circuit
-  - _Keywords:_ circuit, current, contacts, physical, device, connected, contact, Print
 - **Compatibility** _(p.413)_ <a id="compatibility"></a>
   - Applies parameters consistent with the default values of a previous release.
-  - _Keywords:_ Compatibility, Applies, consistent, previous, release, subsequent, depend, account
 - **Syntax** <a id="syntax"></a>
   - Compatibility <c>
-  - _Keywords:_ Compatibility
 - **Arguments** <a id="arguments"></a>
   - <c>
-  - _Keywords:_ release, Specifies, Aliases, available, releases, necessary, foundation, letter
 - **Description** <a id="description"></a>
-  - The most recent release parameters are set first, followed by older releases in reverse chronological order. For example, the command Compatibility L-2016.03 issued for Version O-2018.06 first applies parameters consistent with N-2017.09...
-  - _Keywords:_ consistent, recent, release, followed, releases, reverse, chronological, Compatibility
+  - The most recent release parameters are set first, followed by older releases in reverse chronological order. For example, the command Compa…
 - **Examples** _(p.414)_ <a id="examples"></a>
   - Apply parameters consistent with Version N-2017.09:
-  - _Keywords:_ Apply, consistent, Version, Compatibility
 - **contact** _(p.414)_ <a id="contact"></a>
   - Defines a contact for subsequent simulation.
-  - _Keywords:_ contacts, Defines, contact, subsequent, simulation, defined, before, switch
 - **Syntax** _(p.415)_ <a id="syntax"></a>
-  - ```txt contact [add] [clear] [charge | current | power | temperature | voltage] [depth=<n>] [<um>] [left] [right] [back] [front] [top] [bottom] [list] [list.existing] [list.region] [merge=<list>] [name=<c>] [new.name=<c>] [precision=<n>]...
-  - _Keywords:_ region, material, contact, charge, current, temperature, voltage, bottom
+  - ```txt contact [add] [clear] [charge | current | power | temperature | voltage] [depth=<n>] [<um>] [left] [right] [back] [front] [top] [bot…
 - **Arguments** _(p.415–416)_ <a id="arguments"></a>
   - add
-  - _Keywords:_ contact, specified, region, material, elements, Specifies, cutting, boundary
 - **A: Commands** _(p.416–418)_ <a id="a-commands"></a>
   - contact
-  - _Keywords:_ contact, contacts, material, specified, region, elements, TDR, surface
 - **A: Commands** _(p.418)_ <a id="a-commands"></a>
   - contact
-  - _Keywords:_ contact, coordinates, Define, region, omitted, Width, micrometers, selected
 - **Description** <a id="description"></a>
-  - This command defines new contacts, deletes contacts, and prints contact information. The contact command can be called multiple times with the same name if the add argument is specified. In this case, the contact will have multiple parts.
-  - _Keywords:_ contacts, contact, multiple, transform, defines, deletes, prints, information
+  - This command defines new contacts, deletes contacts, and prints contact information. The contact command can be called multiple times with…
 - **Examples** _(p.419)_ <a id="examples"></a>
   - List all available contacts:
-  - _Keywords:_ contact, Define, contacts, region, simulation, domain, elements, containing
 - **See Also** _(p.420)_ <a id="see-also"></a>
   - integrate on page 480
-  - _Keywords:_ integrate, struct
 - **contour** _(p.420)_ <a id="contour"></a>
   - Plots a contour of the selected variable or named data field at the value specified on a 2D plot.
-  - _Keywords:_ Plots, contour, selected, variable, specified
 - **Syntax** _(p.420)_ <a id="syntax"></a>
-  - ```txt contour [color=<c>] [name=<c>] [print] [value=<n>] [x=<n>] [<m> | <cm> | <um> | <nm>] [y=<n>] [<m> | <cm> | <um> | <nm>] [z=<n>] [<m> | <cm> | <um> | <nm>] ```
-  - _Keywords:_ contour
+  - ```txt contour [color=<c>] [name=<c>] [print] [value=<n>] [x=<n>] [<m> | <cm> | <um> | <nm>] [y=<n>] [<m> | <cm> | <um> | <nm>] [z=<n>] [<m…
 - **Arguments** <a id="arguments"></a>
   - color
-  - _Keywords:_ contour, Specifies, plotted, concentration, dimensions, specified, supported, X11
 - **Description** _(p.421)_ <a id="description"></a>
-  - The value must be specified in the range of the computed variable. For example, if plotting log boron, the value must be in the range 10 to 20 not 1e10 to 1e20.
-  - _Keywords:_ specified, computed, variable, plotting, contour, assumes, screen, configured
+  - The value must be specified in the range of the computed variable. For example, if plotting log boron, the value must be in the range 10 to…
 - **Examples** _(p.421)_ <a id="examples"></a>
   - Draw a line at an isoconcentration of ${ 1 0 } ^ { 1 0 }$ :
-  - _Keywords:_ Draw, isoconcentration, contour
 - **See Also** _(p.422)_ <a id="see-also"></a>
   - Compatibility on page 391 plot.2d on page 563 slice on page 642
-  - _Keywords:_ Compatibility
 - **crack** _(p.422–424)_ <a id="crack"></a>
   - Defines a crack and its characteristic parameters.
-  - _Keywords:_ CZM, tolerance, Defines, characteristic, Syntax, degree, polarity, positive
 - **Arguments** <a id="arguments"></a>
   - angle.tolerance
-  - _Keywords:_ CZM, surface, normal, defined, specified, polygons, tolerance, definitions
 - **segments** <a id="segments"></a>
-  - Specifies a 1D line in two dimensions as a list of coordinates. Several coordinates can be specified at the same time. The first coordinate defines the beginning of a segment; the second coordinate defines the end of the segment; the thi...
-  - _Keywords:_ coordinates, coordinate, defines, segment, beginning, second, Specifies, dimensions
+  - Specifies a 1D line in two dimensions as a list of coordinates. Several coordinates can be specified at the same time. The first coordinate…
 - **tolerance** <a id="tolerance"></a>
   - Controls the snapping distance when processing the geometry features. Default: .1.0 –6×10 μ m
-  - _Keywords:_ Specify, coordinates, corner, enclosing, UCS, Controls, snapping, distance
 - **Description** <a id="description"></a>
   - This command defines a crack with a name, location, CZM law, material interface, normal direction to the crack surface, and tolerance.
-  - _Keywords:_ defines, location, CZM, material, interface, normal, direction, surface
 - **Examples** _(p.425)_ <a id="examples"></a>
-  - Define an initial crack along the interface between silicon and oxide. The crack is bounded by the specified minimum and maximum coordinates in the x-, y-, and z-directions with a snapping distance:
-  - _Keywords:_ tolerance, Define, coordinates, polygons, Silicon, dimensions, bounded, specified
+  - Define an initial crack along the interface between silicon and oxide. The crack is bounded by the specified minimum and maximum coordinate…
 - **See Also** _(p.426)_ <a id="see-also"></a>
   - CZM on page 407 polygon on page 573
-  - _Keywords:_ CZM, polygon
 - **current\_ramp** _(p.426)_ <a id="current-ramp"></a>
   - Defines a current profile for use with the supply command.
-  - _Keywords:_ Defines, current, profile, supply
 - **Syntax** _(p.426–427)_ <a id="syntax"></a>
-  - ```erb current_ramp (clear | list | name=<c>) [c.final=<n>] [<V>] [current=<n>] [<A>] [current.time=<n>] [<hr>|<min>|<s>] [delC=<n>[<A>] | delNC=<n>[<A>]] [hold] [last] [ramprate=<n>] [<A/s>|<A/min>] [reset.init.time] [time=<n>][<hr>|<mi...
-  - _Keywords:_ current, current_ramp, delC, delNC, ramprate
+  - ```erb current_ramp (clear | list | name=<c>) [c.final=<n>] [<V>] [current=<n>] [<A>] [current.time=<n>] [<hr>|<min>|<s>] [delC=<n>[<A>] |…
 - **Arguments** <a id="arguments"></a>
   - c.final
-  - _Keywords:_ current, specified, profiles, Defines, during, ramprate, action, Simulation
 - **Description** <a id="description"></a>
-  - This command specifies multiple-step current ramps and holds. It can be used to construct a complex current sequence to be simulated with the solve command.
-  - _Keywords:_ current, specifies, multiple, construct, complex, sequence, simulated
+  - This command specifies multiple-step current ramps and holds. It can be used to construct a complex current sequence to be simulated with t…
 - **Examples** <a id="examples"></a>
   - Define the current profile named cr1 with a current rate of 0.5e-3 V/s:
-  - _Keywords:_ current, Define, profile, ramprate
 - **See Also** _(p.428)_ <a id="see-also"></a>
   - solve on page 648
-  - _Keywords:_ supply
 - **CutLine2D** _(p.428)_ <a id="cutline2d"></a>
   - Computes the slice angle when given a cut in wafer coordinates.
-  - _Keywords:_ Computes, coordinates
 - **Syntax** _(p.428)_ <a id="syntax"></a>
   - ```html CutLine2D <x1> <y1> <x2> <y2> ```
-  - _Keywords:_ CutLine2D
 - **Arguments** <a id="arguments"></a>
   - ```html <x1> <y1> <x2> <y2> ```
-  - _Keywords:_ Endpoints, simulation, cutline, coordinates
 - **Description** <a id="description"></a>
-  - Given a cut in wafer coordinates defined by the endpoints (<x1>,<y1>) and $( < \mathbf { x } 2 > , < \mathbf { y } 2 > )$ , the CutLine2D command computes the slice angle.
-  - _Keywords:_ mathbf, Given, coordinates, defined, endpoints, CutLine2D, computes
+  - Given a cut in wafer coordinates defined by the endpoints (<x1>,<y1>) and $( < \mathbf { x } 2 > , < \mathbf { y } 2 > )$ , the CutLine2D c…
 - **Examples** <a id="examples"></a>
   - Set the cutline for the simulation from (0,0) to (1,0):
-  - _Keywords:_ cutline, simulation, CutLine2D
 - **See Also** _(p.429)_ <a id="see-also"></a>
   - Wafer Coordinate System on page 31 init on page 471
-  - _Keywords:_ Wafer, Coordinate, System
 - **CZM** _(p.429)_ <a id="czm"></a>
   - Defines the parameters for a cohesive zone model (CZM).
-  - _Keywords:_ Defines, cohesive, CZM
 - **Syntax** _(p.429–430)_ <a id="syntax"></a>
-  - ```ini CZM [clear] [delete] [law=<c>] [list] [mat.1=<c>] [mat.2=<c>] [name=<c>] [normal.critical.length=<n>] [<um>|<cm>|<m>|<nm>] [normal.stress.max=<n>] [<atm>|<GPa>|<MPa>|<KPa>|<Pa>|<dyn/cm2>] [normal.toughness=<n>] [<N/m>|<dyn/cm>] [p...
-  - _Keywords:_ normal, critical, length, stress, GPa, MPa, KPa, toughness
+  - ```ini CZM [clear] [delete] [law=<c>] [list] [mat.1=<c>] [mat.2=<c>] [name=<c>] [normal.critical.length=<n>] [<um>|<cm>|<m>|<nm>] [normal.s…
 - **Arguments** _(p.431)_ <a id="arguments"></a>
   - clear
-  - _Keywords:_ CZM, normal, material, critical, opening, maximum, specified, distance
 - **Description** <a id="description"></a>
   - This command defines the parameters (material, toughness, and maximum stresses for both normal and shear directions) for a CZM.
-  - _Keywords:_ defines, material, toughness, maximum, stresses, normal, directions, CZM
 - **Examples** <a id="examples"></a>
-  - Define an exponential CZM for cohesive surfaces within material Oxide. The material strength and the work of separation are given in both the normal and shear directions:
-  - _Keywords:_ normal, exponential, CZM, material, stress, MPa, toughness, critical
+  - Define an exponential CZM for cohesive surfaces within material Oxide. The material strength and the work of separation are given in both t…
 - **define** <a id="define"></a>
   - Defines a Tcl variable.
-  - _Keywords:_ Defines, Tcl, variable
 - **Syntax** <a id="syntax"></a>
   - ```erb define <name> <value> ```
-  - _Keywords:_ define
 - **Arguments** <a id="arguments"></a>
   - ```txt <name> ```
-  - _Keywords:_ defined, string
 - **Description** <a id="description"></a>
-  - The define command is equivalent to the Tcl command set, except that variables defined with set are not saved or re-stored in TDR files. Variables defined using the define command are saved or re-stored.
-  - _Keywords:_ define, equivalent, defined, stored, Tcl, except, variables, TDR
+  - The define command is equivalent to the Tcl command set, except that variables defined with set are not saved or re-stored in TDR files. Va…
 - **Examples** <a id="examples"></a>
   - Define the Tcl variable LG, which is stored in and loaded from a TDR file. It can be used in any Tcl expression:
-  - _Keywords:_ Tcl, Define, variable, stored, loaded, TDR, expression, define
 - **See Also** _(p.432)_ <a id="see-also"></a>
   - Tcl documentation for description of set syntax
-  - _Keywords:_ Tcl, documentation, description, syntax
 - **defineproc** _(p.432)_ <a id="defineproc"></a>
   - Defines a Tcl procedure.
-  - _Keywords:_ Defines, Tcl, procedure
 - **Syntax** _(p.432)_ <a id="syntax"></a>
   - ```txt defineproc <name> { <procedure_arguments> } { <body_of_procedure> } ```
-  - _Keywords:_ defineproc, procedure_arguments, body_of_procedure
 - **Arguments** <a id="arguments"></a>
   - ```txt <name> ```
-  - _Keywords:_ Tcl, procedure, procedure_arguments, arguments, body_of_procedure, Describes
 - **Description** <a id="description"></a>
-  - The defineproc command is equivalent to the Tcl command proc, except that procedures defined with proc are not saved or re-stored in TDR files. Procedures defined using defineproc are saved or re-stored.
-  - _Keywords:_ defineproc, equivalent, defined, stored, Tcl, except, procedures, TDR
+  - The defineproc command is equivalent to the Tcl command proc, except that procedures defined with proc are not saved or re-stored in TDR fi…
 - **Examples** _(p.433)_ <a id="examples"></a>
   - Define the Tcl procedure relerr, which is stored in and loaded from a TDR file:
-  - _Keywords:_ newVal, RefVal, relerr, deviation, my_err, LogFile, IL0, Compare
 - **See Also** _(p.433)_ <a id="see-also"></a>
   - Tcl documentation for description of proc syntax
-  - _Keywords:_ Tcl, documentation, description, syntax
 - **DeleteRefinementboxes** _(p.433)_ <a id="deleterefinementboxes"></a>
   - Deletes a set of refinement boxes based on a pattern.
-  - _Keywords:_ Deletes, refinement, pattern
 - **Syntax** <a id="syntax"></a>
   - DeleteRefinementboxes pattern=<c>
-  - _Keywords:_ DeleteRefinementboxes, pattern
 - **Arguments** <a id="arguments"></a>
   - pattern
-  - _Keywords:_ pattern, Specifies
 - **Description** <a id="description"></a>
-  - This command finds all the refinement boxes with names that match the defined pattern and deletes them. The pattern is expanded according to standard Tcl rules.
-  - _Keywords:_ pattern, refinement, defined, deletes, expanded, according, standard, Tcl
+  - This command finds all the refinement boxes with names that match the defined pattern and deletes them. The pattern is expanded according t…
 - **Examples** _(p.434)_ <a id="examples"></a>
   - Delete all refinement boxes that have names such as root\_1, root\_2, and root\_3:
-  - _Keywords:_ Delete, refinement, DeleteRefinementboxes, pattern
 - **deposit** _(p.434)_ <a id="deposit"></a>
   - Deposits a new layer.
-  - _Keywords:_ Deposits
 - **Syntax** _(p.434–435)_ <a id="syntax"></a>
-  - ```txt deposit ( [<material>] [anisotropic | crystal | fill | fourier | isotropic] [coord=<n>] [<m>|<cm>|<um>|<nm>] [thickness=<n>] [<m>|<cm>|<um>|<nm>] [1D] [Adaptive] [angle=<n>] [coeffs= {<A0><A1><A2> ... <An>}] [crystal.rate= { "<100...
-  - _Keywords:_ material, crystal, buried, anisotropic, fourier, isotropic, coeffs, polygon
+  - ```txt deposit ( [<material>] [anisotropic | crystal | fill | fourier | isotropic] [coord=<n>] [<m>|<cm>|<um>|<nm>] [thickness=<n>] [<m>|<c…
 - **Arguments** _(p.435–436)_ <a id="arguments"></a>
-  - 1D
-  - _Keywords:_ deposition, Adaptive, specified, crystal, thickness, Fourier, coeffs, depo_rate
+  - Usually, a polygon deposition automatically increases the dimension to two dimensions before performing the operation. Specify 1D to preven…
 - **A: Commands** _(p.436)_ <a id="a-commands"></a>
   - deposit
-  - _Keywords:_ deposit
 - **direction** _(p.436)_ <a id="direction"></a>
-  - Specifies the direction for directional deposition as a list of x- and y-coordinates of the deposition vector. The x-coordinate must be positive. Positive-y indicates a right-pointing deposition beam, and negative-y indicates a left-poin...
-  - _Keywords:_ deposition, indicates, pointing, Specifies, direction, directional, coordinates, vector
+  - Specifies the direction for directional deposition as a list of x- and y-coordinates of the deposition vector. The x-coordinate must be pos…
 - **doping** <a id="doping"></a>
   - List of names of doping profiles that have been previously defined with the doping command.
-  - _Keywords:_ species, doping, concentration, profiles, previously, defined, fieldname, These
 - **fields.values** <a id="fields-values"></a>
-  - List of parameters where the parameter name is the name of the field to be introduced in the deposited layer, and the value is the initial value, for example, fields.values= {Boron=1e18}. A list of fields of any name can be initialized w...
-  - _Keywords:_ fields, introduced, deposited, initial, Boron, initialized, argument, solution
+  - List of parameters where the parameter name is the name of the field to be introduced in the deposited layer, and the value is the initial…
 - **fill.buried** <a id="fill-buried"></a>
-  - By default, the material is deposited on the surface exposed to the upper gas region. If the structure has buried gas bubbles, they are untouched. Use fill.buried to deposit the deposition material inside those gas bubbles.
-  - _Keywords:_ material, buried, bubbles, deposited, surface, exposed, region, structure
+  - By default, the material is deposited on the surface exposed to the upper gas region. If the structure has buried gas bubbles, they are unt…
 - **fill.buried.interface** <a id="fill-buried-interface"></a>
   - Specifies the material with which to fill gas bubbles present at a material interface.
-  - _Keywords:_ material, present, Specifies, bubbles, interface, specified, already, simulation
 - **fill.buried.match.surrounding** _(p.437–440)_ <a id="fill-buried-match-surrounding"></a>
-  - Similar to fill.buried, but instead of depositing the deposition material inside gas bubbles, this option fills gas bubbles that are completely surrounded by a single material with that material, removing the bubbles from the domain enti...
-  - _Keywords:_ deposition, material, specified, performs, algorithm, deposited, polygon, argument
+  - Similar to fill.buried, but instead of depositing the deposition material inside gas bubbles, this option fills gas bubbles that are comple…
 - **Description** _(p.440)_ <a id="description"></a>
   - This command simulates a deposition step.
-  - _Keywords:_ simulates, deposition
 - **Examples** _(p.440)_ <a id="examples"></a>
   - Isotropic deposition of a oxide layer:0.2 μm
-  - _Keywords:_ deposit, thickness, isotropic, mathrm, deposition, nitride, fields, Isotropic
 - **See Also** _(p.441)_ <a id="see-also"></a>
   - doping on page 419
-  - _Keywords:_ doping, mgoals
 - **doping** <a id="doping"></a>
   - Defines a named piecewise linear doping profile that can be used with the deposit command.
-  - _Keywords:_ Defines, piecewise, linear, doping, profile, deposit
 - **Syntax** <a id="syntax"></a>
-  - ```coffeescript doping field=<c> name=<c> (depths=<list> | times=<list>) stress.values=<list> values=<list> [clear] [list] [location= vertex | element] [log.grad] ```
-  - _Keywords:_ coffeescript, doping, depths, stress, location, vertex, element
+  - ```coffeescript doping field=<c> name=<c> (depths=<list> | times=<list>) stress.values=<list> values=<list> [clear] [list] [location= verte…
 - **Arguments** _(p.442)_ <a id="arguments"></a>
   - clear
-  - _Keywords:_ depths, specifies, numeric, applied, deposition, specified, stress, Clears
 - **A: Commands doping** _(p.442)_ <a id="a-commands-doping"></a>
   - list
-  - _Keywords:_ doping, profile, stress, Numeric, specifications, location, Location, applied
 - **Description** <a id="description"></a>
-  - This command allows a doping profile specification that can be used inside the deposit command to add doping and other fields to the newly deposited layer (on either vertices or elements).
-  - _Keywords:_ doping, allows, profile, specification, inside, deposit, fields, deposited
+  - This command allows a doping profile specification that can be used inside the deposit command to add doping and other fields to the newly…
 - **Examples** <a id="examples"></a>
-  - Create a doping profile definition with the name init\_boron that consists of a boron profile linearly increasing from at the starting surface to at and beyond in the1 10 ×10 1 20 ×10 0.1 μm deposited layer. This doping profile definitio...
-  - _Keywords:_ doping, profile, depths, stress, definition, deposited, Create, _boron
+  - Create a doping profile definition with the name init\_boron that consists of a boron profile linearly increasing from at the starting surf…
 - **See Also** _(p.443)_ <a id="see-also"></a>
   - deposit on page 412
-  - _Keywords:_ deposit
 - **element** _(p.443)_ <a id="element"></a>
   - Extracts the grid for a specified material and returns the grid as a list of coordinates.
-  - _Keywords:_ Extracts, specified, material, coordinates
 - **Syntax** _(p.443)_ <a id="syntax"></a>
   - element <material> [region]
-  - _Keywords:_ element, material, region
 - **Arguments** <a id="arguments"></a>
   - <material>
-  - _Keywords:_ material, region, Specifying, Materials, Limits, specified
 - **Description** <a id="description"></a>
-  - This command can be used to plot the grid. It returns a list of coordinates that define the grid. Each of the outer lists makes up a continuous line through the grid. Each inner list contains coordinate pairs in order for that line.
-  - _Keywords:_ coordinates, define, continuous, through, contains, coordinate, available, simulations
+  - This command can be used to plot the grid. It returns a list of coordinates that define the grid. Each of the outer lists makes up a contin…
 - **Examples** _(p.444)_ <a id="examples"></a>
   - Return the grid of oxide material:
-  - _Keywords:_ material, element
 - **Enu2G** _(p.444)_ <a id="enu2g"></a>
   - Computes the shear modulus from Young’s modulus and the Poisson ratio.
-  - _Keywords:_ modulus, Computes, Young, Poisson
 - **Syntax** _(p.444)_ <a id="syntax"></a>
   - ```txt Enu2G <n> <n> ```
-  - _Keywords:_ Enu2G
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ Young, modulus, second, Poisson
 - **Description** <a id="description"></a>
   - The same units are assumed for all moduli.
-  - _Keywords:_ assumed, moduli
 - **Examples** _(p.445)_ <a id="examples"></a>
   - Compute the shear modulus from Young’s modulus (1.620e12 dyn/cm2 ) and the Poisson ratio (0.28):
-  - _Keywords:_ modulus, Compute, Young, Poisson, Enu2G
 - **Enu2K** _(p.445)_ <a id="enu2k"></a>
   - Computes the bulk modulus from Young’s modulus and the Poisson ratio.
-  - _Keywords:_ modulus, Computes, Young, Poisson
 - **Syntax** _(p.445)_ <a id="syntax"></a>
   - ```txt Enu2K <n> <n> ```
-  - _Keywords:_ Enu2K
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ Young, modulus, second, Poisson
 - **Description** <a id="description"></a>
   - The same units are assumed for all moduli.
-  - _Keywords:_ assumed, moduli
 - **Examples** _(p.446)_ <a id="examples"></a>
   - Compute the bulk modulus from Young’s modulus (1.620e12 dyn/cm2 ) and the Poisson ratio (0.28):
-  - _Keywords:_ modulus, Compute, Young, Poisson, Enu2K
 - **equation** _(p.446)_ <a id="equation"></a>
   - Allows test parsing and resolution of an equation string.
-  - _Keywords:_ Allows, parsing, resolution, equation, string
 - **Syntax** _(p.446)_ <a id="syntax"></a>
   - ```txt equation eqn=<c> [nodal] ```
-  - _Keywords:_ equation
 - **Arguments** <a id="arguments"></a>
   - eqn
-  - _Keywords:_ specified, String, checked, string
 - **Description** <a id="description"></a>
-  - The equation string is parsed, broken into pieces, and derivatives are taken and printed. This command is useful for debugging problems with the resolver and parsing, as equation strings can be tried before being run.
-  - _Keywords:_ equation, string, parsed, broken, pieces, derivatives, printed, useful
+  - The equation string is parsed, broken into pieces, and derivatives are taken and printed. This command is useful for debugging problems wit…
 - **Examples** <a id="examples"></a>
   - Parse and resolve the string exp(Potential\*\$Vti):
-  - _Keywords:_ Potential, Vti, Parse, resolve, string, equation
 - **See Also** _(p.447)_ <a id="see-also"></a>
   - solution on page 645
-  - _Keywords:_ solution
 - **etch** _(p.447–448)_ <a id="etch"></a>
   - Removes part or all of an exposed layer.
-  - _Keywords:_ isotropic, anisotropic, trapezoidal, bottom, thickness, coeffs, crystal, etchstop
 - **Arguments** _(p.448–450)_ <a id="arguments"></a>
-  - 1D
-  - _Keywords:_ etching, trapezoidal, Specifies, etchstop, dimensions, direction, Adaptive, bottom
+  - Usually, a polygon etching automatically increases the dimension to two dimensions before performing the operation. Set 1D to prevent this…
 - **A: Commands** _(p.450–452)_ <a id="a-commands"></a>
   - etch
-  - _Keywords:_ etching, algorithm, shadowing, levelset, material, overetch, polygon, etchstop
 - **A: Commands** _(p.452–453)_ <a id="a-commands"></a>
   - etch
-  - _Keywords:_ etching, performs, arguments, dimensions, thickness, argument, defined, bottom
 - **Description** _(p.453)_ <a id="description"></a>
-  - This command etches a layer exposed to the top gas. Several materials can be etched at the same time. There are different modes to perform etching:
-  - _Keywords:_ etching, MGOALS, etches, exposed, Several, materials, etched, different
+  - This command etches a layer exposed to the top gas. Several materials can be etched at the same time. There are different modes to perform…
 - **Examples** _(p.454)_ <a id="examples"></a>
   - Etch a silicon layer anisotropically in the direction indicated by direction. A mask0.2 μm called m1 is used during etching:
-  - _Keywords:_ silicon, direction, source1, Etch, etching, material, minute, shadowing
 - **A: Commands** _(p.454)_ <a id="a-commands"></a>
   - etch
-  - _Keywords:_ etching, source1, material, Silicon, trapezoidal, minutes, minute, ambient
 - **See Also** _(p.455)_ <a id="see-also"></a>
   - deposit on page 412
-  - _Keywords:_ deposit, mgoals
 - **exit** _(p.455)_ <a id="exit"></a>
   - Terminates the execution of Sentaurus Interconnect.
-  - _Keywords:_ Terminates, execution, Sentaurus, Interconnect
 - **Syntax** _(p.455)_ <a id="syntax"></a>
   - exit
 - **Description** <a id="description"></a>
   - This command can be used in interactive mode as well as in command files.
-  - _Keywords:_ interactive
 - **See Also** _(p.456)_ <a id="see-also"></a>
   - fbreak on page 437
-  - _Keywords:_ fbreak, fcontinue
 - **extract** _(p.456)_ <a id="extract"></a>
   - Extracts historical data during a solve step.
-  - _Keywords:_ Extracts, historical, during
 - **Syntax** _(p.456)_ <a id="syntax"></a>
-  - ```txt extract [clear] [command= {<c> <c> ...}] [extract.variable.names= {<c> <c> <c> ...}] [file.name=<c>] [name=<c>] [print] [syntax.check.value=<c>] ```
-  - _Keywords:_ extract, variable, syntax
+  - ```txt extract [clear] [command= {<c> <c> ...}] [extract.variable.names= {<c> <c> <c> ...}] [file.name=<c>] [name=<c>] [print] [syntax.chec…
 - **Arguments** _(p.457)_ <a id="arguments"></a>
   - clear
-  - _Keywords:_ variables, syntax, returned, during, Clears, stored, historical, interpolation
 - **Description** _(p.457)_ <a id="description"></a>
   - Specifies the commands for data extraction during a solve step.
-  - _Keywords:_ extracted, Specifies, extraction, during, historical, returned, Tcl, Typically
 - **Examples** _(p.458)_ <a id="examples"></a>
   - Extract and store the value of Potential at the position in the silicon for each solve0.04 μm step:
-  - _Keywords:_ extract, interpolate, select, report, location, extracted, Potential, variable
 - **A: Commands** _(p.458)_ <a id="a-commands"></a>
   - extract
-  - _Keywords:_ extract
 - **See Also** _(p.458–459)_ <a id="see-also"></a>
   - Extracting Values During solve Step: extract on page 332 interpolate on page 486
-  - _Keywords:_ Extracting, During, Step, extract, interpolate
 - **fbreak** _(p.459)_ <a id="fbreak"></a>
   - Starts interactive mode.
-  - _Keywords:_ Starts, interactive
 - **Syntax** _(p.459)_ <a id="syntax"></a>
   - fbreak
-  - _Keywords:_ fbreak
 - **Description** <a id="description"></a>
   - This command interrupts the execution of command files and starts the interactive mode.
-  - _Keywords:_ interrupts, execution, starts, interactive
 - **See Also** <a id="see-also"></a>
   - exit on page 433 fcontinue
-  - _Keywords:_ fcontinue
 - **fcontinue** <a id="fcontinue"></a>
   - Resumes execution of command files.
-  - _Keywords:_ Resumes, execution
 - **Syntax** <a id="syntax"></a>
   - fcontinue
-  - _Keywords:_ fcontinue
 - **Description** <a id="description"></a>
   - This interactive mode command resumes the execution of command files in batch mode.
-  - _Keywords:_ interactive, resumes, execution
 - **See Also** _(p.460)_ <a id="see-also"></a>
   - exit on page 433 fbreak
-  - _Keywords:_ fbreak
 - **fexec** _(p.460)_ <a id="fexec"></a>
   - Executes system commands.
-  - _Keywords:_ Executes, system
 - **Syntax** _(p.460)_ <a id="syntax"></a>
   - fexec
 - **Description** <a id="description"></a>
-  - Executes system calls through the Tcl command exec (with exactly the same syntax). Using fexec, the system calls are not executed during syntax-checking as they would be if the plain exec command were used. If there is an error in the ex...
-  - _Keywords:_ system, syntax, Executes, through, Tcl, exactly, executed, during
+  - Executes system calls through the Tcl command exec (with exactly the same syntax). Using fexec, the system calls are not executed during sy…
 - **Examples** <a id="examples"></a>
   - List the contents of the current directory:
-  - _Keywords:_ contents, current, directory
 - **See Also** <a id="see-also"></a>
   - Tcl documentation for description of exec syntax
-  - _Keywords:_ Tcl, documentation, description, syntax
 - **fproc** <a id="fproc"></a>
   - The defineproc and fproc commands are equivalent.
-  - _Keywords:_ defineproc, equivalent
 - **fset** _(p.461)_ <a id="fset"></a>
   - The define and fset commands are equivalent.
-  - _Keywords:_ define, equivalent
 - **generic\_step** _(p.461)_ <a id="generic-step"></a>
   - Define a process step in a generalized way.
-  - _Keywords:_ Define, process, generalized
 - **Syntax** _(p.461)_ <a id="syntax"></a>
-  - ```txt generic_step [<material>] [<par1>=<c>] [<par2>=<c>] ... [<parn>=<c>] [sde_proc=<c>] [sxx=<n>] [<atm>|<GPa>|<MPa>|<KPa>|<Pa>|<dyn/cm2>] [syy=<n>] [<atm>|<GPa>|<MPa>|<KPa>|<Pa>|<dyn/cm2>] [szz=<n>] [<atm>|<GPa>|<MPa>|<KPa>|<Pa>|<dyn...
-  - _Keywords:_ GPa, MPa, KPa, generic_step, material, sde_proc, temperature
+  - ```txt generic_step [<material>] [<par1>=<c>] [<par2>=<c>] ... [<parn>=<c>] [sde_proc=<c>] [sxx=<n>] [<atm>|<GPa>|<MPa>|<KPa>|<Pa>|<dyn/cm2…
 - **Arguments** <a id="arguments"></a>
   - ```txt <material> ```
-  - _Keywords:_ Specifies, defined, procedure, material, Sentaurus, Structure, Editor, temperature
 - **Description** _(p.462)_ <a id="description"></a>
-  - This command defines a process step that employs user-defined Sentaurus Structure Editor procedures for structure-geometry generation, and defines the temperature and intrinsic stresses for this step.
-  - _Keywords:_ defines, defined, intrinsic, stresses, process, employs, Sentaurus, Structure
+  - This command defines a process step that employs user-defined Sentaurus Structure Editor procedures for structure-geometry generation, and…
 - **Examples** _(p.462)_ <a id="examples"></a>
-  - Define a process step at temperature of $2 0 0 ^ { \circ } \mathrm { C }$ , define which structure geometry is generated by the user-defined Sentaurus Structure Editor procedure named mydepo1, and pass values of oxide, 0.1, Copper, depo4...
-  - _Keywords:_ mydepo1, temperature, procedure, Copper, thickness, region4, Define, process
+  - Define a process step at temperature of $2 0 0 ^ { \circ } \mathrm { C }$ , define which structure geometry is generated by the user-define…
 - **See Also** _(p.463)_ <a id="see-also"></a>
   - stressdata on page 653
-  - _Keywords:_ stressdata
 - **graphics** _(p.463)_ <a id="graphics"></a>
   - Controls the user interface of Sentaurus Visual (both the plot and field selection) from the command file.
-  - _Keywords:_ Controls, interface, Sentaurus, Visual, selection
 - **Syntax** _(p.463)_ <a id="syntax"></a>
-  - ```toml graphics [add.active] [add.dopants] [add.total] [cmd=<c>] [display.all= <list> | all] [display.border= <list> | all] [display.bulk= <list> | all] [display.field= <list> | all] [display.mesh= <list> | all] [field.1d.max=<n>] [fiel...
-  - _Keywords:_ display, graphics, active, dopants, border, linear, fields, aspect
+  - ```toml graphics [add.active] [add.dopants] [add.total] [cmd=<c>] [display.all= <list> | all] [display.border= <list> | all] [display.bulk=…
 - **Arguments** _(p.464–465)_ <a id="arguments"></a>
   - add.active, add.dopants, add.total
-  - _Keywords:_ fields, display, switch, graphics, arguments, These, displayed, simulations
 - **Description** _(p.466)_ <a id="description"></a>
-  - The graphics command controls plot settings in Sentaurus Visual and selects which fields are available for visualization. Plot settings also can be controlled directly using the user interface of Sentaurus Visual. However, if for example...
-  - _Keywords:_ fields, graphics, settings, Sentaurus, Visual, available, interface, controls
+  - The graphics command controls plot settings in Sentaurus Visual and selects which fields are available for visualization. Plot settings als…
 - **Examples** _(p.466)_ <a id="examples"></a>
   - In one dimension, add Vacancy to the list of fields that are displayed (or, in two dimensions and three dimensions, display Vacancy):
-  - _Keywords:_ Vacancy, graphics, dimensions, fields, display, aspect, boundaries, dimension
 - **See Also** _(p.467)_ <a id="see-also"></a>
   - Sentaurus™ Visual User Guide
-  - _Keywords:_ Sentaurus, Visual, Guide
 - **grid** _(p.467)_ <a id="grid"></a>
   - Sets meshing parameters, performs grid operations, and computes statistics about the mesh.
-  - _Keywords:_ meshing, performs, operations, computes, statistics
 - **Syntax** _(p.467)_ <a id="syntax"></a>
-  - ```txt grid [Gas] [get.bbox | get.bbox.cm | get.bbox.um | get.bulk.nodes | get.bulk.regions | get.dimension | get.elements | get.interface.nodes | get.interface.regions | get.max.angle | get.max.connectivity | get.max.edge | get.max.volu...
-  - _Keywords:_ volume, location, interface, vertices, normal, regions, connectivity, growth
+  - ```txt grid [Gas] [get.bbox | get.bbox.cm | get.bbox.um | get.bulk.nodes | get.bulk.regions | get.dimension | get.elements | get.interface.…
 - **Arguments: Regridding, Renaming, Refinement** _(p.468)_ <a id="arguments-regridding-renaming-refinement"></a>
   - 2D, 3D, FullD
-  - _Keywords:_ higher, dimension, FullD, Extrudes, issued, before, extruding, dimensions
 - **A: Commands grid** _(p.468)_ <a id="a-commands-grid"></a>
   - For three dimensions, two y-lines and two z-lines must have been specified. FullD extrudes to the highest possible dimension.
-  - _Keywords:_ dimensions, specified, FullD, extrudes, highest, possible, dimension
 - **Adaptive** _(p.468–469)_ <a id="adaptive"></a>
-  - If specified, Adaptive switches on adaptive meshing if remesh is specified. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 183. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ specified, returned, Adaptive, remesh, regions, material, region, smallest
+  - If specified, Adaptive switches on adaptive meshing if remesh is specified. Parameters for adaptive meshing are described in Adaptive Mesh…
 - **Arguments: Setting Mesh Parameters** _(p.470)_ <a id="arguments-setting-mesh-parameters"></a>
   - NOTE These arguments set the corresponding meshing parameters under pdbSet Grid SnMesh. See Table 19 on page 194 for more details.
-  - _Keywords:_ meshing, PDB, Specifies, Sentaurus, Mesh, constrained, maximum, elements
 - **A: Commands** _(p.470)_ <a id="a-commands"></a>
   - grid
-  - _Keywords:_ normal, meshing, PDB, interface, growth, factor, Specifies, increase
 - **Arguments: Grid Statistics** <a id="arguments-grid-statistics"></a>
   - Gas
-  - _Keywords:_ Gas, quality, material, specified, except, volume, measures, include
 - **Arguments: Reporting Grid Statistics** _(p.471–472)_ <a id="arguments-reporting-grid-statistics"></a>
   - get.bbox
-  - _Keywords:_ interface, dimensions, regions, maximum, Prints, bounding, structure, coordinates
 - **A: Commands** _(p.472–474)_ <a id="a-commands"></a>
   - grid
-  - _Keywords:_ volume, interface, minimum, elements, location, vertices, maximum, dimensions
 - **A: Commands** _(p.474)_ <a id="a-commands"></a>
   - grid
-  - _Keywords:_ volume, dimensions, reported, vertices, bounding, dimension, angles, degree
 - **Arguments: Boundary Representation (Brep) Statistics Reporting** _(p.475)_ <a id="arguments-boundary-representation-brep-statistics-reporting"></a>
   - get.brep.faces
-  - _Keywords:_ dimensions, minimum, coordinates, dihedral, location, degrees, length, statistics
 - **Arguments: Smoothing Boundary Representation (Brep)** _(p.475–476)_ <a id="arguments-smoothing-boundary-representation-brep"></a>
   - smooth.brep
-  - _Keywords:_ surface, DelPSC, MLS, algorithm, delpsc, features, triangles, accuracy
 - **Description** _(p.477)_ <a id="description"></a>
   - This command allows you to:
-  - _Keywords:_ statistics, quality, element, retrieve, returnArray, elements, regions, Measure
 - **Examples** _(p.478)_ <a id="examples"></a>
   - Recreate the mesh using currently specified refinements:
-  - _Keywords:_ elements, returnArray, obtuse, silicon, statistics, numNodes, numElements, Recreate
 - **A: Commands grid** _(p.478)_ <a id="a-commands-grid"></a>
   - Remove noise and sharp features from the brep:
-  - _Keywords:_ delpsc, resolution, Remove, features, smooth, accuracy, repair
 - **See Also** _(p.479)_ <a id="see-also"></a>
-  - line on page 495
 - **help** _(p.479)_ <a id="help"></a>
   - Prints a list of all commands available in Sentaurus Interconnect.
-  - _Keywords:_ Prints, available, Sentaurus, Interconnect
 - **Syntax** _(p.479)_ <a id="syntax"></a>
   - help
 - **Description** _(p.480)_ <a id="description"></a>
   - This command can be used in interactive mode as well as in command files.
-  - _Keywords:_ interactive
 - **icwb** _(p.480–481)_ <a id="icwb"></a>
   - IC WorkBench (ICWB)–related functions.
-  - _Keywords:_ polygon, domain, recenter, tessellations, WorkBench, ICWB, related, Syntax
 - **Description** _(p.482–484)_ <a id="description"></a>
-  - The keyword icwb introduces commands used to operate with ICWB TCAD layout files. The different uses of the keyword icwb are given here, along with their syntax and corresponding descriptions:
-  - _Keywords:_ domain, ICWB, polygon, current, domains, simulation, layout, defined
+  - The keyword icwb introduces commands used to operate with ICWB TCAD layout files. The different uses of the keyword icwb are given here, al…
 - **icwb.composite** _(p.484)_ <a id="icwb-composite"></a>
   - Loads a GDSII file for a 2D TCAD simulation based on composite simulation domains.
-  - _Keywords:_ simulation, Loads, GDSII, TCAD, composite, domains
 - **Syntax** _(p.484–485)_ <a id="syntax"></a>
-  - ```txt icwb.composite cell=<c> composite.domain.name= {<list>} gds.file=<c> layer.names= {<list>} layer.numbers= {<list>} sim2d.list= {{<n>} {<n>}} [scale=<n>] [stretches= {<c>= {<n>}}] ```
-  - _Keywords:_ composite, domain, stretches
+  - ```txt icwb.composite cell=<c> composite.domain.name= {<list>} gds.file=<c> layer.names= {<list>} layer.numbers= {<list>} sim2d.list= {{<n>…
 - **Arguments** <a id="arguments"></a>
   - cell
-  - _Keywords:_ domain, simulation, composite, GDSII, Specifies, Defines, layers, specified
 - **Description** <a id="description"></a>
   - This command is similar to the icwb gds.file=<c> command, but it applies to 2D composite simulation domains.
-  - _Keywords:_ similar, applies, composite, simulation, domains
 - **Examples** _(p.486)_ <a id="examples"></a>
-  - The following command loads the BCD.gds GDSII file and activates a 2D composite simulation domain consisting of two regular simulation domains called BJT1 and BJT2:
-  - _Keywords:_ composite, BCD, simulation, domain, BJT1, BJT2, LAYERS, GDSII
+  - The following command loads the BCD.gds GDSII file and activates a 2D composite simulation domain consisting of two regular simulation doma…
 - **icwb.contact.mask** _(p.486)_ <a id="icwb-contact-mask"></a>
   - Creates contacts for subsequent device simulations that are tied to a layer in the ICWB TCAD layout file.
-  - _Keywords:_ Creates, contacts, subsequent, device, simulations, ICWB, TCAD, layout
 - **Syntax** _(p.486)_ <a id="syntax"></a>
-  - ```txt icwb.contact.mask (label.name=<c> [distance=<n>] [label.in.polygon= 0 | 1] | layer.name=<c>) (box <material> [adjacent.material=<c>] [boxheight=<n>] [xhi=<n>] [xlo=<n>] | point <material> [replace] [x=<n>]) [name=<c>] [<other_argu...
-  - _Keywords:_ material, contact, distance, polygon, adjacent, boxheight, replace, other_arguments
+  - ```txt icwb.contact.mask (label.name=<c> [distance=<n>] [label.in.polygon= 0 | 1] | layer.name=<c>) (box <material> [adjacent.material=<c>]…
 - **Arguments** _(p.487)_ <a id="arguments"></a>
   - box, <material>, adjacent.material, boxheight, xhi, xlo
-  - _Keywords:_ contact, specified, material, polygon, layout, distance, boxheight, lateral
 - **Description** _(p.488)_ <a id="description"></a>
-  - This command serves as an interface between the ICWB TCAD layout and the contact command by automatically obtaining the lateral placement of the contact from the specified ICWB layer or text label location, taking the vertical placement ...
-  - _Keywords:_ contact, vertical, automatically, placement, argument, contacts, extent, determined
+  - This command serves as an interface between the ICWB TCAD layout and the contact command by automatically obtaining the lateral placement o…
 - **Examples** _(p.488–489)_ <a id="examples"></a>
-  - The following commands create contacts for subsequent device simulations tied to the layers named emitter and pdrain, and the text label drain, in the example ICWB TCAD layout file:
-  - _Keywords:_ contact, emitter, pdrain, replace, create, contacts, subsequent, device
+  - The following commands create contacts for subsequent device simulations tied to the layers named emitter and pdrain, and the text label dr…
 - **icwb.create.all.masks** _(p.489)_ <a id="icwb-create-all-masks"></a>
   - Creates positive and negative mask versions for all layers found in the currently active ICWB simulation domain.
-  - _Keywords:_ Creates, positive, negative, versions, layers, currently, active, ICWB
 - **Syntax** _(p.489)_ <a id="syntax"></a>
-  - ```txt icwb.create.all.masks [save.to.tdr= 0 | 1] [shift= {<dy> <dz>}] [stretchypos= {<yo> <dy>}] [stretchyneg= {<yo> <dy>}] [stretchzpos= {<zo> <dz>}] [stretchzneg= {<zo> <dz>}] [reflecty= <yo>] [reflectz= <zo>] ```
-  - _Keywords:_ create, stretchypos, stretchyneg, stretchzpos, stretchzneg, reflecty, reflectz
+  - ```txt icwb.create.all.masks [save.to.tdr= 0 | 1] [shift= {<dy> <dz>}] [stretchypos= {<yo> <dy>}] [stretchyneg= {<yo> <dy>}] [stretchzpos=…
 - **Arguments** _(p.490)_ <a id="arguments"></a>
   - See icwb.create.mask on page 468.
-  - _Keywords:_ create
 - **Description** _(p.490)_ <a id="description"></a>
   - The names of the masks are given by the layer names and the suffix \_p for the positive and \_n for the negative version of the mask.
-  - _Keywords:_ TRENCH, layout, create, Therefore, suffix, positive, negative, version
 - **icwb.create.mask** <a id="icwb-create-mask"></a>
   - Creates a mask for subsequent use in etch, deposit, or photo commands from one or more ICWB layers.
-  - _Keywords:_ Creates, subsequent, deposit, ICWB, layers
 - **Syntax** _(p.491)_ <a id="syntax"></a>
-  - ```txt icwb.create.mask layer.name= <c> | <list> [name=<c>] [polarity= positive | negative] [save.to.tdr= 0 | 1] [shift= {<dy> <dz>}] [stretchypos= {<yo> <dy>}] [stretchyneg= {<yo> <dy>}] [stretchzpos= {<zo> <dz>}] [stretchzneg= {<zo> <d...
-  - _Keywords:_ create, polarity, positive, negative, stretchypos, stretchyneg, stretchzpos, stretchzneg
+  - ```txt icwb.create.mask layer.name= <c> | <list> [name=<c>] [polarity= positive | negative] [save.to.tdr= 0 | 1] [shift= {<dy> <dz>}] [stre…
 - **Arguments** <a id="arguments"></a>
   - layer.name
-  - _Keywords:_ layers, before, creating, applied, polarity, TDR, GDS, stretch
 - **Description** <a id="description"></a>
-  - This command serves as an interface between the ICWB TCAD layout and the mask and polygon commands, and provides a convenient way to generate 1D, 2D, and 3D masks consisting of the points, segments, or polygons from one or more ICWB laye...
-  - _Keywords:_ ICWB, dimension, serves, interface, between, TCAD, layout, polygon
+  - This command serves as an interface between the ICWB TCAD layout and the mask and polygon commands, and provides a convenient way to genera…
 - **Examples** _(p.492)_ <a id="examples"></a>
   - The following commands create masks from the corresponding layers named by layer.name:
-  - _Keywords:_ create, NWELL, corresponding, layers, polarity, negative, NOTNWELL, NPDIFF
 - **See Also** _(p.492–493)_ <a id="see-also"></a>
   - deposit on page 412
-  - _Keywords:_ deposit, polygon
 - **init** _(p.493–494)_ <a id="init"></a>
   - Sets up the mesh and background doping levels.
-  - _Keywords:_ rangeY0, rangeZ0, rangeR0, rangedy1, rangedz1, rangeR1, rangedy2, rangedz2
 - **Arguments** _(p.494)_ <a id="arguments"></a>
 - **Adaptive** _(p.494)_ <a id="adaptive"></a>
-  - When loading a TDR file containing geometry but no mesh, a mesh is generated automatically. This argument determines whether adaptive meshing is used. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ loading, TDR, containing, geometry, generated, automatically, argument, determines
+  - When loading a TDR file containing geometry but no mesh, a mesh is generated automatically. This argument determines whether adaptive meshi…
 - **concentration** <a id="concentration"></a>
-  - Concentration of the incorporated data field. The only available unit is , but any nodalcm–3 quantity (with any internal unit) can be initialized with this argument if no unit is specified. Default value and unit: .0.0 cm–3
-  - _Keywords:_ Concentration, incorporated, available, nodalcm, quantity, internal, initialized, argument
+  - Concentration of the incorporated data field. The only available unit is , but any nodalcm–3 quantity (with any internal unit) can be initi…
 - **DelayFullD** <a id="delayfulld"></a>
-  - By default, Sentaurus Interconnect generates a minimum-dimensional structure, which will be extruded to higher dimensions when Sentaurus Interconnect encounters a mask. To generate a full-dimensional structure, use !DelayFullD.
-  - _Keywords:_ Sentaurus, Interconnect, dimensional, structure, generates, minimum, extruded, higher
+  - By default, Sentaurus Interconnect generates a minimum-dimensional structure, which will be extruded to higher dimensions when Sentaurus In…
 - **done** <a id="done"></a>
   - Returns 1 if the initialization is performed; otherwise, returns 0.
-  - _Keywords:_ initialization, performed, otherwise
 - **field** <a id="field"></a>
   - Name of the data field to be initialized everywhere in the structure.
-  - _Keywords:_ initialized, everywhere, structure
 - **fields.values** <a id="fields-values"></a>
-  - Specifies a list of parameters where the parameter name is the name of the field to be introduced in the bulk regions of the new structure, and the value is the initial value, for example, fields.values= {Boron=1e18}. A list of fields of...
-  - _Keywords:_ fields, Specifies, introduced, regions, structure, initial, Boron, initialized
+  - Specifies a list of parameters where the parameter name is the name of the field to be introduced in the bulk regions of the new structure,…
 - **load.commands** <a id="load-commands"></a>
   - Loads the commands in the TDR format file. Default: true.
-  - _Keywords:_ Loads, TDR, format
 - **<material>** <a id="material"></a>
   - Specifies a material for doping. It must be used with the field argument.
-  - _Keywords:_ Specifies, material, doping, argument
 - **mixed.mesh** _(p.495–497)_ <a id="mixed-mesh"></a>
-  - Sets the simulation structure to mixed-mesh mode, that is, it allows the presence of rectangles, bricks, prisms, and pyramids without converting them to triangles or tetrahedra.
-  - _Keywords:_ pillar, interface, circles, spacing, structure, variation, define, interfaces
+  - Sets the simulation structure to mixed-mesh mode, that is, it allows the presence of rectangles, bricks, prisms, and pyramids without conve…
 - **Description** _(p.498)_ <a id="description"></a>
-  - Sets up the mesh from either a rectangular specification or a file. The command also allows initialization of the background doping concentration and type.
-  - _Keywords:_ either, rectangular, specification, allows, initialization, background, doping, concentration
+  - Sets up the mesh from either a rectangular specification or a file. The command also allows initialization of the background doping concent…
 - **Examples** _(p.498)_ <a id="examples"></a>
   - Read in a structure previously saved using struct tdr=temp, which produces the file tmp\_sis.tdr:
-  - _Keywords:_ structure, mathrm, miscut, Initialize, fields, direction, Read, previously
 - **See Also** _(p.499)_ <a id="see-also"></a>
-  - CutLine2D on page 406
-  - _Keywords:_ CutLine2D, region, struct
+  - region on page 620
 - **insert** _(p.499)_ <a id="insert"></a>
   - Inserts segments into 1D structures, polygons into 2D structures, and polyhedra into 3D structures.
-  - _Keywords:_ structures, Inserts, segments, polygons, polyhedra
 - **Syntax** _(p.499)_ <a id="syntax"></a>
-  - ```ini insert polygon=<c> | polyhedron=<c> | segments= {<n1> <n2> ...} [Adaptive] [fields.values=<list>] [new.material=<c>] [new.region=<c>] [repair] [replace.materials= {<mat1> ... <matn>}] [replace.regions= {<reg1> ... <regn>} ```
-  - _Keywords:_ replace, insert, polygon, polyhedron, segments, Adaptive, fields, material
+  - ```ini insert polygon=<c> | polyhedron=<c> | segments= {<n1> <n2> ...} [Adaptive] [fields.values=<list>] [new.material=<c>] [new.region=<c>…
 - **Arguments** _(p.500)_ <a id="arguments"></a>
   - Adaptive
-  - _Keywords:_ Adaptive, fields, inserted, argument, segment, polyhedron, polygon, region
 - **A: Commands** _(p.500)_ <a id="a-commands"></a>
   - insert
-  - _Keywords:_ materials, polyhedron, insert, polygon, Specifies, repair, argument, simulation
 - **Description** _(p.501)_ <a id="description"></a>
-  - Segments are defined using the segments argument, but polygons and polyhedra must be defined using the polygon and polyhedron commands, respectively. You must specified one of the segments, polyhedron, or polygon arguments.
-  - _Keywords:_ polyhedron, polygon, materials, material, specified, segments, replace, replaced
+  - Segments are defined using the segments argument, but polygons and polyhedra must be defined using the polygon and polyhedron commands, res…
 - **Examples** _(p.501)_ <a id="examples"></a>
   - Etch the structure using a polyhedron called prism:
-  - _Keywords:_ polyhedron, material, called, insert, smallCube, polygon, structure, Replace
 - **See Also** _(p.502)_ <a id="see-also"></a>
   - Inserting Polyhedra on page 282
-  - _Keywords:_ Inserting, Polyhedra, polygon, polyhedron
 - **integrate** _(p.502)_ <a id="integrate"></a>
   - Returns the volume integration of the named quantity.
-  - _Keywords:_ volume, integration, quantity
 - **Syntax** _(p.502–503)_ <a id="syntax"></a>
-  - ```txt integrate [absolute] [average] [element] [interfaces] [<material>] [max= {<n> <n> <n>}] [min= {<n> <n> <n>}] [mode= mesh | boundary | jagged] [name=<c>] [region=<c>] [skipgas] [syntax.check.value=<c>] ```
-  - _Keywords:_ integrate, absolute, average, element, interfaces, material, boundary, jagged
+  - ```txt integrate [absolute] [average] [element] [interfaces] [<material>] [max= {<n> <n> <n>}] [min= {<n> <n> <n>}] [mode= mesh | boundary…
 - **Arguments** <a id="arguments"></a>
   - absolute
-  - _Keywords:_ integration, Specifies, quantity, returned, performed, specified, cutting, boundary
 - **Description** _(p.504)_ <a id="description"></a>
-  - This command integrates the field specified with the name argument (by default, the last unnamed select command field) over the entire structure or within a given box specified by min and max. If material is specified, the integration is...
-  - _Keywords:_ specified, quantity, integration, material, limited, regions, region, Tcl
+  - This command integrates the field specified with the name argument (by default, the last unnamed select command field) over the entire stru…
 - **Examples** _(p.505)_ <a id="examples"></a>
-  - Return the integral boron in all silicon regions in the structure, the volume of all silicon regions, and the combined boron dose in all silicon regions:
-  - _Keywords:_ silicon, volume, integrate, regions, structure, corner, integral, Boron
+  - Return the integral boron in all silicon regions in the structure, the volume of all silicon regions, and the combined boron dose in all si…
 - **interface** _(p.505)_ <a id="interface"></a>
   - Returns the location or the value of the selected data field at a material interface.
-  - _Keywords:_ location, selected, material, interface
 - **Syntax** _(p.505)_ <a id="syntax"></a>
-  - ```txt interface [All] [data] [<material>] [name=<c>] [p1= {<n> <n> <n>} p2= {<n> <n> <n>}] [precision=<n>] [region=<c>] [side=<c>] [syntax.check.value=<c>] [thickness] [x=<n>] [<m>| <cm>| <um>| <nm>] [y=<n>] [<m>| <cm>| <um>| <nm>] [z=<...
-  - _Keywords:_ interface, material, precision, region, syntax, thickness
+  - ```txt interface [All] [data] [<material>] [name=<c>] [p1= {<n> <n> <n>} p2= {<n> <n> <n>}] [precision=<n>] [region=<c>] [side=<c>] [syntax…
 - **Arguments** _(p.506)_ <a id="arguments"></a>
   - All
-  - _Keywords:_ specified, interface, returned, selected, material, Specifying, thickness, endpoints
 - **A: Commands** _(p.506)_ <a id="a-commands"></a>
   - interface
-  - _Keywords:_ region, thickness, specified, returned, interface, material, specify, syntax
 - **Description** _(p.507)_ <a id="description"></a>
-  - This command returns the position of an interface or returns the value of the selected data field if data is specified. Therefore, the command can be used to prepare plots of material thickness, silicon consumption, or material growth. I...
-  - _Keywords:_ interface, material, position, selected, specified, Therefore, prepare, thickness
+  - This command returns the position of an interface or returns the value of the selected data field if data is specified. Therefore, the comm…
 - **Examples** _(p.507)_ <a id="examples"></a>
   - Return the silicon–oxide interface at a lateral position of :1.0 μm
-  - _Keywords:_ interface, silicon, position, interfaces, between, dimensions, lateral, nitride
 - **See Also** _(p.508)_ <a id="see-also"></a>
   - interpolate on page 486
-  - _Keywords:_ interpolate
 - **interpolate** <a id="interpolate"></a>
   - Returns the requested position or value at a specified location.
-  - _Keywords:_ requested, position, specified, location
 - **Syntax** <a id="syntax"></a>
-  - ```txt interpolate <material> [extract.variable.names= {<c> <c> <c> ...}] [max | min] [name=<c>] [report.location] [syntax.check.value=<c>] [value=<n>] [x=<n>] [<m>| <cm>| <um>| <nm>] [y=<n>] [<m>| <cm>| <um>| <nm>] [z=<n>] [<m>| <cm>| <...
-  - _Keywords:_ interpolate, material, extract, variable, report, location, syntax
+  - ```txt interpolate <material> [extract.variable.names= {<c> <c> <c> ...}] [max | min] [name=<c>] [report.location] [syntax.check.value=<c>]…
 - **Arguments** _(p.509)_ <a id="arguments"></a>
   - ```txt <material> ```
-  - _Keywords:_ returned, report, syntax, arguments, simulations, material, Specify, either
 - **Description** <a id="description"></a>
-  - This powerful command analyzes simulation results. It returns the interpolated value of one coordinate given the other two coordinates in three dimensions defined by x- and y-variables, and the data field. It also works for 1D simulation...
-  - _Keywords:_ coordinate, Tcl, returned, specified, position, powerful, analyzes, simulation
+  - This powerful command analyzes simulation results. It returns the interpolated value of one coordinate given the other two coordinates in t…
 - **Examples** _(p.510)_ <a id="examples"></a>
   - Return the value of the data field at the position ( , ) in the oxide:1.0 μm 1.0 μm
-  - _Keywords:_ silicon, interpolate, crossings, position, vertical, horizontal
 - **A: Commands interpolate** _(p.510)_ <a id="a-commands-interpolate"></a>
   - Return the value of the data field at :1.0 μm
-  - _Keywords:_ interpolate, silicon, component, element, stress, StressEL, crossings, material
 - **See Also** _(p.511)_ <a id="see-also"></a>
   - interface on page 483
-  - _Keywords:_ interface
 - **j\_integral** _(p.511)_ <a id="j-integral"></a>
   - Calculates the J-integral of a crack and returns its value.
-  - _Keywords:_ Calculates, integral
 - **Syntax** _(p.511)_ <a id="syntax"></a>
-  - ```txt j_integral crack=<c> x=<n>[<m>|<cm>|<um>|<nm>] y=<n>[<m>|<cm>|<um>|<nm>] z=<n>[<m>|<cm>|<um>|<nm>] [CtIntegral | JvIntegral] [number=<n>] ```
-  - _Keywords:_ j_integral, CtIntegral, JvIntegral
+  - ```txt j_integral crack=<c> x=<n>[<m>|<cm>|<um>|<nm>] y=<n>[<m>|<cm>|<um>|<nm>] z=<n>[<m>|<cm>|<um>|<nm>] [CtIntegral | JvIntegral] [number…
 - **Arguments** _(p.512)_ <a id="arguments"></a>
   - crack
-  - _Keywords:_ integral, contour, evaluated, compute, materials, CtIntegral, JvIntegral, Specifies
 - **Description** _(p.512)_ <a id="description"></a>
-  - The return value can be used in a Tcl expression. The command must be used after a simulation, or after loading a TDR file that contains crack simulation results. For 3D cracks, an average value of the J-integral over the crack front is ...
-  - _Keywords:_ simulation, Tcl, expression, loading, TDR, contains, results, cracks
+  - The return value can be used in a Tcl expression. The command must be used after a simulation, or after loading a TDR file that contains cr…
 - **Examples** _(p.512–513)_ <a id="examples"></a>
-  - Calculate the J-integral of crack crk01 at point (4.0, 5.0, 0.0) over the first three contours, and assign the results to a Tcl variable the\_j:
-  - _Keywords:_ Calculate, integral, contours, assign, results, Tcl, variable, _integral
+  - Calculate the J-integral of crack crk01 at point (4.0, 5.0, 0.0) over the first three contours, and assign the results to a Tcl variable th…
 - **KG2E** _(p.513)_ <a id="kg2e"></a>
   - Computes Young’s modulus from the bulk modulus and the shear modulus.
-  - _Keywords:_ modulus, Computes, Young
 - **Syntax** _(p.513)_ <a id="syntax"></a>
   - ```txt KG2E <n> <n> ```
-  - _Keywords:_ KG2E
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ modulus, second
 - **Description** <a id="description"></a>
   - The same units are assumed for all moduli.
-  - _Keywords:_ assumed, moduli
 - **Examples** _(p.514)_ <a id="examples"></a>
   - Compute Young’s modulus from the bulk modulus 1.2272e12 dyn/cm2 and the shear modulus 6.328e11 dyn/cm2 :
-  - _Keywords:_ modulus, Compute, Young, KG2E
 - **KG2nu** _(p.514)_ <a id="kg2nu"></a>
   - Computes the Poisson ratio from the bulk modulus and the shear modulus.
-  - _Keywords:_ modulus, Computes, Poisson
 - **Syntax** _(p.514)_ <a id="syntax"></a>
   - ```txt KG2nu <n> <n> ```
-  - _Keywords:_ KG2nu
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ modulus, second
 - **Description** <a id="description"></a>
   - The same units are assumed for all moduli.
-  - _Keywords:_ assumed, moduli
 - **Examples** _(p.515)_ <a id="examples"></a>
   - Compute the Poisson ratio from the bulk modulus 1.2272e12 dyn/cm2 and the shear modulus 6.328e11 dyn/cm2 :
-  - _Keywords:_ modulus, Compute, Poisson, KG2nu
 - **layers** _(p.515)_ <a id="layers"></a>
   - Prints material interfaces and integrated data field values.
-  - _Keywords:_ Prints, material, interfaces, integrated
 - **Syntax** _(p.515)_ <a id="syntax"></a>
-  - ```ini layers [<material>] [merge] [name] [precision=<n>] [print.logfile] [region.names] [syntax.check.value=<c>] [x=<n>] [<m>|<cm>|<um>|<nm>] [y=<n>] [<m>|<cm>|<um>|<nm>] [z=<n>] [<m>|<cm>|<um>|<nm>] ```
-  - _Keywords:_ layers, material, precision, logfile, region, syntax
+  - ```ini layers [<material>] [merge] [name] [precision=<n>] [print.logfile] [region.names] [syntax.check.value=<c>] [x=<n>] [<m>|<cm>|<um>|<n…
 - **Arguments** _(p.516)_ <a id="arguments"></a>
   - ```txt <material> ```
-  - _Keywords:_ material, region, regions, Specifies, precision, reporting, layers, specified
 - **A: Commands layers** _(p.516–517)_ <a id="a-commands-layers"></a>
   - syntax.check.value
-  - _Keywords:_ syntax, returned, specified, during, constant, arguments, device, checking
 - **Description** _(p.517)_ <a id="description"></a>
-  - This command prints the material interfaces and integrates the selected data field in each region. It is most useful for examining doping because it gives the integrated doping in each layer. This command can be simulated with the integr...
-  - _Keywords:_ material, doping, prints, interfaces, integrates, selected, region, useful
+  - This command prints the material interfaces and integrates the selected data field in each region. It is most useful for examining doping b…
 - **Examples** <a id="examples"></a>
   - In a 1D simulation, list all material interfaces:
-  - _Keywords:_ simulation, material, interfaces, layers, Boron, lateral, position, integrate
 - **See Also** <a id="see-also"></a>
   - integrate on page 480
-  - _Keywords:_ integrate, interface, select, System
 - **line** <a id="line"></a>
   - Specifies the position and spacing of mesh lines.
-  - _Keywords:_ Specifies, position, spacing
 - **Syntax** <a id="syntax"></a>
-  - ```ini line location=<n>[<m>|<cm>|<um>|<nm>] (x | y | z) [clear] [mgoals] [spacing=<n>][<m>|<cm>|<um>|<nm>] [spacing.method= even | regular | smooth] [tag=<c>] [virtual.spacing] ```
-  - _Keywords:_ spacing, location, mgoals, method, regular, smooth, virtual
+  - ```ini line location=<n>[<m>|<cm>|<um>|<nm>] (x | y | z) [clear] [mgoals] [spacing=<n>][<m>|<cm>|<um>|<nm>] [spacing.method= even | regular…
 - **Arguments** _(p.518)_ <a id="arguments"></a>
   - clear
-  - _Keywords:_ spacing, interval, method, Lines, continuum, stored, UseLines, Mesh
 - **A: Commands** _(p.518)_ <a id="a-commands"></a>
   - line
-  - _Keywords:_ spacing, virtual, smooth, between, refinement, Distributes, grading, Lines
 - **Description** _(p.519)_ <a id="description"></a>
-  - The line command is used with the init and region commands to create the initial mesh. Only rectilinear structures can be specified with the line and region commands, that is, rectangular regions in two dimensions and cuboid-shaped regio...
-  - _Keywords:_ spacing, direction, region, dimensions, specified, UseLines, argument, create
+  - The line command is used with the init and region commands to create the initial mesh. Only rectilinear structures can be specified with th…
 - **Examples** _(p.519–520)_ <a id="examples"></a>
-  - There are three user-specified y-lines and two user-specified x-lines. Taking the y-lines as an example, there is a finer spacing in the center than at the edges. After processing, Sentaurus Interconnect produces a mesh with x-lines at 0...
-  - _Keywords:_ spacing, location, interval, specified, region, virtual, siflat, center
+  - There are three user-specified y-lines and two user-specified x-lines. Taking the y-lines as an example, there is a finer spacing in the ce…
 - **A: Commands** _(p.520)_ <a id="a-commands"></a>
   - line
-  - _Keywords:_ spacing, refinebox, normal, xrefine, yrefine, interface, materials, Silicon
 - **See Also** _(p.521)_ <a id="see-also"></a>
-  - init on page 471
-  - _Keywords:_ region
+  - region on page 620
 - **line\_edge\_roughness** _(p.521)_ <a id="line-edge-roughness"></a>
   - Adds line edge roughness (LER) to named masks.
-  - _Keywords:_ Adds, roughness, LER
 - **Syntax** _(p.521–522)_ <a id="syntax"></a>
-  - ```txt line_edge_roughness correlation.length=<n>[<m>|<cm>|<um>|<nm>] masks=<list> max Active segment length=<n>[<m>|<cm>|<um>|<nm>] normal="Y" | "Z" standard deviation=<n>[<m>|<cm>|<um>|<nm>] [max tries=<n>] [min.radius=<n>] [random res...
-  - _Keywords:_ length, random, line_edge_roughness, correlation, Active, segment, normal, standard
+  - ```txt line_edge_roughness correlation.length=<n>[<m>|<cm>|<um>|<nm>] masks=<list> max Active segment length=<n>[<m>|<cm>|<um>|<nm>] normal…
 - **Arguments** <a id="arguments"></a>
   - correlation.length
-  - _Keywords:_ LER, random, length, Specifies, deviation, normal, correlation, randomized
 - **Description** <a id="description"></a>
-  - This command adds LER to the named masks, along the mask edges normal to the given normal axis ("Y" or "Z"). LER can be added to a mask only once. See Boolean Masks on page 262.
-  - _Keywords:_ LER, normal, Boolean, Masks
+  - This command adds LER to the named masks, along the mask edges normal to the given normal axis ("Y" or "Z"). LER can be added to a mask onl…
 - **Examples** _(p.523)_ <a id="examples"></a>
-  - Add LER to the mask named mask1 along mask segments normal to the z-axis. These segments are subdivided into smaller segments of length smaller than or equal to 5 nm. LER is characterized by a correlation.length of 25 nm and standard.dev...
-  - _Keywords:_ LER, segments, length, normal, smaller, correlation, standard, deviation
+  - Add LER to the mask named mask1 along mask segments normal to the z-axis. These segments are subdivided into smaller segments of length sma…
 - **See Also** _(p.523)_ <a id="see-also"></a>
   - Line Edge Roughness Effect on page 264
-  - _Keywords:_ Line, Edge, Roughness, Effect
 - **load** _(p.523)_ <a id="load"></a>
   - Interpolates data from a TDR file onto the current mesh.
-  - _Keywords:_ Interpolates, TDR, current
 - **Syntax** <a id="syntax"></a>
-  - ```txt load tdr=<c> (merge | rename | replace | sum) [fast.tdr.ave=<list>] [flip (left | right | front | back | up | down)] [keep.outside] [material.specic] [offset= {<n> <n>}] [save.transform=<c>] [shift=<n>] [species=<list> actions=<li...
-  - _Keywords:_ transform, rename, replace, outside, material, specic, offset, species
+  - ```txt load tdr=<c> (merge | rename | replace | sum) [fast.tdr.ave=<list>] [flip (left | right | front | back | up | down)] [keep.outside]…
 - **Arguments** _(p.524)_ <a id="arguments"></a>
   - fast.tdr.ave
-  - _Keywords:_ TDR, bounding, current, outside, argument, direction, fields, Averages
 - **A: Commands** _(p.524–525)_ <a id="a-commands"></a>
   - load
-  - _Keywords:_ structure, datasets, material, TDR, Adds, actions, specific, interpolation
 - **transform** <a id="transform"></a>
-  - Provides a general interface for translating or rotating the structure to be loaded before interpolation. When loading 3D results to a 2D structure, since the 2D structure is assumed to be located at z=0, to obtain 3D data other than on ...
-  - _Keywords:_ structure, rotation, specified, dimensions, matrix, coordinate, offsetx, offsety
+  - Provides a general interface for translating or rotating the structure to be loaded before interpolation. When loading 3D results to a 2D s…
 - **Description** <a id="description"></a>
-  - This command interpolates data from TDR files onto the current mesh. There are several options for handling the new and old datasets. First, the actions can be applied individually to selected datasets using species and actions. If the s...
-  - _Keywords:_ datasets, species, actions, current, external, global, existing, dataset
+  - This command interpolates data from TDR files onto the current mesh. There are several options for handling the new and old datasets. First…
 - **Examples** _(p.526)_ <a id="examples"></a>
   - Replace all existing datasets with those in the file in\_sis.tdr:
-  - _Keywords:_ existing, replace, Potential, _User, Temperature, Replace, datasets, Load
 - **See Also** _(p.526–527)_ <a id="see-also"></a>
   - select on page 628
-  - _Keywords:_ select
 - **LogFile** _(p.527)_ <a id="logfile"></a>
   - Prints a message to the screen and to the log file.
-  - _Keywords:_ Prints, message, screen
 - **Syntax** _(p.527)_ <a id="syntax"></a>
   - ```txt LogFile <c> [IL0 | IL1 | IL2 | IL3] [PrintCommands] ```
-  - _Keywords:_ LogFile, IL0, IL1, IL2, IL3, PrintCommands
 - **Arguments** <a id="arguments"></a>
   - <c> Specifies the message to be printed to the screen and to the log file.
-  - _Keywords:_ Specifies, printed, screen, PrintCommands, message, IL0, IL1, IL2
 - **Description** <a id="description"></a>
-  - This command prints messages to the terminal window in which Sentaurus Interconnect is running and to the log file. If IL0, IL1, IL2, or IL3 is given and this command is called from within a Sentaurus Interconnect command, the message is...
-  - _Keywords:_ Sentaurus, Interconnect, prints, messages, terminal, window, running, IL0
+  - This command prints messages to the terminal window in which Sentaurus Interconnect is running and to the log file. If IL0, IL1, IL2, or IL…
 - **Examples** _(p.528)_ <a id="examples"></a>
   - Print the string "Step 25" to the screen and the log file:
-  - _Keywords:_ Print, Step, LogFile, DebugInfo, string, screen, contents, Tcl
 - **A: Commands** _(p.528–529)_ <a id="a-commands"></a>
   - LogFile
-  - _Keywords:_ LogFile, Test, subsequent, screen, PrintCommands
 - **mask** _(p.529)_ <a id="mask"></a>
   - Creates a mask for subsequent use in etch, deposit, or photo commands.
-  - _Keywords:_ segments, Creates, subsequent, deposit, Syntax, covered, status, materials
 - **Arguments** _(p.530)_ <a id="arguments"></a>
   - bbox
-  - _Keywords:_ simulation, domain, Boolean, covered, bounding, centimeters, Performs, operations
 - **A: Commands** _(p.530–531)_ <a id="a-commands"></a>
   - mask
-  - _Keywords:_ segments, simulation, regions, specified, domain, materials, direction, coordinate
 - **Description** <a id="description"></a>
-  - This command manages and creates masks for use with subsequent etch, deposit, or photo commands. Mask definitions are stored in TDR files and re-stored when loading a TDR file in the init command. Masks can be defined by rectangles, poly...
-  - _Keywords:_ stored, TDR, Masks, manages, creates, subsequent, deposit, Mask
+  - This command manages and creates masks for use with subsequent etch, deposit, or photo commands. Mask definitions are stored in TDR files a…
 - **Examples** _(p.532)_ <a id="examples"></a>
   - Define a mask named field:
-  - _Keywords:_ PolygonMask, information, LogFile, maskInfo, polyInfo, Define, position, previous
 - **A: Commands mask** _(p.532)_ <a id="a-commands-mask"></a>
   - Print the number of polygons in the mask named PolygonMask:
-  - _Keywords:_ polygons, PolygonMask, Print, LogFile, polyInfo, polygon, llength, lindex
 - **See Also** _(p.533)_ <a id="see-also"></a>
   - deposit on page 412
-  - _Keywords:_ deposit, polygon
 - **mater** _(p.533)_ <a id="mater"></a>
   - Returns a list of all materials in the current structure, and adds new materials to a global list.
-  - _Keywords:_ materials, current, structure, global
 - **Syntax** _(p.533)_ <a id="syntax"></a>
-  - ```txt mater [add] [alt.matername=<c>] [bbox | bbox.cm | bbox.um] [cropped.bbox] [cubic | hexagonal | orthorhombic] [horizontal.orient= {<n> <n> <n>}] [Interface] [lattice.const=<n>] [lattice.const.b=<n>] [lattice.const.c=<n>] [like.inte...
-  - _Keywords:_ lattice, orient, matername, cropped, hexagonal, orthorhombic, horizontal, Interface
+  - ```txt mater [add] [alt.matername=<c>] [bbox | bbox.cm | bbox.um] [cropped.bbox] [cubic | hexagonal | orthorhombic] [horizontal.orient= {<n…
 - **Arguments** _(p.534–535)_ <a id="arguments"></a>
   - add
-  - _Keywords:_ material, orient, lattice, specified, Specifies, crystalline, horizontal, vertical
 - **Description** _(p.536)_ <a id="description"></a>
-  - This command returns a list of all materials in the current structure. The format of the list is compatible with the material specification for the program. Bulk material names are returned if no arguments are given. Interface materials ...
-  - _Keywords:_ material, materials, Interface, bounding, current, structure, format, compatible
+  - This command returns a list of all materials in the current structure. The format of the list is compatible with the material specification…
 - **A: Commands** _(p.536)_ <a id="a-commands"></a>
   - mater
 - **Examples** _(p.536–537)_ <a id="examples"></a>
   - Add germanium material to the global material list and make it inherit the default values from silicon material:
-  - _Keywords:_ material, hexagonal, GaN, lattice, orient, Add, germanium, global
 - **math** _(p.537)_ <a id="math"></a>
   - Sets the numeric and matrix parameters. Parameters set with the math command are stored in TDR files by default.
-  - _Keywords:_ NegErrCntrl, numeric, matrix, stored, TDR, Syntax, AMS, FTS
 - **Arguments: Solver Selection** _(p.538–539)_ <a id="arguments-solver-selection"></a>
   - AMS.NegErrCntrl
-  - _Keywords:_ compatible, applies, Allows, stricter, control, negative, updates, results
 - **NegErrCntrl** <a id="negerrcntrl"></a>
-  - Allows stricter error control at each Newton iteration step by calculating the error from negative updates instead of damped results. NegErrCntrl can be switched on for individual solution variables in specific materials using:
-  - _Keywords:_ NegErrCntrl, solution, Allows, stricter, control, Newton, iteration, calculating
+  - Allows stricter error control at each Newton iteration step by calculating the error from negative updates instead of damped results. NegEr…
 - **pardiso, ils** <a id="pardiso-ils"></a>
   - Specifies the type of linear solver to apply to the system:
-  - _Keywords:_ ILS, solver, linear, selects, PARDISO, matrix, iterative, Specifies
 - **scale** <a id="scale"></a>
-  - Applies row/column scaling to the matrix in an attempt to make it better conditioned. This is a recommended argument. No scaling is performed if the modified Newton scheme (modNewton) is used.
-  - _Keywords:_ scaling, Applies, column, matrix, attempt, better, conditioned, recommended
+  - Applies row/column scaling to the matrix in an attempt to make it better conditioned. This is a recommended argument. No scaling is perform…
 - **Arguments: Newton Method** <a id="arguments-newton-method"></a>
   - fullNewton, modNewton
-  - _Keywords:_ modNewton, fullNewton, matrix, factorization, Newton, method, dimensions, ILS
 - **newtonDeriv** <a id="newtonderiv"></a>
   - Allows the Jacobian computation to be switched on during the modified Newton step. Default: false.
-  - _Keywords:_ Allows, Jacobian, computation, switched, during, modified, Newton
 - **newtonRate1** _(p.540)_ <a id="newtonrate1"></a>
-  - For the modified Newton method, if the solution for any of the Newton steps 1 through newtonSteps1 is newtonRate1 or more times better than the previous step, the next step
-  - _Keywords:_ Newton, modified, method, solution, through, newtonSteps1, newtonRate1, better
+  - For the modified Newton method, if the solution for any of the Newton steps 1 through newtonSteps1 is newtonRate1 or more times better than…
 - **A: Commands** _(p.540)_ <a id="a-commands"></a>
   - math
-  - _Keywords:_ Otherwise, perform, matrix, factorization
 - **newtonRate2** <a id="newtonrate2"></a>
-  - For the modified Newton method, if the solution for any of the Newton steps newtonSteps1+1 onwards is newtonRate2 or more times better than the previous step, the next step can be a solve-only step. Otherwise, the next step will perform ...
-  - _Keywords:_ Newton, modified, method, solution, newtonSteps1, onwards, newtonRate2, better
+  - For the modified Newton method, if the solution for any of the Newton steps newtonSteps1+1 onwards is newtonRate2 or more times better than…
 - **newtonStats** <a id="newtonstats"></a>
   - Prints information on Newton iterations.
-  - _Keywords:_ Prints, information, Newton, iterations
 - **newtonSteps1** <a id="newtonsteps1"></a>
-  - For the modified Newton method, any of the Newton steps 1 through newtonSteps1 must improve the solution by the factor newtonRate1 over the previous step. Otherwise, the next step will be a full Newton step. For Newton steps newtonSteps1...
-  - _Keywords:_ Newton, newtonSteps1, improve, solution, factor, Otherwise, modified, method
+  - For the modified Newton method, any of the Newton steps 1 through newtonSteps1 must improve the solution by the factor newtonRate1 over the…
 - **newtonTries1** <a id="newtontries1"></a>
   - Number of first modified Newton step breakdowns allowed before switching to the full Newton method. Default: 2.
-  - _Keywords:_ Newton, modified, breakdowns, allowed, before, switching, method
 - **Arguments: Time Discretization** <a id="arguments-time-discretization"></a>
   - milne, difference
-  - _Keywords:_ difference, method, Controls, whether, estimated, Milne, device, divided
 - **Arguments: Parallel Processing** _(p.541)_ <a id="arguments-parallel-processing"></a>
-  - Sentaurus Interconnect provides parallel processing for the matrix assembly, the box method, and the linear solvers by generating multiple threads to accelerate simulations on multicore shared-memory computers. By default, only one proce...
-  - _Keywords:_ Sentaurus, Interconnect, provides, parallel, processing, matrix, assembly, method
+  - Sentaurus Interconnect provides parallel processing for the matrix assembly, the box method, and the linear solvers by generating multiple…
 - **NOTE The following limitations apply:** _(p.541–542)_ <a id="note-the-following-limitations-apply"></a>
-  - The number of threads must not exceed the number of actual CPUs (cores) of the computer. Observe the following general recommendations to obtain the best results from a parallel run: Speedup is only obtained for sufficiently large proble...
-  - _Keywords:_ parallel, threads, assembly, You, matrix, solvers, different, Parallel
+  - The number of threads must not exceed the number of actual CPUs (cores) of the computer. Observe the following general recommendations to o…
 - **A: Commands** _(p.542–543)_ <a id="a-commands"></a>
   - math
-  - _Keywords:_ parallel, licenses, threads, license, numThreads, simulation, Sentaurus, numThreadsILS
 - **Arguments: Coordinate System Input and Output Selection** _(p.544)_ <a id="arguments-coordinate-system-input-and-output-selection"></a>
   - coord.dfise
-  - _Keywords:_ transformation, transform, translate, coordinate, Reads, writes, Both, rotation
 - **Arguments: General** _(p.544)_ <a id="arguments-general"></a>
   - use.interpolated.geom.coeff
-  - _Keywords:_ method, Switches, interpolated, interpolating, geometric, coefficients, TRBDF, reduces
 - **Description** <a id="description"></a>
   - This command is used to specify the:
-  - _Keywords:_ Different, specify, coordinate, systems, threads, arguments, parallel, processing
 - **Examples** _(p.545–546)_ <a id="examples"></a>
   - Use the ILS solver for mechanics in the 2D case:
-  - _Keywords:_ ILS, solver, PARDISO, ordering, compute, Newton, Use, specify
 - **mgoals** _(p.546)_ <a id="mgoals"></a>
   - Modifies the default parameters for geometric operations available in the MGOALS module.
-  - _Keywords:_ Modifies, geometric, operations, available, MGOALS, module
 - **Syntax** _(p.546)_ <a id="syntax"></a>
-  - ```ini mgoals [accuracy=<n>][<m>|<cm>|<um>|<nm>] [analytic.thickness=<n>][<m>|<cm>|<um>|<nm>] [aniso.etching.fragment.tol=<n>] [aniso.etching.protect.materials] [dx=<n> dy=<n> dz=<n>] [fill.buried] [fill.buried.interface=<material>] [fil...
-  - _Keywords:_ repair, levelset, buried, analytic, thickness, etching, resolution, deposit
+  - ```ini mgoals [accuracy=<n>][<m>|<cm>|<um>|<nm>] [analytic.thickness=<n>][<m>|<cm>|<um>|<nm>] [aniso.etching.fragment.tol=<n>] [aniso.etchi…
 - **Arguments** _(p.547–548)_ <a id="arguments"></a>
   - accuracy
-  - _Keywords:_ deposition, buried, material, etching, bubbles, analytic, argument, algorithm
 - **A: Commands mgoals** _(p.548–550)_ <a id="a-commands-mgoals"></a>
   - force.full.levelset, force.full.levelset.depo, force.full.levelset.etch
-  - _Keywords:_ repair, algorithm, etching, deposition, resolution, thickness, dimensions, levelset
 - **Arguments: Deprecated** <a id="arguments-deprecated"></a>
-  - The following arguments are deprecated since they belong to the deprecated MGOALS mesh generator: max.box.angle, max.lateral.size, max.neighbor.ratio, minedge, min.normal.size, normal.growth.ratio, and offsetting.maxlevel.
-  - _Keywords:_ arguments, deprecated, sliver, normal, equivalent, Sentaurus, Mesh, belong
+  - The following arguments are deprecated since they belong to the deprecated MGOALS mesh generator: max.box.angle, max.lateral.size, max.neig…
 - **Description** _(p.551)_ <a id="description"></a>
   - This command allows you to define parameters for MGOALS-related operations.
-  - _Keywords:_ allows, define, MGOALS, related, operations
 - **Examples** _(p.551–552)_ <a id="examples"></a>
-  - Explicitly set the vertical level-set mesh spacing to and the horizontal level-set mesh0.01 μm spacing to . Reinitialization of the level-set distance function is performed every five0.02 μm time steps, and every reinitialization is perf...
-  - _Keywords:_ spacing, performed, Explicitly, vertical, horizontal, Reinitialization, distance, reinitialization
+  - Explicitly set the vertical level-set mesh spacing to and the horizontal level-set mesh0.01 μm spacing to . Reinitialization of the level-s…
 - **mobility** _(p.552)_ <a id="mobility"></a>
   - Calculates the mobility enhancement for a planar device type or a 3D FinFET device type.
-  - _Keywords:_ device, Calculates, mobility, enhancement, planar, FinFET
 - **Syntax** _(p.552)_ <a id="syntax"></a>
-  - ```ini mobility device.model= finfet | planar region.name=<c> [carrier.type= 0 | 1] [channel.orient= 1 | 2] [piezo.coefficients= {P11=<n>, P12=<n>, P44=<n>}] ```
-  - _Keywords:_ mobility, device, finfet, planar, region, carrier, channel, orient
+  - ```ini mobility device.model= finfet | planar region.name=<c> [carrier.type= 0 | 1] [channel.orient= 1 | 2] [piezo.coefficients= {P11=<n>,…
 - **Arguments** <a id="arguments"></a>
   - carrier.type
-  - _Keywords:_ Specifies, channel, orient, device, carrier, orientation, either, Use
 - **Description** _(p.553)_ <a id="description"></a>
   - The mobility command calculates the mobility enhancement for a planar device type or a 3D FinFET device type.
-  - _Keywords:_ mobility, device, calculates, enhancement, planar, FinFET
 - **Examples** _(p.553–554)_ <a id="examples"></a>
   - Calculate the mobility enhancement in region Silicon using the planar model and the specified piezo coefficients:
-  - _Keywords:_ mobility, region, Silicon, planar, coefficients, Calculate, enhancement, specified
 - **mode** _(p.554)_ <a id="mode"></a>
   - Specifies the simulation mode.
-  - _Keywords:_ Specifies, simulation
 - **Syntax** <a id="syntax"></a>
-  - ```clojure mode [current | electrostatic] [gas] [mechanics] [thermal] ( [autosegment] | [bias.type=<c>] | ([capacitance | capacitance= {<c> <c> ...}] | [resistance | resistance= {<c> <c> ...}] | [thermal.RC.network= {("<c>[=<power>]") ("...
-  - _Keywords:_ thermal, resistance, capacitance, clojure, current, electrostatic, mechanics, autosegment
+  - ```clojure mode [current | electrostatic] [gas] [mechanics] [thermal] ( [autosegment] | [bias.type=<c>] | ([capacitance | capacitance= {<c>…
 - **Arguments** _(p.555–556)_ <a id="arguments"></a>
   - auto.segment
-  - _Keywords:_ contact, contacts, resistance, thermal, specified, capacitance, excitation, ground
 - **Description** <a id="description"></a>
   - Electric current analysis, electrostatic analysis, mechanics (stress analysis), and thermal analysis are solved.
-  - _Keywords:_ analysis, Electric, current, electrostatic, mechanics, stress, thermal, solved
 - **Examples** _(p.557)_ <a id="examples"></a>
   - Perform stress analysis and electrical current analysis:
-  - _Keywords:_ analysis, Perform, stress, current, mechanics, thermal, electrical
 - **See Also** _(p.557–558)_ <a id="see-also"></a>
   - Chapter 2 on page 45
 - **optimize** _(p.558)_ <a id="optimize"></a>
   - Optimizes the specified parameters to achieve the required target values.
-  - _Keywords:_ Optimizes, specified, achieve, required, target
 - **Syntax** _(p.558–560)_ <a id="syntax"></a>
-  - ```txt optimize model.function=<c> model.parameters= {<c1><c2><c3> ...} (target=<list> | target.file=<c>) [history=<c>] [max.iter=<n>] [min.abs=<list>] [min.rel=<list>] [param.init= {<c1>=<n><c2>=<n><c3>=<n> ...}] [param.log= {<c1><c2> ....
-  - _Keywords:_ target, optimize, history, tolerance, weight
+  - ```txt optimize model.function=<c> model.parameters= {<c1><c2><c3> ...} (target=<list> | target.file=<c>) [history=<c>] [max.iter=<n>] [min…
 - **Arguments** <a id="arguments"></a>
   - history
-  - _Keywords:_ target, targets, specified, optimization, variable, absolute, Tcl, procedure
 - **Description** <a id="description"></a>
-  - This command optimizes the specified parameters to achieve the required target values. Before using the optimize command, you must define a Tcl procedure that computes the results of the model, given a set of valid model parameters. The ...
-  - _Keywords:_ Tcl, optimizes, specified, achieve, required, target, Before, optimize
+  - This command optimizes the specified parameters to achieve the required target values. Before using the optimize command, you must define a…
 - **Examples** _(p.562)_ <a id="examples"></a>
-  - The following example is a procedure for a fitting problem. The global Tcl variable opt.independent.var was set to store the independent variable data after the input target file is loaded. You can use it directly in the user-defined Tcl...
-  - _Keywords:_ independent, procedure, global, Tcl, variable, target, optFunc, optimize
+  - The following example is a procedure for a fitting problem. The global Tcl variable opt.independent.var was set to store the independent va…
 - **option** _(p.562)_ <a id="option"></a>
   - Sets the storage and run options.
-  - _Keywords:_ storage
 - **Syntax** _(p.562–563)_ <a id="syntax"></a>
-  - ```txt option [boundary.contacts] [current=<list>] [file.name=<c>] [lumped.materials=<list>] [max.optimization.iter=<i>] [optimization.history.file=<c>] [optimization.tolerance=<n>] [param.init={R1=<n>C1=<n>R2=<n>C2=<n>}] [param.log={R<i...
-  - _Keywords:_ optimization, contacts, deform, boundary, current, lumped, materials, history
+  - ```txt option [boundary.contacts] [current=<list>] [file.name=<c>] [lumped.materials=<list>] [max.optimization.iter=<i>] [optimization.hist…
 - **Arguments** _(p.564)_ <a id="arguments"></a>
   - boundary.contacts
-  - _Keywords:_ specified, optimization, thermal, Specifies, network, extraction, contacts, during
 - **A: Commands option** _(p.564)_ <a id="a-commands-option"></a>
-  - values are set manually and some are not, the remaining parameters, which were not set manually, receive the values that are the default for param.lower of the optimize command, that is, 0.0.
-  - _Keywords:_ manually, remaining, receive, optimize
+  - values are set manually and some are not, the remaining parameters, which were not set manually, receive the values that are the default fo…
 - **param.upper** _(p.564)_ <a id="param-upper"></a>
-  - Specifies a list of the upper bound values of parameters during thermal RC network extraction. R<i> are specified in K/W, and C<i> are specified in J/K. If this argument is not specified, all R<i> = 1.0e6 K/W and all C<i> = 1.0e4 J/K. If...
-  - _Keywords:_ specified, manually, Specifies, during, thermal, network, extraction, argument
+  - Specifies a list of the upper bound values of parameters during thermal RC network extraction. R<i> are specified in K/W, and C<i> are spec…
 - **probe.time** <a id="probe-time"></a>
   - List of time points the solution will be forced to move through if specified.
-  - _Keywords:_ points, solution, forced, through, specified
 - **resistance** <a id="resistance"></a>
   - List of pair of contacts where resistance-versus-time information will be stored.
-  - _Keywords:_ contacts, resistance, versus, information, stored
 - **struct** <a id="struct"></a>
-  - Specifies a list of arguments for the struct command that will be executed at the simulation times specified by the probe.time argument of the option command. The names of the saved files will have the suffix \_<time>s, where <time> is t...
-  - _Keywords:_ struct, arguments, specified, argument, simulation, previously, corresponding, mechanics
+  - Specifies a list of arguments for the struct command that will be executed at the simulation times specified by the probe.time argument of…
 - **temperature** _(p.565)_ <a id="temperature"></a>
   - List of contacts or circuit nodes where temperature-versus-time information will be stored.
-  - _Keywords:_ contacts, circuit, versus, information, stored, thermal, network, voltage
 - **Description** <a id="description"></a>
-  - This command stores time-versus-total current, or time-versus-total voltage at contacts, or time-versus-resistance between pairs of contacts. For circuit simulations, it stores time-versustotal current between a circuit element and node ...
-  - _Keywords:_ versus, stores, current, voltage, contacts, between, circuit, thermal
+  - This command stores time-versus-total current, or time-versus-total voltage at contacts, or time-versus-resistance between pairs of contact…
 - **Examples: Usage for Structure Only** <a id="examples-usage-for-structure-only"></a>
   - Store time-versus-resistance information between the contacts upper and lower during timedependent simulations:
-  - _Keywords:_ contacts, versus, resistance, Store, information, current, voltage, temperature
 - **Examples: Usage for Mixed Mode** _(p.566)_ <a id="examples-usage-for-mixed-mode"></a>
   - Store time-versus-total current between the pairs of circuit element r1 and node left, and also between circuit element V2 and node grnd:
-  - _Keywords:_ Store, versus, current, between, circuit, element, voltage
 - **A: Commands option** _(p.566)_ <a id="a-commands-option"></a>
   - Store time-versus-temperature at the nodes n1 and n2:
-  - _Keywords:_ temperature, Store, versus, Force, solution, through, points, specified
 - **Examples: Usage of struct argument** <a id="examples-usage-of-struct-argument"></a>
-  - Store TDR files at certain simulation times, and save the test\_8000000e-09s\_sis.tdr and test\_1200000e-05s\_sis.tdr files (without using the PDB) during the corresponding subsequent solve command:
-  - _Keywords:_ struct, Store, TDR, certain, simulation, _8000000e, _1200000e, without
+  - Store TDR files at certain simulation times, and save the test\_8000000e-09s\_sis.tdr and test\_1200000e-05s\_sis.tdr files (without using…
 - **See Also** _(p.567)_ <a id="see-also"></a>
   - optimize on page 536
-  - _Keywords:_ optimize, struct, WritePlx
 - **paste** _(p.567)_ <a id="paste"></a>
   - Assembles 2D or 3D simulations by incorporating fragments from a TDR file.
-  - _Keywords:_ Assembles, simulations, incorporating, fragments, TDR
 - **Syntax** _(p.567)_ <a id="syntax"></a>
   - ```txt paste tdr=<c> direction="left" | "right" | "front" | "back" [Adaptive] ```
-  - _Keywords:_ direction, Adaptive
 - **Arguments** <a id="arguments"></a>
   - Adaptive
-  - _Keywords:_ Adaptive, adaptive, meshing, simulation, dimensions, pasted, specified, switches
 - **Description** _(p.568)_ <a id="description"></a>
-  - This command reads a TDR file containing valid geometry and appends it (pastes it) to the current structure. The new structure is displaced automatically by the correct amount to properly fit at the specified side, but the structures are...
-  - _Keywords:_ dimensions, TDR, structure, automatically, structures, containing, geometry, appends
+  - This command reads a TDR file containing valid geometry and appends it (pastes it) to the current structure. The new structure is displaced…
 - **A: Commands** _(p.568)_ <a id="a-commands"></a>
   - paste
 - **Examples** _(p.568)_ <a id="examples"></a>
   - Append the structure from the file propertyx\_sis.tdr to the right side (maximum ycoordinate) of the current structure:
-  - _Keywords:_ structure, propertyx, Append, maximum, ycoordinate, current, direction
 - **See Also** _(p.569)_ <a id="see-also"></a>
   - Inserting Polygons on page 281
-  - _Keywords:_ Inserting, Polygons, struct
 - **pdbDelayDouble** _(p.569)_ <a id="pdbdelaydouble"></a>
-  - Retrieves an expression for a double parameter that will be evaluated at each time step during the solution of the thermal and electrical equations.
-  - _Keywords:_ Retrieves, expression, double, evaluated, during, solution, thermal, electrical
+  - Retrieves an expression for a double parameter that will be evaluated at each time step during the solution of the thermal and electrical e…
 - **Syntax** _(p.569)_ <a id="syntax"></a>
   - ```txt pdbDelayDouble <c> <c> ... ```
-  - _Keywords:_ pdbDelayDouble
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
-  - This command is typically called from Alagator to retrieve a parameter expression. Since among other things, the temperature can change during a solve step, the evaluation of Arrhenius expressions must be delayed until the temperature is...
-  - _Keywords:_ temperature, typically, called, Alagator, retrieve, expression, Since, things
+  - This command is typically called from Alagator to retrieve a parameter expression. Since among other things, the temperature can change dur…
 - **Examples** _(p.570)_ <a id="examples"></a>
   - Return an expression for D0 (not a value):
-  - _Keywords:_ expression, pdbDelayDouble
 - **pdbdiff** _(p.570)_ <a id="pdbdiff"></a>
   - Compares the current structure with one from a TDR file.
-  - _Keywords:_ Compares, current, structure, TDR
 - **Syntax** _(p.570)_ <a id="syntax"></a>
   - ```txt pdbdiff <c> <c> ```
-  - _Keywords:_ pdbdiff
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ prefix, Specifies, TDR, compared, without
 - **Description** <a id="description"></a>
   - The command reports any differences between the parameters stored and any differences in value.
-  - _Keywords:_ differences, reports, between, stored
 - **Examples** _(p.571)_ <a id="examples"></a>
   - Compare the pdb differences between n1\_sis.tdr and n2\_sis.tdr:
-  - _Keywords:_ Compare, differences, between, pdbdiff
 - **pdbExprDouble** _(p.571)_ <a id="pdbexprdouble"></a>
   - Retrieves an expression for a double parameter without evaluating.
-  - _Keywords:_ Retrieves, expression, double, without, evaluating
 - **Syntax** _(p.571)_ <a id="syntax"></a>
   - ```txt pdbExprDouble <c> <c> ... ```
-  - _Keywords:_ pdbExprDouble
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
-  - This command is typically called from Alagator to retrieve a parameter expression. If the parameter depends on solution names, data fields, and so on, the evaluation of the expression must be delayed until the solution time. This command...
-  - _Keywords:_ expression, solution, typically, called, Alagator, retrieve, depends, fields
+  - This command is typically called from Alagator to retrieve a parameter expression. If the parameter depends on solution names, data fields,…
 - **Examples** _(p.572)_ <a id="examples"></a>
   - Return an expression for Bulk (not a value):
-  - _Keywords:_ expression, Bulk, pdbExprDouble, Mechanics, BulkModulus
 - **pdbGet and Related Commands** _(p.572)_ <a id="pdbget-and-related-commands"></a>
   - All these commands retrieve database parameters:
-  - _Keywords:_ pdbGet, retrieve, database, pdbGetArray, pdbGetBoolean, pdbGetDouble, pdbDelayDouble, pdbGetDoubleArray
 - **Syntax** <a id="syntax"></a>
   - ```txt pdbGet <c> <c> ... ```
-  - _Keywords:_ pdbGet
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** _(p.573)_ <a id="description"></a>
-  - These commands are used to obtain parameters that reside in the property database, which is hierarchical and is indicated by passing a series of strings to the command. In the command file, the command pdbGet must replace all other pdbGe...
-  - _Keywords:_ pdbGetSwitch, pdbGetSwitchString, These, database, pdbGet, string, switch, obtain
+  - These commands are used to obtain parameters that reside in the property database, which is hierarchical and is indicated by passing a seri…
 - **Examples** _(p.574)_ <a id="examples"></a>
-  - Retrieve the current value of StressHistory. The parameter StressHistory is known, but if it is spelled incorrectly, Sentaurus Interconnect exits and prints a list of known parameters at the Mechanics level:
-  - _Keywords:_ StressHistory, Mechanics, Retrieve, Sentaurus, Interconnect, current, spelled, incorrectly
+  - Retrieve the current value of StressHistory. The parameter StressHistory is known, but if it is spelled incorrectly, Sentaurus Interconnect…
 - **pdbIsAvailable** _(p.574)_ <a id="pdbisavailable"></a>
   - Checks whether the given pdb command is available.
-  - _Keywords:_ Checks, whether, available
 - **Syntax** _(p.574)_ <a id="syntax"></a>
   - pdbIsAvailable <c> <c> ...
-  - _Keywords:_ pdbIsAvailable
 - **Arguments** <a id="arguments"></a>
   - <c>
-  - _Keywords:_ Specifies
 - **Description** <a id="description"></a>
   - If the pdb command exists, the pdbIsAvailable command returns 1; otherwise, it returns 0.
-  - _Keywords:_ exists, pdbIsAvailable, otherwise
 - **Examples** _(p.575)_ <a id="examples"></a>
   - Return 1 if the command "Silicon MyData" is available:
-  - _Keywords:_ Silicon, MyData, available, pdbIsAvailable
 - **pdbLike** _(p.575)_ <a id="pdblike"></a>
   - Creates a new pdb parameter like an existing parameter in a material.
-  - _Keywords:_ Creates, existing, material
 - **Syntax** _(p.575)_ <a id="syntax"></a>
   - ```txt pdbLike <c> <c> <c> ```
-  - _Keywords:_ pdbLike
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ argument, material, second, existing
 - **Description** <a id="description"></a>
-  - This command is used to create a new node in the parameter database where the subparameters of this node are inherited from an existing node in the database. It is typically used when creating a new solution variable to inherit parameter...
-  - _Keywords:_ database, existing, solution, variable, create, subparameters, inherited, typically
+  - This command is used to create a new node in the parameter database where the subparameters of this node are inherited from an existing nod…
 - **Examples** <a id="examples"></a>
   - Create a new parameter called MyPotential in silicon:
-  - _Keywords:_ MyPotential, silicon, Potential, Create, called, pdbLike, Silicon, inherits
 - **See Also** _(p.576)_ <a id="see-also"></a>
   - solution on page 645
-  - _Keywords:_ solution
 - **pdbSet and Related Commands** _(p.576)_ <a id="pdbset-and-related-commands"></a>
   - All of the following commands set database parameters:
-  - _Keywords:_ pdbSet, database, pdbSetArray, pdbSetBoolean, pdbSetDouble, pdbSetDoubleArray, pdbSetElement, pdbSetFunction
 - **Syntax** <a id="syntax"></a>
   - ```txt pdbSet <c> <c> ... <value> ```
-  - _Keywords:_ pdbSet
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ argument, declared, database, defined, models, specified, hierarchical, associated
 - **Description** _(p.577)_ <a id="description"></a>
-  - These commands are used to set parameters that reside in the property database, which is hierarchical and is indicated by passing a series of strings to the command. In the command file, the command pdbSet must replace all other pdbSet\*...
-  - _Keywords:_ database, pdbSet, string, pdbSetBoolean, pdbSetDouble, These, property, pdbSetArray
+  - These commands are used to set parameters that reside in the property database, which is hierarchical and is indicated by passing a series…
 - **Examples** _(p.578)_ <a id="examples"></a>
   - Set the Emissivity parameter in copper, and exit with a list if it is not found:
-  - _Keywords:_ Emissivity, Copper, copper, pdbSet, Now, syntax, checked, version
 - **A: Commands** _(p.578–579)_ <a id="a-commands"></a>
   - pdbSet and Related Commands
-  - _Keywords:_ MyArray, pdbSet, Related, Create, DoubleArray, pdbSetDoubleArray, MyVar, pdbSetArray
 - **pdbUnSet-Related Commands** _(p.579)_ <a id="pdbunset-related-commands"></a>
   - All these commands unset database parameters:
-  - _Keywords:_ database, pdbUnSetBoolean, pdbUnSetDouble, pdbUnSetDoubleArray, pdbUnSetString
 - **Syntax** <a id="syntax"></a>
   - ```txt pdbUnSetBoolean <c> <c> ... pdbUnSetDouble <c> <c> ... pdbUnSetDoubleArray <c> <c> ... pdbUnSetString <c> <c> ... ```
-  - _Keywords:_ pdbUnSetBoolean, pdbUnSetDouble, pdbUnSetDoubleArray, pdbUnSetString
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
   - This command temporarily removes parameters from the parameter database during the simulation.
-  - _Keywords:_ temporarily, removes, database, during, simulation
 - **Examples** _(p.580)_ <a id="examples"></a>
   - Remove the Derived.Materials list of InGaAs material:
-  - _Keywords:_ Derived, Materials, InGaAs, Remove, material, pdbUnSetString
 - **photo** _(p.580)_ <a id="photo"></a>
   - Creates a photoresist layer of the specified thickness outside the mask.
-  - _Keywords:_ Creates, photoresist, specified, thickness, outside
 - **Syntax** _(p.580)_ <a id="syntax"></a>
   - ```txt photo [Adaptive] [mask=<c>] [repair] [sde= {<c>}] [thickness=<n>] [<m>|<cm>|<um>|<nm>] ```
-  - _Keywords:_ Adaptive, repair, thickness
 - **Arguments** <a id="arguments"></a>
   - Adaptive
-  - _Keywords:_ Adaptive, thickness, photoresist, algorithm, specified, adaptive, meshing, repair
 - **Description** _(p.581)_ <a id="description"></a>
-  - The mask must have been defined using a mask command. If the photoresist must be deposited inside of the mask, the negative argument must be defined in the mask command.
-  - _Keywords:_ defined, photoresist, deposited, inside, negative, argument
+  - The mask must have been defined using a mask command. If the photoresist must be deposited inside of the mask, the negative argument must b…
 - **Examples** _(p.581)_ <a id="examples"></a>
-  - Create a resist layer of thickness. The resist layer material will appear in open areas of1 μm the mask mask1, that is, it will be the negative of mask1:
-  - _Keywords:_ resist, thickness, Create, material, appear, negative, polarity
+  - Create a resist layer of thickness. The resist layer material will appear in open areas of1 μm the mask mask1, that is, it will be the nega…
 - **See Also** _(p.582)_ <a id="see-also"></a>
-  - mask on page 507
 - **plot.1d** _(p.582)_ <a id="plot-1d"></a>
   - Plots a 1D cross section.
-  - _Keywords:_ Plots
 - **Syntax** _(p.582–583)_ <a id="syntax"></a>
-  - ```html plot.1d [boundary] [clear] [close] [color=<c>] [fix.ratio] [label=<c>] [max=<list>] [min=<list>] [name=<c>] [rescale] [symb=<c>] [title=<c>] [x=<n>] [<m>|<cm>|<um>|<nm>] [y=<n>] [<m>|<cm>|<um>|<nm>] [z=<n>] [<m>|<cm>|<um>|<nm>] ```
-  - _Keywords:_ boundary, rescale
+  - ```html plot.1d [boundary] [clear] [close] [color=<c>] [fix.ratio] [label=<c>] [max=<list>] [min=<list>] [name=<c>] [rescale] [symb=<c>] [t…
 - **Arguments** <a id="arguments"></a>
   - boundary
-  - _Keywords:_ Specifies, specified, window, current, symbol, vertical, screen, cleared
 - **Description** _(p.584)_ <a id="description"></a>
-  - This command plots cross sections vertically or horizontally through the device with arguments to provide for initialization of the graphics device and plotting of axes. This command can optionally draw vertical lines whenever a material...
-  - _Keywords:_ device, vertically, horizontally, through, arguments, provide, initialization, graphics
+  - This command plots cross sections vertically or horizontally through the device with arguments to provide for initialization of the graphic…
 - **Examples** _(p.584)_ <a id="examples"></a>
-  - Clear the screen, draw a set of axes, and draw the data along a horizontal cross section at $\mathbf { x } = 1 . 0 \mu \mathrm { m }$ . Each point is drawn with symbol 1:
-  - _Keywords:_ horizontal, Lateral, Clear, screen, mathbf, mathrm, symbol, Draw
+  - Clear the screen, draw a set of axes, and draw the data along a horizontal cross section at $\mathbf { x } = 1 . 0 \mu \mathrm { m }$ . Eac…
 - **See Also** _(p.585)_ <a id="see-also"></a>
   - select on page 628
-  - _Keywords:_ select
 - **plot.2d** _(p.585)_ <a id="plot-2d"></a>
   - Plots a 2D xy graphic.
-  - _Keywords:_ Plots, graphic
 - **Syntax** _(p.585–587)_ <a id="syntax"></a>
-  - ```txt plot.2d [boundary] [clear] [close] [col.bound=<c>] [col.grid=<c>] [edges] [faces] [fill] [fix.ratio] [gas] [grid] [label.bound] [max=<list>] [min=<list>] [nodes] [rescale] [title=<c>] [vector=<c>] [vlength=<n>] [<m>|<cm>|<um>|<nm>...
-  - _Keywords:_ boundary, rescale, vector, vlength
+  - ```txt plot.2d [boundary] [clear] [close] [col.bound=<c>] [col.grid=<c>] [edges] [faces] [fill] [fix.ratio] [gas] [grid] [label.bound] [max…
 - **Arguments** <a id="arguments"></a>
   - boundary
-  - _Keywords:_ Specifies, boundary, screen, cleared, X11, specified, Prints, indices
 - **fill** <a id="fill"></a>
-  - Specifies that the device must be drawn with the proper aspect ratio. If fill is false, the device is drawn with the proper aspect ratio. If fill is true, the device is expanded to fill the screen. Default: false.
-  - _Keywords:_ device, proper, aspect, Specifies, expanded, screen
+  - Specifies that the device must be drawn with the proper aspect ratio. If fill is false, the device is drawn with the proper aspect ratio. I…
 - **fix.ratio** <a id="fix-ratio"></a>
   - By default, the x to y ratio is now fixed. This can be switched off using !fix.ratio.
-  - _Keywords:_ switched
 - **gas** <a id="gas"></a>
   - Specifies that the grid in the gas must also be plotted. Default: false (no gas grid is shown).
-  - _Keywords:_ Specifies, plotted
 - **grid** <a id="grid"></a>
   - Specifies that the numeric grid on which the problem was solved must be drawn. Default: false.
-  - _Keywords:_ Specifies, numeric, problem, solved
 - **label.bound** <a id="label-bound"></a>
   - Name of the material in the lower-left corner of the material region.
-  - _Keywords:_ material, corner, region
 - **max** <a id="max"></a>
-  - List of numeric values that will be the ends of the x- and y-axis, respectively. The first argument is the x-value and the second is the y-value. A single value is always interpreted as the x-value. The default is the maximum extent of t...
-  - _Keywords:_ numeric, respectively, argument, second, single, always, interpreted, maximum
+  - List of numeric values that will be the ends of the x- and y-axis, respectively. The first argument is the x-value and the second is the y-…
 - **min** <a id="min"></a>
-  - List of numeric values that will be the ends of the x- and y-axis, respectively. The first argument is the x-value and the second is the y-value. A single value is always interpreted as the x-value. The default is the minimum extent of t...
-  - _Keywords:_ numeric, respectively, argument, second, single, always, interpreted, minimum
+  - List of numeric values that will be the ends of the x- and y-axis, respectively. The first argument is the x-value and the second is the y-…
 - **nodes** <a id="nodes"></a>
   - Prints the node indices on the plot. Default: false.
-  - _Keywords:_ Prints, indices
 - **rescale** <a id="rescale"></a>
   - Rescales the plot to fit the whole simulation domain.
-  - _Keywords:_ Rescales, simulation, domain
 - **title** <a id="title"></a>
   - Specifies the title of the plot window.
-  - _Keywords:_ vector, simulations, vlength, length, maximum, Specifies, window, indicates
 - **Description** <a id="description"></a>
-  - Usually, this command is used to look at material boundaries and grids; however, it also can be used to plot a flow field. This command can be executed immediately before a contour command to allow isoconcentration lines to be plotted in...
-  - _Keywords:_ Usually, material, boundaries, however, executed, immediately, before, contour
+  - Usually, this command is used to look at material boundaries and grids; however, it also can be used to plot a flow field. This command can…
 - **Examples** _(p.588)_ <a id="examples"></a>
   - Draw the triangular grid and axis. Each material is plotted in a different color:
-  - _Keywords:_ Draw, material, interfaces, boundary, Velocity, vector, triangular, plotted
 - **A: Commands** _(p.588)_ <a id="a-commands"></a>
   - plot.2d
 - **See Also** _(p.588–589)_ <a id="see-also"></a>
   - bound on page 383
-  - _Keywords:_ Compatibility, contour, select
 - **plot.xy** _(p.589)_ <a id="plot-xy"></a>
   - Prepares an xy plot to draw on.
-  - _Keywords:_ Prepares
 - **Syntax** _(p.589)_ <a id="syntax"></a>
   - ```txt plot.xy [clear] [max=<list>] [min=<list>] [x.axis=<c>] [y.axis=<c>] [x.log] [y.log] ```
 - **Arguments** <a id="arguments"></a>
   - clear
-  - _Keywords:_ numeric, respectively, argument, second, single, always, interpreted, extent
 - **Description** _(p.590)_ <a id="description"></a>
-  - This command configures a 2D plot surface for use with the point.xy command. This prepares the axis scaling and labels, and controls the log axes.
-  - _Keywords:_ configures, surface, prepares, scaling, labels, controls, simulate
+  - This command configures a 2D plot surface for use with the point.xy command. This prepares the axis scaling and labels, and controls the lo…
 - **A: Commands** _(p.590)_ <a id="a-commands"></a>
   - plot.xy
 - **Examples** _(p.590)_ <a id="examples"></a>
   - Prepare a plot area:
-  - _Keywords:_ Prepare, Time, Thickness
 - **See Also** _(p.591)_ <a id="see-also"></a>
   - point.xy on page 571
-  - _Keywords:_ select
 - **point** _(p.591)_ <a id="point"></a>
   - Creates a point, for example, for a mask polygon.
-  - _Keywords:_ Creates, polygon
 - **Syntax** <a id="syntax"></a>
-  - ```txt point [clear] [coord = { <n> [<m> | <cm> | <um> | <nm>] <n> [<m> | <cm> | <um> | <nm>] <n> [<m> | <cm> | <um> | <nm>] } ] [list] [name=<c>] ```
+  - ```txt point [clear] [coord = { <n> [<m> | <cm> | <um> | <nm>] <n> [<m> | <cm> | <um> | <nm>] <n> [<m> | <cm> | <um> | <nm>] } ] [list] [na…
 - **Arguments** <a id="arguments"></a>
   - clear
-  - _Keywords:_ points, specified, information, coordinates, defined, Clears, clears, Defines
 - **Description** <a id="description"></a>
   - This command defines a point in three dimensions or a 2D point in the yz plane. It can be used to construct polygons to define masks.
-  - _Keywords:_ defines, dimensions, construct, polygons, define
 - **Examples** _(p.592)_ <a id="examples"></a>
   - Define a 2D point with the coordinates y = 0 and z = –1.5:
-  - _Keywords:_ Define, coordinates
 - **A: Commands** _(p.592)_ <a id="a-commands"></a>
   - point
-  - _Keywords:_ Print, defined, points, LogFile
 - **See Also** _(p.593)_ <a id="see-also"></a>
-  - mask on page 507
-  - _Keywords:_ polygon
+  - polygon on page 573
 - **point.xy** _(p.593)_ <a id="point-xy"></a>
   - Adds a line segment to a plot.
-  - _Keywords:_ Adds, segment
 - **Syntax** _(p.593)_ <a id="syntax"></a>
   - ```txt point.xy x=<n> y=<n> [color=<c>] [move] [name=<c>] [symb=<c>] ```
 - **Arguments** <a id="arguments"></a>
   - color
-  - _Keywords:_ character, string, symbol, specified, Specifies, supported, X11, hardware
 - **Description** _(p.594)_ <a id="description"></a>
-  - This command adds segments to a specified line on a plot surface using X-windows-based plotting (plot.1d or plot.2d). The command is used to plot calculated values, data, or direct outputs from the simulation. The values can be added to ...
-  - _Keywords:_ segments, specified, surface, windows, plotting, calculated, direct, simulation
+  - This command adds segments to a specified line on a plot surface using X-windows-based plotting (plot.1d or plot.2d). The command is used t…
 - **A: Commands** _(p.594)_ <a id="a-commands"></a>
   - point.xy
 - **Examples** _(p.594)_ <a id="examples"></a>
   - Add x- and y-values to the line named Thickness:
-  - _Keywords:_ Thickness, Add
 - **See Also** _(p.595)_ <a id="see-also"></a>
   - interface on page 483
-  - _Keywords:_ interface, interpolate, select
 - **polygon** _(p.595)_ <a id="polygon"></a>
   - Creates a polygon, for example, for a mask.
-  - _Keywords:_ polygon, rectangle, Creates, Syntax, external, materials, points, point1
 - **Arguments** _(p.596)_ <a id="arguments"></a>
   - clear
-  - _Keywords:_ polygon, polygons, external, Sentaurus, Structure, Editor, Clears, specified
 - **A: Commands** _(p.596–597)_ <a id="a-commands"></a>
   - polygon
-  - _Keywords:_ polygon, points, rectangular, rectangle, minimum, specify, specified, segments
 - **Description** _(p.597)_ <a id="description"></a>
   - This command defines a mask or uses the polygon during an insertion. One of the following must be used to create a polygon:
-  - _Keywords:_ polygon, during, points, defines, insertion, One, create, rectangle
 - **Examples** _(p.598)_ <a id="examples"></a>
   - Create three identical rectangles using points and coordinates:
-  - _Keywords:_ polygon, points, Box3, rectangle, segments, Create, identical, rectangles
 - **A: Commands** _(p.598)_ <a id="a-commands"></a>
   - polygon
-  - _Keywords:_ polygon
 - **See Also** _(p.598–599)_ <a id="see-also"></a>
   - Inserting Polygons on page 281
-  - _Keywords:_ Inserting, Polygons, insert
 - **polyhedron** _(p.599)_ <a id="polyhedron"></a>
   - Creates and stores 3D polyhedra, for later insertion with the insert command or for use with the profile command.
-  - _Keywords:_ polyhedron, rotate, center, Creates, stores, polyhedra, insertion, insert
 - **Arguments** _(p.600)_ <a id="arguments"></a>
   - bbox, bbox.cm, bbox.um
-  - _Keywords:_ polyhedron, specified, maximum, extents, points, centimeter, micrometer
 - **A: Commands** _(p.600–601)_ <a id="a-commands"></a>
   - polyhedron
-  - _Keywords:_ polyhedron, center, specified, materials, polygons, direction, location, rotation
 - **Description** _(p.602)_ <a id="description"></a>
-  - This command creates a polyhedron and stores it under the name specified. Different mechanisms can be used to create the polyhedron. It can be read from an existing polyhedron or from a TDR boundary file; it can be defined as a brick or ...
-  - _Keywords:_ polyhedron, materials, specified, defined, transformations, offset, rotate, stretch
+  - This command creates a polyhedron and stores it under the name specified. Different mechanisms can be used to create the polyhedron. It can…
 - **Examples** _(p.602)_ <a id="examples"></a>
   - Load the polyhedra containing silicon and gas from the boundary file sphere\_bnd.tdr with the name sphere:
-  - _Keywords:_ polyhedron, sphere, polygons, called, triangle, tetrahedron, smallPrism, Load
 - **See Also** _(p.603)_ <a id="see-also"></a>
   - Inserting Polyhedra on page 282 insert on page 477 profile on page 597
-  - _Keywords:_ Inserting, Polyhedra, insert, profile
 - **power\_ramp** _(p.603)_ <a id="power-ramp"></a>
   - Defines a power or power-density profile for use with the supply command.
-  - _Keywords:_ Defines, density, profile, supply
 - **Syntax** _(p.603)_ <a id="syntax"></a>
-  - ```txt power_ramp (clear | list | name=<c>) [current.time=<n>][<hr>|<min>|<s>] ([delNP=<n>[<W>] | delNPD=<n>[<W/cm3>]] | [delP=<n>[<W>] | delPD=<n>[<W/cm3>]]) [density.ramprate=<n>[<W/cm3/s>] | ramprate=<n>[<W/s>]] [hold] [last] [p.densi...
-  - _Keywords:_ density, ramprate, power_ramp, current, delNP, delNPD, delP, delPD
+  - ```txt power_ramp (clear | list | name=<c>) [current.time=<n>][<hr>|<min>|<s>] ([delNP=<n>[<W>] | delNPD=<n>[<W/cm3>]] | [delP=<n>[<W>] | d…
 - **Arguments** _(p.604–605)_ <a id="arguments"></a>
   - clear
-  - _Keywords:_ density, during, Specify, either, ramprate, simulation, profiles, define
 - **Description** <a id="description"></a>
-  - This command specifies multiple power or power-density ramps and holds. It can be used to construct a complex power or power-density sequence to be simulated with the solve command.
-  - _Keywords:_ density, specifies, multiple, construct, complex, sequence, simulated
+  - This command specifies multiple power or power-density ramps and holds. It can be used to construct a complex power or power-density sequen…
 - **Examples** <a id="examples"></a>
   - Define the power profile named pr1 with a power rate of $0 . 5 ~ \mathrm { W s } ^ { - 1 }$ :
-  - _Keywords:_ mathrm, density, Define, profile, power_ramp, ramprate
 - **See Also** _(p.606)_ <a id="see-also"></a>
   - supply on page 667
-  - _Keywords:_ supply
 - **print.1d** _(p.606)_ <a id="print-1d"></a>
   - Prints values along a 1D cross section.
-  - _Keywords:_ Prints
 - **Syntax** _(p.606–607)_ <a id="syntax"></a>
-  - ```html print.1d [gas] [interfaces] [<material>] [name=<c>] [region=<c>] [syntax.check.value=<c>] [x=<n>] [<m>|<cm>|<um>|<nm>] [y=<n>] [<m>|<cm>|<um>|<nm>] [z=<n>] [<m>|<cm>|<um>|<nm>] ```
-  - _Keywords:_ interfaces, material, region, syntax
+  - ```html print.1d [gas] [interfaces] [<material>] [name=<c>] [region=<c>] [syntax.check.value=<c>] [x=<n>] [<m>|<cm>|<um>|<nm>] [y=<n>] [<m>…
 - **Arguments** <a id="arguments"></a>
   - gas
-  - _Keywords:_ specified, interface, dimensions, syntax, returned, allows, interfaces, displayed
 - **Description** <a id="description"></a>
-  - This command is particularly useful for creating input for another xy plot. A Tcl list is returned for all values. This allows subsequent processing (for example, integration) of the resulting profile.
-  - _Keywords:_ particularly, useful, creating, another, Tcl, returned, allows, subsequent
+  - This command is particularly useful for creating input for another xy plot. A Tcl list is returned for all values. This allows subsequent p…
 - **Examples** <a id="examples"></a>
   - Print the selected value at x equal to :1.0 μm
-  - _Keywords:_ Print, Arsenic, selected, vertical, lateral, position
 - **See Also** _(p.608)_ <a id="see-also"></a>
-  - plot.1d on page 560
-  - _Keywords:_ select, System
+  - select on page 628
 - **print.data** _(p.608)_ <a id="print-data"></a>
   - Writes data in x-, y-, and z-format.
-  - _Keywords:_ Writes, format
 - **Syntax** _(p.608)_ <a id="syntax"></a>
-  - ```txt print.data [name=<c>] [NODE | EDGE] [outfile=<c>] [xlo=<n>] [<m>|<cm>|<um>|<nm>] [xhi=<n>] [<m>|<cm>|<um>|<nm>] [ylo=<n>] [<m>|<cm>|<um>|<nm>] [yhi=<n>] [<m>|<cm>|<um>|<nm>] [zlo=<n>] [<m>|<cm>|<um>|<nm>] [zhi=<n>] [<m>|<cm>|<um>|...
-  - _Keywords:_ NODE, EDGE, outfile
+  - ```txt print.data [name=<c>] [NODE | EDGE] [outfile=<c>] [xlo=<n>] [<m>|<cm>|<um>|<nm>] [xhi=<n>] [<m>|<cm>|<um>|<nm>] [ylo=<n>] [<m>|<cm>|…
 - **Arguments** <a id="arguments"></a>
   - name
-  - _Keywords:_ NODE, allows, printing, without, select, _Plot, _Var, EDGE
 - **Description** <a id="description"></a>
-  - The file format is the x-position, y-position, and z-position. This command is used primarily to write a data field for use with more sophisticated 3D plotting tools.
-  - _Keywords:_ position, format, primarily, sophisticated, plotting
+  - The file format is the x-position, y-position, and z-position. This command is used primarily to write a data field for use with more sophi…
 - **Examples** <a id="examples"></a>
   - Print the data field named Boron:
-  - _Keywords:_ Boron, Print, outfile
 - **See Also** _(p.609)_ <a id="see-also"></a>
   - select on page 628
-  - _Keywords:_ select
 - **printCapacitanceMatrix** _(p.609)_ <a id="printcapacitancematrix"></a>
   - Prints the capacitance matrix for the listed contacts.
-  - _Keywords:_ Prints, capacitance, matrix, listed, contacts
 - **Syntax** _(p.609)_ <a id="syntax"></a>
-  - ```txt printCapacitanceMatrix (capacitance.matrix [<c1> <c2>] | charge.matrix | spice.matrix | spice.total [<c1>]) [<filename>.csv] [<filename>.spi] [simple.print] ```
-  - _Keywords:_ matrix, filename, printCapacitanceMatrix, capacitance, charge, simple
+  - ```txt printCapacitanceMatrix (capacitance.matrix [<c1> <c2>] | charge.matrix | spice.matrix | spice.total [<c1>]) [<filename>.csv] [<filen…
 - **Arguments** _(p.610)_ <a id="arguments"></a>
   - ```txt capacitance.matrix [<c1> <c2>] ```
-  - _Keywords:_ matrix, Specifies, displayed, returned, SPICE, capacitance, contact, charge
 - **Description** _(p.610)_ <a id="description"></a>
-  - This command displays and returns the capacitance matrix along with the charge and SPICE model capacitances. It must be used after capacitance analysis is finished.
-  - _Keywords:_ capacitance, displays, matrix, charge, SPICE, capacitances, analysis, finished
+  - This command displays and returns the capacitance matrix along with the charge and SPICE model capacitances. It must be used after capacita…
 - **Examples** _(p.610)_ <a id="examples"></a>
   - Display and return the capacitance matrix along with the charge and SPICE model capacitances:
-  - _Keywords:_ capacitance, Display, matrix, printCapacitanceMatrix, SPICE, contact, userArray, topContact
 - **See Also** _(p.611)_ <a id="see-also"></a>
   - Electrostatic Analysis: Capacitance Matrix on page 707
-  - _Keywords:_ Electrostatic, Analysis, Capacitance, Matrix
 - **printRC** _(p.611)_ <a id="printrc"></a>
   - Prints the resistance or capacitance netlist in distributed RC simulations.
-  - _Keywords:_ Prints, resistance, capacitance, netlist, distributed, simulations
 - **Syntax** _(p.611)_ <a id="syntax"></a>
   - ```txt printRC [exclude.C= <list>] [<filename>.csv] [<filename>.spi] [model1 | model2 | model3 | model4] ```
-  - _Keywords:_ filename, printRC, exclude, model1, model2, model3, model4
 - **Arguments** <a id="arguments"></a>
   - exclude.C
-  - _Keywords:_ Specifies, capacitance, filename, information, written, include, extension, model1
 - **Description** <a id="description"></a>
-  - This command displays and returns the linked RC netlist in a distributed RC simulation. It must be used after the distributed RC analysis is finished.
-  - _Keywords:_ distributed, displays, linked, netlist, simulation, analysis, finished
+  - This command displays and returns the linked RC netlist in a distributed RC simulation. It must be used after the distributed RC analysis i…
 - **Examples** _(p.612)_ <a id="examples"></a>
   - Display the linked RC netlist:
-  - _Keywords:_ Display, linked, netlist, printRC, SPICE, format
 - **A: Commands printRC** _(p.612)_ <a id="a-commands-printrc"></a>
-  - Display the linked RC netlist excluding capacitance between Cu1 and Cu3, between Region\_1 and Region\_3, and between Cu2 and any other regions:
-  - _Keywords:_ between, Display, linked, netlist, Cu1, Cu3, Region, Cu2
+  - Display the linked RC netlist excluding capacitance between Cu1 and Cu3, between Region\_1 and Region\_3, and between Cu2 and any other reg…
 - **See Also** _(p.613)_ <a id="see-also"></a>
   - Distributed RC Extraction on page 710
-  - _Keywords:_ Distributed, Extraction
 - **printResistanceMatrix** _(p.613)_ <a id="printresistancematrix"></a>
   - Prints the resistance matrix for the listed contacts.
-  - _Keywords:_ Prints, resistance, matrix, listed, contacts
 - **Syntax** _(p.613)_ <a id="syntax"></a>
-  - ```txt printResistanceMatrix (current.matrix [<c1> <c2>] | resistance.matrix | spice.matrix | spice.total [<c1>]) [<filename>.csv] [<filename>.spi] [simple.print] ```
-  - _Keywords:_ matrix, filename, printResistanceMatrix, current, resistance, simple
+  - ```txt printResistanceMatrix (current.matrix [<c1> <c2>] | resistance.matrix | spice.matrix | spice.total [<c1>]) [<filename>.csv] [<filena…
 - **Arguments** _(p.614)_ <a id="arguments"></a>
   - ```txt current.matrix [<c1> <c2>] ```
-  - _Keywords:_ matrix, Specifies, displayed, returned, SPICE, current, contact, filename
 - **Description** _(p.614)_ <a id="description"></a>
-  - This command displays and returns the resistance matrix along with the conductance and SPICE model resistances. It must be used after resistance analysis is finished.
-  - _Keywords:_ resistance, displays, matrix, conductance, SPICE, resistances, analysis, finished
+  - This command displays and returns the resistance matrix along with the conductance and SPICE model resistances. It must be used after resis…
 - **Examples** _(p.614)_ <a id="examples"></a>
   - Display and return the resistance matrix along with the conductance and SPICE model resistances:
-  - _Keywords:_ Display, matrix, printResistanceMatrix, resistance, SPICE, contact, userArray, topContact
 - **See Also** _(p.615)_ <a id="see-also"></a>
   - Electrical Current Analysis: Resistance Matrix on page 705
-  - _Keywords:_ Electrical, Current, Analysis, Resistance, Matrix
 - **printThermalRC** _(p.615)_ <a id="printthermalrc"></a>
-  - Computes and prints the parameters of thermal RC networks for the listed contacts, and prints the thermal impedances to files for the listed contacts.
-  - _Keywords:_ prints, thermal, listed, contacts, Computes, networks, impedances
+  - Computes and prints the parameters of thermal RC networks for the listed contacts, and prints the thermal impedances to files for the liste…
 - **Syntax** _(p.615)_ <a id="syntax"></a>
   - ```txt printThermalRC [{<c1> <c2> <c3>}][<c>.csv] [<c>.plx] [<c>.spi] [simple.print] ```
-  - _Keywords:_ printThermalRC, simple
 - **Arguments** _(p.616)_ <a id="arguments"></a>
   - $\{< c1> < c2> < c3>\}$
-  - _Keywords:_ thermal, Specifies, network, contacts, extracted, screen, curves, specified
 - **Description** _(p.616)_ <a id="description"></a>
-  - This command computes and prints the extracted parameters of thermal RC networks for the listed contacts. In addition, it prints the thermal impedance versus time (in seconds) curves to a specified .plx file for the listed contacts.
-  - _Keywords:_ thermal, prints, listed, contacts, computes, extracted, networks, addition
+  - This command computes and prints the extracted parameters of thermal RC networks for the listed contacts. In addition, it prints the therma…
 - **Examples** <a id="examples"></a>
   - Extract parameters of thermal RC networks for all available contacts, and print them to the screen and to the log file:
-  - _Keywords:_ Extract, thermal, networks, available, contacts, screen, printThermalRC
 - **See Also** _(p.617)_ <a id="see-also"></a>
   - Thermal Analysis: Thermal RC Network on page 725
-  - _Keywords:_ Thermal, Analysis, Network
 - **printThermalResistanceMatrix** _(p.617)_ <a id="printthermalresistancematrix"></a>
   - Prints the thermal resistance matrix for the listed contacts.
-  - _Keywords:_ Prints, thermal, resistance, matrix, listed, contacts
 - **Syntax** _(p.617)_ <a id="syntax"></a>
-  - ```txt printThermalResistanceMatrix (heat.matrix [<c1> <c2>] | resistance.matrix | spice.matrix | spice.total [<c1>]) [<filename>.csv] [<filename>.spi] [simple.print] ```
-  - _Keywords:_ matrix, filename, printThermalResistanceMatrix, resistance, simple
+  - ```txt printThermalResistanceMatrix (heat.matrix [<c1> <c2>] | resistance.matrix | spice.matrix | spice.total [<c1>]) [<filename>.csv] [<fi…
 - **Arguments** _(p.618)_ <a id="arguments"></a>
   - ```txt <filename>.csv ```
-  - _Keywords:_ Specifies, matrix, SPICE, displayed, returned, filename, information, written
 - **Description** _(p.618)_ <a id="description"></a>
-  - This command displays and returns the thermal resistance matrix along with the thermal conductance and SPICE model thermal resistances. It must be used after thermal resistance analysis is finished.
-  - _Keywords:_ thermal, resistance, displays, matrix, conductance, SPICE, resistances, analysis
+  - This command displays and returns the thermal resistance matrix along with the thermal conductance and SPICE model thermal resistances. It…
 - **Examples** _(p.618)_ <a id="examples"></a>
   - Display and return the thermal resistance matrix along with the thermal conductance and SPICE model thermal resistances:
-  - _Keywords:_ Display, matrix, printThermalResistanceMatrix, thermal, resistance, SPICE, contact, userArray
 - **See Also** _(p.619)_ <a id="see-also"></a>
   - Thermal Analysis: Thermal Resistance Matrix on page 723
-  - _Keywords:_ Thermal, Analysis, Resistance, Matrix
 - **profile** _(p.619)_ <a id="profile"></a>
   - Reads a data file and constructs a data field.
-  - _Keywords:_ Reads, constructs
 - **Syntax** _(p.619)_ <a id="syntax"></a>
-  - ```coffeescript profile name=<c> [Adaptive] [concentration=<n>] [delay.doping.3d] [gaussian.blur] [infile=<c>] [lateral.function= {xlo= {<n> ...} xhi= {<n> ...} sigma= {<n> ...} LDF.reshape= {<c> ...}}] [logarithmic | linear | arsinh] [m...
-  - _Keywords:_ material, coffeescript, profile, Adaptive, concentration, doping, gaussian, infile
+  - ```coffeescript profile name=<c> [Adaptive] [concentration=<n>] [delay.doping.3d] [gaussian.blur] [infile=<c>] [lateral.function= {xlo= {<n…
 - **Arguments** <a id="arguments"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - Specifies whether this profile step is performed with adaptive remeshing. This functionality is not supported when infile is a TDR file, or when the polyhedron argument is specified. Default: [pdbGet Grid Adaptive].
-  - _Keywords:_ Specifies, whether, profile, performed, adaptive, remeshing, functionality, supported
+  - Specifies whether this profile step is performed with adaptive remeshing. This functionality is not supported when infile is a TDR file, or…
 - **concentration** <a id="concentration"></a>
-  - Specifies the concentration of the field at the specified xcoord or inside the specified polyhedron. When it is paired with the xcoord argument, the concentration argument is a list in which the number of list elements must match that of...
-  - _Keywords:_ argument, concentration, specified, xcoord, polyhedron, Specifies, inside, paired
+  - Specifies the concentration of the field at the specified xcoord or inside the specified polyhedron. When it is paired with the xcoord argu…
 - **delay.doping.3d** _(p.620–622)_ <a id="delay-doping-3d"></a>
-  - Specifies whether the placement of the dopant concentration is delayed until the next remeshing step in the 3D simulation. This might be useful if there are several consecutive profile commands, which can be put together and performed in...
-  - _Keywords:_ polyhedron, profile, material, Specifies, argument, lateral, specified, LDF
+  - Specifies whether the placement of the dopant concentration is delayed until the next remeshing step in the 3D simulation. This might be us…
 - **A: Commands** _(p.622–623)_ <a id="a-commands"></a>
   - profile
-  - _Keywords:_ concentration, profile, rectangular, specified, direction, replace, existing, polyhedron
 - **Description** _(p.623)_ <a id="description"></a>
   - This command provides different ways of introducing dopant concentration into a device:
-  - _Keywords:_ profile, polyhedron, dopant, concentration, specified, lateral, specifying, structure
 - **Examples** <a id="examples"></a>
   - Read a temperature profile, and scale the depth by $1 \times { 1 0 } ^ { - 4 }$ to convert ångström to micrometer:
-  - _Keywords:_ profile, Read, temperature, convert, micrometer, Temperature, infile, xscale
 - **See Also** _(p.624)_ <a id="see-also"></a>
-  - print.1d on page 584
-  - _Keywords:_ information, wikipedia, Gaussian
+  - 1. For more information, go to https://en.wikipedia.org/wiki/Gaussian\_blur.
 - **RangeRefineboxes** _(p.624)_ <a id="rangerefineboxes"></a>
-  - Creates a set of refinement boxes based on a mask, and a set of range and extent parameters. All boxes share a set of global refinement settings, but each box can have additional local refinement settings.
-  - _Keywords:_ refinement, settings, Creates, extent, global, additional
+  - Creates a set of refinement boxes based on a mask, and a set of range and extent parameters. All boxes share a set of global refinement set…
 - **Syntax** _(p.624)_ <a id="syntax"></a>
-  - ```txt RangeRefineboxes boxes = { drange=<drange1> [<box-specific_arguments>] [drange=<drange2> [<box-specific_arguments>]] ... } mask=<c> name=<c> range=<c> [<other_arguments>] ```
-  - _Keywords:_ drange, specific_arguments, RangeRefineboxes, drange1, drange2, other_arguments
+  - ```txt RangeRefineboxes boxes = { drange=<drange1> [<box-specific_arguments>] [drange=<drange2> [<box-specific_arguments>]] ... } mask=<c>…
 - **Arguments** _(p.625)_ <a id="arguments"></a>
   - ```xml <box-specific_arguments> ```
-  - _Keywords:_ refinement, individual, Specifies, argument, Tcl, drange, refinebox, applied
 - **Description** <a id="description"></a>
-  - The refinement is applied to the area under the specified mask. The lateral extent is controlled by the same arguments as in the refinebox command, for example, mask.edge.refine.extent and mask.edge.mns.
-  - _Keywords:_ refinement, arguments, refinebox, argument, extent, individual, applied, specified
+  - The refinement is applied to the area under the specified mask. The lateral extent is controlled by the same arguments as in the refinebox…
 - **Examples** _(p.626)_ <a id="examples"></a>
   - Create a set of refinement boxes:
-  - _Keywords:_ moments, M1_p, drange, xrefine, yrefine, extend, Create, refinement
 - **A: Commands** _(p.626)_ <a id="a-commands"></a>
   - RangeRefineboxes
-  - _Keywords:_ RangeRefineboxes, drange, refine, extent, extend, xrefine, yrefine
 - **See Also** _(p.627)_ <a id="see-also"></a>
   - DeleteRefinementboxes on page 411
-  - _Keywords:_ DeleteRefinementboxes, refinebox
 - **rcnetgen** _(p.627)_ <a id="rcnetgen"></a>
-  - Identifies CMOS transistors in a layout, forms a transistor netlist containing identified transistors, and annotates the terminals of the transistors in the layout with text labels (see Generating Netlists on page 714).
-  - _Keywords:_ transistors, layout, Identifies, CMOS, transistor, netlist, containing, identified
+  - Identifies CMOS transistors in a layout, forms a transistor netlist containing identified transistors, and annotates the terminals of the t…
 - **Syntax** _(p.627)_ <a id="syntax"></a>
   - ```txt rcnetgen layout.layers= <list> layout.params= <list> netlist.params= <list> [contact.params= <list>] ```
-  - _Keywords:_ params, layout, rcnetgen, layers, netlist, contact
 - **Arguments** _(p.628)_ <a id="arguments"></a>
   - contact.params
-  - _Keywords:_ layout, Defines, layers, argument, params, defined, netlist, active
 - **Description** _(p.628–629)_ <a id="description"></a>
-  - The input layout must be a standard logic cell layout containing at least the following layers: active, fin, nwell, and poly. You must specify the bounding box of the cell, either as a list of coordinates or as a layer in the layout from...
-  - _Keywords:_ layout, bounding, coordinates, transistors, standard, containing, layers, active
+  - The input layout must be a standard logic cell layout containing at least the following layers: active, fin, nwell, and poly. You must spec…
 - **rcnetgroup** _(p.629)_ <a id="rcnetgroup"></a>
-  - Identifies the nets in a netlist that are electrically connected, and labels the nets by a common prefix (see Grouping Netlists on page 719).
-  - _Keywords:_ Identifies, netlist, electrically, connected, labels, common, prefix, Grouping
+  - Identifies the nets in a netlist that are electrically connected, and labels the nets by a common prefix (see Grouping Netlists on page 719…
 - **Syntax** _(p.629)_ <a id="syntax"></a>
   - ```txt rcnetgroup output.net=<c> raphael.net=<c> ```
-  - _Keywords:_ rcnetgroup, raphael
 - **Arguments** <a id="arguments"></a>
   - output.net
-  - _Keywords:_ Defines, netlist, raphael
 - **Description** _(p.630)_ <a id="description"></a>
-  - The connected nets are labeled by a common prefix. If the net is connected to a pin, the prefix is the pin name. Adding a prefix does not change connections in a netlist but makes them easier to read.
-  - _Keywords:_ prefix, connected, labeled, common, Adding, change, connections, netlist
+  - The connected nets are labeled by a common prefix. If the net is connected to a pin, the prefix is the pin name. Adding a prefix does not c…
 - **rcnetmerge** _(p.630)_ <a id="rcnetmerge"></a>
-  - Validates the connections of two netlists, and merges compact model parameters from the reference netlist into the Raphael™ netlist (see Merging Netlists on page 722).
-  - _Keywords:_ netlist, Validates, connections, netlists, merges, compact, reference, Raphael
+  - Validates the connections of two netlists, and merges compact model parameters from the reference netlist into the Raphael™ netlist (see Me…
 - **Syntax** _(p.630)_ <a id="syntax"></a>
   - ```txt rcnetmerge output.net=<c> raphael.net=<c> reference.net=<c> ```
-  - _Keywords:_ rcnetmerge, raphael, reference
 - **Arguments** <a id="arguments"></a>
   - output.net
-  - _Keywords:_ Defines, netlist, reference, merged, raphael, Raphael, SPICE
 - **Description** _(p.631)_ <a id="description"></a>
-  - This command merges the RC components of a netlist generated by Sentaurus Interconnect and the compact model parameters of a user-specified netlist.
-  - _Keywords:_ netlist, merges, components, generated, Sentaurus, Interconnect, compact, specified
+  - This command merges the RC components of a netlist generated by Sentaurus Interconnect and the compact model parameters of a user-specified…
 - **rcnetvalidate** _(p.631)_ <a id="rcnetvalidate"></a>
   - Compares two netlists to check whether they have identical connections (see Validating Netlists on page 720).
-  - _Keywords:_ Compares, netlists, whether, identical, connections, Validating, Netlists
 - **Syntax** _(p.631)_ <a id="syntax"></a>
   - ```txt rcnetvalidate raphael.net=<c> reference.net=<c> ```
-  - _Keywords:_ rcnetvalidate, raphael, reference
 - **Arguments** <a id="arguments"></a>
   - raphael.net
-  - _Keywords:_ Defines, netlist, reference, raphael, validated
 - **Description** _(p.632)_ <a id="description"></a>
-  - It is useful to validate the connections of one netlist, for example, a netlist generated by Sentaurus Interconnect, against connections of another user-specified netlist.
-  - _Keywords:_ netlist, connections, useful, validate, generated, Sentaurus, Interconnect, against
+  - It is useful to validate the connections of one netlist, for example, a netlist generated by Sentaurus Interconnect, against connections of…
 - **refinebox** _(p.632)_ <a id="refinebox"></a>
   - Sets the local grid parameters and performs a grid refinement using the MGOALS module.
-  - _Keywords:_ performs, refinement, MGOALS, module
 - **Syntax** _(p.632–633)_ <a id="syntax"></a>
-  - ```ini refinebox [3d] [Adaptive] [clear] [double.side] [list] [(mask=<c> extrusion.min=<n> extrusion.max=<n>) [extend=<n>] ([mask.corner.mns=<n>] [mask.corner.ngr=<n>] [mask.corner.refine.extent=<n>] | [mask.edge.mns=<n>] [mask.edge.ngr=...
-  - _Keywords:_ refine, interface, field1, field2, corner, materials, regions, normal
+  - ```ini refinebox [3d] [Adaptive] [clear] [double.side] [list] [(mask=<c> extrusion.min=<n> extrusion.max=<n>) [extend=<n>] ([mask.corner.mn…
 - **Arguments** _(p.633–634)_ <a id="arguments"></a>
-  - 3d
-  - _Keywords:_ refinement, Adaptive, adaptive, dimensions, specified, Specifies, dimension, applies
+  - Specifies the refinement box for only three dimensions, or for only one dimension and two dimensions. The default behavior is to always app…
 - **A: Commands** _(p.634–636)_ <a id="a-commands"></a>
   - refinebox
-  - _Keywords:_ refinement, corner, extent, specified, argument, Specifies, refine, extrusion
 - **A: Commands** _(p.636)_ <a id="a-commands"></a>
   - refinebox
-  - _Keywords:_ regions, defining, element, direction, middle, refinement, refinebox, Limits
 - **Arguments: Interface Refinement Control** _(p.637)_ <a id="arguments-interface-refinement-control"></a>
   - interface.mat.pairs
-  - _Keywords:_ interface, offsetting, materials, Sentaurus, Mesh, Specifies, normal, region
 - **Arguments: Boundary Rediscretization Using DelPSC Algorithm** _(p.638)_ <a id="arguments-boundary-rediscretization-using-delpsc-algorithm"></a>
   - DelPSC
-  - _Keywords:_ interface, DelPSC, algorithm, Restricts, application, interfaces, specified, materials
 - **Arguments: Adaptive Meshing** _(p.639–640)_ <a id="arguments-adaptive-meshing"></a>
   - abs.error
-  - _Keywords:_ criteria, maximum, difference, independent, dependent, refinement, gradient, interval
 - **A: Commands** _(p.640)_ <a id="a-commands"></a>
   - refinebox
-  - _Keywords:_ refine, fields, length, refinement, dependent, adaptive, interval, target
 - **Description** _(p.641)_ <a id="description"></a>
   - This command specifies mesh refinement. The following types of refinement box are available:
-  - _Keywords:_ refinement, Adaptive, Confine, specified, specifies, available, Standard, Independent
 - **Examples** _(p.641)_ <a id="examples"></a>
   - Define two refinement boxes:
-  - _Keywords:_ refinebox, refinement, yrefine, adaptive, Mask1, xrefine, criteria, extrusion
 - **See Also** _(p.642)_ <a id="see-also"></a>
   - Mesh Refinement on page 176 mask on page 507 mgoals on page 524
-  - _Keywords:_ Mesh, Refinement, mgoals
 - **region** _(p.642)_ <a id="region"></a>
   - Creates regions, marks substrates, and changes region materials.
-  - _Keywords:_ Creates, regions, substrates, changes, region, materials
 - **Syntax** _(p.642–643)_ <a id="syntax"></a>
-  - ```txt region <material> xlo=<c> [ylo=<c>] [zlo=<c>] xhi=<c> [yhi=<c>] [zhi=<c>] [alt.matername=<c>] [bbox | bbox.cm | bbox.um] [change.material] [cropped.bbox] [exact.name] [field=<c> concentration=<n>] [left | right | back | front | to...
-  - _Keywords:_ material, region, matername, change, cropped, concentration, bottom, interface
+  - ```txt region <material> xlo=<c> [ylo=<c>] [zlo=<c>] xhi=<c> [yhi=<c>] [zhi=<c>] [alt.matername=<c>] [bbox | bbox.cm | bbox.um] [change.mat…
 - **Arguments** _(p.644)_ <a id="arguments"></a>
   - alt.matername
-  - _Keywords:_ region, material, specified, regions, substrate, change, structure, maximum
 - **Description** _(p.645)_ <a id="description"></a>
   - The region command has different applications:
-  - _Keywords:_ region, regions, simulation, created, material, bounding, specified, different
 - **Examples** _(p.645)_ <a id="examples"></a>
   - Create a new material MySilicon, and then change the material of a region named bulk to MySilicon without changing the data:
-  - _Keywords:_ region, material, MySilicon, change, Gate, Create, Gas, silicon
 - **See Also** _(p.646)_ <a id="see-also"></a>
   - integrate on page 480 line on page 495
-  - _Keywords:_ integrate
 - **resistance** _(p.646)_ <a id="resistance"></a>
   - Prints the resistance between two contacts.
-  - _Keywords:_ Prints, resistance, between, contacts
 - **Syntax** _(p.646)_ <a id="syntax"></a>
   - ```txt resistance <c> <c> ```
-  - _Keywords:_ resistance
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ contacts
 - **Description** <a id="description"></a>
   - If electrical analysis is not performed, the resistance command returns an error message.
-  - _Keywords:_ electrical, analysis, performed, resistance, message
 - **Examples** <a id="examples"></a>
   - Display the resistance between electrical contacts C1 and C2:
-  - _Keywords:_ resistance, Display, between, electrical, contacts
 - **See Also** _(p.647)_ <a id="see-also"></a>
   - Electrical Current Analysis: Resistance Matrix on page 705
-  - _Keywords:_ Electrical, Current, Analysis, Resistance, Matrix
 - **sde** _(p.647)_ <a id="sde"></a>
   - Dispatches commands to Sentaurus Structure Editor (only available for 3D simulations).
-  - _Keywords:_ Dispatches, Sentaurus, Structure, Editor, available, simulations
 - **Syntax** _(p.647–648)_ <a id="syntax"></a>
-  - ```txt sde {<Sentaurus Structure Editor commands>} [Adaptive] [external] [logfile=<c>] [off] [on] [polyhedron=<c>] [polyhedron.material=<c>] [remesh] [SdeCheck] ```
-  - _Keywords:_ polyhedron, Sentaurus, Structure, Editor, Adaptive, external, logfile, material
+  - ```txt sde {<Sentaurus Structure Editor commands>} [Adaptive] [external] [logfile=<c>] [off] [on] [polyhedron=<c>] [polyhedron.material=<c>…
 - **Arguments** _(p.648)_ <a id="arguments"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - If specified, Adaptive switches on adaptive meshing if remesh is given. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 183. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ Adaptive, adaptive, meshing, specified, switches, remesh, described, Mesh
+  - If specified, Adaptive switches on adaptive meshing if remesh is given. Parameters for adaptive meshing are described in Adaptive Mesh Refi…
 - **external** <a id="external"></a>
-  - Puts the Sentaurus Structure Editor interface in external mode, which can be used to create polyhedra to be inserted into a Sentaurus Interconnect structure using the 3D MGOALS mode. When the external mode is switched on, all geometry tr...
-  - _Keywords:_ Sentaurus, external, Structure, Editor, structure, Puts, interface, create
+  - Puts the Sentaurus Structure Editor interface in external mode, which can be used to create polyhedra to be inserted into a Sentaurus Inter…
 - **logfile** <a id="logfile"></a>
-  - Name of the file that will log all the Scheme commands dispatched to Sentaurus Structure Editor. The recommended file extension is .scm. The file will contain both the Scheme commands translated from Sentaurus Interconnect etch, deposit,...
-  - _Keywords:_ Scheme, Sentaurus, Structure, Editor, dispatched, recommended, extension, contain
+  - Name of the file that will log all the Scheme commands dispatched to Sentaurus Structure Editor. The recommended file extension is .scm. Th…
 - **off** <a id="off"></a>
-  - Switches off the Sentaurus Structure Editor mode if it has been switched on previously. By default, the Sentaurus Structure Editor mode is off. Operations will be performed by MGOALS instead.
-  - _Keywords:_ Sentaurus, Structure, Editor, polyhedron, external, material, geometry, Switches
+  - Switches off the Sentaurus Structure Editor mode if it has been switched on previously. By default, the Sentaurus Structure Editor mode is…
 - **Description** _(p.649)_ <a id="description"></a>
-  - This command enables and configures the interface between Sentaurus Interconnect and Sentaurus Structure Editor. When sde on is specified, all 3D geometry modeling is performed using Sentaurus Structure Editor. Sentaurus Interconnect wil...
-  - _Keywords:_ Sentaurus, Structure, Editor, Interconnect, specified, geometry, Scheme, enables
+  - This command enables and configures the interface between Sentaurus Interconnect and Sentaurus Structure Editor. When sde on is specified,…
 - **Examples** _(p.649)_ <a id="examples"></a>
-  - Enable the use of Sentaurus Structure Editor or geometry modeling, specify the log file for the Scheme commands, and check all boundary files written by Sentaurus Structure Editor:
-  - _Keywords:_ position, Sentaurus, Structure, Editor, sdegeo, cuboid, define, facelist
+  - Enable the use of Sentaurus Structure Editor or geometry modeling, specify the log file for the Scheme commands, and check all boundary fil…
 - **See Also** _(p.650)_ <a id="see-also"></a>
   - For details about Scheme commands, refer to the Sentaurus™ Structure Editor User Guide.
-  - _Keywords:_ details, Scheme, Sentaurus, Structure, Editor, Guide
 - **select** _(p.650)_ <a id="select"></a>
   - Selects the variable for display in all postprocessing commands.
-  - _Keywords:_ Selects, variable, display, postprocessing
 - **Syntax** _(p.650)_ <a id="syntax"></a>
-  - ```txt select [copy.bulk.to.interface=<c>] [copy.interface=<c>] [delete] [edge.vector] [element] [element.to.gauss] [interfaces] [list] [list.all] [<material>] ([min | max] | [report.location]) [name=<c>] [node.evaluate] [permanent] [pre...
-  - _Keywords:_ interface, element, select, delete, vector, interfaces, material, report
+  - ```txt select [copy.bulk.to.interface=<c>] [copy.interface=<c>] [delete] [edge.vector] [element] [element.to.gauss] [interfaces] [list] [li…
 - **Arguments** _(p.651)_ <a id="arguments"></a>
   - copy.bulk.to.interface
-  - _Keywords:_ specified, interface, element, Computes, fields, Copies, adjacent, argument
 - **interfaces** _(p.651)_ <a id="interfaces"></a>
   - Computes the field or minimum or maximum on interfaces as well as bulk. Default: true (include interfaces).
-  - _Keywords:_ interfaces, Computes, minimum, maximum, include
 - **list** _(p.651)_ <a id="list"></a>
-  - Returns a list of currently defined and named real data fields. This returns a full Tcl list for use with those commands that require list variables.
-  - _Keywords:_ currently, defined, fields, Tcl, require, variables
+  - Returns a list of currently defined and named real data fields. This returns a full Tcl list for use with those commands that require list…
 - **list.all** <a id="list-all"></a>
-  - Returns a list of currently defined and named data fields (for example, real data and vector data). This returns a full Tcl list for use with commands that require list variables.
-  - _Keywords:_ currently, defined, fields, vector, Tcl, require, variables
+  - Returns a list of currently defined and named data fields (for example, real data and vector data). This returns a full Tcl list for use wi…
 - **<material>** <a id="material"></a>
-  - Specifies the material to which the command applies. Different expressions for the data field initialization in different materials can be used. See Specifying Materials on page 18.
-  - _Keywords:_ Specifies, material, applies, Different, expressions, initialization, different, materials
+  - Specifies the material to which the command applies. Different expressions for the data field initialization in different materials can be…
 - **min, max** <a id="min-max"></a>
-  - Used with the name argument. When min or max is specified, the select command returns the minimum or maximum of the field name. You can limit the query to either a specific material using <material> or a specific region using region.
-  - _Keywords:_ specific, material, region, argument, specified, select, minimum, maximum
+  - Used with the name argument. When min or max is specified, the select command returns the minimum or maximum of the field name. You can lim…
 - **name** <a id="name"></a>
-  - Name of the new data field. Default: Z\_Plot\_Var. This name is used by all the commands when a plot name is not specified. This is a powerful feature, as solution fields also can be created.
-  - _Keywords:_ _Plot, _Var, specified, powerful, feature, solution, fields, created
+  - Name of the new data field. Default: Z\_Plot\_Var. This name is used by all the commands when a plot name is not specified. This is a power…
 - **node.evaluate** <a id="node-evaluate"></a>
   - Computes the divergence of a vector field at a node.
-  - _Keywords:_ Computes, divergence, vector
 - **permanent** <a id="permanent"></a>
   - Returns 1 if the data field is written into permanent storage. If not, it returns 0.
-  - _Keywords:_ written, permanent, storage
 - **present** <a id="present"></a>
   - Returns 1 if the data field with the name defined by name exists. If it does not exist, it returns 0.
-  - _Keywords:_ defined, exists
 - **region** _(p.652)_ <a id="region"></a>
-  - Name of the region. Specifies the region to which the command applies. Different expressions for the data field initialization in different regions can be used.
-  - _Keywords:_ region, Specifies, applies, Different, expressions, initialization, different, regions
+  - Name of the region. Specifies the region to which the command applies. Different expressions for the data field initialization in different…
 - **A: Commands** _(p.652)_ <a id="a-commands"></a>
   - select
-  - _Keywords:_ fields, syntax, returned, listed, during, available, Logarithm, select
 - **Description** _(p.653)_ <a id="description"></a>
-  - Data can be selected directly in most commands, but it is usually more effective to specify it with the select command, which allows for manipulation of data fields and also will list all currently defined data fields. The quantity can b...
-  - _Keywords:_ select, fields, element, obtain, Data, selected, directly, usually
+  - Data can be selected directly in most commands, but it is usually more effective to specify it with the select command, which allows for ma…
 - **Examples** _(p.653)_ <a id="examples"></a>
   - Select as the plot variable the base 10 logarithm of the MyData concentration:
-  - _Keywords:_ select, MyData, MyField, Select, variable, concentration, profile, argument
 - **See Also** _(p.654)_ <a id="see-also"></a>
   - All postprocessing commands
-  - _Keywords:_ postprocessing
 - **Set3DDeviceMeshMode** _(p.654)_ <a id="set3ddevicemeshmode"></a>
   - Sets the meshing parameters for the device simulation of complex 3D structures with curved surfaces.
-  - _Keywords:_ meshing, device, simulation, complex, structures, curved, surfaces
 - **Syntax** _(p.654)_ <a id="syntax"></a>
   - Set3DDeviceMeshMode
-  - _Keywords:_ Set3DDeviceMeshMode
 - **Description** <a id="description"></a>
-  - This command is used when remeshing for device simulation of complex 3D structures with curved surfaces. It adjusts axis-aligned meshes to be more flexible on curved surfaces in three dimensions. The Set3DDeviceMeshMode command sets the ...
-  - _Keywords:_ pdbSet, Grid, SnMesh, aligned, device, curved, surfaces, degree
+  - This command is used when remeshing for device simulation of complex 3D structures with curved surfaces. It adjusts axis-aligned meshes to…
 - **Examples** _(p.655)_ <a id="examples"></a>
   - Use this command with the DelPSC algorithm to create high-quality triangulation on curved surfaces:
-  - _Keywords:_ DelPSC, pdbSet, Grid, SnMesh, Apply, Brep, Use, algorithm
 - **Limitation** _(p.655–656)_ <a id="limitation"></a>
-  - Some complex structures have problematic geometric features that the DelPSC algorithm cannot tolerate. In such cases, you can use the Set3DDeviceMeshMode command without the DelPSC algorithm, for example:
-  - _Keywords:_ DelPSC, algorithm, Set3DDeviceMeshMode, Some, complex, structures, problematic, geometric
+  - Some complex structures have problematic geometric features that the DelPSC algorithm cannot tolerate. In such cases, you can use the Set3D…
 - **Set3DMovingMeshMode** _(p.656)_ <a id="set3dmovingmeshmode"></a>
   - Sets the meshing parameters and relevant parameters for 3D MovingMesh applications.
-  - _Keywords:_ meshing, relevant, MovingMesh, applications
 - **Syntax** _(p.656)_ <a id="syntax"></a>
   - Set3DMovingMeshMode <n>
-  - _Keywords:_ Set3DMovingMeshMode
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ Specifies, minimum, feature, micrometer, Typically, smallest, thickness, regions
 - **Description** <a id="description"></a>
-  - This command simplifies the setup of moving-boundary problems by setting several parameters automatically. It checks the size of the structure and sets the appropriate parameters for the length scale. The argument <n> protects small geom...
-  - _Keywords:_ simplifies, moving, boundary, problems, setting, several, automatically, checks
+  - This command simplifies the setup of moving-boundary problems by setting several parameters automatically. It checks the size of the struct…
 - **Examples** <a id="examples"></a>
   - Set up fin bending of a structure with fin tip:0.1 μm 0.01 μm
-  - _Keywords:_ bending, structure, Set3DMovingMeshMode
 - **See Also** _(p.657)_ <a id="see-also"></a>
   - MovingMesh Algorithm on page 205
-  - _Keywords:_ MovingMesh, Algorithm
 - **SetFastMode** _(p.657)_ <a id="setfastmode"></a>
   - Omits the solution of the thermal and electrical equations to simulate the device geometry quickly.
-  - _Keywords:_ Omits, solution, thermal, electrical, equations, simulate, device, geometry
 - **Syntax** _(p.657)_ <a id="syntax"></a>
   - SetFastMode
-  - _Keywords:_ SetFastMode
 - **Description** _(p.658)_ <a id="description"></a>
-  - This command runs the simulation quickly without simulating thermal and electrical effects. This can be useful when setting up a command file to confirm quickly that the geometry is satisfactory before simulating more computationally exp...
-  - _Keywords:_ quickly, simulating, simulation, without, thermal, electrical, effects, useful
+  - This command runs the simulation quickly without simulating thermal and electrical effects. This can be useful when setting up a command fi…
 - **SetMechanicsMeshMode** _(p.658)_ <a id="setmechanicsmeshmode"></a>
   - Sets the meshing parameters for 3D mechanics simulations.
-  - _Keywords:_ meshing, mechanics, simulations
 - **Syntax** _(p.658)_ <a id="syntax"></a>
   - SetMechanicsMeshMode
-  - _Keywords:_ SetMechanicsMeshMode
 - **Description** _(p.659)_ <a id="description"></a>
-  - This command sets the meshing parameters for 3D mechanics simulation in large structures such as chip-package interfaces. It switches on the DelPSC algorithm for curved surfaces, minimizes axis-aligned imprinting on curved surfaces, pref...
-  - _Keywords:_ meshes, curved, surfaces, meshing, mechanics, simulation, structures, package
+  - This command sets the meshing parameters for 3D mechanics simulation in large structures such as chip-package interfaces. It switches on th…
 - **SetPerformanceMode** _(p.659)_ <a id="setperformancemode"></a>
   - Modifies the automatic time-step control method and the parameters to improve simulation time.
-  - _Keywords:_ Modifies, automatic, control, method, improve, simulation
 - **Syntax** _(p.659)_ <a id="syntax"></a>
   - SetPerformanceMode
-  - _Keywords:_ SetPerformanceMode
 - **Description** <a id="description"></a>
-  - Some of the algorithms are experimental and might not be suitable for all applications. Backward compatibility might not be available from release to release, since algorithms are refined constantly.
-  - _Keywords:_ algorithms, release, Some, experimental, suitable, applications, Backward, compatibility
+  - Some of the algorithms are experimental and might not be suitable for all applications. Backward compatibility might not be available from…
 - **Examples** _(p.660)_ <a id="examples"></a>
   - Change the default time-stepping scheme and the controls to allow more aggressive timestepping:
-  - _Keywords:_ Change, stepping, scheme, controls, aggressive, timestepping, SetPerformanceMode
 - **SetPlxList** _(p.660)_ <a id="setplxlist"></a>
   - Sets a list of solution and term names to be passed to the WritePlx command.
-  - _Keywords:_ solution, passed, WritePlx
 - **Syntax** _(p.660)_ <a id="syntax"></a>
   - SetPlxList [<solution/term names>]
-  - _Keywords:_ SetPlxList, solution
 - **Arguments** <a id="arguments"></a>
   - <solution/term names>
-  - _Keywords:_ solution, Defines, passed, WritePlx
 - **Description** <a id="description"></a>
   - This command sets the list of fields to be saved in the next call to WritePlx. The list can contain solutions or term names.
-  - _Keywords:_ fields, WritePlx, contain, solutions
 - **Examples** <a id="examples"></a>
   - Write a .plx file with the data fields Temperature and Potential:
-  - _Keywords:_ Temperature, Potential, Write, fields, SetPlxList, WritePlx, T_and_P
 - **See Also** _(p.661)_ <a id="see-also"></a>
   - WritePlx on page 702
-  - _Keywords:_ WritePlx
 - **SetTDRList** _(p.661)_ <a id="settdrlist"></a>
   - Sets a list of solution or term names to be included when saving TDR format files.
-  - _Keywords:_ solution, included, saving, TDR, format
 - **Syntax** _(p.661)_ <a id="syntax"></a>
   - ```txt SetTDRList [<solution/term names>] [Solutions] ```
-  - _Keywords:_ SetTDRList, solution, Solutions
 - **Arguments** <a id="arguments"></a>
   - ```twig <solution/term names> ```
-  - _Keywords:_ solution, fields, Solutions, listed, struct, Stores, variables, necessary
 - **Description** _(p.662)_ <a id="description"></a>
   - This command stores solution or term names in a TDR format file.
-  - _Keywords:_ stores, solution, TDR, format
 - **SetTemp** _(p.662)_ <a id="settemp"></a>
   - Sets the temperature value.
-  - _Keywords:_ temperature
 - **Syntax** _(p.662)_ <a id="syntax"></a>
   - ```txt SetTemp <n>[<C>|<K>] ```
-  - _Keywords:_ SetTemp
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ Specifies, temperature, degree, Celsius
 - **Description** <a id="description"></a>
   - This command sets the temperature value. The value also is saved in a TDR file.
-  - _Keywords:_ temperature, TDR
 - **Examples** _(p.663)_ <a id="examples"></a>
   - Set the temperature to :1000°C
-  - _Keywords:_ temperature, SetTemp
 - **SetTS4MechanicsMode** _(p.663)_ <a id="setts4mechanicsmode"></a>
   - Sets mechanics-related parameters and models to match those of TSUPREM-4.
-  - _Keywords:_ mechanics, related, models, TSUPREM
 - **Syntax** _(p.663)_ <a id="syntax"></a>
   - SetTS4MechanicsMode [2008.09 | advanced]
-  - _Keywords:_ SetTS4MechanicsMode, advanced
 - **Arguments** <a id="arguments"></a>
-  - 2008.09
-  - _Keywords:_ advanced, backward, compatibility, TSUPREM, settings
+  - Used for backward compatibility.
 - **Description** _(p.664)_ <a id="description"></a>
   - This command sets mechanics-related parameters and models in Sentaurus Interconnect to match TSUPREM-4 settings. This includes:
-  - _Keywords:_ TSUPREM, Stress, setting, mechanics, related, models, Sentaurus, Interconnect
 - **slice** _(p.664)_ <a id="slice"></a>
   - Extracts a 1D data slice through a 2D to 3D simulation object.
-  - _Keywords:_ Extracts, through, simulation, object
 - **Syntax** _(p.664)_ <a id="syntax"></a>
-  - ```txt slice [include.interfaces] [<material>] [mdist] [mx] [my] [mz] [name=<c>] [only.interfaces] [p1=<list>] [p2=<list>] [side=<c>] [syntax.check.value=<c>] [value=<n>] [x=<n>] [<m>|<cm>|<um>|<nm>] [y=<n>] [<m>|<cm>|<um>|<nm>] [z=<n>] ...
-  - _Keywords:_ interfaces, include, material, syntax
+  - ```txt slice [include.interfaces] [<material>] [mdist] [mx] [my] [mz] [name=<c>] [only.interfaces] [p1=<list>] [p2=<list>] [side=<c>] [synt…
 - **Arguments** _(p.665)_ <a id="arguments"></a>
   - include.interfaces
-  - _Keywords:_ interface, returned, distance, material, specified, materials, selected, syntax
 - **Description** _(p.666)_ <a id="description"></a>
-  - This is an extremely powerful data analysis command. It extracts xy data along a slice through a specified material. It returns a Tcl list of coordinate–value pairs, where the coordinate is the distance [ ] along the reference segment, a...
-  - _Keywords:_ coordinate, extracts, specified, select, sliceRet, selected, constant, extremely
+  - This is an extremely powerful data analysis command. It extracts xy data along a slice through a specified material. It returns a Tcl list…
 - **Examples** _(p.666)_ <a id="examples"></a>
   - Return the selected variable as a function of depth at a constant lateral position of :0.01 μm
-  - _Keywords:_ silicon, selected, variable, interface, constant, lateral, position, positions
 - **See Also** _(p.667)_ <a id="see-also"></a>
   - select on page 628
-  - _Keywords:_ select, System
 - **solution** _(p.667)_ <a id="solution"></a>
   - Obtains and sets solution parameters for generic solutions using the Alagator language.
-  - _Keywords:_ Obtains, solution, generic, solutions, Alagator, language
 - **Syntax** _(p.667)_ <a id="syntax"></a>
-  - ```txt solution [add] [damp] [DiffStep] [linear | logarithmic] [list] [material.list= <list>] [name=<c>] [needsolution] [negative] [nosolve | solve | ifpresent=<c>] [present] [store] [unit=<c>] ```
-  - _Keywords:_ solution, DiffStep, linear, logarithmic, material, needsolution, negative, nosolve
+  - ```txt solution [add] [damp] [DiffStep] [linear | logarithmic] [list] [material.list= <list>] [name=<c>] [needsolution] [negative] [nosolve…
 - **Arguments** _(p.668)_ <a id="arguments"></a>
   - add
-  - _Keywords:_ solution, solved, variable, DiffStep, solver, linear, logarithmic, material
 - **A: Commands** _(p.668)_ <a id="a-commands"></a>
   - solution
-  - _Keywords:_ solution, solved, negative, Allows, specified, nosolve, ifpresent, status
 - **Description** <a id="description"></a>
-  - This command creates and modifies solution names, and sets conditions for their inclusion in the matrix assembly. Solutions also can be listed and checked.
-  - _Keywords:_ creates, modifies, solution, conditions, inclusion, matrix, assembly, Solutions
+  - This command creates and modifies solution names, and sets conditions for their inclusion in the matrix assembly. Solutions also can be lis…
 - **Examples** _(p.669)_ <a id="examples"></a>
-  - Create a solution named Potential and always solve for it. Allow the solution to have negative values and use damping on the Newton iteration updates:
-  - _Keywords:_ solution, Vac, negative, Create, Potential, always, damping, Allow
+  - Create a solution named Potential and always solve for it. Allow the solution to have negative values and use damping on the Newton iterati…
 - **See Also** _(p.670)_ <a id="see-also"></a>
-  - math on page 515 term on page 678
 - **solve** _(p.670)_ <a id="solve"></a>
   - Simulates thermal, electrical, and mechanical analyses.
-  - _Keywords:_ Simulates, thermal, electrical, mechanical, analyses
 - **Syntax** _(p.670–671)_ <a id="syntax"></a>
-  - ```toml solve (temp.ramp=<c> | time=<n>[<hr>|<min>|<s>] temperature=<n>[<C>|<K>]) [Adaptive] [delNT=<n>] [<C>|<K>] [delT=<n>] [<C>|<K>] [density.increase=<regionName>=<n> | <material>=<n>] [eqnInfo] [init=<n>] [<hr>|<min>|<s>] [isolve] [...
-  - _Keywords:_ temperature, Adaptive, delNT, delT, density, increase, regionName, material
+  - ```toml solve (temp.ramp=<c> | time=<n>[<hr>|<min>|<s>] temperature=<n>[<C>|<K>]) [Adaptive] [delNT=<n>] [<C>|<K>] [delT=<n>] [<C>|<K>] [de…
 - **Arguments** <a id="arguments"></a>
   - Adaptive
-  - _Keywords:_ Adaptive, specified, temperature, during, adaptive, meshing, delNT, Defines
 - **init** <a id="init"></a>
-  - First time step. The default is 0.0001 s, which is sometimes inappropriate for defect simulations, particularly in cases of damage. Default unit: minute.
-  - _Keywords:_ First, sometimes, inappropriate, defect, simulations, particularly, damage, minute
+  - First time step. The default is 0.0001 s, which is sometimes inappropriate for defect simulations, particularly in cases of damage. Default…
 - **isolve** <a id="isolve"></a>
-  - Switches on or off the initial solve for models that require an equation solved to set the initial conditions. It is used mainly to initialize SCM circuit nodes.
-  - _Keywords:_ initial, Switches, models, require, equation, solved, conditions, mainly
+  - Switches on or off the initial solve for models that require an equation solved to set the initial conditions. It is used mainly to initial…
 - **maxstep** <a id="maxstep"></a>
   - Maximum time step. Default unit: minute.
-  - _Keywords:_ Maximum, minute
 - **minT** <a id="mint"></a>
-  - Minimum simulation temperature. If the simulation temperature falls below this value, the thermal and electrical solver is switched off. If it occurs during a ramp, the time-stepping is altered such that the solver switches on or off exa...
-  - _Keywords:_ temperature, simulation, solver, Minimum, thermal, electrical, switched, occurs
+  - Minimum simulation temperature. If the simulation temperature falls below this value, the thermal and electrical solver is switched off. If…
 - **movie** <a id="movie"></a>
-  - Specifies actions that occur during the anneal step. For every time step of the solution, the character string value of this argument is executed. Do not use the movie argument to specify operations that can change meshes. For example, m...
-  - _Keywords:_ argument, Specifies, actions, during, anneal, solution, character, string
+  - Specifies actions that occur during the anneal step. For every time step of the solution, the character string value of this argument is ex…
 - **ramprate** <a id="ramprate"></a>
   - Temperature change during anneal. Default value and unit: $0 ^ { \circ } \mathrm { C } / \mathrm { s }$ .
-  - _Keywords:_ mathrm, Temperature, change, during, anneal
 - **reload** <a id="reload"></a>
   - Allows thermal and electrical equations to be parsed at each time step.
-  - _Keywords:_ Allows, thermal, electrical, equations, parsed
 - **stress.relax** <a id="stress-relax"></a>
   - Switches off relaxation of stresses during solution with an inert ambient. Default: true.
-  - _Keywords:_ Switches, relaxation, stresses, during, solution, ambient
 - **t.final** <a id="t-final"></a>
-  - Final temperature for a temperature ramp-up or ramp-down. It is used if ramprate is not given. The ramp time is calculated automatically. Default unit: degree Celsius.
-  - _Keywords:_ temperature, Final, ramprate, calculated, automatically, degree, Celsius
+  - Final temperature for a temperature ramp-up or ramp-down. It is used if ramprate is not given. The ramp time is calculated automatically. D…
 - **t.final.profile** _(p.672)_ <a id="t-final-profile"></a>
-  - Name of the final temperature profile for a local temperature ramp-up or ramp-down. The temperature at each node is ramped up or down linearly, in the given time, from the current value to the value specified with the final profile. Defa...
-  - _Keywords:_ temperature, profile, created, Annealing, degree, Celsius, annealing, ramped
+  - Name of the final temperature profile for a local temperature ramp-up or ramp-down. The temperature at each node is ramped up or down linea…
 - **Description** <a id="description"></a>
-  - The arguments of the solve command set the simulation conditions as well as time-stepping options. Analysis models and parameter settings are performed with the pdbSet command or mode command. Temperature ramps are specified by first cre...
-  - _Keywords:_ arguments, specified, simulation, conditions, stepping, Analysis, models, settings
+  - The arguments of the solve command set the simulation conditions as well as time-stepping options. Analysis models and parameter settings a…
 - **Examples** <a id="examples"></a>
   - Perform a simple low-temperature solve for 30 s:
-  - _Keywords:_ Perform, temperature, simple, current
 - **See Also** _(p.673)_ <a id="see-also"></a>
   - temp\_ramp on page 675
 - **sptopo** _(p.673)_ <a id="sptopo"></a>
   - Transfers structures and dispatches commands to Sentaurus Topography.
-  - _Keywords:_ Transfers, structures, dispatches, Sentaurus, Topography
 - **Syntax** _(p.673)_ <a id="syntax"></a>
   - ```txt sptopo {<Sentaurus Topography commands>} ```
-  - _Keywords:_ sptopo, Sentaurus, Topography
 - **Arguments** <a id="arguments"></a>
   - ```txt <Sentaurus Topography commands> ```
-  - _Keywords:_ Sentaurus, Topography, Enclose, braces, protect, interpretation, Tcl, interpreter
 - **Description** <a id="description"></a>
-  - This command transfers the boundary representation of the current structure and dispatches the commands to Sentaurus Topography. After executing the commands in Sentaurus Topography, the modified structure is retrieved and remeshed in Se...
-  - _Keywords:_ Sentaurus, Topography, structure, Interconnect, transfers, boundary, representation, current
+  - This command transfers the boundary representation of the current structure and dispatches the commands to Sentaurus Topography. After exec…
 - **Examples** <a id="examples"></a>
-  - Use Sentaurus Topography to deposit two layers isotropically, that is, oxide with a thickness of (5 nm) and polysilicon with a thickness of :0.005 μm 0.18 μm
-  - _Keywords:_ thickness, deposit, material, Use, Sentaurus, Topography, layers, isotropically
+  - Use Sentaurus Topography to deposit two layers isotropically, that is, oxide with a thickness of (5 nm) and polysilicon with a thickness of…
 - **See Also** _(p.674)_ <a id="see-also"></a>
   - Sentaurus™ Topography User Guide
-  - _Keywords:_ Sentaurus, Topography, Guide, operations
 - **stdiff** _(p.674)_ <a id="stdiff"></a>
   - Compares the current structure with one from a TDR file.
-  - _Keywords:_ Compares, current, structure, TDR
 - **Syntax** _(p.674)_ <a id="syntax"></a>
   - ```txt stdiff <c> ```
-  - _Keywords:_ stdiff
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ prefix, Specifies, TDR, without
 - **Description** <a id="description"></a>
-  - This command reads the external TDR file, interpolates the data onto the current structure, compares data, and reports if data exceeds the relative error criteria (subject to the absolute error minimum value).
-  - _Keywords:_ external, TDR, interpolates, current, structure, compares, reports, exceeds
+  - This command reads the external TDR file, interpolates the data onto the current structure, compares data, and reports if data exceeds the…
 - **Examples** _(p.675)_ <a id="examples"></a>
   - Compare field values in the current structure in memory with those contained in the file n1\_sis.tdr:
-  - _Keywords:_ Compare, current, structure, memory, contained, stdiff, n1_sis
 - **stressdata** _(p.675)_ <a id="stressdata"></a>
 - **This command:** _(p.675)_ <a id="this-command"></a>
-  - ■ Defines the intrinsic stress of materials for use in stress calculations. ■ Defines boundary or loading conditions for stress analysis. Reports the maximum stress values and their locations. Prints the anisotropic material matrix. ■ De...
-  - _Keywords:_ Defines, stress, settings, intrinsic, materials, calculations, boundary, loading
+  - ■ Defines the intrinsic stress of materials for use in stress calculations. ■ Defines boundary or loading conditions for stress analysis. R…
 - **Syntax** _(p.676)_ <a id="syntax"></a>
-  - ```txt stressdata [<material> | region=<c> | region.list= {<c> <c> ...}] [deposit.intrinsic] [sxxi=<n>] [<atm> | <GPa> | <MPa> | <KPa> | <Pa> | <dyn/cm2>] [syyi=<n>] [<atm> | <GPa> | <MPa> | <KPa> | <Pa> | <dyn/cm2>] [szzi=<n>] [<atm> | ...
-  - _Keywords:_ GPa, MPa, KPa, region, stressdata, material, deposit, intrinsic
+  - ```txt stressdata [<material> | region=<c> | region.list= {<c> <c> ...}] [deposit.intrinsic] [sxxi=<n>] [<atm> | <GPa> | <MPa> | <KPa> | <P…
 - **A: Commands** _(p.676)_ <a id="a-commands"></a>
 - **stressdata** _(p.676)_ <a id="stressdata"></a>
-  - ```ini [pdx=<n>] | [pdy=<n>] | [pdz=<n>] | [pfx=<n>] | [pfy=<n>] | [pfz=<n>] | [rx=<n>] | [ry=<n>] | [rz=<n>] [sx=<n>] | [sy=<n>] | [sz=<n>] } (point coord= {<n> <n> <n>})
-  - _Keywords:_ filter, ShearMod, YoungsMod, dislocation, origin, matrix, orient, stress
+  - ```ini [pdx=<n>] | [pdy=<n>] | [pdz=<n>] | [pfx=<n>] | [pfy=<n>] | [pfz=<n>] | [rx=<n>] | [ry=<n>] | [rz=<n>] [sx=<n>] | [sy=<n>] | [sz=<n>…
 - **Arguments** _(p.677)_ <a id="arguments"></a>
   - <material>
-  - _Keywords:_ stresses, during, syntax, returned, material, stress, region, intrinsic
 - **Arguments: Width-Dependent Intrinsic Stress** <a id="arguments-width-dependent-intrinsic-stress"></a>
   - base
-  - _Keywords:_ Scale, factors, dependent, intrinsic, stress, Base, linear, natural
 - **Arguments: Boundary or Loading Conditions** _(p.678)_ <a id="arguments-boundary-or-loading-conditions"></a>
   - bc.location
-  - _Keywords:_ boundary, location, condition, specifies, contact, displacement, Specifies, loading
 - **A: Commands** _(p.678)_ <a id="a-commands"></a>
 - **stressdata** _(p.678)_ <a id="stressdata"></a>
   - fxP/fyP/fzP for the name of the total force procedure. sxP/syP/szP for the name of the distributed force procedure.
-  - _Keywords:_ procedure, distributed
 - **bc.rotation.axis** <a id="bc-rotation-axis"></a>
-  - Specifies the coordinates of the point around which rotational boundary conditions or moment boundary conditions are applied. Default unit: cm.
-  - _Keywords:_ boundary, conditions, Specifies, coordinates, around, rotational, moment, applied
+  - Specifies the coordinates of the point around which rotational boundary conditions or moment boundary conditions are applied. Default unit:…
 - **bc.unset** <a id="bc-unset"></a>
-  - Specify this option to remove the boundary conditions and constraints defined using the bc.location argument, as if they were not defined. If needed, you can redefine new boundary conditions after calling the stressdata command with this...
-  - _Keywords:_ boundary, conditions, defined, location, Specify, remove, constraints, argument
+  - Specify this option to remove the boundary conditions and constraints defined using the bc.location argument, as if they were not defined.…
 - **bc.unset.params** <a id="bc-unset-params"></a>
-  - Removes the boundary conditions for the parameters specified in this list. If only bc.unset.params is specified without any parameters, all the previously specified parameters have their boundary conditions removed. If bc.location is not...
-  - _Keywords:_ specified, boundary, conditions, previously, Removes, params, without, removed
+  - Removes the boundary conditions for the parameters specified in this list. If only bc.unset.params is specified without any parameters, all…
 - **bc.value** <a id="bc-value"></a>
   - Specifies the boundary or loading condition types and values. The type can be:
-  - _Keywords:_ displacement, pressure, Specifies, boundary, loading, condition, moment, rotational
 - **point.coord** _(p.679)_ <a id="point-coord"></a>
   - Specifies the location where the point force or the point displacement rate is applied. Default unit: .μm
-  - _Keywords:_ Specifies, location, displacement, applied
 - **Arguments: Maximum Stress List** _(p.679–680)_ <a id="arguments-maximum-stress-list"></a>
   - filter
-  - _Keywords:_ stress, components, filter, principal, filtering, Specifies, stresses, filtered
 - **Arguments: Anisotropic Material Matrix** _(p.680)_ <a id="arguments-anisotropic-material-matrix"></a>
   - print.anisotropic.matrix
-  - _Keywords:_ Prints, equivalent, modulus, matrix, ShearMod, YoungsMod, Young, direction
 - **Arguments: Edge Dislocation** _(p.681)_ <a id="arguments-edge-dislocation"></a>
   - apply.dislocation
-  - _Keywords:_ dislocation, Specifies, defined, orient, direction, stress, Indicates, origin
 - **Arguments: Edge Dislocation–Induced Strain Energy Minimization** _(p.682)_ <a id="arguments-edge-dislocation-induced-strain-energy-minimizatio"></a>
   - opt.maxiter
-  - _Keywords:_ Specifies, dislocation, change, convergence, tolerance, origin, defining, coordinates
 - **Arguments: Resolved Shear Stress** _(p.682)_ <a id="arguments-resolved-shear-stress"></a>
   - resolved.shear.stress
-  - _Keywords:_ resolved, stress, direction, Specifies, normal, Switches, calculation
 - **Arguments: Submodeling** <a id="arguments-submodeling"></a>
   - align.cut
-  - _Keywords:_ coordinates, cutting, Specifies, global, defining, corner, UCS, tolerance
 - **Description** <a id="description"></a>
-  - This command provides stress analysis parameters for input and output. Zero is the default value for all intrinsic stress parameters. Wherever possible, use the deposit command with specified stresses to apply intrinsic stresses.
-  - _Keywords:_ stress, intrinsic, stresses, provides, analysis, Zero, Wherever, possible
+  - This command provides stress analysis parameters for input and output. Zero is the default value for all intrinsic stress parameters. Where…
 - **Examples** _(p.683–684)_ <a id="examples"></a>
   - Set the yy component of the intrinsic stress in nitride to :1.4 10×10 dyn/cm2
-  - _Keywords:_ stressdata, filter, right0, stress, location, Report, maximum, boundary
 - **strip** _(p.684)_ <a id="strip"></a>
   - Completely removes a layer exposed to the top gas region.
-  - _Keywords:_ Completely, removes, exposed, region
 - **Syntax** _(p.684)_ <a id="syntax"></a>
   - strip <material> [remesh] [stress.relax]
-  - _Keywords:_ material, remesh, stress
 - **Arguments** _(p.685)_ <a id="arguments"></a>
   - <material>
-  - _Keywords:_ dimensions, material, remesh, remeshing, specified, exposed, completely, removed
 - **Description** <a id="description"></a>
-  - In two dimensions, the mesh is regenerated immediately. In three dimensions, only the boundary is modified and the mesh is regenerated later when necessary.
-  - _Keywords:_ dimensions, regenerated, immediately, boundary, modified, necessary
+  - In two dimensions, the mesh is regenerated immediately. In three dimensions, only the boundary is modified and the mesh is regenerated late…
 - **Examples** <a id="examples"></a>
   - Remove all oxide regions exposed to the top gas region:
-  - _Keywords:_ Remove, regions, exposed, region
 - **struct** <a id="struct"></a>
   - Writes files containing the structure or the mesh and solutions.
-  - _Keywords:_ Writes, containing, structure, solutions
 - **Syntax** <a id="syntax"></a>
-  - ```ini struct [Adaptive] [alt.maternames] [compress.TDR] [contacts] [csse] [deform] [deform.scale=<n>] [FullD] [Gas] [interfaces] [mshcmd] [pdb] [pdb.only] [sat] [satfile=<c>] [simplify=<n>] [tdr=<c>] [tdr.bnd=<c>] [tdr.spx=<c>] [visual....
-  - _Keywords:_ deform, struct, Adaptive, maternames, compress, TDR, contacts, FullD
+  - ```ini struct [Adaptive] [alt.maternames] [compress.TDR] [contacts] [csse] [deform] [deform.scale=<n>] [FullD] [Gas] [interfaces] [mshcmd]…
 - **Arguments** _(p.686)_ <a id="arguments"></a>
   - Adaptive
-  - _Keywords:_ TDR, region, Adaptive, matername, Silicon, meshing, Sentaurus, Interconnect
 - **A: Commands** _(p.686–688)_ <a id="a-commands"></a>
   - struct
-  - _Keywords:_ TDR, Sentaurus, specified, boundary, Saves, geometry, Structure, Editor
 - **A: Commands** _(p.688)_ <a id="a-commands"></a>
   - struct
-  - _Keywords:_ arguments, simulations, structure, cutline, TDR, required, stored, struct
 - **Description** <a id="description"></a>
-  - This command writes the structure and the simulation mesh and field data to one or several files. The data saved is from the current set of solution values.
-  - _Keywords:_ writes, structure, simulation, several, current, solution
+  - This command writes the structure and the simulation mesh and field data to one or several files. The data saved is from the current set of…
 - **Examples** <a id="examples"></a>
   - Write a TDR file with the current simulation mesh and data. By default, a restart file is written:
-  - _Keywords:_ Write, TDR, struct, current, simulation, restart, written, secondary
 - **See Also** _(p.689)_ <a id="see-also"></a>
   - contact on page 392
-  - _Keywords:_ contact, integrate
 - **supply** _(p.689–690)_ <a id="supply"></a>
   - Sets the boundary conditions on contacts and the distributed sources on regions.
-  - _Keywords:_ current, density, supply, charge, Specifies, constant, contact, distributed
 - **A: Commands supply** _(p.690–691)_ <a id="a-commands-supply"></a>
   - delete
-  - _Keywords:_ supply, Specifies, constant, temperature, specified, contact, region, density
 - **Description** <a id="description"></a>
   - This command adds, deletes, lists, and prints:
-  - _Keywords:_ supply, solution, variable, object, contact, deletes, prints, Boundary
 - **Examples** _(p.692)_ <a id="examples"></a>
   - Apply a 0.1 mV constant voltage to contact Cont1:
-  - _Keywords:_ supply, contact, constant, thermode, mathrm, voltage, Cont1, therm1
 - **A: Commands supply** _(p.692)_ <a id="a-commands-supply"></a>
-  - Erase the supply affiliated with the solution variable Potential on contact Cont1, that is, erase any electrical boundary condition set on this contact:
-  - _Keywords:_ supply, PotentialCont1, contact, Erase, affiliated, solution, variable, Potential
+  - Erase the supply affiliated with the solution variable Potential on contact Cont1, that is, erase any electrical boundary condition set on…
 - **See Also** _(p.693)_ <a id="see-also"></a>
   - Chapter 4 on page 127 Chapter 5 on page 137 contact on page 392 current\_ramp on page 404 temp\_ramp on page 675 voltage\_ramp on page 700
-  - _Keywords:_ contact, current, voltage
 - **System** _(p.693)_ <a id="system"></a>
   - Adds a circuit element to the simulation.
-  - _Keywords:_ circuit, element, Specifies, electrode, Thermal, Adds, simulation, Syntax
 - **Description** _(p.694)_ <a id="description"></a>
   - This command allows you to add and to describe a circuit element.
-  - _Keywords:_ circuit, element, allows, describe, System, specify, multiple, instances
 - **Examples** _(p.694–695)_ <a id="examples"></a>
   - Define a resistor r3 derived from model Resistor\_pset. The element r3 is placed between electrodes 1 and 0, and has a resistance of :1000 Ω
-  - _Keywords:_ resistance, Define, resistor, derived, Resistor, element, placed, between
 - **tclsel** _(p.695)_ <a id="tclsel"></a>
   - Selects the plot variable for the postprocessing routines.
-  - _Keywords:_ Selects, variable, postprocessing, routines
 - **Syntax** _(p.695)_ <a id="syntax"></a>
   - ```txt tclsel [list] [<material>] [name=<c>] [store] [vec] [z=<c>] ```
-  - _Keywords:_ tclsel, material
 - **Arguments** _(p.696)_ <a id="arguments"></a>
   - list
-  - _Keywords:_ fields, Tcl, defined, listed, variables, material, expressions, expression
 - **Description** _(p.696)_ <a id="description"></a>
-  - This command specifies the plot variable for almost all other plot commands. It is a companion to the select command, but it differs from the select command in that it accepts any general Tcl expression. Data fields are made into Tcl var...
-  - _Keywords:_ Tcl, variable, select, specifies, almost, companion, differs, accepts
+  - This command specifies the plot variable for almost all other plot commands. It is a companion to the select command, but it differs from t…
 - **Examples** _(p.696)_ <a id="examples"></a>
   - Select as the plot variable the base 10 logarithm of the arsenic concentration:
-  - _Keywords:_ tclsel, Select, variable, concentration, phosphorus, Phosphorus, Doping, logarithm
 - **See Also** _(p.697)_ <a id="see-also"></a>
   - All postprocessing commands
-  - _Keywords:_ postprocessing
 - **temp\_ramp** _(p.697)_ <a id="temp-ramp"></a>
   - Defines a temperature profile for use with the solve or supply command.
-  - _Keywords:_ Defines, temperature, profile, supply
 - **Syntax** _(p.697)_ <a id="syntax"></a>
-  - ```txt temp_ramp (clear | list | name=<c>) [current.time=<n>][<hr>|<min>|<s>] [delNT=<n>[<C>|<K>] | delT=<n>[<C>|<K>]] [density.increase= <regionName>=<n> | <material>=<n>] [hold] [last] [ramprate=<n>][<C/s>|<K/s>|<C/min>|<K/min>] [read....
-  - _Keywords:_ temp_ramp, current, delNT, delT, density, increase, regionName, material
+  - ```txt temp_ramp (clear | list | name=<c>) [current.time=<n>][<hr>|<min>|<s>] [delNT=<n>[<C>|<K>] | delT=<n>[<C>|<K>]] [density.increase= <…
 - **Arguments** _(p.698)_ <a id="arguments"></a>
   - clear
-  - _Keywords:_ temperature, specified, profiles, delNT, Defines, maximum, during, degree
 - **A: Commands** _(p.698–699)_ <a id="a-commands"></a>
   - temp\_ramp
-  - _Keywords:_ temperature, material, profile, degree, Celsius, current, structure, segment
 - **Description** <a id="description"></a>
-  - This command specifies multiple-step temperature ramps and holds. It can be used to construct a complex temperature sequence to be simulated with the solve command (by specifying temp.ramp of the solve command).
-  - _Keywords:_ temperature, specifies, multiple, construct, complex, sequence, simulated, specifying
+  - This command specifies multiple-step temperature ramps and holds. It can be used to construct a complex temperature sequence to be simulate…
 - **Examples** <a id="examples"></a>
   - Define the temperature profile named tr1 with a temperature rate of 10 K/s:
-  - _Keywords:_ temperature, Define, profile, ramprate
 - **See Also** _(p.700)_ <a id="see-also"></a>
   - solve on page 648
 - **term** _(p.700)_ <a id="term"></a>
   - Defines a new subexpression for use in the equation specification of the Alagator language.
-  - _Keywords:_ Defines, subexpression, equation, specification, Alagator, language
 - **Syntax** _(p.700–701)_ <a id="syntax"></a>
   - ```ini term [add] [clear] [delete] [eqn=<c>] [list] [<material>] [name=<c> [present]] [print] [store] ```
-  - _Keywords:_ delete, material, present
 - **Arguments** _(p.701)_ <a id="arguments"></a>
   - add
-  - _Keywords:_ equation, specified, material, current, returned, Removes, different, defined
 - **Description** <a id="description"></a>
-  - Terms are never required but can offer substantial computational benefit. Each term is evaluated only once during assembly, and the results are cached. If multiple equations refer to a term, the first equation to use it evaluates the exp...
-  - _Keywords:_ Terms, cached, equations, required, substantial, computational, benefit, evaluated
+  - Terms are never required but can offer substantial computational benefit. Each term is evaluated only once during assembly, and the results…
 - **Examples** _(p.702)_ <a id="examples"></a>
   - Create a term named VTotal in silicon only. The keyword VTotal will be replaced with the subexpression Vacancy+VacancyGbc:
-  - _Keywords:_ silicon, VTotal, Vti, Create, replaced, Vacancy, VacancyGbc, Noni
 - **A: Commands** _(p.702)_ <a id="a-commands"></a>
   - term
-  - _Keywords:_ Charge, currently, defined, equation, corresponding
 - **See Also** _(p.703)_ <a id="see-also"></a>
   - solution on page 645
-  - _Keywords:_ solution
 - **topo** _(p.703)_ <a id="topo"></a>
   - Performs 2D or 3D etching and deposition using Sentaurus Topography 3D.
-  - _Keywords:_ Performs, etching, deposition, Sentaurus, Topography
 - **Syntax** _(p.703)_ <a id="syntax"></a>
   - topo <Sentaurus Topography 3D commands>
-  - _Keywords:_ Sentaurus, Topography
 - **Arguments** <a id="arguments"></a>
   - <Sentaurus Topography 3D commands>
-  - _Keywords:_ Sentaurus, Topography, arguments, described, Guide
 - **Description** <a id="description"></a>
   - Physical etching and deposition are available through the interface to Sentaurus Topography 3D and are executed using the topo command.
-  - _Keywords:_ Sentaurus, Topography, available, Interconnect, Physical, etching, deposition, through
 - **Examples** _(p.704)_ <a id="examples"></a>
   - Define a new machine for a deposition process and perform deposition:
-  - _Keywords:_ deposition, Define, machine, process, perform, define, _deposit, _machine
 - **transform** _(p.704–705)_ <a id="transform"></a>
   - Cuts, flips, reflects, rotates, stretches, or translates a structure and currently defined refinement boxes.
-  - _Keywords:_ Adaptive, location, remesh, Cuts, reflects, rotates, stretches, translates
 - **Arguments: Cut** <a id="arguments-cut"></a>
   - Adaptive
-  - _Keywords:_ remesh, location, Adaptive, specified, structure, arguments, adaptive, meshing
 - **Arguments: Flip** _(p.706)_ <a id="arguments-flip"></a>
   - Adaptive
-  - _Keywords:_ Adaptive, adaptive, meshing, specified, switches, described, Mesh, Refinement
 - **A: Commands** _(p.706)_ <a id="a-commands"></a>
   - transform
-  - _Keywords:_ transform
 - **location** _(p.706)_ <a id="location"></a>
-  - Selects the x-coordinate about which the structure will be flipped. By default, the middle of the structure is chosen. Subsequent transform flip commands will, by default, use the same location for flipping whether the default is used or...
-  - _Keywords:_ structure, coordinate, location, middle, chosen, Selects, flipped, Subsequent
+  - Selects the x-coordinate about which the structure will be flipped. By default, the middle of the structure is chosen. Subsequent transform…
 - **Arguments: Reflection** <a id="arguments-reflection"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 183. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ Adaptive, adaptive, meshing, specified, switches, described, Mesh, Refinement
+  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 183.…
 - **keep.original** _(p.707)_ <a id="keep-original"></a>
-  - Retains the original structure after reflection (having both the original and the reflected structure), or stores only the reflected structure when disabled with !keep.original. Default: true.
-  - _Keywords:_ original, reflection, structure, reflected, Selects, performed, contacts, Specifies
+  - Retains the original structure after reflection (having both the original and the reflected structure), or stores only the reflected struct…
 - **Arguments: Rotation** _(p.707)_ <a id="arguments-rotation"></a>
 - **Adaptive** _(p.707)_ <a id="adaptive"></a>
-  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 183. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ Adaptive, adaptive, meshing, specified, switches, described, Mesh, Refinement
+  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 183.…
 - **angle** <a id="angle"></a>
-  - Rotation angle. It must be one of 90, 180, or 270. Angles leading to structures having gas in a side are not allowed. This means that for axis= "Y" and axis= "Z", only 180 is allowed. For axis= "X", 90, 180, or 270 are allowed. Two-dimen...
-  - _Keywords:_ allowed, Rotation, Angles, leading, structures, having, Two, dimensional
+  - Rotation angle. It must be one of 90, 180, or 270. Angles leading to structures having gas in a side are not allowed. This means that for a…
 - **axis** <a id="axis"></a>
   - Rotation axis. It must be the x-axis, y-axis, or z-axis.
-  - _Keywords:_ Rotation
 - **rotate** <a id="rotate"></a>
   - Specifies the rotation operation.
-  - _Keywords:_ Specifies, rotation, operation
 - **Arguments: Stretch** <a id="arguments-stretch"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 183. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ Adaptive, adaptive, meshing, specified, switches, described, Mesh, Refinement
+  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 183.…
 - **length** <a id="length"></a>
   - Length of stretching. Default value and unit: .0 μm
-  - _Keywords:_ Length, stretching
 - **location** <a id="location"></a>
   - The y- or z-coordinate where the structure will be stretched. Default value and unit: .0 μm
-  - _Keywords:_ coordinate, structure, stretched
 - **remesh** <a id="remesh"></a>
   - Specifies that a remesh will be performed. Default: true.
-  - _Keywords:_ Specifies, remesh, performed
 - **stretch** _(p.708)_ <a id="stretch"></a>
   - Specifies the stretch operation.
-  - _Keywords:_ Specifies, stretch, operation
 - **Arguments: Translation** _(p.708)_ <a id="arguments-translation"></a>
   - translate
-  - _Keywords:_ translate, Translates, entire, structure, specifying, translation, vector, translate_x
 - **Arguments: Transform Masks** <a id="arguments-transform-masks"></a>
   - masks
-  - _Keywords:_ original, specified, reflected, transformed, present, reflect, combined, Otherwise
 - **Description** <a id="description"></a>
-  - Previously, the cut and clip commands had slightly different behavior. Now, they are identical and are referred to as the cut command. All these transformations work in both two and three dimensions.
-  - _Keywords:_ Previously, slightly, different, behavior, Now, identical, referred, transformations
+  - Previously, the cut and clip commands had slightly different behavior. Now, they are identical and are referred to as the cut command. All…
 - **Examples** _(p.709)_ <a id="examples"></a>
   - Both commands reflect the structure and refinement boxes to the right side:
-  - _Keywords:_ structure, refinement, transform, reflect, location, remesh, Cut, between
 - **See Also** _(p.710)_ <a id="see-also"></a>
   - Handling Stress in Etching and Deposition on page 244 mgoals on page 524
-  - _Keywords:_ Handling, Stress, Etching, Deposition, mgoals
 - **transform.mask** _(p.710)_ <a id="transform-mask"></a>
   - Cuts, flips, reflects, rotates, stretches, or translates a given mask or all masks.
-  - _Keywords:_ Cuts, reflects, rotates, stretches, translates
 - **Syntax** _(p.710)_ <a id="syntax"></a>
-  - ```txt transform.mask (cut | flip | reflect | rotate | stretch) [angle=<n> axis="X" | "Y" | "Z"] [keep.original] [length=<n>] [<m>|<cm>|<um>|<nm>] [name=<c>] [name.new=<c>] [[location=<n>][<m>|<cm>|<um>|<nm>] (left | right | front | back...
-  - _Keywords:_ transform, reflect, rotate, stretch, original, length, location, translate
+  - ```txt transform.mask (cut | flip | reflect | rotate | stretch) [angle=<n> axis="X" | "Y" | "Z"] [keep.original] [length=<n>] [<m>|<cm>|<um…
 - **Arguments: General** _(p.711)_ <a id="arguments-general"></a>
   - keep.original
-  - _Keywords:_ original, specified, transformed, Specifies, whether, reflection, operation, reflect
 - **Arguments: Cut** _(p.711)_ <a id="arguments-cut"></a>
   - cut
-  - _Keywords:_ location, either, coordinate, argument, arguments, Crops, bounding, Indicates
 - **Arguments: Flip** _(p.712)_ <a id="arguments-flip"></a>
   - flip
-  - _Keywords:_ location, coordinate, middle, structure, chosen, Flips, bottom, Selects
 - **Arguments: Reflection** _(p.712)_ <a id="arguments-reflection"></a>
   - left, right, front, back
-  - _Keywords:_ reflection, performed, Selects, simulation, domain, reflect, Indicates, Specify
 - **Arguments: Rotation** <a id="arguments-rotation"></a>
   - angle
-  - _Keywords:_ rotation, Rotation, rotate, Indicates, performed
 - **Arguments: Stretch** _(p.713)_ <a id="arguments-stretch"></a>
   - left, right, front, back
-  - _Keywords:_ Indicates, stretch, length, Length, stretching, location, Specifies, coordinate
 - **Arguments: Translation** <a id="arguments-translation"></a>
   - translate
-  - _Keywords:_ translate, Translates, specifying, translation, vector, translate_x, translate_y, translate_z
 - **Description** <a id="description"></a>
-  - A transformed mask is created and replaces the old one by default. The transformation applies to all existing masks, except if name is specified. In this case, a transformed mask name also can be specified using name.new. If name.new is ...
-  - _Keywords:_ specified, original, transformed, created, replaces, transformation, applies, existing
+  - A transformed mask is created and replaces the old one by default. The transformation applies to all existing masks, except if name is spec…
 - **Examples** _(p.714)_ <a id="examples"></a>
   - Reflect all the current masks to the right side:
-  - _Keywords:_ transform, Create, smask1, existing, location, Reflect, current, reflect
 - **transform.refinement** _(p.714)_ <a id="transform-refinement"></a>
   - Reflects, stretches, cuts, flips, rotates, or translates a given refinement box or all refinement boxes.
-  - _Keywords:_ refinement, Reflects, stretches, rotates, translates, Syntax, transform, reflect
 - **Arguments: General** _(p.715)_ <a id="arguments-general"></a>
   - keep.original
-  - _Keywords:_ original, refinement, transformation, transformed, Specifies, whether, keeping, untouched
 - **Arguments: Cut** _(p.715)_ <a id="arguments-cut"></a>
   - cut
-  - _Keywords:_ location, arguments, coordinate, argument, Crops, refinement, bounding, Indicates
 - **Arguments: Flip** _(p.716)_ <a id="arguments-flip"></a>
   - flip
-  - _Keywords:_ location, refinement, coordinate, middle, structure, chosen, Flips, bottom
 - **Arguments: Reflection** _(p.716)_ <a id="arguments-reflection"></a>
   - left, right, front, back
-  - _Keywords:_ reflection, performed, Selects, simulation, domain, reflect, Indicates, Specify
 - **Arguments: Rotation** <a id="arguments-rotation"></a>
   - angle
-  - _Keywords:_ Rotation, degree, rotate, Indicates, rotation, performed
 - **Arguments: Stretch** _(p.717)_ <a id="arguments-stretch"></a>
   - left, right, front, back
-  - _Keywords:_ Indicates, refinement, stretch, length, Length, stretching, location, Specifies
 - **Arguments: Translation** <a id="arguments-translation"></a>
   - translate
-  - _Keywords:_ translate, Translates, refinement, specifying, translation, vector, translate_x, translate_y
 - **Description** <a id="description"></a>
-  - A new transformed refinement box is created by default, while the old one is kept. This can be overridden with !keep.original. The transformation applies to all existing refinements, except if a name is specified. In this case, a transfo...
-  - _Keywords:_ transformed, refinement, specified, created, overridden, original, transformation, applies
+  - A new transformed refinement box is created by default, while the old one is kept. This can be overridden with !keep.original. The transfor…
 - **Examples** _(p.718)_ <a id="examples"></a>
   - Create a set of new refinements as reflections of all the current refinements to the right side:
-  - _Keywords:_ refinement, transform, Create, refinements, refbox, existing, location, original
 - **See Also** _(p.718–719)_ <a id="see-also"></a>
   - Mesh Refinement on page 176
-  - _Keywords:_ Mesh, Refinement, Handling, Stress, Etching, Deposition, refinebox, transform
 - **translate** _(p.719)_ <a id="translate"></a>
   - Translates a named dataset with the specified offset.
-  - _Keywords:_ Translates, dataset, specified, offset
 - **Syntax** _(p.719)_ <a id="syntax"></a>
   - ```txt translate [<material>] [min=<n>] [name=<c>] [offset= {<n> <n> <n>}] ```
-  - _Keywords:_ translate, material, offset
 - **Arguments** <a id="arguments"></a>
   - ```txt <material> ```
-  - _Keywords:_ material, dataset, specified, translated, Otherwise, materials, Specifying, Materials
 - **Description** <a id="description"></a>
-  - This command spatially shifts a profile (dataset) with the specified offset. If a material is specified, the profile is shifted in the specified material only. Otherwise, the profile is shifted in all materials. When a profile is shifted...
-  - _Keywords:_ profile, specified, shifted, material, points, spatially, shifts, dataset
+  - This command spatially shifts a profile (dataset) with the specified offset. If a material is specified, the profile is shifted in the spec…
 - **Examples** _(p.720)_ <a id="examples"></a>
   - Shift the Boron data field with a shifting vector ( , , ):0.01 μm 0.02 μm 0.0 μm
-  - _Keywords:_ Boron, Shift, shifting, vector, translate, offset
 - **update\_hoop\_radial\_stress** _(p.720)_ <a id="update-hoop-radial-stress"></a>
   - Calculates the hoop and radial stresses with an axis of symmetry in the x-direction.
-  - _Keywords:_ Calculates, radial, stresses, symmetry, direction
 - **Syntax** _(p.720)_ <a id="syntax"></a>
   - ```txt update_hoop_radial_stress [<n> <n>] ```
-  - _Keywords:_ update_hoop_radial_stress
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> <n> ```
-  - _Keywords:_ center, second, calculation
 - **Description** <a id="description"></a>
-  - This command calculates the hoop stress and the radial stress from a user-specified center point. The fields are saved under Stress\_Theta and Stress\_R, respectively. The calculations are valid when there is rotational symmetry.
-  - _Keywords:_ stress, Stress, calculates, radial, specified, center, fields, _Theta
+  - This command calculates the hoop stress and the radial stress from a user-specified center point. The fields are saved under Stress\_Theta…
 - **Examples** _(p.721)_ <a id="examples"></a>
   - Calculate hoop and radial stresses with an axis of symmetry in the x-direction at y = 0.2 μm and :z = 0.1 μm
-  - _Keywords:_ Calculate, radial, stresses, symmetry, direction, update_hoop_radial_stress
 - **update\_principal\_strain** _(p.721)_ <a id="update-principal-strain"></a>
   - Calculates the principal strains.
-  - _Keywords:_ Calculates, principal, strains
 - **Syntax** _(p.721)_ <a id="syntax"></a>
   - update\_principal\_strain
-  - _Keywords:_ update, _principal, _strain
 - **Description** <a id="description"></a>
-  - This command calculates the first, second, and third principal strains, and stores them as the fields PrincipalStrain1, PrincipalStrain2, and PrincipalStrain3, respectively.
-  - _Keywords:_ calculates, second, principal, strains, stores, fields, PrincipalStrain1, PrincipalStrain2
+  - This command calculates the first, second, and third principal strains, and stores them as the fields PrincipalStrain1, PrincipalStrain2, a…
 - **update\_principal\_stress** <a id="update-principal-stress"></a>
   - Calculates the principal stresses.
-  - _Keywords:_ Calculates, principal, stresses
 - **Syntax** <a id="syntax"></a>
   - update\_principal\_stress
-  - _Keywords:_ update, _principal, _stress
 - **Description** _(p.722)_ <a id="description"></a>
-  - This command calculates the first, second, and third principal stresses, and stores them as the fields PrincipalStress1, PrincipalStress2, and PrincipalStress3, respectively.
-  - _Keywords:_ calculates, second, principal, stresses, stores, fields, PrincipalStress1, PrincipalStress2
+  - This command calculates the first, second, and third principal stresses, and stores them as the fields PrincipalStress1, PrincipalStress2,…
 - **voltage\_ramp** _(p.722)_ <a id="voltage-ramp"></a>
   - Defines a voltage profile for use with the supply command.
-  - _Keywords:_ Defines, voltage, profile, supply
 - **Syntax** _(p.722–723)_ <a id="syntax"></a>
-  - ```txt voltage_ramp (clear | list | name=<c>) [current.time=<n>][<hr>|<min>|<s>] [delNV=<n>[<V>] | delV=<n>[<V>]] [hold] [last] [ramprate=<n>][<V/s>|<V/min>] [reset.init.time] [time=<n>][<hr>|<min>|<s>] [v.final=<n>][<V>] [voltage=<n>][<...
-  - _Keywords:_ voltage_ramp, current, delNV, delV, ramprate, voltage
+  - ```txt voltage_ramp (clear | list | name=<c>) [current.time=<n>][<hr>|<min>|<s>] [delNV=<n>[<V>] | delV=<n>[<V>]] [hold] [last] [ramprate=<…
 - **Arguments** <a id="arguments"></a>
   - clear
-  - _Keywords:_ voltage, Defines, profiles, maximum, during, specified, segment, Deletes
 - **list** <a id="list"></a>
-  - Generates a list of voltage profiles. It returns a Tcl list and can be operated on as such. The default action for commands is to print the return. If no handling is required, this prints a list of names of defined voltage profiles. If a...
-  - _Keywords:_ voltage, profiles, Generates, Tcl, operated, action, handling, required
+  - Generates a list of voltage profiles. It returns a Tcl list and can be operated on as such. The default action for commands is to print the…
 - **name** <a id="name"></a>
   - Name of the parameter used to identify the voltage ramp and specify it in a supply command.
-  - _Keywords:_ identify, voltage, specify, supply
 - **ramprate** <a id="ramprate"></a>
   - Voltage change during simulation. Default value and unit: 0 V/s.
-  - _Keywords:_ Voltage, change, during, simulation
 - **reset.init.time** <a id="reset-init-time"></a>
   - Starts each voltage step with the same initial time step.
-  - _Keywords:_ Starts, voltage, initial
 - **time** <a id="time"></a>
   - Simulation time. Default unit: minute.
-  - _Keywords:_ Simulation, minute
 - **v.final** <a id="v-final"></a>
   - Final voltage for a voltage ramp-up or ramp-down. It is used if ramprate is not given. The ramp time is calculated automatically.
-  - _Keywords:_ voltage, Final, ramprate, calculated, automatically
 - **voltage** <a id="voltage"></a>
   - Simulation voltage.
-  - _Keywords:_ Simulation, voltage
 - **Description** <a id="description"></a>
-  - This command specifies multiple voltage ramps and holds. It can be used to construct a complex voltage sequence to be simulated with the solve command.
-  - _Keywords:_ voltage, specifies, multiple, construct, complex, sequence, simulated
+  - This command specifies multiple voltage ramps and holds. It can be used to construct a complex voltage sequence to be simulated with the so…
 - **Examples** <a id="examples"></a>
   - Define the voltage profile named vr1 with a voltage rate of 0.5 V/s:
-  - _Keywords:_ voltage, Define, profile, ramprate
 - **See Also** _(p.724)_ <a id="see-also"></a>
   - supply on page 667
-  - _Keywords:_ supply
 - **WritePlx** _(p.724)_ <a id="writeplx"></a>
   - Writes a 1D .plx file.
-  - _Keywords:_ Writes
 - **Syntax** _(p.724–725)_ <a id="syntax"></a>
-  - ```txt WritePlx <filename> [<circuit_instances> | <contact_list>] [current | resistance | voltage] [include.interfaces] [<material>] [only.interfaces] [x=<n>] [y=<n>] [z=<n>] ```
-  - _Keywords:_ interfaces, WritePlx, filename, circuit_instances, contact_list, current, resistance, voltage
+  - ```txt WritePlx <filename> [<circuit_instances> | <contact_list>] [current | resistance | voltage] [include.interfaces] [<material>] [only.…
 - **Arguments** _(p.725)_ <a id="arguments"></a>
   - ```txt <circuit_instances>, <contact_list> ```
-  - _Keywords:_ circuit, interface, specified, current, returned, material, simulations, instances
 - **Description** <a id="description"></a>
-  - This command makes a 1D profile along a given cutline and writes a .plx file of the solutions and terms given in the list provided by the SetPlxList command. If the list is not provided, only present solution names are written. If a mate...
-  - _Keywords:_ provided, material, argument, profile, cutline, writes, solutions, SetPlxList
+  - This command makes a 1D profile along a given cutline and writes a .plx file of the solutions and terms given in the list provided by the S…
 - **Examples** <a id="examples"></a>
   - Write a 1D .plx file at the y = cutline:1.5 μm
-  - _Keywords:_ WritePlx, Write, cutline, Shift, PlxShift
 - **See Also** _(p.726–727)_ <a id="see-also"></a>
   - SetPlxList on page 638
-  - _Keywords:_ resistance, SetPlxList, WritePlx, appendix, describes, capacitance, thermal, analyses
 - **Overview** _(p.727)_ <a id="overview"></a>
   - There are different simulation categories in Sentaurus Interconnect depending on the type of analysis:
-  - _Keywords:_ analysis, resistance, extracts, matrix, capacitance, thermal, simulation, Thermal
 - **Electrical Current Analysis: Resistance Matrix** <a id="electrical-current-analysis-resistance-matrix"></a>
-  - Sentaurus Interconnect calculates the resistance matrix for the listed contacts by solving the Laplace equation (Eq. 83, p. 137) without the displacement currents. If no contact information is given with the mode command, all user-define...
-  - _Keywords:_ contacts, Sentaurus, Interconnect, calculates, resistance, matrix, listed, solving
+  - Sentaurus Interconnect calculates the resistance matrix for the listed contacts by solving the Laplace equation (Eq. 83, p. 137) without th…
 - **where:** _(p.728–729)_ <a id="where"></a>
   - is the total current.I is the conductance.G ■ is the voltage difference at the contact with respect to the reference point.ΔV
-  - _Keywords:_ mathrm, resistance, matrix, contacts, contact, between, details, summary
 - **Electrostatic Analysis: Capacitance Matrix** _(p.730–731)_ <a id="electrostatic-analysis-capacitance-matrix"></a>
-  - Sentaurus Interconnect calculates the capacitance matrix for the listed contacts by solving the Poisson equation (Eq. 96, p. 149) with zero charge density in the regions. If no contact information is given, conductors are treated as cont...
-  - _Keywords:_ mathrm, capacitance, matrix, contacts, contact, capacitances, between, details
+  - Sentaurus Interconnect calculates the capacitance matrix for the listed contacts by solving the Poisson equation (Eq. 96, p. 149) with zero…
 - **Floating Conductors** _(p.731)_ <a id="floating-conductors"></a>
-  - Floating contacts or conductors refer to contacts or conductors with either charge boundary conditions or charge density–type boundary conditions specified on them (see Applying Boundary Conditions to Electrodes on page 151). When perfor...
-  - _Keywords:_ charge, conductors, analysis, supply, contacts, boundary, conditions, specified
+  - Floating contacts or conductors refer to contacts or conductors with either charge boundary conditions or charge density–type boundary cond…
 - **Merging Contacts** _(p.732)_ <a id="merging-contacts"></a>
-  - Contacts, when defined, can be merged before performing an electrostatic or a capacitance calculation. Merged contacts behave as one and, therefore, supply should be defined on only one of them.
-  - _Keywords:_ contact, capacitance, defined, contacts, regions, merged, region, before
+  - Contacts, when defined, can be merged before performing an electrostatic or a capacitance calculation. Merged contacts behave as one and, t…
 - **Distributed RC Extraction** _(p.733–734)_ <a id="distributed-rc-extraction"></a>
-  - Sentaurus Interconnect structures can be segmented automatically for distributed resistance analysis. Structures are segmented automatically, placing contacts at conductor–conductor interfaces. Distributed resistance analysis also takes ...
-  - _Keywords:_ resistance, contacts, capacitance, details, summary, conductor, materials, printRC
+  - Sentaurus Interconnect structures can be segmented automatically for distributed resistance analysis. Structures are segmented automaticall…
 - **Generating, Validating, and Merging Netlists** <a id="generating-validating-and-merging-netlists"></a>
-  - Sentaurus Interconnect provides functions to facilitate the generation of SPICE netlists following RC extractions. The SPICE netlist generated in Sentaurus Interconnect includes both transistors and parasitic RC components, and is ready ...
-  - _Keywords:_ netlist, Sentaurus, layout, Interconnect, SPICE, transistor, network, shapes
+  - Sentaurus Interconnect provides functions to facilitate the generation of SPICE netlists following RC extractions. The SPICE netlist genera…
 - **Generating Netlists** <a id="generating-netlists"></a>
-  - The netlist generation function identifies CMOS transistors in a layout, forms a transistor netlist containing identified transistors, and annotates the terminals of the transistors in the layout by text labels. The annotations are saved...
-  - _Keywords:_ layout, params, Optional, netlist, layers, argument, Required, transistors
+  - The netlist generation function identifies CMOS transistors in a layout, forms a transistor netlist containing identified transistors, and…
 - **B: Resistance, Capacitance, and Thermal Resistance** _(p.735)_ <a id="b-resistance-capacitance-and-thermal-resistance"></a>
   - Generating, Validating, and Merging Netlists
-  - _Keywords:_ netlist, VBN, layout, VBP, params, transistor, terminals, stroke
 - **Grouping Netlists** <a id="grouping-netlists"></a>
-  - The netlist grouping function identifies nets in a netlist that are electrically connected and labels the nets using a common prefix. The prefix is either a pin name if the net is connected to a pin or an automatically assigned name if t...
-  - _Keywords:_ VBN, VBP, netlist, rcnetgroup, A0I221, VDD, VSS, connected
+  - The netlist grouping function identifies nets in a netlist that are electrically connected and labels the nets using a common prefix. The p…
 - **Validating Netlists** <a id="validating-netlists"></a>
-  - The netlist validation function compares two netlists and checks whether they have identical connections. It is useful to validate the connections of one netlist, for example, a netlist generated by Sentaurus Interconnect, against connec...
-  - _Keywords:_ VBP, VBN, netlist, VDD, VSS, netlists, reference, nch_svt_mac
+  - The netlist validation function compares two netlists and checks whether they have identical connections. It is useful to validate the conn…
 - **Merging Netlists** <a id="merging-netlists"></a>
-  - The netlist merging function merges the RC components of a netlist generated by Sentaurus Interconnect into the compact model parameters of a user-specified netlist. Merging occurs only if the two netlists are equivalent, that is, they h...
-  - _Keywords:_ VBN, VBP, nch_svt_mac, netlist, VDD, VSS, pch_svt_mac, reference
+  - The netlist merging function merges the RC components of a netlist generated by Sentaurus Interconnect into the compact model parameters of…
 - **Thermal Analysis: Thermal Resistance Matrix** <a id="thermal-analysis-thermal-resistance-matrix"></a>
-  - Sentaurus Interconnect calculates the thermal resistance matrix for the listed contacts by solving the heat equation (Eq. 73, p. 127) with no time dependency and no distributed heat sources at ambient temperature, which is defined by the...
-  - _Keywords:_ mathrm, thermal, resistance, matrix, contacts, contact, between, defined
+  - Sentaurus Interconnect calculates the thermal resistance matrix for the listed contacts by solving the heat equation (Eq. 73, p. 127) with…
 - **Thermal Analysis: Thermal RC Network** <a id="thermal-analysis-thermal-rc-network"></a>
-  - Thermal RC networks are widely used for SPICE and mixed-mode device simulations to account for self-heating and interactive heating of electronic devices on a chip or in a package. Unlike thermal networks, which consist of thermal resist...
-  - _Keywords:_ thermal, network, excitation, contact, networks, impedances, ambient, temperature
+  - Thermal RC networks are widely used for SPICE and mixed-mode device simulations to account for self-heating and interactive heating of elec…
 - **Example: Electrostatic Analysis With Floating Conductor** <a id="example-electrostatic-analysis-with-floating-conductor"></a>
-  - The following self-contained example demonstrates electrostatic analysis (calculating the capacitance matrix) with a floating conductor on a simple structure containing a straight copper wire embedded in oxide between two metal planes (s...
-  - _Keywords:_ location, spacing, region, floating, capacitance, YMid1, YMid2, contact
+  - The following self-contained example demonstrates electrostatic analysis (calculating the capacitance matrix) with a floating conductor on…
 - **References** _(p.740)_ <a id="references"></a>
-  - [1] Y. Yu, T.-Y. T. Lee, and V. A. Chiriac, “Compact Thermal Resistor-Capacitor-Network Approach to Predicting Transient Junction Temperatures of a Power Amplifier Module,” IEEE Transactions on Components, Packaging and Manufacturing Tec...
-  - _Keywords:_ Thermal, Compact, Network, Power, Generation, Models, Resistance, Lee
+  - [1] Y. Yu, T.-Y. T. Lee, and V. A. Chiriac, “Compact Thermal Resistor-Capacitor-Network Approach to Predicting Transient Junction Temperatu…

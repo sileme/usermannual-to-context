@@ -3,3399 +3,2287 @@
 Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
 
 - **Garand User Guide** _(p.1)_ <a id="garand-user-guide"></a>
-  - Version O-2018.06, June 2018
-  - _Keywords:_ Version, June
 - **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
-  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
-  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursua…
 - **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
-  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
-  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to natio…
 - **Disclaimer** <a id="disclaimer"></a>
-  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITE…
 - **Trademarks** <a id="trademarks"></a>
-  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html. All other product or company names may be trademarks of their respective owners.
-  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-b…
 - **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
   - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
-  - _Keywords:_ applicable, Free, Open, Source, Software, FOSS, licensing, notices
 - **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
-  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
-  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible…
 - **Contents** _(p.3)_ <a id="contents"></a>
 - **I Garand: Drift-Diffusion Simulator 28** _(p.3)_ <a id="i-garand-drift-diffusion-simulator-28"></a>
 - **1 Introduction to Garand 29** _(p.3)_ <a id="1-introduction-to-garand-29"></a>
-  - 1.1 Functionality of Garand and the Workflow . . 29 1.1.1 Solution . 30 1.2 Starting Garand From the Command Line 31 1.3 Parallel Execution . 33 1.4 Setting Up an Input File . 33 1.4.1 Simulation Setup 33 1.4.2 Dimensional Units 34 1.4.3...
-  - _Keywords:_ Simulation, Garand, Functionality, Workflow, Solution, Starting, Line, Parallel
+  - 1.1 Functionality of Garand and the Workflow . . 29 1.1.1 Solution . 30 1.2 Starting Garand From the Command Line 31 1.3 Parallel Execution…
 - **2 Importing Device Structures 39** _(p.4)_ <a id="2-importing-device-structures-39"></a>
   - 2.1 Importing Structures From TDR Files 39 2.2 Importing a Mesh 40 2.3 Specifying a Mesh 40
-  - _Keywords:_ Importing, Specifying, Mesh, Contact, Alloy, Structures, TDR, Specification
 - **3 Simulation Setup 70** <a id="3-simulation-setup-70"></a>
-  - 3.1 Bias Conditions 70
-  - _Keywords:_ Gate, Granularity, Bias, Conditions, characteristic, search, Statistical, Variability
+  - 3.1.1 I-V characteristic mode 70 3.1.2 V search mode . 71
 - **3.3 Statistical Reliability Modeling . . 86** _(p.5)_ <a id="3-3-statistical-reliability-modeling-86"></a>
   - 3.3.1 Interface Trapped Charge . 87 3.3.2 User-Specified Fixed Charge . . 88
-  - _Keywords:_ Charge, Interface, Trapped, Specified, Fixed
 - **3.4 Additional Models 88** _(p.5)_ <a id="3-4-additional-models-88"></a>
-  - 3.4.1 Density Gradient Quantum Corrections 88 3.4.2 Schrödinger Quantum Corrections . 91 3.4.3 Fermi-Dirac Carrier Statistics 97 3.4.4 Contact Resistance 100 3.4.5 Drain Leakage 101 3.4.6 Gate Leakage . 107 3.4.7 Interface Charge 108 3.4...
-  - _Keywords:_ Quantum, Corrections, Leakage, Interface, Charge, Density, Gradient, Fermi
+  - 3.4.1 Density Gradient Quantum Corrections 88 3.4.2 Schrödinger Quantum Corrections . 91 3.4.3 Fermi-Dirac Carrier Statistics 97 3.4.4 Cont…
 - **3.5 Numerical Solution 116** <a id="3-5-numerical-solution-116"></a>
   - 3.5.1 The modified Gummel method . 116 3.5.2 Input file options 120
-  - _Keywords:_ modified, Gummel, method
 - **3.6 Output . . 123** <a id="3-6-output-123"></a>
-  - 3.6.1 Output files . 123 3.6.2 Output for visualization 124 3.6.3 Cutlines 128 3.6.4 Autocutlines 129 3.6.5 Averaged / integral cutlines 130 3.6.6 Monte Carlo Transfer . 131
-  - _Keywords:_ visualization, Cutlines, Autocutlines, Averaged, integral, cutlines, Monte, Carlo
 - **II Garand MC: Monte Carlo Simulator 134** _(p.6)_ <a id="ii-garand-mc-monte-carlo-simulator-134"></a>
 - **4 Introduction to Garand MC 135** _(p.6)_ <a id="4-introduction-to-garand-mc-135"></a>
   - 4.1 Functionality of Garand MC and Workflow 135 4.2 Particle Propagation . 136
-  - _Keywords:_ Statistics, Current, Estimation, Particle, Transport, Poisson, Solution, Functionality
 - **5 Monte Carlo Input File 140** _(p.7–8)_ <a id="5-monte-carlo-input-file-140"></a>
   - 5.1 Starting Garand MC From the Command Line . 140 5.2 Setting Up an Input File . 141
-  - _Keywords:_ Time, Steps, Material, Simulation, Model, Intermittent, Decoupled, Band
 - **6 Output Visualization 173** _(p.8)_ <a id="6-output-visualization-173"></a>
 - **6.1 Initialization Fields 173** _(p.8)_ <a id="6-1-initialization-fields-173"></a>
-  - 6.1.1 Donor Doping Concentration . 174 6.1.2 Acceptor Doping Concentration 174 6.1.3 Total Doping Concentration 174 6.1.4 Net Doping Concentration 174 6.1.5 Fixed Charge Concentration 174 6.1.6 Potential 175 6.1.7 Effective Quantum Poten...
-  - _Keywords:_ Concentration, Doping, Potential, Donor, Acceptor, Total, Net, Fixed
 - **6.2 Steady-State Fields 176** <a id="6-2-steady-state-fields-176"></a>
-  - 6.2.1 Carrier Energy 177 6.2.2 Velocity 177 6.2.3 Current Density . 177 6.2.4 Mobile Carrier Properties 177
-  - _Keywords:_ Carrier, Energy, Velocity, Current, Density, Mobile, Properties
 - **6.3 Output Options 177** <a id="6-3-output-options-177"></a>
-  - 6.3.1 Band Properties . 178 6.3.2 Ballistic Properties 178
-  - _Keywords:_ Properties, Band, Ballistic
 - **6.4 Scattering Rates . 178** <a id="6-4-scattering-rates-178"></a>
 - **6.5 Additional Output . 179** _(p.9)_ <a id="6-5-additional-output-179"></a>
   - 6.5.1 Time Evolution 179 6.5.2 Energy and Wavevector Distributions 179 6.5.3 Averaged and Integral Cutlines . 179
-  - _Keywords:_ Time, Evolution, Energy, Wavevector, Distributions, Averaged, Integral, Cutlines
 - **7 Monte Carlo Simulation Models 181** _(p.9)_ <a id="7-monte-carlo-simulation-models-181"></a>
   - 7.1 Assigning Charges 181 7.2 Interpolating Force 181 7.3 Initializing Particles . 182
-  - _Keywords:_ Quantum, Boundaries, Energy, Equilibrium, Scattering, Assigning, Charges, Interpolating
 - **III Material Models 191** <a id="iii-material-models-191"></a>
 - **8 Semiconductor Material Models 192** _(p.10)_ <a id="8-semiconductor-material-models-192"></a>
   - 8.1 Defining the Semiconductor Material Model . 192 8.2 Bulk Material Model 192
-  - _Keywords:_ Model, Band, Material, Bulk, Defining, Semiconductor, Crystal, Lattice
 - **8.4 Material Strain 203** _(p.10)_ <a id="8-4-material-strain-203"></a>
-  - 8.4.1 Biaxial Strain 203 8.4.2 Uniaxial Stress 204 8.4.3 Strain-Induced Energy Shifts . 205 8.4.4 Effective Mass 206
-  - _Keywords:_ Strain, Biaxial, Uniaxial, Stress, Induced, Energy, Shifts, Effective
 - **8.5 Nondefault Material Model Definitions 206** <a id="8-5-nondefault-material-model-definitions-206"></a>
   - 8.5.1 Removing a Valley Model 206 8.5.2 Adding a Valley Model . 207
-  - _Keywords:_ Valley, Model, Removing, Adding
 - **8.6 Analytic Valley Model 207** <a id="8-6-analytic-valley-model-207"></a>
-  - 8.6.1 General Properties 207 8.6.2 Analytic Conduction Band 209 8.6.3 Valence Band 210 8.6.4 Analytic Valence Band 210
-  - _Keywords:_ Band, Analytic, Valence, General, Properties, Conduction
 - **8.7 Six-Band k · p Band Structure 211** <a id="8-7-six-band-k-p-band-structure-211"></a>
-  - 8.7.1 k · p Model 211 8.7.2 Strain 212 8.7.3 Effective Valence Band Density-of-States 213 8.7.4 Band Gap 213 8.7.5 Electron Affinity 214 8.7.6 Intrinsic Carrier Concentration 214
-  - _Keywords:_ Band, Model, Strain, Effective, Valence, Density, States, Gap
 - **8.8 Selecting the Transport Model 214** <a id="8-8-selecting-the-transport-model-214"></a>
 - **9 Insulator Material Models 216** <a id="9-insulator-material-models-216"></a>
   - 9.1 Default Insulators 216 9.2 Defining the Insulator Material Model 216 9.3 Bulk Material Model 216
-  - _Keywords:_ Material, Bulk, Model, Insulators, Defining, Insulator, Nondefault
 - **9.4 Band Structure Model . 217** _(p.11)_ <a id="9-4-band-structure-model-217"></a>
-  - 9.4.1 Nominal Band-Edge Model 217 9.4.2 Nominal Valley Model 218
-  - _Keywords:_ Nominal, Model, Band, Edge, Valley
 - **10 Mobility Models 220** _(p.11–12)_ <a id="10-mobility-models-220"></a>
   - 10.1 Material Mobility Models . 220
-  - _Keywords:_ Mobility, Model, Models, Field, Dependent, Low, Perpendicular, Calculation
 - **11 Scattering Mechanisms 241** _(p.12)_ <a id="11-scattering-mechanisms-241"></a>
   - 11.1 Scattering Rate Tabulation 241
-  - _Keywords:_ Scattering, Phonon, Nondefault, Acoustic, Optical, Rate, Tabulation, Elastic
 - **12 Scattering Models 249** _(p.13)_ <a id="12-scattering-models-249"></a>
   - 12.1 General Scattering Model . 249
-  - _Keywords:_ Scattering, Model, Phonon, Rate, Band, Analytic, Models, Acoustic
 - **13 Binary Alloy Semiconductor Material Models 269** _(p.14)_ <a id="13-binary-alloy-semiconductor-material-models-269"></a>
-  - 13.1 Binary Material Parameters . 269 13.2 Binary Crystal Parameters 270 13.3 Binary Band Parameters 270 13.4 Binary Valley Parameters 271 13.5 Binary Scattering Parameters . 273
-  - _Keywords:_ Interpolation, Scattering, Binary, Phonon, Linear, Quadratic, Acoustic, Optical
+  - 13.1 Binary Material Parameters . 269 13.2 Binary Crystal Parameters 270 13.3 Binary Band Parameters 270 13.4 Binary Valley Parameters 271…
 - **IV Default Material Definitions 280** <a id="iv-default-material-definitions-280"></a>
 - **14 Default Materials 281** <a id="14-default-materials-281"></a>
   - 14.1 Default Material Names . 281 14.2 Default Semiconductors . 281
-  - _Keywords:_ Material, Semiconductors, Calibrated, Carriers, Insulators
 - **Silicon Material Model 283** _(p.15–17)_ <a id="silicon-material-model-283"></a>
-  - 15.1 Bulk Material Model 283
-  - _Keywords:_ mechanisms, valley, Band, minima, mobility, models, position, orientation
+  - 15.1.1 bulk material parameters 283 15.1.2 Band-To-Band-Tunnelling parameters 283
 - **18 Indium52 Aluminium48 Arsenide Material Model 383** _(p.18)_ <a id="18-indium52-aluminium48-arsenide-material-model-383"></a>
-  - 18.1 Bulk Material Model 383
-  - _Keywords:_ valley, mechanisms, Band, minima, Bulk, Material, Model, material
+  - 18.1.1 bulk material parameters 383 18.1.2 Band-To-Band-Tunnelling parameters 383
 - **18.3 Valence Band 400** _(p.18)_ <a id="18-3-valence-band-400"></a>
-  - 18.3.1 mobility models 401 18.3.2 valley minima - position and orientation . 404 18.3.3 valley minima - parameters . 405 18.3.4 HH band mechanisms - names 406 18.3.5 HH band mechanisms - parameters 407 18.3.6 LH band mechanisms - names 4...
-  - _Keywords:_ mechanisms, valley, minima, SSO, mobility, models, position, orientation
+  - 18.3.1 mobility models 401 18.3.2 valley minima - position and orientation . 404 18.3.3 valley minima - parameters . 405 18.3.4 HH band mec…
 - **18.4 Velocity-Field Characteristics . 408** <a id="18-4-velocity-field-characteristics-408"></a>
 - **18.5 Low-Field Concentration-Dependent Mobility . 408** <a id="18-5-low-field-concentration-dependent-mobility-408"></a>
 - **19 Gallium Arsenide Material Model 410** <a id="19-gallium-arsenide-material-model-410"></a>
 - **19.1 Bulk Material Model 410** <a id="19-1-bulk-material-model-410"></a>
   - 19.1.1 bulk material parameters 410 19.1.2 Band-To-Band-Tunnelling parameters 410
-  - _Keywords:_ Band, material, Tunnelling
 - **19.2 Conduction Band 411** _(p.19)_ <a id="19-2-conduction-band-411"></a>
-  - 19.2.1 band edge parameters . 411 19.2.2 mobility models 411 19.2.3 valley minima - position and orientation . 415 19.2.4 valley minima - parameters . 419 19.2.5 L valley mechanisms - names 421 19.2.6 L valley mechanisms - parameters 421...
-  - _Keywords:_ valley, mechanisms, minima, mobility, models, position, orientation
+  - 19.2.1 band edge parameters . 411 19.2.2 mobility models 411 19.2.3 valley minima - position and orientation . 415 19.2.4 valley minima - p…
 - **19.3 Valence Band 428** _(p.19)_ <a id="19-3-valence-band-428"></a>
-  - 19.3.1 mobility models 428 19.3.2 valley minima - position and orientation 432 19.3.3 valley minima - parameters . 433 19.3.4 HH band mechanisms - names 434 19.3.5 HH band mechanisms - parameters 434 19.3.6 LH band mechanisms - names 435...
-  - _Keywords:_ mechanisms, valley, minima, SSO, mobility, models, position, orientation
+  - 19.3.1 mobility models 428 19.3.2 valley minima - position and orientation 432 19.3.3 valley minima - parameters . 433 19.3.4 HH band mecha…
 - **20 Indium Arsenide Material Model 436** <a id="20-indium-arsenide-material-model-436"></a>
 - **20.1 Bulk Material Model 436** <a id="20-1-bulk-material-model-436"></a>
   - 20.1.1 bulk material parameters 436 20.1.2 Band-To-Band-Tunnelling parameters 436
-  - _Keywords:_ Band, material, Tunnelling
 - **20.2 Conduction Band 437** <a id="20-2-conduction-band-437"></a>
-  - 20.2.1 band edge parameters . 437 20.2.2 mobility models 437 20.2.3 valley minima - position and orientation . 441 20.2.4 valley minima - parameters . 445 20.2.5 L valley mechanisms - names 446 20.2.6 L valley mechanisms - parameters 447...
-  - _Keywords:_ valley, mechanisms, minima, mobility, models, position, orientation
+  - 20.2.1 band edge parameters . 437 20.2.2 mobility models 437 20.2.3 valley minima - position and orientation . 441 20.2.4 valley minima - p…
 - **20.3 Valence Band 453** <a id="20-3-valence-band-453"></a>
-  - 20.3.1 mobility models 454 20.3.2 valley minima - position and orientation . 457 20.3.3 valley minima - parameters . 458 20.3.4 HH band mechanisms - names . 459
-  - _Keywords:_ mechanisms, valley, minima, SSO, mobility, models, position, orientation
+  - 20.3.1 mobility models 454 20.3.2 valley minima - position and orientation . 457 20.3.3 valley minima - parameters . 458 20.3.4 HH band mec…
 - **21 Aluminium Arsenide Material Model 462** _(p.20)_ <a id="21-aluminium-arsenide-material-model-462"></a>
-  - 21.1 Bulk Material Model 462
-  - _Keywords:_ mechanisms, valley, Band, minima, mobility, models, position, orientation
+  - 21.1.1 bulk material parameters 462 21.1.2 Band-To-Band-Tunnelling parameters 462
 - **22 Silicon1 x Germaniumx Binary Alloy Material Model 488** _(p.21)_ <a id="22-silicon1-x-germaniumx-binary-alloy-material-model-488"></a>
 - **22.1 Bulk Material Model . 488** _(p.21)_ <a id="22-1-bulk-material-model-488"></a>
   - 22.1.1 bulk material parameters 488 22.1.2 Band-To-Band-Tunnelling parameters 489
-  - _Keywords:_ Band, material, Tunnelling
 - **22.2 Conduction Band 489** <a id="22-2-conduction-band-489"></a>
-  - 22.2.1 band edge parameters . 489 22.2.2 mobility models 490 22.2.3 valley minima - position and orientation . 495 22.2.4 valley minima - parameters . 499 22.2.5 L valley mechanisms - names 502 22.2.6 L valley mechanisms - parameters 503...
-  - _Keywords:_ valley, mechanisms, minima, mobility, models, position, orientation, Surface
+  - 22.2.1 band edge parameters . 489 22.2.2 mobility models 490 22.2.3 valley minima - position and orientation . 495 22.2.4 valley minima - p…
 - **22.3 Valence Band 513** <a id="22-3-valence-band-513"></a>
-  - 22.3.1 mobility models 515 22.3.2 valley minima - position and orientation . 519 22.3.3 valley minima - parameters . 520 22.3.4 HH band mechanisms - names . 523 22.3.5 HH band mechanisms - parameters 524 22.3.6 LH band mechanisms - names...
-  - _Keywords:_ mechanisms, valley, minima, SSO, mobility, models, position, orientation
+  - 22.3.1 mobility models 515 22.3.2 valley minima - position and orientation . 519 22.3.3 valley minima - parameters . 520 22.3.4 HH band mec…
 - **23 Indium1 x Galliumx Arsenide Binary Alloy Material Model 531** _(p.22)_ <a id="23-indium1-x-galliumx-arsenide-binary-alloy-material-model-5"></a>
-  - 23.1 Bulk Material Model 531
-  - _Keywords:_ mechanisms, valley, Band, minima, mobility, models, position, orientation
+  - 23.1.1 bulk material parameters 531 23.1.2 Band-To-Band-Tunnelling parameters 532
 - **24 Indium1 x Aluminiumx Arsenide Binary Alloy Material Model 557** _(p.23)_ <a id="24-indium1-x-aluminiumx-arsenide-binary-alloy-material-model"></a>
-  - 24.1 Bulk Material Model 557
-  - _Keywords:_ Band, Bulk, Material, Model, material, Tunnelling
+  - 24.1.1 bulk material parameters 557 24.1.2 Band-To-Band-Tunnelling parameters 558
 - **24.2 Conduction Band 558** _(p.23)_ <a id="24-2-conduction-band-558"></a>
-  - 24.2.1 band edge parameters . 558 24.2.2 mobility models 558 24.2.3 valley minima - position and orientation . 563 24.2.4 valley minima - parameters . 567 24.2.5 L valley mechanisms - names 568 24.2.6 L valley mechanisms - parameters 569...
-  - _Keywords:_ valley, mechanisms, minima, mobility, models, position, orientation
+  - 24.2.1 band edge parameters . 558 24.2.2 mobility models 558 24.2.3 valley minima - position and orientation . 563 24.2.4 valley minima - p…
 - **24.3 Valence Band . 575** <a id="24-3-valence-band-575"></a>
-  - 24.3.1 mobility models 576 24.3.2 valley minima - position and orientation . 581 24.3.3 valley minima - parameters . 582 24.3.4 HH band mechanisms - names . 583 24.3.5 HH band mechanisms - parameters 583 24.3.6 LH band mechanisms - names...
-  - _Keywords:_ mechanisms, valley, minima, SSO, mobility, models, position, orientation
+  - 24.3.1 mobility models 576 24.3.2 valley minima - position and orientation . 581 24.3.3 valley minima - parameters . 582 24.3.4 HH band mec…
 - **V Appendices 585** <a id="v-appendices-585"></a>
 - **Appendix A Garand Materials 586** _(p.24)_ <a id="appendix-a-garand-materials-586"></a>
-  - A.1 Semiconductors 586 A.2 Insulators 587
-  - _Keywords:_ Semiconductors, Insulators
 - **Appendix B Input Commands 589** _(p.24)_ <a id="appendix-b-input-commands-589"></a>
-  - B.1 Syntax 589 B.2 Bias Command 589 B.3 Contact Command . 590 B.4 Doping Command . 592 B.5 Mesh Command . 593 B.6 Model Command 593
-  - _Keywords:_ Model, Syntax, Bias, Contact, Doping, Mesh, Simple, Models
+  - B.6.1 Simple Models 594 B.6.2 Using Model Identifiers 594
 - **Appendix C Deprecated Input Commands 614** <a id="appendix-c-deprecated-input-commands-614"></a>
   - C.1 Crystal Orientation 614 C.2 Time Series 614 C.3 Integration of stress field 614
-  - _Keywords:_ Crystal, Orientation, Time, Series, Integration, stress
 - **Appendix D Using Template Device Structures 616** _(p.25)_ <a id="appendix-d-using-template-device-structures-616"></a>
   - D.1 Overview of Template Device Structures . . 616 D.2 Example: Planar Bulk MOSFET 616 D.3 Example: Bulk FinFET 619 D.4 Doping Profiles 620
-  - _Keywords:_ Materials, Bulk, FinFET, Template, Doping, Nanowire, MOSFET, Additional
 - **Appendix E Utilities 642** <a id="appendix-e-utilities-642"></a>
   - E.1 The garand\_mats Utility 642
-  - _Keywords:_ Utility, garand, Running, Material, _profile, Named, Model, Defined
 - **Bibliography 647** <a id="bibliography-647"></a>
 - **Index 653** _(p.26)_ <a id="index-653"></a>
 - **About This Guide** _(p.26)_ <a id="about-this-guide"></a>
-  - This user guide describes the Synopsys® Garand device simulator for drift-diffusion simulations and the Garand MC device simulator for Monte Carlo simulations.
-  - _Keywords:_ Garand, device, simulator, simulations, describes, Synopsys, diffusion, Monte
+  - This user guide describes the Synopsys® Garand device simulator for drift-diffusion simulations and the Garand MC device simulator for Mont…
 - **Conventions** _(p.26)_ <a id="conventions"></a>
   - The following conventions are used in Synopsys documentation.
-  - _Keywords:_ Indicates, syntax, conventions, Synopsys, documentation, Convention, Description, Courier
 - **Customer Support** <a id="customer-support"></a>
   - Customer support is available through the Synopsys SolvNet® customer support website and by contacting the Synopsys support center.
-  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
 - **Accessing SolvNet** _(p.27)_ <a id="accessing-solvnet"></a>
-  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
-  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synops…
 - **Contacting Synopsys Support** _(p.27–28)_ <a id="contacting-synopsys-support"></a>
   - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
-  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
 - **Part I** _(p.28)_ <a id="part-i"></a>
 - **Garand: Drift-Diffusion Simulator** _(p.28–29)_ <a id="garand-drift-diffusion-simulator"></a>
 - **1 Introduction to Garand** _(p.29)_ <a id="1-introduction-to-garand"></a>
   - This chapter introduces the Garand device simulator.
-  - _Keywords:_ introduces, Garand, device, simulator
 - **1.1 Functionality of Garand and the Workflow** _(p.29–30)_ <a id="1-1-functionality-of-garand-and-the-workflow"></a>
-  - Garand is a three-dimensional, drift-diffusion, quantum-corrected statistical device simulator that self-consistently solves the carrier concentration and potential distribution coupled with current continuity throughout the simulation d...
-  - _Keywords:_ Garand, device, simulation, diffusion, simulator, current, variability, domain
+  - Garand is a three-dimensional, drift-diffusion, quantum-corrected statistical device simulator that self-consistently solves the carrier co…
 - **1.1.1 Solution** _(p.30)_ <a id="1-1-1-solution"></a>
-  - The simulation domain is defined on a 3D rectilinear mesh, which provides an efficient discretization and solution scheme and is particularly important for efficient Monte Carlo simulation in which particle self-forces should be minimize...
-  - _Keywords:_ carrier, solution, potential, simulation, efficient, obtained, electrostatic, nonlinear
+  - The simulation domain is defined on a 3D rectilinear mesh, which provides an efficient discretization and solution scheme and is particular…
 - **1.1.1.1 Unipolar** _(p.30)_ <a id="1-1-1-1-unipolar"></a>
-  - Garand is designed to simulate CMOS devices and assumes that the simuated transistor is unipolar. Concentrations for both majority and minority carriers are solved self-consistently with the potential throughout the simulation domain, bu...
-  - _Keywords:_ majority, carriers, solved, Garand, designed, simulate, CMOS, devices
+  - Garand is designed to simulate CMOS devices and assumes that the simuated transistor is unipolar. Concentrations for both majority and mino…
 - **1.1.1.2 Nonlinear Poisson Equation: Carrier Statistics** _(p.31)_ <a id="1-1-1-2-nonlinear-poisson-equation-carrier-statistics"></a>
-  - The carrier concentration as a function of electrostatic potential for both majority and minority carriers is determined assuming the Boltzmann approximation to the Fermi–Dirac distribution function. Fermi–Dirac statistics can optionally...
-  - _Keywords:_ carrier, concentration, Fermi, Dirac, electrostatic, potential, majority, minority
+  - The carrier concentration as a function of electrostatic potential for both majority and minority carriers is determined assuming the Boltz…
 - **1.1.1.3 Quantum Corrections** _(p.31)_ <a id="1-1-1-3-quantum-corrections"></a>
-  - Quantum corrections can be included in the drift-diffusion simulation through the solution of the density gradient equation. This is coupled with both the nonlinear Poisson and current continuity solutions and can be applied to both majo...
-  - _Keywords:_ carrier, density, quantum, corrections, solution, gradient, equation, applied
+  - Quantum corrections can be included in the drift-diffusion simulation through the solution of the density gradient equation. This is couple…
 - **1.1.1.4 Current Continuity** <a id="1-1-1-4-current-continuity"></a>
-  - Current continuity is solved for only the majority carriers and assumes a single total mobility model applied to the total carrier distribution. This treats the transport of subpopulations associated with the semiconductor material band ...
-  - _Keywords:_ carriers, quantum, potential, Current, continuity, solved, majority, assumes
+  - Current continuity is solved for only the majority carriers and assumes a single total mobility model applied to the total carrier distribu…
 - **1.2 Starting Garand From the Command Line** _(p.32–33)_ <a id="1-2-starting-garand-from-the-command-line"></a>
   - You can start Garand from the command line as follows:
-  - _Keywords:_ Specifies, Garand, device, specified, voltage, equivalent, materials, simulation
 - **1.3 Parallel Execution** _(p.32–33)_ <a id="1-3-parallel-execution"></a>
-  - Garand can be run in parallel on a multi-core computing environment. The number of parallel threads to use can be specifed in the input file using the command:
-  - _Keywords:_ threads, parallel, Garand, environment, garand, computing, specifed, simulation
+  - Garand can be run in parallel on a multi-core computing environment. The number of parallel threads to use can be specifed in the input fil…
 - **1.4 Setting Up an Input File** <a id="1-4-setting-up-an-input-file"></a>
   - Garand input is based on a set of commands followed by assignment of parameters as keyword–value pairs.
-  - _Keywords:_ Garand, followed, assignment, keyword
 - **1.4.1 Simulation Setup** _(p.34)_ <a id="1-4-1-simulation-setup"></a>
   - The simulation command controls the behavior of Garand (see Section B.9).
-  - _Keywords:_ Garand, keyword, simulation, device, results, solution, You, specify
 - **1.4.2 Dimensional Units** _(p.35)_ <a id="1-4-2-dimensional-units"></a>
-  - Many commands in the Garand input file require specification of dimensions or positions within the device structure. Historically, the dimensional unit for all of the input and output were nanometers. As the unit used in other Synopsys t...
-  - _Keywords:_ structure, dimensions, positions, Garand, specification, within, device, nanometers
+  - Many commands in the Garand input file require specification of dimensions or positions within the device structure. Historically, the dime…
 - **1.4.3 Device Structure** _(p.35)_ <a id="1-4-3-device-structure"></a>
   - The structure command is used to specify certain aspects of the structure of the device being simulated (see Appendix B.10).
-  - _Keywords:_ contact, specified, potential, structure, Appendix, keyword, polysilicon, doping
 - **1.4.4 Mobility Models** _(p.36)_ <a id="1-4-4-mobility-models"></a>
-  - You can specify up to five mobility models to use in a simulation, for each semiconductor material in the device, using the material command. For electron mobility in n-type MOSFETs, you specify:
-  - _Keywords:_ mobility, material, conduction, dependent, rowspan, perpendicular, strain, silicon
+  - You can specify up to five mobility models to use in a simulation, for each semiconductor material in the device, using the material comman…
 - **1.4.5 Capacitance Simulation** _(p.37)_ <a id="1-4-5-capacitance-simulation"></a>
-  - If you use the simulation capacitance=<string> command, then quasistatic capacitances, $C _ { i j } \ =$ $\partial Q _ { i } / \partial V _ { j }$ , are calculated. Here, i and j each cover the following device contacts: gate (g), source...
-  - _Keywords:_ capacitance, simulation, contacts, written, calculated, matrix, string, partial
+  - If you use the simulation capacitance=<string> command, then quasistatic capacitances, $C _ { i j } \ =$ $\partial Q _ { i } / \partial V _…
 - **1.4.6 Monte Carlo Transfer** _(p.38)_ <a id="1-4-6-monte-carlo-transfer"></a>
-  - The Garand drift-diffusion simulator is used as a precursor to the Monte Carlo simulator, Garand MC. Using Garand to initialize Garand MC reduces the time for the Monte Carlo simulation to reach steady-state conditions by providing a sol...
-  - _Keywords:_ MCT, Garand, simulation, Monte, Carlo, simulations, created, diffusion
+  - The Garand drift-diffusion simulator is used as a precursor to the Monte Carlo simulator, Garand MC. Using Garand to initialize Garand MC r…
 - **1.4.7 Long-Channel Simulation** _(p.38–39)_ <a id="1-4-7-long-channel-simulation"></a>
-  - There are certain circumstances where a full device simulation is not necessary, such as when evaluating the channel mobility in a Monte Carlo simulation assuming infinite channel length, or when calibrating the density gradient solution...
-  - _Keywords:_ channel, source, simulation, Monte, Carlo, remove, keyword, device
+  - There are certain circumstances where a full device simulation is not necessary, such as when evaluating the channel mobility in a Monte Ca…
 - **2 Importing Device Structures** _(p.39)_ <a id="2-importing-device-structures"></a>
   - This chapter discusses how to import device structures using TDR files.
-  - _Keywords:_ discusses, import, device, structures, TDR
 - **2.1 Importing Structures From TDR Files** _(p.39–40)_ <a id="2-1-importing-structures-from-tdr-files"></a>
   - A 3D TDR structure file can be read in to Garand using the command:
-  - _Keywords:_ TDR, structure, Garand, Sentaurus, Mesh, filename, tensor, product
 - **2.2 Importing a Mesh** _(p.40)_ <a id="2-2-importing-a-mesh"></a>
   - Instead of specifying a mesh in the Garand input file, you can directly use the mesh in a TDR file.
-  - _Keywords:_ imported, TDR, structure, specifying, Garand, import, additional, reflected
 - **2.3 Specifying a Mesh** _(p.41–42)_ <a id="2-3-specifying-a-mesh"></a>
-  - You can import the simulation mesh directly from a TDR file (see Section 2.2). You can also define a simulation mesh in the Garand input file. This section describes this option.
-  - _Keywords:_ spaces, region, specified, length, spacing, Axis, Garand, details
+  - You can import the simulation mesh directly from a TDR file (see Section 2.2). You can also define a simulation mesh in the Garand input fi…
 - **2.3.1 Alternative Mesh Specification** _(p.43)_ <a id="2-3-1-alternative-mesh-specification"></a>
   - There is an alternative method to specifying a mesh, which is simple but lacks some of the flexibility of the previously described method.
-  - _Keywords:_ spacing, method, alternative, points, geometrically, specifying, described, specified
 - **2.3.2 Automatic Mesh Specification** _(p.43)_ <a id="2-3-2-automatic-mesh-specification"></a>
-  - The automesh command allows the position of key mesh points described in Section 2.3.1 to be determined automatically, based on the location of transitions between materials. This is particularly useful when simulating several structures...
-  - _Keywords:_ automesh, position, described, spacing, specified, allows, points, determined
+  - The automesh command allows the position of key mesh points described in Section 2.3.1 to be determined automatically, based on the locatio…
 - **2.3.2.1 Finding the Channel Region** _(p.44–45)_ <a id="2-3-2-1-finding-the-channel-region"></a>
   - To find the channel region, you must specify a material that surrounds the channel. This would typically be the gate oxide material.
-  - _Keywords:_ channel, details, summary, direction, material, images, natural_image, yellow
 - **2.3.2.2 Finding Other Key Points** _(p.45–47)_ <a id="2-3-2-2-finding-other-key-points"></a>
-  - After the channel has been defined, it is useful to add other key points at significant transition points within a structure. To do this, you find the start and end points of contiguous blocks of material in each direction.
-  - _Keywords:_ transition, material, automesh, details, summary, HfO2, blocks, spacing
+  - After the channel has been defined, it is useful to add other key points at significant transition points within a structure. To do this, y…
 - **2.4 Reflecting a Structure** _(p.47)_ <a id="2-4-reflecting-a-structure"></a>
-  - Sometimes, the structure transferred to Garand contains only half, or even a quarter, of the entire device structure. Such a structure can be transferred to Garand and the entire device can be constructed by reflecting the partial struct...
-  - _Keywords:_ structure, reflect, direction, device, Garand, entire, transferred, contains
+  - Sometimes, the structure transferred to Garand contains only half, or even a quarter, of the entire device structure. Such a structure can…
 - **2.5 Regions** <a id="2-5-regions"></a>
-  - The structure in the TDR file that is being imported will consist of a number of different regions. Each region has a single material associated with it. This region information will be imported by Garand, and then specific regions can b...
-  - _Keywords:_ regions, region, TDR, imported, material, Garand, specific, structure
+  - The structure in the TDR file that is being imported will consist of a number of different regions. Each region has a single material assoc…
 - **2.5.1 Setting region-specific material parameters** _(p.48–49)_ <a id="2-5-1-setting-region-specific-material-parameters"></a>
-  - Garand material parameters are described in detail in Chapter 8. To change material parameters that apply to all parts of the structure containing that material, a material command should be used with the general form:
-  - _Keywords:_ material, permittivity, region, Silicon, change, called, SiliconGermanium, Si70Ge30
+  - Garand material parameters are described in detail in Chapter 8. To change material parameters that apply to all parts of the structure con…
 - **2.5.2 Adding a user-defined region** _(p.49)_ <a id="2-5-2-adding-a-user-defined-region"></a>
-  - The regions in the TDR structure will generally have been created in Sentaurus Process during the process simulation stage. It may sometimes be useful to have additional regions available in the structure when running Drift-Diffusion or ...
-  - _Keywords:_ material, region, bounding, optional, extent, direction, structure, regions
+  - The regions in the TDR structure will generally have been created in Sentaurus Process during the process simulation stage. It may sometime…
 - **Notes:** _(p.50)_ <a id="notes"></a>
-  - • \* The default ‘input units’ for Garand are nanometers, but this can be changed. See Section 1.4.2 for how to specify the dimensional units to use in Garand. • For a mesh element to be included in the new region it must lie entirely wi...
-  - _Keywords:_ Garand, nanometers, changed, specify, dimensional, element, included, region
+  - • \* The default ‘input units’ for Garand are nanometers, but this can be changed. See Section 1.4.2 for how to specify the dimensional uni…
 - **2.6 Doping Profiles** _(p.50)_ <a id="2-6-doping-profiles"></a>
-  - When a full device structure is imported from a TDR file, the doping within the device is included in that file and can be transferred to the Garand simulation mesh. Garand makes an assumption about which fields in the TDR file should be...
-  - _Keywords:_ doping, concentration, Total, device, imported, TDR, Garand, fields
+  - When a full device structure is imported from a TDR file, the doping within the device is included in that file and can be transferred to t…
 - **Donor dopant species:** <a id="donor-dopant-species"></a>
   - • ArsenicActiveConcentration • PhosphorusActiveConcentration
-  - _Keywords:_ ArsenicActiveConcentration, PhosphorusActiveConcentration
 - **Acceptor dopant species:** _(p.51)_ <a id="acceptor-dopant-species"></a>
   - • BoronActiveConcentration • IndiumActiveConcentration
-  - _Keywords:_ fields, acceptor, DopingConcentration, present, TotalConcentration, Otherwise, dopant, TDR
 - **2.7 Importing a Sentaurus Device TDR output file** <a id="2-7-importing-a-sentaurus-device-tdr-output-file"></a>
-  - As well as using a structure file produced by Sentaurus Process as an input structure, Garand can also use a TDR file produced as output from a Sentaurus Device simulation. This file will also need to be remeshed to have a tensorproduct ...
-  - _Keywords:_ Sentaurus, Device, Garand, TDR, simulation, structure, produced, Process
+  - As well as using a structure file produced by Sentaurus Process as an input structure, Garand can also use a TDR file produced as output fr…
 - **2.7.1 Density gradient calibration parameter** _(p.52)_ <a id="2-7-1-density-gradient-calibration-parameter"></a>
-  - By importing the density gradient (DG) calibration parameter (γ) used in Sentaurus Device, an equivalent parameter can be set in Garand so that it produces the same quantum correction as that obtained in Sentaurus Device. This removes th...
-  - _Keywords:_ Sentaurus, Device, Garand, fields, present, TDR, density, gradient
+  - By importing the density gradient (DG) calibration parameter (γ) used in Sentaurus Device, an equivalent parameter can be set in Garand so…
 - **Notes:** <a id="notes"></a>
-  - • Garand solves the density gradient equation everywhere in the device. This is particularly necessary when simulating random discrete dopants. If a QPBox is specified in the Sentaurus Device input file, Garand will import the DG paramet...
-  - _Keywords:_ Garand, Sentaurus, Device, density, gradient, boundary, conditions, solves
+  - • Garand solves the density gradient equation everywhere in the device. This is particularly necessary when simulating random discrete dopa…
 - **2.7.1.1 Overriding the imported Density Gradient mass in given directions** _(p.53)_ <a id="2-7-1-1-overriding-the-imported-density-gradient-mass-in-giv"></a>
-  - The DG mass derived from the imported γ parameter can be overriden in one or more directions by the values defined in the Garand input file. This is especially useful to avoid unwanted ”tunnelling” effects in the transport direction. To ...
-  - _Keywords:_ directions, override, simulation, imported, Garand, direction, specified, derived
+  - The DG mass derived from the imported γ parameter can be overriden in one or more directions by the values defined in the Garand input file…
 - **2.7.2 Mobility** _(p.54)_ <a id="2-7-2-mobility"></a>
-  - By importing the mobility, the same mobility can be used in Garand as was used in Sentaurus Device, as long as the bias conditions for the Garand simulation match the bias conditions in the Sentaurus Device simulation that produced the T...
-  - _Keywords:_ mobility, Garand, Sentaurus, Device, simulation, TDR, import, fields
+  - By importing the mobility, the same mobility can be used in Garand as was used in Sentaurus Device, as long as the bias conditions for the…
 - **2.8 Structural Definitions With Imported Device Structures** <a id="2-8-structural-definitions-with-imported-device-structures"></a>
-  - The current output from Garand is given in amperes. It is no longer necessary to specify a current\_width with which to normalize the current.
-  - _Keywords:_ current, Garand, amperes, longer, necessary, specify, _width, normalize
+  - The current output from Garand is given in amperes. It is no longer necessary to specify a current\_width with which to normalize the curre…
 - **2.9 Scaling the Output Current** <a id="2-9-scaling-the-output-current"></a>
-  - Garand outputs the current flowing through the structure being simulated in amperes. If the simulation structure is not the full structure (for example half of a FinFET), then you can scale the output current to give the total current fo...
-  - _Keywords:_ structure, current, simulated, AreaFactor, Garand, flowing, through, amperes
+  - Garand outputs the current flowing through the structure being simulated in amperes. If the simulation structure is not the full structure…
 - **2.10 Channel direction** _(p.55)_ <a id="2-10-channel-direction"></a>
-  - For certain operations and models, Garand requires to identify which direction (x, y, or z) is the channel direction, i.e. the direction in which current is flowing through the channel. Garand attempts to determine this automatically as ...
-  - _Keywords:_ direction, Garand, channel, architectures, correct, certain, operations, models
+  - For certain operations and models, Garand requires to identify which direction (x, y, or z) is the channel direction, i.e. the direction in…
 - **2.11 Specifying the Gate Length** _(p.55)_ <a id="2-11-specifying-the-gate-length"></a>
-  - In Garand, the gate length of the transistor is needed for the Shur ballistic mobility model (see Section 10.5.2). Otherwise, the gate length is not used explicitly in Garand. However, the gate length of the simulated structure is writte...
-  - _Keywords:_ length, Garand, database, device, nominal, needed, explicitly, However
+  - In Garand, the gate length of the transistor is needed for the Shur ballistic mobility model (see Section 10.5.2). Otherwise, the gate leng…
 - **2.12 Source/drain regions** _(p.56)_ <a id="2-12-source-drain-regions"></a>
-  - For certain operations and models, Garand requires to identify the source and drain regions of the simulation structure. Garand searches for the contiguous region of majority-type doping that is in contact with the respective source and ...
-  - _Keywords:_ source, doping, regions, concentration, structure, Garand, between, region
+  - For certain operations and models, Garand requires to identify the source and drain regions of the simulation structure. Garand searches fo…
 - **2.13 Changing Materials** _(p.56)_ <a id="2-13-changing-materials"></a>
-  - If there are materials in the TDR file that are not Garand materials (see Appendix A) then these material names should be mapped to the names of known Garand materials. The command to do this is:
-  - _Keywords:_ material, region, Garand, string, specifies, structure, replace, changed
+  - If there are materials in the TDR file that are not Garand materials (see Appendix A) then these material names should be mapped to the nam…
 - **2.14 Specifying Contacts** _(p.57)_ <a id="2-14-specifying-contacts"></a>
-  - When importing a structure from a TDR file, you must instruct Garand where in the simulation domain to apply the different contacts. As the simulation mesh used in Garand is not necessarily the same as the mesh in the TDR file, it is not...
-  - _Keywords:_ contact, Garand, TDR, contacts, specification, structure, simulation, applied
+  - When importing a structure from a TDR file, you must instruct Garand where in the simulation domain to apply the different contacts. As the…
 - **2.14.1 Specifying Contact Locations** _(p.57–58)_ <a id="2-14-1-specifying-contact-locations"></a>
-  - Contact locations are specified using the contact command (where a backslash (\) denotes a line continuation for the purposes of formatting in this manual only):
-  - _Keywords:_ contact, filter, string, within, Nodes, regions, boundary, specified
+  - Contact locations are specified using the contact command (where a backslash (\) denotes a line continuation for the purposes of formatting…
 - **Notes:** _(p.58)_ <a id="notes"></a>
-  - • If source, drain, and gate contacts are not defined, or if no nodes are found that match the criterion specified in the contact command for those contacts, then Garand terminates the simulation. The only exception is if the simulation ...
-  - _Keywords:_ contact, contacts, regions, specified, simulation, filter, applied, region
+  - • If source, drain, and gate contacts are not defined, or if no nodes are found that match the criterion specified in the contact command f…
 - **2.14.2 Importing Contact Locations** _(p.59)_ <a id="2-14-2-importing-contact-locations"></a>
-  - If the TDR structure file contains fields that define the locations of contacts, then these fields can be used to automatically generate the bounding box and filter information. To specify that the location of a contact should be taken f...
-  - _Keywords:_ contact, structure, contacts, bounding, filter, specify, source, fields
+  - If the TDR structure file contains fields that define the locations of contacts, then these fields can be used to automatically generate th…
 - **2.14.3 Specifying the metal gate work function** <a id="2-14-3-specifying-the-metal-gate-work-function"></a>
-  - If a metal gate is specified for the structure then a work function for the active metal gate must be specified. This is done using the command:
-  - _Keywords:_ specified, active, contact, structure, work_function, potential, individual, definition
+  - If a metal gate is specified for the structure then a work function for the active metal gate must be specified. This is done using the com…
 - **2.14.4 Setting Other Contact Options** _(p.60–61)_ <a id="2-14-4-setting-other-contact-options"></a>
-  - When transferring from a finite element (FE) mesh to a tensor-product finite difference (FD) Garand mesh, it is likely that some nodes on the boundaries of semiconductor regions in the FD mesh will have very low doping as they lie within...
-  - _Keywords:_ contact, doping, regions, contacts, source, within, concentration, polyfill
+  - When transferring from a finite element (FE) mesh to a tensor-product finite difference (FD) Garand mesh, it is likely that some nodes on t…
 - **2.15 Structural Modifications** _(p.61)_ <a id="2-15-structural-modifications"></a>
-  - You can modify an imported structure using various keywords, which are primarily intended for use when running a calibration of quantum corrections or initial simulations for use in Garand MC. Having large high-doped source and drain reg...
-  - _Keywords:_ running, simulations, regions, You, modify, imported, structure, various
+  - You can modify an imported structure using various keywords, which are primarily intended for use when running a calibration of quantum cor…
 - **2.15.1 Automatically Slicing a Structure** _(p.61–62)_ <a id="2-15-1-automatically-slicing-a-structure"></a>
-  - When calibrating density-gradient quantum corrections against the more rigorous Poisson-Schrödinger solution (see Section 3.4.2), it is usually the inversion layer charge in the middle of the channel that is of interest. Therefore, it is...
-  - _Keywords:_ autoslice, channel, structure, direction, simulation, middle, Garand, density
+  - When calibrating density-gradient quantum corrections against the more rigorous Poisson-Schrödinger solution (see Section 3.4.2), it is usu…
 - **2.15.2 Maximum Doping Limit** <a id="2-15-2-maximum-doping-limit"></a>
-  - You can set a limit for the doping in simulated structures. If the doping concentration in an imported structure is greater than the specified limit, then the concentration value is set to the limiting value. This is achieved with the fo...
-  - _Keywords:_ doping, simulated, concentration, structure, max_doping, You, structures, imported
+  - You can set a limit for the doping in simulated structures. If the doping concentration in an imported structure is greater than the specif…
 - **2.15.3 Eroding the Source and Drain Contacts** _(p.65)_ <a id="2-15-3-eroding-the-source-and-drain-contacts"></a>
-  - The erode\_sd keyword erodes a structure from the source and drain contacts into the semiconductor, converting the semiconductor material into a contact where particles will not be included in the Monte Carlo simulations. A doping concen...
-  - _Keywords:_ structure, source, concentration, doping, details, summary, mathrm, contact
+  - The erode\_sd keyword erodes a structure from the source and drain contacts into the semiconductor, converting the semiconductor material i…
 - **2.16 Alloy Fractions** <a id="2-16-alloy-fractions"></a>
 - **2.16.1 Importing an Alloy Fraction** _(p.66)_ <a id="2-16-1-importing-an-alloy-fraction"></a>
-  - When importing a structure from a TDR file, Garand tries to import the xMoleFraction field, which represents the alloy fraction, x, in alloy materials such as $\begin{array} { r } { \mathrm { S i } _ { 1 - x } \mathrm { G e } _ { \mathrm...
-  - _Keywords:_ mathrm, material, Garand, xMoleFraction, fraction, materials, structure, mathbf
+  - When importing a structure from a TDR file, Garand tries to import the xMoleFraction field, which represents the alloy fraction, x, in allo…
 - **2.16.2 Modifying Alloy Material Properties** _(p.66)_ <a id="2-16-2-modifying-alloy-material-properties"></a>
-  - The material parameters for alloy materials can be modified in the Garand input file in a similar way to non-alloy semiconductors such as silicon and germanium. However, some parameters in alloy materials are derived by interpolation bet...
-  - _Keywords:_ materials, interpolation, material, modified, Garand, similar, semiconductors, silicon
+  - The material parameters for alloy materials can be modified in the Garand input file in a similar way to non-alloy semiconductors such as s…
 - **2.16.2.1 Silicon Germanium** _(p.67)_ <a id="2-16-2-1-silicon-germanium"></a>
-  - If the material in a region in a TDR file is SiliconGermanium, then this is imported to Garand as SiliconGermanium, even if xMoleFraction=0 or is not present in the file. Therefore, when selecting mobility models or changing material par...
-  - _Keywords:_ material, SiliconGermanium, xMoleFraction, conduction, piecewise, fraction, fractions, instance
+  - If the material in a region in a TDR file is SiliconGermanium, then this is imported to Garand as SiliconGermanium, even if xMoleFraction=0…
 - **2.16.2.2 Other Alloys** _(p.68)_ <a id="2-16-2-2-other-alloys"></a>
-  - For materials defined in 10% fractions, you can change the material parameters for a specific alloy fraction material (for example, In50Al50Al for In0.5Al0.5As) or simultaneously change the material parameters for all fractions of an all...
-  - _Keywords:_ material, fractions, fraction, materials, change, InGaAs, interpolator, specific
+  - For materials defined in 10% fractions, you can change the material parameters for a specific alloy fraction material (for example, In50Al5…
 - **2.17 Stress and Strain** _(p.69–70)_ <a id="2-17-stress-and-strain"></a>
-  - Garand can import a stress tensor from TDR files. It is assumed that the stress tensor is stored in a tensor field called Stress, which contains the six components, Stress-XX, Stress-YY, Stress-ZZ, Stress-XY, Stress-XZ, and Stress-YZ. Ba...
-  - _Keywords:_ stress, strain, tensor, Stress, structure, material, maximum, TDR
+  - Garand can import a stress tensor from TDR files. It is assumed that the stress tensor is stored in a tensor field called Stress, which con…
 - **3 Simulation Setup** _(p.70)_ <a id="3-simulation-setup"></a>
 - **3.1 Bias Conditions** _(p.70)_ <a id="3-1-bias-conditions"></a>
-  - The applied bias on each of the drain, gate, source and substrate contacts, relative to ground, can be specified, either in the input file or on the command line. The drain and gate biases must be specified. By default, the source and su...
-  - _Keywords:_ devices, PMOS, negative, positive, NMOS, applied, substrate, biases
+  - The applied bias on each of the drain, gate, source and substrate contacts, relative to ground, can be specified, either in the input file…
 - **3.1.1 I-V characteristic mode** _(p.71)_ <a id="3-1-1-i-v-characteristic-mode"></a>
   - If it is operating in the ‘I-V characteristic’ mode then:
-  - _Keywords:_ voltage, specifies, specified, conditions, substrate, statement, mathrm, ivpoints
 - **3.1.2 $V _ { T }$ search mode** _(p.72–73)_ <a id="3-1-2-v-t-search-mode"></a>
   - If Garand is operating in the ${ } ^ { \circ } V _ { T }$ search’ mode then:
-  - _Keywords:_ specifies, search, conditions, subthreshold, current, specified, Secant, method
 - **3.2 Statistical Variability Sources** _(p.73)_ <a id="3-2-statistical-variability-sources"></a>
-  - Garand allows the impact of several statistical variability sources on device characteristics to be evaluated. These can be enable and defined via the input file, some of which have additional parameters that should be provided. These ar...
-  - _Keywords:_ variability, These, Garand, allows, impact, several, statistical, sources
+  - Garand allows the impact of several statistical variability sources on device characteristics to be evaluated. These can be enable and defi…
 - **3.2.1 Random Discrete Dopants** _(p.74)_ <a id="3-2-1-random-discrete-dopants"></a>
-  - In the fabrication of semiconductor devices, impurity ions are introduced using ion implantation and are subject to high temperature annealing, resulting in inherently random discrete dopant (RDD) distributions. Random dopants are introd...
-  - _Keywords:_ doping, discrete, boundary, RDD, region, structures, dopants, simulation
+  - In the fabrication of semiconductor devices, impurity ions are introduced using ion implantation and are subject to high temperature anneal…
 - **3.2.1.1 Importing discrete dopant positions** _(p.74–76)_ <a id="3-2-1-1-importing-discrete-dopant-positions"></a>
-  - Rather than allowing Garand to generate random dopant locations based on the continuous doping profile, you can import the positions of discrete dopants that come, for example, from a kinetic Monte Carlo (KMC) model of the ion implantati...
-  - _Keywords:_ dopant, positions, import, RDD, species, specified, variability, discrete
+  - Rather than allowing Garand to generate random dopant locations based on the continuous doping profile, you can import the positions of dis…
 - **3.2.2 Line Edge Roughness** _(p.76–83)_ <a id="3-2-2-line-edge-roughness"></a>
-  - Line edge roughness (LER) is mainly due to the macromolecular structure of the photo resist and the corpuscular nature of light. LER is introduced in Garand through randomly generated lines which can be applied, for example, to the gate ...
-  - _Keywords:_ LER, doping, roughness, random, profiles, midpoint, profile, details
+  - Line edge roughness (LER) is mainly due to the macromolecular structure of the photo resist and the corpuscular nature of light. LER is int…
 - **3.2.3 Metal Gate Granularity** _(p.83–84)_ <a id="3-2-3-metal-gate-granularity"></a>
-  - The polycrystalline nature of the metal gate is another potential source of statistical variability. Metal grains with different crystallographic orientations have different work functions at the metal/oxide interface, resulting in rando...
-  - _Keywords:_ MGG, details, summary, grains, probability, variability, specified, average
+  - The polycrystalline nature of the metal gate is another potential source of statistical variability. Metal grains with different crystallog…
 - **3.2.4 Polysilicon Gate Granularity** _(p.85)_ <a id="3-2-4-polysilicon-gate-granularity"></a>
-  - The granularity of the polysilicon gate is an important source of statistical variability due to surface potential pinning along the grain boundaries. As with metal gate granularity, polysilicon granularity is introduced in Garand throug...
-  - _Keywords:_ polysilicon, pinning, granularity, Fermi, diameter, average, grains, surface
+  - The granularity of the polysilicon gate is an important source of statistical variability due to surface potential pinning along the grain…
 - **3.2.5 Work Function Variatio** _(p.85)_ <a id="3-2-5-work-function-variatio"></a>
   - The nominal uniform work function must be specified for a metal gate using the command
-  - _Keywords:_ Gaussian, variation, nominal, standard, deviation, uniform, specified, contact
 - **3.2.6 Contact Resistance Variation** _(p.86)_ <a id="3-2-6-contact-resistance-variation"></a>
   - As described in Section 3.4.4 it is possible to include source/drain resistance in the simulation using the statement:
-  - _Keywords:_ contact, standard, deviation, resistance, resistivity, variation, possible, source
 - **3.3 Statistical Reliability Modeling** _(p.86–87)_ <a id="3-3-statistical-reliability-modeling"></a>
-  - It is becoming important to include statistical reliability information in PDKs. Accurate statistical reliability information is crucial in defining the reliability criteria, and for reliability-aware statistical design. NBTI and PBTI de...
-  - _Keywords:_ reliability, trapped, statistical, charges, transistor, carriers, discrete, current
+  - It is becoming important to include statistical reliability information in PDKs. Accurate statistical reliability information is crucial in…
 - **3.3.1 Interface Trapped Charge** _(p.88)_ <a id="3-3-1-interface-trapped-charge"></a>
-  - The ‘reliability ITC’ option allows interface trapped charge to be added to each ‘fresh’ device in the ensemble with a given average sheet density that should be chosen to correspond to the desired level of degradation. This sheet densit...
-  - _Keywords:_ boundary, ITC, interface, region, density, specified, between, insulator
+  - The ‘reliability ITC’ option allows interface trapped charge to be added to each ‘fresh’ device in the ensemble with a given average sheet…
 - **3.3.2 User-Specified Fixed Charge** _(p.88)_ <a id="3-3-2-user-specified-fixed-charge"></a>
-  - As well as the automatic generation of discrete fixed charges based on the nominal doping profile (RDD) or an interface sheet-charge density (ITC), there is also an option for the user to explicitly specify the location of discrete accep...
-  - _Keywords:_ charge, reliability, charges, acceptor, structure, position, positive, discrete
+  - As well as the automatic generation of discrete fixed charges based on the nominal doping profile (RDD) or an interface sheet-charge densit…
 - **3.4 Additional Models** <a id="3-4-additional-models"></a>
 - **3.4.1 Density Gradient Quantum Corrections** _(p.89–90)_ <a id="3-4-1-density-gradient-quantum-corrections"></a>
-  - Although detailed quantum mechanical simulators are available based on Non-Equilibrium Green’s Functions (NEGF) [53, 52] or on the direct solutions of the Schrödinger equation [46], they are still computationally expensive. Computational...
-  - _Keywords:_ quantum, effective, material, mechanical, conduction, density, partial, simulators
+  - Although detailed quantum mechanical simulators are available based on Non-Equilibrium Green’s Functions (NEGF) [53, 52] or on the direct s…
 - **3.4.1.1 Boundary conditions at oxide interfaces** _(p.90–91)_ <a id="3-4-1-1-boundary-conditions-at-oxide-interfaces"></a>
-  - The semiconductor/oxide boundary conditions for the quantum potential in the DG approach require careful consideration, and Garand uses the approach of Jin, et al [39]. This method fixes the gradient of the electron concentration perpend...
-  - _Keywords:_ semiconductor, Garand, electron, interface, boundary, Sentaurus, Device, effective
+  - The semiconductor/oxide boundary conditions for the quantum potential in the DG approach require careful consideration, and Garand uses the…
 - **3.4.1.2 Other density gradient model options** _(p.91)_ <a id="3-4-1-2-other-density-gradient-model-options"></a>
-  - The effect of the boundary conditions at the semiconductor/oxide interface is to reduce the carrier concentration at the interface. This leaves uncompensated dopant atoms which will result in a spike in the electrostatic potential at the...
-  - _Keywords:_ interface, concentration, boundary, conditions, potential, doping, carriers, reduce
+  - The effect of the boundary conditions at the semiconductor/oxide interface is to reduce the carrier concentration at the interface. This le…
 - **3.4.2 Schrödinger Quantum Corrections** _(p.92–94)_ <a id="3-4-2-schr-dinger-quantum-corrections"></a>
-  - While DG quantum corrections efficiently capture the first-order QM effects in the Garand simulator, a more advanced QM model is available in Garand that better captures the impact of physical confinement through selfconsistent solution ...
-  - _Keywords:_ solution, Poisson, confinement, quantum, equation, solver, string, charge
+  - While DG quantum corrections efficiently capture the first-order QM effects in the Garand simulator, a more advanced QM model is available…
 - **3.4.2.1 Defining the Confinement Directions** _(p.94–96)_ <a id="3-4-2-1-defining-the-confinement-directions"></a>
-  - By default the 2D Poisson-Schrödinger solver is selected (applicable for FinFET or nanowire structures) and the confinement mass used in equation (3.7) are extracted from the underlying band-structure model (ellipsoidal, multivalley for ...
-  - _Keywords:_ Silicon, material, conduction, confinement, direction, masses, instance, orientation
+  - By default the 2D Poisson-Schrödinger solver is selected (applicable for FinFET or nanowire structures) and the confinement mass used in eq…
 - **3.4.2.2 Adding Schrödinger Boundaries** _(p.96)_ <a id="3-4-2-2-adding-schr-dinger-boundaries"></a>
-  - In certain FET structures, there may not be a well-defined energy barrier around the area of interest. An example of such a structure is a FinFET device. The fin is the active area of interest regarding 2D confinement, however the bottom...
-  - _Keywords:_ boundary, device, specified, Specify, energy, barrier, minimum, position
+  - In certain FET structures, there may not be a well-defined energy barrier around the area of interest. An example of such a structure is a…
 - **3.4.2.3 Quantum Confined Valley Splitting/Separation** _(p.97)_ <a id="3-4-2-3-quantum-confined-valley-splitting-separation"></a>
-  - The inter-valley energy separation is altered in a quantum confined system as the energy of the lowest-lying subband of a given valley represents the valley energy minima. This lowest-lying sub-band is dependent on the confinement applie...
-  - _Keywords:_ valley, energy, confinement, effective, separation, quantum, lowest, minima
+  - The inter-valley energy separation is altered in a quantum confined system as the energy of the lowest-lying subband of a given valley repr…
 - **3.4.3 Fermi-Dirac Carrier Statistics** _(p.97–100)_ <a id="3-4-3-fermi-dirac-carrier-statistics"></a>
-  - Note: Fermi-Dirac carrier statistics are not, currently, compatible with position-dependent material parameters, for example due to mole fraction or stress.
-  - _Keywords:_ Fermi, statistics, carrier, Dirac, mathcal, integrals, tabulated, valley
+  - Note: Fermi-Dirac carrier statistics are not, currently, compatible with position-dependent material parameters, for example due to mole fr…
 - **3.4.4 Contact Resistance** _(p.100)_ <a id="3-4-4-contact-resistance"></a>
-  - A contact resistance can be applied to the source and drain contacts. This resistance can be either specified as a single lumped resistor with a given resistance in Ohms [Ω] or as a contact resistivity in Ω.cm2 that can either be applied...
-  - _Keywords:_ resistance, contact, applied, either, lumped, source, contacts, specified
+  - A contact resistance can be applied to the source and drain contacts. This resistance can be either specified as a single lumped resistor w…
 - **3.4.4.1 Resistance** _(p.100–101)_ <a id="3-4-4-1-resistance"></a>
   - ```txt contact resistance_lumped=<resistance> ```
-  - _Keywords:_ contact, resistance, potential, updated, source, voltage, iteration, relative
 - **3.4.4.2 Resistivity** <a id="3-4-4-2-resistivity"></a>
 - **Lumped** <a id="lumped"></a>
   - ```txt contact resistivity_lumped=<resistivity> ```
-  - _Keywords:_ contact, resistance, resistivity, applied, lumped, source, specified, contacts
 - **Distributed** <a id="distributed"></a>
   - ```txt contact resistivity_distrib=<resistivity> ```
-  - _Keywords:_ contact, resistivity, resistance, current, source, contacts, lumped, difference
 - **3.4.5 Drain Leakage** _(p.102)_ <a id="3-4-5-drain-leakage"></a>
   - Drain Leakage simulation can be enabled using the model command and selecting a band-to-band (B2B) tunneling method to use:
-  - _Keywords:_ B2B, method, tunneling, string, Select, tunnelling, nonlocal, Drain
 - **3.4.5.1 Modified Kane Local Model** _(p.102–104)_ <a id="3-4-5-1-modified-kane-local-model"></a>
-  - Garand offers the possibility to simulate drain leakage by means of a LOCAL BAND-TO-BAND (B2B) electronhole pairs generation model. This model is based on the original work of Kane [41], and the generation rate G $[ \mathrm { c m ^ { - 3...
-  - _Keywords:_ tunneling, direct, indirect, B2B, leakage, Kane, electric, distance
+  - Garand offers the possibility to simulate drain leakage by means of a LOCAL BAND-TO-BAND (B2B) electronhole pairs generation model. This mo…
 - **3.4.5.2 Dynamically adapted Non-local Model** _(p.104–107)_ <a id="3-4-5-2-dynamically-adapted-non-local-model"></a>
-  - In order to overcome the intrinsic limitations associated with an analytic local model (sec.3.4.5.1), a full numerical calculation of the tunneling currents can be performed taking into account (i) the realistic shape of the conduction a...
-  - _Keywords:_ tunneling, mathbf, conduction, valence, dimensional, approach, simulation, generation
+  - In order to overcome the intrinsic limitations associated with an analytic local model (sec.3.4.5.1), a full numerical calculation of the t…
 - **3.4.6 Gate Leakage** _(p.107–108)_ <a id="3-4-6-gate-leakage"></a>
-  - Gate tunneling in a MOS structure is calculated using the Tsu-Esaki model [81] (firstly proposed by Duke [22]). The TSU-ESAKI tunneling formula expresses the gate leakage density by means of an integration in the energy domain. This mode...
-  - _Keywords:_ tunneling, energy, leakage, barrier, interface, perpendicular, assisted, tunnelling
+  - Gate tunneling in a MOS structure is calculated using the Tsu-Esaki model [81] (firstly proposed by Duke [22]). The TSU-ESAKI tunneling for…
 - **3.4.7 Interface Charge** _(p.109–110)_ <a id="3-4-7-interface-charge"></a>
-  - Interface charge due to traps may be included in the DD simulation of the electrical behavior of a MOS transistor. These defects are located at the semiconductor/oxide interface with energy distributions within the semiconductor band gap...
-  - _Keywords:_ interface, charge, material, Interface, energy, distributions, density, varepsilon
+  - Interface charge due to traps may be included in the DD simulation of the electrical behavior of a MOS transistor. These defects are locate…
 - **3.4.8 Analytic Interface Charge Distributions** _(p.111)_ <a id="3-4-8-analytic-interface-charge-distributions"></a>
-  - The recommended way to include interface traps is via the definition of interface trap disitrbution models. Definition of an interface model is performed with the define command, using the following general syntax:
-  - _Keywords:_ interface, definition, distribution, include, define, material1, material2, interface_model
+  - The recommended way to include interface traps is via the definition of interface trap disitrbution models. Definition of an interface mode…
 - **3.4.8.1 Interface Model Parameters** _(p.112)_ <a id="3-4-8-1-interface-model-parameters"></a>
-  - All interface models define a set of parameters that may be assigned in the input file using the interface command with the following general syntax
-  - _Keywords:_ interface, carrier, models, orientation, defined, between, acceptor, define
+  - All interface models define a set of parameters that may be assigned in the input file using the interface command with the following gener…
 - **3.4.8.2 Interface Trap Level** <a id="3-4-8-2-interface-trap-level"></a>
-  - An interface trap level model allows the association of parameters that describe the density of traps at a single energy level at an interface. Parameters are assigned in the input file using the interface command as with all interface m...
-  - _Keywords:_ interface, density, Oxide, HfO2, energy, defines, valence, models
+  - An interface trap level model allows the association of parameters that describe the density of traps at a single energy level at an interf…
 - **3.4.8.3 Uniform Interface Trap Distribution** _(p.113–114)_ <a id="3-4-8-3-uniform-interface-trap-distribution"></a>
-  - A uniform interface trap distribution model allows the association of parameters that describe a uniform distribution of traps over an energy range at an interface. As well as the general orient, carrier, type and DLN parameters common t...
-  - _Keywords:_ interface, distribution, energy, Silicon, Oxide, density, defines, uniform
+  - A uniform interface trap distribution model allows the association of parameters that describe a uniform distribution of traps over an ener…
 - **3.4.8.4 Exponential Interface Trap Distribution** <a id="3-4-8-4-exponential-interface-trap-distribution"></a>
-  - An exponential interface trap distribution model allows the association of parameters that describe an exponential distribution of traps over an energy range at an interface. As well as the general orient, carrier, type and DLN parameter...
-  - _Keywords:_ interface, distribution, energy, Silicon, Oxide, density, defines, exponential
+  - An exponential interface trap distribution model allows the association of parameters that describe an exponential distribution of traps ov…
 - **3.4.8.5 Gaussian Interface Trap Distribution** <a id="3-4-8-5-gaussian-interface-trap-distribution"></a>
-  - A Gaussian interface trap distribution model allows the association of parameters that describe a Gaussian distribution of traps over an energy range at an interface. As well as the general orient, carrier, type and DLN parameters common...
-  - _Keywords:_ interface, distribution, energy, Silicon, Oxide, density, defines, valence
+  - A Gaussian interface trap distribution model allows the association of parameters that describe a Gaussian distribution of traps over an en…
 - **3.4.8.6 Tabulated Interface Trap Distribution** _(p.115)_ <a id="3-4-8-6-tabulated-interface-trap-distribution"></a>
-  - A tabulated interface trap distribution model allows the association of parameters that describe a user-defined distribution of traps in energy at an interface. As well as the general orient, carrier, type and DLN parameters common to al...
-  - _Keywords:_ interface, Silicon, Oxide, distribution, piecewise, define, energy, orient
+  - A tabulated interface trap distribution model allows the association of parameters that describe a user-defined distribution of traps in en…
 - **3.4.9 Random dopant mobility variation** _(p.116)_ <a id="3-4-9-random-dopant-mobility-variation"></a>
-  - Traditionally in Drift-Diffusion simulations the variation in device characteristics is purely as a result of electrostatic variations due to the discrete dopants. There is no accounting for variation in mobility and, as such, the variat...
-  - _Keywords:_ mobility, boundary, region, RDD, variation, channel, dopants, doping
+  - Traditionally in Drift-Diffusion simulations the variation in device characteristics is purely as a result of electrostatic variations due…
 - **3.5 Numerical Solution** _(p.116)_ <a id="3-5-numerical-solution"></a>
-  - The basis of Garand is the solution of the quantum-corrected drift-diffusion system of partial differential equations, namely the Poisson equation, the density gradient equation and the current continuity equation for the majority carrie...
-  - _Keywords:_ equation, solution, equations, Garand, quantum, corrected, diffusion, system
+  - The basis of Garand is the solution of the quantum-corrected drift-diffusion system of partial differential equations, namely the Poisson e…
 - **3.5.1 The modified Gummel method** _(p.116–117)_ <a id="3-5-1-the-modified-gummel-method"></a>
-  - The approach used within Garand for the self-consistent solution of this system of equations is the Gummel decoupled method, which is modified to include the solution of the density gradient equation. In this approach each equation is so...
-  - _Keywords:_ solution, equations, equation, Solve, Equation, Current, approach, consistent
+  - The approach used within Garand for the self-consistent solution of this system of equations is the Gummel decoupled method, which is modif…
 - **Poisson Equation** _(p.117–119)_ <a id="poisson-equation"></a>
   - $$ \nabla \cdot (\varepsilon \nabla \psi) = - q (p - n + N _ {D} ^ {+} - N _ {A} ^ {-}) \tag {3.47} $$
-  - _Keywords:_ equation, Poisson, matrix, potential, system, coefficients, linear, solution
 - **Density Gradient Equation** <a id="density-gradient-equation"></a>
-  - $$ 2 b _ {n} \frac {\nabla^ {2} \sqrt {n}}{\sqrt {n}} = \phi_ {n} - \psi + \frac {k _ {B} T}{q} \ln \left(\frac {n}{n _ {i}}\right) \tag {3.50} $$
-  - _Keywords:_ equation, solved, quantum, corrected, density, gradient, considered, anisotropic
+  - $$ 2 b _ {n} \frac {\nabla^ {2} \sqrt {n}}{\sqrt {n}} = \phi_ {n} - \psi + \frac {k _ {B} T}{q} \ln \left(\frac {n}{n _ {i}}\right) \tag {3…
 - **Current Continuity Equation** _(p.120)_ <a id="current-continuity-equation"></a>
   - The effective quantum-corrected potential is then used as the driving potential for the current continuity equation,
-  - _Keywords:_ current, equation, method, convergence, quantum, corrected, potential, solved
 - **3.5.2 Input file options** _(p.122–123)_ <a id="3-5-2-input-file-options"></a>
-  - The tolerances to which the Gummel iteration, the PDE solutions, the threshold voltage search, etc. should be solved can be specified in the input file. The default values have been found to give reliable results in most circumstances, h...
-  - _Keywords:_ Gummel, equation, solution, Poisson, current, solved, convergence, iteration
+  - The tolerances to which the Gummel iteration, the PDE solutions, the threshold voltage search, etc. should be solved can be specified in th…
 - **3.6 Output** _(p.123)_ <a id="3-6-output"></a>
 - **3.6.1 Output files** _(p.123–124)_ <a id="3-6-1-output-files"></a>
-  - The main output from simulations is I-V data, or Vt data, depending on the type of simulation. The file output can be customized by specifying an experiment name and output directory using the output command with the following keywords:
-  - _Keywords:_ experiment, directory, results, Garand, written, device_number, substrate, device
+  - The main output from simulations is I-V data, or Vt data, depending on the type of simulation. The file output can be customized by specify…
 - **3.6.2 Output for visualization** _(p.126)_ <a id="3-6-2-output-for-visualization"></a>
-  - For post-process visualization using Sentaurus Visual, a TDR output file should be written. TDR output options and values are specified using the output command:
-  - _Keywords:_ TDR, string, outputon, Include, mobility, written, Fermi, bandgap
+  - For post-process visualization using Sentaurus Visual, a TDR output file should be written. TDR output options and values are specified usi…
 - **3.6.2.1 Visualizing variability sources** _(p.127)_ <a id="3-6-2-1-visualizing-variability-sources"></a>
 - **Discrete charges** _(p.127)_ <a id="discrete-charges"></a>
-  - The positions of discrete charges coming from random discrete dopants, interface trapped charge and user-added charges are written to the output TDR file as particle data which can be visualized in Sentaurus Visual, as shown in Figure 3....
-  - _Keywords:_ Garand, particle, written, TDR, Sentaurus, Visual, rendering, discrete
+  - The positions of discrete charges coming from random discrete dopants, interface trapped charge and user-added charges are written to the o…
 - **Line Edge Roughness** <a id="line-edge-roughness"></a>
-  - Line edge roughness modifies the device structure, therefore any variation in the structure will be visible by looking at the TDR output file in Sentaurus Visual.
-  - _Keywords:_ structure, Line, roughness, modifies, device, therefore, variation, visible
+  - Line edge roughness modifies the device structure, therefore any variation in the structure will be visible by looking at the TDR output fi…
 - **Metal Gate Granularity** <a id="metal-gate-granularity"></a>
-  - When MGG is enabled in the simulation, additional fields are written to the output TDR file. These are MetalGrains and MetalWorkfunction. The MetalGrains field illustrates the generated metal grain pattern by assigning a value from 1 to ...
-  - _Keywords:_ MetalGrains, MetalWorkfunction, MGG, enabled, simulation, additional, fields, written
+  - When MGG is enabled in the simulation, additional fields are written to the output TDR file. These are MetalGrains and MetalWorkfunction. T…
 - **3.6.2.2 Value mapping in TDR file** _(p.128)_ <a id="3-6-2-2-value-mapping-in-tdr-file"></a>
   - In the output TDR file certain fields are represented by integer numbers. The mapping used is specified below:
-  - _Keywords:_ Contact, Region, Substrate, Source, Drain, TDR, certain, fields
 - **3.6.3 Cutlines** _(p.129)_ <a id="3-6-3-cutlines"></a>
-  - Garand provides the facility to export 1-dimensional cutline data from an arbitrary line through the simulation domain. This can be useful, for example, for plotting doping profiles, etc. This is done using the output cutline command:
-  - _Keywords:_ cutline, concentration, direction, doping, simulation, potential, Mobility, obtained
+  - Garand provides the facility to export 1-dimensional cutline data from an arbitrary line through the simulation domain. This can be useful,…
 - **3.6.4 Autocutlines** _(p.130)_ <a id="3-6-4-autocutlines"></a>
-  - When using the autoslice option (see Section 2.15) to automatically extract a slice in a cross-section at the middle of the gate there is also an option to automatically generate cutlines of the majority carrier density vertically and ho...
-  - _Keywords:_ cutline, position, direction, vertical, automatically, lateral, carrier, cutlines
+  - When using the autoslice option (see Section 2.15) to automatically extract a slice in a cross-section at the middle of the gate there is a…
 - **3.6.5 Averaged / integral cutlines** _(p.131)_ <a id="3-6-5-averaged-integral-cutlines"></a>
-  - For comparison / calibration to Monte Carlo simulations it is useful to look at various averaged or integral quantities from the Drift-Diffusion simulation along a cutline from the source end of the device to the drain. There are a numbe...
-  - _Keywords:_ device, density, average, weighted, integration, carrier, across, written
+  - For comparison / calibration to Monte Carlo simulations it is useful to look at various averaged or integral quantities from the Drift-Diff…
 - **3.6.6 Monte Carlo Transfer** _(p.134)_ <a id="3-6-6-monte-carlo-transfer"></a>
   - For more detail on Monte Carlo transfer (MCT) file output please see 1.4.6.
-  - _Keywords:_ details, summary, MCT, images, within, statistical, showing, text_image
 - **Part II** _(p.134)_ <a id="part-ii"></a>
 - **Garand MC: Monte Carlo Simulator** _(p.134–135)_ <a id="garand-mc-monte-carlo-simulator"></a>
 - **4 Introduction to Garand MC** _(p.135)_ <a id="4-introduction-to-garand-mc"></a>
   - This chapter introduces the Garand MC device simulator.
-  - _Keywords:_ introduces, Garand, device, simulator
 - **4.1 Functionality of Garand MC and Workflow** _(p.135–136)_ <a id="4-1-functionality-of-garand-mc-and-workflow"></a>
-  - Garand MC is a three-dimensional, self-consistent, ensemble quantum-corrected Monte Carlo solver, capable of both electron and hole transport in various default calibrated materials.
-  - _Keywords:_ Garand, simulation, particle, carrier, ensemble, Monte, Carlo, distribution
+  - Garand MC is a three-dimensional, self-consistent, ensemble quantum-corrected Monte Carlo solver, capable of both electron and hole transpo…
 - **4.2 Particle Propagation** _(p.136)_ <a id="4-2-particle-propagation"></a>
 - **4.2.1 Particle Ensembles** _(p.136)_ <a id="4-2-1-particle-ensembles"></a>
-  - A particle ensemble represents the carrier distribution under investigation within the simulation domain and consists of a collection of simulation particles, with the state of each particle given at discrete points in time over the cour...
-  - _Keywords:_ particle, carrier, simulation, within, ensemble, represents, particles, ensembles
+  - A particle ensemble represents the carrier distribution under investigation within the simulation domain and consists of a collection of si…
 - **4.2.2 Electron Transport** _(p.137)_ <a id="4-2-2-electron-transport"></a>
-  - Electron transport within the conduction band is described by the propagation of carriers in an analytic multivalley band model, subject to intravalley and intervalley scattering. The number of valleys and their properties depend on the ...
-  - _Keywords:_ carriers, scattering, material, definitions, provided, valley, Electron, transport
+  - Electron transport within the conduction band is described by the propagation of carriers in an analytic multivalley band model, subject to…
 - **4.2.3 Hole Transport** _(p.137)_ <a id="4-2-3-hole-transport"></a>
-  - Hole transport within the valence band is described by the propagation of carriers in a six-band k · p full-band structure. This leads to three bands in which, analogously to the valley model within the conduction band, each band has an ...
-  - _Keywords:_ within, Hole, transport, valence, described, propagation, carriers, structure
+  - Hole transport within the valence band is described by the propagation of carriers in a six-band k · p full-band structure. This leads to t…
 - **4.3 Self-Consistency** _(p.137)_ <a id="4-3-self-consistency"></a>
-  - Monte Carlo simulations can be performed self-consistently, meaning that the electrostatic potential that drives the carrier distribution is itself the solution of the carrier’s charge distribution (including external applied biases and ...
-  - _Keywords:_ simulations, potential, carrier, distribution, consistent, resolved, Monte, Carlo
+  - Monte Carlo simulations can be performed self-consistently, meaning that the electrostatic potential that drives the carrier distribution i…
 - **4.3.1 Linear Poisson Solution** <a id="4-3-1-linear-poisson-solution"></a>
-  - The self-consistent potential is obtained from the solution of the Poisson equation, given the net charge assigned to the simulation mesh. The charge accounts for the fixed donor and acceptor doping, the fixed continuous carrier distribu...
-  - _Keywords:_ particle, Poisson, equation, charge, solved, Monte, Carlo, propagation
+  - The self-consistent potential is obtained from the solution of the Poisson equation, given the net charge assigned to the simulation mesh.…
 - **4.3.2 Nonlinear Poisson Solution** <a id="4-3-2-nonlinear-poisson-solution"></a>
-  - As part of a self-consistent simulation, the nonlinear Poisson solution is performed intermittently to re-solve continuous carrier concentrations through the simulation domain. This is required to allow the otherwise fixed continuous car...
-  - _Keywords:_ simulation, nonlinear, continuous, carrier, distributions, consistent, Poisson, solution
+  - As part of a self-consistent simulation, the nonlinear Poisson solution is performed intermittently to re-solve continuous carrier concentr…
 - **4.3.3 Frozen-Field Approximation** _(p.138)_ <a id="4-3-3-frozen-field-approximation"></a>
-  - If self-consistency is not required, a Monte Carlo simulation can proceed using only the initial electrostatic potential solution from a drift-diffusion simulation. In this case, the carrier distribution is not coupled to the potential. ...
-  - _Keywords:_ simulation, carrier, potential, Monte, Carlo, particle, consistency, required
+  - If self-consistency is not required, a Monte Carlo simulation can proceed using only the initial electrostatic potential solution from a dr…
 - **4.4 Quantum Corrections** _(p.138)_ <a id="4-4-quantum-corrections"></a>
-  - Quantum corrections can be applied within Monte Carlo simulations analogously to their application within driftdiffusion simulations. Quantum correction is applied by the density gradient or 2D Poisson-Schrödinger effective quantum poten...
-  - _Keywords:_ potential, quantum, applied, correction, effective, Quantum, within, Monte
+  - Quantum corrections can be applied within Monte Carlo simulations analogously to their application within driftdiffusion simulations. Quant…
 - **4.5 Fermi-Dirac Statistics** _(p.138)_ <a id="4-5-fermi-dirac-statistics"></a>
-  - In highly doped semiconductors or those with a low effective mass and correspondingly low density-of-states, degenerate statistics might be required. This manifests itself in drift-diffusion and Monte Carlo simulations through the equili...
-  - _Keywords:_ statistics, Monte, Carlo, highly, semiconductors, effective, correspondingly, density
+  - In highly doped semiconductors or those with a low effective mass and correspondingly low density-of-states, degenerate statistics might be…
 - **4.6 Statistics Gathering** <a id="4-6-statistics-gathering"></a>
-  - Currently, Garand MC assumes that device terminal currents are the intended outcome from all simulations. Results of terminal current estimation are written to screen and an output file, along with some other information that is useful f...
-  - _Keywords:_ terminal, Currently, Garand, assumes, device, currents, intended, outcome
+  - Currently, Garand MC assumes that device terminal currents are the intended outcome from all simulations. Results of terminal current estim…
 - **4.6.1 Ramo-Shockley Current Estimation** <a id="4-6-1-ramo-shockley-current-estimation"></a>
-  - Terminal currents are estimated using the Ramo-Shockley theorem, whereby the motion of all particles within the simulation domain, at a point in time, contribute to the terminal currents at that time for all terminals. Within this model,...
-  - _Keywords:_ currents, estimated, terminal, Terminal, Ramo, Shockley, theorem, whereby
+  - Terminal currents are estimated using the Ramo-Shockley theorem, whereby the motion of all particles within the simulation domain, at a poi…
 - **4.6.2 Charge Flux Current Estimation** <a id="4-6-2-charge-flux-current-estimation"></a>
-  - In addition to the Ramo-Shockley estimation of terminal currents, estimation is also provided by simply defining local time derivatives of the net charge flux across terminal boundaries due to particle propagation. This model does not ac...
-  - _Keywords:_ terminal, Ramo, Shockley, estimation, currents, boundaries, estimated, addition
+  - In addition to the Ramo-Shockley estimation of terminal currents, estimation is also provided by simply defining local time derivatives of…
 - **4.6.3 Integrated Current Density Estimation** _(p.139)_ <a id="4-6-3-integrated-current-density-estimation"></a>
-  - A further current estimate is provided by integrating the current density over a user-defined volume within the simulation domain. The integrated current density, charge flux and Ramo-Shockley estimates should all converge in the steady-...
-  - _Keywords:_ current, density, further, estimate, provided, integrating, defined, volume
+  - A further current estimate is provided by integrating the current density over a user-defined volume within the simulation domain. The inte…
 - **4.6.4 Current Error Estimation** _(p.139)_ <a id="4-6-4-current-error-estimation"></a>
-  - Uncertainty in the terminal current estimation is provided by the standard deviation of the current, given datasets composed of terminal currents defined at all previous time steps (omitting a defined transient period). Uncertainties are...
-  - _Keywords:_ current, Ramo, Shockley, terminal, defined, estimated, charge, independent
+  - Uncertainty in the terminal current estimation is provided by the standard deviation of the current, given datasets composed of terminal cu…
 - **4.6.5 Scattering Statistics** <a id="4-6-5-scattering-statistics"></a>
-  - During a Monte Carlo simulation, incidences of carrier-scattering events associated with the included mechanisms are recorded. This information is presented at regular intervals throughout the simulation.
-  - _Keywords:_ simulation, During, Monte, Carlo, incidences, carrier, scattering, events
+  - During a Monte Carlo simulation, incidences of carrier-scattering events associated with the included mechanisms are recorded. This informa…
 - **4.6.6 Carrier Statistics** _(p.140)_ <a id="4-6-6-carrier-statistics"></a>
-  - Monte Carlo simulations gather information about carrier distribution throughout the simulation domain. Ensemble average carrier densities, energies, velocities, and current densities can be optionally output.
-  - _Keywords:_ carrier, densities, Monte, Carlo, simulations, gather, information, distribution
+  - Monte Carlo simulations gather information about carrier distribution throughout the simulation domain. Ensemble average carrier densities,…
 - **5 Monte Carlo Input File** _(p.140)_ <a id="5-monte-carlo-input-file"></a>
-  - This chapter describes the syntax and parameters of the input file for Garand MC. The input file controls details of the simulation execution and allows some flexibility over simulation output.
-  - _Keywords:_ simulation, describes, syntax, Garand, controls, details, execution, allows
+  - This chapter describes the syntax and parameters of the input file for Garand MC. The input file controls details of the simulation executi…
 - **5.1 Starting Garand MC From the Command Line** _(p.140–141)_ <a id="5-1-starting-garand-mc-from-the-command-line"></a>
-  - Before running a Monte Carlo (MC) simulation, you must run a drift-diffusion simulation of the structure at the required bias. This defines the simulation domain and provides the initial state for the Monte Carlo simulation. Garand MC re...
-  - _Keywords:_ simulation, directory, structure, Garand, transfer, specified, running, Monte
+  - Before running a Monte Carlo (MC) simulation, you must run a drift-diffusion simulation of the structure at the required bias. This defines…
 - **5.2 Setting Up an Input File** _(p.141)_ <a id="5-2-setting-up-an-input-file"></a>
   - The Garand MC input file includes the following commands:
-  - _Keywords:_ simulation, material, define, potential, Garand, includes, execution, control
 - **5.2.1 Comments and White Space** <a id="5-2-1-comments-and-white-space"></a>
-  - White space is ignored at the start of a line within the input file, and multiple white spaces between parameters are treated as one space. When writing an input file, you can ignore white space to allow for clear formatting.
-  - _Keywords:_ character, comments, White, ignored, within, multiple, spaces, between
+  - White space is ignored at the start of a line within the input file, and multiple white spaces between parameters are treated as one space.…
 - **5.3 Hierarchy of the Output Directory** _(p.142)_ <a id="5-3-hierarchy-of-the-output-directory"></a>
   - The results of a MC simulation are written to the directory specified in the input file using:
-  - _Keywords:_ directory, experiment, simulation, substrate_bias, mathrm, results, created, drain_bias
 - **5.3.1 Intermittent Output Files** _(p.142)_ <a id="5-3-1-intermittent-output-files"></a>
-  - In the experiment directory and the data directory, Garand MC writes a file giving an overview of the results of the MC simulation, with current, velocity, energy, and band occupations, and a summary of scattering events. Separate files ...
-  - _Keywords:_ directory, INTERMITTENT, _OUTPUT, experiment, Garand, writes, giving, overview
+  - In the experiment directory and the data directory, Garand MC writes a file giving an overview of the results of the MC simulation, with cu…
 - **5.4 Simulation Parameters** _(p.143)_ <a id="5-4-simulation-parameters"></a>
   - The nature of a MC simulation is determined by a set of simulation parameters that define the following:
-  - _Keywords:_ simulation, Whether, length, nature, determined, define, electron, particle
 - **5.4.1 Electron and Hole Transport** _(p.143)_ <a id="5-4-1-electron-and-hole-transport"></a>
-  - Given a simulation domain solution from an earlier drift-diffusion simulation, both electron and hole carrier densities are defined. Either species can be resolved as particles and simulated using Garand MC, regardless of the majority ca...
-  - _Keywords:_ simulation, electrons, carrier, resolved, particles, simulated, whether, specify
+  - Given a simulation domain solution from an earlier drift-diffusion simulation, both electron and hole carrier densities are defined. Either…
 - **5.4.2 Self-Consistent Simulation** _(p.144)_ <a id="5-4-2-self-consistent-simulation"></a>
-  - Given the solution from an earlier drift-diffusion simulation, the equilibrium electrostatic potential is defined. You can perform a MC simulation within the “frozen-field” approximation, in which the initial potential solution is applie...
-  - _Keywords:_ simulation, potential, within, consistent, solution, electrostatic, frozen, approximation
+  - Given the solution from an earlier drift-diffusion simulation, the equilibrium electrostatic potential is defined. You can perform a MC sim…
 - **5.4.3 Field-Adjusting Time Steps** _(p.144)_ <a id="5-4-3-field-adjusting-time-steps"></a>
-  - The field-adjusting time step defines the period over which particles propagate assuming a constant field. At the end of the field-adjusting time step, electric fields are interpolated at the new positions of the particle, such that prop...
-  - _Keywords:_ adjusting, defines, particle, propagation, simulation, consistent, potential, length
+  - The field-adjusting time step defines the period over which particles propagate assuming a constant field. At the end of the field-adjustin…
 - **5.4.4 Simulation Time Steps** _(p.145)_ <a id="5-4-4-simulation-time-steps"></a>
-  - You can specify a MC simulation to run for a fixed time. This time is the length of the field-adjusting time step multiplied by a maximum number of time steps.
-  - _Keywords:_ simulation, num_steps, adjusting, integer, measurement, required, statistical, You
+  - You can specify a MC simulation to run for a fixed time. This time is the length of the field-adjusting time step multiplied by a maximum n…
 - **5.4.5 Transient Time Steps** _(p.145)_ <a id="5-4-5-transient-time-steps"></a>
-  - Given a solution from an earlier drift-diffusion simulation, both electron and hole carrier densities are defined. A MC simulation initializes particles following this initial carrier distribution (see Section 7.3), but it might be expec...
-  - _Keywords:_ transient, period, solution, simulation, initial, equilibrium, adjusting, num_trans
+  - Given a solution from an earlier drift-diffusion simulation, both electron and hole carrier densities are defined. A MC simulation initiali…
 - **5.4.6 Intermittent Time Steps** _(p.146)_ <a id="5-4-6-intermittent-time-steps"></a>
-  - During a MC simulation, at regular intervals, the results are written to file. This provides information about the progress of the simulation and convergence of statistical measures.
-  - _Keywords:_ intermittent, simulation, results, between, successive, period, num_inter, integer
+  - During a MC simulation, at regular intervals, the results are written to file. This provides information about the progress of the simulati…
 - **5.4.7 Statistics-Gathering Time Steps** _(p.146)_ <a id="5-4-7-statistics-gathering-time-steps"></a>
-  - The num\_stats parameter takes a positive integer value and defines the number of time steps between which successive simulation statistics are gathered. The statistics-gathering time step captures ensemble carrier averages as a function...
-  - _Keywords:_ statistics, simulation, between, successive, gathered, num_stats, integer, averages
+  - The num\_stats parameter takes a positive integer value and defines the number of time steps between which successive simulation statistics…
 - **5.4.8 Nonlinear Time Steps** _(p.147)_ <a id="5-4-8-nonlinear-time-steps"></a>
-  - In a self-consistent simulation where only one species of carrier is simulated by MC particle propagation, you must re-solve the continuous carrier concentration of the other species to retain self-consistency with the electrostatic pote...
-  - _Keywords:_ carrier, potential, nonlinear, Poisson, between, solutions, continuous, concentration
+  - In a self-consistent simulation where only one species of carrier is simulated by MC particle propagation, you must re-solve the continuous…
 - **5.4.9 Superparticles** _(p.147)_ <a id="5-4-9-superparticles"></a>
-  - Given a simulation domain solution from an earlier drift-diffusion simulation and from which the continuous carrier distribution is to be simulated by MC particle propagation (see Section 5.4.1), the number of particles used to resolve t...
-  - _Keywords:_ particles, distribution, continuous, charge, initial, simulation, carrier, superparticles
+  - Given a simulation domain solution from an earlier drift-diffusion simulation and from which the continuous carrier distribution is to be s…
 - **5.4.10 Monte Carlo Carrier Charge Reassignment** _(p.148)_ <a id="5-4-10-monte-carlo-carrier-charge-reassignment"></a>
-  - To reduce the accumulation of integration errors associated with large variation of charge and potential in regions of high charge density, you can apply a smoothing kernel repeatedly. The kernel performs a Cloud-In-Cell reassignment of ...
-  - _Keywords:_ charge, density, reassignment, iterations, reduce, variation, regions, kernel
+  - To reduce the accumulation of integration errors associated with large variation of charge and potential in regions of high charge density,…
 - **Default** _(p.148)_ <a id="default"></a>
   - The default behavior is to perform a single charge reassignment iteration in regions of high charge density.
-  - _Keywords:_ charge, behavior, perform, single, reassignment, iteration, regions, density
 - **5.4.11 Tolerance** _(p.148–149)_ <a id="5-4-11-tolerance"></a>
-  - A MC simulation is assumed to solve for the drain terminal current and might exit early, before the specified number of simulation time steps have been completed (see Section 5.4.4), if the percentage error in the current estimate conver...
-  - _Keywords:_ simulation, current, tolerance, convergence, percentage, converged, abstol, before
+  - A MC simulation is assumed to solve for the drain terminal current and might exit early, before the specified number of simulation time ste…
 - **5.4.12 Number of Electrons** _(p.149)_ <a id="5-4-12-number-of-electrons"></a>
   - If electron transport should be modeled using superparticles (see Section 5.4.9), then you must specify the number of particles.
-  - _Keywords:_ electron, particles, initial, distribution, charge, num_elec, integer, continuous
 - **5.4.13 Number of Holes** _(p.150)_ <a id="5-4-13-number-of-holes"></a>
   - If hole transport should be modelled using superparticles (see Section 5.4.9), then you must specify the number of particles.
-  - _Keywords:_ particles, initial, distribution, charge, num_hole, integer, continuous, superparticle
 - **5.5 Contact Parameters** _(p.150)_ <a id="5-5-contact-parameters"></a>
   - Like Garand, you can control the behavior of contacts in MC simulations using the contact command followed by a keyword-value pair:
-  - _Keywords:_ contact, keyword, Garand, control, behavior, contacts, simulations, followed
 - **5.5.1 Decoupled Contacts** _(p.151)_ <a id="5-5-1-decoupled-contacts"></a>
-  - The injection and removal of carriers occurs at boundaries defined as Ohmic contacts. By default, these boundaries coincide with the fixed potential cell faces that define the electrostatic contacts. You can change this default behavior ...
-  - _Keywords:_ decoupled, contacts, electrostatic, defined, region, transport, contact, automatically
+  - The injection and removal of carriers occurs at boundaries defined as Ohmic contacts. By default, these boundaries coincide with the fixed…
 - **5.5.1.1 Decoupled Depth** _(p.151)_ <a id="5-5-1-1-decoupled-depth"></a>
-  - A cell is decoupled automatically if it is within a user-defined number of cells from an electrostatic contact specified using the decouple\_depth parameter.
-  - _Keywords:_ contact, decouple, decoupled, automatically, defined, electrostatic, decouple_depth, integer
+  - A cell is decoupled automatically if it is within a user-defined number of cells from an electrostatic contact specified using the decouple…
 - **5.5.1.2 Decouple Charge Difference** <a id="5-5-1-2-decouple-charge-difference"></a>
-  - A cell is decoupled automatically if the difference between the carrier density to be sampled with Garand MC and the net remaining charge density is less than a user-defined percentage specified using the decouple\_diff parameter.
-  - _Keywords:_ density, decouple, decoupled, carrier, remaining, charge, percentage, decouple_diff
+  - A cell is decoupled automatically if the difference between the carrier density to be sampled with Garand MC and the net remaining charge d…
 - **5.5.1.3 Decoupled Field** _(p.152)_ <a id="5-5-1-3-decoupled-field"></a>
-  - A cell is decoupled automatically if the magnitude of the maximum field along any vertex is less than a user-defined value specified using the decouple\_Emax parameter.
-  - _Keywords:_ maximum, decouple, decoupled, magnitude, decouple_Emax, automatically, vertex, defined
+  - A cell is decoupled automatically if the magnitude of the maximum field along any vertex is less than a user-defined value specified using…
 - **5.5.1.4 Decoupled Offset** _(p.152)_ <a id="5-5-1-4-decoupled-offset"></a>
-  - A cell is not decoupled automatically if the separation of the cell and the edge of a gate contact is less than a user-defined value specified using the decouple\_offset parameter.
-  - _Keywords:_ contact, decouple, decoupled, separation, decouple_offset, automatically, defined, specified
+  - A cell is not decoupled automatically if the separation of the cell and the edge of a gate contact is less than a user-defined value specif…
 - **5.5.2 Injection Distribution** <a id="5-5-2-injection-distribution"></a>
 - **5.5.2.1 Velocity-Weighted Injection** <a id="5-5-2-1-velocity-weighted-injection"></a>
-  - Carriers injected at the contacts should be injected with a distribution characterized by an increased probability that high velocity carriers within the equilibrium distribution cross the contact boundary. Such a distribution depends on...
-  - _Keywords:_ injection, distribution, velocity, weighted, carriers, contact, evaluated, injected
+  - Carriers injected at the contacts should be injected with a distribution characterized by an increased probability that high velocity carri…
 - **5.5.3 Decoupled Region** _(p.153)_ <a id="5-5-3-decoupled-region"></a>
-  - In addition to the automatic definition of decoupled regions around electrostatic contacts, decoupled regions can generally be specified using the structure command and the following syntax:
-  - _Keywords:_ decoupled, regions, defines, carriers, region, electrostatic, structure, defined
+  - In addition to the automatic definition of decoupled regions around electrostatic contacts, decoupled regions can generally be specified us…
 - **5.6 Material Definition** <a id="5-6-material-definition"></a>
-  - All default materials are described by a default definition with accompanying default parameter values. The material definition is the model used to describe the material (see Part IV). For insulators and metallic contacts, the definitio...
-  - _Keywords:_ definition, material, models, valley, mechanisms, contacts, appropriate, semiconductor
+  - All default materials are described by a default definition with accompanying default parameter values. The material definition is the mode…
 - **5.6.1 Band Model** <a id="5-6-1-band-model"></a>
-  - Each default material defines a list of available valleys definitions that can be included to define the conduction and valence band models. For a list of the available valley definitions for each material, see Part IV or use the garand\...
-  - _Keywords:_ material, available, definitions, valley, models, defines, valleys, included
+  - Each default material defines a list of available valleys definitions that can be included to define the conduction and valence band models…
 - **5.6.1.1 Adding a Valley** _(p.154)_ <a id="5-6-1-1-adding-a-valley"></a>
   - To add a valley definition to a material definition, use the following syntax:
-  - _Keywords:_ material, valley, definition, ADD, conduction, Silicon, syntax, material_name
 - **5.6.1.2 Removing a Valley** <a id="5-6-1-2-removing-a-valley"></a>
   - To remove a valley definition from a material definition, use the following syntax:
-  - _Keywords:_ material, valley, definition, REMOVE, conduction, remove, syntax, material_name
 - **5.6.2 Mechanism Model** <a id="5-6-2-mechanism-model"></a>
-  - Each default valley defines a list of available scattering mechanism definitions that can be included to define the valley model. For a list of the available mechanism definitions for each valley, see Part IV or use the garand\_mats util...
-  - _Keywords:_ valley, mechanism, available, definitions, scattering, defines, included, define
+  - Each default valley defines a list of available scattering mechanism definitions that can be included to define the valley model. For a lis…
 - **5.6.2.1 Adding a Mechanism** _(p.155)_ <a id="5-6-2-1-adding-a-mechanism"></a>
   - To add a mechanism definition to a valley definition, use the following syntax:
-  - _Keywords:_ mechanism, definition, valley, material, ADD, InGaAs, syntax, material_name
 - **5.6.2.2 Removing a Mechanism** _(p.155)_ <a id="5-6-2-2-removing-a-mechanism"></a>
   - To remove a mechanism definition from a valley definition, use the following syntax:
-  - _Keywords:_ mechanism, definition, valley, material, remove, REMOVE, InGaAs, syntax
 - **5.6.3 Scattering Filters** _(p.156)_ <a id="5-6-3-scattering-filters"></a>
-  - A set of defined scattering mechanisms in all valleys associated with a semiconductor material’s conduction or valence band can be filtered by defining a list of scattering filters. This can be controlled using the band’s scattering para...
-  - _Keywords:_ scattering, mechanisms, defined, Remove, Include, phonon, material, conduction
+  - A set of defined scattering mechanisms in all valleys associated with a semiconductor material’s conduction or valence band can be filtered…
 - **Default** <a id="default"></a>
   - The default behavior is to include all defined scattering mechanisms.
-  - _Keywords:_ behavior, include, defined, scattering, mechanisms
 - **5.7 Material Parameters** <a id="5-7-material-parameters"></a>
-  - Given a material definition, which can be modified from a default definition using input file commands (see Part IV), default material parameter values can be similarly modified. Following the definition of a material as consisting of a ...
-  - _Keywords:_ material, definition, modified, valley, mechanism, specification, Given, Part
+  - Given a material definition, which can be modified from a default definition using input file commands (see Part IV), default material para…
 - **5.7.1 Channel and Substrate Orientations** _(p.157–158)_ <a id="5-7-1-channel-and-substrate-orientations"></a>
-  - For semiconductor materials, you can specify a nondefault orientation of the crystal with respect to the simulation domain, by supplying orthogonal orientations for the channel and substrate, using the following input file syntax:
-  - _Keywords:_ crystal, material, Silicon, orientation, direction, simulation, domain, orientations
+  - For semiconductor materials, you can specify a nondefault orientation of the crystal with respect to the simulation domain, by supplying or…
 - **5.7.2 Bulk Material Parameter Values** <a id="5-7-2-bulk-material-parameter-values"></a>
   - To set nondefault material bulk model parameter values in the input file, use the following syntax:
-  - _Keywords:_ material, nondefault, affinity, syntax, material_name, unique, identifies, definition
 - **5.7.3 Valley Parameter Values** <a id="5-7-3-valley-parameter-values"></a>
   - For semiconductor material definitions, to set nondefault valley parameter values in the input file, use the following syntax:
-  - _Keywords:_ valley, material, Silicon, definitions, nondefault, conduction, semiconductor, syntax
 - **5.7.4 Mechanism Parameter Values** _(p.159)_ <a id="5-7-4-mechanism-parameter-values"></a>
   - For semiconductor material definitions, to set nondefault mechanism parameter values in the input file, use the following syntax:
-  - _Keywords:_ material, mechanism, valley, Silicon, definitions, nondefault, conduction, semiconductor
 - **5.7.5 Interface Model Definitions** _(p.160)_ <a id="5-7-5-interface-model-definitions"></a>
-  - Material interfaces may define models that alter bulk scattering mechanisms or may define parameters used by scattering mechanisms, such as surface roughness or remote Coulomb scattering.
-  - _Keywords:_ interface, models, defined, define, definition, distribution, carrier, orientation
+  - Material interfaces may define models that alter bulk scattering mechanisms or may define parameters used by scattering mechanisms, such as…
 - **5.7.5.1 Rough Interface Definition** _(p.161)_ <a id="5-7-5-1-rough-interface-definition"></a>
-  - A rough interface model allows parameters associated with surface roughness to be defined. Parameters are assigned in the input file using the interface command as with all interface models. As well as the general orient and carrier para...
-  - _Keywords:_ interface, Silicon, Oxide, rough_001, RMS, surface, models, orient
+  - A rough interface model allows parameters associated with surface roughness to be defined. Parameters are assigned in the input file using…
 - **5.7.5.2 Acoustic Interface Definition** _(p.161)_ <a id="5-7-5-2-acoustic-interface-definition"></a>
-  - An acoustic phonon interface model allows parameters to modify acoustic phonon scattering in the presence of an interface to be defined. Parameters are assigned in the input file using the interface command as with all interface models. ...
-  - _Keywords:_ interface, Oxide, acoustic, SiliconGermanium, Ac_111, phonon, models, orient
+  - An acoustic phonon interface model allows parameters to modify acoustic phonon scattering in the presence of an interface to be defined. Pa…
 - **5.7.5.3 Alloy Interface Definition** _(p.162)_ <a id="5-7-5-3-alloy-interface-definition"></a>
-  - <table><tr><td>Parameter</td><td>Type</td><td>Description</td><td>Default</td><td>Units</td></tr><tr><td>AllPot</td><td>Real</td><td>Aclloy potential factor</td><td>1.0</td><td>[-]</td></tr></table>
-  - _Keywords:_ interface, SiliconGermanium, Oxide, All_110, potential, scattering, AllPot, models
+  - <table><tr><td>Parameter</td><td>Type</td><td>Description</td><td>Default</td><td>Units</td></tr><tr><td>AllPot</td><td>Real</td><td>Aclloy…
 - **5.7.5.4 Interface Trap Level** _(p.162)_ <a id="5-7-5-4-interface-trap-level"></a>
-  - An interface trap level model allows the association of parameters that describe the density of traps at a single energy level at an interface. Parameters are assigned in the input file using the interface command as with all interface m...
-  - _Keywords:_ interface, density, Oxide, HfO2, defines, energy, models, orient
+  - An interface trap level model allows the association of parameters that describe the density of traps at a single energy level at an interf…
 - **Uniform Interface Trap Distribution** <a id="uniform-interface-trap-distribution"></a>
-  - A uniform interface trap distribution model allows the association of parameters that describe a uniform distribution of traps over an energy range at an interface. As well as the general orient, carrier, type and DLN parameters common t...
-  - _Keywords:_ interface, distribution, Silicon, Oxide, energy, density, defines, uniform
+  - A uniform interface trap distribution model allows the association of parameters that describe a uniform distribution of traps over an ener…
 - **Exponential Interface Trap Distribution** _(p.163–164)_ <a id="exponential-interface-trap-distribution"></a>
-  - An exponential interface trap distribution model allows the association of parameters that describe an exponential distribution of traps over an energy range at an interface. As well as the general orient, carrier, type and DLN parameter...
-  - _Keywords:_ interface, distribution, Silicon, Oxide, energy, density, defines, exponential
+  - An exponential interface trap distribution model allows the association of parameters that describe an exponential distribution of traps ov…
 - **Gaussian Interface Trap Distribution** <a id="gaussian-interface-trap-distribution"></a>
-  - A Gaussian interface trap distribution model allows the association of parameters that describe a Gaussian distribution of traps over an energy range at an interface. As well as the general orient, carrier, type and DLN parameters common...
-  - _Keywords:_ interface, distribution, Silicon, Oxide, energy, density, defines, Real
+  - A Gaussian interface trap distribution model allows the association of parameters that describe a Gaussian distribution of traps over an en…
 - **Tabulated Interface Trap Distribution** <a id="tabulated-interface-trap-distribution"></a>
-  - A tabulated interface trap distribution model allows the association of parameters that describe a user-defined distribution of traps in energy at an interface. As well as the general orient, carrier, type and DLN parameters common to al...
-  - _Keywords:_ interface, Silicon, Oxide, distribution, piecewise, define, energy, orient
+  - A tabulated interface trap distribution model allows the association of parameters that describe a user-defined distribution of traps in en…
 - **5.7.6 k · p Band Structure Storage** _(p.165)_ <a id="5-7-6-k-p-band-structure-storage"></a>
-  - The k·p valence band structure is precalculated and stored on a polar mesh (see Section 8.7). The default resolution of the band structure is chosen to minimize memory overhead, while ensuring no significant loss of accuracy. However, th...
-  - _Keywords:_ resolution, valence, energy, material, structure, stored, memory, Silicon
+  - The k·p valence band structure is precalculated and stored on a polar mesh (see Section 8.7). The default resolution of the band structure…
 - **5.7.6.1 Writing k · p Band Structures to Files** <a id="5-7-6-1-writing-k-p-band-structures-to-files"></a>
-  - A k · p valence band structure can be calculated and written to file. Simulations can then read the band structure instead of calculating it, reducing the initialization period.
-  - _Keywords:_ material, structure, written, directory, calculated, valence, simulation, experiment
+  - A k · p valence band structure can be calculated and written to file. Simulations can then read the band structure instead of calculating i…
 - **5.7.6.2 Reading k · p Band Structures From Files** _(p.166)_ <a id="5-7-6-2-reading-k-p-band-structures-from-files"></a>
   - Having calculated and written a band structure to file, you can read the file using the following input file command:
-  - _Keywords:_ structure, written, material, valence, directory, calculated, precalculated, specified
 - **5.7.7 Strain** <a id="5-7-7-strain"></a>
 - **5.7.7.1 Biaxial Strain** _(p.167)_ <a id="5-7-7-1-biaxial-strain"></a>
-  - Biaxial strain from a relaxed buffer layer can be defined in different ways. The lattice constant of the buffer layer can be specified in ångströms or a percentage change can be defined.
-  - _Keywords:_ strain, defined, constant, Germanium, biaxial, buffer, lattice, percentage
+  - Biaxial strain from a relaxed buffer layer can be defined in different ways. The lattice constant of the buffer layer can be specified in å…
 - **5.7.7.2 Uniaxial Strain** _(p.167)_ <a id="5-7-7-2-uniaxial-strain"></a>
-  - To introduce uniaxial strain to the system, you can specify two values: the first value is a scalar describing the type of strain (negative for compressive and positive for tensile) and magnitude in GPa, and the second value is a directi...
-  - _Keywords:_ strain, uniaxial, direction, GPa, applied, introduce, specify, compressive
+  - To introduce uniaxial strain to the system, you can specify two values: the first value is a scalar describing the type of strain (negative…
 - **5.7.7.3 Specifying Tensors** <a id="5-7-7-3-specifying-tensors"></a>
-  - Stress or strain tensors can be defined in the input file in either the crystal or device frame of reference. Only one tensor of either type can be defined for any given material.
-  - _Keywords:_ strain, tensor, stress, define, specify, material_name, defined, crystal
+  - Stress or strain tensors can be defined in the input file in either the crystal or device frame of reference. Only one tensor of either typ…
 - **5.7.7.4 Specifying Multiple Strain Definitions** _(p.168)_ <a id="5-7-7-4-specifying-multiple-strain-definitions"></a>
   - If multiple strain definitions are required for a given material, you must modify the syntax to give each definition a unique identifier:
-  - _Keywords:_ strain, Silicon, uniaxial, multiple, definitions, material, modify, syntax
 - **5.7.8 Spatially Varying Material Properties** <a id="5-7-8-spatially-varying-material-properties"></a>
-  - In MC simulations, the impact of spatially varying mole fraction and stress fields is captured in the variation of the band structure with respect to both position and momentum. The real-space propagation is influenced by an additional d...
-  - _Keywords:_ impact, fraction, stress, variation, structure, momentum, simulations, spatially
+  - In MC simulations, the impact of spatially varying mole fraction and stress fields is captured in the variation of the band structure with…
 - **5.7.8.1 Initial Drift-Diffusion Simulation** _(p.169)_ <a id="5-7-8-1-initial-drift-diffusion-simulation"></a>
-  - To include the impact of spatially varying material parameters in MC simulations, a drift-diffusion simulation must be performed first with additional flags enabled to ensure that the mole fraction and stress fields are read from the imp...
-  - _Keywords:_ material, fraction, enabled, stress, simulation, ensure, fields, imported
+  - To include the impact of spatially varying material parameters in MC simulations, a drift-diffusion simulation must be performed first with…
 - **5.7.8.2 Driving Field** <a id="5-7-8-2-driving-field"></a>
-  - With the position-dependent flag enabled for a MC simulation, the variation in the conduction and valence band edges is accounted for as an additional driving force during the particle propagation.
-  - _Keywords:_ enabled, conduction, valence, Garand, position, dependent, simulation, variation
+  - With the position-dependent flag enabled for a MC simulation, the variation in the conduction and valence band edges is accounted for as an…
 - **5.7.8.3 Band Structure and Scattering** <a id="5-7-8-3-band-structure-and-scattering"></a>
-  - For simulations where a spatially varying mole fraction is accounted for in the additional driving field, the band structure and scattering are defined using a single mole fraction for each region. The syntax to define this is:
-  - _Keywords:_ fraction, region, scattering, defined, material, additional, structure, define
+  - For simulations where a spatially varying mole fraction is accounted for in the additional driving field, the band structure and scattering…
 - **5.7.8.4 Applying Stress** _(p.170)_ <a id="5-7-8-4-applying-stress"></a>
   - The stress-induced modification to the band structure can be introduced in one of the following ways:
-  - _Keywords:_ stress, tensor, average, import, simulation, transfer, region, strain
 - **5.8 Long-Channel Simulations** _(p.171)_ <a id="5-8-long-channel-simulations"></a>
-  - You can simulate Monte Carlo transport along an infinitely long channel, consistent with the channel defined within a device structure. This is achieved by restricting the simulation domain to a cross-section through the channel.
-  - _Keywords:_ channel, simulate, device, structure, You, Monte, Carlo, transport
+  - You can simulate Monte Carlo transport along an infinitely long channel, consistent with the channel defined within a device structure. Thi…
 - **5.8.1 Automatically Slicing a Device** _(p.171)_ <a id="5-8-1-automatically-slicing-a-device"></a>
-  - The autoslice parameter is used to slice a device at its midpoint along the channel. This is the preferred option as it simplifies the procedure for users. For example:
-  - _Keywords:_ applied, direction, channel, simulation, autoslice, structure, Based, device
+  - The autoslice parameter is used to slice a device at its midpoint along the channel. This is the preferred option as it simplifies the proc…
 - **5.8.2 Refining Automatic Slicing** _(p.172–173)_ <a id="5-8-2-refining-automatic-slicing"></a>
   - Alternatively, the following command:
-  - _Keywords:_ simulation, domain, specified, Alternatively, structure, remove_source_drain, combination, physical
 - **6 Output Visualization** _(p.173)_ <a id="6-output-visualization"></a>
   - This chapter discusses visualization of output.
-  - _Keywords:_ discusses, visualization
 - **6.1 Initialization Fields** _(p.173–174)_ <a id="6-1-initialization-fields"></a>
-  - The output command in the input file controls visualization of the simulation domain and the Monte Carlo (MC) solution. This command is used to switch on or off output TDR files and to specify which fields from the MC solution are writte...
-  - _Keywords:_ concentration, simulation, domain, doping, solution, TDR, fields, initial
+  - The output command in the input file controls visualization of the simulation domain and the Monte Carlo (MC) solution. This command is use…
 - **6.1.1 Donor Doping Concentration** _(p.174)_ <a id="6-1-1-donor-doping-concentration"></a>
   - To write the simulation domain donor doping profile to the initialization TDR file, specify:
-  - _Keywords:_ simulation, domain, doping, profile, initialization, TDR, specify, donors
 - **6.1.2 Acceptor Doping Concentration** <a id="6-1-2-acceptor-doping-concentration"></a>
   - To write the simulation domain acceptor doping profile to the initialization TDR file, specify:
-  - _Keywords:_ acceptor, simulation, domain, doping, profile, initialization, TDR, specify
 - **6.1.3 Total Doping Concentration** <a id="6-1-3-total-doping-concentration"></a>
   - To write the simulation domain total doping profile to the initialization TDR file, specify:
-  - _Keywords:_ simulation, domain, doping, profile, initialization, TDR, specify, total_doping
 - **6.1.4 Net Doping Concentration** <a id="6-1-4-net-doping-concentration"></a>
   - To write the simulation domain net doping profile to the initialization TDR file, specify:
-  - _Keywords:_ simulation, domain, doping, profile, initialization, TDR, specify, net_doping
 - **6.1.5 Fixed Charge Concentration** _(p.175)_ <a id="6-1-5-fixed-charge-concentration"></a>
   - To write the simulation domain fixed charge profile, resulting from discrete impurities or traps, to the initialization TDR file, specify:
-  - _Keywords:_ simulation, charge, discrete, domain, profile, resulting, impurities, initialization
 - **6.1.6 Potential** _(p.175)_ <a id="6-1-6-potential"></a>
-  - To write the potential from the initial drift-diffusion solution, along with the initial potential solution from a selfconsistent MC simulation given the initial charge distribution, to the initialization TDR file, specify:
-  - _Keywords:_ potential, initial, solution, diffusion, selfconsistent, simulation, charge, distribution
+  - To write the potential from the initial drift-diffusion solution, along with the initial potential solution from a selfconsistent MC simula…
 - **6.1.7 Effective Quantum Potential** <a id="6-1-7-effective-quantum-potential"></a>
-  - To write the effective quantum potential from the initial drift-diffusion solution, along with the initial effective quantum potential solution from a self-consistent MC simulation given the initial charge distribution, to the initializa...
-  - _Keywords:_ effective, quantum, potential, initial, solution, diffusion, consistent, simulation
+  - To write the effective quantum potential from the initial drift-diffusion solution, along with the initial effective quantum potential solu…
 - **6.1.8 Potentials** <a id="6-1-8-potentials"></a>
-  - To write both the potential and effective potentials from both the initial drift-diffusion solution and from the initial solution for MC to the initialization TDR file, specify:
-  - _Keywords:_ potential, effective, potentials, initial, solution, diffusion, initialization, TDR
+  - To write both the potential and effective potentials from both the initial drift-diffusion solution and from the initial solution for MC to…
 - **6.1.9 Band Edges** <a id="6-1-9-band-edges"></a>
   - To write the conduction band and valence band edges to the initialization TDR file, specify:
-  - _Keywords:_ conduction, valence, initialization, TDR, specify, written
 - **6.1.10 Electron Concentration** _(p.176)_ <a id="6-1-10-electron-concentration"></a>
-  - To write the initial electron concentration from the drift-diffusion solution and the initialized electron distribution from a MC simulation to the initialization TDR file, specify:
-  - _Keywords:_ electron, concentration, solution, initial, diffusion, initialized, distribution, simulation
+  - To write the initial electron concentration from the drift-diffusion solution and the initialized electron distribution from a MC simulatio…
 - **6.1.11 Hole Concentration** _(p.176)_ <a id="6-1-11-hole-concentration"></a>
-  - To write the initial hole concentration from the drift-diffusion solution and the initialized hole distribution from a MC simulation to the initialization TDR file, specify:
-  - _Keywords:_ concentration, solution, initial, diffusion, initialized, distribution, simulation, initialization
+  - To write the initial hole concentration from the drift-diffusion solution and the initialized hole distribution from a MC simulation to the…
 - **6.1.12 Mobile Carrier Concentration** <a id="6-1-12-mobile-carrier-concentration"></a>
-  - To write the initial mobile-charge concentration from the drift-diffusion solution and the initialized hole distribution from a MC simulation to the initialization TDR file, specify:
-  - _Keywords:_ concentration, solution, initial, mobile, charge, diffusion, initialized, distribution
+  - To write the initial mobile-charge concentration from the drift-diffusion solution and the initialized hole distribution from a MC simulati…
 - **6.2 Steady-State Fields** _(p.177)_ <a id="6-2-steady-state-fields"></a>
-  - The steady-state period is defined as the simulation time following the user-defined transient (see Section 5.4.5). Time-averaged fields from MC simulation over this steady-state period can be visualized in an output TDR file that is wri...
-  - _Keywords:_ TDR, defined, simulation, averaged, steady, period, transient, fields
+  - The steady-state period is defined as the simulation time following the user-defined transient (see Section 5.4.5). Time-averaged fields fr…
 - **6.2.1 Carrier Energy** _(p.177)_ <a id="6-2-1-carrier-energy"></a>
   - To write the time-averaged carrier energy (mobile carrier species only) to the output TDR file, specify:
-  - _Keywords:_ energy, carrier, averaged, mobile, species, TDR, specify, written
 - **6.2.2 Velocity** <a id="6-2-2-velocity"></a>
   - To write the time-averaged carrier velocity vector (mobile carrier species only) to the output TDR file, specify:
-  - _Keywords:_ velocity, carrier, averaged, vector, mobile, species, TDR, specify
 - **6.2.3 Current Density** <a id="6-2-3-current-density"></a>
   - To write the time-averaged current density vector (mobile carrier species only) to the output TDR file, specify:
-  - _Keywords:_ current, density, averaged, vector, mobile, carrier, species, TDR
 - **6.2.4 Mobile Carrier Properties** <a id="6-2-4-mobile-carrier-properties"></a>
   - To write the time-averaged energy, velocity, and current density for all simulated mobile carrier species to the output TDR file, specify:
-  - _Keywords:_ averaged, energy, velocity, current, density, simulated, mobile, carrier
 - **6.3 Output Options** _(p.178)_ <a id="6-3-output-options"></a>
-  - Statistical data written to the output TDR file is gathered over the simulated particle ensemble. By default, the data is collected and output for the ensemble as a whole. However, data can be collected and output for carriers within ind...
-  - _Keywords:_ ensemble, collected, carriers, source, Statistical, written, TDR, gathered
+  - Statistical data written to the output TDR file is gathered over the simulated particle ensemble. By default, the data is collected and out…
 - **6.3.1 Band Properties** _(p.178)_ <a id="6-3-1-band-properties"></a>
-  - You can output various properties such as the valley occupation, carrier energy, carrier velocity, and the current density vector. You can output these properties independently to the TDR file.
-  - _Keywords:_ properties, carrier, You, various, valley, occupation, energy, velocity
+  - You can output various properties such as the valley occupation, carrier energy, carrier velocity, and the current density vector. You can…
 - **6.3.2 Ballistic Properties** <a id="6-3-2-ballistic-properties"></a>
-  - To separate statistics gathering and output over the ensemble of particles moving from source to drain and the ensemble from drain to source, specify the following command:
-  - _Keywords:_ source, moving, associated, positive, ensemble, ballisticity, carrier, denote
+  - To separate statistics gathering and output over the ensemble of particles moving from source to drain and the ensemble from drain to sourc…
 - **6.4 Scattering Rates** _(p.179)_ <a id="6-4-scattering-rates"></a>
-  - The calculated scattering rates for the selected material mechanisms within the simulation can optionally be written to file using the following syntax:
-  - _Keywords:_ material, calculated, scattering, selected, mechanisms, within, simulation, optionally
+  - The calculated scattering rates for the selected material mechanisms within the simulation can optionally be written to file using the foll…
 - **6.5 Additional Output** _(p.179)_ <a id="6-5-additional-output"></a>
 - **6.5.1 Time Evolution** _(p.179)_ <a id="6-5-1-time-evolution"></a>
-  - As well as writing a TDR file for visualization of the distribution of steady-state carrier properties within the simulation domain, statistics can be gathered at each time step to write the time evolution of ensemble average carrier pro...
-  - _Keywords:_ gathered, TDR, carrier, properties, simulation, evolution, ensemble, directory
+  - As well as writing a TDR file for visualization of the distribution of steady-state carrier properties within the simulation domain, statis…
 - **6.5.2 Energy and Wavevector Distributions** <a id="6-5-2-energy-and-wavevector-distributions"></a>
   - The steady-state distribution of the carrier energy and wavevector can be output by specifying the following commands:
-  - _Keywords:_ directory, steady, distribution, carrier, energy, wavevector, specifying, E_distribution
 - **6.5.3 Averaged and Integral Cutlines** _(p.180)_ <a id="6-5-3-averaged-and-integral-cutlines"></a>
-  - Garand MC outputs averaged or integral quantities along the channel similar to Garand as described in Section 3.6.5. Available options are described here. Each of these quantities is written to the data directory:
-  - _Keywords:_ Garand, quantities, described, directory, averaged, integral, channel, similar
+  - Garand MC outputs averaged or integral quantities along the channel similar to Garand as described in Section 3.6.5. Available options are…
 - **6.5.3.1 Integral Charge Density** _(p.180)_ <a id="6-5-3-1-integral-charge-density"></a>
-  - You can write the carrier density, in cross-sections across the device, integrated over the cross-sectional area to an output file in the data directory. The output units are cm-1. To enable this output, specify:
-  - _Keywords:_ _density, simulations, You, carrier, density, across, device, integrated
+  - You can write the carrier density, in cross-sections across the device, integrated over the cross-sectional area to an output file in the d…
 - **6.5.3.2 Weighted Average of Velocity** <a id="6-5-3-2-weighted-average-of-velocity"></a>
-  - You can write the average velocity in cross-sections across the device, weighted by the carrier density, to an output file in the data directory. The output units are m.s−1. To enable this output, specify:
-  - _Keywords:_ weighted, simulations, _velocity, You, average, velocity, across, device
+  - You can write the average velocity in cross-sections across the device, weighted by the carrier density, to an output file in the data dire…
 - **6.5.3.3 Limiting the Integration Range** _(p.181)_ <a id="6-5-3-3-limiting-the-integration-range"></a>
   - You can limit the integration or averaging range to cover only a specific part of the device structure.
-  - _Keywords:_ integration, You, averaging, specific, device, structure, specify, limits
 - **7 Monte Carlo Simulation Models** _(p.181)_ <a id="7-monte-carlo-simulation-models"></a>
   - This chapter describes the models relevant to Monte Carlo simulations.
-  - _Keywords:_ describes, models, relevant, Monte, Carlo, simulations
 - **7.1 Assigning Charges** _(p.181)_ <a id="7-1-assigning-charges"></a>
-  - The cloud-in-cell (CIC) scheme [37] is used to assign all Monte Carlo (MC) simulation particle charges to the simulation mesh. The CIC scheme is applied consistently throughout the mesh. Although proposed hybrid charge assignment schemes...
-  - _Keywords:_ CIC, scheme, simulation, assign, Monte, Carlo, particle, charges
+  - The cloud-in-cell (CIC) scheme [37] is used to assign all Monte Carlo (MC) simulation particle charges to the simulation mesh. The CIC sche…
 - **7.2 Interpolating Force** _(p.182)_ <a id="7-2-interpolating-force"></a>
-  - Calculation of the force at a particle position within the mesh uses a trilinear interpolation of the displacement fields calculated at the eight nodes that define the cell within which the particle is found. Such a scheme is consistent ...
-  - _Keywords:_ epsilon_, displacement, particle, within, calculated, potential, position, fields
+  - Calculation of the force at a particle position within the mesh uses a trilinear interpolation of the displacement fields calculated at the…
 - **7.3 Initializing Particles** _(p.182)_ <a id="7-3-initializing-particles"></a>
-  - Particle initialization defines the initial state of the simulation particles. The state of each particle is completely defined by its position and wavevector. Particles are initialized at the start of a MC simulation and also upon injec...
-  - _Keywords:_ simulation, distribution, particles, injection, domain, Particle, initialization, defines
+  - Particle initialization defines the initial state of the simulation particles. The state of each particle is completely defined by its posi…
 - **7.3.1 Position** _(p.182)_ <a id="7-3-1-position"></a>
-  - MC simulation particles representing electron and hole distributions are initialized within the simulation domain given initial, continuous, carrier densities. The initial distribution typically results from an earlier drift-diffusion so...
-  - _Keywords:_ simulation, distributions, domain, initial, particles, representing, electron, initialized
+  - MC simulation particles representing electron and hole distributions are initialized within the simulation domain given initial, continuous…
 - **7.3.2 Energy** <a id="7-3-2-energy"></a>
-  - Particle energies are initialized randomly and with a probability consistent with a required energy distribution using the direct technique [38]. If $f _ { 0 } ( E )$ is the required statistical distribution function and $g ( E )$ is the...
-  - _Keywords:_ energy, distribution, required, initialized, probability, direct, technique, Particle
+  - Particle energies are initialized randomly and with a probability consistent with a required energy distribution using the direct technique…
 - **7.3.3 Equilibrium Energy Distribution** <a id="7-3-3-equilibrium-energy-distribution"></a>
 - **7.3.3.1 EMA Band** _(p.183–184)_ <a id="7-3-3-1-ema-band"></a>
   - For a band modeled by multiple analytic degenerate nonparabolic valleys (see Section 8.6), the DOS $g ( E )$ is given by:
-  - _Keywords:_ energy, alpha_, distribution, Fermi, Dirac, integration, random, valley
 - **7.3.3.2 Six-Band k · p Band** _(p.185)_ <a id="7-3-3-2-six-band-k-p-band"></a>
-  - The approach to initializing carriers in an analytic valley is replicated for carriers in a six-band k · p band structure in which a spherically averaged DOS effective mass is used.
-  - _Keywords:_ carriers, approach, initializing, analytic, valley, replicated, structure, spherically
+  - The approach to initializing carriers in an analytic valley is replicated for carriers in a six-band k · p band structure in which a spheri…
 - **7.3.4 Equilibrium Velocity** _(p.185)_ <a id="7-3-4-equilibrium-velocity"></a>
 - **7.3.4.1 EMA Valley** _(p.185)_ <a id="7-3-4-1-ema-valley"></a>
-  - The magnitude of the Herring-Vogt transformed particle wavevector is determined given a randomly generated particle energy with required distribution (see Section 7.3.3). The wavevector is randomly oriented by selecting two polar angles:
-  - _Keywords:_ wavevector, Herring, Vogt, particle, randomly, magnitude, transformed, determined
+  - The magnitude of the Herring-Vogt transformed particle wavevector is determined given a randomly generated particle energy with required di…
 - **7.3.4.2 Six-Band k · p Band** <a id="7-3-4-2-six-band-k-p-band"></a>
-  - Given a randomly generated particle energy with required distribution (see Section 7.3.3), the particle wavevector is selected randomly such that it is weighted by the local DOS in the six-band k · p band structure for states with the re...
-  - _Keywords:_ randomly, particle, energy, required, Given, generated, distribution, wavevector
+  - Given a randomly generated particle energy with required distribution (see Section 7.3.3), the particle wavevector is selected randomly suc…
 - **7.3.5 Contact Injection** _(p.186)_ <a id="7-3-5-contact-injection"></a>
-  - Ohmic contact boundaries (see Section 7.6.4) allow particle flux in and out of the simulation domain. To maintain the charge density within the simulation domain, the net out flux of particles must be balanced by a net in flux through a ...
-  - _Keywords:_ contact, injection, charge, surface, density, particles, injected, equilibrium
+  - Ohmic contact boundaries (see Section 7.6.4) allow particle flux in and out of the simulation domain. To maintain the charge density within…
 - **7.4 Quantum Corrections** _(p.186)_ <a id="7-4-quantum-corrections"></a>
-  - In Garand MC, quantum corrections are implemented based on the density gradient approach [1]. Previously, it was difficult to incorporate this form of quantum correction in particle-based simulations due to its sensitivity to noise [87],...
-  - _Keywords:_ quantum, Garand, corrections, implemented, density, gradient, approach, Previously
+  - In Garand MC, quantum corrections are implemented based on the density gradient approach [1]. Previously, it was difficult to incorporate t…
 - **7.4.1 Static Quantum Correction** _(p.186)_ <a id="7-4-1-static-quantum-correction"></a>
-  - A static quantum-correction field, $\psi _ { q c } .$ , where mapping to the 3D simulation domain is implied, is defined from a self-consistent quantum-corrected drift-diffusion simulation as:
-  - _Keywords:_ quantum, simulation, correction, consistent, potential, static, mapping, domain
+  - A static quantum-correction field, $\psi _ { q c } .$ , where mapping to the 3D simulation domain is implied, is defined from a self-consis…
 - **7.4.2 Quantum-Corrected Potential** <a id="7-4-2-quantum-corrected-potential"></a>
-  - The static quantum correction defined by Eq. 7.19 is used to define the quantum-corrected potential field within a MC simulation, at some simulation time t, as:
-  - _Keywords:_ quantum, simulation, static, correction, defined, define, corrected, potential
+  - The static quantum correction defined by Eq. 7.19 is used to define the quantum-corrected potential field within a MC simulation, at some s…
 - **7.4.2.1 Frozen-Field Simulation** <a id="7-4-2-1-frozen-field-simulation"></a>
-  - In a frozen-field simulation, the classical potential $\psi _ { c l } | _ { t }$ in Eq. 7.20 is constant throughout the simulation. Consequently, the density gradient-corrected potential $\left. \psi _ { d g } \right| _ { t }$ is also co...
-  - _Keywords:_ simulation, potential, constant, density, gradient, frozen, classical, throughout
+  - In a frozen-field simulation, the classical potential $\psi _ { c l } | _ { t }$ in Eq. 7.20 is constant throughout the simulation. Consequ…
 - **7.4.2.2 Self-Consistent Simulation** _(p.187)_ <a id="7-4-2-2-self-consistent-simulation"></a>
-  - In a self-consistent simulation, the classical potential $\psi _ { c l } | _ { t }$ in Eq. 7.20 is a function of the simulation time step. Variation in $\left. \psi _ { c l } \right| _ { t }$ with time is subsequently reflected in the de...
-  - _Keywords:_ consistent, simulation, potential, quantum, classical, Variation, subsequently, reflected
+  - In a self-consistent simulation, the classical potential $\psi _ { c l } | _ { t }$ in Eq. 7.20 is a function of the simulation time step.…
 - **7.5 Particle Propagation** _(p.187)_ <a id="7-5-particle-propagation"></a>
 - **7.5.1 Free Flight** _(p.187)_ <a id="7-5-1-free-flight"></a>
-  - Particles are propagated using the velocity Verlet algorithm, which takes a particle at time t with position and wavevector $\mathbf { \nabla } _ { \mathbf { r } _ { t } }$ and $\mathbf { \Psi } _ { k _ { t } , \mathbf { \ell } }$ , resp...
-  - _Keywords:_ Delta, boldsymbol, particle, mathbf, velocity, position, wavevector, nabla_
+  - Particles are propagated using the velocity Verlet algorithm, which takes a particle at time t with position and wavevector $\mathbf { \nab…
 - **7.5.2 Scattering Interrupted** <a id="7-5-2-scattering-interrupted"></a>
-  - Scattering events break the propagation cycle by instantaneously altering the wavevector k between t and $t + \Delta t$ . Since information regarding the new field cannot be obtained until the result of the scattering event is obtained, ...
-  - _Keywords:_ propagation, scattering, obtained, Scattering, events, instantaneously, altering, wavevector
+  - Scattering events break the propagation cycle by instantaneously altering the wavevector k between t and $t + \Delta t$ . Since information…
 - **7.6 Simulation Domain Boundaries** <a id="7-6-simulation-domain-boundaries"></a>
-  - Give the simulation domain, several boundary types between mesh cells are defined automatically, depending on material types and boundary conditions. The dynamics of particles encountering cell boundaries is determined by the boundary ty...
-  - _Keywords:_ boundary, Give, simulation, domain, several, between, defined, automatically
+  - Give the simulation domain, several boundary types between mesh cells are defined automatically, depending on material types and boundary c…
 - **7.6.1 Hitting a Boundary** _(p.188)_ <a id="7-6-1-hitting-a-boundary"></a>
-  - Particle propagation over a time interval ∆t results in an uninterrupted ballistic trajectory with position (∆r) and momentum (∆k) increments. If $\Delta r$ crosses a cell boundary, the particle is considered to have hit the cell boundar...
-  - _Keywords:_ boundary, Delta, propagation, particle, Particle, interval, results, uninterrupted
+  - Particle propagation over a time interval ∆t results in an uninterrupted ballistic trajectory with position (∆r) and momentum (∆k) incremen…
 - **7.6.2 Heterojunction Boundaries** _(p.188)_ <a id="7-6-2-heterojunction-boundaries"></a>
-  - Mesh cell interfaces between two different semiconductor materials or regions define a heterojunction boundary. Particle transmission across the boundary and into a new semiconductor material is considered purely classically by ensuring ...
-  - _Keywords:_ material, semiconductor, conservation, energy, momentum, sought, heterojunction, incident
+  - Mesh cell interfaces between two different semiconductor materials or regions define a heterojunction boundary. Particle transmission acros…
 - **7.6.2.1 EMA Valley** _(p.189)_ <a id="7-6-2-1-ema-valley"></a>
-  - Given a band model composed of multiple analytic valleys, energy- and momentum-conserving final states are sought in all valleys by solving for an impulse normal to the heterojunction:
-  - _Keywords:_ boldsymbol, valley, energy, epsilon, defined, momentum, initial, within
+  - Given a band model composed of multiple analytic valleys, energy- and momentum-conserving final states are sought in all valleys by solving…
 - **7.6.2.2 Six-Band k · p Band** _(p.189)_ <a id="7-6-2-2-six-band-k-p-band"></a>
-  - Within the six-band k · p structure, a numeric search in k-space along the impulse vector is performed analogously to the analytic solutions described in Section 7.6.2.1.
-  - _Keywords:_ Within, structure, numeric, search, impulse, vector, performed, analogously
+  - Within the six-band k · p structure, a numeric search in k-space along the impulse vector is performed analogously to the analytic solution…
 - **7.6.3 Reflective Boundaries** <a id="7-6-3-reflective-boundaries"></a>
-  - Mesh cell interfaces between semiconductor and insulator materials are treated as a limiting case of the heterojunction boundary discussed in Section 7.6.2. The conduction and valence band differences are modeled as abrupt infinite poten...
-  - _Keywords:_ boundary, impulse, treated, resulting, normal, momentum, velocity, directed
+  - Mesh cell interfaces between semiconductor and insulator materials are treated as a limiting case of the heterojunction boundary discussed…
 - **7.6.3.1 EMA Valley** _(p.190)_ <a id="7-6-3-1-ema-valley"></a>
-  - Within an analytic band model, the valley in which a particle resides is assumed fixed during reflection. An energy- and momentum-conserving final state is sought in the particle valley by solving for an impulse normal to the heterojunct...
-  - _Keywords:_ boldsymbol, valley, analytic, particle, assumed, impulse, normal, epsilon
+  - Within an analytic band model, the valley in which a particle resides is assumed fixed during reflection. An energy- and momentum-conservin…
 - **7.6.3.2 Six-Band k · p Band** _(p.190)_ <a id="7-6-3-2-six-band-k-p-band"></a>
-  - Unlike the analytic valley model, the magnitude of the impulse cannot be obtained directly within the six-band k · p band structure. A search routine is instead used to find the first energy-conserving state along the trajectory in momen...
-  - _Keywords:_ impulse, Unlike, analytic, valley, magnitude, cannot, obtained, directly
+  - Unlike the analytic valley model, the magnitude of the impulse cannot be obtained directly within the six-band k · p band structure. A sear…
 - **7.6.4 Ohmic Contacts** _(p.190)_ <a id="7-6-4-ohmic-contacts"></a>
-  - Ohmic contact boundaries are defined automatically at mesh cell interfaces between semiconductor materials and regions of fixed potential. If a decoupled region is defined, either automatically associated with a contact (see Section 5.5....
-  - _Keywords:_ contact, Ohmic, boundaries, defined, through, automatically, decoupled, region
+  - Ohmic contact boundaries are defined automatically at mesh cell interfaces between semiconductor materials and regions of fixed potential.…
 - **7.6.5 Surface Roughness (Scattering Rate)** _(p.191)_ <a id="7-6-5-surface-roughness-scattering-rate"></a>
-  - Material interfaces can define a nonzero root-mean-square (RMS) amplitude and correlation length depending on the default materials that form the interface. Independent surfaces within the simulation domain that define a rough surface re...
-  - _Keywords:_ surface, interface, interfaces, define, materials, within, result, scattering
+  - Material interfaces can define a nonzero root-mean-square (RMS) amplitude and correlation length depending on the default materials that fo…
 - **Part III** _(p.191)_ <a id="part-iii"></a>
 - **Material Models** _(p.191–192)_ <a id="material-models"></a>
 - **8 Semiconductor Material Models** _(p.192)_ <a id="8-semiconductor-material-models"></a>
-  - This chapter describes the general semiconductor material model as defined and used in Garand. See Section 14.2 for details of default models and model parameter values for specific semiconductors.
-  - _Keywords:_ diffusion, simulations, semiconductor, Monte, Carlo, required, material, describes
+  - This chapter describes the general semiconductor material model as defined and used in Garand. See Section 14.2 for details of default mode…
 - **8.1 Defining the Semiconductor Material Model** <a id="8-1-defining-the-semiconductor-material-model"></a>
-  - This model is not rigid, but is instead a flexible definition that states how the material should be modeled. The definition of the semiconductor material model fundamentally consists of the following separate models:
-  - _Keywords:_ definition, material, simulations, diffusion, Monte, Carlo, dispersion, represented
+  - This model is not rigid, but is instead a flexible definition that states how the material should be modeled. The definition of the semicon…
 - **8.2 Bulk Material Model** _(p.193)_ <a id="8-2-bulk-material-model"></a>
-  - The bulk material model is common to semiconductors in both drift-diffusion and Monte Carlo simulations. This model consists of a set of bulk material parameters that describes the electronic and mechanical properties of a semiconductor ...
-  - _Keywords:_ material, Orientation, Magnitude, lattice, vector, Angle, between, degree
+  - The bulk material model is common to semiconductors in both drift-diffusion and Monte Carlo simulations. This model consists of a set of bu…
 - **8.2.1 Crystal Lattice Parameters** _(p.193)_ <a id="8-2-1-crystal-lattice-parameters"></a>
-  - You define the crystal lattice in terms of the Bravais lattice vectors a,b,c, specified by their magnitudes a, b, c and the angles $\alpha , \beta , \gamma _ { ; }$ , in degrees, that define the orientation of the lattice vectors with re...
-  - _Keywords:_ lattice, define, crystal, simulation, Miller, indices, direction, orientation
+  - You define the crystal lattice in terms of the Bravais lattice vectors a,b,c, specified by their magnitudes a, b, c and the angles $\alpha…
 - **8.2.1.1 Nondefault Crystal Lattice Parameter Values** _(p.194)_ <a id="8-2-1-1-nondefault-crystal-lattice-parameter-values"></a>
-  - Nondefault crystal lattice definitions and orientations can be specified within the input file using the material command (see Section 5.7.1):
-  - _Keywords:_ material, crystal, orientations, unique, variable, substrate, channel, simulation
+  - Nondefault crystal lattice definitions and orientations can be specified within the input file using the material command (see Section 5.7.…
 - **8.2.2 Bulk Electrical and Mechanical Properties** <a id="8-2-2-bulk-electrical-and-mechanical-properties"></a>
   - The following parameters are common scalar material parameters as defined in Table 8.1:
-  - _Keywords:_ scalar, material, defines, permittivity, density, common, defined, static
 - **8.2.2.1 Nondefault Bulk Material Parameter Values** _(p.195)_ <a id="8-2-2-1-nondefault-bulk-material-parameter-values"></a>
   - Nondefault bulk material parameter values can be specified within the input file using the following syntax:
-  - _Keywords:_ material, unique, variable, associated, permittivity, C12, Silicon, Nondefault
 - **8.3 Band Structure Model** _(p.195)_ <a id="8-3-band-structure-model"></a>
-  - Semiconductor materials define both a conduction band model and a valence band model. Each band is modeled separately and consists of two distinct parts: a nominal band edge model and a multivalley dispersion model. These parts determine...
-  - _Keywords:_ valence, multivalley, dispersion, conduction, defines, Monte, Carlo, simulations
+  - Semiconductor materials define both a conduction band model and a valence band model. Each band is modeled separately and consists of two d…
 - **8.3.1 Nominal Band Edge Model** _(p.196)_ <a id="8-3-1-nominal-band-edge-model"></a>
   - Table 8.2 lists the parameters of the nominal band edge model.
-  - _Keywords:_ Defines, component, density, gradient, effective, carriers, associated, nominal
 - **8.3.1.1 Nominal Affinity and Band Gap** _(p.196)_ <a id="8-3-1-1-nominal-affinity-and-band-gap"></a>
-  - The nominal material affinity and band gap, $\chi _ { 0 }$ and $E _ { g 0 ; }$ , are not directly defined, but rather are determined from the nominal conduction and valence band edges, $E _ { C 0 }$ and $E _ { V 0 }$ . This is illustrate...
-  - _Keywords:_ energy, nominal, Valence, affinity, directly, details, summary, Conduction
+  - The nominal material affinity and band gap, $\chi _ { 0 }$ and $E _ { g 0 ; }$ , are not directly defined, but rather are determined from t…
 - **8.3.1.2 Default Band-Edge Parameter Values** <a id="8-3-1-2-default-band-edge-parameter-values"></a>
   - See Section 14.2 for the default material band-edge parameter values for each semiconductor material model.
-  - _Keywords:_ material, semiconductor
 - **8.3.1.3 Nondefault Band-Edge Parameter Values** _(p.197)_ <a id="8-3-1-3-nondefault-band-edge-parameter-values"></a>
   - Nondefault material band-edge parameter values can be specified in the simulation input file using the material command as follows:
-  - _Keywords:_ material, valence, conduction, defines, Silicon, unique, variable, silicon
 - **8.3.2 Analytic Multivalley Dispersion Model** <a id="8-3-2-analytic-multivalley-dispersion-model"></a>
-  - You can model band dispersion using a set of generalized analytic, singly degenerate, ellipsoidal, nonparabolic valleys [38] (see Section 8.6). The nominal band edge defines the reference energy from which each valley minima is defined (...
-  - _Keywords:_ valleys, valley, within, You, dispersion, generalized, analytic, singly
+  - You can model band dispersion using a set of generalized analytic, singly degenerate, ellipsoidal, nonparabolic valleys [38] (see Section 8…
 - **8.3.2.1 Analytic Valley Parameters** _(p.198–199)_ <a id="8-3-2-1-analytic-valley-parameters"></a>
   - Table 8.3 lists the analytic, singly degenerate, ellipsoidal, nonparabolic valley parameters.
-  - _Keywords:_ effective, defines, valley, orientation, minima, transverse, crystal, device
 - **8.3.2.2 Default Analytic Valley Parameters** <a id="8-3-2-2-default-analytic-valley-parameters"></a>
   - See Section 14.2 for the default analytic valley parameter values for each semiconductor material model.
-  - _Keywords:_ analytic, valley, semiconductor, material
 - **8.3.2.3 Nondefault Analytic Valley Parameters** _(p.200)_ <a id="8-3-2-3-nondefault-analytic-valley-parameters"></a>
-  - Position and Orientation You can specify nondefault analytic valley position and orientation values in the simulation input file using the material command with the following syntax:
-  - _Keywords:_ material, conduction, valley, Silicon, unique, nondefault, identifies, minima
+  - Position and Orientation You can specify nondefault analytic valley position and orientation values in the simulation input file using the…
 - **8.3.3 Affinity and Band Gap** _(p.201)_ <a id="8-3-3-affinity-and-band-gap"></a>
-  - The multivalley model (see Section 8.3.2) defines the valley minima energy with respect to the nominal band edge (see Section 8.3). The lowest lying minima associated with the conduction and valence bands define the actual condition and ...
-  - _Keywords:_ valley, minima, nominal, actual, affinity, Band, defines, energy
+  - The multivalley model (see Section 8.3.2) defines the valley minima energy with respect to the nominal band edge (see Section 8.3). The low…
 - **8.3.4 Six-Band k · p Definition** _(p.201)_ <a id="8-3-4-six-band-k-p-definition"></a>
-  - The semiconductor valence band dispersion can be defined by a six-band k · p model (see Section 8.7.1). A sixband k·p model allows for the inclusion of spin-orbit coupling and leads to three numerical valence band solutions throughout th...
-  - _Keywords:_ effective, valence, density, Defines, defined, DOS, Garand, structure
+  - The semiconductor valence band dispersion can be defined by a six-band k · p model (see Section 8.7.1). A sixband k·p model allows for the…
 - **8.3.4.1 Default Six-Band k · p Parameters** _(p.202)_ <a id="8-3-4-1-default-six-band-k-p-parameters"></a>
   - See Section 14.2 for the default k · p parameter values for each semiconductor material model.
-  - _Keywords:_ semiconductor, material
 - **8.3.4.2 Nondefault Six-Band k · p Parameters** _(p.202–203)_ <a id="8-3-4-2-nondefault-six-band-k-p-parameters"></a>
   - You can specify nondefault k · p parameter values in the simulation input file using the material command with the following syntax:
-  - _Keywords:_ material, valence, unique, SSO, Silicon, nondefault, variable, You
 - **8.4 Material Strain** _(p.203)_ <a id="8-4-material-strain"></a>
   - You can apply strain to a material using biaxial or uniaxial statements in the input file (see Section 5.7.7).
-  - _Keywords:_ You, strain, material, biaxial, uniaxial, statements
 - **8.4.1 Biaxial Strain** _(p.203–204)_ <a id="8-4-1-biaxial-strain"></a>
   - You can apply biaxial strain to semiconductor layers using a relaxed substrate material, which has the following effects [47]:
-  - _Keywords:_ varepsilon_, substrate, strain, orientation, relaxed, material, defined, elements
 - **8.4.2 Uniaxial Stress** _(p.205)_ <a id="8-4-2-uniaxial-stress"></a>
-  - To apply uniaxial stress along the direction [hkl], first a coordinate system is chosen where stress of magnitude P (in GPa) is applied to the [001] direction, giving a stress tensor of the form [76]:
-  - _Keywords:_ varepsilon_, sigma_, stress, tensor, direction, uniaxial, coordinate, system
+  - To apply uniaxial stress along the direction [hkl], first a coordinate system is chosen where stress of magnitude P (in GPa) is applied to…
 - **8.4.3 Strain-Induced Energy Shifts** _(p.206)_ <a id="8-4-3-strain-induced-energy-shifts"></a>
   - From linear deformation-potential theory, the strain-induced shifts of the conduction bands can be obtained from the above strain tensors.
-  - _Keywords:_ varepsilon_, Xi_, Delta, strain, conduction, hydrostatic, valence, deformation
 - **8.4.4 Effective Mass** _(p.206)_ <a id="8-4-4-effective-mass"></a>
-  - For holes, the effective masses are modified using the k·p calculation. For electrons, the masses in the X-valleys of the conduction band are modified using a model that has been shown to well match full band-structure calculations.
-  - _Keywords:_ masses, modified, valleys, effective, calculation, electrons, conduction, structure
+  - For holes, the effective masses are modified using the k·p calculation. For electrons, the masses in the X-valleys of the conduction band a…
 - **8.5 Nondefault Material Model Definitions** <a id="8-5-nondefault-material-model-definitions"></a>
-  - The semiconductor material model definition can be amended by specifying not only nondefault model parameter values, but also nondefault model definitions. This is achieved by adding or removing valleys from the material band model (or s...
-  - _Keywords:_ material, nondefault, semiconductor, definition, amended, specifying, definitions, achieved
+  - The semiconductor material model definition can be amended by specifying not only nondefault model parameter values, but also nondefault mo…
 - **8.5.1 Removing a Valley Model** _(p.207)_ <a id="8-5-1-removing-a-valley-model"></a>
   - You can remove defined valleys that are currently included in a band model using the material command with the following syntax:
-  - _Keywords:_ material, You, remove, defined, valleys, currently, included, syntax
 - **8.5.2 Adding a Valley Model** _(p.207)_ <a id="8-5-2-adding-a-valley-model"></a>
-  - You can add defined valleys that are currently not included in a band model, as a result of being removed, using the material command with the following syntax:
-  - _Keywords:_ defined, material, You, valleys, currently, included, result, removed
+  - You can add defined valleys that are currently not included in a band model, as a result of being removed, using the material command with…
 - **8.6 Analytic Valley Model** <a id="8-6-analytic-valley-model"></a>
-  - Analytic valleys are the basic building block of the analytic conduction and valence band models. The analytic valley model is described by a generalized degenerate, ellipsoidal nonparabolic model [38].
-  - _Keywords:_ analytic, Analytic, valleys, building, conduction, valence, models, valley
+  - Analytic valleys are the basic building block of the analytic conduction and valence band models. The analytic valley model is described by…
 - **8.6.1 General Properties** <a id="8-6-1-general-properties"></a>
 - **8.6.1.1 Nonparabolic Dispersion Relation** <a id="8-6-1-1-nonparabolic-dispersion-relation"></a>
-  - For a given valley, a state with wavevector $\boldsymbol { k } \ : = \ : ( k _ { x } , k _ { y } , k _ { z } )$ relative to the wavevector of the valley minima $\pmb { k } _ { 0 } = ( k _ { 0 x } , k _ { 0 y } , k _ { 0 z } )$ has energy...
-  - _Keywords:_ valley, effective, longitudinal, boldsymbol, defined, masses, wavevector, minima
+  - For a given valley, a state with wavevector $\boldsymbol { k } \ : = \ : ( k _ { x } , k _ { y } , k _ { z } )$ relative to the wavevector…
 - **8.6.1.2 Position and Orientation** _(p.208)_ <a id="8-6-1-2-position-and-orientation"></a>
-  - The position of the valley minima $\pmb { k } _ { 0 } = ( k _ { 0 x } , k _ { 0 y } , k _ { 0 z } )$ ) is specified relative to the Brillouin zone center as fractions of the reciprocal lattice vectors, such that $( 0 , 0 , 0 )$ is the zo...
-  - _Keywords:_ orientation, position, valley, relative, center, reciprocal, lattice, vectors
+  - The position of the valley minima $\pmb { k } _ { 0 } = ( k _ { 0 x } , k _ { 0 y } , k _ { 0 z } )$ ) is specified relative to the Brillou…
 - **8.6.1.3 Energy Minima** _(p.208)_ <a id="8-6-1-3-energy-minima"></a>
   - Each valley defines the energy of the valley minima as the difference in energy between the minima and the nominal band edge:
-  - _Keywords:_ energy, minima, valley, Delta, difference, epsilon, boldsymbol, defines
 - **8.6.1.4 Density-of-States** _(p.209)_ <a id="8-6-1-4-density-of-states"></a>
-  - The band model directly determines the density-of-states. For a general degenerate ellipsoidal nonparabolic valley, defined by Eq. 8.20, the density-of-states with energy ϵ, relative to the valley minima, is given by:
-  - _Keywords:_ density, states, valley, epsilon, degenerate, defined, energy, minima
+  - The band model directly determines the density-of-states. For a general degenerate ellipsoidal nonparabolic valley, defined by Eq. 8.20, th…
 - **8.6.1.5 Effective Density-of-States** _(p.209)_ <a id="8-6-1-5-effective-density-of-states"></a>
-  - Integration over states in energy is a common requirement. To evaluate such integrals analytically for nonparabolic valleys, with density-of-states given by Eq. 8.23, a first-order Taylor series expansion is applied to the energy terms, ...
-  - _Keywords:_ epsilon, states, energy, valleys, density, approximation, Delta, expression
+  - Integration over states in energy is a common requirement. To evaluate such integrals analytically for nonparabolic valleys, with density-o…
 - **8.6.2 Analytic Conduction Band** <a id="8-6-2-analytic-conduction-band"></a>
 - **8.6.2.1 Conduction Band Edge** <a id="8-6-2-1-conduction-band-edge"></a>
-  - Given a conduction band defined as a collection of N analytic valleys, the conduction band edge $E _ { C }$ is simply defined as the lowest lying energy minima:
-  - _Keywords:_ conduction, defined, lowest, energy, equivalent, Given, collection, analytic
+  - Given a conduction band defined as a collection of N analytic valleys, the conduction band edge $E _ { C }$ is simply defined as the lowest…
 - **8.6.2.2 Conduction Band Effective Density-of-States** _(p.210)_ <a id="8-6-2-2-conduction-band-effective-density-of-states"></a>
-  - The conduction band effective density-of-states $N _ { C }$ for a band modeled as a collection of analytic valleys is given directly from Eq. 8.28 as:
-  - _Keywords:_ conduction, effective, density, states, modeled, collection, analytic, valleys
+  - The conduction band effective density-of-states $N _ { C }$ for a band modeled as a collection of analytic valleys is given directly from E…
 - **8.6.3 Valence Band** <a id="8-6-3-valence-band"></a>
-  - You can model the valence band using either an analytic EMA multivalley model or a six-band k·p band structure. Consistency between the density-of-states from the EMA valley and the k · p band structure is achieved through defining effec...
-  - _Keywords:_ EMA, structure, valley, either, masses, determined, You, valence
+  - You can model the valence band using either an analytic EMA multivalley model or a six-band k·p band structure. Consistency between the den…
 - **8.6.4 Analytic Valence Band** <a id="8-6-4-analytic-valence-band"></a>
-  - The analytic multivalley model of the valence band follows identically that of the conduction band model and is required to efficiently define the density-of-states within the valence band for drift-diffusion simulations. Figure 8.1 illu...
-  - _Keywords:_ valence, analytic, density, states, within, diffusion, simulations, multivalley
+  - The analytic multivalley model of the valence band follows identically that of the conduction band model and is required to efficiently def…
 - **8.6.4.1 Valence Band Edge** <a id="8-6-4-1-valence-band-edge"></a>
-  - Given a valence band defined as a collection of N analytic valleys, the valence band edge $E _ { V }$ is simply defined as the lowest lying energy minima:
-  - _Keywords:_ valence, defined, lowest, energy, equivalent, Given, collection, analytic
+  - Given a valence band defined as a collection of N analytic valleys, the valence band edge $E _ { V }$ is simply defined as the lowest lying…
 - **8.6.4.2 Valence Band Effective Density-of-States** _(p.211)_ <a id="8-6-4-2-valence-band-effective-density-of-states"></a>
-  - The valence band effective density-of-states $N _ { V }$ for a band modeled as a collection of analytic valleys is given directly from Eq. 8.28 as:
-  - _Keywords:_ boldsymbol, density, states, structure, defpot, Deformation, potential, effective
+  - The valence band effective density-of-states $N _ { V }$ for a band modeled as a collection of analytic valleys is given directly from Eq.…
 - **8.7 Six-Band k · p Band Structure** _(p.211)_ <a id="8-7-six-band-k-p-band-structure"></a>
-  - A six-band k · p band-structure model allows for the inclusion of spin-orbit coupling and leads to three numerical valence band solutions throughout the Brillouin zone, referred to as the heavy hole (HH) band, light hole (LH) band, and s...
-  - _Keywords:_ analytic, multivalley, valence, SSO, structure, effective, density, states
+  - A six-band k · p band-structure model allows for the inclusion of spin-orbit coupling and leads to three numerical valence band solutions t…
 - **8.7.1 k · p Model** _(p.212)_ <a id="8-7-1-k-p-model"></a>
-  - Several parameters define the six-band k·p band structure (see Table 8.4). These parameters specify the interaction Hamiltonians for the band-structure model.
-  - _Keywords:_ structure, boldsymbol, Hamiltonian, defined, unstrained, stored, Several, define
+  - Several parameters define the six-band k·p band structure (see Table 8.4). These parameters specify the interaction Hamiltonians for the ba…
 - **8.7.2 Strain** _(p.213)_ <a id="8-7-2-strain"></a>
-  - Strain can be applied within the k ·p band structure by considering the contribution of the strain Hamiltonian $H ^ { s t r }$ such that the complete interaction Hamiltonian can be stated as:
-  - _Keywords:_ varepsilon_, strain, contribution, Hamiltonian, stated, boldsymbol, additional, Strain
+  - Strain can be applied within the k ·p band structure by considering the contribution of the strain Hamiltonian $H ^ { s t r }$ such that th…
 - **8.7.3 Effective Valence Band Density-of-States** _(p.213)_ <a id="8-7-3-effective-valence-band-density-of-states"></a>
-  - You can define the effective valence band density-of-states $N _ { V }$ analogously to the effective conduction band density-of-states, where summation is performed over all valleys within the valence band model and the reference energy ...
-  - _Keywords:_ valence, effective, density, states, Delta, energy, partial, You
+  - You can define the effective valence band density-of-states $N _ { V }$ analogously to the effective conduction band density-of-states, whe…
 - **8.7.4 Band Gap** _(p.214)_ <a id="8-7-4-band-gap"></a>
-  - Given the conduction and valence band model, the band gap $E _ { g }$ is defined as the difference in energy between the conduction and valence band edges, as illustrated in Figure 8.1:
-  - _Keywords:_ conduction, valence, application, Given, defined, difference, energy, between
+  - Given the conduction and valence band model, the band gap $E _ { g }$ is defined as the difference in energy between the conduction and val…
 - **8.7.5 Electron Affinity** _(p.214)_ <a id="8-7-5-electron-affinity"></a>
-  - The electron affinity is determined from the actual conduction band edge $E _ { c } .$ This is in general different from the nominal electron affinity $\chi _ { 0 }$ , which defines the nominal conduction band edge $E _ { g 0 }$ as appli...
-  - _Keywords:_ conduction, electron, affinity, nominal, application, determined, actual, general
+  - The electron affinity is determined from the actual conduction band edge $E _ { c } .$ This is in general different from the nominal electr…
 - **8.7.6 Intrinsic Carrier Concentration** _(p.214)_ <a id="8-7-6-intrinsic-carrier-concentration"></a>
-  - From the calculation of the effective conduction and valence band density-of-states $N _ { C }$ and $N _ { V }$ , and given the band gap, the intrinsic carrier concentration $n _ { i }$ is defined as:
-  - _Keywords:_ electron, calculation, effective, conduction, valence, density, states, intrinsic
+  - From the calculation of the effective conduction and valence band density-of-states $N _ { C }$ and $N _ { V }$ , and given the band gap, t…
 - **8.8 Selecting the Transport Model** _(p.215–216)_ <a id="8-8-selecting-the-transport-model"></a>
-  - By default, the effective density-of-states is defined in both drift-diffusion and Monte Carlo simulations using the analytic multivalley model using masses stored in the Garand material database. To calculate the density-of-states for t...
-  - _Keywords:_ transport, valence, effective, material, material_name, states, masses, density
+  - By default, the effective density-of-states is defined in both drift-diffusion and Monte Carlo simulations using the analytic multivalley m…
 - **9 Insulator Material Models** _(p.216)_ <a id="9-insulator-material-models"></a>
   - This chapter describes the general insulator material models that Garand uses.
-  - _Keywords:_ describes, general, insulator, material, models, Garand
 - **9.1 Default Insulators** _(p.216)_ <a id="9-1-default-insulators"></a>
-  - Garand provides default models for the common insulator materials listed in Table 9.1. An insulator material model defines a set of parameters, with each default insulator material having its own set of default parameter values.
-  - _Keywords:_ insulator, Silicon, materials, material, Insulator, SiO_, Garand, provides
+  - Garand provides default models for the common insulator materials listed in Table 9.1. An insulator material model defines a set of paramet…
 - **9.2 Defining the Insulator Material Model** <a id="9-2-defining-the-insulator-material-model"></a>
   - The semiconductor material model definition consists fundamentally of the following separate models:
-  - _Keywords:_ material, defines, semiconductor, definition, consists, fundamentally, separate, models
 - **9.3 Bulk Material Model** <a id="9-3-bulk-material-model"></a>
-  - The bulk material model comprises a list of bulk material parameters that together describes the electronic properties of the insulator (see Table 9.2).
-  - _Keywords:_ material, comprises, together, describes, electronic, properties, insulator, Variable
+  - The bulk material model comprises a list of bulk material parameters that together describes the electronic properties of the insulator (se…
 - **9.3.1 Default Bulk Material Parameter Values** _(p.217)_ <a id="9-3-1-default-bulk-material-parameter-values"></a>
   - See Section 14.2 for the default bulk material parameter values for each insulator material model.
-  - _Keywords:_ material, insulator
 - **9.3.2 Nondefault Bulk Material Parameter Values** _(p.217)_ <a id="9-3-2-nondefault-bulk-material-parameter-values"></a>
   - You can specify nondefault bulk material parameter values in the simulation input file using the material command with the following syntax:
-  - _Keywords:_ material, nondefault, unique, associated, permittivity, Oxide, You, specify
 - **9.4 Band Structure Model** <a id="9-4-band-structure-model"></a>
 - **9.4.1 Nominal Band-Edge Model** <a id="9-4-1-nominal-band-edge-model"></a>
-  - Table 9.3 lists the nominal conduction and valance band-edge parameters. Both the band edge (through the bandedge discontinuity with semiconductors) and the density-gradient effective masses affect the density-gradient boundary condition...
-  - _Keywords:_ density, gradient, effective, component, carriers, associated, nominal, conduction
+  - Table 9.3 lists the nominal conduction and valance band-edge parameters. Both the band edge (through the bandedge discontinuity with semico…
 - **9.4.1.1 Default Band-Edge Parameter Values** <a id="9-4-1-1-default-band-edge-parameter-values"></a>
   - See Section 14.2 for the default material band-edge parameter values for each semiconductor material model.
-  - _Keywords:_ material, semiconductor
 - **9.4.1.2 Nondefault Band-Edge Parameter Values** _(p.218)_ <a id="9-4-1-2-nondefault-band-edge-parameter-values"></a>
-  - You can specify nondefault material band-edge parameter values in the simulation input file using the material command with the following syntax:
-  - _Keywords:_ material, conduction, valence, Oxide, nondefault, unique, associated, defines
+  - You can specify nondefault material band-edge parameter values in the simulation input file using the material command with the following s…
 - **9.4.2 Nominal Valley Model** <a id="9-4-2-nominal-valley-model"></a>
   - The nominal valley defines the effective masses for insulator materials that are used in Schrödinger solutions.
-  - _Keywords:_ nominal, valley, defines, effective, masses, insulator, materials, solutions
 - **9.4.2.1 Nominal Valley Parameters** <a id="9-4-2-1-nominal-valley-parameters"></a>
-  - Table 9.4 lists the nominal valley parameters. The mqx, mqy, and mqz parameters are set automatically based on the crystal orientation, but you can change them as required.
-  - _Keywords:_ effective, aligning, Cartesian, Confinement, device, nominal, valley, Transverse
+  - Table 9.4 lists the nominal valley parameters. The mqx, mqy, and mqz parameters are set automatically based on the crystal orientation, but…
 - **9.4.2.2 Default Analytic Valley Parameters** _(p.219)_ <a id="9-4-2-2-default-analytic-valley-parameters"></a>
   - See Section 14.2 for the default analytic valley parameter values for each semiconductor material model.
-  - _Keywords:_ analytic, valley, semiconductor, material
 - **9.4.2.3 Nondefault Analytic Valley Parameters** _(p.219–220)_ <a id="9-4-2-3-nondefault-analytic-valley-parameters"></a>
-  - You can specify nondefault analytic valley parameter values in the simulation input file using the material command with the following syntax:
-  - _Keywords:_ material, valley, conduction, unique, Oxide, nondefault, identifies, variable
+  - You can specify nondefault analytic valley parameter values in the simulation input file using the material command with the following synt…
 - **10 Mobility Models** _(p.220)_ <a id="10-mobility-models"></a>
-  - This chapter describes the mobility models that define carrier transport in drift-diffusion simulations. The discussion of the models and their applications apply equally to carrier transport in conduction and valence bands, although def...
-  - _Keywords:_ mobility, models, carrier, transport, describes, define, diffusion, simulations
+  - This chapter describes the mobility models that define carrier transport in drift-diffusion simulations. The discussion of the models and t…
 - **10.1 Material Mobility Models** _(p.220)_ <a id="10-1-material-mobility-models"></a>
-  - Each band within a semiconductor material model defines a mobility model. The mobility model is defined by the combination of three models, each of which defines mobility with respect of one of following transport regimes:
-  - _Keywords:_ mobility, models, dependent, defines, regimes, Perpendicular, Lateral, argument
+  - Each band within a semiconductor material model defines a mobility model. The mobility model is defined by the combination of three models,…
 - **10.1.1 Default Mobility Models** _(p.221)_ <a id="10-1-1-default-mobility-models"></a>
   - See Section 14.2 for the default mobility models for each semiconductor material model.
-  - _Keywords:_ mobility, models, semiconductor, material
 - **10.1.2 Nondefault Mobility Models** _(p.221)_ <a id="10-1-2-nondefault-mobility-models"></a>
   - You can specify nondefault material models in the simulation input file using the material command with the following syntax:
-  - _Keywords:_ material, mobility, conduction, silicon, nondefault, Masetti, Caughey, dependence
 - **10.2 Low-Field Mobility Models** <a id="10-2-low-field-mobility-models"></a>
-  - Low-field mobility defines the base mobility that is subsequently modified by the perpendicular field–dependent mobility model. The following models are available:
-  - _Keywords:_ dependent, mobility, concentration, Low, defines, subsequently, modified, perpendicular
+  - Low-field mobility defines the base mobility that is subsequently modified by the perpendicular field–dependent mobility model. The followi…
 - **10.2.1 Constant Mobility Model** _(p.222)_ <a id="10-2-1-constant-mobility-model"></a>
   - Constant mobility defines an isotropic low-field mobility value $\mu _ { c }$ that is applied globally throughout the simulation domain:
-  - _Keywords:_ mobility, Constant, constant, defines, isotropic, applied, globally, throughout
 - **10.2.1.1 Default Parameter Values** _(p.222)_ <a id="10-2-1-1-default-parameter-values"></a>
   - See Chapter 14 for the default parameter values.
 - **10.2.1.2 Nondefault Parameter values** _(p.222)_ <a id="10-2-1-2-nondefault-parameter-values"></a>
   - You can specify nondefault parameter values for the constant mobility model in the simulation input file using the following syntax:
-  - _Keywords:_ constant, material, silicon, mobility, You, specify, nondefault, simulation
 - **10.2.2 Arora Mobility Model** <a id="10-2-2-arora-mobility-model"></a>
-  - Similar to the Masetti model, the Arora concentration-dependent mobility model [3] defines a local mobility, dependent on the local total doping density $N _ { t o t } ,$ by an analytic fit to electron and hole mobilities in doped silico...
-  - _Keywords:_ mobility, Arora, dependent, doping, Similar, Masetti, concentration, defines
+  - Similar to the Masetti model, the Arora concentration-dependent mobility model [3] defines a local mobility, dependent on the local total d…
 - **10.2.2.1 Default Parameter Values** _(p.223)_ <a id="10-2-2-1-default-parameter-values"></a>
   - See Chapter 14 for the default parameter values.
-  - _Keywords:_ Fitting, mobility, Constant, Garand, Guide, Description, Units, Reference
 - **10.2.2.2 Nondefault Parameter Values** _(p.223)_ <a id="10-2-2-2-nondefault-parameter-values"></a>
   - You can change the default parameter values using the following syntax in the Garand input file:
-  - _Keywords:_ material, Silicon, conduction, You, change, syntax, Garand, material_name
 - **10.2.3 Masetti Mobility Model** _(p.224)_ <a id="10-2-3-masetti-mobility-model"></a>
-  - The Masetti concentration-dependent mobility model [54] defines electron and hole mobility using an analytic function that fits empirical electron mobilities in bulk arsenic-doped and phosphorus-doped silicon and hole mobilities in bulk ...
-  - _Keywords:_ mobility, concentration, electron, Masetti, mobilities, Reference, Fitting, dependent
+  - The Masetti concentration-dependent mobility model [54] defines electron and hole mobility using an analytic function that fits empirical e…
 - **10.2.3.1 Default Parameter Values** <a id="10-2-3-1-default-parameter-values"></a>
   - See Chapter 14 for the default parameter values.
 - **10.2.3.2 Nondefault Parameter Values** _(p.225)_ <a id="10-2-3-2-nondefault-parameter-values"></a>
   - You can change the default parameter values using the following syntax in the Garand input file:
-  - _Keywords:_ material, masetti, silicon, conduction, You, change, syntax, Garand
 - **10.2.4 Philips Unified Mobility Model** _(p.225–227)_ <a id="10-2-4-philips-unified-mobility-model"></a>
-  - The Philips unified mobility model [44] defines the low-field carrier mobility using an analytic function that takes into account the following:
-  - _Keywords:_ concentration, Reference, mobility, carrier, scattering, screening, ultrahigh, doping
+  - The Philips unified mobility model [44] defines the low-field carrier mobility using an analytic function that takes into account the follo…
 - **10.2.4.1 Default Parameter Values** _(p.227)_ <a id="10-2-4-1-default-parameter-values"></a>
   - See Chapter 14 for the default parameter values.
 - **10.2.4.2 Nondefault Parameter values** _(p.227)_ <a id="10-2-4-2-nondefault-parameter-values"></a>
   - You can change the default parameter values using the following syntax in the Garand input file:
-  - _Keywords:_ material, philips, silicon, conduction, You, change, syntax, Garand
 - **10.2.5 Low-Field Mobility Modifiers** <a id="10-2-5-low-field-mobility-modifiers"></a>
-  - Garand provides the strainx and rsx modifiers to scale the low-field mobility by a fixed value in different regions of the device. These can be particularly useful as calibration parameters.
-  - _Keywords:_ Garand, provides, strainx, modifiers, mobility, different, regions, device
+  - Garand provides the strainx and rsx modifiers to scale the low-field mobility by a fixed value in different regions of the device. These ca…
 - **10.2.5.1 The strainx Modifier** _(p.228)_ <a id="10-2-5-1-the-strainx-modifier"></a>
-  - This modifier is a scaling factor that multiplies the low-field mobility in the channel region of the MOSFET being simulated. It is intended to be used as a simple mechanism to approximate the effects of strain on the channel mobility. T...
-  - _Keywords:_ strainx, mobility, _doping, _limit, channel, doping, region, device
+  - This modifier is a scaling factor that multiplies the low-field mobility in the channel region of the MOSFET being simulated. It is intende…
 - **10.2.5.2 The rsx Modifier** _(p.228)_ <a id="10-2-5-2-the-rsx-modifier"></a>
-  - This modifier is a scaling factor that multiplies the low-field mobility in the source/drain regions of the MOSFET being simulated. It is intended to be used as a simple mechanism to adjust the access resistance of source/drain regions.
-  - _Keywords:_ mobility, source, regions, doping, material, concentrations, effect, silicon
+  - This modifier is a scaling factor that multiplies the low-field mobility in the source/drain regions of the MOSFET being simulated. It is i…
 - **10.3 Perpendicular Field–Dependent Mobility Models** <a id="10-3-perpendicular-field-dependent-mobility-models"></a>
-  - Applying a perpendicular field–dependent mobility model modifies the low-field mobility to reflect surface scattering effects from semiconductor–insulator interfaces. The resulting perpendicular field–dependent mobility µ , in turn, is m...
-  - _Keywords:_ mobility, dependent, perpendicular, Applying, modifies, reflect, surface, scattering
+  - Applying a perpendicular field–dependent mobility model modifies the low-field mobility to reflect surface scattering effects from semicond…
 - **10.3.1 Calculation of the Perpendicular Electric Field** _(p.229)_ <a id="10-3-1-calculation-of-the-perpendicular-electric-field"></a>
-  - The electric field used for the perpendicular field–dependent mobility models is based on the gradient of the electrostatic potential. The directional component of this field that is considered to be “perpendicular” can be selected from ...
-  - _Keywords:_ perpendicular, Normal, string, normal, electric, dependent, mobility, models
+  - The electric field used for the perpendicular field–dependent mobility models is based on the gradient of the electrostatic potential. The…
 - **10.3.2 No Model** _(p.229)_ <a id="10-3-2-no-model"></a>
-  - Selecting none means that no perpendicular dependence of the electric field is accounted for and the low-field mobility remains unmodified, such that:
-  - _Keywords:_ Selecting, perpendicular, dependence, electric, accounted, mobility, remains, unmodified
+  - Selecting none means that no perpendicular dependence of the electric field is accounted for and the low-field mobility remains unmodified,…
 - **10.3.3 Yamaguchi Mobility Model** <a id="10-3-3-yamaguchi-mobility-model"></a>
-  - The Yamaguchi mobility model [88] is an empirical model that fits the degradation of the inversion layer mobility as an increasing function of the confinement field, perpendicular to the motion of carriers. It is expressed as:
-  - _Keywords:_ mobility, Yamaguchi, empirical, carriers, fitting, degradation, inversion, increasing
+  - The Yamaguchi mobility model [88] is an empirical model that fits the degradation of the inversion layer mobility as an increasing function…
 - **10.3.3.1 Default Parameter Values** _(p.230)_ <a id="10-3-3-1-default-parameter-values"></a>
   - See Chapter 14 for the default parameter values.
 - **10.3.3.2 Nondefault Parameter Values** _(p.230)_ <a id="10-3-3-2-nondefault-parameter-values"></a>
   - You can change the default parameter values using the following syntax in the Garand input file:
-  - _Keywords:_ silicon, material, yamaguchi, defines, electrons, conduction, You, change
 - **10.3.4 Lombardi Mobility Model** _(p.231)_ <a id="10-3-4-lombardi-mobility-model"></a>
-  - The Lombardi mobility model [49] is a semiempirical model that combines bulk low-field mobility with temperature-dependent surface acoustic phonon-limited mobility and a surface roughness-limited mobility that takes into account the conf...
-  - _Keywords:_ Fitting, mobility, surface, Lombardi, limited, acoustic, roughness, lambda
+  - The Lombardi mobility model [49] is a semiempirical model that combines bulk low-field mobility with temperature-dependent surface acoustic…
 - **10.3.4.1 Default Parameter Values** _(p.231)_ <a id="10-3-4-1-default-parameter-values"></a>
   - See Chapter 14 for the default parameter values.
 - **10.3.4.2 Nondefault Parameter values** _(p.231)_ <a id="10-3-4-2-nondefault-parameter-values"></a>
   - You can change the default parameter values using the following syntax in the Garand input file:
-  - _Keywords:_ material, lombardi, silicon, You, change, syntax, Garand, material_name
 - **10.3.5 Thin-Layer Mobility Model** _(p.232–233)_ <a id="10-3-5-thin-layer-mobility-model"></a>
-  - The thin-layer mobility model [62] can be considered an extension of the Lombardi mobility model. It is usually applied to devices featuring a silicon body that is a few nanometers thick. Because of the quantum effects of the inversion c...
-  - _Keywords:_ mobility, thickness, silicon, scattering, ladder, phonon, limited, unprimed
+  - The thin-layer mobility model [62] can be considered an extension of the Lombardi mobility model. It is usually applied to devices featurin…
 - **10.3.5.1 Default Parameter Values** <a id="10-3-5-1-default-parameter-values"></a>
   - See Chapter 14 for the default parameter values.
 - **10.3.5.2 Nondefault Parameter Values** <a id="10-3-5-2-nondefault-parameter-values"></a>
   - You can change the default parameter values using the following syntax in the Garand input file:
-  - _Keywords:_ Fitting, material, thin_layer, silicon, ladder, You, change, syntax
 - **10.4 Lateral Field-Dependent Mobility Models** _(p.234)_ <a id="10-4-lateral-field-dependent-mobility-models"></a>
-  - Applying a lateral field-dependent mobility model modifies the mobility to reflect high-field velocity saturation effects. The resulting mobility µ is then the finalized mobility applied throughout the simulation domain. The following mo...
-  - _Keywords:_ mobility, Applying, lateral, dependent, modifies, reflect, velocity, saturation
+  - Applying a lateral field-dependent mobility model modifies the mobility to reflect high-field velocity saturation effects. The resulting mo…
 - **10.4.1 Calculation of the Lateral Electric Field** _(p.235)_ <a id="10-4-1-calculation-of-the-lateral-electric-field"></a>
-  - The electric field used for the lateral field-dependent mobility models is based on the gradient of the quasi-Fermi level. This gives a more stable solution and provides a smoother electric field than using the gradient of the electrosta...
-  - _Keywords:_ electric, gradient, electrostatic, potential, dependent, mobility, models, discrete
+  - The electric field used for the lateral field-dependent mobility models is based on the gradient of the quasi-Fermi level. This gives a mor…
 - **10.4.2 No Model** _(p.235)_ <a id="10-4-2-no-model"></a>
-  - Selecting none means that no lateral dependence of the electric field is accounted for, and the perpendicular field mobility remains unmodified, such that:
-  - _Keywords:_ Selecting, lateral, dependence, electric, accounted, perpendicular, mobility, remains
+  - Selecting none means that no lateral dependence of the electric field is accounted for, and the perpendicular field mobility remains unmodi…
 - **10.4.3 Caughey-Thomas Mobility Model** <a id="10-4-3-caughey-thomas-mobility-model"></a>
   - The Caughey-Thomas mobility model [11] is an empirical fit to velocity-field characteristics and is given by:
-  - _Keywords:_ mobility, velocity, parallel, dependent, temperature, Caughey, Thomas, saturation
 - **10.4.3.1 Default Parameter Values** _(p.236)_ <a id="10-4-3-1-default-parameter-values"></a>
   - See Chapter 14 for the default parameter values.
-  - _Keywords:_ Fitting, Description, Units, Saturation, velocity, beta_0, Vcm, Caughey
 - **10.4.3.2 Nondefault Parameter Values** _(p.236)_ <a id="10-4-3-2-nondefault-parameter-values"></a>
   - You can change the default parameter values using the following syntax in the Garand input file:
-  - _Keywords:_ material, caughey, silicon, You, change, syntax, Garand, material_name
 - **10.5 Ballistic Mobility Models** <a id="10-5-ballistic-mobility-models"></a>
-  - An effective ballistic mobility can be introduced to mimic ballistic effects as the channel length is scaled. The following models are available:
-  - _Keywords:_ ballistic, effective, mobility, introduced, effects, channel, length, scaled
+  - An effective ballistic mobility can be introduced to mimic ballistic effects as the channel length is scaled. The following models are avai…
 - **10.5.1 No Model** <a id="10-5-1-no-model"></a>
   - Selecting none means that no ballistic model is accounted for, and the final mobility remains unmodified, such that:
-  - _Keywords:_ Selecting, ballistic, accounted, mobility, remains, unmodified
 - **10.5.2 Shur Mobility Model** _(p.237)_ <a id="10-5-2-shur-mobility-model"></a>
   - The Shur mobility model [74] is an approach to model the effective ballistic mobility and is given by:
-  - _Keywords:_ mobility, Shur, velocity, effective, length, thermal, approach, ballistic
 - **10.5.2.1 Default Parameter Values** <a id="10-5-2-1-default-parameter-values"></a>
   - See Chapter 14 for the default parameter values.
 - **10.5.2.2 Nondefault Parameter Values** <a id="10-5-2-2-nondefault-parameter-values"></a>
   - You can change the default parameter values using the following syntax in the Garand input file:
-  - _Keywords:_ material, silicon, You, change, syntax, Garand, material_name, band_name
 - **10.6 Strain-Dependent Mobility Models** _(p.238)_ <a id="10-6-strain-dependent-mobility-models"></a>
-  - Applying a strain-dependent mobility model acts to capture the impact of stress-induced band-structure modifications on the low-field carrier mobility. The following models are available:
-  - _Keywords:_ strain, mobility, Applying, dependent, capture, impact, stress, induced
+  - Applying a strain-dependent mobility model acts to capture the impact of stress-induced band-structure modifications on the low-field carri…
 - **10.6.1 No Model** _(p.238)_ <a id="10-6-1-no-model"></a>
   - Selecting none means that no stress effect on mobility is accounted for, and the final mobility remains unmodified, such that:
-  - _Keywords:_ mobility, Selecting, stress, effect, accounted, remains, unmodified
 - **10.6.2 Simple Strain Enhancement Mobility Model** _(p.239)_ <a id="10-6-2-simple-strain-enhancement-mobility-model"></a>
-  - The simple strain enhancement (SSE) mobility model provides a simple analytic expression that enhances or reduces the low-field mobility based on the value of the strain at the mesh node. This is an anisotropic model, so the strain compo...
-  - _Keywords:_ mobility, strain, factor, enhancement, epsilon, velocity, simple, SSE
+  - The simple strain enhancement (SSE) mobility model provides a simple analytic expression that enhances or reduces the low-field mobility ba…
 - **10.6.2.1 Default Parameter Values** _(p.239)_ <a id="10-6-2-1-default-parameter-values"></a>
   - Table 10.11 lists the default parameter values.
-  - _Keywords:_ enhancement, strain, factor, electrons, images, details, summary, These
 - **10.6.2.2 Nondefault Parameter Values** _(p.240)_ <a id="10-6-2-2-nondefault-parameter-values"></a>
   - You can change the default parameter values using the following syntax in the Garand input file:
-  - _Keywords:_ You, change, syntax, Garand, material, material_name, band_name
 - **10.6.3 Multivalley Mobility Model** _(p.240)_ <a id="10-6-3-multivalley-mobility-model"></a>
-  - This model captures the impact of both mass modification and valley splitting resulting from the application of stress. Following [58], mean-free time between collisions is assumed to be constant (applied to both electrons and holes in t...
-  - _Keywords:_ mobility, valley, direction, calculated, Conductivity, relaxed, stressed, impact
+  - This model captures the impact of both mass modification and valley splitting resulting from the application of stress. Following [58], mea…
 - **10.6.3.1 Default Parameter Values** <a id="10-6-3-1-default-parameter-values"></a>
   - Default parameters are derived internally.
-  - _Keywords:_ derived, internally
 - **10.6.3.2 Nondefault Parameter Values** _(p.241)_ <a id="10-6-3-2-nondefault-parameter-values"></a>
   - You can change the default parameter values using the following syntax in the Garand input file:
-  - _Keywords:_ material, silicon, You, change, syntax, Garand, material_name, band_name
 - **11 Scattering Mechanisms** _(p.241)_ <a id="11-scattering-mechanisms"></a>
-  - This chapter describes the scattering rate models used to define carrier transport in Monte Carlo simulations. These models and their application apply equally to carrier transport in conduction and valence bands, although default model ...
-  - _Keywords:_ models, carrier, transport, describes, scattering, define, Monte, Carlo
+  - This chapter describes the scattering rate models used to define carrier transport in Monte Carlo simulations. These models and their appli…
 - **11.1 Scattering Rate Tabulation** _(p.241)_ <a id="11-1-scattering-rate-tabulation"></a>
-  - Scattering rates are tabulated for carriers in each minima associated with each band in each semiconductor material. Tabulation stores scattering rates as a function of carrier energy up to a maximum energy $E _ { m a x }$ within the ban...
-  - _Keywords:_ energy, resolution, scattering, Scattering, tabulated, carriers, minima, associated
+  - Scattering rates are tabulated for carriers in each minima associated with each band in each semiconductor material. Tabulation stores scat…
 - **11.1.1 Default Scattering Rate Tabulation** <a id="11-1-1-default-scattering-rate-tabulation"></a>
   - See Section 14.2 for scattering rates for each semiconductor material model.
-  - _Keywords:_ scattering, semiconductor, material
 - **11.1.2 Nondefault Scattering Rate Tabulation** <a id="11-1-2-nondefault-scattering-rate-tabulation"></a>
-  - You can specify nondefault energy range of scattering rate tabulation in the input file using the material command with the following syntax:
-  - _Keywords:_ material, conduction, silicon, nondefault, energy, scattering, unique, valley
+  - You can specify nondefault energy range of scattering rate tabulation in the input file using the material command with the following synta…
 - **11.2 Elastic Acoustic Phonon Scattering** _(p.242)_ <a id="11-2-elastic-acoustic-phonon-scattering"></a>
   - Elastic carrier scattering from acoustic phonons within the equipartition approximation defines the parameters listed in Table 11.2.
-  - _Keywords:_ scattering, acoustic, valley, Elastic, carrier, phonons, within, equipartition
 - **11.2.1 Default Elastic Acoustic Phonon Parameters** <a id="11-2-1-default-elastic-acoustic-phonon-parameters"></a>
   - See Section 14.2 for deformation potentials and sound velocities for elastic acoustic phonon mechanisms.
-  - _Keywords:_ deformation, potentials, velocities, elastic, acoustic, phonon, mechanisms
 - **11.2.2 Nondefault Elastic Acoustic Phonon Parameters** <a id="11-2-2-nondefault-elastic-acoustic-phonon-parameters"></a>
   - You can specify nondefault scattering mechanism parameter values in the input file c with the following syntax:
-  - _Keywords:_ material, conduction, mechanism, unique, within, InGaAs, nondefault, associated
 - **11.3 Inelastic Acoustic Phonon Scattering** <a id="11-3-inelastic-acoustic-phonon-scattering"></a>
   - Inelastic carrier scattering from acoustic phonons defines the parameters listed in Table 11.3.
-  - _Keywords:_ scattering, acoustic, dispersion, phonon, Inelastic, carrier, phonons, defines
 - **11.3.1 Default Inelastic Acoustic Phonon Parameters** _(p.243)_ <a id="11-3-1-default-inelastic-acoustic-phonon-parameters"></a>
   - See Section 14.2 for the deformation potentials, sound velocities, and quadratic fitting for inelastic acoustic phonon mechanisms.
-  - _Keywords:_ deformation, potentials, velocities, quadratic, fitting, inelastic, acoustic, phonon
 - **11.3.2 Nondefault Inelastic Acoustic Phonon Parameters** _(p.243)_ <a id="11-3-2-nondefault-inelastic-acoustic-phonon-parameters"></a>
   - You can specify nondefault parameter values in the input file using the material command with the following syntax:
-  - _Keywords:_ material, conduction, silicon, unique, within, Acl, nondefault, associated
 - **11.4 Optical Phonon Scattering** <a id="11-4-optical-phonon-scattering"></a>
   - Inelastic carrier scattering from dispersionless optical phonon defines the parameters in Table 11.4.
-  - _Keywords:_ phonon, scattering, optical, Inelastic, carrier, dispersionless, defines, Description
 - **11.4.1 Default Optical Phonon Parameters** _(p.244)_ <a id="11-4-1-default-optical-phonon-parameters"></a>
   - See Section 14.2 for phonon energies and coupling constant for optical phonon mechanisms.
-  - _Keywords:_ phonon, energies, coupling, constant, optical, mechanisms
 - **11.4.2 Nondefault Optical Phonon Parameters** _(p.244)_ <a id="11-4-2-nondefault-optical-phonon-parameters"></a>
   - You can specify nondefault parameter values in the input file using the material command with the following syntax:
-  - _Keywords:_ material, conduction, valley, within, g1X2, silicon, unique, optical
 - **11.5 Polar-Optical Phonon Scattering** <a id="11-5-polar-optical-phonon-scattering"></a>
   - Inelastic carrier scattering from dispersionless polar-optical phonon defines the parameters in Table 11.5.
-  - _Keywords:_ scattering, optical, phonon, valley, Inelastic, carrier, dispersionless, defines
 - **11.5.1 Default Polar Optical Phonon Parameters** _(p.245)_ <a id="11-5-1-default-polar-optical-phonon-parameters"></a>
   - See Section 14.2 for phonon energies for polar optical phonon mechanisms.
-  - _Keywords:_ phonon, energies, optical, mechanisms
 - **11.5.2 Nondefault Optical Phonon Parameters** _(p.245)_ <a id="11-5-2-nondefault-optical-phonon-parameters"></a>
   - You can specify nondefault parameter values in the input file using the material command with the following syntax:
-  - _Keywords:_ material, conduction, valley, within, unique, optical, phonon, nondefault
 - **11.6 Ionized Impurity Scattering** <a id="11-6-ionized-impurity-scattering"></a>
   - Elastic carrier scattering from ionized impurities defines the parameters in Table 11.6.
-  - _Keywords:_ scattering, ionized, impurity, Screening, correction, allows, Elastic, carrier
 - **11.6.1 Default Ionized Impurity Parameters** _(p.246)_ <a id="11-6-1-default-ionized-impurity-parameters"></a>
   - See Section 14.2 for the default ionized impurity model for different semiconductors.
-  - _Keywords:_ ionized, impurity, different, semiconductors
 - **11.6.2 Nondefault Ionized Impurity Parameters** _(p.246–247)_ <a id="11-6-2-nondefault-ionized-impurity-parameters"></a>
   - You can specify nondefault parameter values in the input file using the material command with the following syntax:
-  - _Keywords:_ material, conduction, silicon, unique, within, nondefault, associated, valley
 - **11.7 Surface Roughness Scattering** <a id="11-7-surface-roughness-scattering"></a>
   - Elastic carrier scattering from rough interfaces defines the parameters in Table 11.7.
-  - _Keywords:_ scattering, surface, roughness, Elastic, carrier, interfaces, defines, Description
 - **11.7.1 Default Surface Roughness Parameters** <a id="11-7-1-default-surface-roughness-parameters"></a>
   - See Section 14.2 for the default surface roughness model for different semiconductors.
-  - _Keywords:_ surface, roughness, different, semiconductors
 - **11.7.2 Nondefault Surface Roughness Parameters** _(p.248)_ <a id="11-7-2-nondefault-surface-roughness-parameters"></a>
   - You can specify nondefault parameter values in the input file using the material command with the following syntax:
-  - _Keywords:_ material, silicon, unique, conduction, within, nondefault, associated, valence
 - **11.8 Alloy Scattering** <a id="11-8-alloy-scattering"></a>
   - Elastic carrier scattering from alloy potential differences defines the parameters in Table 11.8.
-  - _Keywords:_ scattering, potential, Elastic, carrier, differences, defines, Description, Units
 - **11.8.1 Default Alloy Scattering Parameters** <a id="11-8-1-default-alloy-scattering-parameters"></a>
   - See Section 14.2 for the default surface roughness model for different semiconductors.
-  - _Keywords:_ surface, roughness, different, semiconductors
 - **11.8.2 Nondefault Alloy Scattering Parameters** _(p.249)_ <a id="11-8-2-nondefault-alloy-scattering-parameters"></a>
   - You can specify nondefault parameter values in the input file using the material command with the following syntax:
-  - _Keywords:_ material, unique, conduction, within, nondefault, associated, valley, scattering
 - **12 Scattering Models** _(p.249)_ <a id="12-scattering-models"></a>
   - This chapter describes the carrier scattering models implemented in Garand MC.
-  - _Keywords:_ models, scattering, general, analytic, describes, carrier, implemented, Garand
 - **12.1 General Scattering Model** <a id="12-1-general-scattering-model"></a>
 - **12.1.1 Transition Rate: Fermi’s Golden Rule** <a id="12-1-1-transition-rate-fermi-s-golden-rule"></a>
-  - All scattering is treated following first-order perturbation theory as governed by Fermi’s golden rule, which states the transition rate $S \left( k , k ^ { \prime } \right)$ , defining the probability per unit time of scattering from an...
-  - _Keywords:_ boldsymbol, epsilon, momentum, states, scattering, initial, crystal, Delta
+  - All scattering is treated following first-order perturbation theory as governed by Fermi’s golden rule, which states the transition rate $S…
 - **12.1.1.1 Matrix Element** _(p.250)_ <a id="12-1-1-1-matrix-element"></a>
   - When applied to carriers in an infinite periodic lattice, the matrix element can be defined as [50]:
-  - _Keywords:_ boldsymbol, defined, periodic, applied, carriers, infinite, lattice, matrix
 - **12.1.2 Scattering Rate** _(p.250)_ <a id="12-1-2-scattering-rate"></a>
-  - Given the transition rate (Eq. 12.1), the total scattering rate associated with an initial state k is defined as the sum over all final states $\pmb { k } ^ { \prime }$ as:
-  - _Keywords:_ boldsymbol, states, scattering, assuming, Given, transition, associated, initial
+  - Given the transition rate (Eq. 12.1), the total scattering rate associated with an initial state k is defined as the sum over all final sta…
 - **12.1.2.1 Analytic Valley Model** <a id="12-1-2-1-analytic-valley-model"></a>
-  - The semiconductor conduction band model is defined as a multivalley approximation [38], where each valley is modeled as an ellipsoidal nonparabolic equienergy surface in k-space (see Section Analytic Valley Model). For the purpose of all...
-  - _Keywords:_ epsilon, scattering, approximation, ellipsoidal, equienergy, spherical, overlap, integral
+  - The semiconductor conduction band model is defined as a multivalley approximation [38], where each valley is modeled as an ellipsoidal nonp…
 - **12.1.2.2 Full Band** _(p.251)_ <a id="12-1-2-2-full-band"></a>
-  - As described in a previous section, the valence band is described using a 6 × 6 k · p model. This gives a full band structure that allows effects of alternative channel and substrate orientations to be properly included.
-  - _Keywords:_ boldsymbol, integral, described, valence, scattering, partial, overlap, transitions
+  - As described in a previous section, the valence band is described using a 6 × 6 k · p model. This gives a full band structure that allows e…
 - **12.1.3 Energy-Momentum Conservation** <a id="12-1-3-energy-momentum-conservation"></a>
 - **12.1.3.1 Analytic Valley Model** <a id="12-1-3-1-analytic-valley-model"></a>
   - Given a spherical nonparabolic valley model with the following dispersion relation:
-  - _Keywords:_ boldsymbol, epsilon, conserving, valley, energy, momentum, Given, spherical
 - **12.1.3.2 Full Band** _(p.252)_ <a id="12-1-3-2-full-band"></a>
-  - For the full band case, the situation is complicated by the use of an effective mass that is dependent on both energy and the initial and final bands. Therefore, the energy- and momentum-conserving delta function is treated using a numer...
-  - _Keywords:_ energy, situation, complicated, effective, dependent, initial, Therefore, momentum
+  - For the full band case, the situation is complicated by the use of an effective mass that is dependent on both energy and the initial and f…
 - **12.2 Phonon Scattering Models** _(p.252)_ <a id="12-2-phonon-scattering-models"></a>
   - For phonon scattering, the transition rate is taken to be described by the following general expression [38]:
-  - _Keywords:_ boldsymbol, phonon, scattering, general, epsilon, states, occupation, transition
 - **12.2.1 Elastic Acoustic Phonon Scattering Model** _(p.253)_ <a id="12-2-1-elastic-acoustic-phonon-scattering-model"></a>
-  - This model treats acoustic phonon scattering within the elastic approximation and considering a single phonon branch. Since no energy is transferred, the energy- and momentum-conserving delta function (Eq. 12.12) reduces to:
-  - _Keywords:_ boldsymbol, phonon, approximated, acoustic, energy, epsilon, treats, scattering
+  - This model treats acoustic phonon scattering within the elastic approximation and considering a single phonon branch. Since no energy is tr…
 - **12.2.1.1 Scattering Rate** _(p.253)_ <a id="12-2-1-1-scattering-rate"></a>
-  - Given the above approximations and combining equivalent absorption and emission processes, the transition rate is defined that leads to the following scattering rate:
-  - _Keywords:_ Given, approximations, combining, equivalent, absorption, emission, processes, transition
+  - Given the above approximations and combining equivalent absorption and emission processes, the transition rate is defined that leads to the…
 - **12.2.1.2 Analytic Band** <a id="12-2-1-2-analytic-band"></a>
   - From Eq. 12.18, the scattering rate is determined as:
-  - _Keywords:_ epsilon, Gamma, valley, alpha_, scattering, determined, evaluated, analytically
 - **12.2.1.3 Full Band** <a id="12-2-1-3-full-band"></a>
   - Elastic acoustic phonon scattering is not defined for the full band case.
-  - _Keywords:_ Elastic, acoustic, phonon, scattering, defined
 - **12.2.2 Inelastic Acoustic Phonon Scattering Model** _(p.254)_ <a id="12-2-2-inelastic-acoustic-phonon-scattering-model"></a>
-  - Inelastic acoustic phonon scattering is treated assuming a single acoustic phonon branch. Like the elastic acoustic phonon scattering model, phonon coupling is approximated by an isotropic deformation potential as [38]:
-  - _Keywords:_ boldsymbol, phonon, acoustic, scattering, single, branch, isotropic, Inelastic
+  - Inelastic acoustic phonon scattering is treated assuming a single acoustic phonon branch. Like the elastic acoustic phonon scattering model…
 - **12.2.2.1 Scattering Rate** _(p.254)_ <a id="12-2-2-1-scattering-rate"></a>
   - The scattering rate for inelastic acoustic phonon scattering is approximated as:
-  - _Keywords:_ boldsymbol, scattering, epsilon, inelastic, acoustic, phonon, approximated, Gamma
 - **12.2.2.2 Analytic Band** <a id="12-2-2-2-analytic-band"></a>
-  - The inelastic acoustic phonon scattering rate is determined from Eq. 12.23, having transformed integration over the final state $k ^ { \prime }$ to integration over the phonon wavevector q in polar coordinates as in Eq. 12.6, as:
-  - _Keywords:_ phonon, integration, wavevector, boldsymbol, numerically, limits, inelastic, acoustic
+  - The inelastic acoustic phonon scattering rate is determined from Eq. 12.23, having transformed integration over the final state $k ^ { \pri…
 - **12.2.2.3 Full Band** _(p.255)_ <a id="12-2-2-3-full-band"></a>
   - The approach for the full-band version follows that of the analytic band, but with the following exceptions:
-  - _Keywords:_ boldsymbol, epsilon, partial, energy, approach, version, follows, analytic
 - **12.2.3 Optical Phonon Scattering Model** _(p.255)_ <a id="12-2-3-optical-phonon-scattering-model"></a>
   - Optical phonon coupling is approximated by an isotropic deformation potential, independent of phonon wavevector, as [38]:
-  - _Keywords:_ phonon, constant, optical, boldsymbol, deformation, potential, dispersion, approximated
 - **12.2.3.1 Scattering Rate** <a id="12-2-3-1-scattering-rate"></a>
   - The scattering rate for optical phonon scattering is approximated as:
-  - _Keywords:_ boldsymbol, scattering, omega_, epsilon, optical, phonon, approximated, Gamma
 - **12.2.3.2 Analytic Band** _(p.256)_ <a id="12-2-3-2-analytic-band"></a>
   - The intervalley optical phonon scattering rate is determined analytically from Eq. 12.29, yielding the final rate:
-  - _Keywords:_ epsilon, optical, phonon, alpha_, intervalley, scattering, determined, analytically
 - **12.2.3.3 Full Band** _(p.256)_ <a id="12-2-3-3-full-band"></a>
-  - For the full band model, the optical phonon scattering rate can be found without numeric integration. Again, the main differences to the analytic band model are the energy-dependent effective mass and overlap integral.
-  - _Keywords:_ epsilon, energy, optical, phonon, scattering, overlap, integral, Gamma
+  - For the full band model, the optical phonon scattering rate can be found without numeric integration. Again, the main differences to the an…
 - **12.2.4 Piezoelectric Phonon Scattering Model** _(p.257)_ <a id="12-2-4-piezoelectric-phonon-scattering-model"></a>
-  - This model treats piezoelectric phonon scattering within the elastic and equipartition approximation and considers a single acoustic phonon branch, following the elastic acoustic phonon model (see Eq. 12.2.1). Because no energy is transf...
-  - _Keywords:_ boldsymbol, partial, phonon, acoustic, approximated, scattering, elastic, equipartition
+  - This model treats piezoelectric phonon scattering within the elastic and equipartition approximation and considers a single acoustic phonon…
 - **12.2.4.1 Scattering Rate** <a id="12-2-4-1-scattering-rate"></a>
-  - Given the above approximations and combining equivalent absorption and emission processes, the transition rate is defined, which leads to the following scattering rate:
-  - _Keywords:_ Given, approximations, combining, equivalent, absorption, emission, processes, transition
+  - Given the above approximations and combining equivalent absorption and emission processes, the transition rate is defined, which leads to t…
 - **12.2.4.2 Analytic Band** _(p.258)_ <a id="12-2-4-2-analytic-band"></a>
   - Eq. 12.19 is evaluated analytically, resulting in the final rate for intravalley transition as [38]:
-  - _Keywords:_ epsilon, evaluated, analytically, resulting, intravalley, transition, Gamma, density
 - **12.2.4.3 Full Band** _(p.258)_ <a id="12-2-4-3-full-band"></a>
   - This model is not currently defined for hole transport.
-  - _Keywords:_ currently, defined, transport
 - **12.2.5 Polar-Optical Phonon Scattering Model** _(p.258)_ <a id="12-2-5-polar-optical-phonon-scattering-model"></a>
-  - The phonon dispersion is approximated as a constant since the range of phonon wavevectors involved in intervalley transition is small and the actual optical phonon dispersion does not vary rapidly.
-  - _Keywords:_ epsilon, phonon, boldsymbol, optical, dispersion, approximated, omega_, kappa_
+  - The phonon dispersion is approximated as a constant since the range of phonon wavevectors involved in intervalley transition is small and t…
 - **12.2.5.1 Scattering Rate** <a id="12-2-5-1-scattering-rate"></a>
-  - Given the above approximations and combining equivalent absorption and emission processes, the transition rate is defined, which leads to the following scattering rate:
-  - _Keywords:_ boldsymbol, omega_, kappa_, epsilon, Given, approximations, combining, equivalent
+  - Given the above approximations and combining equivalent absorption and emission processes, the transition rate is defined, which leads to t…
 - **12.2.5.2 Analytic Band** _(p.259)_ <a id="12-2-5-2-analytic-band"></a>
   - The total scattering rate is evaluated analytically as [38]:
-  - _Keywords:_ epsilon, omega_, kappa_, scattering, evaluated, analytically, Gamma
 - **12.2.5.3 Full Band** <a id="12-2-5-3-full-band"></a>
   - This model is not currently defined for hole transport.
-  - _Keywords:_ currently, defined, transport
 - **12.3 Ionized Impurity Scattering Models** <a id="12-3-ionized-impurity-scattering-models"></a>
 - **12.3.1 Brooks-Herring Model** _(p.260)_ <a id="12-3-1-brooks-herring-model"></a>
   - The scattering potential for this model of ionized impurity scattering is given by the screened Coulomb potential [12]:
-  - _Keywords:_ partial, scattering, potential, determined, electron, carrier, concentration, Fermi
 - **12.3.1.1 Dynamic Screening** <a id="12-3-1-1-dynamic-screening"></a>
-  - As an alternative to the dynamic static screening model described above, a model for dynamic screening of ionized impurities by mobile carriers is available that uses the Lindhard dielectric function.
-  - _Keywords:_ screening, dynamic, Lindhard, dielectric, overlap, integral, alternative, static
+  - As an alternative to the dynamic static screening model described above, a model for dynamic screening of ionized impurities by mobile carr…
 - **12.3.1.2 Scattering Rate** _(p.261)_ <a id="12-3-1-2-scattering-rate"></a>
   - Given the above, the scattering rate is given by:
-  - _Keywords:_ boldsymbol, epsilon, Given, scattering, Gamma, delta_, Garand, Guide
 - **12.3.1.3 Analytic Band** _(p.261)_ <a id="12-3-1-3-analytic-band"></a>
   - Eq. 12.57 is solved analytically for the spherical nonparabolic valley model, obtaining:
-  - _Keywords:_ epsilon, tabulated, initial, solved, analytically, spherical, nonparabolic, valley
 - **12.3.1.4 Full Band** <a id="12-3-1-4-full-band"></a>
-  - Due to the inclusion of the non-unity overlap integral and in order to preserve generality among the valence bands, a numerical integration is used for the scattering rate:
-  - _Keywords:_ boldsymbol, Due, inclusion, overlap, integral, preserve, generality, valence
+  - Due to the inclusion of the non-unity overlap integral and in order to preserve generality among the valence bands, a numerical integration…
 - **12.3.2 Ridley’s Third-Body Exclusion Model** <a id="12-3-2-ridley-s-third-body-exclusion-model"></a>
-  - Ridley’s model of ionized impurity scattering [67] follows that of the Brooks-Herring model. It differs in that, while for the Brooks-Herring model the interaction between a carrier and ion is considered in isolation and defined for arbi...
-  - _Keywords:_ impurity, Ridley, Brooks, Herring, interaction, ionized, scattering, follows
+  - Ridley’s model of ionized impurity scattering [67] follows that of the Brooks-Herring model. It differs in that, while for the Brooks-Herri…
 - **12.3.2.1 Scattering Rate** _(p.262)_ <a id="12-3-2-1-scattering-rate"></a>
-  - The scattering rate is defined in terms of the Brooks-Herring rate $\Gamma _ { B H } ( k )$ , previously described, and the average inter-ion separation a as [19]:
-  - _Keywords:_ epsilon, Gamma, nabla_, scattering, defined, Brooks, Herring, previously
+  - The scattering rate is defined in terms of the Brooks-Herring rate $\Gamma _ { B H } ( k )$ , previously described, and the average inter-i…
 - **12.3.2.2 Analytic Band** _(p.262)_ <a id="12-3-2-2-analytic-band"></a>
   - Given the analytic valley model (see Section 12.1.2.1), the energy and carrier velocity is given as :
-  - _Keywords:_ scattering, epsilon, Brooks, Herring, carrier, impurity, Gamma, tabulated
 - **12.3.2.3 Full Band** <a id="12-3-2-3-full-band"></a>
-  - The same approach is used for the full-band case, with the energy-dependent effective mass used to calculate $\nabla _ { k } \epsilon ( k )$ .
-  - _Keywords:_ approach, energy, dependent, effective, calculate, epsilon
+  - The same approach is used for the full-band case, with the energy-dependent effective mass used to calculate $\nabla _ { k } \epsilon ( k )…
 - **12.4 Alloy Scattering Model** _(p.263)_ <a id="12-4-alloy-scattering-model"></a>
-  - Alloy scattering is based on a model originally developed by Mott [56] that assumes a model based on a “squarewell” potential, $\Delta U ,$ , given as:
-  - _Keywords:_ Delta, scattering, potential, lattice, Alloy, originally, developed, Mott
+  - Alloy scattering is based on a model originally developed by Mott [56] that assumes a model based on a “squarewell” potential, $\Delta U ,$…
 - **12.4.1 Analytic Band** _(p.263)_ <a id="12-4-1-analytic-band"></a>
   - Eq. 12.66 is solved analytically for the nonparabolic valley model, obtaining [48]:
-  - _Keywords:_ disorder, signifies, difference, solved, analytically, nonparabolic, valley, obtaining
 - **12.4.2 Full Band** <a id="12-4-2-full-band"></a>
-  - Again, the main differences to the analytic band model are the energy-dependent effective mass and overlap integral. The scattering rate is then given as:
-  - _Keywords:_ boldsymbol, Again, differences, analytic, energy, dependent, effective, overlap
+  - Again, the main differences to the analytic band model are the energy-dependent effective mass and overlap integral. The scattering rate is…
 - **12.5 Surface Roughness Scattering Model** _(p.264)_ <a id="12-5-surface-roughness-scattering-model"></a>
   - The squared modulus of the matrix element for surface roughness scattering is given as [24]:
-  - _Keywords:_ surface, scattering, Delta, boldsymbol, parallel, autocorrelation, momentum, transfer
 - **12.5.1 Scattering Rate** _(p.264)_ <a id="12-5-1-scattering-rate"></a>
   - The scattering rate can be determined from the matrix element and autocorrelation function as:
-  - _Keywords:_ varepsilon, boldsymbol, integration, states, energy, conserving, perpendicular, momentum
 - **12.5.2 Analytic Band** _(p.265)_ <a id="12-5-2-analytic-band"></a>
   - The overlap integral I(k, k′) is here taken to be unity and the scattering rate defined as:
-  - _Keywords:_ scattering, defined, maximum, interface, surface, rejection, normal, Delta_
 - **12.5.3 Full Band** _(p.265)_ <a id="12-5-3-full-band"></a>
   - For the full-band approach, the 2D density-of-states mass m∗ is used and is defined similar to the 3D version given in Eq. 12.8:
-  - _Keywords:_ partial, boldsymbol, defined, scattering, Gamma, Delta_, approach, density
 - **12.6 Remote Coulomb Scattering Model** _(p.266)_ <a id="12-6-remote-coulomb-scattering-model"></a>
-  - This model is based on a general treatment of Coulomb scattering provided by D. Esseni, and it assumes a metal/high-k/oxide gate stack as shown in Figure 12.1. The model is consistent with a multi-subband approach to transport, consideri...
-  - _Keywords:_ transport, general, treatment, Coulomb, scattering, provided, Esseni, assumes
+  - This model is based on a general treatment of Coulomb scattering provided by D. Esseni, and it assumes a metal/high-k/oxide gate stack as s…
 - **12.6.1 Perturbation Potential** _(p.266)_ <a id="12-6-1-perturbation-potential"></a>
-  - The perturbation potential is provided by Esseni as the potential solution associated with a single charge located at $z _ { 0 }$ within the gate stack (see Figure 12.1). The potential is given as the Fourier transform of the real-space ...
-  - _Keywords:_ potential, epsilon_, within, defined, solution, perturbation, provided, Esseni
+  - The perturbation potential is provided by Esseni as the potential solution associated with a single charge located at $z _ { 0 }$ within th…
 - **12.6.2 Matrix Element** <a id="12-6-2-matrix-element"></a>
-  - Esseni’s model considers a general distribution of trapped charges throughout the gate dielectrics. To simplify the model for computational efficiency, this model considers only trapped charges at material interfaces.
-  - _Keywords:_ considers, trapped, charges, material, interfaces, scattering, matrix, separate
+  - Esseni’s model considers a general distribution of trapped charges throughout the gate dielectrics. To simplify the model for computational…
 - **12.6.3 Scattering Rate** _(p.267)_ <a id="12-6-3-scattering-rate"></a>
-  - Scattering is considered within the plane parallel to the material interface. The scattering rate is defined as the integral of the transition rate over final states as:
-  - _Keywords:_ parallel, Scattering, considered, within, material, interface, scattering, defined
+  - Scattering is considered within the plane parallel to the material interface. The scattering rate is defined as the integral of the transit…
 - **12.6.4 Analytic Bands** _(p.267)_ <a id="12-6-4-analytic-bands"></a>
   - For spherical nonparabolic bands, the scattering rate can be written as:
-  - _Keywords:_ parallel, spherical, nonparabolic, scattering, written, Gamma
 - **12.7 Pauli Exclusion Principle** _(p.268)_ <a id="12-7-pauli-exclusion-principle"></a>
-  - The Pauli exclusion principle is included using a formulation developed by Ungersboeck [83] that is based on a reformulation of the degenerate scattering operator given as:
-  - _Keywords:_ boldsymbol, scattering, modified, lambda, principle, Pauli, exclusion, operator
+  - The Pauli exclusion principle is included using a formulation developed by Ungersboeck [83] that is based on a reformulation of the degener…
 - **13 Binary Alloy Semiconductor Material Models** _(p.269)_ <a id="13-binary-alloy-semiconductor-material-models"></a>
-  - This chapter describes the binary alloy semiconductor material models as defined and used in Garand. A binary alloy semiconductor is interpolated from two constituent semiconductor materials, and the parameters defined closely follow tha...
-  - _Keywords:_ semiconductor, mathrm, binary, material, boldsymbol, mathbf, describes, models
+  - This chapter describes the binary alloy semiconductor material models as defined and used in Garand. A binary alloy semiconductor is interp…
 - **13.1 Binary Material Parameters** _(p.270)_ <a id="13-1-binary-material-parameters"></a>
-  - The binary material definition extends the existing semiconductor material definition (see Section 8.2). For the binary material, the two constituent materials must be named along with the chosen binary alloy fraction x.
-  - _Keywords:_ material, linear, binary, Binary, constituent, defined, Elastic, stiffness
+  - The binary material definition extends the existing semiconductor material definition (see Section 8.2). For the binary material, the two c…
 - **13.2 Binary Crystal Parameters** _(p.270)_ <a id="13-2-binary-crystal-parameters"></a>
-  - The binary crystal definition extends the existing semiconductor material definition (see Section 8.2.1). To modify the binary crystal parameters listed in Table 13.2, the following syntax applies:
-  - _Keywords:_ material, crystal, langle, Orientation, direction, specific, Magnitude, lattice
+  - The binary crystal definition extends the existing semiconductor material definition (see Section 8.2.1). To modify the binary crystal para…
 - **13.3 Binary Band Parameters** _(p.271)_ <a id="13-3-binary-band-parameters"></a>
-  - The binary band definition extends the existing semiconductor material band definition (see Section 8.3). To modify the binary band parameters listed in Table 13.3 for the analytic band, and Table 13.4 for k · p valence bands, the follow...
-  - _Keywords:_ linear, Density, gradient, semiconductor, material, structure, defpot, Deformation
+  - The binary band definition extends the existing semiconductor material band definition (see Section 8.3). To modify the binary band paramet…
 - **13.4 Binary Valley Parameters** _(p.271–273)_ <a id="13-4-binary-valley-parameters"></a>
-  - The binary valley definition extends the existing semiconductor material valley definition (see Section 8.3.2). To modify the binary valley parameters listed in Table 13.5, the following syntax applies:
-  - _Keywords:_ linear, effective, orientation, valley, Transverse, material, Confinement, crystal
+  - The binary valley definition extends the existing semiconductor material valley definition (see Section 8.3.2). To modify the binary valley…
 - **13.5 Binary Scattering Parameters** _(p.273)_ <a id="13-5-binary-scattering-parameters"></a>
-  - The binary scattering mechanism definition extends the existing semiconductor material scattering mechanism definitions (see Chapter 11). To modify the binary scattering mechanism parameters listed in the following tables, the following ...
-  - _Keywords:_ scattering, mechanism, binary, material, definition, extends, existing, semiconductor
+  - The binary scattering mechanism definition extends the existing semiconductor material scattering mechanism definitions (see Chapter 11). T…
 - **13.5.1 Elastic Acoustic Phonon Scattering** <a id="13-5-1-elastic-acoustic-phonon-scattering"></a>
-  - <table><tr><td>Parameter</td><td>Parameter Name</td><td>Description</td><td>Units</td><td>Default Interpolation</td></tr><tr><td colspan="4">Interpolated Properties</td><td></td></tr><tr><td>D</td><td>D</td><td>Deformation potential</td>...
-  - _Keywords:_ linear, Description, Units, Interpolation, colspan, Interpolated, Properties, Deformation
+  - <table><tr><td>Parameter</td><td>Parameter Name</td><td>Description</td><td>Units</td><td>Default Interpolation</td></tr><tr><td colspan="4…
 - **13.5.2 Inelastic Acoustic Phonon Scattering** <a id="13-5-2-inelastic-acoustic-phonon-scattering"></a>
-  - <table><tr><td>Parameter</td><td>Parameter Name</td><td>Description</td><td>Units</td><td>Default Interpolation</td></tr><tr><td colspan="4">Interpolated Properties</td><td></td></tr><tr><td>D</td><td>D</td><td>Deformation potential</td>...
-  - _Keywords:_ linear, Dispersion, Description, Units, Interpolation, colspan, Interpolated, Properties
+  - <table><tr><td>Parameter</td><td>Parameter Name</td><td>Description</td><td>Units</td><td>Default Interpolation</td></tr><tr><td colspan="4…
 - **13.5.3 Optical Phonon Scattering** _(p.274)_ <a id="13-5-3-optical-phonon-scattering"></a>
-  - <table><tr><td>Parameter</td><td>Parameter Name</td><td>Description</td><td>Units</td><td>Default Interpolation</td></tr><tr><td colspan="4">Interpolated Properties</td><td></td></tr><tr><td> $E_{op}$ </td><td>E</td><td>Deformation poten...
-  - _Keywords:_ linear, Description, Units, Interpolation, colspan, Interpolated, Properties, Deformation
+  - <table><tr><td>Parameter</td><td>Parameter Name</td><td>Description</td><td>Units</td><td>Default Interpolation</td></tr><tr><td colspan="4…
 - **13.5.4 Polar-Optical Phonon Scattering** _(p.274)_ <a id="13-5-4-polar-optical-phonon-scattering"></a>
-  - <table><tr><td>Parameter</td><td>Parameter Name</td><td>Description</td><td>Units</td><td>Default Interpolation</td></tr><tr><td colspan="4">Interpolated Properties</td><td></td></tr><tr><td> $E_{op}$ </td><td>E</td><td>Phonon energy</td...
-  - _Keywords:_ Description, Units, Interpolation, colspan, Interpolated, Properties, Phonon, energy
+  - <table><tr><td>Parameter</td><td>Parameter Name</td><td>Description</td><td>Units</td><td>Default Interpolation</td></tr><tr><td colspan="4…
 - **13.5.5 Ionized Impurity Scattering** <a id="13-5-5-ionized-impurity-scattering"></a>
   - No parameters interpolated or otherwise can be modified for ionized impurity scattering in binary alloy semiconductors.
-  - _Keywords:_ interpolated, otherwise, modified, ionized, impurity, scattering, binary, semiconductors
 - **13.5.6 Alloy Scattering** <a id="13-5-6-alloy-scattering"></a>
-  - <table><tr><td>Parameter</td><td>Parameter Name</td><td>Description</td><td>Units</td><td>Default Value</td></tr><tr><td colspan="4">Fixed Properties</td><td></td></tr><tr><td>U</td><td>U</td><td>Alloy potential</td><td>eV</td><td>0.0</t...
-  - _Keywords:_ Alloy, potential, Description, Units, colspan, Fixed, Properties, scattering
+  - <table><tr><td>Parameter</td><td>Parameter Name</td><td>Description</td><td>Units</td><td>Default Value</td></tr><tr><td colspan="4">Fixed…
 - **13.5.7 Surface Roughness Scattering** <a id="13-5-7-surface-roughness-scattering"></a>
   - No parameters interpolated or otherwise can be modified for surface roughness scattering in binary alloy semiconductors.
-  - _Keywords:_ interpolated, otherwise, modified, surface, roughness, scattering, binary, semiconductors
 - **13.6 Interpolation Methods** <a id="13-6-interpolation-methods"></a>
   - This section describes the interpolation methods used in binary material definitions.
-  - _Keywords:_ mathrm, material, boldsymbol, underline, becomes, mathbf, describes, interpolation
 - **13.6.1 Bounded Interpolation** _(p.275)_ <a id="13-6-1-bounded-interpolation"></a>
   - Note: Bounded interpolation applies only to silicon germanium.
-  - _Keywords:_ interpolation, fraction, applies, bounds, material, bounded, specified, xMoleFraction
 - **13.6.2 Constant Interpolation** _(p.276)_ <a id="13-6-2-constant-interpolation"></a>
-  - This interpolation method is a special case where no interpolation of parameters is applied and no keyword is required as long as the value is an integer or a real number. Optionally, you can specify the constant keyword. A fixed (consta...
-  - _Keywords:_ constant, In50Ga50As, interpolation, keyword, material, conduction, parameter_name, method
+  - This interpolation method is a special case where no interpolation of parameters is applied and no keyword is required as long as the value…
 - **13.6.3 Linear Interpolation** _(p.276)_ <a id="13-6-3-linear-interpolation"></a>
-  - This interpolation is the default case where a simple linear interpolation of the parameter endpoints is applied. You can either use the parameters from the two constituent pure materials or supply your own endpoints.
-  - _Keywords:_ linear, endpoints, material, interpolation, In50Ga50As, conduction, constituent, syntax
+  - This interpolation is the default case where a simple linear interpolation of the parameter endpoints is applied. You can either use the pa…
 - **13.6.4 Linear II Interpolation** _(p.277)_ <a id="13-6-4-linear-ii-interpolation"></a>
   - This interpolation is a rearrangement of linear interpolation. In this case, the two endpoints must be supplied.
-  - _Keywords:_ linearII, In50Ga50As, interpolation, material, conduction, rearrangement, linear, endpoints
 - **13.6.5 Piecewise Interpolation** _(p.277)_ <a id="13-6-5-piecewise-interpolation"></a>
   - This interpolation can be defined using the following syntax:
-  - _Keywords:_ triangle, piecewise, xMoleFraction, material, SiliconGermanium, valence, dSSO, interpolation
 - **13.6.6 Fixed Linear Interpolation** _(p.278)_ <a id="13-6-6-fixed-linear-interpolation"></a>
-  - This interpolation method is a special case where a fixed interpolation point (the alloy fraction) for the linear interpolation is used. The following use cases apply to this interpolation method:
-  - _Keywords:_ material, In50Ga50As, interpolation, conduction, endpoints, linear, Use, InAs
+  - This interpolation method is a special case where a fixed interpolation point (the alloy fraction) for the linear interpolation is used. Th…
 - **13.6.7 Quadratic I Interpolation** _(p.279)_ <a id="13-6-7-quadratic-i-interpolation"></a>
-  - This interpolation method uses a quadratic formula that includes a bowing parameter. The following use cases apply to this interpolation method:
-  - _Keywords:_ interpolation, bowing, endpoints, quadraticI, valley, valence, SSO, In50Ga50As
+  - This interpolation method uses a quadratic formula that includes a bowing parameter. The following use cases apply to this interpolation me…
 - **13.6.8 Quadratic II Interpolation** _(p.279)_ <a id="13-6-8-quadratic-ii-interpolation"></a>
-  - This interpolation method uses a quadratic formula for interpolation that is essentially a rearrangement of the quadratic I formula. The following use cases apply to this interpolation method:
-  - _Keywords:_ interpolation, quadratic, bowing, endpoints, quadraticII, valley, valence, SSO
+  - This interpolation method uses a quadratic formula for interpolation that is essentially a rearrangement of the quadratic I formula. The fo…
 - **13.6.9 Quadratic III Interpolation** _(p.280)_ <a id="13-6-9-quadratic-iii-interpolation"></a>
-  - This interpolation method is a quadratic formula for interpolation that is essentially a rearrangement of the quadratic I formula. In this case, the two endpoints and the bowing parameter must be supplied.
-  - _Keywords:_ interpolation, method, quadratic, formula, bowing, quadraticIII, valley, valence
+  - This interpolation method is a quadratic formula for interpolation that is essentially a rearrangement of the quadratic I formula. In this…
 - **Part IV** _(p.280)_ <a id="part-iv"></a>
 - **Default Material Definitions** _(p.280–281)_ <a id="default-material-definitions"></a>
 - **14 Default Materials** _(p.281)_ <a id="14-default-materials"></a>
   - This chapter describes the default materials used in Garand.
-  - _Keywords:_ describes, materials, Garand
 - **14.1 Default Material Names** _(p.281)_ <a id="14-1-default-material-names"></a>
-  - All materials are identified by unique material names that allow assignment of nondefault model definitions and parameter values using the input file (see Chapter 5). These names are immutable.
-  - _Keywords:_ materials, identified, unique, material, assignment, nondefault, definitions, These
+  - All materials are identified by unique material names that allow assignment of nondefault model definitions and parameter values using the…
 - **14.2 Default Semiconductors** <a id="14-2-default-semiconductors"></a>
   - Garand provides default models for common semiconductor materials (see Table Table 9.1 on page 216).
-  - _Keywords:_ Pending, Complete, In_, Garand, colspan, models, common, semiconductor
 - **14.2.1 Calibrated Material Carriers** _(p.282)_ <a id="14-2-1-calibrated-material-carriers"></a>
-  - Calibration of transport for both electrons and holes in each default material is indicated. Complete calibrations are provided for the most relevant material carriers, while complete calibrations are currently pending for material carri...
-  - _Keywords:_ material, calibrations, relevant, carriers, Calibration, transport, electrons, indicated
+  - Calibration of transport for both electrons and holes in each default material is indicated. Complete calibrations are provided for the mos…
 - **14.3 Default Insulators** _(p.282–283)_ <a id="14-3-default-insulators"></a>
   - Garand provides default models for common insulator materials (see Table Table 14.2 on page 282).
-  - _Keywords:_ Silicon, insulator, materials, SiO_, Garand, provides, models, common
 - **15 Silicon Material Model** _(p.283)_ <a id="15-silicon-material-model"></a>
 - **15.1 Bulk Material Model** _(p.283)_ <a id="15-1-bulk-material-model"></a>
 - **15.1.1 bulk material parameters** _(p.283)_ <a id="15-1-1-bulk-material-parameters"></a>
   - The bulk material parameters listed in table 21.1 may be amended using the following input file syntax
-  - _Keywords:_ Orientation, Magnitude, lattice, vector, Angle, between, degrees, Elastic
 - **15.1.2 Band-To-Band-Tunnelling parameters** _(p.284)_ <a id="15-1-2-band-to-band-tunnelling-parameters"></a>
   - The band-to-band-tunnelling parameters for the Kane model, listed in table 21.2, may be amended using the following input file syntax
-  - _Keywords:_ BTBT, Acoustic, phonon, tunnelling, Kane, listed, amended, syntax
 - **15.2 Conduction Band** _(p.284)_ <a id="15-2-conduction-band"></a>
 - **15.2.1 band edge parameters** _(p.284)_ <a id="15-2-1-band-edge-parameters"></a>
   - The conduction band model parameter values listed in table 21.3 may be amended using the following input file syntax
-  - _Keywords:_ conduction, colspan, Conduction, listed, amended, syntax, MATERIAL, material_name
 - **15.2.2 mobility models** <a id="15-2-2-mobility-models"></a>
   - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
 - **15.2.2.1 low field - constant** _(p.285)_ <a id="15-2-2-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.4 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **15.2.2.2 low field - Arora** _(p.285)_ <a id="15-2-2-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the followin…
 - **15.2.2.3 low field - Masetti** _(p.286)_ <a id="15-2-2-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 19.6 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 19.6 may be amended using the follow…
 - **15.2.2.4 low field - Philips** _(p.286)_ <a id="15-2-2-4-low-field-philips"></a>
-  - The default Philips low-field unified mobility model parameter values defined in table 15.7 may be amended using the following input file syntax
-  - _Keywords:_ Reference, Conc, Philips, mobility, colspan, Ref, normalized, unified
+  - The default Philips low-field unified mobility model parameter values defined in table 15.7 may be amended using the following input file s…
 - **15.2.2.5 perpendicular field - Yamaguchi** _(p.287)_ <a id="15-2-2-5-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the followin…
 - **15.2.2.6 perpendicular field - Lombardi** <a id="15-2-2-6-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following…
 - **15.2.2.7 perpendicular field - Thin-Layer** _(p.288)_ <a id="15-2-2-7-perpendicular-field-thin-layer"></a>
-  - The default Thin-Layer perpendicular-field dependent mobility model parameter values defined in table 15.10 may be amended using the following input file syntax
-  - _Keywords:_ Fitting, fitting, Thin, Layer, perpendicular, dependent, mobility, ladder
+  - The default Thin-Layer perpendicular-field dependent mobility model parameter values defined in table 15.10 may be amended using the follow…
 - **15.2.2.8 high field - Caughey-Thomas velocity saturation** _(p.289)_ <a id="15-2-2-8-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following in…
 - **15.2.2.9 overall mobility model** _(p.289)_ <a id="15-2-2-9-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default…
 - **15.2.3 valley minima - position and orientation** _(p.290–293)_ <a id="15-2-3-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, valley, minima, Conduction, colspan, within, Variable
+  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be ame…
 - **15.2.4 valley minima - parameters** _(p.294–295)_ <a id="15-2-4-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ deformation, minima, Uniaxial, potential, valley, Variable, Description, Units
+  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 usin…
 - **15.2.5 X valley mechanisms - names** _(p.295)_ <a id="15-2-5-x-valley-mechanisms-names"></a>
-  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be…
 - **15.2.6 X valley mechanisms - parameters** _(p.296)_ <a id="15-2-6-x-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter value…
 - **15.2.6.1 Acoustic Phonons** <a id="15-2-6-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 21.43.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, valley, inelastic, Longitudinal, Inelastic
 - **15.2.6.2 Optical Phonons** _(p.298)_ <a id="15-2-6-2-optical-phonons"></a>
   - The default inter-valley g-type and f-type optical phonon parameters are given in tables 16.45-16.50.
-  - _Keywords:_ colspan, phonon, rowspan, optical, Phonon, Valley, Mecahnism, Variable
 - **15.2.7 L valley mechanisms - names** _(p.299)_ <a id="15-2-7-l-valley-mechanisms-names"></a>
-  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be amended by adding or removing defined scattering mechanism models using the
-  - _Keywords:_ scattering, equivalent, minima, define, mechanisms, listed, amended, adding
+  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be…
 - **following input file syntax** _(p.299)_ <a id="following-input-file-syntax"></a>
-  - ```txt MATERIAL <material_name>.conduction.<valley_name>.<mechanism_name> ADD MATERIAL <material_name>.conduction.<valley_name>.<mechanism_name> REMOVE ```
-  - _Keywords:_ ADDED, Phonon, Optical, MATERIAL, material_name, conduction, valley_name, mechanism_name
+  - ```txt MATERIAL <material_name>.conduction.<valley_name>.<mechanism_name> ADD MATERIAL <material_name>.conduction.<valley_name>.<mechanism_…
 - **15.2.8 L valley mechanisms - parameters** <a id="15-2-8-l-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter value…
 - **15.2.8.1 Acoustic Phonons** _(p.300)_ <a id="15-2-8-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 16.31.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, valley, inelastic, Longitudinal, Inelastic
 - **15.2.8.2 Optical Phonons** _(p.301)_ <a id="15-2-8-2-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.36-21.47.
-  - _Keywords:_ colspan, phonon, valley, optical, rowspan, Inter, Phonon, Valley
 - **15.2.9 Γ valley mechanisms - names** _(p.301)_ <a id="15-2-9-valley-mechanisms-names"></a>
-  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by a…
 - **15.2.10 Γ valley mechanisms - parameters** _(p.302)_ <a id="15-2-10-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter value…
 - **15.2.10.1 Acoustic Phonons** <a id="15-2-10-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 21.38.
-  - _Keywords:_ acoustic, phonon, rowspan, valley, inelastic, colspan, Longitudinal, Inelastic
 - **15.2.10.2 Optical Phonons** _(p.303)_ <a id="15-2-10-2-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.41-21.40.
-  - _Keywords:_ phonon, rowspan, valley, optical, colspan, Inter, Phonon, Valley
 - **15.2.11 Surface roughness parameters** _(p.303)_ <a id="15-2-11-surface-roughness-parameters"></a>
-  - The default surface roughness paramters are given in table 15.54. These are applied for all valleys, and apply to all equivalent surface orientations.
-  - _Keywords:_ surface, roughness, colspan, Surface, carrier, electrons, paramters, These
+  - The default surface roughness paramters are given in table 15.54. These are applied for all valleys, and apply to all equivalent surface or…
 - **15.3 Valence Band** _(p.304)_ <a id="15-3-valence-band"></a>
   - The valence band model parameter values listed in table 21.48 may be amended using the following input file syntax
-  - _Keywords:_ Valence, valence, colspan, defpot, deformation, potential, energy, listed
 - **15.3.1 mobility models** _(p.304)_ <a id="15-3-1-mobility-models"></a>
-  - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with some phenomenoligical enhancement factors.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
+  - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together wit…
 - **15.3.1.1 low field - constant** _(p.304)_ <a id="15-3-1-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.49 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **15.3.1.2 low field - Arora** _(p.305)_ <a id="15-3-1-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the followi…
 - **15.3.1.3 low field - Masetti** <a id="15-3-1-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the follo…
 - **15.3.1.4 perpendicular field - Yamaguchi** _(p.306)_ <a id="15-3-1-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the followi…
 - **15.3.1.5 perpendicular field - Lombardi** <a id="15-3-1-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the followin…
 - **15.3.1.6 high field - Caughey-Thomas velocity saturation** _(p.307)_ <a id="15-3-1-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following i…
 - **15.3.1.7 overall mobility model** _(p.307)_ <a id="15-3-1-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default…
 - **15.3.2 valley minima - position and orientation** _(p.308)_ <a id="15-3-2-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, minima, valley, valence, Variable, Description, Units
+  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amende…
 - **15.3.3 valley minima - parameters** _(p.309)_ <a id="15-3-3-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ minima, valley, Variable, Description, Units, colspan, Valley, Properties
+  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 usin…
 - **15.3.4 HH band mechanisms - names** _(p.310)_ <a id="15-3-4-hh-band-mechanisms-names"></a>
-  - The heavy hole band defines the set of named scattering mechanisms listed in table 16.68. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Acoustic, scattering, Optical, mechanism, MATERIAL, material_name
+  - The heavy hole band defines the set of named scattering mechanisms listed in table 16.68. The default scattering model may be amended by ad…
 - **15.3.5 HH band mechanisms - parameters** _(p.310)_ <a id="15-3-5-hh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms named in table 16.68 may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **15.3.5.1 Acoustic Phonons** _(p.311)_ <a id="15-3-5-1-acoustic-phonons"></a>
   - The default inter-band inelastic longitudinal acoustic phonon parameters are given in table 16.69.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, inelastic, Longitudinal, Inelastic, Acoustic
 - **15.3.5.2 Optical Phonons** _(p.311)_ <a id="15-3-5-2-optical-phonons"></a>
   - The default inter-band optical phonon parameters are given in table 16.71.
-  - _Keywords:_ colspan, phonon, rowspan, optical, Inter, bandOptical, Phonon, Band
 - **15.3.6 LH band mechanisms - names** _(p.312)_ <a id="15-3-6-lh-band-mechanisms-names"></a>
-  - The light hole band defines the set of named scattering mechanisms listed in table 16.72. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Acoustic, scattering, Optical, mechanism, MATERIAL, material_name
+  - The light hole band defines the set of named scattering mechanisms listed in table 16.72. The default scattering model may be amended by ad…
 - **15.3.7 LH band mechanisms - parameters** _(p.312)_ <a id="15-3-7-lh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms named in table 16.72 may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **15.3.7.1 Acoustic Phonons** _(p.313)_ <a id="15-3-7-1-acoustic-phonons"></a>
   - The default inter-band inelastic longitudinal acoustic phonon parameters are given in table 16.73.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, inelastic, Longitudinal, Inelastic, Acoustic
 - **15.3.7.2 Optical Phonons** _(p.313)_ <a id="15-3-7-2-optical-phonons"></a>
   - The default inter-band optical phonon parameters are given in table 16.75.
-  - _Keywords:_ colspan, phonon, rowspan, optical, Inter, bandOptical, Phonon, Band
 - **15.3.8 SSO band mechanisms - names** <a id="15-3-8-sso-band-mechanisms-names"></a>
-  - The spin split-off band defines the set of named scattering mechanisms listed in table 16.76. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Acoustic, scattering, Optical, mechanism, MATERIAL, material_name
+  - The spin split-off band defines the set of named scattering mechanisms listed in table 16.76. The default scattering model may be amended b…
 - **15.3.9 SSO band mechanisms - parameters** _(p.314)_ <a id="15-3-9-sso-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms named in table 16.76 may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **15.3.9.1 Acoustic Phonons** _(p.315)_ <a id="15-3-9-1-acoustic-phonons"></a>
   - The default inter-band inelastic longitudinal acoustic phonon parameters are given in table 16.77.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, SSO, inelastic, Longitudinal, Inelastic
 - **15.3.9.2 Optical Phonons** _(p.315)_ <a id="15-3-9-2-optical-phonons"></a>
   - The default inter-band optical phonon parameters are given in table 22.84.
-  - _Keywords:_ colspan, phonon, rowspan, SSO, optical, Inter, bandOptical, Phonon
 - **15.3.10 Surface roughness parameters** <a id="15-3-10-surface-roughness-parameters"></a>
-  - The default surface roughness paramters are given in table 15.82. These are applied for all valleys, and apply to all equivalent surface orientations.
-  - _Keywords:_ surface, roughness, colspan, Surface, carrier, paramters, These, applied
+  - The default surface roughness paramters are given in table 15.82. These are applied for all valleys, and apply to all equivalent surface or…
 - **15.4 Velocity-Field Characteristics** _(p.317)_ <a id="15-4-velocity-field-characteristics"></a>
-  - The velocity-field characteristics for electrons in silicon at 77 K and 300 K are shown in 15.2, with the electric field applied along the ⟨100⟩ and ⟨111⟩ directions.
-  - _Keywords:_ velocity, characteristics, silicon, electric, applied, images, Calibrated, Silicon
+  - The velocity-field characteristics for electrons in silicon at 77 K and 300 K are shown in 15.2, with the electric field applied along the…
 - **15.5 Low-Field Concentration-Dependent Mobility** _(p.317)_ <a id="15-5-low-field-concentration-dependent-mobility"></a>
-  - Simulated low-field electron mobility in silicon at 300 K is shown in Figure 15.3 where ionized impurity scattering is accounted for using both Brooks-Herring and Ridley’s third-body exclusion scattering rates. Both the unmodified and em...
-  - _Keywords:_ scattering, Simulated, mobility, silicon, impurity, Brooks, Herring, Ridley
+  - Simulated low-field electron mobility in silicon at 300 K is shown in Figure 15.3 where ionized impurity scattering is accounted for using…
 - **15.6 Inversion Layer Mobility** _(p.321)_ <a id="15-6-inversion-layer-mobility"></a>
-  - Simulated low-field inversion layer mobility in silicon at 300 K is shown in 15.5 with surface roughness scattering parameters calibrated to match experimental data.
-  - _Keywords:_ Monte, Carlo, Takagi, details, summary, Mobility, mobility, silicon
+  - Simulated low-field inversion layer mobility in silicon at 300 K is shown in 15.5 with surface roughness scattering parameters calibrated t…
 - **16 Germanium Material Model** _(p.321)_ <a id="16-germanium-material-model"></a>
 - **16.1 Bulk Material Model** _(p.321)_ <a id="16-1-bulk-material-model"></a>
 - **16.1.1 bulk material parameters** _(p.321)_ <a id="16-1-1-bulk-material-parameters"></a>
   - The bulk material parameters listed in table 21.1 may be amended using the following input file syntax
-  - _Keywords:_ Orientation, Magnitude, lattice, vector, Angle, between, degrees, Elastic
 - **16.1.2 Band-To-Band-Tunnelling parameters** _(p.322)_ <a id="16-1-2-band-to-band-tunnelling-parameters"></a>
   - The band-to-band-tunnelling parameters for the Kane model, listed in table 21.2, may be amended using the following input file syntax
-  - _Keywords:_ BTBT, Acoustic, phonon, tunnelling, Kane, listed, amended, syntax
 - **16.2 Conduction Band** _(p.322)_ <a id="16-2-conduction-band"></a>
 - **16.2.1 band edge parameters** _(p.322)_ <a id="16-2-1-band-edge-parameters"></a>
   - The conduction band model parameter values listed in table 21.3 may be amended using the following input file syntax
-  - _Keywords:_ conduction, colspan, Conduction, listed, amended, syntax, MATERIAL, material_name
 - **16.2.2 mobility models** <a id="16-2-2-mobility-models"></a>
   - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
 - **16.2.2.1 low field - constant** _(p.323)_ <a id="16-2-2-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.4 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **16.2.2.2 low field - Arora** _(p.323)_ <a id="16-2-2-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the followin…
 - **16.2.2.3 low field - Masetti** <a id="16-2-2-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.6 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.6 may be amended using the follow…
 - **16.2.2.4 perpendicular field - Yamaguchi** _(p.324)_ <a id="16-2-2-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the followin…
 - **16.2.2.5 perpendicular field - Lombardi** <a id="16-2-2-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following…
 - **16.2.2.6 high field - Caughey-Thomas velocity saturation** _(p.325)_ <a id="16-2-2-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following in…
 - **16.2.2.7 overall mobility model** <a id="16-2-2-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default…
 - **16.2.3 valley minima - position and orientation** _(p.326–330)_ <a id="16-2-3-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, valley, minima, Conduction, colspan, within, Variable
+  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be ame…
 - **16.2.4 valley minima - parameters** _(p.331)_ <a id="16-2-4-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ deformation, minima, Uniaxial, potential, valley, Variable, Description, Units
+  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 usin…
 - **16.2.5 L valley mechanisms - names** <a id="16-2-5-l-valley-mechanisms-names"></a>
-  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be…
 - **16.2.6 L valley mechanisms - parameters** _(p.332)_ <a id="16-2-6-l-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter value…
 - **16.2.6.1 Acoustic Phonons** _(p.333)_ <a id="16-2-6-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 16.31.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, valley, inelastic, Longitudinal, Inelastic
 - **16.2.6.2 Optical Phonons** _(p.334)_ <a id="16-2-6-2-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 24.33-21.36.
-  - _Keywords:_ colspan, phonon, optical, valley, rowspan, Phonon, Valley, Mecahnism
 - **16.2.7 Γ valley mechanisms - names** <a id="16-2-7-valley-mechanisms-names"></a>
-  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by a…
 - **16.2.8 Γ valley mechanisms - parameters** _(p.335)_ <a id="16-2-8-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter value…
 - **16.2.8.1 Acoustic Phonons** _(p.336)_ <a id="16-2-8-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 21.38.
-  - _Keywords:_ acoustic, phonon, rowspan, valley, inelastic, colspan, Longitudinal, Inelastic
 - **16.2.8.2 Optical Phonons** <a id="16-2-8-2-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.40-21.41.
-  - _Keywords:_ phonon, rowspan, valley, optical, colspan, Inter, Phonon, Valley
 - **16.2.9 X valley mechanisms - names** <a id="16-2-9-x-valley-mechanisms-names"></a>
-  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be…
 - **16.2.10 X valley mechanisms - parameters** _(p.337–338)_ <a id="16-2-10-x-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter value…
 - **16.2.10.1 Acoustic Phonons** _(p.338)_ <a id="16-2-10-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 21.43.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, valley, inelastic, Longitudinal, Inelastic
 - **16.2.10.2 Optical Phonons** _(p.339–340)_ <a id="16-2-10-2-optical-phonons"></a>
   - The default inter-valley g-type and f-type optical phonon parameters are given in tables 16.45-16.50.
-  - _Keywords:_ colspan, phonon, rowspan, optical, Phonon, Valley, Mecahnism, Variable
 - **16.3 Valence Band** _(p.341)_ <a id="16-3-valence-band"></a>
   - The valence band model parameter values listed in table 21.48 may be amended using the following input file syntax
-  - _Keywords:_ Valence, valence, colspan, defpot, deformation, potential, energy, listed
 - **16.3.1 mobility models** _(p.341)_ <a id="16-3-1-mobility-models"></a>
-  - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with some phenomenoligical enhancement factors.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
+  - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together wit…
 - **16.3.1.1 low field - constant** _(p.341)_ <a id="16-3-1-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.49 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **16.3.1.2 low field - Arora** _(p.342)_ <a id="16-3-1-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the followi…
 - **16.3.1.3 low field - Masetti** <a id="16-3-1-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the follo…
 - **16.3.1.4 perpendicular field - Yamaguchi** _(p.343)_ <a id="16-3-1-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the followi…
 - **16.3.1.5 perpendicular field - Lombardi** <a id="16-3-1-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the followin…
 - **16.3.1.6 high field - Caughey-Thomas velocity saturation** _(p.344)_ <a id="16-3-1-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following i…
 - **16.3.1.7 overall mobility model** _(p.344)_ <a id="16-3-1-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default…
 - **16.3.2 valley minima - position and orientation** _(p.345)_ <a id="16-3-2-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, minima, valley, valence, Variable, Description, Units
+  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amende…
 - **16.3.3 valley minima - parameters** _(p.346)_ <a id="16-3-3-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ minima, valley, Variable, Description, Units, colspan, Valley, Properties
+  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 usin…
 - **16.3.4 HH band mechanisms - names** _(p.347)_ <a id="16-3-4-hh-band-mechanisms-names"></a>
-  - The heavy hole band defines the set of named scattering mechanisms listed in table 16.68. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Acoustic, scattering, Optical, mechanism, MATERIAL, material_name
+  - The heavy hole band defines the set of named scattering mechanisms listed in table 16.68. The default scattering model may be amended by ad…
 - **16.3.5 HH band mechanisms - parameters** _(p.347)_ <a id="16-3-5-hh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms named in table 16.68 may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **16.3.5.1 Acoustic Phonons** _(p.348)_ <a id="16-3-5-1-acoustic-phonons"></a>
   - The default inter-band inelastic longitudinal acoustic phonon parameters are given in table 16.69.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, inelastic, Longitudinal, Inelastic, Acoustic
 - **16.3.5.2 Optical Phonons** _(p.348)_ <a id="16-3-5-2-optical-phonons"></a>
   - The default inter-band optical phonon parameters are given in table 16.71.
-  - _Keywords:_ colspan, phonon, rowspan, optical, Inter, bandOptical, Phonon, Band
 - **16.3.6 LH band mechanisms - names** _(p.349)_ <a id="16-3-6-lh-band-mechanisms-names"></a>
-  - The light hole band defines the set of named scattering mechanisms listed in table 16.72. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Acoustic, scattering, Optical, mechanism, MATERIAL, material_name
+  - The light hole band defines the set of named scattering mechanisms listed in table 16.72. The default scattering model may be amended by ad…
 - **16.3.7 LH band mechanisms - parameters** _(p.349)_ <a id="16-3-7-lh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms named in table 16.72 may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **16.3.7.1 Acoustic Phonons** _(p.350)_ <a id="16-3-7-1-acoustic-phonons"></a>
   - The default inter-band inelastic longitudinal acoustic phonon parameters are given in table 16.73.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, inelastic, Longitudinal, Inelastic, Acoustic
 - **16.3.7.2 Optical Phonons** _(p.350)_ <a id="16-3-7-2-optical-phonons"></a>
   - The default inter-band optical phonon parameters are given in table 16.75.
-  - _Keywords:_ colspan, phonon, rowspan, optical, Inter, bandOptical, Phonon, Band
 - **16.3.8 SSO band mechanisms - names** <a id="16-3-8-sso-band-mechanisms-names"></a>
-  - The spin split-off band defines the set of named scattering mechanisms listed in table 16.76. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Acoustic, scattering, Optical, mechanism, MATERIAL, material_name
+  - The spin split-off band defines the set of named scattering mechanisms listed in table 16.76. The default scattering model may be amended b…
 - **16.3.9 SSO band mechanisms - parameters** _(p.351)_ <a id="16-3-9-sso-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms named in table 16.76 may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **16.3.9.1 Acoustic Phonons** _(p.352)_ <a id="16-3-9-1-acoustic-phonons"></a>
   - The default inter-band inelastic longitudinal acoustic phonon parameters are given in table 16.77.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, SSO, inelastic, Longitudinal, Inelastic
 - **16.3.9.2 Optical Phonons** _(p.352)_ <a id="16-3-9-2-optical-phonons"></a>
   - The default inter-band optical phonon parameters are given in table 22.84.
-  - _Keywords:_ colspan, phonon, rowspan, SSO, optical, Inter, bandOptical, Phonon
 - **16.3.10 Surface roughness parameters** <a id="16-3-10-surface-roughness-parameters"></a>
-  - The default surface roughness paramters are given in table 16.80. These are applied for all valleys, and apply to all equivalent surface orientations.
-  - _Keywords:_ surface, roughness, colspan, Surface, carrier, paramters, These, applied
+  - The default surface roughness paramters are given in table 16.80. These are applied for all valleys, and apply to all equivalent surface or…
 - **16.4 Velocity-Field Characteristics** <a id="16-4-velocity-field-characteristics"></a>
-  - The velocity-field characteristics for holes in germanium at 300 K are shown in 16.1, with the electric field applied along the ⟨110⟩ direction.
-  - _Keywords:_ velocity, characteristics, germanium, details, summary, Drift, Velocity, electric
+  - The velocity-field characteristics for holes in germanium at 300 K are shown in 16.1, with the electric field applied along the ⟨110⟩ direc…
 - **16.5 Low-Field Concentration-Dependent Mobility** _(p.353)_ <a id="16-5-low-field-concentration-dependent-mobility"></a>
-  - Simulated low-field hole mobility in germanium at 300 K is shown in 16.2 for both two approaches for impurity scattering - Brooks-Herring (BH) and Ridley’s third-body exclusion (TBE).
-  - _Keywords:_ Simulated, mobility, germanium, approaches, impurity, scattering, Brooks, Herring
+  - Simulated low-field hole mobility in germanium at 300 K is shown in 16.2 for both two approaches for impurity scattering - Brooks-Herring (…
 - **16.6 Inversion Layer Mobility** _(p.353)_ <a id="16-6-inversion-layer-mobility"></a>
-  - Simulated low-field inversion layer mobility in germanium at 300 K is shown in 16.3 with surface roughness scattering parameters calibrated to match experimental data.
-  - _Keywords:_ Hole, Mobility, details, summary, mobility, germanium, experimental, Monte
+  - Simulated low-field inversion layer mobility in germanium at 300 K is shown in 16.3 with surface roughness scattering parameters calibrated…
 - **17 Indium53 Gallium47 Arsenide Material Model** _(p.356)_ <a id="17-indium53-gallium47-arsenide-material-model"></a>
 - **17.1 Bulk Material Model** _(p.356)_ <a id="17-1-bulk-material-model"></a>
 - **17.1.1 bulk material parameters** _(p.356)_ <a id="17-1-1-bulk-material-parameters"></a>
   - The bulk material parameters listed in table 21.1 may be amended using the following input file syntax
-  - _Keywords:_ Orientation, Magnitude, lattice, vector, Angle, between, degrees, Elastic
 - **17.1.2 Band-To-Band-Tunnelling parameters** _(p.357)_ <a id="17-1-2-band-to-band-tunnelling-parameters"></a>
   - The band-to-band-tunnelling parameters for the Kane model, listed in table 21.2, may be amended using the following input file syntax
-  - _Keywords:_ BTBT, Acoustic, phonon, tunnelling, Kane, listed, amended, syntax
 - **17.2 Conduction Band** _(p.357)_ <a id="17-2-conduction-band"></a>
 - **17.2.1 band edge parameters** _(p.357)_ <a id="17-2-1-band-edge-parameters"></a>
   - The conduction band model parameter values listed in table 21.3 may be amended using the following input file syntax
-  - _Keywords:_ conduction, colspan, Conduction, listed, amended, syntax, MATERIAL, material_name
 - **17.2.2 mobility models** <a id="17-2-2-mobility-models"></a>
   - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
 - **17.2.2.1 low field - constant** _(p.358)_ <a id="17-2-2-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.4 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **17.2.2.2 low field - Arora** _(p.358)_ <a id="17-2-2-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the followin…
 - **17.2.2.3 low field - Masetti** <a id="17-2-2-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.6 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.6 may be amended using the follow…
 - **17.2.2.4 perpendicular field - Yamaguchi** _(p.359)_ <a id="17-2-2-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the followin…
 - **17.2.2.5 perpendicular field - Lombardi** <a id="17-2-2-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following…
 - **17.2.2.6 high field - Caughey-Thomas velocity saturation** _(p.360)_ <a id="17-2-2-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following in…
 - **17.2.2.7 overall mobility model** <a id="17-2-2-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default…
 - **17.2.3 valley minima - position and orientation** _(p.361–365)_ <a id="17-2-3-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, valley, minima, Conduction, colspan, within, Variable
+  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be ame…
 - **17.2.4 valley minima - parameters** _(p.366)_ <a id="17-2-4-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ deformation, minima, Uniaxial, potential, valley, Variable, Description, Units
+  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 usin…
 - **17.2.5 L valley mechanisms - names** <a id="17-2-5-l-valley-mechanisms-names"></a>
-  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be…
 - **17.2.6 L valley mechanisms - parameters** _(p.367)_ <a id="17-2-6-l-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter value…
 - **17.2.6.1 Acoustic Phonons** _(p.368)_ <a id="17-2-6-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 21.31.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, Acoustic, valley, elastic, Elastic
 - **17.2.6.2 Polar Optical Phonons** _(p.368)_ <a id="17-2-6-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in tables 21.32.
-  - _Keywords:_ colspan, phonon, optical, valley, rowspan, Intra, valleyPolar, Optical
 - **17.2.6.3 Optical Phonons** _(p.369)_ <a id="17-2-6-3-optical-phonons"></a>
   - The default intra- and inter-valley optical phonon parameters are given in tables 24.33-21.36.
-  - _Keywords:_ colspan, phonon, valley, optical, rowspan, Phonon, Valley, Mecahnism
 - **17.2.7 Γ valley mechanisms - names** _(p.369)_ <a id="17-2-7-valley-mechanisms-names"></a>
-  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by a…
 - **17.2.8 Γ valley mechanisms - parameters** _(p.370)_ <a id="17-2-8-valley-mechanisms-parameters"></a>
   - The default parameter values of the Γ minima mechanisms named in table 21.37 may be amended using the following input file syntax
-  - _Keywords:_ minima, mechanisms, amended, syntax, MATERIAL, material_name, conduction, valley_name
 - **17.2.8.1 Acoustic Phonons** <a id="17-2-8-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 21.38.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, valley, inelastic, longitudinal, colspan
 - **17.2.8.2 Polar Optical Phonons** <a id="17-2-8-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 21.39
-  - _Keywords:_ phonon, optical, rowspan, valley, colspan, Intra, valleyPolar, Optical
 - **17.2.8.3 Optical Phonons** _(p.371)_ <a id="17-2-8-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.40-21.41.
-  - _Keywords:_ phonon, rowspan, valley, optical, colspan, Inter, Phonon, Valley
 - **17.2.9 X valley mechanisms - names** _(p.371)_ <a id="17-2-9-x-valley-mechanisms-names"></a>
-  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be…
 - **17.2.10 X valley mechanisms - parameters** _(p.372)_ <a id="17-2-10-x-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter value…
 - **17.2.10.1 Acoustic Phonons** <a id="17-2-10-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 21.43.
-  - _Keywords:_ colspan, acoustic, phonon, Acoustic, valley, elastic, rowspan, Elastic
 - **17.2.10.2 Polar Optical Phonons** <a id="17-2-10-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 21.44
-  - _Keywords:_ colspan, phonon, optical, valley, rowspan, Intra, valleyPolar, Optical
 - **17.2.10.3 Optical Phonons** _(p.373)_ <a id="17-2-10-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.45-21.47.
-  - _Keywords:_ colspan, phonon, valley, optical, rowspan, Inter, Phonon, Valley
 - **17.3 Valence Band** _(p.374)_ <a id="17-3-valence-band"></a>
   - The valence band model parameter values listed in table 21.48 may be amended using the following input file syntax
-  - _Keywords:_ Valence, valence, colspan, defpot, deformation, potential, energy, listed
 - **17.3.1 mobility models** _(p.374)_ <a id="17-3-1-mobility-models"></a>
-  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with some phenomenoligical enhancement factors.
-  - _Keywords:_ mobility, valence, defines, comprising, perpendicular, velocity, saturation, models
+  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with s…
 - **17.3.1.1 low field - constant** _(p.374)_ <a id="17-3-1-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.49 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **17.3.1.2 low field - Arora** _(p.375)_ <a id="17-3-1-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the followi…
 - **17.3.1.3 low field - Masetti** <a id="17-3-1-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the follo…
 - **17.3.1.4 perpendicular field - Yamaguchi** <a id="17-3-1-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the followi…
 - **17.3.1.5 perpendicular field - Lombardi** _(p.376)_ <a id="17-3-1-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the followin…
 - **17.3.1.6 high field - Caughey-Thomas velocity saturation** _(p.377)_ <a id="17-3-1-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following i…
 - **17.3.1.7 overall mobility model** _(p.377)_ <a id="17-3-1-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default…
 - **17.3.2 valley minima - position and orientation** _(p.378)_ <a id="17-3-2-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, minima, valley, valence, Variable, Description, Units
+  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amende…
 - **17.3.3 valley minima - parameters** _(p.379)_ <a id="17-3-3-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ minima, valley, Variable, Description, Units, colspan, Valley, Properties
+  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 usin…
 - **17.3.4 HH band mechanisms - names** _(p.380)_ <a id="17-3-4-hh-band-mechanisms-names"></a>
-  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **17.3.5 HH band mechanisms - parameters** _(p.380–381)_ <a id="17-3-5-hh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **17.3.6 LH band mechanisms - names** <a id="17-3-6-lh-band-mechanisms-names"></a>
-  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **17.3.7 LH band mechanisms - parameters** <a id="17-3-7-lh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **17.3.8 SSO band mechanisms - names** <a id="17-3-8-sso-band-mechanisms-names"></a>
-  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing d…
 - **17.3.9 SSO band mechanisms - parameters** <a id="17-3-9-sso-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **17.4 Velocity-Field Characteristics** <a id="17-4-velocity-field-characteristics"></a>
-  - The velocity-field characteristics of InGaAs material have been calibrated to experimental data for InGaAs (with fractions In0 ${ . 5 3 } \mathrm { G a } _ { 0 . 4 7 } \mathrm { A s } )$ at 300 K [5, 86, 32, 51]. The resultant calibratio...
-  - _Keywords:_ InGaAs, experimental, mathrm, velocity, characteristics, material, calibrated, fractions
+  - The velocity-field characteristics of InGaAs material have been calibrated to experimental data for InGaAs (with fractions In0 ${ . 5 3 } \…
 - **17.5 Low-Field Concentration-Dependent Mobility** <a id="17-5-low-field-concentration-dependent-mobility"></a>
-  - Simulated low-field hole mobility in InGaAs (with fractions $\mathrm { I n } _ { 0 . 5 3 } \mathrm { G a } _ { 0 . 4 7 } \mathrm { A s } )$ at 300 K is shown in 17.2 in comparison with experimental data from [60].
-  - _Keywords:_ mathrm, Electron, Mobility, mobility, InGaAs, experimental, details, summary
+  - Simulated low-field hole mobility in InGaAs (with fractions $\mathrm { I n } _ { 0 . 5 3 } \mathrm { G a } _ { 0 . 4 7 } \mathrm { A s } )$…
 - **18 Indium52 Aluminium48 Arsenide Material Model** _(p.383)_ <a id="18-indium52-aluminium48-arsenide-material-model"></a>
 - **18.1 Bulk Material Model** _(p.383)_ <a id="18-1-bulk-material-model"></a>
 - **18.1.1 bulk material parameters** _(p.383)_ <a id="18-1-1-bulk-material-parameters"></a>
   - The bulk material parameters listed in table 21.1 may be amended using the following input file syntax
-  - _Keywords:_ Orientation, Magnitude, lattice, vector, Angle, between, degrees, Elastic
 - **18.1.2 Band-To-Band-Tunnelling parameters** _(p.384)_ <a id="18-1-2-band-to-band-tunnelling-parameters"></a>
   - The band-to-band-tunnelling parameters for the Kane model, listed in table 21.2, may be amended using the following input file syntax
-  - _Keywords:_ BTBT, Acoustic, phonon, tunnelling, Kane, listed, amended, syntax
 - **18.2 Conduction Band** _(p.384)_ <a id="18-2-conduction-band"></a>
 - **18.2.1 band edge parameters** _(p.384)_ <a id="18-2-1-band-edge-parameters"></a>
   - The conduction band model parameter values listed in table 21.3 may be amended using the following input file syntax
-  - _Keywords:_ conduction, colspan, Conduction, listed, amended, syntax, MATERIAL, material_name
 - **18.2.2 mobility models** <a id="18-2-2-mobility-models"></a>
   - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
 - **18.2.2.1 low field - constant** _(p.385)_ <a id="18-2-2-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.4 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **18.2.2.2 low field - Arora** _(p.385)_ <a id="18-2-2-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the followin…
 - **18.2.2.3 low field - Masetti** <a id="18-2-2-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.6 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.6 may be amended using the follow…
 - **18.2.2.4 perpendicular field - Yamaguchi** _(p.386)_ <a id="18-2-2-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the followin…
 - **18.2.2.5 perpendicular field - Lombardi** <a id="18-2-2-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following…
 - **18.2.2.6 high field - Caughey-Thomas velocity saturation** _(p.387)_ <a id="18-2-2-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following in…
 - **18.2.2.7 overall mobility model** <a id="18-2-2-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default…
 - **18.2.3 valley minima - position and orientation** _(p.388–392)_ <a id="18-2-3-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, valley, minima, Conduction, colspan, within, Variable
+  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be ame…
 - **18.2.4 valley minima - parameters** _(p.393)_ <a id="18-2-4-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ deformation, minima, Uniaxial, potential, valley, Variable, Description, Units
+  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 usin…
 - **18.2.5 L valley mechanisms - names** <a id="18-2-5-l-valley-mechanisms-names"></a>
-  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be…
 - **18.2.6 L valley mechanisms - parameters** _(p.394)_ <a id="18-2-6-l-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter value…
 - **18.2.6.1 Acoustic Phonons** _(p.395)_ <a id="18-2-6-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 21.31.
-  - _Keywords:_ colspan, acoustic, phonon, Acoustic, valley, elastic, rowspan, Elastic
 - **18.2.6.2 Polar Optical Phonons** _(p.395)_ <a id="18-2-6-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in tables 21.32.
-  - _Keywords:_ colspan, phonon, optical, valley, rowspan, Intra, valleyPolar, Optical
 - **18.2.6.3 Optical Phonons** _(p.396)_ <a id="18-2-6-3-optical-phonons"></a>
   - The default intra- and inter-valley optical phonon parameters are given in tables 24.33-21.36.
-  - _Keywords:_ colspan, phonon, valley, optical, rowspan, Phonon, Valley, Mecahnism
 - **18.2.7 Γ valley mechanisms - names** _(p.396)_ <a id="18-2-7-valley-mechanisms-names"></a>
-  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by a…
 - **18.2.8 Γ valley mechanisms - parameters** _(p.397)_ <a id="18-2-8-valley-mechanisms-parameters"></a>
   - The default parameter values of the Γ minima mechanisms named in table 21.37 may be amended using the following input file syntax
-  - _Keywords:_ minima, mechanisms, amended, syntax, MATERIAL, material_name, conduction, valley_name
 - **18.2.8.1 Acoustic Phonons** <a id="18-2-8-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 21.38.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, valley, inelastic, longitudinal, colspan
 - **18.2.8.2 Polar Optical Phonons** <a id="18-2-8-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 21.39
-  - _Keywords:_ phonon, optical, rowspan, valley, colspan, Intra, valleyPolar, Optical
 - **18.2.8.3 Optical Phonons** _(p.398)_ <a id="18-2-8-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.40-21.41.
-  - _Keywords:_ phonon, rowspan, valley, optical, colspan, Inter, Phonon, Valley
 - **18.2.9 X valley mechanisms - names** _(p.398)_ <a id="18-2-9-x-valley-mechanisms-names"></a>
-  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be…
 - **18.2.10 X valley mechanisms - parameters** _(p.399)_ <a id="18-2-10-x-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter value…
 - **18.2.10.1 Acoustic Phonons** <a id="18-2-10-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 21.43.
-  - _Keywords:_ colspan, acoustic, phonon, Acoustic, valley, elastic, rowspan, Elastic
 - **18.2.10.2 Polar Optical Phonons** <a id="18-2-10-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 21.44
-  - _Keywords:_ colspan, phonon, optical, rowspan, valley, Intra, valleyPolar, Optical
 - **18.2.10.3 Optical Phonons** _(p.400)_ <a id="18-2-10-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.45-21.47.
-  - _Keywords:_ colspan, phonon, valley, optical, rowspan, Inter, Phonon, Valley
 - **18.3 Valence Band** _(p.401)_ <a id="18-3-valence-band"></a>
   - The valence band model parameter values listed in table 21.48 may be amended using the following input file syntax
-  - _Keywords:_ Valence, valence, colspan, defpot, deformation, potential, energy, listed
 - **18.3.1 mobility models** _(p.401)_ <a id="18-3-1-mobility-models"></a>
-  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with some phenomenoligical enhancement factors.
-  - _Keywords:_ mobility, valence, defines, comprising, perpendicular, velocity, saturation, models
+  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with s…
 - **18.3.1.1 low field - constant** _(p.401)_ <a id="18-3-1-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.49 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **18.3.1.2 low field - Arora** _(p.402)_ <a id="18-3-1-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the followi…
 - **18.3.1.3 low field - Masetti** <a id="18-3-1-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the follo…
 - **18.3.1.4 perpendicular field - Yamaguchi** <a id="18-3-1-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the followi…
 - **18.3.1.5 perpendicular field - Lombardi** _(p.403)_ <a id="18-3-1-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the followin…
 - **18.3.1.6 high field - Caughey-Thomas velocity saturation** _(p.404)_ <a id="18-3-1-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following i…
 - **18.3.1.7 overall mobility model** _(p.404)_ <a id="18-3-1-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default…
 - **18.3.2 valley minima - position and orientation** _(p.405)_ <a id="18-3-2-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, minima, valley, valence, Variable, Description, Units
+  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amende…
 - **18.3.3 valley minima - parameters** _(p.406)_ <a id="18-3-3-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ minima, valley, Variable, Description, Units, colspan, Valley, Properties
+  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 usin…
 - **18.3.4 HH band mechanisms - names** _(p.407)_ <a id="18-3-4-hh-band-mechanisms-names"></a>
-  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **18.3.5 HH band mechanisms - parameters** _(p.407–408)_ <a id="18-3-5-hh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **18.3.6 LH band mechanisms - names** <a id="18-3-6-lh-band-mechanisms-names"></a>
-  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **18.3.7 LH band mechanisms - parameters** <a id="18-3-7-lh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **18.3.8 SSO band mechanisms - names** <a id="18-3-8-sso-band-mechanisms-names"></a>
-  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing d…
 - **18.3.9 SSO band mechanisms - parameters** <a id="18-3-9-sso-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **18.4 Velocity-Field Characteristics** <a id="18-4-velocity-field-characteristics"></a>
-  - The velocity-field characteristics of the InAlAs material (with fractions $\mathrm { I n } _ { 0 . 5 2 } \mathrm { A l } _ { 0 . 4 8 } \mathrm { A s } )$ at 300 K from Monte Carlo simulation are shown in 18.1.
-  - _Keywords:_ mathrm, velocity, characteristics, InAlAs, material, fractions, Monte, Carlo
+  - The velocity-field characteristics of the InAlAs material (with fractions $\mathrm { I n } _ { 0 . 5 2 } \mathrm { A l } _ { 0 . 4 8 } \mat…
 - **18.5 Low-Field Concentration-Dependent Mobility** _(p.410)_ <a id="18-5-low-field-concentration-dependent-mobility"></a>
-  - Simulated low-field hole mobility in InAlAs (with fractions $\mathrm { I n _ { 0 . 5 2 } A l _ { 0 . 4 8 } A s ) }$ at 300 K is shown in 18.2.
-  - _Keywords:_ Simulated, mobility, InAlAs, details, summary, fractions, mathrm, images
+  - Simulated low-field hole mobility in InAlAs (with fractions $\mathrm { I n _ { 0 . 5 2 } A l _ { 0 . 4 8 } A s ) }$ at 300 K is shown in 18…
 - **19 Gallium Arsenide Material Model** _(p.410)_ <a id="19-gallium-arsenide-material-model"></a>
 - **19.1 Bulk Material Model** _(p.410)_ <a id="19-1-bulk-material-model"></a>
 - **19.1.1 bulk material parameters** _(p.410)_ <a id="19-1-1-bulk-material-parameters"></a>
   - The bulk material parameters listed in table 21.1 may be amended using the following input file syntax
-  - _Keywords:_ Orientation, Magnitude, lattice, vector, Angle, between, degrees, Elastic
 - **19.1.2 Band-To-Band-Tunnelling parameters** _(p.411)_ <a id="19-1-2-band-to-band-tunnelling-parameters"></a>
   - The band-to-band-tunnelling parameters for the Kane model, listed in table 21.2, may be amended using the following input file syntax
-  - _Keywords:_ BTBT, Acoustic, phonon, tunnelling, Kane, listed, amended, syntax
 - **19.2 Conduction Band** _(p.411)_ <a id="19-2-conduction-band"></a>
 - **19.2.1 band edge parameters** _(p.411)_ <a id="19-2-1-band-edge-parameters"></a>
   - The conduction band model parameter values listed in table 21.3 may be amended using the following input file syntax
-  - _Keywords:_ conduction, colspan, Conduction, listed, amended, syntax, MATERIAL, material_name
 - **19.2.2 mobility models** <a id="19-2-2-mobility-models"></a>
   - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
 - **19.2.2.1 low field - constant** _(p.412)_ <a id="19-2-2-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.4 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **19.2.2.2 low field - Arora** _(p.412)_ <a id="19-2-2-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the followin…
 - **19.2.2.3 low field - Masetti** _(p.413)_ <a id="19-2-2-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 19.6 may be amended using the following input file syntax
-  - _Keywords:_ mobility, fitting, Reference, Conc, Masetti, concentration, dependent, colspan
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 19.6 may be amended using the follow…
 - **19.2.2.4 low field - Philips** _(p.413)_ <a id="19-2-2-4-low-field-philips"></a>
-  - The default Philips low-field unified mobility model parameter values defined in table 19.7 may be amended using the following input file syntax
-  - _Keywords:_ Philips, unified, mobility, defined, amended, syntax, MATERIAL, material_name
+  - The default Philips low-field unified mobility model parameter values defined in table 19.7 may be amended using the following input file s…
 - **19.2.2.5 perpendicular field - Yamaguchi** _(p.414)_ <a id="19-2-2-5-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the followin…
 - **19.2.2.6 perpendicular field - Lombardi** <a id="19-2-2-6-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following…
 - **19.2.2.7 high field - Caughey-Thomas velocity saturation** _(p.415)_ <a id="19-2-2-7-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following in…
 - **19.2.2.8 overall mobility model** <a id="19-2-2-8-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default…
 - **19.2.3 valley minima - position and orientation** _(p.416–419)_ <a id="19-2-3-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, valley, minima, Conduction, colspan, within, Variable
+  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be ame…
 - **19.2.4 valley minima - parameters** _(p.420–421)_ <a id="19-2-4-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ deformation, minima, Uniaxial, potential, valley, Variable, Description, Units
+  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 usin…
 - **19.2.5 L valley mechanisms - names** _(p.421)_ <a id="19-2-5-l-valley-mechanisms-names"></a>
-  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be…
 - **19.2.6 L valley mechanisms - parameters** <a id="19-2-6-l-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter value…
 - **19.2.6.1 Acoustic Phonons** _(p.422)_ <a id="19-2-6-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 21.31.
-  - _Keywords:_ colspan, acoustic, phonon, Acoustic, valley, elastic, rowspan, Elastic
 - **19.2.6.2 Polar Optical Phonons** _(p.422)_ <a id="19-2-6-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in tables 21.32.
-  - _Keywords:_ colspan, phonon, optical, valley, rowspan, Intra, valleyPolar, Optical
 - **19.2.6.3 Optical Phonons** _(p.423)_ <a id="19-2-6-3-optical-phonons"></a>
   - The default intra- and inter-valley optical phonon parameters are given in tables 24.33-21.36.
-  - _Keywords:_ colspan, phonon, optical, rowspan, valley, Phonon, Valley, Mecahnism
 - **19.2.7 Γ valley mechanisms - names** <a id="19-2-7-valley-mechanisms-names"></a>
-  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by a…
 - **19.2.8 Γ valley mechanisms - parameters** _(p.424)_ <a id="19-2-8-valley-mechanisms-parameters"></a>
   - The default parameter values of the Γ minima mechanisms named in table 21.37 may be amended using the following input file syntax
-  - _Keywords:_ minima, mechanisms, amended, syntax, MATERIAL, material_name, conduction, valley_name
 - **19.2.8.1 Acoustic Phonons** _(p.425)_ <a id="19-2-8-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 21.38.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, valley, inelastic, longitudinal, colspan
 - **19.2.8.2 Polar Optical Phonons** _(p.425)_ <a id="19-2-8-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 21.39
-  - _Keywords:_ phonon, optical, rowspan, valley, colspan, Intra, valleyPolar, Optical
 - **19.2.8.3 Optical Phonons** <a id="19-2-8-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.40-21.41.
-  - _Keywords:_ phonon, rowspan, valley, optical, colspan, Inter, Phonon, Valley
 - **19.2.9 X valley mechanisms - names** <a id="19-2-9-x-valley-mechanisms-names"></a>
-  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be…
 - **19.2.10 X valley mechanisms - parameters** _(p.426)_ <a id="19-2-10-x-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter value…
 - **19.2.10.1 Acoustic Phonons** _(p.427)_ <a id="19-2-10-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 21.43.
-  - _Keywords:_ colspan, acoustic, phonon, Acoustic, valley, elastic, rowspan, Elastic
 - **19.2.10.2 Polar Optical Phonons** _(p.427)_ <a id="19-2-10-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 21.44
-  - _Keywords:_ colspan, phonon, optical, rowspan, valley, Intra, valleyPolar, Optical
 - **19.2.10.3 Optical Phonons** _(p.428)_ <a id="19-2-10-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.45-21.47.
-  - _Keywords:_ colspan, phonon, valley, optical, rowspan, Inter, Phonon, Valley
 - **19.3 Valence Band** _(p.428)_ <a id="19-3-valence-band"></a>
   - The valence band model parameter values listed in table 21.48 may be amended using the following input file syntax
-  - _Keywords:_ Valence, valence, colspan, defpot, deformation, potential, energy, listed
 - **19.3.1 mobility models** <a id="19-3-1-mobility-models"></a>
-  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with some phenomenoligical enhancement factors.
-  - _Keywords:_ mobility, valence, defines, comprising, perpendicular, velocity, saturation, models
+  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with s…
 - **19.3.1.1 low field - constant** _(p.429)_ <a id="19-3-1-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.49 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **19.3.1.2 low field - Arora** _(p.429)_ <a id="19-3-1-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the followi…
 - **19.3.1.3 low field - Masetti** <a id="19-3-1-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the follo…
 - **19.3.1.4 perpendicular field - Yamaguchi** _(p.430)_ <a id="19-3-1-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the followi…
 - **19.3.1.5 perpendicular field - Lombardi** <a id="19-3-1-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the followin…
 - **19.3.1.6 high field - Caughey-Thomas velocity saturation** _(p.431)_ <a id="19-3-1-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following i…
 - **19.3.1.7 overall mobility model** <a id="19-3-1-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default…
 - **19.3.2 valley minima - position and orientation** _(p.432–433)_ <a id="19-3-2-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, minima, valley, valence, colspan, within, analytic
+  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amende…
 - **19.3.3 valley minima - parameters** _(p.434)_ <a id="19-3-3-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ minima, valley, Variable, Description, Units, colspan, Valley, Properties
+  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 usin…
 - **19.3.4 HH band mechanisms - names** <a id="19-3-4-hh-band-mechanisms-names"></a>
-  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **19.3.5 HH band mechanisms - parameters** _(p.435)_ <a id="19-3-5-hh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **19.3.6 LH band mechanisms - names** _(p.435)_ <a id="19-3-6-lh-band-mechanisms-names"></a>
-  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **19.3.7 LH band mechanisms - parameters** <a id="19-3-7-lh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **19.3.8 SSO band mechanisms - names** <a id="19-3-8-sso-band-mechanisms-names"></a>
-  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing d…
 - **19.3.9 SSO band mechanisms - parameters** _(p.436)_ <a id="19-3-9-sso-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **20 Indium Arsenide Material Model** _(p.436)_ <a id="20-indium-arsenide-material-model"></a>
 - **20.1 Bulk Material Model** _(p.436)_ <a id="20-1-bulk-material-model"></a>
 - **20.1.1 bulk material parameters** _(p.436)_ <a id="20-1-1-bulk-material-parameters"></a>
   - The bulk material parameters listed in table 21.1 may be amended using the following input file syntax
-  - _Keywords:_ Orientation, Magnitude, lattice, vector, Angle, between, degrees, Elastic
 - **20.1.2 Band-To-Band-Tunnelling parameters** _(p.437)_ <a id="20-1-2-band-to-band-tunnelling-parameters"></a>
   - The band-to-band-tunnelling parameters for the Kane model, listed in table 21.2, may be amended using the following input file syntax
-  - _Keywords:_ BTBT, Acoustic, phonon, tunnelling, Kane, listed, amended, syntax
 - **20.2 Conduction Band** _(p.437)_ <a id="20-2-conduction-band"></a>
 - **20.2.1 band edge parameters** _(p.437)_ <a id="20-2-1-band-edge-parameters"></a>
   - The conduction band model parameter values listed in table 21.3 may be amended using the following input file syntax
-  - _Keywords:_ conduction, colspan, Conduction, listed, amended, syntax, MATERIAL, material_name
 - **20.2.2 mobility models** <a id="20-2-2-mobility-models"></a>
   - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
 - **20.2.2.1 low field - constant** _(p.438)_ <a id="20-2-2-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.4 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **20.2.2.2 low field - Arora** _(p.438)_ <a id="20-2-2-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the followin…
 - **20.2.2.3 low field - Masetti** <a id="20-2-2-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.6 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.6 may be amended using the follow…
 - **20.2.2.4 perpendicular field - Yamaguchi** _(p.439)_ <a id="20-2-2-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the followin…
 - **20.2.2.5 perpendicular field - Lombardi** <a id="20-2-2-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following…
 - **20.2.2.6 high field - Caughey-Thomas velocity saturation** _(p.440)_ <a id="20-2-2-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following in…
 - **20.2.2.7 overall mobility model** <a id="20-2-2-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default…
 - **20.2.3 valley minima - position and orientation** _(p.441–445)_ <a id="20-2-3-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, valley, minima, Conduction, colspan, within, Variable
+  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be ame…
 - **20.2.4 valley minima - parameters** _(p.446)_ <a id="20-2-4-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ deformation, minima, Uniaxial, potential, valley, Variable, Description, Units
+  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 usin…
 - **20.2.5 L valley mechanisms - names** <a id="20-2-5-l-valley-mechanisms-names"></a>
-  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be…
 - **20.2.6 L valley mechanisms - parameters** _(p.447)_ <a id="20-2-6-l-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter value…
 - **20.2.6.1 Acoustic Phonons** _(p.448)_ <a id="20-2-6-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 21.31.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, Acoustic, valley, elastic, Elastic
 - **20.2.6.2 Polar Optical Phonons** _(p.448)_ <a id="20-2-6-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in tables 21.32.
-  - _Keywords:_ colspan, phonon, optical, valley, rowspan, Intra, valleyPolar, Optical
 - **20.2.6.3 Optical Phonons** _(p.449)_ <a id="20-2-6-3-optical-phonons"></a>
   - The default intra- and inter-valley optical phonon parameters are given in tables 24.33-21.36.
-  - _Keywords:_ colspan, phonon, valley, optical, rowspan, Phonon, Valley, Mecahnism
 - **20.2.7 Γ valley mechanisms - names** _(p.449)_ <a id="20-2-7-valley-mechanisms-names"></a>
-  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by a…
 - **20.2.8 Γ valley mechanisms - parameters** _(p.450)_ <a id="20-2-8-valley-mechanisms-parameters"></a>
   - The default parameter values of the Γ minima mechanisms named in table 21.37 may be amended using the following input file syntax
-  - _Keywords:_ minima, mechanisms, amended, syntax, MATERIAL, material_name, conduction, valley_name
 - **20.2.8.1 Acoustic Phonons** <a id="20-2-8-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 21.38.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, valley, inelastic, longitudinal, colspan
 - **20.2.8.2 Polar Optical Phonons** <a id="20-2-8-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 21.39
-  - _Keywords:_ phonon, optical, rowspan, valley, colspan, Intra, valleyPolar, Optical
 - **20.2.8.3 Optical Phonons** _(p.451)_ <a id="20-2-8-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.40-21.41.
-  - _Keywords:_ phonon, rowspan, valley, optical, colspan, Inter, Phonon, Valley
 - **20.2.9 X valley mechanisms - names** _(p.451)_ <a id="20-2-9-x-valley-mechanisms-names"></a>
-  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be…
 - **20.2.10 X valley mechanisms - parameters** _(p.452)_ <a id="20-2-10-x-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter value…
 - **20.2.10.1 Acoustic Phonons** <a id="20-2-10-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 21.43.
-  - _Keywords:_ colspan, acoustic, phonon, Acoustic, valley, elastic, rowspan, Elastic
 - **20.2.10.2 Polar Optical Phonons** <a id="20-2-10-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 21.44
-  - _Keywords:_ colspan, phonon, optical, valley, rowspan, Intra, valleyPolar, Optical
 - **20.2.10.3 Optical Phonons** _(p.453)_ <a id="20-2-10-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.45-21.47.
-  - _Keywords:_ colspan, phonon, valley, optical, rowspan, Inter, Phonon, Valley
 - **20.3 Valence Band** _(p.454)_ <a id="20-3-valence-band"></a>
   - The valence band model parameter values listed in table 21.48 may be amended using the following input file syntax
-  - _Keywords:_ Valence, valence, colspan, defpot, deformation, potential, energy, listed
 - **20.3.1 mobility models** _(p.454)_ <a id="20-3-1-mobility-models"></a>
-  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with some phenomenoligical enhancement factors.
-  - _Keywords:_ mobility, valence, defines, comprising, perpendicular, velocity, saturation, models
+  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with s…
 - **20.3.1.1 low field - constant** _(p.454)_ <a id="20-3-1-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.49 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **20.3.1.2 low field - Arora** _(p.455)_ <a id="20-3-1-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the followi…
 - **20.3.1.3 low field - Masetti** <a id="20-3-1-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the follo…
 - **20.3.1.4 perpendicular field - Yamaguchi** <a id="20-3-1-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the followi…
 - **20.3.1.5 perpendicular field - Lombardi** _(p.456)_ <a id="20-3-1-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the followin…
 - **20.3.1.6 high field - Caughey-Thomas velocity saturation** _(p.457)_ <a id="20-3-1-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following i…
 - **20.3.1.7 overall mobility model** _(p.457)_ <a id="20-3-1-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default…
 - **20.3.2 valley minima - position and orientation** _(p.458)_ <a id="20-3-2-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, minima, valley, valence, Variable, Description, Units
+  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amende…
 - **20.3.3 valley minima - parameters** _(p.459)_ <a id="20-3-3-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ minima, valley, Variable, Description, Units, colspan, Valley, Properties
+  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 usin…
 - **20.3.4 HH band mechanisms - names** _(p.460)_ <a id="20-3-4-hh-band-mechanisms-names"></a>
-  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **20.3.5 HH band mechanisms - parameters** _(p.460–461)_ <a id="20-3-5-hh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **20.3.6 LH band mechanisms - names** <a id="20-3-6-lh-band-mechanisms-names"></a>
-  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **20.3.7 LH band mechanisms - parameters** <a id="20-3-7-lh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **20.3.8 SSO band mechanisms - names** <a id="20-3-8-sso-band-mechanisms-names"></a>
-  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing d…
 - **20.3.9 SSO band mechanisms - parameters** _(p.462)_ <a id="20-3-9-sso-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **21 Aluminium Arsenide Material Model** _(p.462)_ <a id="21-aluminium-arsenide-material-model"></a>
 - **21.1 Bulk Material Model** _(p.462)_ <a id="21-1-bulk-material-model"></a>
 - **21.1.1 bulk material parameters** _(p.462)_ <a id="21-1-1-bulk-material-parameters"></a>
   - The bulk material parameters listed in table 21.1 may be amended using the following input file syntax
-  - _Keywords:_ Orientation, Magnitude, lattice, vector, Angle, between, degrees, Elastic
 - **21.1.2 Band-To-Band-Tunnelling parameters** _(p.463)_ <a id="21-1-2-band-to-band-tunnelling-parameters"></a>
   - The band-to-band-tunnelling parameters for the Kane model, listed in table 21.2, may be amended using the following input file syntax
-  - _Keywords:_ BTBT, Acoustic, phonon, tunnelling, Kane, listed, amended, syntax
 - **21.2 Conduction Band** _(p.463)_ <a id="21-2-conduction-band"></a>
 - **21.2.1 band edge parameters** _(p.463)_ <a id="21-2-1-band-edge-parameters"></a>
   - The conduction band model parameter values listed in table 21.3 may be amended using the following input file syntax
-  - _Keywords:_ conduction, colspan, Conduction, listed, amended, syntax, MATERIAL, material_name
 - **21.2.2 mobility models** <a id="21-2-2-mobility-models"></a>
   - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
 - **21.2.2.1 low field - constant** _(p.464)_ <a id="21-2-2-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.4 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **21.2.2.2 low field - Arora** _(p.464)_ <a id="21-2-2-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.5 may be amended using the followin…
 - **21.2.2.3 low field - Masetti** <a id="21-2-2-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.6 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.6 may be amended using the follow…
 - **21.2.2.4 perpendicular field - Yamaguchi** _(p.465)_ <a id="21-2-2-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.7 may be amended using the followin…
 - **21.2.2.5 perpendicular field - Lombardi** <a id="21-2-2-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.8 may be amended using the following…
 - **21.2.2.6 high field - Caughey-Thomas velocity saturation** _(p.466)_ <a id="21-2-2-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following in…
 - **21.2.2.7 overall mobility model** <a id="21-2-2-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.10. The default…
 - **21.2.3 valley minima - position and orientation** _(p.467–471)_ <a id="21-2-3-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, valley, minima, Conduction, colspan, within, Variable
+  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be ame…
 - **21.2.4 valley minima - parameters** _(p.472)_ <a id="21-2-4-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ deformation, minima, Uniaxial, potential, valley, Variable, Description, Units
+  - The valley minima model parameters, listed in tables 21.29 - 21.28, may be amended for each of the named valleys listed in table 24.11 usin…
 - **21.2.5 L valley mechanisms - names** <a id="21-2-5-l-valley-mechanisms-names"></a>
-  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 21.30. The default scattering model may be…
 - **21.2.6 L valley mechanisms - parameters** _(p.473)_ <a id="21-2-6-l-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 21.30, have the same parameter value…
 - **21.2.6.1 Acoustic Phonons** _(p.474)_ <a id="21-2-6-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 21.31.
-  - _Keywords:_ colspan, acoustic, phonon, rowspan, Acoustic, valley, elastic, Elastic
 - **21.2.6.2 Polar Optical Phonons** _(p.474)_ <a id="21-2-6-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in tables 21.32.
-  - _Keywords:_ colspan, phonon, optical, rowspan, valley, Intra, valleyPolar, Optical
 - **21.2.6.3 Optical Phonons** _(p.475)_ <a id="21-2-6-3-optical-phonons"></a>
   - The default intra- and inter-valley optical phonon parameters are given in tables 24.33-21.36.
-  - _Keywords:_ colspan, phonon, valley, optical, rowspan, Phonon, Valley, Mecahnism
 - **21.2.7 Γ valley mechanisms - names** _(p.475)_ <a id="21-2-7-valley-mechanisms-names"></a>
-  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default Γ minima defines the set of named scattering mechanisms listed in table 21.37. The default scattering model may be amended by a…
 - **21.2.8 Γ valley mechanisms - parameters** _(p.476)_ <a id="21-2-8-valley-mechanisms-parameters"></a>
   - The default parameter values of the Γ minima mechanisms named in table 21.37 may be amended using the following input file syntax
-  - _Keywords:_ minima, mechanisms, amended, syntax, MATERIAL, material_name, conduction, valley_name
 - **21.2.8.1 Acoustic Phonons** <a id="21-2-8-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 21.38.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, valley, inelastic, longitudinal, colspan
 - **21.2.8.2 Polar Optical Phonons** <a id="21-2-8-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 21.39
-  - _Keywords:_ phonon, optical, rowspan, valley, colspan, Intra, valleyPolar, Optical
 - **21.2.8.3 Optical Phonons** _(p.477)_ <a id="21-2-8-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.40-21.41.
-  - _Keywords:_ phonon, rowspan, valley, optical, colspan, Inter, Phonon, Valley
 - **21.2.9 X valley mechanisms - names** _(p.477)_ <a id="21-2-9-x-valley-mechanisms-names"></a>
-  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 21.42. The default scattering model may be…
 - **21.2.10 X valley mechanisms - parameters** _(p.478)_ <a id="21-2-10-x-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 21.42, have the same parameter value…
 - **21.2.10.1 Acoustic Phonons** <a id="21-2-10-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 21.43.
-  - _Keywords:_ colspan, acoustic, phonon, Acoustic, valley, elastic, rowspan, Elastic
 - **21.2.10.2 Polar Optical Phonons** <a id="21-2-10-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 21.44
-  - _Keywords:_ colspan, phonon, optical, valley, rowspan, Intra, valleyPolar, Optical
 - **21.2.10.3 Optical Phonons** _(p.479)_ <a id="21-2-10-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 21.45-21.47.
-  - _Keywords:_ colspan, phonon, valley, optical, rowspan, Inter, Phonon, Valley
 - **21.3 Valence Band** _(p.480)_ <a id="21-3-valence-band"></a>
   - The valence band model parameter values listed in table 21.48 may be amended using the following input file syntax
-  - _Keywords:_ Valence, valence, colspan, defpot, deformation, potential, energy, listed
 - **21.3.1 mobility models** _(p.480)_ <a id="21-3-1-mobility-models"></a>
-  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with some phenomenoligical enhancement factors.
-  - _Keywords:_ mobility, valence, defines, comprising, perpendicular, velocity, saturation, models
+  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with s…
 - **21.3.1.1 low field - constant** _(p.480)_ <a id="21-3-1-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 21.49 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **21.3.1.2 low field - Arora** _(p.481)_ <a id="21-3-1-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 21.50 may be amended using the followi…
 - **21.3.1.3 low field - Masetti** _(p.481)_ <a id="21-3-1-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 21.51 may be amended using the follo…
 - **21.3.1.4 perpendicular field - Yamaguchi** <a id="21-3-1-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 21.52 may be amended using the followi…
 - **21.3.1.5 perpendicular field - Lombardi** _(p.482)_ <a id="21-3-1-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 21.53 may be amended using the followin…
 - **21.3.1.6 high field - Caughey-Thomas velocity saturation** _(p.483)_ <a id="21-3-1-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 21.54 may be amended using the following i…
 - **21.3.1.7 overall mobility model** _(p.483)_ <a id="21-3-1-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 21.55. The default…
 - **21.3.2 valley minima - position and orientation** _(p.484)_ <a id="21-3-2-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, position, minima, valley, valence, Variable, Description, Units
+  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 21.56. The default model may be amende…
 - **21.3.3 valley minima - parameters** _(p.485)_ <a id="21-3-3-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ minima, valley, Variable, Description, Units, colspan, Valley, Properties
+  - The valley minima model parameters, listed in tables 21.60 - 21.62, may be amended for each of the named valleys listed in table 24.11 usin…
 - **21.3.4 HH band mechanisms - names** _(p.486)_ <a id="21-3-4-hh-band-mechanisms-names"></a>
-  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **21.3.5 HH band mechanisms - parameters** _(p.486–487)_ <a id="21-3-5-hh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **21.3.6 LH band mechanisms - names** <a id="21-3-6-lh-band-mechanisms-names"></a>
-  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **21.3.7 LH band mechanisms - parameters** <a id="21-3-7-lh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **21.3.8 SSO band mechanisms - names** <a id="21-3-8-sso-band-mechanisms-names"></a>
-  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing d…
 - **21.3.9 SSO band mechanisms - parameters** <a id="21-3-9-sso-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **22 Silicon1−x Germaniumx Binary Alloy Material Model** _(p.488)_ <a id="22-silicon1-x-germaniumx-binary-alloy-material-model"></a>
 - **22.1 Bulk Material Model** _(p.488)_ <a id="22-1-bulk-material-model"></a>
 - **22.1.1 bulk material parameters** _(p.488)_ <a id="22-1-1-bulk-material-parameters"></a>
   - The bulk material parameters listed in table 24.1 may be amended using the following input file syntax
-  - _Keywords:_ linear, material, Binary, colspan, Orientation, Magnitude, lattice, vector
 - **22.1.2 Band-To-Band-Tunnelling parameters** _(p.489)_ <a id="22-1-2-band-to-band-tunnelling-parameters"></a>
   - The band-to-band-tunnelling parameters for the Kane model, listed in table 24.2, may be amended using the following input file syntax
-  - _Keywords:_ rowspan, BTBT, Acoustic, phonon, tunnelling, Kane, listed, amended
 - **22.2 Conduction Band** <a id="22-2-conduction-band"></a>
 - **22.2.1 band edge parameters** _(p.490)_ <a id="22-2-1-band-edge-parameters"></a>
   - The conduction band model parameter values listed in table 24.3 may be amended using the following input file syntax
-  - _Keywords:_ conduction, constant, colspan, Conduction, listed, amended, syntax, MATERIAL
 - **22.2.2 mobility models** _(p.490)_ <a id="22-2-2-mobility-models"></a>
   - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
 - **22.2.2.1 low field - constant** _(p.490–491)_ <a id="22-2-2-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 24.4 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **22.2.2.2 low field - Arora** _(p.491–492)_ <a id="22-2-2-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.5 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.5 may be amended using the followin…
 - **22.2.2.3 low field - Masetti** _(p.492)_ <a id="22-2-2-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.6 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.6 may be amended using the follow…
 - **22.2.2.4 perpendicular field - Yamaguchi** _(p.493)_ <a id="22-2-2-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.7 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.7 may be amended using the followin…
 - **22.2.2.5 perpendicular field - Lombardi** _(p.494)_ <a id="22-2-2-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.8 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.8 may be amended using the following…
 - **22.2.2.6 high field - Caughey-Thomas velocity saturation** _(p.495)_ <a id="22-2-2-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 22.9 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 22.9 may be amended using the following in…
 - **22.2.2.7 overall mobility model** _(p.495)_ <a id="22-2-2-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.10. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.10. The default…
 - **22.2.3 valley minima - position and orientation** _(p.496–499)_ <a id="22-2-3-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, B_x, position, valley, minima, Conduction, colspan, within
+  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be ame…
 - **22.2.4 valley minima - parameters** _(p.500–502)_ <a id="22-2-4-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 24.29 - 24.28, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ colspan, geqslant, deformation, linear, minima, Uniaxial, potential, valley
+  - The valley minima model parameters, listed in tables 24.29 - 24.28, may be amended for each of the named valleys listed in table 24.11 usin…
 - **22.2.5 L valley mechanisms - names** _(p.502)_ <a id="22-2-5-l-valley-mechanisms-names"></a>
-  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 24.30. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 24.30. The default scattering model may be…
 - **22.2.6 L valley mechanisms - parameters** _(p.503)_ <a id="22-2-6-l-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 24.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 24.30, have the same parameter value…
 - **22.2.6.1 Acoustic Phonons** _(p.504)_ <a id="22-2-6-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 22.31.
-  - _Keywords:_ linear, acoustic, phonon, rowspan, Acoustic, valley, inelastic, colspan
 - **22.2.6.2 Optical Phonons** _(p.505)_ <a id="22-2-6-2-optical-phonons"></a>
   - The default intra- and inter-valley optical phonon parameters are given in tables 24.34-24.36.
-  - _Keywords:_ phonon, rowspan, linear, valley, optical, colspan, Inter, Phonon
 - **22.2.6.3 Alloy Scattering** _(p.505)_ <a id="22-2-6-3-alloy-scattering"></a>
   - The default intra-valley alloy potential scattering parameters are given in table 22.36
-  - _Keywords:_ potential, rowspan, valley, scattering, colspan, Intra, valleyAlloy, Potential
 - **22.2.7 Γ valley mechanisms - names** <a id="22-2-7-valley-mechanisms-names"></a>
-  - The default Γ minima defines the set of named scattering mechanisms listed in table 24.37. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default Γ minima defines the set of named scattering mechanisms listed in table 24.37. The default scattering model may be amended by a…
 - **22.2.8 Γ valley mechanisms - parameters** _(p.506)_ <a id="22-2-8-valley-mechanisms-parameters"></a>
   - The default parameter values of the Γ minima mechanisms named in table 24.37 may be amended using the following input file syntax
-  - _Keywords:_ minima, mechanisms, amended, syntax, MATERIAL, material_name, conduction, valley_name
 - **22.2.8.1 Acoustic Phonons** _(p.507)_ <a id="22-2-8-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 24.38.
-  - _Keywords:_ linear, acoustic, phonon, rowspan, Acoustic, valley, inelastic, colspan
 - **22.2.8.2 Optical Phonons** _(p.508)_ <a id="22-2-8-2-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 24.40-24.41.
-  - _Keywords:_ phonon, rowspan, linear, valley, optical, colspan, Inter, Phonon
 - **22.2.8.3 Alloy Scattering** _(p.508)_ <a id="22-2-8-3-alloy-scattering"></a>
   - The default intra-valley alloy potential scattering parameters are given in table 22.42
-  - _Keywords:_ potential, rowspan, valley, scattering, colspan, Intra, valleyAlloy, Potential
 - **22.2.9 X valley mechanisms - names** <a id="22-2-9-x-valley-mechanisms-names"></a>
-  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 24.42. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 24.42. The default scattering model may be…
 - **22.2.10 X valley mechanisms - parameters** _(p.509–510)_ <a id="22-2-10-x-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 24.42, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 24.42, have the same parameter value…
 - **22.2.10.1 Acoustic Phonons** _(p.510)_ <a id="22-2-10-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 24.43.
-  - _Keywords:_ linear, acoustic, phonon, rowspan, Acoustic, valley, inelastic, colspan
 - **22.2.10.2 Optical Phonons** _(p.511–512)_ <a id="22-2-10-2-optical-phonons"></a>
   - The default inter-valley g-type and f-type optical phonon parameters are given in tables 22.46-22.51.
-  - _Keywords:_ colspan, phonon, linear, rowspan, optical, Phonon, Valley, Variable
 - **22.2.10.3 Alloy Scattering** _(p.513)_ <a id="22-2-10-3-alloy-scattering"></a>
   - The default intra-valley alloy potential scattering parameters are given in table 22.54
-  - _Keywords:_ potential, rowspan, valley, scattering, colspan, Intra, valleyAlloy, Potential
 - **22.2.11 Surface roughness parameters** _(p.513)_ <a id="22-2-11-surface-roughness-parameters"></a>
-  - The default surface roughness paramters are given in table 22.55. These are applied for all valleys in all fractions, and apply to all equivalent surface orientations.
-  - _Keywords:_ surface, roughness, colspan, Surface, carrier, electrons, paramters, These
+  - The default surface roughness paramters are given in table 22.55. These are applied for all valleys in all fractions, and apply to all equi…
 - **22.3 Valence Band** _(p.514–515)_ <a id="22-3-valence-band"></a>
   - The valence band model parameter values listed in table 24.48 may be amended using the following input file syntax
-  - _Keywords:_ colspan, Valence, quadraticIII, constant, valence, geqslant, defpot, deformation
 - **22.3.1 mobility models** _(p.514–515)_ <a id="22-3-1-mobility-models"></a>
-  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with some phenomenoligical enhancement factors.
-  - _Keywords:_ mobility, valence, defines, comprising, perpendicular, velocity, saturation, models
+  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with s…
 - **22.3.1.1 low field - constant** _(p.515)_ <a id="22-3-1-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 24.49 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **22.3.1.2 low field - Arora** _(p.516)_ <a id="22-3-1-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.50 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.50 may be amended using the followi…
 - **22.3.1.3 low field - Masetti** <a id="22-3-1-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.51 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.51 may be amended using the follo…
 - **22.3.1.4 perpendicular field - Yamaguchi** _(p.517)_ <a id="22-3-1-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.52 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.52 may be amended using the followi…
 - **22.3.1.5 perpendicular field - Lombardi** _(p.518)_ <a id="22-3-1-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.53 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.53 may be amended using the followin…
 - **22.3.1.6 high field - Caughey-Thomas velocity saturation** _(p.519)_ <a id="22-3-1-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.54 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.54 may be amended using the following i…
 - **22.3.1.7 overall mobility model** _(p.519)_ <a id="22-3-1-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.55. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.55. The default…
 - **22.3.2 valley minima - position and orientation** _(p.520)_ <a id="22-3-2-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 24.56. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, B_x, position, minima, valley, valence, Variable, Description
+  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 24.56. The default model may be amende…
 - **22.3.3 valley minima - parameters** _(p.521–523)_ <a id="22-3-3-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 24.60 - 24.62, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ colspan, constant, minima, valley, Variable, Description, Interpolation, Units
+  - The valley minima model parameters, listed in tables 24.60 - 24.62, may be amended for each of the named valleys listed in table 24.11 usin…
 - **22.3.4 HH band mechanisms - names** _(p.523–524)_ <a id="22-3-4-hh-band-mechanisms-names"></a>
-  - The heavy hole band defines the set of named scattering mechanisms listed in table 22.71. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input
-  - _Keywords:_ ADDED, Phonon, Acoustic, scattering, Optical, mechanism, MATERIAL, material_name
+  - The heavy hole band defines the set of named scattering mechanisms listed in table 22.71. The default scattering model may be amended by ad…
 - **22.3.5 HH band mechanisms - parameters** _(p.524)_ <a id="22-3-5-hh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms named in table 22.71 may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **22.3.5.1 Acoustic Phonons** _(p.525)_ <a id="22-3-5-1-acoustic-phonons"></a>
   - The default inter-band inelastic longitudinal acoustic phonon parameters are given in table 22.72.
-  - _Keywords:_ colspan, acoustic, linear, phonon, rowspan, inelastic, Longitudinal, Inelastic
 - **22.3.5.2 Optical Phonons** <a id="22-3-5-2-optical-phonons"></a>
   - The default inter-band optical phonon parameters are given in table 22.74.
-  - _Keywords:_ colspan, phonon, linear, optical, rowspan, Inter, bandOptical, Phonon
 - **22.3.5.3 Alloy Scattering** <a id="22-3-5-3-alloy-scattering"></a>
   - The default intra-valley alloy potential scattering parameters are given in table 22.75
-  - _Keywords:_ potential, rowspan, valley, scattering, colspan, Intra, valleyAlloy, Potential
 - **22.3.6 LH band mechanisms - names** _(p.526)_ <a id="22-3-6-lh-band-mechanisms-names"></a>
-  - The light hole band defines the set of named scattering mechanisms listed in table 22.76. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Acoustic, scattering, Optical, mechanism, MATERIAL, material_name
+  - The light hole band defines the set of named scattering mechanisms listed in table 22.76. The default scattering model may be amended by ad…
 - **22.3.7 LH band mechanisms - parameters** _(p.526)_ <a id="22-3-7-lh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms named in table 22.76 may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **22.3.7.1 Acoustic Phonons** _(p.527)_ <a id="22-3-7-1-acoustic-phonons"></a>
   - The default inter-band inelastic longitudinal acoustic phonon parameters are given in table 22.77.
-  - _Keywords:_ colspan, acoustic, linear, phonon, inelastic, rowspan, Longitudinal, Inelastic
 - **22.3.7.2 Optical Phonons** _(p.527)_ <a id="22-3-7-2-optical-phonons"></a>
   - The default inter-band optical phonon parameters are given in table 22.79.
-  - _Keywords:_ colspan, phonon, linear, optical, rowspan, Inter, bandOptical, Phonon
 - **22.3.7.3 Alloy Scattering** <a id="22-3-7-3-alloy-scattering"></a>
   - The default intra-valley alloy potential scattering parameters are given in table 22.80
-  - _Keywords:_ potential, rowspan, valley, scattering, colspan, Intra, valleyAlloy, Potential
 - **22.3.8 SSO band mechanisms - names** <a id="22-3-8-sso-band-mechanisms-names"></a>
-  - The spin split-off band defines the set of named scattering mechanisms listed in table 22.81. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Acoustic, scattering, Optical, mechanism, MATERIAL, material_name
+  - The spin split-off band defines the set of named scattering mechanisms listed in table 22.81. The default scattering model may be amended b…
 - **22.3.9 SSO band mechanisms - parameters** _(p.528)_ <a id="22-3-9-sso-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms named in table 22.81 may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **22.3.9.1 Acoustic Phonons** _(p.529)_ <a id="22-3-9-1-acoustic-phonons"></a>
   - The default inter-band inelastic longitudinal acoustic phonon parameters are given in table 22.82.
-  - _Keywords:_ colspan, acoustic, linear, phonon, rowspan, inelastic, Longitudinal, Inelastic
 - **22.3.9.2 Optical Phonons** _(p.529)_ <a id="22-3-9-2-optical-phonons"></a>
   - The default inter-band optical phonon parameters are given in table 22.84.
-  - _Keywords:_ colspan, phonon, linear, optical, rowspan, Inter, bandOptical, Phonon
 - **22.3.9.3 Alloy Scattering** <a id="22-3-9-3-alloy-scattering"></a>
   - The default intra-valley alloy potential scattering parameters are given in table 22.85
-  - _Keywords:_ potential, rowspan, SSO, valley, scattering, colspan, Intra, valleyAlloy
 - **22.3.10 Surface roughness parameters** <a id="22-3-10-surface-roughness-parameters"></a>
-  - The default surface roughness paramters are given in table 22.86. These are applied for all valleys, and apply to all equivalent surface orientations.
-  - _Keywords:_ surface, roughness, colspan, Surface, carrier, paramters, These, applied
+  - The default surface roughness paramters are given in table 22.86. These are applied for all valleys, and apply to all equivalent surface or…
 - **23 Indium1−x Galliumx Arsenide Binary Alloy Material Model** _(p.531)_ <a id="23-indium1-x-galliumx-arsenide-binary-alloy-material-model"></a>
 - **23.1 Bulk Material Model** _(p.531)_ <a id="23-1-bulk-material-model"></a>
 - **23.1.1 bulk material parameters** _(p.531)_ <a id="23-1-1-bulk-material-parameters"></a>
   - The bulk material parameters listed in table 24.1 may be amended using the following input file syntax
-  - _Keywords:_ linear, material, Binary, colspan, Orientation, Magnitude, lattice, vector
 - **23.1.2 Band-To-Band-Tunnelling parameters** _(p.532)_ <a id="23-1-2-band-to-band-tunnelling-parameters"></a>
   - The band-to-band-tunnelling parameters for the Kane model, listed in table 24.2, may be amended using the following input file syntax
-  - _Keywords:_ BTBT, Acoustic, phonon, tunnelling, Kane, listed, amended, syntax
 - **23.2 Conduction Band** <a id="23-2-conduction-band"></a>
 - **23.2.1 band edge parameters** <a id="23-2-1-band-edge-parameters"></a>
   - The conduction band model parameter values listed in table 24.3 may be amended using the following input file syntax
-  - _Keywords:_ conduction, constant, colspan, Conduction, listed, amended, syntax, MATERIAL
 - **23.2.2 mobility models** _(p.533)_ <a id="23-2-2-mobility-models"></a>
   - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
 - **23.2.2.1 low field - constant** _(p.533)_ <a id="23-2-2-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 24.4 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **23.2.2.2 low field - Arora** <a id="23-2-2-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.5 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.5 may be amended using the followin…
 - **23.2.2.3 low field - Masetti** <a id="23-2-2-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.6 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.6 may be amended using the follow…
 - **23.2.2.4 perpendicular field - Yamaguchi** _(p.534)_ <a id="23-2-2-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.7 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.7 may be amended using the followin…
 - **23.2.2.5 perpendicular field - Lombardi** <a id="23-2-2-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.8 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.8 may be amended using the following…
 - **23.2.2.6 high field - Caughey-Thomas velocity saturation** _(p.535)_ <a id="23-2-2-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following in…
 - **23.2.2.7 overall mobility model** <a id="23-2-2-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.10. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.10. The default…
 - **23.2.3 valley minima - position and orientation** _(p.536–540)_ <a id="23-2-3-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, B_x, position, valley, minima, Conduction, within, Variable
+  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be ame…
 - **23.2.4 valley minima - parameters** _(p.541)_ <a id="23-2-4-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 24.29 - 24.28, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ linear, deformation, minima, Uniaxial, potential, quadraticIII, valley, Variable
+  - The valley minima model parameters, listed in tables 24.29 - 24.28, may be amended for each of the named valleys listed in table 24.11 usin…
 - **23.2.5 L valley mechanisms - names** <a id="23-2-5-l-valley-mechanisms-names"></a>
-  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 24.30. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 24.30. The default scattering model may be…
 - **23.2.6 L valley mechanisms - parameters** _(p.542)_ <a id="23-2-6-l-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 24.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 24.30, have the same parameter value…
 - **23.2.6.1 Acoustic Phonons** _(p.543)_ <a id="23-2-6-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 24.31.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, linear, valley, elastic, colspan
 - **23.2.6.2 Polar Optical Phonons** _(p.543)_ <a id="23-2-6-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in tables 24.32.
-  - _Keywords:_ phonon, valley, optical, rowspan, colspan, Intra, Polar, Optical
 - **23.2.6.3 Optical Phonons** _(p.544)_ <a id="23-2-6-3-optical-phonons"></a>
   - The default intra- and inter-valley optical phonon parameters are given in tables 24.33-24.36.
-  - _Keywords:_ phonon, rowspan, linear, optical, valley, colspan, Phonon, Valley
 - **23.2.7 Γ valley mechanisms - names** _(p.544)_ <a id="23-2-7-valley-mechanisms-names"></a>
-  - The default Γ minima defines the set of named scattering mechanisms listed in table 24.37. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default Γ minima defines the set of named scattering mechanisms listed in table 24.37. The default scattering model may be amended by a…
 - **23.2.8 Γ valley mechanisms - parameters** _(p.545)_ <a id="23-2-8-valley-mechanisms-parameters"></a>
   - The default parameter values of the Γ minima mechanisms named in table 24.37 may be amended using the following input file syntax
-  - _Keywords:_ minima, mechanisms, amended, syntax, MATERIAL, material_name, conduction, valley_name
 - **23.2.8.1 Acoustic Phonons** <a id="23-2-8-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 24.38.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, linear, valley, inelastic, longitudinal
 - **23.2.8.2 Polar Optical Phonons** <a id="23-2-8-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 24.39
-  - _Keywords:_ phonon, optical, rowspan, valley, colspan, Intra, valleyPolar, Optical
 - **23.2.8.3 Optical Phonons** _(p.546)_ <a id="23-2-8-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 24.40-24.41.
-  - _Keywords:_ phonon, rowspan, linear, valley, optical, colspan, Inter, Phonon
 - **23.2.9 X valley mechanisms - names** _(p.546)_ <a id="23-2-9-x-valley-mechanisms-names"></a>
-  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 24.42. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 24.42. The default scattering model may be…
 - **23.2.10 X valley mechanisms - parameters** _(p.547)_ <a id="23-2-10-x-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 24.42, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 24.42, have the same parameter value…
 - **23.2.10.1 Acoustic Phonons** <a id="23-2-10-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 24.43.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, linear, valley, elastic, colspan
 - **23.2.10.2 Polar Optical Phonons** <a id="23-2-10-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 24.44
-  - _Keywords:_ phonon, optical, rowspan, valley, colspan, Intra, valleyPolar, Optical
 - **23.2.10.3 Optical Phonons** _(p.548)_ <a id="23-2-10-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 24.45-24.47.
-  - _Keywords:_ phonon, rowspan, linear, valley, optical, colspan, Inter, Phonon
 - **23.2.11 Surface roughness parameters** <a id="23-2-11-surface-roughness-parameters"></a>
-  - The default surface roughness paramters are given in table 23.48. These are applied for all valleys in all fractions, and apply to all equivalent surface orientations.
-  - _Keywords:_ roughness, surface, Surface, paramters, These, applied, valleys, fractions
+  - The default surface roughness paramters are given in table 23.48. These are applied for all valleys in all fractions, and apply to all equi…
 - **23.3 Valence Band** _(p.549)_ <a id="23-3-valence-band"></a>
   - The valence band model parameter values listed in table 24.48 may be amended using the following input file syntax
-  - _Keywords:_ Valence, linear, valence, colspan, defpot, deformation, potential, constant
 - **23.3.1 mobility models** _(p.549)_ <a id="23-3-1-mobility-models"></a>
-  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with some phenomenoligical enhancement factors.
-  - _Keywords:_ mobility, valence, defines, comprising, perpendicular, velocity, saturation, models
+  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with s…
 - **23.3.1.1 low field - constant** _(p.549–550)_ <a id="23-3-1-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 24.49 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **23.3.1.2 low field - Arora** _(p.550)_ <a id="23-3-1-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.50 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.50 may be amended using the followi…
 - **23.3.1.3 low field - Masetti** <a id="23-3-1-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.51 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.51 may be amended using the follo…
 - **23.3.1.4 perpendicular field - Yamaguchi** _(p.551)_ <a id="23-3-1-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.52 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.52 may be amended using the followi…
 - **23.3.1.5 perpendicular field - Lombardi** <a id="23-3-1-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.53 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.53 may be amended using the followin…
 - **23.3.1.6 high field - Caughey-Thomas velocity saturation** _(p.552)_ <a id="23-3-1-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.54 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.54 may be amended using the following i…
 - **23.3.1.7 overall mobility model** <a id="23-3-1-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.55. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.55. The default…
 - **23.3.2 valley minima - position and orientation** _(p.553–554)_ <a id="23-3-2-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 24.56. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, B_x, position, minima, valley, valence, colspan, within
+  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 24.56. The default model may be amende…
 - **23.3.3 valley minima - parameters** _(p.555)_ <a id="23-3-3-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 24.60 - 24.62, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ linear, minima, valley, Variable, Description, Interpolation, Units, colspan
+  - The valley minima model parameters, listed in tables 24.60 - 24.62, may be amended for each of the named valleys listed in table 24.11 usin…
 - **23.3.4 HH band mechanisms - names** <a id="23-3-4-hh-band-mechanisms-names"></a>
-  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **23.3.5 HH band mechanisms - parameters** _(p.556)_ <a id="23-3-5-hh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **23.3.6 LH band mechanisms - names** _(p.556)_ <a id="23-3-6-lh-band-mechanisms-names"></a>
-  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **23.3.7 LH band mechanisms - parameters** <a id="23-3-7-lh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **23.3.8 SSO band mechanisms - names** <a id="23-3-8-sso-band-mechanisms-names"></a>
-  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing d…
 - **23.3.9 SSO band mechanisms - parameters** <a id="23-3-9-sso-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **24 Indium1−x Aluminiumx Arsenide Binary Alloy Material Model** _(p.557)_ <a id="24-indium1-x-aluminiumx-arsenide-binary-alloy-material-model"></a>
 - **24.1 Bulk Material Model** _(p.557)_ <a id="24-1-bulk-material-model"></a>
 - **24.1.1 bulk material parameters** _(p.557)_ <a id="24-1-1-bulk-material-parameters"></a>
   - The bulk material parameters listed in table 24.1 may be amended using the following input file syntax
-  - _Keywords:_ linear, material, Binary, colspan, Orientation, Magnitude, lattice, vector
 - **24.1.2 Band-To-Band-Tunnelling parameters** _(p.558)_ <a id="24-1-2-band-to-band-tunnelling-parameters"></a>
   - The band-to-band-tunnelling parameters for the Kane model, listed in table 24.2, may be amended using the following input file syntax
-  - _Keywords:_ BTBT, Acoustic, phonon, tunnelling, Kane, listed, amended, syntax
 - **24.2 Conduction Band** <a id="24-2-conduction-band"></a>
 - **24.2.1 band edge parameters** <a id="24-2-1-band-edge-parameters"></a>
   - The conduction band model parameter values listed in table 24.3 may be amended using the following input file syntax
-  - _Keywords:_ conduction, constant, colspan, Conduction, listed, amended, syntax, MATERIAL
 - **24.2.2 mobility models** _(p.559)_ <a id="24-2-2-mobility-models"></a>
   - The conduction band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models.
-  - _Keywords:_ mobility, conduction, defines, comprising, perpendicular, velocity, saturation, models
 - **24.2.2.1 low field - constant** _(p.559)_ <a id="24-2-2-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 24.4 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **24.2.2.2 low field - Arora** _(p.560)_ <a id="24-2-2-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.5 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.5 may be amended using the followin…
 - **24.2.2.3 low field - Masetti** _(p.560)_ <a id="24-2-2-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.6 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.6 may be amended using the follow…
 - **24.2.2.4 perpendicular field - Yamaguchi** _(p.561)_ <a id="24-2-2-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.7 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.7 may be amended using the followin…
 - **24.2.2.5 perpendicular field - Lombardi** _(p.562)_ <a id="24-2-2-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.8 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.8 may be amended using the following…
 - **24.2.2.6 high field - Caughey-Thomas velocity saturation** <a id="24-2-2-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.9 may be amended using the following in…
 - **24.2.2.7 overall mobility model** <a id="24-2-2-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.10. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.10. The default…
 - **24.2.3 valley minima - position and orientation** _(p.563–567)_ <a id="24-2-3-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, B_x, position, valley, minima, Conduction, within, Variable
+  - The analytic multi-valley conduction band model is comprised of the named valley minima listed in table 24.11. The default model may be ame…
 - **24.2.4 valley minima - parameters** _(p.568)_ <a id="24-2-4-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 24.29 - 24.28, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ linear, deformation, minima, Uniaxial, potential, valley, quadraticIII, Variable
+  - The valley minima model parameters, listed in tables 24.29 - 24.28, may be amended for each of the named valleys listed in table 24.11 usin…
 - **24.2.5 L valley mechanisms - names** <a id="24-2-5-l-valley-mechanisms-names"></a>
-  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 24.30. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 8 equivalent L minima define the set of named scattering mechanisms listed in table 24.30. The default scattering model may be…
 - **24.2.6 L valley mechanisms - parameters** _(p.569)_ <a id="24-2-6-l-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 24.30, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 8 L minima, and named in table 24.30, have the same parameter value…
 - **24.2.6.1 Acoustic Phonons** _(p.570)_ <a id="24-2-6-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 24.31.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, linear, valley, elastic, colspan
 - **24.2.6.2 Polar Optical Phonons** _(p.570)_ <a id="24-2-6-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in tables 24.32.
-  - _Keywords:_ phonon, optical, rowspan, valley, colspan, Intra, valleyPolar, Optical
 - **24.2.6.3 Optical Phonons** _(p.571)_ <a id="24-2-6-3-optical-phonons"></a>
   - The default intra- and inter-valley optical phonon parameters are given in tables 24.33-24.36.
-  - _Keywords:_ phonon, rowspan, linear, optical, valley, colspan, Phonon, Valley
 - **24.2.7 Γ valley mechanisms - names** _(p.571)_ <a id="24-2-7-valley-mechanisms-names"></a>
-  - The default Γ minima defines the set of named scattering mechanisms listed in table 24.37. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default Γ minima defines the set of named scattering mechanisms listed in table 24.37. The default scattering model may be amended by a…
 - **24.2.8 Γ valley mechanisms - parameters** _(p.572)_ <a id="24-2-8-valley-mechanisms-parameters"></a>
   - The default parameter values of the Γ minima mechanisms named in table 24.37 may be amended using the following input file syntax
-  - _Keywords:_ minima, mechanisms, amended, syntax, MATERIAL, material_name, conduction, valley_name
 - **24.2.8.1 Acoustic Phonons** <a id="24-2-8-1-acoustic-phonons"></a>
   - The default intra-valley inelastic longitudinal acoustic phonon parameters are given in table 24.38.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, linear, valley, inelastic, longitudinal
 - **24.2.8.2 Polar Optical Phonons** <a id="24-2-8-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 24.39
-  - _Keywords:_ phonon, optical, rowspan, valley, colspan, Intra, valleyPolar, Optical
 - **24.2.8.3 Optical Phonons** _(p.573)_ <a id="24-2-8-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 24.40-24.41.
-  - _Keywords:_ phonon, rowspan, linear, valley, optical, colspan, Inter, Phonon
 - **24.2.9 X valley mechanisms - names** _(p.573)_ <a id="24-2-9-x-valley-mechanisms-names"></a>
-  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 24.42. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file s...
-  - _Keywords:_ ADDED, Phonon, Optical, scattering, minima, mechanism, MATERIAL, material_name
+  - The default 6 equivalent X minima define the set of named scattering mechanisms listed in table 24.42. The default scattering model may be…
 - **24.2.10 X valley mechanisms - parameters** _(p.574)_ <a id="24-2-10-x-valley-mechanisms-parameters"></a>
-  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 24.42, have the same parameter values. These parameter values may be amended using the following input file syntax
-  - _Keywords:_ equivalent, scattering, mechanism, defined, minima, These, amended, syntax
+  - By default, the equivalent scattering mechanism defined for each of the 6 X minima, and named in table 24.42, have the same parameter value…
 - **24.2.10.1 Acoustic Phonons** <a id="24-2-10-1-acoustic-phonons"></a>
   - The default intra-valley elastic acoustic phonon parameters are given in table 24.43.
-  - _Keywords:_ acoustic, phonon, rowspan, Acoustic, linear, valley, elastic, colspan
 - **24.2.10.2 Polar Optical Phonons** <a id="24-2-10-2-polar-optical-phonons"></a>
   - The default intra-valley polar optical phonon parameters are given in table 24.44
-  - _Keywords:_ phonon, optical, rowspan, valley, colspan, Intra, valleyPolar, Optical
 - **24.2.10.3 Optical Phonons** _(p.575)_ <a id="24-2-10-3-optical-phonons"></a>
   - The default inter-valley optical phonon parameters are given in tables 24.45-24.47.
-  - _Keywords:_ phonon, rowspan, linear, valley, optical, colspan, Inter, Phonon
 - **24.3 Valence Band** _(p.576)_ <a id="24-3-valence-band"></a>
   - The valence band model parameter values listed in table 24.48 may be amended using the following input file syntax
-  - _Keywords:_ Valence, linear, valence, colspan, defpot, deformation, potential, constant
 - **24.3.1 mobility models** _(p.576)_ <a id="24-3-1-mobility-models"></a>
-  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with some phenomenoligical enhancement factors.
-  - _Keywords:_ mobility, valence, defines, comprising, perpendicular, velocity, saturation, models
+  - The valence band defines a mobility model comprising low-field, perpendicular field and velocity saturation mobility models together with s…
 - **24.3.1.1 low field - constant** _(p.576–577)_ <a id="24-3-1-1-low-field-constant"></a>
   - The default constant low-field mobility model parameter values defined in table 24.49 may be amended using the following input file syntax
-  - _Keywords:_ mobility, constant, Constant, defined, amended, syntax, MATERIAL, material_name
 - **24.3.1.2 low field - Arora** _(p.577–578)_ <a id="24-3-1-2-low-field-arora"></a>
-  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.50 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Arora, mobility, concentration, dependent, defined, amended, syntax
+  - The default Arora low-field concentration dependent mobility model parameter values defined in table 24.50 may be amended using the followi…
 - **24.3.1.3 low field - Masetti** _(p.578)_ <a id="24-3-1-3-low-field-masetti"></a>
-  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.51 may be amended using the following input file syntax
-  - _Keywords:_ mobility, Masetti, fitting, concentration, dependent, minimum, reference, defined
+  - The default Masetti low-field concentration dependent mobility model parameter values defined in table 24.51 may be amended using the follo…
 - **24.3.1.4 perpendicular field - Yamaguchi** _(p.579)_ <a id="24-3-1-4-perpendicular-field-yamaguchi"></a>
-  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.52 may be amended using the following input file syntax
-  - _Keywords:_ Yamaguchi, perpendicular, dependent, mobility, defined, amended, syntax, MATERIAL
+  - The default Yamaguchi perpendicular-field dependent mobility model parameter values defined in table 24.52 may be amended using the followi…
 - **24.3.1.5 perpendicular field - Lombardi** _(p.580)_ <a id="24-3-1-5-perpendicular-field-lombardi"></a>
-  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.53 may be amended using the following input file syntax
-  - _Keywords:_ fitting, Lombardi, perpendicular, dependent, mobility, defined, amended, syntax
+  - The default Lombardi perpendicular-field dependent mobility model parameter values defined in table 24.53 may be amended using the followin…
 - **24.3.1.6 high field - Caughey-Thomas velocity saturation** <a id="24-3-1-6-high-field-caughey-thomas-velocity-saturation"></a>
-  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.54 may be amended using the following input file syntax
-  - _Keywords:_ Caughey, saturation, fitting, Thomas, velocity, mobility, pvelocity, defined
+  - The default Caughey-Thomas pvelocity saturation mobility model parameter values defined in table 24.54 may be amended using the following i…
 - **24.3.1.7 overall mobility model** <a id="24-3-1-7-overall-mobility-model"></a>
-  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.55. The default mobility model may be amended using the following input file syntax
-  - _Keywords:_ mobility, Mobility, combining, perpendiculr, models, amended, syntax, MATERIAL
+  - The default mobility model, combining a low-field, perpendiculr-field and high-field mobility models, is given in table 24.55. The default…
 - **24.3.2 valley minima - position and orientation** _(p.581–582)_ <a id="24-3-2-valley-minima-position-and-orientation"></a>
-  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 24.56. The default model may be amended by removing valleys using the following input file syntax
-  - _Keywords:_ orientation, B_x, position, minima, valley, valence, colspan, within
+  - The analytic multi-valley valence band model is comprised of the named valley minima listed in table 24.56. The default model may be amende…
 - **24.3.3 valley minima - parameters** _(p.583)_ <a id="24-3-3-valley-minima-parameters"></a>
-  - The valley minima model parameters, listed in tables 24.60 - 24.62, may be amended for each of the named valleys listed in table 24.11 using the following input file syntax
-  - _Keywords:_ linear, minima, valley, Variable, Description, Interpolation, Units, colspan
+  - The valley minima model parameters, listed in tables 24.60 - 24.62, may be amended for each of the named valleys listed in table 24.11 usin…
 - **24.3.4 HH band mechanisms - names** <a id="24-3-4-hh-band-mechanisms-names"></a>
-  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The heavy hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **24.3.5 HH band mechanisms - parameters** _(p.584)_ <a id="24-3-5-hh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **24.3.6 LH band mechanisms - names** _(p.584)_ <a id="24-3-6-lh-band-mechanisms-names"></a>
-  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The light hole band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defin…
 - **24.3.7 LH band mechanisms - parameters** <a id="24-3-7-lh-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **24.3.8 SSO band mechanisms - names** <a id="24-3-8-sso-band-mechanisms-names"></a>
-  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing defined scattering mechanism models using the following input file syntax
-  - _Keywords:_ scattering, defined, mechanism, MATERIAL, material_name, valence, valley_name, mechanism_name
+  - The spin split-off band defines the set of named scattering mechanisms. The default scattering model may be amended by adding or removing d…
 - **24.3.9 SSO band mechanisms - parameters** _(p.585)_ <a id="24-3-9-sso-band-mechanisms-parameters"></a>
   - The parameter values for the heavy hole scattering mechanisms may be amended using the following input file syntax
-  - _Keywords:_ scattering, mechanisms, amended, syntax, MATERIAL, material_name, valence, valley_name
 - **Part V** _(p.585)_ <a id="part-v"></a>
 - **Appendices** _(p.585–586)_ <a id="appendices"></a>
 - **Appendix A Garand Materials** _(p.586)_ <a id="appendix-a-garand-materials"></a>
   - This appendix lists the materials available in Garand and the name to use when referring to that material in a Garand input file.
-  - _Keywords:_ Garand, appendix, materials, available, referring, material
 - **A.1 Semiconductors** _(p.586–587)_ <a id="a-1-semiconductors"></a>
-  - <table><tr><td>Material</td><td>Garand name</td></tr><tr><td>Silicon</td><td>Silicon</td></tr><tr><td>Germanium</td><td>Germanium</td></tr><tr><td>Silicon germanium</td><td>SiliconGermanium*</td></tr><tr><td> $Si_{0.9}Ge_{0.1}$ </td><td>...
-  - _Keywords:_ In_, Ga_, Al_, Si_, Ge_, arsenide, materials, material
+  - <table><tr><td>Material</td><td>Garand name</td></tr><tr><td>Silicon</td><td>Silicon</td></tr><tr><td>Germanium</td><td>Germanium</td></tr>…
 - **A.2 Insulators** _(p.587–589)_ <a id="a-2-insulators"></a>
-  - <table><tr><td>Material</td><td>Garand name</td></tr><tr><td>Air</td><td>Gas / Air / Void</td></tr><tr><td>Silicon dioxide ( $SiO_{2}$ )</td><td>Oxide</td></tr><tr><td>Buried oxide ( $SiO_{2}$ )</td><td>BuriedOxide</td></tr><tr><td>Inter...
-  - _Keywords:_ Silicon, SiO_, dioxide, Air, Al_, Photoresist, Material, Garand
+  - <table><tr><td>Material</td><td>Garand name</td></tr><tr><td>Air</td><td>Gas / Air / Void</td></tr><tr><td>Silicon dioxide ( $SiO_{2}$ )</t…
 - **Appendix B Input Commands** _(p.589)_ <a id="appendix-b-input-commands"></a>
   - This appendix presents the input commands used by Garand and Garand MC.
-  - _Keywords:_ Garand, appendix, presents
 - **B.1 Syntax** _(p.589)_ <a id="b-1-syntax"></a>
   - For reference, all inputs in Garand have the same basic syntax as follows:
-  - _Keywords:_ reference, Garand, syntax, follows, keyword, always, specified, appendix
 - **B.2 Bias Command** _(p.590)_ <a id="b-2-bias-command"></a>
   - This command controls the applied voltages and associated parameters in Garand.
-  - _Keywords:_ separated, either, single, applied, Initial, controls, voltages, associated
 - **Examples** _(p.590)_ <a id="examples"></a>
   - For some keywords, multiple values can be specified in a comma-separated list. For example:
-  - _Keywords:_ keywords, multiple, specified, separated
 - **B.3 Contact Command** <a id="b-3-contact-command"></a>
   - This command controls the contact parameters in Garand (see Section 2.14).
-  - _Keywords:_ controls, contact, Garand
 - **Syntax** _(p.591–592)_ <a id="syntax"></a>
   - ```txt contact <keyword>=<value> ```
-  - _Keywords:_ contact, Specify, Specifies, specified, resistance, position, device, assumed
 - **Examples** _(p.592)_ <a id="examples"></a>
   - Define the source contact:
-  - _Keywords:_ source, contact, Define, filter, semiconductor
 - **B.4 Doping Command** <a id="b-4-doping-command"></a>
   - This command controls the doping parameters in Garand (see Section 2.6 and Section ??).
-  - _Keywords:_ controls, doping, Garand
 - **Syntax** _(p.593)_ <a id="syntax"></a>
   - ```txt doping <keyword>=<value> ```
-  - _Keywords:_ doping, keyword, Keyword, Description, max_doping, maximum, concentration, allowed
 - **B.5 Mesh Command** _(p.593)_ <a id="b-5-mesh-command"></a>
   - This command defines how the simulation mesh is generated (see Section 2.3).
-  - _Keywords:_ spaces, length, import, integer, spacing, simulation, imported, device
 - **B.6 Model Command** _(p.594)_ <a id="b-6-model-command"></a>
   - This command specifies additional models to be included in the simulation (see Section 3.4).
-  - _Keywords:_ specifies, additional, models, included, simulation
 - **B.6.1 Simple Models** _(p.594)_ <a id="b-6-1-simple-models"></a>
   - Use the following syntax for simple models that are simply switched on or off:
-  - _Keywords:_ rowspan, density, gradient, quantum, corrections, colspan, Specify, boundary
 - **B.6.2 Using Model Identifiers** _(p.595–599)_ <a id="b-6-2-using-model-identifiers"></a>
   - Some models require multiple parameters, in which case, the model itself is identified with a specific model identifier in the form:
-  - _Keywords:_ specified, Specify, tunneling, position, device, assumed, keyword, boundary
 - **B.7 Output Command** <a id="b-7-output-command"></a>
   - This command specifies the simulation output (see Section 3.6).
-  - _Keywords:_ specifies, simulation
 - **Syntax** _(p.600–603)_ <a id="syntax"></a>
   - output <keyword>=<value>
-  - _Keywords:_ rowspan, Select, TDR, concentration, include, Include, Generate, mobility
 - **B.8 Reliability Command** _(p.603–604)_ <a id="b-8-reliability-command"></a>
   - This command is used to add discrete fixed charges associated with device degradation.
-  - _Keywords:_ ITC, boundary, charges, charge, region, trapped, Specify, keyword
 - **B.9 Simulation Command** _(p.604–607)_ <a id="b-9-simulation-command"></a>
-  - The simulation command is used to specify what simulation output is desired (see Section 3.6 for more information) and uses the following syntax:
-  - _Keywords:_ colspan, equation, simulation, solution, string, rowspan, Poisson, solved
+  - The simulation command is used to specify what simulation output is desired (see Section 3.6 for more information) and uses the following s…
 - **B.10 Structure Command** _(p.607–610)_ <a id="b-10-structure-command"></a>
   - The structure command is used to specify various device structure options, which use the following syntax:
-  - _Keywords:_ structure, material, source, doping, region, device, Garand, Specify
 - **B.11 Variability Command** <a id="b-11-variability-command"></a>
-  - The variability command is used to specify the statistical variability options (see Section 3.2 for more information) and uses the following syntax:
-  - _Keywords:_ variability, Gate, Granularity, specify, statistical, information, syntax, variability_source
+  - The variability command is used to specify the statistical variability options (see Section 3.2 for more information) and uses the followin…
 - **Random Discrete Dopants** _(p.611)_ <a id="random-discrete-dopants"></a>
   - The available keywords for the Random Discrete Dopants variability source are:
-  - _Keywords:_ boundary, RDD, discrete, doping, region, imported, structures, string
 - **Line Edge Roughness** _(p.612–613)_ <a id="line-edge-roughness"></a>
-  - The variability type LER is used to specify that line edge roughness should be applied in a particular part of the device structure, and all the options for this particular roughness are supplied in the same input file line. This is beca...
-  - _Keywords:_ roughness, applied, LER, midpoint, random, doping, string, specified
+  - The variability type LER is used to specify that line edge roughness should be applied in a particular part of the device structure, and al…
 - **Metal Gate Granularity** _(p.613)_ <a id="metal-gate-granularity"></a>
   - The available keywords for MGG variability source are:
-  - _Keywords:_ MGG, variability, add_grain, probability, granularity, included, workfunction, wf_delta
 - **Polysilicon Gate Granularity** _(p.614)_ <a id="polysilicon-gate-granularity"></a>
   - The available keywords for PGG variability source are:
-  - _Keywords:_ PGG, polysilicon, Fermi, pinning, included, diameter, available, keywords
 - **Appendix C Deprecated Input Commands** _(p.614)_ <a id="appendix-c-deprecated-input-commands"></a>
   - This appendix presents deprecated input commands.
-  - _Keywords:_ appendix, presents, deprecated
 - **C.1 Crystal Orientation** _(p.614)_ <a id="c-1-crystal-orientation"></a>
-  - Using either sub or chan as indirect references to the simulation domain z-axis and x-axis, used to define reference directions to align crystal lattice orientations, is deprecated.
-  - _Keywords:_ crystal, material, Silicon, references, directions, orthogonal, either, indirect
+  - Using either sub or chan as indirect references to the simulation domain z-axis and x-axis, used to define reference directions to align cr…
 - **C.2 Time Series** <a id="c-2-time-series"></a>
   - Following the deprecation of VTK file output, the output of time series files for visualization is deprecated.
-  - _Keywords:_ deprecation, VTK, series, visualization, deprecated
 - **C.3 Integration of stress field** _(p.615)_ <a id="c-3-integration-of-stress-field"></a>
-  - In previous versions the stress tensor is averaged in semiconductor materials through the source, channel, and drain by default and this could be modified using the following parameters:
-  - _Keywords:_ stress, averaged, region, previous, versions, tensor, semiconductor, materials
+  - In previous versions the stress tensor is averaged in semiconductor materials through the source, channel, and drain by default and this co…
 - **Appendix D Using Template Device Structures** _(p.615–616)_ <a id="appendix-d-using-template-device-structures"></a>
-  - This appendix discusses how to introduce a device structure into Garand using template device structures. Using template device structures has been superseded by importing structures using TDR files, and has now been deprecated. See Chap...
-  - _Keywords:_ device, structures, template, importing, appendix, discusses, introduce, structure
+  - This appendix discusses how to introduce a device structure into Garand using template device structures. Using template device structures…
 - **D.1 Overview of Template Device Structures** _(p.616)_ <a id="d-1-overview-of-template-device-structures"></a>
-  - Originally, you could introduce a device structure into Garand, based on a template device model, where you modified the dimensions and doping profiles of various template device architectures such as bulk MOSFETs and FinFETs.
-  - _Keywords:_ device, structure, template, dimensions, simulation, Garand, architectures, description
+  - Originally, you could introduce a device structure into Garand, based on a template device model, where you modified the dimensions and dop…
 - **D.2 Example: Planar Bulk MOSFET** _(p.617–619)_ <a id="d-2-example-planar-bulk-mosfet"></a>
   - Figure D.1 shows the partitioning of a bulk MOSFET structure into the different regions into which Garand divides the simulation domain.
-  - _Keywords:_ length, region, spaces, MOSFET, Length, direction, structure, defined
 - **D.3 Example: Bulk FinFET** _(p.619–620)_ <a id="d-3-example-bulk-finfet"></a>
-  - For FinFET devices, there is a template structure that is based on the same regions as for the bulk MOSFET. Figure D.2 shows the parts of the FinFET to which these regions apply. For an SOI FinFET, the basic structure is the same as the ...
-  - _Keywords:_ length, spaces, FinFET, details, summary, structure, regions, region
+  - For FinFET devices, there is a template structure that is based on the same regions as for the bulk MOSFET. Figure D.2 shows the parts of t…
 - **D.4 Doping Profiles** _(p.620–621)_ <a id="d-4-doping-profiles"></a>
-  - After the simulation structure and mesh have been established, you must introduce the doping profile to use for the particular architecture being simulated. For the bulk MOSFET structure, Garand offers the flexibility to import doping pr...
-  - _Keywords:_ doping, profile, analytic, profiles, required, specify, keyword, simulation
+  - After the simulation structure and mesh have been established, you must introduce the doping profile to use for the particular architecture…
 - **D.4.1 Importing a Doping Profile** _(p.621–622)_ <a id="d-4-1-importing-a-doping-profile"></a>
   - Note: You can import a doping profile only for the bulk MOSFET structure. To specify the doping profile for FinFETs, see Section D.4.2.
-  - _Keywords:_ doping, channel, profile, structure, source, profiles, device, length
 - **D.4.2 Analytic Doping Profile** _(p.623)_ <a id="d-4-2-analytic-doping-profile"></a>
-  - All the template devices simulated by Garand can be described using generic analytic doping profiles. Only the bulk MOSFET can be described using doping profiles read in from previous process simulations as described in
-  - _Keywords:_ described, doping, profiles, details, summary, pscale, template, devices
+  - All the template devices simulated by Garand can be described using generic analytic doping profiles. Only the bulk MOSFET can be described…
 - **Section D.4.1.** _(p.623–624)_ <a id="section-d-4-1"></a>
-  - Parameters of the doping command that are specifically for analytic doping profiles are listed here. The main ones related to source, drain, and channel doping are illustrated in Figure D.5. For example:
-  - _Keywords:_ profile, doping, Analytic, source, extension, FinFET, implantation, spacer
+  - Parameters of the doping command that are specifically for analytic doping profiles are listed here. The main ones related to source, drain…
 - **D.4.2.1 Majority-Type Doping** _(p.624–625)_ <a id="d-4-2-1-majority-type-doping"></a>
   - The doping roll-offs of both the source/drain implantations and the extensions are modeled as Gaussian profiles:
-  - _Keywords:_ doping, profiles, Doping, source, extensions, implantations, Gaussian, mathsf
 - **D.4.2.2 Minority-Type Doping** _(p.625–626)_ <a id="d-4-2-2-minority-type-doping"></a>
-  - In the bulk MOSFET device, minority-type doping (that is, p-type doping in an n-type MOSFET, and vice versa) is uniform throughout the entire substrate and has a value set by the csu keyword.
-  - _Keywords:_ doping, FinFET, region, uniform, channel, defined, MOSFET, device
+  - In the bulk MOSFET device, minority-type doping (that is, p-type doping in an n-type MOSFET, and vice versa) is uniform throughout the enti…
 - **D.5 Changing Dielectric Materials** _(p.627)_ <a id="d-5-changing-dielectric-materials"></a>
   - You can change the material used in a simulation for different oxide regions using the following command:
-  - _Keywords:_ material, mathrm, _oxide, device, regions, available, template, Silicon
 - **D.5.1 Bulk MOSFET Default Materials** <a id="d-5-1-bulk-mosfet-default-materials"></a>
   - • gate\_oxide: Silicon dioxide (Oxide) • spacer\_oxide: Silicon nitride (Nitride) • sti\_oxide: Silicon dioxide (Oxide) • void: Air
-  - _Keywords:_ _oxide, Silicon, dioxide, Oxide, spacer, nitride, Nitride, Air
 - **D.5.2 Bulk FinFET Default Materials** _(p.628)_ <a id="d-5-2-bulk-finfet-default-materials"></a>
-  - • gate\_oxide: Hafnium oxide (HfO2) • interfacial\_oxide: Silicon dioxide (InterfacialOxide) • spacer\_oxide: Silicon nitride (Nitride) • sti\_oxide: Silicon dioxide (Oxide) • void: Air
-  - _Keywords:_ _oxide, Silicon, dioxide, Hafnium, HfO2, interfacial, InterfacialOxide, spacer
+  - • gate\_oxide: Hafnium oxide (HfO2) • interfacial\_oxide: Silicon dioxide (InterfacialOxide) • spacer\_oxide: Silicon nitride (Nitride) • s…
 - **D.5.3 SOI FinFET Default Materials** _(p.628)_ <a id="d-5-3-soi-finfet-default-materials"></a>
-  - • gate\_oxide: Hafnium oxide (HfO2) • interfacial\_oxide: Silicon dioxide (InterfacialOxide) • spacer\_oxide: Silicon nitride (Nitride) • buried\_oxide: Silicon dioxide (BuriedOxide) • sti\_oxide: Silicon dioxide (Oxide) • void: Air
-  - _Keywords:_ _oxide, Silicon, dioxide, Hafnium, HfO2, interfacial, InterfacialOxide, spacer
+  - • gate\_oxide: Hafnium oxide (HfO2) • interfacial\_oxide: Silicon dioxide (InterfacialOxide) • spacer\_oxide: Silicon nitride (Nitride) • b…
 - **D.5.4 Nanowire Default Materials** <a id="d-5-4-nanowire-default-materials"></a>
-  - • gate\_oxide: Hafnium oxide (HfO2) • interfacial\_oxide: Silicon dioxide (InterfacialOxide) • spacer\_oxide: Silicon nitride (Nitride) • void: Air
-  - _Keywords:_ _oxide, Silicon, Hafnium, HfO2, interfacial, dioxide, InterfacialOxide, spacer
+  - • gate\_oxide: Hafnium oxide (HfO2) • interfacial\_oxide: Silicon dioxide (InterfacialOxide) • spacer\_oxide: Silicon nitride (Nitride) • v…
 - **D.6 Changing Semiconductor Materials** _(p.629)_ <a id="d-6-changing-semiconductor-materials"></a>
   - You can change the material used in a simulation for different template device regions using the following command:
-  - _Keywords:_ material, mathrm, device, template, Semiconductor, channel, structure, available
 - **D.6.1 Bulk MOSFET Default Materials** <a id="d-6-1-bulk-mosfet-default-materials"></a>
-  - In the bulk MOSFET template device, the source, drain, and channel all use the same material as specified for the substrate. Therefore, only the substrate material can be modified.
-  - _Keywords:_ substrate, material, MOSFET, template, device, source, channel, specified
+  - In the bulk MOSFET template device, the source, drain, and channel all use the same material as specified for the substrate. Therefore, onl…
 - **D.6.2 Bulk FinFET Default Materials** <a id="d-6-2-bulk-finfet-default-materials"></a>
   - • source\_drain: Silicon (Si) • channel: Silicon (Si) • substrate: Silicon (Si) • srb: Silicon (Si)
-  - _Keywords:_ Silicon, source, _drain, channel, substrate
 - **D.6.3 SOI FinFET Default Materials** _(p.630)_ <a id="d-6-3-soi-finfet-default-materials"></a>
   - • source\_drain: Silicon (Si) • channel: Silicon (Si) • substrate: Silicon (Si)
-  - _Keywords:_ Silicon, source, _drain, channel, substrate
 - **D.6.4 Nanowire Default Materials** _(p.630)_ <a id="d-6-4-nanowire-default-materials"></a>
   - • channel: Silicon (Si)
-  - _Keywords:_ channel, Silicon
 - **D.7 Additional Features of the FinFET Template** _(p.630)_ <a id="d-7-additional-features-of-the-finfet-template"></a>
-  - By default, the FinFET template produces a rectangular-shaped fin with a single layer of HfO2 gate oxide. Several extensions to the FinFET template allow various changes to the default structure.
-  - _Keywords:_ FinFET, template, produces, rectangular, shaped, single, HfO2, Several
+  - By default, the FinFET template produces a rectangular-shaped fin with a single layer of HfO2 gate oxide. Several extensions to the FinFET…
 - **D.7.1 Nonuniform Mesh Spacing** <a id="d-7-1-nonuniform-mesh-spacing"></a>
-  - You can use nonuniform mesh spacing in the z-direction in the dz\_bulk and dz\_sub regions. This allows a small mesh spacing at the top of the dz\_bulk region, so the bottom of the channel can be well resolved, while allowing coarser mes...
-  - _Keywords:_ spacing, nonuniform, region, activate, You, direction, regions, allows
+  - You can use nonuniform mesh spacing in the z-direction in the dz\_bulk and dz\_sub regions. This allows a small mesh spacing at the top of…
 - **D.7.2 Structure** _(p.631)_ <a id="d-7-2-structure"></a>
-  - You can include an interfacial gate oxide of SiO2 between the fin and the high-k gate oxide by an extension to the mesh definition such that the thickness of the interfacial layer and number of mesh spaces within that layer can be specif...
-  - _Keywords:_ interfacial, spaces, thickness, defined, direction, details, summary, include
+  - You can include an interfacial gate oxide of SiO2 between the fin and the high-k gate oxide by an extension to the mesh definition such tha…
 - **D.7.3 Rounding Top of Fin** _(p.631)_ <a id="d-7-3-rounding-top-of-fin"></a>
-  - The fin\_top\_radius keyword rounds the corners at the top of the fin. It takes a value that is the radius of curvature of the rounded corners in nm. The following example rounds the fin corners with 3.0 nm radius:
-  - _Keywords:_ details, summary, corners, rounds, radius, rounded, structure, images
+  - The fin\_top\_radius keyword rounds the corners at the top of the fin. It takes a value that is the radius of curvature of the rounded corn…
 - **D.7.4 Width of Top of Fin** <a id="d-7-4-width-of-top-of-fin"></a>
-  - The fin\_top\_width keyword specifies that the top of the fin should have a different width from the bottom of the fin. It takes a value that is the width (in nm) of the top of the fin. The following example produces a fin with a width o...
-  - _Keywords:_ details, summary, different, structure, images, natural_image, Abstract, geometric
+  - The fin\_top\_width keyword specifies that the top of the fin should have a different width from the bottom of the fin. It takes a value th…
 - **D.7.5 Wrap Gate Oxide Around Top of STI** _(p.632–633)_ <a id="d-7-5-wrap-gate-oxide-around-top-of-sti"></a>
   - The oxide\_on\_sti keyword specifies that the gate oxide wraps around to cover the top of the STI.
-  - _Keywords:_ details, summary, around, STI, structure, images, natural_image, Abstract
 - **D.7.6 Place Source and Drain Contacts at End of Fin** <a id="d-7-6-place-source-and-drain-contacts-at-end-of-fin"></a>
-  - By default, the source and drain contacts are placed on the top of the source and drain regions. You use the end\_contacts keyword to place the contacts on the ends of the fin. This can improve numeric stability, particularly for Monte C...
-  - _Keywords:_ source, contacts, placed, regions, You, _contacts, keyword, improve
+  - By default, the source and drain contacts are placed on the top of the source and drain regions. You use the end\_contacts keyword to place…
 - **D.8 Additional Features of the Nanowire Template** <a id="d-8-additional-features-of-the-nanowire-template"></a>
 - **D.8.1 Round Corners of Nanowire** <a id="d-8-1-round-corners-of-nanowire"></a>
-  - By default, the nanowire template is a rectangular nanowire with a width specified by dy\_chan and a height specified by dz\_chan. You can round the corners of the nanowire by specifying a radius of curvature for the corners in both the ...
-  - _Keywords:_ radius, corners, nanowire, specified, direction, specify, structure, maximum
+  - By default, the nanowire template is a rectangular nanowire with a width specified by dy\_chan and a height specified by dz\_chan. You can…
 - **D.8.2 Include Interfacial Oxide** <a id="d-8-2-include-interfacial-oxide"></a>
   - As with the FinFET structure, you can include an interfacial gate oxide of SiO2 between the wire and the high-k gate oxide.
-  - _Keywords:_ spaces, interfacial, thickness, direction, defined, length, FinFET, structure
 - **D.9 Additional Input Commands for Template Structures** _(p.634)_ <a id="d-9-additional-input-commands-for-template-structures"></a>
   - Below is a summary of the input file commands that are specific for template structures only.
-  - _Keywords:_ summary, specific, template, structures
 - **D.9.1 Syntax** _(p.634)_ <a id="d-9-1-syntax"></a>
   - For reference, all inputs in Garand have the same basic syntax as follows:
-  - _Keywords:_ reference, Garand, syntax, follows, keyword, always, specified, appendix
 - **D.9.2 Doping Command** _(p.635)_ <a id="d-9-2-doping-command"></a>
   - The doping command controls the doping parameters in Garand (see Section 2.6 and Section D.4.1).
-  - _Keywords:_ doping, profile, Analytical, source, spacer, extension, analytic, channel
 - **D.9.3 Mesh Command** _(p.635)_ <a id="d-9-3-mesh-command"></a>
   - The mesh command defines how the simulation mesh is specified for template structures (see Section D.2).
-  - _Keywords:_ defines, simulation, specified, template, structures
 - **Syntax** _(p.635–636)_ <a id="syntax"></a>
   - ```txt mesh <region> length=<float> spaces=<integer> ```
-  - _Keywords:_ region, Length, FinFET, nanowire, length, Width, spaces, colspan
 - **D.9.4 Simulation Command** _(p.636–637)_ <a id="d-9-4-simulation-command"></a>
-  - The simulation command is used to specify what simulation output is desired (see Section 3.6 for more information) and uses the following syntax:
-  - _Keywords:_ simulation, device, MOSFET, FinFET, specify, desired, information, syntax
+  - The simulation command is used to specify what simulation output is desired (see Section 3.6 for more information) and uses the following s…
 - **D.9.5 Structure Command** _(p.639–640)_ <a id="d-9-5-structure-command"></a>
   - The structure command is used to specify various template device structure options which use the following syntax:
-  - _Keywords:_ mathrm, string, material, Change, forare, listed, Specify, STI
 - **D.9.6 Variability Command** _(p.640)_ <a id="d-9-6-variability-command"></a>
-  - The variability command is used to specify the statistical variability options (see Section 3.2 for more information) and uses the following syntax:
-  - _Keywords:_ variability, Edge, Roughness, Gate, available, sources, RDD, MGG
+  - The variability command is used to specify the statistical variability options (see Section 3.2 for more information) and uses the followin…
 - **Gate Edge Roughness** _(p.641)_ <a id="gate-edge-roughness"></a>
-  - LER can be added to the gate edges on the source and drain sides by enabling the gate edge roughness (GER) option. By default the roughness patterns added on either side of the gate are independent uncorrelated random lines. By specifyin...
-  - _Keywords:_ roughness, GER, correlated, random, correlation, source, string, included
+  - LER can be added to the gate edges on the source and drain sides by enabling the gate edge roughness (GER) option. By default the roughness…
 - **Fin Edge Roughness** _(p.641–642)_ <a id="fin-edge-roughness"></a>
-  - A source of variability that is specific to 3D multi-gate devices such as the FinFET is roughness on the edges of the vertical fin structure. LER can be added to the fin edges on the front and back gate sides by enabling the fin edge rou...
-  - _Keywords:_ roughness, FER, random, correlated, correlation, string, included, source
+  - A source of variability that is specific to 3D multi-gate devices such as the FinFET is roughness on the edges of the vertical fin structur…
 - **Appendix E Utilities** _(p.642)_ <a id="appendix-e-utilities"></a>
   - This appendix describes the utilities provided as part of the Garand software package.
-  - _Keywords:_ appendix, describes, utilities, provided, Garand, software, package
 - **E.1 The garand\_mats Utility** _(p.642)_ <a id="e-1-the-garand-mats-utility"></a>
-  - This utility allows you to list the values of default material model parameters as implemented in Garand. In addition, you can use it with a Garand input file to list nondefault material parameter values, consistent with any user-defined...
-  - _Keywords:_ material, Garand, utility, allows, implemented, addition, nondefault, consistent
+  - This utility allows you to list the values of default material model parameters as implemented in Garand. In addition, you can use it with…
 - **E.1.1 Running the garand\_mats Utility** _(p.643)_ <a id="e-1-1-running-the-garand-mats-utility"></a>
   - To run garand\_mats, use the following syntax:
-  - _Keywords:_ Include, material, garand_mats, property, dispersion, Write, filename, Garand
 - **E.1.1.1 Supported Materials** _(p.643)_ <a id="e-1-1-1-supported-materials"></a>
   - To obtain a list of material models that Garand supports, use the following option:
-  - _Keywords:_ material, Garand, obtain, models, supports, garand_mats, displays, semiconductor
 - **E.1.2 Named Material Model** <a id="e-1-2-named-material-model"></a>
 - **E.1.2.1 Bulk Properties** <a id="e-1-2-1-bulk-properties"></a>
   - Using silicon as an example, the default properties for any named material can be examined using the following command:
-  - _Keywords:_ silicon, material, properties, examined, garand_mats, Silicon, redirected, useful
 - **E.1.2.2 Band Structure, Scattering Mechanisms, and Mobility Models** _(p.644)_ <a id="e-1-2-2-band-structure-scattering-mechanisms-and-mobility-mo"></a>
-  - Extending the bulk properties, details of the conduction and valence band models and the valley minima, scattering mechanisms, and mobility models defined therein can be included in the output using the following command:
-  - _Keywords:_ models, Extending, properties, details, conduction, valence, valley, minima
+  - Extending the bulk properties, details of the conduction and valence band models and the valley minima, scattering mechanisms, and mobility…
 - **E.1.2.3 Energy Dispersion and Density-of-States** <a id="e-1-2-3-energy-dispersion-and-density-of-states"></a>
   - You can use the garand\_mats utility to plot the analytic multivalley band dispersion of a material, as follows:
-  - _Keywords:_ analytic, Silicon, You, dispersion, garand_mats, momentum, energy, valley
 - **E.1.3 User-Defined Material Properties** _(p.645)_ <a id="e-1-3-user-defined-material-properties"></a>
-  - You can modify material properties, such as permittivity and mobility model parameter values, directly in the Garand input file. You can also modify derived parameter values, such as the conduction and valence band effective density-of-s...
-  - _Keywords:_ Garand, material, You, modify, properties, conduction, density, states
+  - You can modify material properties, such as permittivity and mobility model parameter values, directly in the Garand input file. You can al…
 - **E.2 The band\_profile Utility** _(p.645)_ <a id="e-2-the-band-profile-utility"></a>
-  - This utility is used to inspect precalculated band-structure files (see Section 8.7) and returns information about the mesh and strain conditions used to calculate the band structure.
-  - _Keywords:_ utility, structure, Garand, inspect, precalculated, information, strain, conditions
+  - This utility is used to inspect precalculated band-structure files (see Section 8.7) and returns information about the mesh and strain cond…
 - **E.2.1 Running the band\_profile Utility** _(p.646–647)_ <a id="e-2-1-running-the-band-profile-utility"></a>
   - To run band\_profile, use the following syntax:
-  - _Keywords:_ structure, band_profile, Silicon, MATERIAL, valence, strain, Germanium, filename
 - **Bibliography** _(p.647–653)_ <a id="bibliography"></a>
-  - [1] M. G. Ancona and G. J. Iafrate. Quantum correction to the equation of state of an electron gas in a semiconductor. Physical Review B, 39(13):9536–9540, May 1989. [2] E. Anderson, Z. Bai, C. Bischof, S. Blackford, J. Demmel, J. Dongar...
-  - _Keywords:_ IEEE, Electron, Devices, Physics, Trans, mobility, Applied, electron
+  - [1] M. G. Ancona and G. J. Iafrate. Quantum correction to the equation of state of an electron gas in a semiconductor. Physical Review B, 3…
 - **Index** _(p.653)_ <a id="index"></a>
 - **A** _(p.653)_ <a id="a"></a>
   - alloy fractions, 65, 269 importing, 65 modifying properties, 66
-  - _Keywords:_ fractions, importing, modifying, properties, AreaFactor, automesh, autoslice, keyword
 - **B** <a id="b"></a>
   - band\_profile utility, 645 running, 645 binary alloy semiconductors, 269 bulk MOSFET, 627
-  - _Keywords:_ _profile, utility, running, binary, semiconductors, MOSFET
 - **C** <a id="c"></a>
   - capacitance, 36 contact resistance, 100 Resistance, 100 Resistivity, 100 variation, 85
-  - _Keywords:_ locations, current, capacitance, contact, resistance, Resistance, Resistivity, variation
 - **D** <a id="d"></a>
-  - default materials, 281 degeneracy, 97 density gradient, 88 density gradient equation, 119 device structures, 35 changing materials, 56 contacts, 56 doping profiles, 50 gate length, 55 importing, 39 positions, 34
-  - _Keywords:_ density, gradient, materials, doping, profiles, importing, statistics, degeneracy
+  - default materials, 281 degeneracy, 97 density gradient, 88 density gradient equation, 119 device structures, 35 changing materials, 56 cont…
 - **F** <a id="f"></a>
-  - Fermi-Dirac statistics, 97, 138, 597 Fermi’s golden rule, 249 FinFET, 627, 628
-  - _Keywords:_ Fermi, Dirac, statistics, golden, FinFET
 - **G** _(p.654)_ <a id="g"></a>
-  - Garand materials, 586 garand\_mats utility, 642 band structure, 644 bulk properties, 643 energy dispersion, 644 named material model, 643 running, 642 scattering mechanisms, 644 user-defined properties, 644 gate leakage, 107 gate length, 55
-  - _Keywords:_ properties, Garand, materials, garand, utility, structure, energy, dispersion
+  - Garand materials, 586 garand\_mats utility, 642 band structure, 644 bulk properties, 643 energy dispersion, 644 named material model, 643 r…
 - **I** _(p.654)_ <a id="i"></a>
   - input commands
-  - _Keywords:_ simulation, charge, structure, variability, interface, doping, reliability, channel
 - **L** _(p.655–656)_ <a id="l"></a>
-  - LER, 76, 611
-  - _Keywords:_ mobility, materials, granularity, phonon, velocity, roughness, variation, scattering
+  - line edge roughness, 76, 611
 - **T** <a id="t"></a>
   - temperature, 33
-  - _Keywords:_ FinFET, temperature, template, device, structures, MOSFET, doping, profiles
 - **U** <a id="u"></a>
-  - units, 34
-  - _Keywords:_ utilities, _profile, garand
+  - band\_profile, 645
 - **V** <a id="v"></a>
   - valley splitting, 96
-  - _Keywords:_ valley, splitting
 - **W** <a id="w"></a>
   - work function, 59

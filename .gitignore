@@ -22,3 +22,5 @@ models/
 # settings.local.json can capture full command lines, including any inline
 # secrets (API tokens etc.) — keep it out of git.
 .claude/settings.local.json
+
+context_layer/

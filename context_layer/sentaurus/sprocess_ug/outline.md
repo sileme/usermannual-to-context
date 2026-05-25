@@ -3,6358 +3,4230 @@
 Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
 
 - **Sentaurus™ Process User Guide** _(p.1)_ <a id="sentaurus-process-user-guide"></a>
-  - Version O-2018.06, June 2018
-  - _Keywords:_ Version, June
 - **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
-  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
-  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursua…
 - **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
-  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
-  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to natio…
 - **Disclaimer** <a id="disclaimer"></a>
-  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITE…
 - **Trademarks** <a id="trademarks"></a>
-  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html. All other product or company names may be trademarks of their respective owners.
-  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-b…
 - **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
   - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
-  - _Keywords:_ applicable, Free, Open, Source, Software, FOSS, licensing, notices
 - **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
-  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
-  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible…
 - **About This Guide xxxi** _(p.3)_ <a id="about-this-guide-xxxi"></a>
   - Related Publications . . xxxi
-  - _Keywords:_ Support, Contacting, xxxiii, Related, Publications, Conventions, Customer, Accessing
 - **Chapter 1 Working With the Simulator 1** _(p.4–7)_ <a id="chapter-1-working-with-the-simulator-1"></a>
   - Introduction to Sentaurus Process. .
-  - _Keywords:_ Implantation, Materials, Sentaurus, Point, Damage, Structure, Analytic, Monte
 - **Chapter 3 Diffusion 167** _(p.8–12)_ <a id="chapter-3-diffusion-167"></a>
   - Overview. . . . 167
-  - _Keywords:_ Model, Diffusion, Dopant, Initializing, Defect, Active, Cluster, Grain
 - **Chapter 4 Atomistic Kinetic Monte Carlo Diffusion 375** _(p.13–18)_ <a id="chapter-4-atomistic-kinetic-monte-carlo-diffusion-375"></a>
   - Overview. . . . 375
-  - _Keywords:_ Diffusion, Defects, Impurity, Mode, Amorphous, KMC, Extracting, Point
 - **Chapter 5 Lattice Kinetic Monte Carlo: Epitaxial Deposition 573** _(p.19)_ <a id="chapter-5-lattice-kinetic-monte-carlo-epitaxial-deposition-5"></a>
   - Overview of Epitaxial Deposition. . . . . . 573
-  - _Keywords:_ Epitaxy, Models, Coordinations, Reactions, Model, Dependent, Growth, Rate
 - **Chapter 6 Writing Partial Differential Equations Using Alagator 617** _(p.19–20)_ <a id="chapter-6-writing-partial-differential-equations-using-alaga"></a>
   - Available Operators and Variables . . . . 617
-  - _Keywords:_ Equations, Growth, Equation, Strings, Differential, Specifying, Boundary, Terms
 - **Chapter 7 Advanced Calibration 655** <a id="chapter-7-advanced-calibration-655"></a>
   - Overview. . . . 655
-  - _Keywords:_ Calibration, Overview, Advanced, Additional, Users
 - **Chapter 8 Oxidation and Silicidation 659** _(p.21)_ <a id="chapter-8-oxidation-and-silicidation-659"></a>
   - Oxidation. . . . 659
-  - _Keywords:_ Oxidation, Dependent, Silicidation, Gas, Flows, Situ, Steam, Generated
 - **Chapter 9 Computing Mechanical Stress 693** _(p.22)_ <a id="chapter-9-computing-mechanical-stress-693"></a>
   - Overview of Mechanical Stress . . . . . 693
-  - _Keywords:_ Stress, Materials, Model, Boundary, Mechanical, Material, Dependent, Condition
 - **Chapter 10 Mesh Generation 737** _(p.23)_ <a id="chapter-10-mesh-generation-737"></a>
   - Overview of Mesh Generation . . . 737
-  - _Keywords:_ Refinement, Mesh, Criteria, Adaptive, Meshing, Boxes, Difference, Moving
 - **Chapter 11 Structure Generation 783** _(p.24–25)_ <a id="chapter-11-structure-generation-783"></a>
   - Overview of Etching, Deposition, and Geometric Operations . . . . . . 783
-  - _Keywords:_ Etching, Deposition, Handling, During, MGOALS, Boundary, Refinement, Trapezoidal
 - **Chapter 12 ICWBEV Plus Interface for Layout-Driven Simulations 855** _(p.26)_ <a id="chapter-12-icwbev-plus-interface-for-layout-driven-simulatio"></a>
   - Introduction . . . . . 855
-  - _Keywords:_ Layout, TCAD, ICWBEV, Plus, Sentaurus, Simulation, Markup, Finding
 - **Chapter 13 Extracting Results 891** _(p.27)_ <a id="chapter-13-extracting-results-891"></a>
   - Overview. . . . 891
-  - _Keywords:_ Data, Fields, Extracting, Overview, Saving, Selecting, Viewing, Analysis
 - **Chapter 14 Numerics 903** _(p.27)_ <a id="chapter-14-numerics-903"></a>
   - Overview. . . . 903
-  - _Keywords:_ Time, Step, Control, Matrix, PDEs, Overview, Setting, Iterative
 - **Appendix A Commands 919** _(p.28–31)_ <a id="appendix-a-commands-919"></a>
   - Syntax Conventions . . 919
-  - _Keywords:_ diffusion, Sentaurus, Related, transform, Process, process, Syntax, Arguments
 - **Related Publications** <a id="related-publications"></a>
   - For additional information, see:
-  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
 - **Conventions** _(p.32)_ <a id="conventions"></a>
   - The following conventions are used in Synopsys documentation.
-  - _Keywords:_ Identifies, screen, identifies, New, conventions, Synopsys, documentation, Convention
 - **Customer Support** _(p.32)_ <a id="customer-support"></a>
   - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
-  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
 - **Accessing SolvNet** _(p.32)_ <a id="accessing-solvnet"></a>
-  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
-  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synops…
 - **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
   - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
-  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
 - **Contacting Your Local TCAD Support Team Directly** _(p.33)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
   - Send an e-mail message to:
-  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
 - **Acknowledgments** _(p.35)_ <a id="acknowledgments"></a>
-  - Sentaurus Process is based on the 2000 and 2002 releases of FLOOPS written by Professor Mark Law and coworkers at the University of Florida. Synopsys acknowledges the contribution of Professor Law and his advice in the development of Sen...
-  - _Keywords:_ Sentaurus, Process, Professor, University, written, Law, coworkers, Florida
+  - Sentaurus Process is based on the 2000 and 2002 releases of FLOOPS written by Professor Mark Law and coworkers at the University of Florida…
 - **Introduction to Sentaurus Process** <a id="introduction-to-sentaurus-process"></a>
-  - Sentaurus Process is a complete and highly flexible, multidimensional, process modeling environment. With its modern software architecture and extensive breadth of capabilities, Sentaurus Process is a state-of-the-art process simulation ...
-  - _Keywords:_ Sentaurus, Process, process, modern, capabilities, sequence, addition, models
+  - Sentaurus Process is a complete and highly flexible, multidimensional, process modeling environment. With its modern software architecture…
 - **Simulation Projects** _(p.36)_ <a id="simulation-projects"></a>
   - The Sentaurus Process module of the TCAD Sentaurus Tutorial provides various projects demonstrating the capabilities of Sentaurus Process.
-  - _Keywords:_ Sentaurus, TCAD, Tutorial, Process, access, STROOT, STRELEASE, indicates
 - **Setting Up the Environment** <a id="setting-up-the-environment"></a>
-  - The STROOT environment variable is the TCAD Sentaurus root directory, and you must set this variable to the installation directory of TCAD Sentaurus.
-  - _Keywords:_ directory, Sentaurus, STROOT, Add, environment, variable, TCAD, version
+  - The STROOT environment variable is the TCAD Sentaurus root directory, and you must set this variable to the installation directory of TCAD…
 - **Environment Variables for Supporting Files** _(p.37)_ <a id="environment-variables-for-supporting-files"></a>
-  - The Sentaurus Process binary relies on several supporting files found using the environment variables SPHOME and SCHOME. To change default models and parameters without modifying the installed Sentaurus Process files, copy the default SP...
-  - _Keywords:_ SPHOME, SCHOME, TclLib, Sentaurus, Process, environment, variables, STROOT
+  - The Sentaurus Process binary relies on several supporting files found using the environment variables SPHOME and SCHOME. To change default…
 - **Starting Sentaurus Process** _(p.38)_ <a id="starting-sentaurus-process"></a>
   - The following syntax is used to start Sentaurus Process on the command line:
-  - _Keywords:_ Sentaurus, Process, sprocess, commandfile, interactive, Version, syntax, specify
 - **1: Working With the Simulator** _(p.38)_ <a id="1-working-with-the-simulator"></a>
 - **Starting Sentaurus Process** _(p.38–39)_ <a id="starting-sentaurus-process"></a>
-  - ```txt *** Copyright (C) 1993-2002 *** *** The board of regents of the University of Florida *** *** Copyright (C) 1994-2018 *** *** Synopsys, Inc. *** *** This software and the associated documentation are confidential *** *** and propr...
-  - _Keywords:_ Sentaurus, Synopsys, Inc, sprocess, Process, Copyright, software, Fri
+  - ```txt *** Copyright (C) 1993-2002 *** *** The board of regents of the University of Florida *** *** Copyright (C) 1994-2018 *** *** Synops…
 - **Command-Line Options** _(p.39)_ <a id="command-line-options"></a>
   - Table 1 lists the command-line options that are available in Sentaurus Process.
-  - _Keywords:_ Sentaurus, Switch, sprocess, Process, Usage, syntax, releases, versions
 - **Example of Starting Different Version of Sentaurus Process** _(p.40)_ <a id="example-of-starting-different-version-of-sentaurus-process"></a>
   - The following command starts the simulation of nmos\_fps.cmd using version 1.2 of release N-2017.09 as long as this version is installed:
-  - _Keywords:_ version, starts, simulation, release, installed, sprocess
 - **Interactive Mode** _(p.40–41)_ <a id="interactive-mode"></a>
-  - Sentaurus Process runs in interactive mode if no command file is given. In this mode, commands can be entered (at the command prompt) line-by-line and are executed immediately.
-  - _Keywords:_ interactive, Tcl, simulation, Sentaurus, Process, useful, obtain, entered
+  - Sentaurus Process runs in interactive mode if no command file is given. In this mode, commands can be entered (at the command prompt) line-…
 - **Batch Mode** _(p.41–42)_ <a id="batch-mode"></a>
-  - Instead of entering Sentaurus Process commands line-by-line, the required sequence of commands can be saved to a command file, which can be written entirely by users. To save time and reduce syntax errors, you can copy and edit examples ...
-  - _Keywords:_ Sentaurus, Process, Workbench, syntax, character, extension, Tcl, _filename
+  - Instead of entering Sentaurus Process commands line-by-line, the required sequence of commands can be saved to a command file, which can be…
 - **Terminating Execution** _(p.42)_ <a id="terminating-execution"></a>
-  - You can terminate a running Sentaurus Process job in several ways. In some cases, the termination will take time or will fail for other reasons. The most fail-safe method is to use the UNIX command:
-  - _Keywords:_ Sentaurus, Process, signal, UNIX, terminate, running, process, immediately
+  - You can terminate a running Sentaurus Process job in several ways. In some cases, the termination will take time or will fail for other rea…
 - **Fast Mode** _(p.43)_ <a id="fast-mode"></a>
-  - When working on a new process flow, it is useful to run Sentaurus Process a few times using the fast mode (-f command-line option). Developing a new process flow can be complex, involving many etch, deposit, and photo steps, some with ma...
-  - _Keywords:_ process, structure, working, useful, Sentaurus, Process, Developing, complex
+  - When working on a new process flow, it is useful to run Sentaurus Process a few times using the fast mode (-f command-line option). Develop…
 - **File Types** _(p.43–44)_ <a id="file-types"></a>
   - The following file types are the main ones used in Sentaurus Process:
-  - _Keywords:_ Sentaurus, TDR, information, Process, simulation, Log, specified, structure
 - **Interactive Visualization** _(p.45)_ <a id="interactive-visualization"></a>
   - The options for interactive visualization in Sentaurus Process are:
-  - _Keywords:_ Sentaurus, Windows, display, interactive, visualization, Process, graphical, viewer
 - **Interface to Sentaurus Visual** _(p.45–46)_ <a id="interface-to-sentaurus-visual"></a>
-  - The interface to Sentaurus Visual can visualize 1D, 2D, and 3D structures and data evolution while the simulation progresses (see Figure 1 on page 12). The interface is initiated and controlled from Sentaurus Visual, including control of...
-  - _Keywords:_ images, Sentaurus, Visual, thickness, deposit, isotropic, running, Run
+  - The interface to Sentaurus Visual can visualize 1D, 2D, and 3D structures and data evolution while the simulation progresses (see Figure 1…
 - **Setting Up the Interface** _(p.47)_ <a id="setting-up-the-interface"></a>
   - To set up and to run the interface:
-  - _Keywords:_ Sentaurus, Visual, Preferences, interface, Launch, svisual, choose, Edit
 - **Loading Command Files** <a id="loading-command-files"></a>
   - To load a command file:
-  - _Keywords:_ Load, Simulation, Control, button, dialog, displayed, Select, Click
 - **Inserting Breakpoints in the Flow** _(p.48)_ <a id="inserting-breakpoints-in-the-flow"></a>
   - To set breakpoints to pause the simulation at a particular step in the flow:
-  - _Keywords:_ breakpoints, Click, Run, button, execute, simulation, particular, margin
 - **Deleting Breakpoints in the Flow** _(p.48)_ <a id="deleting-breakpoints-in-the-flow"></a>
   - To delete a breakpoint:
-  - _Keywords:_ implant, energy, Boron, breakpoint, create, Active, polarity, Phosphorus
 - **Indicating Status of Steps** _(p.49)_ <a id="indicating-status-of-steps"></a>
-  - In the Simulation Control panel, as the flow is being executed, a green triangle in the left margin (in the same location as breakpoints) indicates the step that will be executed next. A red triangle indicates the step that is currently ...
-  - _Keywords:_ executed, triangle, indicates, indicated, background, Simulation, Control, margin
+  - In the Simulation Control panel, as the flow is being executed, a green triangle in the left margin (in the same location as breakpoints) i…
 - **Updating the Structure** _(p.49)_ <a id="updating-the-structure"></a>
-  - In 3D simulations, two plots are shown with the titles ‘bulk’ and ‘boundary’ (see Figure 1 on page 12). This is because, in 3D simulations, both the bulk and boundary are not always up to date. The plot with its title in bold shows the l...
-  - _Keywords:_ boundary, updated, simulations, titles, because, always, information, insert
+  - In 3D simulations, two plots are shown with the titles ‘bulk’ and ‘boundary’ (see Figure 1 on page 12). This is because, in 3D simulations,…
 - **Controlling the Interface to Sentaurus Visual With the graphics Command** _(p.50)_ <a id="controlling-the-interface-to-sentaurus-visual-with-the-graph"></a>
-  - To quickly visualize the evolution of a structure or data, the use of the graphics command is not necessary. Simply launch the interface to Sentaurus Visual and adjust the plot settings in Sentaurus Visual.
-  - _Keywords:_ graphics, Sentaurus, Visual, settings, executed, specified, quickly, visualize
+  - To quickly visualize the evolution of a structure or data, the use of the graphics command is not necessary. Simply launch the interface to…
 - **Syntax for Creating Command Files** _(p.50)_ <a id="syntax-for-creating-command-files"></a>
-  - This section describes how to create command files manually. It is important to remember that Sentaurus Process is written as an extension of the tool command language (Tcl). This means that the full capability and features of Tcl are av...
-  - _Keywords:_ syntax, Tcl, switch, executed, CHECKOFF, CHECKON, Sentaurus, Process
+  - This section describes how to create command files manually. It is important to remember that Sentaurus Process is written as an extension…
 - **Tcl Input** _(p.51–52)_ <a id="tcl-input"></a>
   - Sentaurus Process has been designed to optimize the use of Tcl. Some examples of this interaction include:
-  - _Keywords:_ Tcl, Sentaurus, Process, appear, evaluated, opening, enclosed, double
 - **Specifying Materials** _(p.53)_ <a id="specifying-materials"></a>
-  - Materials are specified in the same way for all Parameter Database (PDB) commands that require a material parameter. For a bulk material, specify only one material. For an interface material, specify two materials combined with an unders...
-  - _Keywords:_ material, materials, specify, interface, applies, Materials, specified, PDB
+  - Materials are specified in the same way for all Parameter Database (PDB) commands that require a material parameter. For a bulk material, s…
 - **Aliases** _(p.53)_ <a id="aliases"></a>
-  - Sentaurus Process allows more control over the names of command parameters, the abbreviations of parameter names, as well as interface names. These aliases only apply to parameters of built-in Sentaurus Process commands, and the pdbSet a...
-  - _Keywords:_ sprocess, aliases, Vaca, interface, Vacancy, Sentaurus, Process, abbreviations
+  - Sentaurus Process allows more control over the names of command parameters, the abbreviations of parameter names, as well as interface name…
 - **Default Simulator Settings: SPROCESS.models File** _(p.54)_ <a id="default-simulator-settings-sprocess-models-file"></a>
-  - Sentaurus Process starts a simulation by reading the SPROCESS.models file in the \$SPHOME/ TclLib directory. This file defines various default parameters and directories used during the simulation such as:
-  - _Keywords:_ simulation, oxidation, callback, procedures, SPROCESS, models, Tcl, library
+  - Sentaurus Process starts a simulation by reading the SPROCESS.models file in the \$SPHOME/ TclLib directory. This file defines various defa…
 - **Compatibility With Previous Releases** _(p.55)_ <a id="compatibility-with-previous-releases"></a>
-  - Occasionally, the default parameter and model settings change in Sentaurus Process to ensure that the default behavior gives robust, accurate, and computationally efficient results on current production technologies. Usually, when new mo...
-  - _Keywords:_ release, Compatibility, settings, change, Sentaurus, results, algorithm, releases
+  - Occasionally, the default parameter and model settings change in Sentaurus Process to ensure that the default behavior gives robust, accura…
 - **Parameter Database** _(p.56–57)_ <a id="parameter-database"></a>
-  - The parameter database stores all Sentaurus Process material and model parameters as well as global information needed for save and reload capabilities. There is a hierarchical tree directory inside the Params directory, which stores the...
-  - _Keywords:_ database, temperature, material, directory, pdbGet, region, Params, Tcl
+  - The parameter database stores all Sentaurus Process material and model parameters as well as global information needed for save and reload…
 - **Parameter Inheritance** _(p.57)_ <a id="parameter-inheritance"></a>
-  - The parameter database has a parameter inheritance feature where parameters at a certain level or node can inherit the parameters from another node at the same level. The inherited parameters can be overwritten with new values. Inheritan...
-  - _Keywords:_ Silicon, MyBoron, inherit, Arsenic, pdbLike, database, inheritance, another
+  - The parameter database has a parameter inheritance feature where parameters at a certain level or node can inherit the parameters from anot…
 - **Like Materials: Material Parameter Inheritance** _(p.58)_ <a id="like-materials-material-parameter-inheritance"></a>
-  - The parameters of a material can be inherited from the parameters of another material using the special Like parameter in the PDB. When this is the case, the two materials are referred to as like materials. This can be used to specify di...
-  - _Keywords:_ material, materials, different, inherited, another, special, PDB, referred
+  - The parameters of a material can be inherited from the parameters of another material using the special Like parameter in the PDB. When thi…
 - **where:** _(p.58)_ <a id="where"></a>
-  - name specifies the name of the material to be created. new.like is the name of the existing material from which all default values are inherited.
-  - _Keywords:_ material, specifies, created, existing, inherited
+  - name specifies the name of the material to be created. new.like is the name of the existing material from which all default values are inhe…
 - **NOTE** <a id="note"></a>
-  - It is important to use the mater command instead of directly creating the Like parameter because the mater command will make all interfaces to the new material like the appropriate interface to the existing material.
-  - _Keywords:_ material, reaction, important, instead, directly, creating, because, interfaces
+  - It is important to use the mater command instead of directly creating the Like parameter because the mater command will make all interfaces…
 - **Interpolation Between Like Materials** <a id="interpolation-between-like-materials"></a>
-  - By default, data is interpolated between like materials, for example, when you insert a region that overlaps an existing region of a like material. The inheritance direction does not matter; either the inserted material is like the exist...
-  - _Keywords:_ material, existing, between, materials, region, inserted, interpolated, insert
+  - By default, data is interpolated between like materials, for example, when you insert a region that overlaps an existing region of a like m…
 - **Interface Parameters** <a id="interface-parameters"></a>
-  - When using the Parameter Database commands and the Alagator language, interfaces are specified as a pair of materials separated by an underscore (\_), for example, Gas\_Oxide and Oxide\_Silicon. The official name follows alphabetic order...
-  - _Keywords:_ Gas, _Silicon, interface, Abs, Error, Database, Alagator, language
+  - When using the Parameter Database commands and the Alagator language, interfaces are specified as a pair of materials separated by an under…
 - **Alloy Materials and Parameter Interpolation** _(p.59)_ <a id="alloy-materials-and-parameter-interpolation"></a>
-  - Material parameters in random alloys are typically assumed to depend on the mole fraction. To capture this effect, Sentaurus Process uses automatic mole fraction–dependent parameter interpolation. After a material has been set up as an a...
-  - _Keywords:_ material, fraction, mathrm, materials, Sentaurus, Process, interpolation, automatically
+  - Material parameters in random alloys are typically assumed to depend on the mole fraction. To capture this effect, Sentaurus Process uses a…
 - **Using Parameter Interpolation** _(p.59)_ <a id="using-parameter-interpolation"></a>
-  - Switches are available to turn parameter interpolation on and off at different levels: global, module, material, region, and parameter. By default, parameter interpolation is used in any material that is specified as an alloy (see Defini...
-  - _Keywords:_ interpolation, Silicon, material, Germanium, Switches, available, different, levels
+  - Switches are available to turn parameter interpolation on and off at different levels: global, module, material, region, and parameter. By…
 - **Interpolation Function Types** _(p.60–61)_ <a id="interpolation-function-types"></a>
-  - Besides the default linear interpolation, the available interpolation functions are parabolic, piecewise linear table, logarithmic, and user defined.
-  - _Keywords:_ interpolation, SiGe, available, pdbSet, coefficients, interpolated, linear, fraction
+  - Besides the default linear interpolation, the available interpolation functions are parabolic, piecewise linear table, logarithmic, and use…
 - **Linear Interpolation** _(p.61)_ <a id="linear-interpolation"></a>
   - For the parameter of a ternary material, $\mathbf { A } _ { ( \mathrm { x } ) } \mathbf { B } _ { ( 1 - \mathrm { x } ) } \mathbf { C }$ :
-  - _Keywords:_ mathrm, mathbf, quaternary, ternary, material
 - **Parabolic Interpolation** <a id="parabolic-interpolation"></a>
-  - The extension X2 of a parameter defines a parabolic dependency on the x–mole fraction of a ternary compound. The parabolic interpolation is performed by:
-  - _Keywords:_ mathrm, parabolic, InGaAs, dependency, fraction, extension, defines, ternary
+  - The extension X2 of a parameter defines a parabolic dependency on the x–mole fraction of a ternary compound. The parabolic interpolation is…
 - **Logarithmic Interpolation** _(p.62)_ <a id="logarithmic-interpolation"></a>
-  - Some parameters such as diffusivity are more physically appropriate to be logarithmically interpolated despite that the simulation might require more time than linear interpolation due to its complexity. The parameter value in logarithmi...
-  - _Keywords:_ mathrm, interpolation, logarithmic, pdbSetString, Log, Interpolated, Params, Some
+  - Some parameters such as diffusivity are more physically appropriate to be logarithmically interpolated despite that the simulation might re…
 - **User-Defined Interpolation** _(p.62)_ <a id="user-defined-interpolation"></a>
-  - For parameters that cannot be interpolated with the abovementioned functions, you can define your own interpolation function with the Tcl proc command. The function can be defined using the .Function extension, that is, <param>.Function.
-  - _Keywords:_ SiGe, Potential, Tcl, valley, pdbSet, Eg300, delEgX, xMoleFraction
+  - For parameters that cannot be interpolated with the abovementioned functions, you can define your own interpolation function with the Tcl p…
 - **Interpolation at Interfaces** <a id="interpolation-at-interfaces"></a>
-  - At a material interface, parameters are interpolated with the parameter values of the neighbor material with Si and one with Ge. For example, the parameter values of an interface with oxide are interpolated with the parameter values of O...
-  - _Keywords:_ material, interface, interpolated, neighbor, Oxide, _Silicon, Germanium, _Oxide
+  - At a material interface, parameters are interpolated with the parameter values of the neighbor material with Si and one with Ge. For exampl…
 - **Defining Alloy Materials** <a id="defining-alloy-materials"></a>
-  - An alloy material has the parameter MoleFraction.Atoms of the Parameter Database that specifies the mole fraction definition. The MoleFraction.Atoms parameter is set internally by reading the Molefraction.txt file in the \$STROOT/tcad/\$...
-  - _Keywords:_ material, SiGe, MoleFraction, Atoms, Database, Derived, Materials, handled
+  - An alloy material has the parameter MoleFraction.Atoms of the Parameter Database that specifies the mole fraction definition. The MoleFract…
 - **Regionwise Parameters and Region Name-Handling** _(p.63–64)_ <a id="regionwise-parameters-and-region-name-handling"></a>
-  - Many parameters in the parameter database can be specified regionwise including parameters related to meshing, parameters for both analytic implantation and Monte Carlo implantation, and mechanics parameters. Those parameters used by Ala...
-  - _Keywords:_ region, layer1, regions, coordinate, lowest, specified, regionwise, highest
+  - Many parameters in the parameter database can be specified regionwise including parameters related to meshing, parameters for both analytic…
 - **Parameter Database Browser: Viewing the Defaults** _(p.65)_ <a id="parameter-database-browser-viewing-the-defaults"></a>
-  - The Parameter Database (PDB) Browser is a graphical representation of the parameter database that allows you to view and edit parameters. The PDB Browser has three distinct areas (see Figure 4):
-  - _Keywords:_ shared, temperature, Double, unitless, during, Browser, representation, Info
+  - The Parameter Database (PDB) Browser is a graphical representation of the parameter database that allows you to view and edit parameters. T…
 - **Starting the Parameter Database Browser** _(p.66)_ <a id="starting-the-parameter-database-browser"></a>
   - To start the PDB Browser from the command line, type:
-  - _Keywords:_ PDB, Browser, database, location, Sentaurus, Process, You, sprocess
 - **PDB Browser Functions** _(p.67)_ <a id="pdb-browser-functions"></a>
   - The following functions are available from the File and Tools menus:
-  - _Keywords:_ Tools, selected, Export, Saves, specified, delimited, format, Evaluate
 - **Tools > Plot Over** _(p.67)_ <a id="tools-plot-over"></a>
   - The same as Plot but it does not clear the graphic window of previous graphs.
-  - _Keywords:_ Zoom, Plot, graphic, window, previous, graphs, You, dragging
 - **Tools > Arrhenius Fit** <a id="tools-arrhenius-fit"></a>
-  - Using the Arrhenius Fit dialog box, you can find the best prefactor and energy for an Arrhenius fit of a given profile, taken from the list of temperature–value pairs. The results can be plotted in the graphic window:
-  - _Keywords:_ Arrhenius, details, summary, Plot, Fit, dialog, prefactor, energy
+  - Using the Arrhenius Fit dialog box, you can find the best prefactor and energy for an Arrhenius fit of a given profile, taken from the list…
 - **Tools > Find, Tools > Find Next** <a id="tools-find-tools-find-next"></a>
-  - Matches the pattern entered against parameter names according to the options selected in the Find dialog box. Patterns can include regular Tcl expressions. The match is highlighted when found:
-  - _Keywords:_ Find, details, summary, Matches, pattern, entered, against, according
+  - Matches the pattern entered against parameter names according to the options selected in the Find dialog box. Patterns can include regular…
 - **Tools > Goto Line** <a id="tools-goto-line"></a>
   - Highlights a table row or tree node that corresponds to the number entered.
-  - _Keywords:_ Highlights, corresponds, entered
 - **Tools > Filter** <a id="tools-filter"></a>
   - Selects which parameters to display.
-  - _Keywords:_ Selects, display
 - **Tools > Info Level** _(p.68)_ <a id="tools-info-level"></a>
   - Chooses which parameters to display ranging from basic parameters to all parameters.
-  - _Keywords:_ Chooses, display, ranging
 - **Viewing Parameter Information** _(p.68)_ <a id="viewing-parameter-information"></a>
-  - Double-clicking a nonempty cell in the spreadsheet allows you to view the corresponding parameter information in a separate window. To close the window, click the Close button.
-  - _Keywords:_ window, Double, clicking, nonempty, spreadsheet, allows, corresponding, information
+  - Double-clicking a nonempty cell in the spreadsheet allows you to view the corresponding parameter information in a separate window. To clos…
 - **PDB Browser Preferences** _(p.69)_ <a id="pdb-browser-preferences"></a>
-  - The PDB Browser allows you to reset the default settings for the following values using the Preferences menu, the shortcut keys, or the shortcut menu of the graphic window:
-  - _Keywords:_ Preferences, Graph, Resets, Editor, Reset, Temperature, temperature, Points
+  - The PDB Browser allows you to reset the default settings for the following values using the Preferences menu, the shortcut keys, or the sho…
 - **Viewing Parameters Stored in TDR Files** _(p.70)_ <a id="viewing-parameters-stored-in-tdr-files"></a>
-  - Parameters stored in TDR files can be viewed using the pdbBrowser command run from the command line instead of through Sentaurus Process. By default, the PDB Browser reads parameters from the Sentaurus Process database directory (which c...
-  - _Keywords:_ TDR, database, pdbBrowser, Sentaurus, Process, PDB, Browser, stored
+  - Parameters stored in TDR files can be viewed using the pdbBrowser command run from the command line instead of through Sentaurus Process. B…
 - **Understanding Coordinate Systems** _(p.70)_ <a id="understanding-coordinate-systems"></a>
   - Sentaurus Process and related tools use different coordinate systems.
-  - _Keywords:_ Sentaurus, Process, related, different, coordinate, systems
 - **Wafer Coordinate System** _(p.70)_ <a id="wafer-coordinate-system"></a>
-  - The wafer coordinate system is fixed with respect to the wafer flat or notch, and is used to define the relationship of all other coordinate systems to the physical wafer.
-  - _Keywords:_ coordinate, system, details, summary, images, text_image, respect, define
+  - The wafer coordinate system is fixed with respect to the wafer flat or notch, and is used to define the relationship of all other coordinat…
 - **Simulation Coordinate System** _(p.71)_ <a id="simulation-coordinate-system"></a>
-  - The simulation coordinate system is used to define the mesh for the simulation. The default coordinate system is the unified coordinate system (UCS).
-  - _Keywords:_ details, summary, coordinate, system, simulation, UCS, images, text_image
+  - The simulation coordinate system is used to define the mesh for the simulation. The default coordinate system is the unified coordinate sys…
 - **Creating and Loading Structures and Data** <a id="creating-and-loading-structures-and-data"></a>
-  - The first step in most simulations is either to load an existing structure or to create a new one. New structures are created through a combination of the line, region, and init commands. The initial mesh is a tensor-product mesh where t...
-  - _Keywords:_ defined, region, initial, regions, aligned, dimensions, simulations, either
+  - The first step in most simulations is either to load an existing structure or to create a new one. New structures are created through a com…
 - **Defining the Structure: The line and region Commands** <a id="defining-the-structure-the-line-and-region-commands"></a>
-  - The line and region commands are used together to define the structure. In the init command, the structure is actually formed. Care must be taken when creating a structure because there are few checks for errors.
-  - _Keywords:_ region, structure, substrate, defined, spacing, location, created, define
+  - The line and region commands are used together to define the structure. In the init command, the structure is actually formed. Care must be…
 - **Creating the Structure and Initializing Data** <a id="creating-the-structure-and-initializing-data"></a>
-  - The init command is used to create the structure. If the line and region commands have been given to create a structure from the beginning, the init command does not require any options. It will take the structure definition and create a...
-  - _Keywords:_ structure, region, orientation, create, initialize, specifies, direction, created
+  - The init command is used to create the structure. If the line and region commands have been given to create a structure from the beginning,…
 - **Defining the Crystal Orientation** <a id="defining-the-crystal-orientation"></a>
-  - Generally, the orientation of a hexagonal crystal system can be described using four Miller indices <ijtk>; whereas, only three Miller indices <ijk> are needed for other systems. In a hexagonal crystal system, the sum of the first three ...
-  - _Keywords:_ orientation, indices, Miller, surface, direction, hexagonal, crystal, systems
+  - Generally, the orientation of a hexagonal crystal system can be described using four Miller indices <ijtk>; whereas, only three Miller indi…
 - **NOTE** <a id="note"></a>
-  - The wafer.orient and notch.direction arguments of the init command apply to any crystalline systems in the structure. However, these settings are superseded by the material-specific wafer orientation (vertical.orient) and flat orientatio...
-  - _Keywords:_ orient, orientation, crystalline, crystallographic, orientations, materials, Silicon, Silicon110
+  - The wafer.orient and notch.direction arguments of the init command apply to any crystalline systems in the structure. However, these settin…
 - **Automatic Dimension Control** <a id="automatic-dimension-control"></a>
   - The maximum dimension of a simulation is determined by the specified line commands:
-  - _Keywords:_ maximum, dimension, simulation, specified, determined, define, extensions, vertical
 - **1: Working With the Simulator** _(p.72)_ <a id="1-working-with-the-simulator"></a>
   - Creating and Loading Structures and Data
-  - _Keywords:_ structure, dimension, simulation, specified, Sentaurus, Process, dimensions, increase
 - **Interpolating Field Data From an External Structure File Using the load Command** <a id="interpolating-field-data-from-an-external-structure-file-usi"></a>
-  - The load command can be used to interpolate data from a TDR file onto the current structure (see load on page 1086). For 1D structures, 1D TDR files are allowed. For 3D structures, 3D TDR files are allowed. However, for 2D structures, ei...
-  - _Keywords:_ structure, datasets, TDR, _Implant, transform, structures, allowed, existing
+  - The load command can be used to interpolate data from a TDR file onto the current structure (see load on page 1086). For 1D structures, 1D…
 - **Loading 1D Profiles: The profile Command** <a id="loading-1d-profiles-the-profile-command"></a>
-  - The profile command can load a 1D profile into 1D, 2D, or 3D structures (see profile on page 1164). The file to be read must contain one x-coordinate data pair per line. Both linear and logarithmic interpolation are available. For exampl...
-  - _Keywords:_ profile, Boron, structures, contain, coordinate, Both, linear, logarithmic
+  - The profile command can load a 1D profile into 1D, 2D, or 3D structures (see profile on page 1164). The file to be read must contain one x-…
 - **Saving Structures** <a id="saving-structures"></a>
-  - Sentaurus Process uses the TDR file format for saving the structure geometry with and without the bulk mesh and data, and with contacts. TDR files contain simply connected regions to operate smoothly with other Synopsys TCAD tools. One i...
-  - _Keywords:_ TDR, fields, simulation, stored, Solutions, saving, SetTDRList, Dopants
+  - Sentaurus Process uses the TDR file format for saving the structure geometry with and without the bulk mesh and data, and with contacts. TD…
 - **Saving a Structure for Restarting Simulations** <a id="saving-a-structure-for-restarting-simulations"></a>
-  - When saving files using the TDR format, the current state of the parameter database is, by default, saved in the file. The parameter database contains all of the information necessary to restart a simulation including:
-  - _Keywords:_ TDR, specifications, stored, coordinate, system, database, simulation, settings
+  - When saving files using the TDR format, the current state of the parameter database is, by default, saved in the file. The parameter databa…
 - **Saving a Structure for Device Simulation** <a id="saving-a-structure-for-device-simulation"></a>
   - In general, the main steps to saving a structure appropriate for device simulation are:
-  - _Keywords:_ contact, structure, device, simulation, Delaunay, refinebox, contacts, refinement
 - **Converting Silicon Material to SiGe Material** <a id="converting-silicon-material-to-sige-material"></a>
   - You can save germanium-doped Silicon material as SiliconGermanium material when either:
-  - _Keywords:_ SiliconGermanium, Min, Conv, Conc, germanium, Silicon, TDR, material
 - **Saving Doping Information in SiC and GaN for Device Simulations** <a id="saving-doping-information-in-sic-and-gan-for-device-simulati"></a>
-  - Basic process simulation capabilities such as etching, deposition, and implantation with Monte Carlo are available for multicomponent materials, for example, silicon carbide (SiC) and gallium nitride (GaN). However, there are no activati...
-  - _Keywords:_ simulation, materials, SiC, activation, dopants, proper, diffuse, temperature
+  - Basic process simulation capabilities such as etching, deposition, and implantation with Monte Carlo are available for multicomponent mater…
 - **Saving 1D Profiles for Inspect** <a id="saving-1d-profiles-for-inspect"></a>
-  - To store .plx files, use the WritePlx command. The command SetPlxList selects the fields to be stored in the .plx file. The SetPlxList command is similar to the SetTDRList command, except that no fields are selected by default. Only the ...
-  - _Keywords:_ SetPlxList, WritePlx, fields, stored, selects, similar, SetTDRList, except
+  - To store .plx files, use the WritePlx command. The command SetPlxList selects the fields to be stored in the .plx file. The SetPlxList comm…
 - **Saving 1D TDR Files From 2D and 3D Simulations, and 2D TDR Files From 3D Simulations** <a id="saving-1d-tdr-files-from-2d-and-3d-simulations-and-2d-tdr-fi"></a>
-  - The command struct also saves a 1D TDR file if the proper cutting coordinates are specified (see struct on page 1245). In two dimensions, only one cutting coordinate is needed (either x or y; the z-coordinate makes no sense here). In thr...
-  - _Keywords:_ struct, TDR, coordinates, cutting, specified, coordinate, filename, dimensions
+  - The command struct also saves a 1D TDR file if the proper cutting coordinates are specified (see struct on page 1245). In two dimensions, o…
 - **The select Command (More 1D Saving Options)** <a id="the-select-command-more-1d-saving-options"></a>
-  - The select command is a versatile command for many operations such as viewing results, postprocessing, and initializing or changing datasets. The basic command is:
-  - _Keywords:_ select, expression, selected, create, MyDataField, Vacancy, Void, versatile
+  - The select command is a versatile command for many operations such as viewing results, postprocessing, and initializing or changing dataset…
 - **The datexcodes.txt File** <a id="the-datexcodes-txt-file"></a>
-  - The datexcodes.txt file is the Synopsys configuration database for materials, doping species, and other quantities that are used in semiconductor process and device simulations. Sentaurus Process uses this file in two ways:
-  - _Keywords:_ datexcodes, internal, expected, Synopsys, configuration, database, materials, doping
+  - The datexcodes.txt file is the Synopsys configuration database for materials, doping species, and other quantities that are used in semicon…
 - **1: Working With the Simulator** <a id="1-working-with-the-simulator"></a>
   - References
-  - _Keywords:_ property, floops, VTotal, VacancyConcentration, References, factor, precision, interpol
 - **References** <a id="references"></a>
   - [1] B. B. Welch, Practical Programming in Tcl & Tk, Upper Saddle River, New Jersey: Prentice Hall PTR, 3rd ed., 2000.
-  - _Keywords:_ Welch, Practical, Programming, Tcl, Upper, Saddle, River, New
 - **Overview** <a id="overview"></a>
-  - Ion implantation is a widely used processing technique to introduce impurity atoms into semiconductor materials. In Sentaurus Process, either analytic functions or the Monte Carlo (MC) method can be used to compute the distribution of im...
-  - _Keywords:_ implantation, Sentaurus, Process, analytic, models, distribution, implant, implanted
+  - Ion implantation is a widely used processing technique to introduce impurity atoms into semiconductor materials. In Sentaurus Process, eith…
 - **Working With Ion Implantation** <a id="working-with-ion-implantation"></a>
   - This section presents how to implement an ion implantation.
-  - _Keywords:_ presents, implement, implantation
 - **Specifying Analytic or Monte Carlo Implantation** <a id="specifying-analytic-or-monte-carlo-implantation"></a>
   - Analytic implantation is performed using the implant command. At its simplest, you can use:
-  - _Keywords:_ implantation, implant, species, energy, rotation, sentaurus, Analytic, Implantation
 - **Specifying Implantation Parameters** <a id="specifying-implantation-parameters"></a>
   - The implantation energy is given in keV by default.
-  - _Keywords:_ implantation, WaferDose, BeamDose, implanted, DoseControl, implant, energy, rotation
 - **Selecting Models** <a id="selecting-models"></a>
   - The implanted species must be a previously initialized species. To initialize an implantation species, use:
-  - _Keywords:_ species, implantation, implant, material, initialized, damage, Sentaurus, Process
 - **Simulating Multirotation Implantations** <a id="simulating-multirotation-implantations"></a>
-  - To simulate multirotation implantations for both the analytic functions and the MC method, use mult.rot=<i>. If mult.rot is set to an integer greater than 1, an implantation with a revolving ion beam is simulated. Starting with the user-...
-  - _Keywords:_ multirotation, implantations, implantation, rotation, simulate, analytic, method, integer
+  - To simulate multirotation implantations for both the analytic functions and the MC method, use mult.rot=<i>. If mult.rot is set to an integ…
 - **Simulating Energy Contamination Implantations** <a id="simulating-energy-contamination-implantations"></a>
-  - Sentaurus Process can perform implantations with energy contamination, in which a fraction of the nominal dose has a different energy from the specified energy.
-  - _Keywords:_ energy, contamination, implant, Sentaurus, Process, perform, implantations, fraction
+  - Sentaurus Process can perform implantations with energy contamination, in which a fraction of the nominal dose has a different energy from…
 - **Specifying Adaptive Meshing During Implantation** <a id="specifying-adaptive-meshing-during-implantation"></a>
   - Adaptive meshing during implantation is active whenever adaptive meshing is switched on, that is, pdbGet Grid Adaptive returns a 1.
-  - _Keywords:_ implantation, adaptive, Adaptive, analytic, meshing, implant, remeshing, switches
 - **Defining New Species** <a id="defining-new-species"></a>
   - You can define new implantation species in an initialized material from an existing species using the following commands in the given order:
-  - _Keywords:_ species, material, implant, implantation, You, define, initialized, existing
 - **Coordinate System for Implantation: Tilt and Rotation Angles** <a id="coordinate-system-for-implantation-tilt-and-rotation-angles"></a>
-  - Regardless of whether a simulation is 1D, 2D, or 3D, the direction of the ion beam is defined relative to the wafer coordinate system (see Figure 5 on page 36) by the values of the tilt and rotation arguments of the implant command.
-  - _Keywords:_ rotation, details, summary, angles, direction, images, text_image, simulation
+  - Regardless of whether a simulation is 1D, 2D, or 3D, the direction of the ion beam is defined relative to the wafer coordinate system (see…
 - **2D Coordinate System** <a id="2d-coordinate-system"></a>
-  - In a 2D simulation, the orientation of the 2D simulation plane with respect to the wafer coordinate system must be defined. The angle between the 2D simulation plane and the y-axis is set by slice.angle in the init command (see init on p...
-  - _Keywords:_ simulation, tilt2D, coordinate, system, defined, between, CutLine2D, define
+  - In a 2D simulation, the orientation of the 2D simulation plane with respect to the wafer coordinate system must be defined. The angle betwe…
 - **Analytic Implantation** <a id="analytic-implantation"></a>
-  - Analytic implantation is performed using empirical point-response distributions, which are generated using moments. The moments representing the primary and lateral point-response functions are taken from implantation tables.
-  - _Keywords:_ lateral, distribution, response, mathrm, mathfrak, computed, intervals, integration
+  - Analytic implantation is performed using empirical point-response distributions, which are generated using moments. The moments representin…
 - **Primary Distribution Functions** <a id="primary-distribution-functions"></a>
   - Primary distribution functions can be set for a species–material combination using:
-  - _Keywords:_ response, mathrm, defined, distribution, species, material, pearson, selection
 - **Dual-Pearson Distribution: dualpearson** <a id="dual-pearson-distribution-dualpearson"></a>
-  - The most advanced primary distributions are available with the dual-Pearson function [4]. The dual-Pearson model includes a superposition of two Pearson functions:
-  - _Keywords:_ Pearson, implantation, moments, profile, amorphous, moment, implant, species
+  - The most advanced primary distributions are available with the dual-Pearson function [4]. The dual-Pearson model includes a superposition o…
 - **Gaussian Distribution: gaussian** <a id="gaussian-distribution-gaussian"></a>
-  - $$ f _ {\mathrm{p}} (x) = \frac {1}{\sqrt {2 \pi} \sigma} \exp \left(- \frac {(x - R _ {\mathrm{p}}) ^ {2}}{2 \sigma^ {2}}\right) \tag {17} $$
-  - _Keywords:_ mathrm
+  - $$ f _ {\mathrm{p}} (x) = \frac {1}{\sqrt {2 \pi} \sigma} \exp \left(- \frac {(x - R _ {\mathrm{p}}) ^ {2}}{2 \sigma^ {2}}\right) \tag {17}…
 - **Pearson Distribution: pearson** <a id="pearson-distribution-pearson"></a>
   - The Pearson distributions are the solution to the following differential equations:
-  - _Keywords:_ Pearson, distribution, mathrm, distributions, solution, differential, equations, Different
 - **Pearson Distribution With Linear Exponential Tail: pearson.s** <a id="pearson-distribution-with-linear-exponential-tail-pearson-s"></a>
-  - A linear exponential tail is added to the Pearson distribution. This is performed in an attempt to describe more accurately the profile tails for some implantations, that is:
-  - _Keywords:_ mathrm, exponential, Pearson, distribution, performed, conditions, angles, linear
+  - A linear exponential tail is added to the Pearson distribution. This is performed in an attempt to describe more accurately the profile tai…
 - **Point-Response Distribution: point.response** <a id="point-response-distribution-point-response"></a>
   - See Point-Response Interface on page 87.
-  - _Keywords:_ Point, Response, Interface
 - **Screening (Cap) Layer-Dependent Moments** <a id="screening-cap-layer-dependent-moments"></a>
-  - Cap layer–dependent implantation tables are used to describe correctly the screening of the ion beam in the structure. The implantation moments in a particular region generally depend on the combined thickness of all layers above this re...
-  - _Keywords:_ mathrm, species, effective, material, channeling, MinRatio, implantation, thickness
+  - Cap layer–dependent implantation tables are used to describe correctly the screening of the ion beam in the structure. The implantation mom…
 - **Lateral Straggle** <a id="lateral-straggle"></a>
-  - The lateral straggling of the distribution of implanted ions is specified by defining a lateral distribution function, which is a Gaussian distribution with a lateral standard deviation $\sigma _ { 1 }$ :
-  - _Keywords:_ lateral, standard, deviation, species, material, dependent, implant, straggling
+  - The lateral straggling of the distribution of implanted ions is specified by defining a lateral distribution function, which is a Gaussian…
 - **Depth-Dependent Lateral Straggle: Sentaurus Process Formulation** <a id="depth-dependent-lateral-straggle-sentaurus-process-formulati"></a>
   - If a TSUPREM-3-compatible implantation table is used (.s3), the depth-dependent lateral standard deviation is calculated according to:
-  - _Keywords:_ implantation, operatorname, lstdev, Pearson, TSUPREM, compatible, dependent, lateral
 - **Depth-Dependent Lateral Straggle: Dios Formulation** <a id="depth-dependent-lateral-straggle-dios-formulation"></a>
-  - If a Dios-compatible implantation table is used, the depth-dependent lateral standard deviation is calculated using a vector of five parameters (p1, p2, p3, p4, p5). The following formula is applied [5]:
-  - _Keywords:_ implantation, standard, deviation, applied, Pearson, Dios, compatible, dependent
+  - If a Dios-compatible implantation table is used, the depth-dependent lateral standard deviation is calculated using a vector of five parame…
 - **Depth-Dependent Lateral Straggle: Taurus Formulation** <a id="depth-dependent-lateral-straggle-taurus-formulation"></a>
-  - If an implantation table compatible with TSUPREM-4 or Taurus is used, the depth-dependent lateral standard deviation is calculated using two parameters:
-  - _Keywords:_ mathrm, sigma_, compatible, dependent, standard, deviation, Delta, formulation
+  - If an implantation table compatible with TSUPREM-4 or Taurus is used, the depth-dependent lateral standard deviation is calculated using tw…
 - **Analytic Damage: Hobler Model** <a id="analytic-damage-hobler-model"></a>
-  - The damage distribution is calculated using Eq. 35 and Eq. 11, p. 61. The primary and lateral distribution functions are taken from the literature [5]. The primary function consists of a Gaussian function and an exponential tail, joined ...
-  - _Keywords:_ mathrm, species, primary, distribution, damage, internal, lookup, arsenic
+  - The damage distribution is calculated using Eq. 35 and Eq. 11, p. 61. The primary and lateral distribution functions are taken from the lit…
 - **Datasets** <a id="datasets"></a>
-  - Several datasets store the as-implanted profile and the implantation damage. Point-defect profiles are created at the end of the implantation step. Datasets with the ending \_Implant contain profiles generated during subsequent implantat...
-  - _Keywords:_ implantation, Accumulative, profiles, concentration, profile, dataset, material, damage
+  - Several datasets store the as-implanted profile and the implantation damage. Point-defect profiles are created at the end of the implantati…
 - **Implantation Tables** <a id="implantation-tables"></a>
   - The implantation tables are located at \$SPHOME/ImpLib/.
-  - _Keywords:_ implantation, located, SPHOME, ImpLib
 - **Default Tables** <a id="default-tables"></a>
-  - The Default directory contains tables extracted from MC simulations with Crystal-TRIM [6], which are tabulated in Dios format. Data is available for arsenic, antimony, $\mathrm { B F } _ { 2 } ,$ boron, phosphorus, indium, and germanium ...
-  - _Keywords:_ rowspan, silicon, available, germanium, polysilicon, nitride, implantation, directory
+  - The Default directory contains tables extracted from MC simulations with Crystal-TRIM [6], which are tabulated in Dios format. Data is avai…
 - **Dios Tables** <a id="dios-tables"></a>
-  - The Dios directory contains the tables used by default in Dios. These implantation tables can be made the default for all species in all materials in Sentaurus Process using:
-  - _Keywords:_ Dios, implantation, species, These, implant, models, literature, directory
+  - The Dios directory contains the tables used by default in Dios. These implantation tables can be made the default for all species in all ma…
 - **Tasch Tables** <a id="tasch-tables"></a>
-  - The Tasch directory contains the University of Texas implantation tables for boron, $\mathrm { B F } _ { 2 } ,$ phosphorus, and arsenic in silicon [9]. For all other materials and species, single-Pearson tables are available. The tables ...
-  - _Keywords:_ Tasch, implantation, contains, single, Pearson, energy, ibout1, dependent
+  - The Tasch directory contains the University of Texas implantation tables for boron, $\mathrm { B F } _ { 2 } ,$ phosphorus, and arsenic in…
 - **Taurus Tables** <a id="taurus-tables"></a>
-  - The Taurus directory contains the Taurus Process implantation tables for boron, BF2, phosphorus, fluorine, carbon, nitrogen, germanium, indium, antimony, and arsenic. The tables contain calibrated data from sub-keV to above 10 MeV. The c...
-  - _Keywords:_ Taurus, implantation, suffix, Process, material, damage, directory, different
+  - The Taurus directory contains the Taurus Process implantation tables for boron, BF2, phosphorus, fluorine, carbon, nitrogen, germanium, ind…
 - **TSUPREM-4 Native Implantation Tables** <a id="tsuprem-4-native-implantation-tables"></a>
-  - The TSuprem4 directory contains the TSUPREM-4 native implantation tables (s4imp0.ts4) for antimony, arsenic, BF2, boron, fluorine, indium, and phosphorus. These tables contain the original implantation moments of TSUPREM-4.
-  - _Keywords:_ species, implantation, prefix, TSUPREM, antimony, material, native, fluorine
+  - The TSuprem4 directory contains the TSUPREM-4 native implantation tables (s4imp0.ts4) for antimony, arsenic, BF2, boron, fluorine, indium,…
 - **where:** <a id="where"></a>
-  - imp.table specifies the file name (it must include the extension .ts4) that contains implantation moment tables in TSUPREM-4 format, for example, mys4imp0.ts4. If the file is in the same directory where Sentaurus Process is running, only...
-  - _Keywords:_ material, implantation, TSUPREM, specifies, species, include, Sentaurus, Process
+  - imp.table specifies the file name (it must include the extension .ts4) that contains implantation moment tables in TSUPREM-4 format, for ex…
 - **Implantation Table Formats** <a id="implantation-table-formats"></a>
   - Sentaurus Process handles different table formats and automatically recognizes the format of an implantation table from the file extension.
-  - _Keywords:_ Sentaurus, Process, handles, different, formats, automatically, recognizes, format
 - **Single-Pearson Table Format: <file>.sp** <a id="single-pearson-table-format-file-sp"></a>
-  - This is the simplest table format that can be used by Sentaurus Process. It contains energydependent entries for the moments to be used with the single-Pearson or Gaussian model.
-  - _Keywords:_ format, entries, moments, Pearson, simplest, Sentaurus, Process, contains
+  - This is the simplest table format that can be used by Sentaurus Process. It contains energydependent entries for the moments to be used wit…
 - **SUPREM-III Table Format: <file>.s3** <a id="suprem-iii-table-format-file-s3"></a>
-  - This format allows for the handling of dual-Pearson moments that depend on energy, dose, tilt, rotation, and cap-layer thickness. A SUPREM-III implantation table consists of two sections: one for the primary moments and one for the later...
-  - _Keywords:_ moments, entries, stdev2, format, energy, thickness, lateral, header
+  - This format allows for the handling of dual-Pearson moments that depend on energy, dose, tilt, rotation, and cap-layer thickness. A SUPREM-…
 - **Dios Table Format: <file>.tab** <a id="dios-table-format-file-tab"></a>
-  - The Dios table format for implantation data files allows for dependencies on energy, dose, tilt, rotation, and the cap-layer thickness. It provides the primary moments for all implantation models including the dual-Pearson model. Paramet...
-  - _Keywords:_ entries, channeling, energy, thickness, implantation, rotation, material, ChannelingDose
+  - The Dios table format for implantation data files allows for dependencies on energy, dose, tilt, rotation, and the cap-layer thickness. It…
 - **Damage Table Format: <file>.dam** <a id="damage-table-format-file-dam"></a>
-  - The damage tables for the Hobler damage model are similar to the Dios table format, which allows for dependencies on energy, tilt, and rotation. The Hobler damage model table provides the primary moments for the damage model. Moments for...
-  - _Keywords:_ damage, Hobler, format, refers, Dios, energy, rotation, moments
+  - The damage tables for the Hobler damage model are similar to the Dios table format, which allows for dependencies on energy, tilt, and rota…
 - **Taurus Table Format: <file>** <a id="taurus-table-format-file"></a>
-  - The Taurus table format, which is the most general table format used in Sentaurus Process, handles data for all implantation and damage models. Implantation tables in the Taurus format have no file extension, that is, an implantation tab...
-  - _Keywords:_ implantation, conditions, numeric, sequence, lookup, format, header, moments
+  - The Taurus table format, which is the most general table format used in Sentaurus Process, handles data for all implantation and damage mod…
 - **Multilayer Implantations** <a id="multilayer-implantations"></a>
-  - Point-response functions are valid only for a single-material layer. For multiple layers of different materials, the point-response functions must be combined in a way that corrects the effect of different stopping powers in the covering...
-  - _Keywords:_ mathrm, response, algorithm, different, matching, delta_, layers, materials
+  - Point-response functions are valid only for a single-material layer. For multiple layers of different materials, the point-response functio…
 - **Lateral Integration** <a id="lateral-integration"></a>
 - **Local Layer Structure in Two Dimensions** <a id="local-layer-structure-in-two-dimensions"></a>
-  - Local 1D layer structures are defined for a set of lateral intervals. These lateral intervals are chosen perpendicular to the projection of the ion beam into the simulation plane as shown in Figure 15.
-  - _Keywords:_ lateral, integration, intervals, pdbSet, ImplantData, certain, NumGridPoints3D, implantation
+  - Local 1D layer structures are defined for a set of lateral intervals. These lateral intervals are chosen perpendicular to the projection of…
 - **Primary Direction and Scaling** <a id="primary-direction-and-scaling"></a>
   - The interpretation of the range and the lateral range parameters depends on the value of primary:
-  - _Keywords:_ primary, mathrm, dependent, rotation, different, mathfrak, lateral, tilt2D
 - **Point-Response Interface** <a id="point-response-interface"></a>
-  - The point-response interface allows the use of externally generated point responses in analytic implantation. As an alternative to using implantation tables, it replaces the moment-based point-response distributions. Only 1D primary dist...
-  - _Keywords:_ response, implantation, primary, surface, species, material, position, implant
+  - The point-response interface allows the use of externally generated point responses in analytic implantation. As an alternative to using im…
 - **Implantation Damage and Point-Defect Calculation** <a id="implantation-damage-and-point-defect-calculation"></a>
-  - Analytic implantation can generate damage profiles that are stored in the dataset Damage, and interstitial and vacancy profiles that are stored in the datasets Int\_Implant and Vac\_Implant, respectively.
-  - _Keywords:_ profiles, stored, _Implant, Analytic, implantation, generate, damage, dataset
+  - Analytic implantation can generate damage profiles that are stored in the dataset Damage, and interstitial and vacancy profiles that are st…
 - **Implantation Damage** <a id="implantation-damage"></a>
-  - The damage to the crystal is calculated on the basis of analytic damage models. Sentaurus Process calculates the damage using the model by Hobler and Selberherr [1]. Damage calculation for a species in a material can be switched on using...
-  - _Keywords:_ damage, Damage, species, material, implant, DFactor, calculated, Sentaurus
+  - The damage to the crystal is calculated on the basis of analytic damage models. Sentaurus Process calculates the damage using the model by…
 - **Point-Defect Calculation: Elemental Materials** <a id="point-defect-calculation-elemental-materials"></a>
-  - The interstitial and vacancy profiles are calculated in a postprocessing step at the end of the implant command. The model used to calculate point defects is selected using defect.model:
-  - _Keywords:_ implant, defect, interstitial, vacancy, profiles, calculated, postprocessing, calculate
+  - The interstitial and vacancy profiles are calculated in a postprocessing step at the end of the implant command. The model used to calculat…
 - **The effective.plus.n Model** <a id="the-effective-plus-n-model"></a>
-  - The effective.plus.n option selects the ‘+n’ model to calculate dynamically an NFactor using an energy-dependent and a dose-dependent fitting formula after Hobler and Moroz [12]. The NFactor replaces the IFactor in Eq. 52. The ‘+n’ model...
-  - _Keywords:_ NFactor, calculate, dependent, implantation, effective, selects, dynamically, energy
+  - The effective.plus.n option selects the ‘+n’ model to calculate dynamically an NFactor using an energy-dependent and a dose-dependent fitti…
 - **The frenkel.pair Model** <a id="the-frenkel-pair-model"></a>
-  - The frenkel.pair option selects the Frenkel pair model with which the interstitial and vacancy profiles are calculated from the damage and dopant profiles resulting from the last implantation step:
-  - _Keywords:_ IFactor, dopant, profiles, damage, FPIFactor, Damage_LastImp, _LastImp, FPVFactor
+  - The frenkel.pair option selects the Frenkel pair model with which the interstitial and vacancy profiles are calculated from the damage and…
 - **The plus.one Model** <a id="the-plus-one-model"></a>
-  - The plus.one option selects the ‘+1’ model to calculate the interstitial and vacancy profiles from the as-implanted profile at a particular implantation step <dopant>\_LastImp:
-  - _Keywords:_ IFactor, dopant, VFactor, interstitial, implantation, _Implant, LastImp, material
+  - The plus.one option selects the ‘+1’ model to calculate the interstitial and vacancy profiles from the as-implanted profile at a particular…
 - **The user.defined Model** <a id="the-user-defined-model"></a>
-  - The user.defined option allows you to define your own algorithms to calculate interstitial and vacancy profiles. It is expected that you will define the algorithm in the UserPointDefectModel procedure, for example:
-  - _Keywords:_ define, UserPointDefectModel, defined, allows, algorithms, calculate, interstitial, vacancy
+  - The user.defined option allows you to define your own algorithms to calculate interstitial and vacancy profiles. It is expected that you wi…
 - **where:** <a id="where"></a>
-  - Species is the name of the implanted species. Name is the name of the dopant. Energy is the implantation energy. Dose is the implantation dose. ■ Model is the implantation model (for example, tables or sentaurus.mc). IFactor and VFactor ...
-  - _Keywords:_ implantation, Species, implanted, species, dopant, Energy, energy, Dose
+  - Species is the name of the implanted species. Name is the name of the dopant. Energy is the implantation energy. Dose is the implantation d…
 - **Point-Defect Calculation: Multicomponent Materials** <a id="point-defect-calculation-multicomponent-materials"></a>
-  - In multicomponent materials, such as silicon carbide (SiC), the material is composed of different atom types. When an impurity is implanted into SiC, both silicon and carbon lattice atoms can be displaced, thereby forming silicon interst...
-  - _Keywords:_ SiC, _Implant, Fraction, silicon, defect, ifactor, vfactor, profiles
+  - In multicomponent materials, such as silicon carbide (SiC), the material is composed of different atom types. When an impurity is implanted…
 - **Backscattering Algorithm** <a id="backscattering-algorithm"></a>
-  - During implantation, some particles can be backscattered and lost to the ambient. Analytic implantation accounts for this effect by assuming that a portion of the distribution that protrudes from the structure is backscattered from the s...
-  - _Keywords:_ backscattering, backscattered, surface, details, summary, Range, implantation, switched
+  - During implantation, some particles can be backscattered and lost to the ambient. Analytic implantation accounts for this effect by assumin…
 - **Multiple Implantation Steps** <a id="multiple-implantation-steps"></a>
 - **Preamorphization Implantation (PAI) Model** <a id="preamorphization-implantation-pai-model"></a>
-  - A structure already has implantation-related damage by the time an implantation is performed. This damage contributes to the suppression of the channeling tail. This applies to a series of implantations performed without intermediate ann...
-  - _Keywords:_ implantation, damage, amorphous, thickness, species, PAIThreshold, material, structure
+  - A structure already has implantation-related damage by the time an implantation is performed. This damage contributes to the suppression of…
 - **CoImplant Model** <a id="coimplant-model"></a>
-  - The fraction of the ions described by the second Pearson function is taken from implantation tables, which have been created for single ion implantation steps. This treatment is acceptable only for low-dose implantations, which create li...
-  - _Keywords:_ mathrm, damage, implantation, CoImplant, channeling, PAI, implantations, species
+  - The fraction of the ions described by the second Pearson function is taken from implantation tables, which have been created for single ion…
 - **Profile Reshaping** <a id="profile-reshaping"></a>
   - The profile reshaping model can be switched on using:
-  - _Keywords:_ Pearson, distribution, profile, thickness, standard, deviation, species, implantation
 - **Germanium-Dependent Analytic Implantation** <a id="germanium-dependent-analytic-implantation"></a>
-  - SiGe material technology is used widely in stress engineering to improve device performance (such as mobility). In addition, the depth of the source/drain junctions in ${ \mathrm { S i } } _ { { \mathrm { 1 - x } } } { \mathrm { G e } } ...
-  - _Keywords:_ mathrm, material, pdbSet, species, Sup, channeling, Ratio, SiGe
+  - SiGe material technology is used widely in stress engineering to improve device performance (such as mobility). In addition, the depth of t…
 - **Analytic Molecular Implantation** <a id="analytic-molecular-implantation"></a>
-  - Sentaurus Process allows for the implantation of arbitrary molecular species (such as $\mathrm { B F } _ { 2 }$ and $\mathrm { B } _ { 1 0 } \mathrm { H } _ { 1 4 } )$ . The implantation can proceed with or without the implantation table...
-  - _Keywords:_ species, implantation, mathrm, molecular, Carborane, analytic, implant, dopant
+  - Sentaurus Process allows for the implantation of arbitrary molecular species (such as $\mathrm { B F } _ { 2 }$ and $\mathrm { B } _ { 1 0…
 - **Molecular Implantation With Implantation Tables** <a id="molecular-implantation-with-implantation-tables"></a>
-  - If implantation tables are available for the molecular species, the implantation proceeds in the same way as the atomic species; in other words, the specified energy and dose are used to look up the moments in the implantation tables. No...
-  - _Keywords:_ implantation, species, specified, molecular, energy, available, proceeds, atomic
+  - If implantation tables are available for the molecular species, the implantation proceeds in the same way as the atomic species; in other w…
 - **Molecular Implantation Without Implantation Tables** <a id="molecular-implantation-without-implantation-tables"></a>
-  - If implantation tables are not available for the molecular species, Sentaurus Process performs an approximate calculation of the dopant distribution using the implantation tables for the primary dopant species. The energy $E _ { i }$ for...
-  - _Keywords:_ implantation, species, dopant, molecular, distribution, energy, calculated, atomic
+  - If implantation tables are not available for the molecular species, Sentaurus Process performs an approximate calculation of the dopant dis…
 - **Boron Difluoride Implantation** <a id="boron-difluoride-implantation"></a>
-  - $\mathrm { B F } _ { 2 }$ is a special molecular species in analytic implantation because both boron and fluorine distributions are calculated in Sentaurus Process. By default, the fluorine profile is simply a boron profile multiplied by...
-  - _Keywords:_ fluorine, implantation, profile, TS4FluorineMode, mathrm, special, molecular, species
+  - $\mathrm { B F } _ { 2 }$ is a special molecular species in analytic implantation because both boron and fluorine distributions are calcula…
 - **Damage Calculation** <a id="damage-calculation"></a>
-  - If damage tables are not supplied for the molecular species, the damage also can be calculated using the internal damage tables for the primary dopant species.
-  - _Keywords:_ damage, species, FullDamage, molecular, calculated, primary, dopant, scaling
+  - If damage tables are not supplied for the molecular species, the damage also can be calculated using the internal damage tables for the pri…
 - **1D or 2D Analytic Implantation in 3D Mode** <a id="1d-or-2d-analytic-implantation-in-3d-mode"></a>
-  - Because analytic implantation performs lateral integration differently for one, two, and three dimensions, it might result in slightly different profiles from vertical 1D cuts, even though the same implantation moments are used. In addit...
-  - _Keywords:_ implantation, structure, analytic, integration, different, direction, lateral, profiles
+  - Because analytic implantation performs lateral integration differently for one, two, and three dimensions, it might result in slightly diff…
 - **Implantation on (110)/(111) Wafers Using (100) Implantation Tables** <a id="implantation-on-110-111-wafers-using-100-implantation-tables"></a>
-  - Sentaurus Process typically includes a large set of implantation tables for Si(100) wafers, but it does not include any implantation tables for Si(110) or Si(111) wafers. However, you sometimes need to perform process simulations on (110...
-  - _Keywords:_ mathrm, implantation, direction, wafers, moments, normal, scaling, implantations
+  - Sentaurus Process typically includes a large set of implantation tables for Si(100) wafers, but it does not include any implantation tables…
 - **Multithreaded Parallelization of 3D Analytic Implantation** <a id="multithreaded-parallelization-of-3d-analytic-implantation"></a>
-  - Parallel processing has become ubiquitous with the advent of multicore processors. The performance of 3D analytic implantation can be improved dramatically by exploiting the parallel processing power of multicore processors. In multithre...
-  - _Keywords:_ analytic, implantation, numThreads, multicore, processors, multithreaded, numThreadsImp3d, processing
+  - Parallel processing has become ubiquitous with the advent of multicore processors. The performance of 3D analytic implantation can be impro…
 - **Monte Carlo Implantation** <a id="monte-carlo-implantation"></a>
   - This section describes Monte Carlo (MC) ion implantation.
-  - _Keywords:_ describes, Monte, Carlo, implantation
 - **Running Sentaurus MC** <a id="running-sentaurus-mc"></a>
-  - Sentaurus Process can perform an atomistic simulation of ion implantation using the Monte Carlo simulator Sentaurus MC. MC implantation simulates ion implantation into singlecrystalline materials or amorphous materials of arbitrary compo...
-  - _Keywords:_ implantation, particles, pdbSet, MCImplant, Sentaurus, iBCA, implant, species
+  - Sentaurus Process can perform an atomistic simulation of ion implantation using the Monte Carlo simulator Sentaurus MC. MC implantation sim…
 - **where:** <a id="where"></a>
-  - implanted particles: The total number of pseudoparticles implanted, which is, at the end of the simulation, equal to the product of the specified number of particles and the total number of segments of the implantation surface. This numb...
-  - _Keywords:_ implantation, particles, segments, trajectories, implanted, replicated, current, CPU
+  - implanted particles: The total number of pseudoparticles implanted, which is, at the end of the simulation, equal to the product of the spe…
 - **Structure of Target Materials** <a id="structure-of-target-materials"></a>
   - MC implantation simulates the motion of energetic particles in single-crystalline materials and amorphous materials.
-  - _Keywords:_ materials, implantation, simulates, motion, energetic, particles, single, crystalline
 - **Composition** <a id="composition"></a>
   - For each material, the composition is set in the parameter database. The composition can be found in the <material> -> Composition entry.
-  - _Keywords:_ Composition, GaAs, StWeight, Component0, Component1, Nitride, material, composition
 - **Single-Crystalline Materials** <a id="single-crystalline-materials"></a>
 - **Lattice Structure** <a id="lattice-structure"></a>
-  - In the case of a single-crystalline material, the positions of target atoms are calculated based on the lattice system and the polytype. Sentaurus MC supports several lattice systems including cubic, orthorhombic, and hexagonal. To speci...
-  - _Keywords:_ lattice, system, orthorhombic, hexagonal, single, crystalline, material, positions
+  - In the case of a single-crystalline material, the positions of target atoms are calculated based on the lattice system and the polytype. Se…
 - **Polytypes** <a id="polytypes"></a>
   - To completely specify a lattice structure, in addition to the lattice system, you must specify the polytype:
-  - _Keywords:_ polytype, specify, lattice, orthorhombic, systems, polytypes, specified, Bcc
 - **Lattice Constants** <a id="lattice-constants"></a>
-  - For all lattice systems, Sentaurus MC supports different lattice constants for three different axes. Lattice constants for crystalline materials can be defined using the mater command:
-  - _Keywords:_ lattice, constants, different, defined, systems, Sentaurus, supports, Lattice
+  - For all lattice systems, Sentaurus MC supports different lattice constants for three different axes. Lattice constants for crystalline mate…
 - **Atomic Basis Vectors** <a id="atomic-basis-vectors"></a>
-  - The crystal structure consists of the lattice sites plus a group of atoms. An atom basis can be a single atom or a group of atoms attached to each lattice site.
-  - _Keywords:_ Composition, Component0, NaCl, lattice, Silicon, BasisVector, positions, specified
+  - The crystal structure consists of the lattice sites plus a group of atoms. An atom basis can be a single atom or a group of atoms attached…
 - **Thermal Vibrations** <a id="thermal-vibrations"></a>
-  - The thermal vibrations of the target atoms are important for the treatment of the motion of a projectile in single-crystalline material. In MC implantation, only instantaneous thermal displacements of target atoms from their ideal lattic...
-  - _Keywords:_ Debye, temperature, thermal, target, material, displacements, substrate, vibrations
+  - The thermal vibrations of the target atoms are important for the treatment of the motion of a projectile in single-crystalline material. In…
 - **Amorphous Materials** <a id="amorphous-materials"></a>
-  - The structure of an amorphous material is described in a simplified manner by assuming an average interatomic distance in the target material.
-  - _Keywords:_ material, amorphous, structure, described, simplified, manner, assuming, average
+  - The structure of an amorphous material is described in a simplified manner by assuming an average interatomic distance in the target materi…
 - **Polycrystalline Materials** <a id="polycrystalline-materials"></a>
-  - A polycrystalline material is characterized by its crystal orientation and grain size. Crystal orientation (one of <100>, <110>, and <111>) can be specified using a material-specific command:
-  - _Keywords:_ material, orientation, PolySilicon, Amorphous, Crystallinity, pdbSet, crystal, crystallinity
+  - A polycrystalline material is characterized by its crystal orientation and grain size. Crystal orientation (one of <100>, <110>, and <111>)…
 - **Molar Fractions** <a id="molar-fractions"></a>
-  - In Sentaurus Process, a mole fraction–dependent compound material is defined using a concentration field in a base material. For example, $\mathrm { S i } _ { \mathrm { 1 - x } } \mathrm { G e } _ { \mathrm { x } }$ is defined by either ...
-  - _Keywords:_ mathrm, material, adding, defined, either, germanium, silicon, Sentaurus
+  - In Sentaurus Process, a mole fraction–dependent compound material is defined using a concentration field in a base material. For example, $…
 - **Physical Models of Sentaurus MC** <a id="physical-models-of-sentaurus-mc"></a>
-  - The Sentaurus MC implantation engine is designed to be generally accurate and predictive with minimum user calibrations for most implantation conditions. It has been calibrated from sub-keV to above 10 MeV, and for different implantation...
-  - _Keywords:_ implantation, mathrm, energy, Delta, Sentaurus, accurate, conditions, MeV
+  - The Sentaurus MC implantation engine is designed to be generally accurate and predictive with minimum user calibrations for most implantati…
 - **Binary Collision Theory** <a id="binary-collision-theory"></a>
-  - Sentaurus MC implantation models the energy loss of nuclear collision according to the classical binary scattering theory. The basic assumption of the mechanism for the energy loss of nuclear collision is that the ion interacts with only...
-  - _Keywords:_ energy, collision, particle, energies, Sentaurus, implantation, nuclear, classical
+  - Sentaurus MC implantation models the energy loss of nuclear collision according to the classical binary scattering theory. The basic assump…
 - **Energy Loss** <a id="energy-loss"></a>
   - It can be shown that the first particle loses kinetic energy:
-  - _Keywords:_ energy, mathrm, particles, particle, Delta, integral, inverse, between
 - **Scattering Angle** <a id="scattering-angle"></a>
   - The angle by which particle 1 is deflected is given by:θ
-  - _Keywords:_ Delta, mathrm, particle, deflected, approaches
 - **Dimensionless Form** <a id="dimensionless-form"></a>
-  - Eq. 65 to Eq. 69 are the basic equations for classical two-body scattering. The scattering integral, Eq. 66, can be cast into a dimensionless form by assuming the potential has the form:
-  - _Keywords:_ dimensionless, varepsilon, scattering, charge, particle, mathrm, integral, length
+  - Eq. 65 to Eq. 69 are the basic equations for classical two-body scattering. The scattering integral, Eq. 66, can be cast into a dimensionle…
 - **Coulomb Potential** <a id="coulomb-potential"></a>
   - As an example of the above procedure, consider the Coulomb potential between two particles:
-  - _Keywords:_ varepsilon, giving, collision, procedure, consider, Coulomb, potential, between
 - **Universal Potential** <a id="universal-potential"></a>
-  - For the simple form of the Coulomb potential used in the previous example, the scattering integral can be solved analytically. For more realistic interatomic potentials, however, the scattering integral cannot be evaluated analytically.
-  - _Keywords:_ potential, integral, Sentaurus, varepsilon, scattering, analytically, universal, These
+  - For the simple form of the Coulomb potential used in the previous example, the scattering integral can be solved analytically. For more rea…
 - **Implantation Into Amorphous Materials** <a id="implantation-into-amorphous-materials"></a>
-  - This section describes how the binary collision theory is used to calculate ion trajectories in an amorphous solid. Assume an ion with kinetic energy $E _ { 0 }$ hits a target with an angle $\theta _ { 0 }$ with respect to the target nor...
-  - _Keywords:_ target, mathrm, energy, collision, material, scattering, between, nuclear
+  - This section describes how the binary collision theory is used to calculate ion trajectories in an amorphous solid. Assume an ion with kine…
 - **Implantation Into Crystalline Materials** <a id="implantation-into-crystalline-materials"></a>
-  - The binary collision calculation for crystalline materials proceeds in the same way as for amorphous materials, except that the selection of the collision partners of the projectile with target atoms is conducted in a more sophisticated ...
-  - _Keywords:_ collision, lattice, partners, energy, Sentaurus, simultaneous, stroke, constant
+  - The binary collision calculation for crystalline materials proceeds in the same way as for amorphous materials, except that the selection o…
 - **Electronic Stopping Model** <a id="electronic-stopping-model"></a>
-  - A moving ion loses energy by inelastic electronic processes, which include both nonlocal and local stopping power. Sentaurus MC uses the same electronic stopping model for both amorphous and crystalline materials.
-  - _Keywords:_ mathrm, energy, electronic, stopping, Delta, material, pdbSet, dopant
+  - A moving ion loses energy by inelastic electronic processes, which include both nonlocal and local stopping power. Sentaurus MC uses the sa…
 - **Nonlocal Electronic Stopping** <a id="nonlocal-electronic-stopping"></a>
-  - Nonlocal electronic stopping acts as the dragging (frictive) force on moving ions, which is proportional to the ion velocity and is independent of the impact parameter:
-  - _Keywords:_ LSS, stopping, mathrm, material, atomic, Nonlocal, electronic, dragging
+  - Nonlocal electronic stopping acts as the dragging (frictive) force on moving ions, which is proportional to the ion velocity and is indepen…
 - **Local Electronic Stopping** <a id="local-electronic-stopping"></a>
-  - Local electronic loss is the result of the electron exchange between the moving ion and the target atom, which is based on the Oen–Robinson model [19] and is dependent on the impact parameter:
-  - _Keywords:_ mathrm, Local, electronic, result, electron, exchange, between, moving
+  - Local electronic loss is the result of the electron exchange between the moving ion and the target atom, which is based on the Oen–Robinson…
 - **Damage Accumulation and Dynamic Annealing** <a id="damage-accumulation-and-dynamic-annealing"></a>
-  - As ions travel through a crystalline target, they collide with the target atoms and displace many of them from their lattice sites. In the binary collision approximation (BCA) code, it is assumed that, if the transferred energy exceeds a...
-  - _Keywords:_ target, lattice, displaced, travel, through, crystalline, collide, displace
+  - As ions travel through a crystalline target, they collide with the target atoms and displace many of them from their lattice sites. In the…
 - **Damage Accumulation Models** <a id="damage-accumulation-models"></a>
-  - The default damage model calculates the deposit energy $E _ { \mathrm { D } } ( x )$ for each collision, which is then converted to the number of point defects (Frenkel pairs) using the modified Kinchin–Pease formula [20]:
-  - _Keywords:_ threshold, displacement, silicon, damage, material, dopant, species, component
+  - The default damage model calculates the deposit energy $E _ { \mathrm { D } } ( x )$ for each collision, which is then converted to the num…
 - **Dynamic Annealing** <a id="dynamic-annealing"></a>
-  - Not all of the defects as calculated above will survive. Some of the generated defects will recombine within the cascade as well as with the pre-existing defects. To achieve computational efficiency, Sentaurus MC uses a statistical appro...
-  - _Keywords:_ recombination, damage, cascade, material, defects, accounted, recoiled, lattice
+  - Not all of the defects as calculated above will survive. Some of the generated defects will recombine within the cascade as well as with th…
 - **Damage De-Channeling** <a id="damage-de-channeling"></a>
-  - The accumulated damage has a significant effect on the destination of the subsequent ions, thereby altering the shape of the impurity profiles. This effect is known as damage dechanneling. Sentaurus MC handles this problem by switching f...
-  - _Keywords:_ amorphous, damage, amorphization, region, Sentaurus, defect, effect, concentration
+  - The accumulated damage has a significant effect on the destination of the subsequent ions, thereby altering the shape of the impurity profi…
 - **Improved Binary Collision Approximation Damage Model** <a id="improved-binary-collision-approximation-damage-model"></a>
-  - During implantation, energetic ions penetrate the target and lose their energy through collisions with atoms and electrons. It is traditionally assumed that only energy deposited in the form of nuclear collisions contributes to damage ge...
-  - _Keywords:_ energy, damage, BCA, iBCA, efficiency, disordered, generation, mathrm
+  - During implantation, energetic ions penetrate the target and lose their energy through collisions with atoms and electrons. It is tradition…
 - **Monte Carlo Molecular Implantations** <a id="monte-carlo-molecular-implantations"></a>
-  - The MC method allows for the implantation of molecular ions or atomic cluster species such as $\operatorname { B F } _ { 2 } .$ The assumption is that the molecule immediately breaks up into its constituents upon impact on a solid surface.
-  - _Keywords:_ mathrm, molecular, species, implantation, energy, atomic, molecule, calculated
+  - The MC method allows for the implantation of molecular ions or atomic cluster species such as $\operatorname { B F } _ { 2 } .$ The assumpt…
 - **Monte Carlo Implantation Into Polysilicon** <a id="monte-carlo-implantation-into-polysilicon"></a>
   - Polysilicon has three states of crystallinity:
-  - _Keywords:_ polycrystalline, amorphous, PolySilicon, GrainSize, crystal, pdbSet, GSize, GrainFactor
 - **Monte Carlo Implantation Into Alloy Materials** <a id="monte-carlo-implantation-into-alloy-materials"></a>
   - This section describes MC implantation into alloy materials.
-  - _Keywords:_ describes, implantation, materials
 - **Defining Alloy Materials** <a id="defining-alloy-materials"></a>
-  - In Sentaurus Process, a mole fraction–dependent alloy material is defined using a concentration field in a base material. For example, $\mathrm { S i _ { \mathrm { 1 - x } } G e _ { \mathrm { x } } }$ is defined by either adding a german...
-  - _Keywords:_ material, lattice, mathrm, InGaAs, defined, concentration, GaAs, materials
+  - In Sentaurus Process, a mole fraction–dependent alloy material is defined using a concentration field in a base material. For example, $\ma…
 - **Interpolating Physical Parameters** <a id="interpolating-physical-parameters"></a>
-  - To obtain consistent results with mole fractions from 0 to 1, all MC implantation–related parameters must be interpolated in mole fraction–dependent materials.
-  - _Keywords:_ obtain, consistent, results, fractions, implantation, related, interpolated, fraction
+  - To obtain consistent results with mole fractions from 0 to 1, all MC implantation–related parameters must be interpolated in mole fraction–…
 - **These include:** <a id="these-include"></a>
-  - Material-related parameters: AmorpThreshold, d.sim, DebyeTemperature, LatticeConstant, and SurfaceDisorder Species-related parameters: amor.par, casc.amo, casc.dis, casc.sat, casc.sur, disp.thr, ibca.amo, ibca.dis, ibca.sat, ibca.sur, LS...
-  - _Keywords:_ related, Material, AmorpThreshold, DebyeTemperature, LatticeConstant, SurfaceDisorder, Species, LSS
+  - Material-related parameters: AmorpThreshold, d.sim, DebyeTemperature, LatticeConstant, and SurfaceDisorder Species-related parameters: amor…
 - **Monte Carlo Implantation Into Silicon Carbide** <a id="monte-carlo-implantation-into-silicon-carbide"></a>
-  - Sentaurus MC supports ion implantation into crystalline silicon carbide (SiliconCarbide) with a hexagonal lattice. The hexagonal system has four crystallographic axes: three -axesa ( , , ) forming a plane, and a -axis that is normal to t...
-  - _Keywords:_ SiC, miscut, orientation, orient, implantation, hexagonal, normal, crystal
+  - Sentaurus MC supports ion implantation into crystalline silicon carbide (SiliconCarbide) with a hexagonal lattice. The hexagonal system has…
 - **Recoil Implantation** <a id="recoil-implantation"></a>
-  - Sentaurus MC implantation provides a general model for recoil implantation, such as an oxygen knock-on effect. Recoil implantation is generally handled in the same way as the cascade model, that is, vacancies are generated when the recoi...
-  - _Keywords:_ recoil, species, oxygen, implantation, Oxide, Composition, effect, displaced
+  - Sentaurus MC implantation provides a general model for recoil implantation, such as an oxygen knock-on effect. Recoil implantation is gener…
 - **Plasma Implantation** <a id="plasma-implantation"></a>
-  - Three-dimensional tri-gated devices (FinFETs) have been used at the 22 nm node and are expected to continue at and beyond the 16 nm node. Doping of FinFETs must be three dimensional, and conformal doping with plasma implantation is a pro...
-  - _Keywords:_ implantation, plasma, specify, doping, source, Sentaurus, module, deposition
+  - Three-dimensional tri-gated devices (FinFETs) have been used at the 22 nm node and are expected to continue at and beyond the 16 nm node. D…
 - **Simple Source** <a id="simple-source"></a>
-  - Assuming that the multiple ion species in plasma have the same energy and angle distributions, simply specify the multiple species as a list in the implant command (other parameters such as dose, energy, and tilt can be specified as for ...
-  - _Keywords:_ multiple, species, plasma, energy, Assuming, distributions, simply, specify
+  - Assuming that the multiple ion species in plasma have the same energy and angle distributions, simply specify the multiple species as a lis…
 - **where:** <a id="where"></a>
-  - plasma.source specifies a list of ion species to be implanted. These species must be predefined in ImplantData as usual. The number after each species is the fraction of the total dose (as specified by the dose parameter) for the given s...
-  - _Keywords:_ species, specified, plasma, source, specifies, implanted, These, predefined
+  - plasma.source specifies a list of ion species to be implanted. These species must be predefined in ImplantData as usual. The number after e…
 - **Complex Source** <a id="complex-source"></a>
-  - In more complex cases, different species can have different energies and angle distributions. In this case, each species can be specified with its own implantation parameters (energy, tilt, en.stdev, and tilt.stdev). So, for each species...
-  - _Keywords:_ species, energy, implant, species1, species2, different, specified, implantation
+  - In more complex cases, different species can have different energies and angle distributions. In this case, each species can be specified w…
 - **where:** <a id="where"></a>
-  - plasma.source specifies a list of ion species to be implanted. These species must be the same as those in previous implant commands. The regular implantation parameters (dose, energy, and so on) will be the default for those species that...
-  - _Keywords:_ species, source, implantation, specified, simple, plasma, specifies, implanted
+  - plasma.source specifies a list of ion species to be implanted. These species must be the same as those in previous implant commands. The re…
 - **Deposition of Material** <a id="deposition-of-material"></a>
   - To specify the deposition of material during implantation, use plasma.deposit in the implant command:
-  - _Keywords:_ plasma, material, deposit, implant, specify, deposition, during, implantation
 - **where:** <a id="where"></a>
-  - material is the name of the material to be deposited, which must be specified before the implantation. thickness is the total thickness of the deposit material. steps is the number of deposition steps.
-  - _Keywords:_ thickness, deposition, material, specified, Min, Deposit, Thickness, implantation
+  - material is the name of the material to be deposited, which must be specified before the implantation. thickness is the total thickness of…
 - **Knock-on and Knock-off Effect** <a id="knock-on-and-knock-off-effect"></a>
-  - The MC implantation module simulates the dopant knock-on and knock-off effect by specifying recoils in the implant command. In addition, you must specify the recoil species to be simulated in material composition.
-  - _Keywords:_ BHx, Composition, Atom0, specify, recoil, species, material, Boron
+  - The MC implantation module simulates the dopant knock-on and knock-off effect by specifying recoils in the implant command. In addition, yo…
 - **Conformal Doping** <a id="conformal-doping"></a>
-  - Conformal doping is an important characteristic in plasma implantation. However, due to the complexity of plasma dynamics that involves manybody long-range interactions, the exact mechanism for conformal doping in plasma implantation is ...
-  - _Keywords:_ fraction, conformal, plasma, surface, location, implantation, specified, doping
+  - Conformal doping is an important characteristic in plasma implantation. However, due to the complexity of plasma dynamics that involves man…
 - **Other Plasma Implantation–Related Parameters and Procedures** <a id="other-plasma-implantation-related-parameters-and-procedures"></a>
-  - Sentaurus Process provides a simple model for taking into account the energy and tilt angle distributions of the plasma source. Given the mean and the standard deviation of the implantation energy and tilt angles, Sentaurus MC implantati...
-  - _Keywords:_ energy, implantation, standard, deviation, Sentaurus, distributions, particle, Process
+  - Sentaurus Process provides a simple model for taking into account the energy and tilt angle distributions of the plasma source. Given the m…
 - **For example:** <a id="for-example"></a>
   - implant <species> plasma dose=<n> energy=<n> en.stdev=<n> tilt=<n> tilt.stdev=<n> sentaurus.mc
-  - _Keywords:_ energy, implantation, minimum, MaxNumStdevCutoff, specify, allowed, pdbSet, MCImplant
 - **Energy Distributions** <a id="energy-distributions"></a>
-  - The energetic distribution of different molecular and atomic ions, after extraction from the plasma, is known to cover the range from zero to the maximum energy $E _ { \mathrm { m a x } }$ , which is equal to the product of the ion charg...
-  - _Keywords:_ distribution, energy, mathrm, extraction, plasma, Sentaurus, Process, addition
+  - The energetic distribution of different molecular and atomic ions, after extraction from the plasma, is known to cover the range from zero…
 - **Tilt Angle Distributions** <a id="tilt-angle-distributions"></a>
   - Different tilt angle distributions are available in plasma implantation. You can select the tilt angle distribution model using:
-  - _Keywords:_ Gaussian, distributions, distribution, energy, provide, Plasma, plasma, implantation
 - **Implantation Damage and Point-Defect Calculation** <a id="implantation-damage-and-point-defect-calculation"></a>
-  - The damage in a Sentaurus MC implantation is computed either using the Kinchin–Pease formula [20] (default) or in full-cascade mode if cascades is specified in the implant command. For details about damage calculation, see Damage Accumul...
-  - _Keywords:_ damage, Damage, implantation, implant, MCDFactor, Sentaurus, calculation, _LastImp
+  - The damage in a Sentaurus MC implantation is computed either using the Kinchin–Pease formula [20] (default) or in full-cascade mode if casc…
 - **Point Defects: Elemental Materials** <a id="point-defects-elemental-materials"></a>
-  - Point-defect profiles after an MC run can be generated from the ballistic dopant profile using the plus.one or effective.plus.n model, or from the ballistic vacancy (Frenkel pair) and recoil profiles using the frenkel.pair model.
-  - _Keywords:_ dopant, vacancy, defect, profiles, frenkel, Vac, ballistic, _LastImp
+  - Point-defect profiles after an MC run can be generated from the ballistic dopant profile using the plus.one or effective.plus.n model, or f…
 - **Point Defects: Multicomponent Materials** <a id="point-defects-multicomponent-materials"></a>
-  - In multicomponent materials, such as SiC, the material is composed of different atom types. When an impurity is implanted into SiC, both silicon and carbon lattice atoms can be displaced, thereby forming silicon interstitials or carbon i...
-  - _Keywords:_ SiC, _Implant, Fraction, vacancy, defect, component, interstitial, profiles
+  - In multicomponent materials, such as SiC, the material is composed of different atom types. When an impurity is implanted into SiC, both si…
 - **Statistical Enhancement** <a id="statistical-enhancement"></a>
-  - The energetic pseudoparticles in an MC simulation are statistical objects representing several actual particles or only a fraction of an actual particle. Pseudoparticles start their motion at a plane above the target parallel to the wafe...
-  - _Keywords:_ MCImplant, particles, pdbSet, pseudoparticles, statistical, actual, surface, segments
+  - The energetic pseudoparticles in an MC simulation are statistical objects representing several actual particles or only a fraction of an ac…
 - **Trajectory Splitting** <a id="trajectory-splitting"></a>
-  - Trajectory splitting artificially increases the number of trajectories in regions with low particle concentration. It can be switched on or off using:
-  - _Keywords:_ splitting, particle, density, particles, trajectory, trajectories, statistical, weight
+  - Trajectory splitting artificially increases the number of trajectories in regions with low particle concentration. It can be switched on or…
 - **Dose Split** <a id="dose-split"></a>
-  - In the conventional pseudoparticle MC approach, all particles have the same weighting. In contrast, the dose split algorithm uses smart particle weighting with first-coming ions weighing less than later ions. This prevents crystalline fr...
-  - _Keywords:_ particles, channeling, conventional, approach, weighting, amorphizing, effective, pseudoparticle
+  - In the conventional pseudoparticle MC approach, all particles have the same weighting. In contrast, the dose split algorithm uses smart par…
 - **Trajectory Replication** <a id="trajectory-replication"></a>
-  - The trajectory replication algorithm uses the fact that in almost all 2D or 3D target structures, several regions with 1D topology can be found. A particle trajectory going through such a part can be copied many times by shifting its ori...
-  - _Keywords:_ trajectory, replication, equivalence, trajectories, pdbSet, MCImplant, particles, probing
+  - The trajectory replication algorithm uses the fact that in almost all 2D or 3D target structures, several regions with 1D topology can be f…
 - **Datasets** <a id="datasets"></a>
-  - The datasets used in an MC run follow the same naming conventions as those used in analytic implantation. Datasets unique to the MC implantation method are:
-  - _Keywords:_ implantation, Accumulative, concentration, vacancy, density, Implant, profiles, material
+  - The datasets used in an MC run follow the same naming conventions as those used in analytic implantation. Datasets unique to the MC implant…
 - **Multithreaded Parallelization of Sentaurus MC Implantation** <a id="multithreaded-parallelization-of-sentaurus-mc-implantation"></a>
-  - You can improve the performance of Sentaurus MC significantly by using multithreaded parallelization. In this approach, a large job with many particles ( ) is divided into multipleN ( ) separate jobs with a smaller number of particles p ...
-  - _Keywords:_ Sentaurus, implantation, thread, multithreaded, numThreads, parallelization, threads, results
+  - You can improve the performance of Sentaurus MC significantly by using multithreaded parallelization. In this approach, a large job with ma…
 - **Distributed Parallelization of Sentaurus MC Implantation** <a id="distributed-parallelization-of-sentaurus-mc-implantation"></a>
-  - You can improve the performance of Sentaurus MC significantly by using distributed parallelization based on the message passing interface (MPI). Sentaurus MC implantation uses the MPICH library for MPI implementation [25]. The approach u...
-  - _Keywords:_ implantation, Sentaurus, parallelization, MPI, distributed, processes, process, multithreaded
+  - You can improve the performance of Sentaurus MC significantly by using distributed parallelization based on the message passing interface (…
 - **Boundary Conditions and Domain Extension** <a id="boundary-conditions-and-domain-extension"></a>
-  - Boundary conditions are needed in ion implantations to account for geometric effects (such as shadowing) and lateral scattering of the implied structure. Both these effects require knowledge of the materials and damage concentration outs...
-  - _Keywords:_ conditions, effects, boundary, Boundary, needed, implantations, account, geometric
+  - Boundary conditions are needed in ion implantations to account for geometric effects (such as shadowing) and lateral scattering of the impl…
 - **Unified Implantation Boundary Conditions** <a id="unified-implantation-boundary-conditions"></a>
   - NOTE This is the preferred method for specifying implantation boundary conditions.
-  - _Keywords:_ boundary, conditions, implantation, periodic, method, Sentaurus, Process, analytic
 - **Implantation Boundary Conditions Using PDB Commands** <a id="implantation-boundary-conditions-using-pdb-commands"></a>
   - NOTE This method for specifying implantation boundary conditions is obsolete. Do not use this method when creating new command files.
-  - _Keywords:_ conditions, method, implantation, boundary, specifying, obsolete, creating, Boundary
 - **Monte Carlo Implantation** <a id="monte-carlo-implantation"></a>
   - Boundary conditions determine how particles leaving the simulation domain at its outer boundaries will be processed.
-  - _Keywords:_ Boundary, conditions, determine, particles, leaving, simulation, domain, boundaries
 - **2: Ion Implantation** <a id="2-ion-implantation"></a>
   - Boundary Conditions and Domain Extension
-  - _Keywords:_ direction, Boundary, Conditions, Domain, Extension, assumed, simulation, domain
 - **TruePeriodic Boundary Conditions** <a id="trueperiodic-boundary-conditions"></a>
   - These boundary conditions consider the device to be a true periodic structure. To select TruePeriodic boundary conditions, use:
-  - _Keywords:_ boundary, conditions, TruePeriodic, periodic, pdbSet, MCImplant, TruePeriodicY, TruePeriodicZ
 - **Legacy Periodic Boundary Conditions** <a id="legacy-periodic-boundary-conditions"></a>
   - NOTE These boundary conditions are obsolete. Do not use them when creating new command files.
-  - _Keywords:_ boundary, conditions, regions, periodic, particles, structure, pdbSet, MCImplant
 - **TrueReflect Boundary Conditions** <a id="truereflect-boundary-conditions"></a>
-  - Instead of reflecting the direction of the moving particles at the boundary, Sentaurus Process provides TrueReflect boundary conditions that automatically reflect the structure, perform the implantation, and then cut the structure to its...
-  - _Keywords:_ TrueReflect, boundary, conditions, implantation, pdbSet, MCIimplant, implant, average
+  - Instead of reflecting the direction of the moving particles at the boundary, Sentaurus Process provides TrueReflect boundary conditions tha…
 - **Legacy Reflect Boundary Conditions** <a id="legacy-reflect-boundary-conditions"></a>
   - A particle hitting the boundary will have its position and direction of motion reflected with respect to the boundary plane:
-  - _Keywords:_ pdbSet, MCImplant, Reflect, boundary, particle, hitting, position, direction
 - **Extending the Simulation Domain** <a id="extending-the-simulation-domain"></a>
   - The simulation domain is extended artificially in the corresponding direction:
-  - _Keywords:_ pdbSet, MCImplant, MinExtension, Extend, extension, ExtensionLength, simulation, domain
 - **Transparent Boundary** <a id="transparent-boundary"></a>
   - All particles crossing the boundary leave the simulation domain and are lost:
-  - _Keywords:_ Transparent, pdbSet, MCImplant, crossing, boundary, dimensions, particle, region
 - **Analytic Implantation** <a id="analytic-implantation"></a>
-  - Analytic implantation uses the same syntax as MC implantation for specifying boundary conditions. It is assumed that the simulation domain is rectangular if viewed from the top and is contained between:
-  - _Keywords:_ implantation, direction, Analytic, syntax, specifying, boundary, conditions, assumed
+  - Analytic implantation uses the same syntax as MC implantation for specifying boundary conditions. It is assumed that the simulation domain…
 - **Extended Boundary Conditions** <a id="extended-boundary-conditions"></a>
   - The simulation domain is extended artificially in the corresponding direction:
-  - _Keywords:_ pdbSet, ImplantData, Extend, simulation, domain, extended, implantation, artificially
 - **Reflective Boundary Conditions** <a id="reflective-boundary-conditions"></a>
   - In reflective boundary conditions, a reflected image with respect to the domain boundary is first constructed:
-  - _Keywords:_ boundary, pdbSet, ImplantData, Reflect, conditions, reflective, reflected, structure
 - **Periodic Boundary Conditions** <a id="periodic-boundary-conditions"></a>
   - These commands switch the periodicity in the left–right or front–back direction, respectively:
-  - _Keywords:_ These, implantation, pdbSet, ImplantData, periodic, images, boundary, conditions
 - **Smoothing Implantation Profiles** <a id="smoothing-implantation-profiles"></a>
-  - The implantation profiles produced by MC simulations are typically noisy, especially in low concentration regions. This might cause convergence problems or might require a very small time step in diffusion. To overcome this problem, Sent...
-  - _Keywords:_ diffusion, implantation, profiles, concentration, smoothing, partial, produced, simulations
+  - The implantation profiles produced by MC simulations are typically noisy, especially in low concentration regions. This might cause converg…
 - **Smoothing All As-Implanted Profiles** <a id="smoothing-all-as-implanted-profiles"></a>
   - To smooth all as-implanted profiles, specify smooth in the implant command, or use the global switch Smoothing, for example:
-  - _Keywords:_ smooth, implanted, profiles, Smoothing, specify, implant, global, switch
 - **Smoothing Dopant and Damage Fields** <a id="smoothing-dopant-and-damage-fields"></a>
-  - For flexibility, Sentaurus Process provides facilities to smooth selected fields using smooth.field= <list> in the implant command. If smooth.field is specified, only the specified fields are smoothed. The valid fields are <dopant> or Da...
-  - _Keywords:_ smooth, fields, specified, smoothing, dopant, smoothed, Damage, defects
+  - For flexibility, Sentaurus Process provides facilities to smooth selected fields using smooth.field= <list> in the implant command. If smoo…
 - **Smoothing Point Defects** <a id="smoothing-point-defects"></a>
-  - If only point defects are smoothed, you must use the smooth command after the implant command (instead of specifying smooth or smooth.field in the implant command). The syntax is:
-  - _Keywords:_ smooth, distance, defects, implant, _Implant, smoothed, instead, specifying
+  - If only point defects are smoothed, you must use the smooth command after the implant command (instead of specifying smooth or smooth.field…
 - **Automatically Extracting Implantation Moments** <a id="automatically-extracting-implantation-moments"></a>
-  - Implantation moments are one of the most critical elements in analytic implantation. By default, Sentaurus Process provides a large set of implantation tables that cover many species and materials, and a wide range of implantation condit...
-  - _Keywords:_ implantation, moments, algorithm, critical, analytic, Sentaurus, Process, species
+  - Implantation moments are one of the most critical elements in analytic implantation. By default, Sentaurus Process provides a large set of…
 - **Required Parameters** <a id="required-parameters"></a>
   - To extract the moments, you must specify extract.moments and data.file in the implant command:
-  - _Keywords:_ moments, extract, implantation, implant, specify, simply, indicates, instead
 - **Optional Parameters** <a id="optional-parameters"></a>
   - To better control the extraction process, the following optional parameters are available in the implant command:
-  - _Keywords:_ specify, initial, optimization, specifies, tolerance, better, control, extraction
 - **Output Format** <a id="output-format"></a>
   - Extracting implantation moments provides two types of output, at the same time, to facilitate further manipulation of the moments:
-  - _Keywords:_ moments, LogFile, Tcl, implant, format, RMS, fitting, Extracting
 - **Utilities** <a id="utilities"></a>
-  - The Tcl script ImplantTableMaker can be used to guide users through selecting implantation conditions to automatically create a Taurus-formatted implantation table from MC implantations. You must first input various implantation paramete...
-  - _Keywords:_ implantation, script, create, Tcl, ImplantTableMaker, through, selecting, conditions
+  - The Tcl script ImplantTableMaker can be used to guide users through selecting implantation conditions to automatically create a Taurus-form…
 - **2: Ion Implantation** <a id="2-ion-implantation"></a>
   - Automatically Extracting Implantation Moments
-  - _Keywords:_ ImplantTableMaker, interactive, script, Automatically, Extracting, Implantation, Moments, Sentaurus
 - **Interactive Mode** <a id="interactive-mode"></a>
-  - In interactive mode, you will be asked to input the control parameters and the implantation conditions. All the control parameters have default values. Either press the Enter key to accept the default values or enter new values. The acce...
-  - _Keywords:_ ImplantTableMaker, implantation, screen, information, interactive, control, conditions, accepted
+  - In interactive mode, you will be asked to input the control parameters and the implantation conditions. All the control parameters have def…
 - **Batch Mode** <a id="batch-mode"></a>
-  - If the ImplantTableMaker.in file or a user-specified file exists, ImplantTableMaker will enter batch mode. In this mode, ImplantTableMaker will read the control parameters and the implantation conditions from the text file. This text fil...
-  - _Keywords:_ Specifies, implantation, extraction, iterations, stdev2, discrete, ImplantTableMaker, factor
+  - If the ImplantTableMaker.in file or a user-specified file exists, ImplantTableMaker will enter batch mode. In this mode, ImplantTableMaker…
 - **Example of Batch File for ImplantTableMaker Script** <a id="example-of-batch-file-for-implanttablemaker-script"></a>
-  - The following is an example of an ImplantTableMaker.in file. Note that each line consists of a keyword and a list of values separate by space or commas.
-  - _Keywords:_ implantation, ImplantTableMaker, factor, different, moments, consists, keyword, separate
+  - The following is an example of an ImplantTableMaker.in file. Note that each line consists of a keyword and a list of values separate by spa…
 - **Loading External Profiles** <a id="loading-external-profiles"></a>
   - This section describes how to load external profiles.
-  - _Keywords:_ describes, external, profiles
 - **Loading External Profiles Using load.mc Switch** <a id="loading-external-profiles-using-load-mc-switch"></a>
   - A precomputed external profile can be loaded in to a given structure using load.mc:
-  - _Keywords:_ datasets, energy, structure, specified, implantation, dataset, Boron, _LastImp
 - **Automated Monte Carlo Implantation** <a id="automated-monte-carlo-implantation"></a>
-  - If no TDR file with the specified name is found or file is omitted, a separate run of Sentaurus MC is started to generate these files and the required datasets. Sentaurus Process internally switches from the load.mc mode to the sentaurus...
-  - _Keywords:_ Sentaurus, implantation, TDR, specified, omitted, separate, started, generate
+  - If no TDR file with the specified name is found or file is omitted, a separate run of Sentaurus MC is started to generate these files and t…
 - **Example** <a id="example"></a>
-  - $\begin{array} { r l } & { \mathrm { i m p l a n t ~ \mathsf { \partial B F 2 ~ d o s e } = \tau _ { 1 } d \mathsf { 4 } \quad e n e r g y = \tau _ { 4 } ( \mathsf { 0 } \ t i l t = \tau _ { 2 } 0 \quad r o t a t i o n = \tau \mathsf { a...
-  - _Keywords:_ mathsf, _LastImp, partial, mathrm, Sentaurus, profile, Process, TDR
+  - $\begin{array} { r l } & { \mathrm { i m p l a n t ~ \mathsf { \partial B F 2 ~ d o s e } = \tau _ { 1 } d \mathsf { 4 } \quad e n e r g y…
 - **References** <a id="references"></a>
-  - [1] G. Hobler and S. Selberherr, “Two-Dimensional Modeling of Ion Implantation Induced Point Defects,” IEEE Transactions on Computer-Aided Design, vol. 7, no. 2, pp. 174–180, 1988. [2] J. P. Biersack, “Basic Physical Aspects of High Ener...
-  - _Keywords:_ Implantation, Ion, Physics, Journal, Tian, Monte, Carlo, Silicon
+  - [1] G. Hobler and S. Selberherr, “Two-Dimensional Modeling of Ion Implantation Induced Point Defects,” IEEE Transactions on Computer-Aided…
 - **Overview** <a id="overview"></a>
-  - During the fabrication process, dopants are introduced into the substrate with different concentration profiles. As processing proceeds through various thermal annealing cycles, dopants diffuse and redistribute through the structure. The...
-  - _Keywords:_ Process, Sentaurus, models, process, annealing, diffusion, dopants, through
+  - During the fabrication process, dopants are introduced into the substrate with different concentration profiles. As processing proceeds thr…
 - **Basic Diffusion** <a id="basic-diffusion"></a>
-  - The diffuse command is used to model the diffusion of impurities under oxidizing and nonoxidizing conditions. The arguments of the diffuse command set the diffusion conditions as well as time-stepping options (see diffuse on page 958). F...
-  - _Keywords:_ temperature, diffuse, diffusion, specified, pdbSet, annealing, ramprate, temp_ramp
+  - The diffuse command is used to model the diffusion of impurities under oxidizing and nonoxidizing conditions. The arguments of the diffuse…
 - **Obtaining Active and Total Dopant Concentrations** <a id="obtaining-active-and-total-dopant-concentrations"></a>
-  - By default, active and total dopant concentrations are updated only during diffusion steps. For example, after an implantation, the active concentrations (BoronActiveConcentration, ArsenicActiveConcentration, and so on) and the total con...
-  - _Keywords:_ concentrations, active, dopant, diffuse, updated, diffusion, implantation, update
+  - By default, active and total dopant concentrations are updated only during diffusion steps. For example, after an implantation, the active…
 - **Transport Models** <a id="transport-models"></a>
-  - Sentaurus Process has several basic transport models with varying levels of complexity for computing flux, . This diversity of models is needed to balance accuracy with simulationJ times, which vary widely depending on the model selection:
-  - _Keywords:_ models, diffusion, dopant, ChargedReact, ChargedPair, Diffusion, defect, Model
+  - Sentaurus Process has several basic transport models with varying levels of complexity for computing flux, . This diversity of models is ne…
 - **Recombination and Reaction Models** <a id="recombination-and-reaction-models"></a>
-  - Many reactions and recombination models are available. Different diffusing species such as dopants, defects, and impurities will all have different recombination and reaction terms. These terms come from the following models:
-  - _Keywords:_ models, Dopant, recombination, species, clusters, Defect, Model, Many
+  - Many reactions and recombination models are available. Different diffusing species such as dopants, defects, and impurities will all have d…
 - **Boundary Conditions** <a id="boundary-conditions"></a>
   - Sentaurus Process can simulate various boundary conditions for dopants and defects. You can select from the following boundary conditions:
-  - _Keywords:_ dopants, boundary, oxidation, conditions, defects, Natural, Dirichlet, HomNeumann
 - **Other Materials and Effects** <a id="other-materials-and-effects"></a>
   - In addition to generic transport and recombination and reaction models, other effects can be simulated:
-  - _Keywords:_ Polysilicon, Diffusion, Epitaxy, addition, generic, transport, recombination, reaction
 - **General Formulation** <a id="general-formulation"></a>
   - The general expression for the particle current of a diffusing species of charge is given by:A c
-  - _Keywords:_ charge, boldsymbol, concentration, dopant, equation, charged, species, electron
 - **Transport Models** <a id="transport-models"></a>
-  - Transport models compute the particle flux of dopants and are the core diffusion models solved by Sentaurus Process. In addition to particle flux, pairing reactions can be computed depending on the transport model selection. Transport mo...
-  - _Keywords:_ models, Transport, compute, particle, transport, selection, clustering, dopant
+  - Transport models compute the particle flux of dopants and are the core diffusion models solved by Sentaurus Process. In addition to particl…
 - **where:** <a id="where"></a>
-  - <material> is the material name. <dopant> can be either "Dopant" to apply to all dopants or a named dopant such as boron, arsenic, phosphorus, antimony, and indium. <model> is one of the models: ChargedReact, React, ChargedPair, Pair, Ch...
-  - _Keywords:_ material, Point, dopant, Symbol, Boron, Arsenic, Phosphorus, Antimony
+  - <material> is the material name. <dopant> can be either "Dopant" to apply to all dopants or a named dopant such as boron, arsenic, phosphor…
 - **ChargedReact Diffusion Model** <a id="chargedreact-diffusion-model"></a>
-  - The ChargedReact diffusion model is the most general transport model in Sentaurus Process. The model has an immobile substitutional dopant and up to two mobile charged dopant–defect pair species. Mobile charged point defects are also inc...
-  - _Keywords:_ partial, dopant, defect, leftrightarrow, defects, bullet, substitutional, charged
+  - The ChargedReact diffusion model is the most general transport model in Sentaurus Process. The model has an immobile substitutional dopant…
 - **where:** <a id="where"></a>
-  - ■ is either an interstitial or a vacancy.X ■ is the charge state of the point defect.c $\boldsymbol { C } _ { A } ^ { + }$ is the active portion of $C _ { A }$ $C _ { { { \chi } ^ { 0 } } }$ is the concentration of the neutral point defe...
-  - _Keywords:_ charge, defect, concentration, equilibrium, possible, states, reactions, dopant
+  - ■ is either an interstitial or a vacancy.X ■ is the charge state of the point defect.c $\boldsymbol { C } _ { A } ^ { + }$ is the active po…
 - **where:** <a id="where"></a>
-  - <material> is a material name (see Specifying Materials on page 18). <dopant> is one of the existing Sentaurus Process dopants. <defect> is either Interstitial or Vacancy. <c> is the charge state. <n> is a Tcl expression that returns a n...
-  - _Keywords:_ defect, overline, dopant, material, charge, pdbSet, defined, reaction
+  - <material> is a material name (see Specifying Materials on page 18). <dopant> is one of the existing Sentaurus Process dopants. <defect> is…
 - **React Diffusion Model** <a id="react-diffusion-model"></a>
-  - The React model is similar to the ChargedReact model, except that the reaction rates are not charge state–dependent and the electron concentration is computed directly from the net doping concentration. In addition, the Frank–Turnbull me...
-  - _Keywords:_ partial, concentration, dopant, charge, defect, considered, defects, diffusivity
+  - The React model is similar to the ChargedReact model, except that the reaction rates are not charge state–dependent and the electron concen…
 - **where:** <a id="where"></a>
-  - <material> is a material name (see Specifying Materials on page 18). <dopant> is one of the existing Sentaurus Process dopants. <defect> is either Interstitial or Vacancy. <c> is the charge state. <n> is a Tcl expression that returns a n...
-  - _Keywords:_ defect, material, dopant, Arrhenius, mathrm, pdbSet, reaction, either
+  - <material> is a material name (see Specifying Materials on page 18). <dopant> is one of the existing Sentaurus Process dopants. <defect> is…
 - **ChargedPair Diffusion Model** <a id="chargedpair-diffusion-model"></a>
-  - The ChargedPair diffusion model assumes that the dopant–defect pairs are in local equilibrium with the dopant and defect concentration. Point defects themselves are not assumed to be in equilibrium. The kick-out mechanism that describes ...
-  - _Keywords:_ dopant, defect, equilibrium, concentration, partial, interstitial, charge, bullet
+  - The ChargedPair diffusion model assumes that the dopant–defect pairs are in local equilibrium with the dopant and defect concentration. Poi…
 - **Pair Diffusion Model** <a id="pair-diffusion-model"></a>
-  - The Pair diffusion model is similar to the ChargedPair model except that the reaction rates are not charge state–dependent, and the electron concentration is computed directly from the net doping concentration. In addition, the Frank–Tur...
-  - _Keywords:_ defect, dopant, concentration, mathtt, equilibrium, interstitial, partial, diffusivity
+  - The Pair diffusion model is similar to the ChargedPair model except that the reaction rates are not charge state–dependent, and the electro…
 - **ChargedFermi Diffusion Model** <a id="chargedfermi-diffusion-model"></a>
-  - The ChargedFermi diffusion model is similar to the ChargedPair diffusion model. The dependency of diffusivities on the electron and hole concentration is taken into account with the following exceptions:
-  - _Keywords:_ defect, dopant, equations, solved, concentration, equilibrium, switched, charge
+  - The ChargedFermi diffusion model is similar to the ChargedPair diffusion model. The dependency of diffusivities on the electron and hole co…
 - **Fermi Diffusion Model** <a id="fermi-diffusion-model"></a>
-  - The Fermi diffusion model is more complex than the Constant diffusion model. The dependency of diffusivities on the electron and hole concentration is taken into account with the following exceptions:
-  - _Keywords:_ defect, dopant, solved, equations, clusters, diffusion, equilibrium, switched
+  - The Fermi diffusion model is more complex than the Constant diffusion model. The dependency of diffusivities on the electron and hole conce…
 - **Constant Diffusion Model** <a id="constant-diffusion-model"></a>
-  - The Constant diffusion model is the simplest diffusion model used in Sentaurus Process and is mainly for dopant diffusion in oxide. It assumes that there is no interaction between dopants and point defects, and that there are no electric...
-  - _Keywords:_ diffusion, dopant, Dstar, Constant, impurity, partial, diffusivity, Arrhenius
+  - The Constant diffusion model is the simplest diffusion model used in Sentaurus Process and is mainly for dopant diffusion in oxide. It assu…
 - **NeutralReact Diffusion Model** <a id="neutralreact-diffusion-model"></a>
-  - NeutralReact diffusion in silicon is close to the React model (see React Diffusion Model on page 183) except that there are no charged atoms. The model can be switched on using the command:
-  - _Keywords:_ reaction, NeutralReact, dopant, diffusion, silicon, React, described, mechanisms
+  - NeutralReact diffusion in silicon is close to the React model (see React Diffusion Model on page 183) except that there are no charged atom…
 - **where:** <a id="where"></a>
-  - $C _ { A }$ is the concentration of substitutional dopant atoms. $C _ { A I }$ is the concentration of mobile dopant atoms. $K f _ { I }$ and $K f _ { V }$ are the forward reaction rates. $B _ { A I }$ and $B _ { A V }$ are the binding c...
-  - _Keywords:_ dopant, pdbSet, material, partial, Interstitial, concentration, mobile, Vacancy
+  - $C _ { A }$ is the concentration of substitutional dopant atoms. $C _ { A I }$ is the concentration of mobile dopant atoms. $K f _ { I }$ a…
 - **Carbon Diffusion Model** <a id="carbon-diffusion-model"></a>
   - Carbon diffusion is a typical example for the NeutralReact diffusion model. The kick-out reaction rate is defined by:
-  - _Keywords:_ Carbon, pdbSet, pdbDelayDouble, MigrationLength, carbon, diffusion, material, typical
 - **Nitrogen Diffusion Model** <a id="nitrogen-diffusion-model"></a>
-  - Nitrogen diffusion is defined according to the Constant diffusion model by default. However, instead of the Constant model, the NeutralReact diffusion model can be used for nitrogen diffusion. If the NeutralReact model is specified for n...
-  - _Keywords:_ nitrogen, partial, diffusion, reaction, NDimer, mathrm, NeutralReact, Nitrogen
+  - Nitrogen diffusion is defined according to the Constant diffusion model by default. However, instead of the Constant model, the NeutralReac…
 - **ChargedEquilibrium Diffusion Model** <a id="chargedequilibrium-diffusion-model"></a>
-  - ChargedEquilibrium diffusion in silicon is close to the point-defect diffusion model (see ChargedReact Diffusion Model on page 176). The model can be switched on using the command:
-  - _Keywords:_ dopant, diffusion, pdbSet, material, ChargedEquilibrium, silicon, defect, partial
+  - ChargedEquilibrium diffusion in silicon is close to the point-defect diffusion model (see ChargedReact Diffusion Model on page 176). The mo…
 - **Copper Diffusion Model** <a id="copper-diffusion-model"></a>
-  - Copper diffusion is a typical use of the ChargedEquilibrium diffusion model. The model is given in [2], and it assumes that copper not only diffuses interstitially, but also sits primarily at interstitial sites. Therefore, substitutional...
-  - _Keywords:_ copper, Copper, diffusion, precipitation, typical, ChargedEquilibrium, assumes, diffuses
+  - Copper diffusion is a typical use of the ChargedEquilibrium diffusion model. The model is given in [2], and it assumes that copper not only…
 - **Copper–Boron Pairing** <a id="copper-boron-pairing"></a>
   - Copper can pair with boron. This pairing reaction affects copper diffusion and precipitation [2]:
-  - _Keywords:_ mathrm, Copper, reaction, copper, CuB, concentration, partial, active
 - **Mobile Impurities and Ion-Pairing** <a id="mobile-impurities-and-ion-pairing"></a>
-  - The ion-pairing model includes the pairing of positively and negatively charged dopant ions [3][4][5]. Ion-pairing reduces the diffusivity of dopants where the concentration of dopants of the opposite type is large. The ion-pairing model...
-  - _Keywords:_ pairing, diffusivity, charged, reduces, species, positively, negatively, dopant
+  - The ion-pairing model includes the pairing of positively and negatively charged dopant ions [3][4][5]. Ion-pairing reduces the diffusivity…
 - **where:** <a id="where"></a>
-  - $N _ { d }$ and $N _ { a }$ are the total concentrations of electrically active donors and acceptors, respectively. ■ $N _ { p }$ is the concentration of ion pairs. ■ $f _ { p d }$ and $f _ { p a }$ are the ion-pairing factors for donors...
-  - _Keywords:_ Omega, Ion, Pair, donors, acceptors, respectively, concentration, pairing
+  - $N _ { d }$ and $N _ { a }$ are the total concentrations of electrically active donors and acceptors, respectively. ■ $N _ { p }$ is the co…
 - **Solid Phase Epitaxial Regrowth Model** <a id="solid-phase-epitaxial-regrowth-model"></a>
-  - The solid phase epitaxial regrowth (SPER) model simulates the movement of amorphous and crystalline boundaries due to the recrystallization of the amorphous silicon and the dopant dynamics during such process. The SPER model is switched ...
-  - _Keywords:_ SPER, movement, amorphous, pdbSet, Diffuse, method, LevelSet, epitaxial
+  - The solid phase epitaxial regrowth (SPER) model simulates the movement of amorphous and crystalline boundaries due to the recrystallization…
 - **Level-Set Method** <a id="level-set-method"></a>
   - The level-set method solves the equation for the distance field , which is named withϕ AmorpDistance:
-  - _Keywords:_ partial, varphi, method, solves, equation, distance, AmorpDistance
 - **where:** <a id="where"></a>
-  - ■ is the recrystallization velocity perpendicular to a boundary surface.v ■ is positive in an amorphous region, negative in a crystalline region, and zero at anϕ amorphous–crystalline boundary.
-  - _Keywords:_ mathrm, velocity, boundary, amorphous, region, crystalline, recrystallization, perpendicular
+  - ■ is the recrystallization velocity perpendicular to a boundary surface.v ■ is positive in an amorphous region, negative in a crystalline r…
 - **where:** <a id="where"></a>
-  - ■ $f _ { \nu }$ is the scaling factor. $\nu _ { o r i }$ is the orientation-dependent velocity. ■ $s _ { \nu }$ is the scaling factor of velocity near surfaces. 一 is the shortest distance from the surface.d ■ $L _ { \nu r }$ is the chara...
-  - _Keywords:_ SPER, Silicon, pdbSet, dopant, amorphous, SPERBoundaryTerm, partial, expression
+  - ■ $f _ { \nu }$ is the scaling factor. $\nu _ { o r i }$ is the orientation-dependent velocity. ■ $s _ { \nu }$ is the scaling factor of ve…
 - **Phase Field Method** <a id="phase-field-method"></a>
-  - Since the level-set method requires Cartesian grids to calculate the distance field, it might cause instability from the difficult time-step control as well as the interpolation error due to the decoupled method with the different mesh s...
-  - _Keywords:_ SPER, varphi, pdbSet, Silicon, method, dopant, partial, respectively
+  - Since the level-set method requires Cartesian grids to calculate the distance field, it might cause instability from the difficult time-ste…
 - **Flash or Laser Anneal Model** <a id="flash-or-laser-anneal-model"></a>
-  - The flash or laser anneal model becomes necessary for an advanced process that requires diffusionless, but high activation. The model can simulate the inhomogeneous thermal distribution, which results in better accuracy for stress calcul...
-  - _Keywords:_ anneal, solution, temperature, Boolean, melting, Use, Melting, Laser
+  - The flash or laser anneal model becomes necessary for an advanced process that requires diffusionless, but high activation. The model can s…
 - **Heat Transfer Equation** <a id="heat-transfer-equation"></a>
   - The heat transfer equation is:
-  - _Keywords:_ varphi, material, pdbSet, expression, partial, liquid, amorphous, respectively
 - **Energy Implantation Method** <a id="energy-implantation-method"></a>
-  - The energy implantation method (EIM) assumes conservation of energy dose and no reflection at material interfaces. EIM applies only to 1D and 2D structure simulations. To calculate the heat generation with EIM, use:
-  - _Keywords:_ EIM, pdbSet, energy, implantation, material, Heat, distribution, region
+  - The energy implantation method (EIM) assumes conservation of energy dose and no reflection at material interfaces. EIM applies only to 1D a…
 - **Transfer Matrix Method** <a id="transfer-matrix-method"></a>
-  - The transfer matrix method (TMM) calculates the reflectance, transmittance, and absorbance for both parallel and perpendicular polarizations. The monochromatic plane waves with arbitrary angles of incidence and polarization states penetr...
-  - _Keywords:_ mathrm, pdbSet, mathtt, lambda, TMM, transfer, Heat, polarization
+  - The transfer matrix method (TMM) calculates the reflectance, transmittance, and absorbance for both parallel and perpendicular polarization…
 - **Finite-Difference Time-Domain Method** <a id="finite-difference-time-domain-method"></a>
   - NOTE You must have licenses for Sentaurus Mesh and Sentaurus Device Electromagnetic Wave Solver (EMW) to use this method.
-  - _Keywords:_ pdbSet, EMW, CRI, method, FDTD, Refractive, Index, Extinction
 - **Melting Phase Field Equation** <a id="melting-phase-field-equation"></a>
   - The governing equation of the phase field is given by:ϕ
-  - _Keywords:_ varphi, partial, governing, equation
 - **where:** <a id="where"></a>
-  - , , and are the melting interface mobility, the surface tension, and the interfaceμ γ δ thickness, respectively. and depend on material crystallinity.μ γ ■ is the seed function to start melting.s T( ) , ϕ $\mathbf { v } _ { \mathrm { i n...
-  - _Keywords:_ pdbSet, material, Melting, Velocity, melting, Amorphous, interface, Heat
+  - , , and are the melting interface mobility, the surface tension, and the interfaceμ γ δ thickness, respectively. and depend on material cry…
 - **Crystallinity Phase Field Equation** <a id="crystallinity-phase-field-equation"></a>
-  - When an amorphous region is molten and solidified, its crystallinity depends on the cooling rate. It is assumed that the cooling rate is small enough to fully crystallize the solidified region. The crystallinity phase field is updated by...
-  - _Keywords:_ crystallinity, mathrm, region, solidified, cooling, varphi_, Phi, pdbSet
+  - When an amorphous region is molten and solidified, its crystallinity depends on the cooling rate. It is assumed that the cooling rate is sm…
 - **Dopant Diffusion in Melting Laser Anneal** <a id="dopant-diffusion-in-melting-laser-anneal"></a>
-  - Since a melting or solidification process occurs too quickly to observe the dopant diffusion in a solid region, it is assumed that the dopant atoms diffuse only by entropic force and temperature gradient. The different chemical potential...
-  - _Keywords:_ dopant, varphi, liquid, pdbSet, material, varphi_, mathrm, diffusion
+  - Since a melting or solidification process occurs too quickly to observe the dopant diffusion in a solid region, it is assumed that the dopa…
 - **Parameter Setting Guidelines** <a id="parameter-setting-guidelines"></a>
-  - The default value $\left( 1 \times 1 0 ^ { - 7 } \right.$ cm) of the Heat.Phase.Width variable (interface thickness ) isδ typically good for simulating melting depths of \~100 nm. For larger melting depths (such as ), a value of 1 μm ${ ...
-  - _Keywords:_ spacing, melting, Heat, Phase, Width, interface, larger, simulation
+  - The default value $\left( 1 \times 1 0 ^ { - 7 } \right.$ cm) of the Heat.Phase.Width variable (interface thickness ) isδ typically good fo…
 - **Saving a Thermal Profile** <a id="saving-a-thermal-profile"></a>
-  - To save the thermal profile computed during this step to a file, use the write.temp.file argument of the diffuse command. In a subsequent simulation, you can use this file to create a temperature ramp using the read.temp.file argument of...
-  - _Keywords:_ argument, diffuse, thermal, profile, computed, during, subsequent, simulation
+  - To save the thermal profile computed during this step to a file, use the write.temp.file argument of the diffuse command. In a subsequent s…
 - **Boundary Conditions** <a id="boundary-conditions"></a>
   - At the top surface, that is, the gas interface, the heat emission flux from the top material is given by:
-  - _Keywords:_ bottom, emission, temperature, specified, calculated, thickness, SideHeatTransfer, surface
 - **Structure Extension** <a id="structure-extension"></a>
-  - The heat transfer is much faster in comparison with an impurity or a point-defect diffusion. For example, in silicon, the diffusion length of the heat temperature is 20–30 times longer than that of interstitials at $8 0 0 ^ { \circ } \ma...
-  - _Keywords:_ structure, extended, pdbSet, Heat, defined, diffusion, equation, extension
+  - The heat transfer is much faster in comparison with an impurity or a point-defect diffusion. For example, in silicon, the diffusion length…
 - **Intensity Models for Flash Anneal** <a id="intensity-models-for-flash-anneal"></a>
   - Intensity can be specified by a Gaussian model, a table lookup method, or a user-specified model:
-  - _Keywords:_ Intensity, specified, Gaussian, lookup, method, pdbSet, Heat, Model
 - **Gaussian Model** <a id="gaussian-model"></a>
   - The intensity can be given by the Gaussian profile as follows:I
-  - _Keywords:_ Fluence, Pulse, details, summary, intensity, Gaussian, profile, follows
 - **Table Lookup Method** <a id="table-lookup-method"></a>
   - The table of time versus intensity can be given by:
-  - _Keywords:_ intensity, pdbSet, Heat, Intensity, versus, scaled, Factor
 - **User-Specified Model** <a id="user-specified-model"></a>
-  - You can define the heat intensity profile by using IntensityProfile (unit is ). TheJ/cm2 /s heating time, that is, the light-sourcing time for the user-specified intensity is given by the parameter HeatingTime. For example, for the sum o...
-  - _Keywords:_ Heat, intensity, IntensityProfile, HeatingTime, simGetDouble, pdbSet, You, define
+  - You can define the heat intensity profile by using IntensityProfile (unit is ). TheJ/cm2 /s heating time, that is, the light-sourcing time…
 - **Intensity Model for Scanning Laser** <a id="intensity-model-for-scanning-laser"></a>
-  - The scanning laser beam is characterized with the scanning speed (cm/s), the beam width ( ), and the beam fading distance ( ) by diffraction:μm μm
-  - _Keywords:_ scanning, pdbSet, Heat, intensity, ScanSpeed, characterized, fading, distance
+  - The scanning laser beam is characterized with the scanning speed (cm/s), the beam width ( ), and the beam fading distance ( ) by diffractio…
 - **3: Diffusion** <a id="3-diffusion"></a>
   - Flash or Laser Anneal Model
-  - _Keywords:_ details, summary, BeamOverlap, BeamWidth, images, BeamIntensity, Laser, Model
 - **Control Parameters** <a id="control-parameters"></a>
   - Table 14 lists the control parameters. These parameters must be used with:
-  - _Keywords:_ Defines, applicable, extended, structure, pdbSet, Heat, HeatingTime, MaxTimeStep
 - **Notes** <a id="notes"></a>
 - **Notes are:** <a id="notes-are"></a>
-  - It takes three times the standard deviation time to reach the peak intensity. After six times the standard deviation time, the heat source is switched off. The global temperature, which is calculated by averaging the local temperature di...
-  - _Keywords:_ temperature, switched, global, equations, mechanics, annealing, standard, deviation
+  - It takes three times the standard deviation time to reach the peak intensity. After six times the standard deviation time, the heat source…
 - **Diffusion in Polysilicon** <a id="diffusion-in-polysilicon"></a>
-  - Polysilicon has a microstructure composed of small monocrystalline grains of different crystalline orientation. The grains are separated by 2D surfaces – the grain boundaries.
-  - _Keywords:_ grains, Granular, Polysilicon, microstructure, composed, monocrystalline, different, crystalline
+  - Polysilicon has a microstructure composed of small monocrystalline grains of different crystalline orientation. The grains are separated by…
 - **Isotropic Diffusion Model** <a id="isotropic-diffusion-model"></a>
-  - The dopant concentration for species is split into a fraction of dopants in the grain and aA fraction of dopants in the grain boundary, that is:
-  - _Keywords:_ concentration, volume, boundary, dopant, defined, fraction, dopants, denotes
+  - The dopant concentration for species is split into a fraction of dopants in the grain and aA fraction of dopants in the grain boundary, tha…
 - **Grain Shape and the Grain Growth Equation** <a id="grain-shape-and-the-grain-growth-equation"></a>
-  - The microscopic shape and size of the grains is not described in the model. Instead the size, orientation, and type of a prototype grain is used to compute all parameters that depend on the grain size.
-  - _Keywords:_ grains, PolySilicon, pdbSet, boundary, GSize, volume, growth, dopant
+  - The microscopic shape and size of the grains is not described in the model. Instead the size, orientation, and type of a prototype grain is…
 - **Diffusion Equations** <a id="diffusion-equations"></a>
-  - The diffusion in polycrystalline materials is modeled with two separate diffusion fluxes for the diffusion of ${ C } _ { A } ^ { + }$ inside the grains and the diffusion of $c _ { A } ^ { g b }$ along the grain boundaries. The diffusion ...
-  - _Keywords:_ diffusion, boundary, volume, ChargedFermi, partial, Arsenic, segregation, mathtt
+  - The diffusion in polycrystalline materials is modeled with two separate diffusion fluxes for the diffusion of ${ C } _ { A } ^ { + }$ insid…
 - **Anisotropic Diffusion Model** <a id="anisotropic-diffusion-model"></a>
-  - The behavior of dopants in polycrystalline materials is strongly influenced by the boundaries between crystalline grains. Dopant atoms tend to segregate from the interior of a grain to the boundaries, which provide paths for rapid diffus...
-  - _Keywords:_ boundaries, diffusion, polycrystalline, segregation, equations, between, interior, depends
+  - The behavior of dopants in polycrystalline materials is strongly influenced by the boundaries between crystalline grains. Dopant atoms tend…
 - **Diffusion in Grain Interiors** <a id="diffusion-in-grain-interiors"></a>
-  - Redistribution of dopants in polycrystalline materials occurs by the parallel diffusion of dopants through the interiors of grains and along grain boundaries.
-  - _Keywords:_ mathrm, active, concentration, Grain, interiors, Crystallinity, initial, dopants
+  - Redistribution of dopants in polycrystalline materials occurs by the parallel diffusion of dopants through the interiors of grains and alon…
 - **Grain Boundary Structure** <a id="grain-boundary-structure"></a>
-  - Diffusion along grain boundaries is described in terms of the dopant concentration per unit area of grain boundary $c _ { g b }$ , and the average area of grain boundaries per unit volume:
-  - _Keywords:_ volume, boundaries, average, GBGeomFactor, dopant, concentration, delta_, material
+  - Diffusion along grain boundaries is described in terms of the dopant concentration per unit area of grain boundary $c _ { g b }$ , and the…
 - **Diffusion Along Grain Boundaries** <a id="diffusion-along-grain-boundaries"></a>
   - The diffusion of dopant in the grain boundaries is given by:
-  - _Keywords:_ Dgb, dopant, diffusion, mathrm, F11, boundaries, pdbSet, material
 - **Segregation Between Grain Interior and Boundaries** <a id="segregation-between-grain-interior-and-boundaries"></a>
-  - When dopant is initially introduced into a polycrystalline material, some of the dopant occupies sites in the interior of a grain and some occupies sites on a grain boundary. The initial segregation of dopant is given by:
-  - _Keywords:_ pdbSet, PolySilicon, dopant, GBMaxDensity, GMaxConc, Dopant, segregation, GSegInit
+  - When dopant is initially introduced into a polycrystalline material, some of the dopant occupies sites in the interior of a grain and some…
 - **Grain Size Model** <a id="grain-size-model"></a>
-  - The grains in the polycrystalline material are assumed to be oriented as columns that extend through the wafer. The structure is characterized by $L _ { g }$ , the average grain size in the lateral direction (in other words, in the plane...
-  - _Keywords:_ grains, GrainSize, GrainSizeTempC, polycrystalline, material, assumed, oriented, columns
+  - The grains in the polycrystalline material are assumed to be oriented as columns that extend through the wafer. The structure is characteri…
 - **where:** <a id="where"></a>
-  - ■ $T _ { c }$ is the deposition temperature (specified in the deposit command) in degree Celsius. ■ $t _ { a }$ is the thickness of the amorphous silicon layer produced by low-temperature deposition. ■ is the distance from the bottom of ...
-  - _Keywords:_ temperature, pdbSet, PolySilicon, deposition, thickness, amorphous, depositions, specified
+  - ■ $T _ { c }$ is the deposition temperature (specified in the deposit command) in degree Celsius. ■ $t _ { a }$ is the thickness of the amo…
 - **Surface Nucleation Model** <a id="surface-nucleation-model"></a>
-  - An alternative model for the standard grain size model (see Grain Size Model on page 233) is the surface nucleation model. In this model, grains are assumed to grow from small clusters formed at the early stages of deposition. The kineti...
-  - _Keywords:_ surface, SNG, nucleation, E_i, deposition, diffusion, Island, labeled
+  - An alternative model for the standard grain size model (see Grain Size Model on page 233) is the surface nucleation model. In this model, g…
 - **Grain Growth** <a id="grain-growth"></a>
   - The growth of the grains during high-temperature processing is given by [13]:
-  - _Keywords:_ pdbSet, PolySilicon, DselfFactor, Dself, boundary, Arrhenius, Lambda, SegDragExponent
 - **Interface Oxide Breakup and Epitaxial Regrowth** <a id="interface-oxide-breakup-and-epitaxial-regrowth"></a>
-  - A thin interfacial oxide layer is typically present between a deposited polysilicon layer and any underlying single-crystal silicon. This interfacial oxide presents a barrier to epitaxial realignment of the poly layer. With sufficient hi...
-  - _Keywords:_ interfacial, silicon, epitaxial, regrowth, breakup, thickness, interface, pdbSet
+  - A thin interfacial oxide layer is typically present between a deposited polysilicon layer and any underlying single-crystal silicon. This i…
 - **Dependence of Polysilicon Oxidation Rate on Grain Size** <a id="dependence-of-polysilicon-oxidation-rate-on-grain-size"></a>
-  - It has been observed experimentally that the oxidation rate for fine-grained polysilicon is faster than for coarser-grained polycrystalline or single-crystalline silicon, presumably because of enhanced oxidation at the grain boundaries.
-  - _Keywords:_ boundaries, GBFactor, surface, reaction, pdbSet, Oxide_PolySilicon, Arr, oxidation
+  - It has been observed experimentally that the oxidation rate for fine-grained polysilicon is faster than for coarser-grained polycrystalline…
 - **Boundary Conditions** <a id="boundary-conditions"></a>
 - **Boundary Conditions for Grain Growth Equation** <a id="boundary-conditions-for-grain-growth-equation"></a>
-  - Several boundary conditions are available to control the grain size (GSize) in the grain growth equation. The reflective (HomNeumann) boundary condition assumes that the interface value grows like the bulk value. The minimum value (Minim...
-  - _Keywords:_ boundary, GSize, condition, HomNeumann, interface, minimum, conditions, growth
+  - Several boundary conditions are available to control the grain size (GSize) in the grain growth equation. The reflective (HomNeumann) bound…
 - **Dopant Diffusion Boundary Conditions** <a id="dopant-diffusion-boundary-conditions"></a>
-  - There are three additional segregation-type boundary conditions available with the polycrystalline diffusion model. The first can be selected with:
-  - _Keywords:_ mathbf, Segregation, dopant, boundary, pdbSet, bullet, BoundaryCondition, fluxes
+  - There are three additional segregation-type boundary conditions available with the polycrystalline diffusion model. The first can be select…
 - **Dopant Diffusion in Silicon Germanium** <a id="dopant-diffusion-in-silicon-germanium"></a>
-  - The presence of germanium in silicon affects dopant diffusion in various ways. The Constant diffusion model and the Interdiffusion model are available for germanium diffusion in silicon (see Constant Diffusion Model on page 191 and SiGe ...
-  - _Keywords:_ silicon, diffusion, germanium, Constant, Interdiffusion, Model, defined, presence
+  - The presence of germanium in silicon affects dopant diffusion in various ways. The Constant diffusion model and the Interdiffusion model ar…
 - **SiGe Interdiffusion Model** <a id="sige-interdiffusion-model"></a>
   - Defect-mediated interdiffusion of silicon and germanium can be set using the following switches:
-  - _Keywords:_ mathrm, SiGe, interdiffusion, diffusion, switches, pdbSet, Silicon, Germanium
 - **where:** <a id="where"></a>
-  - $C _ { \mathrm { G e } } ~ ( \mathrm { o r } ~ C _ { \mathrm { S i } } )$ are concentrations of Ge (or Si) atoms in SiGe material based on Silicon (or Germanium) material, respectively. Since the sum of Si and Ge atoms is given by the la...
-  - _Keywords:_ mathrm, SiGe, pdbSet, Silicon, Germanium, Inter, interdiffusion, Arr
+  - $C _ { \mathrm { G e } } ~ ( \mathrm { o r } ~ C _ { \mathrm { S i } } )$ are concentrations of Ge (or Si) atoms in SiGe material based on…
 - **Low-to-High Germanium-Doped SiGe Model** <a id="low-to-high-germanium-doped-sige-model"></a>
-  - The diffusion model in SiGe described in Low Germanium-Doped SiGe Model on page 245 is based on a silicon material–oriented approach by fine-tuning the parameters (using either the term command or a specific procedure) of silicon materia...
-  - _Keywords:_ SiGe, pdbSet, Interpolation, silicon, material, fraction, Skip, approach
+  - The diffusion model in SiGe described in Low Germanium-Doped SiGe Model on page 245 is based on a silicon material–oriented approach by fin…
 - **Defining Mole Fractions** <a id="defining-mole-fractions"></a>
-  - At the beginning of diffusion, the xMoleFraction term is defined with the lattice density of silicon $( L D _ { \mathrm { { S i } } } )$ and germanium $( L D _ { \mathrm { G e } } )$ as follows:
-  - _Keywords:_ mathrm, xMoleFraction, partial, silicon, material, germanium, beginning, diffusion
+  - At the beginning of diffusion, the xMoleFraction term is defined with the lattice density of silicon $( L D _ { \mathrm { { S i } } } )$ an…
 - **Bandgap Model** <a id="bandgap-model"></a>
-  - The change in the energy bandgap along with the mole fraction shows a very nonlinear curve due to the transition between the X-valley $( x < 0 . 8 )$ and the L-valley $( x > 0 . 8 )$ . To model such nonlinearity, the parameter delEg.Func...
-  - _Keywords:_ valley, SiGe, interface, change, energy, bandgap, fraction, nonlinear
+  - The change in the energy bandgap along with the mole fraction shows a very nonlinear curve due to the transition between the X-valley $( x…
 - **Low Germanium-Doped SiGe Model** <a id="low-germanium-doped-sige-model"></a>
-  - First, the band gap of silicon is lowered in the presence of germanium. Second, germanium affects the point-defect equilibrium concentration. In addition, germanium can pair with boron forming an immobile but electrically active species.
-  - _Keywords:_ germanium, First, silicon, lowered, presence, Second, affects, defect
+  - First, the band gap of silicon is lowered in the presence of germanium. Second, germanium affects the point-defect equilibrium concentratio…
 - **Bandgap Effect** <a id="bandgap-effect"></a>
-  - The effect of bandgap narrowing on the dopant diffusion arises from the change in the intrinsic carrier concentration $n _ { i } ( S i )$ . This has been implemented in Sentaurus Process as follows:
-  - _Keywords:_ Delta, narrowing, germanium, silicon, bandgap, delEg, lattice, spacing
+  - The effect of bandgap narrowing on the dopant diffusion arises from the change in the intrinsic carrier concentration $n _ { i } ( S i )$ .…
 - **Potential Equation** <a id="potential-equation"></a>
-  - The permittivity of ‘Ge-doped’ silicon can be calculated by the following formula, in which $x _ { \mathrm { G e } }$ is the germanium concentration in silicon:
-  - _Keywords:_ mathrm, Potential, defined, silicon, varepsilon, varepsilon_, PDB, pdbSet
+  - The permittivity of ‘Ge-doped’ silicon can be calculated by the following formula, in which $x _ { \mathrm { G e } }$ is the germanium conc…
 - **Effects on Point-Defect Equilibrium Concentrations** <a id="effects-on-point-defect-equilibrium-concentrations"></a>
-  - The introduction of germanium acts thermodynamically on the equilibrium of the silicon matrix. Compressive strain increases the equilibrium concentration of vacancies and decreases the equilibrium concentration of interstitials, and the ...
-  - _Keywords:_ Delta, equilibrium, pdbSet, Silicon, defects, germanium, strain, concentration
+  - The introduction of germanium acts thermodynamically on the equilibrium of the silicon matrix. Compressive strain increases the equilibrium…
 - **Effect of Germanium on Point-Defect Parameters** <a id="effect-of-germanium-on-point-defect-parameters"></a>
-  - You can define arbitrary Alagator expressions for the point-defect basic parameter prefactors. The names of terms used for the vacancy and interstitial equilibrium concentration are VacCStarFactor and IntCStarFactor, respectively. Corres...
-  - _Keywords:_ MultiplyTerm, vacancy, define, expressions, defect, interstitial, equilibrium, concentration
+  - You can define arbitrary Alagator expressions for the point-defect basic parameter prefactors. The names of terms used for the vacancy and…
 - **Impact of Germanium on Extended-Defect Parameters** <a id="impact-of-germanium-on-extended-defect-parameters"></a>
-  - The parameters IClusterDissIntFactor, C311DiffIntFactor, and CLoopTransfer (used in the Full model for I-clusters) can be used to include the impact of germanium on extended defects.
-  - _Keywords:_ IClusterDissIntFactor, C311DiffIntFactor, CLoopTransfer, Full, clusters, include, impact, germanium
+  - The parameters IClusterDissIntFactor, C311DiffIntFactor, and CLoopTransfer (used in the Full model for I-clusters) can be used to include t…
 - **Impact of Dopant Diffusivities** <a id="impact-of-dopant-diffusivities"></a>
-  - The germanium chemical effect is simulated by the activation energy correction using diffusivity prefactors. For example, in the case of boron, it is performed by the term BoronIntDiffFactor, which can be defined in silicon:
-  - _Keywords:_ dopant, MultiplyTerm, diffusion, interstitial, vacancy, germanium, diffusivity, BoronIntDiffFactor
+  - The germanium chemical effect is simulated by the activation energy correction using diffusivity prefactors. For example, in the case of bo…
 - **SiGe Strain and Dopant Activation** <a id="sige-strain-and-dopant-activation"></a>
-  - The solid solubility of dopants depends on the strain. In general, for compressive strain, the solubility of atoms smaller than silicon increases; whereas, the solubility of larger atoms decreases. In the Transient model, the stress effe...
-  - _Keywords:_ solubility, Factor, kT_i, strain, silicon, pressure, dependent, pdbSet
+  - The solid solubility of dopants depends on the strain. In general, for compressive strain, the solubility of atoms smaller than silicon inc…
 - **Germanium–Boron Pairing** <a id="germanium-boron-pairing"></a>
   - Germanium can pair with boron and the pairs are known to be electrically active [27] but not mobile:
-  - _Keywords:_ Germanium, partial, germanium, reaction, concentration, pdbSet, Silicon, modeled
 - **Initializing Germanium–Boron Clusters** <a id="initializing-germanium-boron-clusters"></a>
-  - Initially, germanium–boron cluster concentrations are set to zero. If there is an existing cluster concentration field, the field is used. To initialize the cluster concentration field, use the select command in the input command file.
-  - _Keywords:_ cluster, concentration, Initially, germanium, concentrations, existing, initialize, select
+  - Initially, germanium–boron cluster concentrations are set to zero. If there is an existing cluster concentration field, the field is used.…
 - **Diffusion in III–V Compounds** <a id="diffusion-in-iii-v-compounds"></a>
-  - This section discusses diffusion in III–V compounds. For details on parameter interpolation, see Alloy Materials and Parameter Interpolation on page 24.
-  - _Keywords:_ discusses, diffusion, III, compounds, details, interpolation, Alloy, Materials
+  - This section discusses diffusion in III–V compounds. For details on parameter interpolation, see Alloy Materials and Parameter Interpolatio…
 - **Converting Materials** <a id="converting-materials"></a>
-  - When group III or group V atoms are doped into a III–V material, and the atoms are a different species from the components of the material, the material is converted to the new III–V material at the beginning of a diffuse command if the ...
-  - _Keywords:_ III, material, InGaAs, converted, Materials, GaAs, pdbSet, Convert
+  - When group III or group V atoms are doped into a III–V material, and the atoms are a different species from the components of the material,…
 - **Merging Materials** <a id="merging-materials"></a>
-  - When different III–V material regions are adjacent and there is a common material derived from each III–V material, the regions merge into the common derived material region at the beginning of a diffuse command if one of the neighbor ma...
-  - _Keywords:_ InAs, GaAs, material, Materials, InGaAs, region, neighbor, Merge
+  - When different III–V material regions are adjacent and there is a common material derived from each III–V material, the regions merge into…
 - **Dopant Diffusion** <a id="dopant-diffusion"></a>
   - To model dopant diffusion in a III–V material, the following assumptions are applied:
-  - _Keywords:_ III, defects, dopants, Group, dopant, diffusion, material, assumptions
 - **ChargedReact Model** <a id="chargedreact-model"></a>
-  - $$ \frac {\partial A I}{\partial t} = \sum_ {m} \left(\nabla \cdot \left(\left(\sum_ {j} D _ {A I _ {m} j} \eta^ {- j}\right) \eta^ {- z _ {A m}} \nabla \left(\frac {A I _ {m}}{\alpha_ {A I _ {m}}} \eta^ {z _ {A m}}\right)\right) + \sum_...
-  - _Keywords:_ alpha_, concentration, dopant, pdbSet, Unitless, interstitial, equilibrium, GaAs
+  - $$ \frac {\partial A I}{\partial t} = \sum_ {m} \left(\nabla \cdot \left(\left(\sum_ {j} D _ {A I _ {m} j} \eta^ {- j}\right) \eta^ {- z _…
 - **Fermi Model** <a id="fermi-model"></a>
   - The point-defect concentrations are assumed to be at thermal equilibrium:
-  - _Keywords:_ partial, defect, concentrations, assumed, thermal, equilibrium
 - **Constant Model** <a id="constant-model"></a>
   - The point-defect concentrations are assumed to be at intrinsic equilibrium:
-  - _Keywords:_ partial, defect, concentrations, assumed, intrinsic, equilibrium
 - **Activation Model** <a id="activation-model"></a>
-  - The solid solubility model can be specified. For more information, see Dopant Active Model: Solid on page 279. For group IV dopants, the amount of substitutional concentration on group III and group V sites is reduced by the ratio of a g...
-  - _Keywords:_ Csub, Clust, Ratio, concentration, solubility, specified, information, Dopant
+  - The solid solubility model can be specified. For more information, see Dopant Active Model: Solid on page 279. For group IV dopants, the am…
 - **Point-Defect Diffusion** <a id="point-defect-diffusion"></a>
-  - $$ \frac {\partial Y _ {m}}{\partial t} = \nabla \cdot \left(\left(\sum_ {j} d _ {Y _ {m}, j} Y _ {m, i} * \phi_ {Y _ {m} j} \eta^ {- j}\right) \nabla \left(\frac {Y _ {m}}{Y _ {m} ^ {*}}\right)\right) - R _ {Y V _ {m}} - \sum_ {Y _ {m} ...
-  - _Keywords:_ concentration, pdbSet, partial, GaInt, InGaAs, reaction, III, equilibrium
+  - $$ \frac {\partial Y _ {m}}{\partial t} = \nabla \cdot \left(\left(\sum_ {j} d _ {Y _ {m}, j} Y _ {m, i} * \phi_ {Y _ {m} j} \eta^ {- j}\ri…
 - **Poisson Equation** <a id="poisson-equation"></a>
-  - $$ \begin{array}{l} \nabla \bullet (\varepsilon_ {r} \varepsilon_ {0} \nabla (\psi - \theta)) \\ = - q \Bigg (p - n + \sum_ {A} \sum_ {m} (z _ {A m} A _ {m, s}) + \sum_ {A} \sum_ {m} \left(\left(\sum_ {j} ((z _ {A m} + j) \alpha_ {A I _ ...
-  - _Keywords:_ alpha_, varepsilon_, bullet, Bigg, structure, relies, fraction, affinity
+  - $$ \begin{array}{l} \nabla \bullet (\varepsilon_ {r} \varepsilon_ {0} \nabla (\psi - \theta)) \\ = - q \Bigg (p - n + \sum_ {A} \sum_ {m} (…
 - **Diffusion in Silicon Carbide** <a id="diffusion-in-silicon-carbide"></a>
-  - A simpler version of the defect diffusion model, compared to III–V systems, including antisites is available for silicon carbide (SiC) material. This model allows the following set of defect reactions:
-  - _Keywords:_ defect, SiC, mathrm, reactions, native, defects, pdbSet, boundary
+  - A simpler version of the defect diffusion model, compared to III–V systems, including antisites is available for silicon carbide (SiC) mate…
 - **Here:** <a id="here"></a>
-  - $K _ { \mathrm { r } }$ is the rate constant for kink sites. ■ $C _ { \mathrm { e q } }$ is the equilibrium concentration of the reactant defect on the SiC side of the interface. $C _ { \mathrm { { S o l } } }$ is the solubility of the r...
-  - _Keywords:_ interface, defect, SiC, mathrm, reactions, reactant, solubility, condition
+  - $K _ { \mathrm { r } }$ is the rate constant for kink sites. ■ $C _ { \mathrm { e q } }$ is the equilibrium concentration of the reactant d…
 - **Pressure-Dependent Defect Diffusion** <a id="pressure-dependent-defect-diffusion"></a>
-  - Eq. 142, p. 183 shows that $C _ { X } ^ { * }$ depends on the Fermi level. However, you can select one of the available models using the command:
-  - _Keywords:_ depends, Fermi, However, select, available, models, pdbSet, material
+  - Eq. 142, p. 183 shows that $C _ { X } ^ { * }$ depends on the Fermi level. However, you can select one of the available models using the co…
 - **where:** <a id="where"></a>
   - <defect> is interstitial or vacancy. <model> is one of the following models: Constant, FermiLevelDependent, or FermiPressureDependent.
-  - _Keywords:_ Delta, vacancy, interstitial, effects, pressure, equilibrium, Volume, defect
 - **Electron Concentration** <a id="electron-concentration"></a>
-  - To calculate the electron concentration or, alternatively, the electron potential, Sentaurus Process solves either the Poisson equation or charge balance equation in semiconductors such as silicon, germanium, and polysilicon. By default,...
-  - _Keywords:_ equation, charge, charged, defect, Poisson, dopant, pdbSet, balance
+  - To calculate the electron concentration or, alternatively, the electron potential, Sentaurus Process solves either the Poisson equation or…
 - **Poisson Equation for Heterojunctions** <a id="poisson-equation-for-heterojunctions"></a>
-  - A heterojunction is the interface that occurs between two layers or regions of dissimilar crystalline semiconductors. At the interface, the behavior of a semiconductor junction depends strongly on the alignment of the energy bands. The d...
-  - _Keywords:_ pdbSet, Potential, Poisson, equation, semiconductor, states, Density, Aluminum
+  - A heterojunction is the interface that occurs between two layers or regions of dissimilar crystalline semiconductors. At the interface, the…
 - **Bandgap Narrowing** <a id="bandgap-narrowing"></a>
-  - If bandgap narrowing effects must be considered, Sentaurus Process uses the effective intrinsic electron density $\left( n _ { i e } \right)$ instead of $n _ { i } . ~ n _ { i e }$ is given by:
-  - _Keywords:_ varepsilon_, Delta, pdbSet, Potential, bandgap, Deviatoric, narrowing, StrainDependent
+  - If bandgap narrowing effects must be considered, Sentaurus Process uses the effective intrinsic electron density $\left( n _ { i e } \right…
 - **Epitaxy** <a id="epitaxy"></a>
-  - Epitaxial growth is simulated when an Epi type ambient is specified in either the diffuse command or a temp\_ramp ramp used by the diffuse command.
-  - _Keywords:_ doping, diffuse, growth, specified, Epi, epitaxial, epitaxy, either
+  - Epitaxial growth is simulated when an Epi type ambient is specified in either the diffuse command or a temp\_ramp ramp used by the diffuse…
 - **Using LKMC for Deposition Shape** <a id="using-lkmc-for-deposition-shape"></a>
-  - The shape of the growing epi layer can be controlled by lattice kinetic Monte Carlo (LKMC) to obtain more realistic deposition shapes without having the performance penalty associated with the pure atomistic mode. To use this mode, speci...
-  - _Keywords:_ LKMC, diffuse, KMC, Epitaxy, direction, growing, controlled, lattice
+  - The shape of the growing epi layer can be controlled by lattice kinetic Monte Carlo (LKMC) to obtain more realistic deposition shapes witho…
 - **Epi Doping** <a id="epi-doping"></a>
-  - Two parameter lists of the diffuse and temp\_ramp commands are used to control doping: epi.doping and epi.doping.final. Both lists take <field>=<concentration> elements as arguments.
-  - _Keywords:_ doping, diffuse, constant, temperature, concentration, dopant, appears, temp_ramp
+  - Two parameter lists of the diffuse and temp\_ramp commands are used to control doping: epi.doping and epi.doping.final. Both lists take <fi…
 - **Initializing Dopant Clusters in Epi** <a id="initializing-dopant-clusters-in-epi"></a>
   - The dopant cluster concentration in an epitaxial layer is initialized by:
-  - _Keywords:_ dopant, cluster, EpiInit, mathrm, FractionEpi, pdbSet, material, doping
 - **Epi Auto-Doping** <a id="epi-auto-doping"></a>
-  - The auto.doping argument of the diffuse and temp\_ramp commands controls doping and takes a list of <field>=<concentration> elements as its value. If a dopant or field name appears in auto.doping and in either epi.doping or epi.doping.fi...
-  - _Keywords:_ dopant, doping, pdbSet, interface_material, concentration, Gas, diffuse, temp_ramp
+  - The auto.doping argument of the diffuse and temp\_ramp commands controls doping and takes a list of <field>=<concentration> elements as its…
 - **Epi Doping Using Resistivity** <a id="epi-doping-using-resistivity"></a>
-  - The epi.resist parameter of the diffuse and temp\_ramp commands controls doping. The parameter takes a list of parameters, that is, dopant name and resistivity, as its argument.
-  - _Keywords:_ diffuse, concentration, resist, doping, dopant, temperature, calculated, temp_ramp
+  - The epi.resist parameter of the diffuse and temp\_ramp commands controls doping. The parameter takes a list of parameters, that is, dopant…
 - **Epi Growth Settings: Low-Temperature Epitaxy** <a id="epi-growth-settings-low-temperature-epitaxy"></a>
-  - Several parameters are available for the simulation of effects seen in low-temperature epitaxy (LTE). LTE growth can result in the growth of polysilicon on insulators such as oxide and nitride after a seed layer has nucleated. In additio...
-  - _Keywords:_ growth, LTE, material, nucleation, materials, converted, diffuse, LTEOnOxide
+  - Several parameters are available for the simulation of effects seen in low-temperature epitaxy (LTE). LTE growth can result in the growth o…
 - **Simulating Facet Growth During Selective Epitaxy** <a id="simulating-facet-growth-during-selective-epitaxy"></a>
   - To switch on faceting, use either:
-  - _Keywords:_ angles, factors, interface, degrees, angle1, factor1, unitless, angle2
 - **Controlling Where Facets Form** <a id="controlling-where-facets-form"></a>
   - By default, facets form at all triple points (see Triple-Point Control on page 687). To switch off these facets, use:
-  - _Keywords:_ facets, switch, pdbSet, triple, points, Triple, Point, Control
 - **Time-Stepping** <a id="time-stepping"></a>
-  - This algorithm and anisotropic growth in general can be inherently unstable. If a ‘bump’ develops during growth, it might persist or perhaps even grow larger. To prevent bumps from forming, it is necessary to take small time steps. The p...
-  - _Keywords:_ growth, anisotropic, during, dThicknessAnisoGrowth, thickness, algorithm, general, inherently
+  - This algorithm and anisotropic growth in general can be inherently unstable. If a ‘bump’ develops during growth, it might persist or perhap…
 - **Other Effects on Dopant Diffusion** <a id="other-effects-on-dopant-diffusion"></a>
 - **Pressure-Dependent Dopant Diffusion** <a id="pressure-dependent-dopant-diffusion"></a>
-  - Dopant diffusivities can be enhanced or retarded due to stress or pressure. In addition to this, shrinking device dimensions can cause significant stress or pressure gradients affecting dopant diffusion further [28]. With this model, Sen...
-  - _Keywords:_ dopant, defect, Delta, defined, pdbSet, material, diffusivities, stress
+  - Dopant diffusivities can be enhanced or retarded due to stress or pressure. In addition to this, shrinking device dimensions can cause sign…
 - **Diffusion Prefactors** <a id="diffusion-prefactors"></a>
-  - Dopant diffusivities can be enhanced or retarded due to various new process conditions. If a new model does not exist to simulate the observed behavior, you might want to multiply the existing diffusivity with a prefactor. Sentaurus Proc...
-  - _Keywords:_ diffusivity, dopant, multiplied, diffusivities, Sentaurus, Process, diffusion, Silicon
+  - Dopant diffusivities can be enhanced or retarded due to various new process conditions. If a new model does not exist to simulate the obser…
 - **High-Concentration Effects on Dopant Diffusion** <a id="high-concentration-effects-on-dopant-diffusion"></a>
-  - To model experimentally observed sharp increases in arsenic diffusion in silicon at high dopant concentrations, diffusivity coefficients must be modified. Dunham and Wu [29] proposed that interactions of vacancies with more than one dopa...
-  - _Keywords:_ dopant, pdbSet, defect, arsenic, material, diffusivity, factor, Cref
+  - To model experimentally observed sharp increases in arsenic diffusion in silicon at high dopant concentrations, diffusivity coefficients mu…
 - **Hydrogen Effects on Dopant Diffusion** <a id="hydrogen-effects-on-dopant-diffusion"></a>
-  - To model experimentally observed sharp increases in boron diffusion in oxide at the presence of hydrogen, diffusivity coefficients of boron must be modified.
-  - _Keywords:_ pdbSet, Hydrogen, hydrogen, dopant, diffusion, factor, material, Oxide
+  - To model experimentally observed sharp increases in boron diffusion in oxide at the presence of hydrogen, diffusivity coefficients of boron…
 - **Dopant Activation and Clustering** <a id="dopant-activation-and-clustering"></a>
   - It is possible to select a different clustering or activation model for each dopant in different materials with the command:
-  - _Keywords:_ dopant, different, ChargedCluster, BIC, FVCluster, FullPrecipitation, possible, select
 - **Dopant Active Model: None** <a id="dopant-active-model-none"></a>
-  - If ActiveModel is set to None, all dopants are assumed to be active. No solid solubility or dopant clustering effects will be taken into account for dopant activation.
-  - _Keywords:_ dopant, ActiveModel, dopants, assumed, active, solubility, clustering, effects
+  - If ActiveModel is set to None, all dopants are assumed to be active. No solid solubility or dopant clustering effects will be taken into ac…
 - **Dopant Active Model: Solid** <a id="dopant-active-model-solid"></a>
   - If ActiveModel is set to Solid, a simple solid solubility for the dopant activation is considered:
-  - _Keywords:_ solubility, dopant, pdbSet, material, Model, temperature, defined, Analytic
 - **Dopant Active Model: Precipitation** <a id="dopant-active-model-precipitation"></a>
-  - Setting ActiveModel to Precipitation or setting ActiveModel to the other activation model the list of More.Active.Model.List including Precipitation solves the transient equation:
-  - _Keywords:_ concentration, precipitates, Active, Model, pdbSet, ActiveModel, Precipitation, More
+  - Setting ActiveModel to Precipitation or setting ActiveModel to the other activation model the list of More.Active.Model.List including Prec…
 - **Initializing Precipitation Model** <a id="initializing-precipitation-model"></a>
-  - The initialization of the precipitation concentration depends on the value of the parameters AmInit and AcInit. The initial level of active concentration in amorphized and crystalline regions can be specified per dopant as AmInit and AcI...
-  - _Keywords:_ AcInit, FractionAmor, FractionCryst, AmInit, dopant, precipitation, pdbSet, material
+  - The initialization of the precipitation concentration depends on the value of the parameters AmInit and AcInit. The initial level of active…
 - **Dopant Active Model: FullPrecipitation** <a id="dopant-active-model-fullprecipitation"></a>
-  - If you set ActiveModel to FullPrecipitation or set ActiveModel to another activation model in the More.Active.Model.List that includes FullPrecipitation, the selected model solves the reaction equations:
-  - _Keywords:_ mathrm, dopant, partial, pdbSet, energy, clusters, capture, Delta
+  - If you set ActiveModel to FullPrecipitation or set ActiveModel to another activation model in the More.Active.Model.List that includes Full…
 - **Initializing FullPrecipitation Model** <a id="initializing-fullprecipitation-model"></a>
-  - The initial concentration of clusters and precipitates is set in the diffPreProcess procedure (see Ion Implantation to Diffusion on page 340). By default, there are no changes to clusters and precipitates in amorphous regions.
-  - _Keywords:_ clusters, precipitates, initial, concentration, diffPreProcess, procedure, Ion, Implantation
+  - The initial concentration of clusters and precipitates is set in the diffPreProcess procedure (see Ion Implantation to Diffusion on page 34…
 - **Dopant Active Model: Transient** <a id="dopant-active-model-transient"></a>
-  - If ActiveModel is set to Transient, a transient dopant-cluster model is used. The transient dopant cluster is more complicated than the simple, solid solubility model. The following set of equations is solved along with the appropriate d...
-  - _Keywords:_ transient, dopant, cluster, equations, partial, ActiveModel, Transient, complicated
+  - If ActiveModel is set to Transient, a transient dopant-cluster model is used. The transient dopant cluster is more complicated than the sim…
 - **where:** <a id="where"></a>
-  - $k _ { f }$ is the forward-clustering reaction rate. $k _ { b }$ is the de-clustering rate. $\boldsymbol { C } _ { A } ^ { + }$ is the active dopant concentration. $C _ { A C }$ is the concentration of clusters. ■ $l _ { c }$ is the numb...
-  - _Keywords:_ dopant, pdbSet, concentration, KcEqu, Silicon, Arsenic, solubility, material
+  - $k _ { f }$ is the forward-clustering reaction rate. $k _ { b }$ is the de-clustering rate. $\boldsymbol { C } _ { A } ^ { + }$ is the acti…
 - **Initializing Transient Model** <a id="initializing-transient-model"></a>
-  - If you switch on the transient dopant cluster model or cluster model, initialization of the dopant clusters is performed in the diffPreProcess procedure (see Ion Implantation to Diffusion on page 340).
-  - _Keywords:_ dopant, AcInit, AmInit, cluster, initialization, concentration, pdbSet, material
+  - If you switch on the transient dopant cluster model or cluster model, initialization of the dopant clusters is performed in the diffPreProc…
 - **For example:** <a id="for-example"></a>
-  - ```txt term name= ArsenicAcInit silicon add \ eqn= "Germanium/5e22 * [pdbDelayDouble Silicon Arsenic Solubility]" store term name= ArsenicAmInit silicon add eqn= "Germanium/5e22*1e19" store ```
-  - _Keywords:_ Dopant, AcInit, Dopant_Implant, DopantCluster, dopant, AmInit, concentration, regions
+  - ```txt term name= ArsenicAcInit silicon add \ eqn= "Germanium/5e22 * [pdbDelayDouble Silicon Arsenic Solubility]" store term name= ArsenicA…
 - **Dopant Active Model: Cluster** <a id="dopant-active-model-cluster"></a>
-  - If ActiveModel is set to Cluster, a dopant–defect cluster model is used. The model is primarily implemented to simulate arsenic–vacancy clusters, but if the model parameters are provided, it is possible to simulate other dopant–defect cl...
-  - _Keywords:_ pdbSet, arsenic, Arsenic, concentration, Silicon, dopant, defect, cluster
+  - If ActiveModel is set to Cluster, a dopant–defect cluster model is used. The model is primarily implemented to simulate arsenic–vacancy clu…
 - **Initializing Cluster Model** <a id="initializing-cluster-model"></a>
-  - Initially, dopant–interstitial cluster concentrations (for example, As4Vac) are set to zero. If there is an existing cluster concentration field, the field is used. If there are amorphized regions, dopant–defect pairs and clusters are re...
-  - _Keywords:_ cluster, dopant, concentration, regions, Dopant, Initially, interstitial, concentrations
+  - Initially, dopant–interstitial cluster concentrations (for example, As4Vac) are set to zero. If there is an existing cluster concentration…
 - **Dopant Active Model: NeutralCluster** <a id="dopant-active-model-neutralcluster"></a>
-  - The NeutralCluster model assumes that all reactants as well as clusters are neutral. If the NeutralCluster model is selected, the following reactions are taken into account:
-  - _Keywords:_ dopant, cluster, pdbSet, material, leftrightarrow, clusters, ClusterSizes, Cluster
+  - The NeutralCluster model assumes that all reactants as well as clusters are neutral. If the NeutralCluster model is selected, the following…
 - **Initializing NeutralCluster Model** <a id="initializing-neutralcluster-model"></a>
-  - Initially, cluster concentrations are set to zero. If there is an existing cluster concentration field, the field is used. If there are amorphized regions, dopant–defect pairs and clusters are redistributed in these regions (see Initiali...
-  - _Keywords:_ cluster, concentration, regions, Dopant, Initially, concentrations, existing, amorphized
+  - Initially, cluster concentrations are set to zero. If there is an existing cluster concentration field, the field is used. If there are amo…
 - **Carbon Cluster** <a id="carbon-cluster"></a>
   - The carbon-clustering model uses the NeutralCluster model. The following solutions are solved for the carbon model.
-  - _Keywords:_ carbon, Solution, Symbol, clustering, NeutralCluster, solutions, solved, Carbon
 - **Nitrogen Cluster** <a id="nitrogen-cluster"></a>
   - The nitrogen-clustering model uses the NeutralCluster model. The following solutions are solved for the nitrogen model.
-  - _Keywords:_ nitrogen, Vac, NDimer, cluster, pdbSet, NeutralCluster, Solution, Nitrogen
 - **Dopant Active Model: FVCluster** <a id="dopant-active-model-fvcluster"></a>
-  - If ActiveModel is set to FVCluster, the fluorine–vacancy cluster model is used. The model based on fluorine–point defect interaction is implemented [33]. The primary reactions used in the model are:
-  - _Keywords:_ fluorine, Fluorine, F3V, vacancy, pdbSet, material, partial, cluster
+  - If ActiveModel is set to FVCluster, the fluorine–vacancy cluster model is used. The model based on fluorine–point defect interaction is imp…
 - **Initializing the FVCluster Model** <a id="initializing-the-fvcluster-model"></a>
   - You can select a different initialization model for fluorine with the command:
-  - _Keywords:_ fluorine, concentration, DAC, vacancy, regions, cluster, select, initialization
 - **Dopant Active Model: Equilibrium** <a id="dopant-active-model-equilibrium"></a>
-  - If ActiveModel is set to Equilibrium, solid solubility or dopant clustering is considered. In the clustering model, the active concentration of the dopant, $C _ { A } ^ { + }$ , is obtained by solving:
-  - _Keywords:_ dopant, clustering, concentration, Active, active, pdbSet, Boron, Equil
+  - If ActiveModel is set to Equilibrium, solid solubility or dopant clustering is considered. In the clustering model, the active concentratio…
 - **Dopant Active Model: BIC** <a id="dopant-active-model-bic"></a>
   - ActiveModel can be set to BIC for boron. The model is implemented to simulate boron– interstitial clusters (BICs).
-  - _Keywords:_ pdbSet, Boron, cluster, material, reaction, BoronInt, diffusion, Interstitial
 - **Initializing BIC Model** <a id="initializing-bic-model"></a>
-  - Initially, boron–interstitial cluster concentrations (for example, B3I) are set to zero. If there is an existing cluster concentration field, the field is used. If there are amorphized regions, boron defect pairs, and clusters are redist...
-  - _Keywords:_ cluster, concentrations, regions, Dopant, Initially, interstitial, B3I, existing
+  - Initially, boron–interstitial cluster concentrations (for example, B3I) are set to zero. If there is an existing cluster concentration fiel…
 - **Dopant Active Model: ChargedCluster** <a id="dopant-active-model-chargedcluster"></a>
-  - ActiveModel can be set to ChargedCluster for dopant. The model is implemented to simulate dopant-defect clusters including different charge states.
-  - _Keywords:_ cluster, dopant, defect, pdbSet, diffusion, mobile, Boron, clusters
+  - ActiveModel can be set to ChargedCluster for dopant. The model is implemented to simulate dopant-defect clusters including different charge…
 - **Initializing ChargedCluster Model** <a id="initializing-chargedcluster-model"></a>
-  - Initially, dopant–interstitial cluster concentrations (for example, B3I) are set to zero. If there is an existing cluster concentration field, the field is used. If there are amorphized regions, dopant-defect pairs and clusters are redis...
-  - _Keywords:_ cluster, dopant, concentration, regions, Dopant, Initially, interstitial, concentrations
+  - Initially, dopant–interstitial cluster concentrations (for example, B3I) are set to zero. If there is an existing cluster concentration fie…
 - **Dopant Active Model: ComplexCluster** <a id="dopant-active-model-complexcluster"></a>
   - The reaction of the ComplexCluster model is as follows:
-  - _Keywords:_ material, mathrm, pdbSetDoubleArray, reaction, complex, cluster, factor, specified
 - **Initializing ComplexCluster Model** <a id="initializing-complexcluster-model"></a>
-  - The initialization of the clusters in the ComplexCluster model is performed in a similar way to that of the precipitation model (see Initializing Precipitation Model on page 281).
-  - _Keywords:_ mathrm, ComplexCluster, pdbSet, concentration, BCI, Model, carbon, initialization
+  - The initialization of the clusters in the ComplexCluster model is performed in a similar way to that of the precipitation model (see Initia…
 - **Initializing Dopant and Dopant–Defect Clusters** <a id="initializing-dopant-and-dopant-defect-clusters"></a>
-  - If you switch on the BIC, ChargedCluster, CarbonCluster, React, ChargedReact, or NeutralReact model, initialization of the dopant and dopant-defect clusters are performed in the diffPreProcess procedure (see Ion Implantation to Diffusion...
-  - _Keywords:_ dopant, AmInit, AcInit, defect, clusters, initialization, dopants, crystalline
+  - If you switch on the BIC, ChargedCluster, CarbonCluster, React, ChargedReact, or NeutralReact model, initialization of the dopant and dopan…
 - **For example:** <a id="for-example"></a>
-  - ```txt term name= ArsenicAcInit silicon add \ eqn= "Germanium/5e22 * [pdbDelayDouble Silicon Arsenic Solubility]" store term name= ArsenicAmInit silicon add eqn= "Germanium/5e22*1e19" store ```
-  - _Keywords:_ Dopant, MaxDopant, FractionCryst, FractionAmor, dopant, _Implant, DopantCluster, regions
+  - ```txt term name= ArsenicAcInit silicon add \ eqn= "Germanium/5e22 * [pdbDelayDouble Silicon Arsenic Solubility]" store term name= ArsenicA…
 - **where:** <a id="where"></a>
-  - Dopant is the dopant name (for example, Boron). DopantCluster is the cluster name (for example, B4I2). ■ DopantTotal is the total dopant (for example, Boron+4\*B4I2). ■ Dopant\_Implant is the implanted dopant (for example, Boron\_Implant...
-  - _Keywords:_ dopant, Boron, B4I2, Dopant, _Implant, DopantCluster, cluster, DopantTotal
+  - Dopant is the dopant name (for example, Boron). DopantCluster is the cluster name (for example, B4I2). ■ DopantTotal is the total dopant (f…
 - **Dopant Trapping at EOR Defects** <a id="dopant-trapping-at-eor-defects"></a>
-  - To simulate dopant trapping at EOR defects [34], interstitial clusters must be switched on (311 or 2Moment), loops must be switched on, and one of the following dopant diffusion models also must be used:
-  - _Keywords:_ dopant, mobile, trapped, mathtt, dopants, dislocation, defects, reaction
+  - To simulate dopant trapping at EOR defects [34], interstitial clusters must be switched on (311 or 2Moment), loops must be switched on, and…
 - **Initializing Dopant Trapping in EOR Model** <a id="initializing-dopant-trapping-in-eor-model"></a>
-  - Initially, trapped dopants at EOR are set to zero. If there is an existing cluster concentration field, the field is used. If there are amorphized regions, dopant–defect pairs and clusters are redistributed in these regions. For details,...
-  - _Keywords:_ cluster, concentration, regions, Dopant, Initially, trapped, dopants, EOR
+  - Initially, trapped dopants at EOR are set to zero. If there is an existing cluster concentration field, the field is used. If there are amo…
 - **Defect Clusters** <a id="defect-clusters"></a>
-  - The available cluster models are None, Equilibrium, 311, Loop, LoopEvolution, FRENDTECH, 1Moment, 2Moment, Full, and the model is selected with the command:
-  - _Keywords:_ cluster, Full, pdbSet, interstitial, Loop, describe, density, selected
+  - The available cluster models are None, Equilibrium, 311, Loop, LoopEvolution, FRENDTECH, 1Moment, 2Moment, Full, and the model is selected…
 - **Defect Cluster Model: None** <a id="defect-cluster-model-none"></a>
   - If ClusterModel is set to None, no point-defect clustering effects will be taken into account.
-  - _Keywords:_ ClusterModel, defect, clustering, effects, account
 - **Defect Cluster Model: Equilibrium** <a id="defect-cluster-model-equilibrium"></a>
   - If you set the model to Equilibrium, the following nonlinear algebraic equation along with the related diffusion equations are solved:
-  - _Keywords:_ cluster, equilibrium, defect, Equilibrium, nonlinear, algebraic, equation, related
 - **Defect Cluster Model: 311** <a id="defect-cluster-model-311"></a>
-  - If you set the defect cluster model to 311, the {311} point-defect model developed by Law and Jones [36] is activated. It solves for the concentration of interstitials in the defects $C _ { 3 1 1 }$ and the concentration of defects $D _ ...
-  - _Keywords:_ interstitials, defects, defect, pdbSet, material, concentration, Smic, SmicS
+  - If you set the defect cluster model to 311, the {311} point-defect model developed by Law and Jones [36] is activated. It solves for the co…
 - **Initializing 311 Model** <a id="initializing-311-model"></a>
-  - The defect-cluster concentrations I2, V2, C311, SmicS, Smic, and D311 are initialized in the diffPreProcess procedure. The model assumes that all the free implantation interstitials (Int\_Implant) are transferred to SmicS. Initially, oth...
-  - _Keywords:_ cluster, SmicS, regions, AmPercent, defect, concentrations, Int, _Implant
+  - The defect-cluster concentrations I2, V2, C311, SmicS, Smic, and D311 are initialized in the diffPreProcess procedure. The model assumes th…
 - **Defect Cluster Model: Loop** <a id="defect-cluster-model-loop"></a>
-  - If you set the defect cluster model to Loop, the modified version of the dislocation loop nucleation model [37] is used to solve for the concentration of interstitials in the defects $C _ { L o o p }$ and the concentration of defects $D ...
-  - _Keywords:_ defects, defect, dislocation, concentration, unfaulting, cluster, Loop, modified
+  - If you set the defect cluster model to Loop, the modified version of the dislocation loop nucleation model [37] is used to solve for the co…
 - **Direct Model** <a id="direct-model"></a>
-  - If the Unfault.Model is set to Direct, the following reaction equations as well as the {311} defect equations (see Defect Cluster Model: 311 on page 309) are solved:
-  - _Keywords:_ partial, Model, equations, Omega, Unfault, Direct, reaction, defect
+  - If the Unfault.Model is set to Direct, the following reaction equations as well as the {311} defect equations (see Defect Cluster Model: 31…
 - **where:** <a id="where"></a>
-  - $K _ { 3 1 1 }$ is the unfaulting rate of {311} defects to dislocation loops. $R _ { L o o p }$ is the average radius of loops. $D _ { \boldsymbol { I } ^ { 0 } }$ is the diffusivity of neutral interstitials. ■ is the shear modulus (dyn/...
-  - _Keywords:_ pdbSet, material, CLoop, Burgers, unfaulting, defects, dislocation, average
+  - $K _ { 3 1 1 }$ is the unfaulting rate of {311} defects to dislocation loops. $R _ { L o o p }$ is the average radius of loops. $D _ { \bol…
 - **Size-Dependent Model** <a id="size-dependent-model"></a>
-  - If the Unfault.Model is set to SizeDependent, the following reaction equations and the {311} defect equations (see Defect Cluster Model: 311 on page 309) are solved:
-  - _Keywords:_ mathtt, partial, pdbSet, material, CLoop, factor, defined, radius
+  - If the Unfault.Model is set to SizeDependent, the following reaction equations and the {311} defect equations (see Defect Cluster Model: 31…
 - **Initializing Loop Model** <a id="initializing-loop-model"></a>
-  - Since the loop model relies on the {311} defect model, first, the {311} defect model is initialized (see Initializing 311 Model on page 315). Then, the loop model fields CLoop and DLoop are initialized. If there is no preexisting data fi...
-  - _Keywords:_ AmPercent, Loop, regions, mathrm, fields, boldsymbol, defect, initialized
+  - Since the loop model relies on the {311} defect model, first, the {311} defect model is initialized (see Initializing 311 Model on page 315…
 - **Defect Cluster Model: LoopEvolution** <a id="defect-cluster-model-loopevolution"></a>
-  - If you set the defect cluster model to LoopEvolution, the TSUPREM-4-style loop evolution model [38] is used. The rate of absorption of interstitials by dislocation loops is given by:
-  - _Keywords:_ Loop, Omega, defect, cluster, LoopEvolution, TSUPREM, evolution, absorption
+  - If you set the defect cluster model to LoopEvolution, the TSUPREM-4-style loop evolution model [38] is used. The rate of absorption of inte…
 - **where:** <a id="where"></a>
-  - $R _ { L o o p }$ is the average loop radius. ■ $D _ { L o o p }$ is the loop density. ■ $D _ { I }$ is the diffusivity of interstitials. $K _ { C L o o p }$ is the fitting parameter. ■ is the shear modulus (dyn ).μ /cm2 ■ is the stackin...
-  - _Keywords:_ pdbSet, radius, material, CLoop, density, interstitials, Burgers, partial
+  - $R _ { L o o p }$ is the average loop radius. ■ $D _ { L o o p }$ is the loop density. ■ $D _ { I }$ is the diffusivity of interstitials. $…
 - **Initializing LoopEvolution Model** <a id="initializing-loopevolution-model"></a>
   - To specify the initial loop radius, use:
-  - _Keywords:_ pdbSet, CLoop, material, DLoop, Fraction, Threshold, concentration, ConstantDensity
 - **Defect Cluster Model: FRENDTECH** <a id="defect-cluster-model-frendtech"></a>
-  - If you set the model to FRENDTECH, this activates the extended defect model developed by FRENDTECH partners [39][40][41]. The model assumes the following reactions:
-  - _Keywords:_ mathrm, pdbSet, cluster, Int, capture, material, Cluster, Silicon
+  - If you set the model to FRENDTECH, this activates the extended defect model developed by FRENDTECH partners [39][40][41]. The model assumes…
 - **where:** <a id="where"></a>
-  - and are the length and width of the {311} defect L W $\left( L = n \cdot 5 \times 1 0 ^ { - 9 } \right.$ cm and $W = 4 \times { { 1 0 } ^ { - 7 } }$ cm). is the lattice spacing of silicon.a ■ denotes the shear modulus of siliconμ $\mathr...
-  - _Keywords:_ Burgers, mathrm, vector, length, defect, stacking, energy, pdbSet
+  - and are the length and width of the {311} defect L W $\left( L = n \cdot 5 \times 1 0 ^ { - 9 } \right.$ cm and $W = 4 \times { { 1 0 } ^ {…
 - **Initializing FRENDTECH Model** <a id="initializing-frendtech-model"></a>
-  - By default, the interstitial clusters are assumed to break apart in amorphous regions. You can specify the percentage of clusters retained in the amorphous region per solution variable using the parameter AmPercent:
-  - _Keywords:_ AmPercent, clusters, regions, pdbSetDouble, amorphous, specify, mathrm, interstitial
+  - By default, the interstitial clusters are assumed to break apart in amorphous regions. You can specify the percentage of clusters retained…
 - **Defect Cluster Model: 1Moment** <a id="defect-cluster-model-1moment"></a>
 - **Interstitial** <a id="interstitial"></a>
-  - If you set the model to 1Moment, the model for the formation and dissolution of interstitial clusters ({311} or {113} defects) is included. The 1Moment model uses a single equation to calculate the total number of interstitials bound in ...
-  - _Keywords:_ ICluster, pdbSet, material, interstitials, interstitial, clusters, vacancies, dissolution
+  - If you set the model to 1Moment, the model for the formation and dissolution of interstitial clusters ({311} or {113} defects) is included.…
 - **Vacancy** <a id="vacancy"></a>
-  - If you set the model to 1Moment, the model for the formation and dissolution of vacancy clusters or voids is included. The 1Moment model uses a single equation to calculate the total number of vacancies bound in clusters.
-  - _Keywords:_ VCluster, pdbSet, material, vacancies, vacancy, clusters, interstitials, dissolution
+  - If you set the model to 1Moment, the model for the formation and dissolution of vacancy clusters or voids is included. The 1Moment model us…
 - **Initializing 1Moment Model** <a id="initializing-1moment-model"></a>
-  - The initial concentration of interstitial clusters or vacancy clusters after implantation is set in the diffPreProcess procedure (see Ion Implantation to Diffusion on page 340) and can be changed using the parameter InitPercent as follows:
-  - _Keywords:_ InitPercent, regions, clusters, interstitial, vacancy, implantation, pdbSet, material
+  - The initial concentration of interstitial clusters or vacancy clusters after implantation is set in the diffPreProcess procedure (see Ion I…
 - **Defect Cluster Model: 2Moment** <a id="defect-cluster-model-2moment"></a>
 - **Interstitial** <a id="interstitial"></a>
-  - If you set the model to 2Moment, the model for the formation and dissolution of interstitial clusters ({311} or {113} defects) and conversion of {311} clusters into dislocation loops are included [42]. The model calculates the first two ...
-  - _Keywords:_ clusters, interstitials, partial, pdbSet, material, C311, dissolution, dislocation
+  - If you set the model to 2Moment, the model for the formation and dissolution of interstitial clusters ({311} or {113} defects) and conversi…
 - **Vacancy** <a id="vacancy"></a>
-  - If you set the model to 2Moment – the model for the formation and dissolution of vacancy clusters – the model calculates the first two moments of the size distribution of vacancy clusters, that is, the number of clusters and the number o...
-  - _Keywords:_ clusters, vacancies, partial, vacancy, gamma_, pdbSet, material, CVoid
+  - If you set the model to 2Moment – the model for the formation and dissolution of vacancy clusters – the model calculates the first two mome…
 - **Initializing 2Moment Model** <a id="initializing-2moment-model"></a>
-  - The initial concentration of interstitial clusters after implantation is set in the diffPreProcess procedure (see Ion Implantation to Diffusion on page 340). By default, clusters are assumed to break apart in the amorphous regions.
-  - _Keywords:_ AmPercent, pdbSet, material, clusters, regions, amorphous, initial, concentration
+  - The initial concentration of interstitial clusters after implantation is set in the diffPreProcess procedure (see Ion Implantation to Diffu…
 - **Defect Cluster Model: Full** <a id="defect-cluster-model-full"></a>
 - **Interstitial** <a id="interstitial"></a>
-  - If you set the defect cluster model to Full, the TS4 style transient small interstitial cluster model is used. The reactions associated with the size-n small interstitial cluster is as follows:
-  - _Keywords:_ pdbSet, rightarrow, interstitial, cluster, interstitials, clusters, leftrightarrow, reaction
+  - If you set the defect cluster model to Full, the TS4 style transient small interstitial cluster model is used. The reactions associated wit…
 - **Vacancy** <a id="vacancy"></a>
-  - If you set the defect cluster model to Full, the TSUPREM-4-style transient small-vacancy cluster model is used. The reactions associated with the -size small interstitial cluster are:n
-  - _Keywords:_ pdbSet, rightarrow, cluster, vacancy, vacancies, clusters, leftrightarrow, reaction
+  - If you set the defect cluster model to Full, the TSUPREM-4-style transient small-vacancy cluster model is used. The reactions associated wi…
 - **Initializing Full Model** <a id="initializing-full-model"></a>
-  - The initial concentration of interstitial or vacancy clusters after implantation is set in the diffPreProcess procedure (see Ion Implantation to Diffusion on page 340). By default, clusters are assumed to break apart in the amorphous reg...
-  - _Keywords:_ regions, InitPercent, clusters, AmPercent, cluster, initial, concentration, interstitial
+  - The initial concentration of interstitial or vacancy clusters after implantation is set in the diffPreProcess procedure (see Ion Implantati…
 - **Ion Implantation to Diffusion** <a id="ion-implantation-to-diffusion"></a>
   - During implantation, important data fields (see Chapter 2 on page 51) such as Int\_Implant, Vac\_Implant, and Damage are created.
-  - _Keywords:_ defect, material, fields, Model, Int, Vac, implantation, _Implant
 - **Initializing Solution Variables** <a id="initializing-solution-variables"></a>
-  - Initializing solution variables is typically a minor task in Sentaurus Process. You can manipulate data and easily modify any data field using the select command (see select on page 1195). Data fields can be added, subtracted, truncated,...
-  - _Keywords:_ solution, Int, procedure, callback, Sentaurus, Process, dopant, initialization
+  - Initializing solution variables is typically a minor task in Sentaurus Process. You can manipulate data and easily modify any data field us…
 - **Boundary Conditions** <a id="boundary-conditions"></a>
   - Different boundary conditions can be selected in Sentaurus Process using:
-  - _Keywords:_ dopant, Dirichlet, boundary, pdbSet, interface_material, defect, BoundaryCondition, interface
 - **HomNeumann** <a id="homneumann"></a>
-  - It is assumed that there are no fluxes and transfers across the interface. This is chosen by default at the front, back, left, right, and bottom boundaries, and can be applied to any boundary.
-  - _Keywords:_ assumed, fluxes, transfers, across, interface, chosen, bottom, boundaries
+  - It is assumed that there are no fluxes and transfers across the interface. This is chosen by default at the front, back, left, right, and b…
 - **Natural** <a id="natural"></a>
-  - This is the default boundary condition for point defects at gas–silicon and oxide–silicon interfaces. The normal flux across an outer surface is given by:
-  - _Keywords:_ surface, interface, recombination, concentration, material, defects, silicon, mathbf
+  - This is the default boundary condition for point defects at gas–silicon and oxide–silicon interfaces. The normal flux across an outer surfa…
 - **Surface Recombination Model: PDependent** <a id="surface-recombination-model-pdependent"></a>
-  - The PDependent model is the pressure-dependent surface recombination model. The flux that takes into account the interstitial injection during oxidation is given by:
-  - _Keywords:_ mathbf, PDependent, pressure, dependent, surface, recombination, account, interstitial
+  - The PDependent model is the pressure-dependent surface recombination model. The flux that takes into account the interstitial injection dur…
 - **where:** <a id="where"></a>
-  - $k _ { s }$ is the surface recombination rate. $G _ { o x }$ is the generation rate. ■ $P _ { o }$ is the oxygen partial pressure. ■ $\| V _ { o x } \|$ is the local oxidation rate (ReactionSpeed). $V _ { S c a l e }$ is the reference ox...
-  - _Keywords:_ pdbSet, material, interface, defect, generation, oxidation, silicon, modify
+  - $k _ { s }$ is the surface recombination rate. $G _ { o x }$ is the generation rate. ■ $P _ { o }$ is the oxygen partial pressure. ■ $\| V…
 - **Surface Recombination Model: InitGrowth** <a id="surface-recombination-model-initgrowth"></a>
-  - The InitGrowth model is almost identical to PDependent (see Surface Recombination Model: PDependent on page 346) except that $\| V _ { o x } \| / V _ { S c a l e }$ is set to 1 for nonoxidizing cases in Eq. 645.
-  - _Keywords:_ PDependent, InitGrowth, almost, identical, Surface, Recombination, Model, except
+  - The InitGrowth model is almost identical to PDependent (see Surface Recombination Model: PDependent on page 346) except that $\| V _ { o x…
 - **Surface Recombination Model: Simple** <a id="surface-recombination-model-simple"></a>
-  - The Simple model takes into account the interstitial injection through total free and equilibrium point-defect concentrations during oxidation. The recombination flux is given by:
-  - _Keywords:_ mathbf, Scale, Simple, account, interstitial, injection, through, equilibrium
+  - The Simple model takes into account the interstitial injection through total free and equilibrium point-defect concentrations during oxidat…
 - **Surface Recombination Model: Normalized** <a id="surface-recombination-model-normalized"></a>
-  - The Normalized model is a TSUPREM-4-type surface recombination model. This model provides both the time dependence and the dependence on the oxidation conditions by using a constant normalizing factor:
-  - _Keywords:_ dependence, normalizing, factor, mathbf, Normalized, TSUPREM, surface, recombination
+  - The Normalized model is a TSUPREM-4-type surface recombination model. This model provides both the time dependence and the dependence on th…
 - **Modifying Point-Defect Equilibrium Values at Surface** <a id="modifying-point-defect-equilibrium-values-at-surface"></a>
   - The equilibrium value of point defects at the interface can be enhanced as follows:
-  - _Keywords:_ interface, pdbSet, material, defect, equilibrium, defects, enhanced, follows
 - **Segregation** <a id="segregation"></a>
-  - This is the default boundary condition for dopants at all interfaces except for phosphorus at oxide–silicon, oxide–SiC, and oxynitride–silicon interfaces. The segregation boundary condition is also known as the two-phase segregation boun...
-  - _Keywords:_ dopant, segregation, interface, boundary, condition, interfaces, fluxes, dopants
+  - This is the default boundary condition for dopants at all interfaces except for phosphorus at oxide–silicon, oxide–SiC, and oxynitride–sili…
 - **Surface Recombination Model: Default** <a id="surface-recombination-model-default"></a>
   - If the surface recombination model is set to Default for any dopant diffusion model, the segregation fluxes are given by:
-  - _Keywords:_ dopant, Transfer, interface, TransferFactor, diffusion, segregation, mathbf, Segregation
 - **Surface Recombination Model: PairSegregation** <a id="surface-recombination-model-pairsegregation"></a>
-  - If the surface recombination model is set to PairSegregation for the Constant, Fermi, ChargedFermi, Pair, or ChargedPair diffusion models, the segregation fluxes are given by:
-  - _Keywords:_ dopant, mathbf, interface, gamma_, interstitial, PairSegregation, diffusion, bullet
+  - If the surface recombination model is set to PairSegregation for the Constant, Fermi, ChargedFermi, Pair, or ChargedPair diffusion models,…
 - **Dirichlet** <a id="dirichlet"></a>
-  - The Dirichlet boundary condition can be used with both point defects and dopants. However, it can be set only at gas and any other material interfaces for dopants. In this way, ‘in-diffusion’ for a dopant can be simulated using the Diric...
-  - _Keywords:_ boundary, Dirichlet, condition, dopant, dopants, material, defect, equilibrium
+  - The Dirichlet boundary condition can be used with both point defects and dopants. However, it can be set only at gas and any other material…
 - **where:** <a id="where"></a>
-  - <material> is a material name. <dopant> is a valid dopant name. <defect> is either Interstitial or Vacancy. Cstar is the equilibrium value of the solution variable.
-  - _Keywords:_ equilibrium, material, dopant, Dirichlet, boundary, condition, interface, defect
+  - <material> is a material name. <dopant> is a valid dopant name. <defect> is either Interstitial or Vacancy. Cstar is the equilibrium value…
 - **ThreePhaseSegregation** <a id="threephasesegregation"></a>
-  - This is the default boundary condition for phosphorus at oxide–silicon, oxide–SiC, and oxynitride–silicon interfaces. Dose loss during diffusion can be modeled with three-phase segregation in Sentaurus Process. Dopants can segregate from...
-  - _Keywords:_ interface, silicon, material, diffusion, Sentaurus, Process, partial, diffusivity
+  - This is the default boundary condition for phosphorus at oxide–silicon, oxide–SiC, and oxynitride–silicon interfaces. Dose loss during diff…
 - **where:** <a id="where"></a>
-  - <interface material> is an interface material name (see Specifying Materials on page 18). <dopant> is one of the existing Sentaurus Process dopants.
-  - _Keywords:_ interface, dopant, material, PairSegregation, models, diffusion, Surf, Recomb
+  - <interface material> is an interface material name (see Specifying Materials on page 18). <dopant> is one of the existing Sentaurus Process…
 - **Surface Recombination Model: Default** <a id="surface-recombination-model-default"></a>
   - If the surface recombination model is set to Default for any dopant diffusion model, the segregation fluxes are given by:
-  - _Keywords:_ Rate, surface, recombination, dopant, diffusion, segregation, fluxes
 - **where:** <a id="where"></a>
-  - $T _ { R a t e }$ is the trapping rate. $C _ { A } ^ { T m a x }$ CA is the maximum number of sites in the adjacent bulk regions. $C _ { A _ { i } }$ is the concentration of trapped dopant $A _ { i }$ $\boldsymbol { C } _ { A } ^ { s s }...
-  - _Keywords:_ interface, dopant, material, Rate, pdbSet, Sentaurus, Process, defined
+  - $T _ { R a t e }$ is the trapping rate. $C _ { A } ^ { T m a x }$ CA is the maximum number of sites in the adjacent bulk regions. $C _ { A…
 - **Surface Recombination Model: PairSegregation** <a id="surface-recombination-model-pairsegregation"></a>
-  - If the Surface Recombination model is set to PairSegregation for the Pair or ChargedPair dopant diffusion model, the segregation fluxes are given by:
-  - _Keywords:_ dopant, Rate, concentration, interface, PairSegregation, diffusion, unpaired, interstitial
+  - If the Surface Recombination model is set to PairSegregation for the Pair or ChargedPair dopant diffusion model, the segregation fluxes are…
 - **ThreePhaseSegregation During SPER** <a id="threephasesegregation-during-sper"></a>
-  - During solid phase epitaxial regrowth (SPER), only solutions with nonzero DAmorph are solved, while the solutions in crystalline regions are frozen. Any diffusion model that takes into account pairs, such as ChargedReact or Pair, set by ...
-  - _Keywords:_ solutions, material, amorphized, mathrm, Rate, During, epitaxial, regrowth
+  - During solid phase epitaxial regrowth (SPER), only solutions with nonzero DAmorph are solved, while the solutions in crystalline regions ar…
 - **where:** <a id="where"></a>
-  - ■ AmorphState is the fraction of the material in the amorphous state. $\mathrm { { A m T } _ { \mathrm { { R a t e } } } }$ and $\mathrm { { A m E } _ { \mathrm { { R a t e } } } }$ are the trapping and emission rates for the amorphous p...
-  - _Keywords:_ mathrm, Amorphous, material, amorphous, pdbSet, Ox_Si, TrappingRate, EmissionRate
+  - ■ AmorphState is the fraction of the material in the amorphous state. $\mathrm { { A m T } _ { \mathrm { { R a t e } } } }$ and $\mathrm {…
 - **Trap** <a id="trap"></a>
-  - The Trap boundary condition is used to trap species at the interface. This boundary condition is a combination of the Segregation model (see Segregation on page 349) and the ThreePhaseSegregation model (see ThreePhaseSegregation on page ...
-  - _Keywords:_ Trap, boundary, condition, Segregation, ThreePhaseSegregation, oxidation, species, interface
+  - The Trap boundary condition is used to trap species at the interface. This boundary condition is a combination of the Segregation model (se…
 - **TrapGen** <a id="trapgen"></a>
-  - The TrapGen boundary condition defines not only dopant trapping, but also dopant generation depending on the reaction velocity at a boundary.
-  - _Keywords:_ boundary, dopant, TrapGen, condition, defines, trapping, generation, depending
+  - The TrapGen boundary condition defines not only dopant trapping, but also dopant generation depending on the reaction velocity at a boundar…
 - **Continuous** <a id="continuous"></a>
   - For all of the same material interfaces (for example, Silicon\_Silicon), by default, continuous flux and solution boundary conditions apply:
-  - _Keywords:_ material, interfaces, Silicon, _Silicon, continuous, solution, boundary, conditions
 - **where:** <a id="where"></a>
-  - ■ Indices 1 and 2 indicate the two sides of the interface .i ■ indicates the component of the dopant gradient normal to the interface.n ■ is the diffusivity, and is the concentration of the solution variable.D C
-  - _Keywords:_ interface, solution, dopant, variable, boundary, condition, continuous, pdbSetBoolean
+  - ■ Indices 1 and 2 indicate the two sides of the interface .i ■ indicates the component of the dopant gradient normal to the interface.n ■ i…
 - **Dependency on Interface Crystal Orientation** <a id="dependency-on-interface-crystal-orientation"></a>
-  - Segregation of dopants at material interfaces (of crystalline or polycrystalline materials) can depend on the crystallographic orientation of the interfaces. For example, the surface density of atoms depends on the surface crystallograph...
-  - _Keywords:_ segregation, orientation, pdbSet, Aniso, Fac, dependency, Segregation, interface
+  - Segregation of dopants at material interfaces (of crystalline or polycrystalline materials) can depend on the crystallographic orientation…
 - **Periodic Boundary Condition** <a id="periodic-boundary-condition"></a>
   - The periodic boundary condition can be applied when a device structure has a repetitive pattern:
-  - _Keywords:_ boundary, condition, periodic, Front, Back, interpolation, applied, device
 - **Boundary Conditions at Moving Interfaces** <a id="boundary-conditions-at-moving-interfaces"></a>
 - **Enhanced and Retarded Diffusion** <a id="enhanced-and-retarded-diffusion"></a>
-  - During the growth of materials (for example, oxide and silicide), the reaction speed is calculated at the moving interfaces. The data field is called ReactionSpeed. The reaction speed can be used to simulate the enhanced dopant diffusion...
-  - _Keywords:_ diffusion, reaction, ReactionSpeed, simulate, enhanced, dopant, oxidation, OED
+  - During the growth of materials (for example, oxide and silicide), the reaction speed is calculated at the moving interfaces. The data field…
 - **Emulated Oxidation-Enhanced Diffusion** <a id="emulated-oxidation-enhanced-diffusion"></a>
-  - Moving boundaries especially in three dimensions has its own meshing challenges. It is very common to deposit a thick layer of oxide as a native layer to improve stability and performance in three dimensions, while allowing the boundary ...
-  - _Keywords:_ thickness, reaction, OED, native, diffuse, structure, dimensions, boundary
+  - Moving boundaries especially in three dimensions has its own meshing challenges. It is very common to deposit a thick layer of oxide as a n…
 - **Conserving Dose** <a id="conserving-dose"></a>
-  - The mesh of the simulated structure is modified during the growth of materials with each diffusion step. Some elements of the mesh will become bigger and some will shrink during this process. The change in the element size from one diffu...
-  - _Keywords:_ _Silicon, Boron, diffusion, dopant, concentration, silicon, during, change
+  - The mesh of the simulated structure is modified during the growth of materials with each diffusion step. Some elements of the mesh will bec…
 - **Common Dopant and Defect Dataset Names** <a id="common-dopant-and-defect-dataset-names"></a>
-  - Sentaurus Process does not solve the diffusion equations for the total dopant or defect concentrations, but solves the equations for the total unpaired dopant and defect concentrations. Sentaurus Process monitors the total dopant and def...
-  - _Keywords:_ concentration, interstitial, Total, cluster, vacancy, unpaired, Boron, BoronInt
+  - Sentaurus Process does not solve the diffusion equations for the total dopant or defect concentrations, but solves the equations for the to…
 - **References** <a id="references"></a>
-  - [1] B. Colombeau and N. E. B. Cowern, “Modelling of the chemical-pump effect and C clustering,” Semiconductor Science and Technology, vol. 19, no. 12, pp. 1339–1342, 2004. [2] H.-W. Guo and S. T. Dunham, “Accurate modeling of copper prec...
-  - _Keywords:_ Applied, Physics, Journal, Silicon, silicon, Diffusion, diffusion, USA
+  - [1] B. Colombeau and N. E. B. Cowern, “Modelling of the chemical-pump effect and C clustering,” Semiconductor Science and Technology, vol.…
 - **Overview** <a id="overview"></a>
-  - The continuum approach to modeling dopant diffusion in process simulation tools is used to solve a system of partial differential equations (PDEs) that describe transport of the dopants and conservation of the dose. This approach has bee...
-  - _Keywords:_ diffusion, continuum, approach, dopant, simulation, device, process, devices
+  - The continuum approach to modeling dopant diffusion in process simulation tools is used to solve a system of partial differential equations…
 - **Kinetic Monte Carlo Method** <a id="kinetic-monte-carlo-method"></a>
-  - Sentaurus Process Kinetic Monte Carlo (Sentaurus Process KMC) considers only defects and impurities, and ignores the lattice (except for some solid phase epitaxial regrowth (SPER) and epitaxial deposition models). This drastically reduce...
-  - _Keywords:_ Sentaurus, Process, KMC, defects, mathrm, approximately, lattice, epitaxial
+  - Sentaurus Process Kinetic Monte Carlo (Sentaurus Process KMC) considers only defects and impurities, and ignores the lattice (except for so…
 - **Operating Modes** <a id="operating-modes"></a>
   - Sentaurus Process KMC can operate in different modes as follows:
-  - _Keywords:_ Sentaurus, Process, KMC, simulation, continuum, solver, advantage, equilibrium
 - **Atomistic Mode** <a id="atomistic-mode"></a>
-  - When Sentaurus Process KMC is in atomistic mode, the data fields are handled completely atomistically. To select the atomistic mode at the very beginning of the simulation, use:
-  - _Keywords:_ atomistic, Sentaurus, Process, KMC, fields, SetAtomistic, AtomisticData, implantation
+  - When Sentaurus Process KMC is in atomistic mode, the data fields are handled completely atomistically. To select the atomistic mode at the…
 - **Restrictions** <a id="restrictions"></a>
   - The following restrictions apply when using the atomistic mode:
-  - _Keywords:_ KMC, Sentaurus, Process, particles, structure, removed, material, atomistic
 - **Implantation** <a id="implantation"></a>
-  - Sentaurus Process KMC requires the damage morphology (coordinates of each point defect) for its damage accumulation model; this information is not available in analytic implantations. In atomistic mode, the implant command automatically ...
-  - _Keywords:_ implantation, Sentaurus, Process, KMC, damage, mathrm, implantations, cascades
+  - Sentaurus Process KMC requires the damage morphology (coordinates of each point defect) for its damage accumulation model; this information…
 - **Diffusion** <a id="diffusion"></a>
-  - For the first diffusion step after implantation, using a small temperature ramp-up is recommended. The time for this ramp-up should be chosen as realistically as possible. At the end of an implantation, the simulation cell contains the i...
-  - _Keywords:_ temperature, KMC, sprocess, pdbGet, performed, mathrm, different, automaticRampUp
+  - For the first diffusion step after implantation, using a small temperature ramp-up is recommended. The time for this ramp-up should be chos…
 - **Nonatomistic Mode** <a id="nonatomistic-mode"></a>
-  - Sentaurus Process KMC also can be used only for one diffusion step, synchronizing the status of the simulation before and after the diffusion step. This is performed with the kmc argument in the diffuse command as follows:
-  - _Keywords:_ Sentaurus, Process, KMC, diffuse, diffusion, information, simulation, temperature
+  - Sentaurus Process KMC also can be used only for one diffusion step, synchronizing the status of the simulation before and after the diffusi…
 - **Translating Atomistic and Nonatomistic Information** <a id="translating-atomistic-and-nonatomistic-information"></a>
-  - Transformations of information back and forth from concentrations to particles are performed by the Tcl procedures PDE2KMC and KMC2PDE. These transformations might degrade the accuracy of the obtained results. By default, the transformat...
-  - _Keywords:_ continuum, KMC, procedures, PDE2KMC, KMC2PDE, transformation, PDE2KMCUser, KMC2PDEUser
+  - Transformations of information back and forth from concentrations to particles are performed by the Tcl procedures PDE2KMC and KMC2PDE. The…
 - **Sano Method** <a id="sano-method"></a>
-  - The Sano method converts particles to continuum profiles inside Sentaurus Process. The conversion is performed using the same module as the one available in Sentaurus Mesh.
-  - _Keywords:_ Sano, UnsetAtomistic, Sentaurus, NetActive, method, Mesh, contact, screening
+  - The Sano method converts particles to continuum profiles inside Sentaurus Process. The conversion is performed using the same module as the…
 - **Simulation Domain** <a id="simulation-domain"></a>
-  - All Sentaurus Process KMC simulations are performed internally in a 3D domain. If the Sentaurus Process structure is 1D or 2D, the missing lateral dimensions are created automatically to form a 3D simulation domain for Sentaurus Process ...
-  - _Keywords:_ Sentaurus, Process, KMC, domain, simulation, structure, dimensions, MinZum
+  - All Sentaurus Process KMC simulations are performed internally in a 3D domain. If the Sentaurus Process structure is 1D or 2D, the missing…
 - **Recommended Domain Size** <a id="recommended-domain-size"></a>
-  - For 3D simulations of deep-submicron transistors with twofold symmetry, you should make the size of the simulation domain one-quarter of the transistor size. The Sentaurus Process KMC domain is automatically the same.
-  - _Keywords:_ domain, simulation, lateral, mathrm, increase, implantation, obtain, Sentaurus
+  - For 3D simulations of deep-submicron transistors with twofold symmetry, you should make the size of the simulation domain one-quarter of th…
 - **Internal Grid** <a id="internal-grid"></a>
   - Sentaurus Process KMC uses an internal grid to:
-  - _Keywords:_ direction, Sentaurus, KMC, minimum, refinement, tensor, Process, internal
 - **Randomization** <a id="randomization"></a>
-  - You can investigate statistical variations of a process flow by selecting a different seed for the random number generator used by Sentaurus Process KMC in each run. You can specify the value of the seed by changing the parameter randomS...
-  - _Keywords:_ You, KMC, randomSeed, investigate, statistical, variations, process, selecting
+  - You can investigate statistical variations of a process flow by selecting a different seed for the random number generator used by Sentauru…
 - **Boundary Conditions** <a id="boundary-conditions"></a>
-  - By default Sentaurus Process KMC uses periodic boundary conditions at the left, right, front, and back sides of the simulation domain. To change these conditions, use the parameters KMC PeriodicBC.Y and KMC PeriodicBC.Z.
-  - _Keywords:_ conditions, boundary, KMC, periodic, defined, Sentaurus, Process, simulation
+  - By default Sentaurus Process KMC uses periodic boundary conditions at the left, right, front, and back sides of the simulation domain. To c…
 - **Parallelism** <a id="parallelism"></a>
   - You can use several CPUs during a Sentaurus Process KMC simulation using the math command:
-  - _Keywords:_ Sentaurus, Process, KMC, threads, parallel, implantation, licenses, serial
 - **How Parallelism Works** <a id="how-parallelism-works"></a>
-  - Sentaurus Process KMC works in parallel by assuming that there is no space anisotropy in the z-direction. This assumption is trivially true for 1D and 2D simulations, and generally false for 3D simulations. Consequently, parallelism is o...
-  - _Keywords:_ simulation, simulations, domain, subdomains, CPU, parallel, direction, Sentaurus
+  - Sentaurus Process KMC works in parallel by assuming that there is no space anisotropy in the z-direction. This assumption is trivially true…
 - **Estimating CPU Time** <a id="estimating-cpu-time"></a>
-  - CPU time and memory required for KMC diffusion simulation are directly proportional to the number of particles in the structure. For a typical 2-GHz machine, Sentaurus Process KMC performs up to 1 million events (jumps) per second. On so...
-  - _Keywords:_ KMC, diffusion, events, implantation, CPU, simulation, second, processes
+  - CPU time and memory required for KMC diffusion simulation are directly proportional to the number of particles in the structure. For a typi…
 - **Atomistic Diffusion** <a id="atomistic-diffusion"></a>
   - The nonlattice KMC method tracks only atoms in defects, while lattice silicon atoms are excluded as shown in Figure 28.
-  - _Keywords:_ Node, KMC, defects, lattice, defect, method, silicon, Green
 - **Units** <a id="units"></a>
   - The units used by Sentaurus Process KMC are:
-  - _Keywords:_ mathrm, Sentaurus, Process, KMC, frequencies, migration, prefactors, diffusivity
 - **Space Management** <a id="space-management"></a>
-  - Sentaurus Process KMC assumes an orthogonal simulation cell to manage space. The minimum and maximum x-, y-, and z-dimensions (that is, the bounding box) are passed to Sentaurus Process KMC as simulation parameters. Sentaurus Process KMC...
-  - _Keywords:_ KMC, Sentaurus, Process, elements, simulation, spacing, minimum, internal
+  - Sentaurus Process KMC assumes an orthogonal simulation cell to manage space. The minimum and maximum x-, y-, and z-dimensions (that is, the…
 - **Materials and Space** <a id="materials-and-space"></a>
-  - The transfer of materials from Sentaurus Process to Sentaurus Process KMC is straightforward: Each Sentaurus Process KMC element is assigned to a material type. Sentaurus Process KMC creates interfaces whenever two elements are set to di...
-  - _Keywords:_ KMC, Sentaurus, Process, interfaces, element, elements, details, summary
+  - The transfer of materials from Sentaurus Process to Sentaurus Process KMC is straightforward: Each Sentaurus Process KMC element is assigne…
 - **Supported Material Models** <a id="supported-material-models"></a>
-  - Sentaurus Process KMC supports three material models: discard, simple, and full. These models are selected using PDB parameters. Except for the discard model, the simple model or the full model requires that material properties and all p...
-  - _Keywords:_ material, materials, silicon, KMC, Sentaurus, Process, discard, simple
+  - Sentaurus Process KMC supports three material models: discard, simple, and full. These models are selected using PDB parameters. Except for…
 - **Material Alloying** <a id="material-alloying"></a>
-  - Sentaurus Process KMC allows materials containing an alloying element to be treated in a quasi-atomistic framework. Such an alloying element is specified using the Alloy parameter of the material specification. In the following, as an ex...
-  - _Keywords:_ KMC, element, concentration, Alloy, material, alloying, specified, particles
+  - Sentaurus Process KMC allows materials containing an alloying element to be treated in a quasi-atomistic framework. Such an alloying elemen…
 - **Point Defects** <a id="point-defects"></a>
-  - Sentaurus Process KMC can distinguish different interstitials, depending on the material, using different syntax. The syntax "I" refers to an interstitial in the particular material where it is positioned; otherwise, a more concrete nota...
-  - _Keywords:_ second, different, material, syntax, refers, Gei, Sii, Sentaurus
+  - Sentaurus Process KMC can distinguish different interstitials, depending on the material, using different syntax. The syntax "I" refers to…
 - **Alloying** <a id="alloying"></a>
-  - Sentaurus Process KMC can be used with silicon germanium (SiGe). When using the material SiGe, it is important to define the silicon field and the germanium field in the SiGe material, to establish a mole fraction. By default, the materi...
-  - _Keywords:_ material, silicon, SiGe, germanium, Sentaurus, Process, KMC, fraction
+  - Sentaurus Process KMC can be used with silicon germanium (SiGe). When using the material SiGe, it is important to define the silicon field…
 - **Time Management** <a id="time-management"></a>
-  - The main component in Sentaurus Process KMC is an algorithm that sequentially selects the possible random events (such as migration of point defects or emission of extended defects) according to their corresponding frequencies, similar t...
-  - _Keywords:_ events, migration, defects, mathrm, simulation, KMC, random, emission
+  - The main component in Sentaurus Process KMC is an algorithm that sequentially selects the possible random events (such as migration of poin…
 - **Simulation and CPU Times** <a id="simulation-and-cpu-times"></a>
   - The time needed to complete a simulation depends on several factors:
-  - _Keywords:_ simulation, KMC, colspan, events, Events, simulated, Sentaurus, Diffusion
 - **Parallelism and CPU Time** <a id="parallelism-and-cpu-time"></a>
-  - Table 51 lists the CPU times that can be expected when running on different numbers of threads. However, the exact time depends on the particular simulation.
-  - _Keywords:_ threads, CPU, simulation, different, depends, Approximate, superlinear, expected
+  - Table 51 lists the CPU times that can be expected when running on different numbers of threads. However, the exact time depends on the part…
 - **Snapshots** <a id="snapshots"></a>
-  - A snapshot is an interruption to the usual Sentaurus Process KMC simulation flow so as to print the status of the simulation and to allow you to run a customizable Tcl command (see Movie on page 402). To control these interruptions, set ...
-  - _Keywords:_ snapshots, decade, KMC, simulation, Decade, generated, Events, snapshot
+  - A snapshot is an interruption to the usual Sentaurus Process KMC simulation flow so as to print the status of the simulation and to allow y…
 - **Movie** <a id="movie"></a>
-  - The Sentaurus Process KMC Movie command is similar to the Sentaurus Process Movie command and executes the contents of the parameter KMC Movie any time a new snapshot is generated. You can use this command interactively to obtain informa...
-  - _Keywords:_ Movie, KMC, diffuse, implant, Sentaurus, Process, simulation, TDR
+  - The Sentaurus Process KMC Movie command is similar to the Sentaurus Process Movie command and executes the contents of the parameter KMC Mo…
 - **Time Internal Representation and Limitations** <a id="time-internal-representation-and-limitations"></a>
-  - There are no internal limits for the frequencies used in Sentaurus Process KMC. Nevertheless, very high frequencies (typically produced by small migration energies) can lead to slow simulations.
-  - _Keywords:_ frequencies, internal, limits, Sentaurus, Process, KMC, Nevertheless, typically
+  - There are no internal limits for the frequencies used in Sentaurus Process KMC. Nevertheless, very high frequencies (typically produced by…
 - **Particles** <a id="particles"></a>
   - Particles are represented in Sentaurus Process KMC with three spatial coordinates (x, y, z) and two labels:
-  - _Keywords:_ particle, Particles, represented, Sentaurus, Process, KMC, spatial, coordinates
 - **Particle Types** <a id="particle-types"></a>
   - To list the standard particles currently defined for Sentaurus Process KMC, at the command prompt, type:
-  - _Keywords:_ positive, Vacancy, arsenic, negative, phosphorus, Interstitial, interstitial, neutral
 - **Particles in Models** <a id="particles-in-models"></a>
-  - The dopants allowed in the simulation are defined in the parameter database under the label KMC Impurities. The parameter database lists the impurity name, the charge, and a Boolean parameter indicating whether the particle is allowed in...
-  - _Keywords:_ KMC, Pairs, defined, pdbSet, charge, particle, mathrm, dopants
+  - The dopants allowed in the simulation are defined in the parameter database under the label KMC Impurities. The parameter database lists th…
 - **Aliases of Particle Names** <a id="aliases-of-particle-names"></a>
-  - Aliases of particle names are defined using KMC aliases, which is a list of particle names and alternative names separated by commas. These aliases are used only when Sentaurus Process KMC tries to map a name as a particle or a defect. F...
-  - _Keywords:_ particle, KMC, aliases, BoronInt, present, defectname, Aliases, defined
+  - Aliases of particle names are defined using KMC aliases, which is a list of particle names and alternative names separated by commas. These…
 - **Colors of Particles** <a id="colors-of-particles"></a>
-  - You can change the default visualization color for the atomistic representation of particles and defects in Sentaurus Visual, or add new colors to existing particles and defects.
-  - _Keywords:_ colors, You, particles, defects, change, visualization, atomistic, representation
+  - You can change the default visualization color for the atomistic representation of particles and defects in Sentaurus Visual, or add new co…
 - **Particles and Parameters** <a id="particles-and-parameters"></a>
-  - New particles need new parameters. For every impurity specified in Impurities, a new file must be created for each material folder and surface. The name of these files is obtained using the alias command with the name of the Sentaurus Pr...
-  - _Keywords:_ Complex, Recryst, Max, Cluster, material, Surf, Active, impurity
+  - New particles need new parameters. For every impurity specified in Impurities, a new file must be created for each material folder and surf…
 - **Undefining Particles** <a id="undefining-particles"></a>
-  - A particle can be undefined by deleting its definition in the parameter database or by setting its Boolean to false. If an impurity is undefined, Sentaurus Process KMC also undefines all its pairs.
-  - _Keywords:_ undefined, KMC, undefine, simulation, pdbSet, particle, deleting, definition
+  - A particle can be undefined by deleting its definition in the parameter database or by setting its Boolean to false. If an impurity is unde…
 - **Defect Types** <a id="defect-types"></a>
   - To list the defects implemented in Sentaurus Process KMC (see Table 60), on the command line, type:
-  - _Keywords:_ allowed, particle, defect, defects, impurity, PointDefect, clusters, Amorphous
 - **Point Defects, Impurities, Dopants, and Impurity-Paired Point Defects** <a id="point-defects-impurities-dopants-and-impurity-paired-point-d"></a>
-  - This section describes the models related to the creation, diffusion, or interaction of various point defects considered in KMC simulations. It also describes the parameters that enable users to add their own interactions or to control t...
-  - _Keywords:_ describes, defects, interactions, models, related, creation, diffusion, interaction
+  - This section describes the models related to the creation, diffusion, or interaction of various point defects considered in KMC simulations…
 - **Interstitials and Vacancies** <a id="interstitials-and-vacancies"></a>
-  - Interstitials and vacancies in Sentaurus Process KMC perform a diffusion event in each axis j (x, y, and z) at a frequency given by the expression:
-  - _Keywords:_ Delta, sigma_, Interstitials, vacancies, Sentaurus, Process, KMC, perform
+  - Interstitials and vacancies in Sentaurus Process KMC perform a diffusion event in each axis j (x, y, and z) at a frequency given by the exp…
 - **where:** <a id="where"></a>
-  - ■ $\boldsymbol { \mathsf { v } } ^ { j } { } _ { m }$ is the jump frequency for the axis .j $\mathtt { V } _ { 0 , m }$ is the prefactor. $E _ { m }$ is the migration energy. $\pmb { \sigma } _ { i } ^ { \prime }$ are the principal stres...
-  - _Keywords:_ stress, Delta, activation, prefactor, migration, energy, stresses, volume
+  - ■ $\boldsymbol { \mathsf { v } } ^ { j } { } _ { m }$ is the jump frequency for the axis .j $\mathtt { V } _ { 0 , m }$ is the prefactor. $…
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Point Defects, Impurities, Dopants, and Impurity-Paired Point Defects
-  - _Keywords:_ defect, KMC, particles, Sentaurus, Process, particle, distance, defects
 - **Impurities** <a id="impurities"></a>
-  - Isolated impurities in Sentaurus Process KMC can be in a substitutional state or can be paired with interstitials or vacancies. Substitutional impurities are electrically active and typically immobile. The acceptor and donor impurities (...
-  - _Keywords:_ impurities, paired, interstitials, vacancies, interstitial, defect, particle, Isolated
+  - Isolated impurities in Sentaurus Process KMC can be in a substitutional state or can be paired with interstitials or vacancies. Substitutio…
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Point Defects, Impurities, Dopants, and Impurity-Paired Point Defects
-  - _Keywords:_ interstitial, Point, Defects, Impurities, Impurity, Paired, particles, substitutional
 - **Diffusion** <a id="diffusion"></a>
-  - A diffusion event is defined as for point defects (see Eq. 684, p. 411). Nevertheless, the equation defines an instant diffusivity that is different from the effective diffusivity. Effective diffusivity measured in experiments involves a...
-  - _Keywords:_ mathrm, diffusivity, interstitial, mathbf, microscopic, migration, mobile, energy
+  - A diffusion event is defined as for point defects (see Eq. 684, p. 411). Nevertheless, the equation defines an instant diffusivity that is…
 - **Breakup** <a id="breakup"></a>
   - A breakup event for an interstitial–impurity pair can be described as:
-  - _Keywords:_ Delta, energy, interstitial, impurity, alpha_, mathbb, breakup, activation
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Point Defects, Impurities, Dopants, and Impurity-Paired Point Defects
-  - _Keywords:_ Delta, energy, formation, energies, SiGe, mathsf, dopants, Point
 - **Percolation** <a id="percolation"></a>
-  - In a percolation event, an impurity can react with any other defect in its neighborhood without the need for diffusion. In this aspect, it can simulate the reactions that occur through distortions in the lattice but without the need for ...
-  - _Keywords:_ percolation, neighborhood, defect, without, particle, defined, impurity, diffusion
+  - In a percolation event, an impurity can react with any other defect in its neighborhood without the need for diffusion. In this aspect, it…
 - **Parameters** <a id="parameters"></a>
-  - The dopant diffusion parameters are stored in the parameter database for each material and dopant, under the names Dm, Em for diffusivities, and Db, Eb for binding energies. Dm and Db are prefactors, and Em and Eb are energies. The activ...
-  - _Keywords:_ material, KMC, pdbSet, Dopant, particle, binding, energies, Percolation
+  - The dopant diffusion parameters are stored in the parameter database for each material and dopant, under the names Dm, Em for diffusivities…
 - **Parameter Examples** <a id="parameter-examples"></a>
   - Silicon migration energies of boron particles:
-  - _Keywords:_ Silicon, migration, energies, particles, sprocess, pdbGet, KMC, BiM
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Point Defects, Impurities, Dopants, and Impurity-Paired Point Defects
-  - _Keywords:_ sprocess, pdbGet, KMC, BiM, energies, energy, Point, Defects
 - **Hopping Mode** <a id="hopping-mode"></a>
   - To control the way Sentaurus Process KMC performs diffusion events, you can change the hopping mode using:
-  - _Keywords:_ KMC, change, hopping, control, Sentaurus, Process, performs, diffusion
 - **The short Mode** <a id="the-short-mode"></a>
-  - The short mode implies that the jumping distance for all the diffusion events is the sameλ and equal to the second neighbor’s distance. In addition, only one diffusion event is performed at a time.
-  - _Keywords:_ distance, diffusion, implies, jumping, events, second, neighbor, addition
+  - The short mode implies that the jumping distance for all the diffusion events is the sameλ and equal to the second neighbor’s distance. In…
 - **The long Mode** <a id="the-long-mode"></a>
-  - The long mode implies that the code increases the hopping distance to , where is annλ n integer determined internally, in regions where there are no particles with which to interact. This increase improves the simulation performance in t...
-  - _Keywords:_ hopping, particles, regions, interact, factor, details, summary, implies
+  - The long mode implies that the code increases the hopping distance to , where is annλ n integer determined internally, in regions where the…
 - **The double Mode** <a id="the-double-mode"></a>
-  - The double mode allows Sentaurus Process KMC to perform two diffusion events in one. Nevertheless, to properly account for interactions, the intermediate diffusion event is still simulated by Sentaurus Process KMC. Using this hopping mod...
-  - _Keywords:_ Sentaurus, Process, KMC, diffusion, double, allows, perform, events
+  - The double mode allows Sentaurus Process KMC to perform two diffusion events in one. Nevertheless, to properly account for interactions, th…
 - **The longdouble Mode** <a id="the-longdouble-mode"></a>
   - The longdouble mode is the fastest mode, and enables both long and double hops.
-  - _Keywords:_ longdouble, fastest, enables, double, information, hopping, literature
 - **Enabling and Disabling Interactions** <a id="enabling-and-disabling-interactions"></a>
-  - Interactions between particles are important. Whenever one mobile particle jumps into another particle, Sentaurus Process KMC tries to make both particles interact. These interactions might or might not be possible depending on whether t...
-  - _Keywords:_ particles, KMC, ReactionsPointDefect, between, interactions, interaction, particle, mobile
+  - Interactions between particles are important. Whenever one mobile particle jumps into another particle, Sentaurus Process KMC tries to make…
 - **Interaction Rules** <a id="interaction-rules"></a>
-  - Sentaurus Process KMC does not accept all possible interactions within every two particles, but only interactions with a physical meaning, or with an available model. Consequently, the following rules apply:
-  - _Keywords:_ reaction, interactions, particles, Reactions, defined, Sentaurus, Process, KMC
+  - Sentaurus Process KMC does not accept all possible interactions within every two particles, but only interactions with a physical meaning,…
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Point Defects, Impurities, Dopants, and Impurity-Paired Point Defects
-  - _Keywords:_ allowed, defined, cluster, Point, Defects, reactions, mathrm, Reactions
 - **Examples** <a id="examples"></a>
-  - NOTE Only advanced users should change the default interaction list because improper modifications can drastically change the diffusion models.
-  - _Keywords:_ BiP, particle, reaction, allowed, reactions, mathbf, BiM, charge
+  - NOTE Only advanced users should change the default interaction list because improper modifications can drastically change the diffusion mod…
 - **Defining Nonstandard Interactions** <a id="defining-nonstandard-interactions"></a>
-  - Sentaurus Process KMC allows you to define nonstandard interactions, which are intended to provide a mechanism for exceptional models that cannot be implemented using standard models and interactions. These reactions are of the type:
-  - _Keywords:_ mathrm, KMC, interactions, mechanism, models, reactions, defined, SpecialReaction
+  - Sentaurus Process KMC allows you to define nonstandard interactions, which are intended to provide a mechanism for exceptional models that…
 - **Nonstandard Interaction Rules** <a id="nonstandard-interaction-rules"></a>
   - The rules for nonstandard interactions are a subset of the rules for standard interactions (see Interaction Rules on page 421):
-  - _Keywords:_ reaction, Reactions, nonstandard, interactions, result, defect, allowed, defined
 - **Example** <a id="example"></a>
   - A model for nitrogen diffusion can be defined using a nonstandard interaction, in particular, when you want to model:
-  - _Keywords:_ mathrm, reaction, define, mobile, problem, reactions, standard, special
 - **Stress Effects on Point Defects, Impurities, Dopants, and Impurity-Paired Point Defects** <a id="stress-effects-on-point-defects-impurities-dopants-and-impur"></a>
   - The stress model for Sentaurus Process KMC is disabled by default. To enable the stress model, use:
-  - _Keywords:_ stress, Sentaurus, Process, KMC, diffuse, Stress, defects, disabled
 - **Migration Energy** <a id="migration-energy"></a>
   - An anisotropic correction to the migration energy is introduced as:
-  - _Keywords:_ Delta, sigma_, stresses, migration, energy, diffusion, standard, rotation
 - **Binding Energy** <a id="binding-energy"></a>
   - The binding energy of an impurity-paired point defect $\mathrm { A } _ { \mathrm { i } }$ is corrected by:
-  - _Keywords:_ Delta, energy, sigma_, binding, impurity, paired, defect, mathrm
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Point Defects, Impurities, Dopants, and Impurity-Paired Point Defects
-  - _Keywords:_ energy, mathrm, migration, stress, Point, Defects, Impurities, emitted
 - **Alloys** <a id="alloys"></a>
-  - Alloys are included in Sentaurus Process KMC simulations as fields not as particles. Using Ge as an example of an alloy in Si, it means that Sentaurus Process KMC discards the particular position of Ge (the xyz coordinates) and only keep...
-  - _Keywords:_ KMC, Sentaurus, Process, diffusion, particles, SiGe, simulations, atomistic
+  - Alloys are included in Sentaurus Process KMC simulations as fields not as particles. Using Ge as an example of an alloy in Si, it means tha…
 - **Alloy Diffusion** <a id="alloy-diffusion"></a>
-  - Ge will be used as an example of an alloy in Si material. Here, the Ge model diffusion implemented has been based partially on [10]. This model defines the diffusion of Ge in an indirect way through the use of of Is and Vs for aα ${ \mat...
-  - _Keywords:_ mathrm, material, diffusion, alpha_, interdiffusion, interstitials, mathbf, propto
+  - Ge will be used as an example of an alloy in Si material. Here, the Ge model diffusion implemented has been based partially on [10]. This m…
 - **Parameters** <a id="parameters"></a>
-  - The parameters $\mathbf { \alpha } \propto _ { 0 , s i } , \mathbf { \alpha } \propto _ { 0 , G e } , \mathbf { \beta } E _ { s i }$ , and $E _ { G e }$ are specified in the PDB with the names D0alphaSi, Alloy.D0alpha, EalphaSi, and Allo...
-  - _Keywords:_ mathbf, Alloy, propto, EalphaSi, Ealpha, sprocess, pdbGet, KMC
+  - The parameters $\mathbf { \alpha } \propto _ { 0 , s i } , \mathbf { \alpha } \propto _ { 0 , G e } , \mathbf { \beta } E _ { s i }$ , and…
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Point Defects, Impurities, Dopants, and Impurity-Paired Point Defects
-  - _Keywords:_ sprocess, pdbGet, KMC, Point, Defects, D0alphaSi, D0alphaGe, Impurities
 - **Alloy Effects** <a id="alloy-effects"></a>
-  - The following sections discuss alloy effects on point defects, impurities, dopants, and impuritypaired point defects. In the next sections, Ge in silicon is used as an example for these models.
-  - _Keywords:_ defects, discuss, effects, impurities, dopants, impuritypaired, silicon, models
+  - The following sections discuss alloy effects on point defects, impurities, dopants, and impuritypaired point defects. In the next sections,…
 - **Migration and Formation Energies** <a id="migration-and-formation-energies"></a>
-  - The corrections $\Delta E _ { m } = \alpha _ { m } [ \mathrm { G e } ]$ and $\Delta E _ { f } = \alpha _ { f } [ \mathrm { G e } ]$ are added to the migration and the formation energies, respectively. is the germanium concentration, and ...
-  - _Keywords:_ Delta, mathrm, migration, formation, energies, concentration, corrections, respectively
+  - The corrections $\Delta E _ { m } = \alpha _ { m } [ \mathrm { G e } ]$ and $\Delta E _ { f } = \alpha _ { f } [ \mathrm { G e } ]$ are add…
 - **Binding Energy** <a id="binding-energy"></a>
   - The binding energy of an impurity-paired point defect $A _ { i }$ is corrected by:
-  - _Keywords:_ alpha_, binding, energy, impurity, paired, defect, corrected, Delta
 - **Bandgap Narrowing** <a id="bandgap-narrowing"></a>
   - The Ge inclusion changes the band gap as explained in Bandgap Narrowing on page 502.
-  - _Keywords:_ inclusion, changes, explained, Bandgap, Narrowing
 - **Parameter Interpolation in Alloys** <a id="parameter-interpolation-in-alloys"></a>
-  - You can interpolate relevant parameters from the base materials. For example, parameters in SiGe will be interpolated from their respective values in Silicon and Germanium. Most Double and DoubleArray type parameters are interpolated, bu...
-  - _Keywords:_ interpolation, interpolated, SiGe, Silicon, switched, linear, materials, Germanium
+  - You can interpolate relevant parameters from the base materials. For example, parameters in SiGe will be interpolated from their respective…
 - **Alloy Condensation at Growing Interface** <a id="alloy-condensation-at-growing-interface"></a>
-  - You can simulate alloy condensation or pileup at interfaces. The physical mechanism implemented is similar to snow plowing dopants during silicidation. The parameters Pref.GrowthDeposit and Ener.GrowthDeposit allow you to control the red...
-  - _Keywords:_ GrowthDeposit, Pref, Ener, growing, sprocess, pdbGet, Oxide_Silicon, KMC
+  - You can simulate alloy condensation or pileup at interfaces. The physical mechanism implemented is similar to snow plowing dopants during s…
 - **Introducing Alloys in Simulations** <a id="introducing-alloys-in-simulations"></a>
   - Alloys can be introduced into simulations by:
-  - _Keywords:_ Alloys, introduced, simulations, implantation, select, Atomizing, previous, continuum
 - **Damage Accumulation Model: Amorphous Pockets** <a id="damage-accumulation-model-amorphous-pockets"></a>
-  - Damage accumulation evolution, that is, the evolution of small interstitial and vacancy clusters after ion implantations, is a crucial step that affects the subsequent formation of extended defects and impurity clusters. This accumulatio...
-  - _Keywords:_ APs, defects, accumulation, clusters, disordered, internal, recombination, annealing
+  - Damage accumulation evolution, that is, the evolution of small interstitial and vacancy clusters after ion implantations, is a crucial step…
 - **Shape of Amorphous Pockets** <a id="shape-of-amorphous-pockets"></a>
-  - APs have an irregular shape. Sentaurus Process KMC does not reshape the defect as new; incoming particles join the AP: particles are left in their incoming positions. Figure 37 shows some APs resulting from an implanted cascade.
-  - _Keywords:_ APs, Sentaurus, Process, KMC, incoming, particles, implanted, details
+  - APs have an irregular shape. Sentaurus Process KMC does not reshape the defect as new; incoming particles join the AP: particles are left i…
 - **Growth of Amorphous Pockets** <a id="growth-of-amorphous-pockets"></a>
-  - APs capture any incoming point defect (I or V) within their capture radius. The capture radius of APs is the sum of all their constituent particles. Point defects with any charge state are captured by APs containing both Is and Vs. Only ...
-  - _Keywords:_ APs, capture, radius, captured, incoming, defect, within, constituent
+  - APs capture any incoming point defect (I or V) within their capture radius. The capture radius of APs is the sum of all their constituent p…
 - **Recombination** <a id="recombination"></a>
-  - APs containing IV pairs (that is, APs with both interstitials and vacancies) can recombine pairs using a recombination event, which recombines one I with one V at a time. This event is performed with a frequency given by:
-  - _Keywords:_ specified, AmorphousPocket, APs, recombination, Delta, called, cluster, procedure
+  - APs containing IV pairs (that is, APs with both interstitials and vacancies) can recombine pairs using a recombination event, which recombi…
 - **Parameters** <a id="parameters"></a>
   - The parameters needed by the damage accumulation model are specified using:
-  - _Keywords:_ Damage, AmorphousPocket, KMC, mathrm, sprocess, pdbGet, Silicon, damage
 - **Emission** <a id="emission"></a>
-  - When all IV pairs have been recombined, APs behave as small I or V clusters, allowing the emission of their extra constituent particles. These defects emit neutral Is or Vs particles with a frequency given by:
-  - _Keywords:_ cluster, binding, Cluster, energy, Delta, details, summary, energies
+  - When all IV pairs have been recombined, APs behave as small I or V clusters, allowing the emission of their extra constituent particles. Th…
 - **Parameters** <a id="parameters"></a>
-  - The parameters for Is and Vs emission are specified only for the silicon material. They can be found in the interstitial and vacancy files included in the parameter database.
-  - _Keywords:_ emission, specified, silicon, material, interstitial, vacancy, included, database
+  - The parameters for Is and Vs emission are specified only for the silicon material. They can be found in the interstitial and vacancy files…
 - **Prefactors** <a id="prefactors"></a>
   - ```txt sprocess> pdbGet Si KMC I D0.Cluster 150.0 sprocess> pdbGet Si KMC V D0.Cluster 10 ```
-  - _Keywords:_ sprocess, pdbGet, KMC, Cluster
 - **Energies** <a id="energies"></a>
-  - ```txt sprocess> pdbGet Si KMC I Eb.Cluster I2 2.45 I3 2.45 (...) I13 2.853 I103 2.889 sprocess> pdbGet Si KMC V Eb.Cluster V2 1.4 V3 1.4 V4 2.4 (...) ```
-  - _Keywords:_ sprocess, pdbGet, KMC, Cluster, Silicon, I13, I103, specified
+  - For sizes between specified sizes (for example, I14 to I102), the parameters are computed as linear interpolations of the specified values:
 - **Amorphous Pockets Life Cycle** <a id="amorphous-pockets-life-cycle"></a>
-  - Whenever two point defects (I + I, V + V, or I + V) interact with each other, an AP is generated. When the AP is formed, subsequent incoming Is or Vs are captured and added to the AP. If the AP contains at least one IV pair, the AP recom...
-  - _Keywords:_ recombination, defects, APs, threshold, energy, enabled, specified, Min
+  - Whenever two point defects (I + I, V + V, or I + V) interact with each other, an AP is generated. When the AP is formed, subsequent incomin…
 - **Parameters** <a id="parameters"></a>
   - Minimum sizes for the transitions:
-  - _Keywords:_ sprocess, pdbGet, KMC, Damage, Min, Size, Void, Minimum
 - **Interactions of Amorphous Pockets** <a id="interactions-of-amorphous-pockets"></a>
-  - To change the default AP interactions, use the parameters ReactionsClusterI, ReactionsClusterV, and ReactionsClusterIV. These parameters control the reactions between APs containing only interstitials, only vacancies, or both. APs can re...
-  - _Keywords:_ APs, change, interactions, ReactionsClusterI, ReactionsClusterV, ReactionsClusterIV, These, control
+  - To change the default AP interactions, use the parameters ReactionsClusterI, ReactionsClusterV, and ReactionsClusterIV. These parameters co…
 - **Interaction With Point Defects: I and V** <a id="interaction-with-point-defects-i-and-v"></a>
   - To customize AP reactions, change the parameters defined for I, V, and IV clusters using the command:
-  - _Keywords:_ clusters, pdbSet, KMC, Damage, disables, customize, reactions, change
 - **Parameters** <a id="parameters"></a>
-  - Small interstitial and vacancy clusters can react with neutral interstitials and vacancies. Charged interstitials or vacancies are not allowed due to microscopic reversibility reasons:
-  - _Keywords:_ interstitials, vacancies, sprocess, pdbGet, KMC, Damage, microscopic, reversibility
+  - Small interstitial and vacancy clusters can react with neutral interstitials and vacancies. Charged interstitials or vacancies are not allo…
 - **Interaction With Impurities** <a id="interaction-with-impurities"></a>
-  - APs do not trap impurities but can interact with them. In this interaction, impurities can lose a point defect, becoming substitutional (for example, $\mathbf { B } _ { i } + I _ { 2 } V _ { 3 } \mathbf { B } + I _ { 3 } V _ { 3 } )$ or ...
-  - _Keywords:_ mathbf, clusters, impurities, APs, interaction, impurity, pdbSet, KMC
+  - APs do not trap impurities but can interact with them. In this interaction, impurities can lose a point defect, becoming substitutional (fo…
 - **Parameters** <a id="parameters"></a>
   - The reactions between boron (for example) and mixed clusters can be displayed with:
-  - _Keywords:_ BI2, reactions, between, clusters, sprocess, pdbGet, KMC, BiM
 - **Extended Defects** <a id="extended-defects"></a>
-  - Small clusters are defined as immobile agglomerations of interstitials or vacancies, and are modeled using AP defects. When the number of Is or Vs in these clusters grows above a specified threshold, the small clusters are converted into...
-  - _Keywords:_ clusters, defects, Small, defined, immobile, agglomerations, interstitials, vacancies
+  - Small clusters are defined as immobile agglomerations of interstitials or vacancies, and are modeled using AP defects. When the number of I…
 - **{311} Defects (ThreeOneOne)** <a id="311-defects-threeoneone"></a>
-  - The {311} rod-like defects are associated with TED [13]. Consequently, they need a realistic simulation, in both shape and energetic values. Its shape is like rectangular stripes of interstitials lying on a {311} plane along a <110> dire...
-  - _Keywords:_ defects, associated, TED, Consequently, realistic, simulation, energetic, Its
+  - The {311} rod-like defects are associated with TED [13]. Consequently, they need a realistic simulation, in both shape and energetic values…
 - **Shape of {311} Defects** <a id="shape-of-311-defects"></a>
-  - Sentaurus Process KMC models {311} defects as parallel stripes (rows) of I particles lying in one of the twelve orientations, randomly chosen, of a {311} plane. The {311} shape is modeled as $\Nu _ { \mathrm { r } }$ rows of Is lying on ...
-  - _Keywords:_ defects, between, threshold, particles, mathrm, dislocation, parallel, stripes
+  - Sentaurus Process KMC models {311} defects as parallel stripes (rows) of I particles lying in one of the twelve orientations, randomly chos…
 - **Parameters** <a id="parameters"></a>
   - The parameters to control the transformation between {311} defects and dislocation loops are specified for interstitials in silicon:
-  - _Keywords:_ dislocation, sprocess, pdbGet, KMC, Loop, control, transformation, between
 - **Capture** <a id="capture"></a>
-  - Each time a neutral I point defect interacts with an I belonging to a {311} defect, the {311} captures the point defect. Since {311} defects grow and shrink at their ends, the new particle is attached at the nearest end of the defect. Wh...
-  - _Keywords:_ defect, neutral, impurities, trapped, captured, emitted, interacts, belonging
+  - Each time a neutral I point defect interacts with an I belonging to a {311} defect, the {311} captures the point defect. Since {311} defect…
 - **Emission** <a id="emission"></a>
-  - To preserve microscopic reversibility between the capture and the emission processes, emitted particles (neutral interstitials) are taken randomly from one of the two ends and released from a random point at the {311} surface (see Figure...
-  - _Keywords:_ stroke, defects, emission, APs, energies, details, summary, Recombination
+  - To preserve microscopic reversibility between the capture and the emission processes, emitted particles (neutral interstitials) are taken r…
 - **Parameters** <a id="parameters"></a>
   - For impurity re-emission, the parameters are:
-  - _Keywords:_ sprocess, pdbGet, KMC, impurity, emission
 - **Recombination** <a id="recombination"></a>
-  - The {311} defects recombine incoming Vs with any charge by annihilating the Is at the nearest {311} defect end. When {311} defects dissolve, they do not become APs when the AP–{311} threshold size is reached. The emission frequency depen...
-  - _Keywords:_ defects, defect, binding, energy, capture, volume, emission, frequency
+  - The {311} defects recombine incoming Vs with any charge by annihilating the Is at the nearest {311} defect end. When {311} defects dissolve…
 - **Interactions** <a id="interactions"></a>
   - Interactions between {311} defects and mobile particles can be modified with:
-  - _Keywords:_ defects, reactions, dopants, dopant, recombination, paired, mathbf, captured
 - **Parameters** <a id="parameters"></a>
   - Use the following for growth and recombination:
-  - _Keywords:_ KMC, sprocess, pdbGet, Dopant, Model, Reactions311, define, dopant
 - **Dislocation Loops** <a id="dislocation-loops"></a>
-  - Dislocation loops are planar defects lying on {111} planes [18]. A dislocation loop can be either a faulted dislocation loop (FDL) or perfect dislocation loop (PDL). FDLs are circular stacking faults surrounded by a dislocation line. PDL...
-  - _Keywords:_ dislocation, defects, Dislocation, planar, planes, either, faulted, FDL
+  - Dislocation loops are planar defects lying on {111} planes [18]. A dislocation loop can be either a faulted dislocation loop (FDL) or perfe…
 - **Shape of Dislocation Loops** <a id="shape-of-dislocation-loops"></a>
-  - The shape of dislocation loops is computed as a filled circle in a {111} orientation (see Figure 42). All {111} orientations are allowed, and one is randomly chosen.
-  - _Keywords:_ dislocation, details, summary, computed, filled, circle, orientation, orientations
+  - The shape of dislocation loops is computed as a filled circle in a {111} orientation (see Figure 42). All {111} orientations are allowed, a…
 - **Capture** <a id="capture"></a>
-  - Dislocation loops capture any incoming neutral interstitial. The original position is lost, and the particle is moved to the proper position in the disk. The capture radius is the sum of the capture radius of the constituent particles.
-  - _Keywords:_ capture, impurity, incoming, position, radius, Loop, Dopant, Model
+  - Dislocation loops capture any incoming neutral interstitial. The original position is lost, and the particle is moved to the proper positio…
 - **Emission** <a id="emission"></a>
   - Dislocation loops emit neutral interstitials with a frequency given by:
-  - _Keywords:_ mathrm, Delta, Loop, called, energy, prefactor, dislocation, binding
 - **Parameters** <a id="parameters"></a>
   - The parameters needed for the simulation of dislocation loops are defined for interstitials in silicon:
-  - _Keywords:_ sprocess, pdbGet, KMC, Loop, stroke, dislocation, interstitials, details
 - **Interactions** <a id="interactions"></a>
   - The interactions between dislocation loops and mobile particles are:
-  - _Keywords:_ KMC, dopant, pdbSet, Loop, Dopant, Model, reactions, ReactionsLoop
 - **Parameters** <a id="parameters"></a>
   - Loops trap interstitials, but the recombination of vacancies is disabled:
-  - _Keywords:_ sprocess, pdbGet, KMC, ReactionsLoop, Loops, interstitials, recombination, vacancies
 - **Voids** <a id="voids"></a>
-  - Small vacancy defects have been reported (using paramagnetic resonance and photoluminescence) [20][21][22][23]. Theoretical studies [24][25] indicate that some of these small clusters can be particularly stable. Sentaurus Process KMC mod...
-  - _Keywords:_ clusters, binding, studies, energies, molecular, details, summary, spherical
+  - Small vacancy defects have been reported (using paramagnetic resonance and photoluminescence) [20][21][22][23]. Theoretical studies [24][25…
 - **Shape** <a id="shape"></a>
-  - The threshold size between irregular small vacancy clusters (APs) and voids is specified with the parameter Min.Void.Size. Another parameter, Max.Void.Diam, is used to set up the maximum-allowed diameter (in nanometers) for these defects.
-  - _Keywords:_ clusters, Void, correct, volume, cluster, threshold, between, irregular
+  - The threshold size between irregular small vacancy clusters (APs) and voids is specified with the parameter Min.Void.Size. Another paramete…
 - **Parameters** <a id="parameters"></a>
   - The parameters for voids are specified for silicon material and vacancy as species:
-  - _Keywords:_ sprocess, pdbGet, KMC, specified, silicon, material, vacancy, species
 - **Capture** <a id="capture"></a>
-  - Voids capture neutral vacancies, rearranging them to have a spheroidal shape. Figure 45 shows the possible interactions between voids and point defects.
-  - _Keywords:_ vacancies, Voids, neutral, details, summary, capture, rearranging, spheroidal
+  - Voids capture neutral vacancies, rearranging them to have a spheroidal shape. Figure 45 shows the possible interactions between voids and p…
 - **Emission** <a id="emission"></a>
   - Voids emit neutral vacancies with a frequency:
-  - _Keywords:_ Delta, binding, energy, vacancies, energies, vacancy, cluster, migration
 - **Recombination** <a id="recombination"></a>
   - Voids recombine incoming interstitials with any charge.
-  - _Keywords:_ Voids, recombine, incoming, interstitials, charge
 - **Interactions** <a id="interactions"></a>
   - Interactions between void defects and other particles fall into these categories:
-  - _Keywords:_ pdbSet, KMC, ReactionsVoid, impurity, mathbf, Interactions, between, defects
 - **Parameters** <a id="parameters"></a>
   - Voids trap vacancies and recombine interstitials:
-  - _Keywords:_ sprocess, pdbGet, KMC, ReactionsVoid, Voids, vacancies, recombine, interstitials
 - **Amorphization and Recrystallization** <a id="amorphization-and-recrystallization"></a>
-  - A predictive atomistic process simulator must include an amorphization model. Nevertheless, accounting for each particle and position during the amorphization, although possible [28], is not convenient for the sizes, times, and computer ...
-  - _Keywords:_ concentration, amorphous, damage, threshold, atomistic, amorphization, particle, Amorph
+  - A predictive atomistic process simulator must include an amorphization model. Nevertheless, accounting for each particle and position durin…
 - **Amorphous Defects** <a id="amorphous-defects"></a>
-  - An amorphous defect is a special defect assigned to each grid element of Sentaurus Process KMC with a damage level above the amorphization threshold.
-  - _Keywords:_ defect, amorphous, special, assigned, element, Sentaurus, Process, KMC
+  - An amorphous defect is a special defect assigned to each grid element of Sentaurus Process KMC with a damage level above the amorphization…
 - **Material** <a id="material"></a>
   - Amorphous defects are always associated with amorphous materials. Each amorphous internal element is paired with an amorphous defect.
-  - _Keywords:_ amorphous, Amorphous, defects, always, associated, materials, internal, element
 - **Shape** <a id="shape"></a>
-  - The shape of an amorphous defect coincides with the element containing it. Amorphous layers are created as a set of several amorphous defects. Consequently, amorphous layers can follow any complicated amorphous geometry, but always as a ...
-  - _Keywords:_ amorphous, layers, defect, coincides, element, containing, Amorphous, created
+  - The shape of an amorphous defect coincides with the element containing it. Amorphous layers are created as a set of several amorphous defec…
 - **Growth** <a id="growth"></a>
-  - Amorphous defects do not grow because they are limited to the size of the element. Amorphous layers grow when new elements are amorphized and become amorphous. These amorphous elements capture any incoming particle.
-  - _Keywords:_ Amorphous, elements, amorphous, defects, because, limited, element, layers
+  - Amorphous defects do not grow because they are limited to the size of the element. Amorphous layers grow when new elements are amorphized a…
 - **Recombination** <a id="recombination"></a>
-  - These defects can recombine their damage and become crystalline silicon. Amorphous defects do not emit particles; recrystallization is the only event they can perform.
-  - _Keywords:_ defects, These, recombine, damage, become, crystalline, silicon, Amorphous
+  - These defects can recombine their damage and become crystalline silicon. Amorphous defects do not emit particles; recrystallization is the…
 - **Diffusion in Amorphous Materials** <a id="diffusion-in-amorphous-materials"></a>
   - Two models are available for diffusion in amorphous materials:
-  - _Keywords:_ diffusion, material, Two, models, available, amorphous, materials, simple
 - **Direct Diffusion Model** <a id="direct-diffusion-model"></a>
   - Dopants can diffuse in amorphous materials using direct diffusion. The implemented diffusivity is:
-  - _Keywords:_ amorphous, pdbSet, KMC, AmorphousSilicon, materials, diffusion, material, dopant
 - **Indirect Diffusion Model** <a id="indirect-diffusion-model"></a>
-  - The observed boron diffusion in amorphous silicon does not seem to obey a standard Fick’s law with constant diffusivity prefactors and activation energy, thereby making the direct diffusion model in amorphous silicon inaccurate. A differ...
-  - _Keywords:_ mathrm, dangling, floating, amorphous, silicon, coordinated, diffusion, threefold
+  - The observed boron diffusion in amorphous silicon does not seem to obey a standard Fick’s law with constant diffusivity prefactors and acti…
 - **Implementation** <a id="implementation"></a>
-  - To minimize the number of species and physical mechanisms, the implementation of indirect diffusion through dangling bonds and FBs has been done by renaming:
-  - _Keywords:_ amorphous, silicon, minimize, species, physical, mechanisms, implementation, indirect
+  - To minimize the number of species and physical mechanisms, the implementation of indirect diffusion through dangling bonds and FBs has been…
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Amorphization and Recrystallization
-  - _Keywords:_ mathrm, silicon, amorphous, modeled, through, Delta, inside, introduced
 - **Parameters** <a id="parameters"></a>
-  - The parameters needed for this model are introduced in different places. If you want to model the indirect diffusion of boron in amorphous silicon (other impurities or amorphous materials are accepted also), you can use aSi as an alias f...
-  - _Keywords:_ KMC, rowspan, diffusion, amorphous, silicon, indirect, B_3, dangling
+  - The parameters needed for this model are introduced in different places. If you want to model the indirect diffusion of boron in amorphous…
 - **Impurity Clusters in Amorphous Materials** <a id="impurity-clusters-in-amorphous-materials"></a>
-  - Impurities diffusing in amorphous materials can interact with each other and can form impurity clusters. In contrast with impurity clusters in crystalline volumes, amorphous impurity clusters do not contain interstitials or vacancies, an...
-  - _Keywords:_ impurity, clusters, amorphous, impurities, Impurities, diffusing, materials, interact
+  - Impurities diffusing in amorphous materials can interact with each other and can form impurity clusters. In contrast with impurity clusters…
 - **Recrystallization** <a id="recrystallization"></a>
   - Different recrystallization models are implemented:
-  - _Keywords:_ recrystallization, models, KMC, amorphous, SPER, Different, implemented, One
 - **where:** <a id="where"></a>
   - <material> is the crystalline material (typically, silicon). <model> is one of the following:
-  - _Keywords:_ LKMC, material, KMC, Planes, crystal, crystalline, typically, silicon
 - **KMC: Simple Solid Phase Epitaxial Regrowth** <a id="kmc-simple-solid-phase-epitaxial-regrowth"></a>
-  - Recrystallization is implemented as a special event performed by the amorphous defects. At a given temperature, every amorphous defect can recombine all its internal damage, in other words, recrystallize, with a frequency $\mathbf { v } ...
-  - _Keywords:_ amorphous, recrystallization, details, summary, Recryst, concentration, impurity, neighbors
+  - Recrystallization is implemented as a special event performed by the amorphous defects. At a given temperature, every amorphous defect can…
 - **Parameters** <a id="parameters"></a>
   - The parameters for the recrystallization model are:
-  - _Keywords:_ sprocess, pdbGet, KMC, Recryst, Damage, specified, recrystallization, unspecified
 - **LKMC: Fully Atomistic Modeling of Solid Phase Epitaxial Regrowth** <a id="lkmc-fully-atomistic-modeling-of-solid-phase-epitaxial-regro"></a>
-  - It is well known that the SPER velocity depends on the substrate orientation with approximate ratios of 20:10:1 for orientations (100), (110), and (111), respectively. For orientation (100), two different recrystallization frequencies ha...
-  - _Keywords:_ crystalline, SPER, lattice, amorphous, recrystallization, mathrm, interface, silicon
+  - It is well known that the SPER velocity depends on the substrate orientation with approximate ratios of 20:10:1 for orientations (100), (11…
 - **Stress Correction** <a id="stress-correction"></a>
-  - Stress correction for the calculation of recrystallization frequencies has been adopted from [34]. This stress correction is applied when you set KMC Stress 1. The recrystallization frequency on stress becomes:
-  - _Keywords:_ parallel, stress, strain, tensor, components, Stress, correction, recrystallization
+  - Stress correction for the calculation of recrystallization frequencies has been adopted from [34]. This stress correction is applied when y…
 - **Shear-Strain Correction** <a id="shear-strain-correction"></a>
-  - The correction for shear strain, $( \left. \mathfrak { E } _ { x y } \right. + \left. \mathfrak { E } _ { x z } \right. + \left. \mathfrak { E } _ { y z } \right. ) \lambda$ , is unique to this model. Its inclusion allows the LKMC models...
-  - _Keywords:_ KMC, Damage, SPER, prefactor, amorphous, strain, Recryst, LKMC
+  - The correction for shear strain, $( \left. \mathfrak { E } _ { x y } \right. + \left. \mathfrak { E } _ { x z } \right. + \left. \mathfrak…
 - **Defect Generation During SPER** <a id="defect-generation-during-sper"></a>
-  - It is known that when (111) planes have formed in a simulation, the recrystallization beyond these planes is defective, and silicon of low quality, or even polysilicon, is formed. In the LKMC or Planes model, a simple predictive model fo...
-  - _Keywords:_ planes, formed, Planes, simulation, recrystallization, beyond, defective, silicon
+  - It is known that when (111) planes have formed in a simulation, the recrystallization beyond these planes is defective, and silicon of low…
 - **LKMC Model or Planes Model** <a id="lkmc-model-or-planes-model"></a>
-  - Such modeling is performed by assigning two tags after every recrystallization event in the lattice: a normal tag for sites sharing the substrate configuration, and a defective tag for sites assumed not to bond to their neighbors and tha...
-  - _Keywords:_ defective, defects, silicon, SPER, formation, details, summary, probability
+  - Such modeling is performed by assigning two tags after every recrystallization event in the lattice: a normal tag for sites sharing the sub…
 - **Coordinations.Planes Model** <a id="coordinations-planes-model"></a>
-  - The Coordinations.Planes model allows crystal twinning along <111> directions and, therefore, the formation of low-quality crystalline silicon. To enable twinning along <111> directions, you should also set:
-  - _Keywords:_ crystallized, directions, SPER, twinned, twinning, crystalline, defect, probability
+  - The Coordinations.Planes model allows crystal twinning along <111> directions and, therefore, the formation of low-quality crystalline sili…
 - **Redistributing Damage** <a id="redistributing-damage"></a>
-  - The recrystallization event forces all IV pairs inside an amorphous defect to recombine. The I or V excess is redistributed to the neighboring amorphous boxes if any. Otherwise, the excess is recombined at the surface. If there are no fr...
-  - _Keywords:_ defects, amorphous, excess, recrystallization, neighboring, surface, forces, inside
+  - The recrystallization event forces all IV pairs inside an amorphous defect to recombine. The I or V excess is redistributed to the neighbor…
 - **Parameters** <a id="parameters"></a>
-  - The parameter Deposit.Excess.Damage controls whether to redistribute the excess or to discard it. In simulations with buried amorphous layers, setting this parameter to true is suggested:
-  - _Keywords:_ Damage, Deposit, Excess, controls, whether, redistribute, excess, discard
+  - The parameter Deposit.Excess.Damage controls whether to redistribute the excess or to discard it. In simulations with buried amorphous laye…
 - **Impurity Sweep/Deposit** <a id="impurity-sweep-deposit"></a>
-  - The recrystallization process might affect the impurity concentration. The recrystallization front moves indium and other dopants away, changing the concentration profiles [39][40]. To model this effect, the amorphous defects transfer im...
-  - _Keywords:_ Recryst, Max, recrystallization, Active, concentration, dopant, Deposit, particle
+  - The recrystallization process might affect the impurity concentration. The recrystallization front moves indium and other dopants away, cha…
 - **Parameters** <a id="parameters"></a>
   - The recrystallization parameters for dopants can be obtained as:
-  - _Keywords:_ sprocess, pdbGet, KMC, Recryst, Max, Deposit, RecrystDeposit, Active
 - **Laser Anneal in Kinetic Monte Carlo** <a id="laser-anneal-in-kinetic-monte-carlo"></a>
-  - Simulating a laser anneal process is a crucial step in understanding the evolution of implantation damage and dopant activation during a semiconductor manufacturing process. Understanding such damage evolution and dopant diffusion with a...
-  - _Keywords:_ KMC, material, liquid, LiquidDeposit, dopant, damage, continuum, equations
+  - Simulating a laser anneal process is a crucial step in understanding the evolution of implantation damage and dopant activation during a se…
 - **Impurity Clusters** <a id="impurity-clusters"></a>
-  - At certain concentrations, dopants are electrically inactive in crystalline silicon [7]. At the same time, high I concentration can make a fraction of boron electrically inactive even when its concentration is below its solubility [41]. ...
-  - _Keywords:_ clusters, mathrm, impurity, cluster, dopant, amorphous, materials, Consequently
+  - At certain concentrations, dopants are electrically inactive in crystalline silicon [7]. At the same time, high I concentration can make a…
 - **Shape of Impurity Clusters** <a id="shape-of-impurity-clusters"></a>
-  - An impurity cluster is an irregular agglomeration of impurities $( \mathbf { A } , \mathbf { B } , \ldots )$ with or without interstitials and vacancies (X) that can be written as $\mathbf { A _ { n } B _ { o } . . . X _ { m } }$ , with ...
-  - _Keywords:_ impurity, interstitial, mathbf, Sentaurus, Process, KMC, mathrm, vacancy
+  - An impurity cluster is an irregular agglomeration of impurities $( \mathbf { A } , \mathbf { B } , \ldots )$ with or without interstitials…
 - **Diffusion of Impurity Clusters** <a id="diffusion-of-impurity-clusters"></a>
-  - A diffusion mechanism is available for impurity clusters, in which impurity clusters can perform migration hops similar to the ones performed by point defects, impurities, and dopants. An impurity cluster migration event involves all its...
-  - _Keywords:_ impurity, migration, cluster, clusters, mathrm, diffusion, mechanism, available
+  - A diffusion mechanism is available for impurity clusters, in which impurity clusters can perform migration hops similar to the ones perform…
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Impurity Clusters
-  - _Keywords:_ Complex, sprocess, pdbGet, KMC, As2V, Impurity, Clusters, These
 - **Limitations of Diffusion** <a id="limitations-of-diffusion"></a>
-  - The migration events for impurity clusters, although similar to the ones for single particles, do not share all their features. In particular, the following limitations apply:
-  - _Keywords:_ impurity, migration, clusters, diffusivity, defects, interfaces, mathrm, conditions
+  - The migration events for impurity clusters, although similar to the ones for single particles, do not share all their features. In particul…
 - **Growth of Impurity Clusters** <a id="growth-of-impurity-clusters"></a>
   - Impurity clusters grow trapping neutral mobile particles (see Figure 54).
-  - _Keywords:_ mathrm, energy, Complex, cluster, impurity, dopants, binding, clusters
 - **Initial Seeds** <a id="initial-seeds"></a>
-  - The clusters $A _ { 2 } I , A I _ { 2 } , A _ { 2 } I _ { 2 }$ , and $A _ { 2 }$ are the initial seeds for the impurity cluster ripening. The formation of $A _ { 2 }$ is discussed in Percolation on page 479. The others are formed by the ...
-  - _Keywords:_ initial, impurity, cluster, reaction, clusters, ripening, formation, discussed
+  - The clusters $A _ { 2 } I , A I _ { 2 } , A _ { 2 } I _ { 2 }$ , and $A _ { 2 }$ are the initial seeds for the impurity cluster ripening. T…
 - **Percolation** <a id="percolation"></a>
-  - Some dopants deactivate without visible diffusion when they are in high concentrations [44]. They also can form impurity clusters [45]. Sentaurus Process KMC models this deactivation allowing the substitutional dopants to interact with i...
-  - _Keywords:_ mathrm, reaction, dopants, impurity, clusters, substitutional, arsenic, enough
+  - Some dopants deactivate without visible diffusion when they are in high concentrations [44]. They also can form impurity clusters [45]. Sen…
 - **Parameters** <a id="parameters"></a>
-  - The potential and binding energies for impurity clusters are defined only in materials defined using the full and simple models, including amorphous. They are defined in arrays whose index is the cluster name. For example, for F clusters:
-  - _Keywords:_ defined, clusters, potential, binding, energies, impurity, materials, simple
+  - The potential and binding energies for impurity clusters are defined only in materials defined using the full and simple models, including…
 - **4: Atomistic Kinetic Monte Carlo Diffusion Impurity Clusters** <a id="4-atomistic-kinetic-monte-carlo-diffusion-impurity-clusters"></a>
-  - <table><tr><td>F2</td><td>-0.5</td><td>F2V</td><td>-4.63</td><td>F2V2</td><td>-7.07</td></tr><tr><td>F3</td><td>-1</td><td>F3V</td><td>-7.08</td><td>F3V2</td><td>-9.04</td></tr><tr><td>F4</td><td>-1.5</td><td>F4V</td><td>-7.12</td><td>F4...
-  - _Keywords:_ KMC, mathrm, sprocess, pdbGet, Complex, impurity, clusters, particular
+  - <table><tr><td>F2</td><td>-0.5</td><td>F2V</td><td>-4.63</td><td>F2V2</td><td>-7.07</td></tr><tr><td>F3</td><td>-1</td><td>F3V</td><td>-7.0…
 - **Emission** <a id="emission"></a>
   - Impurity clusters can emit both neutral interstitials (vacancies) or mobile dopants:
-  - _Keywords:_ emission, capture, cluster, dopant, Complex, volumes, impurity, interstitial
 - **Parameters** <a id="parameters"></a>
   - The prefactor constants are:
-  - _Keywords:_ KMC, cluster, mathbf, sprocess, pdbGet, mathrm, needed, particle
 - **Recombination** <a id="recombination"></a>
   - Impurity clusters can trap incoming neutral Vs (Is) and recombine them with internal Is (Vs):
-  - _Keywords:_ capture, Impurity, recombination, clusters, incoming, neutral, recombine, internal
 - **Frank–Turnbull Mechanism** <a id="frank-turnbull-mechanism"></a>
-  - A generalized Frank–Turnbull (FT) mechanism is the emission of a neutral V (I) from an $A _ { \mathrm { n } } I _ { \mathrm { m } }$ $( A _ { \mathrm { n } } V _ { \mathrm { m } } )$ impurity cluster by the formation of a Frenkel pair (IV):
-  - _Keywords:_ stroke, emission, mechanism, mathrm, rightarrow, impurity, cluster, mathsf
+  - A generalized Frank–Turnbull (FT) mechanism is the emission of a neutral V (I) from an $A _ { \mathrm { n } } I _ { \mathrm { m } }$ $( A _…
 - **Parameters** <a id="parameters"></a>
-  - The parameters used are the same as in Growth of Impurity Clusters on page 477. The potential energies for interstitial and vacancies are specified for the material as Ef:
-  - _Keywords:_ KMC, mathrm, sprocess, pdbGet, pdbSet, Cluster, AsP, specified
+  - The parameters used are the same as in Growth of Impurity Clusters on page 477. The potential energies for interstitial and vacancies are s…
 - **Complementary Recombination** <a id="complementary-recombination"></a>
-  - Some impurities diffuse using both interstitial and vacancy mechanisms. For these cases, the impurity clusters can react with both of them. For example, an $A _ { \mathrm { n } } V _ { \mathrm { m } }$ impurity cluster can grow trapping ...
-  - _Keywords:_ capture, mathrm, vacancy, impurity, trapping, mathbf, internal, Some
+  - Some impurities diffuse using both interstitial and vacancy mechanisms. For these cases, the impurity clusters can react with both of them.…
 - **Parameters** <a id="parameters"></a>
-  - The parameters used are the same as in Frank–Turnbull Mechanism on page 483. The potential energy for the paired dopant is the binding energy of the pair corrected with the Fermi-level dependency.
-  - _Keywords:_ energy, Frank, Turnbull, Mechanism, potential, paired, dopant, binding
+  - The parameters used are the same as in Frank–Turnbull Mechanism on page 483. The potential energy for the paired dopant is the binding ener…
 - **Complementary Emission** <a id="complementary-emission"></a>
   - To maintain microscopic reversibility, the reverse reaction to complementary recombination must be defined (see Figure 56).
-  - _Keywords:_ stroke, emission, complementary, details, summary, equation, rightarrow, frequency
 - **Parameters** <a id="parameters"></a>
   - The parameters used are the same as in Recombination on page 482.
-  - _Keywords:_ mathrm, impurity, mathbf, clusters, prefactor, Recombination, simple, emission
 - **Charge Dependency** <a id="charge-dependency"></a>
 - **Neutral Reactions** <a id="neutral-reactions"></a>
-  - In previous discussions, all the impurity clusters are assumed to be neutral and, consequently, there are no explicit charge Fermi-level dependencies. Nevertheless, there are nonexplicit dependencies. In particular, for clusters emitting...
-  - _Keywords:_ Fermi, dependencies, paired, dependency, previous, impurity, clusters, neutral
+  - In previous discussions, all the impurity clusters are assumed to be neutral and, consequently, there are no explicit charge Fermi-level de…
 - **Nonneutral Reactions** <a id="nonneutral-reactions"></a>
   - Assume the following reaction:
-  - _Keywords:_ Rightarrow, reaction, ground, cluster, Assume, rightarrow, potential, energy
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Impurity Clusters
-  - _Keywords:_ Rightarrow, energy, emitted, binding, emission, charge, particle, allows
 - **Interactions of Impurity Cluster Model** <a id="interactions-of-impurity-cluster-model"></a>
-  - You can modify all the interactions involved in the impurity cluster model. The impurity clusters can be enabled or disabled with the Boolean parameter Implement.Complex. For example, to disable the $\mathrm { F } _ { n } V _ { m }$ impu...
-  - _Keywords:_ reaction, mathrm, impurity, pdbSet, KMC, ReactionsCluster, cluster, clusters
+  - You can modify all the interactions involved in the impurity cluster model. The impurity clusters can be enabled or disabled with the Boole…
 - **Complex Impurity Clusters** <a id="complex-impurity-clusters"></a>
   - To enable impurity clusters with more than one dopant (for example, an As2PV), the switches for both the As and P clusters should be on:
-  - _Keywords:_ KMC, pdbSet, Complex, reaction, mathrm, PAs, clusters, cluster
 - **Parameters** <a id="parameters"></a>
   - To show the parameters involved in the impurity cluster reactions, arsenic is used as an example. AsV clusters are allowed:
-  - _Keywords:_ cluster, reactions, AsV, impurity, arsenic, clusters, allowed, KMC
 - **Setting Up Impurity Clusters in a Material** <a id="setting-up-impurity-clusters-in-a-material"></a>
   - To set up an impurity cluster in a material (for example, in amorphous silicon), theBn following PDB parameters must be created:
-  - _Keywords:_ KMC, cluster, Complex, pdbSetDoubleArray, impurity, PDB, Implement, emission
 - **Fermi-Level Effects: Charge Model** <a id="fermi-level-effects-charge-model"></a>
-  - Point defects (I, V) and impurity atoms (B, As) can appear in different charge states in silicon, while extended defects and impurity clusters have a fixed charge state in Sentaurus Process KMC. Impurity atoms are neutral in materials us...
-  - _Keywords:_ charge, states, defects, AsV, SbV, impurity, negative, positive
+  - Point defects (I, V) and impurity atoms (B, As) can appear in different charge states in silicon, while extended defects and impurity clust…
 - **Sentaurus Process KMC Approach** <a id="sentaurus-process-kmc-approach"></a>
-  - No charge label is defined for particles. The charge is implicitly assumed in each particular particle, and there are different particles for each charge state. This implies the necessity of defining the interactions one by one, accordin...
-  - _Keywords:_ charge, particles, particle, different, transport, magnitudes, internal, defined
+  - No charge label is defined for particles. The charge is implicitly assumed in each particular particle, and there are different particles f…
 - **Assumptions** <a id="assumptions"></a>
   - Sentaurus Process KMC takes the energy reference in the valence band. The following assumptions also are taken:
-  - _Keywords:_ mathrm, KMC, Sentaurus, Process, energy, species, energies, temperature
 - **Formation Energies for Charged Species** <a id="formation-energies-for-charged-species"></a>
   - Taking $I ^ { + }$ as an example, in the reaction:
-  - _Keywords:_ energy, interstitial, concentration, species, pdbSet, KMC, Taking, reaction
 - **Parameters** <a id="parameters"></a>
   - The bandgap levels for interstitials and vacancies can be retrieved with:
-  - _Keywords:_ sprocess, pdbGet, KMC, bandgap, levels, interstitials, vacancies, retrieved
 - **Binding Energies for Particles** <a id="binding-energies-for-particles"></a>
-  - The binding energy needed for pairing and breakup reactions is only specified for the reaction with the neutral interstitial or vacancy. For example, for boron, the binding energy is specified for the reaction $\mathbf { B } ^ { - } + \b...
-  - _Keywords:_ binding, energy, mathbf, reaction, breakup, specified, boldsymbol, mathrm
+  - The binding energy needed for pairing and breakup reactions is only specified for the reaction with the neutral interstitial or vacancy. Fo…
 - **Binding Energies for Impurity Clusters** <a id="binding-energies-for-impurity-clusters"></a>
   - For an example of how to compute the binding energy for an impurity cluster, see Nonneutral Reactions on page 487.
-  - _Keywords:_ compute, binding, energy, impurity, cluster, Nonneutral, Reactions
 - **Temperature Dependency** <a id="temperature-dependency"></a>
   - The bandgap width used in Sentaurus Process KMC is given by the expression [49]:
-  - _Keywords:_ mathrm, Sentaurus, Process, KMC, levels, intrinsic, bandgap, expression
 - **Parameters** <a id="parameters"></a>
   - The required parameters are specified in the Parameter Database under the BandGap folder:
-  - _Keywords:_ BandGap, KMC, sprocess, pdbGet, temperature, dependency, Effective, density
 - **Charge Attractions and Repulsions** <a id="charge-attractions-and-repulsions"></a>
-  - The short-range repulsions between charged particles have been implemented forbidding interactions between particles in the same charge state (except for percolation reactions; see Percolation on page 479). Long-range forces are consider...
-  - _Keywords:_ between, particles, repulsions, charged, implemented, forbidding, interactions, charge
+  - The short-range repulsions between charged particles have been implemented forbidding interactions between particles in the same charge sta…
 - **Fermi-Level Computation** <a id="fermi-level-computation"></a>
-  - Sentaurus Process KMC computes the Fermi level assuming charge neutrality and Fermi– Dirac statistics. It simply makes the number of charges in each cell element equal to the concentration of substitutional dopants and charged impurity c...
-  - _Keywords:_ concentration, charge, average, mathrm, details, summary, element, averaging
+  - Sentaurus Process KMC computes the Fermi level assuming charge neutrality and Fermi– Dirac statistics. It simply makes the number of charge…
 - **Parameters** <a id="parameters"></a>
-  - This smoothing is a default Sentaurus Process KMC feature performed by an ultrafast algorithm and is controlled only by the cutoff radius (in nanometers) specified in the Parameter Database:
-  - _Keywords:_ KMC, dopant, _concentration, quantity, devices, smoothing, Sentaurus, Process
+  - This smoothing is a default Sentaurus Process KMC feature performed by an ultrafast algorithm and is controlled only by the cutoff radius (…
 - **Updating Charge States** <a id="updating-charge-states"></a>
-  - The charge model of Sentaurus Process KMC assumes that the electronic transport and reactions are faster than the atomic transport and reactions. Therefore, it is necessary to implement mechanisms to update the charge distribution (and t...
-  - _Keywords:_ Fermi, charge, reactions, necessary, changes, electronic, transport, mechanisms
+  - The charge model of Sentaurus Process KMC assumes that the electronic transport and reactions are faster than the atomic transport and reac…
 - **Electronic Concentrations and Charge-State Ratios** <a id="electronic-concentrations-and-charge-state-ratios"></a>
-  - An update algorithm periodically reviews all the particles and updates the Fermi level and the proportions of charged particles in each element. The algorithm:
-  - _Keywords:_ algorithm, Fermi, charge, update, particles, periodically, reviews, updates
+  - An update algorithm periodically reviews all the particles and updates the Fermi level and the proportions of charged particles in each ele…
 - **Mobile Particles** <a id="mobile-particles"></a>
-  - Mobile particles see different Fermi levels when they move from one element to another. Therefore, the charge of a mobile particle needs to be updated each time it crosses the boundaries between boxes. At the same time, particles change ...
-  - _Keywords:_ charge, particles, different, mobile, particle, concentration, element, updated
+  - Mobile particles see different Fermi levels when they move from one element to another. Therefore, the charge of a mobile particle needs to…
 - **Pairing and Breakup Reactions** <a id="pairing-and-breakup-reactions"></a>
-  - After pairing or breakup reactions, some species appear and disappear in the Sentaurus Process KMC elements. To ensure that the concentration of these species maintains the correct proportions, a breakup, pairing charge update mechanism ...
-  - _Keywords:_ pairing, breakup, species, charge, After, reactions, appear, disappear
+  - After pairing or breakup reactions, some species appear and disappear in the Sentaurus Process KMC elements. To ensure that the concentrati…
 - **Parameters** <a id="parameters"></a>
-  - The charge update algorithm uses only the ChargeVarPercent parameter in the parameter database, and it accounts for the maximum relative error allowed for the Fermi-level updates. This parameter is a compromise between accuracy and effic...
-  - _Keywords:_ charge, updates, MCImplant, Charge, ChargeVarPercent, KMC, Update, Dose
+  - The charge update algorithm uses only the ChargeVarPercent parameter in the parameter database, and it accounts for the maximum relative er…
 - **Electric Drift** <a id="electric-drift"></a>
   - The charge model of Sentaurus Process KMC considers the:
-  - _Keywords:_ electric, probability, charge, Sentaurus, Process, KMC, related, forces
 - **Bandgap Narrowing** <a id="bandgap-narrowing"></a>
 - **Narrowing due to Dopant Concentration** <a id="narrowing-due-to-dopant-concentration"></a>
-  - Sentaurus Process KMC includes doping-induced energy shifts of the conduction band minimum and the valence band maximum. The narrowing of the fundamental band gap is presented as the function [50] for n-type semiconductors:
-  - _Keywords:_ Delta, narrowing, Sentaurus, Process, KMC, energy, valence, semiconductors
+  - Sentaurus Process KMC includes doping-induced energy shifts of the conduction band minimum and the valence band maximum. The narrowing of t…
 - **Parameters** <a id="parameters"></a>
-  - The parameters $A _ { c n 1 / 4 }$ and so on are extracted from [49] and are listed in the parameter database for BandGap in silicon. For the conduction band:
-  - _Keywords:_ BandGap, pdbGet, KMC, sprocess, Acn1, Acp1, Avn1, Avp1
+  - The parameters $A _ { c n 1 / 4 }$ and so on are extracted from [49] and are listed in the parameter database for BandGap in silicon. For t…
 - **Narrowing due to Strain** <a id="narrowing-due-to-strain"></a>
   - The models available for modeling the narrowing due to stress are a simple narrowing model and a full narrowing model.
-  - _Keywords:_ varepsilon_, Delta, mathrm, narrowing, simple, Narrowing, strain, models
 - **Parameters** <a id="parameters"></a>
   - The parameters used for the full model for pure Si are defined in the Sentaurus Process KMC dataset as:
-  - _Keywords:_ KMC, sprocess, pdbGet, BandGap, EcDeviatoric, EcDilatational, EvDilatational, EvDeviatoric
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Fermi-Level Effects: Charge Model
-  - _Keywords:_ sprocess, pdbGet, KMC, BandGap, EvDeviatoric, Fermi, Level, Effects
 - **Narrowing due to Presence of an Alloy** <a id="narrowing-due-to-presence-of-an-alloy"></a>
-  - There are two models to compute bandgap narrowing due to the presence of an alloy: Simple and Braunstein. The default is set to the Simple model.
-  - _Keywords:_ narrowing, Simple, Braunstein, concentration, Delta, GeNarrowing, GeNarrowing2, models
+  - There are two models to compute bandgap narrowing due to the presence of an alloy: Simple and Braunstein. The default is set to the Simple…
 - **Parameters** <a id="parameters"></a>
-  - ```txt sprocess> pdbGet Si KMC BandGap Alloy.Narrowing.Model Simple sprocess> pdbGet Si KMC BandGap GeNarrowing 6.8e-24 sprocess> pdbGet Si KMC BandGap GeNarrowing2 0 ```
-  - _Keywords:_ sprocess, pdbGet, KMC, BandGap, Simple, Alloy, Narrowing, Model
+  - ```txt sprocess> pdbGet Si KMC BandGap Alloy.Narrowing.Model Simple sprocess> pdbGet Si KMC BandGap GeNarrowing 6.8e-24 sprocess> pdbGet Si…
 - **Bandgap Narrowing Use** <a id="bandgap-narrowing-use"></a>
   - The value of $\Delta E _ { g }$ , computed as:
-  - _Keywords:_ Delta, bandgap, narrowing, correction, corrected, KMC, impurity, computed
 - **Example: Charge Model and Boron Diffusion** <a id="example-charge-model-and-boron-diffusion"></a>
-  - The known charge states of $\mathrm { B _ { i } }$ are $\mathbf { B } _ { \mathrm { i } } ^ { - } , \mathbf { B } _ { \mathrm { i } } ^ { 0 }$ , and ${ \bf B } _ { \mathrm { i } } ^ { + } [ 2 1 ] [ 2 2 ]$ . The three states are included ...
-  - _Keywords:_ mathrm, mathbf, leftrightarrow, Sentaurus, Process, KMC, charge, states
+  - The known charge states of $\mathrm { B _ { i } }$ are $\mathbf { B } _ { \mathrm { i } } ^ { - } , \mathbf { B } _ { \mathrm { i } } ^ { 0…
 - **Example: Charge Model and Arsenic Diffusion** <a id="example-charge-model-and-arsenic-diffusion"></a>
-  - A similar analysis can be performed for arsenic, which has both vacancy and interstitial contributions, related to AsV and $\mathbf { A } \mathbf { s } _ { \mathrm { i } }$ defects. The arsenic reactions are:
-  - _Keywords:_ leftrightarrow, mathrm, contributions, interstitial, mathbf, continuum, arsenic, included
+  - A similar analysis can be performed for arsenic, which has both vacancy and interstitial contributions, related to AsV and $\mathbf { A } \…
 - **Interfaces and Surfaces** <a id="interfaces-and-surfaces"></a>
-  - An interface is the extension between two regions with different materials. The silicon–oxide interface is the most common interface. Sentaurus Process KMC can model all interfaces between two different materials.
-  - _Keywords:_ interface, different, interfaces, element, between, materials, Sentaurus, Process
+  - An interface is the extension between two regions with different materials. The silicon–oxide interface is the most common interface. Senta…
 - **Interface Models** <a id="interface-models"></a>
   - The parameter Model specifies the behavior of an interface:
-  - _Keywords:_ interface, materials, simple, defects, modeling, material, particles, Model
 - **Interfaces for Self-Silicon Point Defects** <a id="interfaces-for-self-silicon-point-defects"></a>
-  - It is common to define a recombination length $L _ { r }$ as the distance from the surface needed to obtain the equilibrium concentration (see Figure 62 on page 512).
-  - _Keywords:_ concentration, length, distance, surface, equilibrium, defect, lambda, interface
+  - It is common to define a recombination length $L _ { r }$ as the distance from the surface needed to obtain the equilibrium concentration (…
 - **Capture** <a id="capture"></a>
-  - Interfaces capture neutral interstitials and vacancies with the probability set in Eq. 820. When is set to zero, the probability is set to 1, that is, a perfect sink.Lr
-  - _Keywords:_ probability, Interfaces, capture, neutral, interstitials, vacancies, perfect
+  - Interfaces capture neutral interstitials and vacancies with the probability set in Eq. 820. When is set to zero, the probability is set to…
 - **Emission** <a id="emission"></a>
-  - In [1], the point-defect (for example, interstitials) equilibrium concentration is related to the interface frequency emission prefactor and energy as:
-  - _Keywords:_ Delta, frequency, emission, lambda, mathrm, stress, defect, interstitials
+  - In [1], the point-defect (for example, interstitials) equilibrium concentration is related to the interface frequency emission prefactor an…
 - **where:** <a id="where"></a>
-  - $\mathrm { t o } \ \frac { 2 } { a ^ { 2 } } Y Z )$ the number of capture sites in the interface (proportional to its surface and equal. $D _ { 0 } F S$ is the surface emission prefactor. ■ $E _ { m }$ and $E _ { f }$ are the migration a...
-  - _Keywords:_ Delta, surface, migration, formation, emitted, interface, defects, corrections
+  - $\mathrm { t o } \ \frac { 2 } { a ^ { 2 } } Y Z )$ the number of capture sites in the interface (proportional to its surface and equal. $D…
 - **Stress** <a id="stress"></a>
-  - The presence of stress changes the migration and formation energies of interstitial and vacancies and, consequently, the emission frequency. Each interface (where, as previously stated, interface was called to the independent element fac...
-  - _Keywords:_ Delta, stress, formation, sigma_, migration, energies, emission, frequency
+  - The presence of stress changes the migration and formation energies of interstitial and vacancies and, consequently, the emission frequency…
 - **Alloys** <a id="alloys"></a>
-  - The presence of an alloy (assumed to be Ge in this example) changes the migration and the formation energy of point defects in the following way, when parameter interpolation is not switched on:
-  - _Keywords:_ mathrm, migration, formation, interpolation, switched, Delta, germanium, presence
+  - The presence of an alloy (assumed to be Ge in this example) changes the migration and the formation energy of point defects in the followin…
 - **Parameters** <a id="parameters"></a>
-  - The parameters that control the point-defect interface model can be found in the PDB by looking in the Oxide\_Silicon folder. By default, interfaces, other than the oxide–silicon interface, have their point-defect interface model set to ...
-  - _Keywords:_ sprocess, pdbGet, KMC, interface, silicon, formation, Oxide_Silicon, defect
+  - The parameters that control the point-defect interface model can be found in the PDB by looking in the Oxide\_Silicon folder. By default, i…
 - **Oxidation-Enhanced Diffusion (OED) Model** <a id="oxidation-enhanced-diffusion-oed-model"></a>
   - The current flux of I (V) across an outer surface in Sentaurus Process KMC is described in the previous model as:
-  - _Keywords:_ Injection, mathrm, injection, defect, Sentaurus, Process, prefactor, KMC
 - **Interfaces for Impurities** <a id="interfaces-for-impurities"></a>
-  - The interface model of impurities in Sentaurus Process KMC follows the three-phase segregation model. Particles can be emitted to both sides of the interface or can stay trapped at the interface. Figure 63 shows the atomistic mechanisms ...
-  - _Keywords:_ interface, impurities, trapped, details, summary, Oxide, Barrier, Silicon
+  - The interface model of impurities in Sentaurus Process KMC follows the three-phase segregation model. Particles can be emitted to both side…
 - **Simple Material Side** <a id="simple-material-side"></a>
   - The simple material side faces a material that uses the simple model. In these materials, only direct diffusion of dopants is allowed.
-  - _Keywords:_ simple, material, materials, direct, diffusion, dopants, allowed, Since
 - **Capture** <a id="capture"></a>
   - The capture probability is:
-  - _Keywords:_ trapped, probability, dopant, capture, mathrm, Barrier, barrier, energy
 - **Emission** <a id="emission"></a>
   - Interfaces emit particles to the nonsilicon side with a frequency given by:
-  - _Keywords:_ energy, emission, contains, Delta, surface, Interfaces, particles, nonsilicon
 - **Parameters** <a id="parameters"></a>
   - The energy barrier to a nonsilicon interface is introduced as EBarrier\_<mat>, where <mat> is the name of one of the sides of the interface.
-  - _Keywords:_ Surf, sprocess, pdbGet, KMC, Oxide_Silicon, energy, interface, Max
 - **Full Material Side** <a id="full-material-side"></a>
-  - The particles transporting dopants (or impurities) in materials with full modeling are not typically the dopants themselves, but impurity-paired point defects. In other words, an impurity plus an interstitial or a vacancy. When these pai...
-  - _Keywords:_ interstitial, vacancy, dopants, impurity, interface, dopant, particles, transporting
+  - The particles transporting dopants (or impurities) in materials with full modeling are not typically the dopants themselves, but impurity-p…
 - **Capture** <a id="capture"></a>
-  - Neutral (or charged, if the model Allcharges is selected) impurity-paired point defects are trapped at the surface with a probability given by:
-  - _Keywords:_ impurity, trapped, MaxTrapped, Trapped, assigned, particles, maximum, interface
+  - Neutral (or charged, if the model Allcharges is selected) impurity-paired point defects are trapped at the surface with a probability given…
 - **Emission** <a id="emission"></a>
-  - Particles are not emitted by themselves, but the interface allows particles to move to the material bulk. Point defects (interstitials and vacancies) can react with dopants trapped at the surface, forming mobile impurity-paired point def...
-  - _Keywords:_ surface, defects, binding, Delta, Particles, emitted, themselves, interface
+  - Particles are not emitted by themselves, but the interface allows particles to move to the material bulk. Point defects (interstitials and…
 - **Parameters** <a id="parameters"></a>
-  - The parameters that control the maximum number of trapped particles are discussed in Simple Material Side on page 517. The barrier energy is called EBarrier\_Silicon:
-  - _Keywords:_ sprocess, pdbGet, Oxide_Silicon, KMC, energy, EBarrier, _Silicon, Asi
+  - The parameters that control the maximum number of trapped particles are discussed in Simple Material Side on page 517. The barrier energy i…
 - **Oxidation** <a id="oxidation"></a>
-  - Sentaurus Process KMC is fully coupled with oxidation. Consequently, any oxidation conditions issued in the diffuse command of Sentaurus Process are transferred to Sentaurus Process KMC.
-  - _Keywords:_ Sentaurus, Process, KMC, oxidation, particles, details, summary, coupled
+  - Sentaurus Process KMC is fully coupled with oxidation. Consequently, any oxidation conditions issued in the diffuse command of Sentaurus Pr…
 - **Silicidation** <a id="silicidation"></a>
-  - Sentaurus Process KMC allows silicide growth by linking with the continuum silicidation model. Nickel silicide and titanium silicide are defined by default in the KMC materials list. Other silicide materials can be added by defining them...
-  - _Keywords:_ GrowthDeposit, silicide, KMC, Pref, Ener, materials, Sentaurus, Process
+  - Sentaurus Process KMC allows silicide growth by linking with the continuum silicidation model. Nickel silicide and titanium silicide are de…
 - **Including New Impurities** <a id="including-new-impurities"></a>
-  - You can customize Sentaurus Process KMC to include impurities that are not supported by default. The modifications affect the parameter database and the KMC.tcl file. Nevertheless, it is not necessary or recommended to modify the files i...
-  - _Keywords:_ KMC, Sentaurus, Process, impurity, dopant, reactions, include, clusters
+  - You can customize Sentaurus Process KMC to include impurities that are not supported by default. The modifications affect the parameter dat…
 - **Impurities Diffusing Without Pairing** <a id="impurities-diffusing-without-pairing"></a>
   - Sentaurus Process KMC allows impurities to diffuse using two different mechanisms:
-  - _Keywords:_ Sentaurus, Process, KMC, allows, impurities, diffuse, different, mechanisms
 - **Normal Diffusion** <a id="normal-diffusion"></a>
-  - For impurities with +1 or –1 charge (that is, dopants), the substitutional dopant is active, but it does not diffuse. The substitutional dopant reacts with interstitials or vacancies, forming a pair that diffuses. These pairs break up wi...
-  - _Keywords:_ substitutional, dopants, dopant, impurities, charge, active, diffuse, reacts
+  - For impurities with +1 or –1 charge (that is, dopants), the substitutional dopant is active, but it does not diffuse. The substitutional do…
 - **Diffusion Without Pairing** <a id="diffusion-without-pairing"></a>
-  - For neutral impurities, normal diffusion is still available. An alternative diffusion mechanism is migration without pairing. In these cases, the impurity diffuses as it is, that is, the substitutional impurity has a nonzero diffusivity ...
-  - _Keywords:_ impurities, mathrm, impurity, clusters, defects, emission, mathbf, diffusion
+  - For neutral impurities, normal diffusion is still available. An alternative diffusion mechanism is migration without pairing. In these case…
 - **Reports** <a id="reports"></a>
   - Sentaurus Process KMC prints different reports in the log file including:
-  - _Keywords:_ distribution, Sentaurus, Process, KMC, prints, different, reports, including
 - **Models Used Report** <a id="models-used-report"></a>
-  - Sentaurus Process KMC reports the models used immediately after being initialized. This summary is printed for any particle allowed in the simulation, even if the particle will not be used:
-  - _Keywords:_ KMC, DiffModel, ChargeModel, ClusterModel, SPERModel, deposited, Kick, models
+  - Sentaurus Process KMC reports the models used immediately after being initialized. This summary is printed for any particle allowed in the…
 - **Particle Distribution Report** <a id="particle-distribution-report"></a>
   - The particle distribution report lists how many dopants exist per material and the state of the material:
-  - _Keywords:_ mobile, material, active, distribution, report, Oxide, trapped, PolySilicon
 - **Cluster Distribution Report** <a id="cluster-distribution-report"></a>
-  - This report shows the distribution of clusters versus size for each material and reports how many clusters are in the simulation and their types:
-  - _Keywords:_ report, clusters, distribution, colspan, mathbf, mathrm, versus, material
+  - This report shows the distribution of clusters versus size for each material and reports how many clusters are in the simulation and their…
 - **Defect Activity Report** <a id="defect-activity-report"></a>
-  - Sentaurus Process KMC displays the point defects, impurities, dopants, extended defects, clusters, amorphous areas, recrystallizations, and surface emission accounted for during the simulation:
-  - _Keywords:_ colspan, PointDefect, report, mathrm, ImpurityCluster, simulation, Elements, emitting
+  - Sentaurus Process KMC displays the point defects, impurities, dopants, extended defects, clusters, amorphous areas, recrystallizations, and…
 - **Interactions Report** <a id="interactions-report"></a>
-  - This reports shows, for each material and interface, all the reactions between a mobile particle (point defect or impurity-pair point defect) and the number of times they happened.
-  - _Keywords:_ PointDefect, defect, report, reaction, Reaction, Times, VMM, reactions
+  - This reports shows, for each material and interface, all the reactions between a mobile particle (point defect or impurity-pair point defec…
 - **Indirect Diffusion** <a id="indirect-diffusion"></a>
-  - When using the indirect diffusion model for amorphous materials, the results are similar to crystalline ones, but I and V mean dangling bond and floating bond, respectively.
-  - _Keywords:_ IxVy, AmorphousPocket, Reaction, Times, VMM, BiM, indirect, diffusion
+  - When using the indirect diffusion model for amorphous materials, the results are similar to crystalline ones, but I and V mean dangling bon…
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
 - **Reports** <a id="reports"></a>
-  - It includes the reaction between small interstitial clusters (Ix), small vacancy clusters (Vx), and APs including both Is and Vs (IxVy). To keep the report small, all sizes are condensed into only one Ix, Vx, or IxVy.
-  - _Keywords:_ clusters, IxVy, includes, reaction, between, interstitial, vacancy, APs
+  - It includes the reaction between small interstitial clusters (Ix), small vacancy clusters (Vx), and APs including both Is and Vs (IxVy). To…
 - **ThreeOneOne** <a id="threeoneone"></a>
-  - ThreeOneOne Ix+I 1035217
-  - _Keywords:_ ThreeOneOne, condensed
+  - All the {311} sizes are condensed under the term Ix.
 - **Loop** <a id="loop"></a>
-  - Loop Ix+I 177885 Ix+BiM 10
-  - _Keywords:_ Loop, BiM, dislocation, written
+  - All the dislocation loop sizes are written under the term Ix.
 - **ImpurityCluster** <a id="impuritycluster"></a>
-  - <table><tr><td>ImpurityCluster</td><td>B2+I</td><td>31</td><td>B2+Bi</td><td>6</td><td></td><td></td></tr><tr><td>ImpurityCluster</td><td>B3+I</td><td>3</td><td></td><td></td><td></td><td></td></tr><tr><td>ImpurityCluster</td><td>B2I+I</...
-  - _Keywords:_ ImpurityCluster, B2I, B2I2, As2, B3I, BI2, AsV, As3
+  - <table><tr><td>ImpurityCluster</td><td>B2+I</td><td>31</td><td>B2+Bi</td><td>6</td><td></td><td></td></tr><tr><td>ImpurityCluster</td><td>B…
 - **Interface** <a id="interface"></a>
-  - <table><tr><td colspan="6">--- Oxide_Silicon ---</td></tr><tr><td>Interface</td><td>I</td><td>11364</td><td>I+As</td><td>73</td><td>V 1141</td></tr><tr><td>Interface</td><td>AsV</td><td>410</td><td>Asi</td><td>1440</td><td></td></tr></ta...
-  - _Keywords:_ Interface, colspan, Oxide_Silicon, AsV, Asi, particle, interacting, interface
+  - <table><tr><td colspan="6">--- Oxide_Silicon ---</td></tr><tr><td>Interface</td><td>I</td><td>11364</td><td>I+As</td><td>73</td><td>V 1141<…
 - **Event Report** <a id="event-report"></a>
-  - The event report is the reverse of the reaction report. The reaction report shows the forward reactions; the events report shows the reverse ones. Since the reactions and other events depend strongly on the defects, this report changes f...
-  - _Keywords:_ PointDefect, ImpurityCluster, mathrm, report, mathbf, Jump, column, Emis
+  - The event report is the reverse of the reaction report. The reaction report shows the forward reactions; the events report shows the revers…
 - **Simple Materials** <a id="simple-materials"></a>
   - An event report is written for simple materials as well:
-  - _Keywords:_ Jump, report, written, simple, materials, colspan, AmorphousSilicon, Break
 - **Indirect Diffusion** <a id="indirect-diffusion"></a>
-  - The report for amorphous materials with indirect diffusion is similar to the one of crystalline materials, but the I and V mean dangling bond and floating bond, respectively.
-  - _Keywords:_ Jump, PointDefect, Rejected, materials, report, amorphous, indirect, diffusion
+  - The report for amorphous materials with indirect diffusion is similar to the one of crystalline materials, but the I and V mean dangling bo…
 - **Extracting KMC-Related Information** <a id="extracting-kmc-related-information"></a>
   - You can extract Sentaurus Process KMC information in one of the following ways:
-  - _Keywords:_ Sentaurus, Process, information, KMC, atomistic, extract, interface, Calling
 - **Transferring Fields From KMC to Continuum Information: deatomize** <a id="transferring-fields-from-kmc-to-continuum-information-deatom"></a>
-  - Sentaurus Process KMC is independent of the mesh and fields of Sentaurus Process. Consequently, after a diffusion in atomistic mode, there are no Sentaurus Process fields to visualize. You can instruct Sentaurus Process KMC to create fie...
-  - _Keywords:_ Sentaurus, Process, KMC, particles, Concentration, volume, fields, deatomize
+  - Sentaurus Process KMC is independent of the mesh and fields of Sentaurus Process. Consequently, after a diffusion in atomistic mode, there…
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Extracting KMC-Related Information
-  - _Keywords:_ mathbf, impurity, concentration, deatomize, cluster, clusters, particle, concentrations
 - **Smoothing Out Deatomized Concentrations** <a id="smoothing-out-deatomized-concentrations"></a>
-  - The direct deatomization of Sentaurus Process KMC quantities into continuum mesh elements produces values with strong gradients between neighboring elements. This is especially true for small concentrations, where Sentaurus Process KMC c...
-  - _Keywords:_ KMC, Sentaurus, Process, concentration, elements, especially, particles, contain
+  - The direct deatomization of Sentaurus Process KMC quantities into continuum mesh elements produces values with strong gradients between nei…
 - **where:** <a id="where"></a>
   - ■ <field> is the field name to be smoothed (for example, NetActive). <n> is an integer.
-  - _Keywords:_ Smooth, Field, particles, volume, associated, radius, concentration, smoothing
 - **Smoothing Performance** <a id="smoothing-performance"></a>
-  - The smoothing algorithm can be relatively slow for simulations with many nodes or particles. Using parallel mode with the following command might help improve performance:
-  - _Keywords:_ smoothing, parallel, algorithm, relatively, simulations, particles, improve, performance
+  - The smoothing algorithm can be relatively slow for simulations with many nodes or particles. Using parallel mode with the following command…
 - **Adding and Obtaining Defects in Simulations: add, defects.add, and defects.write** <a id="adding-and-obtaining-defects-in-simulations-add-defects-add-"></a>
   - Sentaurus Process KMC allows you to add defects to a simulation using the commands:
-  - _Keywords:_ defects, defect, amorphous, crystalline, simulation, specifies, created, material
 - **where:** <a id="where"></a>
-  - defect\_type is the generic name of the defect, for example, PointDefect, Loop, ThreeOneOne, Interface, ImpurityCluster. ■ defect\_name is the particular name of the defect, for example, B, P, I50, BiM, B3I2. ■ coord\_x, coord\_y, coord\...
-  - _Keywords:_ PointDefect, defect, defects, ThreeOneOne, ImpurityCluster, simulation, Loop, Interface
+  - defect\_type is the generic name of the defect, for example, PointDefect, Loop, ThreeOneOne, Interface, ImpurityCluster. ■ defect\_name is…
 - **Updating a KMC Structure in Nonatomistic Mode** <a id="updating-a-kmc-structure-in-nonatomistic-mode"></a>
-  - When working in hybrid mode, the Sentaurus Process KMC structure is not updated automatically when required. For example, during an etch step or a strip step, if a region containing particles has been removed, the particle information is...
-  - _Keywords:_ structure, Sentaurus, Process, KMC, removed, updated, region, particles
+  - When working in hybrid mode, the Sentaurus Process KMC structure is not updated automatically when required. For example, during an etch st…
 - **Using the Sentaurus Process Interface** <a id="using-the-sentaurus-process-interface"></a>
   - The select, print, WritePlx, and plot Commands
-  - _Keywords:_ select, particles, WritePlx, deatomize, KMC, Dopants, defects, Amorphous
 - **Examples** <a id="examples"></a>
-  - For a typical situation with a 1D SIMS-like simulation (implantation and anneal), the 1D profiles can be extracted to a .plx file using WritePlx:
-  - _Keywords:_ WritePlx, SetPlxList, BTotal, fields, deatomize, typical, situation, SIMS
+  - For a typical situation with a 1D SIMS-like simulation (implantation and anneal), the 1D profiles can be extracted to a .plx file using Wri…
 - **The init Command** <a id="the-init-command"></a>
   - The init command works as expected. Background dopings can be assigned. A TDR file to be loaded can also be assigned with:
-  - _Keywords:_ simulation, assigned, Sentaurus, Process, results, expected, Background, dopings
 - **The struct Command** <a id="the-struct-command"></a>
-  - The struct command works as expected, except that by default it creates some extra fields to be saved. It generates these extra fields by calling the function PDE2KMC with the argument struct. You can modify or customize this function in...
-  - _Keywords:_ struct, fields, KMC, PDE2KMC, information, Sentaurus, expected, except
+  - The struct command works as expected, except that by default it creates some extra fields to be saved. It generates these extra fields by c…
 - **The load Command** <a id="the-load-command"></a>
-  - The load command accepts the options kmc and replace only. It is intended to load a TDR Sentaurus Process KMC simulation to replace the existing one. It performs the necessary conversions between the existing internal Sentaurus Process K...
-  - _Keywords:_ existing, replace, TDR, Sentaurus, Process, KMC, accepts, intended
+  - The load command accepts the options kmc and replace only. It is intended to load a TDR Sentaurus Process KMC simulation to replace the exi…
 - **The deposit Command** <a id="the-deposit-command"></a>
   - The deposit command works as expected, including depositing doped layers.
-  - _Keywords:_ deposit, expected, including, depositing, layers
 - **The diffuse Command** <a id="the-diffuse-command"></a>
-  - The diffuse command works as expected with Sentaurus Process KMC, except that the diffusion is performed with the atomistic solver. In particular, the options for oxidation and silicidation are supported (see Oxidation on page 521). Epit...
-  - _Keywords:_ supported, diffuse, expected, Sentaurus, Process, KMC, except, diffusion
+  - The diffuse command works as expected with Sentaurus Process KMC, except that the diffusion is performed with the atomistic solver. In part…
 - **Nonatomistic Mode** <a id="nonatomistic-mode"></a>
-  - When Sentaurus Process KMC operates in nonatomistic mode (see Nonatomistic Mode on page 380), it transforms the five-stream model fields into atomistic information before every annealing and converts the atomistic information to five-str...
-  - _Keywords:_ information, Sentaurus, Process, KMC, atomistic, stream, nonatomistic, fields
+  - When Sentaurus Process KMC operates in nonatomistic mode (see Nonatomistic Mode on page 380), it transforms the five-stream model fields in…
 - **Atomistic Mode** <a id="atomistic-mode"></a>
-  - When operating in atomistic mode, Sentaurus Process KMC does not automatically perform any transformation from atomistic to continuum, or vice versa, except if the struct command is called (see Atomistic Mode on page 377).
-  - _Keywords:_ atomistic, operating, Sentaurus, Process, KMC, automatically, perform, transformation
+  - When operating in atomistic mode, Sentaurus Process KMC does not automatically perform any transformation from atomistic to continuum, or v…
 - **Calling Directly the Sentaurus Process KMC Kernel** <a id="calling-directly-the-sentaurus-process-kmc-kernel"></a>
-  - The best way to access atomistic information is by calling directly the Sentaurus Process KMC kernel using the kmc extract command, which accesses the raw KMC information directly and returns it in different formats, or creates a TDR fil...
-  - _Keywords:_ information, directly, Sentaurus, KMC, access, atomistic, calling, Process
+  - The best way to access atomistic information is by calling directly the Sentaurus Process KMC kernel using the kmc extract command, which a…
 - **Writing and Displaying TDR Files With KMC Information** <a id="writing-and-displaying-tdr-files-with-kmc-information"></a>
   - To write all snapshots to a file to be displayed by Sentaurus Visual, use:
-  - _Keywords:_ Red, Blue, Cyan, defects, simulation, information, concentrations, visual
 - **Plotting Only Some Particles** <a id="plotting-only-some-particles"></a>
-  - Sentaurus Process visualization does not represent all the particles inside APs. Since the number of particles (interstitials and vacancies) in APs can be large after an implantation, only 1 in 50 particles is visualized by default. This...
-  - _Keywords:_ particles, VisualizeDamage, Sentaurus, Process, visualization, APs, implantation, represent
+  - Sentaurus Process visualization does not represent all the particles inside APs. Since the number of particles (interstitials and vacancies…
 - **Time-Averaged Concentration Name** <a id="time-averaged-concentration-name"></a>
-  - The default field name for time-averaged concentrations in the TDR file is ‘mobile’, but it can be defined with the parameter pdbSet KMC tdr averageTag.
-  - _Keywords:_ averaged, concentrations, TDR, mobile, defined, pdbSet, KMC, averageTag
+  - The default field name for time-averaged concentrations in the TDR file is ‘mobile’, but it can be defined with the parameter pdbSet KMC td…
 - **Extracting KMC Profiles, Histograms, and Defects** <a id="extracting-kmc-profiles-histograms-and-defects"></a>
-  - Besides the select command and TDR files, you can extract Sentaurus Process KMC information using the kmc extract command (see kmc on page 1064) including:
-  - _Keywords:_ extract, defects, extracts, information, obtains, concentrations, concentration, materials
+  - Besides the select command and TDR files, you can extract Sentaurus Process KMC information using the kmc extract command (see kmc on page…
 - **Extracting Histogram Information** <a id="extracting-histogram-information"></a>
   - Use the command:
-  - _Keywords:_ clusters, defects, information, extended, extracts, extract, Use, histogram
 - **Interstitial Histograms** <a id="interstitial-histograms"></a>
-  - These histograms extract the number of defects in the simulation for each size. The histograms contain information about small irregular clusters (see Amorphous Pockets Life Cycle on page 436), {311} defects (for sizes bigger than the es...
-  - _Keywords:_ extract, LogFile, histogram, defects, sprocess, histograms, meansize, These
+  - These histograms extract the number of defects in the simulation for each size. The histograms contain information about small irregular cl…
 - **Vacancy-Extended Defects Histogram** <a id="vacancy-extended-defects-histogram"></a>
-  - These histograms are similar to the interstitial-extended defects histogram, except that the extracted number of particles versus size is for vacancies. For example:
-  - _Keywords:_ histogram, sprocess, LogFile, extract, meansize, These, histograms, similar
+  - These histograms are similar to the interstitial-extended defects histogram, except that the extracted number of particles versus size is f…
 - **Amorphous Pockets Histogram** <a id="amorphous-pockets-histogram"></a>
-  - The AP histograms contain the number of cluster versus I and V size. APs with null Is or Vs can be considered as APs or small I or V clusters. For example:
-  - _Keywords:_ APs, clusters, sprocess, LogFile, extract, histogram, average, meansize
+  - The AP histograms contain the number of cluster versus I and V size. APs with null Is or Vs can be considered as APs or small I or V cluste…
 - **Boron–Interstitial Clusters** <a id="boron-interstitial-clusters"></a>
-  - The boron–interstitial cluster histogram offers information about the number of BICs for each BIC configuration $\mathrm { ( B _ { n } I _ { m } ) } \mathrm { : }$
-  - _Keywords:_ histogram, mathrm, sprocess, LogFile, extract, interstitial, cluster, offers
+  - The boron–interstitial cluster histogram offers information about the number of BICs for each BIC configuration $\mathrm { ( B _ { n } I _…
 - **Arsenic–Vacancy Clusters** <a id="arsenic-vacancy-clusters"></a>
-  - The arsenic–vacancy cluster histogram offers information about the number of arsenic and vacancies in impurity clusters for each configuration $( \mathrm { A s } _ { \mathrm { n } } \mathrm { I } _ { \mathrm { m } } ) { \mathrm { : } }$
-  - _Keywords:_ mathrm, histogram, arsenic, sprocess, LogFile, extract, AsV, As2
+  - The arsenic–vacancy cluster histogram offers information about the number of arsenic and vacancies in impurity clusters for each configurat…
 - **Extracting Concentrations** <a id="extracting-concentrations"></a>
   - Sentaurus Process KMC computes the profiles concentration versus size as a convenient way to directly obtain useful data.
-  - _Keywords:_ concentration, profile, extract, coordy, simulation, KMC, concentrations, coordx
 - **Extracting Supersaturation** <a id="extracting-supersaturation"></a>
   - To extract supersaturation, use:
-  - _Keywords:_ supersaturation, extract, concentration, Supersaturation, current, relative, equilibrium, operatorname
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Extracting KMC-Related Information
-  - _Keywords:_ KMC, supersaturation, pdbSet, kmcSupersat, spacing, current, LogFile, extract
 - **Extracting Raw Atomistic Information** <a id="extracting-raw-atomistic-information"></a>
-  - The defects option allows access to the raw atomistic information of any simulation. The obtained information must match the arguments name and defectname when they are specified:
-  - _Keywords:_ defects, defectname, coordx, coordy, coordz, information, obtained, extract
+  - The defects option allows access to the raw atomistic information of any simulation. The obtained information must match the arguments name…
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
 - **Extracting KMC-Related Information** <a id="extracting-kmc-related-information"></a>
-  - <table><tr><td>0.00177392</td><td>0.00225923</td><td>0.00247647</td><td>B ImpurityCluster 0</td></tr><tr><td>0.00320253</td><td>0.00162722</td><td>0.00466375</td><td>I AmorphousPocket 1</td></tr><tr><td>0.00222551</td><td>0.00139856</td>...
-  - _Keywords:_ defects, AmorphousPocket, ImpurityCluster, extract, sprocess, defect, amorphous, colspan
+  - The six columns present in the output are:
 - **Extracting Concentration per Surface Unit** <a id="extracting-concentration-per-surface-unit"></a>
-  - The dose option extracts the concentration per surface unit $( \mathrm { c m } ^ { - 2 } )$ for the entire simulation cell, and it can be used to look at the evolution of the species with time:
-  - _Keywords:_ extracts, concentration, surface, mathrm, entire, simulation, evolution, species
+  - The dose option extracts the concentration per surface unit $( \mathrm { c m } ^ { - 2 } )$ for the entire simulation cell, and it can be u…
 - **where:** <a id="where"></a>
-  - name can be any particle (I, AsV, Bi– ) or any defect $( \mathrm { I _ { n } } , \mathrm { V _ { n } } , \mathrm { I _ { n } V _ { m } } , \mathrm { B _ { n } I _ { m } } )$ . It also can be a ‘total’ name – the name of an impurity follo...
-  - _Keywords:_ mathrm, specified, particle, defect, impurity, defectname, restricts, particles
+  - name can be any particle (I, AsV, Bi– ) or any defect $( \mathrm { I _ { n } } , \mathrm { V _ { n } } , \mathrm { I _ { n } V _ { m } } ,…
 - **4: Atomistic Kinetic Monte Carlo Diffusion** <a id="4-atomistic-kinetic-monte-carlo-diffusion"></a>
   - Extracting KMC-Related Information
-  - _Keywords:_ KMC, pdbSet, silicon, SiO2gate, silicon_depth, spacing, xbottom, Extracting
 - **This example produces the results:** <a id="this-example-produces-the-results"></a>
-  - ```csv 46.4176 2.88e+12 100.01 9.56e+12 215.464 1.104e+13 464.175 1.596e+13 1000 2.172e+13 2154.45 3.144e+13 4641.63 3.736e+13 10000 3.044e+13 21544.5 1.388e+13 46417.4 9.6e+11 100233 0 ```
-  - _Keywords:_ details, summary, Intersitials, Extended, Defects, mathsf, silicon, comparison
+  - <details> <summary>line</summary>
 - **Extracting List of Materials** <a id="extracting-list-of-materials"></a>
   - To extract a list of materials currently in the simulation, use:
-  - _Keywords:_ Oxide, Silicon, extract, materials, detailed, simulation, coordx, coordy
 - **Extracting Amorphous–Crystalline Interfaces** <a id="extracting-amorphous-crystalline-interfaces"></a>
   - To extract a list of amorphous–crystalline interfaces found in the simulation given a 1D cutline, use:
-  - _Keywords:_ extract, amorphous, crystalline, acinterface, coordx, coordy, interface, coordz
 - **Common Dopant and Point-Defect Names** <a id="common-dopant-and-point-defect-names"></a>
-  - Several options of the kmc command use the name=<c> argument. Table 66 on page 563 lists several of these names and the commands where they are applicable. Since dopants can be defined as needed, the names depend on the simulation parame...
-  - _Keywords:_ Dea, Dos, Pre, Pro, Add, Def, defect, paired
+  - Several options of the kmc command use the name=<c> argument. Table 66 on page 563 lists several of these names and the commands where they…
 - **Advanced Calibration for Sentaurus Process KMC** <a id="advanced-calibration-for-sentaurus-process-kmc"></a>
   - NOTE The use of Advanced Calibration is strongly recommended.
-  - _Keywords:_ KMC, Advanced, Calibration, Process, Sentaurus, AdvancedCalibration, SetAtomistic, accurate
 - **References** <a id="references"></a>
-  - [1] I. Martin-Bragado, Simulación atomística de procesos para Microelectrónica, Ph.D. thesis, Universidad de Valladolid, Valladolid, Spain, 2004. [2] M. Jaraiz et al., “Atomistic Front-End Process Modelling: A Powerful Tool for Deep-Subm...
-  - _Keywords:_ Physics, Applied, silicon, Physical, Letters, Review, Monte, Carlo
+  - [1] I. Martin-Bragado, Simulación atomística de procesos para Microelectrónica, Ph.D. thesis, Universidad de Valladolid, Valladolid, Spain,…
 - **Overview of Epitaxial Deposition** <a id="overview-of-epitaxial-deposition"></a>
-  - Sentaurus Process Lattice Kinetic Monte Carlo (Sentaurus Process LKMC) is coupled to Sentaurus Process Kinetic Monte Carlo (Sentaurus Process KMC), and handles epitaxial deposition and solid phase epitaxial regrowth (SPER). This chapter ...
-  - _Keywords:_ Sentaurus, Process, LKMC, deposition, continuum, KMC, epitaxial, atomistic
+  - Sentaurus Process Lattice Kinetic Monte Carlo (Sentaurus Process LKMC) is coupled to Sentaurus Process Kinetic Monte Carlo (Sentaurus Proce…
 - **Epitaxy Models** <a id="epitaxy-models"></a>
   - The following classes of epitaxy models are available:
-  - _Keywords:_ Coordinations, Planes, models, growth, Reactions, includes, deposition, surface
 - **Planar Epitaxy Models** <a id="planar-epitaxy-models"></a>
-  - The Coordinations.Planes model and the Planes model introduce a lattice for the depositing atoms based on the starting growth surface and assign a status to each lattice site (either empty or filled). Then, Sentaurus Process LKMC assigns...
-  - _Keywords:_ mathrm, thickness, LKMC, growth, specified, SEG, prefactor, configuration
+  - The Coordinations.Planes model and the Planes model introduce a lattice for the depositing atoms based on the starting growth surface and a…
 - **Parameters of the Planar Epitaxy Models** <a id="parameters-of-the-planar-epitaxy-models"></a>
   - Parameters of these models are defined in the PDB under KMC Si Epitaxy.
-  - _Keywords:_ SEG, energy, prefactor, second, neighbor, coordination, barriers, activation
 - **Dopant-Dependent Growth Rate Factor** <a id="dopant-dependent-growth-rate-factor"></a>
   - To add a dopant-dependent growth rate, specify the following PDB parameters:
-  - _Keywords:_ dopant, Growth, Rate, Factor, growth, pdbSetDouble, material, KMC
 - **Epitaxy Models Based on Atomic Bonding** <a id="epitaxy-models-based-on-atomic-bonding"></a>
-  - The Coordinations and Coordinations.Reactions models have more capabilities than the planar epitaxy models. They both allow for multiple depositing species and have speciesdependent growth rates that depend on the composition of the depo...
-  - _Keywords:_ Coordinations, growth, surface, Reactions, orientation, effects, fraction, dependent
+  - The Coordinations and Coordinations.Reactions models have more capabilities than the planar epitaxy models. They both allow for multiple de…
 - **Running the Coordinations and Coordinations.Reactions Models** <a id="running-the-coordinations-and-coordinations-reactions-models"></a>
-  - These physically based models depend on process conditions such as gas flows and temperature for input instead of relying on users to specify the final results such as thickness, mole fraction, and doping levels. As such, these models ar...
-  - _Keywords:_ ambient, models, Coordinations, ambients, Epi, diffuse, LKMC, Silicon
+  - These physically based models depend on process conditions such as gas flows and temperature for input instead of relying on users to speci…
 - **Growth Rate of the Coordinations Model** <a id="growth-rate-of-the-coordinations-model"></a>
   - The growth rate of species for site configuration in the Coordinations model is given as:i c
-  - _Keywords:_ species, energy, surface, mathrm, pdbSet, LKMC, SEG, nearest
 - **Coordinations.Reactions Model** <a id="coordinations-reactions-model"></a>
-  - This model was developed to model chemical reactions during CVD epitaxy to improve growth rate accuracy, especially temperature and gas flow rate effects, which cannot be modeled with simpler models where the growing species deposit at a...
-  - _Keywords:_ reactions, species, surface, LKMC, chemical, during, growth, effects
+  - This model was developed to model chemical reactions during CVD epitaxy to improve growth rate accuracy, especially temperature and gas flo…
 - **where:** <a id="where"></a>
-  - <species\_name> is the name of the new LKMC species. <surface\_type> can be either Grow or Passivate to specify whether atoms can be deposited on this species or not, respectively. <site\_specification> can be A, B, or AB to indicate the...
-  - _Keywords:_ reaction, species, specify, ambient, reactants, reactant1, reactant2, LKMC
+  - <species\_name> is the name of the new LKMC species. <surface\_type> can be either Grow or Passivate to specify whether atoms can be deposi…
 - **Reaction Rates in the Coordinations.Reactions Model** <a id="reaction-rates-in-the-coordinations-reactions-model"></a>
-  - Reaction rates in the Coordinations.Reactions model are based on the same formation energies as the Coordinations model given in Eq. 850, p. 582 except the Coordinations.Reactions model introduces the concept of passivating species. Pass...
-  - _Keywords:_ species, energy, mathrm, reaction, argument, prefactor, passivating, nearest
+  - Reaction rates in the Coordinations.Reactions model are based on the same formation energies as the Coordinations model given in Eq. 850, p…
 - **Parameters of the Epitaxy Models Based on Atomic Bonding** <a id="parameters-of-the-epitaxy-models-based-on-atomic-bonding"></a>
-  - Table 71 and Table 72 on page 586 summarize the parameters for both the Coordinations and Coordinations.Reactions models. The parameters in Table 71 are at the following level for both the Coordinations model and the nonpassivating surfa...
-  - _Keywords:_ Coordinations, energy, Reactions, surface, species, SEG, binding, _material
+  - Table 71 and Table 72 on page 586 summarize the parameters for both the Coordinations and Coordinations.Reactions models. The parameters in…
 - **Boundary Conditions** <a id="boundary-conditions"></a>
-  - In Version M-2016.12 or earlier, the Coordinations and Coordinations.Reactions models were available only with periodic boundary conditions, irrespective of the boundary conditions applied to the KMC domain.
-  - _Keywords:_ boundary, conditions, KMC, models, available, periodic, LKMC, PeriodicBC
+  - In Version M-2016.12 or earlier, the Coordinations and Coordinations.Reactions models were available only with periodic boundary conditions…
 - **Controlling Point-Defect Injections at Interfaces and Their Diffusion** <a id="controlling-point-defect-injections-at-interfaces-and-their-"></a>
-  - Fast-moving point defects might result in LKMC simulations that appear very slow or unresponsive. For example, if an interstitial is injected from the interface during LKMC, it will continue to diffuse until there is a reason to slow dow...
-  - _Keywords:_ LKMC, scaling, interface, pdbSet, injection, diffusivity, defects, during
+  - Fast-moving point defects might result in LKMC simulations that appear very slow or unresponsive. For example, if an interstitial is inject…
 - **Modifying and Extending the Epitaxy Models** <a id="modifying-and-extending-the-epitaxy-models"></a>
-  - To make the models as flexible and configurable as possible, Tcl callback procedures allow you to specify a large number of parameters using scripting. This enables the specification of prefactors and energy functions based on the number...
-  - _Keywords:_ species, argArr, procedures, material, neighbors, Nnn, EpiMat, mathrm
+  - To make the models as flexible and configurable as possible, Tcl callback procedures allow you to specify a large number of parameters usin…
 - **Surface Diffusion Model** <a id="surface-diffusion-model"></a>
-  - In some cases, allowing surface diffusion during LKMC might be necessary for accurate modeling. Diffusion causes surface smoothing, which for large growth rates, might otherwise become artificially rough. For lower growth rates, surface ...
-  - _Keywords:_ diffusion, surface, LKMC, species, specify, pdbSet, simulation, during
+  - In some cases, allowing surface diffusion during LKMC might be necessary for accurate modeling. Diffusion causes surface smoothing, which f…
 - **Anisotropic Gas Fluxes and Atomic Layer Deposition** <a id="anisotropic-gas-fluxes-and-atomic-layer-deposition"></a>
-  - Atomic layer deposition (ALD) is a special type of chemical vapor deposition (CVD), typically used to form conformal layers with a high degree of conformality and thickness control. Often used to create thin layers due to slower depositi...
-  - _Keywords:_ reaction, species, ALD, passivating, deposition, growth, ambient, catalyzing
+  - Atomic layer deposition (ALD) is a special type of chemical vapor deposition (CVD), typically used to form conformal layers with a high deg…
 - **Example: Setting Up an Atomic Layer Deposition Simulation** <a id="example-setting-up-an-atomic-layer-deposition-simulation"></a>
-  - The following example demonstrates how to set up ALD growth of Ge on silicon (using fictitious chemical reactions, solely to demonstrate the syntax):
-  - _Keywords:_ ALD, Silicon, reaction, create, GeH2ALD, ambient, temp_ramp, reactions
+  - The following example demonstrates how to set up ALD growth of Ge on silicon (using fictitious chemical reactions, solely to demonstrate th…
 - **Anisotropic Gas Flows** <a id="anisotropic-gas-flows"></a>
-  - One of the main reasons to simulate ALD is to simulate incomplete passivating layer deposition or incomplete catalysis in trenches and in other areas of a structure that might have reduced gas dose exposure. To simulate this effect, a si...
-  - _Keywords:_ anisotropic, reaction, ambient, simulate, structure, specify, distribution, exponent
+  - One of the main reasons to simulate ALD is to simulate incomplete passivating layer deposition or incomplete catalysis in trenches and in o…
 - **SiGe and Mole Fraction–Dependent Growth** <a id="sige-and-mole-fraction-dependent-growth"></a>
-  - You can simulate homo-epitaxial growth of SiGe and Ge. By default, SiGe will be deposited on exposed SiGe regions or Ge will be deposited on Ge regions when the Epi option is specified in the diffuse command. However, you cannot deposit ...
-  - _Keywords:_ SiGe, diffuse, SiliconGermanium, Silicon, Germanium, fraction, MoleFractionFields, ambient
+  - You can simulate homo-epitaxial growth of SiGe and Ge. By default, SiGe will be deposited on exposed SiGe regions or Ge will be deposited o…
 - **Visibility** <a id="visibility"></a>
-  - By default, all empty sites are candidates for epitaxial growth. However, some gas sites can be cut off from the gas flow if material grows over a void leaving a trapped bubble of gas. After the gas has reacted with the surface of the bu...
-  - _Keywords:_ visibility, growth, bubble, leaving, deposition, effect, Visibility, Coordinations
+  - By default, all empty sites are candidates for epitaxial growth. However, some gas sites can be cut off from the gas flow if material grows…
 - **Twin-Defect Formation** <a id="twin-defect-formation"></a>
-  - In addition to the previously mentioned parameters, you can enable twin-defect formation along the <111> direction using the following setting:
-  - _Keywords:_ lattice, pdbSet, LKMC, Epitaxy, direction, setting, OneOneOne, orientation
+  - In addition to the previously mentioned parameters, you can enable twin-defect formation along the <111> direction using the following sett…
 - **Surface Segregation** <a id="surface-segregation"></a>
-  - The epitaxy models based on atomic bonding also allow species in the bulk to segregate to the surface. Surface segregation is modeled as a two-site exchange reaction for both the Coordinations and Coordinations.Reactions models, that is,...
-  - _Keywords:_ segregation, species, surface, mathrm, energy, reaction, prefactor, before
+  - The epitaxy models based on atomic bonding also allow species in the bulk to segregate to the surface. Surface segregation is modeled as a…
 - **Secondary Reactions: Allowing Products Leaving the Surface to Initiate New Reactions** <a id="secondary-reactions-allowing-products-leaving-the-surface-to"></a>
-  - The Coordinations.Reactions model enables capturing the influence of products leaving the reaction surface on the ambient fluxes using a simple model. The ambient flux in this case is modified as:
-  - _Keywords:_ ambient, desorption, reaction, products, mathrm, factor, incoming, pdbSet
+  - The Coordinations.Reactions model enables capturing the influence of products leaving the reaction surface on the ambient fluxes using a si…
 - **Orientation-Dependent Prefactors in the Coordinations.Reactions Model** <a id="orientation-dependent-prefactors-in-the-coordinations-reacti"></a>
-  - There are callback procedures to apply a multiplication factor to rates of specific reactions depending on the local neighbor configuration. This provides flexibility for calibration purposes. The following callback procedures, available...
-  - _Keywords:_ factors, LKMCEpiOrientFactor, factor, neighbor, reaction, specific, reactions, orientation
+  - There are callback procedures to apply a multiplication factor to rates of specific reactions depending on the local neighbor configuration…
 - **Mimicking Dangling Bonds Using Shared Occupancy** <a id="mimicking-dangling-bonds-using-shared-occupancy"></a>
-  - When reactions produce passivating species, in reality, this species consumes one dangling bond. In LKMC, this species consumes one lattice site and, therefore, all the dangling bonds associated with the nearest neighbors to that lattice...
-  - _Keywords:_ dangling, mathrm, shared, occupancy, species, details, summary, LKMC
+  - When reactions produce passivating species, in reality, this species consumes one dangling bond. In LKMC, this species consumes one lattice…
 - **where:** <a id="where"></a>
-  - ■ $n n _ { k } ^ { \mathrm { D B } } , n n n _ { k } ^ { \mathrm { D B } }$ , and $n _ { k } ^ { \mathrm { D B } } 3 _ { k } ^ { \mathrm { r d } }$ are the number of the nearest, second-nearest, and third-nearest neighbour dangling bonds...
-  - _Keywords:_ nearest, mathrm, dangling, boldsymbol, occupied, neighbors, second, presence
+  - ■ $n n _ { k } ^ { \mathrm { D B } } , n n n _ { k } ^ { \mathrm { D B } }$ , and $n _ { k } ^ { \mathrm { D B } } 3 _ { k } ^ { \mathrm {…
 - **Nonselective Epitaxial Deposition of Polysilicon on Oxide** <a id="nonselective-epitaxial-deposition-of-polysilicon-on-oxide"></a>
-  - Experimentally, some polysilicon growth on exposed oxide or nitride material surfaces has been observed during epitaxy. It is possible to model such phenomena using the Coordinations and Coordinations.Reactions models.
-  - _Keywords:_ nucleation, material, reaction, nitride, Coordinations, LKMC, Oxide, strength
+  - Experimentally, some polysilicon growth on exposed oxide or nitride material surfaces has been observed during epitaxy. It is possible to m…
 - **Calculating the Rate of the Nucleation Reaction** <a id="calculating-the-rate-of-the-nucleation-reaction"></a>
   - The rate of the nucleation reaction is given by:
-  - _Keywords:_ reaction, nucleation, mathrm, energy, prefactor, Coordinations, definition, SEG
 - **Pressure-Dependent Growth Rate Correction** <a id="pressure-dependent-growth-rate-correction"></a>
-  - According to some data from the literature, the epi growth rate increases with total pressure, but only to \~1/3 atm. For higher total pressures, the growth rate decreases again. The reason seems to be the reduced gas diffusion due to mo...
-  - _Keywords:_ procedure, Pressure, LKMCFluxFactor, growth, pressure, higher, collisions, species
+  - According to some data from the literature, the epi growth rate increases with total pressure, but only to \~1/3 atm. For higher total pres…
 - **Dopant Activation and Clustering During Epitaxy** <a id="dopant-activation-and-clustering-during-epitaxy"></a>
-  - You can control dopant activation and clustering during epitaxy using the parameters in Table 80. These activation and clustering parameters are applied to the Planes and Coordinations.Planes models by default. For the Coordinations.Reac...
-  - _Keywords:_ dopant, Epi, Active, Max, active, activation, clustering, during
+  - You can control dopant activation and clustering during epitaxy using the parameters in Table 80. These activation and clustering parameter…
 - **Updating the Finite-Element Structure During and After Epitaxy** <a id="updating-the-finite-element-structure-during-and-after-epita"></a>
   - The following operations occur at the end of LKMC epitaxial deposition:
-  - _Keywords:_ LKMC, Boundary, boundary, structure, pdbSet, Proc, repair, algorithm
 - **5: Lattice Kinetic Monte Carlo: Epitaxial Deposition** <a id="5-lattice-kinetic-monte-carlo-epitaxial-deposition"></a>
   - Updating the Finite-Element Structure During and After Epitaxy
-  - _Keywords:_ LKMC, resolution, delpsc, procedures, Boundary, Proc, operations, boundary
 - **Updating a PDE Structure During Epitaxy in Nonatomistic Mode** <a id="updating-a-pde-structure-during-epitaxy-in-nonatomistic-mode"></a>
-  - In nonatomistic mode and with lkmc specified in the diffuse command, multiple alternating continuum diffusion and LKMC growth substeps are used to simulate the process. If there are many substeps, or the overall epi thickness is thin, ea...
-  - _Keywords:_ doping, meshing, profile, LKMC, substeps, graded, enough, capture
+  - In nonatomistic mode and with lkmc specified in the diffuse command, multiple alternating continuum diffusion and LKMC growth substeps are…
 - **Etching** <a id="etching"></a>
-  - Modeling of chemical vapor etching using Sentaurus Process LKMC is available from within the Coordinations.Reactions model (see Coordinations.Reactions Model on page 582). This capability addresses the addition of etching gases during ch...
-  - _Keywords:_ etching, deposition, Reactions, LKMC, Coordinations, material, structure, finite
+  - Modeling of chemical vapor etching using Sentaurus Process LKMC is available from within the Coordinations.Reactions model (see Coordinatio…
 - **Extracting LKMC Data During a Simulation** <a id="extracting-lkmc-data-during-a-simulation"></a>
   - This section describes how you can extract LKMC data during simulations.
-  - _Keywords:_ describes, extract, LKMC, during, simulations
 - **Extracting the Epitaxial Surface** <a id="extracting-the-epitaxial-surface"></a>
-  - You can extract the epitaxial surface directly from the KMC kernel, without waiting for the LKMC structure to update the finite element mesh.
-  - _Keywords:_ epitaxial, surface, You, extract, directly, KMC, kernel, average
+  - You can extract the epitaxial surface directly from the KMC kernel, without waiting for the LKMC structure to update the finite element mes…
 - **Syntax Examples** <a id="syntax-examples"></a>
   - sprocess>> kmc extract episurface
-  - _Keywords:_ extract, episurface, sprocess, LKMC, Movie, limited, capability, feature
 - **Extracting LKMC Event Rates and Counts** <a id="extracting-lkmc-event-rates-and-counts"></a>
-  - A diagnostic mode for LKMC is available that enables a detailed listing of the most commonly executed event types, along with the raw event rate and the coordination of the products and reactants.
-  - _Keywords:_ Germanium, nearest, neighbors, HStar, reactants, interval, products, reaction
+  - A diagnostic mode for LKMC is available that enables a detailed listing of the most commonly executed event types, along with the raw event…
 - **References** <a id="references"></a>
-  - [1] I. Martin-Bragado, Simulación atomística de procesos para Microelectrónica, Ph.D. thesis, Universidad de Valladolid, Valladolid, Spain, 2004. [2] M. Jaraiz et al., “Atomistic Front-End Process Modelling: A Powerful Tool for Deep-Subm...
-  - _Keywords:_ Simulation, Monte, Carlo, differential, Martin, Bragado, Valladolid, Jaraiz
+  - [1] I. Martin-Bragado, Simulación atomística de procesos para Microelectrónica, Ph.D. thesis, Universidad de Valladolid, Valladolid, Spain,…
 - **Available Operators and Variables** <a id="available-operators-and-variables"></a>
-  - The operators and variables of the Alagator scripting language include binary operators, simple functions, differential functions, string names, solution names, subexpressions, constants, and parameters.
-  - _Keywords:_ operators, variables, Alagator, scripting, language, include, binary, simple
+  - The operators and variables of the Alagator scripting language include binary operators, simple functions, differential functions, string n…
 - **Binary and Unary Operators** <a id="binary-and-unary-operators"></a>
-  - Most common binary algebraic operators are supported. Unary negation is also supported with the usual mathematical rules applying. Table 81 lists the supported binary and unary operators in order of precedence. Parentheses are supported ...
-  - _Keywords:_ operators, MyData, operator, supported, conditional, select, binary, Logical
+  - Most common binary algebraic operators are supported. Unary negation is also supported with the usual mathematical rules applying. Table 81…
 - **Simple Functions** <a id="simple-functions"></a>
-  - All simple functions take one argument that must be enclosed in parentheses. The argument can be any expression. Most common functions are available, including:
-  - _Keywords:_ argument, natural, derivatives, provide, operation, simple, enclosed, parentheses
+  - All simple functions take one argument that must be enclosed in parentheses. The argument can be any expression. Most common functions are…
 - **Differential Functions** <a id="differential-functions"></a>
   - Differential functions are used in PDEs only and are not evaluated with the select command. The differential operators are ddt and grad.
-  - _Keywords:_ operator, Time, supported, argument, automatically, divergence, Differential, PDEs
 - **String Names** <a id="string-names"></a>
   - Strings that are not recognized as real numbers, operators, or functions are compared to four sets of possible matches:
-  - _Keywords:_ solution, created, Strings, recognized, operators, compared, possible, matches
 - **Solution Names and Subexpressions** <a id="solution-names-and-subexpressions"></a>
-  - Solution names must match exactly the string specified in the solution name=<c> command (see solution on page 1231). This is important because solution names link PDEs to the variables to be solved. Derivatives are taken automatically of...
-  - _Keywords:_ solution, Terms, exactly, string, specified, PDEs, Solution, important
+  - Solution names must match exactly the string specified in the solution name=<c> command (see solution on page 1231). This is important beca…
 - **Constants and Parameters** <a id="constants-and-parameters"></a>
-  - Anything that does not match the name of a term or solution passes to the Tcl expression parser to see whether it evaluates as a valid expression. The result is treated as a constant. The evaluation of the expression is performed again i...
-  - _Keywords:_ expression, Tcl, parser, Anything, solution, passes, whether, evaluates
+  - Anything that does not match the name of a term or solution passes to the Tcl expression parser to see whether it evaluates as a valid expr…
 - **For example:** <a id="for-example"></a>
-  - ```txt pdbSetDouble Si Test Param1 { [Arrhenius 1 2] } (1) pdbSetDouble Si Test Param2 {2.0* [pdbDelayDouble Si Test Param1] } (2) pdbSetDouble Si Test Param3 {2.0* [pdbGetDouble Si Test Param1] } (3) pdbGet Si Test Param2 (4) pdbGet Si ...
-  - _Keywords:_ Test, Param1, Param2, Param3, pdbSetDouble, pdbDelayDouble, message, expression
+  - ```txt pdbSetDouble Si Test Param1 { [Arrhenius 1 2] } (1) pdbSetDouble Si Test Param2 {2.0* [pdbDelayDouble Si Test Param1] } (2) pdbSetDo…
 - **Basics of Specifying Partial Differential Equations** <a id="basics-of-specifying-partial-differential-equations"></a>
-  - In this section, an example is used to illustrate how to specify PDEs using the Alagator scripting language. The general expression for diffusion of species $C _ { X }$ is given by:
-  - _Keywords:_ mathrm, operator, PDEs, Alagator, language, partial, operatorname, solution
+  - In this section, an example is used to illustrate how to specify PDEs using the Alagator scripting language. The general expression for dif…
 - **Building Partial Differential Equations** <a id="building-partial-differential-equations"></a>
-  - The simplest diffusion equation uses a constant diffusivity and can be described by Fick’s first law and second law. Two main steps are required to initialize and solve this equation:
-  - _Keywords:_ solution, Arrhenius, equation, diffusion, database, solved, PDE, temperature
+  - The simplest diffusion equation uses a constant diffusivity and can be described by Fick’s first law and second law. Two main steps are req…
 - **Setting the Boundary Conditions** <a id="setting-the-boundary-conditions"></a>
   - After defining a solution and entering the equation into the parameter database, you need to set boundary conditions.
-  - _Keywords:_ After, defining, solution, entering, equation, database, boundary, conditions
 - **Dirichlet Boundary Condition** <a id="dirichlet-boundary-condition"></a>
-  - The previous example can be enhanced by adding a boundary condition to allow in-diffusion of this species from a gas source. For simplicity, it is assumed that the gas source fixes the surface concentration of species CX at 5 19 ×10 c m –3
-  - _Keywords:_ boundary, condition, interface, _Silicon, concentration, silicon, Fixed, species
+  - The previous example can be enhanced by adding a boundary condition to allow in-diffusion of this species from a gas source. For simplicity…
 - **Segregation Boundary Condition** <a id="segregation-boundary-condition"></a>
   - If a segregation-type boundary condition is needed, for example, at the oxide–silicon interface, use the following commands:
-  - _Keywords:_ interface, silicon, segregation, boundary, condition, pdbSetString, Oxide_Silicon, CX_Oxide
 - **Using Terms** <a id="using-terms"></a>
-  - A term is a common subexpression that can be used in multiple instances or to retrieve information. When the term appears in multiple equations, it reduces the maintenance of equations, and the values are easily retrieved from memory and...
-  - _Keywords:_ Arrhenius, solution, RCXCY, Silicon, variable, equations, reaction, pdbSetString
+  - A term is a common subexpression that can be used in multiple instances or to retrieve information. When the term appears in multiple equat…
 - **Basics of Specifying Generic Growth Equations** <a id="basics-of-specifying-generic-growth-equations"></a>
-  - NOTE For generic growth equations, most of the definitions are identical to those of diffusion equations. Read Basics of Specifying Partial Differential Equations on page 621 before continuing with this section.
-  - _Keywords:_ reaction, TEOS, ambient, growth, stroke, material, interface, pdbSetString
+  - NOTE For generic growth equations, most of the definitions are identical to those of diffusion equations. Read Basics of Specifying Partial…
 - **where:** <a id="where"></a>
-  - $F _ { \mathrm { G r o w t h } }$ is the growth reaction flux defined using the pdbSetString command and the GrowthReaction keyword as previously explained. Beta is the stoichiometry of the growing material. Expansion.Ratio is the conver...
-  - _Keywords:_ material, pdbSetDouble, Expansion, Ratio, Beta, Density, Grow, ambient
+  - $F _ { \mathrm { G r o w t h } }$ is the growth reaction flux defined using the pdbSetString command and the GrowthReaction keyword as prev…
 - **Epitaxial Growth** <a id="epitaxial-growth"></a>
   - This example uses the reaction command to create a new epitaxial growth mode:
-  - _Keywords:_ growth, reaction, create, ambient, MyEpi, material, MyEpiOnNitride, PolySilicon
 - **Modifying Built-in Equations and Terms** <a id="modifying-built-in-equations-and-terms"></a>
-  - Sentaurus Process builds equations and terms for known solution variables by default. If you want to add a new expression to an existing equation or term, or to subtract a new expression from an existing equation or term, you can use one...
-  - _Keywords:_ variable, expression, existing, equation, MultiplyTerm, callback, procedures, included
+  - Sentaurus Process builds equations and terms for known solution variables by default. If you want to add a new expression to an existing eq…
 - **UserAddEqnTerm and UserSubEqnTerm** <a id="useraddeqnterm-and-usersubeqnterm"></a>
-  - The UserAddEqnTerm and UserSubEqnTerm commands allow you to add a new expression to an existing solution variable equation or to subtract the new expression from an existing solution variable equation. The commands have the format:
-  - _Keywords:_ expression, solution, overwrite, UserAddEqnTerm, UserSubEqnTerm, existing, variable, equation
+  - The UserAddEqnTerm and UserSubEqnTerm commands allow you to add a new expression to an existing solution variable equation or to subtract t…
 - **where:** <a id="where"></a>
-  - <material> is any valid material name. <solution> is any valid solution variable name. <expression> is the new expression to be added to or subtracted from the solution variable. <side> is the side of the interface material where the new...
-  - _Keywords:_ expression, _Silicon, Oxide, overwrite, material, interface, equation, solution
+  - <material> is any valid material name. <solution> is any valid solution variable name. <expression> is the new expression to be added to or…
 - **UserAddToTerm and UserSubFromTerm** <a id="useraddtoterm-and-usersubfromterm"></a>
-  - The UserAddToTerm and UserSubFromTerm commands add a new expression to an existing term or subtract the new expression from an existing term. The commands have the format:
-  - _Keywords:_ expression, material, UserAddToTerm, UserSubFromTerm, existing, MyTerm, silicon, Silicon
+  - The UserAddToTerm and UserSubFromTerm commands add a new expression to an existing term or subtract the new expression from an existing ter…
 - **MultiplyTerm** <a id="multiplyterm"></a>
   - The MultiplyTerm command multiplies a new expression by a user-defined existing term and has the format:
-  - _Keywords:_ MultiplyTerm, expression, multiplies, defined, existing, format, material
 - **where:** <a id="where"></a>
-  - <material> is any valid material name. <term> is an existing term name. <expression> is the new expression to be multiplied by the existing term. ■ store specifies that the modified term will be saved to TDR files.
-  - _Keywords:_ expression, TDR, MultiplyTerm, material, existing, MyTerm, multiplied, specifies
+  - <material> is any valid material name. <term> is an existing term name. <expression> is the new expression to be multiplied by the existing…
 - **Using Callback Procedures to Build Models** <a id="using-callback-procedures-to-build-models"></a>
   - NOTE Callback procedures involve complex operations. Only advanced users should use them.
-  - _Keywords:_ callback, procedures, procedure, equations, Specifies, Equation, Strings, PDEs
 - **Callbacks During Execution of the diffuse Command** <a id="callbacks-during-execution-of-the-diffuse-command"></a>
-  - In addition to calling the callback procedures at various stages during the execution of a diffuse command, Sentaurus Process calls the diffPreProcess procedure before executing the diffuse command and the diffPostProcess procedure after...
-  - _Keywords:_ diffuse, procedure, executing, addition, calling, callback, procedures, various
+  - In addition to calling the callback procedures at various stages during the execution of a diffuse command, Sentaurus Process calls the dif…
 - **6: Writing Partial Differential Equations Using Alagator** <a id="6-writing-partial-differential-equations-using-alagator"></a>
   - Using Callback Procedures to Build Models
-  - _Keywords:_ callback, Next, solution, material, procedure, details, summary, diffuse
 - **The diffPreProcess Procedure** <a id="the-diffpreprocess-procedure"></a>
-  - Sentaurus Process can initialize solution variable fields on the command line using commands such as select (see select on page 1195) and profile (see profile on page 1164). If the initialization can be standardized, it is better to use ...
-  - _Keywords:_ procedure, diffPreProcess, fields, profile, initialize, solution, clusters, defect
+  - Sentaurus Process can initialize solution variable fields on the command line using commands such as select (see select on page 1195) and p…
 - **6: Writing Partial Differential Equations Using Alagator** <a id="6-writing-partial-differential-equations-using-alagator"></a>
   - Using Callback Procedures to Build Models
-  - _Keywords:_ procedure, minimum, diffPreProcess, solution, database, diffusion, switched, UserDiffPreProcess
 - **Initialization** <a id="initialization"></a>
-  - After the execution of the diffPreProcess procedure, Sentaurus Process checks all material and solution names, and whether a callback procedure has been specified using the InitSolve keyword for the material and solution names. If a call...
-  - _Keywords:_ procedure, initialization, solution, callback, specified, material, solutions, Sentaurus
+  - After the execution of the diffPreProcess procedure, Sentaurus Process checks all material and solution names, and whether a callback proce…
 - **Building and Solving PDEs** <a id="building-and-solving-pdes"></a>
-  - After initialization, Sentaurus Process checks all material and solution names to see whether a callback procedure has been specified using the InitProc keyword (see Cleaning Up Equation Strings: InitProc on page 641). If a callback proc...
-  - _Keywords:_ callback, procedure, solution, material, specified, diffusion, equation, equations
+  - After initialization, Sentaurus Process checks all material and solution names to see whether a callback procedure has been specified using…
 - **The diffPostProcess Procedure** <a id="the-diffpostprocess-procedure"></a>
-  - Finally, the diffPostProcess procedure is called at the end of diffusion. It is used mainly to delete data fields that are no longer needed and, by default, it stores the total concentrations of point defects and deletes some temporary d...
-  - _Keywords:_ procedure, diffPostProcess, diffusion, fields, _Implant, UserDiffPostProcess, Finally, called
+  - Finally, the diffPostProcess procedure is called at the end of diffusion. It is used mainly to delete data fields that are no longer needed…
 - **Callbacks During Execution of Generic Growth Equations** <a id="callbacks-during-execution-of-generic-growth-equations"></a>
-  - NOTE This section describes the process for executing the diffuse command that includes generic material growth. This section is an extension of Callbacks During Execution of the diffuse Command on page 633.
-  - _Keywords:_ material, callback, Next, diffuse, solution, procedure, generic, growth
+  - NOTE This section describes the process for executing the diffuse command that includes generic material growth. This section is an extensi…
 - **The growthPreProcess Procedure** <a id="the-growthpreprocess-procedure"></a>
-  - The execution of each diffuse command starts with a call to the growthPreProcess procedure that initializes various reaction-related data fields or preprocesses the existing data fields.
-  - _Keywords:_ procedure, growthPreProcess, fields, UserGrowthPreProcess, execution, diffuse, starts, initializes
+  - The execution of each diffuse command starts with a call to the growthPreProcess procedure that initializes various reaction-related data f…
 - **Specifying Callback Procedures Using Keywords** <a id="specifying-callback-procedures-using-keywords"></a>
   - This section demonstrates how to use keywords to specify callback procedures.
-  - _Keywords:_ demonstrates, keywords, specify, callback, procedures
 - **Common Features of Using Keywords** <a id="common-features-of-using-keywords"></a>
-  - To avoid unnecessary repetition of content, this section describes common features that apply to all keywords described in the next sections.
-  - _Keywords:_ procedure, callback, Mat, Sol, CleanEquations, keyword, Silicon, unsets
+  - To avoid unnecessary repetition of content, this section describes common features that apply to all keywords described in the next section…
 - **Generic Procedure** <a id="generic-procedure"></a>
-  - When neither the material name nor the solution name is used in the implementation of a callback procedure, it is a generic procedure and can be used for several materials and solutions.
-  - _Keywords:_ procedure, generic, neither, material, solution, implementation, callback, several
+  - When neither the material name nor the solution name is used in the implementation of a callback procedure, it is a generic procedure and c…
 - **Cleaning Up Equation Strings: InitProc** <a id="cleaning-up-equation-strings-initproc"></a>
   - The InitProc keyword specifies the name of the callback procedure that cleans up equation strings.
-  - _Keywords:_ procedure, callback, ResetEquations, InitProc, equation, Silicon, pdbSetString, unsets
 - **Constructing Equation Strings: EquationProc** <a id="constructing-equation-strings-equationproc"></a>
   - The EquationProc keyword specifies the name of the callback procedure that constructs the equation string in the parameter database.
-  - _Keywords:_ Silicon, SetEquations, procedure, Sol, callback, pdbSetString, Mat, Arrhenius
 - **6: Writing Partial Differential Equations Using Alagator** <a id="6-writing-partial-differential-equations-using-alagator"></a>
   - Using Callback Procedures to Build Models
-  - _Keywords:_ Sol, Mat, Recomb, pdbDelayDouble, RCXCY, callback, procedure, CXStar
 - **Defining the Initialization Equations: InitSolve** <a id="defining-the-initialization-equations-initsolve"></a>
-  - In some cases, the initialization of solution variables is very complex and cannot be accomplished using the select command. In these cases, Sentaurus Process defines initialization equations using the Alagator language and callback proc...
-  - _Keywords:_ solution, callback, variable, procedure, initialization, Sentaurus, Process, initialized
+  - In some cases, the initialization of solution variables is very complex and cannot be accomplished using the select command. In these cases…
 - **Constructing Initialization Equation String: EquationInitProc** <a id="constructing-initialization-equation-string-equationinitproc"></a>
   - The EquationInitProc keyword specifies the name of the callback procedure that constructs the equation string for initialization.
-  - _Keywords:_ Sol, procedure, callback, Mat, EquationInitProc, SetInitEquations, keyword, initialization
 - **Cleaning Up Equation Strings and Terms: InitGrowth** <a id="cleaning-up-equation-strings-and-terms-initgrowth"></a>
-  - NOTE The InitGrowth keyword is specific to generic growth equations (see Callbacks During Execution of Generic Growth Equations on page 638).
-  - _Keywords:_ procedure, callback, equation, resets, Mat, Sol, ResetEquations, TEOS
+  - NOTE The InitGrowth keyword is specific to generic growth equations (see Callbacks During Execution of Generic Growth Equations on page 638…
 - **Constructing Equation Strings: EquationGrowthProc** <a id="constructing-equation-strings-equationgrowthproc"></a>
-  - NOTE The EquationGrowthProc keyword is specific to generic growth equations (see Callbacks During Execution of Generic Growth Equations on page 638).
-  - _Keywords:_ Sol, Mat, procedure, mater2, equation, pdbSetString, _TEOS, EquationGrowthProc
+  - NOTE The EquationGrowthProc keyword is specific to generic growth equations (see Callbacks During Execution of Generic Growth Equations on…
 - **Epitaxy Growth Rate: GrowthRateProc** <a id="epitaxy-growth-rate-growthrateproc"></a>
   - NOTE The GrowthRateProc keyword is specific for epitaxial growth (see Epitaxial Growth on page 629).
-  - _Keywords:_ ambient, GrowthRateProc, growth, Mat, Amb, simDelayDouble, Diffuse, keyword
 - **Summary** <a id="summary"></a>
   - This section summarizes the use of Alagator to write PDEs and the use of callback procedures.
-  - _Keywords:_ summarizes, Alagator, PDEs, callback, procedures
 - **Diffusion** <a id="diffusion"></a>
-  - You have been shown how to set up diffusion equations and boundary equations, and to initialize solution variables. The explained approach is perfectly suitable for a small set of solutions, which can be included in one input file and us...
-  - _Keywords:_ equations, solutions, models, You, diffusion, boundary, initialize, solution
+  - You have been shown how to set up diffusion equations and boundary equations, and to initialize solution variables. The explained approach…
 - **1. Parameter Database Entries** <a id="1-parameter-database-entries"></a>
-  - All of the default Sentaurus Process model parameters such as diffusivities are stored in the parameter database located in the subdirectory \$SCHOME/Params. This allows you to examine the parameters in the Parameter Database (PDB) Brows...
-  - _Keywords:_ Silicon, pdbSetDouble, Arrhenius, stored, database, Cstar, pdbSetString, Recomb
+  - All of the default Sentaurus Process model parameters such as diffusivities are stored in the parameter database located in the subdirector…
 - **2. Solution Names and Callback Procedures** <a id="2-solution-names-and-callback-procedures"></a>
-  - The names of the solution variables and the names of the callback procedures are stored in the SPROCESS.models file located in the \$SPHOME/TclLib subdirectory. From the earlier example, the following would be stored in the SPROCESS.mode...
-  - _Keywords:_ pdbSetString, Silicon, InitProc, ResetEquations, solution, stored, SPROCESS, models
+  - The names of the solution variables and the names of the callback procedures are stored in the SPROCESS.models file located in the \$SPHOME…
 - **3. Model Files** <a id="3-model-files"></a>
   - The definition of the diffusion and initialization models are stored in Tcl files located in the \$SPHOME/TclLib subdirectory:
-  - _Keywords:_ Sol, Mat, pdbDelayDouble, LogFile, procedure, callback, equation, Equation
 - **Generic Growth** <a id="generic-growth"></a>
-  - You have been shown how to set up reaction equations and fluxes. The explained approach is perfectly suitable for a small set of solutions, which can be included in one input file and used. However, expanding and maintaining such a file ...
-  - _Keywords:_ solutions, models, You, reaction, equations, fluxes, explained, approach
+  - You have been shown how to set up reaction equations and fluxes. The explained approach is perfectly suitable for a small set of solutions,…
 - **1. Parameter Database Entries** <a id="1-parameter-database-entries"></a>
-  - All of the default Sentaurus Process model parameters such as diffusivities are stored in the parameter database located in the subdirectory \$SCHOME/Params. This allows you to examine the parameters in the PDB Browser and to use shortha...
-  - _Keywords:_ pdbSetDouble, stored, database, Silicon_TEOS, Sentaurus, Process, diffusivities, located
+  - All of the default Sentaurus Process model parameters such as diffusivities are stored in the parameter database located in the subdirector…
 - **2. Solution Names and Callback Procedures** <a id="2-solution-names-and-callback-procedures"></a>
-  - The names of the reaction variables, the names of materials, and the names of callback procedures are stored in the SPROCESS.models file located in the \$SPHOME/TclLib subdirectory. From the earlier example, the following would be stored...
-  - _Keywords:_ pdbSetString, TEOS, InitGrowth, EquationGrowthProc, reaction, stored, SPROCESS, models
+  - The names of the reaction variables, the names of materials, and the names of callback procedures are stored in the SPROCESS.models file lo…
 - **3. Model Files** <a id="3-model-files"></a>
   - The definition of the reaction and initialization models are stored in Tcl files located in the \$SPHOME/TclLib subdirectory:
-  - _Keywords:_ Mat, Sol, mater2, LogFile, callback, procedure, equation, resets
 - **References** <a id="references"></a>
-  - [1] R. E. Bank et al., “Transient Simulation of Silicon Devices and Circuits,” IEEE Transactions on Electron Devices, vol. ED-32, no. 10, pp. 1992–2007, 1985.
-  - _Keywords:_ Devices, Bank, Transient, Simulation, Silicon, Circuits, IEEE, Transactions
+  - [1] R. E. Bank et al., “Transient Simulation of Silicon Devices and Circuits,” IEEE Transactions on Electron Devices, vol. ED-32, no. 10, p…
 - **Overview** <a id="overview"></a>
-  - Synopsys’ Consulting and Engineering is working continually on improving the simulation models and optimizing the model parameters for the latest technology. This effort is based on long-standing experience of model calibration for custo...
-  - _Keywords:_ models, Advanced, Calibration, Sentaurus, Process, AdvCal, simulation, _2018
+  - Synopsys’ Consulting and Engineering is working continually on improving the simulation models and optimizing the model parameters for the…
 - **Using Advanced Calibration** <a id="using-advanced-calibration"></a>
-  - Advanced Calibration is the recommended starting point for process simulation of all siliconbased, germanium-based, and 4H-SiC-based devices.
-  - _Keywords:_ SiC, Advanced, Calibration, AdvancedCalibration, AdvCal, arguments, material, SiGe
+  - Advanced Calibration is the recommended starting point for process simulation of all siliconbased, germanium-based, and 4H-SiC-based device…
 - **Additional Calibration by Users** <a id="additional-calibration-by-users"></a>
-  - Advanced Calibration is based on the assumption that all parameters that are not changed in the parameter files are the Sentaurus Process default parameters. To use the Advanced Calibration file AdvCal\_2018.06.fps, it must be sourced be...
-  - _Keywords:_ Advanced, Calibration, process, Process, Sentaurus, physical, models, calibration
+  - Advanced Calibration is based on the assumption that all parameters that are not changed in the parameter files are the Sentaurus Process d…
 - **7: Advanced Calibration** <a id="7-advanced-calibration"></a>
   - Additional Calibration by Users
-  - _Keywords:_ Additional, Calibration, Users, describes, oxidation, silicidation, models, available
 - **Oxidation** <a id="oxidation"></a>
-  - Sentaurus Process can simulate the thermal oxidation of silicon. Due to the conversion ratio from Si to $\mathrm { S i O } _ { 2 }$ being greater than one, a new volume is generated, which, in turn, leads to the motion of materials and m...
-  - _Keywords:_ oxidation, silicon, Sentaurus, Process, mathrm, thermal, contact, thickness
+  - Sentaurus Process can simulate the thermal oxidation of silicon. Due to the conversion ratio from Si to $\mathrm { S i O } _ { 2 }$ being g…
 - **Basic Oxidation** <a id="basic-oxidation"></a>
-  - The diffuse command specifies two reactive ambients for oxidation, either H2O or O2. The oxidation temperature and time must be given. The following example specifies a simple oxidation using a wet ambient temperature at for 10 minutes:1...
-  - _Keywords:_ temperature, diffuse, oxidation, specifies, ramprate, H2O, simple, minutes
+  - The diffuse command specifies two reactive ambients for oxidation, either H2O or O2. The oxidation temperature and time must be given. The…
 - **Temperature Cycles** <a id="temperature-cycles"></a>
   - The second example in Basic Oxidation also can be specified using the temp\_ramp command, for example:
-  - _Keywords:_ temperature, diffuse, MyCycle, ramprate, second, specified, MyTempRamp, diffusion
 - **Ambients and Gas Flows** <a id="ambients-and-gas-flows"></a>
-  - Sentaurus Process has a flexible scheme for dealing with gas flows. By default, several ambients are available (see Table 83), and you can create additional ones for new reactions (see reaction on page 1173).
-  - _Keywords:_ ambients, pressure, reactions, ambient, epitaxy, available, Ambient, Oxidation
+  - Sentaurus Process has a flexible scheme for dealing with gas flows. By default, several ambients are available (see Table 83), and you can…
 - **Specifying Gas Flows** <a id="specifying-gas-flows"></a>
-  - The gas\_flow command specifies a mixed gas flow by setting directly either the partial pressures of the gas components or the flow <volume/time>. When a gas\_flow is specified, it can be referred to from the temp\_ramp and diffuse comma...
-  - _Keywords:_ partial, pressure, gas_flow, MyGasFlow, diffuse, directly, pressures, components
+  - The gas\_flow command specifies a mixed gas flow by setting directly either the partial pressures of the gas components or the flow <volume…
 - **Computing Partial Pressures** <a id="computing-partial-pressures"></a>
-  - Given a flow of ${ \bf O } _ { 2 }$ in addition to a flow of $\mathrm { H } _ { 2 }$ or HCl for example, a chemical reaction between the components is taken into account: ${ \bf O } _ { 2 }$ is reduced and $\mathrm { H } _ { 2 } \mathrm ...
-  - _Keywords:_ mathrm, flowO2, flowHCl, flowH2O, reaction, HCl, flowH2, pressure
+  - Given a flow of ${ \bf O } _ { 2 }$ in addition to a flow of $\mathrm { H } _ { 2 }$ or HCl for example, a chemical reaction between the co…
 - **In Situ Steam-Generated Oxidation** <a id="in-situ-steam-generated-oxidation"></a>
-  - Specifying the in situ steam-generated (ISSG) option in the gas\_flow command means that the gas flow condition should be recognized for ISSG oxidation (see In Situ Steam-Generated Oxidation on page 677). For example:
-  - _Keywords:_ ISSG, Specifying, generated, condition, recognized, oxidation, Situ, Steam
+  - Specifying the in situ steam-generated (ISSG) option in the gas\_flow command means that the gas flow condition should be recognized for IS…
 - **Oxidant Diffusion and Reaction** <a id="oxidant-diffusion-and-reaction"></a>
-  - For the rigorous simulation of the oxidation process, the dissolution of the oxidant species at the gas–oxide interface, the transport through the existing or already grown oxide, and the consumption at the oxide–silicon interface must b...
-  - _Keywords:_ mathrm, reaction, oxidant, species, diffusion, pdbSet, interface, H2O
+  - For the rigorous simulation of the oxidation process, the dissolution of the oxidant species at the gas–oxide interface, the transport thro…
 - **Transition to Linear and Parabolic Rate Constants** <a id="transition-to-linear-and-parabolic-rate-constants"></a>
   - Assuming the stationary state in Eq. 879, the growth rate in the 1D case can be described by the Deal–Grove model:
-  - _Keywords:_ mathrm, linear, H2O, BA0, parabolic, temperature, BAW, constant
 - **Massoud Model** <a id="massoud-model"></a>
-  - This model is an empirical model that describes an enhanced growth rate in the initial regime of the oxidation. The Massoud model can be seen as an extension of the Deal–Grove model and is in good agreement with measurement. Sentaurus Pr...
-  - _Keywords:_ mathrm, MBAT, enhanced, growth, initial, regime, H2O, N2O
+  - This model is an empirical model that describes an enhanced growth rate in the initial regime of the oxidation. The Massoud model can be se…
 - **Orientation-Dependent Oxidation** <a id="orientation-dependent-oxidation"></a>
-  - For different crystal orientations, you can apply different reaction rates. Internally, Sentaurus Process computes the data fields Ori100, Ori110, and Ori111, which are the coordinates of a unit vector normal to the surface of the materi...
-  - _Keywords:_ Ori100, Ori110, Ori111, different, crystal, orientations, fields, reaction
+  - For different crystal orientations, you can apply different reaction rates. Internally, Sentaurus Process computes the data fields Ori100,…
 - **Stress-Dependent Oxidation** <a id="stress-dependent-oxidation"></a>
-  - Stress-dependent oxidation usually refers to the coupling of the oxidant diffusivity and the reaction rate to the local stress field. To handle the stress-dependent oxidant diffusion and stress-dependent reaction rate, two data fields ar...
-  - _Keywords:_ stress, Oxide, NStress, reaction, Pressure, pdbSet, H2O, N2O
+  - Stress-dependent oxidation usually refers to the coupling of the oxidant diffusivity and the reaction rate to the local stress field. To ha…
 - **Trap-Dependent Oxidation** <a id="trap-dependent-oxidation"></a>
-  - Impurities such as nitrogen and fluorine can be trapped at Oxide\_Silicon interfaces during oxidation. This will reduce the number of oxidizing sites; therefore, the oxidation rate is reduced. To switch on the trap-dependent oxidation mo...
-  - _Keywords:_ trapped, oxidation, pdbSet, nitrogen, fluorine, Oxide, _Silicon, interface
+  - Impurities such as nitrogen and fluorine can be trapped at Oxide\_Silicon interfaces during oxidation. This will reduce the number of oxidi…
 - **Trap Model** <a id="trap-model"></a>
-  - The interface Trap model describes the trapping flux of impurities by ignoring the detrapping flux. The total impurity flux at interfaces is the sum of the trapping flux into interfaces and the two-phase segregation. This can be achieved...
-  - _Keywords:_ impurity, pdbSet, trapped, interface, Trap, density, interface_material, CMax
+  - The interface Trap model describes the trapping flux of impurities by ignoring the detrapping flux. The total impurity flux at interfaces i…
 - **TrapGen Model** <a id="trapgen-model"></a>
-  - The interface TrapGen model calculates the trapping flux and the generation flux of impurities. The generation flux by reaction due to the Gen.Ambient gas is added to the Gen.Material side. For example:
-  - _Keywords:_ Gen, generation, TrapGen, pdbSet, Oxide_Silicon, Nitrogen, specified, velocity
+  - The interface TrapGen model calculates the trapping flux and the generation flux of impurities. The generation flux by reaction due to the…
 - **Dopant-Dependent Oxidation** <a id="dopant-dependent-oxidation"></a>
   - A dopant-dependent oxidation rate is incorporated through the electron concentration dependence as:
-  - _Keywords:_ mathrm, Oxide_Silicon, H2O, pdbSetDouble, quantities, dependent, oxidation, concentration
 - **Diffusion Prefactors** <a id="diffusion-prefactors"></a>
-  - The reactant diffusivities can be enhanced or retarded due to various new process conditions. If a new model does not exist to simulate the observed behavior, you might want to multiply the existing diffusivity with a prefactor.
-  - _Keywords:_ mathrm, diffusivity, N2ox, diffusivities, multiplied, O2DiffFactor, Oxide, H2ODiffFactor
+  - The reactant diffusivities can be enhanced or retarded due to various new process conditions. If a new model does not exist to simulate the…
 - **Oxidation With Dielectric on Top** <a id="oxidation-with-dielectric-on-top"></a>
-  - Thermal oxidation of silicon with a dielectric on top can be simulated in Sentaurus Process using an Alagator generic growth script. In addition to the oxidation steps outlined in Oxidation on page 659, there are the following additional...
-  - _Keywords:_ dielectric, mathrm, oxidation, interface, diffusion, oxidants, oxidant, switch
+  - Thermal oxidation of silicon with a dielectric on top can be simulated in Sentaurus Process using an Alagator generic growth script. In add…
 - **${ \Nu } _ { 2 } 0$ Oxidation** <a id="nu-2-0-oxidation"></a>
-  - In ${ \bf N } _ { 2 } \mathrm { O }$ oxidation or oxynitridation, nitrogen is trapped at ${ \mathrm { S i } } { - } { \mathrm { S i O } } _ { 2 }$ interfaces so that the number of oxidizing sites and, in turn, the oxidation rate are redu...
-  - _Keywords:_ oxidation, mathrm, N2O, Thin, Max, nitrogen, specifying, sigma_
+  - In ${ \bf N } _ { 2 } \mathrm { O }$ oxidation or oxynitridation, nitrogen is trapped at ${ \mathrm { S i } } { - } { \mathrm { S i O } } _…
 - **SiGe Oxidation** <a id="sige-oxidation"></a>
-  - Oxidation in SiGe is modeled in the same way as in silicon. The bulk material parameters for oxidation in SiGe are interpolated from silicon and germanium, depending on the mole fraction of Ge in the bulk SiGe. The interface parameters a...
-  - _Keywords:_ SiGe, silicon, germanium, interface, interpolated, fraction, Advanced, Calibration
+  - Oxidation in SiGe is modeled in the same way as in silicon. The bulk material parameters for oxidation in SiGe are interpolated from silico…
 - **SiC Oxidation** <a id="sic-oxidation"></a>
-  - Carbon atoms are generated during SiC oxidation. Some carbon atoms diffuse into oxide and react with diffusing oxidants. The reaction of carbon atoms with oxygen atoms generates carbon oxide (CO). Carbon dioxide $( \mathrm { C O } _ { 2 ...
-  - _Keywords:_ mathrm, partial, carbon, sigma_, reaction, Carbon, generated, SiC
+  - Carbon atoms are generated during SiC oxidation. Some carbon atoms diffuse into oxide and react with diffusing oxidants. The reaction of ca…
 - **where:** <a id="where"></a>
-  - ■ $C _ { c }$ is the carbon concentration in oxide, which is named CarbonReact. $k _ { b }$ is the reaction rate of a carbon atom and an oxidant. $D _ { C }$ is the diffusivity of a carbon atom in oxide. $C _ { \mathrm { o x } }$ is the ...
-  - _Keywords:_ mathrm, carbon, CarbonReact, oxidant, pdbSetDouble, concentration, interface, Oxide
+  - ■ $C _ { c }$ is the carbon concentration in oxide, which is named CarbonReact. $k _ { b }$ is the reaction rate of a carbon atom and an ox…
 - **Orientation Dependence in Silicon Carbide Oxidation** <a id="orientation-dependence-in-silicon-carbide-oxidation"></a>
-  - The four primary orientations for hexagonal polytypes, such as 4H and 6H, are Si-face ([0001]), C-face ([0001]), m-face ([1120]), and a-face ([1100]). Limited data is available for orientations other than these primary ones in hexagonal ...
-  - _Keywords:_ mathrm, orientations, primary, hexagonal, polytypes, oxidation, arbitrary, Limited
+  - The four primary orientations for hexagonal polytypes, such as 4H and 6H, are Si-face ([0001]), C-face ([0001]), m-face ([1120]), and a-fac…
 - **In Situ Steam-Generated Oxidation** <a id="in-situ-steam-generated-oxidation"></a>
-  - The low-pressure combustion of hydrogen–oxygen mixtures is effective in producing highquality oxides. Combustion-like chemical reactions are initiated over the heated wafer, producing a high density of gas-phase radicals (O– and OH–) tha...
-  - _Keywords:_ mathrm, oxygen, pressure, ISSG, Limit, hydrogen, oxidation, concentration
+  - The low-pressure combustion of hydrogen–oxygen mixtures is effective in producing highquality oxides. Combustion-like chemical reactions ar…
 - **Nitridation** <a id="nitridation"></a>
-  - Nitridation of silicon material injects vacancies, reduces the defects due to high interstitial supersaturation, and enhances vacancy-mediated diffusion of dopants. The vacancy injection model is described in Surface Recombination Model:...
-  - _Keywords:_ silicon, dependency, vacancy, nitride, Nitridation, material, injects, vacancies
+  - Nitridation of silicon material injects vacancies, reduces the defects due to high interstitial supersaturation, and enhances vacancy-media…
 - **Silicidation** <a id="silicidation"></a>
-  - You can define models for new materials and reactions. This capability has been used to define models for the growth of titanium, tungsten, cobalt, and nickel silicides. The following sections describe the kinetics of $\mathrm { T i } \m...
-  - _Keywords:_ define, models, growth, silicides, mathrm, You, materials, reactions
+  - You can define models for new materials and reactions. This capability has been used to define models for the growth of titanium, tungsten,…
 - **$\mathrm { T i S i } _ { 2 }$ Growth Kinetics** <a id="mathrm-t-i-s-i-2-growth-kinetics"></a>
-  - Titanium silicide is assumed to form when silicon atoms react in the silicide with titanium at the titanium silicide–titanium $( \mathrm { T i S i } _ { 2 } – \mathrm { T i } )$ interface. The dissolution of silicon and the consumption o...
-  - _Keywords:_ mathrm, silicon, titanium, silicide, interface, dissolution, silicidation, reaction
+  - Titanium silicide is assumed to form when silicon atoms react in the silicide with titanium at the titanium silicide–titanium $( \mathrm {…
 - **$\mathrm { T i S i } _ { 2 }$ Formation Reactions** <a id="mathrm-t-i-s-i-2-formation-reactions"></a>
   - At the $\mathrm { T i } \mathrm { S i } _ { 2 }$ –silicon interface, there is the reaction:
-  - _Keywords:_ mathrm, silicon, interface, pdbSet, SiliconReact, material, reaction, Beta
 - **Tungsten-, Cobalt-, and Nickel-Silicide Models** <a id="tungsten-cobalt-and-nickel-silicide-models"></a>
-  - The tungsten-, cobalt-, and nickel-silicide models are identical in form to the titanium-silicide model. The parameters of the models are different, however, reflecting the differences between the materials (see [3][4] for the tungsten-s...
-  - _Keywords:_ silicide, mathrm, tungsten, cobalt, models, materials, nickel, identical
+  - The tungsten-, cobalt-, and nickel-silicide models are identical in form to the titanium-silicide model. The parameters of the models are d…
 - **Multiphase Nickel Silicidation** <a id="multiphase-nickel-silicidation"></a>
-  - Besides the fact that nickel silicide (NiSi) shows the useful electrical property of low resistivity $( 1 2 - 2 0 \mu \Omega \cdot \mathrm { c m } )$ ), the nickel silicidation process has other advantages such as no line width effect, l...
-  - _Keywords:_ mathrm, pdbSet, NickelSilicide, NiSi, partial, Omega_, MassDensity, Component
+  - Besides the fact that nickel silicide (NiSi) shows the useful electrical property of low resistivity $( 1 2 - 2 0 \mu \Omega \cdot \mathrm…
 - **Stress-Dependent Silicidation** <a id="stress-dependent-silicidation"></a>
-  - NOTE The stress-dependent silicidation model is experimental and can become unstable and can produce irregular shapes. Fundamental changes to the model are possible in future releases.
-  - _Keywords:_ stress, silicide, reaction, NickelSilicide, dependent, silicidation, pdbSet, StressDependentSilicidation
+  - NOTE The stress-dependent silicidation model is experimental and can become unstable and can produce irregular shapes. Fundamental changes…
 - **Oxygen-Retarded Silicidation** <a id="oxygen-retarded-silicidation"></a>
-  - The silicidation process can be influenced by the presence of oxygen in the silicide. This oxygen is assumed to enter the silicide at interfaces with silicon dioxide and to diffuse in the silicide according to Fick’s law. The oxygen reta...
-  - _Keywords:_ silicide, silicon, oxygen, ORSoxygen_TiSilicide, silicidation, factor, switched, Silicon
+  - The silicidation process can be influenced by the presence of oxygen in the silicide. This oxygen is assumed to enter the silicide at inter…
 - **Triple-Point Control** <a id="triple-point-control"></a>
-  - During silicidation, triple points where more than two materials come together (such as oxide, silicon, and silicide node) can move inadvertently due to material consumption around the node. To control the movement, a retardation factor ...
-  - _Keywords:_ triple, material, factor, Factor, suppression, pdbSet, silicidation, around
+  - During silicidation, triple points where more than two materials come together (such as oxide, silicon, and silicide node) can move inadver…
 - **Dopants and Defects in Oxides and Silicides** <a id="dopants-and-defects-in-oxides-and-silicides"></a>
-  - Dopants in oxides and silicides are modeled in the same way as in other nonsemiconductor materials. Transport within a silicide or an oxide is governed by simple diffusion (that is, no electric field effects). For details on segregation ...
-  - _Keywords:_ silicide, interfaces, silicon, current, specifies, generation, Dopants, oxides
+  - Dopants in oxides and silicides are modeled in the same way as in other nonsemiconductor materials. Transport within a silicide or an oxide…
 - **Numerics** <a id="numerics"></a>
-  - During oxidation or silicidation, one material grows at the expense of another material. To handle the growth of materials, Sentaurus Process uses two different time loops – outer and inner – as shown in Figure 78 for the case of oxidation.
-  - _Keywords:_ material, Solve, oxidation, growth, details, summary, Time, Loop
+  - During oxidation or silicidation, one material grows at the expense of another material. To handle the growth of materials, Sentaurus Proce…
 - **Outer Time Loop** <a id="outer-time-loop"></a>
-  - The diffusion equation for the oxidants is solved using the general PDE solver in Sentaurus Process. In addition, a predictor for the next time step (oxidation time step) is computed. When the concentrations of oxidants at the oxide–sili...
-  - _Keywords:_ oxidants, computed, velocities, mechanics, problem, diffusion, equation, solved
+  - The diffusion equation for the oxidants is solved using the general PDE solver in Sentaurus Process. In addition, a predictor for the next…
 - **Inner Time Loop** <a id="inner-time-loop"></a>
-  - Given a mesh and the velocity field, a time step (grid time step) can be computed so that elements do not collapse when applying the velocities to the nodes of the mesh (moving mesh). In the next time step, the dopant diffusion is solved...
-  - _Keywords:_ Solve, Time, elements, Diffusion, velocities, oxidation, material, velocity
+  - Given a mesh and the velocity field, a time step (grid time step) can be computed so that elements do not collapse when applying the veloci…
 - **References** <a id="references"></a>
-  - [1] N. Sullivan et al., “Exploring ISSG Process Space,” in 9th International Conference on Advanced Thermal Processing of Semiconductors (RTP), Anchorage, AK, USA, pp. 95– 110, September 2001. [2] M. M. Moslehi and K. C. Saraswat, “Therm...
-  - _Keywords:_ formation, Journal, Materials, Process, Thermal, Zhang, silicide, silicon
+  - [1] N. Sullivan et al., “Exploring ISSG Process Space,” in 9th International Conference on Advanced Thermal Processing of Semiconductors (R…
 - **Overview of Mechanical Stress** <a id="overview-of-mechanical-stress"></a>
-  - Mechanical stress has an important role in process modeling. It controls the structural integrity of the device, the yield from the process depends on stresses, the mobility of charged carriers is changed by stresses, and leakage current...
-  - _Keywords:_ stresses, equations, material, materials, stress, Sentaurus, Process, process
+  - Mechanical stress has an important role in process modeling. It controls the structural integrity of the device, the yield from the process…
 - **Material Models** <a id="material-models"></a>
-  - Sentaurus Process implements the viscous, viscoelastic, and elastic models in a general manner, where the viscous model and elastic model can be derived from the viscoelastic model. The viscous and viscoelastic models use shear stress–de...
-  - _Keywords:_ elastic, viscous, viscoelastic, models, Sentaurus, Process, implements, general
+  - Sentaurus Process implements the viscous, viscoelastic, and elastic models in a general manner, where the viscous model and elastic model c…
 - **Viscoelastic Materials** <a id="viscoelastic-materials"></a>
-  - The viscoelastic material response is characterized by elastic and viscous components. The combined response depends on how elastic and viscous stresses or strains are coupled. Sentaurus Process provides two commonly used combinations:
-  - _Keywords:_ response, elastic, viscous, viscoelastic, material, characterized, components, combined
+  - The viscoelastic material response is characterized by elastic and viscous components. The combined response depends on how elastic and vis…
 - **Maxwell Model** <a id="maxwell-model"></a>
-  - The viscoelastic behavior for the Maxwell model is obtained by combining elastic and viscous responses in series. The stress–strain equations are written in terms of dilatational and deviatoric components. The equations for the volumetri...
-  - _Keywords:_ sigma_, stress, boldsymbol, viscosity, deviatoric, mathsf, modulus, viscoelastic
+  - The viscoelastic behavior for the Maxwell model is obtained by combining elastic and viscous responses in series. The stress–strain equatio…
 - **Standard Linear Solid Model** <a id="standard-linear-solid-model"></a>
-  - In the standard linear solid model, the material behavior is modeled by combining the elastic response in parallel with the Maxwell model–based viscoelastic response:
-  - _Keywords:_ mathrm, sigma_, viscoelastic, stress, elastic, response, Maxwell, varepsilon_
+  - In the standard linear solid model, the material behavior is modeled by combining the elastic response in parallel with the Maxwell model–b…
 - **where:** <a id="where"></a>
-  - ■ $K _ { \mathrm { b a s e } }$ and $G _ { \mathrm { b a s e } }$ are the bulk and shear moduli for the elastic response, respectively. and are the bulk and shear moduli for the elastic component of the viscoelasticK G response, respecti...
-  - _Keywords:_ response, mathrm, elastic, viscoelastic, respectively, material, Mechanics, Maxwell
+  - ■ $K _ { \mathrm { b a s e } }$ and $G _ { \mathrm { b a s e } }$ are the bulk and shear moduli for the elastic response, respectively. and…
 - **Purely Viscous Materials** <a id="purely-viscous-materials"></a>
-  - Oxide and nitride, by default, are treated as viscoelastic materials. However, the viscosity is a function of temperature (see Eq. 950). With increasing temperature, the viscosity decreases, that is, the material becomes increasingly mor...
-  - _Keywords:_ material, viscosity, sigma_, viscoelastic, temperature, varepsilon, viscous, process
+  - Oxide and nitride, by default, are treated as viscoelastic materials. However, the viscosity is a function of temperature (see Eq. 950). Wi…
 - **Shear Stress–Dependent Viscosity** <a id="shear-stress-dependent-viscosity"></a>
-  - For viscous and viscoelastic materials, the viscosity can depend on the temperature and the shear stress $\sigma _ { \mathrm { { s } } }$ . The temperature dependency is described by Eq. 950. The dependency on the shear stress is given by:
-  - _Keywords:_ mathrm, sigma_, stress, viscosity, VcritW, viscoelastic, materials, temperature
+  - For viscous and viscoelastic materials, the viscosity can depend on the temperature and the shear stress $\sigma _ { \mathrm { { s } } }$ .…
 - **Purely Elastic Materials** <a id="purely-elastic-materials"></a>
   - If the viscosity in Eq. 947, p. 695 is chosen high enough, the second term on the left can be neglected and the equation reads:
-  - _Keywords:_ modulus, elastic, material, materials, Young, Poisson, viscosity, equation
 - **Anisotropic Elastic Materials** <a id="anisotropic-elastic-materials"></a>
   - The stress and strain relations for anisotropic elastic materials can be described using:
-  - _Keywords:_ mathrm, mathfrak, strain, components, stress, engineering, tensor, corresponds
 - **Cubic Crystal Anisotropy** <a id="cubic-crystal-anisotropy"></a>
-  - The mechanical responses of a crystalline solid vary along various crystal orientations. For a cubic crystal, the axes of reference are chosen to be parallel to the crystal axes. In a coordinate system with axes aligned along the crystal...
-  - _Keywords:_ crystal, pdbSet, Silicon, Mechanics, anisotropic, crystalline, coordinate, stiffness
+  - The mechanical responses of a crystalline solid vary along various crystal orientations. For a cubic crystal, the axes of reference are cho…
 - **Hexagonal Crystal Anisotropy** <a id="hexagonal-crystal-anisotropy"></a>
-  - The mechanical responses of a crystalline solid vary along various crystal orientations. Hexagonal close-packed crystals contain a plane of isotropy. In a coordinate system with axes aligned along the crystal axes, the symmetric stiffnes...
-  - _Keywords:_ material, pdbSet, Mechanics, crystal, crystalline, coordinate, stiffness, matrix
+  - The mechanical responses of a crystalline solid vary along various crystal orientations. Hexagonal close-packed crystals contain a plane of…
 - **Orthotropic Model** <a id="orthotropic-model"></a>
-  - Orthotropic materials have three planes of symmetry. In a coordinate system with axes aligned along the symmetry planes, the symmetric stiffness matrix has the following nonzeroC components: $C _ { 1 1 } , C _ { 2 2 } , C _ { 3 3 } , C _...
-  - _Keywords:_ material, Mechanics, pdbSetDouble, upsilon_, specified, planes, symmetry, Poisson
+  - Orthotropic materials have three planes of symmetry. In a coordinate system with axes aligned along the symmetry planes, the symmetric stif…
 - **Plastic Materials** <a id="plastic-materials"></a>
-  - Materials such as metals show linear elastic behavior at lower stresses but undergo permanent deformation at higher stresses. At low temperatures, permanent deformation in these materials is not sensitive to the rate of loading. Such mat...
-  - _Keywords:_ material, behavior, stresses, permanent, deformation, plastic, Materials, metals
+  - Materials such as metals show linear elastic behavior at lower stresses but undergo permanent deformation at higher stresses. At low temper…
 - **Incremental Plasticity** <a id="incremental-plasticity"></a>
   - Plastic material behavior under nonmonotonic loading is modeled using incremental formulation.
-  - _Keywords:_ mathrm, Incremental, hardening, plastic, Plasticity, material, Mechanics, isotropic
 - **Mole Fraction–Dependent Mechanical Properties of Compound Materials** <a id="mole-fraction-dependent-mechanical-properties-of-compound-ma"></a>
-  - The mechanical properties of compound materials change with the ratio of substance concentration, that is, mole fraction. For general information about alloys, mole fraction computation, and parameter interpolation, see Alloy Materials a...
-  - _Keywords:_ materials, fraction, elastic, defined, compound, dependency, interpolated, mechanical
+  - The mechanical properties of compound materials change with the ratio of substance concentration, that is, mole fraction. For general infor…
 - **Temperature-Dependent Mechanical Properties** <a id="temperature-dependent-mechanical-properties"></a>
-  - The mechanical properties of materials are different at high temperature from those at room temperature. The elastic modulus of typical materials decreases as temperature rises. Some materials show nonnegligible changes of mechanical pro...
-  - _Keywords:_ temperature, dependency, materials, anisotropic, mechanical, elastic, syntax, properties
+  - The mechanical properties of materials are different at high temperature from those at room temperature. The elastic modulus of typical mat…
 - **Plane Stress Analysis** <a id="plane-stress-analysis"></a>
-  - In 2D problems, the elastic models implemented in Sentaurus Process follow the plane strain formulation by default. Under the plane strain assumption:
-  - _Keywords:_ strain, varepsilon_, stress, structures, elastic, assumption, sigma_, compared
+  - In 2D problems, the elastic models implemented in Sentaurus Process follow the plane strain formulation by default. Under the plane strain…
 - **Equations: Global Equilibrium Condition** <a id="equations-global-equilibrium-condition"></a>
   - The equations for mechanics in Sentaurus Process are the quasistatic equations of force equilibrium.
-  - _Keywords:_ equations, partial, corners, mechanics, strain, velocity, stresses, quasistatic
 - **Boundary Conditions** <a id="boundary-conditions"></a>
   - Equations for stress equilibrium require boundary conditions to define the system completely.
-  - _Keywords:_ boundary, conditions, penalty, Dirichlet, condition, method, factor, system
 - **Example: Applying Boundary Conditions** <a id="example-applying-boundary-conditions"></a>
   - This 2D example simulates silicon covered with oxide, with the right side free to move:
-  - _Keywords:_ spacing, Mechanics, silicon, region, stressdata, location, pdbSet, Oxide
 - **Deprecated Syntax** <a id="deprecated-syntax"></a>
   - You can select various boundary conditions using:
-  - _Keywords:_ You, select, various, boundary, conditions, pdbSet, Mechanics, BoundaryCondition
 - **where:** <a id="where"></a>
   - <side> is Left, Right, Front, or Back. <model> is HomNeumann or Dirichlet.
-  - _Keywords:_ boundary, HomNeumann, condition, Right, details, summary, pdbSet, Mechanics
 - **Pressure Boundary Condition** <a id="pressure-boundary-condition"></a>
-  - The pressure boundary condition is used to apply uniform pressure on the exterior boundary. The direction of the loading depends on the normal of the exterior surface. To apply the pressure boundary condition, use the stressdata command,...
-  - _Keywords:_ pressure, boundary, condition, exterior, stressdata, uniform, direction, loading
+  - The pressure boundary condition is used to apply uniform pressure on the exterior boundary. The direction of the loading depends on the nor…
 - **Periodic Boundary Condition** <a id="periodic-boundary-condition"></a>
-  - The periodic boundary condition is used for structures with a periodically repeating pattern. This condition is used on periodic structures with assigned master and slave boundaries. The slave boundary has the same deformation profile as...
-  - _Keywords:_ boundary, periodic, condition, pdbSet, Periodic, Mechanics, conditions, penalty
+  - The periodic boundary condition is used for structures with a periodically repeating pattern. This condition is used on periodic structures…
 - **Stress-Causing Mechanisms** <a id="stress-causing-mechanisms"></a>
-  - Every mechanical system needs a set of stress-driving mechanisms to reach a stressed state. The stress-inducing mechanisms in Sentaurus Process are described here.
-  - _Keywords:_ stress, mechanisms, Every, mechanical, system, driving, stressed, inducing
+  - Every mechanical system needs a set of stress-driving mechanisms to reach a stressed state. The stress-inducing mechanisms in Sentaurus Pro…
 - **Growth of Material** <a id="growth-of-material"></a>
-  - During the oxidation process, volume is produced. Consuming silicon of volume 1 during thermal oxidation produces oxide of volume 2.25. This process introduces velocities at a growing interface: A velocity vector pointing into the silico...
-  - _Keywords:_ volume, oxidation, process, silicon, velocity, vector, pointing, mechanical
+  - During the oxidation process, volume is produced. Consuming silicon of volume 1 during thermal oxidation produces oxide of volume 2.25. Thi…
 - **Densification** <a id="densification"></a>
-  - A typical densification process uses thermal heating to increase the density of a porous material. As the material density increases, its volume shrinks and the volume shrinkage generates stresses.
-  - _Keywords:_ density, increase, densification, diffuse, material, process, volume, temperature
+  - A typical densification process uses thermal heating to increase the density of a porous material. As the material density increases, its v…
 - **Selectively Switching Off Grid Movement** <a id="selectively-switching-off-grid-movement"></a>
-  - The parameter MinimumVelocity can be used to selectively switch off point or interface movement. This can be useful, for example, when a mechanics simulation computes a small amount of boundary movement that is either unwanted or could c...
-  - _Keywords:_ material, MinimumVelocity, interface, movement, points, underscore, applies, truncation
+  - The parameter MinimumVelocity can be used to selectively switch off point or interface movement. This can be useful, for example, when a me…
 - **Thermal Mismatch** _(p.73–75)_ <a id="thermal-mismatch"></a>
-  - Temperature changes during the process described by the temp\_ramp command or the keyword ramprate in the diffuse command lead to stress in the structure caused by the different coefficients of thermal expansion of the relevant materials.
-  - _Keywords:_ mathbf, thermal, expansion, stress, temperature, substrate, coefficient, Mechanics
+  - Temperature changes during the process described by the temp\_ramp command or the keyword ramprate in the diffuse command lead to stress in…
 - **Lattice Mismatch** _(p.75)_ <a id="lattice-mismatch"></a>
-  - The presence of impurities, such as germanium and carbon, can change the lattice parameters of crystalline silicon. This effect has been exploited in two ways technologically:
-  - _Keywords:_ lattice, strain, strained, spacing, relaxed, region, silicon, SiGe
+  - The presence of impurities, such as germanium and carbon, can change the lattice parameters of crystalline silicon. This effect has been ex…
 - **Using the Lattice Mismatch Model** <a id="using-the-lattice-mismatch-model"></a>
-  - For the most common case of SiGe layers grown on silicon substrates, the model is switched on by default, and strain is computed and updated as necessary. For simulating other alloy material systems, a few settings are required to instru...
-  - _Keywords:_ lattice, substrate, strain, mismatch, region, relaxed, constant, mathrm
+  - For the most common case of SiGe layers grown on silicon substrates, the model is switched on by default, and strain is computed and update…
 - **Total Concentration Model** <a id="total-concentration-model"></a>
-  - The total concentration model computes the total contribution of lattice mismatch stress with the current impurity concentration and the elastic moduli at the current temperature. For binary compound materials, the elastic moduli are com...
-  - _Keywords:_ lattice, mismatch, stress, current, elastic, moduli, concentration, contribution
+  - The total concentration model computes the total contribution of lattice mismatch stress with the current impurity concentration and the el…
 - **Reference Concentration Model** <a id="reference-concentration-model"></a>
-  - The reference concentration model is a simplified lattice mismatch model, which does not distinguish the relaxed region and strained region by specifying the location of the top of the relaxed region. Only the relative concentration acco...
-  - _Keywords:_ mathrm, lattice, concentration, region, reference, relaxed, spacing, strain
+  - The reference concentration model is a simplified lattice mismatch model, which does not distinguish the relaxed region and strained region…
 - **Strained Deposition** <a id="strained-deposition"></a>
-  - Impurity-induced stress can be introduced locally during deposition to account for a latticespacing change due to stress rebalancing. For example, the SiGe lattice spacing during unconstrained growth gradually returns to the unconstraine...
-  - _Keywords:_ lattice, deposition, spacing, stress, during, strained, SiGe, deposited
+  - Impurity-induced stress can be introduced locally during deposition to account for a latticespacing change due to stress rebalancing. For e…
 - **Edge Dislocation** <a id="edge-dislocation"></a>
-  - The existence of crystal lattice defects, such as dislocation, affects the channel stress state. The impact of edge dislocation is included by superposing the dislocation-induced stress field for an isotropic infinite medium from elastic...
-  - _Keywords:_ dislocation, stress, orient, existence, crystal, lattice, defects, affects
+  - The existence of crystal lattice defects, such as dislocation, affects the channel stress state. The impact of edge dislocation is included…
 - **where:** <a id="where"></a>
-  - dislocation.origin is the location of the dislocation core. para.orient specifies the direction of the edge dislocation or the direction of the half plane. perp.orient is the Burgers vector in the perpendicular direction to the half plan...
-  - _Keywords:_ dislocation, stress, origin, direction, dislocations, region, defined, Burgers
+  - dislocation.origin is the location of the dislocation core. para.orient specifies the direction of the edge dislocation or the direction of…
 - **Intrinsic Stress** <a id="intrinsic-stress"></a>
-  - Certain process steps require the deposition of materials with intrinsic stresses. Sentaurus Process can be used to model these process steps. The intrinsic stresses (StressELXX, StressELYY, StressELZZ, StressELXY, StressELYZ, StressELZX...
-  - _Keywords:_ sigma_, material, intrinsic, stresses, Mechanics, stress, stressdata, Deposit
+  - Certain process steps require the deposition of materials with intrinsic stresses. Sentaurus Process can be used to model these process ste…
 - **Stress Rebalancing After Etching and Deposition** <a id="stress-rebalancing-after-etching-and-deposition"></a>
-  - When materials are removed from or added to a given structure, physical stress distributions generally change with the corresponding geometry and boundary changes. In simulations, a stress-rebalancing step is required to re-establish the...
-  - _Keywords:_ stress, rebalancing, materials, balancing, structure, distributions, required, etching
+  - When materials are removed from or added to a given structure, physical stress distributions generally change with the corresponding geomet…
 - **Automated Tracing of Stress History** <a id="automated-tracing-of-stress-history"></a>
-  - Thermal residual stress in a given device structure is a function of its fabrication history, which consists of process steps at various temperatures and temperature ramps in between. To model stress evolution accurately, all temperature...
-  - _Keywords:_ stress, temperature, history, process, between, traced, StressHistory, rebalancing
+  - Thermal residual stress in a given device structure is a function of its fabrication history, which consists of process steps at various te…
 - **Sentaurus Process–ParaDiS Application Programming Interface** <a id="sentaurus-process-paradis-application-programming-interface"></a>
-  - The Parallel Dislocation Simulator (ParaDiS) is a free discrete dislocation dynamics (DDD) simulator originally developed at Lawrence Livermore National Laboratory. ParaDiS can simulate the movement of dislocations in response to the for...
-  - _Keywords:_ ParaDiS, simulation, stress, dislocation, Process, domain, mechanics, Sentaurus
+  - The Parallel Dislocation Simulator (ParaDiS) is a free discrete dislocation dynamics (DDD) simulator originally developed at Lawrence Liver…
 - **Saving Stress and Strain Components** <a id="saving-stress-and-strain-components"></a>
-  - By default, stress-tensor components are saved on both elements and nodes. The elastic portions of the strain-tensor components also are saved on both elements and nodes by default. The elastic strains are computed from stresses using is...
-  - _Keywords:_ stress, tensor, components, elastic, elements, strain, elasticity, pdbSet
+  - By default, stress-tensor components are saved on both elements and nodes. The elastic portions of the strain-tensor components also are sa…
 - **Description of Output Fields** <a id="description-of-output-fields"></a>
-  - Sentaurus Process assumes that stresses and strains are defined on elements. However, not all tools can read or visualize element values. For this reason, Sentaurus Process performs an element-to-node interpolation of stresses as a postp...
-  - _Keywords:_ component, unitless, element, stress, elastic, strain, Stress, StressEL
+  - Sentaurus Process assumes that stresses and strains are defined on elements. However, not all tools can read or visualize element values. F…
 - **Tracking Maximum Stresses** <a id="tracking-maximum-stresses"></a>
-  - During a typical process flow, the maximum stresses might be reached in a process step and, subsequently, the stresses might fall. If the material is prone to failure through delamination or nucleation of dislocations, the failure might ...
-  - _Keywords:_ stress, maximum, stresses, process, largest, reached, failure, stored
+  - During a typical process flow, the maximum stresses might be reached in a process step and, subsequently, the stresses might fall. If the m…
 - **Principal Stresses** <a id="principal-stresses"></a>
   - Principal stresses are normal stresses that act on the planes where shear stresses are zero, that is:
-  - _Keywords:_ sigma_, principal, stress, stresses, largest, Principal, normal, pdbSet
 - **Principal Strains** <a id="principal-strains"></a>
   - Principal strains are normal strains that act on the planes where shear strains are zero, that is:
-  - _Keywords:_ varepsilon_, mathfrak, principal, strain, strains, largest, Principal, normal
 - **Nodal Stress and Strain at Like-Material Interface** <a id="nodal-stress-and-strain-at-like-material-interface"></a>
-  - Nodal stress and strain data fields are interpolated regionwise from the corresponding element data fields. They are discontinuous across the interfaces of different materials. At the interface of like materials, the nodal fields Pressur...
-  - _Keywords:_ fields, interpolated, materials, interface, continuous, Mechanics, Boundary, Continuous
+  - Nodal stress and strain data fields are interpolated regionwise from the corresponding element data fields. They are discontinuous across t…
 - **References** <a id="references"></a>
-  - [1] R. Gatti et al., “Dislocation engineering in SiGe heteroepitaxial films on patterned Si (001) substrates,” Applied Physics Letters, vol. 98, no. 12, p. 121908, 2011. [2] Y.-C. Joo, J.-M. Paik, and J.-K. Jung, “Effect of Microstructur...
-  - _Keywords:_ Materials, Interconnects, Gatti, Dislocation, engineering, SiGe, heteroepitaxial, patterned
+  - [1] R. Gatti et al., “Dislocation engineering in SiGe heteroepitaxial films on patterned Si (001) substrates,” Applied Physics Letters, vol…
 - **Overview of Mesh Generation** <a id="overview-of-mesh-generation"></a>
-  - Sentaurus Process automatically generates meshes as they are needed. The behavior of the automatic-meshing scheme differs depending on the dimension of the simulation because of the time required to generate meshes. In one dimension and ...
-  - _Keywords:_ Sentaurus, Mesh, algorithm, meshes, refinement, Process, meshing, created
+  - Sentaurus Process automatically generates meshes as they are needed. The behavior of the automatic-meshing scheme differs depending on the…
 - **Mesh Refinement** <a id="mesh-refinement"></a>
   - Mesh refinement is a two-step process:
-  - _Keywords:_ refinement, criteria, constraints, refinebox, argument, Mesh, define, remesh
 - **Viewing Mesh Refinement** <a id="viewing-mesh-refinement"></a>
   - To aid in setting mesh refinement, you can store the current minimum edge length in each direction as a field using the command:
-  - _Keywords:_ length, direction, structures, setting, refinement, current, minimum, pdbSet
 - **Static Mesh Refinement** <a id="static-mesh-refinement"></a>
   - This section discusses static (not adaptive) mesh refinement.
-  - _Keywords:_ discusses, static, adaptive, refinement
 - **Standard Refinement Boxes** <a id="standard-refinement-boxes"></a>
-  - The standard refinement box allows you to specify a smoothly varying mesh density inside the refinement box at three locations in the x-, y- and z-directions using the xrefine, yrefine, and zrefine parameter lists, respectively.
-  - _Keywords:_ density, specified, refinement, xrefine, yrefine, zrefine, region, varying
+  - The standard refinement box allows you to specify a smoothly varying mesh density inside the refinement box at three locations in the x-, y…
 - **Interface Axis-Aligned Refinement Boxes** <a id="interface-axis-aligned-refinement-boxes"></a>
-  - Refinement near interfaces can be specified globally or constrained spatially inside a refinement box using the refinebox command. So it is possible to have a large global default minimum interface mesh-spacing, for example, and a smalle...
-  - _Keywords:_ normal, growth, interface, interfaces, refinement, global, pdbSet, Grid
+  - Refinement near interfaces can be specified globally or constrained spatially inside a refinement box using the refinebox command. So it is…
 - **Interface Offsetting Refinement Boxes** <a id="interface-offsetting-refinement-boxes"></a>
-  - In addition, the Sentaurus Mesh offsetting algorithm can be used to create offsetting layers that are conformal to the interface rather than aligned to the coordinate axes by specifying the offsetting keyword, which also permits regionwi...
-  - _Keywords:_ interface, offsetting, region, maxlevel, Sentaurus, defined, Mesh, refinebox
+  - In addition, the Sentaurus Mesh offsetting algorithm can be used to create offsetting layers that are conformal to the interface rather tha…
 - **Refinement Inside a Mask** <a id="refinement-inside-a-mask"></a>
-  - Mask-based refinements are similar to standard refinements (see Standard Refinement Boxes on page 739), except that they have an additional constraint that is defined by a volume specified by a previously existing mask. This constraint i...
-  - _Keywords:_ refinement, refinements, extend, Mask, constraint, specified, defined, applied
+  - Mask-based refinements are similar to standard refinements (see Standard Refinement Boxes on page 739), except that they have an additional…
 - **Example** <a id="example"></a>
   - First, create a mask, and then a refinement box can be issued:
-  - _Keywords:_ refinement, Mask, extrusion, First, create, issued, polygon, segments
 - **Refinement Near Mask Edges or Mark Corners** <a id="refinement-near-mask-edges-or-mark-corners"></a>
   - Refinement also can be constrained to be near mask edges or mask corners. The following arguments are available in the refinebox command:
-  - _Keywords:_ corner, refinement, extent, refinebox, refine, normal, specified, arguments
 - **Uniform Mesh Scaling** <a id="uniform-mesh-scaling"></a>
-  - Often in simulations, uniform mesh refinement is required to study mesh effects or convergence. After defining all of the other mesh refinement criteria, the mesh can be further split uniformly by a specified factor in each direction. Th...
-  - _Keywords:_ factor, binarytree, pdbSet, Grid, SnMesh, specified, refinement, direction
+  - Often in simulations, uniform mesh refinement is required to study mesh effects or convergence. After defining all of the other mesh refine…
 - **Adaptive Mesh Refinement** <a id="adaptive-mesh-refinement"></a>
-  - Tailoring a mesh to a specific problem with static refinement boxes can be tedious and timeconsuming. In addition, for some applications, dopant profiles evolve so much during the process that the areas where a finer mesh was needed at t...
-  - _Keywords:_ refinement, during, Adaptive, meshing, adaptive, addition, implantation, remesh
+  - Tailoring a mesh to a specific problem with static refinement boxes can be tedious and timeconsuming. In addition, for some applications, d…
 - **Adaptive Refinement Criteria** <a id="adaptive-refinement-criteria"></a>
-  - Numerous refinement functions are available to deal with differing fields and situations. All functions involve some comparison between values on neighboring nodes and possible values between neighboring nodes. In some cases, the same re...
-  - _Keywords:_ refinement, difference, meshing, available, adaptive, between, neighboring, Sentaurus
+  - Numerous refinement functions are available to deal with differing fields and situations. All functions involve some comparison between val…
 - **Relative Difference Criteria** <a id="relative-difference-criteria"></a>
   - The relative difference between two neighboring nodes is computed as follows:
-  - _Keywords:_ Refine, Error, relative, difference, Field, Rel, Abs, between
 - **Absolute Difference Criteria** <a id="absolute-difference-criteria"></a>
   - The absolute difference between two neighboring nodes is computed simply:
-  - _Keywords:_ absolute, difference, between, maximum, neighboring, computed, simply, expression
 - **Logarithmic Difference Criteria** <a id="logarithmic-difference-criteria"></a>
   - The logarithmic (base 10) difference between two neighboring nodes is computed as follows:
-  - _Keywords:_ difference, logarithmic, between, pdbSet, Grid, Field, Refine, refinebox
 - **Inverse Hyperbolic Sine (asinh) Difference Criteria** <a id="inverse-hyperbolic-sine-asinh-difference-criteria"></a>
   - The asinh difference between two neighboring nodes is computed as follows:
-  - _Keywords:_ difference, between, operatorname, maximum, asinhdiff, neighboring, computed, follows
 - **Gradient Criteria** <a id="gradient-criteria"></a>
   - The gradient between two neighboring nodes is computed as follows:
-  - _Keywords:_ gradient, between, maximum, neighboring, computed, follows, length, expression
 - **Local Dose Error Criteria** <a id="local-dose-error-criteria"></a>
   - If an edge between two neighboring nodes is not split, the local dose error is computed as follows:
-  - _Keywords:_ between, details, summary, simulation, computed, concentration, perpendicular, images
 - **Interval Refinement Criteria** <a id="interval-refinement-criteria"></a>
-  - Interval refinement provides a way to refine the mesh such that field values within a certain interval are well resolved. Interval refinement produces mesh edges of a specified length wherever the field values are within a specified inte...
-  - _Keywords:_ length, interval, mathrm, target, refinement, effective, Interval, specified
+  - Interval refinement provides a way to refine the mesh such that field values within a certain interval are well resolved. Interval refineme…
 - **Summary of Refinement Parameters** <a id="summary-of-refinement-parameters"></a>
-  - Table 88 lists refinebox parameters in the left column that can be used to specify boxwise refinement. The right column lists the corresponding PDB parameters that can be used to specify refinement criteria globally.
-  - _Keywords:_ GridRefine, Max, Grid, Field, refinement, refinebox, column, specify
+  - Table 88 lists refinebox parameters in the left column that can be used to specify boxwise refinement. The right column lists the correspon…
 - **Localizing Adaptive Meshing Using refinebox Command** <a id="localizing-adaptive-meshing-using-refinebox-command"></a>
-  - Adaptive meshing has been implemented through generalized refinement boxes. As such, adaptive refinement and the refinement parameters themselves can be set in a boxwise manner. The default adaptive refinement box covers the entire struc...
-  - _Keywords:_ refinement, adaptive, refinebox, refine, fields, structure, created, overrides
+  - Adaptive meshing has been implemented through generalized refinement boxes. As such, adaptive refinement and the refinement parameters them…
 - **Examples** <a id="examples"></a>
   - To switch on adaptive meshing, use:
-  - _Keywords:_ adaptive, refinebox, refine, meshing, Boron, create, modified, switch
 - **Adaptive Meshing During Diffusion** <a id="adaptive-meshing-during-diffusion"></a>
-  - Adaptive meshing during diffusion is switched on by default when adaptive meshing is switched on (in other words, pdbGet Grid Adaptive returns 1). An additional control that prevents adaptive meshing at low temperatures is specified as:
-  - _Keywords:_ during, meshing, adaptive, pdbSet, Regrid, Steps, Adaptive, switched
+  - Adaptive meshing during diffusion is switched on by default when adaptive meshing is switched on (in other words, pdbGet Grid Adaptive retu…
 - **where:** <a id="where"></a>
-  - ■ Refine.Factor is a direction-dependent parameter of the PDB under Grid. error is the error functions given in Eq. 988–Eq. 993. ■ maxerror is the maximum error parameter associated with each refinement type. actual is the ‘actual’ edge ...
-  - _Keywords:_ Refine, Grid, refinement, diffusion, remeshing, before, remesh, Diffuse
+  - ■ Refine.Factor is a direction-dependent parameter of the PDB under Grid. error is the error functions given in Eq. 988–Eq. 993. ■ maxerror…
 - **Adaptive Meshing During Implantation** <a id="adaptive-meshing-during-implantation"></a>
-  - Adaptive meshing during implantation is active whenever adaptive meshing is switched on (in other words, pdbGet Grid Adaptive returns 1). It also can be enabled or disabled for each implantation step using the Adaptive option of the impl...
-  - _Keywords:_ refinement, implantation, meshing, implanted, Adaptive, fields, computed, damage
+  - Adaptive meshing during implantation is active whenever adaptive meshing is switched on (in other words, pdbGet Grid Adaptive returns 1). I…
 - **Tips for Adaptive Meshing** <a id="tips-for-adaptive-meshing"></a>
   - Some useful suggestions when using adaptive meshing are:
-  - _Keywords:_ criteria, refinement, adaptive, meshing, stringent, Grid, global, setting
 - **Default Refinement** <a id="default-refinement"></a>
-  - In two dimensions, by default, interface refinement is applied to any interface in which one of the neighboring bulk regions is of material Silicon, Polysilicon, or Oxide. In two dimensions, the minimum normal mesh spacing near the inter...
-  - _Keywords:_ interface, refinement, normal, interfaces, dimensions, SnMesh, refinebox, Grid
+  - In two dimensions, by default, interface refinement is applied to any interface in which one of the neighboring bulk regions is of material…
 - **Examples** <a id="examples"></a>
   - The interfaces to be refined are defined as follows:
-  - _Keywords:_ normal, interface, refinebox, interfaces, refinement, silicon, materials, growth
 - **Manipulating Refinement Boxes: transform.refinement Command** <a id="manipulating-refinement-boxes-transform-refinement-command"></a>
-  - Transformations can be performed on refinement boxes using the transform.refinement command (see transform.refinement on page 1274), which works like the transform command, except for refinement boxes.
-  - _Keywords:_ refinement, original, transform, translate, transformation, specified, specifies, transformed
+  - Transformations can be performed on refinement boxes using the transform.refinement command (see transform.refinement on page 1274), which…
 - **Settings for Sentaurus Mesh** <a id="settings-for-sentaurus-mesh"></a>
   - Table 90 lists the parameters available for Sentaurus Mesh. To set the parameters, use:
-  - _Keywords:_ Specifies, algorithm, DelPSC, degrees, Sentaurus, Mesh, regions, boundary
 - **Displaying Refinement Boxes** <a id="displaying-refinement-boxes"></a>
-  - Refinement boxes are saved to TDR files for displaying in Sentaurus Visual. When loading a TDR file in Sentaurus Visual, if refinement boxes are present, RefinementBox will be listed on the Materials tab (see Figure 87 (left)). The list ...
-  - _Keywords:_ refinement, Materials, Lines, Particles, details, summary, RefinementBox, TDR
+  - Refinement boxes are saved to TDR files for displaying in Sentaurus Visual. When loading a TDR file in Sentaurus Visual, if refinement boxe…
 - **10: Mesh Generation** <a id="10-mesh-generation"></a>
   - Displaying Refinement Boxes
-  - _Keywords:_ details, summary, images, natural_image, symbols, Abstract, geometric, Left
 - **Controlling the Mesh During Moving-Boundary Problems** <a id="controlling-the-mesh-during-moving-boundary-problems"></a>
-  - Moving-boundary problems create new regions and dramatically alter the shape of existing ones. Controlling the mesh is important. This section covers some mesh control methods.
-  - _Keywords:_ Moving, boundary, problems, create, regions, dramatically, existing, Controlling
+  - Moving-boundary problems create new regions and dramatically alter the shape of existing ones. Controlling the mesh is important. This sect…
 - **TSUPREM-4 Moving-Boundary Meshing Library** <a id="tsuprem-4-moving-boundary-meshing-library"></a>
-  - The TSUPREM-4 moving-boundary meshing library is available from within Sentaurus Process (hereafter, referred to as the TS4 mesh library). By default, the TS4 mesh library performs all mesh updates in 2D moving-boundary oxidation simulat...
-  - _Keywords:_ library, TS4, TSUPREM, moving, boundary, oxidation, meshing, available
+  - The TSUPREM-4 moving-boundary meshing library is available from within Sentaurus Process (hereafter, referred to as the TS4 mesh library).…
 - **Control Parameters in TS4 Mesh Library** <a id="control-parameters-in-ts4-mesh-library"></a>
   - The control parameters of the TS4 mesh library are specified with:
-  - _Keywords:_ control, diffusion, mechanics, Grid, MergeSubAndAdd, addition, SubTimeFactor, TS4
 - **NOTE Do not change the default.** <a id="note-do-not-change-the-default"></a>
   - MinSpaceOnInterface <double> (default: 2e-6 [ ])μm
-  - _Keywords:_ interface, MinSpaceOnInterface, original, double, rebuilt, meshing, moving, boundary
 - **NOTE Do not change the default.** <a id="note-do-not-change-the-default"></a>
   - ExactGridSpace <0|1> (default: 1)
-  - _Keywords:_ material, triangle, growing, spacing, ExactGridSpace, interface, LocalGridSpace, control
 - **Moving Mesh and Mechanics Displacements** <a id="moving-mesh-and-mechanics-displacements"></a>
-  - The displacements computed by the mechanics solution during oxidation are applied to the nodes after checking against the MinimumVelocity criterion defined for each region. Velocity is the computed solution variable and is multiplied by ...
-  - _Keywords:_ computed, MinimumVelocity, displacements, solution, applied, against, mechanics, during
+  - The displacements computed by the mechanics solution during oxidation are applied to the nodes after checking against the MinimumVelocity c…
 - **Controlling the Grid Spacing** <a id="controlling-the-grid-spacing"></a>
-  - Grid spacing in the growing region is controlled by perp.add.dist. Its unit is centimeter, and the edges in growing regions are checked to see whether they are nearly perpendicular to the interface.
-  - _Keywords:_ Grid, growing, perpendicular, spacing, region, controlled, Its, centimeter
+  - Grid spacing in the growing region is controlled by perp.add.dist. Its unit is centimeter, and the edges in growing regions are checked to…
 - **Cleaning Up the Grid** <a id="cleaning-up-the-grid"></a>
-  - During oxidation or silicidation, the growing region increases at the expense of a shrinking region. The shrinking regions then have a problem of small edges. Below a certain value, these edges must be removed entirely, and the mesh arou...
-  - _Keywords:_ region, shrinking, specified, Remove, Dist, During, oxidation, silicidation
+  - During oxidation or silicidation, the growing region increases at the expense of a shrinking region. The shrinking regions then have a prob…
 - **Maximum-Allowed Rate of Growth** <a id="maximum-allowed-rate-of-growth"></a>
-  - For a minimal simulation time, it would be best if the entire thickness growth were simulated in one step. However, this is not possible for different reasons, including:
-  - _Keywords:_ dThickness, growth, thickness, IncreaseRatio, allowed, integration, increase, minimal
+  - For a minimal simulation time, it would be best if the entire thickness growth were simulated in one step. However, this is not possible fo…
 - **Miscellaneous Tricks** <a id="miscellaneous-tricks"></a>
-  - Since Sentaurus Process oxidation does not allow the interface to traverse more than one element thickness at a time, speed can be achieved by having elements with longer edge lengths near the interface.
-  - _Keywords:_ interface, normal, oxidation, Grid, SnMesh, structures, devices, increased
+  - Since Sentaurus Process oxidation does not allow the interface to traverse more than one element thickness at a time, speed can be achieved…
 - **Meshing for 3D Moving-Boundary Problems** <a id="meshing-for-3d-moving-boundary-problems"></a>
-  - Maintaining a conformal high-quality mesh during the simulation of a 3D moving mesh is very difficult because of the following requirements: moving boundaries, accurate profiles, dose conservation, minimization of the number of mesh poin...
-  - _Keywords:_ quality, moving, points, during, simulation, conservation, maintaining, elements
+  - Maintaining a conformal high-quality mesh during the simulation of a 3D moving mesh is very difficult because of the following requirements…
 - **MovingMesh Algorithm** <a id="movingmesh-algorithm"></a>
   - NOTE The MovingMesh algorithm is experimental and requires careful parameter settings. Contact TCAD Support for technical assistance.
-  - _Keywords:_ Grid, pdbSet, MovingMesh, DelPSC, surface, Repair, Geometry, Apply
 - **UseLines: Keeping User-Defined Mesh Lines** <a id="uselines-keeping-user-defined-mesh-lines"></a>
-  - During the init command, the line location and spacing specifications given by line commands are expanded into ticks and stored in the PDB and in TDR files. This is performed by default.
-  - _Keywords:_ change, continuum, meshes, stored, performed, Sentaurus, Monte, Carlo
+  - During the init command, the line location and spacing specifications given by line commands are expanded into ticks and stored in the PDB…
 - **Using line Commands After init Command** <a id="using-line-commands-after-init-command"></a>
-  - The expansion of lines from line commands into ticks (in other words, all starting mesh line locations) is performed only at the point that the lines in that direction are needed. For example, x-lines are always expanded in the init comm...
-  - _Keywords:_ dimension, direction, expanded, possible, expand, current, simulation, dimensional
+  - The expansion of lines from line commands into ticks (in other words, all starting mesh line locations) is performed only at the point that…
 - **Dimension Within Current Spatial Dimension** <a id="dimension-within-current-spatial-dimension"></a>
-  - This is encountered if the user-specified x-lines and the current spatial dimension of analyses is 1D. Or, it could happen if you specify x- or y-lines in 2D, or x-, y-, or z- lines in 3D.
-  - _Keywords:_ spacing, dimension, existing, expanded, additional, encountered, specified, current
+  - This is encountered if the user-specified x-lines and the current spatial dimension of analyses is 1D. Or, it could happen if you specify x…
 - **Dimension Greater Than Current Spatial Dimension** <a id="dimension-greater-than-current-spatial-dimension"></a>
-  - This is encountered if you specified y- or z-lines, and the current spatial dimension of analyses is 1D. Or, it could happen if you specify z-lines and the current spatial dimension of analyses is 2D.
-  - _Keywords:_ current, spatial, dimension, analyses, encountered, specified, happen, specify
+  - This is encountered if you specified y- or z-lines, and the current spatial dimension of analyses is 1D. Or, it could happen if you specify…
 - **Using line Commands to Create Virtual Spacing** <a id="using-line-commands-to-create-virtual-spacing"></a>
-  - By default, the ticks created by the line command with the spacing argument are hard lines that Sentaurus Mesh enforces whenever possible. Since such lines traverse the entire structure, they can result in unnecessary refinement, especia...
-  - _Keywords:_ spacing, virtual, created, refinement, argument, Sentaurus, Mesh, between
+  - By default, the ticks created by the line command with the spacing argument are hard lines that Sentaurus Mesh enforces whenever possible.…
 - **UseLines and the transform Command** <a id="uselines-and-the-transform-command"></a>
   - The ticks must be handled in a special manner with the transform command (see transform on page 1264).
-  - _Keywords:_ transform, handled, special, manner
 - **Reflection** <a id="reflection"></a>
   - Using transform reflect, in the reflected region, the ticks are created after applying lateral inversion along the appropriate plane.
-  - _Keywords:_ transform, reflect, reflected, region, created, applying, lateral, inversion
 - **Stretch** <a id="stretch"></a>
-  - On applying transform stretch at a given coordinate in a given direction, the existing ticks in the stretched area are translated by the amount of the stretch. You must insert lines in the stretched area appropriately.
-  - _Keywords:_ stretch, stretched, applying, transform, coordinate, direction, existing, translated
+  - On applying transform stretch at a given coordinate in a given direction, the existing ticks in the stretched area are translated by the am…
 - **Rotation** <a id="rotation"></a>
   - When applying transform rotate, the ticks also are rotated and properly transferred between x-ticks, y-ticks, and z-ticks.
-  - _Keywords:_ applying, transform, rotate, rotated, properly, transferred, between
 - **Translation** <a id="translation"></a>
   - The transform translate command shifts the ticks by the specified amount.
-  - _Keywords:_ transform, translate, shifts, specified, amount
 - **Cut** <a id="cut"></a>
   - Using transform cut, the lines in the part of the structure that is cut are deleted.
-  - _Keywords:_ transform, structure, deleted
 - **Example: Testing line Commands** <a id="example-testing-line-commands"></a>
-  - Use the following example to test line commands: ```txt line x loc=0 tag=a spacing=0.05 line x loc=0.1 spacing=0.05 line x loc=1 tag=b spacing=0.05 line y loc=0 tag=c spacing=0.01 line y loc=0.6 tag=d spacing=0.1
-  - _Keywords:_ spacing, thickness, deposit, remesh, Use, region, silicon, DelayFullD
+  - Use the following example to test line commands: ```txt line x loc=0 tag=a spacing=0.05 line x loc=0.1 spacing=0.05 line x loc=1 tag=b spac…
 - **Example: Showing Clearing Lines for a New Structure** <a id="example-showing-clearing-lines-for-a-new-structure"></a>
   - Use the following example to show clearing lines and to prepare for another structure definition within the same command file:
-  - _Keywords:_ region, silicon, FullD, Use, clearing, prepare, another, structure
 - **Data Interpolation** <a id="data-interpolation"></a>
-  - Sentaurus Process stores a copy of the mesh with all its data before performing any geometrychanging operation. This is the reference mesh used to interpolate data onto the new mesh. In three dimensions, a mesh is generated only when it ...
-  - _Keywords:_ material, interpolation, interpolated, interface, materials, elements, necessary, Data
+  - Sentaurus Process stores a copy of the mesh with all its data before performing any geometrychanging operation. This is the reference mesh…
 - **Data Interpolation Near Boundaries** <a id="data-interpolation-near-boundaries"></a>
   - Region boundaries in a mesh can move for various reasons, including:
-  - _Keywords:_ boundary, points, distance, interpolated, transferred, Interpolation, operations, tolerance
 - **Troubleshooting** <a id="troubleshooting"></a>
-  - Sometimes, the mesh generation step fails and it is unclear what the problem could be. The following are recommendations of where to look when problems arise during meshing:
-  - _Keywords:_ problem, InfoDefault, structure, quality, Sometimes, generation, higher, Sentaurus
+  - Sometimes, the mesh generation step fails and it is unclear what the problem could be. The following are recommendations of where to look w…
 - **10: Mesh Generation** <a id="10-mesh-generation"></a>
   - Troubleshooting
-  - _Keywords:_ geometry, generator, problem, dihedral, marker, structure, problems, Sentaurus
 - **Checking Mesh Quality** <a id="checking-mesh-quality"></a>
-  - At the end of each mesh generation step, Sentaurus Process checks the quality of the produced mesh and prints a report if the information level is 1 or higher.
-  - _Keywords:_ pdbSet, Grid, SnMesh, double, element, Minimum, elements, generation
+  - At the end of each mesh generation step, Sentaurus Process checks the quality of the produced mesh and prints a report if the information l…
 - **10: Mesh Generation** <a id="10-mesh-generation"></a>
   - Checking Mesh Quality
-  - _Keywords:_ Checking, Mesh, Quality, describes, etching, deposition, insertion, geometric
 - **Overview of Etching, Deposition, and Geometric Operations** <a id="overview-of-etching-deposition-and-geometric-operations"></a>
-  - During device fabrication, several etching and deposition steps are necessary. Such steps can be modeled in Sentaurus Process by simple geometric operations or simple mathematical formulations in which no physical processing is simulated.
-  - _Keywords:_ Sentaurus, etching, deposition, geometric, Topography, Process, operations, Interface
+  - During device fabrication, several etching and deposition steps are necessary. Such steps can be modeled in Sentaurus Process by simple geo…
 - **Etching** <a id="etching"></a>
   - The main specifications required for all etching steps are:
-  - _Keywords:_ etching, Etching, rowspan, isotropic, instead, Etches, anisotropic, direction
 - **11: Structure Generation** <a id="11-structure-generation"></a>
 - **Etching** <a id="etching"></a>
-  - NOTE To remove materials exposed to the top gas, use the strip command not the etch command. The strip command is used specifically for this purpose. It is more straightforward, less prone to user error, and more robust in delivering the...
-  - _Keywords:_ etching, method, specified, material, different, methods, analytic, general
+  - NOTE To remove materials exposed to the top gas, use the strip command not the etch command. The strip command is used specifically for thi…
 - **Isotropic Etching** <a id="isotropic-etching"></a>
   - Isotropic etching removes material at the same rate in all directions.
-  - _Keywords:_ Segment, isotropic, method, etching, material, either, general, resolution
 - **11: Structure Generation Etching** <a id="11-structure-generation-etching"></a>
   - An example of a multimaterial isotropic etch is (see Figure 93):
-  - _Keywords:_ isotropic, details, summary, multimaterial, material, Silicon, Oxide, Poly
 - **Anisotropic and Directional Etching** <a id="anisotropic-and-directional-etching"></a>
-  - Anisotropic etching is designed to work primarily with masks or masking layers. Anisotropic etching removes material in a direction that is purely vertically downwards (see Figure 94).
-  - _Keywords:_ etching, Anisotropic, details, summary, material, structure, images, natural_image
+  - Anisotropic etching is designed to work primarily with masks or masking layers. Anisotropic etching removes material in a direction that is…
 - **NOTE With regard to anisotropic etching:** <a id="note-with-regard-to-anisotropic-etching"></a>
-  - Anisotropic operations are sensitive to numeric noise at vertical or nearly vertical walls. If the etch command is supposed to remove the entire layer, care must be taken to overetch by a small amount to prevent thin regions remaining du...
-  - _Keywords:_ etching, etched, material, anisotropic, underneath, materials, numeric, vertical
+  - Anisotropic operations are sensitive to numeric noise at vertical or nearly vertical walls. If the etch command is supposed to remove the e…
 - **11: Structure Generation Etching** <a id="11-structure-generation-etching"></a>
-  - ![](images/sprocess_ug_part05_38cfe99eb01e2cf258ec4d8cf9d6faf7161361538a71d280e09694c7de0c0824.jpg)
-  - _Keywords:_ details, summary, etching, images, direction, Bottom, natural_image, symbols
+  - <details> <summary>natural_image</summary>
 - **Polygonal Etching and CMP** <a id="polygonal-etching-and-cmp"></a>
-  - Polygonal etching provides a way of modifying a region without having to define etching rates or the direction of the etch. The parts of the region inside the polygon that is etched are replaced by gas.
-  - _Keywords:_ etching, polygon, details, summary, material, Polygonal, region, CMP
+  - Polygonal etching provides a way of modifying a region without having to define etching rates or the direction of the etch. The parts of th…
 - **Fourier Etching** <a id="fourier-etching"></a>
-  - In Fourier etching, the etching rate is a function of the angle between the incident etching beam and the normal vector of the surface being etched. This allows for reasonably directional etching with control of the slope of sidewalls. T...
-  - _Keywords:_ etching, mathtt, Fourier, surface, direction, incidence, between, incident
+  - In Fourier etching, the etching rate is a function of the angle between the incident etching beam and the normal vector of the surface bein…
 - **11: Structure Generation** <a id="11-structure-generation"></a>
 - **Etching** <a id="etching"></a>
-  - The angle $\theta _ { i }$ in Eq. 998 is measured from the surface perpendicular to the angle of incidence for beam . The relative strength factor is the weight (strength) of each beam. Each etchingi beam must be given a unique name.
-  - _Keywords:_ etching, details, summary, Fourier, factor, direction, sources, coeffs
+  - The angle $\theta _ { i }$ in Eq. 998 is measured from the surface perpendicular to the angle of incidence for beam . The relative strength…
 - **The shadowing and shadowing.nonisotropic Options** <a id="the-shadowing-and-shadowing-nonisotropic-options"></a>
   - NOTE Shadowing is not implemented in 3D Fourier etching.
-  - _Keywords:_ Fourier, shadowing, etching, shadowed, nonisotropic, coefficient, prevents, Shadowing
 - **Crystallographic Etching** <a id="crystallographic-etching"></a>
-  - The argument crystal.rate defines etching rates for different crystallographic orientations to be used in crystallographic etching (see Defining the Crystal Orientation on page 40).
-  - _Keywords:_ etching, crystal, crystallographic, etch_rate, Crystallographic, indices, corresponding, component
+  - The argument crystal.rate defines etching rates for different crystallographic orientations to be used in crystallographic etching (see Def…
 - **Trapezoidal Etching** <a id="trapezoidal-etching"></a>
-  - Trapezoidal etching provides a simple but flexible approximation to a number of real etching processes. The location of the etch is determined by masking layers (that is, layers of nonetchable material that, if nonexistent, can be easily...
-  - _Keywords:_ etching, thickness, specifies, Trapezoidal, processes, location, masking, layers
+  - Trapezoidal etching provides a simple but flexible approximation to a number of real etching processes. The location of the etch is determi…
 - **Two-Dimensional Trapezoidal Etching** <a id="two-dimensional-trapezoidal-etching"></a>
   - Trapezoidal etching is performed as follows:
-  - _Keywords:_ Step, etching, exposed, distance, Perform, etched, undercut, vertical
 - **11: Structure Generation Etching** <a id="11-structure-generation-etching"></a>
   - Step 2. This step approximates the undercutting of the mask due to the isotropic component of the etching.
-  - _Keywords:_ etching, Step, thickness, undercut, bottom, details, summary, region
 - **Three-Dimensional Trapezoidal Etching** <a id="three-dimensional-trapezoidal-etching"></a>
   - There are two possible cases for 3D trapezoidal etching:
-  - _Keywords:_ thickness, etching, bottom, trapezoidal, specified, details, summary, optional
 - **Trapezoidal Etching Using force.full.levelset Option** <a id="trapezoidal-etching-using-force-full-levelset-option"></a>
   - When the force.full.levelset option is specified for trapezoidal etching:
-  - _Keywords:_ levelset, etching, controlled, argument, ambient, undercut, specified, thickness
 - **Piecewise Linear Etching** <a id="piecewise-linear-etching"></a>
-  - In piecewise linear etching, the etching rate is a user-defined piecewise linear function of the angle between the incident etching beam and the normal vector of the surface being etched. You define the points of angle versus rate on a m...
-  - _Keywords:_ etching, linear, piecewise, between, normal, surface, define, versus
+  - In piecewise linear etching, the etching rate is a user-defined piecewise linear function of the angle between the incident etching beam an…
 - **11: Structure Generation** <a id="11-structure-generation"></a>
 - **Etching** <a id="etching"></a>
   - For example (see Figure 112):
-  - _Keywords:_ angles, details, summary, linear, direction, factor, sources, Silicon
 - **Etching Beams** <a id="etching-beams"></a>
-  - The beam command defines the direction and the relative strength of etching beams to be used with piecewise linear etching (see Fourier Etching on page 793).
-  - _Keywords:_ etching, defines, direction, relative, strength, piecewise, linear, Fourier
+  - The beam command defines the direction and the relative strength of etching beams to be used with piecewise linear etching (see Fourier Etc…
 - **Etching Tips** <a id="etching-tips"></a>
   - Some tips for etching are:
-  - _Keywords:_ thickness, etching, simulation, memory, increased, boundary, movement, Some
 - **Deposition** <a id="deposition"></a>
   - Three main specifications are required for all deposition steps:
-  - _Keywords:_ deposition, material, specified, deposited, Deposition, method, deposit, anisotropic
 - **Isotropic Deposition** <a id="isotropic-deposition"></a>
   - For simple, conforming, isotropic deposition, the boundary is offset an equal distance in all directions. For example (see Figure 113):
-  - _Keywords:_ Segment, isotropic, deposition, details, summary, simple, conforming, boundary
 - **Polygonal Deposition and Fill** <a id="polygonal-deposition-and-fill"></a>
-  - Polygonal deposition allows you to deposit polygonal shapes. The corners must be specified as pairs of xy coordinates. Existing non-gas regions will not be overwritten.
-  - _Keywords:_ deposition, details, summary, Polygonal, deposit, specified, material, polygonal
+  - Polygonal deposition allows you to deposit polygonal shapes. The corners must be specified as pairs of xy coordinates. Existing non-gas reg…
 - **Crystallographic Deposition** <a id="crystallographic-deposition"></a>
-  - Crystallographic deposition uses the full level-set method to grow single materials whose rate of growth is determined by the crystallographic directions. The crystal is assumed to be cubic regardless of the material being deposited. Dep...
-  - _Keywords:_ directions, Layer, Crystallographic, deposition, crystal, material, details, summary
+  - Crystallographic deposition uses the full level-set method to grow single materials whose rate of growth is determined by the crystallograp…
 - **Fourier Deposition** <a id="fourier-deposition"></a>
-  - Fourier deposition uses the full level-set method to grow single materials whose rate of growth is defined by a function of the angle between the surface normal of the material boundary and the deposition beams. The definition and calcul...
-  - _Keywords:_ Fourier, deposition, etching, coeffs, nitride, deposit, direction, factor
+  - Fourier deposition uses the full level-set method to grow single materials whose rate of growth is defined by a function of the angle betwe…
 - **Trapezoidal Deposition** <a id="trapezoidal-deposition"></a>
-  - Trapezoidal deposition creates a shape with sidewalls of a defined height and angle. Height is defined by thickness. Angle is defined by angle, measured in degrees from the horizontal, where:
-  - _Keywords:_ deposition, Trapezoidal, defined, height, thickness, deposit, PolySilicon, outward
+  - Trapezoidal deposition creates a shape with sidewalls of a defined height and angle. Height is defined by thickness. Angle is defined by an…
 - **Selective Deposition** <a id="selective-deposition"></a>
   - Selective deposition is optionally available and can be used with isotropic, anisotropic, or Fourier deposition.
-  - _Keywords:_ materials, deposition, selective, Selective, optionally, available, isotropic, anisotropic
 - **Fields in Deposited Layers** <a id="fields-in-deposited-layers"></a>
-  - For isotropic deposition, piecewise linear fields can be specified in the deposited layer. For crystallographic deposition, piecewise linear fields with time also can be specified. A doping command must be used for each field; each dopin...
-  - _Keywords:_ doping, fields, deposit, isotropic, deposition, linear, deposited, material
+  - For isotropic deposition, piecewise linear fields can be specified in the deposited layer. For crystallographic deposition, piecewise linea…
 - **Handling Stress in Etching and Deposition** <a id="handling-stress-in-etching-and-deposition"></a>
-  - In addition to optionally including an automatic ramp-up or ramp-down before etching and deposition, by default, Sentaurus Process automatically rebalances the stresses after etching and deposition. This updates the stress fields at the ...
-  - _Keywords:_ stress, etching, deposition, temperature, automatically, history, rebalancing, addition
+  - In addition to optionally including an automatic ramp-up or ramp-down before etching and deposition, by default, Sentaurus Process automati…
 - **Suppressing Mesh Generation in 3D Simulations** <a id="suppressing-mesh-generation-in-3d-simulations"></a>
-  - During typical operations in three dimensions, a new mesh is generated only when necessary to perform a task that requires a mesh. Operations such as etching and deposition are performed on the boundary representation and do not necessar...
-  - _Keywords:_ deposition, etching, generated, mechanics, stress, rebalance, suppress, requires
+  - During typical operations in three dimensions, a new mesh is generated only when necessary to perform a task that requires a mesh. Operatio…
 - **Shape Library** <a id="shape-library"></a>
-  - The shape library provides commands for generating special-shaped polyhedra in Sentaurus Process. Sentaurus Structure Editor creates these shapes. The shape library is an interface to use those shapes in Sentaurus Process.
-  - _Keywords:_ creates, shaped, Sentaurus, polyhedron, shapes, library, polyhedra, Process
+  - The shape library provides commands for generating special-shaped polyhedra in Sentaurus Process. Sentaurus Structure Editor creates these…
 - **PolyHedronSTI** <a id="polyhedronsti"></a>
   - The PolyHedronSTI command creates an STI-shaped polyhedron.
-  - _Keywords:_ PolyHedronSTI, creates, STI, shaped, polyhedron, syntax, direction, Depth
 - **where:** <a id="where"></a>
-  - name is the name of the polyhedron. direction can be left, right, front, or back, which sets the facing direction of the STI polyhedron. material is optional and specifies the material of the inserted shape in SDE mode. In MGOALS mode, t...
-  - _Keywords:_ polyhedron, material, direction, STI, inserted, details, summary, facing
+  - name is the name of the polyhedron. direction can be left, right, front, or back, which sets the facing direction of the STI polyhedron. ma…
 - **11: Structure Generation** <a id="11-structure-generation"></a>
 - **Shape Library** <a id="shape-library"></a>
-  - Figure 120 shows some generated STI shapes in different directions. ![](images/sprocess_ug_part05_a600cf772619d4fc903932f6c3e6b8c29da85b7818c80bfbc78aaffba075de0a.jpg)
-  - _Keywords:_ STI, different, details, summary, shapes, directions, images, shaped
+  - <details> <summary>text_image</summary>
 - **PolyHedronSTIaccc** <a id="polyhedronstiaccc"></a>
   - The PolyHedronSTIaccc creates an STI concave active corner-shaped polyhedron.
-  - _Keywords:_ STI, concave, corner, shaped, different, PolyHedronSTIaccc, polyhedron, direction
 - **PolyHedronSTIaccv** <a id="polyhedronstiaccv"></a>
   - The PolyHedronSTIaccv command creates an STI convex active corner-shaped polyhedron.
-  - _Keywords:_ PolyHedronSTIaccv, polyhedron, direction, creates, STI, convex, active, corner
 - **11: Structure Generation** <a id="11-structure-generation"></a>
 - **Shape Library** <a id="shape-library"></a>
   - Rac is the radius of the convex corner. Figure 119 on page 813 describes the other parameters.
-  - _Keywords:_ STI, details, summary, convex, corner, polyhedron, generated, shaped
 - **PolyHedronCylinder** <a id="polyhedroncylinder"></a>
   - The PolyHedronCylinder command creates a cylinder-shaped polyhedron.
-  - _Keywords:_ cylinder, Rotate, polyhedron, PolyHedronCylinder, shaped, specified, rotated, rotation
 - **PolyHedronEllipticCylinder** <a id="polyhedronellipticcylinder"></a>
   - The PolyHedronEllipticCylinder command creates an elliptic cylinder-shaped polyhedron.
-  - _Keywords:_ cylinder, Rotate, ellipse, PolyHedronEllipticCylinder, polyhedron, Ratio, coordinates, specified
 - **11: Structure Generation** <a id="11-structure-generation"></a>
 - **Shape Library** <a id="shape-library"></a>
   - If Rotate.Z is specified, the cylinder is rotated along the z-axis. The right-hand rule determines the direction of the rotation.
-  - _Keywords:_ cylinder, rotation, details, summary, Rotate, specified, rotated, determines
 - **PolygonSTI** <a id="polygonsti"></a>
-  - The PolygonSTI command creates a 2D STI-shaped polygon. The syntax is the same as for PolyHedronSTI, except it does not have the Zmin and Zmax parameters (see PolyHedronSTI on page 812).
-  - _Keywords:_ PolygonSTI, syntax, PolyHedronSTI, creates, STI, shaped, polygon, except
+  - The PolygonSTI command creates a 2D STI-shaped polygon. The syntax is the same as for PolyHedronSTI, except it does not have the Zmin and Z…
 - **where:** <a id="where"></a>
-  - name is the name of the polygon. ■ direction can be left or right only. This sets the facing direction of the STI polygon. material is optional and specifies the material of the inserted shape in SDE mode. In MGOALS mode, the material of...
-  - _Keywords:_ material, polygon, direction, inserted, facing, STI, optional, specifies
+  - name is the name of the polygon. ■ direction can be left or right only. This sets the facing direction of the STI polygon. material is opti…
 - **PolygonWaferMask** <a id="polygonwafermask"></a>
   - The PolygonWaferMask command creates a wafer mask polygon.
-  - _Keywords:_ polygon, PolygonWaferMask, details, summary, creates, syntax, Other, location
 - **PolyHedronEpiDiamond** <a id="polyhedronepidiamond"></a>
   - The PolyHedronEpiDiamond command creates an epitaxial diamond-shaped polyhedron.
-  - _Keywords:_ polyhedron, PolyHedronEpiDiamond, epitaxial, diamond, shaped, details, summary, creates
 - **Masks and Lithographic Patterning** <a id="masks-and-lithographic-patterning"></a>
-  - The photo command can be used to mimic lithographic patterning. The photo command takes a mask and effectively performs a resist spin-on step followed by an exposure bake and etch. The resist layer produced has vertical walls and is a ne...
-  - _Keywords:_ defined, specified, segments, negative, argument, deposition, define, coordinates
+  - The photo command can be used to mimic lithographic patterning. The photo command takes a mask and effectively performs a resist spin-on st…
 - **11: Structure Generation** <a id="11-structure-generation"></a>
   - Masks and Lithographic Patterning
-  - _Keywords:_ defined, layout, Sentaurus, Process, coordinate, specified, simulation, polygon
 - **Photoresist Masks** <a id="photoresist-masks"></a>
-  - To define photoresist layers, use the photo command and specify a mask. Sentaurus Process defines photoresist layers by specifying the minimum thickness of the resist and selecting the name of a mask that has been defined by the mask com...
-  - _Keywords:_ photoresist, layers, resist, specified, define, specify, Sentaurus, Process
+  - To define photoresist layers, use the photo command and specify a mask. Sentaurus Process defines photoresist layers by specifying the mini…
 - **Boolean Masks** <a id="boolean-masks"></a>
-  - Two masks can be combined using the bool argument of the mask command. Table 95 presents the Boolean operations that can be specified in the bool argument as well as examples. The bool argument only accepts simple expressions.
-  - _Keywords:_ specified, operation, Produces, respect, argument, negative, direction, coordinate
+  - Two masks can be combined using the bool argument of the mask command. Table 95 presents the Boolean operations that can be specified in th…
 - **Line Edge Roughness Effect** <a id="line-edge-roughness-effect"></a>
-  - Line edge roughness (LER) is the deviation of feature edges from ideal straight lines due to statistical fluctuations in photolithographic processes. Sentaurus Process uses the line\_edge\_roughness command to apply randomized deviations...
-  - _Keywords:_ deviation, straight, _roughness, length, Line, roughness, LER, feature
+  - Line edge roughness (LER) is the deviation of feature edges from ideal straight lines due to statistical fluctuations in photolithographic…
 - **11: Structure Generation** <a id="11-structure-generation"></a>
   - Masks and Lithographic Patterning
-  - _Keywords:_ LER, random, applied, details, summary, length, points, _roughness
 - **Mirror Boundary Conditions** <a id="mirror-boundary-conditions"></a>
-  - The addition of LER is inherently 3D and nonsymmetric; therefore, it is not easily compatible as a simulation problem with the assumption of symmetry reduction. Adding LER to a structure reduced by symmetry might produce rough geometric ...
-  - _Keywords:_ LER, smooth, points, boundary, structure, symmetry, boundaries, reduced
+  - The addition of LER is inherently 3D and nonsymmetric; therefore, it is not easily compatible as a simulation problem with the assumption o…
 - **Geometric Transformations** <a id="geometric-transformations"></a>
   - Transformations supported in Sentaurus Process are reflection, stretch, cut, rotation, translation, and flip:
-  - _Keywords:_ structure, transform, algorithm, arguments, reflection, stretch, merged, pieces
 - **Refinement Handling During Transformation** <a id="refinement-handling-during-transformation"></a>
   - All transformations apply to the existing refinements created with either the refinebox command or the line command by default.
-  - _Keywords:_ transformations, existing, refinements, created, either, refinebox, disable, feature
 - **Contact Handling During Transformation** <a id="contact-handling-during-transformation"></a>
-  - The only special contact handling occurs during transform reflect. In this case, contacts that straddle or touch the reflecting plane are enlarged to the reflected area (only one contact remains). The remainder of the contacts are duplic...
-  - _Keywords:_ contact, original, reflection, contacts, transform, reflect, during, reflected
+  - The only special contact handling occurs during transform reflect. In this case, contacts that straddle or touch the reflecting plane are e…
 - **Reflection** <a id="reflection"></a>
-  - The transform reflect command reflects the structure about the left, right, front, or back boundary (at minimum y, maximum y, maximum z, or minimum z). If any remeshing or other mesh modification operations are performed after a transfor...
-  - _Keywords:_ transform, reflect, structure, minimum, maximum, original, reflects, boundary
+  - The transform reflect command reflects the structure about the left, right, front, or back boundary (at minimum y, maximum y, maximum z, or…
 - **Examples:** <a id="examples"></a>
   - ```txt transform reflect left transform reflect ymin transform reflect front transform reflect left !keep.original ```
-  - _Keywords:_ transform, reflect, original, remesh, disabled, because, disrupt, symmetry
 - **Refinement Handling During Reflection** <a id="refinement-handling-during-reflection"></a>
-  - In the case of !keep.original, lines coming from both the line command and refinement boxes are reflected along with the structure. However, when the original structure is kept, some special handling is required.
-  - _Keywords:_ refinement, original, reflected, structure, created, coming, However, special
+  - In the case of !keep.original, lines coming from both the line command and refinement boxes are reflected along with the structure. However…
 - **Stretch** <a id="stretch"></a>
-  - The transform stretch command stretches the structure in the left, right, down, up, front, or back directions at a given coordinate location by offsetting one side of the structure by the specified length. If there is no vertical line of...
-  - _Keywords:_ structure, stretches, location, specified, transform, stretch, directions, coordinate
+  - The transform stretch command stretches the structure in the left, right, down, up, front, or back directions at a given coordinate locatio…
 - **Examples:** <a id="examples"></a>
   - transform stretch location=0.001 length=5 right transform stretch down loc=0.5 length=200
-  - _Keywords:_ stretch, length, transform, location, negative, together, atomistic, Sentaurus
 - **Refinement Handling During Stretch** <a id="refinement-handling-during-stretch"></a>
-  - During the stretch operation, mesh lines that were created with the line command in the part of the structure being stretched are translated with the structure. No new lines are introduced into the expanded region. The refinement boxes t...
-  - _Keywords:_ stretch, structure, During, operation, created, stretched, translated, introduced
+  - During the stretch operation, mesh lines that were created with the line command in the part of the structure being stretched are translate…
 - **Cut** <a id="cut"></a>
-  - The transform cut command cuts at or near the requested coordinate location. The location defines a line in two dimensions, or a plane in three dimensions, that divides the structure into the left and right, or front and back, or up and ...
-  - _Keywords:_ specified, dimensions, element, transform, operation, location, MGOALS, elements
+  - The transform cut command cuts at or near the requested coordinate location. The location defines a line in two dimensions, or a plane in t…
 - **Refinement Handling During Cut** <a id="refinement-handling-during-cut"></a>
-  - During the cut operation, lines created with the line command that are outside of the simulation domain after the cut are removed. Similarly, any refinement box that lies completely outside the simulation domain after the cut is removed ...
-  - _Keywords:_ outside, simulation, domain, removed, During, operation, created, Similarly
+  - During the cut operation, lines created with the line command that are outside of the simulation domain after the cut are removed. Similarl…
 - **Flip and Backside Processing** <a id="flip-and-backside-processing"></a>
-  - The transform flip command provides a convenient way to perform process steps on the back of a wafer. During the transform flip command, the structure is rotated about180° a line by default in the center of the structure parallel to the ...
-  - _Keywords:_ structure, material, Gas, region, converted, BackMat, reference, transform
+  - The transform flip command provides a convenient way to perform process steps on the back of a wafer. During the transform flip command, th…
 - **Refinement Handling During Flip** <a id="refinement-handling-during-flip"></a>
-  - Refinements during a flip operation are handled in the same way as refinements during reflection in the case of !keep.original. Lines coming from both the line command and refinement boxes are reflected along with the structure.
-  - _Keywords:_ during, Refinements, operation, handled, refinements, reflection, original, Lines
+  - Refinements during a flip operation are handled in the same way as refinements during reflection in the case of !keep.original. Lines comin…
 - **Rotation** <a id="rotation"></a>
-  - The transform rotate command rotates the structure at the specified angle in the specified axis using (0,0,0) as the rotation center. It accepts two arguments angle and axis to specify the rotation angle and the rotation axis, respective...
-  - _Keywords:_ rotation, structure, specified, transform, rotate, degrees, simulations, produce
+  - The transform rotate command rotates the structure at the specified angle in the specified axis using (0,0,0) as the rotation center. It ac…
 - **Refinement Handling During Rotation** <a id="refinement-handling-during-rotation"></a>
   - During a rotation operation, lines coming from both the line command and refinement boxes are rotated along with the structure.
-  - _Keywords:_ During, rotation, operation, coming, refinement, rotated, structure
 - **Translation** <a id="translation"></a>
-  - The transform translate command does not change the aspect of the structure. It only adds the coordinate specified in the translate argument to all nodes, that is, it displaces the structure or shifts it in space. It is equivalent to cha...
-  - _Keywords:_ structure, translate, specified, transform, change, aspect, coordinate, argument
+  - The transform translate command does not change the aspect of the structure. It only adds the coordinate specified in the translate argumen…
 - **MGOALS** <a id="mgoals"></a>
   - By default, etching and deposition operations are performed using MGOALS in all dimensions. MGOALS operates as follows:
-  - _Keywords:_ dimensions, structure, operations, performed, MGOALS, remeshed, remeshing, retained
 - **MGOALS Boundary-Moving Algorithms** <a id="mgoals-boundary-moving-algorithms"></a>
-  - MGOALS uses either the analytic method or the fast level-set method to perform boundarymodifying operations. In general, the analytic method is fast, less memory intensive, and more accurate, and uses a simplified string algorithm. Howev...
-  - _Keywords:_ method, boundary, MGOALS, analytic, etching, performed, equation, deposition
+  - MGOALS uses either the analytic method or the fast level-set method to perform boundarymodifying operations. In general, the analytic metho…
 - **MGOALS Boundary-Moving Parameters** <a id="mgoals-boundary-moving-parameters"></a>
-  - Parameters to specify the resolution of the Cartesian mesh and the interface fidelity are defined in an mgoals command before the etch or deposit command. These parameters are applied to the entire structure. The interface quality and re...
-  - _Keywords:_ resolution, interface, Cartesian, initial, extended, specify, fidelity, defined
+  - Parameters to specify the resolution of the Cartesian mesh and the interface fidelity are defined in an mgoals command before the etch or d…
 - **The accuracy Argument** <a id="the-accuracy-argument"></a>
-  - The accuracy argument controls the noise and features at an interface. A small value of accuracy allows only small deviations between the boundary extracted from the level-set method and the piecewise linear segments incorporated into th...
-  - _Keywords:_ accuracy, argument, features, boundary, segments, simulation, extracted, piecewise
+  - The accuracy argument controls the noise and features at an interface. A small value of accuracy allows only small deviations between the b…
 - **The resolution Argument** <a id="the-resolution-argument"></a>
-  - The value of the resolution argument controls the element size in the Cartesian mesh used to perform level set–based etching and deposition. Since the thickness of the layer to be deposited or etched is user specified, the grid size is d...
-  - _Keywords:_ resolution, deposition, thickness, etching, specified, argument, element, deposited
+  - The value of the resolution argument controls the element size in the Cartesian mesh used to perform level set–based etching and deposition…
 - **General Time-Stepping Level-Set Parameters** <a id="general-time-stepping-level-set-parameters"></a>
   - The general time-stepping level-set method has some additional parameters to control and balance accuracy, simulation time, and memory use.
-  - _Keywords:_ method, stepping, direction, control, simulation, memory, etching, levelset
 - **Level-Set Cartesian Mesh and Resolution: Internal Calculations** <a id="level-set-cartesian-mesh-and-resolution-internal-calculation"></a>
-  - The Cartesian mesh extent or bounding box, the resolution and full.resolution criteria, and the grid spacing criteria dx, dy, and dz interplay in the following ways.
-  - _Keywords:_ etching, Cartesian, resolution, spacing, bounding, distance, maximum, estimated
+  - The Cartesian mesh extent or bounding box, the resolution and full.resolution criteria, and the grid spacing criteria dx, dy, and dz interp…
 - **Limitations of Level Set** <a id="limitations-of-level-set"></a>
-  - As a general approach, while the level-set method is especially useful for shadowing, multimaterial, sophisticated etch velocity functions (for example, surface normal dependent or crystal direction dependent), and for complex evolution ...
-  - _Keywords:_ dependent, evolution, surfaces, general, approach, method, especially, useful
+  - As a general approach, while the level-set method is especially useful for shadowing, multimaterial, sophisticated etch velocity functions…
 - **MGOALS 3D Boundary-Moving Algorithms** <a id="mgoals-3d-boundary-moving-algorithms"></a>
-  - In three dimensions, a combination of level set, fast marching, and analytic techniques are used to perform geometric operations similar to the 2D mode. In three dimensions, MGOALS can reliably handle complicated polyhedral boundaries. T...
-  - _Keywords:_ dimensions, analytic, geometric, operations, perform, MGOALS, performed, method
+  - In three dimensions, a combination of level set, fast marching, and analytic techniques are used to perform geometric operations similar to…
 - **Summary of MGOALS Etching** <a id="summary-of-mgoals-etching"></a>
   - Table 96 summarizes the methods used internally to implement etching:
-  - _Keywords:_ Level, rowspan, Geometric, Analytic, etching, Fastmarch, Material, Shadowing
 - **MGOALS Backward Compatibility** <a id="mgoals-backward-compatibility"></a>
-  - Default parameters and algorithm settings used by MGOALS can change from release to release in the pursuit of more accurate, more realistic, and more stable structure generation results. To use the default parameters and settings from a ...
-  - _Keywords:_ release, settings, version, mgoals, algorithm, MGOALS, change, pursuit
+  - Default parameters and algorithm settings used by MGOALS can change from release to release in the pursuit of more accurate, more realistic…
 - **Boundary Repair Algorithm** <a id="boundary-repair-algorithm"></a>
-  - Anisotropic or directional operations can produce residual material when the walls of the etched material are not perfectly vertical or aligned to the etching beam. These residual materials usually cause problems for the mesh generator s...
-  - _Keywords:_ repair, algorithm, boundary, deposit, material, residual, These, features
+  - Anisotropic or directional operations can produce residual material when the walls of the etched material are not perfectly vertical or ali…
 - **Structure Assembly in MGOALS Mode** <a id="structure-assembly-in-mgoals-mode"></a>
   - Sentaurus Process can read a 2D or 3D structure from a file and paste it into the current 2D or 3D simulation, respectively.
-  - _Keywords:_ structure, Sentaurus, Process, current, simulation, respectively, perform, assembly
 - **where:** <a id="where"></a>
-  - In two dimensions, direction can be left or right. In three dimensions, direction can be back, front, left, or right. ■ tdr specifies the TDR file from which a structure will be read and pasted into a simulation.
-  - _Keywords:_ structure, dimensions, assembly, direction, Sentaurus, Process, automatically, incoming
+  - In two dimensions, direction can be left or right. In three dimensions, direction can be back, front, left, or right. ■ tdr specifies the T…
 - **Multithreading** <a id="multithreading"></a>
-  - Some of the more sophisticated etching and deposition types require the use of the level-set method (such as multimaterial etching, crystallographic etching and deposition, and Fourier etching and deposition). This can be time consuming,...
-  - _Keywords:_ etching, deposition, multithreaded, Some, sophisticated, require, method, multimaterial
+  - Some of the more sophisticated etching and deposition types require the use of the level-set method (such as multimaterial etching, crystal…
 - **Insertion: Internal Mode** <a id="insertion-internal-mode"></a>
   - This section describes different insertion operations.
-  - _Keywords:_ describes, different, insertion, operations
 - **Inserting Segments** <a id="inserting-segments"></a>
-  - The insert command defines and inserts regions defined by segments in one dimension (see insert on page 1050). You can choose which materials or regions are replaced, and the name and the material of the new region.
-  - _Keywords:_ regions, insert, inserted, multiple, defines, inserts, defined, segments
+  - The insert command defines and inserts regions defined by segments in one dimension (see insert on page 1050). You can choose which materia…
 - **Inserting Polygons** <a id="inserting-polygons"></a>
   - Two-dimensional regions defined by polygons can be created and inserted directly into a 2D simulation.
-  - _Keywords:_ polygon, specifies, created, arguments, materials, regions, specify, create
 - **Inserting Polyhedra** <a id="inserting-polyhedra"></a>
-  - Regions defined by polyhedra can be inserted into 3D structures. The polyhedron command creates a polyhedron and adds it to the internal polyhedron list.
-  - _Keywords:_ polyhedron, polyhedra, Creating, Regions, defined, inserted, structures, creates
+  - Regions defined by polyhedra can be inserted into 3D structures. The polyhedron command creates a polyhedron and adds it to the internal po…
 - **Reading Polyhedra From TDR Boundary File** <a id="reading-polyhedra-from-tdr-boundary-file"></a>
   - To read all the polyhedra included in a TDR boundary file called <c>, use the command:
-  - _Keywords:_ materials, regions, included, TDR, boundary, polyhedra, optional, argument
 - **Creating a Cuboid (Brick) Polyhedron** <a id="creating-a-cuboid-brick-polyhedron"></a>
   - To create a cuboid polyhedron given the coordinates of two diametrically opposite corners, use the command:
-  - _Keywords:_ polyhedron, create, cuboid, coordinates, diametrically, opposite, corners
 - **Extruding 2D Polygons** <a id="extruding-2d-polygons"></a>
-  - To take a 2D polygon (created with the polygon command) and to extrude it in the x-direction from min to max to build a 3D polyhedron, use the command:
-  - _Keywords:_ polygon, polyhedron, polygons, created, extrude, direction, expects, planar
+  - To take a 2D polygon (created with the polygon command) and to extrude it in the x-direction from min to max to build a 3D polyhedron, use…
 - **Creating Polyhedron From Its Constituent Polygonal Faces** <a id="creating-polyhedron-from-its-constituent-polygonal-faces"></a>
   - To build a polyhedron given its definition as a set of polygons, use the command:
-  - _Keywords:_ polygons, polyhedron, polygon, definition, Obviously, expects, compact, enclosed
 - **Insertion: External Mode** <a id="insertion-external-mode"></a>
-  - This mode differs from the standard Sentaurus Structure Editor mode (see Sentaurus Structure Editor Interface on page 847) in that a structure can be created inside Sentaurus Structure
-  - _Keywords:_ Sentaurus, external, structure, Structure, Editor, polyhedron, sphere, Process
+  - This mode differs from the standard Sentaurus Structure Editor mode (see Sentaurus Structure Editor Interface on page 847) in that a struct…
 - **Inserting Polyhedra** <a id="inserting-polyhedra"></a>
   - The insert command is:
-  - _Keywords:_ polyhedron, materials, replace, regions, material, insert, argument, specified
 - **Sentaurus Structure Editor Interface** <a id="sentaurus-structure-editor-interface"></a>
-  - Sentaurus Structure Editor can perform 3D etching, deposition, and geometric transformation operations. It uses the ACIS solid geometry modeling kernel and the Scheme scripting language. Structures are created using CAD operations and pr...
-  - _Keywords:_ Sentaurus, Structure, Editor, structure, operations, Scheme, scripting, created
+  - Sentaurus Structure Editor can perform 3D etching, deposition, and geometric transformation operations. It uses the ACIS solid geometry mod…
 - **11: Structure Generation** <a id="11-structure-generation"></a>
   - Sentaurus Structure Editor Interface
-  - _Keywords:_ Sentaurus, Structure, Editor, structure, Scheme, simulation, deposit, etching
 - **11: Structure Generation** <a id="11-structure-generation"></a>
   - Sentaurus Topography Interface
-  - _Keywords:_ regions, Sentaurus, stress, etching, process, pdbSet, material, merging
 - **Sentaurus Topography Interface** <a id="sentaurus-topography-interface"></a>
   - Sentaurus Process provides an interface to Sentaurus Topography, which is a 2D physical etching and deposition simulator.
-  - _Keywords:_ Sentaurus, Topography, sptopo, Process, geometry, structure, Tcl, modified
 - **Example 1** <a id="example-1"></a>
-  - The following command performs two planar deposition steps in Sentaurus Topography, where the first step fills the structure with oxide up to 5 nm above the top material position, and the second step adds a planar layer of 180 nm polysil...
-  - _Keywords:_ material, planar, deposition, Sentaurus, Topography, structure, deposit, thickness
+  - The following command performs two planar deposition steps in Sentaurus Topography, where the first step fills the structure with oxide up…
 - **Example 2** <a id="example-2"></a>
-  - If masks are required in a Sentaurus Topography simulation, segments can be specified in the sptopo command as shown here. Alternatively, you can use the Sentaurus Process photo command with a mask to define a photoresist layer that will...
-  - _Keywords:_ sptopo, Sentaurus, Process, photoresist, required, Topography, simulation, segments
+  - If masks are required in a Sentaurus Topography simulation, segments can be specified in the sptopo command as shown here. Alternatively, y…
 - **Example 3** <a id="example-3"></a>
   - The following example defines a mask in Sentaurus Topography including:
-  - _Keywords:_ Sentaurus, Topography, etching, anisotropic, sptopo, material, defines, including
 - **Sentaurus Topography 3D Interface** <a id="sentaurus-topography-3d-interface"></a>
-  - Sentaurus Process provides an interface to Sentaurus Topography 3D, which is a threedimensional physical etching and deposition simulator. Sentaurus Topography 3D can also act as a two-dimensional simulator for certain models. Therefore,...
-  - _Keywords:_ Sentaurus, Topography, interface, Process, etching, deposition, simulator, models
+  - Sentaurus Process provides an interface to Sentaurus Topography 3D, which is a threedimensional physical etching and deposition simulator.…
 - **References** <a id="references"></a>
-  - [1] J. A. Sethian, Level Set Methods and Fast Marching Methods: Evolving interfaces in computational geometry, fluid mechanics, computer vision, and materials science, Cambridge: Cambridge University Press, 1999.
-  - _Keywords:_ Methods, Cambridge, Sethian, Level, Fast, Marching, Evolving, interfaces
+  - [1] J. A. Sethian, Level Set Methods and Fast Marching Methods: Evolving interfaces in computational geometry, fluid mechanics, computer vi…
 - **Introduction** <a id="introduction"></a>
-  - The IC WorkBench Edit/View Plus (ICWBEV Plus)–TCAD Sentaurus interface drives the TCAD simulations from the GDSII or OASIS® layout file provided by designers, which could be at any level of integration in the hierarchy: full chip, test c...
-  - _Keywords:_ TCAD, Plus, ICWBEV, Sentaurus, layout, interface, provides, single
+  - The IC WorkBench Edit/View Plus (ICWBEV Plus)–TCAD Sentaurus interface drives the TCAD simulations from the GDSII or OASIS® layout file pro…
 - **Introducing ICWBEV Plus for TCAD Users** <a id="introducing-icwbev-plus-for-tcad-users"></a>
   - Before discussing the ICWBEV Plus–TCAD Sentaurus interface, it is important to have an understanding of ICWBEV Plus itself.
-  - _Keywords:_ ICWBEV, Plus, TCAD, Sentaurus, documentation, Help, Before, discussing
 - **Opening GDSII Layout Files** <a id="opening-gdsii-layout-files"></a>
   - To open a GDSII or an OASIS layout file:
-  - _Keywords:_ ICWBEV, Open, _USER, Plus, typing, GDSII, OASIS, layout
 - **User Interface of ICWBEV Plus** <a id="user-interface-of-icwbev-plus"></a>
-  - Figure 131 shows the user interface of ICWBEV Plus and illustrates the typical layout of work, panes, and toolbars. The panes can be moved and reconfigured as needed. ![](images/sprocess_ug_part05_40e769219d95b1f74e3321008de71bd3ed884e97...
-  - _Keywords:_ Layers, Layout, BV_LDMO, Cell, Plus, layout, summary, Edit
+  - <details> <summary>text_image</summary>
 - **-> 10** <a id="10"></a>
-  - highlight add (6300.0 6600.0 7400.0 9800.0) BJT3D
-  - _Keywords:_ highlight, BJT3D
 - **-> 11** <a id="11"></a>
-  - highlight add (6300.0 3500.0 7750.0 3750.0) LDMOS3D
-  - _Keywords:_ highlight, LDMOS3D
 - **-> 12** <a id="12"></a>
-  - select clear 1dbu = 1e-09m -1751.2000, -183.8588 nm Browse </details>
-  - _Keywords:_ TCAD, Sentaurus, images, toolbar, buttons, simulation, domain, details
+  - Figure 131 ICWBEV Plus main window with toolbar buttons specific to TCAD Sentaurus shown in red box at top
 - **Sentaurus Markups** <a id="sentaurus-markups"></a>
-  - Sentaurus markups are used to add the simulation domain in 1D, 2D, and 3D domains as needed. The Command Pane in Figure 132 shows the commands after adding Sentaurus markups in the layout using GUI actions.
-  - _Keywords:_ Layers, Layout, Sentaurus, markups, Pane, layout, summary, Edit
+  - Sentaurus markups are used to add the simulation domain in 1D, 2D, and 3D domains as needed. The Command Pane in Figure 132 shows the comma…
 - **-> 8** <a id="8"></a>
-  - highlight add [2600.0 4250.0 3850.0 5700.0] NMOs3D
-  - _Keywords:_ highlight, NMOs3D
 - **-> 9** <a id="9"></a>
-  - highlight add [1300.0 6700.0 3350.0 9800.0] PMOS3D
-  - _Keywords:_ highlight, PMOS3D
 - **-> 10** <a id="10"></a>
-  - highlight add [6300.0 6600.0 7400.0 9800.0] BJT3D Type highlight Parent Inverter 1dbu = 1e-09m 6559.1059, 8650.3059 nm Browse </details>
-  - _Keywords:_ simulation, domain, layout, highlight, composite, domains, through, contact
+  - Figure 132 Adding Sentaurus markups to a layout
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - Introducing ICWBEV Plus for TCAD Users
-  - _Keywords:_ simulation, TCAD, composite, domain, BJTBE, BJTC, results, consisting
 - **Stretch Utility** <a id="stretch-utility"></a>
-  - The stretch utility provides a convenient way to parameterize a layout by inserting a uniformly stretched segment into the layout. For example, this feature can be used to generate a set of transistors that have different gate lengths bu...
-  - _Keywords:_ stretch, layout, NMOS, details, summary, length, utility, images
+  - The stretch utility provides a convenient way to parameterize a layout by inserting a uniformly stretched segment into the layout. For exam…
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - Introducing ICWBEV Plus for TCAD Users
-  - _Keywords:_ stretch, NMOS, variable, Introducing, ICWBEV, Plus, TCAD, Users
 - **Renaming Markups** <a id="renaming-markups"></a>
   - Markups can be renamed and edited.
-  - _Keywords:_ Open, Cells, edited, markups, Views, markup, Highlights, Click
 - **Auxiliary Layers** <a id="auxiliary-layers"></a>
-  - Auxiliary layers are used, for example, to denote the position of electrical contacts in a layout. To add auxiliary layers, first a layer must be declared and attributes must be defined.
-  - _Keywords:_ layers, layout, auxiliary, polygon, Select, Auxiliary, denote, position
+  - Auxiliary layers are used, for example, to denote the position of electrical contacts in a layout. To add auxiliary layers, first a layer m…
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - Introducing ICWBEV Plus for TCAD Users
-  - _Keywords:_ Layer, Plus, summary, Edit, View, New, NMS3D, Color
 - **-> 1** <a id="1"></a>
-  - gui dockable dock layout::open_cells gui dockable hide layout::open_cells gui dockable hide layout::layout_lay Layout Layers Layers in this layout Cell Outline NWELL(1:0) NACTIVE(2:0) PACTIVE(3:0) NPLUS(4:0) POLY(5:0) PBASE(6:0) EMIT(7:0...
-  - _Keywords:_ layout, dockable, Layers, open_cells, Layout, attributes, layout_lay, Cell
+  - gui dockable dock layout::open_cells gui dockable hide layout::open_cells gui dockable hide layout::layout_lay Layout Layers Layers in this…
 - **Text Labels** <a id="text-labels"></a>
   - As an alternative to auxiliary layers, you can use text labels to denote the position of electrical contacts in a layout.
-  - _Keywords:_ layout, choosing, Select, alternative, auxiliary, layers, labels, denote
 - **Editing Polygons** <a id="editing-polygons"></a>
   - If required, polygons can be edited. You can edit polygons by either:
-  - _Keywords:_ polygons, rectangle, required, edited, You, either, Resizing, Converting
 - **Resizing a Rectangle** <a id="resizing-a-rectangle"></a>
   - To resize a rectangle:
-  - _Keywords:_ rectangle, editing, select, details, summary, resize, already, layout
 - **Converting a Rectangle to a Polygon** <a id="converting-a-rectangle-to-a-polygon"></a>
   - To convert a rectangle to a polygon:
-  - _Keywords:_ polygon, Edge, rectangle, select, Split, Move, details, summary
 - **Nonaxis-Aligned Simulation Domains** <a id="nonaxis-aligned-simulation-domains"></a>
-  - The ICWBEV Plus–TCAD Sentaurus interface supports nonaxis-aligned domains. To realize nonaxis-aligned simulation domains, the GDSII layout is rotated by a given angle, and the TCAD simulation domain is added as discussed in Sentaurus Mar...
-  - _Keywords:_ layout, Cell, Layers, GDSII, transformation, Layout, Transform, Plus
+  - The ICWBEV Plus–TCAD Sentaurus interface supports nonaxis-aligned domains. To realize nonaxis-aligned simulation domains, the GDSII layout…
 - **Sentaurus Markup Files and TCAD Layout Files** <a id="sentaurus-markup-files-and-tcad-layout-files"></a>
   - After adding Sentaurus Process markups in ICWBEV Plus, the markup information is saved in two different files:
-  - _Keywords:_ Sentaurus, ICWBEV, Plus, markup, layout, format, TCAD, After
 - **Saving the Sentaurus Markup File** <a id="saving-the-sentaurus-markup-file"></a>
   - To save a Sentaurus markup file:
-  - _Keywords:_ layout, Sentaurus, Export, markup, layers, GDSII, Layout, select
 - **Contents of Sentaurus Markup File** <a id="contents-of-sentaurus-markup-file"></a>
-  - This section describes a typical markup file with a brief explanation. For a description of keywords, refer to the IC WorkBench Edit/View Plus User Guide.
-  - _Keywords:_ Version, information, layout, describes, typical, markup, explanation, description
+  - This section describes a typical markup file with a brief explanation. For a description of keywords, refer to the IC WorkBench Edit/View P…
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - Sentaurus Markup Files and TCAD Layout Files
-  - _Keywords:_ Sentaurus, Markup, TCAD, Layout, Open, editing, adding, polygons
 - **Reloading the Markup File** <a id="reloading-the-markup-file"></a>
   - To edit a markup file, you must reload it.
-  - _Keywords:_ Open, markup, reload, dialog, Flags, details, summary, Supported
 - **Saving the TCAD Layout File** <a id="saving-the-tcad-layout-file"></a>
   - To save the TCAD layout file:
-  - _Keywords:_ layout, TCAD, Sentaurus, Export, polygons, Click, select, button
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - Sentaurus Markup Files and TCAD Layout Files
-  - _Keywords:_ layout, Sentaurus, TCAD, Layout, details, summary, Export, Markup
 - **Contents of TCAD Layout File** <a id="contents-of-tcad-layout-file"></a>
-  - This section describes the contents of the TCAD layout file and the differences between the contents of the Sentaurus markup file and TCAD layout file.
-  - _Keywords:_ layout, Sentaurus, domains, Contents, Markup, simulation, Same, contents
+  - This section describes the contents of the TCAD layout file and the differences between the contents of the Sentaurus markup file and TCAD…
 - **Reloading the TCAD Layout File** <a id="reloading-the-tcad-layout-file"></a>
   - For debugging purposes, reload the TCAD layout file.
-  - _Keywords:_ TCAD, layout, Open, reload, debugging, purposes, Choose, dialog
 - **Starting ICWBEV Plus in Batch Mode and Using Macros** <a id="starting-icwbev-plus-in-batch-mode-and-using-macros"></a>
   - To extract the TCAD layout file in batch mode, add the following command to the end of the markup file:
-  - _Keywords:_ layout, extract, TCAD, markup, typescript, sentaurus, export, noMerge
 - **ICWBEV Plus Macros** <a id="icwbev-plus-macros"></a>
   - ICWBEV Plus macros can be used to create simple layouts. An example of a macro is:
-  - _Keywords:_ configure, ff0000, polygon, ICWBEV, Plus, macros, create, simple
 - **Tcl-Based Macros for Layout Parameterization** <a id="tcl-based-macros-for-layout-parameterization"></a>
-  - The macro language of ICWBEV Plus is Tcl based. Figure 146 on page 875 shows a rectangle that has been replicated four times. The following Tcl command performed the replication:
-  - _Keywords:_ SHIFT, Layout, Plus, Tcl, rectangle, SHIFTS, details, summary
+  - The macro language of ICWBEV Plus is Tcl based. Figure 146 on page 875 shows a rectangle that has been replicated four times. The following…
 - **TCAD Layout Reader** <a id="tcad-layout-reader"></a>
-  - The TCAD layout reader of Sentaurus Process provides a file-based interface between ICWBEV Plus and Sentaurus Process. Some of its key features include:
-  - _Keywords:_ TCAD, layout, Sentaurus, Process, features, Mask, driven, reader
+  - The TCAD layout reader of Sentaurus Process provides a file-based interface between ICWBEV Plus and Sentaurus Process. Some of its key feat…
 - **Loading the TCAD Layout** <a id="loading-the-tcad-layout"></a>
   - To load a TCAD layout in Sentaurus Process, use the command:
-  - _Keywords:_ TCAD, layout, Sentaurus, Process, filename, Coordinates, multiplied, optional
 - **Finding Simulation Domains** <a id="finding-simulation-domains"></a>
   - To generate a list of the simulation domains, use:
-  - _Keywords:_ domains, Domains, generate, simulation, Emit1D, NBODY, NMOS, BJT3D
 - **Finding Layer Names and Layer IDs** <a id="finding-layer-names-and-layer-ids"></a>
-  - Each layer in the TCAD layout file has a unique ID of the form <integer>:<integer>, for example 3:0. A layer also can have an optional explicit layer name such as NWELL. If no explicit layer name has been set in ICWBEV Plus, the TCAD lay...
-  - _Keywords:_ TCAD, layout, integer, explicit, NWELL, reader, layerNames, LNames
+  - Each layer in the TCAD layout file has a unique ID of the form <integer>:<integer>, for example 3:0. A layer also can have an optional expl…
 - **Selecting the Simulation Domain** <a id="selecting-the-simulation-domain"></a>
   - To select a single or a composite simulation domain, use one of the following commands:
-  - _Keywords:_ domain, simulation, select, single, composite, PMOS, domain_name1, domain_name2
 - **Loading a GDSII Layout** <a id="loading-a-gdsii-layout"></a>
   - To load a GDSII layout directly in Sentaurus Process, use the command:
-  - _Keywords:_ domain, stretches, simulation, layout, composite, GDSII, directly, Sentaurus
 - **Finding Domain Dimensions** <a id="finding-domain-dimensions"></a>
   - To find the domain dimensions, use:
-  - _Keywords:_ dimension, simulation, domains, domain, dimensions, highlight, DIM
 - **Finding Bounding Box of Domain** <a id="finding-bounding-box-of-domain"></a>
   - To find the coordinates of the bounding box of the simulation domain in the global layout coordinates, use:
-  - _Keywords:_ coordinates, layout, bounding, simulation, domain, Bounding, Box, Sentaurus
 - **Interface With line Commands** <a id="interface-with-line-commands"></a>
-  - After storing the bounding box of the simulation domain in the Tcl variables such as Ymin, Ymax, Zmin, and Zmax, these variables can be used in line commands to define the initial substrate and mesh in Sentaurus Process. For example:
-  - _Keywords:_ location, spacing, Ydim, Zdim, Ymin, Ymax, variables, Zmin
+  - After storing the bounding box of the simulation domain in the Tcl variables such as Ymin, Ymax, Zmin, and Zmax, these variables can be use…
 - **Creating Masks** <a id="creating-masks"></a>
   - To create a mask from a layer, use the command:
-  - _Keywords:_ create, string, polarity, positive, negative, stretchypos, stretchyneg
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
 - **TCAD Layout Reader** <a id="tcad-layout-reader"></a>
   - ```txt [stretchzpos= {<zo> <dz>}] [stretchzneg= {<zo> <dz>}] [reflecty= <yo>] [reflectz= <zo>] ```
-  - _Keywords:_ create, layers, stretch, negative, applied, TDR, created, positive
 - **Mask-Driven Meshing** <a id="mask-driven-meshing"></a>
   - To create a refinement box that is tied to a mask, use:
-  - _Keywords:_ extend, extrusion, region, details, summary, refinebox, corner, meshing
 - **Layout-Driven Contact Assignment** <a id="layout-driven-contact-assignment"></a>
-  - The icwb.contact.mask command creates contacts for subsequent device simulations that are tied to a layer or a text label in the TCAD layout file. The command serves as an interface between the TCAD layout and the Sentaurus Process conta...
-  - _Keywords:_ contact, vertical, material, automatically, extent, dimensions, layout, lateral
+  - The icwb.contact.mask command creates contacts for subsequent device simulations that are tied to a layer or a text label in the TCAD layou…
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
   - TCAD Layout Reader
-  - _Keywords:_ contact, contacts, Layers, Layout, layout, source, details, summary
 - **Aligning Wafer and Simulation Domain** <a id="aligning-wafer-and-simulation-domain"></a>
-  - To correctly support tilted process steps for 2D and 3D simulation domains, the alignment between the wafer and the simulation domain must be declared using the slice.angle argument of the init command.
-  - _Keywords:_ details, summary, simulation, images, domain, layout, domains, offset
+  - To correctly support tilted process steps for 2D and 3D simulation domains, the alignment between the wafer and the simulation domain must…
 - **Additional Query Functions** <a id="additional-query-functions"></a>
-  - The TCAD layout reader of Sentaurus Process provides additional layout query functions. For example, the following command returns a list of segments in the given layer for a 2D simulation domain:
-  - _Keywords:_ BBoxes, domain, bounding, polygon, layout, simulation, Segments, containing
+  - The TCAD layout reader of Sentaurus Process provides additional layout query functions. For example, the following command returns a list o…
 - **12: ICWBEV Plus Interface for Layout-Driven Simulations** <a id="12-icwbev-plus-interface-for-layout-driven-simulations"></a>
 - **TCAD Layout Reader** <a id="tcad-layout-reader"></a>
   - ```tcl set Tessellations [icwb list polygon.tessellations layer.name="0:0"] LogFile "Tessellations: $Tessellations" ```
-  - _Keywords:_ polygon, rectangles, Tessellations, bounding, details, summary, tessellations, original
 - **Overview** <a id="overview"></a>
-  - This chapter covers basic tasks such as obtaining a list of materials currently in the structure, and obtaining 1D dopant profiles from 2D or 3D structures to more complex ones, such as looping through all materials and extracting Pearso...
-  - _Keywords:_ Tcl, obtaining, materials, complex, Pearson, perform, select, FitPearson
+  - This chapter covers basic tasks such as obtaining a list of materials currently in the structure, and obtaining 1D dopant profiles from 2D…
 - **Saving Data Fields** <a id="saving-data-fields"></a>
-  - Sentaurus Process automatically saves all solutions, active dopant concentrations, total dopant concentrations, electrostatic potential, net active concentrations, point-defect concentrations, and total point-defect concentrations along ...
-  - _Keywords:_ TDR, concentrations, active, fields, dopant, concentration, BActiveRatio, Sentaurus
+  - Sentaurus Process automatically saves all solutions, active dopant concentrations, total dopant concentrations, electrostatic potential, ne…
 - **Selecting Fields for Viewing or Analysis** <a id="selecting-fields-for-viewing-or-analysis"></a>
-  - Most analytic tasks begin with the select command, which is used to select a data field to be viewed or operated on (see select on page 1195). A data field in Sentaurus Process is a quantity that varies over the simulation domain, such a...
-  - _Keywords:_ select, expression, selected, concentration, solution, viewed, operated, defined
+  - Most analytic tasks begin with the select command, which is used to select a data field to be viewed or operated on (see select on page 119…
 - **Obtaining 1D Data Cuts** <a id="obtaining-1d-data-cuts"></a>
-  - After a select command has been issued, you can obtain 1D cuts through the data along one of the principal axes using the slice or print.1d command. The slice command returns a list of coordinate data pairs. To make a cut perpendicular t...
-  - _Keywords:_ coordinate, perpendicular, similarly, After, select, issued, obtain, through
+  - After a select command has been issued, you can obtain 1D cuts through the data along one of the principal axes using the slice or print.1d…
 - **Examples** <a id="examples"></a>
-  - Sentaurus Process can run in interactive mode if there is no command file given on the command line. In this case, you are prompted with the sprocess> prompt for commands. If a command file is given, commands are read from this file. In ...
-  - _Keywords:_ sprocess, interactive, displayed, Sentaurus, Process, prompted, prompt, always
+  - Sentaurus Process can run in interactive mode if there is no command file given on the command line. In this case, you are prompted with th…
 - **13: Extracting Results** <a id="13-extracting-results"></a>
 - **Examples** <a id="examples"></a>
-  - ```txt ... 0.000000e+00 5.969905e+17 0.000000e+00 7.075867e+17 7.421875e-04 7.618894e+17 ... sprocess> print.1d y=0.6 { Distance Value Material } { -1.00000e-02 4.80472e+16 Oxide } { -9.34028e-03 5.86902e+16 Oxide } ... { 0.00000e+00 5.9...
-  - _Keywords:_ modList, coordinate, Tcl, myList, offset, Oxide, lindex, foreach
+  - Here, the slice command returns raw coordinate data pairs, whereas print.1d returns a header and coordinate data–material triplets. In both…
 - **Determining the Dose: Layers** <a id="determining-the-dose-layers"></a>
-  - The layers command computes the dose of the selected data field along one of the principal axes. The syntax to specify the cut is the same as the slice command (see slice on page 1227). As with the other commands, the information is retu...
-  - _Keywords:_ sprocess, layers, layerInfo, information, Integral, element, llength, lindex
+  - The layers command computes the dose of the selected data field along one of the principal axes. The syntax to specify the cut is the same…
 - **Extracting Values and Level Crossings: interpolate** <a id="extracting-values-and-level-crossings-interpolate"></a>
-  - The interpolate command has two purposes: to obtain the position at which a profile crosses a particular value and to retrieve a value at a particular location in space. Interpolation is used to accomplish both tasks.
-  - _Keywords:_ arguments, simulations, interpolate, profile, crosses, particular, location, selected
+  - The interpolate command has two purposes: to obtain the position at which a profile crosses a particular value and to retrieve a value at a…
 - **Extracting Values During diffuse Step: extract** <a id="extracting-values-during-diffuse-step-extract"></a>
-  - The extract command is used to extract historical data during diffuse steps. This command allows you to define the data extraction script with the command parameter. The extraction script is composed typically of the select command for c...
-  - _Keywords:_ extract, diffuse, extraction, script, interpolate, historical, returned, position
+  - The extract command is used to extract historical data during diffuse steps. This command allows you to define the data extraction script w…
 - **Optimizing Parameters Automatically** <a id="optimizing-parameters-automatically"></a>
-  - Previously, users relied on the Optimizer tool in Sentaurus Workbench to perform parameter optimization. Sentaurus Process provides a built-in capability for automatic optimization of parameters using the optimize command (see optimize o...
-  - _Keywords:_ optimization, optimize, procedure, allows, Sentaurus, automatic, feature, Tcl
+  - Previously, users relied on the Optimizer tool in Sentaurus Workbench to perform parameter optimization. Sentaurus Process provides a built…
 - **Fitting Routines** <a id="fitting-routines"></a>
   - The following commands provide fitting capabilities.
-  - _Keywords:_ provide, fitting, capabilities
 - **FitArrhenius Command** <a id="fitarrhenius-command"></a>
   - This command is used to find the best prefactor and energy for an Arrhenius fit of a given profile, for example:
-  - _Keywords:_ prefactor, energy, Arrhenius, sprocess, FitArrhenius, factor, member, lappend
 - **FitLine Command** <a id="fitline-command"></a>
   - This command is used to find the best offset and slope for a given set of data, for example:
-  - _Keywords:_ offset, sprocess, lappend, foreach, FitLine, correlation, factor
 - **FitPearson Command** <a id="fitpearson-command"></a>
   - This command is used to extract the best Pearson parameters of a profile.
-  - _Keywords:_ extract, Pearson, profile
 - **FitPearsonFloor Command** <a id="fitpearsonfloor-command"></a>
-  - This command is a modification of the FitPearson command and is used to set a floor for the data value so that only data points with values greater than the given floor are used for the Pearson fit.
-  - _Keywords:_ Pearson, sprocess, PearsonProfile, FitPearsonFloor, Arsenic, modification, FitPearson, points
+  - This command is a modification of the FitPearson command and is used to set a floor for the data value so that only data points with values…
 - **Resistivity** <a id="resistivity"></a>
-  - The background concentration of the wafer can be defined using the resistivity of the wafer. You can define the resistivity of the wafer with the init command, which requires a field name to calculate the background concentration. For ex...
-  - _Keywords:_ resistivity, concentration, silicon, background, location, bottom, defined, You
+  - The background concentration of the wafer can be defined using the resistivity of the wafer. You can define the resistivity of the wafer wi…
 - **13: Extracting Results** <a id="13-extracting-results"></a>
 - **Resistivity** <a id="resistivity"></a>
 - **where:** <a id="where"></a>
   - is the electron density.q is the background concentration.N is the mobility.μ
-  - _Keywords:_ pdbSet, material, dopant, mathrm, mobility, Mobility, Equation, tNetActive
 - **Sheet Resistance** <a id="sheet-resistance"></a>
-  - The sheet resistance and the p-n junction depth of a semiconductor layer in the vertical direction are calculated using the command (see SheetResistance on page 1221):
-  - _Keywords:_ calculated, SheetResistance, resistance, temperature, junction, semiconductor, vertical, direction
+  - The sheet resistance and the p-n junction depth of a semiconductor layer in the vertical direction are calculated using the command (see Sh…
 - **13: Extracting Results** <a id="13-extracting-results"></a>
   - References
-  - _Keywords:_ diffuse, resistance, calculated, TDR, References, Sheet, activation, temperatur
 - **References** <a id="references"></a>
-  - [1] D. A. Antoniadis, A. G. Gonzalez, and R. W. Dutton, “Boron in Near-Intrinsic <100> and <111> Silicon under Inert and Oxidizing Ambients—Diffusion and Segregation,” Journal of the Electrochemical Society, vol. 125, no. 5, pp. 813–819,...
-  - _Keywords:_ Boron, Silicon, Carrier, Phosphorus, Doped, Antoniadis, Gonzalez, Dutton
+  - [1] D. A. Antoniadis, A. G. Gonzalez, and R. W. Dutton, “Boron in Near-Intrinsic <100> and <111> Silicon under Inert and Oxidizing Ambients…
 - **Overview** <a id="overview"></a>
   - In Sentaurus Process, during the simulation of diffusion steps, different sets of nonlinear partial differential equations must be solved:
-  - _Keywords:_ equations, diffusion, Newton, solver, ILS, Sentaurus, Process, simulation
 - **Setting Parameters of the Iterative Solver ILS** <a id="setting-parameters-of-the-iterative-solver-ils"></a>
-  - The iterative solver ILS is used by default to solve the linear systems for diffuse in 2D simulations and for both Flow and diffuse in 3D simulations. Default parameters for ILS have been added to the parameter database. To specify modif...
-  - _Keywords:_ ILS, pdbSet, diffuse, Double, Math, Flow, method, String
+  - The iterative solver ILS is used by default to solve the linear systems for diffuse in 2D simulations and for both Flow and diffuse in 3D s…
 - **14: Numerics** <a id="14-numerics"></a>
   - Setting Parameters of the Iterative Solver ILS
-  - _Keywords:_ Setting, Iterative, Solver, ILS
 - **where:** <a id="where"></a>
-  - ■ A value of 4 activates algorithmic improvements made since Version J-2014.09. This is the default. ■ A value of 3 corresponds to Versions I-2013.12 and H-2013.03. ■ A value of 2 corresponds to Versions G-2012.06 and F-2011.09. ■ A valu...
-  - _Keywords:_ ILS, pdbSet, Math, Flow, mechanics, STS2, STS3, solver
+  - ■ A value of 4 activates algorithmic improvements made since Version J-2014.09. This is the default. ■ A value of 3 corresponds to Versions…
 - **Partitioning and Parallel Matrix Assembly** <a id="partitioning-and-parallel-matrix-assembly"></a>
-  - Sentaurus Process can assemble the diffusion and mechanics matrices in parallel on multicore machines. To switch on the parallel assembly, use:
-  - _Keywords:_ domains, assembly, threads, matrix, Sentaurus, Process, diffusion, numThreads
+  - Sentaurus Process can assemble the diffusion and mechanics matrices in parallel on multicore machines. To switch on the parallel assembly,…
 - **14: Numerics** <a id="14-numerics"></a>
   - Partitioning and Parallel Matrix Assembly
-  - _Keywords:_ material, pdbSet, PartitionWeight, assembly, partition, weights, details, summary
 - **Numeric Accuracy and Reproducibility of Results** <a id="numeric-accuracy-and-reproducibility-of-results"></a>
-  - Sentaurus Process simulations might show different results due to different hardware or operating systems, its build-in libraries, different orders of operations, and different rounding.
-  - _Keywords:_ different, results, Sentaurus, Process, operating, operations, reproducibility, Simulations
+  - Sentaurus Process simulations might show different results due to different hardware or operating systems, its build-in libraries, differen…
 - **Matrix Size Manipulation** <a id="matrix-size-manipulation"></a>
-  - The size of the matrix used during diffusion assembly is automatically determined based on the number of solution variables and nodes in the structure. In most cases the allocated matrix size is more than sufficient. If the matrix size b...
-  - _Keywords:_ matrix, automatically, during, assembly, determined, You, pdbSet, Math
+  - The size of the matrix used during diffusion assembly is automatically determined based on the number of solution variables and nodes in th…
 - **Node and Equation Ordering** <a id="node-and-equation-ordering"></a>
-  - Because the order of nodes in meshes does not follow a specific order by default, adjacent nodes might be far from each other in the internal node list. The order might not have much effect on simulation time for small examples (such as ...
-  - _Keywords:_ solution, meshes, simulation, degrade, results, structure, pdbSet, Math
+  - Because the order of nodes in meshes does not follow a specific order by default, adjacent nodes might be far from each other in the intern…
 - **Time Integration** <a id="time-integration"></a>
-  - The TRBDF method [1] is used for time integration by default for time-dependent problems. It also is possible to choose the backward Euler method for the time integration. The following command can be used to switch between methods:
-  - _Keywords:_ method, truncation, integration, coefficients, TRBDF, difference, Linear, geometric
+  - The TRBDF method [1] is used for time integration by default for time-dependent problems. It also is possible to choose the backward Euler…
 - **Time-Step Control** <a id="time-step-control"></a>
   - This section discussed different time-step controls.
-  - _Keywords:_ discussed, different, controls
 - **Time-Step Control for PDEs** <a id="time-step-control-for-pdes"></a>
   - Sentaurus Process provides automatic time-step control. You can modify some of the control parameters.
-  - _Keywords:_ rowspan, IncreaseRatio, UCS, DFISE, limited, reduced, diffuse, diffusion
 - **where:** <a id="where"></a>
-  - Org.Val is the original value at the node. Org.Updt is the original update at the node. Org.-Updt is the Original Value – Original Update. Apld. Updt. is the applied update.
-  - _Keywords:_ BPTS, NGLTS, Org, Updt, original, update, Original, coordinate
+  - Org.Val is the original value at the node. Org.Updt is the original update at the node. Org.-Updt is the Original Value – Original Update.…
 - **Error Control for PDEs** <a id="error-control-for-pdes"></a>
   - To control errors during transient simulation, Sentaurus Process uses the following to calculate the error:
-  - _Keywords:_ solution, pdbSetDouble, control, AbsErr, variables, Error, errors, during
 - **Time-Step Control for Mechanics** <a id="time-step-control-for-mechanics"></a>
-  - Automatic time-step control for mechanics is activated only if the structure contains certain nonlinear features that require Newton iterations. The size of the time step is adjusted based on satisfaction of certain convergence criteria.
-  - _Keywords:_ certain, Automatic, control, mechanics, activated, structure, contains, nonlinear
+  - Automatic time-step control for mechanics is activated only if the structure contains certain nonlinear features that require Newton iterat…
 - **Convergence Criteria** <a id="convergence-criteria"></a>
   - To check the convergence of Newton iterations for mechanics equations [2][3], the criteria are:
-  - _Keywords:_ pdbSet, Mechanics, Convergence, residual, reference, displacement, Newton, criteria
 - **Time-Step Cutback** <a id="time-step-cutback"></a>
-  - An automatic time-step cutback procedure interrupts the Newton iteration loop and restarts the time step with a smaller size when any of the following issues is encountered:
-  - _Keywords:_ iterations, Newton, Convergence, solution, several, convergence, during, information
+  - An automatic time-step cutback procedure interrupts the Newton iteration loop and restarts the time step with a smaller size when any of th…
 - **where:** <a id="where"></a>
-  - Org. Val. is the original value at the node. Update is the update at the node. New Val. is Org. Val. + Update. ■ Maximum Residual is the maximum norm of the force residual over the entire structure. Energy is the square root of the maxim...
-  - _Keywords:_ Val, Org, Update, update, maximum, entire, structure, convergence
+  - Org. Val. is the original value at the node. Update is the update at the node. New Val. is Org. Val. + Update. ■ Maximum Residual is the ma…
 - **References** <a id="references"></a>
-  - [1] R. E. Bank et al., “Transient Simulation of Silicon Devices and Circuits,” IEEE Transactions on Electron Devices, vol. ED-32, no. 10, pp. 1992–2007, 1985. [2] O. C. Zienkiewicz and R. L. Taylor, The Finite Element Method, Butterworth...
-  - _Keywords:_ Devices, Finite, Element, Bank, Transient, Simulation, Silicon, Circuits
+  - [1] R. E. Bank et al., “Transient Simulation of Silicon Devices and Circuits,” IEEE Transactions on Electron Devices, vol. ED-32, no. 10, p…
 - **Syntax Conventions** <a id="syntax-conventions"></a>
   - The commands are designed to optimize the use of the tool command language (Tcl).
-  - _Keywords:_ syntax, Replace, braces, Tcl, indicate, enclosed, brackets, arguments
 - **Example of Command Syntax** <a id="example-of-command-syntax"></a>
   - An example of command syntax is:
-  - _Keywords:_ argument, arguments, specify, between, syntax, argument1, argument2, argument3
 - **Common Arguments** <a id="common-arguments"></a>
-  - Nearly all Sentaurus Process commands (with the exception of those implemented as Tcl procedures as well as a few others) support two common optional arguments:
-  - _Keywords:_ arguments, argument, information, Tcl, procedures, amount, printed, screen
+  - Nearly all Sentaurus Process commands (with the exception of those implemented as Tcl procedures as well as a few others) support two commo…
 - **Quantities and Units for Command Arguments** <a id="quantities-and-units-for-command-arguments"></a>
-  - Table 99 lists the quantities and units for arguments used in the commands. Many command arguments specify physical values. Such arguments are given a quantity, and any unit of a given quantity can be used. The factor listed is the value...
-  - _Keywords:_ rowspan, Angs, arguments, quantity, factor, Temperature, quantities, Many
+  - Table 99 lists the quantities and units for arguments used in the commands. Many command arguments specify physical values. Such arguments…
 - **A: Commands** <a id="a-commands"></a>
   - Quantities and Units for Command Arguments
-  - _Keywords:_ rowspan, Quantities, Heat, Units, Arguments, factors, arguments, Continued
 - **2DOxidationSetUp** <a id="2doxidationsetup"></a>
   - Sets the parameters for the meshing, the time-stepping, the diffusion solver, and the mechanics solver for 2D oxidation simulations.
-  - _Keywords:_ solver, meshing, stepping, diffusion, mechanics, oxidation, simulations
 - **Syntax** <a id="syntax"></a>
   - 2DOxidationSetUp
 - **Description** <a id="description"></a>
-  - This command is used when 2D oxidation is required. It modifies the parameters for the meshing, the time-stepping, the diffusion solver, and the mechanics solver.
-  - _Keywords:_ oxidation, solver, required, modifies, meshing, stepping, diffusion, mechanics
+  - This command is used when 2D oxidation is required. It modifies the parameters for the meshing, the time-stepping, the diffusion solver, an…
 - **alias** <a id="alias"></a>
   - Sets and prints aliases.
-  - _Keywords:_ prints, aliases
 - **Syntax** <a id="syntax"></a>
   - ```txt alias <c> [<c>] [-list] ```
 - **Arguments** <a id="arguments"></a>
-  - ```txt <c> If one argument is specified, only one alias for this value is printed. If two arguments are specified, a new alias is set. -list Prints a list of allowed aliases. ```
-  - _Keywords:_ specified, argument, printed, arguments, Prints, allowed, aliases
+  - ```txt <c> If one argument is specified, only one alias for this value is printed. If two arguments are specified, a new alias is set. -lis…
 - **Description** <a id="description"></a>
   - This interactive mode command sets and prints aliases.
-  - _Keywords:_ aliases, argument, printed, interactive, prints, allowed, Otherwise, corresponding
 - **Examples** <a id="examples"></a>
   - Set a new alias of Temperature:
-  - _Keywords:_ Temp, Temperature, Print, allowed, aliases
 - **ambient** <a id="ambient"></a>
   - Creates new ambients for material growth reactions, such as oxidation or silicidation, or creates a new epi growth mode.
-  - _Keywords:_ growth, Creates, ambients, material, reactions, oxidation, silicidation, creates
 - **Syntax** <a id="syntax"></a>
-  - ```txt ambient name=<c> (add | clear | delete | list | print) [epi | inert | react] [lkmc.atom.name=<c>] [lkmc.mass=<n>[<amu>|<g>]] [lkmc.num. atoms=<i>] ```
-  - _Keywords:_ ambient, delete
+  - ```txt ambient name=<c> (add | clear | delete | list | print) [epi | inert | react] [lkmc.atom.name=<c>] [lkmc.mass=<n>[<amu>|<g>]] [lkmc.n…
 - **Arguments** <a id="arguments"></a>
   - add
-  - _Keywords:_ ambients, ambient, create, growth, models, reactions, active, These
 - **A: Commands** <a id="a-commands"></a>
   - ambient
-  - _Keywords:_ ambient, specifies, molecule, deposits, atomic, Defines, diffuse, reaction
 - **Description** <a id="description"></a>
-  - The ambient names can be used in the diffuse, gas\_flow, reaction, and temp\_ramp commands. Table 83 on page 661 lists the available ambients.
-  - _Keywords:_ ambient, diffuse, reaction, available, ambients
+  - The ambient names can be used in the diffuse, gas\_flow, reaction, and temp\_ramp commands. Table 83 on page 661 lists the available ambien…
 - **Examples** <a id="examples"></a>
   - Create a new ambient for a new oxidation model:
-  - _Keywords:_ ambient, Create, Silane, available, oxidation, MyO2, growth, MyEpi
 - **See Also** <a id="see-also"></a>
   - diffuse on page 958
-  - _Keywords:_ diffuse, reaction
 - **ArrBreak** <a id="arrbreak"></a>
   - Creates two Arrhenius expressions that depend on a break temperature.
-  - _Keywords:_ Creates, Arrhenius, expressions, depend, temperature
 - **Syntax** <a id="syntax"></a>
   - ```txt ArrBreak <n> <n> <n> <n> <n> ```
-  - _Keywords:_ ArrBreak
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ argument, prefactor, second, activation, energy, Arrhenius, expression, fourth
 - **Description** <a id="description"></a>
   - This command creates two Arrhenius expressions and switches from the first expression to the second one at the given break temperature.
-  - _Keywords:_ temperature, Arrhenius, expression, second, computed, creates, expressions, switches
 - **Examples** <a id="examples"></a>
-  - Create two Arrhenius expressions – $3 . 0 ~ e ^ { - 0 . 5 / k _ { \mathrm { B } } T }$ and $2 . 0 ~ e ^ { - 0 . 4 / k _ { \mathrm { B } } T }$ – with a break temperature of $8 2 5 ^ { \circ } \mathrm { C }$ . The first Arrhenius expressi...
-  - _Keywords:_ mathrm, Arrhenius, expression, computed, Create, expressions, temperature, second
+  - Create two Arrhenius expressions – $3 . 0 ~ e ^ { - 0 . 5 / k _ { \mathrm { B } } T }$ and $2 . 0 ~ e ^ { - 0 . 4 / k _ { \mathrm { B } } T…
 - **Arrhenius** <a id="arrhenius"></a>
   - Creates an Arrhenius expression.
-  - _Keywords:_ Creates, Arrhenius, expression
 - **Syntax** <a id="syntax"></a>
   - ```txt Arrhenius <n> <n> ```
-  - _Keywords:_ Arrhenius
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ argument, prefactor, second, activation, energy, Arrhenius, expression
 - **Description** <a id="description"></a>
   - This command creates an Arrhenius expression.
-  - _Keywords:_ creates, Arrhenius, expression
 - **Examples** <a id="examples"></a>
   - Create the Arrhenius expression $4 . 0 ~ e ^ { - 0 . 5 / k _ { \mathrm { B } } T } ;$
-  - _Keywords:_ Arrhenius, Create, expression, mathrm
 - **beam** <a id="beam"></a>
   - Creates a beam for multiple-beam etching.
-  - _Keywords:_ Creates, multiple, etching
 - **Syntax** <a id="syntax"></a>
   - ```txt beam name=<c> (direction= {<x> <y>} | incidence=<n>) factor=<n> [list] ```
-  - _Keywords:_ direction, incidence, factor
 - **Arguments** <a id="arguments"></a>
   - direction
-  - _Keywords:_ direction, incidence, Defines, vector, factor, implies, entering, towards
 - **Description** <a id="description"></a>
-  - This command defines the direction and relative strength of etchant beams. The beam name is referenced in the etch command. The angle of incidence of the beam can be given using direction or incidence. The relative strength factor is use...
-  - _Keywords:_ direction, strength, relative, incidence, defines, etchant, referenced, factor
+  - This command defines the direction and relative strength of etchant beams. The beam name is referenced in the etch command. The angle of in…
 - **Examples** <a id="examples"></a>
-  - Define a vertical beam called source1 and a beam called source2 at half the strength of source1 at an angle of (positive angle implies that the beam travels from the upper left10° to the lower right). A third beam called source3 at one-t...
-  - _Keywords:_ source1, called, factor, source2, strength, source3, incidence, Define
+  - Define a vertical beam called source1 and a beam called source2 at half the strength of source1 at an angle of (positive angle implies that…
 - **See Also** <a id="see-also"></a>
-  - etch on page 975
 - **bound** <a id="bound"></a>
   - Extracts the boundary of a material or region, and returns the outline as a list of coordinates.
-  - _Keywords:_ Extracts, boundary, material, region, outline, coordinates
 - **Syntax** <a id="syntax"></a>
   - ```txt bound <material> | region=<c> [list.all] ```
-  - _Keywords:_ material, region
 - **Arguments** <a id="arguments"></a>
   - ```txt <material> ```
-  - _Keywords:_ boundary, region, material, Specifying, extracts, regions, ordering, listed
 - **Description** <a id="description"></a>
-  - This command is used to plot the limits of the regions for further processing. It returns a list of lists of coordinates of the boundary. The outer lists are distinct parts of the regions. Each outer list comprises a complete circle arou...
-  - _Keywords:_ regions, around, coordinate, limits, further, processing, coordinates, boundary
+  - This command is used to plot the limits of the regions for further processing. It returns a list of lists of coordinates of the boundary. T…
 - **Examples** <a id="examples"></a>
   - Return the boundary of oxide material:
-  - _Keywords:_ boundary, region, Silicon, material
 - **boundary** <a id="boundary"></a>
-  - Controls the conversion of GC structures generated by Sentaurus Process Explorer into the boundary representation (brep) used by Sentaurus Process.
-  - _Keywords:_ Sentaurus, Process, Controls, conversion, structures, generated, Explorer, boundary
+  - Controls the conversion of GC structures generated by Sentaurus Process Explorer into the boundary representation (brep) used by Sentaurus…
 - **Syntax** <a id="syntax"></a>
-  - ```txt boundary [spx2brep.advanced.neighbor.ratio=<n>] [spx2brep.advanced.smoothing] [spx2brep.advanced.tolerance=<n>] [spx2brep.advanced.vertical.aspect.ratio=<n>] [spx2brep.advanced.vertical.resolution=<n>] [spx2brep.method= Advanced |...
-  - _Keywords:_ spx2brep, standard, advanced, decimation, tolerance, vertical, accuracy, boundary
+  - ```txt boundary [spx2brep.advanced.neighbor.ratio=<n>] [spx2brep.advanced.smoothing] [spx2brep.advanced.tolerance=<n>] [spx2brep.advanced.v…
 - **Arguments** <a id="arguments"></a>
   - spx2brep.advanced.neighbor.ratio
-  - _Keywords:_ algorithm, spx2brep, conversion, resolution, advanced, tolerance, vertical, smoothing
 - **A: Commands boundary** <a id="a-commands-boundary"></a>
   - spx2brep.mls.decimatebrep
-  - _Keywords:_ spx2brep, decimation, standard, specified, tolerance, structure, performed, during
 - **Description** <a id="description"></a>
-  - Conversions occur when Sentaurus Process reads a TDR GC file using the init command. After the init command is executed, Sentaurus Process works as usual, using the MGOALS module to produce structures.
-  - _Keywords:_ Sentaurus, Process, Conversions, TDR, After, executed, MGOALS, module
+  - Conversions occur when Sentaurus Process reads a TDR GC file using the init command. After the init command is executed, Sentaurus Process…
 - **Compatibility** <a id="compatibility"></a>
   - Applies parameters consistent with the default values of a previous release.
-  - _Keywords:_ Compatibility, Applies, consistent, previous, release, subsequent, depend, account
 - **Syntax** <a id="syntax"></a>
   - Compatibility <c>
-  - _Keywords:_ Compatibility
 - **Arguments** <a id="arguments"></a>
   - <c>
-  - _Keywords:_ release, Specifies, Aliases, available, releases, necessary, foundation, letter
 - **Description** <a id="description"></a>
-  - The most recent release parameters are set first, followed by older releases in reverse chronological order. For example, the command Compatibility L-2016.03 issued for Version O-2018.06 first applies parameters consistent with N-2017.09...
-  - _Keywords:_ consistent, recent, release, followed, releases, reverse, chronological, Compatibility
+  - The most recent release parameters are set first, followed by older releases in reverse chronological order. For example, the command Compa…
 - **Examples** <a id="examples"></a>
   - Apply parameters consistent with Version N-2017.09:
-  - _Keywords:_ Apply, consistent, Version, Compatibility
 - **contact** <a id="contact"></a>
   - Defines a contact for subsequent device simulation.
-  - _Keywords:_ contacts, Delaunay, contact, simulation, process, insert, boundary, representation
 - **Syntax** <a id="syntax"></a>
-  - ```ini contact [add] [clear] [depth=<n>][<um>] [left] [right] [back] [front] [top] [bottom] [list] [list.existing] [list.region] [merge=<list>] [name=<c>] [new.name=<c>] [print] [region=<c>] [sidewall] [width=<n>][<um>] ( [box] [<materia...
-  - _Keywords:_ region, material, contact, bottom, existing, sidewall, adjacent, replace
+  - ```ini contact [add] [clear] [depth=<n>][<um>] [left] [right] [back] [front] [top] [bottom] [list] [list.existing] [list.region] [merge=<li…
 - **Arguments** <a id="arguments"></a>
   - add
-  - _Keywords:_ contact, specified, contacts, material, region, elements, Specifies, existing
 - **A: Commands** <a id="a-commands"></a>
   - contact
-  - _Keywords:_ contact, region, elements, selected, material, TDR, surface, coordinates
 - **Description** <a id="description"></a>
-  - This command defines new contacts, deletes contacts, and prints contact information. The contact command can be called multiple times with the same name if the add argument is specified. In this case, the contact will have multiple parts...
-  - _Keywords:_ contacts, contact, Contacts, multiple, specified, written, TDR, struct
+  - This command defines new contacts, deletes contacts, and prints contact information. The contact command can be called multiple times with…
 - **Examples** <a id="examples"></a>
   - List all available contacts:
-  - _Keywords:_ contact, Define, contacts, region, simulation, domain, elements, containing
 - **See Also** <a id="see-also"></a>
-  - integrate on page 1053 line on page 1080 struct on page 1245
-  - _Keywords:_ integrate, struct
 - **contour** <a id="contour"></a>
   - Plots a contour of the selected variable or named data field at the value specified on a 2D plot.
-  - _Keywords:_ Plots, contour, selected, variable, specified
 - **Syntax** <a id="syntax"></a>
-  - ```txt contour [color=<c>] [name=<c>] [print] [value=<n>] [x=<n>] [<m> | <cm> | <um> | <nm>] [y=<n>] [<m> | <cm> | <um> | <nm>] [z=<n>] [<m> | <cm> | <um> | <nm>] ```
-  - _Keywords:_ contour
+  - ```txt contour [color=<c>] [name=<c>] [print] [value=<n>] [x=<n>] [<m> | <cm> | <um> | <nm>] [y=<n>] [<m> | <cm> | <um> | <nm>] [z=<n>] [<m…
 - **Arguments** <a id="arguments"></a>
   - color
-  - _Keywords:_ contour, Specifies, plotted, concentration, dimensions, specified, supported, X11
 - **Description** <a id="description"></a>
-  - The value must be specified in the range of the computed variable. For example, if plotting log boron, the value must be in the range 10 to 20 not 1e10 to 1e20.
-  - _Keywords:_ specified, computed, variable, plotting, contour, assumes, screen, configured
+  - The value must be specified in the range of the computed variable. For example, if plotting log boron, the value must be in the range 10 to…
 - **Examples** <a id="examples"></a>
   - Draw a line at an isoconcentration of ${ 1 0 } ^ { 1 0 }$ :
-  - _Keywords:_ Draw, isoconcentration, contour
 - **See Also** <a id="see-also"></a>
-  - Compatibility on page 938 plot.2d on page 1141 slice on page 1227
-  - _Keywords:_ Compatibility
 - **Coordinations.Planes.Compatibility** <a id="coordinations-planes-compatibility"></a>
   - Specifies LKMC Coordinations.Planes epitaxy growth rates using the LKMC Coordinations epitaxy model.
-  - _Keywords:_ LKMC, Coordinations, epitaxy, Specifies, Planes, growth
 - **Syntax** <a id="syntax"></a>
   - Coordinations.Planes.Compatibility
-  - _Keywords:_ Coordinations, Planes, Compatibility
 - **Description** <a id="description"></a>
-  - This command specifies a compatibility mode of the LKMC Coordinations model. If this model has not been switched on, this command prints a warning; otherwise, it has no effect.
-  - _Keywords:_ Coordinations, compatibility, specifies, LKMC, switched, prints, warning, otherwise
+  - This command specifies a compatibility mode of the LKMC Coordinations model. If this model has not been switched on, this command prints a…
 - **Examples** <a id="examples"></a>
   - pdbSet LKMC Model Coordinations
-  - _Keywords:_ Coordinations, pdbSet, LKMC, Model, Planes, Compatibility
 - **See Also** <a id="see-also"></a>
   - Planar Epitaxy Models on page 574
-  - _Keywords:_ Planar, Epitaxy, Models
 - **CutLine2D** <a id="cutline2d"></a>
   - Computes the slice angle when given a cut in wafer coordinates.
-  - _Keywords:_ Computes, coordinates
 - **Syntax** <a id="syntax"></a>
   - ```html CutLine2D <x1> <y1> <x2> <y2> ```
-  - _Keywords:_ CutLine2D
 - **Arguments** <a id="arguments"></a>
   - ```html <x1> <y1> <x2> <y2> ```
-  - _Keywords:_ Endpoints, simulation, cutline, coordinates
 - **Description** <a id="description"></a>
-  - Given a cut in wafer coordinates defined by the endpoints (<x1>,<y1>) and $( < \mathbf { x } 2 > , < \mathbf { y } 2 > )$ , the CutLine2D command computes the slice angle.
-  - _Keywords:_ mathbf, Given, coordinates, defined, endpoints, CutLine2D, computes
+  - Given a cut in wafer coordinates defined by the endpoints (<x1>,<y1>) and $( < \mathbf { x } 2 > , < \mathbf { y } 2 > )$ , the CutLine2D c…
 - **Examples** <a id="examples"></a>
   - Set the cutline for the simulation from (0,0) to (1,0):
-  - _Keywords:_ cutline, simulation, CutLine2D
 - **See Also** <a id="see-also"></a>
   - Wafer Coordinate System on page 36 init on page 1046
-  - _Keywords:_ Wafer, Coordinate, System
 - **define** <a id="define"></a>
   - Defines a Tcl variable.
-  - _Keywords:_ Defines, Tcl, variable
 - **Syntax** <a id="syntax"></a>
   - ```erb define <name> <value> ```
-  - _Keywords:_ define
 - **Arguments** <a id="arguments"></a>
   - ```txt <name> ```
-  - _Keywords:_ defined, string
 - **Description** <a id="description"></a>
-  - The define command is equivalent to the Tcl command set, except that variables defined with set are not saved or re-stored in TDR files. Variables defined using the define command are saved or re-stored.
-  - _Keywords:_ define, equivalent, defined, stored, Tcl, except, variables, TDR
+  - The define command is equivalent to the Tcl command set, except that variables defined with set are not saved or re-stored in TDR files. Va…
 - **Examples** <a id="examples"></a>
   - Define the Tcl variable LG, which is stored in and loaded from a TDR file. It can be used in any Tcl expression:
-  - _Keywords:_ Tcl, Define, variable, stored, loaded, TDR, expression, define
 - **See Also** <a id="see-also"></a>
   - Tcl documentation for description of set syntax
-  - _Keywords:_ Tcl, documentation, description, syntax
 - **defineproc** <a id="defineproc"></a>
   - Defines a Tcl procedure.
-  - _Keywords:_ Defines, Tcl, procedure
 - **Syntax** <a id="syntax"></a>
   - ```txt defineproc <name> { <procedure_arguments> } { <body_of_procedure> } ```
-  - _Keywords:_ defineproc, procedure_arguments, body_of_procedure
 - **Arguments** <a id="arguments"></a>
-  - ```txt <name> Name of the Tcl procedure. <procedure_arguments> Lists the arguments of the named Tcl procedure. <body_of_procedure> Describes the Tcl procedure. ```
-  - _Keywords:_ Tcl, procedure, procedure_arguments, arguments, body_of_procedure, Describes
+  - ```txt <name> Name of the Tcl procedure. <procedure_arguments> Lists the arguments of the named Tcl procedure. <body_of_procedure> Describe…
 - **Description** <a id="description"></a>
-  - The defineproc command is equivalent to the Tcl command proc, except that procedures defined with proc are not saved or re-stored in TDR files. Procedures defined using defineproc are saved or re-stored.
-  - _Keywords:_ defineproc, equivalent, defined, stored, Tcl, except, procedures, TDR
+  - The defineproc command is equivalent to the Tcl command proc, except that procedures defined with proc are not saved or re-stored in TDR fi…
 - **Examples** <a id="examples"></a>
   - Define the Tcl procedure relerr, which is stored in and loaded from a TDR file:
-  - _Keywords:_ newVal, RefVal, relerr, deviation, my_err, LogFile, IL0, Compare
 - **See Also** <a id="see-also"></a>
   - Tcl documentation for description of proc syntax
-  - _Keywords:_ Tcl, documentation, description, syntax
 - **DeleteRefinementboxes** <a id="deleterefinementboxes"></a>
   - Deletes a set of refinement boxes based on a pattern.
-  - _Keywords:_ Deletes, refinement, pattern
 - **Syntax** <a id="syntax"></a>
   - DeleteRefinementboxes pattern=<c>
-  - _Keywords:_ DeleteRefinementboxes, pattern
 - **Arguments** <a id="arguments"></a>
   - pattern
-  - _Keywords:_ pattern, Specifies
 - **Description** <a id="description"></a>
-  - This command finds all the refinement boxes with names that match the defined pattern and deletes them. The pattern is expanded according to standard Tcl rules.
-  - _Keywords:_ pattern, refinement, defined, deletes, expanded, according, standard, Tcl
+  - This command finds all the refinement boxes with names that match the defined pattern and deletes them. The pattern is expanded according t…
 - **Examples** <a id="examples"></a>
   - Delete all refinement boxes that have names such as root\_1, root\_2, and root\_3:
-  - _Keywords:_ Delete, refinement, DeleteRefinementboxes, pattern
 - **deposit** <a id="deposit"></a>
 - **Deposits a new layer.** <a id="deposits-a-new-layer"></a>
 - **Syntax** <a id="syntax"></a>
-  - ```ini deposit ( [<material>] [anisotropic | crystal | fill | fourier | isotropic] [coord=<n>] [<m>|<cm>|<um>|<nm>] [thickness=<n>] [<m>|<cm>|<um>|<nm>] [1D] [Adaptive] [angle=<n>] [coeffs= {<A0><A1><A2> ... <An>}] [crystal.rate= { "<100...
-  - _Keywords:_ material, crystal, buried, anisotropic, fourier, isotropic, coeffs, polygon
+  - ```ini deposit ( [<material>] [anisotropic | crystal | fill | fourier | isotropic] [coord=<n>] [<m>|<cm>|<um>|<nm>] [thickness=<n>] [<m>|<c…
 - **Arguments** <a id="arguments"></a>
-  - 1D
-  - _Keywords:_ deposition, Adaptive, specified, crystal, thickness, Fourier, coeffs, depo_rate
+  - Usually, a polygon deposition automatically increases the dimension to two dimensions before performing the operation. Specify 1D to preven…
 - **direction** <a id="direction"></a>
-  - Specifies the direction for directional deposition as a list of x- and y-coordinates of the deposition vector. The x-coordinate must be positive. Positive-y indicates a right-pointing deposition beam, and negative-y indicates a left-poin...
-  - _Keywords:_ deposition, indicates, pointing, Specifies, direction, directional, coordinates, vector
+  - Specifies the direction for directional deposition as a list of x- and y-coordinates of the deposition vector. The x-coordinate must be pos…
 - **doping** <a id="doping"></a>
   - List of names of doping profiles that have been previously defined with the doping command.
-  - _Keywords:_ species, doping, concentration, profiles, previously, defined, fieldname, These
 - **fields.values** <a id="fields-values"></a>
-  - List of parameters where the parameter name is the name of the field to be introduced in the deposited layer, and the value is the initial value, for example, fields.values= {Boron=1e18}. A list of fields of any name can be initialized w...
-  - _Keywords:_ fields, MoleFractionFields, introduced, deposited, initial, Boron, initialized, argument
+  - List of parameters where the parameter name is the name of the field to be introduced in the deposited layer, and the value is the initial…
 - **fill.buried** <a id="fill-buried"></a>
-  - By default, the material is deposited on the surface exposed to the upper gas region. If the structure has buried gas bubbles, they are untouched. Use fill.buried to deposit the deposition material inside those gas bubbles.
-  - _Keywords:_ material, buried, bubbles, deposited, surface, exposed, region, structure
+  - By default, the material is deposited on the surface exposed to the upper gas region. If the structure has buried gas bubbles, they are unt…
 - **fill.buried.interface** <a id="fill-buried-interface"></a>
   - Specifies the material with which to fill gas bubbles present at a material interface.
-  - _Keywords:_ material, present, Specifies, bubbles, interface, specified, already, simulation
 - **fill.buried.match.surrounding** <a id="fill-buried-match-surrounding"></a>
-  - Similar to fill.buried, but instead of depositing the deposition material inside gas bubbles, this option fills gas bubbles that are completely surrounded by a single material with that material, removing the bubbles from the domain enti...
-  - _Keywords:_ deposition, material, specified, performs, algorithm, deposited, polygon, argument
+  - Similar to fill.buried, but instead of depositing the deposition material inside gas bubbles, this option fills gas bubbles that are comple…
 - **Description** <a id="description"></a>
   - This command simulates a deposition step.
-  - _Keywords:_ simulates, deposition
 - **Examples** <a id="examples"></a>
   - Isotropic deposition of a oxide layer:0.2 μm
-  - _Keywords:_ deposit, thickness, isotropic, mathrm, deposition, nitride, fields, Isotropic
 - **See Also** <a id="see-also"></a>
   - doping on page 969
-  - _Keywords:_ doping, mgoals, MoleFractionFields
 - **diffuse** <a id="diffuse"></a>
   - Simulates thermal annealing, densification, and any material growth process during annealing – oxidation, silicidation, and epitaxy.
-  - _Keywords:_ GPa, MPa, KPa, ambient, ambient1, ambient2, doping, paradis
 - **Arguments** <a id="arguments"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - If specified, Adaptive switches on adaptive meshing for this diffusion step. Parameters for adaptive meshing are described in Adaptive Meshing During Diffusion on page 753. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ specified, growth, ambient, doping, epitaxial, during, argument, layers
+  - If specified, Adaptive switches on adaptive meshing for this diffusion step. Parameters for adaptive meshing are described in Adaptive Mesh…
 - **A: Commands** <a id="a-commands"></a>
   - diffuse
-  - _Keywords:_ partial, pressure, Sentaurus, Process, ambient, ambients, Switches, LKMC
 - **A: Commands** <a id="a-commands"></a>
   - diffuse
-  - _Keywords:_ temperature, pressure, ambient, during, annealing, degree, Celsius, paradis
 - **Arguments: Deprecated** <a id="arguments-deprecated"></a>
   - epi.dopants
-  - _Keywords:_ dopants, fields, incorporated, epitaxial, Deprecated, doping
 - **Description** <a id="description"></a>
-  - This command performs annealing (either continuum or KMC) or, if the diffusion time is set to 0, it activates dopants and performs a stress update. The command arguments set diffusion conditions as well as time-stepping options.
-  - _Keywords:_ mathrm, ambient, Use, performs, diffusion, arguments, pdbSet, specified
+  - This command performs annealing (either continuum or KMC) or, if the diffusion time is set to 0, it activates dopants and performs a stress…
 - **A: Commands diffuse** <a id="a-commands-diffuse"></a>
   - for specifying epitaxial growth. For more information on Epi and LTE, see Epitaxy on page 268.
-  - _Keywords:_ specifying, epitaxial, growth, information, Epi, LTE, Epitaxy
 - **Examples** <a id="examples"></a>
   - A simple low temperature $9 0 0 ^ { \circ } \mathrm { C }$ anneal for 30 s:
-  - _Keywords:_ temperature, diffuse, simple, mathrm, anneal, oxidation, isolation, H2O
 - **See Also** <a id="see-also"></a>
   - ambient on page 927
-  - _Keywords:_ ambient
 - **doping** <a id="doping"></a>
   - Defines a named piecewise linear doping profile that can be used with the deposit command.
-  - _Keywords:_ Defines, piecewise, linear, doping, profile, deposit
 - **Syntax** <a id="syntax"></a>
-  - ```coffeescript doping field=<c> name=<c> (depths=<list> | times=<list>) stress.values=<list> values=<list> [clear] [list] [location= vertex | element] [log.grad] ```
-  - _Keywords:_ coffeescript, doping, depths, stress, location, vertex, element
+  - ```coffeescript doping field=<c> name=<c> (depths=<list> | times=<list>) stress.values=<list> values=<list> [clear] [list] [location= verte…
 - **Arguments** <a id="arguments"></a>
   - clear
-  - _Keywords:_ depths, specifies, numeric, applied, deposition, specified, stress, Clears
 - **A: Commands doping** <a id="a-commands-doping"></a>
   - list
-  - _Keywords:_ doping, profile, stress, Numeric, specifications, location, Location, applied
 - **Description** <a id="description"></a>
-  - This command allows a doping profile specification that can be used inside the deposit command to add doping and other fields to the newly deposited layer (on either vertices or elements).
-  - _Keywords:_ doping, allows, profile, specification, inside, deposit, fields, deposited
+  - This command allows a doping profile specification that can be used inside the deposit command to add doping and other fields to the newly…
 - **Examples** <a id="examples"></a>
-  - Create a doping profile definition with the name init\_boron that consists of a boron profile linearly increasing from at the starting surface to at and beyond in the1 10 ×10 1 20 ×10 0.1 μm deposited layer. This doping profile definitio...
-  - _Keywords:_ doping, profile, depths, stress, definition, deposited, Create, _boron
+  - Create a doping profile definition with the name init\_boron that consists of a boron profile linearly increasing from at the starting surf…
 - **See Also** <a id="see-also"></a>
   - deposit on page 951
-  - _Keywords:_ deposit
 - **element** <a id="element"></a>
   - Extracts the grid for a specified material and returns the grid as a list of coordinates.
-  - _Keywords:_ Extracts, specified, material, coordinates
 - **Syntax** <a id="syntax"></a>
   - element <material> [region]
-  - _Keywords:_ element, material, region
 - **Arguments** <a id="arguments"></a>
   - <material>
-  - _Keywords:_ material, region, Specifying, Materials, Limits, specified
 - **Description** <a id="description"></a>
-  - This command can be used to plot the grid. It returns a list of coordinates that define the grid. Each of the outer lists makes up a continuous line through the grid. Each inner list contains coordinate pairs in order for that line.
-  - _Keywords:_ coordinates, define, continuous, through, contains, coordinate, available, simulations
+  - This command can be used to plot the grid. It returns a list of coordinates that define the grid. Each of the outer lists makes up a contin…
 - **Examples** <a id="examples"></a>
   - Return the grid of oxide material:
-  - _Keywords:_ material, element
 - **Enu2G** <a id="enu2g"></a>
   - Computes the shear modulus from Young’s modulus and the Poisson ratio.
-  - _Keywords:_ modulus, Computes, Young, Poisson
 - **Syntax** <a id="syntax"></a>
   - ```txt Enu2G <n> <n> ```
-  - _Keywords:_ Enu2G
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ Young, modulus, second, Poisson
 - **Description** <a id="description"></a>
   - The same units are assumed for all moduli.
-  - _Keywords:_ assumed, moduli
 - **Examples** <a id="examples"></a>
   - Compute the shear modulus from Young’s modulus (1.620e12 dyn/cm2 ) and the Poisson ratio (0.28):
-  - _Keywords:_ modulus, Compute, Young, Poisson, Enu2G
 - **Enu2K** <a id="enu2k"></a>
   - Computes the bulk modulus from Young’s modulus and the Poisson ratio.
-  - _Keywords:_ modulus, Computes, Young, Poisson
 - **Syntax** <a id="syntax"></a>
   - ```txt Enu2K <n> <n> ```
-  - _Keywords:_ Enu2K
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ Young, modulus, second, Poisson
 - **Description** <a id="description"></a>
   - The same units are assumed for all moduli.
-  - _Keywords:_ assumed, moduli
 - **Examples** <a id="examples"></a>
   - Compute the bulk modulus from Young’s modulus (1.620e12 dyn/cm2 ) and the Poisson ratio (0.28):
-  - _Keywords:_ modulus, Compute, Young, Poisson, Enu2K
 - **equation** <a id="equation"></a>
   - Allows test parsing and resolution of an equation string.
-  - _Keywords:_ Allows, parsing, resolution, equation, string
 - **Syntax** <a id="syntax"></a>
   - ```txt equation eqn=<c> [nodal] ```
-  - _Keywords:_ equation
 - **Arguments** <a id="arguments"></a>
   - eqn
-  - _Keywords:_ specified, String, checked, string
 - **Description** <a id="description"></a>
-  - The equation string is parsed, broken into pieces, and derivatives are taken and printed. This command is useful for debugging problems with the resolver and parsing, as equation strings can be tried before being run.
-  - _Keywords:_ equation, string, parsed, broken, pieces, derivatives, printed, useful
+  - The equation string is parsed, broken into pieces, and derivatives are taken and printed. This command is useful for debugging problems wit…
 - **Examples** <a id="examples"></a>
   - Parse and resolve the string exp(Potential\*\$Vti):
-  - _Keywords:_ Potential, Vti, Parse, resolve, string, equation
 - **See Also** <a id="see-also"></a>
-  - solution on page 1231
-  - _Keywords:_ solution
 - **etch** <a id="etch"></a>
   - Removes part or all of an exposed layer.
-  - _Keywords:_ isotropic, anisotropic, trapezoidal, bottom, thickness, coeffs, crystal, etchstop
 - **Arguments** <a id="arguments"></a>
-  - 1D
-  - _Keywords:_ etching, trapezoidal, Specifies, etchstop, dimensions, direction, Adaptive, bottom
+  - Usually, a polygon etching automatically increases the dimension to two dimensions before performing the operation. Set 1D to prevent this…
 - **A: Commands** <a id="a-commands"></a>
   - etch
-  - _Keywords:_ etching, algorithm, shadowing, levelset, material, overetch, polygon, etchstop
 - **A: Commands** <a id="a-commands"></a>
   - etch
-  - _Keywords:_ etching, performs, arguments, dimensions, thickness, argument, defined, bottom
 - **Description** <a id="description"></a>
-  - This command etches a layer exposed to the top gas. Several materials can be etched at the same time. There are different modes to perform etching:
-  - _Keywords:_ etching, MGOALS, etches, exposed, Several, materials, etched, different
+  - This command etches a layer exposed to the top gas. Several materials can be etched at the same time. There are different modes to perform…
 - **Examples** <a id="examples"></a>
   - Etch a silicon layer anisotropically in the direction indicated by direction. A mask0.2 μm called m1 is used during etching:
-  - _Keywords:_ silicon, direction, source1, Etch, etching, material, minute, shadowing
 - **A: Commands** <a id="a-commands"></a>
   - etch
-  - _Keywords:_ etching, source1, material, Silicon, trapezoidal, minutes, minute, ambient
 - **See Also** <a id="see-also"></a>
-  - deposit on page 951 mask on page 1092 mgoals on page 1110
-  - _Keywords:_ deposit, mgoals
 - **exit** <a id="exit"></a>
   - Terminates the execution of Sentaurus Process.
-  - _Keywords:_ Terminates, execution, Sentaurus, Process
 - **Syntax** <a id="syntax"></a>
   - exit
 - **Description** <a id="description"></a>
   - This command can be used in interactive mode as well as in command files.
-  - _Keywords:_ interactive
 - **See Also** <a id="see-also"></a>
   - fbreak on page 987
-  - _Keywords:_ fbreak, fcontinue
 - **extract** <a id="extract"></a>
   - Extracts historical data during a diffuse step.
-  - _Keywords:_ Extracts, historical, during, diffuse
 - **Syntax** <a id="syntax"></a>
-  - ```txt extract [clear] [command= {<c> <c> ...}] [extract.variable.names= {<c> <c> <c> ...}] [file.name=<c>] [name=<c>] [print] [syntax.check.value=<c>] ```
-  - _Keywords:_ extract, variable, syntax
+  - ```txt extract [clear] [command= {<c> <c> ...}] [extract.variable.names= {<c> <c> <c> ...}] [file.name=<c>] [name=<c>] [print] [syntax.chec…
 - **Arguments** <a id="arguments"></a>
   - clear
-  - _Keywords:_ variables, syntax, returned, during, Clears, stored, historical, interpolation
 - **Description** <a id="description"></a>
   - Specifies the commands for data extraction during a diffuse step.
-  - _Keywords:_ extracted, Specifies, extraction, during, diffuse, historical, returned, Tcl
 - **Examples** <a id="examples"></a>
   - Extract and store the boron concentration at the position in the silicon for each diffuse0.04 μm step:
-  - _Keywords:_ extract, interpolate, select, report, location, extracted, variable, Stress_xx
 - **A: Commands** <a id="a-commands"></a>
   - extract
-  - _Keywords:_ extract
 - **See Also** <a id="see-also"></a>
   - Extracting Values During diffuse Step: extract on page 896 interpolate on page 1059
-  - _Keywords:_ Extracting, During, diffuse, Step, extract, interpolate
 - **fbreak** <a id="fbreak"></a>
   - Starts interactive mode.
-  - _Keywords:_ Starts, interactive
 - **Syntax** <a id="syntax"></a>
   - fbreak
-  - _Keywords:_ fbreak
 - **Description** <a id="description"></a>
   - This command interrupts the execution of command files and starts the interactive mode.
-  - _Keywords:_ interrupts, execution, starts, interactive
 - **See Also** <a id="see-also"></a>
   - exit on page 983 fcontinue
-  - _Keywords:_ fcontinue
 - **fcontinue** <a id="fcontinue"></a>
   - Resumes execution of command files.
-  - _Keywords:_ Resumes, execution
 - **Syntax** <a id="syntax"></a>
   - fcontinue
-  - _Keywords:_ fcontinue
 - **Description** <a id="description"></a>
   - This interactive mode command resumes the execution of command files in batch mode.
-  - _Keywords:_ interactive, resumes, execution
 - **See Also** <a id="see-also"></a>
   - exit on page 983 fbreak
-  - _Keywords:_ fbreak
 - **fexec** <a id="fexec"></a>
   - Executes system commands.
-  - _Keywords:_ Executes, system
 - **Syntax** <a id="syntax"></a>
   - fexec
 - **Description** <a id="description"></a>
-  - Executes system calls through the Tcl command exec (with exactly the same syntax). Using fexec, the system calls are not executed during syntax-checking as they would be if the plain exec command were used. If there is an error in the ex...
-  - _Keywords:_ system, syntax, Executes, through, Tcl, exactly, executed, during
+  - Executes system calls through the Tcl command exec (with exactly the same syntax). Using fexec, the system calls are not executed during sy…
 - **Examples** <a id="examples"></a>
   - List the contents of the current directory:
-  - _Keywords:_ contents, current, directory
 - **See Also** <a id="see-also"></a>
   - Tcl documentation for description of exec syntax
-  - _Keywords:_ Tcl, documentation, description, syntax
 - **fproc** <a id="fproc"></a>
   - The defineproc and fproc commands are equivalent.
-  - _Keywords:_ defineproc, equivalent
 - **fset** <a id="fset"></a>
   - The define and fset commands are equivalent.
-  - _Keywords:_ define, equivalent
 - **gas\_flow** <a id="gas-flow"></a>
   - Specifies a gas mixture for use with the diffuse or temp\_ramp command.
-  - _Keywords:_ ambient, GPa, MPa, KPa, ambient1, ambient2, pressure, Specifies
 - **Arguments** <a id="arguments"></a>
   - ```twig <ambient> ```
-  - _Keywords:_ ambient, pressure, partial, ambients, pressures, active, specified, reaction
 - **Description** <a id="description"></a>
-  - This command specifies a gas mixture for thermal oxidation or user-defined gas material reactions, and can be set in the diffuse command or temp\_ramp command. Specification in multiple temp\_ramp commands allows changing the gas flow du...
-  - _Keywords:_ mathrm, ambients, specified, partial, pressure, oxidation, material, reactions
+  - This command specifies a gas mixture for thermal oxidation or user-defined gas material reactions, and can be set in the diffuse command or…
 - **Examples** <a id="examples"></a>
   - These are three equivalent flow specifications for the gas mixture myflow:
-  - _Keywords:_ myflow, gas_flow, pressure, H2O, flowO2, These, equivalent, specifications
 - **A: Commands** <a id="a-commands"></a>
   - gas\_flow
-  - _Keywords:_ partial, pressure, gas_flow, pressures, H2O, Similar, syntax, Three
 - **See Also** <a id="see-also"></a>
   - diffuse on page 958
-  - _Keywords:_ diffuse
 - **GetMoleFractionFields** <a id="getmolefractionfields"></a>
   - Returns the fields of the constituent elements of an alloy material for a given material or region with given mole fractions.
-  - _Keywords:_ material, fields, constituent, elements, region, fractions
 - **Syntax** <a id="syntax"></a>
   - ```elixir GetMoleFractionFields <material_or_region> <alloy_material> <xMoleFraction> [<yMoleFraction>] ```
-  - _Keywords:_ elixir, GetMoleFractionFields, material_or_region, alloy_material, xMoleFraction, yMoleFraction
 - **Arguments** <a id="arguments"></a>
   - ```txt <alloy_material> ```
-  - _Keywords:_ material, yMoleFraction, fraction, alloy_material, SiGe, InGaAs, material_or_region, region
 - **Description** <a id="description"></a>
-  - The constituent elements of the material (<material\_or\_region>) must be a subset of the elements of the alloy material (<alloy\_material>). Only the complementary elements of the region material are printed. In other words, only the ge...
-  - _Keywords:_ material, elements, region, printed, constituent, _region, subset, _material
+  - The constituent elements of the material (<material\_or\_region>) must be a subset of the elements of the alloy material (<alloy\_material>…
 - **Examples** <a id="examples"></a>
   - Return the fields of the constituent elements of the following alloy materials:
-  - _Keywords:_ SiGe, sprocess, GetMoleFractionFields, Germanium, Silicon, fields, constituent, elements
 - **A: Commands** <a id="a-commands"></a>
   - GetMoleFractionFields
-  - _Keywords:_ GetMoleFractionFields, Add, germanium, deposited, silicon, material, deposit, thickness
 - **See Also** <a id="see-also"></a>
   - MoleFractionFields on page 1116
-  - _Keywords:_ MoleFractionFields, SetMoleFractionFields
 - **GetMoleFractionParam** <a id="getmolefractionparam"></a>
   - Returns the expression of the interpolation of a given parameter.
-  - _Keywords:_ expression, interpolation
 - **Syntax** <a id="syntax"></a>
   - ```txt GetMoleFractionParam <alloy_material> <parameter> ```
-  - _Keywords:_ GetMoleFractionParam, alloy_material
 - **Arguments** <a id="arguments"></a>
   - ```txt <alloy_material> ```
-  - _Keywords:_ alloy_material, material, SiGe, InGaAs, Specifies, hierarchical, identical, specification
 - **Description** <a id="description"></a>
   - This command is not applicable to KMC or MC implantation parameters.
-  - _Keywords:_ applicable, KMC, implantation
 - **Examples** <a id="examples"></a>
-  - ```clojure sprocess> GetMoleFractionParam SiGe Int Cstar ((((expr [expr [Arr 1.4e27 3.18]]]))*xMoleFraction + ((expr [expr [Arr 3.12e23 2.932]]]))*(1.0-xMoleFraction)) sprocess> GetMoleFractionParam SiGe Int ChargeStates 0 {{([expr 1.0])...
-  - _Keywords:_ Arr, xMoleFraction, sprocess, GetMoleFractionParam, xMoleFraction_SiliconGermanium, SiGe, Int, Ox_SiGe
+  - ```clojure sprocess> GetMoleFractionParam SiGe Int Cstar ((((expr [expr [Arr 1.4e27 3.18]]]))*xMoleFraction + ((expr [expr [Arr 3.12e23 2.9…
 - **graphics** <a id="graphics"></a>
   - Controls the user interface of Sentaurus Visual (both the plot and field selection) from the command file.
-  - _Keywords:_ Controls, interface, Sentaurus, Visual, selection
 - **Syntax** <a id="syntax"></a>
-  - ```toml graphics [add.active] [add.dopants] [add.total] [cmd=<c>] [display.all= <list> | all] [display.border= <list> | all] [display.bulk= <list> | all] [display.field= <list> | all] [display.mesh= <list> | all] [field.1d.max=<n>] [fiel...
-  - _Keywords:_ display, graphics, active, dopants, border, linear, fields, aspect
+  - ```toml graphics [add.active] [add.dopants] [add.total] [cmd=<c>] [display.all= <list> | all] [display.border= <list> | all] [display.bulk=…
 - **Arguments** <a id="arguments"></a>
   - add.active, add.dopants, add.total
-  - _Keywords:_ fields, display, switch, displayed, active, These, material, simulations
 - **A: Commands graphics** <a id="a-commands-graphics"></a>
   - the specified plot range of those arguments is not necessarily used. To remove this restriction, specify !keep.aspect.ratio.
-  - _Keywords:_ graphics, arguments, aspect, updating, Sentaurus, Visual, specified, necessarily
 - **Description** <a id="description"></a>
-  - The graphics command controls plot settings in Sentaurus Visual and selects which fields are available for visualization. Plot settings also can be controlled directly using the user interface of Sentaurus Visual. However, if for example...
-  - _Keywords:_ fields, graphics, settings, Sentaurus, Visual, available, interface, controls
+  - The graphics command controls plot settings in Sentaurus Visual and selects which fields are available for visualization. Plot settings als…
 - **Examples** <a id="examples"></a>
   - In one dimension, add ITotal to the list of fields that are displayed (or, in two dimensions and three dimensions, display ITotal):
-  - _Keywords:_ graphics, ITotal, dimensions, fields, display, minimum, aspect, boundaries
 - **See Also** <a id="see-also"></a>
   - Sentaurus™ Visual User Guide
-  - _Keywords:_ Sentaurus, Visual, Guide
 - **grid** <a id="grid"></a>
   - Sets meshing parameters, performs grid operations, and computes statistics about the mesh.
-  - _Keywords:_ volume, location, interface, vertices, normal, regions, connectivity, remesh
 - **Arguments: Regridding, Renaming, Refinement** <a id="arguments-regridding-renaming-refinement"></a>
   - 2D, 3D, FullD
-  - _Keywords:_ specified, Adaptive, dimension, remesh, regions, material, region, smallest
 - **A: Commands grid** <a id="a-commands-grid"></a>
-  - (for 2D or 3D structures), and MinZEdgeLength (for 3D structures). In addition, this argument stores the element volumes in the field ElementVolume. When set.min.edge is specified, the average edge length in each direction is returned an...
-  - _Keywords:_ returned, element, syntax, structures, volumes, during, MinZEdgeLength, addition
+  - (for 2D or 3D structures), and MinZEdgeLength (for 3D structures). In addition, this argument stores the element volumes in the field Eleme…
 - **Arguments: Setting Mesh Parameters** <a id="arguments-setting-mesh-parameters"></a>
   - NOTE These arguments set the corresponding meshing parameters under pdbSet Grid SnMesh. See Table 90 on page 758 for more details.
-  - _Keywords:_ meshing, PDB, normal, Specifies, elements, interface, growth, factor
 - **Arguments: Grid Statistics** <a id="arguments-grid-statistics"></a>
   - Gas
-  - _Keywords:_ Gas, quality, material, specified, except, volume, measures, include
 - **Arguments: Reporting Grid Statistics** <a id="arguments-reporting-grid-statistics"></a>
   - get.bbox
-  - _Keywords:_ Prints, bounding, structure, coordinates
 - **A: Commands** <a id="a-commands"></a>
   - grid
-  - _Keywords:_ interface, volume, maximum, regions, elements, dimensions, dimension, Maximum
 - **A: Commands** <a id="a-commands"></a>
   - grid
-  - _Keywords:_ volume, vertices, dimensions, minimum, element, obtuse, dimension, location
 - **Arguments: Boundary Representation (Brep) Statistics Reporting** <a id="arguments-boundary-representation-brep-statistics-reporting"></a>
   - get.brep.faces
-  - _Keywords:_ minimum, coordinates, location, length, dimensions, statistics, printed, listed
 - **A: Commands grid** <a id="a-commands-grid"></a>
-  - brep.conformal: Returns true if the brep is conformal; otherwise, false. • brep.dimension: Returns the dimension of the brep. • brep.max.angle: Returns the brep maximum angle in degrees. • brep.max.angle.from.flat: Returns -brep maximum ...
-  - _Keywords:_ dimensions, dihedral, minimum, conformal, dimension, maximum, degrees, location
+  - brep.conformal: Returns true if the brep is conformal; otherwise, false. • brep.dimension: Returns the dimension of the brep. • brep.max.an…
 - **Arguments: Sano Smoothing and Remeshing** <a id="arguments-sano-smoothing-and-remeshing"></a>
   - sano.remesh
-  - _Keywords:_ Sano, remesh, fields, UnsetAtomistic, Switches, special, Usually, remeshing
 - **NOTE With regard to the Sano remesh mode:** <a id="note-with-regard-to-the-sano-remesh-mode"></a>
-  - NetActive (DopingConcentration) is updated automatically using active Sano fields during sano.remesh. This mode does not create any new fields in the structure. Sano fields can be created using sano.smooth in a separate grid command. • T...
-  - _Keywords:_ fields, Sano, smooth, automatically, active, remesh, UnsetAtomistic, NetActive
+  - NetActive (DopingConcentration) is updated automatically using active Sano fields during sano.remesh. This mode does not create any new fie…
 - **NOTE With regard to sano.smooth:** <a id="note-with-regard-to-sano-smooth"></a>
-  - NetActive (DopingConcentration) is updated automatically using Sano fields during sano.smooth. • It specifies that only KMC particles are converted to new finiteelement fields on the existing mesh; no remeshing occurs.
-  - _Keywords:_ materials, Sano, fields, KMC, NetActive, DopingConcentration, updated, automatically
+  - NetActive (DopingConcentration) is updated automatically using Sano fields during sano.smooth. • It specifies that only KMC particles are c…
 - **Arguments: Smoothing Boundary Representation (Brep)** <a id="arguments-smoothing-boundary-representation-brep"></a>
   - smooth.brep
-  - _Keywords:_ surface, DelPSC, MLS, algorithm, delpsc, features, triangles, accuracy
 - **Description** <a id="description"></a>
   - This command allows you to:
-  - _Keywords:_ statistics, quality, element, retrieve, returnArray, elements, Remesh, regions
 - **Examples** <a id="examples"></a>
   - Recreate the mesh using currently specified refinements:
-  - _Keywords:_ remesh, elements, returnArray, pdbSet, obtuse, silicon, statistics, numNodes
 - **See Also** <a id="see-also"></a>
-  - line on page 1080
 - **help** <a id="help"></a>
   - Prints a list of all commands available in Sentaurus Process.
-  - _Keywords:_ Prints, available, Sentaurus, Process
 - **Syntax** <a id="syntax"></a>
   - help
 - **Description** <a id="description"></a>
   - This command can be used in interactive mode as well as in command files.
-  - _Keywords:_ interactive
 - **icwb** <a id="icwb"></a>
   - IC WorkBench (ICWB)–related functions.
-  - _Keywords:_ polygon, domain, recenter, tessellations, WorkBench, ICWB, related, Syntax
 - **Description** <a id="description"></a>
-  - The keyword icwb introduces commands used to operate with ICWB TCAD layout files. The different uses of the keyword icwb are given here, along with their syntax and corresponding descriptions:
-  - _Keywords:_ domain, ICWB, polygon, current, domains, simulation, layout, defined
+  - The keyword icwb introduces commands used to operate with ICWB TCAD layout files. The different uses of the keyword icwb are given here, al…
 - **icwb.composite** <a id="icwb-composite"></a>
   - Loads a GDSII file for a 2D TCAD simulation based on composite simulation domains.
-  - _Keywords:_ simulation, Loads, GDSII, TCAD, composite, domains
 - **Syntax** <a id="syntax"></a>
-  - ```txt icwb.composite cell=<c> composite.domain.name= {<list>} gds.file=<c> layer.names= {<list>} layer.numbers= {<list>} sim2d.list= {{<n>} {<n>}} [scale=<n>] [stretches= {<c>= {<n>}}] ```
-  - _Keywords:_ composite, domain, stretches
+  - ```txt icwb.composite cell=<c> composite.domain.name= {<list>} gds.file=<c> layer.names= {<list>} layer.numbers= {<list>} sim2d.list= {{<n>…
 - **Arguments** <a id="arguments"></a>
   - cell
-  - _Keywords:_ domain, simulation, composite, GDSII, Specifies, Defines, layers, specified
 - **Description** <a id="description"></a>
   - This command is similar to the icwb gds.file=<c> command, but it applies to 2D composite simulation domains.
-  - _Keywords:_ similar, applies, composite, simulation, domains
 - **Examples** <a id="examples"></a>
-  - The following command loads the BCD.gds GDSII file and activates a 2D composite simulation domain consisting of two regular simulation domains called BJT1 and BJT2:
-  - _Keywords:_ composite, BCD, simulation, domain, BJT1, BJT2, LAYERS, GDSII
+  - The following command loads the BCD.gds GDSII file and activates a 2D composite simulation domain consisting of two regular simulation doma…
 - **icwb.contact.mask** <a id="icwb-contact-mask"></a>
   - Creates contacts for subsequent device simulations that are tied to a layer in the ICWB TCAD layout file.
-  - _Keywords:_ Creates, contacts, subsequent, device, simulations, ICWB, TCAD, layout
 - **Syntax** <a id="syntax"></a>
-  - ```txt icwb.contact.mask (label.name=<c> [distance=<n>] [label.in.polygon= 0 | 1] | layer.name=<c>) (box <material> [adjacent.material=<c>] [boxheight=<n>] [xhi=<n>] [xlo=<n>] | point <material> [replace] [x=<n>]) [name=<c>] [<other_argu...
-  - _Keywords:_ material, contact, distance, polygon, adjacent, boxheight, replace, other_arguments
+  - ```txt icwb.contact.mask (label.name=<c> [distance=<n>] [label.in.polygon= 0 | 1] | layer.name=<c>) (box <material> [adjacent.material=<c>]…
 - **Arguments** <a id="arguments"></a>
   - box, <material>, adjacent.material, boxheight, xhi, xlo
-  - _Keywords:_ contact, specified, material, polygon, layout, distance, boxheight, lateral
 - **Description** <a id="description"></a>
-  - This command serves as an interface between the ICWB TCAD layout and the contact command by automatically obtaining the lateral placement of the contact from the specified ICWB layer or text label location, taking the vertical placement ...
-  - _Keywords:_ contact, vertical, automatically, placement, argument, contacts, extent, determined
+  - This command serves as an interface between the ICWB TCAD layout and the contact command by automatically obtaining the lateral placement o…
 - **Examples** <a id="examples"></a>
-  - The following commands create contacts for subsequent device simulations tied to the layers named emitter and pdrain, and the text label drain, in the example ICWB TCAD layout file:
-  - _Keywords:_ contact, emitter, pdrain, replace, create, contacts, subsequent, device
+  - The following commands create contacts for subsequent device simulations tied to the layers named emitter and pdrain, and the text label dr…
 - **icwb.create.all.masks** <a id="icwb-create-all-masks"></a>
   - Creates positive and negative mask versions for all layers found in the currently active ICWB simulation domain.
-  - _Keywords:_ Creates, positive, negative, versions, layers, currently, active, ICWB
 - **Syntax** <a id="syntax"></a>
-  - ```txt icwb.create.all.masks [save.to.tdr= 0 | 1] [shift= {<dy> <dz>}] [stretchypos= {<yo> <dy>}] [stretchyneg= {<yo> <dy>}] [stretchzpos= {<zo> <dz>}] [stretchzneg= {<zo> <dz>}] [reflecty= <yo>] [reflectz= <zo>] ```
-  - _Keywords:_ create, stretchypos, stretchyneg, stretchzpos, stretchzneg, reflecty, reflectz
+  - ```txt icwb.create.all.masks [save.to.tdr= 0 | 1] [shift= {<dy> <dz>}] [stretchypos= {<yo> <dy>}] [stretchyneg= {<yo> <dy>}] [stretchzpos=…
 - **Arguments** <a id="arguments"></a>
   - See icwb.create.mask on page 1024.
-  - _Keywords:_ create
 - **Description** <a id="description"></a>
   - The names of the masks are given by the layer names and the suffix \_p for the positive and \_n for the negative version of the mask.
-  - _Keywords:_ TRENCH, layout, create, Therefore, suffix, positive, negative, version
 - **icwb.create.mask** <a id="icwb-create-mask"></a>
   - Creates a mask for subsequent use in etch, deposit, or photo commands from one or more ICWB layers.
-  - _Keywords:_ Creates, subsequent, deposit, ICWB, layers
 - **Syntax** <a id="syntax"></a>
-  - ```txt icwb.create.mask layer.name= <c> | <list> [name=<c>] [polarity= positive | negative] [save.to.tdr= 0 | 1] [shift= {<dy> <dz>}] [stretchypos= {<yo> <dy>}] [stretchyneg= {<yo> <dy>}] [stretchzpos= {<zo> <dz>}] [stretchzneg= {<zo> <d...
-  - _Keywords:_ create, polarity, positive, negative, stretchypos, stretchyneg, stretchzpos, stretchzneg
+  - ```txt icwb.create.mask layer.name= <c> | <list> [name=<c>] [polarity= positive | negative] [save.to.tdr= 0 | 1] [shift= {<dy> <dz>}] [stre…
 - **Arguments** <a id="arguments"></a>
   - layer.name
-  - _Keywords:_ layers, before, creating, applied, polarity, TDR, GDS, stretch
 - **Description** <a id="description"></a>
-  - This command serves as an interface between the ICWB TCAD layout and the mask and polygon commands, and provides a convenient way to generate 1D, 2D, and 3D masks consisting of the points, segments, or polygons from one or more ICWB laye...
-  - _Keywords:_ ICWB, dimension, serves, interface, between, TCAD, layout, polygon
+  - This command serves as an interface between the ICWB TCAD layout and the mask and polygon commands, and provides a convenient way to genera…
 - **Examples** <a id="examples"></a>
   - The following commands create masks from the corresponding layers named by layer.name:
-  - _Keywords:_ create, NWELL, corresponding, layers, polarity, negative, NOTNWELL, NPDIFF
 - **See Also** <a id="see-also"></a>
   - deposit on page 951
-  - _Keywords:_ deposit, polygon
 - **implant** <a id="implant"></a>
   - Specifies implantation model parameters and implants an ion species into a wafer.
-  - _Keywords:_ Specifies, implantation, implants, species
 - **Syntax** <a id="syntax"></a>
-  - ```ini implant [angle.dependent] [beta=<n>] [beta2=<n>] [boundary.conditions= {left=<c> right=<c> front=<c> back=<c>}] [cap.dependent] [dam.suf=<c>] [dam.table=<c>] [damage] [data.suf=<c>] [dataset=<c>] [depth.dependent] [dualpearson | g...
-  - _Keywords:_ fraction, offset, material, implant, dependent, energy, species, location
+  - ```ini implant [angle.dependent] [beta=<n>] [beta2=<n>] [boundary.conditions= {left=<c> right=<c> front=<c> back=<c>}] [cap.dependent] [dam…
 - **Arguments: Specifying Models and Parameters** <a id="arguments-specifying-models-and-parameters"></a>
   - angle.dependent
-  - _Keywords:_ implantation, dependent, damage, moments, Specifies, Overwrites, kurtosis, specified
 - **A: Commands** <a id="a-commands"></a>
   - implant
-  - _Keywords:_ implantation, specified, Specifies, energy, lateral, standard, deviation, species
 - **A: Commands** <a id="a-commands"></a>
   - implant
-  - _Keywords:_ implantation, species, specified, Specifies, TSUPREM, Overwrites, second, material
 - **A: Commands** <a id="a-commands"></a>
   - implant
-  - _Keywords:_ position, Point, reference, direction, automated, Monte, Carlo, implant
 - **Arguments: Performing Implantation** <a id="arguments-performing-implantation"></a>
   - Adaptive
-  - _Keywords:_ fraction, conformal, implantation, Specifies, specified, Adaptive, surface, energy
 - **A: Commands** <a id="a-commands"></a>
   - implant
-  - _Keywords:_ implantation, Specifies, extract, moments, profile, loaded, coordinate, analytic
 - **A: Commands** <a id="a-commands"></a>
   - implant
-  - _Keywords:_ implantation, Switches, moments, Sentaurus, profile, thickness, Monte, Carlo
 - **A: Commands** <a id="a-commands"></a>
   - implant
-  - _Keywords:_ moments, implantation, Specifies, projected, Pearson, extracted, extract, smooth
 - **Arguments: Deprecated** <a id="arguments-deprecated"></a>
   - conformality
-  - _Keywords:_ Sentaurus, Specifies, implantation, conformality, damage, internal, Crystal, TRIM
 - **Description** <a id="description"></a>
-  - There are two main branches to this command. The first allows you to specify models and parameters for analytic implantation. It can be performed by specifying tables or species. The second performs an implantation into the current struc...
-  - _Keywords:_ analytic, implantation, branches, allows, specify, models, performed, specifying
+  - There are two main branches to this command. The first allows you to specify models and parameters for analytic implantation. It can be per…
 - **Examples** <a id="examples"></a>
   - Change all implantation specifications for the species boron from the default to the Taurus implantation tables and models:
-  - _Keywords:_ implantation, implant, species, damage, energy, Change, Taurus, models
 - **See Also** <a id="see-also"></a>
   - Chapter 2 on page 51
 - **init** <a id="init"></a>
   - Sets up the mesh and background doping levels.
-  - _Keywords:_ background, doping, levels
 - **Syntax** <a id="syntax"></a>
-  - ```ini init [Adaptive] [concentration=<n>] [<m-3>|<cm-3>|<um-3>|<nm-3>] [DelayFullD] [done] [field=<c>] [fields.values=<list>] [load.commands] [<material>] [miscut.tilt=<n>] [miscut.toward= {<n> <n> <n>}] [notch.direction=<list>] [pdb] [...
-  - _Keywords:_ miscut, Adaptive, concentration, DelayFullD, fields, material, toward, direction
+  - ```ini init [Adaptive] [concentration=<n>] [<m-3>|<cm-3>|<um-3>|<nm-3>] [DelayFullD] [done] [field=<c>] [fields.values=<list>] [load.comman…
 - **Arguments** <a id="arguments"></a>
   - Adaptive
-  - _Keywords:_ miscut, argument, direction, Specifies, orient, structure, normal, toward
 - **A: Commands** <a id="a-commands"></a>
   - init
-  - _Keywords:_ TDR, Sentaurus, information, simulation, specified, resistivity, Specifies, format
 - **Description** <a id="description"></a>
-  - Sets up the mesh from either a rectangular specification or a file. The command also allows initialization of the background doping concentration and type.
-  - _Keywords:_ either, rectangular, specification, allows, initialization, background, doping, concentration
+  - Sets up the mesh from either a rectangular specification or a file. The command also allows initialization of the background doping concent…
 - **Examples** <a id="examples"></a>
   - Read in a structure previously saved using struct tdr=temp, which produces the file tmp\_fps.tdr:
-  - _Keywords:_ structure, mathrm, miscut, Initialize, fields, direction, Read, previously
 - **See Also** <a id="see-also"></a>
-  - CutLine2D on page 947
-  - _Keywords:_ CutLine2D, MoleFractionFields, region, struct
+  - MoleFractionFields on page 1116
 - **insert** <a id="insert"></a>
   - Inserts segments into 1D structures, polygons into 2D structures, and polyhedra into 3D structures.
-  - _Keywords:_ structures, Inserts, segments, polygons, polyhedra
 - **Syntax** <a id="syntax"></a>
-  - ```ini insert polygon=<c> | polyhedron=<c> | segments= {<n1> <n2> ...} [Adaptive] [fields.values=<list>] [new.material=<c>] [new.region=<c>] [repair] [replace.materials= {<mat1> ... <matn>}] [replace.regions= {<reg1> ... <regn>} ```
-  - _Keywords:_ replace, insert, polygon, polyhedron, segments, Adaptive, fields, material
+  - ```ini insert polygon=<c> | polyhedron=<c> | segments= {<n1> <n2> ...} [Adaptive] [fields.values=<list>] [new.material=<c>] [new.region=<c>…
 - **Arguments** <a id="arguments"></a>
   - Adaptive
-  - _Keywords:_ polyhedron, polygon, argument, materials, Specifies, region, Adaptive, segment
 - **Description** <a id="description"></a>
-  - Segments are defined using the segments argument, but polygons and polyhedra must be defined using the polygon and polyhedron commands, respectively. You must specified one of the segments, polyhedron, or polygon arguments.
-  - _Keywords:_ polyhedron, polygon, materials, material, specified, segments, replace, replaced
+  - Segments are defined using the segments argument, but polygons and polyhedra must be defined using the polygon and polyhedron commands, res…
 - **Examples** <a id="examples"></a>
   - Etch the structure using a polyhedron called prism:
-  - _Keywords:_ polyhedron, material, called, insert, smallCube, polygon, structure, Replace
 - **See Also** <a id="see-also"></a>
   - Inserting Polyhedra on page 844
-  - _Keywords:_ Inserting, Polyhedra, polygon, polyhedron
 - **integrate** <a id="integrate"></a>
   - Returns the volume integration of the named quantity.
-  - _Keywords:_ volume, integration, quantity
 - **Syntax** <a id="syntax"></a>
-  - ```txt integrate [absolute] [average] [element] [interfaces] [<material>] [max= {<n> <n> <n>}] [min= {<n> <n> <n>}] [mode= mesh | boundary | jagged] [name=<c>] [region=<c>] [skipgas] [syntax.check.value=<c>] ```
-  - _Keywords:_ integrate, absolute, average, element, interfaces, material, boundary, jagged
+  - ```txt integrate [absolute] [average] [element] [interfaces] [<material>] [max= {<n> <n> <n>}] [min= {<n> <n> <n>}] [mode= mesh | boundary…
 - **Arguments** <a id="arguments"></a>
   - absolute
-  - _Keywords:_ Specifies, integration, quantity, performed, absolute, average, specified, material
 - **A: Commands integrate** <a id="a-commands-integrate"></a>
   - min
-  - _Keywords:_ integration, boundary, syntax, returned, cutting, Specifies, within, cuboid
 - **Description** <a id="description"></a>
-  - This command integrates the field specified with the name argument (by default, the last unnamed select command field) over the entire structure or within a given box specified by min and max. If material is specified, the integration is...
-  - _Keywords:_ specified, quantity, integration, material, limited, regions, region, Tcl
+  - This command integrates the field specified with the name argument (by default, the last unnamed select command field) over the entire stru…
 - **Examples** <a id="examples"></a>
-  - Return the integral boron in all silicon regions in the structure, the volume of all silicon regions, and the combined boron dose in all silicon regions:
-  - _Keywords:_ silicon, volume, integrate, regions, structure, corner, integral, Boron
+  - Return the integral boron in all silicon regions in the structure, the volume of all silicon regions, and the combined boron dose in all si…
 - **interface** <a id="interface"></a>
   - Returns the location or the value of the selected data field at a material interface.
-  - _Keywords:_ location, selected, material, interface
 - **Syntax** <a id="syntax"></a>
-  - ```txt interface [All] [data] [<material>] [name=<c>] [p1= {<n> <n> <n>} p2= {<n> <n> <n>}] [precision=<n>] [region=<c>] [side=<c>] [syntax.check.value=<c>] [thickness] [x=<n>] [<m>| <cm>| <um>| <nm>] [y=<n>] [<m>| <cm>| <um>| <nm>] [z=<...
-  - _Keywords:_ interface, material, precision, region, syntax, thickness
+  - ```txt interface [All] [data] [<material>] [name=<c>] [p1= {<n> <n> <n>} p2= {<n> <n> <n>}] [precision=<n>] [region=<c>] [side=<c>] [syntax…
 - **Arguments** <a id="arguments"></a>
   - All
-  - _Keywords:_ specified, returned, interface, thickness, region, material, selected, specify
 - **Description** <a id="description"></a>
-  - This command returns the position of an interface or returns the value of the selected data field if data is specified. Therefore, the command can be used to prepare plots of material thickness, silicon consumption, or material growth. I...
-  - _Keywords:_ interface, material, position, selected, specified, Therefore, prepare, thickness
+  - This command returns the position of an interface or returns the value of the selected data field if data is specified. Therefore, the comm…
 - **Examples** <a id="examples"></a>
   - Return the silicon–oxide interface at a lateral position of :1.0 μm
-  - _Keywords:_ interface, silicon, position, interfaces, between, dimensions, lateral, nitride
 - **See Also** <a id="see-also"></a>
   - interpolate on page 1059
-  - _Keywords:_ interpolate
 - **interpolate** <a id="interpolate"></a>
   - Returns the requested position or value at a specified location.
-  - _Keywords:_ requested, position, specified, location
 - **Syntax** <a id="syntax"></a>
-  - ```txt interpolate <material> [extract.variable.names= {<c> <c> <c> ...}] [max | min] [name=<c>] [report.location] [syntax.check.value=<c>] [value=<n>] [x=<n>] [<m>| <cm>| <um>| <nm>] [y=<n>] [<m>| <cm>| <um>| <nm>] [z=<n>] [<m>| <cm>| <...
-  - _Keywords:_ interpolate, material, extract, variable, report, location, syntax
+  - ```txt interpolate <material> [extract.variable.names= {<c> <c> <c> ...}] [max | min] [name=<c>] [report.location] [syntax.check.value=<c>]…
 - **Arguments** <a id="arguments"></a>
   - ```txt <material> ```
-  - _Keywords:_ returned, report, syntax, arguments, simulations, material, Specify, either
 - **Description** <a id="description"></a>
-  - This powerful command analyzes simulation results. It returns the interpolated value of one coordinate given the other two coordinates in three dimensions defined by x- and y-variables, and the data field. It also works for 1D simulation...
-  - _Keywords:_ coordinate, Tcl, returned, specified, position, powerful, analyzes, simulation
+  - This powerful command analyzes simulation results. It returns the interpolated value of one coordinate given the other two coordinates in t…
 - **Examples** <a id="examples"></a>
   - Return the value of the data field at the position ( , ) in the oxide:1.0 μm 1.0 μm
-  - _Keywords:_ silicon, interpolate, crossings, position, vertical, horizontal, component, element
 - **See Also** <a id="see-also"></a>
-  - interface on page 1056
-  - _Keywords:_ interface
 - **KG2E** <a id="kg2e"></a>
   - Computes Young’s modulus from the bulk modulus and the shear modulus.
-  - _Keywords:_ modulus, Computes, Young
 - **Syntax** <a id="syntax"></a>
   - ```txt KG2E <n> <n> ```
-  - _Keywords:_ KG2E
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ modulus, second
 - **Description** <a id="description"></a>
   - The same units are assumed for all moduli.
-  - _Keywords:_ assumed, moduli
 - **Examples** <a id="examples"></a>
   - Compute Young’s modulus from the bulk modulus 1.2272e12 dyn/cm2 and the shear modulus 6.328e11 dyn/cm2 :
-  - _Keywords:_ modulus, Compute, Young, KG2E
 - **KG2nu** <a id="kg2nu"></a>
   - Computes the Poisson ratio from the bulk modulus and the shear modulus.
-  - _Keywords:_ modulus, Computes, Poisson
 - **Syntax** <a id="syntax"></a>
   - ```txt KG2nu <n> <n> ```
-  - _Keywords:_ KG2nu
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ modulus, second
 - **Description** <a id="description"></a>
   - The same units are assumed for all moduli.
-  - _Keywords:_ assumed, moduli
 - **Examples** <a id="examples"></a>
   - Compute the Poisson ratio from the bulk modulus 1.2272e12 dyn/cm2 and the shear modulus 6.328e11 dyn/cm2 :
-  - _Keywords:_ modulus, Compute, Poisson, KG2nu
 - **kmc** <a id="kmc"></a>
   - Specifies options for the atomistic kinetic Monte Carlo (KMC) mode.
-  - _Keywords:_ materialname, coordx, coordy, coordz, defects, defectname, material, acinterface
 - **Arguments** <a id="arguments"></a>
   - acinterface
-  - _Keywords:_ defect, amorphous, crystalline, acinterface, extract, simulation, specified, defects
 - **A: Commands** <a id="a-commands"></a>
   - kmc
-  - _Keywords:_ defects, extract, simulation, particles, KMC, defectname, current, argument
 - **A: Commands** <a id="a-commands"></a>
   - kmc
-  - _Keywords:_ defects, simulation, particles, retrieves, materials, concentration, computes, episurface
 - **filename** <a id="filename"></a>
   - Specifies the name of the TDR file to be written by kmc extract tdrWrite.
-  - _Keywords:_ Specifies, TDR, written, extract, tdrWrite
 - **histogram** <a id="histogram"></a>
-  - kmc extract histogram returns the number of defects for each defect size. The argument name determines the returned histogram. If name is XI or XV (X being a dopant or impurity), it returns the histogram of impurity clusters for that dop...
-  - _Keywords:_ histogram, defects, extract, returned, dopant, impurity, average, defect
+  - kmc extract histogram returns the number of defects for each defect size. The argument name determines the returned histogram. If name is X…
 - **list** <a id="list"></a>
-  - Adds a list of fields to be included in the TDR file. This argument is used in kmc extract tdrAdd. Any specific defect name is allowed, and generic defect names (as obtained by kmc defecttypes) also are allowed. For example, I8 adds this...
-  - _Keywords:_ TDR, defect, allowed, Adds, fields, included, argument, extract
+  - Adds a list of fields to be included in the TDR file. This argument is used in kmc extract tdrAdd. Any specific defect name is allowed, and…
 - **<material>** <a id="material"></a>
   - Specifies the material name for kmc deatomize or kmc defecttypes. See Specifying Materials on page 18.
-  - _Keywords:_ Specifies, material, deatomize, defecttypes, Specifying, Materials
 - **materialname** <a id="materialname"></a>
-  - Restricts the output to the material specified. materialname adds a condition to the output of kmc extract defects, profile, dose, and histogram.
-  - _Keywords:_ Restricts, material, specified, materialname, condition, extract, defects, profile
+  - Restricts the output to the material specified. materialname adds a condition to the output of kmc extract defects, profile, dose, and hist…
 - **materials** <a id="materials"></a>
   - kmc extract materials returns a list of materials currently present in the simulation.
-  - _Keywords:_ materials, extract, currently, present, simulation, detailed, coordinates, KMC
 - **materialtypes** <a id="materialtypes"></a>
   - Returns the subset of materials allowed in the Sentaurus Process KMC simulation. Any material not listed here is assigned as ‘unknown’.
-  - _Keywords:_ subset, materials, allowed, Sentaurus, Process, KMC, simulation, material
 - **meansize** <a id="meansize"></a>
-  - Used only with kmc extract histogram. It instructs Sentaurus Process KMC to compute the average size for the specified defect type. The minimum size needed to take the defect into account is 0, unless minsize is specified.
-  - _Keywords:_ specified, defect, extract, histogram, instructs, Sentaurus, Process, KMC
+  - Used only with kmc extract histogram. It instructs Sentaurus Process KMC to compute the average size for the specified defect type. The min…
 - **minsize** <a id="minsize"></a>
-  - Used only with kmc extract histogram meansize. It instructs Sentaurus Process KMC to use the specified value as the minimum size to take any cluster into consideration when computing the average cluster size.
-  - _Keywords:_ cluster, extract, histogram, meansize, instructs, Sentaurus, Process, KMC
+  - Used only with kmc extract histogram meansize. It instructs Sentaurus Process KMC to use the specified value as the minimum size to take an…
 - **name** <a id="name"></a>
-  - Specifies the name of the field, particle, or defect for the following arguments. In the following, is the name of a valid dopant (such as B or As). Any defect means veryX detailed defects such as $\mathrm { B } _ { 2 } \mathrm { I } _ {...
-  - _Keywords:_ defect, particle, mathrm, defects, XAmorphous, XInterface, dopant, XTotal
+  - Specifies the name of the field, particle, or defect for the following arguments. In the following, is the name of a valid dopant (such as…
 - **A: Commands** <a id="a-commands"></a>
   - kmc
-  - _Keywords:_ particle, concentration, profile, KMC, specified, concentrations, defect, electrons
 - **queue** <a id="queue"></a>
-  - Adds the new defect, specified by name, into the simulation at the coordinates coordx, coordy, and coordz. Adding defects to the queue will not put them in the KMC simulation. To transfer the defects from the queue to the simulation, use...
-  - _Keywords:_ simulation, defects, Adds, defect, specified, coordinates, coordx, coordy
+  - Adds the new defect, specified by name, into the simulation at the coordinates coordx, coordy, and coordz. Adding defects to the queue will…
 - **remesh** <a id="remesh"></a>
-  - Instructs Sentaurus Process KMC to remesh the structure. This remesh is especially helpful in the hybrid mode, where the Sentaurus Process KMC structure is not updated automatically during certain process steps, such as etch and strip. T...
-  - _Keywords:_ remesh, Sentaurus, Process, KMC, structure, updated, during, process
+  - Instructs Sentaurus Process KMC to remesh the structure. This remesh is especially helpful in the hybrid mode, where the Sentaurus Process…
 - **report** <a id="report"></a>
-  - Instructs Sentaurus Process KMC to generate a list of defects created during the simulation. This list includes the first and last time the defect was seen and the temperature. If the defect is still in the simulation, the report also gi...
-  - _Keywords:_ defects, simulation, defect, report, Instructs, Sentaurus, Process, KMC
+  - Instructs Sentaurus Process KMC to generate a list of defects created during the simulation. This list includes the first and last time the…
 - **Stress** <a id="stress"></a>
   - Using kmc extract tdrAdd Stress adds the stress and strain distribution as imported by Sentaurus Process KMC.
-  - _Keywords:_ extract, tdrAdd, Stress, stress, strain, distribution, imported, Sentaurus
 - **supersaturation** <a id="supersaturation"></a>
-  - Using kmc extract supersaturation returns the value of the global supersaturation (concentration over equilibrium concentration). The argument name must be specified; it can only be or .I V
-  - _Keywords:_ supersaturation, concentration, extract, global, equilibrium, argument, specified
+  - Using kmc extract supersaturation returns the value of the global supersaturation (concentration over equilibrium concentration). The argum…
 - **tdrAdd** <a id="tdradd"></a>
-  - Using kmc extract tdrAdd instructs Sentaurus Process KMC to add a new snapshot of information ready to be written into a TDR file. This information is stored in memory and is written using kmc extract tdrWrite. In addition, kmc extract t...
-  - _Keywords:_ extract, tdrAdd, information, snapshot, written, concentrations, defect, defects
+  - Using kmc extract tdrAdd instructs Sentaurus Process KMC to add a new snapshot of information ready to be written into a TDR file. This inf…
 - **A: Commands** <a id="a-commands"></a>
   - kmc
-  - _Keywords:_ mathrm, defect, stress, includes, specified, defects, concentrations, ThreeOneOne
 - **tdrClear** <a id="tdrclear"></a>
   - kmc extract tdrClear removes all snapshots previously added using kmc extract tdrAdd from memory.
-  - _Keywords:_ extract, tdrClear, removes, snapshots, previously, tdrAdd, memory
 - **tdrWrite** <a id="tdrwrite"></a>
-  - kmc extract tdrWrite instructs Sentaurus Process KMC to write all snapshots (previously added using tdrAdd) to a file. The name of the file is specified using filename.
-  - _Keywords:_ extract, tdrWrite, instructs, Sentaurus, Process, KMC, snapshots, previously
+  - kmc extract tdrWrite instructs Sentaurus Process KMC to write all snapshots (previously added using tdrAdd) to a file. The name of the file…
 - **timeaveraged** <a id="timeaveraged"></a>
-  - Must be used with kmc extract profile. It generates time-averaged concentrations of particles, instead of instantaneous ones. The averaging is performed between two snapshots. Since timeaveraged only makes sense for mobile particles, the...
-  - _Keywords:_ particles, extract, profile, generates, averaged, concentrations, instead, instantaneous
+  - Must be used with kmc extract profile. It generates time-averaged concentrations of particles, instead of instantaneous ones. The averaging…
 - **visual** <a id="visual"></a>
-  - When added to kmc extract tdrAdd, it includes atomistic information that can be used for visualization purposes only, and not for restarting (in contrast with kmc extract defects).
-  - _Keywords:_ defects, extract, atomistic, information, visual, tdrAdd, includes, visualization
+  - When added to kmc extract tdrAdd, it includes atomistic information that can be used for visualization purposes only, and not for restartin…
 - **ymin, ymax** <a id="ymin-ymax"></a>
   - Specify values that limit the size of the domain along the y-axis. Usage is limited to the extraction of the epitaxial surface.
-  - _Keywords:_ Specify, domain, Usage, limited, extraction, epitaxial, surface
 - **zmin, zmax** <a id="zmin-zmax"></a>
   - Specify values that limit the size of the domain along the z-axis. Usage is limited to the extraction of the epitaxial surface.
-  - _Keywords:_ Specify, domain, Usage, limited, extraction, epitaxial, surface
 - **Description** <a id="description"></a>
-  - This command sends direct instructions to Sentaurus Process Kinetic Monte Carlo (Sentaurus Process KMC), which is used for diffusion. The main options are:
-  - _Keywords:_ Sentaurus, Process, creates, defects, simulation, concentrations, direct, instructions
+  - This command sends direct instructions to Sentaurus Process Kinetic Monte Carlo (Sentaurus Process KMC), which is used for diffusion. The m…
 - **Examples** <a id="examples"></a>
-  - Create an $\mathrm { I } _ { 8 }$ cluster, a mobile B in interstitial position, and the BIC ${ \mathbf B } _ { 2 } { \mathbf I } _ { 2 }$ in the queue, and add the queue to the KMC simulation:
-  - _Keywords:_ KMC, simulation, defect, mathrm, Create, coordx, coordy, coordz
+  - Create an $\mathrm { I } _ { 8 }$ cluster, a mobile B in interstitial position, and the BIC ${ \mathbf B } _ { 2 } { \mathbf I } _ { 2 }$ i…
 - **A: Commands kmc** <a id="a-commands-kmc"></a>
   - Return the B particles in impurity clusters currently in the simulation:
-  - _Keywords:_ extract, defects, simulation, KMC, concentration, particles, profile, Sentaurus
 - **A: Commands** <a id="a-commands"></a>
   - kmc
-  - _Keywords:_ mathbf, concentration, extract, B2I2, dimensions, profile, coordx, dimension
 - **See Also** <a id="see-also"></a>
-  - Chapter 4 on page 375
-  - _Keywords:_ deposit, diffuse, implant, integrate, profile, region, select, stressdata
+  - deposit on page 951
 - **KMC2PDE** <a id="kmc2pde"></a>
   - Translates atomistic KMC information to Sentaurus Process.
-  - _Keywords:_ Translates, atomistic, KMC, information, Sentaurus, Process
 - **Syntax** <a id="syntax"></a>
   - KMC2PDE
-  - _Keywords:_ KMC2PDE
 - **Description** <a id="description"></a>
-  - This command translates the atomistic information stored in the KMC diffusion into continuum five-stream quantities and transfers it into the standard Sentaurus Process mesh. Consequently, there are two transformation involved here:
-  - _Keywords:_ Sentaurus, Process, KMC, atomistic, information, continuum, stream, standard
+  - This command translates the atomistic information stored in the KMC diffusion into continuum five-stream quantities and transfers it into t…
 - **See Also** <a id="see-also"></a>
   - UnsetAtomistic on page 1280
-  - _Keywords:_ UnsetAtomistic
 - **layers** <a id="layers"></a>
   - Prints material interfaces and integrated data field values.
-  - _Keywords:_ Prints, material, interfaces, integrated
 - **Syntax** <a id="syntax"></a>
-  - ```ini layers [<material>] [merge] [name] [precision=<n>] [print.logfile] [region.names] [syntax.check.value=<c>] [x=<n>] [<m>|<cm>|<um>|<nm>] [y=<n>] [<m>|<cm>|<um>|<nm>] [z=<n>] [<m>|<cm>|<um>|<nm>] ```
-  - _Keywords:_ layers, material, precision, logfile, region, syntax
+  - ```ini layers [<material>] [merge] [name] [precision=<n>] [print.logfile] [region.names] [syntax.check.value=<c>] [x=<n>] [<m>|<cm>|<um>|<n…
 - **Arguments** <a id="arguments"></a>
   - ```txt <material> ```
-  - _Keywords:_ material, specified, region, syntax, returned, regions, Specifying, Specifies
 - **Description** <a id="description"></a>
-  - This command prints the material interfaces and integrates the selected data field in each region. It is most useful for examining doping because it gives the integrated doping in each layer. This command can be simulated with the integr...
-  - _Keywords:_ material, doping, prints, interfaces, integrates, selected, region, useful
+  - This command prints the material interfaces and integrates the selected data field in each region. It is most useful for examining doping b…
 - **Examples** <a id="examples"></a>
   - In a 1D simulation, list all material interfaces:
-  - _Keywords:_ simulation, material, interfaces, layers, Boron, lateral, position, integrate
 - **See Also** <a id="see-also"></a>
-  - integrate on page 1053
-  - _Keywords:_ integrate, interface, select, tclsel
 - **line** <a id="line"></a>
   - Specifies the position and spacing of mesh lines.
-  - _Keywords:_ Specifies, position, spacing
 - **Syntax** <a id="syntax"></a>
-  - ```ini line location=<n>[<m>|<cm>|<um>|<nm>] (x | y | z) [clear] [kmc] [mgoals] [spacing=<n>][<m>|<cm>|<um>|<nm>] [spacing.method= even | regular | smooth] [tag=<c>] [virtual.spacing] ```
-  - _Keywords:_ spacing, location, mgoals, method, regular, smooth, virtual
+  - ```ini line location=<n>[<m>|<cm>|<um>|<nm>] (x | y | z) [clear] [kmc] [mgoals] [spacing=<n>][<m>|<cm>|<um>|<nm>] [spacing.method= even | r…
 - **Arguments** <a id="arguments"></a>
   - clear
-  - _Keywords:_ spacing, interval, Lines, virtual, method, Mesh, continuum, between
 - **Description** <a id="description"></a>
-  - The line command is used with the init and region commands to create the initial mesh. Only rectilinear structures can be specified with the line and region commands, that is, rectangular regions in two dimensions and cuboid-shaped regio...
-  - _Keywords:_ spacing, direction, region, dimensions, specified, UseLines, argument, create
+  - The line command is used with the init and region commands to create the initial mesh. Only rectilinear structures can be specified with th…
 - **Examples** <a id="examples"></a>
-  - There are three user-specified y-lines and two user-specified x-lines. Taking the y-lines as an example, there is a finer spacing in the center than at the edges. After processing, Sentaurus Process produces a mesh with x-lines at 0.0, 0...
-  - _Keywords:_ spacing, location, interval, specified, region, virtual, siflat, Silicon
+  - There are three user-specified y-lines and two user-specified x-lines. Taking the y-lines as an example, there is a finer spacing in the ce…
 - **See Also** <a id="see-also"></a>
-  - init on page 1046 region on page 1188
-  - _Keywords:_ region
 - **line\_edge\_roughness** <a id="line-edge-roughness"></a>
   - Adds line edge roughness (LER) to named masks.
-  - _Keywords:_ Adds, roughness, LER
 - **Syntax** <a id="syntax"></a>
-  - ```txt line_edge_roughness correlation.length=<n>[<m>|<cm>|<um>|<nm>] masks=<list> max Active segment length=<n>[<m>|<cm>|<um>|<nm>] normal="Y" | "Z" standard deviation=<n>[<m>|<cm>|<um>|<nm>] [max tries=<n>] [min.radius=<n>] [random res...
-  - _Keywords:_ length, random, line_edge_roughness, correlation, Active, segment, normal, standard
+  - ```txt line_edge_roughness correlation.length=<n>[<m>|<cm>|<um>|<nm>] masks=<list> max Active segment length=<n>[<m>|<cm>|<um>|<nm>] normal…
 - **Arguments** <a id="arguments"></a>
   - correlation.length
-  - _Keywords:_ LER, length, Specifies, correlation, radius, approximately, defined, segment
 - **normal** <a id="normal"></a>
-  - Defines the normal axis. Only mask segments normal to this axis receive LER. This axis is also the reference axis along which the LER deviation is added to the given mask segment. The default is to add LER to all edges of the mask.
-  - _Keywords:_ LER, normal, Defines, segments, receive, reference, deviation, segment
+  - Defines the normal axis. Only mask segments normal to this axis receive LER. This axis is also the reference axis along which the LER devia…
 - **random.reseed** <a id="random-reseed"></a>
-  - Before the calculation of LER, the random number generator is reseeded to ensure each call of line\_edge\_roughness results in randomized noise that is uncorrelated with other calls of line\_edge\_roughness.
-  - _Keywords:_ random, LER, _roughness, Before, calculation, generator, reseeded, ensure
+  - Before the calculation of LER, the random number generator is reseeded to ensure each call of line\_edge\_roughness results in randomized n…
 - **random.seed** <a id="random-seed"></a>
-  - Used to reproduce specific LER calculations from one run to the next by setting the same random seed in both runs. Ignored when !random.reseed is used.
-  - _Keywords:_ random, reproduce, specific, LER, calculations, setting, Ignored, reseed
+  - Used to reproduce specific LER calculations from one run to the next by setting the same random seed in both runs. Ignored when !random.res…
 - **smooth.points** <a id="smooth-points"></a>
-  - Alters the LER function at the structure boundaries, allowing for better mirror boundary conditions when uniting symmetry-reduced structure parts at those boundaries. Defines the number of segments in the discrete LER function, counting ...
-  - _Keywords:_ LER, structure, boundaries, boundary, Alters, allowing, better, mirror
+  - Alters the LER function at the structure boundaries, allowing for better mirror boundary conditions when uniting symmetry-reduced structure…
 - **standard.deviation** <a id="standard-deviation"></a>
-  - Specifies the standard deviation of the randomized LER. Corresponds approximately to the concept of added noise amplitude. Default value and unit: .2 μm
-  - _Keywords:_ Specifies, standard, deviation, randomized, LER, Corresponds, approximately, concept
+  - Specifies the standard deviation of the randomized LER. Corresponds approximately to the concept of added noise amplitude. Default value an…
 - **Description** <a id="description"></a>
-  - This command adds LER to the named masks, along the mask edges normal to the given normal axis ("Y" or "Z"). LER can be added to a mask only once. See Boolean Masks on page 824.
-  - _Keywords:_ LER, normal, Boolean, Masks
+  - This command adds LER to the named masks, along the mask edges normal to the given normal axis ("Y" or "Z"). LER can be added to a mask onl…
 - **Examples** <a id="examples"></a>
-  - Add LER to the mask named mask1 along mask segments normal to the z-axis. These segments are subdivided into smaller segments of length smaller than or equal to 5 nm. LER is characterized by a correlation.length of 25 nm and standard.dev...
-  - _Keywords:_ length, LER, segments, normal, smaller, correlation, standard, deviation
+  - Add LER to the mask named mask1 along mask segments normal to the z-axis. These segments are subdivided into smaller segments of length sma…
 - **See Also** <a id="see-also"></a>
   - Line Edge Roughness Effect on page 825
-  - _Keywords:_ Line, Edge, Roughness, Effect
 - **load** <a id="load"></a>
   - Interpolates data from a TDR file onto the current mesh.
-  - _Keywords:_ Interpolates, TDR, current
 - **Syntax** <a id="syntax"></a>
-  - ```txt load tdr=<c> (merge | rename | replace | sum) [fast.tdr.ave=<list>] [flip (left | right | front | back | up | down)] [keep.outside] [material.specic] [offset= {<n> <n>}] [save.transform=<c>] [shift=<n>] [species= <list> actions= <...
-  - _Keywords:_ transform, rename, replace, outside, material, specic, offset, species
+  - ```txt load tdr=<c> (merge | rename | replace | sum) [fast.tdr.ave=<list>] [flip (left | right | front | back | up | down)] [keep.outside]…
 - **Arguments** <a id="arguments"></a>
   - fast.tdr.ave
-  - _Keywords:_ TDR, structure, datasets, material, current, bounding, Adds, actions
 - **transform** <a id="transform"></a>
-  - Provides a general interface for translating or rotating the structure to be loaded before interpolation. When loading 3D results to a 2D structure, since the 2D structure is assumed to be located at z=0, to obtain 3D data other than on ...
-  - _Keywords:_ structure, rotation, specified, dimensions, matrix, coordinate, offsetx, offsety
+  - Provides a general interface for translating or rotating the structure to be loaded before interpolation. When loading 3D results to a 2D s…
 - **Description** <a id="description"></a>
-  - This command interpolates data from TDR files onto the current mesh. There are several options for handling the new and old datasets. First, the actions can be applied individually to selected datasets using species and actions. If the s...
-  - _Keywords:_ datasets, species, actions, current, replace, TDR, external, global
+  - This command interpolates data from TDR files onto the current mesh. There are several options for handling the new and old datasets. First…
 - **Examples** _(p.77)_ <a id="examples"></a>
   - Replace all existing datasets with those in the file in\_fps.tdr:
-  - _Keywords:_ _Implant, existing, replace, Arsenic, Damage, Replace, datasets, Load
 - **See Also** _(p.77)_ <a id="see-also"></a>
-  - select on page 1195
-  - _Keywords:_ select
 - **LogFile** <a id="logfile"></a>
   - Prints a message to the screen and to the log file.
-  - _Keywords:_ Prints, message, screen
 - **Syntax** <a id="syntax"></a>
   - ```txt LogFile <c> [IL0 | IL1 | IL2 | IL3] [PrintCommands] ```
-  - _Keywords:_ LogFile, IL0, IL1, IL2, IL3, PrintCommands
 - **Arguments** <a id="arguments"></a>
   - <c> Specifies the message to be printed to the screen and to the log file.
-  - _Keywords:_ Specifies, printed, screen, PrintCommands, message, IL0, IL1, IL2
 - **Description** <a id="description"></a>
-  - This command prints messages to the terminal window in which Sentaurus Process is running and to the log file. If IL0, IL1, IL2, or IL3 is given and this command is called from within a Sentaurus Process command, the message is printed o...
-  - _Keywords:_ Sentaurus, Process, prints, messages, terminal, window, running, IL0
+  - This command prints messages to the terminal window in which Sentaurus Process is running and to the log file. If IL0, IL1, IL2, or IL3 is…
 - **Examples** <a id="examples"></a>
   - Print the string "Step 25" to the screen and the log file:
-  - _Keywords:_ LogFile, Print, Step, screen, DebugInfo, Test, string, contents
 - **mask** <a id="mask"></a>
   - Creates a mask for subsequent use in etch, deposit, or photo commands.
-  - _Keywords:_ segments, Creates, subsequent, deposit, Syntax, covered, status, materials
 - **Arguments** <a id="arguments"></a>
   - bbox
-  - _Keywords:_ simulation, segments, domain, specified, regions, polygons, negative, materials
 - **Description** <a id="description"></a>
-  - This command manages and creates masks for use with subsequent etch, deposit, or photo commands. Mask definitions are stored in TDR files and re-stored when loading a TDR file in the init command. Masks can be defined by rectangles, poly...
-  - _Keywords:_ stored, TDR, Masks, manages, creates, subsequent, deposit, Mask
+  - This command manages and creates masks for use with subsequent etch, deposit, or photo commands. Mask definitions are stored in TDR files a…
 - **Examples** <a id="examples"></a>
   - Define a mask named field:
-  - _Keywords:_ PolygonMask, LogFile, polyInfo, polygons, Print, information, maskInfo, polygon
 - **See Also** <a id="see-also"></a>
-  - deposit on page 951 etch on page 975 photo on page 1136 point on page 1147 polygon on page 1151
-  - _Keywords:_ deposit, polygon
 - **mater** <a id="mater"></a>
   - Returns a list of all materials in the current structure, and adds new materials to a global list.
-  - _Keywords:_ materials, current, structure, global
 - **Syntax** <a id="syntax"></a>
-  - ```txt mater [add] [alt.matername=<c>] [bbox | bbox.cm | bbox.um] [cropped.bbox] [cubic | hexagonal | orthorhombic] [horizontal.orient= {<n> <n> <n>}] [Interface] [kmc.shortname=<c>] [lattice.const=<n>] [lattice.const.b=<n>] [lattice.con...
-  - _Keywords:_ lattice, orient, matername, cropped, hexagonal, orthorhombic, horizontal, Interface
+  - ```txt mater [add] [alt.matername=<c>] [bbox | bbox.cm | bbox.um] [cropped.bbox] [cubic | hexagonal | orthorhombic] [horizontal.orient= {<n…
 - **Arguments** <a id="arguments"></a>
   - add
-  - _Keywords:_ material, lattice, specified, orient, Specifies, crystalline, horizontal, orientation
 - **A: Commands** <a id="a-commands"></a>
   - mater
-  - _Keywords:_ material, orient, materials, specified, syntax, returned, vertical, interpolate
 - **Description** <a id="description"></a>
-  - This command returns a list of all materials in the current structure. The format of the list is compatible with the material specification for the program. Bulk material names are returned if no arguments are given. Interface materials ...
-  - _Keywords:_ material, materials, Interface, bounding, current, structure, format, compatible
+  - This command returns a list of all materials in the current structure. The format of the list is compatible with the material specification…
 - **Examples** <a id="examples"></a>
   - Add germanium material to the global material list and make it inherit the default values from silicon material:
-  - _Keywords:_ material, hexagonal, GaN, lattice, orient, Add, germanium, global
 - **math** <a id="math"></a>
   - Sets the numeric and matrix parameters. Parameters set with the math command are stored in TDR files by default.
-  - _Keywords:_ NegErrCntrl, numeric, matrix, stored, TDR, Syntax, AMS, FTS
 - **Arguments: Solver Selection** <a id="arguments-solver-selection"></a>
   - AMS.NegErrCntrl
-  - _Keywords:_ compatible, applies, results, solutions, NegErrCntrl, Allows, stricter, control
 - **LocTrnErrCntrl** <a id="loctrnerrcntrl"></a>
   - Allows stricter error control for each solve time step by modifying the handling of negative updates:
-  - _Keywords:_ LocTrnErrCntrl, solution, Allows, stricter, control, modifying, handling, negative
 - **NegErrCntrl** <a id="negerrcntrl"></a>
-  - Allows stricter error control at each Newton iteration step by calculating the error from negative updates instead of damped results. NegErrCntrl can be switched on for individual solution variables in specific materials using:
-  - _Keywords:_ NegErrCntrl, solution, Allows, stricter, control, Newton, iteration, calculating
+  - Allows stricter error control at each Newton iteration step by calculating the error from negative updates instead of damped results. NegEr…
 - **pardiso, ils** <a id="pardiso-ils"></a>
   - Specifies the type of linear solver to apply to the system:
-  - _Keywords:_ ILS, solver, linear, selects, PARDISO, matrix, iterative, Specifies
 - **scale** <a id="scale"></a>
-  - Applies row/column scaling to the matrix in an attempt to make it better conditioned. This is a recommended argument. No scaling is performed if the modified Newton scheme (modNewton) is used.
-  - _Keywords:_ scaling, Applies, column, matrix, attempt, better, conditioned, recommended
+  - Applies row/column scaling to the matrix in an attempt to make it better conditioned. This is a recommended argument. No scaling is perform…
 - **Arguments: Newton Method** <a id="arguments-newton-method"></a>
   - fullNewton, modNewton
-  - _Keywords:_ Newton, method, modified, solution, newtonSteps1, modNewton, matrix, factorization
 - **Arguments: Time Discretization** <a id="arguments-time-discretization"></a>
   - milne, difference
-  - _Keywords:_ difference, method, Controls, whether, estimated, Milne, device, divided
 - **Arguments: Parallel Processing** <a id="arguments-parallel-processing"></a>
-  - Sentaurus Process provides parallel processing for Monte Carlo implantation, interpolation, 3D analytic implantation, the KMC charge model, the matrix assembly, the box method, and the linear solvers by generating multiple threads to acc...
-  - _Keywords:_ implantation, Sentaurus, Process, provides, parallel, processing, Monte, Carlo
+  - Sentaurus Process provides parallel processing for Monte Carlo implantation, interpolation, 3D analytic implantation, the KMC charge model,…
 - **NOTE The following limitations apply:** <a id="note-the-following-limitations-apply"></a>
-  - The number of threads must not exceed the number of actual CPUs (cores) of the computer. Observe the following general recommendations to obtain the best results from a parallel run: Speedup is only obtained for sufficiently large proble...
-  - _Keywords:_ parallel, You, threads, computer, general, problems, performance, assembly
+  - The number of threads must not exceed the number of actual CPUs (cores) of the computer. Observe the following general recommendations to o…
 - **NumberOfElementsPerDomain** <a id="numberofelementsperdomain"></a>
   - Modifies the number of elements that must go to each domain (see Partitioning and Parallel Matrix Assembly on page 907).
-  - _Keywords:_ Modifies, elements, domain, Partitioning, Parallel, Matrix, Assembly
 - **numThreads** <a id="numthreads"></a>
-  - Specifies the number of parallel threads for Sentaurus Process. Applies to Sentaurus MC implantation, interpolation, 3D analytic implantation, Sentaurus Process KMC, matrix assembly, the box method, and the solvers PARDISO and ILS.
-  - _Keywords:_ Sentaurus, Process, threads, implantation, KMC, matrix, assembly, method
+  - Specifies the number of parallel threads for Sentaurus Process. Applies to Sentaurus MC implantation, interpolation, 3D analytic implantati…
 - **numThreadsAssembly** <a id="numthreadsassembly"></a>
   - Number of threads used for matrix assembly. Parallel assembly of the matrix applies only to inert anneals.
-  - _Keywords:_ matrix, assembly, threads, Parallel, applies, anneals
 - **numThreadsBoxMethod** <a id="numthreadsboxmethod"></a>
   - Number of threads used for the box method.
-  - _Keywords:_ parallel, threads, licenses, Sentaurus, license, Process, KMC, Versions
 - **Arguments: Coordinate System Input and Output Selection** <a id="arguments-coordinate-system-input-and-output-selection"></a>
   - coord.dfise
-  - _Keywords:_ transformation, transform, translate, coordinate, Reads, writes, Both, rotation
 - **Arguments: General** <a id="arguments-general"></a>
   - use.interpolated.geom.coeff
-  - _Keywords:_ method, Switches, interpolated, interpolating, geometric, coefficients, TRBDF, reduces
 - **Description** <a id="description"></a>
   - This command is used to specify the:
-  - _Keywords:_ Different, specify, coordinate, systems, threads, arguments, parallel, processing
 - **Examples** <a id="examples"></a>
   - Use the ILS solver for mechanics in the 2D case:
-  - _Keywords:_ ILS, solver, PARDISO, ordering, diffuse, Newton, Use, specify
 - **mgoals** <a id="mgoals"></a>
   - Modifies the default parameters for geometric operations available in the MGOALS module.
-  - _Keywords:_ Modifies, geometric, operations, available, MGOALS, module
 - **Syntax** <a id="syntax"></a>
-  - ```ini mgoals [accuracy=<n>][<m>|<cm>|<um>|<nm>] [analytic.thickness=<n>][<m>|<cm>|<um>|<nm>] [aniso.etching.fragment.tol=<n>] [aniso.etching.protect.materials] [dx=<n> dy=<n> dz=<n>] [fill.buried] [fill.buried.interface=<material>] [fil...
-  - _Keywords:_ repair, levelset, buried, analytic, thickness, etching, resolution, deposit
+  - ```ini mgoals [accuracy=<n>][<m>|<cm>|<um>|<nm>] [analytic.thickness=<n>][<m>|<cm>|<um>|<nm>] [aniso.etching.fragment.tol=<n>] [aniso.etchi…
 - **Arguments** <a id="arguments"></a>
   - accuracy
-  - _Keywords:_ deposition, buried, material, etching, bubbles, analytic, argument, algorithm
 - **A: Commands mgoals** <a id="a-commands-mgoals"></a>
   - force.full.levelset, force.full.levelset.depo, force.full.levelset.etch
-  - _Keywords:_ repair, algorithm, etching, deposition, resolution, thickness, dimensions, levelset
 - **Arguments: Deprecated** <a id="arguments-deprecated"></a>
-  - The following arguments are deprecated since they belong to the deprecated MGOALS mesh generator: max.box.angle, max.lateral.size, max.neighbor.ratio, minedge, min.normal.size, normal.growth.ratio, and offsetting.maxlevel.
-  - _Keywords:_ arguments, deprecated, sliver, normal, equivalent, Sentaurus, Mesh, belong
+  - The following arguments are deprecated since they belong to the deprecated MGOALS mesh generator: max.box.angle, max.lateral.size, max.neig…
 - **Description** <a id="description"></a>
   - This command allows you to define parameters for MGOALS-related operations.
-  - _Keywords:_ allows, define, MGOALS, related, operations
 - **Examples** <a id="examples"></a>
-  - Explicitly set the vertical level-set mesh spacing to and the horizontal level-set mesh0.01 μm spacing to . Reinitialization of the level-set distance function is performed every five0.02 μm time steps, and every reinitialization is perf...
-  - _Keywords:_ spacing, performed, Explicitly, vertical, horizontal, Reinitialization, distance, reinitialization
+  - Explicitly set the vertical level-set mesh spacing to and the horizontal level-set mesh0.01 μm spacing to . Reinitialization of the level-s…
 - **MoleFractionFields** <a id="molefractionfields"></a>
   - Returns the component fields and the field values in alloys for a given mole fraction.
-  - _Keywords:_ component, fields, alloys, fraction
 - **Syntax** <a id="syntax"></a>
   - ```txt MoleFractionFields <material> <xMoleFraction> [<yMoleFraction>] ```
-  - _Keywords:_ MoleFractionFields, material, xMoleFraction, yMoleFraction
 - **Arguments** <a id="arguments"></a>
   - ```txt <material> ```
-  - _Keywords:_ material, yMoleFraction, fraction, Specifies, SiliconGermanium, xMoleFraction, Specify, required
 - **Description** <a id="description"></a>
-  - This command provides a convenient way to initialize component fields in alloy materials. It can be used with the fields.values argument of the init and deposit commands, and the epi.doping and epi.doping.final arguments of the diffuse a...
-  - _Keywords:_ fields, doping, provides, convenient, initialize, component, materials, argument
+  - This command provides a convenient way to initialize component fields in alloy materials. It can be used with the fields.values argument of…
 - **Examples** <a id="examples"></a>
-  - Initialize the structure and set the Germanium and Silicon fields so that the mole fraction is 0.2, that is, ${ \mathrm { S i } } _ { 0 . 8 } { \mathrm { G e } } _ { 0 . 2 } \colon$
-  - _Keywords:_ mathrm, fields, MoleFractionFields, Germanium, Silicon, SiliconGermanium, AlInGaAs, Initialize
+  - Initialize the structure and set the Germanium and Silicon fields so that the mole fraction is 0.2, that is, ${ \mathrm { S i } } _ { 0 . 8…
 - **See Also** <a id="see-also"></a>
   - GetMoleFractionFields on page 993
-  - _Keywords:_ GetMoleFractionFields, SetMoleFractionFields
 - **optimize** <a id="optimize"></a>
   - Optimizes the specified parameters to achieve the required target values.
-  - _Keywords:_ Optimizes, specified, achieve, required, target
 - **Syntax** <a id="syntax"></a>
-  - ```txt optimize model.function=<c> model.parameters= {<c1><c2><c3> ...} (target=<list> | target.file=<c>) [history=<c>] [max.iter=<n>] [min.abs=<list>] [min.rel=<list>] [param.init= {<c1>=<n><c2>=<n><c3>=<n> ...}] [param.log= {<c1><c2> ....
-  - _Keywords:_ target, optimize, history, tolerance, weight
+  - ```txt optimize model.function=<c> model.parameters= {<c1><c2><c3> ...} (target=<list> | target.file=<c>) [history=<c>] [max.iter=<n>] [min…
 - **Arguments** <a id="arguments"></a>
   - history
-  - _Keywords:_ target, optimization, minimum, history, absolute, targets, Specifies, corresponding
 - **A: Commands optimize** <a id="a-commands-optimize"></a>
-  - ratio of the absolute target value to the maximum absolute target value. The default is given by pdbGetDouble Optimizer min.rel, which defaults to 1.e-10 for all targets.
-  - _Keywords:_ target, specified, procedure, optimized, Tcl, absolute, defined, optimization
+  - ratio of the absolute target value to the maximum absolute target value. The default is given by pdbGetDouble Optimizer min.rel, which defa…
 - **target.file** <a id="target-file"></a>
-  - Specifies a text file (SIMS data, for example) that can be used to set target values. The file has two columns of data: The first column contains independent variable data, and the second column contains the corresponding target data. Th...
-  - _Keywords:_ target, independent, variable, column, contains, Tcl, You, Specifies
+  - Specifies a text file (SIMS data, for example) that can be used to set target values. The file has two columns of data: The first column co…
 - **tolerance** <a id="tolerance"></a>
-  - Specifies the root-mean-square (RMS) error for convergence criterion. The optimization terminates when the RMS error of targets is smaller than tolerance. The default value is given by pdbGetDouble Optimizer Tolerance, which defaults to ...
-  - _Keywords:_ RMS, Specifies, square, convergence, criterion, optimization, terminates, targets
+  - Specifies the root-mean-square (RMS) error for convergence criterion. The optimization terminates when the RMS error of targets is smaller…
 - **weight** <a id="weight"></a>
-  - Lists the weighting factors for targets. If specified, the list must be the same length as the number of targets. The weights control the importance of individual targets in calculations of the error during optimization. For a fitting pr...
-  - _Keywords:_ targets, importance, weighting, factors, specified, length, weights, control
+  - Lists the weighting factors for targets. If specified, the list must be the same length as the number of targets. The weights control the i…
 - **Description** <a id="description"></a>
-  - This command optimizes the specified parameters to achieve the required target values. Before using the optimize command, you must define a Tcl procedure that computes the results of the model, given a set of valid model parameters. The ...
-  - _Keywords:_ Tcl, optimizes, specified, achieve, required, target, Before, optimize
+  - This command optimizes the specified parameters to achieve the required target values. Before using the optimize command, you must define a…
 - **Examples** <a id="examples"></a>
   - The following example is a procedure to optimize the process conditions for the given oxide thickness:
-  - _Keywords:_ NetActive, interface, Oxide, procedure, optimize, process, conditions, thickness
 - **A: Commands optimize** <a id="a-commands-optimize"></a>
   - ```lua return $thi } ```
-  - _Keywords:_ optimize, procedure, independent, optFunc, target, tolerance, history, global
 - **paste** <a id="paste"></a>
   - Assembles 2D or 3D simulations by incorporating fragments from a TDR file.
-  - _Keywords:_ Assembles, simulations, incorporating, fragments, TDR
 - **Syntax** <a id="syntax"></a>
   - ```txt paste tdr=<c> direction="left" | "right" | "front" | "back" [Adaptive] ```
-  - _Keywords:_ direction, Adaptive
 - **Arguments** <a id="arguments"></a>
   - Adaptive
-  - _Keywords:_ Adaptive, adaptive, meshing, simulation, dimensions, pasted, specified, switches
 - **Description** <a id="description"></a>
-  - This command reads a TDR file containing valid geometry and appends it (pastes it) to the current structure. The new structure is displaced automatically by the correct amount to properly fit at the specified side, but the structures are...
-  - _Keywords:_ dimensions, TDR, structure, automatically, structures, containing, geometry, appends
+  - This command reads a TDR file containing valid geometry and appends it (pastes it) to the current structure. The new structure is displaced…
 - **A: Commands paste** <a id="a-commands-paste"></a>
 - **Examples** <a id="examples"></a>
   - Append the structure from the file propertyx\_fps.tdr to the right side (maximum ycoordinate) of the current structure:
-  - _Keywords:_ structure, propertyx, Append, maximum, ycoordinate, current, direction
 - **See Also** <a id="see-also"></a>
   - Inserting Polygons on page 843 struct on page 1245
-  - _Keywords:_ Inserting, Polygons, struct
 - **pdbDelayDouble** <a id="pdbdelaydouble"></a>
   - Retrieves an expression for a double parameter that will be evaluated at each time step during diffusion.
-  - _Keywords:_ Retrieves, expression, double, evaluated, during, diffusion
 - **Syntax** <a id="syntax"></a>
   - ```txt pdbDelayDouble <c> <c> ... ```
-  - _Keywords:_ pdbDelayDouble
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
-  - This command is typically called from Alagator to retrieve a parameter expression. Since among other things, the temperature can change during a diffusion step, the evaluation of Arrhenius expressions must be delayed until the temperatur...
-  - _Keywords:_ temperature, typically, called, Alagator, retrieve, expression, Since, things
+  - This command is typically called from Alagator to retrieve a parameter expression. Since among other things, the temperature can change dur…
 - **Examples** <a id="examples"></a>
   - Return an expression for D0 (not a value):
-  - _Keywords:_ expression, pdbDelayDouble
 - **pdbdiff** <a id="pdbdiff"></a>
   - Compares the current structure with one from a TDR file.
-  - _Keywords:_ Compares, current, structure, TDR
 - **Syntax** <a id="syntax"></a>
   - ```txt pdbdiff <c> <c> ```
-  - _Keywords:_ pdbdiff
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ prefix, Specifies, TDR, compared, without
 - **Description** <a id="description"></a>
   - The command reports any differences between the parameters stored and any differences in value.
-  - _Keywords:_ differences, reports, between, stored
 - **Examples** <a id="examples"></a>
   - Compare the pdb differences between n1\_fps.tdr and n2\_fps.tdr:
-  - _Keywords:_ Compare, differences, between, pdbdiff
 - **pdbDopantLike** <a id="pdbdopantlike"></a>
   - Creates new dopants in materials.
-  - _Keywords:_ Creates, dopants, materials
 - **Syntax** <a id="syntax"></a>
   - ```html pdbDopantLike <c> <c> ```
-  - _Keywords:_ pdbDopantLike
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ argument, material, second, dopant
 - **Description** <a id="description"></a>
   - If dopants are not present in a material, an error message is displayed.
-  - _Keywords:_ dopants, present, material, message, displayed
 - **Examples** <a id="examples"></a>
-  - Create a new dopant called MyDopant in silicon. You can select dopant-related diffusion switches (such as DiffModel and ActiveModel) for MyDopant:
-  - _Keywords:_ MyDopant, dopant, Create, called, silicon, You, select, related
+  - Create a new dopant called MyDopant in silicon. You can select dopant-related diffusion switches (such as DiffModel and ActiveModel) for My…
 - **pdbExprDouble** <a id="pdbexprdouble"></a>
   - Retrieves an expression for a double parameter without evaluating.
-  - _Keywords:_ Retrieves, expression, double, without, evaluating
 - **Syntax** <a id="syntax"></a>
   - ```txt pdbExprDouble <c> <c> ... ```
-  - _Keywords:_ pdbExprDouble
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
-  - This command is typically called from Alagator to retrieve a parameter expression. If the parameter depends on solution names, data fields, and so on, the evaluation of the expression must be delayed until the solution time. This command...
-  - _Keywords:_ expression, solution, typically, called, Alagator, retrieve, depends, fields
+  - This command is typically called from Alagator to retrieve a parameter expression. If the parameter depends on solution names, data fields,…
 - **Examples** <a id="examples"></a>
   - Return an expression for Bulk (not a value):
-  - _Keywords:_ expression, Bulk, pdbExprDouble, Mechanics, BulkModulus
 - **pdbGet and Related Commands** <a id="pdbget-and-related-commands"></a>
   - All these commands retrieve database parameters:
-  - _Keywords:_ pdbGet, retrieve, database, pdbGetArray, pdbGetBoolean, pdbGetDouble, pdbDelayDouble, pdbGetDoubleArray
 - **Syntax** <a id="syntax"></a>
   - ```txt pdbGet <c> <c> ... ```
-  - _Keywords:_ pdbGet
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
-  - These commands are used to obtain parameters that reside in the property database, which is hierarchical and is indicated by passing a series of strings to the command. In the command file, the command pdbGet must replace all other pdbGe...
-  - _Keywords:_ pdbGetSwitch, pdbGetSwitchString, These, database, pdbGet, string, switch, obtain
+  - These commands are used to obtain parameters that reside in the property database, which is hierarchical and is indicated by passing a seri…
 - **Examples** <a id="examples"></a>
-  - Retrieve the current value of StressHistory. The parameter StressHistory is known, but if it is spelled incorrectly, Sentaurus Process exits and prints a list of known parameters at the Mechanics level:
-  - _Keywords:_ StressHistory, Mechanics, Retrieve, Sentaurus, Process, current, spelled, incorrectly
+  - Retrieve the current value of StressHistory. The parameter StressHistory is known, but if it is spelled incorrectly, Sentaurus Process exit…
 - **pdbIsAvailable** <a id="pdbisavailable"></a>
   - Checks whether the given pdb command is available.
-  - _Keywords:_ Checks, whether, available
 - **Syntax** <a id="syntax"></a>
   - pdbIsAvailable <c> <c> ...
-  - _Keywords:_ pdbIsAvailable
 - **Arguments** <a id="arguments"></a>
   - <c>
-  - _Keywords:_ Specifies
 - **Description** <a id="description"></a>
   - If the pdb command exists, the pdbIsAvailable command returns 1; otherwise, it returns 0.
-  - _Keywords:_ exists, pdbIsAvailable, otherwise
 - **Examples** <a id="examples"></a>
   - Return 1 if the command "Silicon MyData" is available:
-  - _Keywords:_ Silicon, MyData, available, pdbIsAvailable
 - **pdbLike** <a id="pdblike"></a>
   - Creates a new pdb parameter like an existing parameter in a material.
-  - _Keywords:_ Creates, existing, material
 - **Syntax** <a id="syntax"></a>
   - ```txt pdbLike <c> <c> <c> ```
-  - _Keywords:_ pdbLike
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ argument, material, second, existing
 - **Description** <a id="description"></a>
-  - This command is used to create a new node in the parameter database where the subparameters of this node are inherited from an existing node in the database. It is typically used when creating a new solution variable to inherit parameter...
-  - _Keywords:_ database, existing, solution, variable, create, subparameters, inherited, typically
+  - This command is used to create a new node in the parameter database where the subparameters of this node are inherited from an existing nod…
 - **Examples** <a id="examples"></a>
   - Create a new parameter called MyBoron in silicon:
-  - _Keywords:_ MyBoron, defined, silicon, Boron, Create, called, pdbLike, Silicon
 - **See Also** <a id="see-also"></a>
-  - solution on page 1231
-  - _Keywords:_ solution
 - **pdbSet and Related Commands** <a id="pdbset-and-related-commands"></a>
   - All of the following commands set database parameters:
-  - _Keywords:_ pdbSet, database, pdbSetArray, pdbSetBoolean, pdbSetDouble, pdbSetDoubleArray, pdbSetElement, pdbSetFunction
 - **Syntax** <a id="syntax"></a>
   - ```txt pdbSet <c> <c> ... <value> ```
-  - _Keywords:_ pdbSet
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ argument, declared, database, defined, models, specified, hierarchical, associated
 - **Description** <a id="description"></a>
-  - These commands are used to set parameters that reside in the property database, which is hierarchical and is indicated by passing a series of strings to the command. In the command file, the command pdbSet must replace all other pdbSet\*...
-  - _Keywords:_ database, pdbSet, string, pdbSetBoolean, pdbSetDouble, ChargeStates, These, property
+  - These commands are used to set parameters that reside in the property database, which is hierarchical and is indicated by passing a series…
 - **Examples** <a id="examples"></a>
   - Set the Dstar parameter for boron in silicon; exit with list if not found:
-  - _Keywords:_ Dstar, MyArray, pdbSet, ChargeStates, Int, silicon, double, Arrhenius
 - **pdbUnSet-Related Commands** <a id="pdbunset-related-commands"></a>
   - All these commands unset database parameters:
-  - _Keywords:_ database, pdbUnSetBoolean, pdbUnSetDouble, pdbUnSetDoubleArray, pdbUnSetString
 - **Syntax** <a id="syntax"></a>
   - ```txt pdbUnSetBoolean <c> <c> ... pdbUnSetDouble <c> <c> ... pdbUnSetDoubleArray <c> <c> ... pdbUnSetString <c> <c> ... ```
-  - _Keywords:_ pdbUnSetBoolean, pdbUnSetDouble, pdbUnSetDoubleArray, pdbUnSetString
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
   - This command temporarily removes parameters from the parameter database during the simulation.
-  - _Keywords:_ temporarily, removes, database, during, simulation
 - **Examples** <a id="examples"></a>
   - Remove the Derived.Materials list of InGaAs material:
-  - _Keywords:_ Derived, Materials, InGaAs, Remove, material, pdbUnSetString
 - **PDE2KMC** <a id="pde2kmc"></a>
   - Translates and transfers Sentaurus Process fields to Sentaurus Process KMC.
-  - _Keywords:_ Sentaurus, Process, Translates, transfers, fields, KMC
 - **Syntax** <a id="syntax"></a>
   - PDE2KMC
-  - _Keywords:_ PDE2KMC
 - **Description** <a id="description"></a>
-  - This command is called automatically when a switch from the PDE solver to the Sentaurus Process KMC solver is detected. It translates the continuum concentrations into suitable particle distributions to be used by Sentaurus Process KMC.
-  - _Keywords:_ KMC, PDE, solver, Sentaurus, Process, translates, performed, species
+  - This command is called automatically when a switch from the PDE solver to the Sentaurus Process KMC solver is detected. It translates the c…
 - **See Also** <a id="see-also"></a>
   - SetAtomistic on page 1202
-  - _Keywords:_ SetAtomistic
 - **photo** <a id="photo"></a>
   - Creates a photoresist layer of the specified thickness outside the mask.
-  - _Keywords:_ Creates, photoresist, specified, thickness, outside
 - **Syntax** <a id="syntax"></a>
   - ```txt photo [Adaptive] [mask=<c>] [repair] [sde= {<c>}] [thickness=<n>] [<m>|<cm>|<um>|<nm>] ```
-  - _Keywords:_ Adaptive, repair, thickness
 - **Arguments** <a id="arguments"></a>
   - Adaptive
-  - _Keywords:_ Adaptive, thickness, photoresist, algorithm, specified, adaptive, meshing, repair
 - **Description** <a id="description"></a>
-  - The mask must have been defined using a mask command. If the photoresist must be deposited inside of the mask, the negative argument must be defined in the mask command.
-  - _Keywords:_ defined, photoresist, deposited, inside, negative, argument
+  - The mask must have been defined using a mask command. If the photoresist must be deposited inside of the mask, the negative argument must b…
 - **Examples** <a id="examples"></a>
-  - Create a resist layer of thickness. The resist layer material will appear in open areas of1 μm the mask mask1, that is, it will be the negative of mask1:
-  - _Keywords:_ resist, thickness, Create, material, appear, negative, polarity
+  - Create a resist layer of thickness. The resist layer material will appear in open areas of1 μm the mask mask1, that is, it will be the nega…
 - **See Also** <a id="see-also"></a>
-  - mask on page 1092
 - **plot.1d** <a id="plot-1d"></a>
   - Plots a 1D cross section.
-  - _Keywords:_ Plots
 - **Syntax** <a id="syntax"></a>
-  - ```html plot.1d [boundary] [clear] [close] [color=<c>] [fix.ratio] [label=<c>] [max=<list>] [min=<list>] [name=<c>] [rescale] [symb=<c>] [title=<c>] [x=<n>] [<m>|<cm>|<um>|<nm>] [y=<n>] [<m>|<cm>|<um>|<nm>] [z=<n>] [<m>|<cm>|<um>|<nm>] ```
-  - _Keywords:_ boundary, rescale
+  - ```html plot.1d [boundary] [clear] [close] [color=<c>] [fix.ratio] [label=<c>] [max=<list>] [min=<list>] [name=<c>] [rescale] [symb=<c>] [t…
 - **Arguments** <a id="arguments"></a>
   - boundary
-  - _Keywords:_ Specifies, specified, window, current, symbol, vertical, screen, cleared
 - **Description** <a id="description"></a>
-  - This command plots cross sections vertically or horizontally through the device with arguments to provide for initialization of the graphics device and plotting of axes. This command can optionally draw vertical lines whenever a material...
-  - _Keywords:_ device, vertically, horizontally, through, arguments, provide, initialization, graphics
+  - This command plots cross sections vertically or horizontally through the device with arguments to provide for initialization of the graphic…
 - **Examples** <a id="examples"></a>
-  - Clear the screen, draw a set of axes, and draw the data along a horizontal cross section at $\mathbf { x } = 1 . 0 \mu \mathrm { m }$ . Each point is drawn with symbol 1:
-  - _Keywords:_ horizontal, Lateral, Clear, screen, mathbf, mathrm, symbol, Draw
+  - Clear the screen, draw a set of axes, and draw the data along a horizontal cross section at $\mathbf { x } = 1 . 0 \mu \mathrm { m }$ . Eac…
 - **See Also** <a id="see-also"></a>
-  - select on page 1195
-  - _Keywords:_ select
 - **plot.2d** <a id="plot-2d"></a>
   - Plots a 2D xy graphic.
-  - _Keywords:_ Plots, graphic
 - **Syntax** <a id="syntax"></a>
-  - ```ini plot.2d [boundary] [clear] [close] [col.bound=<c>] [col.grid=<c>] [edges] [faces] [fill] [fix.ratio] [gas] [grid] [kmc] [label.bound] [max=<list>] [min=<list>] [nodes] [rescale] [title=<c>] [vector=<c>] [vlength=<n>] [<m>|<cm>|<um...
-  - _Keywords:_ boundary, rescale, vector, vlength
+  - ```ini plot.2d [boundary] [clear] [close] [col.bound=<c>] [col.grid=<c>] [edges] [faces] [fill] [fix.ratio] [gas] [grid] [kmc] [label.bound…
 - **Arguments** <a id="arguments"></a>
   - boundary
-  - _Keywords:_ Specifies, boundary, screen, cleared, X11, specified, Prints, indices
 - **fill** <a id="fill"></a>
-  - Specifies that the device must be drawn with the proper aspect ratio. If fill is false, the device is drawn with the proper aspect ratio. If fill is true, the device is expanded to fill the screen. Default: false.
-  - _Keywords:_ device, proper, aspect, Specifies, expanded, screen
+  - Specifies that the device must be drawn with the proper aspect ratio. If fill is false, the device is drawn with the proper aspect ratio. I…
 - **fix.ratio** <a id="fix-ratio"></a>
   - By default, the x to y ratio is now fixed. This can be switched off using !fix.ratio.
-  - _Keywords:_ switched
 - **gas** <a id="gas"></a>
   - Specifies that the grid in the gas must also be plotted. Default: false (no gas grid is shown).
-  - _Keywords:_ Specifies, plotted
 - **grid** <a id="grid"></a>
   - Specifies that the numeric grid on which the problem was solved must be drawn. Default: false.
-  - _Keywords:_ Specifies, numeric, problem, solved
 - **kmc** <a id="kmc"></a>
   - Plots particles in an atomistic KMC simulations as dots.
-  - _Keywords:_ Plots, particles, atomistic, KMC, simulations
 - **label.bound** <a id="label-bound"></a>
   - Name of the material in the lower-left corner of the material region.
-  - _Keywords:_ material, corner, region
 - **max** <a id="max"></a>
-  - List of numeric values that will be the ends of the x- and y-axis, respectively. The first argument is the x-value and the second is the y-value. A single value is always interpreted as the x-value. The default is the maximum extent of t...
-  - _Keywords:_ numeric, respectively, argument, second, single, always, interpreted, maximum
+  - List of numeric values that will be the ends of the x- and y-axis, respectively. The first argument is the x-value and the second is the y-…
 - **min** <a id="min"></a>
-  - List of numeric values that will be the ends of the x- and y-axis, respectively. The first argument is the x-value and the second is the y-value. A single value is always interpreted as the x-value. The default is the minimum extent of t...
-  - _Keywords:_ numeric, respectively, argument, second, single, always, interpreted, minimum
+  - List of numeric values that will be the ends of the x- and y-axis, respectively. The first argument is the x-value and the second is the y-…
 - **nodes** <a id="nodes"></a>
   - Prints the node indices on the plot. Default: false.
-  - _Keywords:_ Prints, indices
 - **rescale** <a id="rescale"></a>
   - Rescales the plot to fit the whole simulation domain.
-  - _Keywords:_ vector, simulations, vlength, length, maximum, Rescales, simulation, domain
 - **Description** <a id="description"></a>
-  - Usually, this command is used to look at material boundaries and grids; however, it also can be used to plot a flow field. This command can be executed immediately before a contour command to allow isoconcentration lines to be plotted in...
-  - _Keywords:_ Usually, material, boundaries, however, executed, immediately, before, contour
+  - Usually, this command is used to look at material boundaries and grids; however, it also can be used to plot a flow field. This command can…
 - **Examples** <a id="examples"></a>
   - Draw the triangular grid and axis. Each material is plotted in a different color:
-  - _Keywords:_ Draw, material, interfaces, boundary, triangular, plotted, different, minimum
 - **A: Commands** <a id="a-commands"></a>
   - plot.2d
-  - _Keywords:_ Velocity, vector, Plot, maximum, length, The0, surface, cleared
 - **See Also** <a id="see-also"></a>
   - bound on page 933
-  - _Keywords:_ Compatibility, contour, select
 - **plot.xy** <a id="plot-xy"></a>
   - Prepares an xy plot to draw on.
-  - _Keywords:_ Prepares
 - **Syntax** <a id="syntax"></a>
   - ```txt plot.xy [clear] [max=<list>] [min=<list>] [x.axis=<c>] [y.axis=<c>] [x.log] [y.log] ```
 - **Arguments** <a id="arguments"></a>
   - clear
-  - _Keywords:_ numeric, respectively, argument, second, single, always, interpreted, extent
 - **Description** <a id="description"></a>
-  - This command configures a 2D plot surface for use with the point.xy command. This prepares the axis scaling and labels, and controls the log axes.
-  - _Keywords:_ configures, surface, prepares, scaling, labels, controls, simulate
+  - This command configures a 2D plot surface for use with the point.xy command. This prepares the axis scaling and labels, and controls the lo…
 - **A: Commands plot.xy** <a id="a-commands-plot-xy"></a>
 - **Examples** <a id="examples"></a>
   - Prepare a plot area:
-  - _Keywords:_ Prepare, Time, Thickness
 - **See Also** <a id="see-also"></a>
-  - point.xy on page 1149 select on page 1195
-  - _Keywords:_ select
 - **point** <a id="point"></a>
   - Creates a point, for example, for a mask polygon.
-  - _Keywords:_ Creates, polygon
 - **Syntax** <a id="syntax"></a>
-  - ```txt point [clear] [coord = { <n> [<m> | <cm> | <um> | <nm>] <n> [<m> | <cm> | <um> | <nm>] <n> [<m> | <cm> | <um> | <nm>] } ] [list] [name=<c>] ```
+  - ```txt point [clear] [coord = { <n> [<m> | <cm> | <um> | <nm>] <n> [<m> | <cm> | <um> | <nm>] <n> [<m> | <cm> | <um> | <nm>] } ] [list] [na…
 - **Arguments** <a id="arguments"></a>
   - clear
-  - _Keywords:_ points, specified, information, coordinates, defined, Clears, clears, Defines
 - **Description** <a id="description"></a>
   - This command defines a point in three dimensions or a 2D point in the yz plane. It can be used to construct polygons to define masks.
-  - _Keywords:_ defines, dimensions, construct, polygons, define
 - **Examples** <a id="examples"></a>
   - Define a 2D point with the coordinates y = 0 and z = –1.5:
-  - _Keywords:_ Define, coordinates
 - **A: Commands** <a id="a-commands"></a>
   - point
-  - _Keywords:_ Print, defined, points, LogFile
 - **See Also** <a id="see-also"></a>
-  - mask on page 1092
-  - _Keywords:_ polygon
 - **point.xy** <a id="point-xy"></a>
   - Adds a line segment to a plot.
-  - _Keywords:_ Adds, segment
 - **Syntax** <a id="syntax"></a>
   - ```txt point.xy x=<n> y=<n> [color=<c>] [move] [name=<c>] [symb=<c>] ```
 - **Arguments** <a id="arguments"></a>
   - color
-  - _Keywords:_ character, string, symbol, specified, Specifies, supported, X11, hardware
 - **Description** <a id="description"></a>
-  - This command adds segments to a specified line on a plot surface using X-windows-based plotting (plot.1d or plot.2d). The command is used to plot calculated values, data, or direct outputs from the simulation. The values can be added to ...
-  - _Keywords:_ segments, specified, surface, windows, plotting, calculated, direct, simulation
+  - This command adds segments to a specified line on a plot surface using X-windows-based plotting (plot.1d or plot.2d). The command is used t…
 - **Examples** <a id="examples"></a>
   - Add x- and y-values to the line named Thickness:
-  - _Keywords:_ Thickness, Add
 - **See Also** <a id="see-also"></a>
-  - interface on page 1056 interpolate on page 1059 plot.xy on page 1145 select on page 1195
-  - _Keywords:_ interface, interpolate, select
 - **polygon** <a id="polygon"></a>
   - Creates a polygon, for example, for a mask.
-  - _Keywords:_ polygon, rectangle, Creates, Syntax, external, materials, points, point1
 - **Arguments** <a id="arguments"></a>
   - clear
-  - _Keywords:_ polygon, polygons, external, Sentaurus, Structure, Editor, Clears, specified
 - **A: Commands** <a id="a-commands"></a>
   - polygon
-  - _Keywords:_ polygon, points, rectangular, rectangle, minimum, specify, specified, segments
 - **Description** <a id="description"></a>
   - This command defines a mask or uses the polygon during an insertion. One of the following must be used to create a polygon:
-  - _Keywords:_ polygon, during, points, defines, insertion, One, create, rectangle
 - **Examples** <a id="examples"></a>
   - Create three identical rectangles using points and coordinates:
-  - _Keywords:_ polygon, points, Box3, rectangle, segments, Create, identical, rectangles
 - **A: Commands** <a id="a-commands"></a>
   - polygon
-  - _Keywords:_ polygon
 - **See Also** <a id="see-also"></a>
   - Inserting Polygons on page 843
-  - _Keywords:_ Inserting, Polygons, insert
 - **polyhedron** <a id="polyhedron"></a>
   - Creates and stores 3D polyhedra, for later insertion with the insert command or for use with the profile command.
-  - _Keywords:_ polyhedron, rotate, center, Creates, stores, polyhedra, insertion, insert
 - **Arguments** <a id="arguments"></a>
   - bbox, bbox.cm, bbox.um
-  - _Keywords:_ polyhedron, specified, maximum, extents, points, centimeter, micrometer
 - **A: Commands** <a id="a-commands"></a>
   - polyhedron
-  - _Keywords:_ polyhedron, center, specified, materials, polygons, direction, location, rotation
 - **Description** <a id="description"></a>
-  - This command creates a polyhedron and stores it under the name specified. Different mechanisms can be used to create the polyhedron. It can be read from an existing polyhedron or from a TDR boundary file; it can be defined as a brick or ...
-  - _Keywords:_ polyhedron, materials, specified, defined, transformations, offset, rotate, stretch
+  - This command creates a polyhedron and stores it under the name specified. Different mechanisms can be used to create the polyhedron. It can…
 - **Examples** <a id="examples"></a>
   - Load the polyhedra containing silicon and gas from the boundary file sphere\_bnd.tdr with the name sphere:
-  - _Keywords:_ polyhedron, sphere, polygons, called, triangle, tetrahedron, smallPrism, Load
 - **See Also** <a id="see-also"></a>
   - Inserting Polyhedra on page 844 insert on page 1050 profile on page 1164
-  - _Keywords:_ Inserting, Polyhedra, insert, profile
 - **PowerDeviceMode** <a id="powerdevicemode"></a>
-  - Sets diffusion models to match the pd.fermi model of TSUPREM-4 for power-device applications. It also relaxes time-step controls and reduces mesh refinement around the interfaces.
-  - _Keywords:_ diffusion, models, TSUPREM, device, applications, relaxes, controls, reduces
+  - Sets diffusion models to match the pd.fermi model of TSUPREM-4 for power-device applications. It also relaxes time-step controls and reduce…
 - **Syntax** <a id="syntax"></a>
   - PowerDeviceMode
-  - _Keywords:_ PowerDeviceMode
 - **Description** <a id="description"></a>
-  - NOTE Do not confuse this command with AdvancedPowerDeviceMode, which is part of Advanced Calibration. The PowerDeviceMode command sets different parameters and meshing criteria similar to TSUPREM-4.
-  - _Keywords:_ Switch, TSUPREM, different, meshing, criteria, Sentaurus, Process, arsenic
+  - NOTE Do not confuse this command with AdvancedPowerDeviceMode, which is part of Advanced Calibration. The PowerDeviceMode command sets diff…
 - **print.1d** <a id="print-1d"></a>
   - Prints values along a 1D cross section.
-  - _Keywords:_ Prints
 - **Syntax** <a id="syntax"></a>
-  - ```html print.1d [gas] [interfaces] [<material>] [name=<c>] [region=<c>] [syntax.check.value=<c>] [x=<n>] [<m>|<cm>|<um>|<nm>] [y=<n>] [<m>|<cm>|<um>|<nm>] [z=<n>] [<m>|<cm>|<um>|<nm>] ```
-  - _Keywords:_ interfaces, material, region, syntax
+  - ```html print.1d [gas] [interfaces] [<material>] [name=<c>] [region=<c>] [syntax.check.value=<c>] [x=<n>] [<m>|<cm>|<um>|<nm>] [y=<n>] [<m>…
 - **Arguments** <a id="arguments"></a>
   - gas
-  - _Keywords:_ specified, interface, dimensions, syntax, returned, allows, interfaces, displayed
 - **Description** <a id="description"></a>
-  - This command is particularly useful for creating input for another xy plot. A Tcl list is returned for all values. This allows subsequent processing (for example, integration) of the resulting profile.
-  - _Keywords:_ particularly, useful, creating, another, Tcl, returned, allows, subsequent
+  - This command is particularly useful for creating input for another xy plot. A Tcl list is returned for all values. This allows subsequent p…
 - **Examples** <a id="examples"></a>
   - Print the selected value at x equal to :1.0 μm
-  - _Keywords:_ Print, Arsenic, selected, vertical, lateral, position
 - **See Also** <a id="see-also"></a>
-  - plot.1d on page 1138
-  - _Keywords:_ select, tclsel
 - **print.data** <a id="print-data"></a>
   - Writes data in x-, y-, and z-format.
-  - _Keywords:_ Writes, format
 - **Syntax** <a id="syntax"></a>
-  - ```txt print.data [name=<c>] [NODE | EDGE] [outfile=<c>] [xlo=<n>] [<m>|<cm>|<um>|<nm>] [xhi=<n>] [<m>|<cm>|<um>|<nm>] [ylo=<n>] [<m>|<cm>|<um>|<nm>] [yhi=<n>] [<m>|<cm>|<um>|<nm>] [zlo=<n>] [<m>|<cm>|<um>|<nm>] [zhi=<n>] [<m>|<cm>|<um>|...
-  - _Keywords:_ NODE, EDGE, outfile
+  - ```txt print.data [name=<c>] [NODE | EDGE] [outfile=<c>] [xlo=<n>] [<m>|<cm>|<um>|<nm>] [xhi=<n>] [<m>|<cm>|<um>|<nm>] [ylo=<n>] [<m>|<cm>|…
 - **Arguments** <a id="arguments"></a>
   - name
-  - _Keywords:_ NODE, allows, printing, without, select, _Plot, _Var, EDGE
 - **Description** <a id="description"></a>
-  - The file format is the x-position, y-position, and z-position. This command is used primarily to write a data field for use with more sophisticated 3D plotting tools.
-  - _Keywords:_ position, format, primarily, sophisticated, plotting
+  - The file format is the x-position, y-position, and z-position. This command is used primarily to write a data field for use with more sophi…
 - **Examples** <a id="examples"></a>
   - Print the data field named Boron:
-  - _Keywords:_ Boron, Print, outfile
 - **See Also** <a id="see-also"></a>
-  - select on page 1195
-  - _Keywords:_ select
 - **print\_interpolated\_params** <a id="print-interpolated-params"></a>
-  - Prints the parameters that have already been read and to which mole fraction–dependent interpolation has been applied, and returns them as a Tcl list.
-  - _Keywords:_ Prints, already, fraction, dependent, interpolation, applied, Tcl
+  - Prints the parameters that have already been read and to which mole fraction–dependent interpolation has been applied, and returns them as…
 - **Syntax** <a id="syntax"></a>
   - print\_interpolated\_params [Diffuse | KMC | Mechanics]
-  - _Keywords:_ _interpolated, _params, Diffuse, KMC, Mechanics
 - **Arguments** <a id="arguments"></a>
   - Diffuse, KMC, Mechanics
-  - _Keywords:_ Diffuse, fraction, dependent, KMC, Mechanics, Prints, containing, chosen
 - **Description** <a id="description"></a>
   - This command prints a list of mole fraction–dependent parameters that have been used during the simulation.
-  - _Keywords:_ during, called, interpolation, prints, fraction, dependent, simulation, expected
 - **Examples** <a id="examples"></a>
   - Print all mole fraction–dependent parameters used in the simulation:
-  - _Keywords:_ Print, fraction, dependent, simulation, _interpolated, _params, KMC, containing
 - **profile** <a id="profile"></a>
   - Reads a data file and constructs a data field.
-  - _Keywords:_ Reads, constructs
 - **Syntax** <a id="syntax"></a>
-  - ```coffeescript profile name=<c> [Adaptive] [concentration=<n>] [delay.doping.3d] [gaussian.blur] [infile=<c>] [lateral.function= {xlo= {<n> ...} xhi= {<n> ...} sigma= {<n> ...} LDF.reshape( {<c> ...}}] [logarithmic | linear | arsinh] [m...
-  - _Keywords:_ material, coffeescript, profile, Adaptive, concentration, doping, gaussian, infile
+  - ```coffeescript profile name=<c> [Adaptive] [concentration=<n>] [delay.doping.3d] [gaussian.blur] [infile=<c>] [lateral.function= {xlo= {<n…
 - **Arguments** <a id="arguments"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - Specifies whether this profile step is performed with adaptive remeshing. This functionality is not supported when infile is a TDR file, or when the polyhedron argument is specified. Default: [pdbGet Grid Adaptive].
-  - _Keywords:_ Specifies, whether, profile, performed, adaptive, remeshing, functionality, supported
+  - Specifies whether this profile step is performed with adaptive remeshing. This functionality is not supported when infile is a TDR file, or…
 - **concentration** <a id="concentration"></a>
-  - Specifies the concentration of the field at the specified xcoord or inside the specified polyhedron. When it is paired with the xcoord argument, the concentration argument is a list in which the number of list elements must match that of...
-  - _Keywords:_ argument, concentration, specified, xcoord, polyhedron, Specifies, inside, paired
+  - Specifies the concentration of the field at the specified xcoord or inside the specified polyhedron. When it is paired with the xcoord argu…
 - **delay.doping.3d** <a id="delay-doping-3d"></a>
-  - Specifies whether the placement of the dopant concentration is delayed until the next remeshing step in the 3D simulation. This might be useful if there are several consecutive profile commands, which can be put together and performed in...
-  - _Keywords:_ profile, polyhedron, concentration, specified, material, rectangular, argument, direction
+  - Specifies whether the placement of the dopant concentration is delayed until the next remeshing step in the 3D simulation. This might be us…
 - **Description** <a id="description"></a>
   - This command provides different ways of introducing dopant concentration into a device:
-  - _Keywords:_ profile, polyhedron, dopant, concentration, specified, lateral, specifying, structure
 - **Examples** <a id="examples"></a>
   - Read a boron profile from a Monte Carlo ion implantation. Scale the depth by $1 \times { 1 0 } ^ { - 4 }$ to convert ångström to micrometer:
-  - _Keywords:_ profile, polyhedron, concentration, mypoly, Boron, infile, doping, Read
 - **See Also** <a id="see-also"></a>
-  - print.1d on page 1160
 - **RangeRefineboxes** <a id="rangerefineboxes"></a>
-  - Creates a set of refinement boxes based on a mask, and a set of range and extent parameters. All boxes share a set of global refinement settings, but each box can have additional local refinement settings.
-  - _Keywords:_ refinement, settings, Creates, extent, global, additional
+  - Creates a set of refinement boxes based on a mask, and a set of range and extent parameters. All boxes share a set of global refinement set…
 - **Syntax** <a id="syntax"></a>
-  - ```txt RangeRefineboxes boxes = { drange=<drange1> [<box-specific_arguments>] [drange=<drange2> [<box-specific_arguments>]] ... } mask=<c> name=<c> range=<c> [<other_arguments>] ```
-  - _Keywords:_ drange, specific_arguments, RangeRefineboxes, drange1, drange2, other_arguments
+  - ```txt RangeRefineboxes boxes = { drange=<drange1> [<box-specific_arguments>] [drange=<drange2> [<box-specific_arguments>]] ... } mask=<c>…
 - **Arguments** <a id="arguments"></a>
   - ```xml <box-specific_arguments> ```
-  - _Keywords:_ refinement, individual, Specifies, argument, Tcl, drange, refinebox, applied
 - **Description** <a id="description"></a>
-  - The refinement is applied to the area under the specified mask. The lateral extent is controlled by the same arguments as in the refinebox command, for example, mask.edge.refine.extent and mask.edge.mns.
-  - _Keywords:_ refinement, arguments, argument, refinebox, extent, individual, applied, specified
+  - The refinement is applied to the area under the specified mask. The lateral extent is controlled by the same arguments as in the refinebox…
 - **Examples** <a id="examples"></a>
   - Create a set of refinement boxes:
-  - _Keywords:_ moments, M1_p, Create, refinement, segments, implant, Arsenic, energy
 - **A: Commands** <a id="a-commands"></a>
 - **RangeRefineboxes** <a id="rangerefineboxes"></a>
-  - ```txt {drange= [expr 4*$sigma] xrefine= $sigma yrefine= $sigma \ extend= [expr 2*$sigma]} \ {drange= [expr 2*$sigma] mask.edge.mns= [expr $sigma/8.0] \ mask.edge.refine.extent= [expr 2*$sigma] mask.edge.ngr= 1} } \ extend= 1.0 xrefine= ...
-  - _Keywords:_ drange, xrefine, yrefine, extend, refine, extent
+  - ```txt {drange= [expr 4*$sigma] xrefine= $sigma yrefine= $sigma \ extend= [expr 2*$sigma]} \ {drange= [expr 2*$sigma] mask.edge.mns= [expr…
 - **See Also** <a id="see-also"></a>
   - DeleteRefinementboxes on page 950
-  - _Keywords:_ DeleteRefinementboxes, refinebox
 - **reaction** <a id="reaction"></a>
   - Defines reacting materials and the new material that forms as the product of the reaction.
-  - _Keywords:_ products, material, reaction, ambient, efactor, reactants, Defines, reacting
 - **Arguments** <a id="arguments"></a>
   - alt.matername
-  - _Keywords:_ ambient, Specifies, reaction, ambients, products, Coordinations, Reactions, matername
 - **A: Commands** <a id="a-commands"></a>
   - reaction
-  - _Keywords:_ reaction, reactions, material, LKMC, Coordinations, Reactions, reactants, products
 - **Description** <a id="description"></a>
-  - This command is used to specify either reactions for continuum moving-boundary simulations (such as oxidation, silicidation, and epitaxy) or LKMC chemical vapor epitaxy reactions (such as adsorption, surface reaction, desorption, and etc...
-  - _Keywords:_ reactions, materials, oxidation, epitaxy, LKMC, information, refers, specify
+  - This command is used to specify either reactions for continuum moving-boundary simulations (such as oxidation, silicidation, and epitaxy) o…
 - **Examples** <a id="examples"></a>
-  - Define a reaction named MyDryOx. The reaction will occur at the gas–silicon interface and the new material will be oxide. For the reaction to occur, $\mathrm { { O } } _ { 2 }$ must be present in the structure. It is expected that you wi...
-  - _Keywords:_ reaction, silicon, interface, Silicon, species, titanium, MyDryOx, expected
+  - Define a reaction named MyDryOx. The reaction will occur at the gas–silicon interface and the new material will be oxide. For the reaction…
 - **See Also** <a id="see-also"></a>
   - Basics of Specifying Generic Growth Equations on page 626
-  - _Keywords:_ Basics, Specifying, Generic, Growth, Equations
 - **refinebox** <a id="refinebox"></a>
   - Sets the local grid parameters and performs a grid refinement using the MGOALS module.
-  - _Keywords:_ performs, refinement, MGOALS, module
 - **Syntax** <a id="syntax"></a>
-  - ```ini refinebox [3d] [Adaptive] [clear] [double.side] [kmc] [list] [(mask=<c> extrusion.min=<n> extrusion.max=<n>) [extend=<n>] ([mask.corner.mns=<n>] [mask.corner.ngr=<n>] [mask.corner.refine.extent=<n>] | [mask.edge.mns=<n>] [mask.edg...
-  - _Keywords:_ refine, interface, field1, field2, corner, materials, regions, normal
+  - ```ini refinebox [3d] [Adaptive] [clear] [double.side] [kmc] [list] [(mask=<c> extrusion.min=<n> extrusion.max=<n>) [extend=<n>] ([mask.cor…
 - **Arguments** <a id="arguments"></a>
-  - 3d
-  - _Keywords:_ refinement, Adaptive, adaptive, dimensions, specified, Specifies, dimension, applies
+  - Specifies the refinement box for only three dimensions, or for only one dimension and two dimensions. The default behavior is to always app…
 - **A: Commands** <a id="a-commands"></a>
   - refinebox
-  - _Keywords:_ refinement, corner, extent, specified, argument, Specifies, refine, extrusion
 - **A: Commands** <a id="a-commands"></a>
   - refinebox
-  - _Keywords:_ regions, defining, element, direction, middle, refinement, refinebox, Limits
 - **Arguments: Interface Refinement Control** <a id="arguments-interface-refinement-control"></a>
   - interface.mat.pairs
-  - _Keywords:_ interface, offsetting, materials, Sentaurus, Mesh, Specifies, interfaces, normal
 - **Arguments: Boundary Rediscretization Using DelPSC Algorithm** <a id="arguments-boundary-rediscretization-using-delpsc-algorithm"></a>
   - DelPSC
-  - _Keywords:_ interface, DelPSC, algorithm, Restricts, application, interfaces, specified, materials
 - **Arguments: Adaptive Meshing** <a id="arguments-adaptive-meshing"></a>
   - abs.error
-  - _Keywords:_ criteria, refinement, refine, dependent, maximum, fields, difference, independent
 - **Description** <a id="description"></a>
   - This command specifies mesh refinement. The following types of refinement box are available:
-  - _Keywords:_ refinement, Adaptive, Confine, specified, specifies, available, Standard, Independent
 - **Examples** <a id="examples"></a>
   - Define two refinement boxes:
-  - _Keywords:_ refinebox, refinement, yrefine, adaptive, Mask1, xrefine, criteria, extrusion
 - **See Also** <a id="see-also"></a>
   - Mesh Refinement on page 738 mask on page 1092 mgoals on page 1110
-  - _Keywords:_ Mesh, Refinement, mgoals
 - **region** <a id="region"></a>
   - Creates regions, marks substrates, and changes region materials.
-  - _Keywords:_ Creates, regions, substrates, changes, region, materials
 - **Syntax** <a id="syntax"></a>
-  - ```txt region <material> xlo=<c> [ylo=<c>] [zlo=<c>] xhi=<c> [yhi=<c>] [zhi=<c>] [alt.matername=<c>] [bbox | bbox.cm | bbox.um] [change.material] [cropped.bbox] [exact.name] [field=<c> (resistivity=<n>[<ohm-cm>] | concentration=<n>)] [le...
-  - _Keywords:_ material, region, matername, change, cropped, resistivity, concentration, bottom
+  - ```txt region <material> xlo=<c> [ylo=<c>] [zlo=<c>] xhi=<c> [yhi=<c>] [zhi=<c>] [alt.matername=<c>] [bbox | bbox.cm | bbox.um] [change.mat…
 - **Arguments** <a id="arguments"></a>
   - alt.matername
-  - _Keywords:_ region, material, specified, regions, substrate, change, argument, structure
 - **Description** <a id="description"></a>
   - The region command has different applications:
-  - _Keywords:_ region, regions, simulation, created, material, bounding, specified, different
 - **Examples** <a id="examples"></a>
   - Create a new material MySilicon, and then change the material of a region named bulk to MySilicon without changing the data:
-  - _Keywords:_ region, material, MySilicon, change, Gate, Create, Gas, silicon
 - **See Also** <a id="see-also"></a>
-  - integrate on page 1053 line on page 1080
-  - _Keywords:_ integrate, Dispatches, Sentaurus, Structure, Editor, available, simulations
+  - #
 - **Syntax** <a id="syntax"></a>
-  - ```txt sde {<Sentaurus Structure Editor commands>} [Adaptive] [external] [logfile=<c>] [off] [on] [polyhedron=<c>] [polyhedron.material=<c>] [remesh] [SdeCheck] ```
-  - _Keywords:_ polyhedron, Sentaurus, Structure, Editor, Adaptive, external, logfile, material
+  - ```txt sde {<Sentaurus Structure Editor commands>} [Adaptive] [external] [logfile=<c>] [off] [on] [polyhedron=<c>] [polyhedron.material=<c>…
 - **Arguments** <a id="arguments"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - If specified, Adaptive switches on adaptive meshing if remesh is given. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 745. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ Adaptive, adaptive, meshing, specified, switches, remesh, described, Mesh
+  - If specified, Adaptive switches on adaptive meshing if remesh is given. Parameters for adaptive meshing are described in Adaptive Mesh Refi…
 - **external** <a id="external"></a>
-  - Puts the Sentaurus Structure Editor interface in external mode, which can be used to create polyhedra to be inserted into a Sentaurus Process structure using the 3D MGOALS mode. When the external mode is switched on, all geometry transfo...
-  - _Keywords:_ Sentaurus, external, Structure, Editor, structure, Puts, interface, create
+  - Puts the Sentaurus Structure Editor interface in external mode, which can be used to create polyhedra to be inserted into a Sentaurus Proce…
 - **logfile** <a id="logfile"></a>
-  - Name of the file that will log all the Scheme commands dispatched to Sentaurus Structure Editor. The recommended file extension is .scm. The file will contain both the Scheme commands translated from Sentaurus Process etch, deposit, stri...
-  - _Keywords:_ Scheme, Sentaurus, Structure, Editor, dispatched, recommended, extension, contain
+  - Name of the file that will log all the Scheme commands dispatched to Sentaurus Structure Editor. The recommended file extension is .scm. Th…
 - **off** <a id="off"></a>
-  - Switches off the Sentaurus Structure Editor mode if it has been switched on previously. By default, the Sentaurus Structure Editor mode is off. Operations will be performed by MGOALS instead.
-  - _Keywords:_ Sentaurus, Structure, Editor, polyhedron, external, material, geometry, Switches
+  - Switches off the Sentaurus Structure Editor mode if it has been switched on previously. By default, the Sentaurus Structure Editor mode is…
 - **Description** <a id="description"></a>
-  - This command enables and configures the interface between Sentaurus Process and Sentaurus Structure Editor. When sde on is specified, all 3D geometry modeling is performed using Sentaurus Structure Editor. Sentaurus Process will translat...
-  - _Keywords:_ Sentaurus, Structure, Editor, Process, specified, geometry, Scheme, enables
+  - This command enables and configures the interface between Sentaurus Process and Sentaurus Structure Editor. When sde on is specified, all 3…
 - **Examples** <a id="examples"></a>
-  - Enable the use of Sentaurus Structure Editor or geometry modeling, specify the log file for the Scheme commands, and check all boundary files written by Sentaurus Structure Editor:
-  - _Keywords:_ position, Sentaurus, Structure, Editor, sdegeo, cuboid, define, facelist
+  - Enable the use of Sentaurus Structure Editor or geometry modeling, specify the log file for the Scheme commands, and check all boundary fil…
 - **See Also** <a id="see-also"></a>
   - For details about Scheme commands, refer to the Sentaurus™ Structure Editor User Guide.
-  - _Keywords:_ details, Scheme, Sentaurus, Structure, Editor, Guide
 - **select** <a id="select"></a>
   - Selects the variable for display in all postprocessing commands.
-  - _Keywords:_ Selects, variable, display, postprocessing
 - **Syntax** <a id="syntax"></a>
-  - ```txt select [copy.bulk.to.interface=<c>] [copy.interface=<c>] [delete] [edge.vector] [element] [interfaces] [list] [list.all] [<material>] ([min | max] | [report.location]) [name=<c>] [node.evaluate] [permanent] [present] [region=<c>] ...
-  - _Keywords:_ interface, select, delete, vector, element, interfaces, material, report
+  - ```txt select [copy.bulk.to.interface=<c>] [copy.interface=<c>] [delete] [edge.vector] [element] [interfaces] [list] [list.all] [<material>…
 - **Arguments** <a id="arguments"></a>
   - copy.bulk.to.interface
-  - _Keywords:_ interface, specified, Computes, element, interfaces, Copies, adjacent, argument
 - **A: Commands** <a id="a-commands"></a>
   - select
-  - _Keywords:_ region, material, defined, fields, select, currently, Tcl, require
 - **store** <a id="store"></a>
   - Sets the data field with the name defined by name to be written into permanent storage when a structure file is output. Default: false.
-  - _Keywords:_ defined, written, permanent, storage, structure
 - **syntax.check.value** <a id="syntax-check-value"></a>
-  - Sets a value to be returned only during syntax-checking mode. Sometimes, the value returned by a command can cause a false syntax-check error because the value returned by the command would not be the value during the normal run mode. Se...
-  - _Keywords:_ returned, during, syntax, checking, Sometimes, because, normal, Setting
+  - Sets a value to be returned only during syntax-checking mode. Sometimes, the value returned by a command can cause a false syntax-check err…
 - **value, z** <a id="value-z"></a>
-  - Accepts an expression of data fields that are used to build a new data field. The operators \*, /, +, –, and ^ all work as expected. The vector variables are listed here. The data fields available can be listed using the list argument. I...
-  - _Keywords:_ fields, listed, available, Logarithm, Accepts, expression, operators, expected
+  - Accepts an expression of data fields that are used to build a new data field. The operators \*, /, +, –, and ^ all work as expected. The ve…
 - **Description** <a id="description"></a>
-  - Data can be selected directly in most commands, but it is usually more effective to specify it with the select command, which allows for manipulation of data fields and also will list all currently defined data fields. The quantity can b...
-  - _Keywords:_ select, fields, element, obtain, Data, selected, directly, usually
+  - Data can be selected directly in most commands, but it is usually more effective to specify it with the select command, which allows for ma…
 - **Examples** <a id="examples"></a>
   - Select as the plot variable the base 10 logarithm of the MyData concentration:
-  - _Keywords:_ select, MyData, MyField, Select, variable, concentration, profile, argument
 - **See Also** <a id="see-also"></a>
   - All postprocessing commands
-  - _Keywords:_ postprocessing
 - **Set3DDeviceMeshMode** <a id="set3ddevicemeshmode"></a>
   - Sets the meshing parameters for the device simulation of complex 3D structures with curved surfaces.
-  - _Keywords:_ meshing, device, simulation, complex, structures, curved, surfaces
 - **Syntax** <a id="syntax"></a>
   - Set3DDeviceMeshMode
-  - _Keywords:_ Set3DDeviceMeshMode
 - **Description** <a id="description"></a>
-  - This command is used when remeshing for device simulation of complex 3D structures with curved surfaces. It adjusts axis-aligned meshes to be more flexible on curved surfaces in three dimensions. The Set3DDeviceMeshMode command sets the ...
-  - _Keywords:_ pdbSet, Grid, SnMesh, aligned, device, curved, surfaces, degree
+  - This command is used when remeshing for device simulation of complex 3D structures with curved surfaces. It adjusts axis-aligned meshes to…
 - **Examples** <a id="examples"></a>
   - Use this command with the DelPSC algorithm to create high-quality triangulation on curved surfaces:
-  - _Keywords:_ DelPSC, pdbSet, Grid, SnMesh, Apply, Brep, Use, algorithm
 - **Limitation** <a id="limitation"></a>
-  - Some complex structures have problematic geometric features that the DelPSC algorithm cannot tolerate. In such cases, you can use the Set3DDeviceMeshMode command without the DelPSC algorithm, for example:
-  - _Keywords:_ DelPSC, algorithm, Set3DDeviceMeshMode, Some, complex, structures, problematic, geometric
+  - Some complex structures have problematic geometric features that the DelPSC algorithm cannot tolerate. In such cases, you can use the Set3D…
 - **Set3DMovingMeshMode** <a id="set3dmovingmeshmode"></a>
   - Sets the meshing parameters and relevant parameters for 3D MovingMesh applications.
-  - _Keywords:_ meshing, relevant, MovingMesh, applications
 - **Syntax** <a id="syntax"></a>
   - Set3DMovingMeshMode <n>
-  - _Keywords:_ Set3DMovingMeshMode
 - **Arguments** <a id="arguments"></a>
   - <n>
-  - _Keywords:_ Specifies, minimum, feature, micrometer, Typically, smallest, thickness, regions
 - **Description** <a id="description"></a>
-  - This command simplifies the setup of moving-boundary problems by setting several parameters automatically. It checks the size of the structure and sets the appropriate parameters for the length scale. The argument <n> protects small geom...
-  - _Keywords:_ simplifies, moving, boundary, problems, setting, several, automatically, checks
+  - This command simplifies the setup of moving-boundary problems by setting several parameters automatically. It checks the size of the struct…
 - **Examples** <a id="examples"></a>
   - Set up a 3D oxidation of a power structure with a thin spacer:3 μm 0.01 μm
-  - _Keywords:_ oxidation, structure, Set3DMovingMeshMode, spacer, memory, trench
 - **See Also** <a id="see-also"></a>
   - MovingMesh Algorithm on page 769
-  - _Keywords:_ MovingMesh, Algorithm
 - **SetAtomistic** <a id="setatomistic"></a>
   - Sets the atomistic mode as the simulation mode.
-  - _Keywords:_ atomistic, simulation
 - **Syntax** <a id="syntax"></a>
   - SetAtomistic
-  - _Keywords:_ SetAtomistic
 - **Description** <a id="description"></a>
   - This command switches the simulation domain to the atomistic mode. The following commands are affected in this mode:
-  - _Keywords:_ simulation, fields, switches, domain, atomistic, affected, deposit, diffuse
 - **See Also** <a id="see-also"></a>
-  - Chapter 4 on page 375
 - **SetDielectricOxidationMode** <a id="setdielectricoxidationmode"></a>
   - Sets the oxidation mode to grow oxide with dielectric on top.
-  - _Keywords:_ oxidation, dielectric
 - **Syntax** <a id="syntax"></a>
   - ```txt SetDielectricOxidationMode <Dielectric> <Oxidant> [Continuous | Segregation] [Dirichlet | MassTransfer] ```
-  - _Keywords:_ SetDielectricOxidationMode, Dielectric, Oxidant, Continuous, Segregation, Dirichlet, MassTransfer
 - **Arguments** <a id="arguments"></a>
   - Continuous, Segregation
-  - _Keywords:_ dielectric, boundary, conditions, interface, Specifies, Dirichlet, Continuous, Segregation
 - **Description** <a id="description"></a>
-  - This command sets the related parameters and models for oxidation with a dielectric on top. Boundary conditions at the gas–dielectric interface and the dielectric–oxide interface default to Dirichlet and Continuous, respectively.
-  - _Keywords:_ dielectric, interface, pdbSetString, Dielectric, Oxidant, related, models, oxidation
+  - This command sets the related parameters and models for oxidation with a dielectric on top. Boundary conditions at the gas–dielectric inter…
 - **A: Commands** <a id="a-commands"></a>
   - SetDielectricOxidationMode
-  - _Keywords:_ SetDielectricOxidationMode
 - **Examples** <a id="examples"></a>
-  - Enable oxidation with a nitride layer on top for $\mathrm { O } _ { 2 }$ ambient, and use the mass transfer boundary condition at the gas–dielectric interface and the segregation boundary condition at the dielectric–oxide interface:
-  - _Keywords:_ boundary, condition, dielectric, interface, Enable, oxidation, nitride, mathrm
+  - Enable oxidation with a nitride layer on top for $\mathrm { O } _ { 2 }$ ambient, and use the mass transfer boundary condition at the gas–d…
 - **See Also** <a id="see-also"></a>
   - UnsetDielectricOxidationMode on page 1282
-  - _Keywords:_ UnsetDielectricOxidationMode
 - **SetFastMode** <a id="setfastmode"></a>
-  - Omits diffusion and Monte Carlo implantation to simulate the device geometry quickly. However, oxidation is allowed since it is considered part of structure generation.
-  - _Keywords:_ Omits, diffusion, Monte, Carlo, implantation, simulate, device, geometry
+  - Omits diffusion and Monte Carlo implantation to simulate the device geometry quickly. However, oxidation is allowed since it is considered…
 - **Syntax** <a id="syntax"></a>
   - SetFastMode
-  - _Keywords:_ SetFastMode
 - **Description** <a id="description"></a>
-  - This command runs the simulation quickly without simulating dopants and defects. However, oxidation is simulated. This can be useful when setting up a command file to confirm quickly that the geometry is satisfactory before simulating mo...
-  - _Keywords:_ oxidation, structure, simulation, quickly, without, simulating, useful, geometry
+  - This command runs the simulation quickly without simulating dopants and defects. However, oxidation is simulated. This can be useful when s…
 - **SetIIIVDiffParams** <a id="setiiivdiffparams"></a>
   - Sets the parameters and the callback procedures for diffusion in III–V materials.
-  - _Keywords:_ callback, procedures, diffusion, III, materials
 - **Syntax** <a id="syntax"></a>
   - ```txt SetIIIVDiffParams <material> [<list>] ```
-  - _Keywords:_ SetIIIVDiffParams, material
 - **Arguments** <a id="arguments"></a>
   - ```txt <list> ```
-  - _Keywords:_ material, Specifies, dopants, specified, necessary, generic, III
 - **Description** <a id="description"></a>
-  - Since there are many types of III–V material for which the parameter values are not well known for diffusion, the default values are not yet set. This command sets up the necessary parameters and the callback procedures for the diffusion...
-  - _Keywords:_ III, diffusion, Since, material, necessary, callback, procedures, simulation
+  - Since there are many types of III–V material for which the parameter values are not well known for diffusion, the default values are not ye…
 - **Examples** <a id="examples"></a>
   - Set up the necessary parameters and callback procedures of the dopants, Magnesium and Silicon, in the material AlGaN:
-  - _Keywords:_ Magnesium, Silicon, AlGaN, necessary, callback, procedures, dopants, material
 - **SetInterfaceInjectionLKMC** <a id="setinterfaceinjectionlkmc"></a>
   - Sets whether injection of point defects must be switched on during lattice kinetic Monte Carlo (LKMC) simulations.
-  - _Keywords:_ whether, injection, defects, switched, during, lattice, kinetic, Monte
 - **Syntax** <a id="syntax"></a>
   - SetInterfaceInjectionLKMC true | false
-  - _Keywords:_ SetInterfaceInjectionLKMC
 - **Arguments** <a id="arguments"></a>
   - true, false
-  - _Keywords:_ switch, Specify, whether, defect, injections, during, LKMC, simulations
 - **Description** <a id="description"></a>
-  - The command specifies whether injection of point defects is switched on during the use of epitaxy models for LKMC simulations (see Epitaxy Models Based on Atomic Bonding on page 578).
-  - _Keywords:_ specifies, whether, injection, defects, switched, during, epitaxy, models
+  - The command specifies whether injection of point defects is switched on during the use of epitaxy models for LKMC simulations (see Epitaxy…
 - **Examples** <a id="examples"></a>
   - Switch on injection of point defects:
-  - _Keywords:_ Switch, injection, defects, SetInterfaceInjectionLKMC
 - **setMobilityModel** <a id="setmobilitymodel"></a>
   - Sets the mobility model and the mobility model parameters in silicon and polysilicon for antimony, arsenic, boron, indium, and phosphorus.
-  - _Keywords:_ mobility, silicon, polysilicon, antimony, arsenic, indium, phosphorus
 - **Syntax** <a id="syntax"></a>
   - setMobilityModel <c>
-  - _Keywords:_ setMobilityModel
 - **Arguments** <a id="arguments"></a>
   - <c>
-  - _Keywords:_ mobility, Antoniadis, Masetti, Thurber, colspan, uMin, uMax, uAlpha
 - **Description** <a id="description"></a>
-  - This command sets the related parameters and switches for the mobility model given in silicon and polysilicon for antimony, arsenic, boron, indium, and phosphorus. Set values are printed in the log file.
-  - _Keywords:_ related, switches, mobility, silicon, polysilicon, antimony, arsenic, indium
+  - This command sets the related parameters and switches for the mobility model given in silicon and polysilicon for antimony, arsenic, boron,…
 - **Examples** <a id="examples"></a>
   - Set the mobility model to Masetti:
-  - _Keywords:_ Masetti, setMobilityModel, mobility, Model2
 - **See Also** <a id="see-also"></a>
   - Resistivity on page 899
-  - _Keywords:_ Resistivity
 - **SetMoleFractionFields** <a id="setmolefractionfields"></a>
   - Sets the appropriate fields of the constituent elements of an alloy material to a given material or region with given mole fractions.
-  - _Keywords:_ material, appropriate, fields, constituent, elements, region, fractions
 - **Syntax** <a id="syntax"></a>
   - ```txt SetMoleFractionFields <material_or_region> <alloy_material> <xMoleFraction> [<yMoleFraction>] ```
-  - _Keywords:_ SetMoleFractionFields, material_or_region, alloy_material, xMoleFraction, yMoleFraction
 - **Arguments** <a id="arguments"></a>
   - ```txt <alloy_material> ```
-  - _Keywords:_ material, yMoleFraction, fraction, alloy_material, SiGe, InGaAs, material_or_region, region
 - **Description** <a id="description"></a>
-  - The constituent elements of the material (<material\_or\_region>) must be a subset of the elements of the alloy material (<alloy\_material>). Only the complementary elements of the region material are added. In other words, only the germ...
-  - _Keywords:_ material, elements, region, constituent, _region, subset, _material, complementary
+  - The constituent elements of the material (<material\_or\_region>) must be a subset of the elements of the alloy material (<alloy\_material>…
 - **Examples** <a id="examples"></a>
   - SetMoleFractionFields is useful when you want to set the proper mole fraction after the region is formed. For example:
-  - _Keywords:_ SiGe, region, SetMoleFractionFields, material, GaAs, mathbf, deposit, concentrations
 - **See Also** <a id="see-also"></a>
   - GetMoleFractionFields on page 993
-  - _Keywords:_ GetMoleFractionFields, MoleFractionFields
 - **SetMultiphaseNickelSilicide** <a id="setmultiphasenickelsilicide"></a>
   - Sets the correct parameter values for multiphase nickel silicidation.
-  - _Keywords:_ correct, multiphase, nickel, silicidation
 - **Syntax** <a id="syntax"></a>
   - SetMultiphaseNickelSilicide
-  - _Keywords:_ SetMultiphaseNickelSilicide
 - **Description** <a id="description"></a>
-  - This command calculates and sets the PDB parameters Density.Grow and Expansion.Ratio at the nickel–nickel silicide and nickel silicide–silicon interfaces with the parameters MassDensity and Multiphase.Reaction.Rate as well as the initial...
-  - _Keywords:_ nickel, silicide, Multiphase, pdbSet, calculates, PDB, Density, Grow
+  - This command calculates and sets the PDB parameters Density.Grow and Expansion.Ratio at the nickel–nickel silicide and nickel silicide–sili…
 - **See Also** <a id="see-also"></a>
   - Multiphase Nickel Silicidation on page 682
-  - _Keywords:_ Multiphase, Nickel, Silicidation
 - **SetPerformanceMode** <a id="setperformancemode"></a>
   - Modifies the automatic time-step control method and the parameters to improve simulation time.
-  - _Keywords:_ Modifies, automatic, control, method, improve, simulation
 - **Syntax** <a id="syntax"></a>
   - SetPerformanceMode [CMOS | FinFET]
-  - _Keywords:_ SetPerformanceMode, CMOS, FinFET
 - **Arguments** <a id="arguments"></a>
   - CMOS, FinFET
-  - _Keywords:_ CMOS, FinFET, Modifies, ILS, solver, settings, different, setting
 - **Description** <a id="description"></a>
-  - Some of the algorithms are experimental and might not be suitable for all applications. Backward compatibility might not be available from release to release, since algorithms are refined constantly.
-  - _Keywords:_ algorithms, release, Some, experimental, suitable, applications, Backward, compatibility
+  - Some of the algorithms are experimental and might not be suitable for all applications. Backward compatibility might not be available from…
 - **Examples** <a id="examples"></a>
   - Change the default time-stepping scheme and the controls to allow more aggressive timestepping:
-  - _Keywords:_ stepping, Change, scheme, controls, aggressive, SetPerformanceMode, FinFET, timestepping
 - **SetPlxList** <a id="setplxlist"></a>
   - Sets a list of solution and term names to be passed to the WritePlx command.
-  - _Keywords:_ solution, passed, WritePlx
 - **Syntax** <a id="syntax"></a>
   - SetPlxList [<solution/term names>]
-  - _Keywords:_ SetPlxList, solution
 - **Arguments** <a id="arguments"></a>
   - <solution/term names>
-  - _Keywords:_ solution, Defines, passed, WritePlx
 - **Description** <a id="description"></a>
   - This command sets the list of fields to be saved in the next call to WritePlx. The list can contain solutions or term names.
-  - _Keywords:_ fields, WritePlx, contain, solutions
 - **Examples** <a id="examples"></a>
   - Write a .plx file with the data fields Temperature and Potential:
-  - _Keywords:_ Temperature, Potential, Write, fields, SetPlxList, WritePlx
 - **See Also** <a id="see-also"></a>
-  - WritePlx on page 1284
-  - _Keywords:_ WritePlx
 - **SetTDRList** <a id="settdrlist"></a>
   - Sets a list of solution or term names to be included when saving TDR format files.
-  - _Keywords:_ solution, included, saving, TDR, format
 - **Syntax** <a id="syntax"></a>
   - ```txt SetTDRList [Dopants] [<solution/term names>] [Solutions] ```
-  - _Keywords:_ SetTDRList, Dopants, solution, Solutions
 - **Arguments** <a id="arguments"></a>
   - Dopants
-  - _Keywords:_ Dopants, active, dopant, concentrations, solution, fields, Solutions, include
 - **Description** <a id="description"></a>
   - This command stores solution or term names in a TDR format file.
-  - _Keywords:_ stores, solution, TDR, format
 - **SetTemp** <a id="settemp"></a>
   - Sets the temperature value.
-  - _Keywords:_ temperature
 - **Syntax** <a id="syntax"></a>
   - ```txt SetTemp <n>[<C>|<K>] ```
-  - _Keywords:_ SetTemp
 - **Arguments** <a id="arguments"></a>
   - ```txt <n> ```
-  - _Keywords:_ Specifies, temperature, degree, Celsius
 - **Description** <a id="description"></a>
   - This command sets the temperature value. The value also is saved in a TDR file.
-  - _Keywords:_ temperature, TDR
 - **Examples** <a id="examples"></a>
   - Set the temperature to :1000°C
-  - _Keywords:_ temperature, SetTemp
 - **SetTS4ImplantMode** <a id="setts4implantmode"></a>
   - Sets implantation-related parameters and models to match those of TSUPREM-4.
-  - _Keywords:_ implantation, related, models, TSUPREM
 - **Syntax** <a id="syntax"></a>
   - SetTS4ImplantMode [Native | Taurus]
-  - _Keywords:_ SetTS4ImplantMode, Native, Taurus
 - **Arguments** <a id="arguments"></a>
   - Native
-  - _Keywords:_ Makes, simulation, results, TSUPREM, implanter, Taurus, Native, native
 - **Description** <a id="description"></a>
-  - Sentaurus Process and TSUPREM-4 use different codes and, sometimes, have different assumptions or algorithms for analytic implantations. The SetTS4ImplantMode command tries to minimize this difference by setting appropriate switches that...
-  - _Keywords:_ Sentaurus, Process, TSUPREM, Switch, different, results, backscattering, fluorine
+  - Sentaurus Process and TSUPREM-4 use different codes and, sometimes, have different assumptions or algorithms for analytic implantations. Th…
 - **SetTS4MechanicsMode** <a id="setts4mechanicsmode"></a>
   - Sets mechanics-related parameters and models to match those of TSUPREM-4.
-  - _Keywords:_ mechanics, related, models, TSUPREM
 - **Syntax** <a id="syntax"></a>
   - SetTS4MechanicsMode [2008.09 | advanced]
-  - _Keywords:_ SetTS4MechanicsMode, advanced
 - **Arguments** <a id="arguments"></a>
-  - 2008.09
-  - _Keywords:_ advanced, backward, compatibility, TSUPREM, settings
+  - Used for backward compatibility.
 - **Description** <a id="description"></a>
   - This command sets mechanics-related parameters and models in Sentaurus Process to match TSUPREM-4 settings. This includes:
-  - _Keywords:_ settings, TSUPREM, Stress, setting, mechanics, related, models, Sentaurus
 - **SetTS4OxidationMode** <a id="setts4oxidationmode"></a>
   - Sets oxidation-related parameters and models to match those of TSUPREM-4.
-  - _Keywords:_ oxidation, related, models, TSUPREM
 - **Syntax** <a id="syntax"></a>
   - SetTS4OxidationMode [2008.09 | advanced]
-  - _Keywords:_ SetTS4OxidationMode, advanced
 - **Arguments** <a id="arguments"></a>
-  - 2008.09
-  - _Keywords:_ advanced, oxidation, mechanics, Version, TSUPREM, settings
+  - Sets oxidation and mechanics parameters to Version A-2008.09 default values.
 - **Description** <a id="description"></a>
   - This command sets oxidation-related parameters and models in Sentaurus Process to match TSUPREM-4 settings. This includes:
-  - _Keywords:_ oxidation, dependent, TSUPREM, stress, SetTS4MechanicsMode, Activation, volumes, viscosity
 - **SetTS4PolyMode** <a id="setts4polymode"></a>
   - Sets the polycrystalline model to match those of TSUPREM-4.
-  - _Keywords:_ polycrystalline, TSUPREM
 - **Syntax** <a id="syntax"></a>
   - SetTS4PolyMode
-  - _Keywords:_ SetTS4PolyMode
 - **Description** <a id="description"></a>
   - This command sets the related parameters and models for the polycrystalline model in Sentaurus Process to match TSUPREM-4 settings.
-  - _Keywords:_ related, models, polycrystalline, Sentaurus, Process, TSUPREM, settings
 - **SheetResistance** <a id="sheetresistance"></a>
   - Calculates the sheet resistance and the p-n junction depth.
-  - _Keywords:_ Calculates, resistance, junction
 - **Syntax** <a id="syntax"></a>
   - ```txt SheetResistance [x=<n>] [y=<n>] [z=<n>] ```
-  - _Keywords:_ SheetResistance
 - **Arguments** <a id="arguments"></a>
   - ```txt x, y, z ```
-  - _Keywords:_ simulations, specified, Specify, position, specification, necessary, either
 - **Description** <a id="description"></a>
-  - This command calculates the sheet resistance and the p-n junction depth of a semiconductor layer in the vertical direction. It can only be used after a diffusion step.
-  - _Keywords:_ calculates, resistance, junction, semiconductor, vertical, direction, diffusion
+  - This command calculates the sheet resistance and the p-n junction depth of a semiconductor layer in the vertical direction. It can only be…
 - **Examples** <a id="examples"></a>
   - Calculate the sheet resistance and the p-n junction depth of a 3D structure using the cutplane y = and z = :0.5 μm –0.1 μm
-  - _Keywords:_ Calculate, resistance, junction, structure, cutplane, htaccess, SheetResistance
 - **See Also** <a id="see-also"></a>
-  - Chapter 13 on page 891
 - **simDelayDouble** <a id="simdelaydouble"></a>
   - Retrieves the Tcl expression used to evaluate a double-precision simulator state variable.
-  - _Keywords:_ Retrieves, Tcl, expression, evaluate, double, precision, simulator, variable
 - **Syntax** <a id="syntax"></a>
   - ```txt simDelayDouble <c> [<c>] ```
-  - _Keywords:_ simDelayDouble
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
   - This command is very similar to the simGetDouble command except that the evaluation of the returned expression is delayed.
-  - _Keywords:_ similar, simGetDouble, except, evaluation, returned, expression, delayed
 - **Examples** <a id="examples"></a>
   - Return [simGetDouble Diffuse tempC], which is the unevaluated expression itself:
-  - _Keywords:_ Diffuse, tempC, simGetDouble, unevaluated, expression, itself, simDelayDouble
 - **See Also** <a id="see-also"></a>
   - simGetDouble on page 1224
-  - _Keywords:_ simGetDouble
 - **simGetBoolean** <a id="simgetboolean"></a>
   - Reads a global simulator state variable.
-  - _Keywords:_ Reads, global, simulator, variable
 - **Syntax** <a id="syntax"></a>
   - ```txt simGetBoolean <c> [<c>] ```
-  - _Keywords:_ simGetBoolean
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
   - This command returns one of the following global simulator state variables:
-  - _Keywords:_ global, simulator, variables, AmbientReactions, IsEpi, IsGrowing, MaterialReactions
 - **Examples** <a id="examples"></a>
   - Return true if laser annealing is switched on:
-  - _Keywords:_ annealing, switched, simGetBoolean, Diffuse
 - **simGetDouble** <a id="simgetdouble"></a>
   - Reads a double-precision simulator state variable.
-  - _Keywords:_ Reads, double, precision, simulator, variable
 - **Syntax** <a id="syntax"></a>
   - ```txt simGetDouble <c> [<c>] ```
-  - _Keywords:_ simGetDouble
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
   - This command returns a simulator set global variable. These variables are:
-  - _Keywords:_ variable, simulator, global, These, variables, EpiThick, PH2O, pressure
 - **Examples** <a id="examples"></a>
   - Return the last diffusion temperature [K]:
-  - _Keywords:_ simGetDouble, Diffuse, diffusion, temperature, tempK, oxygen, partial, pressure
 - **simSetBoolean** <a id="simsetboolean"></a>
   - Sets a global simulator state variable.
-  - _Keywords:_ global, simulator, variable
 - **Syntax** <a id="syntax"></a>
   - ```txt simSetBoolean <c> [<c>] <n> ```
-  - _Keywords:_ simSetBoolean
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
   - This command sets one of the following global simulator state variables:
-  - _Keywords:_ global, simulator, variables, AmbientReactions, IsEpi, IsGrowing, MaterialReactions, Modifying
 - **Examples** <a id="examples"></a>
   - Set the value of the global simulator state variable laser to true:
-  - _Keywords:_ global, simulator, variable, simSetBoolean, Diffuse
 - **simSetDouble** <a id="simsetdouble"></a>
   - Sets a double-precision simulator state variable.
-  - _Keywords:_ double, precision, simulator, variable
 - **Syntax** <a id="syntax"></a>
   - ```txt simSetDouble <c> [<c>] <n> ```
-  - _Keywords:_ simSetDouble
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ double, argument, declared, database, defined, models, specified, hierarchical
 - **Description** <a id="description"></a>
   - This command sets one of the following global double-precision simulator state variables:
-  - _Keywords:_ global, simulator, variables, double, precision, PH2O, tempC, tempK
 - **Examples** <a id="examples"></a>
   - Set the last diffusion temperature to $9 0 0 ^ { \circ } \mathrm { C }$ :
-  - _Keywords:_ diffusion, temperature, mathrm, simSetDouble, Diffuse
 - **slice** <a id="slice"></a>
   - Extracts a 1D data slice through a 2D to 3D simulation object.
-  - _Keywords:_ Extracts, through, simulation, object
 - **Syntax** <a id="syntax"></a>
-  - ```txt slice [include.interfaces] [<material>] [mdist] [mx] [my] [mz] [name=<c>] [only.interfaces] [p1=<list>] [p2=<list>] [side=<c>] [syntax.check.value=<c>] [value=<n>] [x=<n>] [<m>|<cm>|<um>|<nm>] [y=<n>] [<m>|<cm>|<um>|<nm>] [z=<n>] ...
-  - _Keywords:_ interfaces, include, material, syntax
+  - ```txt slice [include.interfaces] [<material>] [mdist] [mx] [my] [mz] [name=<c>] [only.interfaces] [p1=<list>] [p2=<list>] [side=<c>] [synt…
 - **Arguments** <a id="arguments"></a>
   - include.interfaces
-  - _Keywords:_ interface, returned, distance, material, specified, materials, selected, syntax
 - **Description** <a id="description"></a>
-  - This is an extremely powerful data analysis command. It extracts xy data along a slice through a specified material. It returns a Tcl list of coordinate–value pairs, where the coordinate is the distance [ ] along the reference segment, a...
-  - _Keywords:_ coordinate, extracts, specified, select, sliceRet, selected, constant, extremely
+  - This is an extremely powerful data analysis command. It extracts xy data along a slice through a specified material. It returns a Tcl list…
 - **Examples** <a id="examples"></a>
   - Return the selected variable as a function of depth at a constant lateral position of :0.01 μm
-  - _Keywords:_ silicon, selected, variable, interface, constant, lateral, position, positions
 - **See Also** <a id="see-also"></a>
-  - select on page 1195
-  - _Keywords:_ select, tclsel
 - **smooth** <a id="smooth"></a>
   - Smooths a set of fields.
-  - _Keywords:_ Smooths, fields
 - **Syntax** <a id="syntax"></a>
   - ```txt smooth smooth.field= <list> [init=<n>] [<hr> | <min> | <s>] [smooth.distance= {<double array>}] ```
-  - _Keywords:_ smooth, distance, double
 - **Arguments** <a id="arguments"></a>
   - init
-  - _Keywords:_ smooth, Specifies, smoothing, distance, specified, solving, equations, sometimes
 - **Description** <a id="description"></a>
   - This command smoothes a set of fields with specified smooth distances.
-  - _Keywords:_ smoothes, fields, specified, smooth, distances
 - **Examples** <a id="examples"></a>
   - Smooth the interstitial and vacancy implantation profiles with smooth distances of 2 nm and 3 nm, respectively:
-  - _Keywords:_ smooth, _Implant, Smooth, interstitial, vacancy, implantation, profiles, distances
 - **solution** <a id="solution"></a>
   - Obtains and sets solution parameters for generic solutions using the Alagator language.
-  - _Keywords:_ Obtains, solution, generic, solutions, Alagator, language
 - **Syntax** <a id="syntax"></a>
-  - ```ini solution [add] [damp] [DiffStep] [GrowthStep] [Heat] [InitStep] [linear | logarithmic] [list] [material.list= <list>] [name=<c>] [needsolution] [negative] [nosolve | solve | ifpresent=<c>] [present] [reset] [smooth] [store] [unit=...
-  - _Keywords:_ solution, DiffStep, GrowthStep, Heat, InitStep, linear, logarithmic, material
+  - ```ini solution [add] [damp] [DiffStep] [GrowthStep] [Heat] [InitStep] [linear | logarithmic] [list] [material.list= <list>] [name=<c>] [ne…
 - **Arguments** <a id="arguments"></a>
   - add
-  - _Keywords:_ solved, variables, solution, smooth, during, DiffStep, GrowthStep, Heat
 - **A: Commands** <a id="a-commands"></a>
   - solution
-  - _Keywords:_ solution, solved, variable, Allows, material, negative, specified, nosolve
 - **Description** <a id="description"></a>
-  - This command creates and modifies solution names, and sets conditions for their inclusion in the matrix assembly. Solutions also can be listed and checked.
-  - _Keywords:_ creates, modifies, solution, conditions, inclusion, matrix, assembly, Solutions
+  - This command creates and modifies solution names, and sets conditions for their inclusion in the matrix assembly. Solutions also can be lis…
 - **Examples** <a id="examples"></a>
-  - Create a solution named Potential and always solve for it. Allow the solution to have negative values and use damping on the Newton iteration updates:
-  - _Keywords:_ solution, Vac, negative, Create, Potential, always, damping, Int
+  - Create a solution named Potential and always solve for it. Allow the solution to have negative values and use damping on the Newton iterati…
 - **See Also** <a id="see-also"></a>
-  - math on page 1100
 - **sptopo** <a id="sptopo"></a>
   - Transfers structures and dispatches commands to Sentaurus Topography.
-  - _Keywords:_ Transfers, structures, dispatches, Sentaurus, Topography
 - **Syntax** <a id="syntax"></a>
   - ```txt sptopo {<Sentaurus Topography commands>} ```
-  - _Keywords:_ sptopo, Sentaurus, Topography
 - **Arguments** <a id="arguments"></a>
   - ```txt <Sentaurus Topography commands> ```
-  - _Keywords:_ Sentaurus, Topography, Enclose, braces, protect, interpretation, Tcl, interpreter
 - **Description** <a id="description"></a>
-  - This command transfers the boundary representation of the current structure and dispatches the commands to Sentaurus Topography. After executing the commands in Sentaurus Topography, the modified structure is retrieved and remeshed in Se...
-  - _Keywords:_ Sentaurus, Topography, structure, Process, transfers, boundary, representation, current
+  - This command transfers the boundary representation of the current structure and dispatches the commands to Sentaurus Topography. After exec…
 - **Examples** <a id="examples"></a>
-  - Use Sentaurus Topography to deposit two layers isotropically, that is, oxide with a thickness of (5 nm) and polysilicon with a thickness of :0.005 μm 0.18 μm
-  - _Keywords:_ thickness, deposit, material, Use, Sentaurus, Topography, layers, isotropically
+  - Use Sentaurus Topography to deposit two layers isotropically, that is, oxide with a thickness of (5 nm) and polysilicon with a thickness of…
 - **See Also** <a id="see-also"></a>
   - Sentaurus™ Topography User Guide
-  - _Keywords:_ Sentaurus, Topography, Guide, operations
 - **stdiff** <a id="stdiff"></a>
   - Compares the current structure with one from a TDR file.
-  - _Keywords:_ Compares, current, structure, TDR
 - **Syntax** <a id="syntax"></a>
   - ```txt stdiff <c> ```
-  - _Keywords:_ stdiff
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ prefix, Specifies, TDR, without
 - **Description** <a id="description"></a>
-  - This command reads the external TDR file, interpolates the data onto the current structure, compares data, and reports if data exceeds the relative error criteria (subject to the absolute error minimum value).
-  - _Keywords:_ external, TDR, interpolates, current, structure, compares, reports, exceeds
+  - This command reads the external TDR file, interpolates the data onto the current structure, compares data, and reports if data exceeds the…
 - **Examples** <a id="examples"></a>
   - Compare field values in the current structure in memory with those contained in the file n1\_fps.tdr:
-  - _Keywords:_ Compare, current, structure, memory, contained, stdiff, n1_fps
 - **strain\_profile** <a id="strain-profile"></a>
   - Defines the strain introduced by an impurity as a piecewise linear function of the mole fraction in a given substrate.
-  - _Keywords:_ Defines, strain, introduced, impurity, piecewise, linear, fraction, substrate
 - **Syntax** <a id="syntax"></a>
   - ```txt strain_profile <material> ratio= <list> species=<c> strain= <list> ```
-  - _Keywords:_ strain_profile, material, species, strain
 - **Arguments** <a id="arguments"></a>
-  - ```txt <material> Substrate material where the strains are defined. ratio List of numeric values of the mole fraction of the species; ranges from 0 to 1. species Species in the substrate that cause the strain. strain List of numeric valu...
-  - _Keywords:_ strain, material, numeric, fraction, species, Substrate, strains, defined
+  - ```txt <material> Substrate material where the strains are defined. ratio List of numeric values of the mole fraction of the species; range…
 - **Description** <a id="description"></a>
-  - The presence of certain materials such as germanium in silicon can modify the lattice spacing. This command computes strains using the impurity mole fraction.
-  - _Keywords:_ presence, certain, materials, germanium, silicon, modify, lattice, spacing
+  - The presence of certain materials such as germanium in silicon can modify the lattice spacing. This command computes strains using the impu…
 - **Examples** <a id="examples"></a>
   - Define the strain profile for germanium impurity in silicon:
-  - _Keywords:_ strain, silicon, Define, profile, germanium, impurity, strain_profile, species
 - **See Also** <a id="see-also"></a>
-  - transform on page 1264
-  - _Keywords:_ transform
 - **stressdata** _(p.100)_ <a id="stressdata"></a>
 - **This command:** _(p.100)_ <a id="this-command"></a>
-  - ■ Defines the intrinsic stress of materials for use in stress calculations. ■ Defines boundary conditions for stress analysis. Reports the maximum stress values and their locations. Prints the anisotropic material matrix. ■ Defines edge ...
-  - _Keywords:_ stress, Defines, intrinsic, materials, calculations, boundary, conditions, analysis
+  - ■ Defines the intrinsic stress of materials for use in stress calculations. ■ Defines boundary conditions for stress analysis. Reports the…
 - **Syntax** <a id="syntax"></a>
-  - ```txt stressdata [<material> | region=<c> | region.list= {<c> <c> ...}] [deposit.intrinsic] [sxxi=<n>] [<atm> | <GPa> | <MPa> | <KPa> | <Pa> | <dyn/cm2>] [syyi=<n>] [<atm> | <GPa> | <MPa> | <KPa> | <Pa> | <dyn/cm2>] [szzi=<n>] [<atm> | ...
-  - _Keywords:_ GPa, MPa, KPa, ShearMod, YoungsMod, dislocation, origin, region
+  - ```txt stressdata [<material> | region=<c> | region.list= {<c> <c> ...}] [deposit.intrinsic] [sxxi=<n>] [<atm> | <GPa> | <MPa> | <KPa> | <P…
 - **Arguments** <a id="arguments"></a>
   - <material>
-  - _Keywords:_ stresses, during, syntax, returned, material, stress, region, intrinsic
 - **Arguments: Width-Dependent Intrinsic Stress** <a id="arguments-width-dependent-intrinsic-stress"></a>
   - base
-  - _Keywords:_ Scale, factors, dependent, intrinsic, stress, Base, linear, natural
 - **Arguments: Boundary Conditions** <a id="arguments-boundary-conditions"></a>
   - bc.location
-  - _Keywords:_ boundary, Specifies, conditions, applied, location, rotational, pressure, Left
 - **Arguments: Maximum Stress List** <a id="arguments-maximum-stress-list"></a>
   - number
-  - _Keywords:_ stress, stresses, principal, Specifies, Mises, hydrostatic, extract, maximum
 - **Arguments: Anisotropic Material Matrix** <a id="arguments-anisotropic-material-matrix"></a>
   - print.anisotropic.matrix
-  - _Keywords:_ Prints, equivalent, modulus, matrix, ShearMod, YoungsMod, Young, direction
 - **Arguments: Edge Dislocation** <a id="arguments-edge-dislocation"></a>
   - apply.dislocation
-  - _Keywords:_ dislocation, Specifies, defined, orient, direction, stress, Indicates, origin
 - **Arguments: Edge Dislocation–Induced Strain Energy Minimization** <a id="arguments-edge-dislocation-induced-strain-energy-minimizatio"></a>
   - opt.maxiter
-  - _Keywords:_ Specifies, change, convergence, tolerance, dislocation, maxiter, maximum, iterations
 - **A: Commandsstressdata** <a id="a-commandsstressdata"></a>
   - origin.max
-  - _Keywords:_ origin, defining, coordinates, corner, bounding, location, dislocation
 - **Arguments: Resolved Shear Stress** <a id="arguments-resolved-shear-stress"></a>
   - resolved.shear.stress
-  - _Keywords:_ resolved, stress, direction, Specifies, normal, Switches, calculation
 - **Description** _(p.198)_ <a id="description"></a>
-  - This command provides stress analysis parameters for input and output. Zero is the default value for all intrinsic stress parameters. Wherever possible, use the deposit command with specified stresses to apply intrinsic stresses.
-  - _Keywords:_ stress, intrinsic, stresses, provides, analysis, Zero, Wherever, possible
+  - This command provides stress analysis parameters for input and output. Zero is the default value for all intrinsic stress parameters. Where…
 - **Examples** _(p.198)_ <a id="examples"></a>
   - Set the yy component of the intrinsic stress in nitride to :1.4 10 ×10 dyn/cm2
-  - _Keywords:_ stress, nitride, stressdata, component, intrinsic, Report, maximum, regions
 - **StressDependentSilicidation** <a id="stressdependentsilicidation"></a>
   - Enables stress-dependent silicidation for a specified silicide.
-  - _Keywords:_ Enables, stress, dependent, silicidation, specified, silicide
 - **Syntax** <a id="syntax"></a>
   - StressDependentSilicidation <c>
-  - _Keywords:_ StressDependentSilicidation
 - **Arguments** <a id="arguments"></a>
   - ```txt <C> ```
-  - _Keywords:_ silicide, pressure, dependent
 - **Description** <a id="description"></a>
-  - In the model, reaction rates are normal stress dependent. The diffusivity of the reactant species, silicon, (represented by the field SiliconReact) is pressure dependent, and the silicide is allowed to relax.
-  - _Keywords:_ dependent, reaction, normal, stress, diffusivity, reactant, species, silicon
+  - In the model, reaction rates are normal stress dependent. The diffusivity of the reactant species, silicon, (represented by the field Silic…
 - **Examples** <a id="examples"></a>
   - Enable stress-dependent silicidation for nickel silicide:
-  - _Keywords:_ Enable, stress, dependent, silicidation, nickel, silicide, StressDependentSilicidation, NickelSilicide
 - **See Also** <a id="see-also"></a>
   - Stress-Dependent Silicidation on page 685
-  - _Keywords:_ Stress, Dependent, Silicidation
 - **strip** <a id="strip"></a>
   - Completely removes a layer exposed to the top gas region.
-  - _Keywords:_ Completely, removes, exposed, region
 - **Syntax** <a id="syntax"></a>
   - strip <material> [remesh] [stress.relax]
-  - _Keywords:_ material, remesh, stress
 - **Arguments** <a id="arguments"></a>
   - <material>
-  - _Keywords:_ dimensions, material, remesh, remeshing, specified, exposed, completely, removed
 - **Description** <a id="description"></a>
-  - In two dimensions, the mesh is regenerated immediately. In three dimensions, only the boundary is modified and the mesh is regenerated later when necessary.
-  - _Keywords:_ dimensions, regenerated, immediately, boundary, modified, necessary
+  - In two dimensions, the mesh is regenerated immediately. In three dimensions, only the boundary is modified and the mesh is regenerated late…
 - **Examples** <a id="examples"></a>
   - Remove all oxide regions exposed to the top gas region:
-  - _Keywords:_ Remove, regions, exposed, region
 - **struct** <a id="struct"></a>
   - Writes files containing the structure or the mesh and solutions.
-  - _Keywords:_ Writes, containing, structure, solutions
 - **Syntax** <a id="syntax"></a>
-  - ```ini struct [Adaptive] [alt.maternames] [compress.TDR] [contacts] [FullD] [Gas] [interfaces] [mshcmd] [pdb] [pdb.only] [sat] [satfile=<c>] [simplify=<n>] [tdr=<c>] [tdr.bnd=<c>] [tdr.spx=<c>] [visual.1D] ([x=<n>] [<m>|<cm>|<um>|<nm>] [...
-  - _Keywords:_ struct, Adaptive, maternames, compress, TDR, contacts, FullD, Gas
+  - ```ini struct [Adaptive] [alt.maternames] [compress.TDR] [contacts] [FullD] [Gas] [interfaces] [mshcmd] [pdb] [pdb.only] [sat] [satfile=<c>…
 - **Arguments** <a id="arguments"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - In three dimensions, meshing is delayed until it is needed; to save a file, a mesh might need to be created. Adaptive controls whether adaptive meshing is used. The default value is the return of pdbGet Grid Adaptive.
-  - _Keywords:_ meshing, Adaptive, dimensions, delayed, needed, created, controls, whether
+  - In three dimensions, meshing is delayed until it is needed; to save a file, a mesh might need to be created. Adaptive controls whether adap…
 - **alt.maternames** <a id="alt-maternames"></a>
-  - If you had chosen alternative names for materials using mater alt.matername=<c> or region alt.matername=<c>, they are written to the TDR file in addition to the Sentaurus Process material name.
-  - _Keywords:_ region, matername, TDR, Silicon, Sentaurus, Process, material, SiliconGermanium
+  - If you had chosen alternative names for materials using mater alt.matername=<c> or region alt.matername=<c>, they are written to the TDR fi…
 - **compress.TDR** <a id="compress-tdr"></a>
   - Applies secondary compression to TDR files. Default: false.
-  - _Keywords:_ TDR, Applies, secondary, compression, switched, globally, pdbSet, Compress
 - **contacts** <a id="contacts"></a>
   - Writes contacts defined in the contact command into the boundary file. Default: true.
-  - _Keywords:_ Writes, contacts, defined, contact, boundary
 - **A: Commands** <a id="a-commands"></a>
   - struct
-  - _Keywords:_ struct
 - **FullD** <a id="fulld"></a>
-  - If FullD is specified, the mesh is extruded to the maximum dimension allowed in the simulation temporarily before saving the file. After saving the file, the simulation continues in the same dimension as before.
-  - _Keywords:_ dimension, simulation, FullD, specified, before, saving, extruded, maximum
+  - If FullD is specified, the mesh is extruded to the maximum dimension allowed in the simulation temporarily before saving the file. After sa…
 - **Gas** <a id="gas"></a>
   - By default, Sentaurus Process writes regions of material gas to TDR files. If !Gas is specified, regions of material gas are not saved.
-  - _Keywords:_ regions, material, Sentaurus, Process, writes, TDR, Gas, specified
 - **interfaces** <a id="interfaces"></a>
   - Saves interface data in TDR files. Specify !interfaces to prevent storing interface data. Default: true.
-  - _Keywords:_ interface, Saves, TDR, Specify, interfaces, prevent, storing
 - **mshcmd** <a id="mshcmd"></a>
-  - When specified with tdr or tdr.bnd, mshcmd writes a command (.cmd) file with refinement information readable by Sentaurus Mesh. Gas, interface, and PDB parameters are not stored. Only selected data fields are stored.
-  - _Keywords:_ stored, specified, mshcmd, writes, refinement, information, readable, Sentaurus
+  - When specified with tdr or tdr.bnd, mshcmd writes a command (.cmd) file with refinement information readable by Sentaurus Mesh. Gas, interf…
 - **pdb** <a id="pdb"></a>
   - Saves pdb parameters along with the geometry and data in a TDR file.
-  - _Keywords:_ Saves, geometry, TDR
 - **pdb.only** <a id="pdb-only"></a>
   - Saves only pdb parameters (without geometry and data) in a TDR file.
-  - _Keywords:_ Saves, without, geometry, TDR
 - **sat** <a id="sat"></a>
-  - Enforces or prevents the saving of a Sentaurus Structure Editor restart file. This option works only when Sentaurus Structure Editor is switched on internally or is used as an external tool.
-  - _Keywords:_ Sentaurus, Structure, Editor, Enforces, prevents, saving, restart, switched
+  - Enforces or prevents the saving of a Sentaurus Structure Editor restart file. This option works only when Sentaurus Structure Editor is swi…
 - **satfile** <a id="satfile"></a>
-  - When using Sentaurus Structure Editor for 3D geometry-modeling steps, a Sentaurus Structure Editor restart file is saved by default. The argument satfile defines the file name. The default file extension is .sat. This argument works only...
-  - _Keywords:_ TDR, Sentaurus, simulations, arguments, argument, boundary, stored, Structure
+  - When using Sentaurus Structure Editor for 3D geometry-modeling steps, a Sentaurus Structure Editor restart file is saved by default. The ar…
 - **Description** <a id="description"></a>
-  - This command writes the structure and the simulation mesh and field data to one or several files. The data saved is from the current set of solution values.
-  - _Keywords:_ writes, structure, simulation, several, current, solution
+  - This command writes the structure and the simulation mesh and field data to one or several files. The data saved is from the current set of…
 - **Examples** <a id="examples"></a>
   - Write a file for device simulation (output\_fps.tdr):
-  - _Keywords:_ Write, struct, simulation, TDR, device, Gas, current, restart
 - **See Also** <a id="see-also"></a>
   - contact on page 939
-  - _Keywords:_ contact, integrate
 - **substrate\_profile** <a id="substrate-profile"></a>
   - Defines the impurity profile in the substrate.
-  - _Keywords:_ Defines, impurity, profile, substrate
 - **Syntax** <a id="syntax"></a>
   - ```txt substrate_profile <material> species=<c> xcoord=<list> concentration=<list> ```
-  - _Keywords:_ substrate_profile, material, species, xcoord, concentration
 - **Arguments** <a id="arguments"></a>
   - concentration
-  - _Keywords:_ concentration, Numeric, impurity, xcoord, material, defined, concentrations, specified
 - **Description** <a id="description"></a>
-  - This command defines the profile of a species in a substrate in a piecewise linear manner. The piecewise linear function is given by the concentration corresponding to xcoord.
-  - _Keywords:_ piecewise, linear, defines, profile, species, substrate, manner, concentration
+  - This command defines the profile of a species in a substrate in a piecewise linear manner. The piecewise linear function is given by the co…
 - **Examples** <a id="examples"></a>
   - Define the germanium profile in silicon substrate as a piecewise linear function:
-  - _Keywords:_ Define, germanium, profile, silicon, substrate, piecewise, linear, substrate_profile
 - **See Also** <a id="see-also"></a>
-  - transform on page 1264
-  - _Keywords:_ transform
 - **tclsel** <a id="tclsel"></a>
   - Selects the plot variable for the postprocessing routines.
-  - _Keywords:_ Selects, variable, postprocessing, routines
 - **Syntax** <a id="syntax"></a>
   - ```txt tclsel [list] [<material>] [name=<c>] [store] [vec] [z=<c>] ```
-  - _Keywords:_ tclsel, material
 - **Arguments** <a id="arguments"></a>
   - list
-  - _Keywords:_ fields, Tcl, defined, listed, variables, material, expressions, expression
 - **Description** <a id="description"></a>
-  - This command specifies the plot variable for almost all other plot commands. It is a companion to the select command, but it differs from the select command in that it accepts any general Tcl expression. Data fields are made into Tcl var...
-  - _Keywords:_ Tcl, variable, select, specifies, almost, companion, differs, accepts
+  - This command specifies the plot variable for almost all other plot commands. It is a companion to the select command, but it differs from t…
 - **Examples** <a id="examples"></a>
   - Select as the plot variable the base 10 logarithm of the arsenic concentration:
-  - _Keywords:_ tclsel, Select, variable, concentration, phosphorus, Phosphorus, Doping, logarithm
 - **See Also** <a id="see-also"></a>
   - All postprocessing commands
-  - _Keywords:_ postprocessing
 - **temp\_ramp** <a id="temp-ramp"></a>
   - Defines a temperature profile for use with the diffuse command.
-  - _Keywords:_ ambient1, GPa, MPa, KPa, ambient, doping, temperature, coeffs
 - **Arguments** <a id="arguments"></a>
   - ```twig <ambient> ```
-  - _Keywords:_ ambient, specified, mathtt, pressure, temperature, growth, partial, doping
 - **Description** <a id="description"></a>
-  - This command specifies multiple-step temperature ramps and holds. It can be used to construct a complex temperature sequence to be simulated with the diffuse command (by specifying temp.ramp of the diffuse command).
-  - _Keywords:_ mathrm, available, temperature, diffuse, specifies, multiple, construct, complex
+  - This command specifies multiple-step temperature ramps and holds. It can be used to construct a complex temperature sequence to be simulate…
 - **Examples** <a id="examples"></a>
   - Define the temperature profile named tr1 with a temperature rate of 10 K/s:
-  - _Keywords:_ mathrm, mathbb, temperature, Define, profile, arctan
 - **See Also** <a id="see-also"></a>
   - diffuse on page 958 gas\_flow on page 989
-  - _Keywords:_ diffuse
 - **term** <a id="term"></a>
   - Defines a new subexpression for use in the equation specification of the Alagator language.
-  - _Keywords:_ Defines, subexpression, equation, specification, Alagator, language
 - **Syntax** <a id="syntax"></a>
   - ```ini term [add] [clear] [delete] [eqn=<c>] [list] [<material>] [name=<c> [present]] [print] [store] ```
-  - _Keywords:_ delete, material, present
 - **Arguments** <a id="arguments"></a>
   - add
-  - _Keywords:_ equation, specified, material, current, returned, Removes, different, defined
 - **Description** <a id="description"></a>
-  - Terms are never required but can offer substantial computational benefit. Each term is evaluated only once during assembly, and the results are cached. If multiple equations refer to a term, the first equation to use it evaluates the exp...
-  - _Keywords:_ Terms, equations, equation, recombination, evaluated, during, assembly, cached
+  - Terms are never required but can offer substantial computational benefit. Each term is evaluated only once during assembly, and the results…
 - **Examples** <a id="examples"></a>
   - Create a term named VTotal in silicon only. The keyword VTotal will be replaced with the subexpression Vacancy+VacancyGbc:
-  - _Keywords:_ VTotal, silicon, Vacancy, VacancyGbc, Create, keyword, replaced, subexpression
 - **A: Commands** _(p.351)_ <a id="a-commands"></a>
   - term
-  - _Keywords:_ mathtt, variable, equation, Vti, defined, normal, currently, replaced
 - **See Also** <a id="see-also"></a>
-  - solution on page 1231
-  - _Keywords:_ solution
 - **topo** <a id="topo"></a>
   - Performs 2D or 3D etching and deposition using Sentaurus Topography 3D.
-  - _Keywords:_ Performs, etching, deposition, Sentaurus, Topography
 - **Syntax** <a id="syntax"></a>
   - topo <Sentaurus Topography 3D commands>
-  - _Keywords:_ Sentaurus, Topography
 - **Arguments** <a id="arguments"></a>
   - <Sentaurus Topography 3D commands>
-  - _Keywords:_ Sentaurus, Topography, arguments, described, Guide
 - **Description** <a id="description"></a>
   - Physical etching and deposition are available through the interface to Sentaurus Topography 3D and are executed using the topo command.
-  - _Keywords:_ Sentaurus, Topography, available, Process, Physical, etching, deposition, through
 - **Examples** <a id="examples"></a>
   - Define a new machine for a deposition process and perform deposition:
-  - _Keywords:_ deposition, Define, machine, process, perform, define, _deposit, _machine
 - **transform** <a id="transform"></a>
   - Cuts, flips, reflects, rotates, stretches, or translates a structure and currently defined refinement boxes.
-  - _Keywords:_ Adaptive, location, remesh, Cuts, reflects, rotates, stretches, translates
 - **Arguments: Cut** <a id="arguments-cut"></a>
   - Adaptive
-  - _Keywords:_ remesh, location, Adaptive, specified, structure, arguments, adaptive, meshing
 - **Arguments: Flip** <a id="arguments-flip"></a>
   - Adaptive
-  - _Keywords:_ Adaptive, adaptive, meshing, specified, switches, described, Mesh, Refinement
 - **location** <a id="location"></a>
-  - Selects the x-coordinate about which the structure will be flipped. By default, the middle of the structure is chosen. Subsequent transform flip commands will, by default, use the same location for flipping whether the default is used or...
-  - _Keywords:_ structure, coordinate, location, middle, chosen, Selects, flipped, Subsequent
+  - Selects the x-coordinate about which the structure will be flipped. By default, the middle of the structure is chosen. Subsequent transform…
 - **Arguments: Reflection** <a id="arguments-reflection"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 745. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ Adaptive, adaptive, meshing, specified, switches, described, Mesh, Refinement
+  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 745.…
 - **keep.original** <a id="keep-original"></a>
-  - Retains the original structure after reflection (having both the original and the reflected structure), or stores only the reflected structure when disabled with !keep.original. Default: true.
-  - _Keywords:_ original, reflection, structure, reflected, Selects, performed, contacts, Specifies
+  - Retains the original structure after reflection (having both the original and the reflected structure), or stores only the reflected struct…
 - **Arguments: Rotation** <a id="arguments-rotation"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 745. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ Adaptive, adaptive, meshing, specified, switches, described, Mesh, Refinement
+  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 745.…
 - **angle** <a id="angle"></a>
-  - Rotation angle. It must be one of 90, 180, or 270. Angles leading to structures having gas in a side are not allowed. This means that for axis= "Y" and axis= "Z", only 180 is allowed. For axis= "X", 90, 180, or 270 are allowed. Two-dimen...
-  - _Keywords:_ allowed, Rotation, Angles, leading, structures, having, Two, dimensional
+  - Rotation angle. It must be one of 90, 180, or 270. Angles leading to structures having gas in a side are not allowed. This means that for a…
 - **axis** <a id="axis"></a>
   - Rotation axis. It must be the x-axis, y-axis, or z-axis.
-  - _Keywords:_ Rotation
 - **rotate** <a id="rotate"></a>
   - Specifies the rotation operation.
-  - _Keywords:_ Specifies, rotation, operation
 - **Arguments: Stretch** <a id="arguments-stretch"></a>
 - **Adaptive** <a id="adaptive"></a>
-  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 745. The default is the return value of pdbGet Grid Adaptive.
-  - _Keywords:_ Adaptive, adaptive, meshing, specified, switches, described, Mesh, Refinement
+  - If specified, Adaptive switches on adaptive meshing. Parameters for adaptive meshing are described in Adaptive Mesh Refinement on page 745.…
 - **length** <a id="length"></a>
   - Length of stretching. Default value and unit: .0 μm
-  - _Keywords:_ Length, stretching
 - **location** <a id="location"></a>
   - The y- or z-coordinate where the structure will be stretched. Default value and unit: .0 μm
-  - _Keywords:_ coordinate, structure, stretched
 - **remesh** <a id="remesh"></a>
   - Specifies that a remesh will be performed. Default: true.
-  - _Keywords:_ Specifies, remesh, performed
 - **stretch** <a id="stretch"></a>
   - Specifies the stretch operation.
-  - _Keywords:_ Specifies, stretch, operation
 - **Arguments: Translation** <a id="arguments-translation"></a>
   - translate
-  - _Keywords:_ translate, Translates, entire, structure, specifying, translation, vector, translate_x
 - **Arguments: Transform Masks** <a id="arguments-transform-masks"></a>
   - masks
-  - _Keywords:_ original, specified, reflected, transformed, present, reflect, combined, Otherwise
 - **Description** <a id="description"></a>
-  - Previously, the cut and clip commands had slightly different behavior. Now, they are identical and are referred to as the cut command. All these transformations work in both two and three dimensions.
-  - _Keywords:_ transformations, Previously, slightly, different, behavior, Now, identical, referred
+  - Previously, the cut and clip commands had slightly different behavior. Now, they are identical and are referred to as the cut command. All…
 - **Examples** <a id="examples"></a>
   - Both commands reflect the structure and refinement boxes to the right side:
-  - _Keywords:_ structure, refinement, transform, reflect, location, remesh, Cut, between
 - **See Also** <a id="see-also"></a>
   - Handling Stress in Etching and Deposition on page 810 mgoals on page 1110
-  - _Keywords:_ Handling, Stress, Etching, Deposition, mgoals
 - **transform.mask** <a id="transform-mask"></a>
   - Cuts, flips, reflects, rotates, stretches, or translates a given mask or all masks.
-  - _Keywords:_ Cuts, reflects, rotates, stretches, translates
 - **Syntax** <a id="syntax"></a>
-  - ```txt transform.mask (cut | flip | reflect | rotate | stretch) [angle=<n> axis="X" | "Y" | "Z"] [keep.original] [length=<n>] [<m>|<cm>|<um>|<nm>] [name=<c>] [name.new=<c>] [[location=<n>][<m>|<cm>|<um>|<nm>] (left | right | front | back...
-  - _Keywords:_ transform, reflect, rotate, stretch, original, length, location, translate
+  - ```txt transform.mask (cut | flip | reflect | rotate | stretch) [angle=<n> axis="X" | "Y" | "Z"] [keep.original] [length=<n>] [<m>|<cm>|<um…
 - **Arguments: General** <a id="arguments-general"></a>
   - keep.original
-  - _Keywords:_ original, specified, transformed, Specifies, whether, reflection, operation, reflect
 - **Arguments: Cut** <a id="arguments-cut"></a>
   - cut
-  - _Keywords:_ location, either, coordinate, argument, arguments, Crops, bounding, Indicates
 - **Arguments: Flip** <a id="arguments-flip"></a>
   - flip
-  - _Keywords:_ location, coordinate, middle, structure, chosen, Flips, bottom, Selects
 - **Arguments: Reflection** <a id="arguments-reflection"></a>
   - left, right, front, back
-  - _Keywords:_ reflection, performed, Selects, simulation, domain, reflect, Indicates, Specify
 - **Arguments: Rotation** <a id="arguments-rotation"></a>
   - angle
-  - _Keywords:_ rotation, Rotation, rotate, Indicates, performed
 - **Arguments: Stretch** <a id="arguments-stretch"></a>
   - left, right, front, back
-  - _Keywords:_ Indicates, stretch, length, Length, stretching, location, Specifies, coordinate
 - **Arguments: Translation** <a id="arguments-translation"></a>
   - translate
-  - _Keywords:_ translate, Translates, specifying, translation, vector, translate_x, translate_y, translate_z
 - **Description** <a id="description"></a>
-  - A transformed mask is created and replaces the old one by default. The transformation applies to all existing masks, except if name is specified. In this case, a transformed mask name also can be specified using name.new. If name.new is ...
-  - _Keywords:_ specified, original, transformed, created, replaces, transformation, applies, existing
+  - A transformed mask is created and replaces the old one by default. The transformation applies to all existing masks, except if name is spec…
 - **Examples** <a id="examples"></a>
   - Reflect all the current masks to the right side:
-  - _Keywords:_ transform, Create, smask1, existing, location, Reflect, current, reflect
 - **transform.refinement** <a id="transform-refinement"></a>
   - Reflects, stretches, cuts, flips, rotates, or translates a given refinement box or all refinement boxes.
-  - _Keywords:_ refinement, Reflects, stretches, rotates, translates, Syntax, transform, reflect
 - **Arguments: General** <a id="arguments-general"></a>
   - keep.original
-  - _Keywords:_ original, refinement, transformation, transformed, Specifies, whether, keeping, untouched
 - **Arguments: Cut** <a id="arguments-cut"></a>
   - cut
-  - _Keywords:_ location, arguments, coordinate, argument, Crops, refinement, bounding, Indicates
 - **Arguments: Flip** <a id="arguments-flip"></a>
   - flip
-  - _Keywords:_ location, refinement, coordinate, middle, structure, chosen, Flips, bottom
 - **Arguments: Reflection** <a id="arguments-reflection"></a>
   - left, right, front, back
-  - _Keywords:_ reflection, performed, Selects, simulation, domain, reflect, Indicates, Specify
 - **Arguments: Rotation** <a id="arguments-rotation"></a>
   - angle
-  - _Keywords:_ Rotation, degree, rotate, Indicates, rotation, performed
 - **Arguments: Stretch** <a id="arguments-stretch"></a>
   - left, right, front, back
-  - _Keywords:_ Indicates, refinement, stretch, length, Length, stretching, location, Specifies
 - **Arguments: Translation** <a id="arguments-translation"></a>
   - translate
-  - _Keywords:_ translate, Translates, refinement, specifying, translation, vector, translate_x, translate_y
 - **Description** <a id="description"></a>
-  - A new transformed refinement box is created by default, while the old one is kept. This can be overridden with !keep.original. The transformation applies to all existing refinements, except if a name is specified. In this case, a transfo...
-  - _Keywords:_ transformed, refinement, specified, created, overridden, original, transformation, applies
+  - A new transformed refinement box is created by default, while the old one is kept. This can be overridden with !keep.original. The transfor…
 - **Examples** <a id="examples"></a>
   - Create a set of new refinements as reflections of all the current refinements to the right side:
-  - _Keywords:_ refinement, transform, Create, refinements, refbox, existing, location, original
 - **See Also** <a id="see-also"></a>
   - Mesh Refinement on page 738
-  - _Keywords:_ Mesh, Refinement, Handling, Stress, Etching, Deposition, refinebox, transform
 - **translate** <a id="translate"></a>
   - Translates a named dataset with the specified offset.
-  - _Keywords:_ Translates, dataset, specified, offset
 - **Syntax** <a id="syntax"></a>
   - ```txt translate [<material>] [min=<n>] [name=<c>] [offset= {<n> <n> <n>}] ```
-  - _Keywords:_ translate, material, offset
 - **Arguments** <a id="arguments"></a>
   - ```txt <material> ```
-  - _Keywords:_ material, dataset, specified, translated, Otherwise, materials, Specifying, Materials
 - **Description** <a id="description"></a>
-  - This command spatially shifts a profile (dataset) with the specified offset. If a material is specified, the profile is shifted in the specified material only. Otherwise, the profile is shifted in all materials. When a profile is shifted...
-  - _Keywords:_ profile, specified, shifted, material, points, spatially, shifts, dataset
+  - This command spatially shifts a profile (dataset) with the specified offset. If a material is specified, the profile is shifted in the spec…
 - **Examples** _(p.411)_ <a id="examples"></a>
   - Shift the Boron data field with a shifting vector ( , , ):0.01 μm 0.02 μm 0.0 μm
-  - _Keywords:_ Boron, Shift, shifting, vector, translate, offset
 - **UnsetAtomistic** _(p.411)_ <a id="unsetatomistic"></a>
   - Disables the atomistic KMC diffusion model and continues the simulation using the PDE solver.
-  - _Keywords:_ Disables, atomistic, KMC, diffusion, continues, simulation, PDE, solver
 - **Syntax** _(p.411)_ <a id="syntax"></a>
   - ```toml UnsetAtomistic [sano] [sano.list= <list>] [sano.materials= <list>] ```
-  - _Keywords:_ UnsetAtomistic, materials
 - **Arguments** <a id="arguments"></a>
   - sano
-  - _Keywords:_ Sano, fields, NetActive, KMC, adaptive, applied, active, finiteelement
 - **Description** _(p.456)_ <a id="description"></a>
-  - This command transfers all information into the Sentaurus Process standard mesh (by calling KMC2PDE), sets the atomistic mode to false, and deletes all atomistic-related information.
-  - _Keywords:_ information, atomistic, transfers, Sentaurus, Process, standard, calling, KMC2PDE
+  - This command transfers all information into the Sentaurus Process standard mesh (by calling KMC2PDE), sets the atomistic mode to false, and…
 - **Examples** _(p.456)_ <a id="examples"></a>
   - Use the default conversion (the closest mesh point) to convert discrete particles to continuum field values:
-  - _Keywords:_ Use, convert, particles, UnsetAtomistic, conversion, closest, discrete, continuum
 - **UnsetDielectricOxidationMode** <a id="unsetdielectricoxidationmode"></a>
   - Disables the oxidation mode to grow oxide with dielectric on top.
-  - _Keywords:_ Disables, oxidation, dielectric
 - **Syntax** <a id="syntax"></a>
   - ```txt UnsetDielectricOxidationMode <Dielectric> <Oxidant> ```
-  - _Keywords:_ UnsetDielectricOxidationMode, Dielectric, Oxidant
 - **Arguments** <a id="arguments"></a>
   - ```xml <Dielectric> ```
-  - _Keywords:_ Specifies, Dielectric, dielectric, material, underneath, Oxidant, oxidant
 - **Description** _(p.458)_ <a id="description"></a>
-  - This command disables the dielectric oxidation mode of material <Dielectric> and ambient <Oxidant>. It deletes all the dielectric oxidation-related callback settings, the boundary conditions, and the parameter settings.
-  - _Keywords:_ dielectric, oxidation, settings, disables, material, Dielectric, ambient, Oxidant
+  - This command disables the dielectric oxidation mode of material <Dielectric> and ambient <Oxidant>. It deletes all the dielectric oxidation…
 - **Examples** _(p.458–555)_ <a id="examples"></a>
   - Disable oxide growth with nitride on top of $\mathrm { ~ O } _ { 2 }$ ambient:
-  - _Keywords:_ Disable, growth, nitride, mathrm, ambient, UnsetDielectricOxidationMode, Nitride
 - **See Also** _(p.555)_ <a id="see-also"></a>
   - SetDielectricOxidationMode on page 1203
-  - _Keywords:_ SetDielectricOxidationMode
 - **update\_principal\_strain** <a id="update-principal-strain"></a>
   - Calculates the principal strains.
-  - _Keywords:_ Calculates, principal, strains
 - **Syntax** <a id="syntax"></a>
   - update\_principal\_strain
-  - _Keywords:_ update, _principal, _strain
 - **Description** <a id="description"></a>
-  - This command calculates the first, second, and third principal strains, and stores them as the fields PrincipalStrain1, PrincipalStrain2, and PrincipalStrain3, respectively.
-  - _Keywords:_ calculates, second, principal, strains, stores, fields, PrincipalStrain1, PrincipalStrain2
+  - This command calculates the first, second, and third principal strains, and stores them as the fields PrincipalStrain1, PrincipalStrain2, a…
 - **update\_principal\_stress** <a id="update-principal-stress"></a>
   - Calculates the principal stresses.
-  - _Keywords:_ Calculates, principal, stresses
 - **Syntax** <a id="syntax"></a>
   - update\_principal\_stress
-  - _Keywords:_ update, _principal, _stress
 - **Description** <a id="description"></a>
-  - This command calculates the first, second, and third principal stresses, and stores them as the fields PrincipalStress1, PrincipalStress2, and PrincipalStress3, respectively.
-  - _Keywords:_ calculates, second, principal, stresses, stores, fields, PrincipalStress1, PrincipalStress2
+  - This command calculates the first, second, and third principal stresses, and stores them as the fields PrincipalStress1, PrincipalStress2,…
 - **WritePlx** <a id="writeplx"></a>
   - Writes a 1D .plx file.
-  - _Keywords:_ Writes
 - **Syntax** <a id="syntax"></a>
   - ```txt WritePlx <filename> [include.interfaces] [<material>] [only.interfaces] [x=<n>] [y=<n>] [z=<n>] ```
-  - _Keywords:_ interfaces, WritePlx, filename, include, material
 - **Arguments** <a id="arguments"></a>
   - ```twig <filename> ```
-  - _Keywords:_ interface, specified, returned, material, simulations, interfaces, filename, argument
 - **Description** _(p.577)_ <a id="description"></a>
-  - This command makes a 1D profile along a given cutline and writes a .plx file of the solutions and terms given in the list provided by the SetPlxList command. If the list is not provided, only present solution names are written. If a mate...
-  - _Keywords:_ provided, material, argument, profile, cutline, writes, solutions, SetPlxList
+  - This command makes a 1D profile along a given cutline and writes a .plx file of the solutions and terms given in the list provided by the S…
 - **Examples** _(p.577)_ <a id="examples"></a>
   - Write a 1D .plx file at the y = cutline:1.5 μm
-  - _Keywords:_ WritePlx, Write, cutline, Shift, PlxShift
 - **See Also** _(p.958–1318)_ <a id="see-also"></a>
   - SetPlxList on page 1214
-  - _Keywords:_ SetPlxList, WritePlx
