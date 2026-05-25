@@ -1,0 +1,556 @@
+# optimizer_ug — outline
+
+Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
+
+- **Optimizer User Guide** _(p.1)_ <a id="optimizer-user-guide"></a>
+  - Version O-2018.06, June 2018
+  - _Keywords:_ Version, June
+- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
+  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
+  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+- **Disclaimer** <a id="disclaimer"></a>
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+- **Trademarks** <a id="trademarks"></a>
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html.
+  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
+  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+- **About This Guide ix** _(p.3)_ <a id="about-this-guide-ix"></a>
+  - Related Publications . . ix
+  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
+- **Chapter 1 Introduction to the Optimizer Tool 1** <a id="chapter-1-introduction-to-the-optimizer-tool-1"></a>
+  - Functionality of Optimizer . . .
+  - _Keywords:_ Optimizer, Functionality, Starting
+- **Chapter 2 Using Optimizer 5** _(p.4–6)_ <a id="chapter-2-using-optimizer-5"></a>
+  - Basic Concepts and Terminology . . . .
+  - _Keywords:_ Task, Description, Tasks, Model, Optimization, Design, Experiments, Block
+- **Chapter 3 Reference Guide 75** _(p.6–9)_ <a id="chapter-3-reference-guide-75"></a>
+  - Optimizer Commands . . . 75
+  - _Keywords:_ Task, Optimization, Specific, Methods, Optimizer, Analysis, Design, Experiments
+- **Related Publications** _(p.9)_ <a id="related-publications"></a>
+  - For additional information, see:
+  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
+- **Conventions** <a id="conventions"></a>
+  - The following conventions are used in Synopsys documentation.
+  - _Keywords:_ Identifies, screen, identifies, New, conventions, Synopsys, documentation, Convention
+- **Customer Support** _(p.10)_ <a id="customer-support"></a>
+  - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
+  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
+- **Accessing SolvNet** _(p.10)_ <a id="accessing-solvnet"></a>
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
+  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+- **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
+  - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
+  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
+- **Contacting Your Local TCAD Support Team Directly** _(p.11)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
+  - Send an e-mail message to:
+  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
+- **Functionality of Optimizer** _(p.11–12)_ <a id="functionality-of-optimizer"></a>
+  - Optimizer is a batch mode tool that is used to perform the efficient extraction of general information about TCAD simulations. For example, it is used to determine parameter settings that satisfy design specifications and to analyze how ...
+  - _Keywords:_ models, different, responses, response, optimization, simulations, device, behavior
+- **1: Introduction to the Optimizer Tool** _(p.12–13)_ <a id="1-introduction-to-the-optimizer-tool"></a>
+  - Functionality of Optimizer
+  - _Keywords:_ Optimizer, optimization, simulation, algorithm, responses, device, behavior, analysis
+- **Starting Optimizer** _(p.13–15)_ <a id="starting-optimizer"></a>
+  - Optimizer can be started from the user interface of Sentaurus Workbench by choosing Optimization > Run or from the command line using:
+  - _Keywords:_ Optimizer, project, Sentaurus, Workbench, Displays, simulations, directory, Allows
+- **Basic Concepts and Terminology** _(p.15–16)_ <a id="basic-concepts-and-terminology"></a>
+  - This section describes some common terms relevant to understanding Optimizer:
+  - _Keywords:_ Sentaurus, Workbench, simulations, defined, experiments, simulation, Optimizer, scenario
+- **Optimizer Structures** _(p.16)_ <a id="optimizer-structures"></a>
+  - The main object that links all relevant elements in Optimizer is the task. A task usually requires the evaluation of how several combinations of different parameter settings produce different response values. These evaluations can be per...
+  - _Keywords:_ evaluation, different, settings, performed, Tcl, details, summary, Response
+- **Sequencing Tasks** <a id="sequencing-tasks"></a>
+  - More than one task can be performed in a single execution. Tasks can use the evaluations and information obtained in previous tasks. For example, if a task requires the evaluation of a family of simulations that has already been evaluate...
+  - _Keywords:_ previous, family, More, performed, single, execution, Tasks, evaluations
+- **Task Interdependency** _(p.17)_ <a id="task-interdependency"></a>
+  - A task can use values obtained as results of other executed tasks. This scheme identifies ‘parents’ and ‘children’ tasks. Data is shared from parents to children tasks using an exportand-import mechanism, which allows for the declaration...
+  - _Keywords:_ different, obtained, parents, children, import, exported, another, optimization
+- **Reference Example** _(p.17–18)_ <a id="reference-example"></a>
+  - The examples in this user guide correspond to an NMOSFET project where device behavior is studied by analyzing the following simulation responses: threshold voltage (VT1\_WL) and breakdown voltage (VBR). The analysis considers different ...
+  - _Keywords:_ responses, _DOSE, SCR1, logarithmic, voltage, implantation, LDD, definition
+- **Input Command File** _(p.18)_ <a id="input-command-file"></a>
+  - The command file gopt.cmd defines a set of Optimizer tasks. This file consists of a sequence of blocks that can be in any order and contain inner blocks. A block has always the following structure: block\_name { body }. The body of a blo...
+  - _Keywords:_ blocks, Optimizer, sequence, separated, sensitive, provides, defines, consists
+- **Main Blocks** <a id="main-blocks"></a>
+- **Start Block** _(p.19)_ <a id="start-block"></a>
+  - This block is used to define initial characteristics of parameters and responses, and to set global options. You can specify the Start block anywhere in the input command file, at the beginning or end, or between task specifications.
+  - _Keywords:_ initial, Start, VARIABLE, define, characteristics, responses, global, You
+- **Global Options** _(p.19)_ <a id="global-options"></a>
+  - Optimizer stops if one of the following global stopping criteria is reached:
+  - _Keywords:_ Optimizer, Global, global, stopping, criteria, nextTask, exportTable, export
+- **Task Block** _(p.20)_ <a id="task-block"></a>
+  - This block is used to define Optimizer tasks that are executed according to a user-specified order. Each task definition contains a block that states the selected parameters and responses. In addition, some task-specific options can be s...
+  - _Keywords:_ project, _OPTIMIZATION, corresponding, Response, logarithmic, Optimizer, specific, different
+- **Inner Blocks** <a id="inner-blocks"></a>
+  - This section describes some inner blocks that are common to all tasks.
+  - _Keywords:_ describes, blocks, common
+- **Parameter Block** _(p.21)_ <a id="parameter-block"></a>
+  - A parameter is characterized by the following attributes:
+  - _Keywords:_ attributes, characterized, Unique, identifier, defined, remaining, dependent
+- **User-Defined Parameters** _(p.21)_ <a id="user-defined-parameters"></a>
+  - values If the parameter is user defined, these values are used to create the different family of simulations.
+  - _Keywords:_ defined, create, different, family, simulations
+- **Design-of-Experiments (DoE) Parameters** _(p.21)_ <a id="design-of-experiments-doe-parameters"></a>
+  - max Highest possible value for DoE generation.
+  - _Keywords:_ possible, DoE, generation, linear, logarithmic, between, selValue, import
+- **Stochastic Design-of-Experiments (SDoE) Parameters** _(p.22)_ <a id="stochastic-design-of-experiments-sdoe-parameters"></a>
+  - SDoEModel Probability distribution. This is a block compound of two attributes:
+  - _Keywords:_ distribution, normal, Probability, attributes, variance, SDoEModel, compound, uniform
+- **Scenario-Originated Parameters** _(p.22)_ <a id="scenario-originated-parameters"></a>
+  - It is also possible to use a previously defined scenario to set the values of some parameters. In that case, the required parameter is defined as a scenario type, which means that this parameter inherits all values defined in the specifi...
+  - _Keywords:_ scenario, defined, project, possible, previously, required, inherits, specified
+- **Response Block** _(p.23)_ <a id="response-block"></a>
+  - A response is characterized by the following attributes:
+  - _Keywords:_ response, RSM, attribute, target, related, stopping, stochastic, degree
+- **Sequencing Tasks** _(p.23)_ <a id="sequencing-tasks"></a>
+  - For a specific run of Optimizer, the order in which tasks are executed can be determined and controlled by users using a specific command file definition. The sequence in which tasks are executed can be useful, for example, to perform a ...
+  - _Keywords:_ executed, specific, screening, declaring, Optimizer, determined, controlled, definition
+- **Determining Order of Tasks** _(p.24)_ <a id="determining-order-of-tasks"></a>
+  - The starting task is defined by using its identifier on the nextTask attribute of the Start block:
+  - _Keywords:_ nextTask, attribute, defined, Start, SCR1, executed, starting, identifier
+- **Using Previous Parameter Values** _(p.24)_ <a id="using-previous-parameter-values"></a>
+  - To use values of parameters from a previously executed task, the selValue attribute in the Parameter block must be set to autoValue:
+  - _Keywords:_ selValue, autoValue, previously, executed, attribute, Task
+- **Evaluating Tasks** <a id="evaluating-tasks"></a>
+  - To obtain values for each of the responses declared in a task, their source attribute defines how the task will be evaluated. Response values can be set as the result of a simulation process, a mathematical formula, or a tool command lan...
+  - _Keywords:_ obtain, responses, declared, source, attribute, defines, evaluated, Response
+- **Using Simulation Processes** _(p.25)_ <a id="using-simulation-processes"></a>
+  - To use a simulation process, the source attribute of a response can be set to a specific task. Simulation tasks perform the actual interaction with the proper simulation tools. A simulation task can be declared as:
+  - _Keywords:_ simulation, Simulation, project, defined, source, response, declared, obtained
+- **Using Formulas and Functions** _(p.26)_ <a id="using-formulas-and-functions"></a>
+  - In some cases, the evaluation of a specific response can be obtained by simply applying a mathematical formula or some calculation function that can use all or some of the declared parameters. In this case, no simulation is performed, th...
+  - _Keywords:_ formula, response, source, declared, simulation, declaration, RosenFunction, Response
+- **Importing Partial Results From Previous Tasks** _(p.27–28)_ <a id="importing-partial-results-from-previous-tasks"></a>
+  - Occasionally, it might be useful to retrieve partial values from either parameter or response values obtained in tasks already performed. They can be used, for example, to define new boundaries for an optimization task based on the resul...
+  - _Keywords:_ Iter1, response, imported, Iter2, syntax, project, obtained, performed
+- **Design-of-Experiments** _(p.28)_ <a id="design-of-experiments"></a>
+  - The main concept for all tasks is the generation of satisfactory scenarios to run the required tools. This generation is called design-of-experiments (DoE). DoE techniques are methods to create a well-defined subset of the parameter doma...
+  - _Keywords:_ domain, DoE, possible, generation, experiments, defined, simulation, concept
+- **Deterministic Design-of-Experiments** _(p.29–30)_ <a id="deterministic-design-of-experiments"></a>
+  - Deterministic designs-of-experiments (DoEs) usually consider a subset of the parameter domain where each parameter is inside a given range. You must define only a minimum and maximum value. Parameter values are then automatically compute...
+  - _Keywords:_ factorial, design, III, levels, experiments, details, summary, Factorial
+- **Plackett–Burmann** _(p.31–32)_ <a id="plackett-burmann"></a>
+  - These designs are special cases of two-level fractional factorial designs for studying parameters in simulations, where is a multiple of four. Figure 3 onK = N – 1 N N page 19 shows a Plackett–Burmann design for three parameters.
+  - _Keywords:_ composite, designs, central, factorial, design, centered, Box, Behnken
+- **Stochastic Design-of-Experiments** _(p.33–34)_ <a id="stochastic-design-of-experiments"></a>
+  - Stochastic RSMs are used to understand how the variability of parameters affects device behavior. These models are built using a family of simulations that sample those regions of the parameter domain that correspond to events that are m...
+  - _Keywords:_ distribution, boundary, probability, These, design, simulation, RSMs, domain
+- **Response Surface Models** _(p.34–35)_ <a id="response-surface-models"></a>
+  - Response surface modeling [3][4] is a technique for creating approximated mathematical models (RSMs) of simulation responses. These models are used to perform the following:
+  - _Keywords:_ Task, simulation, responses, Optimization, models, Determine, Analysis, Response
+- **Model Definition** _(p.35)_ <a id="model-definition"></a>
+  - The options used to customize RSM formation are model, transformation, and degree.
+  - _Keywords:_ customize, RSM, formation, transformation, degree
+- **Model** _(p.35)_ <a id="model"></a>
+  - Both deterministic and stochastic models can be defined. Deterministic models are used mainly for optimization and to determine how parameter values affect the simulation responses. Two kinds of deterministic models are provided: standar...
+  - _Keywords:_ models, polynomial, deterministic, stochastic, RSM, provided, standard, Kriging
+- **Transformation** <a id="transformation"></a>
+  - NOTE This option is considered only for deterministic models.
+  - _Keywords:_ transformations, transformation, response, contract, called, considered, deterministic, models
+- **Degree** _(p.36)_ <a id="degree"></a>
+  - NOTE This option is considered only for deterministic models.
+  - _Keywords:_ polynomial, second, degree, experiments, models, created, linear, independent
+- **Model Information** _(p.36)_ <a id="model-information"></a>
+  - If an RSM is built, the following information can be computed for each response.
+  - _Keywords:_ RSM, information, computed, response
+- **Model Accuracy** <a id="model-accuracy"></a>
+  - The following statistics measure the model accuracy:
+  - _Keywords:_ measure, statistics, represents, proportion, predicted, accuracy, coefficient, determination
+- **Model Coefficients** _(p.37)_ <a id="model-coefficients"></a>
+  - Coefficients can be interpreted as either the coefficients of the polynomial function or a measure of the effect of the parameters on the simulation response. In the model information section, the following data is displayed:
+  - _Keywords:_ coefficients, simulation, normalized, response, Coefficients, measure, effect, different
+- **Model Variance** _(p.37)_ <a id="model-variance"></a>
+  - You can compute which fraction of the total variance is due to each term of the model:
+  - _Keywords:_ variance, polynomial, You, compute, fraction, Variance, These, reflect
+- **ANOVA Table** <a id="anova-table"></a>
+  - The analysis of variance (ANOVA) table shows standard information on the quality of the model and levels of variability. It also forms a basis for tests of significance. ANOVA Table on page 90 provides a full description of this table.
+  - _Keywords:_ ANOVA, analysis, variance, standard, information, quality, levels, variability
+- **Histogram** <a id="histogram"></a>
+  - NOTE This information is available for stochastic models only.
+  - _Keywords:_ information, available, stochastic, models, histogram, discrete, description, estimated
+- **Moments** <a id="moments"></a>
+  - NOTE This information is available for stochastic models only.
+  - _Keywords:_ factors, information, available, stochastic, models, Four, moments, estimated
+- **Model Expressions** _(p.38)_ <a id="model-expressions"></a>
+  - Response surface models are polynomial approximations of the simulated function. When the -expr option is used, Optimizer shows the polynomial expression in different formats: Tcl expression, Tcl procedure, and Visual Basic function.
+  - _Keywords:_ polynomial, expression, Tcl, Response, surface, models, approximations, simulated
+- **Specific Tasks** _(p.38)_ <a id="specific-tasks"></a>
+  - A task is a sequence of actions used to obtain information about the relationship between the parameters and responses under consideration. More than one task can be performed in a single execution. Each task uses the information obtaine...
+  - _Keywords:_ information, responses, previous, family, sequence, actions, obtain, relationship
+- **Parameters and Responses** <a id="parameters-and-responses"></a>
+  - The first step is to determine which parameters and responses will be considered. The attributes of parameters and responses can be modified at the beginning of each task. For example, before starting an optimization task, the parameter ...
+  - _Keywords:_ responses, modified, determine, considered, attributes, beginning, before, starting
+- **Iterations** _(p.39)_ <a id="iterations"></a>
+  - A task can consist of one or more iterations. An iteration is defined by the application of one or more of the following consecutive steps:
+  - _Keywords:_ RSMs, iteration, domain, DoE, necessary, simulations, settings, created
+- **Final Analysis Tool** _(p.39)_ <a id="final-analysis-tool"></a>
+  - Some analyses are performed after all iterations have finished. Usually, such analyses require information collected from all iterations.
+  - _Keywords:_ analyses, iterations, Some, performed, finished, Usually, require, information
+- **Screening Task** _(p.39)_ <a id="screening-task"></a>
+  - Parameter screening determines how much the different parameters affect the simulation responses. Parameters are ranked according to their influence on each response. Usually, this method is applied in the early stages of analysis. Many ...
+  - _Keywords:_ responses, simulation, screening, according, response, impact, designs, RSMs
+- **Command Description** _(p.40–41)_ <a id="command-description"></a>
+  - To specify a screening task, parameters and responses are chosen as previously outlined. Specific regions of interest are set for each parameter. The screening method is mainly valid inside the selected region of interest. Linear or loga...
+  - _Keywords:_ screening, criterion, impact, logarithmic, response, selected, standard, screenCrit
+- **Output** _(p.41)_ <a id="output"></a>
+  - Screening parameters are ranked using a percentage scale according to their influence on all responses.
+  - _Keywords:_ Screening, ranked, percentage, according, influence, responses, excerpt, Optimizer
+- **Optimization Task** _(p.42)_ <a id="optimization-task"></a>
+  - The key values of a semiconductor device (simulation responses) are influenced by parameters that can be varied within given ranges. The goal of a simulation is often to determine how to set parameters to create a device that meets certa...
+  - _Keywords:_ optimization, simulation, different, polynomial, device, responses, weighted, simulations
+- **Optimization Criteria** _(p.42–43)_ <a id="optimization-criteria"></a>
+  - Multiple optimization criteria can be set, even if they are antagonistic. In such cases, a sensible compromise must be found. Optimization literature describes many approaches to the analysis of multiple responses. The approach of Optimi...
+  - _Keywords:_ simulation, response, desirability, responses, target, optimization, global, minimized
+- **Optimization Method** _(p.43–44)_ <a id="optimization-method"></a>
+  - The optimization method implemented to solve the general constrained nonlinear problems is based on the sequential quadratic programming (SQP) approach [5][6]. SQP is also known as the projected Lagrangian method or successive (or recurs...
+  - _Keywords:_ problem, method, quadratic, direction, optimization, SQP, solved, feasible
+- **Command Description** _(p.44–45)_ <a id="command-description"></a>
+  - An optimization task is defined by selecting which parameters and responses are considered. Regions of interest are set for each parameter. Linear or logarithmic scale can be specified for each parameter. For each response, the polynomia...
+  - _Keywords:_ response, target, optimization, logarithmic, closeto, degree, weight, defined
+- **Output** _(p.45)_ <a id="output"></a>
+  - An excerpt of output from Optimizer that shows the best parameter setting and the estimated value for each simulation response is:
+  - _Keywords:_ setting, excerpt, Optimizer, estimated, simulation, response, Best, Evaluation
+- **Iterative Optimization Task** _(p.46)_ <a id="iterative-optimization-task"></a>
+  - The optimization approach described in Optimization Task on page 31 is satisfactory whenever the parameter domain is relatively small or it is correctly approximated by a second-order polynomial model. In practice, however, the parameter...
+  - _Keywords:_ domain, process, approach, heuristic, optimum, polynomial, because, iteration
+- **Search Heuristic** _(p.46)_ <a id="search-heuristic"></a>
+  - The iterative heuristic algorithm for optimization is an approach to cover the parameter domain in search of the optimum. In each step or iteration as described in Basic Concepts and Terminology on page 5, a section of the entire domain ...
+  - _Keywords:_ domain, iteration, heuristic, optimization, search, optimum, described, response
+- **Definitions** <a id="definitions"></a>
+  - The following definitions apply to the iterative heuristic algorithm:
+  - _Keywords:_ optimum, domain, RoI, current, RSM, iteration, search, interest
+- **Algorithm** <a id="algorithm"></a>
+- **Initial Setting** _(p.47)_ <a id="initial-setting"></a>
+  - The algorithm uses the following elements before starting any iteration. They must be initialized for the first iteration:
+  - _Keywords:_ optimum, algorithm, starting, iteration, initialized, search, domain, combination
+- **Iteration** _(p.47–49)_ <a id="iteration"></a>
+  - The following steps are necessary for an iteration:
+  - _Keywords:_ optimum, iteration, RoI, RSM, current, solution, Step, Otherwise
+- **Stopping Criteria** _(p.49–50)_ <a id="stopping-criteria"></a>
+  - Stopping criteria include several conditions that stop the heuristic optimizer when any criterion is met. The concept behind these conditions is to avoid iterations that are too long when attempting to find a better solution. In other wo...
+  - _Keywords:_ criteria, conditions, solution, Stopping, include, several, heuristic, optimizer
+- **Computational Resources** _(p.50)_ <a id="computational-resources"></a>
+  - maxTime Maximum running time (in seconds) in which to search for an optimum. Default is 3600 = 1 hour.
+  - _Keywords:_ Maximum, before, stopping, maxTime, running, seconds, search, optimum
+- **Quality of the Solution** <a id="quality-of-the-solution"></a>
+  - maxWoImprove Maximum number of iterations without improvement before stopping.
+  - _Keywords:_ maxWoImprove, Maximum, iterations, without, improvement, before, stopping
+- **Closeness to a Local Optimum** <a id="closeness-to-a-local-optimum"></a>
+  - LocalOpt This block defines conditions assumed to be related to a local optimum. A local optimum is defined as an optimum found inside a region of interest that is greater than a particular percentage of the global domain (for example, 1...
+  - _Keywords:_ optimum, global, Response, termination, declared, declaration, finding, LocalOpt
+- **Evaluation Sequence** _(p.51)_ <a id="evaluation-sequence"></a>
+  - The heuristic algorithm executes the evaluation of stopping criteria in the following order. The algorithm stops when it finds the first of these conditions to be true:
+  - _Keywords:_ greater, current, algorithm, iterations, solution, maximum, optimum, defined
+- **Response Value Range Termination** _(p.51–52)_ <a id="response-value-range-termination"></a>
+  - Optimizer allows you to define a range of possible values for any response, which will stop the iterative algorithm if all those responses reach a value within the declared range. For this declaration, you can use the following keywords ...
+  - _Keywords:_ target, lowerBound, upperBound, response, declared, stopping, algorithm, declaration
+- **Command Description** <a id="command-description"></a>
+  - An iterative optimization task is defined by selecting the parameters and responses to be considered. Regions of interest are set for each parameter. Linear or logarithmic scale can be specified for each parameter. For each response, an ...
+  - _Keywords:_ optimization, logarithmic, status, weight, iterative, defined, target, process
+- **Declaration Examples for Range Termination** _(p.53)_ <a id="declaration-examples-for-range-termination"></a>
+- **Target and Bounds Declaration** _(p.53)_ <a id="target-and-bounds-declaration"></a>
+  - ```hcl Response { { name = VT1_WL crit = closeto lowerBound = 0.1 target = 0.35 upperBound = 0.6 weight = 3 } { name = Vbr lowerBound = 10 crit = maximal weight = 1 } } ```
+  - _Keywords:_ lowerBound, weight, Response, VT1_WL, closeto, target, upperBound, Vbr
+- **Target and Percentage Declaration** <a id="target-and-percentage-declaration"></a>
+  - ```hcl Response { { name = VT1_WL crit = closeto target = 0.35 perc_range = 71 weight = 3 } { name = Vbr lowerBound = 10 crit = maximal weight = 1 } } ```
+  - _Keywords:_ weight, Response, VT1_WL, closeto, target, perc_range, Vbr, lowerBound
+- **Target Is Omitted, but Both Bounds Are Declared (target = (upper – lower) / 2)** _(p.54)_ <a id="target-is-omitted-but-both-bounds-are-declared-target-upper-"></a>
+  - ```hcl Response { { name = VT1_WL crit = closeto lowerBound = 0.1 upperBound = 0.6 weight = 3 } { name = Vbr lowerBound = 10 crit = maximal weight = 1 } } ```
+  - _Keywords:_ weight, Response, lowerBound, maximal, VT1_WL, Vbr, upperBound, Limit
+- **Output** _(p.54–55)_ <a id="output"></a>
+  - The best parameter setting and the value of each simulation response are returned at the end of this task. Additional information is displayed during the whole optimization process, describing which simulations are performed and how the ...
+  - _Keywords:_ setting, optimization, VBR, simulation, response, returned, Additional, information
+- **Generic Optimization Task** <a id="generic-optimization-task"></a>
+  - Optimization is the search of an optimal value for the objective function within given ranges of the parameters. There are several methods for solving optimization problems. In general, the best-performing method depends on the behavior ...
+  - _Keywords:_ methods, Optimization, optimization, method, target, search, problems, general
+- **Quasi-Newton Method Applied to Bound-Constrained Optimization Problems** _(p.56)_ <a id="quasi-newton-method-applied-to-bound-constrained-optimizatio"></a>
+  - The Newton method has generated a diverse and important class of algorithms that requires the computation of the gradient vector and Hessian matrix (see Mathematical Expressions on page 88) for different parameter settings. If the target...
+  - _Keywords:_ Newton, gradient, method, Hessian, matrix, analytic, derivatives, Quasi
+- **Nonlinear Simplex Method** _(p.56)_ <a id="nonlinear-simplex-method"></a>
+  - The nonlinear simplex method (see Nongradient-Based Methods on page 102) does not require gradient or Hessian evaluations. It performs a pattern search based only on function values. As it makes little use of information about the target...
+  - _Keywords:_ nonlinear, simplex, method, Nongradient, Based, Methods, require, gradient
+- **Stopping Criteria** _(p.57)_ <a id="stopping-criteria"></a>
+  - To control these generic optimization processes, the following stopping criteria are set:
+  - _Keywords:_ method, tolerance, simplex, optimum, Newton, nonlinear, allowed, iterations
+- **Command Description** _(p.57–58)_ <a id="command-description"></a>
+  - A generic optimization task is defined by selecting the parameters and responses to be considered. Regions of interest are set for each parameter. Linear or logarithmic scale can be specified for each parameter. For each response, an opt...
+  - _Keywords:_ optimization, logarithmic, method, generic, weight, defined, target, Description
+- **Output** _(p.58)_ <a id="output"></a>
+  - The best parameter setting and the value of each simulation response are returned. Additional information is displayed during the whole optimization process, describing which simulations are performed and how the heuristic moves through ...
+  - _Keywords:_ setting, simulation, response, returned, Additional, information, displayed, during
+- **Genetic Algorithm Task** _(p.59)_ <a id="genetic-algorithm-task"></a>
+  - This particular version of the genetic algorithm or genetic optimization is based on the standard definition of this algorithm, enhancing a few elements so that you can parameterize the behavior of the searching process according to the ...
+  - _Keywords:_ process, chromosome, population, particular, genetic, algorithm, optimization, context
+- **Main Steps of the Algorithm** _(p.59–60)_ <a id="main-steps-of-the-algorithm"></a>
+  - The main steps of the algorithm are:
+  - _Keywords:_ population, generation, random, fitting, chromosomes, produce, parent, implementation
+- **Stopping Criteria** _(p.60)_ <a id="stopping-criteria"></a>
+  - The algorithm stops for either of these conditions:
+  - _Keywords:_ reached, algorithm, either, conditions, maximum, defined, generations, satisfactory
+- **Command Description** <a id="command-description"></a>
+  - To use a genetic algorithm optimization task, the command input file must be defined using the standard command file syntax of Optimizer, as shown in the example at the end of this section, with some mandatory and optional attributes of ...
+  - _Keywords:_ genetic, algorithm, optimization, defined, standard, syntax, Optimizer, mandatory
+- **Mandatory Attributes** <a id="mandatory-attributes"></a>
+  - The mandatory attributes are:
+  - _Keywords:_ experiments, Optimizer, mandatory, attributes, Design, DoE, generate, population
+- **Optional Attributes** _(p.62)_ <a id="optional-attributes"></a>
+  - The optional attributes (default values in parentheses) are:
+  - _Keywords:_ fitness, Fitness, chromosomes, biggest, Crossover, Change, smallest, generations
+- **Files Generated by Genetic Algorithm** _(p.62)_ <a id="files-generated-by-genetic-algorithm"></a>
+  - Two major output files are generated.
+  - _Keywords:_ optimization, process, genetic, algorithm, generation, absolute, solution, experiment
+- **Sensitivity Analysis Task** _(p.63–64)_ <a id="sensitivity-analysis-task"></a>
+  - Two main types of uncertainty affect confidence in the results of a simulation tool: structural uncertainty (inaccurate models) and parametric uncertainty. Parametric uncertainty arises from incomplete knowledge of model parameters such ...
+  - _Keywords:_ response, uncertainty, simulation, nominal, analysis, levels, forall, iteration
+- **Command Description** _(p.65)_ <a id="command-description"></a>
+  - A sensitivity analysis task is defined by selecting which parameters and responses are considered. The nominal set of parameter values and the range of variation around that particular parameter setting are specified. Linear or logarithm...
+  - _Keywords:_ selValue, sensitivity, logarithmic, analysis, considered, specified, nPoints, weight
+- **Output** _(p.65)_ <a id="output"></a>
+  - An excerpt of the final output of the sensitivity analysis task for the response VT1\_WL is:
+  - _Keywords:_ response, VT1_WL, sensitive, sensitivity, excerpt, analysis, VT1, Sensitivity
+- **Uncertainty Analysis Task** _(p.66)_ <a id="uncertainty-analysis-task"></a>
+  - Uncertainty analysis [7][8] is used to understand how the variability of parameters affects device behavior. It uses a multidimensional RSM, called stochastic RSM, which reflects the collective uncertainty of all parameters under conside...
+  - _Keywords:_ analysis, uncertainty, simulation, polynomials, probability, density, orthogonal, RSM
+- **Mathematical Background** _(p.66–67)_ <a id="mathematical-background"></a>
+  - Each parameter $p _ { i }$ has an associated probability density function $f _ { i } ( \boldsymbol { p } _ { i } )$ defined over the interval $( a _ { i } \leq x _ { i } \leq b _ { i } )$ that can be used as a weight function to generate...
+  - _Keywords:_ probability, density, forall, polynomials, weight, orthogonal, domain, associated
+- **Example** _(p.67–69)_ <a id="example"></a>
+  - Consider an example with two parameters, $p _ { a }$ and $p _ { b }$ , and one simulation response $Y ( p _ { a } , p _ { b } )$ . $p _ { a }$ has a uniform probability density function over the domain $( l _ { a } , u _ { a } )$ and $p ...
+  - _Keywords:_ stochastic, RSM, response, orthogonal, simulations, probability, density, polynomials
+- **Command Description** _(p.69–71)_ <a id="command-description"></a>
+  - Uncertainty analysis requires parameters and responses. For each parameter, a probability density function is provided. The arguments of this function must be set. For example, if the normal (Gaussian) probability density function is sel...
+  - _Keywords:_ PW_DOSE, TH_OX, CH_DOSE, SP_LENGTH, LDD_DOSE, stochastic, normal, sdoeArgs
+- **Output** _(p.71–72)_ <a id="output"></a>
+  - An excerpt of the final output of an uncertainty analysis task for the response VT1\_WL is:
+  - _Keywords:_ PW_DOSE, SP_LENGTH, TH_OX, LDD_DOSE, Model, Variance, VT1, Term
+- **Design-of-Experiments Task** _(p.72)_ <a id="design-of-experiments-task"></a>
+- **Command Description** _(p.72–73)_ <a id="command-description"></a>
+  - To specify a DoE task, parameters must be chosen, and a DoE type and its corresponding arguments must be set. DoE arguments can be set for either each parameter (as in the following example) or the whole task.
+  - _Keywords:_ DoE, arguments, specify, chosen, corresponding, either
+- **The following option must be set:** _(p.73)_ <a id="the-following-option-must-be-set"></a>
+  - doe: Specifies a DoE from the available designs: boxBehnken, diagonalDesign, facedCentralComposite, fractFactorial2, fullFacNLev, grecoLatinSquare, halfFactorialMinus, halfFactorialPlus, latinSquare, midPointDesign, plackettBurmann, rand...
+  - _Keywords:_ Specifies, DoE, available, designs, boxBehnken, diagonalDesign, facedCentralComposite, fractFactorial2
+- **The following option is also available:** _(p.73–74)_ <a id="the-following-option-is-also-available"></a>
+  - tree: Specifies whether the simulation tree is modified. The following keywords are added to the list if any of these actions are required:
+  - _Keywords:_ random, simulation, argument, doeArgs, whether, settings, keyword, arguments
+- **Output** _(p.74)_ <a id="output"></a>
+  - Optimizer outputs a list of all the different parameter settings that belong to the families of simulations that were created using the specified DoE technique.
+  - _Keywords:_ Optimizer, different, settings, belong, families, simulations, created, specified
+- **Stochastic Design-of-Experiments Task** _(p.74)_ <a id="stochastic-design-of-experiments-task"></a>
+- **Command Description** _(p.75)_ <a id="command-description"></a>
+  - To specify an SDoE task, parameters are selected and their probability distribution functions are set in terms of the corresponding arguments.
+  - _Keywords:_ SDoE, available, montecarloDesign, DoE, design, CSV, sdoeArgs, sequence
+- **Output** _(p.76)_ <a id="output"></a>
+  - Optimizer outputs a list with all the different parameter settings that belong to the families of simulations that were created using the specified SDoE technique.
+  - _Keywords:_ Optimizer, different, settings, belong, families, simulations, created, specified
+- **Custom Task** _(p.76)_ <a id="custom-task"></a>
+  - The custom task is a simple task type that allows the specification of a particular algorithm, which can rely on the internal structures and procedures of Optimizer to perform a particular type of optimization or other data analysis.
+  - _Keywords:_ particular, optimization, analysis, custom, simple, allows, specification, algorithm
+- **Command Description** _(p.77)_ <a id="command-description"></a>
+  - To specify a custom task, standard parameter and response declarations are valid, and some other arguments are available for the task declaration:
+  - _Keywords:_ parId, Cget, taskId, OPT, WriteLog, standard, doeType, doeArgs
+- **Output** _(p.77)_ <a id="output"></a>
+  - Output and behavior depend on the specific instructions included in the Algorithm block.
+  - _Keywords:_ behavior, depend, specific, instructions, included, Algorithm
+- **Integration of Sentaurus Workbench** _(p.77)_ <a id="integration-of-sentaurus-workbench"></a>
+  - Sentaurus Workbench and Optimizer are closely related. Assuming Optimizer is the main analysis tool, Sentaurus Workbench provides some features that allow you to edit and view command files and output files, and to run Optimizer directly...
+  - _Keywords:_ Sentaurus, Workbench, Optimizer, features, closely, related, Assuming, analysis
+- **Sentaurus Workbench Scenarios** _(p.78)_ <a id="sentaurus-workbench-scenarios"></a>
+  - Some naming conventions have been adopted for the generation of scenarios, which allow you to control the execution of different tasks by dynamically editing scenarios while Optimizer is running.
+  - _Keywords:_ Optimizer, Task, scenario, scenarios, creates, experiments, naming, identifier
+- **Reusing All Simulation Results** _(p.78–79)_ <a id="reusing-all-simulation-results"></a>
+  - Optimizer uses all of the simulation results that already exist in the Sentaurus Workbench project before Optimizer is run.
+  - _Keywords:_ Optimizer, results, simulation, Sentaurus, Workbench, before, simulations, previously
+- **Advanced Features** _(p.79)_ <a id="advanced-features"></a>
+  - This section describes advanced features of Optimizer.
+  - _Keywords:_ describes, advanced, features, Optimizer
+- **Restarting** _(p.79)_ <a id="restarting"></a>
+  - All iterative optimization methods can store their status after each iteration. If Optimizer is interrupted, the last status can be restored. The following information is stored:
+  - _Keywords:_ solution, iterations, method, Current, simulations, execution, status, current
+- **Sequencing of Tasks** <a id="sequencing-of-tasks"></a>
+  - Optimizer allows the execution of two or more tasks in a sequence and it automatically uses the information computed in previous tasks. For example, this feature can be used to reduce the number of parameters used in an optimization task...
+  - _Keywords:_ previous, optimization, selValue, screening, before, autoValue, allows, automatically
+- **Example: Screening and Iterative Optimization** _(p.80–81)_ <a id="example-screening-and-iterative-optimization"></a>
+  - In a project with five parameters and a given response, the following input file performs a screening task before an iterative optimization task, so as to discard all irrelevant parameters before starting the optimization process:
+  - _Keywords:_ doeArgs, equidist, selValue, autoValue, optimization, Define, nextTask, screening
+- **Task Interdependency** _(p.81)_ <a id="task-interdependency"></a>
+  - A task can use values obtained as results of other executed tasks. This scheme identifies ‘parents’ and ‘children’ tasks. Data is shared from parents to children tasks using an exportand-import mechanism, which allows for the declaration...
+  - _Keywords:_ import, Rosen, parents, children, allows, exported, attribute, sdoeArgs
+- **Exportable Information** <a id="exportable-information"></a>
+  - In addition to the general attributes of each response, additional information – according to the task – can be exported.
+  - _Keywords:_ addition, general, attributes, response, additional, information, according, exported
+- **Screening Task** _(p.82)_ <a id="screening-task"></a>
+  - You can export the screening result corresponding to any parameter. Use one of the following:
+  - _Keywords:_ parname, result, You, export, screening, corresponding, Use
+- **Sensitivity Analysis Task** _(p.82)_ <a id="sensitivity-analysis-task"></a>
+  - You can export the sensibility result for a response with regard to any parameter. For the export, use one of the following:
+  - _Keywords:_ resname, export, result, response, parname, You, sensibility, regard
+- **Uncertainty Analysis Task** <a id="uncertainty-analysis-task"></a>
+  - You can export any of the first four moments of the distribution. To export these values, use either:
+  - _Keywords:_ resname, result, export, variance, skewness, kurtosis, You, moments
+- **Optimization, Iterative Optimization, and Generic Optimization Tasks** <a id="optimization-iterative-optimization-and-generic-optimization"></a>
+  - You can export the value of any parameter for the best parameter setting or the value of any response at the optimum found. To export these values, use either:
+  - _Keywords:_ export, parname, resname, result, You, setting, response, optimum
+- **Simulation Task** _(p.83)_ <a id="simulation-task"></a>
+  - You can export all the results of the simulations (standard behavior). To export these values, use one of the following:
+  - _Keywords:_ export, resname, You, results, simulations, standard, behavior, result
+- **Convergence Plot** _(p.83–84)_ <a id="convergence-plot"></a>
+  - When Optimizer executes some optimization tasks, the goal is achieved by an iterative process that might be relevant for users to analyze. The iteration evolution is available in the gopt.log file and some of the output files are availab...
+  - _Keywords:_ convergence, Inspect, Optimizer, optimization, executed, Select, iterative, iteration
+- **References** _(p.85)_ <a id="references"></a>
+  - [1] D. C. Montgomery, Design and Analysis of Experiments, New York: John Wiley & Sons, 1997. [2] G. E. P. Box and N. R. Draper, Empirical Model-Building and Response Surfaces, New York: John Wiley & Sons, 1987. [3] R. Myers and D. Montgo...
+  - _Keywords:_ New, York, John, Wiley, Sons, Response, Montgomery, Experiments
+- **Optimizer Commands** _(p.85)_ <a id="optimizer-commands"></a>
+- **Names and Symbols** _(p.85–86)_ <a id="names-and-symbols"></a>
+  - Every task described here has a two-letter designator as listed in Table 5.
+  - _Keywords:_ attribute, Designator, Definition, analysis, experiments, optimization, mandatory, Every
+- **Global Options** _(p.86–87)_ <a id="global-options"></a>
+  - For more information about global options, see Global Options on page 9.
+  - _Keywords:_ Global, Task, required, information, global, Description, magGlbNumEvaluations, maximum
+- **Inner Blocks for Parameters** _(p.87–88)_ <a id="inner-blocks-for-parameters"></a>
+  - For more information about parameters, see Parameter Block on page 10.
+  - _Keywords:_ colspan, Block, linear, Arguments, DoE, specific, Probability, density
+- **Inner Blocks for Responses** _(p.88–89)_ <a id="inner-blocks-for-responses"></a>
+  - For more information about responses, see Response Block on page 12.
+  - _Keywords:_ responses, RSM, target, termination, Block, Inner, blocks, Description
+- **Inner Blocks for Stopping Criteria** _(p.89–90)_ <a id="inner-blocks-for-stopping-criteria"></a>
+  - For more information about stopping criteria, see Stopping Criteria on page 46.
+  - _Keywords:_ colspan, stopping, criteria, optimum, Block, r2Adj, Local, tolerance
+- **Specific Task Parameters for Screening** _(p.90)_ <a id="specific-task-parameters-for-screening"></a>
+  - For more information about screening, see Screening Task on page 29. For details about screening-specific options, see Command Description on page 29.
+  - _Keywords:_ screening, Screening, Description, average, information, Task, details, specific
+- **Specific Task Parameters for Iterative Optimization** <a id="specific-task-parameters-for-iterative-optimization"></a>
+  - For more information about iterative optimization, see Iterative Optimization Task on page 35. For details about iterative optimization–specific options, see Command Description on page 42.
+  - _Keywords:_ iterative, optimization, Description, information, Iterative, Optimization, Task, details
+- **Specific Task Parameter for Generic Optimization** _(p.91)_ <a id="specific-task-parameter-for-generic-optimization"></a>
+  - For more information about generic optimization, see Generic Optimization Task on page 45. For details about generic optimization–specific commands, see Command Description on page 47.
+  - _Keywords:_ generic, optimization, Description, information, Generic, Optimization, Task, details
+- **Specific Task Parameters for Genetic Algorithm Optimization** <a id="specific-task-parameters-for-genetic-algorithm-optimization"></a>
+  - For more information about the genetic algorithm, see Genetic Algorithm Task on page 48. For details about genetic algorithm–specific commands, see Command Description on page 50.
+  - _Keywords:_ algorithm, chromosomes, genetic, population, attempts, crossover, Description, lineal
+- **Specific Task Parameters for Sensitivity Analysis** _(p.92)_ <a id="specific-task-parameters-for-sensitivity-analysis"></a>
+  - For more information about sensitivity analysis, see Sensitivity Analysis Task on page 52. For details about sensitivity analysis–specific commands, see Command Description on page 54.
+  - _Keywords:_ sensitivity, analysis, Description, information, Sensitivity, Analysis, Task, details
+- **Specific Task Parameters for Uncertainty Analysis** _(p.93)_ <a id="specific-task-parameters-for-uncertainty-analysis"></a>
+  - For more information about uncertainty analysis, see Uncertainty Analysis Task on page 55. For details about uncertainty analysis–specific commands, see Command Description on page 59.
+  - _Keywords:_ uncertainty, analysis, Description, information, Uncertainty, Analysis, Task, details
+- **Specific Task Parameters for Design-of-Experiments** <a id="specific-task-parameters-for-design-of-experiments"></a>
+  - For details about design-of-experiments–specific commands, see Design-of-Experiments Task on page 62.
+  - _Keywords:_ DoE, design, experiments, Experiments, information, family, saving, details
+- **Specific Task Parameters for Stochastic Design-of-Experiments** _(p.94–95)_ <a id="specific-task-parameters-for-stochastic-design-of-experiment"></a>
+  - For details about stochastic design-of-experiments–specific commands, see Stochastic Designof-Experiments Task on page 64.
+  - _Keywords:_ stochastic, design, experiments, Stochastic, montecarloDesign, fromTable, specifies, details
+- **Custom Task Parameters** _(p.95)_ <a id="custom-task-parameters"></a>
+  - For details about custom tasks, see Custom Task on page 66.
+  - _Keywords:_ script, custom, Tcl, details, Custom, Task, Specific, Description
+- **Output Files** <a id="output-files"></a>
+  - Optimizer generates several different files when running a task. Each file includes specific output information that might be useful to users. Part of this output information is also sent to the standard output.
+  - _Keywords:_ Optimizer, running, information, response, _anova, delta1, generates, several
+- **Uncertainty Analysis Task** _(p.96)_ <a id="uncertainty-analysis-task"></a>
+  - For each response, the following files are generated (see Output on page 61), containing data in a tab-delimited format (TDF) plain text format, which can be imported to other tools such as Microsoft® Excel:
+  - _Keywords:_ response, response_name, Model, format, generated, containing, delimited, TDF
+- **3: Reference Guide** _(p.96)_ <a id="3-reference-guide"></a>
+- **Output Files** _(p.96)_ <a id="output-files"></a>
+  - <table><tr><td>values.dat</td><td>Details of all the values generated to perform the experiment.</td></tr><tr><td>uaTable.tab</td><td>Structurally, it is equal to the unc_&lt;n&gt;.tab file showing values for all scenarios.</td></tr><tr>...
+  - _Keywords:_ generated, experiment, Details, perform, uaTable, Structurally, showing, scenarios
+- **Sensitivity Analysis Task** <a id="sensitivity-analysis-task"></a>
+  - sen\_<n>.tab
+  - _Keywords:_ experiments, inside, domain, stands, evaluated, scenario, Its, columns
+- **Screening Task** _(p.97)_ <a id="screening-task"></a>
+  - screen\_<n>.tab
+  - _Keywords:_ screen, experiments, inside, domain, stands, evaluated, scenario, Its
+- **Generic Optimization Task** _(p.97)_ <a id="generic-optimization-task"></a>
+  - ```txt genopt_<n>.tab ```
+  - _Keywords:_ response, simulation, current, genopt_, Optimum, obtained, optimization, process
+- **Optimization Task** <a id="optimization-task"></a>
+  - ```txt opt_<n>.tab ```
+  - _Keywords:_ experiments, inside, domain, stands, evaluated, scenario, Its, columns
+- **Iterative Optimization Task** _(p.98)_ <a id="iterative-optimization-task"></a>
+  - ```txt itropt_<n>.tab ```
+  - _Keywords:_ response, simulation, current, itropt_, Optimum, obtained, optimization, process
+- **Design-of-Experiments Task** _(p.98)_ <a id="design-of-experiments-task"></a>
+  - doe\_<n>.tab
+  - _Keywords:_ experiments, inside, domain, stands, evaluated, scenario, Its, columns
+- **Stochastic Design-of-Experiments Task** <a id="stochastic-design-of-experiments-task"></a>
+  - sdoe\_<n>.tab
+  - _Keywords:_ experiments, inside, domain, stands, evaluated, scenario, Its, columns
+- **Mathematical Expressions** <a id="mathematical-expressions"></a>
+- **Gradient Vector** _(p.99)_ <a id="gradient-vector"></a>
+  - The gradient vector $\nabla f ( \overset { \circ } { \boldsymbol { x } } )$ of a scalar function $f ( { \overset { } { x } } ) \ ( { \overset { } { x } } \in R ^ { n } )$ is defined by the $n \times 1$ vector that is built from the first...
+  - _Keywords:_ partial, overset, vector, gradient, boldsymbol, scalar, defined, derivatives
+- **Hessian Matrix** _(p.99)_ <a id="hessian-matrix"></a>
+  - The Hessian matrix $\nabla ^ { 2 } f ( { \overset { } { x } } )$ of a scalar function $f ( { \overset { } { x } } ) \ ( { \overset { } { x } } \in R ^ { n } )$ is defined by the $n \times n$ matrix that is built out of the second partial...
+  - _Keywords:_ partial, overset, matrix, Hessian, scalar, defined, second, derivatives
+- **Equations for Response Surface Models** <a id="equations-for-response-surface-models"></a>
+  - For all of the equations here, the notation is:
+  - _Keywords:_ Actual, experiment, equations, notation, experimentsn, unknown, coefficients, modelh
+- **Model Accuracy** _(p.100)_ <a id="model-accuracy"></a>
+  - Three statistics that measure the model accuracy are provided:
+  - _Keywords:_ Model, Information, relevant, measure, statistic, equation, Three, statistics
+- **ANOVA Table** _(p.101–102)_ <a id="anova-table"></a>
+  - The analysis of variance (ANOVA) consists of calculations that provide information about levels of variability within a regression model and form a basis for tests of significance. The basic regression concept, $D A T A = F I T + R E S I...
+  - _Keywords:_ square, MSM, MSE, variance, squares, freedom, regression, degrees
+- **Moments** _(p.103–104)_ <a id="moments"></a>
+  - A real-valued random variable $x ( \omega )$ is a function that maps the probability space $\Omega$ into the real line, such that [1]:
+  - _Keywords:_ probability, density, random, variable, moment, central, factor, kurtosis
+- **Optimization Problem** _(p.104–105)_ <a id="optimization-problem"></a>
+  - An optimization problem [2] can be expressed as a maximization or minimization task, for example, maximizing profits or minimizing costs. The objective function $f ( \overset { \vartriangle } { \boldsymbol { x } } )$ reflects whether a p...
+  - _Keywords:_ problem, optimization, boldsymbol, constrained, constraints, expressed, overset, vartriangle
+- **Optimization** _(p.105)_ <a id="optimization"></a>
+  - Optimization is the search for an optimal value of the objective function within given ranges of the input variables or parameters.
+  - _Keywords:_ algorithms, optimization, Hessian, search, methods, problems, method, target
+- **Gradient-Based Optimization Methods** _(p.106)_ <a id="gradient-based-optimization-methods"></a>
+  - The majority of optimization algorithms are based on methods that use the gradient and higher derivatives of the target function. These methods approximate the target function $f ( { \overset { \vartriangle } { \boldsymbol { x } } } )$ b...
+  - _Keywords:_ stackrel, rightharpoonup, methods, target, majority, optimization, algorithms, gradient
+- **Step Direction** _(p.106)_ <a id="step-direction"></a>
+  - Many optimization algorithms iteratively improve the solution. Each iteration consists of the following basic steps:
+  - _Keywords:_ Delta, direction, iteration, Phi, optimization, solution, actual, overset
+- **Steepest Descent Direction** <a id="steepest-descent-direction"></a>
+  - The modeling of the target function is performed by a linear approximation of $f ( \stackrel { \Delta } { x } _ { 0 } )$ based on a Taylor series expansion of first order:
+  - _Keywords:_ stackrel, rightharpoonup, target, overset, negative, direction, modeling, performed
+- **Newton Direction** _(p.107)_ <a id="newton-direction"></a>
+  - For the Newton direction, a quadratic approximation of the target function is used. For existing second derivatives of $f ( \vec { x } )$ , the minimum of the target function is found by:
+  - _Keywords:_ target, Newton, direction, quadratic, approximation, existing, second, derivatives
+- **Step-Length Method** <a id="step-length-method"></a>
+  - Step-length or line-search methods are iterative methods, where the parameter vector of the next iteration is calculated by:
+  - _Keywords:_ direction, length, alpha_, search, methods, vector, iteration, calculated
+- **Trust-Region Method** _(p.108)_ <a id="trust-region-method"></a>
+  - Trust-region methods approach the selection of the next iteration step differently than the step length–based methods. The next point is calculated by first selecting some tentative step length, and then applying the quadratic model to d...
+  - _Keywords:_ region, calculated, direction, lambda, methods, length, solution, target
+- **Comparison** <a id="comparison"></a>
+- **Steepest Descent and Newton Directions** <a id="steepest-descent-and-newton-directions"></a>
+  - These two strategies for the search direction, steepest descent direction and Newton direction, have different convergence properties and are chosen with regard to the target function.
+  - _Keywords:_ direction, descent, steepest, Newton, convergence, properties, target, converges
+- **Step-Length and Trust-Region Methods** <a id="step-length-and-trust-region-methods"></a>
+  - For both step-length and trust-region algorithms, the next iteration point is selected according to a scalar value. In step-length algorithms, this scalar is the step length ${ \bf { \alpha } } \propto _ { k }$ ; in trust-region methods,...
+  - _Keywords:_ length, region, algorithms, scalar, methods, Hessian, iteration, selected
+- **Derivative Approximations and Optimization Methods** _(p.109)_ <a id="derivative-approximations-and-optimization-methods"></a>
+  - The previous algorithms require the derivatives of the model function . If this modelf x( ) function is given by an analytic formula, the first and second derivatives can be calculated directly. For a model function formed by results of ...
+  - _Keywords:_ Hessian, derivatives, approximation, methods, gradient, algorithms, analytic, matrix
+- **Finite-Difference Approximations** <a id="finite-difference-approximations"></a>
+  - The most common method for obtaining an approximation of the Hessian matrix is to use differences of gradient values.
+  - _Keywords:_ common, method, obtaining, approximation, Hessian, matrix, differences, gradient
+- **Hessian Approximation** _(p.110)_ <a id="hessian-approximation"></a>
+  - If forward differences are used, the -th column of the Hessian matrix is replaced by:i
+  - _Keywords:_ Hessian, matrix, differences, column, replaced, difference, mathbf, evaluations
+- **Gradient Approximation** _(p.111)_ <a id="gradient-approximation"></a>
+  - For the approximation of the first derivatives, finite-difference approximations can also be used. Finite differences are calculated from a number of function evaluations of particular x values.
+  - _Keywords:_ approximation, difference, differences, calculated, evaluations, forward, element, gradient
+- **Quasi-Newton Methods** _(p.111–112)_ <a id="quasi-newton-methods"></a>
+  - Quasi-Newton or variable metric methods can be used when the Hessian matrix is difficult or time-consuming to evaluate. The use of a finite-difference approximation of the first derivatives is not suitable for this purpose. This would re...
+  - _Keywords:_ matrix, Hessian, Delta, Newton, methods, require, overset, update
+- **Nongradient-Based Methods** _(p.112)_ <a id="nongradient-based-methods"></a>
+  - There are other approaches for unconstrained problems that are not so closely related to the Newton method:
+  - _Keywords:_ method, gradient, simplex, problems, search, direction, conjugate, methods
+- **Bound-Constrained Optimization Methods** _(p.113–114)_ <a id="bound-constrained-optimization-methods"></a>
+  - Newton-based methods for bound-constrained optimization use step-length and trust-region versions of unconstrained minimization algorithms. This discussion emphasizes the differences between the unconstrained and bound-constrained cases.
+  - _Keywords:_ overset, matrix, Delta, subproblem, working, variables, partial, constrained
+- **References** <a id="references"></a>
+  - [1] M. H. DeGroot, Probability and Statistics, Massachusetts: Addison-Wesley, 2nd ed., 1986. [2] J. J. Moré and S. J. Wright, Optimization Software Guide, Frontiers in Applied Mathematics, vol. 14, Philadelphia: SIAM, 1993.
+  - _Keywords:_ DeGroot, Probability, Statistics, Massachusetts, Addison, Wesley, Wright, Optimization

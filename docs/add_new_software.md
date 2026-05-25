@@ -38,10 +38,12 @@ python scripts/01_pdf_to_markdown.py --software <software>
 
 加 `--dry-run` 可以先看会处理哪些文件。加 `--doc <name>` 可以只跑一份。
 
-输出在 `corpus/markdown/<software>/<doc>/<backend>/`，含：
-- `<doc>.md` ——主 markdown
-- `<doc>_content_list.json` ——按阅读顺序的 block 列表（02 脚本要用）
+输出在 `corpus/markdown/<software>/<doc>/`，含：
+- `<doc>.md` ——人类可读的连续 markdown，适合抽查章节和表格是否完整
+- `<doc>_content_list.json` ——AI 阅读的结构化 block 列表（按阅读顺序），每个 block 含 `type`、`text`、`page_idx`（页码）、`bbox`（坐标）等元数据。02 脚本以此文件为主把 `<!-- page:N -->` 锚点注入 `full.md`
 - `images/` ——抽出的图
+
+> `.md` 和 `_content_list.json` 包含相同的文本内容，但 JSON 是 MD 的超集——多了页码、坐标、元素类型等结构化元数据。人类抽查读 `.md`，AI / 下游脚本读 `.json`。
 
 ### 4. Markdown → context_layer
 
@@ -49,18 +51,26 @@ python scripts/01_pdf_to_markdown.py --software <software>
 python scripts/02_markdown_to_context.py --software <software>
 ```
 
-输出在 `context_layer/<software>/`，含：
-- `index.md` ——软件入口（自动聚合所有 doc）
-- `<doc>/index.md` ——单文档入口
-- `<doc>/module_map.md` ——章节树（M1）
-- `<doc>/provenance.json` ——块到 PDF 页码的回溯（M1）
-- `<doc>/{task_cards,syntax,diagnostics}/_TODO.md` ——人工 + LLM 半自动补（M2）
+输出在 `context_layer/`，按文档 tier（基于 `tiktoken` 估算 token 数）决定产物组合：
+
+| Tier | token 数 | 产物 |
+|---|---|---|
+| T0 | < 12K | `<doc>/full.md` |
+| T1 | 12K – 80K | `<doc>/full.md` + `<doc>/outline.md` |
+| T2 | 80K – 350K | `<doc>/full.md` + `<doc>/outline.md` + `<doc>/chapters/NN_*.md` |
+| T3 | > 350K 单文档，或同软件总和 > 500K | 同 T2 + `<software>/index.md`（软件级 router） |
+
+共通产出：
+- `context_layer/manifest.json` ——所有文档的 `source_pdf` / `md_path` / `estimated_tokens` / `page_count` / `tier` / `outputs` 索引
+- 每个 `full.md` 和 `chapters/*.md` 都内联 `<!-- page:N -->` HTML 注释作为页码锚点，无单独 provenance.json
 
 ### 5. 抽查
 
-打开 `context_layer/<software>/<doc>/module_map.md`，对照 PDF 目录，确认章节没漏。
+打开 `context_layer/manifest.json`，对照预期文档列表，确认 tier 分布合理（小手册落 T0/T1，长手册落 T2/T3）。
 
-打开 `context_layer/<software>/index.md`，确认所有 doc 都被列入。
+对每份 T1+ 文档，打开 `outline.md`，对照 PDF 目录，确认章节没漏。
+
+对每份 T2+ 文档，抽样 1–2 个 `chapters/NN_*.md`，确认章节切分边界合理，每片不超过 30K tokens。
 
 ### 6. 提交
 
@@ -78,10 +88,6 @@ git commit -m "context_layer: add <software>"
 - `README.md` 的 "支持的软件" 小节
 
 如果不更新，Skill 仍然能用（它会读 `context_layer/*/index.md`），但用户和 Claude Code 看不到一目了然的清单。
-
-## 任务卡 / 语法 / 诊断（M2）
-
-这三个目录在 M0/M1 阶段只有 `_TODO.md` 占位。M2 引入半自动 LLM pass + 人工 review，写作约定见 [skill_authoring.md](skill_authoring.md)。
 
 ## 如何换 PDF 引擎
 

@@ -1,0 +1,504 @@
+# cm_ug — outline
+
+Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
+
+- **Compact Models User Guide** _(p.1)_ <a id="compact-models-user-guide"></a>
+  - Version O-2018.06, June 2018
+  - _Keywords:_ Version, June
+- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
+  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
+  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+- **Disclaimer** <a id="disclaimer"></a>
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+- **Trademarks** <a id="trademarks"></a>
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html.
+  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
+  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+- **About This Guide vii** _(p.3)_ <a id="about-this-guide-vii"></a>
+  - Related Publications . . . vii
+  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
+- **Chapter 1 SPICE Models 1** _(p.4)_ <a id="chapter-1-spice-models-1"></a>
+  - Available SPICE Models
+  - _Keywords:_ Model, Source, MOSFET, Voltage, Current, Controlled, Level, Meyer
+- **Chapter 2 HSPICE Models 111** <a id="chapter-2-hspice-models-111"></a>
+  - Overview of Available Models . . . 1
+  - _Keywords:_ Level, Model, IDS, STARC, HiSIM, BSIM, BSIM3v3, MOS
+- **Chapter 3 Built-in Models of Sentaurus Device 117** _(p.5)_ <a id="chapter-3-built-in-models-of-sentaurus-device-117"></a>
+  - Parameter Interface Model . 117
+  - _Keywords:_ Model, Interface, SPICE, Temperature, Electrothermal, Resistor, Ter, MOS
+- **Chapter 4 Compact Model Interface in Sentaurus Device 127** _(p.5–7)_ <a id="chapter-4-compact-model-interface-in-sentaurus-device-127"></a>
+  - Introduction . . . . 127
+  - _Keywords:_ Device, _instance, Sentaurus, models, Models, _param, CMI, Model
+- **Related Publications** _(p.8)_ <a id="related-publications"></a>
+  - For additional information, see:
+  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
+- **Conventions** _(p.8)_ <a id="conventions"></a>
+  - The following conventions are used in Synopsys documentation.
+  - _Keywords:_ Identifies, screen, identifies, conventions, Synopsys, documentation, Convention, Description
+- **Customer Support** <a id="customer-support"></a>
+  - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
+  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
+- **Accessing SolvNet** _(p.9)_ <a id="accessing-solvnet"></a>
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
+  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+- **Contacting Synopsys Support** _(p.9)_ <a id="contacting-synopsys-support"></a>
+  - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
+  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
+- **Contacting Your Local TCAD Support Team Directly** _(p.11)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
+  - Send an e-mail message to:
+  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
+- **Available SPICE Models** _(p.11)_ <a id="available-spice-models"></a>
+  - The following models are available:
+  - _Keywords:_ models, available, Sources, MOSFET, Elementary, Devices, Voltage, Current
+- **MOSFET Models** _(p.12–13)_ <a id="mosfet-models"></a>
+  - The following MOSFET models are implemented:
+  - _Keywords:_ channel, mathrm, charge, MOSFET, accurate, BSIM3, effects, length
+- **Temperature Dependencies** _(p.13)_ <a id="temperature-dependencies"></a>
+  - The SPICE models assume that input data has been measured at a nominal temperature of $2 7 ^ { \circ } \mathrm { C }$ . This value can be overridden for the parameter sets that provide a tnom parameter.
+  - _Keywords:_ temperature, SPICE, mathrm, provide, instances, models, assume, measured
+- **Elementary Devices** _(p.14–17)_ <a id="elementary-devices"></a>
+  - The elementary device models discussed in this section include:
+  - _Keywords:_ Controlled, Switch, elementary, device, models, discussed, include, Simple
+- **Simple Linear Resistor** _(p.17)_ <a id="simple-linear-resistor"></a>
+  - Resistors are specified by giving the value of the resistance [ ]. This value can be positive orΩ negative, but not zero.
+  - _Keywords:_ double, resistance, temperature, specified, device, Resistor, resistor, nominal
+- **Capacitor** <a id="capacitor"></a>
+  - If the value of capacitance is not given, it can be computed from strictly geometric information and the specifications of the process as follows:
+  - _Keywords:_ double, capacitance, narrow, Device, Capacitor, Description, Unit, computed
+- **Inductor** <a id="inductor"></a>
+  - <table><tr><td>Device name:</td><td>Inductor</td></tr><tr><td>Default parameter set name:</td><td>Inductor_pset</td></tr><tr><td>Electrodes:</td><td>L+, L-</td></tr><tr><td>Internal variables:</td><td>branch (current through inductor)</t...
+  - _Keywords:_ inductor, Inductor, current, through, double, Device, Inductor_pset, Electrodes
+- **Coupled (Mutual) Inductors** <a id="coupled-mutual-inductors"></a>
+  - Coupled inductors are specified by introducing a coupling k between two existing inductors. The inductors inductor1 and inductor2 must have been previously specified. Example: Implementing Coupled Inductances on page 158 discusses the im...
+  - _Keywords:_ inductors, Coupled, coupled, specified, inductor1, inductor2, double, inductor
+- **Voltage-Controlled Switch** <a id="voltage-controlled-switch"></a>
+  - The electrodes S+ and S- are the nodes between which the switch terminals are connected. The electrodes SC+ and SC- are the positive and negative controlling nodes, respectively. The switch is not ideal because it must have a finite posi...
+  - _Keywords:_ switch, voltage, double, controlling, controlled, Switch, electrodes, positive
+- **Current-Controlled Switch** _(p.18)_ <a id="current-controlled-switch"></a>
+  - The electrodes W+ and W- are the nodes between which the switch terminals are connected. The switch is controlled by the current that flows through the voltage source given by the parameter control. The direction of a positive controllin...
+  - _Keywords:_ switch, current, controlled, source, controlling, double, positive, resistance
+- **Voltage Sources and Current Sources** _(p.18)_ <a id="voltage-sources-and-current-sources"></a>
+  - The voltage source and the current source models discussed in this section include:
+  - _Keywords:_ Source, Voltage, Current, Controlled, Independent, source, voltage, current
+- **Values of Independent Sources** <a id="values-of-independent-sources"></a>
+  - The independent voltage sources and current sources have the same parameters.
+  - _Keywords:_ sources, independent, voltage, current
+- **DC Source** _(p.19)_ <a id="dc-source"></a>
+  - The parameter dc specifies the DC value of the source. For example, dc = 10 defines a DC voltage/current source of 10 V/10 A.
+  - _Keywords:_ source, specifies, defines, voltage, current
+- **Pulse Source** _(p.19–21)_ <a id="pulse-source"></a>
+  - The pulse parameter must be a vector of length 7. Its entries define a transient pulse as shown in Table 11.
+  - _Keywords:_ Pulse, source, details, summary, produces, Time, images, vector
+- **Sinusoidal Source** _(p.21–22)_ <a id="sinusoidal-source"></a>
+  - The sine parameter must be a vector of length 5. Its entries are listed in Table 13.
+  - _Keywords:_ source, Sinusoidal, produces, details, summary, vector, length, Its
+- **Exponential Source** _(p.22–23)_ <a id="exponential-source"></a>
+  - The exp parameter must be a vector of length 6. Its entries are listed in Table 15.
+  - _Keywords:_ Exponential, source, Rise, constant, Fall, details, summary, vector
+- **Piecewise Linear Source** _(p.23–24)_ <a id="piecewise-linear-source"></a>
+  - The parameter pwl must be a vector of even size. It consists of pairs $( t _ { k } , \nu _ { k } )$ that specify the value $\nu _ { k } \ [ \mathrm { V \ o r \ A } ]$ at the time $t \ = \ t _ { k }$ . The value of the source at intermedi...
+  - _Keywords:_ mathrm, source, linear, details, summary, vector, consists, specify
+- **Single-Frequency FM Source** _(p.24–25)_ <a id="single-frequency-fm-source"></a>
+  - The parameter sffm must be a vector of size 5. Its entries are listed in Table 17.
+  - _Keywords:_ frequency, Single, source, details, summary, vector, Its, entries
+- **Independent Voltage Source** _(p.25–26)_ <a id="independent-voltage-source"></a>
+  - A SPICE voltage source can be used as an ammeter in a circuit, that is, a zero-valued voltage source can be inserted into the circuit to measure the current. Voltage sources are referenced by the control parameter in current-controlled c...
+  - _Keywords:_ source, double, current, description, voltage, sources, controlled, circuit
+- **Independent Current Source** _(p.26–27)_ <a id="independent-current-source"></a>
+  - A current source of positive value forces the current to flow from the I+ node, through the source, to the I- node.
+  - _Keywords:_ source, double, description, current, Sinusoidal, positive, forces, through
+- **Voltage-Controlled Current Source** _(p.27–28)_ <a id="voltage-controlled-current-source"></a>
+  - V+ and V- are the positive and negative nodes, respectively. The current flows from the positive node, through the source, to the negative node. VC+ and VC- are the positive and negative controlling nodes, respectively. The value of the ...
+  - _Keywords:_ positive, negative, current, source, respectively, through, controlling, Device
+- **Voltage-Controlled Voltage Source** <a id="voltage-controlled-voltage-source"></a>
+  - The positive and negative nodes are V+ and V-, respectively. The positive and negative controlling nodes are VC+ and VC-, respectively. The value of the voltage is given by:
+  - _Keywords:_ voltage, positive, negative, respectively, source, Voltage, controlling, Device
+- **Current-Controlled Current Source** <a id="current-controlled-current-source"></a>
+  - The positive and negative nodes are F+ and F-, respectively. The current flows from the positive node, through the source, to the negative node. The parameter control identifies the controlling voltage source, which must have been previo...
+  - _Keywords:_ source, positive, current, control, negative, controlling, through, voltage
+- **Current-Controlled Voltage Source** _(p.29)_ <a id="current-controlled-voltage-source"></a>
+  - H+ and H– are the positive and negative nodes, respectively. The parameter control identifies the controlling voltage source, which must have been previously declared. The direction of the positive controlling current flow is from the po...
+  - _Keywords:_ voltage, source, control, positive, current, negative, controlling, through
+- **MOSFET Models (NMOS and PMOS)** _(p.29–30)_ <a id="mosfet-models-nmos-and-pmos"></a>
+  - Different SPICE MOSFET models are available: Mos1, Mos2, Mos3, Mos6, BSIM1, BSIM2, BSIM3, BSIM4, and BSIMPD2.2.
+  - _Keywords:_ capacitances, voltage, These, storage, source, junctions, SPICE, Mos1
+- **Level 1 MOSFET Model and Meyer Capacitance Model** <a id="level-1-mosfet-model-and-meyer-capacitance-model"></a>
+  - The Mos1 model is described by a square-law I–V characteristic. l and w are the channel length and width. ad and as are the areas of the drain and source diffusions. pd and ps are the perimeters of the drain and source junctions. nrd and...
+  - _Keywords:_ double, source, junction, capacitance, voltage, resistance, Drain, Gate
+- **Level 2 MOSFET Model and Meyer Capacitance Model** _(p.32)_ <a id="level-2-mosfet-model-and-meyer-capacitance-model"></a>
+  - The Mos2 model is an analytic model [1]. l and w are the channel length and width. ad and as are the areas of the drain and source diffusions. pd and ps are the perimeters of the drain and source junctions. nrd and nrs designate the equi...
+  - _Keywords:_ double, source, junction, capacitance, voltage, resistance, Drain, Gate
+- **Level 3 MOSFET Model and Meyer Capacitance Model** _(p.35)_ <a id="level-3-mosfet-model-and-meyer-capacitance-model"></a>
+  - The Mos3 model is a semiempirical model [1]. l and w are the channel length and width. ad and as are the areas of the drain and source diffusions. pd and ps are the perimeters of the drain and source junctions. nrd and nrs designate the ...
+  - _Keywords:_ double, source, junction, voltage, capacitance, resistance, Drain, Gate
+- **Level 6 MOSFET Model and Meyer Capacitance Model** _(p.38–40)_ <a id="level-6-mosfet-model-and-meyer-capacitance-model"></a>
+  - The Mos6 model [2] is a simple analytic model that is accurate in the short-channel region. l and w are the channel length and width. ad and as are the areas of the drain and source diffusions. pd and ps are the perimeters of the drain a...
+  - _Keywords:_ double, source, voltage, junction, capacitance, Bulk, resistance, Drain
+- **Berkeley Short-Channel IGFET Model (BSIM1)** _(p.41)_ <a id="berkeley-short-channel-igfet-model-bsim1"></a>
+  - The BSIM1 model [3][4][5] is a Berkeley short-channel IGFET model. In SPICE, this model is sometimes called a level 4 MOSFET model. l and w are the channel length and width. ad and as are the areas of the drain and source diffusions. pd ...
+  - _Keywords:_ double, dependence, Length, Width, source, Source, channel, voltage
+- **Berkeley Short-Channel IGFET Model (BSIM2)** _(p.45)_ <a id="berkeley-short-channel-igfet-model-bsim2"></a>
+  - The BSIM2 model [6] is a Berkeley short-channel IGFET model. In SPICE, this model is sometimes called a level 5 MOSFET model. l and w are the channel length and width. ad and as are the areas of the drain and source diffusions. pd and ps...
+  - _Keywords:_ double, dependence, Length, Width, source, Source, voltage, capacitance
+- **Berkeley Short-Channel IGFET Model Version 3 (BSIM3)** _(p.51–65)_ <a id="berkeley-short-channel-igfet-model-version-3-bsim3"></a>
+  - The BSIM3 model is the latest physics-based MOSFET SPICE model for circuit simulation and CMOS technology development. In SPICE, this model is also called a level 8 MOSFET model.
+  - _Keywords:_ double, dependence, Width, Length, Cross, coefficient, effect, reduction
+- **Berkeley Short-Channel IGFET Model Version 4 (BSIM4)** _(p.66–91)_ <a id="berkeley-short-channel-igfet-model-version-4-bsim4"></a>
+  - The BSIM4 model is the fourth version of the Berkeley IGFET model for SPICE.
+  - _Keywords:_ double, dependence, Width, Length, Cross, coefficient, junction, integer
+- **BSIMPD2.2 MOSFET Model** _(p.91–110)_ <a id="bsimpd2-2-mosfet-model"></a>
+  - The BSIMPD2.2 model is a partially depleted silicon-on-insulator MOSFET model.
+  - _Keywords:_ double, dependence, Length, Width, Cross, coefficient, current, length
+- **Non-MOSFET Transistors and Diodes** _(p.110–112)_ <a id="non-mosfet-transistors-and-diodes"></a>
+  - The non-MOSFET transistor and diode models discussed in this section include:
+  - _Keywords:_ Junction, Transistor, MOSFET, transistor, models, discussed, include, Diode
+- **Diode** _(p.112)_ <a id="diode"></a>
+  - The diode model can be used for either junction diodes or Schottky barrier diodes.
+  - _Keywords:_ double, temperature, current, voltage, determined, breakdown, Diode, coefficient
+- **Bipolar Junction Transistor** _(p.113–115)_ <a id="bipolar-junction-transistor"></a>
+  - The bipolar junction transistor (BJT) model is based on the integral charge model of Gummel and Poon. However, if the Gummel–Poon parameters are not specified, the model reduces to the simpler Ebers–Moll model. In either case, charge sto...
+  - _Keywords:_ double, current, collector, emitter, junction, temperature, redundant, Base
+- **Junction Field Effect Transistor** _(p.115–117)_ <a id="junction-field-effect-transistor"></a>
+  - The junction field effect transistor (JFET) model is derived from the FET model of Shichman and Hodges. The DC characteristics are defined by the following parameters:
+  - _Keywords:_ double, junction, voltage, JFET, Gate, source, current, Ohmic
+- **GaAs MESFET** _(p.117–119)_ <a id="gaas-mesfet"></a>
+  - This model is derived from the GaAs FET model [12]. The DC characteristics are defined by the following parameters:
+  - _Keywords:_ double, mathrm, voltage, source, lambda, Gate, MESFET, junction
+- **References** _(p.119–121)_ <a id="references"></a>
+  - [1] A. Vladimirescu and S. Liu, The Simulation of MOS Integrated Circuits Using SPICE2, Memorandum UCB/ERL M80/7, Electronics Research Laboratory, University of California, Berkeley, CA, USA, February 1980. [2] T. Sakurai and A. R. Newto...
+  - _Keywords:_ University, California, Berkeley, USA, Memorandum, UCB, ERL, Electronics
+- **Overview of Available Models** _(p.121–122)_ <a id="overview-of-available-models"></a>
+  - The following HSPICE MOS models are available:
+  - _Keywords:_ Level, HSPICE, define, models, IDS, STARC, HiSIM, MOSFET
+- **Level 1 IDS: Shichman–Hodges Model** _(p.122)_ <a id="level-1-ids-shichman-hodges-model"></a>
+  - Device name: HMOS\_L1
+  - _Keywords:_ Device, HMOS, Electrodes, Drain, Gate, Source, Bulk
+- **Level 2 IDS: Grove–Frohman Model** <a id="level-2-ids-grove-frohman-model"></a>
+  - Device name: HMOS\_L2
+  - _Keywords:_ Device, HMOS, Electrodes, Drain, Gate, Source, Bulk
+- **Level 3 IDS: Empirical Model** <a id="level-3-ids-empirical-model"></a>
+  - Device name: HMOS\_L3
+  - _Keywords:_ Device, HMOS, Electrodes, Drain, Gate, Source, Bulk
+- **Level 28 Modified BSIM Model** <a id="level-28-modified-bsim-model"></a>
+  - Device name: HMOS\_L28
+  - _Keywords:_ Device, HMOS, _L28, Electrodes, Drain, Gate, Source, Bulk
+- **Level 49 BSIM3v3 MOS Model** _(p.123)_ <a id="level-49-bsim3v3-mos-model"></a>
+  - Device name: HMOS\_L49
+  - _Keywords:_ Device, HMOS, _L49, Electrodes, Drain, Gate, Source, Bulk
+- **Level 53 BSIM3v3 MOS Model** _(p.123)_ <a id="level-53-bsim3v3-mos-model"></a>
+  - Device name: HMOS\_L53
+  - _Keywords:_ Device, HMOS, _L53, Electrodes, Drain, Gate, Source, Bulk
+- **Level 54 BSIM4 Model** <a id="level-54-bsim4-model"></a>
+  - Not all model selectors are supported. The following restrictions must be observed:
+  - _Keywords:_ supported, Use, resistance, NQS, models, selectors, restrictions, observed
+- **Level 57 UC Berkeley BSIM3-SOI Model** <a id="level-57-uc-berkeley-bsim3-soi-model"></a>
+  - Device name: HMOS\_L57
+  - _Keywords:_ Device, HMOS, _L57, Electrodes, Drain, Gate, Source, Backgate
+- **Level 59 UC Berkeley BSIM3-SOI Fully Depleted (FD) Model** _(p.124)_ <a id="level-59-uc-berkeley-bsim3-soi-fully-depleted-fd-model"></a>
+  - Device name: HMOS\_L59
+  - _Keywords:_ Device, HMOS, _L59, Electrodes, Drain, Gate, Source, Backgate
+- **Level 61 RPI a-Si TFT Model** _(p.124)_ <a id="level-61-rpi-a-si-tft-model"></a>
+  - The bulk node is currently not used by the model. It can simply be connected to the ground.
+  - _Keywords:_ currently, simply, connected, ground, Device, HMOS, _L61, Electrodes
+- **Level 62 RPI Poly-Si TFT Model** <a id="level-62-rpi-poly-si-tft-model"></a>
+  - The bulk node is currently not used by the model. It can simply be connected to the ground.
+  - _Keywords:_ currently, simply, connected, ground, Device, HMOS, _L62, Electrodes
+- **Level 64 STARC HiSIM Model** <a id="level-64-starc-hisim-model"></a>
+  - Device name: HMOS\_L64
+  - _Keywords:_ Device, HMOS, _L64, Electrodes, Drain, Gate, Source, Bulk
+- **Level 68 STARC HiSIM2 Model** <a id="level-68-starc-hisim2-model"></a>
+  - Device name: HMOS\_L68
+  - _Keywords:_ Device, HMOS, _L68, Electrodes, Drain, Gate, Source, Bulk
+- **Level 69 PSP100 DFM Support Series Model** <a id="level-69-psp100-dfm-support-series-model"></a>
+  - Device name: HMOS\_L69
+  - _Keywords:_ Device, HMOS, _L69, Electrodes, Drain, Gate, Source, Bulk
+- **Level 72 BSIM-CMG Multigate MOSFET Model** _(p.125)_ <a id="level-72-bsim-cmg-multigate-mosfet-model"></a>
+  - The charge segmentation model (nqsmod=3) is not supported.
+  - _Keywords:_ charge, segmentation, nqsmod, supported, Device, HMOS, _L72, Electrodes
+- **Level 73 STARC HiSIM-LDMOS/HiSIM-HV Model** <a id="level-73-starc-hisim-ldmos-hisim-hv-model"></a>
+  - Device name: HMOS\_L73
+  - _Keywords:_ Device, HMOS, _L73, Electrodes, Drain, Gate, Source, Bulk
+- **Level 76: LETI-UTSOI MOSFET Model** _(p.127)_ <a id="level-76-leti-utsoi-mosfet-model"></a>
+  - Device name: HMOS\_L76
+  - _Keywords:_ Device, HMOS, _L76, Electrodes, Drain, Gate, Source, Bulk
+- **Parameter Interface Model** _(p.127–128)_ <a id="parameter-interface-model"></a>
+  - The parameter interface is a model that acts as an interface to the parameters of other compact models. It feeds voltages or temperatures as parameters into compact models, that is, the parameter interface ensures that a parameter in a c...
+  - _Keywords:_ interface, temperature, models, variable, double, compact, system, required
+- **SPICE Temperature Interface Model** _(p.128–129)_ <a id="spice-temperature-interface-model"></a>
+  - This model is used to couple the temperature of a thermode to the internal temperature of all SPICE instances. Modifications of the thermode temperature trigger a modification of the internal temperature parameter of all SPICE instances ...
+  - _Keywords:_ temperature, SPICE, double, instances, coefficient, thermode, internal, offset
+- **Electrothermal Resistor (Ter) Model** _(p.129–130)_ <a id="electrothermal-resistor-ter-model"></a>
+  - The built-in model Ter simulates electrothermal resistance. This device has three contacts (two electrodes and one thermode):
+  - _Keywords:_ temperature, double, resistance, device, thermode, Ter, electrothermal, details
+- **MOS Harness Model** _(p.130–131)_ <a id="mos-harness-model"></a>
+  - A standard MOSFET compact model uses four electrodes (drain, gate, source, bulk) to describe its electrical behavior. To use such a model in an electrothermal simulation, it is preferable to capture its power as well. The power generated...
+  - _Keywords:_ mathrm, MOSFET, thermal, circuit, electrodes, compact, source, generated
+- **Example** _(p.131–132)_ <a id="example"></a>
+  - The following Sentaurus Device simulation ramps the gate voltage of an HSPICE Level 1 NMOSFET from 0 V to 5 V. The temperature at the node tmos is determined by:
+  - _Keywords:_ harness, simulation, NMOSFET, resistance, Vsource_pset, Sentaurus, Device, voltage
+- **Ferroelectric Capacitor Model** _(p.132–134)_ <a id="ferroelectric-capacitor-model"></a>
+  - The Landau–Khalatnikov equation [1][2] is the standard equation for ferroelectric modeling and it reads:
+  - _Keywords:_ double, ferroelectric, mathrm, partial, equation, convergence, mathsf, capacitor
+- **Example** _(p.134–135)_ <a id="example"></a>
+  - The following example solves the $\mathrm { I _ { d } { - } V _ { g } }$ curve and the $\mathrm { Q - V _ { g } }$ (P–E) curve for an NMOSFET based on the BSIM4 model. The gate of the NMOS is connected to the ferroelectric capacitor. Fer...
+  - _Keywords:_ ferroelectric, mathrm, voltage, source, NMOS, Coupled, Circuit, Transient
+- **References** _(p.135–137)_ <a id="references"></a>
+  - [1] G. Pahwa et al., “Analysis and Compact Modeling of Negative Capacitance Transistor with High ON-Current and Negative Output Differential Resistance—Part I: Model Description,” IEEE Transactions on Electron Devices, vol. 63, no. 12, p...
+  - _Keywords:_ Negative, Compact, Capacitance, Model, Pahwa, Analysis, Modeling, Transistor
+- **Introduction** _(p.137)_ <a id="introduction"></a>
+  - Sentaurus Device provides a compact model interface (CMI) for user-defined compact models. The models are implemented in C++ and are linked to Sentaurus Device at runtime. No access to the source code of Sentaurus Device is necessary.
+  - _Keywords:_ Sentaurus, Device, compact, CMI, interface, models, structure, provides
+- **Analytical Description of CMI Models** <a id="analytical-description-of-cmi-models"></a>
+  - This section describes how to present your CMI model analytically and how this description is used in the simulator.
+  - _Keywords:_ describes, present, CMI, analytically, description, simulator
+- **Sentaurus Device Analysis Methods** _(p.138)_ <a id="sentaurus-device-analysis-methods"></a>
+  - Sentaurus Device supports several analysis methods, namely, DC, transient, AC, noise, and harmonic balance (HB), which require different CMI functions.
+  - _Keywords:_ CMI, MDFT, analysis, Sentaurus, Device, STD, simulations, supports
+- **Time-Domain Model Equations** _(p.138–139)_ <a id="time-domain-model-equations"></a>
+  - Sentaurus Device solves differential algebraic systems of the form:
+  - _Keywords:_ vector, mathsf, Sentaurus, Device, variables, electrode, thermode, varsigma
+- **4: Compact Model Interface in Sentaurus Device** <a id="4-compact-model-interface-in-sentaurus-device"></a>
+  - Analytical Description of CMI Models
+  - _Keywords:_ called, Sentaurus, Device, Analytical, Description, CMI, Models, transient
+- **Example: Coupled Inductance** <a id="example-coupled-inductance"></a>
+  - As an example, consider a coupled inductance:
+  - _Keywords:_ coupled, inductance, details, summary, equations, consider, images, cm_ug_f6ca9f3d4bef1899768e954c54dd000a1ead5de3199d6fdcbea669de146c7f9c
+- **Frequency-Domain Model Equations** <a id="frequency-domain-model-equations"></a>
+  - Using the time-domain model equations as a starting point, the harmonic balance analysis (HB-MDFT) is used to solve ordinary differential equations of the following form in the frequency domain:
+  - _Keywords:_ domain, equation, mathrm, equations, Fourier, represents, valued, complex
+- **State Variables and Parameters** <a id="state-variables-and-parameters"></a>
+  - Each compact model can also have internal state variables, which can be used to hold auxiliary information associated with the current operating point. However, Sentaurus Device does not provide direct support for state variables, and th...
+  - _Keywords:_ during, compact, variables, simulation, internal, auxiliary, information, associated
+- **Plotting During Transient Simulations** <a id="plotting-during-transient-simulations"></a>
+  - Special attention is needed for plotting the electrode currents of compact models during transient simulations. When Sentaurus Device plots the current flowing from an electrode into a compact model, it evaluates only the function $f ( t...
+  - _Keywords:_ electrode, currents, compact, Sentaurus, Device, current, plotting, during
+- **Hierarchical Description of CMI Models** <a id="hierarchical-description-of-cmi-models"></a>
+  - This section describes the hierarchy of compact models.
+  - _Keywords:_ describes, hierarchy, compact, models
+- **Device, Parameter Set, and Instance** <a id="device-parameter-set-and-instance"></a>
+  - In Sentaurus Device, each compact model is described by a three-level hierarchy:
+  - _Keywords:_ compact, Device, Sentaurus, device, internal, derived, defined, Instances
+- **Compact Circuit Files (.ccf)** <a id="compact-circuit-files-ccf"></a>
+  - For example, the model of a coupled inductance can be described by the compact circuit file:
+  - _Keywords:_ inductance, voltage, double, coupled, DEVICE, END, PSET, ELECTRODES
+- **C++ Interface for CMI Models** <a id="c-interface-for-cmi-models"></a>
+  - This section presents the C++ interface used to integrate CMI models into the simulator and provides descriptions of C++ classes representing a device, a parameter set, and an instance of your model.
+  - _Keywords:_ presents, interface, integrate, CMI, models, simulator, provides, descriptions
+- **Data Structure for Device, Parameter Set, and Instance** <a id="data-structure-for-device-parameter-set-and-instance"></a>
+  - The class CCMBaseParam stores the parameters of devices, parameter sets, and instances.
+  - _Keywords:_ CCMBaseParam, devices, instances, within, compact, device, memory, strings
+- **Header Files** <a id="header-files"></a>
+  - The following header files are available for the implementation of compact models. These files are also in the directory \$STROOT/tcad/\$STRELEASE/lib/scm/include.
+  - _Keywords:_ header, available, implementation, compact, models, These, directory, STROOT
+- **CCMBaseDevice.h** <a id="ccmbasedevice-h"></a>
+  - class CCMBaseDevice {
+  - _Keywords:_ internal, variables, CCMBaseDevice, device, w_num_electrodes, w_num_thermodes, w_num_internals, w_num_variables
+- **CCMBaseInstance.h** <a id="ccmbaseinstance-h"></a>
+  - class CCMBaseInstance {
+  - _Keywords:_ CCMBaseInstance, protected
+- **4: Compact Model Interface in Sentaurus Device** <a id="4-compact-model-interface-in-sentaurus-device"></a>
+  - C++ Interface for CMI Models
+  - _Keywords:_ CCMBaseParam, internal, variables, friend, operator, instance, w_num_electrodes, w_num_thermodes
+- **4: Compact Model Interface in Sentaurus Device** <a id="4-compact-model-interface-in-sentaurus-device"></a>
+  - C++ Interface for CMI Models
+  - _Keywords:_ operator, CCMBaseParam, vector, defined, CCMBaseParam_Index_Holder_read_write, double, friend, CCMBaseParam_Index_Holder_read
+- **4: Compact Model Interface in Sentaurus Device** <a id="4-compact-model-interface-in-sentaurus-device"></a>
+  - C++ Interface for CMI Models
+  - _Keywords:_ CCMBasePSet, internal, variables, w_num_electrodes, w_num_thermodes, w_num_internals, w_num_variables, CCMBaseDevice
+- **Compilation of C++ (.C) Files** <a id="compilation-of-c-c-files"></a>
+  - Sentaurus Device tries to load the code of a compact model from an external shared object file. The file name of the shared object file must be identical to the name of the device, and the file extension must be .so.arch, where arch depe...
+  - _Keywords:_ compiler, version, object, Sentaurus, shared, invoked, Synopsys, TCAD
+- **Functions of CMI Models** <a id="functions-of-cmi-models"></a>
+  - Each user-defined compact model must implement a set of well-defined CMI functions. These functions support the creation, deletion, and initialization of devices, parameter sets, and instances. Furthermore, they support the numeric solut...
+  - _Keywords:_ CMI, defined, compact, These, support, instances, header, CMIModels
+- **cmi\_device\_create** <a id="cmi-device-create"></a>
+  - void cmi\_device\_create (CCMBaseDevice\*const device);
+  - _Keywords:_ device, _device, CCMBaseDevice, called, whenever, _param, CCMBaseParam, _initialize
+- **cmi\_pset\_create** <a id="cmi-pset-create"></a>
+  - ```txt void cmi_pset_create (CCMBasePSet*const pset); ```
+  - _Keywords:_ cmi_pset_create, CCMBasePSet, called, whenever, created, initializes, variable
+- **cmi\_pset\_set\_param** <a id="cmi-pset-set-param"></a>
+  - ```c void cmi_pset_set_param (CCMBasePSet*const pset, const CCMBaseParam*const param); ```
+  - _Keywords:_ cmi_pset_set_param, CCMBasePSet, CCMBaseParam, assigns, called, several, before, _initialize
+- **cmi\_pset\_initialize** <a id="cmi-pset-initialize"></a>
+  - ```txt void cmi_pset_initialize (CCMBasePSet*const pset); ```
+  - _Keywords:_ cmi_pset_initialize, CCMBasePSet, always, invoked, changed, compute, auxiliary, variables
+- **cmi\_pset\_get\_param** <a id="cmi-pset-get-param"></a>
+  - ```c void cmi_pset_get_param (CCMBasePSet*const pset, CCMBaseParam*const param); ```
+  - _Keywords:_ cmi_pset_get_param, CCMBasePSet, CCMBaseParam, retrieves, identified, result, stored
+- **cmi\_pset\_delete** <a id="cmi-pset-delete"></a>
+  - ```txt void cmi_pset_delete (CCMBasePSet*const pset); ```
+  - _Keywords:_ cmi_pset_delete, CCMBasePSet, called, whenever, deleted, presents, opportunity, release
+- **cmi\_instance\_create** <a id="cmi-instance-create"></a>
+  - ```txt void cmi_instance_create (CCMBaseInstance*const instance); ```
+  - _Keywords:_ instance, cmi_instance_create, CCMBaseInstance, called, whenever, created, initializes, variable
+- **cmi\_instance\_set\_param** <a id="cmi-instance-set-param"></a>
+  - ```c void cmi_instance_set_param (CCMBaseInstance*const instance, const CCMBaseParam*const param); ```
+  - _Keywords:_ instance, cmi_instance_set_param, CCMBaseInstance, CCMBaseParam, assigns, called, several, before
+- **cmi\_instance\_initialize** <a id="cmi-instance-initialize"></a>
+  - ```txt void cmi_instance_initialize (CCMBaseInstance*const instance); ```
+  - _Keywords:_ variables, instance, double, CCMBaseInstance, NumberVariables, _instance, result, stored
+- **cmi\_instance\_is\_physical** <a id="cmi-instance-is-physical"></a>
+  - ```c int cmi_instance_is_physical (CCMBaseInstance*const instance, const double time, const double*const variables); ```
+  - _Keywords:_ variables, simulation, instance, double, cmi_instance_is_physical, CCMBaseInstance, determines, whether
+- **cmi\_instance\_delete** <a id="cmi-instance-delete"></a>
+  - ```txt void cmi_instance_delete (CCMBaseInstance*const instance); ```
+  - _Keywords:_ instance, cmi_instance_delete, CCMBaseInstance, called, whenever, deleted, presents, opportunity
+- **cmi\_instance\_get\_hb\_rhs** <a id="cmi-instance-get-hb-rhs"></a>
+  - ```c void cmi_instance_get_hb_rhs ( CCMBaseInstance*const instance, int nb_spectrum_indices, const CMI_MODEL_complex_type*const*const hb_variables, CMI_MODEL_complex_type*const*const rhs); ```
+  - _Keywords:_ instance, CCMBaseInstance, CMI_MODEL_complex_type, double, CCMBaseParam, _spectrum, _indices, CCMBaseDevice
+- **Runtime Support** <a id="runtime-support"></a>
+  - Sentaurus Device provides functions to support the operation of compact models. The functions control the progress of an ongoing simulation.
+  - _Keywords:_ Sentaurus, Device, provides, support, operation, compact, models, control
+- **cmi\_starttime** <a id="cmi-starttime"></a>
+  - ```txt double cmi_starttime(); ```
+  - _Keywords:_ double, cmi_starttime, transient, simulation
+- **cmi\_stoptime** <a id="cmi-stoptime"></a>
+  - ```txt double cmi_stoptime (); ```
+  - _Keywords:_ double, cmi_stoptime, transient, simulation
+- **cmi\_min\_timestep** <a id="cmi-min-timestep"></a>
+  - ```txt double cmi_min_timestep(); ```
+  - _Keywords:_ double, cmi_min_timestep, minimum, Sentaurus, Device, during, transient, simulation
+- **cmi\_max\_timestep** <a id="cmi-max-timestep"></a>
+  - ```txt double cmi_max_timestep(); ```
+  - _Keywords:_ double, cmi_max_timestep, maximum, Sentaurus, Device, during, transient, simulation
+- **cmi\_set\_event** <a id="cmi-set-event"></a>
+  - ```c void cmi_set_event (const double time); ```
+  - _Keywords:_ cmi_set_event, double, informs, Sentaurus, Device, synchronize, during, transient
+- **cmi\_set\_max\_timestep** <a id="cmi-set-max-timestep"></a>
+  - ```txt void cmi_set_max_timestep (const double stepsize); ```
+  - _Keywords:_ cmi_set_max_timestep, double, stepsize, limits, Sentaurus, Device, during, transient
+- **cmi\_hb\_spectrum\_nb\_basefrequencies** <a id="cmi-hb-spectrum-nb-basefrequencies"></a>
+  - ```txt int cmi_hb_spectrum_nb_basefrequencies(); ```
+  - _Keywords:_ cmi_hb_spectrum_nb_basefrequencies, frequencies, spectrum
+- **cmi\_hb\_spectrum\_index\_frequency** <a id="cmi-hb-spectrum-index-frequency"></a>
+  - ```txt double cmi_hb_spectrum_index_frequency ( int index ); ```
+  - _Keywords:_ double, cmi_hb_spectrum_index_frequency, frequency, associated, spectrum, component
+- **cmi\_hb\_spectrum\_index\_circfrequency** <a id="cmi-hb-spectrum-index-circfrequency"></a>
+  - ```sql double cmi_hb_spectrum_index_circfrequency (int index); ```
+  - _Keywords:_ double, cmi_hb_spectrum_index_circfrequency, circular, frequency, associated, spectrum, component
+- **cmi\_hb\_spectrum\_index\_multiindex** <a id="cmi-hb-spectrum-index-multiindex"></a>
+  - void cmi\_hb\_spectrum\_index\_multiindex ( int index, int\* multiindex );
+  - _Keywords:_ _spectrum, _index, multiindex, spectrum, _multiindex, frequency, component, _frequency
+- **cmi\_hb\_spectrum\_parameters** <a id="cmi-hb-spectrum-parameters"></a>
+  - void cmi\_hb\_spectrum\_parameters ( double\* basefrequencies, int\* nb\_harmonics );
+  - _Keywords:_ _spectrum, basefrequencies, _harmonics, _parameters, double, frequencies, maximum, harmonics
+- **CMISupport.h** <a id="cmisupport-h"></a>
+  - ```txt double cmi_starttime (); // Returns the starttime of a transient simulation.
+  - _Keywords:_ double, spectrum, transient, simulation, stepsize, Sentaurus, Device, during
+- **Command File of Sentaurus Device** <a id="command-file-of-sentaurus-device"></a>
+  - To load external compact models into Sentaurus Device, the search path CMIPath must be defined in the File section of the command file of Sentaurus Device. The value of CMIPath consists of a sequence of directories, for example:
+  - _Keywords:_ compact, CMIPath, models, Sentaurus, Device, directories, extension, System
+- **Electrothermal Models** <a id="electrothermal-models"></a>
+  - In Sentaurus Device, circuit nodes are electrical by default. This means that their values are assumed to be voltages. However nodes can also be declared to be thermal, in which case, their values correspond to temperatures [K]. Electric...
+  - _Keywords:_ thermal, electrical, Circuit, equations, circuit, TCircuit, restriction, solved
+- **Summary** <a id="summary"></a>
+  - To add external compact models to Sentaurus Device:
+  - _Keywords:_ compact, Sentaurus, Device, device, Define, internal, compute, variable
+- **Example: Implementing Coupled Inductances** <a id="example-implementing-coupled-inductances"></a>
+  - This section shows the implementation of coupled inductances as a compact model.
+  - _Keywords:_ inductances, Coupled, implementation, coupled, compact, available, SPICE, models
+- **Model Equations** <a id="model-equations"></a>
+  - See Example: Coupled Inductance on page 131.
+  - _Keywords:_ double, include, strcmp, coupled, voltage, CCMBaseParam, DEVICE, inductance
+- **4: Compact Model Interface in Sentaurus Device** <a id="4-compact-model-interface-in-sentaurus-device"></a>
+  - Example: Implementing Coupled Inductances
+  - _Keywords:_ extern, device, Instance, instance, Device, PSet, CCMBaseParam, CCMBaseDevice
+- **4: Compact Model Interface in Sentaurus Device** <a id="4-compact-model-interface-in-sentaurus-device"></a>
+  - Example: Implementing Coupled Inductances
+  - _Keywords:_ jacobian, variables, double, instance, define, Instance, extern, CCMBaseInstance
+- **Example: Implementing the Electrothermal Resistor Model** <a id="example-implementing-the-electrothermal-resistor-model"></a>
+  - This section presents the equations for the electrothermal resistor model.
+  - _Keywords:_ presents, equations, electrothermal, resistor, available, Sentaurus, Device, Electrothermal
+- **Model Equations** <a id="model-equations"></a>
+  - An electrothermal resistance has three contacts (two electrodes and one thermode):
+  - _Keywords:_ device, thermode, resistance, through, electrodes, details, summary, described
+- **tres.ccf** _(p.140–173)_ <a id="tres-ccf"></a>
+  - ```txt DEVICE tres ELECTRODES u1 // input voltage 1 u2 // input voltage 2 THERMODES t1 // thermode for Joule heat INTERNALS i // current through resistor PARAMETERS ```
+  - _Keywords:_ extern, device, double, CCMBaseParam, strcmp, Device, PSet, temperature
+- **4: Compact Model Interface in Sentaurus Device** _(p.176)_ <a id="4-compact-model-interface-in-sentaurus-device"></a>
+  - Example: Implementing the Electrothermal Resistor Model
+  - _Keywords:_ instance, double, Instance, jacobian, extern, CCMBaseInstance, variables, instance_desc
+- **CMI Models With Frequency-Domain Assembly** _(p.179–180)_ <a id="cmi-models-with-frequency-domain-assembly"></a>
+  - This section describes the provided CMI models suitable for the HB-MDFT mode.
+  - _Keywords:_ domain, denoted, letters, voltage, electrode, describes, provided, CMI
+- **Admittance sd\_hb\_pGC** _(p.180–181)_ <a id="admittance-sd-hb-pgc"></a>
+  - The device sd\_hb\_pGC describes the behavior of a (real-valued) conductance in parallelG with a (real-valued) capacitance .C
+  - _Keywords:_ Device, valued, device, _pGC, describes, behavior, conductance, parallelG
+- **Transient Equation:** _(p.181)_ <a id="transient-equation"></a>
+  - $$ i _ {1} (t) - \left[ G u _ {1 2} (t) + C \dot {u} _ {1 2} \right] = 0 \tag {48} $$
+- **DC Equation:** <a id="dc-equation"></a>
+  - $$ i _ {1} - G u _ {1 2} = 0 \tag {49} $$
+- **HB Equation:** <a id="hb-equation"></a>
+  - For each frequency $f \geq 0$ , you have:
+  - _Keywords:_ frequency, mathrm
+- **Impedance sd\_hb\_sRL** <a id="impedance-sd-hb-srl"></a>
+  - The device sd\_hb\_sRL describes the behavior of a (real-valued) resistance in series with aR (real-valued) inductance .L
+  - _Keywords:_ Device, device, valued, _sRL, describes, behavior, resistance, series
+- **Transient Equation:** <a id="transient-equation"></a>
+  - $$ [ R i _ {1} (t) + L \dot {i} _ {1} (t) ] - u _ {1 2} (t) = 0 \tag {51} $$
+- **DC Equation:** <a id="dc-equation"></a>
+  - $$ R i _ {1} - u _ {1 2} = 0 \tag {52} $$
+- **HB Equation:** <a id="hb-equation"></a>
+  - For each frequency $f \geq 0$ , you have:
+  - _Keywords:_ frequency, mathrm
+- **Harmonic Voltage Source sd\_hb\_vsource** _(p.182)_ <a id="harmonic-voltage-source-sd-hb-vsource"></a>
+  - The device sd\_hb\_vsource represents a harmonic voltage source. It can operate in different modes selected by the dcmode parameter:
+  - _Keywords:_ dcmode, device, voltage, Device, mathrm, source, transient, Phi
+- **Transient Equations:** _(p.182)_ <a id="transient-equations"></a>
+  - $$ u _ {1 2} (t) - V _ {0} = 0 \quad \text { if } \mathrm{dcmode} = 0 $$
+  - _Keywords:_ dcmode, mathrm, omega_
+- **DC Equations:** <a id="dc-equations"></a>
+  - $$ u _ {1 2} - V _ {0} = 0 \quad \text { if } \mathrm{dcmode} = 0 $$
+  - _Keywords:_ dcmode, mathrm
+- **HB Equations:** <a id="hb-equations"></a>
+  - $$ U _ {1 2} (f) - V _ {0} = 0 \quad \text { for } f = 0 $$
+- **Harmonic Current Source sd\_hb\_isource** _(p.183)_ <a id="harmonic-current-source-sd-hb-isource"></a>
+  - The device sd\_hb\_isource represents a harmonic current source.
+  - _Keywords:_ Device, mathrm, harmonic, current, source, _vsource, device, _isource
+- **Transient Equations:** _(p.183)_ <a id="transient-equations"></a>
+  - $$ i _ {1} (t) - I _ {0} = 0 \quad \text { if dcmode } = 0 $$
+  - _Keywords:_ dcmode, omega_
+- **DC Equations:** <a id="dc-equations"></a>
+  - $$ i _ {1} - I _ {0} = 0 \quad \text { if dcmode } = 0 $$
+  - _Keywords:_ dcmode
+- **HB Equations:** <a id="hb-equations"></a>
+  - $$ I _ {1} (f) - I _ {0} = 0 \quad \mathrm{for} f = 0 $$
+  - _Keywords:_ mathrm
+- **Multitone Voltage Source sd\_hb\_vsource2** _(p.184)_ <a id="multitone-voltage-source-sd-hb-vsource2"></a>
+  - The device sd\_hb\_vsource2 represents a multitone voltage source with two tones. It is an extension of the harmonic voltage source sd\_hb\_vsource (see Harmonic Voltage Source sd\_hb\_vsource on page 171) to two-tone HB analysis by allo...
+  - _Keywords:_ voltage, Device, second, device, source, _vsource, Frequency, Magnitude
+- **Transient Equations:** _(p.184)_ <a id="transient-equations"></a>
+  - $$ u _ {1 2} (t) - V _ {0} = 0 \quad \mathrm{if} \mathrm{dcmode} = 0 $$
+  - _Keywords:_ mathrm, dcmode, omega_
+- **DC Equations:** <a id="dc-equations"></a>
+  - $$ u _ {1 2} - V _ {0} = 0 \quad \text { if } \mathrm{dcmode} = 0 $$
+  - _Keywords:_ dcmode, mathrm
+- **HB Equations:** <a id="hb-equations"></a>
+  - $$ U _ {1 2} (f) - V _ {0} = 0 \quad \text { for } f = 0 $$
+- **Multitone Current Source sd\_hb\_isource2** _(p.185)_ <a id="multitone-current-source-sd-hb-isource2"></a>
+  - The device sd\_hb\_isource2 represents a multitone current source with two tones. It is derived in analogy to the multitone voltage source sd\_hb\_vsource2 (see Multitone Voltage Source sd\_hb\_vsource2 on page 173).
+  - _Keywords:_ Device, second, multitone, current, source, _vsource2, Frequency, Magnitude
+- **Transient Equations:** _(p.185)_ <a id="transient-equations"></a>
+  - $$ i _ {1} (t) - I _ {0} = 0 \quad \mathrm{if} \mathrm{dcmode} = 0 $$
+  - _Keywords:_ mathrm, dcmode, omega_
+- **DC Equations:** <a id="dc-equations"></a>
+  - $$ i _ {1} - I _ {0} = 0 \quad \text { if dcmode } = 0 $$
+  - _Keywords:_ dcmode
+- **HB Equations:** _(p.186)_ <a id="hb-equations"></a>
+  - $$ I _ {1} (f) - I _ {0} = 0 \quad \text { for } f = 0 $$
+- **Syntax of Compact Circuit (.ccf) Files** _(p.186)_ <a id="syntax-of-compact-circuit-ccf-files"></a>
+  - The grammar of a compact circuit file can be defined in Backus–Naur form (BNF). The symbol denotes empty production. Terminal symbols are in Courier font. Identifiers are sequencesε of letters and digits. The first character must be a le...
+  - _Keywords:_ Descriptors, SimpleType, Identifier, Device, Instance, DeviceElectrode, ParamName, PSet
+- **4: Compact Model Interface in Sentaurus Device** _(p.188)_ <a id="4-compact-model-interface-in-sentaurus-device"></a>
+  - Syntax of Compact Circuit (.ccf) Files
+  - _Keywords:_ Identifier, ScalarValue, ParamValue, Integer, END, PSET, PSetName, PSetParamList
+- **4: Compact Model Interface in Sentaurus Device** _(p.190)_ <a id="4-compact-model-interface-in-sentaurus-device"></a>
+  - Syntax of Compact Circuit (.ccf) Files
+  - _Keywords:_ factor, Scaling, enclosed, quotation, sequence, Real, Syntax, Compact

@@ -1,0 +1,283 @@
+# solvers_ug — outline
+
+Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
+
+- **Solvers User Guide** _(p.1)_ <a id="solvers-user-guide"></a>
+  - Version O-2018.06, June 2018
+  - _Keywords:_ Version, June
+- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
+  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
+  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+- **Disclaimer** <a id="disclaimer"></a>
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+- **Trademarks** <a id="trademarks"></a>
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html. All other product or company names may be trademarks of their respective owners.
+  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+- **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
+  - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
+  - _Keywords:_ applicable, Free, Open, Source, Software, FOSS, licensing, notices
+- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
+  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+- **About This Guide v** _(p.3)_ <a id="about-this-guide-v"></a>
+  - Related Publications . .
+  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
+- **Part I PARDISO 1** <a id="part-i-pardiso-1"></a>
+- **Chapter 1 Using PARDISO 3** <a id="chapter-1-using-pardiso-3"></a>
+  - Algorithms . . .
+  - _Keywords:_ Selecting, PARDISO, Sentaurus, Algorithms, Parallel, Solution, Shared, Memory
+- **Part II SUPER 11** <a id="part-ii-super-11"></a>
+- **Chapter 2 Using SUPER 13** <a id="chapter-2-using-super-13"></a>
+  - Features of the SUPER Solver . . . 13
+  - _Keywords:_ SUPER, Features, Solver, Customizing, superrc, Grammar, Language, References
+- **Chapter 3 Implementing SUPER 17** _(p.4)_ <a id="chapter-3-implementing-super-17"></a>
+  - Algorithms . . . 17
+  - _Keywords:_ _supernode, Algorithm, Algorithms, column, Factorization, Numeric, Supernode, Multiple
+- **Part III ILS** <a id="part-iii-ils"></a>
+  - 41
+- **Chapter 4 Using ILS 43** <a id="chapter-4-using-ils-43"></a>
+  - Features of the ILS Solver . . . 43
+  - _Keywords:_ ILS, Selecting, Sentaurus, Features, Solver, Device, ILSrc, Statement
+- **Chapter 5 Customizing ILS 51** _(p.5)_ <a id="chapter-5-customizing-ils-51"></a>
+  - Configuration of ILS . . . 51
+  - _Keywords:_ Preconditioners, Sentaurus, Iterative, Methods, Ordering, solvers, Synopsys, Configuration
+- **Related Publications** _(p.5)_ <a id="related-publications"></a>
+  - For additional information, see:
+  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
+- **Conventions** <a id="conventions"></a>
+  - The following conventions are used in Synopsys documentation.
+  - _Keywords:_ Identifies, screen, identifies, conventions, Synopsys, documentation, Convention, Description
+- **Customer Support** _(p.6)_ <a id="customer-support"></a>
+  - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
+  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
+- **Accessing SolvNet** _(p.6)_ <a id="accessing-solvnet"></a>
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
+  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+- **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
+  - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
+  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
+- **Contacting Your Local TCAD Support Team Directly** _(p.7)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
+  - Send an e-mail message to:
+  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
+- **Acknowledgments** _(p.7–8)_ <a id="acknowledgments"></a>
+  - ILS was codeveloped by Integrated Systems Laboratory of ETH Zurich in the joint research project NUMERIK II with financial support by the Swiss funding agency CTI.
+  - _Keywords:_ ILS, codeveloped, Integrated, Systems, Laboratory, ETH, Zurich, research
+- **About This Guide** _(p.8)_ <a id="about-this-guide"></a>
+- **Acknowledgments** _(p.8–9)_ <a id="acknowledgments"></a>
+- **Part I PARDISO** _(p.9–11)_ <a id="part-i-pardiso"></a>
+  - This part contains chapters regarding the direct linear solver PARDISO and is intended for users of Sentaurus Device, Sentaurus Process, and Sentaurus Interconnect:
+  - _Keywords:_ PARDISO, Sentaurus, parallel, shared, memory, direct, linear, solver
+- **Algorithms** _(p.12)_ <a id="algorithms"></a>
+  - The process of obtaining a direct solution of a sparse system of linear equations of the form consists of the following important phases [3][4]:Ax b =
+  - _Keywords:_ factorization, matrix, supernode, numeric, PARDISO, algorithm, memory, diagonal
+- **Parallel Solution on Shared-Memory Multiprocessors** _(p.13)_ <a id="parallel-solution-on-shared-memory-multiprocessors"></a>
+  - The use of vendor-optimized BLAS and LAPACK subroutines ensures high computational performance on a large scale of different computer architectures. The parallelization technique is based on OpenMP [16], which is an industrywide standard...
+  - _Keywords:_ OpenMP, SMP, parallelization, parallel, PARDISO, ulimit, unlimited, vendor
+- **Selecting PARDISO in Sentaurus Device** _(p.13–14)_ <a id="selecting-pardiso-in-sentaurus-device"></a>
+  - PARDISO is activated in Sentaurus Device by specifying in the command file:
+  - _Keywords:_ PARDISO, threads, Math, Pardiso, NonsymmetricPermutation, matrix, OMP_NUM_THREADS, Sentaurus
+- **Selecting PARDISO in Sentaurus Process** _(p.15)_ <a id="selecting-pardiso-in-sentaurus-process"></a>
+  - In Sentaurus Process, the PARDISO solver is the default for 1D simulations and 2D mechanics simulations, and also can be used in 2D diffuse simulations and some 3D simulations by specifying:
+  - _Keywords:_ simulations, ordering, Sentaurus, Process, PARDISO, diffuse, pardiso, Pardiso
+- **Selecting PARDISO in Sentaurus Interconnect** _(p.16)_ <a id="selecting-pardiso-in-sentaurus-interconnect"></a>
+  - In Sentaurus Interconnect, the PARDISO solver is the default for 1D simulations and 2D mechanics simulations, and also can be used in 2D solve steps and some 3D simulations by specifying:
+  - _Keywords:_ simulations, ordering, pardiso, Pardiso, Ordering, Sentaurus, Interconnect, PARDISO
+- **References** _(p.16–19)_ <a id="references"></a>
+  - [1] O. Schenk, Scalable Parallel Sparse LU Factorization Methods on Shared Memory Multiprocessors, Series in Microelectronics, vol. 89, Konstanz, Germany: Hartung-Gorre, 2000. [2] O. Schenk, K. Gärtner, and W. Fichtner, “Efficient Sparse...
+  - _Keywords:_ Schenk, Parallel, Sparse, Memory, Factorization, Shared, Computer, Systems
+- **Part II SUPER** _(p.19–21)_ <a id="part-ii-super"></a>
+  - This part contains chapters regarding the direct linear solver SUPER and is intended for users of Sentaurus Device:
+  - _Keywords:_ SUPER, contains, direct, linear, algorithms, oriented, regarding, solver
+- **Features of the SUPER Solver** _(p.21–22)_ <a id="features-of-the-super-solver"></a>
+  - SUPER is a fast direct solver for the semiconductor device simulator Sentaurus Device, where the solution of sparse structurally symmetric linear systems of equations (typically written in the form ) is the main task consuming most of th...
+  - _Keywords:_ bullet, supernode, columns, column, SUPER, linear, factor, sparse
+- **Customizing SUPER: The .superrc File** _(p.23)_ <a id="customizing-super-the-superrc-file"></a>
+  - You can tailor SUPER behavior to your own preferences by modifying the parameters specific to SUPER in the .superrc file. The software uses the following procedure to search for this configuration file. First, SUPER checks whether the en...
+  - _Keywords:_ superrc, SUPER, configuration, directory, environment, variable, SUPERRC, checks
+- **Grammar of the Input Language** _(p.23–24)_ <a id="grammar-of-the-input-language"></a>
+  - Terminal symbols are presented in Courier font and nonterminal symbols are uppercase and italicized:
+  - _Keywords:_ algorithms, supernode, SUPER, column, INTEGER_LIST, FORMAT, INTEGER, nsuper
+- **Example of a .superrc File** <a id="example-of-a-superrc-file"></a>
+  - ```txt factorization_type = block_supernode_4, write (blsmp) {5:9} ```
+  - _Keywords:_ factorization_type, block_supernode_4, These, settings, instruct, SUPER, factorization, algorithm
+- **References** _(p.25)_ <a id="references"></a>
+  - [1] C. C. Ashcraft et al., “Progress in Sparse Matrix Methods for Large Linear Systems on Vector Supercomputers,” The International Journal of Supercomputer Applications, vol. 1, no. 4, pp. 10–30, 1987. [2] J. W. H. Liu, E. Ng, and B. W....
+  - _Keywords:_ Technical, Report, Oak, Ridge, Sparse, USA, Matrix, Linear
+- **Algorithms** _(p.25–26)_ <a id="algorithms"></a>
+  - Typically, you want to solve a linear system of the form:
+  - _Keywords:_ system, solution, linear, matrix, coefficient, Numeric, vector, factorization
+- **Structure Input** _(p.26)_ <a id="structure-input"></a>
+  - During the structure input phase, the solver reads the nonzero structure of the lower triangle of the coefficient matrix and generates a full adjacency structure of , which passes to theA A reordering phase.
+  - _Keywords:_ structure, During, solver, nonzero, triangle, coefficient, matrix, generates
+- **Reordering** _(p.26)_ <a id="reordering"></a>
+  - Reordering is a very important phase in the solution process. The goal of applying row and column permutations to the coefficient matrix is to minimize the size of its factors and .L U Any additional nonzero entry in the decomposition is...
+  - _Keywords:_ minimum, degree, coefficient, matrix, factors, nonzero, called, reordering
+- **Symbolic Factorization** <a id="symbolic-factorization"></a>
+  - When the coefficient matrix is reordered, you want to predetermine the structure of its factors and . This process is referred to as symbolic factorization [9]. Knowing the factorL U structure, you can preallocate the necessary memory sp...
+  - _Keywords:_ structure, process, coefficient, matrix, reordered, predetermine, factors, referred
+- **Numeric Value Input** _(p.27)_ <a id="numeric-value-input"></a>
+  - So far, only preliminary steps toward the numeric solution of the linear system have been performed. The numeric value input phase is the preparation step for numeric computation. The numeric values of the coefficient matrix are read int...
+  - _Keywords:_ numeric, preliminary, toward, solution, linear, system, performed, preparation
+- **Numeric Factorization** _(p.27–28)_ <a id="numeric-factorization"></a>
+  - Numeric factorization is the most time-consuming phase of the solution process. Extensive research to find optimal performance in terms of speed and memory requirements has lead to supernodal techniques [10]. Column supernode and block s...
+  - _Keywords:_ supernode, column, matrix, algorithms, details, summary, factorization, operation
+- **Numeric Solution** _(p.28)_ <a id="numeric-solution"></a>
+  - The numeric solution phase is the final step in the solution process. The solution is found using forward and backward substitution to exploit the supernodal partitioning of the factors. Detailed discussions of this are documented in the...
+  - _Keywords:_ solution, numeric, process, forward, backward, substitution, exploit, supernodal
+- **How Multiple Minimum Degree Works** <a id="how-multiple-minimum-degree-works"></a>
+  - Before going into detail, a few preliminary terms must be defined for subsequent use.
+  - _Keywords:_ Before, detail, preliminary, defined, subsequent, Let
+- **Def.: adjacency set** <a id="def-adjacency-set"></a>
+  - Let ; v V ∈ adj v( ) = { } w V v w ∈ ( ) , ∈ E
+  - _Keywords:_ Let, adjacency, consists, directly, connected, through
+- **Def.: indistinguishable1** _(p.29)_ <a id="def-indistinguishable1"></a>
+  - Let $\nu , w \in V ; \nu$ is indistinguishable from $w : \Longleftrightarrow a d j ( \nu ) \cup \lbrace \nu \rbrace = a d j ( w ) \cup \lbrace w \rbrace$
+  - _Keywords:_ indistinguishable, degree, elements, marked, lbrace, rbrace, adjacency, minimum
+- **Algorithm 1 Multiple minimum degree (MMD) algorithm** _(p.30)_ <a id="algorithm-1-multiple-minimum-degree-mmd-algorithm"></a>
+  - Effective tie-breaking is known to improve numeric factorization since the fill-in of the factor can be reduced significantly [5]. SUPER does not implement any of the commonly used tie-L breaking strategies used in other well-known solve...
+  - _Keywords:_ breaking, elements, indistinguishable, eliminated, SUPER, element, algorithm, computed
+- **Example of Executing Multiple Minimum Degree** _(p.30–33)_ <a id="example-of-executing-multiple-minimum-degree"></a>
+  - Figure 3 provides the symmetric pattern of the matrix where • denotes a nonzero entry. A
+  - _Keywords:_ bullet, matrix, details, summary, indistinguishable, update, columns, degree
+- **Sparse Supernodal Factorization Algorithms** _(p.33–34)_ <a id="sparse-supernodal-factorization-algorithms"></a>
+  - Generally, matrix reordering and numeric factorization are the parts of a direct solver package where most of the execution time is spent. Depending on the algorithm and its implementation, the time necessary to reorder the input matrix ...
+  - _Keywords:_ column, matrix, factorization, algorithms, supernode, decomposition, factor, nonzero
+- **Column Supernode Algorithms** _(p.34)_ <a id="column-supernode-algorithms"></a>
+  - Column supernode updating describes a technique where only one column or row of the factors and is computed at a time, although the corresponding supernode can consist of severalL U columns or rows.
+  - _Keywords:_ supernode, Column, updating, describes, technique, column, factors, computed
+- **The column\_supernode\_0 Algorithm** _(p.34–35)_ <a id="the-column-supernode-0-algorithm"></a>
+  - Algorithm 2 on page 27 lists the column\_supernode\_0 algorithm. Initially, the algorithm reveals the general form of column supernode algorithms: a triple-nested for-loop (indicated with indices c0.1 to c0.3). The outermost loop runs ov...
+  - _Keywords:_ leftarrow, Algorithm, CRmod, column, algorithm, supernode, supernodes, current
+- **Algorithm 2 column\_supernode\_0** _(p.35–37)_ <a id="algorithm-2-column-supernode-0"></a>
+  - CRmod\_i and CRmod\_d describe the necessary operations to calculate the update of column $L _ { * , k }$ and row $U _ { k , \ast }$ on the current column using indexed SAXPY [13][21] and dense SAXPYj [16] operations, respectively. The c...
+  - _Keywords:_ column, mathtt, CRmod, vector, kernel, structure, Algorithm, vectors
+- **The column\_supernode\_1 Algorithm** _(p.37)_ <a id="the-column-supernode-1-algorithm"></a>
+  - Algorithm 7 is an enhanced version of the previous algorithm. In this case, it was feasible to reduce the storage overhead introduced by the temporary vectors $t _ { L }$ and $t _ { U }$ .
+  - _Keywords:_ leftarrow, updates, CRmod, Algorithm, enhanced, version, previous, algorithm
+- **Algorithm 7 column\_supernode\_1** _(p.38)_ <a id="algorithm-7-column-supernode-1"></a>
+  - Instead of occupying space for $2 ^ { * } n$ real numbers, algorithm column\_supernode\_1 needs only $2 ^ { * } ( M A X C O L + 1 ) ^ { 1 }$ where denotes the maximal number of nonzero entriesMAXCOL in a column of excluding the diagonal ...
+  - _Keywords:_ column, vector, _supernode, algorithm, nonzero, element, smaller, relative
+- **The column\_supernode\_2 Algorithm** _(p.39)_ <a id="the-column-supernode-2-algorithm"></a>
+  - The algorithm column\_supernode\_2 (see Algorithm 8 on page 31) implements a major change compared to algorithm column\_supernode\_1. Instead of loading column or row $A _ { * , j } / A _ { j , }$ of the coefficient matrix into a tempora...
+  - _Keywords:_ column, _supernode, algorithm, Algorithm, temporary, memory, leftarrow, updates
+- **The column\_supernode\_3 Algorithm** _(p.39–40)_ <a id="the-column-supernode-3-algorithm"></a>
+  - Algorithm 9 on page 32 shows another variant of column supernode factorization. ThisLU algorithm requires the same amount of storage overhead as algorithm column\_supernode\_1, but implements two significant changes computing supernode $...
+  - _Keywords:_ column, leftarrow, supernode, algorithm, _supernode, Algorithm, storage, update
+- **Summary of Column Supernode Algorithms** _(p.41)_ <a id="summary-of-column-supernode-algorithms"></a>
+  - Looking at all the column supernode algorithms discussed reveals that, in all cases, dense updates and column or row scaling are treated equally. Therefore, you can conclude that the data structures involved as well as the execution time...
+  - _Keywords:_ column, operations, supernode, algorithms, updates, execution, memory, gather
+- **Block Supernode Algorithms** _(p.41)_ <a id="block-supernode-algorithms"></a>
+  - Block supernode factorization operates on groups of columns or rows, or an entire supernode at the same time instead of merely focusing on a single node. This does not reduce the number of references to memory, but by grouping them toget...
+  - _Keywords:_ supernode, factorization, vector, memory, vectorizable, overhead, structures, Block
+- **The block\_supernode\_0 Algorithm** _(p.42)_ <a id="the-block-supernode-0-algorithm"></a>
+  - Algorithm 10 shows the first approach implementing the block supernode factorization technique. Obviously, the algorithms in this section consist of a double-nested loop construct compared to the three-level nesting of column supernode a...
+  - _Keywords:_ supernode, leftarrow, CRmod, Algorithm, updated, operations, factorization, algorithms
+- **The block\_supernode\_1 Algorithm** _(p.43)_ <a id="the-block-supernode-1-algorithm"></a>
+  - In the block\_supernode\_1 algorithm (see Algorithm 11 on page 35), an attempt has been made to increase computational efficiency by collecting the dense updates from all updating supernodes and process them in one separate loop (see b1....
+  - _Keywords:_ leftarrow, updates, CRmod, _supernode, algorithm, Algorithm, updating, storage
+- **The block\_supernode\_2 Algorithm** _(p.43–44)_ <a id="the-block-supernode-2-algorithm"></a>
+  - The block\_supernode\_2 algorithm (see Algorithm 12 on page 36) is designed so that it does not need to perform any indexed updates. Primarily, the matrix elements of supernode J are stored into factor storage using the index map (see b2...
+  - _Keywords:_ leftarrow, supernode, updating, vector, factor, _supernode, algorithm, Algorithm
+- **The block\_supernode\_3 and block\_supernode\_4 Algorithms** _(p.46)_ <a id="the-block-supernode-3-and-block-supernode-4-algorithms"></a>
+  - The block\_supernode\_3 algorithm is a variant of block\_supernode\_2 (see Algorithm 13 on page 37). In this case, the second index map is omitted and indirect addressing is usedri explicitly (see b3.1). Furthermore, a modified version o...
+  - _Keywords:_ leftarrow, _supernode, CRmod, Algorithm, algorithms, vector, kernels, updating
+- **References** _(p.46–51)_ <a id="references"></a>
+  - [1] I. S. Duff, A. M. Erisman, and J. K. Reid, Direct Methods for Sparse Matrices, Oxford: Clarendon Press, 1986. [2] A. George and J. W.-H. Liu, Computer Solution of Large Sparse Positive Definite Systems, Englewood Cliffs, New Jersey: ...
+  - _Keywords:_ Sparse, Systems, Linear, Factorization, Liu, ACM, Transactions, Mathematical
+- **Features of the ILS Solver** _(p.51)_ <a id="features-of-the-ils-solver"></a>
+  - ILS provides several iterative methods and different kinds of preconditioner. Recent techniques to reorder and scale the linear systems are used in the package to achieve good convergence results and high performance.
+  - _Keywords:_ ILS, shared, memory, parallel, methods, techniques, systems, achieve
+- **Selecting ILS in Sentaurus Device** _(p.52)_ <a id="selecting-ils-in-sentaurus-device"></a>
+  - You can enable ILS in Sentaurus Device by specifying:
+  - _Keywords:_ ILS, Method, Blocked, SubMethod, WallClock, performance, specified, You
+- **ILSrc Statement** _(p.53–54)_ <a id="ilsrc-statement"></a>
+  - The optional ILSrc statement allows you to specify all ILS options within the Math section of Sentaurus Device. If the ILSrc statement is missing, Sentaurus Device uses the following built-in defaults:
+  - _Keywords:_ iterative, tolrel, preconditioning, ordering, symmetric, nonsymmetric, mpsilst, compact
+- **Parallel Execution** _(p.54)_ <a id="parallel-execution"></a>
+  - The number of threads for ILS can be specified in the Math section of the Sentaurus Device command file as follows:
+  - _Keywords:_ threads, OMP_NUM_THREADS, ILS, Math, Sentaurus, Device, follows, _Threads
+- **Selecting ILS in Sentaurus Process** _(p.55)_ <a id="selecting-ils-in-sentaurus-process"></a>
+  - You can enable ILS in Sentaurus Process by specifying the following commands for either diffusion simulations or mechanics simulations, respectively:
+  - _Keywords:_ ILS, simulations, You, Sentaurus, Process, diffusion, pdbSet, refine
+- **Examples** _(p.56)_ <a id="examples"></a>
+  - pdbSet Math diffuse 3D ILS.ilut.tau 5e-5
+  - _Keywords:_ ILS, pdbSet, diffuse, activates, improvements, Math, Versions, threads
+- **Example** _(p.56)_ <a id="example"></a>
+  - pdbSet Math diffuse 3D ILS.hpc.mode 4
+  - _Keywords:_ pdbSet, Math, diffuse, ILS
+- **Selecting ILS in Sentaurus Interconnect** <a id="selecting-ils-in-sentaurus-interconnect"></a>
+  - You can enable ILS in Sentaurus Interconnect by specifying the following commands for either solve steps or mechanics simulations, respectively:
+  - _Keywords:_ ILS, simulations, You, Sentaurus, Interconnect, restart, increase, enable
+- **Examples** _(p.57)_ <a id="examples"></a>
+  - pdbSet Math compute 3D ILS.ilut.tau 5e-5
+  - _Keywords:_ ILS, pdbSet, Math, compute, refine, residual, convergence, iterative
+- **Example** <a id="example"></a>
+  - pdbSet Math Flow 3D ILS.refine.sts 2
+  - _Keywords:_ pdbSet, Math, Flow, ILS, refine
+- **References** _(p.58–59)_ <a id="references"></a>
+  - [1] L. Dagum and R. Menon, “OpenMP: An Industry-Standard API for Shared-Memory Programming,” IEEE Computational Science & Engineering, vol. 5, no. 1, pp. 46–55, 1998.
+  - _Keywords:_ ILS, Dagum, Menon, OpenMP, Industry, Standard, API, Shared
+- **Configuration of ILS** _(p.59–60)_ <a id="configuration-of-ils"></a>
+  - In Sentaurus Process and Sentaurus Interconnect, the parameters of ILS are specified using pdbSet commands (see Chapter 4 on page 43).
+  - _Keywords:_ ILS, Sentaurus, iterative, ordering, integer, parent, specified, Device
+- **General Remarks** <a id="general-remarks"></a>
+  - The parser of the configuration string is case insensitive. You can add comments in the configuration string, as in a C++ or C source file, that is, text that follows // up to the end of the line is ignored. Text between /\* and \*/ is d...
+  - _Keywords:_ configuration, string, parser, insensitive, You, comments, source, follows
+- **Iterative Methods** _(p.61)_ <a id="iterative-methods"></a>
+  - Unsymmetric sparse linear systems can be solved with different Krylov subspace methods. The most famous methods are the biconjugate gradients stabilized (BiCGSTAB) method [1] and the generalized minimal residual (GMRES(m)) method [2], wh...
+  - _Keywords:_ GMRES, Sentaurus, methods, method, iterative, Process, problems, simulations
+- **Syntax** <a id="syntax"></a>
+  - ```typescript iterative(< bicgstab | bicgxm2r2 | cgs | fgmres(<integer>) | gmres(<integer>) | stcg2 | stcg3 | sts2 | sts3 > [, tolrel = <double> ] [, tolabs = <double> ] [, tolunprec = <double> ] [, maxit = <integer> ] ); ```
+  - _Keywords:_ integer, double, typescript, iterative, bicgstab, bicgxm2r2, fgmres, tolrel
+- **Stopping Criteria for Iterative Methods** <a id="stopping-criteria-for-iterative-methods"></a>
+  - Different stopping criteria are available for the iterative methods. If one of these is satisfied, the iterative method stops. The first criterion specifies the relative tolerance of the norm of the preconditioned residual, that is, the ...
+  - _Keywords:_ preconditioned, residual, iterative, stopping, criteria, methods, criterion, tolrel
+- **Example** _(p.62)_ <a id="example"></a>
+  - iterative( gmres(100), tolrel=1e-8, tolunprec=1e-4, maxit=200 );
+  - _Keywords:_ iterative, tolrel, tolunprec
+- **Preconditioners** _(p.62)_ <a id="preconditioners"></a>
+  - Iterative methods are usually combined with preconditioners to improve convergence rates. Especially for ill-conditioned matrices, iterative methods fail without the application of a preconditioner. Several preconditioners exist in ILS, ...
+  - _Keywords:_ preconditioners, methods, preconditioner, Iterative, usually, combined, improve, convergence
+- **Syntax** _(p.62)_ <a id="syntax"></a>
+  - ```javascript preconditioning(<none|diagonal|ilu0|ilut(<double>,<integer>) | spai0|spai1 | spai(<double>,<integer>,<integer>,<integer>) > [, <left | right>]); ```
+  - _Keywords:_ integer, double, linear, system, preconditioner, unpreconditioned, residuals, preconditioned
+- **Example** <a id="example"></a>
+  - preconditioning( ilut(0.001,-1), right );
+  - _Keywords:_ preconditioning
+- **Incomplete LU Factorization Preconditioners** <a id="incomplete-lu-factorization-preconditioners"></a>
+  - Direct solvers for linear systems decompose a given matrix into triangular factors and ,A L U whose product is equal to the original matrix, that is, . One of the main concerns ofLU A = direct methods is the high demand of memory to perf...
+  - _Keywords:_ elements, factors, factorization, dropped, incomplete, varepsilon, linear, matrix
+- **Sparse Approximate Inverse Preconditioners** _(p.63)_ <a id="sparse-approximate-inverse-preconditioners"></a>
+  - These preconditioners approximate directly the inverse of the given linear system. Different versions are available in ILS: SPAI(0), SPAI(1), and SPAI( ) [5]. These preconditioners differε in their structure. The first preconditioner con...
+  - _Keywords:_ SPAI, These, preconditioners, structure, linear, system, versions, available
+- **Other Preconditioners** <a id="other-preconditioners"></a>
+  - A simple diagonal preconditioner is also available in ILS. This preconditioner is equal to the inverse of the diagonal of the given matrix.
+  - _Keywords:_ diagonal, preconditioner, simple, available, ILS, inverse, matrix
+- **Nonsymmetric Ordering** _(p.64)_ <a id="nonsymmetric-ordering"></a>
+  - The first step in the solution process of a linear system is the computation of a nonsymmetric ordering and scaling [6][7][8], such that the reordered and scaled system is better conditioned.
+  - _Keywords:_ nonsymmetric, system, ordering, solution, process, linear, computation, scaling
+- **Symmetric Ordering** _(p.64)_ <a id="symmetric-ordering"></a>
+  - As in direct methods, linear systems are reordered before the preconditioner is computed. The purpose of symmetric ordering is twofold. The quality of the preconditioner depends on the ordering. On the other hand, the ordering also influ...
+  - _Keywords:_ symmetric, ordering, preconditioner, preconditioners, application, RCM, NDRCM, orderings
+- **Syntax** <a id="syntax"></a>
+  - ```txt ordering ( [ nonsymmetric = < none | mpsils | mpsilst > ] [ , symmetric = < none | mmd | nd | ndrcm | rcm > ] ); ```
+  - _Keywords:_ ordering, nonsymmetric, mpsils, mpsilst, symmetric
+- **Example** _(p.65)_ <a id="example"></a>
+  - ```txt ordering( nonsymmetric=mpsilst, symmetric=nd ); ```
+  - _Keywords:_ ordering, nonsymmetric, mpsilst, symmetric
+- **Additional Options** _(p.65)_ <a id="additional-options"></a>
+  - You should use the compact option if the linear system to be solved contains many entries that are numerically zero. Especially for simulations with Sentaurus Device, this option should be switched on. The default is compact=yes.
+  - _Keywords:_ Sentaurus, iterations, solution, verbose, linear, system, Device, refineresidual
+- **Syntax** <a id="syntax"></a>
+  - ```txt options([ compact=<no | yes> [, refineresidual=<integer>] [, refineiterate=<integer>] [, refinebasis=<integer>] [, verbose=<integer>]]); ```
+  - _Keywords:_ integer, compact, refineresidual, refineiterate, refinebasis, verbose
+- **Examples** _(p.66)_ <a id="examples"></a>
+  - ```matlab options(compact=yes, verbose=1); options( compact=yes, refineresidual=2, verbose=1 ); ```
+  - _Keywords:_ compact, verbose, matlab, refineresidual
+- **References** _(p.66)_ <a id="references"></a>
+  - [1] H. A. van der Vorst, “BI-CGSTAB: A Fast and Smoothly Converging Variant of BI-CG for the Solution of Nonsymmetric Linear Systems,” SIAM Journal on Scientific and Statistical Computing, vol. 13, no. 2, pp. 631–644, 1992. [2] Y. Saad a...
+  - _Keywords:_ SIAM, Journal, Scientific, Computing, Nonsymmetric, Systems, Fast, Linear

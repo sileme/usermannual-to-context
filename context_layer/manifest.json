@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-25T13:10:48+00:00",
+  "software": {
+    "dakota": {
+      "total_estimated_tokens": 253763,
+      "needs_router": false,
+      "router_pending": false,
+      "docs": {
+        "dakota_Users-6.16.0": {
+          "source_pdf": "corpus/raw/dakota/dakota_Users-6.16.0.pdf",
+          "md_path": "corpus/markdown/dakota/dakota_Users-6.16.0/dakota_Users-6.16.0.md",
+          "content_list_path": "corpus/markdown/dakota/dakota_Users-6.16.0/dakota_Users-6.16.0_content_list.json",
+          "estimated_tokens": 253763,
+          "page_count": 347,
+          "tier": "T2",
+          "outputs": {
+            "full_md": "context_layer/dakota/dakota_Users-6.16.0/full.md",
+            "outline_md": "context_layer/dakota/dakota_Users-6.16.0/outline.md"
+          },
+          "outline_estimated_tokens": 45328,
+          "chapters_pending": true
+        }
+      }
+    },
+    "sentaurus": {
+      "total_estimated_tokens": 4216761,
+      "needs_router": true,
+      "router_pending": true,
+      "docs": {
+        "advcal_ug": {
+          "source_pdf": "corpus/raw/sentaurus/advcal_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/advcal_ug/advcal_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/advcal_ug/advcal_ug_content_list.json",
+          "estimated_tokens": 174743,
+          "page_count": 286,
+          "tier": "T2",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/advcal_ug/full.md",
+            "outline_md": "context_layer/sentaurus/advcal_ug/outline.md"
+          },
+          "outline_estimated_tokens": 36004,
+          "chapters_pending": true
+        },
+        "advcald_ug": {
+          "source_pdf": "corpus/raw/sentaurus/advcald_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/advcald_ug/advcald_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/advcald_ug/advcald_ug_content_list.json",
+          "estimated_tokens": 58296,
+          "page_count": 108,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/advcald_ug/full.md",
+            "outline_md": "context_layer/sentaurus/advcald_ug/outline.md"
+          },
+          "outline_estimated_tokens": 11249
+        },
+        "calikit_ug": {
+          "source_pdf": "corpus/raw/sentaurus/calikit_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/calikit_ug/calikit_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/calikit_ug/calikit_ug_content_list.json",
+          "estimated_tokens": 15549,
+          "page_count": 42,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/calikit_ug/full.md",
+            "outline_md": "context_layer/sentaurus/calikit_ug/outline.md"
+          },
+          "outline_estimated_tokens": 5430
+        },
+        "cm_ug": {
+          "source_pdf": "corpus/raw/sentaurus/cm_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/cm_ug/cm_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/cm_ug/cm_ug_content_list.json",
+          "estimated_tokens": 136123,
+          "page_count": 190,
+          "tier": "T2",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/cm_ug/full.md",
+            "outline_md": "context_layer/sentaurus/cm_ug/outline.md"
+          },
+          "outline_estimated_tokens": 13272,
+          "chapters_pending": true
+        },
+        "cpps": {
+          "source_pdf": "corpus/raw/sentaurus/cpps.pdf",
+          "md_path": "corpus/markdown/sentaurus/cpps/cpps.md",
+          "content_list_path": "corpus/markdown/sentaurus/cpps/cpps_content_list.json",
+          "estimated_tokens": 848,
+          "page_count": 1,
+          "tier": "T0",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/cpps/full.md"
+          }
+        },
+        "dbps": {
+          "source_pdf": "corpus/raw/sentaurus/dbps.pdf",
+          "md_path": "corpus/markdown/sentaurus/dbps/dbps.md",
+          "content_list_path": "corpus/markdown/sentaurus/dbps/dbps_content_list.json",
+          "estimated_tokens": 755,
+          "page_count": 1,
+          "tier": "T0",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/dbps/full.md"
+          }
+        },
+        "dmc_ug": {
+          "source_pdf": "corpus/raw/sentaurus/dmc_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/dmc_ug/dmc_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/dmc_ug/dmc_ug_content_list.json",
+          "estimated_tokens": 203167,
+          "page_count": 372,
+          "tier": "T2",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/dmc_ug/full.md",
+            "outline_md": "context_layer/sentaurus/dmc_ug/outline.md"
+          },
+          "outline_estimated_tokens": 59005,
+          "chapters_pending": true
+        },
+        "emw_ug": {
+          "source_pdf": "corpus/raw/sentaurus/emw_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/emw_ug/emw_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/emw_ug/emw_ug_content_list.json",
+          "estimated_tokens": 68437,
+          "page_count": 154,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/emw_ug/full.md",
+            "outline_md": "context_layer/sentaurus/emw_ug/outline.md"
+          },
+          "outline_estimated_tokens": 15159
+        },
+        "enigma_ug": {
+          "source_pdf": "corpus/raw/sentaurus/enigma_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/enigma_ug/enigma_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/enigma_ug/enigma_ug_content_list.json",
+          "estimated_tokens": 43796,
+          "page_count": 84,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/enigma_ug/full.md",
+            "outline_md": "context_layer/sentaurus/enigma_ug/outline.md"
+          },
+          "outline_estimated_tokens": 8261
+        },
+        "garand_ug": {
+          "source_pdf": "corpus/raw/sentaurus/garand_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/garand_ug/garand_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/garand_ug/garand_ug_content_list.json",
+          "estimated_tokens": 486013,
+          "page_count": 656,
+          "tier": "T3",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/garand_ug/full.md",
+            "outline_md": "context_layer/sentaurus/garand_ug/outline.md"
+          },
+          "outline_estimated_tokens": 104126,
+          "chapters_pending": true
+        },
+        "inspect_ug": {
+          "source_pdf": "corpus/raw/sentaurus/inspect_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/inspect_ug/inspect_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/inspect_ug/inspect_ug_content_list.json",
+          "estimated_tokens": 42139,
+          "page_count": 130,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/inspect_ug/full.md",
+            "outline_md": "context_layer/sentaurus/inspect_ug/outline.md"
+          },
+          "outline_estimated_tokens": 20137
+        },
+        "mystic_ug": {
+          "source_pdf": "corpus/raw/sentaurus/mystic_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/mystic_ug/mystic_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/mystic_ug/mystic_ug_content_list.json",
+          "estimated_tokens": 25463,
+          "page_count": 57,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/mystic_ug/full.md",
+            "outline_md": "context_layer/sentaurus/mystic_ug/outline.md"
+          },
+          "outline_estimated_tokens": 9469
+        },
+        "optimizer_ug": {
+          "source_pdf": "corpus/raw/sentaurus/optimizer_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/optimizer_ug/optimizer_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/optimizer_ug/optimizer_ug_content_list.json",
+          "estimated_tokens": 54445,
+          "page_count": 114,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/optimizer_ug/full.md",
+            "outline_md": "context_layer/sentaurus/optimizer_ug/outline.md"
+          },
+          "outline_estimated_tokens": 14487
+        },
+        "parallel_ug": {
+          "source_pdf": "corpus/raw/sentaurus/parallel_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/parallel_ug/parallel_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/parallel_ug/parallel_ug_content_list.json",
+          "estimated_tokens": 4140,
+          "page_count": 18,
+          "tier": "T0",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/parallel_ug/full.md"
+          }
+        },
+        "qtx_ug": {
+          "source_pdf": "corpus/raw/sentaurus/qtx_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/qtx_ug/qtx_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/qtx_ug/qtx_ug_content_list.json",
+          "estimated_tokens": 34867,
+          "page_count": 82,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/qtx_ug/full.md",
+            "outline_md": "context_layer/sentaurus/qtx_ug/outline.md"
+          },
+          "outline_estimated_tokens": 15267
+        },
+        "randomspice_ug": {
+          "source_pdf": "corpus/raw/sentaurus/randomspice_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/randomspice_ug/randomspice_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/randomspice_ug/randomspice_ug_content_list.json",
+          "estimated_tokens": 24564,
+          "page_count": 56,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/randomspice_ug/full.md",
+            "outline_md": "context_layer/sentaurus/randomspice_ug/outline.md"
+          },
+          "outline_estimated_tokens": 6733
+        },
+        "sdataex_ug": {
+          "source_pdf": "corpus/raw/sentaurus/sdataex_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/sdataex_ug/sdataex_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/sdataex_ug/sdataex_ug_content_list.json",
+          "estimated_tokens": 40453,
+          "page_count": 128,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/sdataex_ug/full.md",
+            "outline_md": "context_layer/sentaurus/sdataex_ug/outline.md"
+          },
+          "outline_estimated_tokens": 33528
+        },
+        "sdevice_ug": {
+          "source_pdf": "corpus/raw/sentaurus/sdevice_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/sdevice_ug/sdevice_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/sdevice_ug/sdevice_ug_content_list.json",
+          "estimated_tokens": 854008,
+          "page_count": 1530,
+          "tier": "T3",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/sdevice_ug/full.md",
+            "outline_md": "context_layer/sentaurus/sdevice_ug/outline.md"
+          },
+          "outline_estimated_tokens": 138636,
+          "chapters_pending": true
+        },
+        "sense_ug": {
+          "source_pdf": "corpus/raw/sentaurus/sense_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/sense_ug/sense_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/sense_ug/sense_ug_content_list.json",
+          "estimated_tokens": 287209,
+          "page_count": 864,
+          "tier": "T2",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/sense_ug/full.md",
+            "outline_md": "context_layer/sentaurus/sense_ug/outline.md"
+          },
+          "outline_estimated_tokens": 152389,
+          "chapters_pending": true
+        },
+        "sentaurus_relnote": {
+          "source_pdf": "corpus/raw/sentaurus/sentaurus_relnote.pdf",
+          "md_path": "corpus/markdown/sentaurus/sentaurus_relnote/sentaurus_relnote.md",
+          "content_list_path": "corpus/markdown/sentaurus/sentaurus_relnote/sentaurus_relnote_content_list.json",
+          "estimated_tokens": 141,
+          "page_count": 1,
+          "tier": "T0",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/sentaurus_relnote/full.md"
+          }
+        },
+        "sinterconnect_ug": {
+          "source_pdf": "corpus/raw/sentaurus/sinterconnect_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/sinterconnect_ug/sinterconnect_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/sinterconnect_ug/sinterconnect_ug_content_list.json",
+          "estimated_tokens": 303373,
+          "page_count": 752,
+          "tier": "T2",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/sinterconnect_ug/full.md",
+            "outline_md": "context_layer/sentaurus/sinterconnect_ug/outline.md"
+          },
+          "outline_estimated_tokens": 98191,
+          "chapters_pending": true
+        },
+        "smesh_ug": {
+          "source_pdf": "corpus/raw/sentaurus/smesh_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/smesh_ug/smesh_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/smesh_ug/smesh_ug_content_list.json",
+          "estimated_tokens": 55418,
+          "page_count": 140,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/smesh_ug/full.md",
+            "outline_md": "context_layer/sentaurus/smesh_ug/outline.md"
+          },
+          "outline_estimated_tokens": 14081
+        },
+        "solvers_ug": {
+          "source_pdf": "corpus/raw/sentaurus/solvers_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/solvers_ug/solvers_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/solvers_ug/solvers_ug_content_list.json",
+          "estimated_tokens": 26880,
+          "page_count": 66,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/solvers_ug/full.md",
+            "outline_md": "context_layer/sentaurus/solvers_ug/outline.md"
+          },
+          "outline_estimated_tokens": 8062
+        },
+        "solvnet_appnotes": {
+          "source_pdf": "corpus/raw/sentaurus/solvnet_appnotes.pdf",
+          "md_path": "corpus/markdown/sentaurus/solvnet_appnotes/solvnet_appnotes.md",
+          "content_list_path": "corpus/markdown/sentaurus/solvnet_appnotes/solvnet_appnotes_content_list.json",
+          "estimated_tokens": 438,
+          "page_count": 1,
+          "tier": "T0",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/solvnet_appnotes/full.md"
+          }
+        },
+        "sprocess_ug": {
+          "source_pdf": "corpus/raw/sentaurus/sprocess_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/sprocess_ug/sprocess_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/sprocess_ug/sprocess_ug_content_list.json",
+          "estimated_tokens": 650132,
+          "page_count": 1320,
+          "tier": "T3",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/sprocess_ug/full.md",
+            "outline_md": "context_layer/sentaurus/sprocess_ug/outline.md"
+          },
+          "outline_estimated_tokens": 154488,
+          "chapters_pending": true
+        },
+        "stopography3d_ug": {
+          "source_pdf": "corpus/raw/sentaurus/stopography3d_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/stopography3d_ug/stopography3d_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/stopography3d_ug/stopography3d_ug_content_list.json",
+          "estimated_tokens": 145656,
+          "page_count": 306,
+          "tier": "T2",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/stopography3d_ug/full.md",
+            "outline_md": "context_layer/sentaurus/stopography3d_ug/outline.md"
+          },
+          "outline_estimated_tokens": 30137,
+          "chapters_pending": true
+        },
+        "stopography_ug": {
+          "source_pdf": "corpus/raw/sentaurus/stopography_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/stopography_ug/stopography_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/stopography_ug/stopography_ug_content_list.json",
+          "estimated_tokens": 95121,
+          "page_count": 202,
+          "tier": "T2",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/stopography_ug/full.md",
+            "outline_md": "context_layer/sentaurus/stopography_ug/outline.md"
+          },
+          "outline_estimated_tokens": 28026,
+          "chapters_pending": true
+        },
+        "svisual_ug": {
+          "source_pdf": "corpus/raw/sentaurus/svisual_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/svisual_ug/svisual_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/svisual_ug/svisual_ug_content_list.json",
+          "estimated_tokens": 221963,
+          "page_count": 548,
+          "tier": "T2",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/svisual_ug/full.md",
+            "outline_md": "context_layer/sentaurus/svisual_ug/outline.md"
+          },
+          "outline_estimated_tokens": 79481,
+          "chapters_pending": true
+        },
+        "swb_ug": {
+          "source_pdf": "corpus/raw/sentaurus/swb_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/swb_ug/swb_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/swb_ug/swb_ug_content_list.json",
+          "estimated_tokens": 139783,
+          "page_count": 310,
+          "tier": "T2",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/swb_ug/full.md",
+            "outline_md": "context_layer/sentaurus/swb_ug/outline.md"
+          },
+          "outline_estimated_tokens": 32004,
+          "chapters_pending": true
+        },
+        "utilities_ug": {
+          "source_pdf": "corpus/raw/sentaurus/utilities_ug.pdf",
+          "md_path": "corpus/markdown/sentaurus/utilities_ug/utilities_ug.md",
+          "content_list_path": "corpus/markdown/sentaurus/utilities_ug/utilities_ug_content_list.json",
+          "estimated_tokens": 22841,
+          "page_count": 46,
+          "tier": "T1",
+          "outputs": {
+            "full_md": "context_layer/sentaurus/utilities_ug/full.md",
+            "outline_md": "context_layer/sentaurus/utilities_ug/outline.md"
+          },
+          "outline_estimated_tokens": 5533
+        }
+      }
+    }
+  }
+}

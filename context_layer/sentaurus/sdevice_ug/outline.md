@@ -1,0 +1,4953 @@
+# sdevice_ug — outline
+
+Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
+
+- **Sentaurus™ Device User Guide** _(p.1)_ <a id="sentaurus-device-user-guide"></a>
+  - Version O-2018.06, June 2018
+  - _Keywords:_ Version, June
+- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
+  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
+  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+- **Disclaimer** <a id="disclaimer"></a>
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+- **Trademarks** <a id="trademarks"></a>
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html. All other product or company names may be trademarks of their respective owners.
+  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+- **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
+  - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
+  - _Keywords:_ applicable, Free, Open, Source, Software, FOSS, licensing, notices
+- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
+  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+- **About This Guide xxxix** _(p.3)_ <a id="about-this-guide-xxxix"></a>
+  - Related Publications . . xxxix
+  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
+- **Part I Getting Started 1** <a id="part-i-getting-started-1"></a>
+- **Chapter 1 Introduction to Sentaurus Device 3** <a id="chapter-1-introduction-to-sentaurus-device-3"></a>
+  - Functionality of Sentaurus Device . . .
+  - _Keywords:_ Sentaurus, Device, Functionality, Creating, Meshing, Structures, Tool, Flow
+- **Chapter 2 Specifying Physical Devices 9** _(p.4)_ <a id="chapter-2-specifying-physical-devices-9"></a>
+  - Reading a Structure . . .
+  - _Keywords:_ Models, Materials, Specific, Physical, Interface, Composition, Wise, Auto
+- **Chapter 3 Mixed-Mode Simulations 41** _(p.5)_ <a id="chapter-3-mixed-mode-simulations-41"></a>
+  - Overview of Mixed-Mode Simulations . 41
+  - _Keywords:_ Mixed, Mode, Simulations, Compact, Models, Netlist, Devices, Statement
+- **Chapter 4 Performing Numeric Experiments 67** _(p.6)_ <a id="chapter-4-performing-numeric-experiments-67"></a>
+  - Specifying Electrical Boundary Conditions . . . . 67
+  - _Keywords:_ Analysis, Mode, Boundary, Break, Criteria, Conditions, Mixed, Ramping
+- **Chapter 5 Simulation Results 109** _(p.7)_ <a id="chapter-5-simulation-results-109"></a>
+  - Current File . . . . 109
+  - _Keywords:_ Current, CurrentPlot, Extraction, Plots, Plot, Write, Statements, NewCurrentPrefix
+- **Chapter 6 Numeric and Software-Related Issues 135** _(p.8)_ <a id="chapter-6-numeric-and-software-related-issues-135"></a>
+  - Structure of Command File. . . . . 135
+  - _Keywords:_ Nonlocal, Meshes, sdevice, Simulation, Newton, Statistics, Iterations, Convergence
+- **Part II Physics in Sentaurus Device** <a id="part-ii-physics-in-sentaurus-device"></a>
+  - 173
+- **Chapter 7 Electrostatic Potential and Quasi-Fermi Potentials 175** <a id="chapter-7-electrostatic-potential-and-quasi-fermi-potentials"></a>
+  - Electrostatic Potential . . 175
+  - _Keywords:_ Fermi, Potential, Quasi, Statistics, Electrostatic, Initial, Potentials, Dipole
+- **Chapter 8 Carrier Transport in Semiconductors 183** _(p.9)_ <a id="chapter-8-carrier-transport-in-semiconductors-183"></a>
+  - Introduction to Carrier Transport Models . . . . . 183 Drift-Diffusion Model. . . . 184 Thermodynamic Model for Current Densities . . . . 185 Hydrodynamic Model for Current Densities . . . . 186 Numeric Parameters for Continuity Equation...
+  - _Keywords:_ Current, Model, Densities, Numeric, Introduction, Carrier, Transport, Models
+- **Chapter 9 Temperature Equations 191** _(p.9)_ <a id="chapter-9-temperature-equations-191"></a>
+  - Introduction to Temperature Equations . . . 191
+  - _Keywords:_ Model, Temperature, Lattice, Hydrodynamic, Equations, Uniform, Self, Heating
+- **Chapter 10 Boundary Conditions 203** _(p.10)_ <a id="chapter-10-boundary-conditions-203"></a>
+  - Electrical Boundary Conditions . . . . . 203
+  - _Keywords:_ Contacts, Conditions, Boundary, Interfaces, Periodic, Schottky, Floating, Specifying
+- **Chapter 11 Transport in Metals, Organic Materials, and Disordered Media 237** <a id="chapter-11-transport-in-metals-organic-materials-and-disorde"></a>
+  - Singlet Exciton Equation . . . 237
+  - _Keywords:_ Singlet, Exciton, Equation, Metals, Boundary, Conditions, Metal, Workfunction
+- **Chapter 12 Semiconductor Band Structure 251** _(p.11)_ <a id="chapter-12-semiconductor-band-structure-251"></a>
+  - Intrinsic Density . . 251
+  - _Keywords:_ Bandgap, Narrowing, Density, Band, Model, Effective, States, Electron
+- **Chapter 13 Incomplete Ionization 279** <a id="chapter-13-incomplete-ionization-279"></a>
+  - Considering Incomplete Ionization. . . . . 279
+  - _Keywords:_ Incomplete, Ionization, Model, Considering, Physical, Multiple, Lattice, Sites
+- **Chapter 14 Quantization Models 285** _(p.12)_ <a id="chapter-14-quantization-models-285"></a>
+  - Modeling Quantization Effects . . . . . 285
+  - _Keywords:_ Model, Equation, Density, Gradient, Notes, Use, Quantization, External
+- **Chapter 15 Mobility Models 321** _(p.13–14)_ <a id="chapter-15-mobility-models-321"></a>
+  - Introduction to Mobility Models. . . . 321
+  - _Keywords:_ Mobility, Model, Field, Models, Scattering, Components, Saturation, Stress
+- **Chapter 16 Generation–Recombination Processes 395** _(p.15–16)_ <a id="chapter-16-generation-recombination-processes-395"></a>
+  - Shockley–Read–Hall Recombination . . . . . 395
+  - _Keywords:_ Model, Band, Tunneling, Recombination, Avalanche, SRH, Trap, Assisted
+- **Chapter 17 Traps and Fixed Charges 457** <a id="chapter-17-traps-and-fixed-charges-457"></a>
+  - Introduction to Traps. . . . . . . 457
+  - _Keywords:_ Traps, Trap, Capture, Model, Cross, Occupation, Local, Emission
+- **Chapter 18 Phase and State Transitions 483** _(p.17)_ <a id="chapter-18-phase-and-state-transitions-483"></a>
+  - Multistate Configurations and Their Dynamic . . . . 483
+  - _Keywords:_ Multistate, Configurations, Model, Transition, Manipulating, State, Their, Dynamic
+- **Chapter 19 Degradation Models 499** _(p.18)_ <a id="chapter-19-degradation-models-499"></a>
+  - Overview of Degradation Models. . . . . . 499
+  - _Keywords:_ Model, Degradation, eNMP, Trap, Hydrogen, Transport, MSC, Reactions
+- **Chapter 20 Organic Devices 539** <a id="chapter-20-organic-devices-539"></a>
+  - Introduction to Organic Device Simulation . . . . 539
+  - _Keywords:_ Introduction, Organic, Device, Simulation, References
+- **Chapter 21 Optical Generation 543** _(p.19–21)_ <a id="chapter-21-optical-generation-543"></a>
+  - Overview of Optical Generation . . . . 543
+  - _Keywords:_ Optical, Method, Raytracing, Generation, Boundary, Model, Raytracer, Condition
+- **Chapter 22 Radiation Models 677** _(p.21)_ <a id="chapter-22-radiation-models-677"></a>
+  - Generation by Gamma Radiation . . . . . 677
+  - _Keywords:_ Model, Heavy, Alpha, Gamma, Radiation, Particle, Ions, Ion
+- **Chapter 23 Noise, Fluctuations, and Sensitivity 687** _(p.22)_ <a id="chapter-23-noise-fluctuations-and-sensitivity-687"></a>
+  - Using the Impedance Field Method . . . . . 687
+  - _Keywords:_ Variations, Random, Noise, Fluctuations, Impedance, Field, Method, Geometric
+- **Chapter 24 Tunneling 727** <a id="chapter-24-tunneling-727"></a>
+  - Overview of Tunneling Models . . . . 727
+  - _Keywords:_ Tunneling, Nonlocal, Fowler, Nordheim, Model, Direct, Band, Probability
+- **Chapter 25 Hot-Carrier Injection Models 751** <a id="chapter-25-hot-carrier-injection-models-751"></a>
+  - Overview of Hot-Carrier Injection Models. . . . . 751
+  - _Keywords:_ Injection, Carrier, Hot, Spherical, Harmonics, Expansion, Method, Overview
+- **Chapter 26 Heterostructure Device Simulation 777** <a id="chapter-26-heterostructure-device-simulation-777"></a>
+  - Thermionic Emission Current . . . . 777
+  - _Keywords:_ Thermionic, Emission, Model, Gaussian, Transport, Organic, Current, Heterointerfaces
+- **Chapter 27 Energy-Dependent Parameters 783** <a id="chapter-27-energy-dependent-parameters-783"></a>
+  - Overview. . . . 783
+  - _Keywords:_ Energy, Dependent, Spline, Interpolation, Overview, Relaxation, Time, Mobility
+- **Chapter 28 Anisotropic Properties 793** <a id="chapter-28-anisotropic-properties-793"></a>
+  - Anisotropic Properties of Semiconductor Devices . . . . 793
+  - _Keywords:_ Anisotropic, Direction, Mobility, Aniso, Cases, Subsection, Definition, Density
+- **Chapter 29 Ferroelectric Materials 813** <a id="chapter-29-ferroelectric-materials-813"></a>
+  - Using Ferroelectrics . . . 813
+  - _Keywords:_ Ferroelectrics, Landau, Khalatnikov, Equation, Model, References
+- **Chapter 30 Ferromagnetism and Spin Transport 821** <a id="chapter-30-ferromagnetism-and-spin-transport-821"></a>
+  - Brief Introduction to Spintronics . . . 821
+  - _Keywords:_ Magnetic, Magnetization, Dynamics, Direct, Tunneling, Spin, Field, Dependent
+- **Chapter 31 Modeling Mechanical Stress Effect 837** <a id="chapter-31-modeling-mechanical-stress-effect-837"></a>
+  - Overview of Mechanical Stress . . . . . . 837
+  - _Keywords:_ Model, Mobility, Stress, Effective, Multivalley, Factor, Strain, Tensor
+- **Chapter 32 Galvanic Transport Model 913** <a id="chapter-32-galvanic-transport-model-913"></a>
+  - Model Description. . . . 913
+  - _Keywords:_ Model, Description, Galvanic, Transport, Discretization, Scheme, Continuity, Equations
+- **Chapter 33 Thermal Properties 915** <a id="chapter-33-thermal-properties-915"></a>
+  - Heat Capacity . . . . 915
+  - _Keywords:_ Model, Thermal, Conductivity, Bulk, Computation, Relaxation, Time, Thermoelectric
+- **Chapter 34 Light-Emitting Diodes 935** <a id="chapter-34-light-emitting-diodes-935"></a>
+  - Modeling Light-Emitting Diodes . . . . . 935
+  - _Keywords:_ LED, Rays, Starting, Radiation, Pattern, Grid, Spontaneous, Emission
+- **Chapter 35 Modeling Quantum Wells 975** <a id="chapter-35-modeling-quantum-wells-975"></a>
+  - Overview. . . . 975
+  - _Keywords:_ Gain, Broadening, Quantum, Well, Spontaneous, Model, Recombination, Stimulated
+- **Part III Numeric Methods and External Interfaces 1001** <a id="part-iii-numeric-methods-and-external-interfaces-1001"></a>
+- **Chapter 36 Numeric Methods 1003** <a id="chapter-36-numeric-methods-1003"></a>
+  - Discretization . . 1003
+  - _Keywords:_ Method, Box, Elements, Harmonic, Balance, Coefficients, Weighted, Non
+- **Chapter 37 Physical Model Interface 1033** <a id="chapter-37-physical-model-interface-1033"></a>
+  - Overview of the Physical Model Interface . . . . . 1033
+  - _Keywords:_ Interface, Simplified, Standard, Dependencies, Model, Dependent, Field, PMI
+- **Chapter 38 Tcl Interfaces 1301** <a id="chapter-38-tcl-interfaces-1301"></a>
+  - Overview. . . . 1301
+  - _Keywords:_ _Compute, Mesh, Device, Region, Dimensional, Arrays, _Names, Overview
+- **Part IV Appendices 1315** <a id="part-iv-appendices-1315"></a>
+- **Appendix A Mathematical Symbols 1317** <a id="appendix-a-mathematical-symbols-1317"></a>
+- **Appendix B Syntax 1321** <a id="appendix-b-syntax-1321"></a>
+- **Appendix C File-Naming Conventions 1323** <a id="appendix-c-file-naming-conventions-1323"></a>
+  - File Extensions . . 1323
+  - _Keywords:_ Extensions
+- **Appendix D Command-Line Options 1325** <a id="appendix-d-command-line-options-1325"></a>
+  - Starting Sentaurus Device. . . . 1325
+  - _Keywords:_ Starting, Sentaurus, Device, Line
+- **Appendix E Runtime Statistics 1329** <a id="appendix-e-runtime-statistics-1329"></a>
+  - Generating Statistics . . . . . 1329
+  - _Keywords:_ Generating, Statistics
+- **Appendix F Data and Plot Names 1331** <a id="appendix-f-data-and-plot-names-1331"></a>
+  - Overview. . . . 1331
+  - _Keywords:_ Data, Vector, Overview, Scalar, Special, Tensor
+- **Appendix G Command File Overview 1369** <a id="appendix-g-command-file-overview-1369"></a>
+  - Organization of Command File Overview . . . . . 1369
+  - _Keywords:_ Device, Sentaurus, semiconductor, Part, device, dimensional, physical, models
+- **Related Publications** <a id="related-publications"></a>
+  - For additional information, see:
+  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
+- **Conventions** <a id="conventions"></a>
+  - The following conventions are used in Synopsys documentation.
+  - _Keywords:_ Identifies, screen, identifies, New, conventions, Synopsys, documentation, Convention
+- **Customer Support** <a id="customer-support"></a>
+  - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
+  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
+- **Accessing SolvNet** <a id="accessing-solvnet"></a>
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
+  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+- **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
+  - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
+  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
+- **Contacting Your Local TCAD Support Team Directly** <a id="contacting-your-local-tcad-support-team-directly"></a>
+  - Send an e-mail message to:
+  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
+- **Acknowledgments** <a id="acknowledgments"></a>
+  - Parts of Sentaurus Device were codeveloped by Integrated Systems Laboratory of ETH Zurich in the joint research project LASER with financial support by the Swiss funding agency CTI and in the joint research project VCSEL with financial s...
+  - _Keywords:_ research, project, financial, support, Swiss, funding, agency, codeveloped
+- **About This Guide** <a id="about-this-guide"></a>
+- **Acknowledgments** <a id="acknowledgments"></a>
+- **Part I Getting Started** <a id="part-i-getting-started"></a>
+  - This part of the Sentaurus™ Device User Guide contains the following chapters:
+  - _Keywords:_ Sentaurus, Device, Numeric, Guide, contains, Introduction, Specifying, Physical
+- **Functionality of Sentaurus Device** <a id="functionality-of-sentaurus-device"></a>
+  - Sentaurus Device simulates numerically the electrical behavior of a single semiconductor device in isolation or several physical devices combined in a circuit. Terminal currents, voltages, and charges are computed based on a set of physi...
+  - _Keywords:_ device, devices, circuit, physical, doping, models, Sentaurus, Device
+- **Creating and Meshing Device Structures** <a id="creating-and-meshing-device-structures"></a>
+  - Device structures can be created in various ways, including 1D, 2D, or 3D process simulation (Sentaurus Process), 2D or 3D process emulation (Sentaurus Structure Editor), and 2D or 3D structure editors (Sentaurus Structure Editor).
+  - _Keywords:_ Sentaurus, simulation, structure, MOSFET, Structure, Editor, device, regions
+- **Tool Flow** <a id="tool-flow"></a>
+  - In a typical device tool flow, the creation of a device structure by process simulation (Sentaurus Process) is followed by remeshing using Sentaurus Structure Editor or Sentaurus Mesh. In this scheme, control of mesh refinement is handle...
+  - _Keywords:_ Sentaurus, device, simulation, Device, Structure, Editor, electrical, characteristics
+- **Starting Sentaurus Device** <a id="starting-sentaurus-device"></a>
+  - You can start Sentaurus Device from either the command line or Sentaurus Workbench.
+  - _Keywords:_ Sentaurus, You, Device, either, Workbench
+- **From the Command Line** <a id="from-the-command-line"></a>
+  - Sentaurus Device is driven by a command file and run by the command:
+  - _Keywords:_ sdevice, version, release, Sentaurus, Device, latest, particular, starts
+- **From Sentaurus Workbench** <a id="from-sentaurus-workbench"></a>
+  - Sentaurus Device is launched automatically through the Scheduler when working inside Sentaurus Workbench.
+  - _Keywords:_ Sentaurus, Workbench, Device, launched, automatically, through, Scheduler, working
+- **Simulation Projects** <a id="simulation-projects"></a>
+  - The Sentaurus Device module of the TCAD Sentaurus Tutorial provides various projects demonstrating the capabilities of Sentaurus Device.
+  - _Keywords:_ Sentaurus, TCAD, Device, Tutorial, device, access, STROOT, STRELEASE
+- **Reading a Structure** <a id="reading-a-structure"></a>
+  - A device is defined by its shape, material composition, and doping. This information is defined on a grid and contained in a TDR file that you specify with the keyword Grid in the File section of the command file, for example:
+  - _Keywords:_ device, coordinate, system, Sentaurus, Math, specifies, Device, TDR
+- **Abrupt and Graded Heterojunctions** <a id="abrupt-and-graded-heterojunctions"></a>
+  - Sentaurus Device supports both abrupt and graded heterojunctions, with an arbitrary mole fraction distribution. In the case of abrupt heterojunctions, Sentaurus Device treats discontinuous datasets properly by introducing double points a...
+  - _Keywords:_ double, points, abrupt, HeteroInterface, heterointerface, without, Sentaurus, Device
+- **Specifying Doping Species** <a id="specifying-doping-species"></a>
+  - Sentaurus Device relies on the Variables section of the file datexcodes.txt to determine its doping species. A variable is identified as a doping species by a doping field that shows whether it is an acceptor or a donor. Chemical concent...
+  - _Keywords:_ doping, concentrations, active, ionized, species, acceptor, BoronActiveConcentration, Sentaurus
+- **2: Specifying Physical Devices** <a id="2-specifying-physical-devices"></a>
+  - Specifying Doping Species
+  - _Keywords:_ mathrm, doping, species, Sentaurus, Device, concentration, Grid, TotalConcentration
+- **Specifying Materials** <a id="specifying-materials"></a>
+  - Sentaurus Device supports all materials that are declared in the datexcodes.txt file (see Utilities User Guide, Chapter 1 on page 1). The following search strategy is observed to locate the datexcodes.txt file:
+  - _Keywords:_ datexcodes, STROOT, priority, materials, _LIB, Sentaurus, Device, supports
+- **User-Defined Materials** <a id="user-defined-materials"></a>
+  - New materials can be defined in a local datexcodes.txt file. To add a new material, add its description to the Materials section of datexcodes.txt:
+  - _Keywords:_ Color, material, datexcodes, Materials, Silicon, Semiconductor, Insulator, visualization
+- **Mole-Fraction Materials** <a id="mole-fraction-materials"></a>
+  - Sentaurus Device reads the Molefraction.txt file to determine mole fraction–dependent materials. The following search strategy is used to locate this file:
+  - _Keywords:_ mathrm, Molefraction, materials, InGaAsP, GaAs, InAs, mathbf, Sentaurus
+- **Mole-Fraction Specification** <a id="mole-fraction-specification"></a>
+  - In Sentaurus Device, the mole fraction of a compound semiconductor or insulator is defined in the following ways:
+  - _Keywords:_ Physics, MoleFraction, Region, fraction, inside, specification, specified, statement
+- **Physical Models and the Hierarchy of Their Specification** <a id="physical-models-and-the-hierarchy-of-their-specification"></a>
+  - The Physics section is used to select the models that are used to simulate a device. Table 227 on page 1415 lists the keywords that are available, and Part II discusses the models in detail. Physical models can be specified globally, per...
+  - _Keywords:_ models, specifications, device, syntactically, possible, Some, activated, Physics
+- **Region-Specific and Material-Specific Models** <a id="region-specific-and-material-specific-models"></a>
+  - In Sentaurus Device, different physical models for different regions and materials within a device structure can be specified. The syntax for this feature is:
+  - _Keywords:_ region, models, Physics, material, defined, specific, Emitter, Math
+- **Interface-Specific Models** <a id="interface-specific-models"></a>
+  - A special set of models can be activated at the interface between two different materials or two different regions. In Table 227 on page 1415, pure interface models are flagged with ‘(i)’ in the description column.
+  - _Keywords:_ interface, Physics, region, models, material, materials, regions, present
+- **Electrode-Specific Models** <a id="electrode-specific-models"></a>
+  - Electrode-specific Physics sections can be defined, for example:
+  - _Keywords:_ Electrode, Physics, specific, defined, Gate, Schottky, eRecVel, hRecVel
+- **Physical Model Parameters** <a id="physical-model-parameters"></a>
+  - Most physical models depend on parameters that can be adjusted in a file given by Parameter in the File section:
+  - _Keywords:_ LatticeHeatCapacity, physical, particular, interface, Silicon, Oxide, models, depend
+- **2: Specifying Physical Devices** <a id="2-specifying-physical-devices"></a>
+  - Physical Model Parameters
+  - _Keywords:_ Insert, LatticeHeatCapacity, Silicon, themselves, specify, capacity, location, Material
+- **Search Strategy for Parameter Files** <a id="search-strategy-for-parameter-files"></a>
+  - Sentaurus Device uses the following strategy to search for inserted files, from highest to lowest priority as follows:
+  - _Keywords:_ Sentaurus, Device, variable, STROOT, STRELEASE, sdevice, MaterialDB, directory
+- **Parameters for Composition-Dependent Materials** <a id="parameters-for-composition-dependent-materials"></a>
+  - The following parameter sets provide mole fraction dependencies. All models are available for compound semiconductors only, except where otherwise noted:
+  - _Keywords:_ fraction, mobility, available, compound, bandgap, narrowing, insulators, Eg0
+- **Ternary Semiconductor Composition** <a id="ternary-semiconductor-composition"></a>
+  - To illustrate a calculation of mole fraction–dependent parameter values for ternary materials, consider one mole interval from $x _ { i - 1 }$ to $x _ { i }$ . For mole fraction value ( ) of this interval, tox compute the parameter value...
+  - _Keywords:_ Delta, fraction, interval, Sentaurus, Device, materials, details, summary
+- **Example 1: Specifying Electric Permittivity** <a id="example-1-specifying-electric-permittivity"></a>
+  - This example provides the specification of dielectric permittivity for $\mathrm { { A l } _ { x } \mathrm { { G a } _ { 1 - x } \mathrm { { A s } \mathrm { { : } } } } }$ :
+  - _Keywords:_ mathrm, epsilon, dielectric, permittivity, fraction, linear, interpolation, specifies
+- **Example 2: Specifying Band Gap** <a id="example-2-specifying-band-gap"></a>
+  - This example provides a specification of the bandgap parameters for $\mathrm { { A l } _ { x } \mathrm { { G a } _ { 1 - x } \mathrm { { A s } . } } }$ . A polynomial approximation, up to the third degree, describes the mole fraction–dep...
+  - _Keywords:_ Xmax, Eg0, Chi0, mathrm, fraction, intervals, Tpar, Xmin
+- **Quaternary Semiconductor Composition** <a id="quaternary-semiconductor-composition"></a>
+  - Sentaurus Device supports 1:3, 2:2, and 3:1 III–V quaternary alloys. A 1:3 III–V quaternary alloy is given by:
+  - _Keywords:_ III, mathrm, quaternary, elements, alloys, interpolation, Sentaurus, Device
+- **Default Model Parameters for Compound Semiconductors** <a id="default-model-parameters-for-compound-semiconductors"></a>
+  - It is important to understand how the default values for different physical models in different materials are determined. The approach used in Sentaurus Device is summarized here. For example, consider the material Material. Assume that ...
+  - _Keywords:_ materials, material, Material, interpolation, Model, corresponding, mathrm, different
+- **Combining Parameter Specifications** <a id="combining-parameter-specifications"></a>
+  - Sentaurus Device has built-in values for many parameters, can read parameters from files in a default location, and can read a user-supplied parameter file that can specify parameters for various locations. This section discusses the rul...
+  - _Keywords:_ ParameterInheritance, combining, specifications, specified, global, Sentaurus, Device, location
+- **Materialwise Parameters** <a id="materialwise-parameters"></a>
+  - To determine materialwise parameters, follow these steps:
+  - _Keywords:_ material, materialwise, materials, specifications, present, overwrite, silicon, ParameterInheritance
+- **Regionwise Parameters** <a id="regionwise-parameters"></a>
+  - When your parameter file does not contain a section for a certain region, the parameter values for this region are the same as for the material of the region. In this case, if ParameterInheritance=None, the regionwise parameters are disc...
+  - _Keywords:_ region, material, ParameterInheritance, contain, certain, Flatten, Steps, present
+- **Material Interface–Wise Parameters** <a id="material-interface-wise-parameters"></a>
+  - Material interface–wise parameters are handled similarly to materialwise parameters, simply replace the term ‘material’ by ‘material interface’ in the description of the handling of materialwise parameters.
+  - _Keywords:_ interface, materialwise, material, Material, handled, similarly, simply, replace
+- **Region Interface–Wise Parameters** <a id="region-interface-wise-parameters"></a>
+  - Region interface–wise parameters are handled similarly to regionwise parameters, and the relation between region interface–wise parameters and material interface–wise parameters is analogous to the relation between regionwise and materia...
+  - _Keywords:_ interface, region, material, regionwise, relation, between, Region, handled
+- **Electrode-Wise Parameters** <a id="electrode-wise-parameters"></a>
+  - Electrode-wise parameters are handled similarly to materialwise parameters, simply replace the term ‘material’ by ‘electrode’ in the description of the handling of materialwise parameters.
+  - _Keywords:_ materialwise, Electrode, handled, similarly, simply, replace, material, electrode
+- **Generating a Copy of Parameter File** <a id="generating-a-copy-of-parameter-file"></a>
+  - To redefine a parameter value for a particular material, a copy of the default parameter file must be created. To do this, the command sdevice -P prints the parameter file for silicon, with insulator properties. Table 3 lists the princip...
+  - _Keywords:_ material, Electrode, sdevice, Insert, Prints, specified, fraction, Sentaurus
+- **Undefined Physical Models** <a id="undefined-physical-models"></a>
+  - For a nonsilicon simulation, the default behavior of Sentaurus Device is to use silicon parameters for models that are not defined in a material used in the simulation. It is useful for noncritical models, but it can lead to confusion, f...
+  - _Keywords:_ models, Sentaurus, Device, defined, eDOSmass, hDOSmass, insulators, simulation
+- **Default Parameters** <a id="default-parameters"></a>
+  - Sentaurus Device provides built-in default parameters for many models and materials. However, Sentaurus Device also offers the option to overwrite the built-in values with default parameters from files. This option is activated by Defaul...
+  - _Keywords:_ Sentaurus, Device, STROOT, STRELEASE, sdevice, MaterialDB, DefaultParametersFromFile, Physics
+- **Named Parameter Sets** <a id="named-parameter-sets"></a>
+  - Some models in Sentaurus Device support the use of parameter sets that can be named. For example, EnormalDependence is the unnamed parameter set used with the Lombardi mobility model. In the parameter file, you can write the following to...
+  - _Keywords:_ Lombardi, IALMob, EnormalDependence, unnamed, ParameterSetName, Enormal, colspan, support
+- **Auto-Orientation Framework** <a id="auto-orientation-framework"></a>
+  - Some models in Sentaurus Device support an auto-orientation framework that automatically switches between different named parameter sets for model evaluation, based on the surface orientation of the nearest interface.
+  - _Keywords:_ orientation, surface, models, interface, Sentaurus, Device, support, framework
+- **Changing Orientations Used With Auto-Orientation** <a id="changing-orientations-used-with-auto-orientation"></a>
+  - The auto-orientation framework can be modified to use surface orientations other than {100}, {110}, and {111}. This is accomplished by providing a definition for AutoOrientation in the Math section of the command file:
+  - _Keywords:_ AutoOrientation, surface, Math, orientation, orientations, framework, modified, accomplished
+- **Auto-Orientation Smoothing** <a id="auto-orientation-smoothing"></a>
+  - By default, the switch from one parameter set to another when using auto-orientation occurs abruptly. To enable a smooth transition between different parameter sets, specify a nonzero value for the auto-orientation smoothing distance in ...
+  - _Keywords:_ orientation, distance, vertex, smoothing, interface, weights, different, vertices
+- **References** <a id="references"></a>
+  - [1] C. K. Williams et al., “Energy Bandgap and Lattice Constant Contours of III-V Quaternary Alloys of the Form $\mathbf { A _ { x } B _ { y } C _ { z } D }$ or $\mathbf { A B _ { x } C _ { y } D _ { z } } ,$ Journal of Electronic Materi...
+  - _Keywords:_ III, Energy, Bandgap, Lattice, Constant, Contours, Quaternary, Alloys
+- **2: Specifying Physical Devices** <a id="2-specifying-physical-devices"></a>
+  - References
+  - _Keywords:_ Journal, Band, Applied, Physics, References, Adachi, refractive, indices
+- **Overview of Mixed-Mode Simulations** <a id="overview-of-mixed-mode-simulations"></a>
+  - Sentaurus Device is a single-device simulator, and a mixed-mode device and circuit simulator. A single-device command file is defined through the mesh, contacts, physical models, and solve command specifications.
+  - _Keywords:_ models, Device, circuit, device, compact, defined, specified, System
+- **Compact Models** <a id="compact-models"></a>
+  - Sentaurus Device provides different compact models for use in mixed-mode simulations:
+  - _Keywords:_ models, provides, different, compact, simulations, Compact, Models, Sentaurus
+- **Hierarchical Description of Compact Models** <a id="hierarchical-description-of-compact-models"></a>
+  - In Sentaurus Device, each compact model is described by a three-level hierarchy:
+  - _Keywords:_ models, controlled, source, Device, SPICE, Voltage, Current, Sentaurus
+- **3: Mixed-Mode Simulations** <a id="3-mixed-mode-simulations"></a>
+- **Compact Models** <a id="compact-models"></a>
+  - Table 8 Available HSPICE models in Sentaurus Device
+  - _Keywords:_ HSPICE, Level, Device, models, Sentaurus, Model, interface, Available
+- **User-Defined Compact Models** <a id="user-defined-compact-models"></a>
+  - Sentaurus Device provides a compact model interface (CMI) for user-defined compact models. These models are implemented in C++ by you and linked to Sentaurus Device at runtime. Access to the source code of Sentaurus Device is not required.
+  - _Keywords:_ compact, Sentaurus, Device, defined, models, runtime, provides, interface
+- **HSPICE Netlist Files** <a id="hspice-netlist-files"></a>
+  - Sentaurus Device accepts HSPICE netlists that are provided in a separate file. A netlist is specified in the System section as follows:
+  - _Keywords:_ Sentaurus, Device, HSPICE, netlist, System, syntax, accepts, netlists
+- **Structure of Netlist Files** <a id="structure-of-netlist-files"></a>
+  - The first line of a netlist file is assumed to be a title line and is ignored, for example:
+  - _Keywords:_ netlist, assumed, ignored, TITLE, amplifier
+- **3: Mixed-Mode Simulations** <a id="3-mixed-mode-simulations"></a>
+  - HSPICE Netlist Files
+  - _Keywords:_ END, HSPICE, statements, netlist, statement, string, INCLUDE, Netlist
+- **Comments** <a id="comments"></a>
+  - A line starting with either the dollar sign (\$) character or the asterisk (\*) character is a comment line, for example:
+  - _Keywords:_ character, comment, starting, either, dollar, asterisk, You, comments
+- **Continuation Lines** <a id="continuation-lines"></a>
+  - Use the plus sign (+) character in the first column to indicate a continuation line:
+  - _Keywords:_ Use, character, column, indicate, continuation
+- **The .INCLUDE Statement** <a id="the-include-statement"></a>
+  - Use the .INCLUDE statement to include another netlist in the current netlist:
+  - _Keywords:_ INCLUDE, netlist, Use, statement, include, another, current, models
+- **Numeric Constants** <a id="numeric-constants"></a>
+  - You can enter numbers in one of the following formats:
+  - _Keywords:_ factor, Floating, Integer, listed, Scale, You, formats, integer
+- **Parameters and Expressions** <a id="parameters-and-expressions"></a>
+  - In the HSPICE tool, parameters are names that you associate with a value. Numeric and string parameters are supported, for example:
+  - _Keywords:_ PARAM, string, supported, HSPICE, associate, Numeric, python, mathematical
+- **3: Mixed-Mode Simulations** <a id="3-mixed-mode-simulations"></a>
+  - HSPICE Netlist Files
+  - _Keywords:_ HSPICE, Netlist
+- **Subcircuits** <a id="subcircuits"></a>
+  - Reusable cells can be specified as subcircuits. The general definition is given by:
+  - _Keywords:_ SUBCKT, param1, param2, ENDS, Reusable, specified, subcircuits, general
+- **Examples** <a id="examples"></a>
+  - ```powershell .PARAM P5=5 P2=10 .SUBCKT SUB1 1 2 P4=4 R1 1 0 P4 R2 2 0 P5 X1 1 2 SUB2 P6=7 X2 1 2 SUB2 .ENDS ```
+  - _Keywords:_ SUB2, SUB1, powershell, PARAM, SUBCKT, ENDS, MACRO, EOM
+- **The .MODEL Statement** <a id="the-model-statement"></a>
+  - The .MODEL statement has the following general syntax:
+  - _Keywords:_ channel, MODEL, Description, BJT, controlled, switch, JFET, MESFET
+- **Examples** <a id="examples"></a>
+  - .MODEL mod1 NPN BF=50 IS=1e-13 VFB=50 PJ=3 N=1.05
+  - _Keywords:_ MODEL, NPN, VFB, PMOS, LEVEL, aigbinv
+- **Elements** <a id="elements"></a>
+  - Element names must begin with a specific letter for each element type.
+  - _Keywords:_ controlled, source, Voltage, Current, Element, letter, element, supported
+- **Netlist Commands** <a id="netlist-commands"></a>
+  - A limited set of netlist commands is recognized.
+  - _Keywords:_ mathbb, netlist, statement, mathsf, limited, recognized, global, across
+- **Specifying Physical Devices in Netlists** <a id="specifying-physical-devices-in-netlists"></a>
+  - Sentaurus Device supports an extension of the HSPICE netlist format so that you can specify physical devices in an HSPICE netlist. The .SDEVICE statement declares the name of a physical device and its contacts:
+  - _Keywords:_ netlist, physical, device, Sentaurus, Device, HSPICE, SDEVICE, specify
+- **SPICE Circuit Files** <a id="spice-circuit-files"></a>
+  - You can specify compact models in an external SPICE circuit file (extension .scf). The declaration of a parameter set can be:
+  - _Keywords:_ circuit, PSET, SPICE, declaration, device, declared, double, string
+- **3: Mixed-Mode Simulations** <a id="3-mixed-mode-simulations"></a>
+  - SPICE Circuit Files
+  - _Keywords:_ SPICE, Circuit, instance, connected, circuit, Compact, parameter0, value0
+- **Example** <a id="example"></a>
+  - Consider the following simple rectifier circuit:
+  - _Keywords:_ circuit, INSTANCE, rectifier, PSET, D1n4148, END, simulation, System
+- **Command File for Mixed-Mode Simulations** <a id="command-file-for-mixed-mode-simulations"></a>
+  - This section discusses the most important sections of the Sentaurus Device command file for mixed-mode simulations.
+  - _Keywords:_ discusses, important, Sentaurus, Device, simulations
+- **System Section** <a id="system-section"></a>
+  - The System section defines the netlist of physical devices and circuit elements to be solved. The netlist is connected through circuit nodes. By default, a circuit node is electrical, but it can be declared to be electrical or thermal:
+  - _Keywords:_ circuit, device, physical, System, connectivity, netlist, devices, contact
+- **Physical Devices** <a id="physical-devices"></a>
+  - A physical device is instantiated using a previously defined device type, name, connectivity list, and optional parameters, for example:
+  - _Keywords:_ device, connectivity, defined, optional, instance, physical, instantiated, previously
+- **3: Mixed-Mode Simulations** <a id="3-mixed-mode-simulations"></a>
+  - Command File for Mixed-Mode Simulations
+  - _Keywords:_ electrodes, connected, Electrodes, electrode, keyword, thermodes, Mixed, Mode
+- **Circuit Devices** <a id="circuit-devices"></a>
+  - You can declare SPICE instances in HSPICE netlist files (see HSPICE Netlist Files on page 45) or in SPICE circuit files (see SPICE Circuit Files on page 51). They can also appear directly in the System section of the command file, for ex...
+  - _Keywords:_ SPICE, internal, through, HSPICE, netlist, circuit, declaration, instance
+- **Electrical and Thermal Netlists** <a id="electrical-and-thermal-netlists"></a>
+  - Both electrical and thermal netlists can coexist in the same system. For example:
+  - _Keywords:_ mathrm, thermal, circuit, temperature, resistor, Anode, Cathode, resistance
+- **3: Mixed-Mode Simulations** <a id="3-mixed-mode-simulations"></a>
+  - Command File for Mixed-Mode Simulations
+  - _Keywords:_ temperature, SPICE, interface, global, Sentaurus, Device, circuit, instance
+- **Initializing Nodes** <a id="initializing-nodes"></a>
+  - The Set statement establishes the node value. (The Unset statement is used to free a node after a Set statement.) This value remains fixed during all subsequent simulations until a Set or an Unset statement is used in the Solve section (...
+  - _Keywords:_ statement, Unset, current, Initialize, equation, during, simulations, Solve
+- **Example** <a id="example"></a>
+  - ```txt Set ( anode = 5 ) ```
+- **Plotting Quantities** <a id="plotting-quantities"></a>
+  - The System section can contain any number of Plot statements to print voltages at nodes, currents through devices, or circuit element parameters. The output is stored in a specified file
+  - _Keywords:_ System, contain, Plot, statements, voltages, currents, through, devices
+- **3: Mixed-Mode Simulations** <a id="3-mixed-mode-simulations"></a>
+  - Command File for Mixed-Mode Simulations
+  - _Keywords:_ Plot, statement, Mixed, Mode, Simulations, provided, standard, syntax
+- **Examples** <a id="examples"></a>
+  - ```txt Plot (a b i(r1 a) p(r1 rT) p(v0 "sine[0]") ) Plot "plotfile" (time() v(a b) i(d1 a)) ```
+  - _Keywords:_ Plot, plotfile
+- **Modifying Plot Output** <a id="modifying-plot-output"></a>
+  - You can use the ACPlot statement in the System section to modify the output in the Sentaurus Device AC plot file:
+  - _Keywords:_ ACPlot, statement, System, Sentaurus, Device, plotted, results, analysis
+- **Device Section** <a id="device-section"></a>
+  - The Device sections of the command file define the different device types used in the system to be simulated. Each device type must have an identifier name that follows the keyword Device. Each Device section can include Electrode, Therm...
+  - _Keywords:_ Device, Physics, device, Electrode, resist, information, define, different
+- **File Section** <a id="file-section"></a>
+  - In the File section, you can specify the following:
+  - _Keywords:_ keyword, models, specify, signal, extraction, ACExtract, Sentaurus, Device
+- **3: Mixed-Mode Simulations** <a id="3-mixed-mode-simulations"></a>
+  - Command File for Mixed-Mode Simulations
+  - _Keywords:_ extension, Device, keywords, DevicePath, SPICEPath, CMIPath, devices, System
+- **Math Section** <a id="math-section"></a>
+  - You can specify the following keywords in the global Math section for mixed-mode simulations:
+  - _Keywords:_ global, Math, keyword, Spice, SPICE, You, specify, keywords
+- **Working With Mixed-Mode Simulations** <a id="working-with-mixed-mode-simulations"></a>
+  - In Sentaurus Device, mixed-mode simulations are handled as a direct extension of singledevice simulations.
+  - _Keywords:_ simulations, Sentaurus, Device, handled, direct, extension, singledevice
+- **From Single-Device to Multidevice Command Files** <a id="from-single-device-to-multidevice-command-files"></a>
+  - The command file of Sentaurus Device accepts both single-device and multidevice problems. Although the two forms of input look different, they fit in the same input syntax pattern. This is possible because the command file has multiple l...
+  - _Keywords:_ device, single, Poisson, Device, syntax, System, Electrode, levels
+- **File-Naming Conventions for Mixed Mode** <a id="file-naming-conventions-for-mixed-mode"></a>
+  - A File section can be defined at all levels of a command file. Therefore, a default file name can be potentially included by more than one device.
+  - _Keywords:_ device, defined, Save, concatenated, instance, Therefore, Device, instances
+- **3: Mixed-Mode Simulations** <a id="3-mixed-mode-simulations"></a>
+  - Working With Mixed-Mode Simulations
+  - _Keywords:_ describes, experiment, perform, experiments, Working, Mixed, Mode, Simulations
+- **Specifying Electrical Boundary Conditions** <a id="specifying-electrical-boundary-conditions"></a>
+  - Electrical boundary conditions are specified in the Electrode section. Only one Electrode section must be defined for each device. Each electrode is defined in a subsection enclosed by braces and must include a name and default voltage. ...
+  - _Keywords:_ Electrode, defined, voltage, boundary, source, Voltage, regular, contacts
+- **Changing Boundary Condition Type During Simulation** <a id="changing-boundary-condition-type-during-simulation"></a>
+  - The Set statement in the Solve section changes the boundary condition type for an electrode as follows:
+  - _Keywords:_ boundary, condition, current, contact, voltage, statement, charge, change
+- **Mixed-Mode Electrical Boundary Conditions** <a id="mixed-mode-electrical-boundary-conditions"></a>
+  - In mixed-mode simulations, an additional possibility to specify electrical boundary conditions is to connect electrodes to a circuit (see Electrical and Thermal Netlists on page 56).
+  - _Keywords:_ statement, circuit, Solve, voltage, source, boundary, conditions, current
+- **Specifying Thermal Boundary Conditions** <a id="specifying-thermal-boundary-conditions"></a>
+  - The Thermode section defines the thermal contacts of a device. The Thermode section is defined in the same way as the Electrode section. By default, the temperature specified with Temperature is the temperature of the thermode. If, in ad...
+  - _Keywords:_ thermal, boundary, Thermode, specified, Temperature, condition, Power, contacts
+- **Break Criteria: Conditionally Stopping the Simulation** <a id="break-criteria-conditionally-stopping-the-simulation"></a>
+  - Sentaurus Device prematurely terminates a simulation if certain values exceed a given limit. This feature is useful during a nonisothermal simulation to stop the calculations when the silicon starts to melt or to stop a breakdown simulat...
+  - _Keywords:_ simulation, Device, during, current, Contact, voltage, absolute, specified
+- **Global Contact Break Criteria** <a id="global-contact-break-criteria"></a>
+  - The limits for contact voltages and contact currents can be specified in the global Math section:
+  - _Keywords:_ contact, Math, Contact, limits, voltages, currents, specified, global
+- **Global Device Break Criteria** <a id="global-device-break-criteria"></a>
+  - The device power is equal to $P = \sum _ { k } I _ { k } \cdot V _ { k }$ , where:
+  - _Keywords:_ BreakCriteria, exceeds, criteria, lattice, temperature, device, current, Math
+- **Sweep-Specific Break Criteria** <a id="sweep-specific-break-criteria"></a>
+  - Sweep-specific break criteria can be specified as an option of Quasistationary, Transient, and Continuation:
+  - _Keywords:_ Quasistationary, Sweep, specific, criteria, specified, Transient, Continuation, BreakCriteria
+- **4: Performing Numeric Experiments** <a id="4-performing-numeric-experiments"></a>
+- **Quasistationary Ramps** <a id="quasistationary-ramps"></a>
+  - ```txt Quasistationary( BreakCriteria { CurrentDensity( AbsVal = 0.1) } Goal { Name = "gate" Voltage = 2 } ) { coupled { poisson electron hole } } ... } ```
+  - _Keywords:_ Quasistationary, current, exceeds, Sentaurus, Device, switches, BreakCriteria, CurrentDensity
+- **Mixed-Mode Break Criteria** <a id="mixed-mode-break-criteria"></a>
+  - All the previously mentioned break criteria are also available in mixed mode. In this case, the BreakCriteria section must contain the circuit device name (an exception are voltage criteria on circuit nodes). Examples of the break criter...
+  - _Keywords:_ DevName, MaxVal, criteria, BreakCriteria, circuit, device, variables, Voltage
+- **Quasistationary Ramps** <a id="quasistationary-ramps"></a>
+  - The Quasistationary command ramps a device from one solution to another through the modification of its boundary conditions (such as contact voltages) or parameter values.
+  - _Keywords:_ Quasistationary, device, modification, boundary, conditions, details, summary, solution
+- **Ramping Boundary Conditions** <a id="ramping-boundary-conditions"></a>
+  - To ramp boundary conditions, such as voltages on electrodes, the Quasistationary command is:
+  - _Keywords:_ Quasistationary, contact, voltage, current, ramping, Goal, charge, boundary
+- **Ramping Quasi-Fermi Potentials in Doping Wells** <a id="ramping-quasi-fermi-potentials-in-doping-wells"></a>
+  - Electron and hole quasi-Fermi potentials in specified doping wells can also be ramped in a Quasistationary statement. This is a quick and robust way to deplete doping wells without having to solve the continuity equation for the carrier ...
+  - _Keywords:_ Fermi, potential, DopingWell, eQuasiFermi, Goal, Quasistationary, region, specified
+- **Ramping Physical Parameter Values** <a id="ramping-physical-parameter-values"></a>
+  - A Quasistationary command allows parameters from the parameter file of Sentaurus Device to be ramped. The Goal statement has the form:
+  - _Keywords:_ ramped, fraction, dependent, Device, Xmax, Sentaurus, material, Goal
+- **Quasistationary in Mixed Mode** <a id="quasistationary-in-mixed-mode"></a>
+  - The Quasistationary statement is extended in mixed mode to include goals on nodes and circuit model parameters. Table 195 on page 1381 shows the syntax of these goals.
+  - _Keywords:_ statement, Quasistationary, Goal, Circuit, circuit, System, ramped, resistance
+- **Saving and Plotting During a Quasistationary** <a id="saving-and-plotting-during-a-quasistationary"></a>
+  - Data can be saved and plotted during a Quasistationary ramping process by using the Plot command. Plot is placed with the other Quasistationary parameters, for example:
+  - _Keywords:_ Plot, Quasistationary, Goal, Voltage, Drain, Coupled, Poisson, Electron
+- **Extrapolation** <a id="extrapolation"></a>
+  - The Quasistationary command can use extrapolation to predict the next solution based on the values of the previous solutions. Extrapolation can be switched on globally in the Math section:
+  - _Keywords:_ Quasistationary, extrapolation, previous, Goal, information, Voltage, Coupled, Poisson
+- **Continuation Command** <a id="continuation-command"></a>
+  - The Continuation command enables automated tracing of arbitrarily shaped curves ofI V( ) complicated device phenomena such as breakdown or latchup. Simulation of these phenomena usually requires biasing conditions tracing a multivalued c...
+  - _Keywords:_ device, Continuation, boundary, continuation, conditions, traced, external, condition
+- **Continuation Control Parameters** <a id="continuation-control-parameters"></a>
+  - A user-defined window specifies the limits for curve tracing. The continuation window is specified by user-defined lower and upper values for the voltage and current of the operating point at the continuation electrode: MinVoltage, MaxVo...
+  - _Keywords:_ continuation, current, voltage, electrode, contact, Voltage, Increment, Decrement
+- **Alternative Curve-Tracing Option** <a id="alternative-curve-tracing-option"></a>
+  - Sentaurus Device includes an option for tracing curves that might improve continuationI V( ) robustness in many situations. The option uses a scaled (dimensionless) arc for tracing I V( ) curves. This option is selected with the NewArc p...
+  - _Keywords:_ tracing, curves, NewArc, Sentaurus, Device, includes, improve, continuationI
+- **Transient Command** <a id="transient-command"></a>
+  - The Transient command is used to perform a transient time simulation. The command must start with a device that has already been solved. The simulation continues by iterating between incrementing time and re-solving the device (see Figur...
+  - _Keywords:_ Transient, Coupled, Plot, transient, simulation, control, device, InitialTime
+- **Numeric Control of Transient Analysis** <a id="numeric-control-of-transient-analysis"></a>
+  - A set of keywords is available in the Math section to control transient simulation. Sentaurus Device uses implicit discretization of nonstationary equations and supports two discretization schemes: the trapezoidal rule/backward different...
+  - _Keywords:_ mathrm, transient, control, Transient, Sentaurus, Device, discretization, method
+- **Time-Stepping** <a id="time-stepping"></a>
+  - A transient simulation computes the status of the system or device as a function of time for a finite time range, specified by InitialTime and FinalTime, by advancing from a status at a given time to the status at a later time point. The...
+  - _Keywords:_ status, advancing, points, system, Time, specified, computation, Condition
+- **Ramping Physical Parameter Values** <a id="ramping-physical-parameter-values"></a>
+  - A Transient command allows parameters from the parameter file of Sentaurus Device to be ramped linearly. The Bias statement (similar to the subsection Goal in a Quasistationary command, see Ramping Physical Parameter Values on page 78) h...
+  - _Keywords:_ Bias, interface, Transient, material, region, Model, Device, ramped
+- **Extrapolation** <a id="extrapolation"></a>
+  - If the Extrapolate option is present in the Math section, the Transient command uses the linear extrapolation of the last two solutions to predict the next solution. This extrapolation information is preserved between Transient commands,...
+  - _Keywords:_ Transient, extrapolation, information, previous, solution, between, Load, current
+- **Transient Ramps** <a id="transient-ramps"></a>
+  - As an alternative, Sentaurus Device provides Transient command syntax very similar to the Quasistationary command. This Transient command simplifies switching from quasistationary simulations to slow transient ones with minimal user effo...
+  - _Keywords:_ transient, Goal, Transient, InitialTime, FinalTime, Quasistationary, InitialStep, MaxStep
+- **Large-Signal Cyclic Analysis** <a id="large-signal-cyclic-analysis"></a>
+  - For high-speed and high-frequency operations, devices are often evaluated by cyclic biases. After a time, device variables change periodically. This cyclic-bias steady state [3] is a condition that occurs when all parameters of a simulat...
+  - _Keywords:_ cyclic, steady, approach, initial, frequency, system, transient, simulation
+- **Description of Method** <a id="description-of-method"></a>
+  - The original method [4] is summarized. Transient simulation starts from some initial guess. A few periods of transient simulation are performed and, after each period, the change over the period of each independent variable of the simula...
+  - _Keywords:_ mathrm, Delta, steady, extrapolation, period, factor, variable, estimated
+- **Using Cyclic Analysis** <a id="using-cyclic-analysis"></a>
+  - Cyclic analysis is activated by specifying the parameter Cyclic in the parameter list of the Transient statement. Cyclic is a complex structure–like parameter and contains cyclic options and parameters in parentheses:
+  - _Keywords:_ Cyclic, Transient, cyclic, statement, InitialTime, FinalTime, InitialStep, MinStep
+- **Small-Signal AC Analysis** <a id="small-signal-ac-analysis"></a>
+  - An ACCoupled solve section is an extension of a Coupled section with an extra set of parameters allowing small-signal AC analysis. Table 190 on page 1377 describes these parameters. In general, an ACCoupled is used in mixed mode. AC Simu...
+  - _Keywords:_ ACCoupled, extension, Coupled, allowing, signal, analysis, describes, general
+- **AC Analysis in Mixed-Mode Simulations** <a id="ac-analysis-in-mixed-mode-simulations"></a>
+  - AC analysis computes the frequency-dependent admittance matrix between circuit nodes ofY the specified electrical system. For a given excitation frequency , it describes the equivalentν small-signal model by:
+  - _Keywords:_ analysis, ACCoupled, matrix, admittance, circuit, system, instances, extraction
+- **Example** <a id="example"></a>
+  - This example illustrates AC analysis of a simple device. A 1D resistor is connected to ground (through resistor to\_ground) and to a voltage source drive at reverse bias of After–3 V. calculating the initial voltage point at the left vol...
+  - _Keywords:_ Blocked, voltage, resist, to_ground, ACMethod, ACSubMethod, analysis, resistor
+- **AC Analysis in Single-Device Mode** <a id="ac-analysis-in-single-device-mode"></a>
+  - As previously described, AC analysis requires in general a mixed-mode simulation, that is, a System section must be defined. For single-device simulations, a simple AC system is constructed for you if you use ImplicitACSystem in the glob...
+  - _Keywords:_ system, device, implicit, contact, constructed, instances, voltage, connected
+- **Additional remarks:** <a id="additional-remarks"></a>
+  - Goal statements in Quasistationary: Goal statements for the electrode-voltage values for the device are interpreted as Goal statements for the implicit system instance connected to the corresponding node of the electrode. The implicit AC...
+  - _Keywords:_ statements, Goal, electrode, implicit, system, Quasistationary, voltage, device
+- **Example** <a id="example"></a>
+  - ```txt Math { ImplicitACSystem * build implicit AC system } Electrode { ... { Name="c1" Voltage=1 Voltage=(1 at 0., 2. at 1.e-8) ... } ```
+  - _Keywords:_ implicit, Voltage, contact, analysis, ACCoupled, StartFrequency, EndFrequency, NumberOfPoints
+- **Optical AC Analysis** <a id="optical-ac-analysis"></a>
+  - Optical AC analysis calculates the quantum efficiency as a function of the frequency of the optical signal. This technique is based on the AC analysis technique, and provides real and imaginary parts of the quantum efficiency versus the ...
+  - _Keywords:_ Optical, analysis, quantum, efficiency, frequency, optical, technique, ACCoupled
+- **Harmonic Balance** <a id="harmonic-balance"></a>
+  - Harmonic balance (HB) analysis is a frequency domain method to solve periodic or quasiperiodic, time-dependent problems. Compared to transient analysis (see Transient Command on page 88), HB is computationally more efficient for problems...
+  - _Keywords:_ underline, analysis, periodic, Harmonic, balance, dependent, problems, Analysis
+- **Modes of Harmonic Balance Analysis** <a id="modes-of-harmonic-balance-analysis"></a>
+  - Sentaurus Device supports two different modes to perform harmonic balance simulations: the MDFT mode and the SDFT mode.
+  - _Keywords:_ Sentaurus, Device, supports, different, perform, harmonic, balance, simulations
+- **MDFT Mode** <a id="mdft-mode"></a>
+  - The MDFT mode is suitable for multitone analysis and one-tone analysis, and is enabled by the MDFT option in the HB section of the global Math section. It uses the multidimensional Fourier transformation (MDFT) to switch between the freq...
+  - _Keywords:_ MDFT, CMI, Models, compact, models, analysis, frequency, domain
+- **SDFT Mode** <a id="sdft-mode"></a>
+  - The SDFT mode supports only one-tone HB analysis. The mixed-mode circuit might contain SPICE models and CMI models that do not provide the CMI-HB-MDFT functional set. It is used if the MDFT mode is disabled.
+  - _Keywords:_ models, CMI, MDFT, SDFT, supports, analysis, circuit, contain
+- **Performing Harmonic Balance Analysis** <a id="performing-harmonic-balance-analysis"></a>
+  - Harmonic balance simulations are enabled through the keyword HBCoupled in the Solve section. The syntax of HBCoupled is the same as for Coupled (see Coupled Statement on page 138). In addition, HBCoupled supports the options summarized i...
+  - _Keywords:_ HBCoupled, Coupled, MDFT, analysis, Solve, Tone, frequencies, System
+- **4: Performing Numeric Experiments** <a id="4-performing-numeric-experiments"></a>
+  - Harmonic Balance
+  - _Keywords:_ HBCoupled, Tone, Frequency, NumberOfHarmonics, Solve, statement, QuasiStationary, Harmonic
+- **Solve Spectrum** <a id="solve-spectrum"></a>
+  - The spectrum to be solved is determined by the specified tones. For different HBCoupled statements, the number of tones and their number of harmonics are allowed to change (where the -th tone is identified with the -th tone of the next s...
+  - _Keywords:_ spectrum, HBCoupled, SolveSpectrum, frequency, reduce, Math, solved, determined
+- **Convergence Parameters** <a id="convergence-parameters"></a>
+  - The convergence behavior of HBCoupled can be analyzed and influenced independently of specifications for the convergence of Coupled solve statements. Some parameters can be set exclusively in the HB section of the global Math section (se...
+  - _Keywords:_ convergence, HBCoupled, points, Newton, equations, exclusively, Math, CNormPrint
+- **Harmonic Balance Analysis Output** <a id="harmonic-balance-analysis-output"></a>
+  - All frequency-domain output data refers to the one-sided Fourier series representation for realvalued quantities, that is, it refers to ${ \tilde { U } } _ { h }$ of:
+  - _Keywords:_ underline, operatorname, omega_, frequency, refers, domain, Fourier, series
+- **Device Instance Currents, Voltages, Temperatures, and Heat Components** <a id="device-instance-currents-voltages-temperatures-and-heat-comp"></a>
+  - Each converged HBCoupled plots the results (contact currents and voltages, temperatures, and heat components) both in the time domain and frequency domain into a separate file. The names of the files for the time domain contain a compone...
+  - _Keywords:_ domain, frequency, contain, component, converged, HBCoupled, results, contact
+- **Circuit Currents and Voltages** <a id="circuit-currents-and-voltages"></a>
+  - Additionally, the keyword HBPlot in the System section allows you to plot circuit quantities. The syntax of HBPlot is identical to that of Plot in the System section (see Plotting Quantities on page 59). In MDFT mode, each converged HBCo...
+  - _Keywords:_ HBPlot, System, harmonic, Additionally, keyword, allows, circuit, quantities
+- **Solution Variables** <a id="solution-variables"></a>
+  - Plotting solution variables is only supported for one-tone HB simulations. This is implicitly done if the HB section in the Math section is present. Sentaurus Device will plot the coefficients $\tilde { U } _ { i }$ of Eq. 27 as a real-v...
+  - _Keywords:_ solution, variables, mathrm, Plotting, supported, simulations, implicitly, Math
+- **Application Notes** <a id="application-notes"></a>
+- **Note that:** <a id="note-that"></a>
+  - Convergence: Typically, the nonlinear convergence improves with an increasing number of harmonics for one-tone HB simulations.H Linear solvers: Benefiting both memory requirements and simulation time, you can use the iterative linear sol...
+  - _Keywords:_ harmonics, simulations, solver, Convergence, Typically, nonlinear, convergence, improves
+- **References** <a id="references"></a>
+  - [1] For information about Perl regular expression syntax, go to https://www.boost.org/doc/ libs/1\_55\_0/libs/regex/doc/html/boost\_regex/syntax/perl\_syntax.html. [2] R. J. G. Goossens et al., “An Automatic Biasing Scheme for Tracing Ar...
+  - _Keywords:_ Device, syntax, Transactions, Circuits, describes, Sentaurus, information, Perl
+- **Current File** <a id="current-file"></a>
+  - Sentaurus Device provides several forms of output. Most importantly, the current file contains the terminal characteristics obtained during the numeric experiment. Plot files allow you to visualize device internal quantities, and thereby...
+  - _Keywords:_ provides, simulation, itself, Sentaurus, Device, several, importantly, current
+- **When to Write to the Current File** <a id="when-to-write-to-the-current-file"></a>
+  - By default, currents are output after each iteration in a Plugin, Quasistationary, or Transient command. This behavior can be modified by a CurrentPlot statement in the body of these commands. The CurrentPlot statement in the Solve secti...
+  - _Keywords:_ CurrentPlot, currents, statement, current, system, points, integer, Plugin
+- **Example: CurrentPlot Statements** <a id="example-currentplot-statements"></a>
+  - A CurrentPlot statement by itself creates a current plot for each iteration:
+  - _Keywords:_ CurrentPlot, statement, Poisson, current, MaxStep, Coupled, iteration, Electron
+- **NewCurrentPrefix Statement** <a id="newcurrentprefix-statement"></a>
+  - By default, Sentaurus Device saves all current plots in one file (as defined by the variable Current in the File section). This behavior can be modified by the NewCurrentPrefix keyword in the Solve section:
+  - _Keywords:_ current, NewCurrentPrefix, Circuit, Poisson, Solve, prefix, Coupled, results
+- **Tracking Additional Data in the Current File** <a id="tracking-additional-data-in-the-current-file"></a>
+  - The CurrentPlot section on the top level of the command file is used to include selected parameter values and mesh data into the current plot file (.plt).
+  - _Keywords:_ current, You, CurrentPlot, Tcl, Sentaurus, Device, PMI, Current
+- **CurrentPlot Section** <a id="currentplot-section"></a>
+  - Sentaurus Device can add the scalar data listed in Appendix F on page 1331 to the current plot file.
+  - _Keywords:_ specification, interface, Sentaurus, Device, coordinates, maximum, minimum, specified
+- **Example: Mixed Mode** <a id="example-mixed-mode"></a>
+  - In mixed-mode simulations, the CurrentPlot section can appear in the body of a physical device within the System section (it is also possible to have a global CurrentPlot section), for example:
+  - _Keywords:_ CurrentPlot, System, simulations, appear, physical, device, within, possible
+- **Example: Advanced Options** <a id="example-advanced-options"></a>
+  - This example is a 2D device that uses the more advanced CurrentPlot features:
+  - _Keywords:_ Maximum, coordinates, Average, average, Semiconductor, maximum, device, CurrentPlot
+- **Example: Plotting Parameter Values** <a id="example-plotting-parameter-values"></a>
+  - The following example adds five curves to the current plot file:
+  - _Keywords:_ Model, Region, region, material, interface, current, AlGaAs, InGaAs
+- **CurrentPlot Options** <a id="currentplot-options"></a>
+  - The length unit used during a current plot integration (see Tracking Additional Data in the Current File on page 112) can be selected as follows:
+  - _Keywords:_ quantities, current, IntegrationUnit, Digits, CurrentPlot, follows, Math, useful
+- **Tcl Formulas** <a id="tcl-formulas"></a>
+  - Sentaurus Device can evaluate Tcl formulas and add the results to the current plot file. The Tcl interpreter has access to the data listed in Appendix F on page 1331, and you can provide Tcl commands to compute derived quantities. For ex...
+  - _Keywords:_ Tcl, compute, Evaluation, minimum, maximum, average, integral, domain
+- **5: Simulation Results** <a id="5-simulation-results"></a>
+  - Current File
+  - _Keywords:_ average, Tcl, minimum, maximum, integral, operation, channel, CurrentPlot
+- **Dataset Option** <a id="dataset-option"></a>
+  - This option specifies the dataset name that appears in the header section of the current plot file. If it is not specified, Sentaurus Device generates the name Tcl\_Dataset\_<index>, where <index> is a unique integer. For example:
+  - _Keywords:_ specifies, dataset, appears, header, current, specified, Sentaurus, Device
+- **Function Option** <a id="function-option"></a>
+  - This is the function name that appears in the header section of the current plot file. If it is not specified, Sentaurus Device generates the name Tcl\_Function\_<index>, where <index> is a unique integer. For example:
+  - _Keywords:_ appears, header, current, specified, Sentaurus, Device, generates, Tcl
+- **Unit Option** <a id="unit-option"></a>
+  - This is the unit of the current plot quantity. The .plt file format does not support units. However, a future file format might add this support. For example:
+  - _Keywords:_ format, support, current, quantity, However, future, Unit
+- **Init Option** <a id="init-option"></a>
+  - The Tcl code in this option is executed first for each plot time point. It can be used to initialize quantities that will be referenced in Formula. For example:
+  - _Keywords:_ Tcl, executed, initialize, quantities, referenced, Formula, Init, counter
+- **Formula Option** <a id="formula-option"></a>
+  - The Tcl code in this option is executed on individual mesh vertices. It must evaluate a formula and assign the result to the Tcl variable value.
+  - _Keywords:_ Tcl, executed, individual, vertices, evaluate, formula, assign, result
+- **The following Tcl functions and variables are available:** <a id="the-following-tcl-functions-and-variables-are-available"></a>
+  - tcl\_cp\_dim: The dimension of the mesh. Possible values are 1, 2, or 3. tcl\_cp\_vertex: The mesh index of the current vertex. tcl\_cp\_ContactOuterVoltage: This Tcl function returns the value of the contact voltage for the local contac...
+  - _Keywords:_ contact, vertex, Tcl, voltage, evaluation, domain, dataname, Appendix
+- **5: Simulation Results** <a id="5-simulation-results"></a>
+  - Current File
+  - _Keywords:_ Tcl, Current, _WriteScalar, dataname, defines, scalar, vertex, effect
+- **Finish Option** <a id="finish-option"></a>
+  - The Tcl code in this option is executed last for each plot time point. It can be used for postprocessing purposes. It has access to the Tcl list result, which contains the final current plot value. For example:
+  - _Keywords:_ Tcl, executed, postprocessing, purposes, access, result, contains, current
+- **Operation Option** <a id="operation-option"></a>
+  - This option determines how the current plot formula is evaluated. The following operations are recognized:
+  - _Keywords:_ domain, specified, formula, contact, integral, Region, Compute, interpolation
+- **Examples** <a id="examples"></a>
+  - Evaluate the electrostatic potential at ( , ):φ 7.2 μm 2.1 μm
+  - _Keywords:_ CurrentPlot, Tcl, Formula, tcl_cp_ReadScalar, Operation, Dataset, tcl_cp_ReadVector, ElectrostaticPotential
+- **Device Plots** <a id="device-plots"></a>
+  - Device plots show spatial-dependent datasets in the device and provide a view of the inside of the device.
+  - _Keywords:_ device, Device, spatial, dependent, datasets, provide, inside
+- **What to Plot** <a id="what-to-plot"></a>
+  - The Plot section specifies the data that is saved at the end of or, optionally, during the simulation to the Plot file specified in the File section or by the Plot command in the Solve section. Consecutive plots can be collected in a sin...
+  - _Keywords:_ Plot, datasets, keyword, DatasetsFromGrid, single, You, Math, written
+- **When to Plot** <a id="when-to-plot"></a>
+  - The simplest way to create a device plot is to define Plot in the File section. By default, the output to the Plot file will occur at the end of the simulation only.
+  - _Keywords:_ Plot, system, create, device, Quasistationary, Transient, specified, statement
+- **Example** <a id="example"></a>
+  - ```awk Solve { Plugin { Poisson Plot (FilePrefix = "output/poisson") Coupled { Poisson Electron Hole } Plot (FilePrefix = "output/electric" noOverwrite) } Transient { Coupled { Poisson Electron Hole Temperature } ```
+  - _Keywords:_ Plot, Poisson, Plugin, FilePrefix, statement, poisson, Coupled, Electron
+- **Snapshots** <a id="snapshots"></a>
+  - Sentaurus Device offers the possibility to save snapshots interactively during a simulation. This can be undertaken by sending a POSIX signal to the Sentaurus Device process. Depending on whether Plot or Save or both is specified in the ...
+  - _Keywords:_ signal, Sentaurus, Device, simulation, process, Interrupt, specified, actual
+- **Interface Plots** <a id="interface-plots"></a>
+  - Data fields defined on interfaces can be plotted by using the modifier /RegionInterface:
+  - _Keywords:_ fields, RegionInterface, regions, interfaces, plotted, HotElectronInj, available, interface
+- **Log File** <a id="log-file"></a>
+  - The name of the log file is specified by Output in the File section. The log file contains a copy of the messages that Sentaurus Device prints while a simulation runs. The log file contains various information, including:
+  - _Keywords:_ information, XML, contains, simulation, convergence, messages, Sentaurus, Device
+- **Extraction File** <a id="extraction-file"></a>
+  - Sentaurus Device supports a special-purpose file format (extension .xtr) for the extraction of MOSFET compact model parameters.
+  - _Keywords:_ Sentaurus, Device, supports, special, purpose, format, extension, extraction
+- **Extraction File Format** <a id="extraction-file-format"></a>
+  - The extraction file consists of the following parts:
+  - _Keywords:_ mathrm, extraction, containing, channel, variable, Synopsys, Curve, Bias
+- **Analysis Modes** <a id="analysis-modes"></a>
+  - Sentaurus Device supports different analysis modes.
+  - _Keywords:_ terminal, voltage, versus, source, Bias, conditions, frequency, voltages
+- **File Section** <a id="file-section"></a>
+  - You specify the name of the extraction file in the File section of the Sentaurus Device command file, for example:
+  - _Keywords:_ extraction, You, specify, Sentaurus, Device, Extraction, mosfet_des
+- **Electrode Section** <a id="electrode-section"></a>
+  - Sentaurus Device automatically recognizes the four electrodes of a MOSFET if they are called "bulk", "drain", "gate", and "source", or "b", "d", "g", and "s" (case insensitive). For other contact names, you can specify the mapping in the...
+  - _Keywords:_ Voltage, Extraction, electrodes, source, MOSFET, Electrode, Sentaurus, Device
+- **Extraction Section** <a id="extraction-section"></a>
+  - The process parameters can be part of the Sentaurus Device grid or doping file. You can also specify the same information in an Extraction section, for example:
+  - _Keywords:_ Extraction, process, Sentaurus, Device, doping, You, specify, information
+- **5: Simulation Results** <a id="5-simulation-results"></a>
+  - Extraction File
+  - _Keywords:_ Extraction, SCA, SCB, SCC, consists, entries, copied, extraction
+- **Solve Section** <a id="solve-section"></a>
+  - The Quasistationary statement in the Solve section supports an Extraction option to request voltage-dependent extraction curves. Multiple curves can be generated during a single ramp.
+  - _Keywords:_ Extraction, Quasistationary, curves, extraction, Voltage, Poisson, Electron, statement
+- **Structure of Command File** <a id="structure-of-command-file"></a>
+  - The Sentaurus Device command file is divided into sections that are defined by a keyword and braces (see Figure 12). A device is defined by the File, Electrode, Thermode, and Physics sections. The solve methods are defined by the Math an...
+  - _Keywords:_ defined, device, Sentaurus, Device, Electrode, Thermode, Physics, Math
+- **Inserting Files** <a id="inserting-files"></a>
+  - An insert directive is available in the command file of Sentaurus Device to incorporate other files:
+  - _Keywords:_ directive, directory, checked, priority, insert, available, Device, variable
+- **Solve Section: How the Simulation Proceeds** <a id="solve-section-how-the-simulation-proceeds"></a>
+  - The Solve section is the only section in which the order of commands are important. It consists of a series of simulation commands to be performed that are activated sequentially, according to the order of commands in the command file. M...
+  - _Keywords:_ stroke, statement, Continuation, Solve, performed, ACCoupled, simulation, levels
+- **Nonlinear Iterations** <a id="nonlinear-iterations"></a>
+- **Coupled Statement** <a id="coupled-statement"></a>
+  - The Coupled statement activates a Newton-like solver over a set of equations. Available equations include the Poisson equation, continuity equations, and the different thermal and energy equations. The syntax of the Coupled statement is:
+  - _Keywords:_ equation, Coupled, Poisson, iterations, statement, Newton, solver, equations
+- **Convergence and Error Control** <a id="convergence-and-error-control"></a>
+  - The Coupled statement is sensitive to the following Math parameters that determine when a coupled solution diverges or converges:
+  - _Keywords:_ mathrm, varepsilon_, solution, Newton, equation, RHS, RelErrControl, Sentaurus
+- **Damped Newton Iterations** <a id="damped-newton-iterations"></a>
+  - Line search damping and Bank–Rose damping are two different damping methods. These approaches try to achieve convergence of the coupled iteration far from the final solution by changing the solution by smaller amounts than a normal Newto...
+  - _Keywords:_ damping, Newton, search, Bank, Rose, solution, smaller, LineSearchDamping
+- **Derivatives** <a id="derivatives"></a>
+  - For most problems, Newton iterations converge best with full derivatives. Furthermore, for small-signal analysis, and noise and fluctuation analysis, using full derivatives is mandatory. Therefore, by default, Sentaurus Device takes full...
+  - _Keywords:_ derivatives, analysis, problems, Newton, iterations, converge, Furthermore, signal
+- **Incomplete Newton Algorithm** <a id="incomplete-newton-algorithm"></a>
+  - Certain simple simulations, such as $\mathrm { I _ { d } { - } V _ { g } }$ ramps, can be accelerated by using a modified Newton algorithm (see Fully Coupled Solution on page 1028 for a description of the standard Newton algorithm). The ...
+  - _Keywords:_ Newton, IncompleteNewton, Rhs, RhsFactor, UpdateFactor, mathrm, algorithm, Coupled
+- **Additional Equations Available in Mixed Mode** <a id="additional-equations-available-in-mixed-mode"></a>
+  - The Contact, Circuit, TContact, and TCircuit equations are introduced for mixedmode problems:
+  - _Keywords:_ Poisson, Electron, Hole, Contact, Circuit, equations, circuit, contact
+- **Selecting Individual Devices in Mixed Mode** <a id="selecting-individual-devices-in-mixed-mode"></a>
+  - The default usage of an equation keyword such as Poisson activates the given equations for all devices. With complex multiple-device systems, such an action is not always desirable especially when a fully consistent solution has not yet ...
+  - _Keywords:_ device1, device2, Poisson, equation, device, Coupled, Contact, Solve
+- **Relaxed Newton Method** <a id="relaxed-newton-method"></a>
+  - The relaxed Newton method allows Sentaurus Device to consider whether a solution that has neither converged nor diverged by the final Newton iteration should be accepted as a converged solution based on relaxed convergence criteria. This...
+  - _Keywords:_ relaxed, convergence, ANP, solution, AcceptNewtonParameter, Newton, Continuation, method
+- **Note the following:** <a id="note-the-following"></a>
+  - The relaxed Newton parameters are passed only to the next-level Coupled statements, that is, Coupled statements in Plugin statements do not use the relaxed Newton parameters. Only specified parameter values are passed to the Coupled stat...
+  - _Keywords:_ Coupled, statements, relaxed, Newton, passed, Plugin, specified, statement
+- **Plugin Command** <a id="plugin-command"></a>
+  - The Plugin command controls an iterative loop over two or more Coupled statements. It is used when a fully coupled method would use too many resources of a given machine, or when the problem is not yet solved and a full coupling of the e...
+  - _Keywords:_ Plugin, iterative, coupled, solved, hierarchy, details, summary, controls
+- **Linear Solvers** <a id="linear-solvers"></a>
+  - The Math parameters to the solution algorithms are device independent and must appear only in the base Math section. These can be grouped by solver type. The control parameters for the linear solvers are Method and SubMethod. The keyword...
+  - _Keywords:_ linear, solver, Math, solvers, ILS, Method, available, ACMethod
+- **Nonlocal Meshes** <a id="nonlocal-meshes"></a>
+  - Nonlocal meshes are one-dimensional, special-purpose meshes that Sentaurus Device needs to implement one-dimensional, nonlocal physical models. A nonlocal mesh consists of nonlocal lines. Each nonlocal line is subdivided by nonlocal mesh...
+  - _Keywords:_ nonlocal, meshes, Nonlocal, models, dimensional, Sentaurus, Device, physical
+- **Specifying Nonlocal Meshes** <a id="specifying-nonlocal-meshes"></a>
+  - You specify nonlocal meshes using the keyword Nonlocal, in the global Math section, followed by a string that gives the name of the nonlocal mesh and a list of options that control the construction of the nonlocal mesh. You can specify a...
+  - _Keywords:_ nonlocal, Nonlocal, Math, You, specify, meshes, construction, Sentaurus
+- **Visualizing Nonlocal Meshes** <a id="visualizing-nonlocal-meshes"></a>
+  - Sentaurus Device can visualize the nonlocal meshes it constructs. This feature is used to verify that the nonlocal mesh constructed is the one actually intended. For visualizing data defined on nonlocal meshes, see Visualizing Data Defin...
+  - _Keywords:_ nonlocal, Device, meshes, vector, Sentaurus, constructed, vertex, exists
+- **Visualizing Data Defined on Nonlocal Meshes** <a id="visualizing-data-defined-on-nonlocal-meshes"></a>
+  - To visualize data defined on nonlocal meshes:
+  - _Keywords:_ NonLocalPlot, nonlocal, datasets, coordinates, Device, Sentaurus, specify, writes
+- **Constructing Nonlocal Meshes** <a id="constructing-nonlocal-meshes"></a>
+  - Nonlocal meshes are specified in the global Math section:
+  - _Keywords:_ string, nonlocal, meshes, Barrier, Math, NonLocal, RegionInterface, MaterialInterface
+- **Specification Using Barrier** <a id="specification-using-barrier"></a>
+  - As an option to Barrier, specify all regions that belong to the tunneling barrier, using any number of Region=<string> or Material=<string> specifications. Sentaurus Device connects each side of the barrier to any other with nonlocal lin...
+  - _Keywords:_ regions, barrier, Region, nonlocal, Barrier, tunneling, string, Material
+- **Specification Using a Reference Surface** <a id="specification-using-a-reference-surface"></a>
+  - RegionInterface, MaterialInterface, and Electrode specify a region interface name, material interface name, or electrode name. All interfaces and electrodes together form the reference surface that determines where in the device the nonl...
+  - _Keywords:_ nonlocal, regions, reference, surface, Sentaurus, Device, region, Endpoint
+- **Special Handling of the 1D Schrödinger Equation** <a id="special-handling-of-the-1d-schr-dinger-equation"></a>
+  - For performance reasons, Sentaurus Device solves the 1D Schrödinger equation (see 1D Schrödinger Equation on page 287) only on a reduced subset of nonlocal lines that still cover all vertices of the normal mesh for which nonlocal lines a...
+  - _Keywords:_ Sentaurus, Device, nonlocal, regions, equation, normal, Endpoint, extends
+- **Special Handling of the Nonlocal Tunneling Model** <a id="special-handling-of-the-nonlocal-tunneling-model"></a>
+  - Sentaurus Device computes the intersections of the nonlocal lines with the boxes (see Discretization on page 1003). To this end, some lines might become longer than Length. The nonlocal tunneling model uses the intersection points to lim...
+  - _Keywords:_ nonlocal, Sentaurus, Device, tunneling, Endpoint, Permeation, points, Tunneling
+- **Unnamed Meshes** <a id="unnamed-meshes"></a>
+  - For backward compatibility, you can specify nonlocal meshes in interface-specific or electrode-specific Math sections. For this kind of specification, the location of the mesh is the location of the Math section and, therefore, no interf...
+  - _Keywords:_ nonlocal, interface, specific, electrode, specification, meshes, Math, location
+- **Performance Suggestions** <a id="performance-suggestions"></a>
+  - To limit the negative performance impact of the nonlocal tunneling model, it is important to limit the number of nonlocal lines. To this end, most importantly, select Length and Permeation to be only as long as necessary. The option –End...
+  - _Keywords:_ tunneling, nonlocal, Transparent, through, material, construction, regions, barrier
+- **Monitoring Convergence Behavior** <a id="monitoring-convergence-behavior"></a>
+  - When Sentaurus Device has convergence problems, it can be helpful to know in which parts of the device and for which equations the errors are particularly large. With this information, it is easier to adjust the mesh or the models used, ...
+  - _Keywords:_ Sentaurus, Device, information, device, convergence, errors, problems, helpful
+- **CNormPrint** <a id="cnormprint"></a>
+  - To obtain basic error information, specify the CNormPrint keyword in the global Math section. Then, after each Newton step and for each equation solved, Sentaurus Device prints the following to standard output:
+  - _Keywords:_ equation, occurs, vertex, obtain, information, specify, CNormPrint, keyword
+- **NewtonPlot** <a id="newtonplot"></a>
+  - Sentaurus Device can write the spatial values of solution variables, the errors, the right-hand sides, and the solution updates to a NewtonPlot file after each Newton step. NewtonPlot files then can be read into Sentaurus Visual for exam...
+  - _Keywords:_ NewtonPlot, Sentaurus, Device, Newton, Quasistationary, Transient, solution, iteration
+- **Automatic Activation of CNormPrint and NewtonPlot** <a id="automatic-activation-of-cnormprint-and-newtonplot"></a>
+  - By default, CNormPrint and NewtonPlot are activated automatically when certain criteria are met:
+  - _Keywords:_ NewtonPlot, CNormPrint, AutoCNPMinStepFactor, AutoNPMinStepFactor, Math, activated, automatically, MinStep
+- **Simulation Statistics for Plotting and Output** <a id="simulation-statistics-for-plotting-and-output"></a>
+- **Simulation Statistics in Current Plot Files** <a id="simulation-statistics-in-current-plot-files"></a>
+  - To include various simulation statistics in current plot files for visualization, specify the SimStats option in the Math section of the command file:
+  - _Keywords:_ solution, Total, SimStats, CPU, wallclock, RHS, current, Math
+- **Simulation Statistics in Design-of-Experiments Variables** <a id="simulation-statistics-in-design-of-experiments-variables"></a>
+  - Cumulative simulation statistics can be written to the end of a Sentaurus Device output file (\*.log file) as design-of-experiments (DOE) variables by specifying the WriteDOE option to SimStats in the Math section:
+  - _Keywords:_ DOE, WriteDOE, written, variables, specifying, SimStats, Math, string
+- **Save and Load** <a id="save-and-load"></a>
+  - The Save and Load statements allow you to store the current simulation state of a device in a file and later (often, from another simulation run) to reload it, and to resume from where you stopped. By default, Plot files can be reloaded ...
+  - _Keywords:_ Load, Save, simulation, loaded, Solve, Quasistationary, InitialStep, MinStep
+- **Tcl Command File** <a id="tcl-command-file"></a>
+  - The Sentaurus Device command-line option --tcl invokes the Tcl interpreter to execute the command file. Tcl provides valuable extensions to the standard command file of Sentaurus Device, including:
+  - _Keywords:_ Tcl, Sentaurus, Device, Inspect, invokes, interpreter, execute, provides
+- **Performing Device Simulations** <a id="performing-device-simulations"></a>
+  - An entire device simulation can be performed using the Tcl command sdevice. The following example shows a quasistationary ramp to computed contact values:
+  - _Keywords:_ entire, device, simulation, performed, Tcl, sdevice, quasistationary, computed
+- **6: Numeric and Software-Related Issues** <a id="6-numeric-and-software-related-issues"></a>
+  - Tcl Command File
+  - _Keywords:_ Voltage, sdevice, Poisson, DopingDependence, Coupled, Electron, Hole, voltage
+- **sdevice Command** <a id="sdevice-command"></a>
+  - The Tcl sdevice command expects one argument, which describes an entire device simulation, that is, it includes a File section, Physics section, and Solve section.
+  - _Keywords:_ sdevice, device, simulation, Tcl, expects, argument, describes, entire
+- **sdevice\_init Command** <a id="sdevice-init-command"></a>
+  - The Tcl sdevice\_init command expects one argument, which initializes a device simulation, that is, it can contain all of the sections of a standard command file of Sentaurus Device (except a Solve section).
+  - _Keywords:_ sdevice, Sentaurus, Device, Tcl, expects, argument, initializes, device
+- **sdevice\_solve Command** <a id="sdevice-solve-command"></a>
+  - The Tcl sdevice\_solve command expects one argument. It can only be used after an sdevice\_init command. The argument must contain a single Solve section. All the commands in the Solve section are executed.
+  - _Keywords:_ sdevice, _solve, argument, Solve, Tcl, expects, contain, single
+- **sdevice\_finish Command** <a id="sdevice-finish-command"></a>
+  - The Tcl sdevice\_finish command expects no arguments and can be called after a series of sdevice\_solve commands. It indicates that the device simulation performed by the sdevice\_solve commands is finished, and the final plot file is ge...
+  - _Keywords:_ sdevice, _solve, Tcl, _finish, expects, arguments, called, series
+- **sdevice\_parameters Command** <a id="sdevice-parameters-command"></a>
+  - The Tcl sdevice\_parameters command expects two arguments: a file name and the contents of a Sentaurus Device parameter file. It is an auxiliary function, which writes the parameter file to the given file name.
+  - _Keywords:_ models, Tcl, sdevice, _parameters, expects, arguments, contents, Sentaurus
+- **Extracting Parameters** <a id="extracting-parameters"></a>
+  - The Tcl interpreter in Sentaurus Device provides access to all of the Inspect commands. In this way, you can easily analyze .plt files generated by Sentaurus Device and extract parameters.
+  - _Keywords:_ Sentaurus, Device, Voltage, Tcl, interpreter, provides, access, Inspect
+- **6: Numeric and Software-Related Issues** <a id="6-numeric-and-software-related-issues"></a>
+  - Tcl Command File
+  - _Keywords:_ extract_VT_des, Voltage, Tcl, Grid, mosfet, Plot, Current, Physics
+- **Available Inspect Tcl Commands** <a id="available-inspect-tcl-commands"></a>
+  - Inspect Tcl commands can be used in Sentaurus Device.
+  - _Keywords:_ load_library, library, Tcl, Inspect, Sentaurus, Device, Curve, cv_scaleCurve
+- **Redirecting Output** <a id="redirecting-output"></a>
+  - The Tcl commands sdevice, sdevice\_init, sdevice\_solve, and sdevice\_finish allow you to redirect standard output and standard errors.
+  - _Keywords:_ filename, standard, sdevice, Writes, Appends, Syntax, Tcl, _solve
+- **Known Restrictions** <a id="known-restrictions"></a>
+  - The following solve commands only apply to the subsequent statements within a single Solve section. They do not apply beyond an sdevice\_solve command:
+  - _Keywords:_ sdevice, _solve, NewCurrentPrefix, transient, subsequent, statements, within, single
+- **Parallelization** <a id="parallelization"></a>
+  - Sentaurus Device uses thread parallelism to accelerate simulations on shared memory computers. Table 23 gives an overview of the components of Sentaurus Device that have been parallelized.
+  - _Keywords:_ parallel, Sentaurus, Device, licenses, threads, Math, assembly, NumberOfThreads
+- **Extended Precision** <a id="extended-precision"></a>
+  - Sentaurus Device allows you to perform simulations using extended precision floating-point arithmetic. This option is switched on in the global Math section by the keyword ExtendedPrecision.
+  - _Keywords:_ precision, ExtendedPrecision, double, Digits, arbitrary, digits, increase, extended
+- **System Command** <a id="system-command"></a>
+  - The System command allows UNIX commands to be executed during a Sentaurus Device simulation:
+  - _Keywords:_ System, UNIX, status, Sentaurus, Device, converged, allows, executed
+- **References** <a id="references"></a>
+  - [1] R. E. Bank and D. J. Rose, “Global Approximate Newton Methods,” Numerische Mathematik, vol. 37, no. 2, pp. 279–295, 1981.
+  - _Keywords:_ Bank, Rose, Global, Approximate, Newton, Methods, Numerische, Mathematik
+- **Part II Physics in Sentaurus Device** _(p.23–25)_ <a id="part-ii-physics-in-sentaurus-device"></a>
+  - This part of the Sentaurus™ Device User Guide contains the following chapters:
+  - _Keywords:_ Fermi, potential, Models, electrostatic, device, Device, Transport, charges
+- **Electrostatic Potential** <a id="electrostatic-potential"></a>
+  - The electrostatic potential is the solution of the Poisson equation, which is:
+  - _Keywords:_ mathrm, electrostatic, potential, solution, Poisson, equation, varepsilon
+- **where:** <a id="where"></a>
+  - $\varepsilon$ is the electrical permittivity. $\vec { P }$ is the ferroelectric polarization (see Chapter 29 on page 813). $q$ is the elementary electronic charge. ■ and are the electron and hole densities.n p ■ $N _ { \mathrm { D } }$ i...
+  - _Keywords:_ permittivity, mathrm, Poisson, charge, concentration, ionized, dataset, equation
+- **Dipole Layer** <a id="dipole-layer"></a>
+  - At material interfaces, dipole layers of immobile charges can occur, leading to a potential jump across the interface. They are modeled by:
+  - _Keywords:_ interface, dipole, interfaces, mathrm, material, varepsilon_, Dipole, potential
+- **Equilibrium Solution** <a id="equilibrium-solution"></a>
+  - For some models (see Conductive Insulators on page 246 or Modified Ohmic Contacts on page 204), the equilibrium electrostatic potential is required internally. In this case, the Poisson equation is solved with equilibrium boundary condit...
+  - _Keywords:_ equilibrium, solver, Poisson, equation, solution, control, Iterations, Digits
+- **Quasi-Fermi Potential With Boltzmann Statistics** <a id="quasi-fermi-potential-with-boltzmann-statistics"></a>
+  - Electron and hole densities can be computed from the electron and hole quasi-Fermi potentials, and vice versa. If Boltzmann statistics is assumed, the formulas read:
+  - _Keywords:_ mathrm, Phi, Fermi, electron, potential, Sentaurus, Device, constant
+- **Fermi Statistics** <a id="fermi-statistics"></a>
+  - For the equations presented in the previous section, Boltzmann statistics was assumed for electrons and holes. Physically more correct, Fermi (also called Fermi–Dirac) statistics can be used. Fermi statistics becomes important for high v...
+  - _Keywords:_ mathrm, Fermi, statistics, gamma_, boldsymbol, equations, presented, previous
+- **Using Fermi Statistics** <a id="using-fermi-statistics"></a>
+  - To activate Fermi statistics, you must specify the keyword Fermi in the global Physics section:
+  - _Keywords:_ Fermi, Physics, statistics, keyword, global, activate, specify, activated
+- **Initial Guess for Electrostatic Potential and Quasi-Fermi Potentials in Doping Wells** <a id="initial-guess-for-electrostatic-potential-and-quasi-fermi-po"></a>
+  - To determine an initial guess for the electrostatic potential and quasi-Fermi potentials, a device is divided into doping well regions, where a doping well region is a semiconductor region consisting of a set of connected semiconductor e...
+  - _Keywords:_ doping, potential, mathrm, Fermi, contact, region, semiconductor, carrier
+- **Regionwise Specification of Initial Quasi-Fermi Potentials** <a id="regionwise-specification-of-initial-quasi-fermi-potentials"></a>
+  - You can set initial quasi-Fermi potentials regionwise. This is especially useful in chargecoupled device (CCD) simulations, where a CCD cell or region must be initially in a certain state (usually, deep depletion). By specifying an initi...
+  - _Keywords:_ Fermi, initial, potential, specified, potentials, regionwise, device, CCD
+- **Electrode Charge Calculation** <a id="electrode-charge-calculation"></a>
+  - Sentaurus Device outputs the electrode charge to the current plot file (\*.plt file) after each bias or time point.
+  - _Keywords:_ charge, electrode, contacts, region, computed, Gauss, represents, surface
+- **Introduction to Carrier Transport Models** <a id="introduction-to-carrier-transport-models"></a>
+  - Sentaurus Device supports several carrier transport models for semiconductors. They all can be written in the form of continuity equations, which describe charge conservation:
+  - _Keywords:_ density, transport, models, mathrm, current, partial, electron, respectively
+- **Drift-Diffusion Model** <a id="drift-diffusion-model"></a>
+  - The drift-diffusion model is the default carrier transport model in Sentaurus Device. For the drift-diffusion model, the current densities for electrons and holes are given by:
+  - _Keywords:_ diffusion, carrier, Fermi, Einstein, current, mathrm, gamma_, account
+- **Thermodynamic Model for Current Densities** <a id="thermodynamic-model-for-current-densities"></a>
+  - In the thermodynamic model [1], the relations Eq. 56 and Eq. 57 are generalized to include the temperature gradient as a driving term:
+  - _Keywords:_ temperature, lattice, thermodynamic, stackrel, rightarrow, Phi_, diffusion, equation
+- **Hydrodynamic Model for Current Densities** <a id="hydrodynamic-model-for-current-densities"></a>
+  - In the hydrodynamic model, current densities are defined as:
+  - _Keywords:_ mathrm, carrier, boldsymbol, temperature, lambda, mathfrak, mathsf, Hydrodynamic
+- **Numeric Parameters for Continuity Equation** <a id="numeric-parameters-for-continuity-equation"></a>
+  - Carrier concentrations must never be negative. If during a Newton iteration a concentration erroneously becomes negative, Sentaurus Device applies damping procedures to make it positive. The concentration that finally results from a Newt...
+  - _Keywords:_ negative, Newton, iteration, concentration, Carrier, concentrations, during, erroneously
+- **Numeric Approaches for Contact Current Computation** <a id="numeric-approaches-for-contact-current-computation"></a>
+  - By default, Sentaurus Device computes the contact current as the sum of the integral of the current density over the surface of the doping well associated with the contact and the integral of the charge generation rate over the volume of...
+  - _Keywords:_ current, contact, integral, density, surface, doping, Math, activates
+- **Current Potential** <a id="current-potential"></a>
+  - The total current density:
+  - _Keywords:_ current, density, potential, partial, details, summary, written, points
+- **References** <a id="references"></a>
+  - [1] G. Wachutka, “An Extended Thermodynamic Model for the Simultaneous Simulation of the Thermal and Electrical Behaviour of Semiconductor Devices,” in Proceedings of the Sixth International Conference on the Numerical Analysis of Semico...
+  - _Keywords:_ Devices, Simulation, Semiconductor, Numerical, IEEE, Transactions, Current, Integrated
+- **Introduction to Temperature Equations** <a id="introduction-to-temperature-equations"></a>
+  - Sentaurus Device can compute up to three different temperatures: lattice temperature, electron temperature, and hole temperature. Lattice temperature describes self-heating of devices. The electron and hole temperatures are required to m...
+  - _Keywords:_ temperature, temperatures, lattice, electron, throughout, device, computed, devices
+- **Uniform Self-Heating** <a id="uniform-self-heating"></a>
+  - A simple self-heating model is available to account for self-heating effects without solving the lattice heat flow equation. The self-heating effect can be captured with a uniform temperature, which is bias dependent or current dependent...
+  - _Keywords:_ thermal, mathrm, thermode, temperature, circuit, connected, heating, equation
+- **Using Uniform Self-Heating** <a id="using-uniform-self-heating"></a>
+  - The uniform self-heating equation is activated in the global Physics section using the PostTemperature keyword:
+  - _Keywords:_ PostTemperature, Physics, equation, Temperature, heating, activated, Thermode, SurfaceResistance
+- **Default Model for Lattice Temperature** <a id="default-model-for-lattice-temperature"></a>
+  - Sentaurus Device can compute a spatially dependent lattice temperature even when neither the thermodynamic nor the hydrodynamic model is activated. The equation for the temperature is:
+  - _Keywords:_ mathrm, temperature, lattice, hydrodynamic, equation, partial, heating, specify
+- **Thermodynamic Model for Lattice Temperature** <a id="thermodynamic-model-for-lattice-temperature"></a>
+  - With the thermodynamic model, the lattice temperature is computed from:T
+  - _Keywords:_ mathrm, partial, Phi_, lattice, computed, respectively, current, thermodynamic
+- **Total Heat and Its Contributions** <a id="total-heat-and-its-contributions"></a>
+  - The RHS of Eq. 69 is the total heat . In the stationary case, the second term and the third termH disappear, that is, the total heat is then given by:
+  - _Keywords:_ Phi_, region, interface, electron, surface, denotes, RHS, stationary
+- **Using the Thermodynamic Model** <a id="using-the-thermodynamic-model"></a>
+  - To use the thermodynamic model, you must specify the keyword Temperature in the Coupled statement of the Solve section. Use the keyword Thermodynamic in the Physics section to activate extra terms in the current density equations (due to...
+  - _Keywords:_ Device, keyword, Peltier, Plot, partial, Sentaurus, plotted, Joule
+- **Hydrodynamic Model for Temperatures** <a id="hydrodynamic-model-for-temperatures"></a>
+  - Deep-submicron devices cannot be described properly using the conventional drift-diffusion transport model. In particular, the drift-diffusion approach cannot reproduce velocity overshoot and often overestimates the impact ionization gen...
+  - _Keywords:_ equations, cannot, diffusion, energy, balance, formulation, convective, partial
+- **9: Temperature Equations** <a id="9-temperature-equations"></a>
+  - Hydrodynamic Model for Temperatures
+  - _Keywords:_ mathrm, partial, energy, recombination, Model, SRH, Sentaurus, Device
+- **Hydrodynamic Model Parameters** <a id="hydrodynamic-model-parameters"></a>
+  - The default set of transport coefficients (Eq. 81 and Eq. 82, p. 198) can be changed in the parameter file. The coefficients andr $f ^ { \mathrm { { h f } } }$ are specified in the EnergyFlux and HeatFlux parameter sets, respectively. En...
+  - _Keywords:_ mathrm, respectively, optical, generation, coefficients, specified, OptGenOffset, wavelength
+- **Using the Hydrodynamic Model** <a id="using-the-hydrodynamic-model"></a>
+  - To activate the hydrodynamic model, you must specify the keyword Hydrodynamic in the Physics section. If only one carrier temperature equation is to be solved, Hydrodynamic must be specified with the appropriate parameter, either Hydrody...
+  - _Keywords:_ temperature, Hydrodynamic, carrier, equation, specified, Device, lattice, activate
+- **Numeric Parameters for Temperature Equations** <a id="numeric-parameters-for-temperature-equations"></a>
+- **Validity Ranges for Lattice and Carrier Temperatures** <a id="validity-ranges-for-lattice-and-carrier-temperatures"></a>
+  - Lower and upper limits for the lattice temperature and the carrier temperatures exist. The allowed temperature ranges are specified (in ) by lT\_Range=(<float> <float>) (withK defaults and ) and cT\_Range=(<float> <float>) (with defaults...
+  - _Keywords:_ temperature, temperatures, ranges, _Range, Lower, limits, lattice, carrier
+- **Scaling of Lattice Heat Generation** <a id="scaling-of-lattice-heat-generation"></a>
+  - For the lattice heat equation, you have the possibility to disable the heat term by using:
+  - _Keywords:_ mathtt, coupled, system, lattice, equation, texttt, carrier, temperature
+- **References** <a id="references"></a>
+  - [1] K. Kells, General Electrothermal Semiconductor Device Simulation, Series in Microelectronics, vol. 37, Konstanz, Germany: Hartung-Gorre, 1994. [2] R. Stratton, “Diffusion of Hot and Cold Electrons in Semiconductor Barriers,” Physical...
+  - _Keywords:_ conditions, Semiconductor, boundary, contacts, equations, Device, Simulation, Electrons
+- **Electrical Boundary Conditions** <a id="electrical-boundary-conditions"></a>
+- **Ohmic Contacts** <a id="ohmic-contacts"></a>
+  - By default, contacts on semiconductors are Ohmic, with a resistance of when0.001 Ω connected to a circuit node, and no resistance otherwise.
+  - _Keywords:_ mathrm, electron, recombination, contacts, Ohmic, equilibrium, contact, applied
+- **Modified Ohmic Contacts** <a id="modified-ohmic-contacts"></a>
+  - Ohmic contacts, as described in Ohmic Contacts on page 203, can often lead to incorrect results around p-n junctions and heterointerfaces. The main cause is the charge neutrality condition imposed at the contact vertices located within t...
+  - _Keywords:_ Ohmic, contacts, mathrm, Phi, potential, charge, neutrality, condition
+- **Contacts on Insulators** <a id="contacts-on-insulators"></a>
+  - For contacts on insulators (for example, gate contacts), the electrostatic potential is:
+  - _Keywords:_ mathrm, Electrode, potential, Phi, contact, semiconductor, specified, Gate
+- **Schottky Contacts** <a id="schottky-contacts"></a>
+  - The physics of Schottky contacts is considered in detail in [1] and [2]. In this section, a typical model for Schottky contacts [3] is considered. The following boundary conditions hold:
+  - _Keywords:_ mathrm, Phi_, Schottky, contacts, considered, physics, detail, typical
+- **where:** <a id="where"></a>
+  - $\Phi _ { \mathrm { F } }$ is the Fermi potential at the contact that is equal to an applied voltage $V _ { \mathrm { a p p l i e d } }$ if it is not a resistive contact (see Resistive Contacts on page 215). $\Phi _ { \mathrm { B } }$ is...
+  - _Keywords:_ mathrm, velocities, contact, semiconductors, thermionic, emission, Electrode, TempDep
+- **Fermi-Level Pinning at Schottky Contacts** <a id="fermi-level-pinning-at-schottky-contacts"></a>
+  - At a metal semiconductor contact or interface, there is a charge transfer between the metal and the interface states located inside the semiconductor bandgap. The charge transfer creates an interfacial dipole, which can change the Schott...
+  - _Keywords:_ Schottky, pinning, mathrm, Electrode, charge, dependent, semiconductor, interface
+- **Barrier Lowering at Schottky Contacts** <a id="barrier-lowering-at-schottky-contacts"></a>
+  - The barrier-lowering model for Schottky contacts can account for different physical mechanisms. The most important one is the image force [3], but it can also model tunneling and dipole effects.
+  - _Keywords:_ mathrm, barrier, varepsilon, lowering, insulator, Schottky, Delta, Phi
+- **Resistive Contacts** <a id="resistive-contacts"></a>
+  - By default, contacts have a resistance of when they are connected to a circuit node, and1 mΩ no resistance otherwise. The resistance can be changed with Resist or DistResist or both in the Electrode section.
+  - _Keywords:_ mathrm, contact, resistance, Electrode, Phi, resistor, applied, Resist
+- **where:** <a id="where"></a>
+  - $\Phi _ { \mathrm { B } }$ is the Schottky barrier (in this model, for electrons, this is the difference between the metal workfunction and the electron affinity of the semiconductor; for holes, this is the difference between the valence...
+  - _Keywords:_ mathrm, Schottky, SchottkyResistance, Electrode, Rinf, Ohm, contact, workfunction
+- **Resistive Interfaces** <a id="resistive-interfaces"></a>
+  - A distributed resistance model is supported for metal–metal, semiconductor–semiconductor, and metal–semiconductor interfaces. The distributed resistance interface model is similar to the thermionic current model with the exponential depe...
+  - _Keywords:_ mathrm, Schottky, interface, resistance, semiconductor, Phi_, interfaces, contacts
+- **Boundaries Without Contacts** <a id="boundaries-without-contacts"></a>
+  - Outer boundaries of the device that are not contacts are treated with ideal Neumann boundary conditions:
+  - _Keywords:_ Outer, boundaries, device, contacts, treated, Neumann, boundary, conditions
+- **Floating Contacts** <a id="floating-contacts"></a>
+- **Floating Metal Contacts** <a id="floating-metal-contacts"></a>
+  - The charge on a floating contact (for example, a floating gate in an EEPROM cell) is specified in the Electrode section:
+  - _Keywords:_ contact, floating, capacitance, specified, FloatGate, ContGate, charge, Electrode
+- **where:** <a id="where"></a>
+  - $C _ { \mathrm { F C } }$ is the specified floating-contact capacitance. $\Phi _ { \mathrm { F C } }$ is the floating-contact potential. ■ $\Phi _ { \mathrm { C C } }$ is the potential on the control electrode (specified in the FGcap sta...
+  - _Keywords:_ mathrm, contact, Phi, specified, control, voltage, floating, potential
+- **Floating Semiconductor Contacts** <a id="floating-semiconductor-contacts"></a>
+  - Sentaurus Device can simulate floating semiconductor contacts by connecting an electrode with charge boundary condition to an insulated semiconductor region. Within that floatingcontact region, Sentaurus Device solves the Poisson equatio...
+  - _Keywords:_ floating, contact, charge, region, Sentaurus, Device, semiconductor, mathrm
+- **Thermal Boundary Conditions** <a id="thermal-boundary-conditions"></a>
+- **Boundary Conditions for Lattice Temperature** <a id="boundary-conditions-for-lattice-temperature"></a>
+  - For the solution of Eq. 67, p. 192, Eq. 68, p. 194, Eq. 69, p. 195, and Eq. 75, p. 198, thermal boundary conditions must be applied. Wachutka [10] is followed, but the difference in thermopowers between the semiconductor and metal at Ohm...
+  - _Keywords:_ mathrm, thermal, semiconductor, resistance, interface, between, distributed, boundary
+- **Boundary Conditions for Carrier Temperatures** <a id="boundary-conditions-for-carrier-temperatures"></a>
+  - For the carrier temperatures $T _ { n }$ and $T _ { p }$ , at the thermal contacts, fast relaxation to the lattice temperature (boundary condition $T _ { n } = \mathop { T _ { p } } = \mathop { T } )$ is assumed.
+  - _Keywords:_ carrier, lattice, temperatures, temperature, mathop, assumed, kappa_, fluxes
+- **Periodic Boundary Conditions** <a id="periodic-boundary-conditions"></a>
+  - The use of periodic boundary conditions (PBCs) can be helpful for simulations of periodic device structures, for example, lines or arrays of cells. Instead of building a periodic simulation domain, you can supply PBCs at the lower and up...
+  - _Keywords:_ PBC, periodic, boundary, structures, Both, PBCs, device, planes
+- **Robin PBC Approach** <a id="robin-pbc-approach"></a>
+  - The RPBC approach uses a current (or flux) model between both sides of the PBC interface of the form:
+  - _Keywords:_ RPBC, approach, current, between, PBC, interface
+- **where:** <a id="where"></a>
+  - ■ $u _ { 1 }$ and $u _ { 2 }$ are the solution variables of an equation at both sides of the PBC interface. ■ $j _ { 1 2 }$ is the flux density of the equation across the PBC interface. represents a user-provided tuning parameter. The tu...
+  - _Keywords:_ interface, solution, across, equation, PBC, density, tuning, current
+- **Mortar PBC Approach** <a id="mortar-pbc-approach"></a>
+  - In the MPBC approach, both sides of the PBC interface are effectively glued together on one side (the mortar side), while on the other side (the nonmortar side), a weak continuity condition for the equation potential (mostly, the solutio...
+  - _Keywords:_ MPBC, approach, mortar, PBC, interface, continuity, equation, potential
+- **Specifying Periodic Boundary Conditions** <a id="specifying-periodic-boundary-conditions"></a>
+  - Periodic boundary conditions are activated by using PeriodicBC in the global or device Math section. Table 214 on page 1395 provides a complete list of possible options.
+  - _Keywords:_ Periodic, boundary, conditions, activated, PeriodicBC, global, device, Math
+- **Specifying Robin Periodic Boundary Conditions** <a id="specifying-robin-periodic-boundary-conditions"></a>
+  - RPBCs can be activated individually for all supported equations (see Electrostatic Potential on page 175, Chapter 8 on page 183, and Chapter 9 on page 191). The solution variable of theu selected equation (for example, the electrostatic ...
+  - _Keywords:_ equations, periodic, boundary, conditions, PeriodicBC, Direction, Coordinates, RPBCs
+- **Specifying Mortar Periodic Boundary Conditions** <a id="specifying-mortar-periodic-boundary-conditions"></a>
+  - Periodic boundary conditions using the MPBC approach are activated in the global or device Math section by:
+  - _Keywords:_ MortarSide, MPBC, coordinate, Direction, approach, PeriodicBC, Ymax, maximum
+- **Application Notes** <a id="application-notes"></a>
+- **Note that:** <a id="note-that"></a>
+  - The RPBC approach supports, in contrast to the MPBC approach, some flexibility with respect to the involved equations. The MPBC approach treats the PBC interface essentially as a heterointerface. Conductor regions touching the PBC interf...
+  - _Keywords:_ approach, MPBC, PBC, interface, RPBC, heterointerface, touching, supports
+- **Specialized Linear Solver for MPBC** <a id="specialized-linear-solver-for-mpbc"></a>
+  - Using MPBC in combination with iterative linear solvers (such as ILS), you might observe some convergence problems. If feasible, using a direct solver (such as PARDISO) should resolve the problem. Otherwise, an improved preconditioner or...
+  - _Keywords:_ solver, MPBC, iterative, linear, ILS, convergence, improves, specialized
+- **Discontinuous Interfaces** <a id="discontinuous-interfaces"></a>
+  - Discontinuous interfaces generalize the framework used for the simulation of heterointerfaces at semiconductor–semiconductor interfaces (see Abrupt and Graded Heterojunctions on page 10 and Heterostructure Device Simulation on page 777)....
+  - _Keywords:_ interfaces, semiconductor, Discontinuous, generalize, framework, simulation, heterointerfaces, Abrupt
+- **Representation of Physical Quantities Across Interfaces** <a id="representation-of-physical-quantities-across-interfaces"></a>
+  - Several interface conditions result in discontinuous physical quantities across these interfaces. An interface is a discontinuous interface if all physical quantities use a discontinuous representation across this interface. The continui...
+  - _Keywords:_ interface, discontinuous, interfaces, Discontinuity, conditions, quantities, Physics, physical
+- **Interface Conditions at Discontinuous Interfaces** <a id="interface-conditions-at-discontinuous-interfaces"></a>
+  - At general discontinuous interfaces (that is, involving arbitrary material groups), not all interface conditions are yet supported. So far, the interface conditions related to drift-diffusion, thermodynamic, and hydrodynamic transport ar...
+  - _Keywords:_ interface, semiconductor, discontinuous, interfaces, conditions, transport, general, involving
+- **Critical Points** <a id="critical-points"></a>
+  - Geometric locations, where several interfaces intersect or an interface intersects the boundary or contact, are so-called critical points. At such critical points, not all interface conditions can be fulfilled, in general, and conflicts ...
+  - _Keywords:_ interfaces, points, interface, critical, Geometric, locations, several, intersect
+- **References** <a id="references"></a>
+  - [1] A. Schenk and S. Müller, “Analytical Model of the Metal-Semiconductor Contact for Device Simulation,” in Simulation of Semiconductor Devices and Processes (SISDEP), vol. 5, Vienna, Austria, pp. 441–444, September 1993. [2] A. Schenk,...
+  - _Keywords:_ Semiconductor, Model, Device, Simulation, Devices, Physics, semiconductor, Applied
+- **Singlet Exciton Equation** <a id="singlet-exciton-equation"></a>
+  - In organic semiconductor devices, besides the simulation of the electrical part consisting of solving the Poisson and continuity equations, the singlet exciton equation is introduced to account for optical properties of these materials r...
+  - _Keywords:_ mathrm, exciton, singlet, excitons, recombination, equation, electron, organic
+- **Boundary and Continuity Conditions for Singlet Exciton Equation** <a id="boundary-and-continuity-conditions-for-singlet-exciton-equat"></a>
+  - At electrodes and thermodes, equilibrium is assumed for the singlet exciton population:
+  - _Keywords:_ mathrm, singlet, exciton, interface, regions, equation, heterointerface, Delta
+- **Using the Singlet Exciton Equation** <a id="using-the-singlet-exciton-equation"></a>
+  - To activate the singlet exciton equation, the keyword SingletExciton must be specified in the Coupled statement of the Solve section (see Coupled Statement on page 138). Then, the regions where the equation will be solved are selected by...
+  - _Keywords:_ region, SingletExciton, singlet, exciton, Physics, equation, keyword, regions
+- **Transport in Metals** <a id="transport-in-metals"></a>
+  - The simulation of current transport in metals or semi-metals is important for interconnection problems in ICs. The current density in metals is given by:
+  - _Keywords:_ metals, mathrm, equation, current, conductivity, keyword, transport, Phi_
+- **Electric Boundary Conditions for Metals** <a id="electric-boundary-conditions-for-metals"></a>
+  - The following boundary conditions are used:
+  - _Keywords:_ mathrm, Schottky, interface, interfaces, Ohmic, potential, resistance, boundary
+- **Metal Workfunction** <a id="metal-workfunction"></a>
+  - To specify the metal workfunction, use the Bandgap parameter set, for example:
+  - _Keywords:_ workfunction, specified, Workfunction, Bandgap, WorkFunction, SFactor, vertex, Material
+- **Metal Workfunction Randomization** <a id="metal-workfunction-randomization"></a>
+  - The workfunction in metal regions can be randomized using specifications in the command file:
+  - _Keywords:_ grains, workfunction, region, randomized, GrainProbability, orientation, different, randomization
+- **Temperature in Metals** <a id="temperature-in-metals"></a>
+  - In metals, only the lattice temperature is defined. If the lattice temperature is solved, in metals, it obeys the following equation:
+  - _Keywords:_ metals, mathrm, lattice, temperature, partial, defined, solved, equation
+- **Conductive Insulators** <a id="conductive-insulators"></a>
+  - Leakage currents in dielectrics can be modeled by allowing dielectrics to have conductive properties. The conductive insulator (leaky insulator) model implements dielectrics that have nonzero (but typically low) conductivity (a metal-lik...
+  - _Keywords:_ mathrm, conductive, insulator, potential, current, conditions, interface, Phi
+- **11: Transport in Metals, Organic Materials, and Disordered Media** <a id="11-transport-in-metals-organic-materials-and-disordered-medi"></a>
+- **Conductive Insulators** <a id="conductive-insulators"></a>
+- **where:** <a id="where"></a>
+  - $\vec { \boldsymbol { J } } _ { n , \mathrm { t h } }$ and $\vec { \boldsymbol { J } } _ { p , \mathrm { t h } }$ are the electron and hole thermionic-emission current densities on the interface from the semiconductor side. vn( ) T kT 2π...
+  - _Keywords:_ mathrm, semiconductor, conductive, interface, insulator, floating, CondInsulator, Physics
+- **Intrinsic Density** <a id="intrinsic-density"></a>
+  - The band gap and band edge DOS are summarized in the intrinsic density $n _ { \mathrm { i } } ( T )$ (for undoped semiconductors):
+  - _Keywords:_ mathrm, intrinsic, density, DOS, summarized, undoped, semiconductors, effective
+- **Band Gap and Electron Affinity** <a id="band-gap-and-electron-affinity"></a>
+  - The band gap is the difference between the lowest energy in the conduction band and the highest energy in the valence band. The electron affinity is the difference between the lowest energy in the conduction band and the vacuum level.
+  - _Keywords:_ energy, difference, between, lowest, conduction, highest, valence, electron
+- **Selecting the Bandgap Model** <a id="selecting-the-bandgap-model"></a>
+  - Sentaurus Device supports different bandgap models: BennettWilson (default), delAlamo, JainRoulston, OldSlotboom, Slotboom (the same as OldSlotboom with different default parameters), and TableBGN.
+  - _Keywords:_ bandgap, narrowing, Slotboom, EffectiveIntrinsicDensity, Physics, Sentaurus, Device, different
+- **Bandgap and Electron-Affinity Models** <a id="bandgap-and-electron-affinity-models"></a>
+  - Sentaurus Device models the lattice temperature–dependency of the band gap as [1]:
+  - _Keywords:_ mathrm, bandgap, narrowing, models, adjustable, Delta, JainRoulston, affinity
+- **Bandgap Narrowing for Bennett–Wilson Model** <a id="bandgap-narrowing-for-bennett-wilson-model"></a>
+  - Bandgap narrowing for the Bennett–Wilson [2] model (keyword BennettWilson) in Sentaurus Device reads:
+  - _Keywords:_ Bandgap, narrowing, Bennett, Wilson, keyword, BennettWilson, Sentaurus, Device
+- **12: Semiconductor Band Structure** <a id="12-semiconductor-band-structure"></a>
+  - Band Gap and Electron Affinity
+  - _Keywords:_ mathrm, Band, Gap, Electron, Affinity, developed, absorption, luminescence
+- **Bandgap Narrowing for Slotboom Model** <a id="bandgap-narrowing-for-slotboom-model"></a>
+  - Bandgap narrowing for the Slotboom model (keyword Slotboom or OldSlotboom) (the only difference is in the parameters) in Sentaurus Device reads:
+  - _Keywords:_ mathrm, Slotboom, OldSlotboom, transistors, Bandgap, narrowing, keyword, difference
+- **Bandgap Narrowing for del Alamo Model** <a id="bandgap-narrowing-for-del-alamo-model"></a>
+  - Bandgap narrowing for the del Alamo model (keyword delAlamo) in Sentaurus Device reads:
+  - _Keywords:_ mathrm, delAlamo, Bandgap, narrowing, Alamo, keyword, Sentaurus, Device
+- **Bandgap Narrowing for Jain–Roulston Model** <a id="bandgap-narrowing-for-jain-roulston-model"></a>
+  - Bandgap narrowing for the Jain–Roulston model (keyword JainRoulston) in Sentaurus Device is implemented based on the literature [12] and is given by:
+  - _Keywords:_ mathrm, coefficients, Sentaurus, Device, narrowing, Jain, Roulston, literature
+- **12: Semiconductor Band Structure** <a id="12-semiconductor-band-structure"></a>
+  - Band Gap and Electron Affinity
+  - _Keywords:_ eVcm, rowspan, JainRoulston, A_n, B_n, C_n, D_n, A_p
+- **Table Specification of Bandgap Narrowing** <a id="table-specification-of-bandgap-narrowing"></a>
+  - You can specify bandgap narrowing using a table, which can be defined in the TableBGN parameter set. This table gives the value of bandgap narrowing as a function of donor or acceptor concentration, or total concentration (the sum of acc...
+  - _Keywords:_ bandgap, narrowing, concentration, acceptor, concentrations, Total, specify, materials
+- **Schenk Bandgap Narrowing Model** <a id="schenk-bandgap-narrowing-model"></a>
+  - BennettWilson, delAlamo, JainRoulston, OldSlotboom, Slotboom,and TableBGN are all doping-induced bandgap narrowing models. They do not depend on carrier concentrations. High carrier concentrations produced in optical excitation or high e...
+  - _Keywords:_ narrowing, bandgap, temperature, plasma, doping, induced, depend, carrier
+- **12: Semiconductor Band Structure** <a id="12-semiconductor-band-structure"></a>
+  - Band Gap and Electron Affinity
+  - _Keywords:_ mathrm, Sigma, Upsilon, Schenk, corrections, eQuantumPotential, bandgap, correction
+- **12: Semiconductor Band Structure** <a id="12-semiconductor-band-structure"></a>
+  - Band Gap and Electron Affinity
+  - _Keywords:_ bandgap, narrowing, Schenk, silicon, SchenkBGN, colspan, alpha_, Ry_
+- **Bandgap Narrowing With Fermi Statistics** <a id="bandgap-narrowing-with-fermi-statistics"></a>
+  - Parameters for bandgap narrowing are often extracted from experimental data assuming Maxwell–Boltzmann statistics. However, in the high-doping regime for which bandgap narrowing is important, Maxwell–Boltzmann statistics differs signific...
+  - _Keywords:_ statistics, mathrm, Fermi, bandgap, narrowing, Maxwell, Boltzmann, simulations
+- **Bandgap Parameters** <a id="bandgap-parameters"></a>
+  - The band gap $E _ { \mathrm { g } , 0 }$ and values of $\delta E _ { \mathrm { g } , 0 }$ for each model are accessible in the BandGap section of the parameter file, in addition to the electron affinity ${ \mathbb X } _ { 0 }$ and the te...
+  - _Keywords:_ mathrm, times10, dEg0, narrowing, models, silicon, Slotboom, mathbb
+- **Effective Masses and Effective Density-of-States** <a id="effective-masses-and-effective-density-of-states"></a>
+  - Sentaurus Device provides two options for computing carrier effective masses and densities of states. The first method, selected by specifying Formula=1 in the parameter file, computes an effective DOS as a function of carrier effective ...
+  - _Keywords:_ effective, carrier, Formula, temperature, method, selected, specifying, DOS
+- **Electron Effective Mass and Density-of-States** <a id="electron-effective-mass-and-density-of-states"></a>
+- **Formula=1** <a id="formula-1"></a>
+  - The lattice temperature–dependence of the DOS effective mass of electrons is modeled by:
+  - _Keywords:_ mathrm, temperature, dependence, effective, defined, lattice, DOS, electrons
+- **12: Semiconductor Band Structure** <a id="12-semiconductor-band-structure"></a>
+  - Effective Masses and Effective Density-of-States
+  - _Keywords:_ mathrm, Effective, Masses, Density, States, effective, DOS, conduction
+- **Formula=2** <a id="formula-2"></a>
+  - If Formul $\mathtt { a } = 2$ is specified in the parameter file, the value for the DOS is computed from $N _ { \mathrm { { C } } } ( 3 0 0 \mathrm { { K } ) }$ , which is read from the parameter file:
+  - _Keywords:_ mathrm, Formul, mathtt, specified, DOS, computed, electron, effective
+- **Electron Effective Mass and Conduction Band DOS Parameters** <a id="electron-effective-mass-and-conduction-band-dos-parameters"></a>
+  - Table 38 lists the default coefficients for the electron effective mass and conduction band DOS models. The values can be modified in the eDOSMass parameter set.
+  - _Keywords:_ Formula, coefficients, electron, effective, DOS, models, conduction, modified
+- **Hole Effective Mass and Density-of-States** <a id="hole-effective-mass-and-density-of-states"></a>
+- **Formula=1** <a id="formula-1"></a>
+  - For the DOS effective mass of holes, the best fit in silicon is provided by the expression [15]:
+  - _Keywords:_ mathrm, DOS, effective, silicon, provided, expression, coefficients, listed
+- **Formula=2** <a id="formula-2"></a>
+  - If Formula=2 in the parameter file, the temperature-dependent DOS is computed from $N _ { \mathrm { v } } ( 3 0 0 \mathrm { K } )$ as given in the parameter file:
+  - _Keywords:_ mathrm, Formula, temperature, dependent, DOS, computed, effective
+- **Hole Effective Mass and Valence Band DOS Parameters** <a id="hole-effective-mass-and-valence-band-dos-parameters"></a>
+  - The model coefficients for the hole effective mass and valence band DOS can be modified in the parameter set hDOSMass. Table 39 on page 266 lists the default parameter values.
+  - _Keywords:_ coefficients, effective, valence, DOS, modified, hDOSMass, setting, Formula
+- **12: Semiconductor Band Structure** <a id="12-semiconductor-band-structure"></a>
+  - Effective Masses and Effective Density-of-States
+  - _Keywords:_ Effective, Formula, Masses, Density, States, coefficients, effective, DOS
+- **Gaussian Density-of-States for Organic Semiconductors** <a id="gaussian-density-of-states-for-organic-semiconductors"></a>
+  - Gaussian DOS has been introduced to better represent electron and hole effective DOS in disordered organic semiconductors. Within the Gaussian disorder model, electron and hole DOS are represented by:
+  - _Keywords:_ mathrm, DOS, sigma_, Fermi, Physics, Gaussian, electron, LUMO
+- **12: Semiconductor Band Structure** <a id="12-semiconductor-band-structure"></a>
+  - Effective Masses and Effective Density-of-States
+  - _Keywords:_ mathrm, sigma_, densities, states, rowspan, DOS, electron, Gaussian
+- **Multivalley Band Structure** <a id="multivalley-band-structure"></a>
+  - Eq. 43 and Eq. 44, p. 179 give a dependency of electron and hole concentrations on the quasi–Fermi level for a single-valley representation of the semiconductor band structure. Stress-induced change of the silicon band structure and the ...
+  - _Keywords:_ mathrm, electron, valley, Delta, Fermi, dependency, concentrations, structure
+- **12: Semiconductor Band Structure** <a id="12-semiconductor-band-structure"></a>
+  - Multivalley Band Structure
+  - _Keywords:_ mathrm, Fermi, statistics, integration, Band, Structure, variables, equations
+- **Nonparabolic Band Structure** <a id="nonparabolic-band-structure"></a>
+  - The Fermi–Dirac integral $F _ { 1 / 2 }$ assumes a typical parabolic band approximation where an energy dependency of the DOS is approximated with $\sqrt { \varepsilon }$ . Usually, such a simple approximation is valid only in the vicini...
+  - _Keywords:_ varepsilon, Fermi, energy, carrier, Dirac, integral, DOS, mathrm
+- **Bandgap Widening** <a id="bandgap-widening"></a>
+  - The bandgap widening effect is related to the carrier geometric confinement, which is important to account for in ultrathin layer semiconductor structures. Typically, the electrons in the -valley of III–V materials have a very small effe...
+  - _Keywords:_ boldsymbol, confinement, valley, energy, thickness, quantization, Model, varepsilon
+- **Monte Carlo Density-of-States** <a id="monte-carlo-density-of-states"></a>
+  - To have consistency between the continuity transport models (see Carrier Transport in Semiconductors on page 183) and the Monte Carlo method (refer to the Sentaurus™ Device Monte Carlo User Guide), there is an option to use Monte Carlo D...
+  - _Keywords:_ Monte, Carlo, varepsilon, mathrm, DOS, between, computed, conduction
+- **Using Multivalley Band Structure** <a id="using-multivalley-band-structure"></a>
+  - Multivalley statistics is activated with the keyword MultiValley in the Physics section. If the model must be activated only for electrons or holes, the keywords eMultiValley and hMultiValley can be used, respectively. The model can be d...
+  - _Keywords:_ mathrm, Physics, statement, integration, Band, Structure, structure, Delta
+- **12: Semiconductor Band Structure** <a id="12-semiconductor-band-structure"></a>
+- **Multivalley Band Structure** <a id="multivalley-band-structure"></a>
+  - For non- bands, all multivalley model parameters are defined in the MultiValleyk p⋅ section of the parameter file. You can define an arbitrary number of valleys; however, by default, for example for silicon, Sentaurus Device defines thre...
+  - _Keywords:_ valleys, energy, Multivalley, Delta, degeneracy, DOS, defined, eValley
+- **References** <a id="references"></a>
+  - [1] W. Bludau, A. Onton, and W. Heinke, “Temperature dependence of the band gap in silicon,” Journal of Applied Physics, vol. 45, no. 4, pp. 1846–1848, 1974. [2] H. S. Bennett and C. L. Wilson, “Statistical comparisons of data on band-ga...
+  - _Keywords:_ Silicon, Narrowing, State, Heavily, Doped, Solid, Electronics, Electron
+- **12: Semiconductor Band Structure References** <a id="12-semiconductor-band-structure-references"></a>
+  - [14] M. A. Green, “Intrinsic concentration, effective densities of states, and effective mass in silicon,” Journal of Applied Physics, vol. 67, no. 6, pp. 2944–2954, 1990. [15] J. E. Lang, F. L. Madarasz, and P. M. Hemenger, “Temperature...
+  - _Keywords:_ effective, states, Journal, Applied, Physics, density, silicon, Green
+- **Considering Incomplete Ionization** <a id="considering-incomplete-ionization"></a>
+  - In silicon, with the exception of indium, dopants can be considered to be fully ionized at room temperature because the impurity levels are sufficiently shallow. However, when impurity levels are relatively deep compared to the thermal e...
+  - _Keywords:_ ionization, silicon, considered, species, indium, dopants, impurity, levels
+- **Using the Incomplete Ionization Model** <a id="using-the-incomplete-ionization-model"></a>
+  - The incomplete ionization model is activated with the keyword IncompleteIonization in the Physics section:
+  - _Keywords:_ ionization, IncompleteIonization, Physics, incomplete, activated, Dopants, keyword, Species
+- **Incomplete Ionization Model** <a id="incomplete-ionization-model"></a>
+  - The concentration of ionized impurity atoms is given by Fermi–Dirac distribution:
+  - _Keywords:_ mathrm, Delta, concentration, Fermi, acceptor, factors, ionization, partial
+- **Physical Model Parameters** <a id="physical-model-parameters"></a>
+  - The values of the dopant level $E _ { \mathrm { A / D } , 0 }$ , the doping-dependent shift parameter ${ \bf \alpha } _ { \mathrm { \Delta A / D } }$ , the impurity degeneracy factor $g _ { \mathrm { A / D } }$ , and the cross section ${...
+  - _Keywords:_ mathrm, colspan, dopant, Ionization, rowspan, doping, species, BoronConcentration
+- **Multiple Lattice Sites** <a id="multiple-lattice-sites"></a>
+  - In certain semiconductors, dopants can occupy different lattice sites, resulting in different activation energies for incomplete ionization. An example is 6H-SiC where nitrogen can occupy either a hexagonal site h, or a cubic site k1 or k2.
+  - _Keywords:_ doping, species, lattice, different, SiC, nitrogen, Nitrogen, _Concentration
+- **13: Incomplete Ionization** <a id="13-incomplete-ionization"></a>
+- **References** <a id="references"></a>
+  - NitrogenPlusConcentration\_split1 NitrogenConcentration\_split2 NitrogenActiveConcentration\_split2 NitrogenPlusConcentration\_split2 NitrogenConcentration\_split3 NitrogenActiveConcentration\_split3 NitrogenPlusConcentration\_split3
+  - _Keywords:_ NitrogenPlusConcentration, _split2, _split3, NitrogenConcentration, NitrogenActiveConcentration, _split1, generated, doping
+- **References** <a id="references"></a>
+  - [1] H. Matsuura, “Influence of Excited States of Deep Acceptors on Hole Concentration in SiC,” in International Conference on Silicon Carbide and Related Materials (ICSCRM), Tsukuba, Japan, pp. 679–682, October 2001. [2] P. Y. Yu and M. ...
+  - _Keywords:_ Materials, Semiconductors, Physics, Cambridge, features, quantization, effects, MOSFETs
+- **Modeling Quantization Effects** <a id="modeling-quantization-effects"></a>
+  - To include quantization effects in a classical device simulation, Sentaurus Device introduces a potential-like quantity $\Lambda _ { n }$ in the classical density formula:
+  - _Keywords:_ quantization, Lambda, effects, density, quantum, device, models, numeric
+- **van Dort Model** <a id="van-dort-model"></a>
+  - The van Dort model [1] computes $\Lambda _ { n }$ of Eq. 220 as a function of ${ \overset { \vartriangle } { \hat { n } } } \cdot { \vec { F } }$ , the electric field normal to the semiconductor–insulator interface:
+  - _Keywords:_ interface, mathrm, correction, Lambda, electric, lambda, distance, quantum
+- **Using the van Dort Model** <a id="using-the-van-dort-model"></a>
+  - To activate the model for electrons or holes, specify eQCvanDort or hQCvanDort in the Physics section:
+  - _Keywords:_ electrons, eQCvanDort, Physics, colspan, eEcritQC, dRef, interface, activate
+- **1D Schrödinger Equation** <a id="1d-schr-dinger-equation"></a>
+  - To use the 1D Schrödinger equation:
+  - _Keywords:_ Equation, equation, nonlocal, solver, analysis, Construct, special, purpose
+- **Nonlocal Mesh for the 1D Schrödinger Equation** <a id="nonlocal-mesh-for-the-1d-schr-dinger-equation"></a>
+  - The specification of the nonlocal mesh determines where in the device the 1D Schrödinger equation can be solved. This section summarizes the features that are typically needed to obtain a correct nonlocal mesh for the 1D Schrödinger equa...
+  - _Keywords:_ nonlocal, gateoxide, channel, equation, interface, NonLocal, Length, Direction
+- **Using the 1D Schrödinger Equation** <a id="using-the-1d-schr-dinger-equation"></a>
+  - To activate the 1D Schrödinger equation for electrons or holes, specify Electron or Hole as an option to Schroedinger in the global Physics section.
+  - _Keywords:_ electrons, Schroedinger, MaxSolutions, states, Physics, nonlocal, potential, equation
+- **Parameters of the 1D Schrödinger Equation** <a id="parameters-of-the-1d-schr-dinger-equation"></a>
+  - Typically, the Schrödinger equation must be solved repeatedly, with different masses and potential profiles, resulting in a number of distinct ladders of eigenenergies. For example, the six-fold degenerate, anisotropic conduction band va...
+  - _Keywords:_ equation, solved, different, ladders, Sentaurus, Device, Typically, repeatedly
+- **Explicitly Specifying Ladders** <a id="explicitly-specifying-ladders"></a>
+  - Any number of eLadder $( m _ { z , \mathrm { ~ v ~ } } , m _ { x y , \mathrm { ~ v ~ } } , d _ { \mathrm { v ~ } } , \Delta E _ { \mathrm { v ~ } } )$ (for electrons) or hLa $\mathrm { d } \mathrm { d } \mathrm { e r } \mathrm { ~ ( ~ } ...
+  - _Keywords:_ mathrm, Delta, scaling, electrons, SchroedingerParameters, quantization, factors, masses
+- **Automatically Extracting Ladder Parameters** <a id="automatically-extracting-ladder-parameters"></a>
+  - When no explicit ladder specification is present, Sentaurus Device attempts to extract the required parameters automatically. The formula parameter pair in the SchroedingerParameters parameter set specifies which expressions for the mass...
+  - _Keywords:_ mathrm, ladder, formula, masses, quantization, explicit, specification, Sentaurus
+- **Visualizing the Solutions** <a id="visualizing-the-solutions"></a>
+  - To visualize the results obtained by the 1D Schrödinger equation, Sentaurus Device offers special keywords for the NonLocalPlot section (see Visualizing Data Defined on Nonlocal Meshes on page 150).
+  - _Keywords:_ wavefunctions, Sentaurus, Device, NonLocalPlot, specify, WaveFunction, eigenenergies, Electron
+- **1D Schrödinger Equation** <a id="1d-schr-dinger-equation"></a>
+  - Omitting x- and y-coordinates for simplicity, the 1D Schrödinger equation for electrons is:
+  - _Keywords:_ mathrm, Psi_, ladder, density, partial, direction, equation, Delta
+- **Notes on the Use of the 1D Schrödinger Equation** <a id="notes-on-the-use-of-the-1d-schr-dinger-equation"></a>
+- **Note that:** <a id="note-that"></a>
+  - ■ Convergence problems: Near the flatband condition, minor changes in the band structure can change the number of bound states between zero and one. By default, Sentaurus Device computes only bound states and, therefore, this change swit...
+  - _Keywords:_ change, states, solution, channel, quantization, transition, solver, iterative
+- **External 2D Schrödinger Solver** <a id="external-2d-schr-dinger-solver"></a>
+  - For 3D structures, Sentaurus Device can connect to external 2D Schrödinger solvers to compute the quantum-mechanical density correction. Sentaurus Device interpolates solutiondependent data, such as band edges, quasi-Fermi potentials, an...
+  - _Keywords:_ Sentaurus, Device, quantum, Lambda, solver, slices, correction, processes
+- **Notes on the Use of External 2D Schrödinger Solvers** <a id="notes-on-the-use-of-external-2d-schr-dinger-solvers"></a>
+  - One crucial step in using the interface to external 2D Schrödinger solvers is to decide the number and the placement of the slices. Usually, the quantum corrections are applied to the channel of a device. The slices at least must resolve...
+  - _Keywords:_ slices, channel, Sentaurus, Device, solvers, placement, specified, external
+- **External Boltzmann Solver** <a id="external-boltzmann-solver"></a>
+  - For 3D structures, Sentaurus Device can connect to Sentaurus Device QTX using the Subband-BTE solver to obtain the extracted quantum-correction potential. For coupled carrier–Poisson simulations, Sentaurus Device can also use an effectiv...
+  - _Keywords:_ Sentaurus, Device, solver, Subband, BTE, mobility, carrier, Mobility
+- **14: Quantization Models** <a id="14-quantization-models"></a>
+  - Density Gradient Model
+  - _Keywords:_ Sentaurus, Device, mobility, Subband, BTE, solver, effective, Solver
+- **Density Gradient Model** <a id="density-gradient-model"></a>
+  - For the density gradient model [3][4], in Eq. 220 is given by a partial differential equation:Λn
+  - _Keywords:_ mathrm, Phi, overline, Lambda_, density, Lambda, contacts, boundary
+- **Using the Density Gradient Model** <a id="using-the-density-gradient-model"></a>
+  - The density gradient equation for electrons and holes is activated by the eQuantumPotential and hQuantumPotential switches in the Physics section. Use -eQuantumPotential and -hQuantumPotential to switch off the equations. These switches ...
+  - _Keywords:_ eQuantumPotential, hQuantumPotential, Physics, switch, equations, quantum, direction, density
+- **Named Parameter Sets for the Density Gradient Model** <a id="named-parameter-sets-for-the-density-gradient-model"></a>
+  - The QuantumPotentialParameters parameter set can be named. For example, in the parameter file, you can write:
+  - _Keywords:_ QuantumPotentialParameters, ParameterSetName, eQuantumPotential, declare, specify, either, hQuantumPotential, Physics
+- **Auto-Orientation for the Density Gradient Model** <a id="auto-orientation-for-the-density-gradient-model"></a>
+  - The eQuantumPotential and hQuantumPotential models support the auto-orientation framework (see Auto-Orientation Framework on page 37) that switches between different named parameter sets based on the orientation of the nearest interface....
+  - _Keywords:_ eQuantumPotential, hQuantumPotential, orientation, AutoOrientation, models, support, framework, Auto
+- **Notes on the Use of the Density Gradient Model** <a id="notes-on-the-use-of-the-density-gradient-model"></a>
+- **Note that:** <a id="note-that"></a>
+  - ■ Fitting parameters: The parameter has been calibrated only for silicon. The quantumγ correction affects the densities and field distribution in a device. Therefore, parameters for mobility and recombination models that have been calibr...
+  - _Keywords:_ quantum, density, gradient, equations, convergence, simulations, regions, potential
+- **Modified Local-Density Approximation Model** <a id="modified-local-density-approximation-model"></a>
+  - The modified local-density approximation (MLDA) model is a quantum-mechanical model that calculates the confined carrier distributions that occur near semiconductor–insulator interfaces [5]. It can be applied to both inversion and accumu...
+  - _Keywords:_ mathrm, density, MLDA, electron, varepsilon, similar, approximation, confined
+- **Interface Orientation and Stress Dependencies** <a id="interface-orientation-and-stress-dependencies"></a>
+  - The MLDA model allows you to consider a dependency of the quantization effect on interface orientation and stress. Mainly, such dependencies come from mass anisotropy and stress related valley/band energy change.
+  - _Keywords:_ quantization, interface, stress, anisotropy, valley, electron, Delta, valleys
+- **14: Quantization Models** <a id="14-quantization-models"></a>
+  - Modified Local-Density Approximation Model
+  - _Keywords:_ varepsilon, mathrm, defined, MLDA, Bigg, interface, electron, Delta
+- **Heterojunctions** <a id="heterojunctions"></a>
+  - Originally, the MLDA quantization model was developed to describe the carrier density at semiconductor–insulator interfaces where a zero density (wavefunction) assumption on the interface is a reasonable approximation due to a typically ...
+  - _Keywords:_ semiconductor, offset, between, MLDA, carrier, density, insulator, assumption
+- **Nonparabolic Bands and Geometric Quantization** <a id="nonparabolic-bands-and-geometric-quantization"></a>
+  - Other effects that can play an important role, for example, in III–V semiconductors are the band nonparabolicity and geometric quantization in thin-layer structures. For the bulk case, the carrier density computation with the nonparaboli...
+  - _Keywords:_ varepsilon, geometric, quantization, mathrm, varepsilon_, Other, effects, important
+- **where:** <a id="where"></a>
+  - $\boldsymbol { \alpha } ^ { i }$ is the band nonparabolicity. $L _ { z }$ is a distance between the parallel interfaces. ■ $\mathfrak { E } _ { 1 }$ is the first subband energy of the infinite-barrier quantum well with size $L _ { z }$ .
+  - _Keywords:_ quantization, energy, subband, varepsilon, valley, interface, orientation, MLDA
+- **Using the MLDA Model** <a id="using-the-mlda-model"></a>
+  - To activate the multivalley orientation–dependent model, the keyword MLDA must be used in the MultiValley statement of the Physics section:
+  - _Keywords:_ MLDA, MultiValley, specified, multivalley, quantization, activate, statement, Physics
+- **14: Quantization Models** <a id="14-quantization-models"></a>
+  - Modified Local-Density Approximation Model
+  - _Keywords:_ MLDA, distance, Math, MLDAbox, regions, quantization, models, interface
+- **Notes on the Use of the MLDA Model** <a id="notes-on-the-use-of-the-mlda-model"></a>
+- **Note that:** <a id="note-that"></a>
+  - For each carrier type, only one of the two MLDA options (either multivalley (e|h)MultiValley(MLDA) or only (e|h)MLDA) can be used in the Physics section. The multivalley MLDA model can be used to compute stress-related mobility change (s...
+  - _Keywords:_ MLDA, density, carrier, multivalley, switched, models, contacts, distance
+- **Quantum-Well Quantization Model** <a id="quantum-well-quantization-model"></a>
+  - The quantum-well quantization model is activated in the Physics section for semiconductor regions using the eDensityCorrection and hDensityCorrection options of QWLocal:
+  - _Keywords:_ mathrm, quantum, QWLocal, quantization, regions, cutoff, Physics, semiconductor
+- **Extracting Layer Thickness** <a id="extracting-layer-thickness"></a>
+  - Sentaurus Device provides models (for example, MLDA and mobility) that account for quantum-mechanical effects that occur in thin semiconducting films. These models use a parameter LayerThickness, which is intrinsically one-dimensional; i...
+  - _Keywords:_ LayerThickness, Sentaurus, Device, material, LayerThicknessField, models, defined, infinite
+- **Combining the LayerThickness Command and ThinLayer Subcommand** <a id="combining-the-layerthickness-command-and-thinlayer-subcomman"></a>
+  - To activate the LayerThickness command, you must specify the LayerThickness keyword with geometric parameters in the region, or material, or global Physics section. If the mobility model contains the ThinLayer subcommand with geometric p...
+  - _Keywords:_ LayerThickness, geometric, ThinLayer, activate, specify, keyword, region, material
+- **Example 1** <a id="example-1"></a>
+  - ```txt Physics (Material= Silicon) { # LayerThickness command: computation LayerThicknessField array LayerThickness(<geo_params>) Mobility(ThinLayer(<physical_params>) MultiValley( ThinLayer ) # MultiValley uses LayerThicknessField array...
+  - _Keywords:_ LayerThicknessField, ThinLayer, LayerThickness, geo_params, MultiValley, Physics, Material, Silicon
+- **Example 2** <a id="example-2"></a>
+  - ```txt Physics (Material= Silicon) { # LayerThickness command: computation LayerThicknessField array LayerThickness(<geo_params>) Mobility( ThinLayer(<geo_params> <physical_params>) MultiValley( ThinLayer ) # MultiValley uses LayerThickn...
+  - _Keywords:_ LayerThickness, ThinLayer, geo_params, MultiValley, Physics, Material, Silicon, LayerThicknessField
+- **Geometric Parameters of the LayerThickness Command** <a id="geometric-parameters-of-the-layerthickness-command"></a>
+  - The LayerThickness command has the following optional parameters: Thickness, ChordWeight, MinAngle, and MaxFitWeight.
+  - _Keywords:_ thickness, symmetry, LayerThickness, structure, Thickness, ThinLayer, regions, region
+- **Thickness Extraction** <a id="thickness-extraction"></a>
+  - The definition of the thickness of a layer in a general geometry is not self-evident. This section describes how Sentaurus Device defines thickness.
+  - _Keywords:_ thickness, surface, sphere, second, Sentaurus, Device, touches, within
+- **14: Quantization Models** <a id="14-quantization-models"></a>
+- **Extracting Layer Thickness** <a id="extracting-layer-thickness"></a>
+  - If the angle of the surface normal at $C _ { 2 }$ and the vector pointing from $C _ { 1 }$ to is between P $\beta$ and , the value of the diameter is multiplied by a factor that is very large if the angle is closeγ d to , and by a factor...
+  - _Keywords:_ thickness, circle, between, normal, diameter, larger, extraction, smaller
+- **References** <a id="references"></a>
+  - [1] M. J. van Dort, P. H. Woerlee, and A. J. Walker, “A Simple Model for Quantisation Effects in Heavily-Doped Silicon MOSFETs at Inversion Conditions,” Solid-State Electronics, vol. 37, no. 3, pp. 411–414, 1994. [2] S. A. Hareland et al...
+  - _Keywords:_ Paasch, Density, Model, Silicon, Inversion, Quantum, Devices, Electron
+- **14: Quantization Models** <a id="14-quantization-models"></a>
+  - References
+  - _Keywords:_ References, Penzin, Paasch, Smith, Nonparabolic, Multivalley, Quantum, Correction
+- **Introduction to Mobility Models** <a id="introduction-to-mobility-models"></a>
+  - Sentaurus Device uses a modular approach for the description of the carrier mobilities. In the simplest case, mobility is a function of the lattice temperature. The constant mobility model should be used only for undoped materials (see M...
+  - _Keywords:_ mobility, carrier, Mobility, describe, degradation, models, Models, scattering
+- **Combining Mobility Models** <a id="combining-mobility-models"></a>
+  - Mobility models are selected in the Physics section as options to Mobility, eMobility, or hMobility:
+  - _Keywords:_ Mobility, Physics, eMobility, hMobility, specifications, models, selected, arguments
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - Mobility due to Phonon Scattering
+  - _Keywords:_ mobility, mathrm, activated, computed, Mobility, Phonon, Scattering, carrier
+- **Mobility due to Phonon Scattering** <a id="mobility-due-to-phonon-scattering"></a>
+  - The constant mobility model [1] is active by default. It accounts only for phonon scattering and, therefore, it is dependent only on the lattice temperature:
+  - _Keywords:_ mobility, mathrm, constant, ConstantMobility, phonon, scattering, exponent, Mobility
+- **Doping-Dependent Mobility Degradation** <a id="doping-dependent-mobility-degradation"></a>
+  - In doped semiconductors, scattering of the carriers by charged impurity ions leads to degradation of the carrier mobility. Sentaurus Device supports several built-in models (see Masetti Model on page 324, Arora Model on page 325, and Uni...
+  - _Keywords:_ mobility, Model, Mobility, dependent, scattering, doping, carriers, models
+- **Using Doping-Dependent Mobility** <a id="using-doping-dependent-mobility"></a>
+  - Mobility degradation due to impurity scattering is activated by specifying the DopingDependence option to Mobility. The different model choices are selected as options to DopingDependence:
+  - _Keywords:_ DopingDependence, Mobility, Masetti, Arora, formula, UniBo, PhuMob, PhuMob2
+- **Using More Than One Doping-Dependent Mobility Model** <a id="using-more-than-one-doping-dependent-mobility-model"></a>
+  - In most cases, only one doping-dependent mobility model should be specified to avoid doublecounting mobility effects. However, Sentaurus Device allows more than one model to be used in a simulation. It can be useful, for example, to incl...
+  - _Keywords:_ mobility, specified, DopingDependence, Masetti, _model1, _model2, doping, dependent
+- **Masetti Model** <a id="masetti-model"></a>
+  - The default model used by Sentaurus Device to simulate doping-dependent mobility in silicon was proposed by Masetti et al. [2]:
+  - _Keywords:_ mathrm, doping, mobility, reference, silicon, Masetti, Sentaurus, Device
+- **Arora Model** <a id="arora-model"></a>
+  - The Arora model [3] reads:
+  - _Keywords:_ mathrm, alpha_, Arora, accessible, DopingDependence, coefficients, silicon, Symbol
+- **University of Bologna Bulk Mobility Model** <a id="university-of-bologna-bulk-mobility-model"></a>
+  - The University of Bologna bulk mobility model was developed for an extended temperature range between $2 5 ^ { \circ } \mathrm { C }$ and $9 7 3 ^ { \circ } \mathrm { C }$ . It should be used together with the University of Bologna inver...
+  - _Keywords:_ mathrm, gamma_, mobility, temperature, University, Bologna, lattice, concentrations
+- **The pmi\_msc\_mobility Model** <a id="the-pmi-msc-mobility-model"></a>
+  - The mobility model pmi\_msc\_mobility depends on the lattice temperature and the occupation probabilities of the states of a multistate configuration (MSC). The model averages the mobilities of all MSC states according to:
+  - _Keywords:_ mathrm, temperature, MSC, _mobility, string, states, mobilities, reference
+- **PMIs for Bulk Mobility** <a id="pmis-for-bulk-mobility"></a>
+  - The PMIs for bulk mobility are described in Doping-Dependent Mobility on page 1097 and Multistate Configuration–Dependent Bulk Mobility on page 1103.
+  - _Keywords:_ Dependent, Mobility, PMIs, mobility, described, Doping, Multistate, Configuration
+- **Low-Field Ballistic Mobility Model** <a id="low-field-ballistic-mobility-model"></a>
+  - The low-field ballistic mobility model [6] is given by the simple expression:
+  - _Keywords:_ BalMob, mobility, mathrm, ballistic, specify, device, DopingDependence, PhuMob
+- **Carrier–Carrier Scattering** <a id="carrier-carrier-scattering"></a>
+  - Two models are supported for the description of carrier–carrier scattering. One model is based on Choo [7] and Fletcher [8], and uses the Conwell–Weisskopf theory. As an alternative to the Conwell–Weisskopf model, Sentaurus Device suppor...
+  - _Keywords:_ carrier, mobility, mathrm, models, Conwell, Weisskopf, theory, degradation
+- **Using Carrier–Carrier Scattering** <a id="using-carrier-carrier-scattering"></a>
+  - The carrier–carrier scattering models are activated by specifying the CarrierCarrierScattering option to Mobility. Either of the two different models are selected by an additional flag:
+  - _Keywords:_ carrier, CarrierCarrierScattering, scattering, models, activated, Mobility, specifying, Either
+- **Conwell–Weisskopf Model** <a id="conwell-weisskopf-model"></a>
+  - $$ \mu_ {\mathrm{eh}} = \frac {D (T / 3 0 0 \mathrm{K}) ^ {3 / 2}}{\sqrt {n p}} \left[ \ln \left(1 + F \left(\frac {T}{3 0 0 \mathrm{K}}\right) ^ {2} (p n) ^ {- 1 / 3}\right) \right] ^ {- 1} \tag {260} $$
+  - _Keywords:_ mathrm, accessible, appropriateD, silicon
+- **Brooks–Herring Model** <a id="brooks-herring-model"></a>
+  - $$ \mu_ {\mathrm{eh}} = \frac {c _ {1} (T / 3 0 0 \mathrm{K}) ^ {3 / 2}}{\sqrt {n p}} \frac {1}{\phi (\eta_ {0})} \tag {261} $$
+  - _Keywords:_ mathrm, silicon
+- **Physical Model Parameters** <a id="physical-model-parameters"></a>
+  - Parameters for the carrier–carrier scattering models are accessible in the parameter set CarrierCarrierScattering.
+  - _Keywords:_ carrier, Symbol, Unit, scattering, models, accessible, CarrierCarrierScattering, Conwell
+- **Philips Unified Mobility Model** <a id="philips-unified-mobility-model"></a>
+  - The Philips unified mobility model, proposed by Klaassen [10], unifies the description of majority and minority carrier bulk mobilities. In addition to describing the temperature dependence of the mobility, the model takes into account e...
+  - _Keywords:_ mobility, Philips, unified, impurities, devices, proposed, Klaassen, unifies
+- **Using the Philips Unified Mobility Model** <a id="using-the-philips-unified-mobility-model"></a>
+  - There are different methods for activating the Philips unified mobility model.
+  - _Keywords:_ PhuMob, mobility, Philips, unified, Mobility, DopingDependence, degradation, different
+- **Using an Alternative Philips Unified Mobility Model** <a id="using-an-alternative-philips-unified-mobility-model"></a>
+  - Sentaurus Device provides an extended PMI reimplementation of the Philips unified mobility model (see Doping-Dependent Mobility on page 1097). To use it, specify PhuMob2 as the option for DopingDependence:
+  - _Keywords:_ reimplementation, PhuMob2, Mobility, DopingDependence, mathbb, Sentaurus, Device, provides
+- **Description of the Philips Unified Mobility Model** <a id="description-of-the-philips-unified-mobility-model"></a>
+  - According to the Philips unified mobility model, there are two contributions to carrier mobilities. The first, $\mu _ { i , \textrm { L } }$ , represents phonon (lattice) scattering and the second, $\mu _ { i , \ast }$ ,DAeh accounts for...
+  - _Keywords:_ mathrm, scattering, DAeh, mobility, carrier, mobilities, textrm, lattice
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - Philips Unified Mobility Model
+  - _Keywords:_ mathrm, carrier, clustering, alpha_, denotes, Philips, Unified, Mobility
+- **Screening Parameter** <a id="screening-parameter"></a>
+  - The screening parameter $P _ { i }$ is given by a weighted harmonic mean of the Brooks–Herring approach and Conwell–Weisskopf approach:
+  - _Keywords:_ mathrm, boldsymbol, operatorname, screening, approach, weighted, harmonic, Brooks
+- **Philips Model Parameters** <a id="philips-model-parameters"></a>
+  - Table 55 lists the built-in values for the parameters $a _ { \mathrm { g } } , b _ { \mathrm { g } } , c _ { \mathrm { g } } , \mathbf { \alpha } _ { \mathrm { g } } , \mathbf { \alpha } _ { \mathrm { g } } ^ { \prime } , \mathbf { \beta...
+  - _Keywords:_ mathrm, mathbf, mobility, Philips, unified, silicon, arsenic, Symbol
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - Mobility Degradation at Interfaces
+  - _Keywords:_ mathrm, mobility, Philips, unified, silicon, Symbol, Electrons, Unit
+- **Mobility Degradation at Interfaces** <a id="mobility-degradation-at-interfaces"></a>
+  - In the channel region of a MOSFET, the high transverse electric field forces carriers to interact strongly with the semiconductor–insulator interface. Carriers are subjected to scattering by acoustic surface phonons and surface roughness...
+  - _Keywords:_ surface, channel, region, MOSFET, transverse, electric, forces, carriers
+- **Using Mobility Degradation at Interfaces** <a id="using-mobility-degradation-at-interfaces"></a>
+  - To activate mobility degradation at interfaces, select a method to compute the transverse field $\boldsymbol { F } _ { \perp }$ (see Computing Transverse Field on page 358).
+  - _Keywords:_ Enormal, mobility, degradation, Mobility, Lombardi, select, Physics, spacing
+- **Enhanced Lombardi Model** <a id="enhanced-lombardi-model"></a>
+  - The surface contribution due to acoustic phonon scattering has the form:
+  - _Keywords:_ mathrm, times10, lambda, mathbf, Lombardi, mobility, alpha_, surface
+- **Stress Factors for Mobility Components** <a id="stress-factors-for-mobility-components"></a>
+  - If isotropic stress-dependent mobility enhancement factors are applied to mobility components (see Factor Models Applied to Mobility Components on page 892), the Lombardi mobility components become:
+  - _Keywords:_ mathrm, gamma_, stress, mobility, Factor, isotropic, dependent, enhancement
+- **Named Parameter Sets for the Lombardi Model** <a id="named-parameter-sets-for-the-lombardi-model"></a>
+  - The EnormalDependence parameter set can be named. For example, in the parameter file, you can write:
+  - _Keywords:_ EnormalDependence, ParameterSetName, Lombardi, declare, specify, Mobility, Enormal, unnamed
+- **Auto-Orientation for the Lombardi Model** <a id="auto-orientation-for-the-lombardi-model"></a>
+  - The Lombardi model supports the auto-orientation framework (see Auto-Orientation Framework on page 37) that switches between different-named parameter sets based on the orientation of the nearest interface. This can be activated by speci...
+  - _Keywords:_ Lombardi, orientation, AutoOrientation, supports, framework, Auto, Orientation, Framework
+- **Inversion and Accumulation Layer Mobility Model** <a id="inversion-and-accumulation-layer-mobility-model"></a>
+  - The inversion and accumulation layer mobility (IALMob) model is based on the unified portion of the model described in [12]. This model includes doping and transverse-field dependencies and is similar to the Lucent (Darwish) model [11], ...
+  - _Keywords:_ mathrm, scattering, mobility, Mobility, IALMob, Coulomb, impurity, Model
+- **Coulomb Scattering** <a id="coulomb-scattering"></a>
+  - The Coulomb impurity scattering term has 2D and 3D contributions. The 2D contribution is primarily due to effects occurring near the interface and the 3D contribution is primarily due
+  - _Keywords:_ contribution, primarily, Coulomb, impurity, scattering, contributions, effects, occurring
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - Mobility Degradation at Interfaces
+  - _Keywords:_ mathrm, alpha_, PhuMob, thickness, mobility, Coulomb, scattering, expressions
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - Mobility Degradation at Interfaces
+  - _Keywords:_ Mobility, Degradation, Interfaces
+- **Phonon Scattering** <a id="phonon-scattering"></a>
+  - The phonon-scattering portion of Eq. 284 also has 2D and 3D parts. The way in which these parts are combined depends on the value of the PhononCombination parameter in the IALMob command file:
+  - _Keywords:_ mathrm, PhononCombination, alpha_, lambda_, phonon, scattering, portion, combined
+- **Surface Roughness Scattering** <a id="surface-roughness-scattering"></a>
+  - Surface roughness scattering is given by:
+  - _Keywords:_ mathrm, alpha_, lambda_, Surface, roughness, scattering
+- **Parameters** <a id="parameters"></a>
+  - Parameters associated with the model are accessible in the IALMob parameter set. Their values for silicon are shown in Table 60 and Table 61.
+  - _Keywords:_ IALMob, silicon, coefficients, Symbol, Unit, S_t, lambda, associated
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - Mobility Degradation at Interfaces
+  - _Keywords:_ alpha_, lambda_, Mobility, Degradation, Interfaces, IALMob, coefficients, silicon
+- **Stress Factors for Mobility Components** <a id="stress-factors-for-mobility-components"></a>
+  - If isotropic stress-dependent mobility enhancement factors are applied to mobility components (see Factor Models Applied to Mobility Components on page 892), the IALMob mobility components become:
+  - _Keywords:_ mathrm, gamma_, mobility, Factor, isotropic, stress, enhancement, components
+- **Using the Inversion and Accumulation Layer Mobility Model** <a id="using-the-inversion-and-accumulation-layer-mobility-model"></a>
+  - The inversion and accumulation layer mobility model is selected by specifying the IALMob keyword as an argument to Enormal in the command file. No mobility DopingDependence should be specified, as this is already included in the model. I...
+  - _Keywords:_ IALMob, mobility, specified, Enormal, specify, acoustic, phonon, surface
+- **Named Parameter Sets for the IALMob Model** <a id="named-parameter-sets-for-the-ialmob-model"></a>
+  - The IALMob parameter set can be named. For example, in the parameter file, you can write the following to declare a parameter set with the name myset:
+  - _Keywords:_ IALMob, ParameterSetName, declare, specify, Mobility, Enormal, unnamed
+- **Auto-Orientation for the IALMob Model** <a id="auto-orientation-for-the-ialmob-model"></a>
+  - The IALMob model supports the auto-orientation framework (see Auto-Orientation Framework on page 37) that switches between different named parameter sets based on the orientation of the nearest interface. This can be activated by specify...
+  - _Keywords:_ IALMob, orientation, AutoOrientation, supports, framework, Auto, Orientation, Framework
+- **University of Bologna Surface Mobility Model** <a id="university-of-bologna-surface-mobility-model"></a>
+  - The University of Bologna surface mobility model was developed for an extended temperature range between $2 5 ^ { \circ } \mathrm { C }$ and $6 4 8 ^ { \circ } \mathrm { C }$ . It should be used together with the University of Bologna bu...
+  - _Keywords:_ mathrm, surface, University, Bologna, mobility, scattering, carrier, concentration
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - Mobility Degradation at Interfaces
+  - _Keywords:_ mathrm, surface, mobility, effective, lambda, gamma_B, gamma_C, normal
+- **Mobility Degradation Components due to Coulomb Scattering** <a id="mobility-degradation-components-due-to-coulomb-scattering"></a>
+  - Different mobility degradation components due to Coulomb scattering are available in Sentaurus Device that can be combined with other interface mobility degradation models:
+  - _Keywords:_ degradation, mobility, interface, charge, accounts, components, combined, charged
+- **where:** <a id="where"></a>
+  - $\mu _ { \mathrm { o t h e r } }$ represents the other DopingDependence and Enormal models specified for the simulation. ■ $\mu _ { \mathrm { n i c } }$ represents the NegInterfaceCharge mobility degradation component. ■ $\mu _ { \mathrm...
+  - _Keywords:_ mathrm, represents, mobility, degradation, component, DopingDependence, Enormal, models
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - Mobility Degradation at Interfaces
+  - _Keywords:_ mathrm, mobility, Electron, Hole, components, component, C2D, degradation
+- **Stress Factors for Mobility Components** <a id="stress-factors-for-mobility-components"></a>
+  - If isotropic stress-dependent mobility enhancement factors are applied to mobility components (see Factor Models Applied to Mobility Components on page 892), the Coulomb degradation component becomes:
+  - _Keywords:_ mathrm, stress, Factor, isotropic, dependent, mobility, enhancement, Models
+- **Using Mobility Degradation Components** <a id="using-mobility-degradation-components"></a>
+  - The Coulomb2D model is a local model that uses local values of $N _ { \mathrm { A } }$ and $N _ { \mathrm { D } }$ . To use this model, specify Coulomb2D in addition to the standard Enormal model, for example:
+  - _Keywords:_ Coulomb2D, mathrm, Enormal, specify, addition, standard, Physics, Mobility
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - Mobility Degradation at Interfaces
+  - _Keywords:_ models, mathrm, charge, density, interface, mobility, specified, Enormal
+- **Remote Coulomb Scattering Model** <a id="remote-coulomb-scattering-model"></a>
+  - High-k gate dielectrics are being considered as an alternative to $\mathrm { S i O } _ { 2 }$ to reduce unacceptable leakage currents as transistor dimensions decrease. One obstacle when using high-k gate dielectrics is that a degraded c...
+  - _Keywords:_ mathrm, mobility, gamma_, RCS, Enormal, carrier, degradation, screening
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - Mobility Degradation at Interfaces
+  - _Keywords:_ mathrm, distance, _highk, insulator, structure, nearest, RCSMobility, silicon
+- **Stress Factors for Mobility Components** <a id="stress-factors-for-mobility-components"></a>
+  - If isotropic stress-dependent mobility enhancement factors are applied to mobility components (see Factor Models Applied to Mobility Components on page 892), the RCS degradation becomes:
+  - _Keywords:_ mathrm, stress, isotropic, dependent, mobility, enhancement, Factor, Models
+- **Remote Phonon Scattering Model** <a id="remote-phonon-scattering-model"></a>
+  - Sentaurus Device also provides a simple empirical model for remote phonon scattering (RPS) degradation that can be combined with other Enormal models using Matthiessen’s rule:
+  - _Keywords:_ mathrm, RPS, Enormal, distance, _highk, insulator, degradation, gamma_
+- **Stress Factors for Mobility Components** <a id="stress-factors-for-mobility-components"></a>
+  - If isotropic stress-dependent mobility enhancement factors are applied to mobility components (see Factor Models Applied to Mobility Components on page 892), the RPS degradation becomes:
+  - _Keywords:_ mathrm, stress, isotropic, dependent, mobility, enhancement, Factor, Models
+- **Computing Transverse Field** <a id="computing-transverse-field"></a>
+  - Sentaurus Device supports two different methods for computing the normal electric field $\boldsymbol { F } _ { \perp }$ :
+  - _Keywords:_ normal, interface, Sentaurus, Device, supports, different, methods, computing
+- **Normal to Interface** <a id="normal-to-interface"></a>
+  - Assume that mobility degradation occurs at an interface . By default, the distance to theΓ interface is the true geometric distance, and $\hat { n }$ is the gradient of the distance to the interface. When the -GeometricDistances option i...
+  - _Keywords:_ interface, distance, Math, Sentaurus, Device, specified, boldsymbol, normal
+- **Normal to Current Flow** <a id="normal-to-current-flow"></a>
+  - Using this method, $\boldsymbol { F } _ { \perp } ( \Vec { \boldsymbol { r } } )$ is defined as the component of the electric field normal to the electron $( c = n )$ or hole $( c = p )$ currents $\Vec { J } _ { c } ( \Vec { r } )$ :
+  - _Keywords:_ Vec, boldsymbol, component, electric, normal, electron, currents, evaluation
+- **Field Correction on Interface** <a id="field-correction-on-interface"></a>
+  - For vertices on the interface, due to discretization, the normal electric field in inversion is underestimated systematically due to screening by the charge at the same vertex. Therefore, Sentaurus Device supports a correction of the field:
+  - _Keywords:_ normal, charge, vertex, vertices, interface, discretization, electric, inversion
+- **Thin-Layer Mobility Model** <a id="thin-layer-mobility-model"></a>
+  - The thin-layer mobility model applies to devices with silicon layers that are only a few nanometers thick. In such devices, geometric quantization leads to a mobility that cannot be expressed with a normal field-dependent interface model...
+  - _Keywords:_ mathrm, Lombardi, mobility, IALMob, thickness, Model, Mobility, phonon
+- **Using the Thin-Layer Mobility Model** <a id="using-the-thin-layer-mobility-model"></a>
+  - To activate the thin-layer mobility model, specify ThinLayer(<parameters>) as an option to eMobility, hMobility, or Mobility. The optional parameters are <geo\_parameters> and <physical\_parameters>.
+  - _Keywords:_ _parameters, ThinLayer, activate, mobility, specify, eMobility, hMobility, Mobility
+- **Physical Parameters** <a id="physical-parameters"></a>
+  - Specify Lombardi or IALMob (including any optional arguments for these models) as an option to ThinLayer to indicate which normal field-dependent interface model is used in conjunction with the thin-layer mobility calculations (Lombardi ...
+  - _Keywords:_ ThinLayer, mathrm, Lombardi, IALMob, Enormal, mobility, Physics, Mobility
+- **Stress Factors for Mobility Components** <a id="stress-factors-for-mobility-components"></a>
+  - If isotropic stress-dependent mobility enhancement factors are applied to mobility components (see Factor Models Applied to Mobility Components on page 892), the ThinLayer mobility components become:
+  - _Keywords:_ mathrm, gamma_, stress, mobility, Factor, isotropic, dependent, enhancement
+- **Auto-Orientation and Named Parameter Sets** <a id="auto-orientation-and-named-parameter-sets"></a>
+  - The thin-layer mobility model implicitly supports the auto-orientation framework (see Auto-Orientation Framework on page 37) and named parameter sets (see Named Parameter Sets on page 36). That is, auto-orientation or named parameter set...
+  - _Keywords:_ orientation, ThinLayerMobility, Lombardi, mobility, dependent, specification, Physics, Mobility
+- **Geometric Parameters** <a id="geometric-parameters"></a>
+  - The ThinLayer subcommand has the same <geo\_parameters> as the LayerThickness command (see Geometric Parameters of the LayerThickness Command on page 316).
+  - _Keywords:_ LayerThickness, ThinLayer, subcommand, _parameters, Geometric
+- **High-Field Saturation Models** <a id="high-field-saturation-models"></a>
+  - In high electric fields, the carrier drift velocity is no longer proportional to the electric field, instead, the velocity saturates to a finite speed $\nu _ { \mathrm { s a t } }$ . Sentaurus Device supports different models for the des...
+  - _Keywords:_ models, electric, velocity, hydrodynamic, fields, carrier, longer, proportional
+- **Using High-Field Saturation Models** <a id="using-high-field-saturation-models"></a>
+  - The high-field saturation models comprise three submodels: the actual mobility model, the velocity saturation model, and the driving force model. With a some restrictions, these models can be freely combined.
+  - _Keywords:_ Model, models, driving, PMI, saturation, actual, mobility, selected
+- **Named Parameter Sets for the High-Field Saturation Models** <a id="named-parameter-sets-for-the-high-field-saturation-models"></a>
+  - The HighFieldDependence and HydroHighFieldDependence parameter sets can be named. For example, in the parameter file, you can write:
+  - _Keywords:_ HighFieldDependence, ParameterSetName, HighFieldSaturation, HydroHighFieldDependence, declare, specify, eHighFieldSaturation, hHighFieldSaturation
+- **Auto-Orientation for the High-Field Saturation Models** <a id="auto-orientation-for-the-high-field-saturation-models"></a>
+  - The HighFieldSaturation and Diffusivity models support the auto-orientation framework (see Auto-Orientation Framework on page 37) that switches between different HighFieldDependence named parameter sets based on the surface orientation o...
+  - _Keywords:_ HighFieldSaturation, Diffusivity, orientation, AutoOrientation, models, support, framework, Auto
+- **Extended Canali Model** <a id="extended-canali-model"></a>
+  - The Canali model [19] originates from the Caughey–Thomas formula [20], but has temperature-dependent parameters, which were fitted up to by Canali et al. [19]:430 K
+  - _Keywords:_ mathrm, Canali, mobility, driving, hydrodynamic, temperature, dependent, activated
+- **Transferred Electron Model** <a id="transferred-electron-model"></a>
+  - For GaAs and other materials with a similar band structure, a negative differential mobility can be observed for high driving fields. This effect is caused by a transfer of electrons into a energetically higher side valley with a much la...
+  - _Keywords:_ mathrm, driving, mobility, effect, includes, electron, velocity, Models
+- **Transferred Electron Model 2** <a id="transferred-electron-model-2"></a>
+  - Sentaurus Device provides an alternative high-field saturation mobility model for III–nitride materials:
+  - _Keywords:_ mathrm, mathsf, Ga_, electron, Sentaurus, Device, Transferred, effect
+- **Basic Model** <a id="basic-model"></a>
+  - According to this very simple model, the mobility decays inversely with the carrier temperature:
+  - _Keywords:_ mobility, carrier, temperature, mathrm, According, simple, decays, inversely
+- **Meinerzhagen–Engl Model** <a id="meinerzhagen-engl-model"></a>
+  - According to the Meinerzhagen–Engl model [24], the high field mobility degradation is given by:
+  - _Keywords:_ mathrm, electrons, Meinerzhagen, Engl, According, mobility, degradation, energy
+- **Physical Model Interface** <a id="physical-model-interface"></a>
+  - Sentaurus Device offers two physical model interfaces (PMIs) for high-field mobility saturation.
+  - _Keywords:_ PMI, HighFieldSaturation, eHighFieldSaturation, hHighFieldSaturation, details, High, Field, Saturation
+- **Lucent Model** <a id="lucent-model"></a>
+  - The Lucent model has been developed by Darwish et al. [11]. Sentaurus Device implements this model as a combination of:
+  - _Keywords:_ mathrm, Philips, Model, Lucent, unified, mobility, clustering, Lombardi
+- **Velocity Saturation Models** <a id="velocity-saturation-models"></a>
+  - Sentaurus Device supports two velocity saturation models. Model 1 is part of the Canali model and is given by:
+  - _Keywords:_ mathrm, models, Model, recommended, Sentaurus, Device, supports, velocity
+- **Selecting Velocity Saturation Models** <a id="selecting-velocity-saturation-models"></a>
+  - The variable Vsat\_formula in the HighFieldDependence parameter set selects the velocity saturation model. If Vsat\_formula is set to 1, Eq. 348 is used. If Vsat\_formula is set to 2, Eq. 349 is selected. The default value of Vsat\_formu...
+  - _Keywords:_ Vsat, _formula, saturation, variable, HighFieldDependence, selects, velocity, selected
+- **Driving Force Models** <a id="driving-force-models"></a>
+  - Sentaurus Device supports five different models for the driving force $F _ { \mathrm { h f s } }$ , the first two of which also are affected by the ParallelToInterfaceInBoundaryLayer keyword (see Field Correction Close to Interfaces on p...
+  - _Keywords:_ Sentaurus, Device, supports, different, models, driving, mathrm, affected
+- **Electric Field Parallel to the Current** <a id="electric-field-parallel-to-the-current"></a>
+  - For the first model (flag Eparallel), the driving field for electrons is the electric field parallel to the electron current density:
+  - _Keywords:_ mathrm, driving, current, numeric, Eparallel, electric, parallel, defined
+- **Gradient of Quasi-Fermi Potential** <a id="gradient-of-quasi-fermi-potential"></a>
+  - For the second model (flag GradQuasiFermi), the driving field for electrons is:
+  - _Keywords:_ driving, mathrm, electric, elements, Math, numerically, second, GradQuasiFermi
+- **Electric Field Parallel to the Interface** <a id="electric-field-parallel-to-the-interface"></a>
+  - The third model (keyword EparallelToInterface) computes the driving force as the electric field parallel to the closest semiconductor–insulator interface:
+  - _Keywords:_ direction, vector, driving, EparallelToInterface, Math, boldsymbol, interface, mathrm
+- **Hydrodynamic Driving Force** <a id="hydrodynamic-driving-force"></a>
+  - The fourth model (keyword CarrierTempDrive) requires hydrodynamic simulation. The driving field for electrons is:
+  - _Keywords:_ driving, mathrm, energy, hydrodynamic, thermal, fourth, keyword, CarrierTempDrive
+- **Electric Field** <a id="electric-field"></a>
+  - The fifth model (keyword ElectricField) uses the electric field as an approximation for $F _ { \mathrm { h f s } }$ .
+  - _Keywords:_ keyword, ElectricField, electric, approximation, mathrm
+- **Interpolation of Driving Forces to Zero Field** <a id="interpolation-of-driving-forces-to-zero-field"></a>
+  - For numeric reasons, Sentaurus Device actually implements the following generalizations of Eq. 350 and Eq. 352:
+  - _Keywords:_ RefDens, _Zero, mathrm, numeric, _eGradQuasiFermi, _hGradQuasiFermi, reasons, Sentaurus
+- **Interpolation of the GradQuasiFermi Driving Force** <a id="interpolation-of-the-gradquasifermi-driving-force"></a>
+  - Occasionally, convergence problems can be attributed to the GradQuasiFermi driving force, particularly when $\nabla \Phi _ { n }$ changes rapidly for small changes in the electron density . In suchn cases, you can use the gradient of a m...
+  - _Keywords:_ Phi, Fermi, changes, modified, statistics, Occasionally, convergence, problems
+- **15: Mobility Models** <a id="15-mobility-models"></a>
+  - High-Field Saturation Models
+  - _Keywords:_ RefDens, Phi, _ElectricField, _HFS, interpolation, _eGradQuasiFermi, _hGradQuasiFermi, electric
+- **Interpolation of the Eparallel Driving Force** <a id="interpolation-of-the-eparallel-driving-force"></a>
+  - As with the GradQuasiFermi driving force, convergence problems associated with the Eparallel driving force can sometimes be alleviated with an interpolation to the electric field $\acute { F }$ at low carrier concentrations:
+  - _Keywords:_ driving, Eparallel, electric, specified, RefDens, _ElectricField, _HFS, Interpolation
+- **Field Correction Close to Interfaces** <a id="field-correction-close-to-interfaces"></a>
+  - ParallelToInterfaceInBoundaryLayer in the Math section controls the computation of driving forces for mobility and avalanche models along interfaces. With this switch, the avalanche and mobility computations in boundary elements along in...
+  - _Keywords:_ interface, ParallelToInterfaceInBoundaryLayer, switch, elements, interfaces, boundary, parallel, region
+- **Non-Einstein Diffusivity** <a id="non-einstein-diffusivity"></a>
+  - By default, in the drift-diffusion equation (see Drift-Diffusion Model on page 184), Sentaurus Device assumes that the Einstein relation holds, and the diffusivity is related to the mobility by $D _ { n } = k T \mu _ { r }$ and $D _ { p ...
+  - _Keywords:_ diffusivity, mobilities, mobility, models, Einstein, mathrm, different, current
+- **High-Field Saturation Mobility Scaling** <a id="high-field-saturation-mobility-scaling"></a>
+  - Sentaurus Device allows the mobility calculated by the HighFieldSaturation models to be scaled. The parameters ku and kv are used to scale low-field mobility $\left( \mu _ { \mathrm { l o w } } \right)$ and saturation velocity $( \nu _ {...
+  - _Keywords:_ mathrm, mobility, rightarrow, Sentaurus, Device, allows, calculated, HighFieldSaturation
+- **Ballistic Mobility Model** <a id="ballistic-mobility-model"></a>
+  - To account for the ballistic effect in drift-diffusion transport, a ballistic mobility model can be combined with the total drift-diffusion mobility using Matthiessen’s rule:
+  - _Keywords:_ mathrm, ballistic, mobility, diffusion, Model, account, effect, transport
+- **Channel Length–Dependent Model** <a id="channel-length-dependent-model"></a>
+  - The simplest channel length–dependent ballistic mobility model [6] is given by the following expression:
+  - _Keywords:_ mathrm, channel, length, defined, device, expressed, effective, simplest
+- **Kinetic Velocity Model** <a id="kinetic-velocity-model"></a>
+  - To avoid using the explicit channel length dependency in Eq. 371, the authors of [25] developed a kinetic velocity model (KVM) with the following terms: thermionic emission and free carrier acceleration. The thermionic emission term in t...
+  - _Keywords:_ mathrm, carrier, thermionic, emission, acceleration, ballistic, mobility, alpha_
+- **Fermi–Dirac Statistics** <a id="fermi-dirac-statistics"></a>
+  - Both Eq. 371 and Eq. 374 are written for the Boltzmann statistics, but for the strong inversion regime in MOSFET applications, accounting for Fermi–Dirac statistics might be essential (especially for III–V materials). To account for that...
+  - _Keywords:_ mathrm, statistics, partial, Both, written, Boltzmann, strong, inversion
+- **Frensley Rule** <a id="frensley-rule"></a>
+  - Typically, the ballistic mobility is combined with the total drift-diffusion mobility $\mu _ { \mathrm { d d } }$ using Matthiessen’s rule (Eq. 367), but [25] and [26] suggest the following Frensley rule to compute the final mobility :μ
+  - _Keywords:_ mobility, mathrm, Typically, ballistic, combined, diffusion, Matthiessen, suggest
+- **Using the Ballistic Mobility Model** <a id="using-the-ballistic-mobility-model"></a>
+  - To activate the channel length–dependent ballistic mobility (Eq. 371) with available options, you can specify the following in the Physics section of the command file:
+  - _Keywords:_ KVM, BalMob, Fermi, activates, Frensley, specified, activate, mobility
+- **Monte Carlo–Computed Mobility for Strained Silicon** <a id="monte-carlo-computed-mobility-for-strained-silicon"></a>
+  - Based on Monte Carlo simulations [27], the parameter file StrainedSilicon.par has been created, which is shipped with Sentaurus Device (see Default Parameters on page 35). This file contains in-plane transport parameters at for silicon u...
+  - _Keywords:_ silicon, SiliconGermanium, substrate, mobility, StrainedSilicon, strain, germanium, Monte
+- **Monte Carlo–Computed Mobility for Strained SiGe in npn-SiGe HBTs** <a id="monte-carlo-computed-mobility-for-strained-sige-in-npn-sige-"></a>
+  - Based on Monte Carlo simulations [30], the parameter file SiGeHBT.par has been created, which is shipped with Sentaurus Device (see Default Parameters on page 35). This file contains transport parameters at for silicon germanium under bi...
+  - _Keywords:_ SiGe, silicon, Monte, Carlo, simulations, Sentaurus, Device, transport
+- **Incomplete Ionization–Dependent Mobility Models** <a id="incomplete-ionization-dependent-mobility-models"></a>
+  - Sentaurus Device supports incomplete ionization–dependent mobility models. This dependence is activated by specifying the keyword IncompleteIonization in Mobility sections. The incomplete ionization model (see Chapter 13 on page 279) mus...
+  - _Keywords:_ mathrm, incomplete, ionization, IncompleteIonization, Sentaurus, Device, mobility, models
+- **Poole–Frenkel Mobility (Organic Material Mobility)** <a id="poole-frenkel-mobility-organic-material-mobility"></a>
+  - Most organic semiconductors have mobilities dependent on the electric field. Sentaurus Device supports mobilities having a square-root dependence on the electric field, which is a typical mobility dependence for organic semiconductors. T...
+  - _Keywords:_ PFMob, mobility, driving, electric, square, derivative, Mobility, Eparallel
+- **Mobility Averaging** <a id="mobility-averaging"></a>
+  - Sentaurus Device computes separate values of the mobility for each vertex of each semiconductor element of the mesh. To guarantee current conservation, these mobilities are then averaged to obtain either one value for each semiconductor ...
+  - _Keywords:_ mathsf, Sigma, Psi, element, averaging, varphi, mobility, semiconductor
+- **Mobility Doping File** <a id="mobility-doping-file"></a>
+  - The Grid parameter in the File section of a command file can be used to read a TDR file that contains the device geometry, mesh, and doping.
+  - _Keywords:_ Grid, TDR, doping, mobility, calculations, MobilityDoping, contains, device
+- **Notes:** <a id="notes"></a>
+  - ■ The geometry and mesh in the MobilityDoping file must match the Grid file. ■ If a MobilityDoping file is specified, it disables the mobility dependency on IncompleteIonization if this mobility option is specified. The donor and accepto...
+  - _Keywords:_ MobilityDoping, specified, mobility, concentrations, MobilityDonorConcentration, MobilityAcceptorConcentration, double, ReadDoping
+- **Effective Mobility** <a id="effective-mobility"></a>
+  - It is often useful to know the effective channel mobility seen by carriers as well as other effective or averaged quantities in the channel. To simplify the task of obtaining such quantities, Sentaurus Device provides an EffectiveMobilit...
+  - _Keywords:_ boldsymbol, Omega, quantities, limits_, SHE, varepsilon_, EffectiveMobility, PMI
+- **EffectiveMobility PMI Methods** <a id="effectivemobility-pmi-methods"></a>
+  - The EffectiveMobility PMI provides different methods for extracting quantities from the device:
+  - _Keywords:_ method, interface, quantities, Start, extracted, integrals, device, invoked
+- **Using the EffectiveMobility PMI** <a id="using-the-effectivemobility-pmi"></a>
+  - To include the quantities listed in Table 76 on page 389 in the current plot file, specify one or more instances of the EffectiveMobility PMI in the CurrentPlot section of the command file. The syntax and options for the EffectiveMobilit...
+  - _Keywords:_ interface, specified, quantities, coordinates, semiconductor, specify, Start, Width
+- **References** <a id="references"></a>
+  - [1] C. Lombardi et al., “A Physically Based Mobility Model for Numerical Simulation of Nonplanar Devices,” IEEE Transactions on Computer-Aided Design, vol. 7, no. 11, pp. 1164–1171, 1988. [2] G. Masetti, M. Severi, and S. Solmi, “Modelin...
+  - _Keywords:_ Electron, Devices, IEEE, Transactions, Mobility, Simulation, Silicon, Model
+- **Shockley–Read–Hall Recombination** <a id="shockley-read-hall-recombination"></a>
+  - Recombination through deep defect levels in the gap is usually called Shockley–Read–Hall (SRH) recombination. In Sentaurus Device, the following form is implemented:
+  - _Keywords:_ mathrm, SRH, gamma_, dependent, Recombination, defect, lifetimes, Dependence
+- **Using SRH Recombination** <a id="using-srh-recombination"></a>
+  - Generation–recombination models are selected in the Physics section as an argument to the Recombination keyword:
+  - _Keywords:_ SRH, Physics, Recombination, recombination, argument, keyword, Generation, models
+- **SRH Doping Dependence** <a id="srh-doping-dependence"></a>
+  - Doping dependence of SRH lifetimes is modeled in Sentaurus Device with the Scharfetter relation:
+  - _Keywords:_ mathrm, SRH, DopingDependence, dependence, Scharfetter, relation, Doping, lifetimes
+- **Lifetime Profiles From Files** <a id="lifetime-profiles-from-files"></a>
+  - Sentaurus Device can use spatial lifetime profiles provided by a file. Such profiles can be precomputed or generated manually by an editor such as Sentaurus Structure Editor (refer to the Sentaurus™ Structure Editor User Guide).
+  - _Keywords:_ Sentaurus, lifetime, profiles, Structure, Editor, LifeTime, MyDev_msh, Device
+- **Improved Nakagawa Model** <a id="improved-nakagawa-model"></a>
+  - The Scharfetter relation can be expanded to be:
+  - _Keywords:_ mathrm, Nakagawa, additional, SRH, DopingDependence, Scharfetter, relation, expanded
+- **SRH Temperature Dependence** <a id="srh-temperature-dependence"></a>
+  - There is no consensus on the temperature dependence of SRH lifetimes. This appears to originate from a different understanding of lifetime. From measurements of the recombination lifetime [6][7]:
+  - _Keywords:_ mathrm, SRH, temperature, lifetime, dependence, lifetimes, recombination, carrier
+- **SRH Doping- and Temperature-Dependent Parameters** <a id="srh-doping-and-temperature-dependent-parameters"></a>
+  - All the parameters of the doping- and temperature-dependent SRH recombination models are accessible in the Scharfetter parameter set.
+  - _Keywords:_ rowspan, doping, temperature, dependent, SRH, recombination, models, accessible
+- **SRH Field Enhancement** <a id="srh-field-enhancement"></a>
+  - Field enhancement reduces SRH recombination lifetimes in regions of strong electric fields. It must not be neglected if the electric field exceeds a value of approximately in3 5×10 V/cm certain regions of the device. For example, the I–V...
+  - _Keywords:_ enhancement, Model, Hurkx, regions, electric, reverse, tunneling, generation
+- **Using Field Enhancement** <a id="using-field-enhancement"></a>
+  - Parameters in the ElectricField option of the SRH statement activate the local field–dependence of SRH lifetimes:
+  - _Keywords:_ Hurkx, Schenk, selects, SRH, lifetimes, Lifetime, DensityCorrection, Local
+- **Schenk Trap-Assisted Tunneling Model** <a id="schenk-trap-assisted-tunneling-model"></a>
+  - The field dependence of the recombination rate is taken into account by the field enhancement factors:
+  - _Keywords:_ mathrm, Theta, varepsilon_, omega_, energy, recombination, electrons, expression
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+  - Shockley–Read–Hall Recombination
+  - _Keywords:_ mathrm, Rydberg, constant, Shockley, Read, Hall, Recombination, effective
+- **Hurkx Trap-Assisted Tunneling Model** <a id="hurkx-trap-assisted-tunneling-model"></a>
+  - The following equations apply to electrons and holes. Lifetimes and capture cross-sections become functions of the trap-assisted tunneling factor $g ( F ) = \Gamma _ { \mathrm { t a t } }$ :
+  - _Keywords:_ mathrm, Gamma_, tunneling, equations, electrons, Gamma, operatorname, carrier
+- **Density Correction for the Schenk and Hurkx Trap-Assisted Tunneling Models** <a id="density-correction-for-the-schenk-and-hurkx-trap-assisted-tu"></a>
+  - In the original Schenk model [8], the density in Eq. 378 is replaced by:n
+  - _Keywords:_ mathrm, densities, TrapAssistedTunneling, Schenk, density, replaced, specified, smoothing
+- **Dynamic Nonlocal Path Trap-Assisted Tunneling** <a id="dynamic-nonlocal-path-trap-assisted-tunneling"></a>
+  - The local Schenk and Hurkx trap-assisted tunneling (TAT) models described in SRH Field Enhancement on page 400 might not give accurate results at low temperatures or near abrupt junctions with a strong, nonuniform, electric field profile...
+  - _Keywords:_ models, TAT, nonlocal, tunneling, Schenk, Hurkx, assisted, electric
+- **Recombination Rate** <a id="recombination-rate"></a>
+  - To compute the net electron recombination rate, the model dynamically searches for the tunneling path with the following assumptions:
+  - _Keywords:_ mathrm, varepsilon, electron, tunneling, position, defect, TAT, recombination
+- **Using the Dynamic Nonlocal Path Trap-Assisted Tunneling Model** <a id="using-the-dynamic-nonlocal-path-trap-assisted-tunneling-mode"></a>
+  - The model is activated in the SRH option as follows:
+  - _Keywords:_ nonlocal, TAT, Hurkx, recombination, SRH, Schenk, effective, Schottky
+- **Trap-Assisted Auger Recombination Model** <a id="trap-assisted-auger-recombination-model"></a>
+  - The trap-assisted Auger (TAA) recombination model is a modification of the SRH recombination and coupled defect level recombination models (see Shockley–Read–Hall Recombination on page 395 and Coupled Defect Level Recombination on page 4...
+  - _Keywords:_ mathrm, TAA, recombination, Recombination, lifetimes, TrapAssistedAuger, assisted, Auger
+- **Surface SRH Recombination Model** <a id="surface-srh-recombination-model"></a>
+  - You can activate the surface SRH recombination model at semiconductor–semiconductor and semiconductor–insulator interfaces (see Interface-Specific Models on page 20).
+  - _Keywords:_ recombination, mathrm, surface, SRH, doping, colspan, semiconductor, dependence
+- **Coupled Defect Level Recombination** <a id="coupled-defect-level-recombination"></a>
+  - The steady-state recombination rate for two coupled defect levels (CDLs) generalizes the familiar single-level SRH formula. An important feature of the model is a possibly increased field effect that might lead to large excess currents. ...
+  - _Keywords:_ varepsilon, recombination, defect, SRH, CDL, lifetimes, levels, details
+- **Using Coupled Defect Level Recombination** <a id="using-coupled-defect-level-recombination"></a>
+  - You can switch on CDL recombination using the keyword CDL in the Physics section:
+  - _Keywords:_ CDL, Physics, keywords, You, switch, recombination, keyword, Recombination
+- **Radiative Recombination Model** <a id="radiative-recombination-model"></a>
+  - The radiative (direct) recombination model expresses the recombination rate as:
+  - _Keywords:_ recombination, radiative, direct, expresses, mathrm, Sentaurus, Device, selects
+- **Using the Radiative Recombination Model** <a id="using-the-radiative-recombination-model"></a>
+  - The keyword Radiative in the Physics section activates the radiative recombination model:
+  - _Keywords:_ Radiative, Physics, Recombination, radiative, recombination, RadiativeRecombination, keyword, activates
+- **Auger Recombination Model** <a id="auger-recombination-model"></a>
+  - The rate of band-to-band Auger recombination $R _ { \mathrm { { n e t } } } ^ { \mathrm { { A } } }$ is given by:
+  - _Keywords:_ mathrm, Auger, recombination, injection, carrier, densities, coefficients, decrease
+- **Using the Auger Recombination Model** <a id="using-the-auger-recombination-model"></a>
+  - The model is activated by the argument Auger in the Recombination statement:
+  - _Keywords:_ Auger, mathrm, Recombination, Physics, negative, WithGeneration, activated, argument
+- **Intrinsic Recombination Model for Silicon** <a id="intrinsic-recombination-model-for-silicon"></a>
+  - With improvements in the quality of silicon bulk material, the technological progress of passivation techniques, and advanced characterization methods, an accurate description of the intrinsic recombination mechanisms of silicon became i...
+  - _Keywords:_ mathrm, intrinsic, doping, silicon, recombination, carrier, Delta, concentration
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+  - Intrinsic Recombination Model for Silicon
+  - _Keywords:_ mathrm, recombination, Recombination, Silicon, brackets, describes, injection, intrinsicRichter
+- **Constant Carrier Generation Model** <a id="constant-carrier-generation-model"></a>
+  - The simplest generation model computes a constant carrier generation $G _ { \mathrm { c o n s t } }$ and is activated in the Physics section as follows:
+  - _Keywords:_ generation, constant, mathrm, ConstantCarrierGeneration, carrier, Physics, specified, Goal
+- **Avalanche Generation** <a id="avalanche-generation"></a>
+  - Electron–hole pair production due to avalanche generation (impact ionization) requires a certain threshold field strength and the possibility of acceleration, that is, wide space charge regions. If the width of a space charge region is g...
+  - _Keywords:_ ionization, charge, generation, alpha_, Sentaurus, Device, University, Bologna
+- **Using Avalanche Generation** <a id="using-avalanche-generation"></a>
+  - Avalanche generation is switched on by using the keyword Avalanche in the Recombination statement in the Physics section. The keywords eAvalanche and hAvalanche specify separate models or driving forces for the electron and hole ionizati...
+  - _Keywords:_ Avalanche, generation, switched, keyword, Recombination, statement, Physics, keywords
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+  - Avalanche Generation
+  - _Keywords:_ element, volume, elements, avalanche, vertex, generation, specify, approximation
+- **van Overstraeten – de Man Model** <a id="van-overstraeten-de-man-model"></a>
+  - This model is based on the Chynoweth law [18]:
+  - _Keywords:_ mathrm, rowspan, Vcm, omega_, phonon, optical, energy, Overstraeten
+- **Okuto–Crowell Model** <a id="okuto-crowell-model"></a>
+  - Okuto and Crowell [20] suggested the empirical model:
+  - _Keywords:_ mathrm, Okuto, Crowell, suggested, empirical, leavevmode, adjustable, silicon
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+- **Avalanche Generation** <a id="avalanche-generation"></a>
+  - Table 82 Parameters of the Okuto–Crowell model (Eq. 441) for silicon
+  - _Keywords:_ rowspan, Okuto, Crowell, silicon, Symbol, colspan, Unit, Electrons
+- **Lackner Model** <a id="lackner-model"></a>
+  - Lackner [21] derived a pseudo-local ionization rate in the form of a modification to the Chynoweth law, assuming stationary conditions. The temperature-dependent factor wasγ introduced to the original model:
+  - _Keywords:_ mathrm, Lackner, omega_, lambda, rowspan, silicon, derived, pseudo
+- **University of Bologna Impact Ionization Model** <a id="university-of-bologna-impact-ionization-model"></a>
+  - This model was developed for an extended temperature range between $2 5 ^ { \circ } \mathrm { C }$ and $4 0 0 ^ { \circ } \mathrm { C }$ . It is based on impact ionization data generated by the Boltzmann solver HARM [22]. It covers a wid...
+  - _Keywords:_ mathrm, temperature, impact, ionization, kVcm, developed, extended, between
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+  - Avalanche Generation
+  - _Keywords:_ Vcm, Avalanche, rowspan, Auger, mathrm, lambda, UniBo, University
+- **New University of Bologna Impact Ionization Model** <a id="new-university-of-bologna-impact-ionization-model"></a>
+  - The model described in University of Bologna Impact Ionization Model on page 423 was developed further [25][26][27] to cover an extended temperature range between $2 5 ^ { \circ } \mathrm { C }$ and ( ). It is based on impact ionization ...
+  - _Keywords:_ mathrm, impact, ionization, UniBo2, described, University, Bologna, Impact
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+- **Avalanche Generation** <a id="avalanche-generation"></a>
+  - Table 85 Parameters of the new University of Bologna impact ionization model for silicon
+  - _Keywords:_ Vcm, rowspan, colspan, University, Bologna, impact, ionization, silicon
+- **Hatakeyama Avalanche Model** <a id="hatakeyama-avalanche-model"></a>
+  - The Hatakeyama avalanche model [28] describes the anisotropic behavior in 4H-SiC power devices. The impact ionization coefficient is obtained according to the Chynoweth law [18]:α
+  - _Keywords:_ direction, crystal, anisotropy, avalanche, omega_, mathrm, coefficients, computed
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+  - Avalanche Generation
+  - _Keywords:_ coefficients, rowspan, Avalanche, Generation, textup, textsf, direction, driving
+- **Driving Force of Hatakeyama Avalanche Model** <a id="driving-force-of-hatakeyama-avalanche-model"></a>
+  - In contrast to other avalanche models in Sentaurus Device (see Driving Force on page 431), which use only the magnitude $F _ { }$ of the driving force, the Hatakeyama avalanche model requires a vectorial driving force $\vec { F }$ to com...
+  - _Keywords:_ driving, electron, avalanche, Phi, contrast, models, Sentaurus, Device
+- **Default Anisotropic Coordinate System** <a id="default-anisotropic-coordinate-system"></a>
+  - For 2D simulations, Sentaurus Device assumes that the y-axis in the crystal coordinate system is the anisotropic axis , and the x-axis in the crystal coordinate system is the isotropic axis0001 . For 3D simulations, the z-axis in the cry...
+  - _Keywords:_ coordinate, system, crystal, simulations, anisotropic, isotropic, Coordinate, Systems
+- **Specification of Anisotropic Direction** <a id="specification-of-anisotropic-direction"></a>
+  - There are different possibilities to specifying the direction of anisotropy used by anisotropic models (in increasing priority):
+  - _Keywords:_ direction, anisotropic, Sentaurus, explicit, Aniso, specifying, models, specification
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+  - Avalanche Generation
+  - _Keywords:_ Hatakeyama, avalanche, Aniso, subsection, LatticeParameters, Avalanche, previous, releases
+- **Examples** <a id="examples"></a>
+  - Assume you have a 2D problem with the Hatakeyama avalanche model. There is no LatticeParameters section in the parameter file, but the TDR file contains the following:
+  - _Keywords:_ direction, Case, Aniso, anisotropic, coordinate, system, Hatakeyama, LatticeParameters
+- **Driving Force** <a id="driving-force"></a>
+  - In Sentaurus Device, the driving force $F _ { \mathrm { a v a } }$ for impact ionization can be computed as the component of the electrostatic field in the direction of the current, $F _ { \mathrm { a v a } } = \vec { F } \cdot \hat { J ...
+  - _Keywords:_ mathrm, keyword, simulations, ionization, computed, GradQuasiFermi, hydrodynamic, CarrierTempDrive
+- **Interpolation of Avalanche Driving Forces** <a id="interpolation-of-avalanche-driving-forces"></a>
+  - As with high-field saturation mobility, Sentaurus Device provides interpolation of avalanche driving forces to the electric field at low carrier concentrations, which can sometimes improve convergence behavior.
+  - _Keywords:_ interpolation, driving, RefDens, _ElectricField, electric, saturation, mobility, avalanche
+- **Avalanche Generation With Hydrodynamic Transport** <a id="avalanche-generation-with-hydrodynamic-transport"></a>
+  - If the hydrodynamic transport model is used, the default driving force $F _ { \mathrm { a v a } }$ equals an effective field $E ^ { \mathrm { { \dot { e } f f } } }$ obtained from the carrier temperature.
+  - _Keywords:_ mathrm, Upsilon, temperature, conversion, effective, obtained, carrier, lambda_
+- **Approximate Breakdown Analysis** <a id="approximate-breakdown-analysis"></a>
+  - Junction breakdown due to avalanche generation is simulated by inspecting the ionization integrals:
+  - _Keywords:_ alpha_, mathrm, breakdown, ionization, depletion, integrals, describes, electron
+- **Using Breakdown Analysis** <a id="using-breakdown-analysis"></a>
+  - To enable breakdown analysis, Sentaurus Device provides the driving force ElectricField, which can be computed even for constant quasi-Fermi levels. This driving force is less physical than the others available in Sentaurus Device. There...
+  - _Keywords:_ ionization, Sentaurus, integrals, Device, Math, BreakAtIonIntegral, breakdown, ElectricField
+- **Approximate Breakdown Analysis With Carriers** <a id="approximate-breakdown-analysis-with-carriers"></a>
+  - Sentaurus Device allows ionization integrals to be calculated when solving the electron and hole current continuity equations. In this case, however, impact ionization–generated carriers will be included self-consistently in the solution...
+  - _Keywords:_ ionization, carriers, allows, integrals, calculated, solving, equations, impact
+- **Avalanche Breakdown Probability** <a id="avalanche-breakdown-probability"></a>
+  - For the simulation of single-photon avalanche diodes, knowledge of the avalanche breakdown probability is useful. Sentaurus Device can compute the electron $P _ { \mathrm { e } } ( r )$ , the hole $P _ { \mathrm { h } } ( r )$ , and the ...
+  - _Keywords:_ mathrm, avalanche, region, breakdown, probability, electric, multiplication, Sentaurus
+- **Using Avalanche Breakdown Probability** <a id="using-avalanche-breakdown-probability"></a>
+  - The keyword BreakdownProbability in the Physics section controls the computation of the avalanche breakdown probability:
+  - _Keywords:_ BreakdownProbability, Physics, breakdown, keyword, avalanche, probability, MinElectricField, impact
+- **Band-to-Band Tunneling Models** <a id="band-to-band-tunneling-models"></a>
+  - Sentaurus Device provides different band-to-band tunneling models:
+  - _Keywords:_ Band, Tunneling, Model, tunneling, models, Schenk, Hurkx, Sentaurus
+- **Using Band-to-Band Tunneling** <a id="using-band-to-band-tunneling"></a>
+  - Band-to-band tunneling is controlled by the Band2Band option of Recombination:
+  - _Keywords:_ Schenk, Hurkx, Band2Band, Recombination, Model, InterfaceReflection, FranzDispersion, selects
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+  - Band-to-Band Tunneling Models
+  - _Keywords:_ tunneling, nonlocal, switched, models, direct, ParameterSetName, Band, simple
+- **For backward compatibility:** <a id="for-backward-compatibility"></a>
+  - ■ Band2Band (no parameters) selects the Schenk model with local-density correction. Band2Band(Hurkx) selects the Hurkx model without density correction. Band2Band(E1), Band2Band(E1\_5), and Band2Band(E2) select one of the simple models.
+  - _Keywords:_ Band2Band, models, Band2BandTunneling, Hurkx, selects, Schenk, density, correction
+- **Tunneling Near Interfaces and Equilibrium Regions** <a id="tunneling-near-interfaces-and-equilibrium-regions"></a>
+  - Physically, band-to-band tunneling occurs over a certain tunneling distance. If the material properties or the electric field change significantly over this distance, Eq. 474, Eq. 477, and Eq. 479 become inaccurate. In particular, near i...
+  - _Keywords:_ tunneling, distance, dPot, change, insulator, electric, interfaces, electrostatic
+- **Schenk Band-to-Band Tunneling Model** <a id="schenk-band-to-band-tunneling-model"></a>
+  - Phonon-assisted band-to-band tunneling cannot be neglected in steep p-n junctions (with a doping level of or more on both sides) or in high normal electric fields of MOS1 19 ×10 cm–3 structures. It must be switched on if the field, in so...
+  - _Keywords:_ assisted, tunneling, switched, Phonon, cannot, neglected, junctions, doping
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+  - Band-to-Band Tunneling Models
+  - _Keywords:_ mathrm, Band, tunneling, DensityCorrection, refers, recombination, Tunneling, Models
+- **Schenk Density Correction** <a id="schenk-density-correction"></a>
+  - The modified electron density reads:
+  - _Keywords:_ mathrm, specified, modified, electron, density, gamma_, similar, relation
+- **Hurkx Band-to-Band Tunneling Model** <a id="hurkx-band-to-band-tunneling-model"></a>
+  - Similar to the other band-to-band tunneling models, in the Hurkx model [31], tunneling carriers are modeled by an additional generation–recombination process. Its contribution is expressed as:
+  - _Keywords:_ mathrm, generation, recombination, tunneling, Hurkx, carriers, mathbf, Band2BandTunneling
+- **Simple Band-to-Band Tunneling Models** <a id="simple-band-to-band-tunneling-models"></a>
+  - Sentaurus Device provides a family of simple band-to-band tunneling models. Compared to the advanced models, the greatest weakness of the simple models is that they predict a nonzero generation rate even in equilibrium. A general express...
+  - _Keywords:_ models, simple, Vcm, tunneling, generation, Model, coefficients, Sentaurus
+- **Dynamic Nonlocal Path Band-to-Band Tunneling Model** <a id="dynamic-nonlocal-path-band-to-band-tunneling-model"></a>
+  - Sufficient band-bending caused by electric fields or heterostructures can make electrons in the valence band valley ( -valley in the -space), at a certain location, reach the conduction bandΓ k valley ( -, -, or -valley in the -space) at...
+  - _Keywords:_ tunneling, nonlocal, valence, conduction, direct, energy, offset, valley
+- **Band-to-Band Generation Rate** <a id="band-to-band-generation-rate"></a>
+  - For a given tunneling path of length that starts at and ends at , holes arel x = 0 x l = generated at and electrons are generated at . The net hole recombination rate atx = 0 x l = due to the direct band-to-band tunneling processx = 0 $\...
+  - _Keywords:_ mathrm, tunneling, generated, varepsilon, length, starts, electrons, recombination
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+  - Band-to-Band Tunneling Models
+  - _Keywords:_ mathrm, varepsilon, Delta_, Delta, kappa_, tunneling, energy, process
+- **Using the Nonlocal Path Band-to-Band Tunneling Model** <a id="using-the-nonlocal-path-band-to-band-tunneling-model"></a>
+  - Setting Model=NonlocalPath in the Band2Band option of the command file activates the nonlocal path band-to-band tunneling model. Multiple processes with different parameters are supported by using the ParameterSetName keyword and multipl...
+  - _Keywords:_ mathrm, tunneling, Delta, quantum, Band2BandTunneling, direct, mathfrak, phonon
+- **Handling Derivatives** <a id="handling-derivatives"></a>
+  - Due to the dynamic search for tunnel paths, the structure of the system Jacobian depends on solution variables. Therefore, the nonzero entries of the Jacobian are not known a priori. The possible entries are estimated before entering the...
+  - _Keywords:_ entries, Jacobian, nonlocal, derivatives, Newton, possible, Strategy, nonzero
+- **Tunneling Parameters From the Physical Model Interface** <a id="tunneling-parameters-from-the-physical-model-interface"></a>
+  - You can create a tunneling parameters PMI model for the customized computation of DcPath, DvPath, m\_c, and m\_v (see Tunneling Parameters on page 1297). When the computation of nonlocal derivatives is switched on (Derivative=1), nonloca...
+  - _Keywords:_ computation, nonlocal, derivatives, You, create, tunneling, PMI, customized
+- **Energy Shift due to Geometric Confinement** <a id="energy-shift-due-to-geometric-confinement"></a>
+  - If carriers are confined in thin semiconductor layers, geometric quantization leads to an energy shift of the conduction and valence bands leading to a larger band gap. The quantummechanical energy shift is described by the “particle in ...
+  - _Keywords:_ energy, quantization, described, particle, carriers, confined, semiconductor, layers
+- **16: Generation–Recombination Processes** <a id="16-generation-recombination-processes"></a>
+  - Band-to-Band Tunneling Models
+  - _Keywords:_ LayerThickness, Band, switched, You, Tunneling, Models, energy, geometric
+- **Postprocessing Mode** <a id="postprocessing-mode"></a>
+  - To estimate the nonlocal tunneling generation rate without convergence difficulties and without computationally heavy nonlocal derivatives, Sentaurus Device provides the postprocessing mode of the dynamic nonlocal path band-to-band tunne...
+  - _Keywords:_ tunneling, nonlocal, generation, postprocessing, without, switched, NonlocalPath, mathrm
+- **Frozen Tunneling Direction** <a id="frozen-tunneling-direction"></a>
+  - In some cases, the estimation of the tunneling direction pointing along the negative gradient of the valence band energy can be a tunneling direction of minor importance. Furthermore, freezing the tunneling direction can support numeric ...
+  - _Keywords:_ direction, tunneling, estimation, pointing, negative, gradient, valence, energy
+- **Visualizing Nonlocal Band-to-Band Generation Rate** <a id="visualizing-nonlocal-band-to-band-generation-rate"></a>
+  - To plot the electron and hole generation rates, specify eBand2BandGeneration and hBand2BandGeneration in the Plot section, respectively.
+  - _Keywords:_ hBand2BandGeneration, electron, generation, specify, eBand2BandGeneration, Plot, respectively, Band2BandGeneration
+- **Bimolecular Recombination Model** <a id="bimolecular-recombination-model"></a>
+  - The bimolecular recombination model describes the interaction of electron–hole pairs and singlet excitons (see Singlet Exciton Equation on page 237).
+  - _Keywords:_ mathrm, singlet, exciton, recombination, electron, density, bimolecular, varepsilon_
+- **Using the Bimolecular Recombination Model** <a id="using-the-bimolecular-recombination-model"></a>
+  - You activate the model by specifying Bimolecular as an argument of the Recombination statement in the SingletExciton section (see Table 248 on page 1437). It is switched off by default and can be activated regionwise (see Singlet Exciton...
+  - _Keywords:_ SingletExciton, Bimolecular, Recombination, You, activate, specifying, argument, statement
+- **Exciton Dissociation Model** <a id="exciton-dissociation-model"></a>
+  - The exciton dissociation model describes the dissociation of singlet excitons into electron–hole pairs at semiconductor–semiconductor and semiconductor–insulator interfaces.
+  - _Keywords:_ mathrm, exciton, singlet, dissociation, electron, semiconductor, Ndiss, recombination
+- **Using the Exciton Dissociation Model** <a id="using-the-exciton-dissociation-model"></a>
+  - The model is activated using the keyword Dissociation as an argument of the Recombination statement in the SingletExciton section (see Table 248 on page 1437). It is switched off by default and can be activated regionwise (see Singlet Ex...
+  - _Keywords:_ SingletExciton, activated, Dissociation, Recombination, exciton, dissociation, EML, ETL
+- **References** <a id="references"></a>
+  - [1] D. J. Roulston, N. D. Arora, and S. G. Chamberlain, “Modeling and Measurement of Minority-Carrier Lifetime versus Doping in Diffused Layers of n+-p Silicon Diodes,” IEEE Transactions on Electron Devices, vol. ED-29, no. 2, pp. 284–29...
+  - _Keywords:_ Solid, State, Silicon, Devices, Electronics, Electron, Recombination, IEEE
+- **Introduction to Traps** <a id="introduction-to-traps"></a>
+  - Traps are important in device physics because they provide doping, enhance recombination, and increase leakage through insulators. Several models such as Shockley–Read–Hall recombination depend on traps implicitly, but do not actually mo...
+  - _Keywords:_ models, Traps, recombination, describes, charges, important, device, physics
+- **Syntax for Traps** <a id="syntax-for-traps"></a>
+  - You specify trap distributions and trap models in the Physics section of the command file. In contrast to other models, most trap model parameters are also specified in this section. Parameter specifications in the parameter file serve a...
+  - _Keywords:_ contact, models, Physics, specified, Traps, trap_specification, interface, specifications
+- **Trap Types** <a id="trap-types"></a>
+  - The following keywords select the trap type:
+  - _Keywords:_ occupied, uncharged, unoccupied, charge, keywords, select, FixedCharge, always
+- **Energetic and Spatial Distribution of Traps** <a id="energetic-and-spatial-distribution-of-traps"></a>
+  - The following keywords determine the energetic distribution of traps:
+  - _Keywords:_ mathrm, distribution, energy, selects, Conc, concentration, Level, Gaussian
+- **17: Traps and Fixed Charges** <a id="17-traps-and-fixed-charges"></a>
+  - Introduction to Traps
+  - _Keywords:_ mathrm, energy, distribution, PMI, bandgap, energies, sigma_, specified
+- **Specifying Single Traps** <a id="specifying-single-traps"></a>
+  - Including SingleTrap in a trap specification allows you to simplify the specification of parameters to mimic the behavior of a single trap:
+  - _Keywords:_ specified, Conc, SingleTrap, specify, charge, specification, vertex, Physics
+- **Example** <a id="example"></a>
+  - Place two single eNeutral traps at the silicon–oxide interface:
+  - _Keywords:_ eNeutral, SingleTrap, Level, EnergyMid, fromMidBandGap, SpaceMid, Place, single
+- **Trap Randomization** <a id="trap-randomization"></a>
+  - You can randomize the spatial distribution of traps by specifying Randomize in the trap specification, with or without an integer value:
+  - _Keywords:_ Randomize, randomization, distribution, specification, specify, randomized, specified, vertex
+- **Examples** <a id="examples"></a>
+  - Randomize the location of one electron trap at the silicon–oxide interface:
+  - _Keywords:_ Randomize, silicon, Physics, Silicon, Traps, eNeutral, Level, EnergyMid
+- **Explicit Trap Occupation** <a id="explicit-trap-occupation"></a>
+  - When investigating time-delay effects, for example, it might be advantageous to start a transient simulation from an initial state with either totally empty or totally filled trap states. Depending on the position of the equilibrium Ferm...
+  - _Keywords:_ Traps, Frozen, Solve, occupancies, statement, mechanism, frozen, simulation
+- **Options to Include Traps in Doping** <a id="options-to-include-traps-in-doping"></a>
+  - The effect of traps on some physical models can be treated in an approximate manner by treating trap concentration as additional doping.
+  - _Keywords:_ concentration, doping, mobility, Add2TotalDoping, Mobility, effect, acceptor, models
+- **Trap Examples** <a id="trap-examples"></a>
+  - The following example of a trap specification illustrates one donor trap level at the intrinsic energy with a concentration of and capture cross-sections of :1 15 ×10 cm–3 1 –14×10 cm2
+  - _Keywords:_ EnergyMid, Conc, eXsection, hXsection, Exponential, EnergySig, Traps, eNeutral
+- **Trap Models** <a id="trap-models"></a>
+  - This section describes models for capture and emission rates.
+  - _Keywords:_ describes, models, capture, emission
+- **Trap Occupation Dynamics** <a id="trap-occupation-dynamics"></a>
+  - The electron occupation $f ^ { n }$ of a trap is a number between 0 and 1, and changes due to the capture and emission of electrons:
+  - _Keywords:_ electron, capture, emission, picture, process, mathbf, partial, sigma_
+- **where:** <a id="where"></a>
+  - $E _ { \mathrm { t r a p } }$ is the energy of the trap. $E _ { \mathrm { F } } ^ { i }$ is the Fermi energy of the reservoir. $T _ { i }$ is the temperature of the reservoir. ■ $g$ is the degeneracy factor.
+  - _Keywords:_ Sentaurus, Device, mathrm, energy, reservoir, degeneracy, supports, Traps
+- **Local Capture and Emission Rates** <a id="local-capture-and-emission-rates"></a>
+  - The electron capture rate from the conduction band at the same location as the trap is:
+  - _Keywords:_ mathrm, Traps, VthFormula, electron, capture, conduction, sigma_, valence
+- **17: Traps and Fixed Charges** <a id="17-traps-and-fixed-charges"></a>
+  - Trap Models
+  - _Keywords:_ mathrm, emission, computation, capture, Trap, Models, represent, constant
+- **J-Model for Cross Sections** <a id="j-model-for-cross-sections"></a>
+  - This model is selected by specifying ElectricField in the command file. It is intended for use with the J-model and reads:
+  - _Keywords:_ sigma_, mathrm, selected, specifying, ElectricField, intended, adjustable, available
+- **Hurkx Model for Cross Sections** <a id="hurkx-model-for-cross-sections"></a>
+  - This model is selected by specifying Tunneling(Hurkx) in the command file. The cross sections are obtained from $ { \mathbf { \hat { \mathbf { \sigma } } } } _ { n } ^ { 0 }$ and $\sigma _ { p } ^ { \bigcirc }$ using Eq. 398, p. 402.
+  - _Keywords:_ mathbf, selected, specifying, Tunneling, Hurkx, obtained, bigcirc, SimpleCapt
+- **Poole–Frenkel Model for Cross Sections** <a id="poole-frenkel-model-for-cross-sections"></a>
+  - The Poole–Frenkel model [1] is frequently used to interpret transport effects in dielectrics and amorphous films. The model predicts an enhanced emission probability $\Gamma _ { \mathrm { p f } }$ for charged trap centers where the poten...
+  - _Keywords:_ mathrm, PooleFrenkel, specify, mathfrak, Poole, Frenkel, emission, sigma_
+- **Makram-Ebeid–Lannoo Model** <a id="makram-ebeid-lannoo-model"></a>
+  - The Makram-Ebeid–Lannoo model [2] is a phonon-assisted tunnel emission model for carriers trapped on deep semiconductor levels, with its main application in two-band charge transport in silicon nitride [3].
+  - _Keywords:_ energy, mathrm, phonon, nitride, Makram, Ebeid, Lannoo, assisted
+- **17: Traps and Fixed Charges** <a id="17-traps-and-fixed-charges"></a>
+  - Trap Models
+  - _Keywords:_ mathrm, Makram, Ebeid, emission, conduction, valence, Lannoo, eNeutral
+- **Local Capture and Emission Rates From PMI** <a id="local-capture-and-emission-rates-from-pmi"></a>
+  - As an alternative to the previously described models, you can compute the local capture and emission rates $c _ { \mathrm { C } } ^ { n } , c _ { \mathrm { V } } ^ { p } , \bar { e } _ { \mathrm { C } } ^ { \bar { n } }$ , and $e _ { \ma...
+  - _Keywords:_ mathrm, PMI, alternative, previously, described, models, compute, capture
+- **Trap-to-Trap Tunneling** <a id="trap-to-trap-tunneling"></a>
+  - Trap-to-trap tunneling between single-level discrete traps is supported. Discrete traps of the same type, located in the same region, can be coupled through tunneling. Only eNeutral and hNeutral types are supported with only one type at ...
+  - _Keywords:_ mathrm, tunneling, between, discrete, region, SingleTrap, involved, distance
+- **Nonlocal Tunneling for Traps** <a id="nonlocal-tunneling-for-traps"></a>
+  - Traps can be coupled to nearby interfaces and contacts by tunneling. Sentaurus Device models nonlocal tunneling to traps as the sum of an inelastic phonon-assisted process and an elastic process [5][6].
+  - _Keywords:_ nonlocal, tunneling, Nonlocal, interface, eBarrierTunneling, Traps, coupled, assisted
+- **Electron Capture Rate for the Phonon-Assisted Transition** <a id="electron-capture-rate-for-the-phonon-assisted-transition"></a>
+  - The electron capture rate for the phonon-assisted transition from the conduction band is:
+  - _Keywords:_ mathrm, Traps, dimensionless, phonon, transition, energy, electron, Delta
+- **Electron Capture Rate for the Elastic Transition** <a id="electron-capture-rate-for-the-elastic-transition"></a>
+  - The electron capture rate for the elastic transition from the conduction band is:
+  - _Keywords:_ mathrm, Psi, elastic, WKB, tunneling, capture, transition, obtained
+- **Numeric Parameters for Traps** <a id="numeric-parameters-for-traps"></a>
+  - When used with Fermi statistics, traps sometimes lead to convergence problems, especially at the beginning of a simulation when Sentaurus Device tries to find an initial solution. Often, you can resolve this problem by changing the numer...
+  - _Keywords:_ damping, Damping, Traps, Math, convergence, numeric, charge, statement
+- **Visualizing Traps** <a id="visualizing-traps"></a>
+  - You can plot the concentration of trapped electrons and holes as follows:
+  - _Keywords:_ interface, concentration, trapped, charges, densities, density, TrappedCarDistrPlot, Specify
+- **17: Traps and Fixed Charges** <a id="17-traps-and-fixed-charges"></a>
+  - Insulator Fixed Charges
+  - _Keywords:_ position, plotting, coordinates, available, closest, vertex, inside, corresponding
+- **Insulator Fixed Charges** <a id="insulator-fixed-charges"></a>
+  - Sentaurus Device supports fixed charges in insulators and at insulator interfaces. Insulator fixed charges are defined as options to the Charge statement in the Physics section:
+  - _Keywords:_ charges, Charge, Physics, charge_specification, Conc, Gaussian, distributions, insulator
+- **References** <a id="references"></a>
+  - [1] L. Colalongo et al., “Numerical Analysis of Poly-TFTs Under Off Conditions,” Solid-State Electronics, vol. 41, no. 4, pp. 627–633, 1997. [2] S. Makram-Ebeid and M. Lannoo, “Quantum model for phonon-assisted tunnel ionization of deep ...
+  - _Keywords:_ transport, transitions, hydrogen, states, between, framework, charge, Journal
+- **Multistate Configurations and Their Dynamic** <a id="multistate-configurations-and-their-dynamic"></a>
+  - A multistate configuration (MSC) is defined by the number of states and the state occupationN probabilities $s _ { 1 } , . . . , s _ { N }$ satisfying the condition:
+  - _Keywords:_ states, multistate, configuration, MSC, defined, occupationN, probabilities, satisfying
+- **18: Phase and State Transitions** <a id="18-phase-and-state-transitions"></a>
+  - Multistate Configurations and Their Dynamic
+  - _Keywords:_ transition, reservoirs, Hydrogen, respectively, hydrogen, particles, corresponding, Multistate
+- **Specifying Multistate Configurations** <a id="specifying-multistate-configurations"></a>
+  - A multistate configuration is specified by an MSConfig section placed into an MSConfigs section of a (region or material or global or interface) Physics section. It is described by its states (at least two) and transitions (each state mu...
+  - _Keywords:_ transition, MSConfig, states, State, Transition, requires, reservoir, multistate
+- **Multistate Configurations on Interfaces** <a id="multistate-configurations-on-interfaces"></a>
+  - You can also define MSCs on interfaces. Therefore, an MSC might look like the following example:
+  - _Keywords:_ You, define, MSCs, interfaces, Therefore, MSC, Physics, MaterialInterface
+- **18: Phase and State Transitions** <a id="18-phase-and-state-transitions"></a>
+- **Specifying Multistate Configurations** <a id="specifying-multistate-configurations"></a>
+  - ```python Name="msc0" State(Name="s0" Charge=0 Hydrogen=1) State(Name="s1" Charge=1 Hydrogen=0) Transition ( Name="Depassivation" CEmodel("CEModel_PMI",1) To="s1" From="s0" Reservoirs("VB"(Particles=+1) "HydrogenAtom"(Particles=-1)) Fiel...
+  - _Keywords:_ State, Charge, Hydrogen, Particles, FieldFromInsulator, reservoirs, insulator, python
+- **Additional Remarks** <a id="additional-remarks"></a>
+  - An eNeutral level trap of the form:
+  - _Keywords:_ pmi_ce0, MSConfig, multistate, configurations, analysis, occupation, eNeutral, Conc
+- **Transition Models** <a id="transition-models"></a>
+  - The MSC framework allows an arbitrary number of transitions between two states of an MSC. Each transition model can be either the model pmi\_ce\_msc, or a trap capture and emission PMI (see Trap Capture and Emission Rates on page 1190).
+  - _Keywords:_ MSC, framework, allows, arbitrary, transitions, between, states, transition
+- **The pmi\_ce\_msc Model** <a id="the-pmi-ce-msc-model"></a>
+  - The pmi\_ce\_msc transition model supports the following features:
+  - _Keywords:_ transition, states, exchange, supports, features, Arbitrary, transitions, Charge
+- **States** <a id="states"></a>
+  - The states are described by a base energy $E _ { i }$ , a degeneracy factor $g _ { i }$ , the number of negative elementary charges $K _ { i }$ (an arbitrary integer), and the energy $\bar { E _ { i } }$ of one electron in the state. The...
+  - _Keywords:_ energy, electron, states, described, degeneracy, factor, negative, elementary
+- **18: Phase and State Transitions** <a id="18-phase-and-state-transitions"></a>
+  - Transition Models
+  - _Keywords:_ Transition, Models
+- **Equilibrium** <a id="equilibrium"></a>
+  - The equilibrium occupation probabilities $s ^ { * }$ are needed to guarantee the detailed balance principle for all transitions. The equilibrium is determined by the state parameters, the temperature, and the Fermi levels of the involved...
+  - _Keywords:_ mathrm, Fermi, energy, equilibrium, approximated, intrinsic, carrier, occupation
+- **Transitions** <a id="transitions"></a>
+  - Several transition models, listed in Table 95, are available and selected by the Formula parameter in the parameter file.
+  - _Keywords:_ transition, models, Formula, according, Peng, reaction, Several, listed
+- **Arrhenius Law (Formula=0)** <a id="arrhenius-law-formula-0"></a>
+  - The forward reaction rate (capture) is given by:
+  - _Keywords:_ mathrm, forward, reaction, capture, maximal, transition, frequency, activation
+- **Nucleation According to Peng (Formula=1)** <a id="nucleation-according-to-peng-formula-1"></a>
+  - A nucleation model, in analogy to the model in [1], [2], and [3], is given by:
+  - _Keywords:_ mathrm, Delta, nucleation, analogy, gamma_
+- **18: Phase and State Transitions** <a id="18-phase-and-state-transitions"></a>
+  - Transition Models
+  - _Keywords:_ mathrm, Delta, Transition, Models
+- **Growth According to Peng (Formula=2)** <a id="growth-according-to-peng-formula-2"></a>
+  - Growing crystalline phases is often described by a growth velocity, for example, in [1]. Some of the growing model has been adopted in the following local model, which reads as:
+  - _Keywords:_ mathrm, Growing, crystalline, phases, described, growth, velocity, Some
+- **Single-Trap Transition (Formula=7)** <a id="single-trap-transition-formula-7"></a>
+  - This model depends on the carrier density $d _ { \mathrm { c } }$ . It resembles some standard trap models and is intended to be used in two-state MSCs only. If the number of electrons in the reference state is greater than in the intera...
+  - _Keywords:_ mathrm, depends, density, capture, electron, emission, capturing, carrier
+- **MSC Trap With Emulated Detailed Balance (Formula=8)** <a id="msc-trap-with-emulated-detailed-balance-formula-8"></a>
+  - The actual model generalizes the single-trapping model (Formula=7) to general MSC states and transitions. The capture rate is computed as in the single trapping case above. The emission rate, however, is computed as follows. Let $N _ { n...
+  - _Keywords:_ mathrm, overline, single, trapping, computed, actual, generalizes, Formula
+- **Model Parameters** <a id="model-parameters"></a>
+  - The model requires parameters for all states and transitions to allow a consistent computation of the thermal equilibrium of the MSC as a whole. Therefore, parameters are grouped into global, state, and transition parameters.
+  - _Keywords:_ energy, transitions, transition, integer, states, Symbol, Description, interpolation
+- **Interaction of Multistate Configurations With Transport** <a id="interaction-of-multistate-configurations-with-transport"></a>
+  - Multistate configurations (MSCs) have a direct impact on the transport through their charge density and their recombination rates with selected reservoirs. Furthermore, several physical models can be made explicitly dependent on the occu...
+  - _Keywords:_ Multistate, configurations, MSCs, direct, impact, transport, through, charge
+- **Apparent Band-Edge Shift** <a id="apparent-band-edge-shift"></a>
+  - The keywords eBandEdgeShift, hBandEdgeShift, or BandEdgeShift in an MSConfig section switch on band-edge shift models for the conduction band, the valence band, or both, respectively. The model itself is either the MSC-dependent pmi\_msc...
+  - _Keywords:_ keywords, eBandEdgeShift, hBandEdgeShift, BandEdgeShift, MSConfig, switch, models, conduction
+- **18: Phase and State Transitions** <a id="18-phase-and-state-transitions"></a>
+  - Interaction of Multistate Configurations With Transport
+  - _Keywords:_ eQuantumPotential, hQuantumPotential, Multistate, PMI, density, gradient, pmi_abes, Coupled
+- **The pmi\_msc\_abes Model** <a id="the-pmi-msc-abes-model"></a>
+  - The pmi\_msc\_abes model depends on the lattice temperature and, if an MSC is specified,T on the state occupation probabilities , and it reads as:si
+  - _Keywords:_ MSC, Lambda, interpolation, apparent, described, depending, global, lambda
+- **Thermal Conductivity, Heat Capacity, and Mobility** _(p.27)_ <a id="thermal-conductivity-heat-capacity-and-mobility"></a>
+  - The following models allow the dependency on MSC occupation probabilities:
+  - _Keywords:_ Model, Multistate, Configuration, Dependent, MSC, models, dependency, occupation
+- **Manipulating MSCs During Solve** <a id="manipulating-mscs-during-solve"></a>
+  - The MSC dynamic is, in general, solved implicitly. However, sometimes it might be useful to manipulate the computations. For example, you might want to initialize MSCs with nonsteadystate solutions or to freeze the dynamic of MSCs becaus...
+  - _Keywords:_ MSC, dynamic, MSCs, freeze, electronic, transitions, applications, general
+- **Explicit State Occupations** <a id="explicit-state-occupations"></a>
+  - You can set explicitly the state occupations of MSCs to a spatial-independent and solutionindependent value, and freeze and unfreeze the dynamic of the MSCs during Solve by using MSConfigs in a Set command (see Table 198 on page 1385 for...
+  - _Keywords:_ MSConfigs, MSCs, MSC, State, occupations, states, Frozen, unfreeze
+- **Manipulating Transition Dynamics** <a id="manipulating-transition-dynamics"></a>
+  - You can manipulate the transition dynamic by accessing prefactors for individual transition forward (capture) and backward (emission) reaction rates. This means that the modified rate ( is the prefactor, and is the true reaction rate) is...
+  - _Keywords:_ transition, reaction, prefactors, Device, MSConfig, Transition, dynamic, setting
+- **Example: Two-State Phase-Change Memory Model** <a id="example-two-state-phase-change-memory-model"></a>
+  - Phase-change memory (PCM) devices store a bit as the phase (crystalline or amorphous) of a (chalcogenide) material. Reading information takes advantage of the different conductances of the phases. Storing information requires switching t...
+  - _Keywords:_ mathrm, amorphous, crystalline, material, equilibrium, transition, crystallization, phases
+- **References** <a id="references"></a>
+  - [1] C. Peng, L. Cheng, and M. Mansuripur, “Experimental and theoretical investigations of laser-induced crystallization and amorphization in phase-change optical recording media,” Journal of Applied Physics, vol. 82, no. 9, pp. 4183–4191...
+  - _Keywords:_ change, Journal, Applied, Physics, mathrm, optical, memory, Peng
+- **Overview of Degradation Models** <a id="overview-of-degradation-models"></a>
+  - A necessary part of predicting CMOS reliability is the simulation of the time dependence of interface trap generation. To cover as wide a range as possible, this simulation should accurately reflect the physics of the interface trap form...
+  - _Keywords:_ degradation, interface, hydrogen, Model, transport, Degradation, generation, MSC
+- **Trap Degradation Model** <a id="trap-degradation-model"></a>
+  - Disorder-induced variations among the Si-H activation energies at the passivated $\mathrm { S i } { - } \mathrm { S i O } _ { 2 }$ interface have been shown [4] to be a plausible source of the sublinear time dependence of this trap gener...
+  - _Keywords:_ activation, interface, passivated, mathrm, dependence, energy, Disorder, induced
+- **Trap Formation Kinetics** <a id="trap-formation-kinetics"></a>
+  - The main assumption about trap formation is that initially dangling silicon bonds at the $\mathrm { S i } { - } \mathrm { S i O } _ { 2 }$ interface were passivated by hydrogen (H) or deuterium (D) [7], and degradation is a depassivation...
+  - _Keywords:_ mathrm, equations, assumption, formation, initially, dangling, silicon, interface
+- **Power Law and Kinetic Equation** <a id="power-law-and-kinetic-equation"></a>
+  - The experimental data for the kinetics of interface trap formation [8] shows that the time dependence of trap generation can be described by a simple power law: $\tilde { N _ { \mathrm { i t } } } - N _ { \mathrm { i t } } ^ { 0 } = \til...
+  - _Keywords:_ mathrm, interface, experimental, kinetics, concentration, stress, described, constant
+- **Si-H Density–Dependent Activation Energy** <a id="si-h-density-dependent-activation-energy"></a>
+  - This section describes an activation energy parameterization to capture the sublinear power law for the time dependence of interface trap generation. There is evidence that the hydrogen atoms, when removed from the silicon, remain negati...
+  - _Keywords:_ mathrm, activation, energy, prefactor, hydrogen, interface, dependent, dependence
+- **Diffusion of Hydrogen in Oxide** <a id="diffusion-of-hydrogen-in-oxide"></a>
+  - Another model that can interpret negative bias temperature instability (NBTI) phenomena and different experimental slopes in degradation kinetics is the R-D model [10]. This model considers hydrogen in oxide, which diffuses from the sili...
+  - _Keywords:_ mathrm, hydrogen, interface, degradation, kinetics, silicon, diffusion, concentration
+- **Model Equations and Syntax** <a id="model-equations-and-syntax"></a>
+  - To use the trap degradation model, specify the Degradation keyword as part of a Traps specification in the command file. This invokes the general kinetic equation (left column of Eq. 553) with an added passivation term. To use the power ...
+  - _Keywords:_ mathrm, varepsilon_, passivation, electric, hydrogen, Delta, mathfrak, constant
+- **Reaction Enhancement Factors** <a id="reaction-enhancement-factors"></a>
+  - In Eq. 554, $k _ { \mathrm { H C } }$ and $k _ { \mathrm { T u n } }$ are reaction enhancement factors due to hot-carrier and tunneling current, respectively. They are given by:
+  - _Keywords:_ mathrm, delta_, varepsilon, energy, SHE, distribution, enhancement, tunneling
+- **Using the Trap Degradation Model** <a id="using-the-trap-degradation-model"></a>
+  - The Degradation model can be activated for any trap level or distribution (see Traps and Fixed Charges on page 457). The keywords related to the Degradation model are described in Table 320 on page 1477, along with all other trap-related...
+  - _Keywords:_ BondConcSFactor, BondConc, SHE, Degradation, concentration, specified, Traps, related
+- **Device Lifetime and Simulation** <a id="device-lifetime-and-simulation"></a>
+  - The following example illustrates the use of the Degradation model:
+  - _Keywords:_ mathrm, coupled, device, poisson, electron, degradation, Quasistationary, InitialStep
+- **Degradation in Insulators** <a id="degradation-in-insulators"></a>
+  - Although the Degradation model was designed for trap generation that occurs at semiconductor–insulator interfaces, the model can be used to generate traps at insulator–insulator interfaces or in bulk-insulator regions.
+  - _Keywords:_ insulator, semiconductor, regions, mathrm, interfaces, interface, nonlocal, Although
+- **To use this feature:** <a id="to-use-this-feature"></a>
+  - 1. Create a nonlocal mesh that connects the semiconductor interface with the regions where traps are generated. For example:
+  - _Keywords:_ NLM_silicon_oxide, tunneling, Degradation, insulator, nonlocal, interface, regions, Silicon
+- **MSC–Hydrogen Transport Degradation Model** <a id="msc-hydrogen-transport-degradation-model"></a>
+  - Bias and temperature stresses generate interface fixed charges and trapped charges near the oxide interface. These immobile charges affect the threshold voltage (see Chapter 7 on page 175) and the carrier mobility (see Mobility Degradati...
+  - _Keywords:_ hydrogen, trapping, charges, centers, mobile, hydrogens, interface, degradation
+- **Hydrogen Transport** <a id="hydrogen-transport"></a>
+  - Transport equations for hydrogen atoms $( X _ { 1 } )$ , hydrogen molecules $( X _ { 2 } )$ , and hydrogen ions $( X _ { 3 } )$ can be written as:
+  - _Keywords:_ hydrogen, mathrm, partial, Transport, equations, molecules, written, rightarrow
+- **where:** <a id="where"></a>
+  - ■ $D _ { i }$ is the diffusion coefficient. $E _ { \mathrm { d } i }$ is the diffusion activation energy. $\alpha _ { \mathrm { { t d } } }$ is the prefactor of the thermal diffusion term. $K _ { i } ^ { \mathcal { Q } }$ is the number o...
+  - _Keywords:_ mathrm, Diffusivity, diffusion, initial, PMI_HydrogenDiffusivity, Alpha, PMI_HydrogenAlpha, element
+- **Boundary Conditions** <a id="boundary-conditions"></a>
+  - At electrodes, $[ X _ { i } ] = [ X _ { i } ] _ { 0 } $ is assumed as the default boundary condition. You can specify more flexible conditions at each contact. The corresponding command file can be written as:
+  - _Keywords:_ HydrogenAtom, reflective, electrodes, assumed, boundary, condition, You, specify
+- **Reactions Between Mobile Elements** <a id="reactions-between-mobile-elements"></a>
+  - In the model, you can specify an arbitrary number of bulk and interface chemical reactions between hydrogen atoms $( X _ { 1 } )$ , hydrogen molecules $( X _ { 2 } )$ , hydrogen ions $( X _ { 3 } )$ , electrons $( X _ { 4 } )$ , and hole...
+  - _Keywords:_ mathrm, hydrogen, reaction, alpha_, element, forward, delta_, specify
+- **where:** <a id="where"></a>
+  - ■ $F$ is the magnitude of the electric field .[ ] V/cm $k _ { \mathrm { f } }$ and $k _ { \mathrm { r } }$ are the forward and reverse reaction coefficients, respectively $( [ \mathrm { c m } ^ { - 3 } \mathrm { s } ^ { - 1 } ]$ for bulk...
+  - _Keywords:_ mathrm, reaction, electric, Material, forward, reverse, coefficients, respectively
+- **Reactions With Multistate Configurations** <a id="reactions-with-multistate-configurations"></a>
+  - A multistate configuration (MSC) can be used to model reactions between the mobile hydrogen elements and localized hydrogen states such as silicon-hydrogen bonds at the silicon–oxide interface.
+  - _Keywords:_ mathrm, hydrogen, silicon, capture, PMI, emission, interface, multistate
+- **The CEModel\_Depassivation Model** <a id="the-cemodel-depassivation-model"></a>
+  - The built-in capture and emission model CEModel\_Depassivation models the hydrogen depassivation process. In the model, the hydrogen depassivation (electron capture) rate induced by hot-electron distribution is written as:
+  - _Keywords:_ mathrm, varepsilon, capture, hydrogen, depassivation, electron, varepsilon_, emission
+- **19: Degradation Models** <a id="19-degradation-models"></a>
+  - MSC–Hydrogen Transport Degradation Model
+  - _Keywords:_ mathrm, induced, CEModel, _Depassivation, electrons, Transition, CEmodel, CEModel_Depassivation
+- **Using MSC–Hydrogen Transport Degradation Model** <a id="using-msc-hydrogen-transport-degradation-model"></a>
+  - You can select the regions and interfaces where the hydrogen transport equations are to be solved by specifying the keyword HydrogenDiffusion in the corresponding Physics section of the command file. For example:
+  - _Keywords:_ HydrogenDiffusion, Physics, keyword, corresponding, interface, You, select, regions
+- **19: Degradation Models** <a id="19-degradation-models"></a>
+  - MSC–Hydrogen Transport Degradation Model
+  - _Keywords:_ hydrogen, mathrm, HydrogenAtom, HydrogenMolecule, mathbf, molecules, HydrogenIon, specified
+- **Two-Stage NBTI Degradation Model** <a id="two-stage-nbti-degradation-model"></a>
+  - Negative bias temperature instability (NBTI) refers to the generation of positive oxide charges and interface traps in MOS structures under negative gate bias at elevated temperature, which affects the threshold voltage and on-currents o...
+  - _Keywords:_ NBTI, centers, interface, degradation, temperature, creation, dangling, neutral
+- **Formulation** <a id="formulation"></a>
+  - The two-stage NBTI degradation model considers a special trap having four internal states:
+  - _Keywords:_ center, NBTI, degradation, considers, special, having, internal, states
+- **19: Degradation Models** <a id="19-degradation-models"></a>
+  - Two-Stage NBTI Degradation Model
+  - _Keywords:_ mathrm, energy, sigma_, Theta, transition, electron, varepsilon, between
+- **Using Two-Stage NBTI Model** <a id="using-two-stage-nbti-model"></a>
+  - You can activate the two-stage NBTI model by specifying the NBTI command in the interfacespecific Physics section of the command file. For example:
+  - _Keywords:_ NBTI, mathrm, density, hSHEDistribution, interface, You, Physics, charge
+- **Extended Nonradiative Multiphonon Model** <a id="extended-nonradiative-multiphonon-model"></a>
+  - The extended nonradiative multiphonon (eNMP) model [3] can be used to investigate degradation related to NBTI. The model accounts for the behavior of oxide defects (traps) that can have four internal states, two of which are metastable.
+  - _Keywords:_ mathrm, defects, sample, interface, eNMP, degradation, NBTI, behavior
+- **eNMP Model Description** <a id="enmp-model-description"></a>
+  - The eNMP model considers a special trap having four internal states:
+  - _Keywords:_ mathrm, varepsilon_, sigma_, states, eNMP, Neutral, stable, Positive
+- **In these expressions:** <a id="in-these-expressions"></a>
+  - $\sigma _ { p 0 }$ is the hole-capture cross section, and $\exp ( - x _ { \mathrm { t } } / x _ { 0 } )$ accounts for the trap depth of tunneling. $\Delta E _ { \mathrm { t } }$ and $\Delta E _ { \mathrm { t } } ^ { \prime }$ are the ene...
+  - _Keywords:_ mathrm, mathfrak, energy, Delta, neutral, stable, metastable, relative
+- **Using the eNMP Model** <a id="using-the-enmp-model"></a>
+  - You can activate the eNMP model in an interface-specific Physics section of the command file with the keyword eNMP. The command syntax and options are:
+  - _Keywords:_ SFactor, interface, Conc, specified, eNMP, density, precursor, charge
+- **eNMP Quantities Available for Plotting** <a id="enmp-quantities-available-for-plotting"></a>
+  - Plots of the interface charge density and the density of each state can be specified in the Plot section of the command file:
+  - _Keywords:_ Plot, mathrm, density, Plots, interface, charge, specified, InterfaceeNMPCharge
+- **19: Degradation Models** <a id="19-degradation-models"></a>
+  - Extended Nonradiative Multiphonon Model
+  - _Keywords:_ mathrm, Extended, Nonradiative, Multiphonon, Model
+- **eNMP Model Parameters** <a id="enmp-model-parameters"></a>
+  - The parameters used in the eNMP model are defined in the interface-specific eNMP parameter set. Table 103 to Table 106 on page 529 list the default parameter values for silicon–oxide interfaces.
+  - _Keywords:_ eNMP, silicon, interfaces, coefficients, Symbol, Unit, varepsilon_, follow
+- **eNMP Transition Rates PMI Model** <a id="enmp-transition-rates-pmi-model"></a>
+  - An eNMP transition rates PMI model (see eNMP Transition Rates on page 1197) created by users can be utilized to calculate the transition rates for the eNMP model. This PMI allows for the possibility of either a positive or negative state...
+  - _Keywords:_ eNMP, transition, PMI, Transition, Rates, created, utilized, calculate
+- **Hot-Carrier Stress Degradation Model** <a id="hot-carrier-stress-degradation-model"></a>
+  - The hot-carrier stress (HCS) degradation model is based on work in [15], and can be used as a general degradation model for MOS-based devices.
+  - _Keywords:_ breakage, degradation, contribute, particle, processes, HCS, includes, thermal
+- **Model Description** <a id="model-description"></a>
+  - The model equations are presented here. Details can be found in [15]. The equations presented apply to both the eHCSDegradation and hHCSDegradation models.
+  - _Keywords:_ equations, presented, Details, eHCSDegradation, hHCSDegradation, models
+- **Single-Particle and Multiple-Particle Interface-Trap Densities** <a id="single-particle-and-multiple-particle-interface-trap-densiti"></a>
+  - For the SP case, the interface trap density as a function of time and activation energy is given by
+  - _Keywords:_ mathrm, boldsymbol, processes, reaction, sigma_, energy, interface, density
+- **19: Degradation Models** <a id="19-degradation-models"></a>
+  - Hot-Carrier Stress Degradation Model
+  - _Keywords:_ mathrm, Hot, Carrier, Stress, Degradation, Model, exponents, characterizing
+- **Field-Enhanced Thermal Degradation** <a id="field-enhanced-thermal-degradation"></a>
+  - The interface-trap density due to field-enhanced thermal degradation is given by:
+  - _Keywords:_ mathrm, thermal, boldsymbol, processes, interface, density, enhanced, degradation
+- **Carrier Distribution Function** <a id="carrier-distribution-function"></a>
+  - There are two options for obtaining the carrier distribution function $f ( r , E )$ used in the calculation of the scattering-rate integrals (Eq. 625 and Eq. 626):
+  - _Keywords:_ obtaining, carrier, distribution, calculation, scattering, integrals, spherical, harmonics
+- **Spherical Harmonics Expansion Option** <a id="spherical-harmonics-expansion-option"></a>
+  - The SHE method computes the microscopic carrier-energy distribution function by solving the lowest-order SHE of the Boltzmann transport equation. When the carrier distribution function is available through the SHE method, it can optional...
+  - _Keywords:_ SHE, carrier, method, distribution, available, through, equations, temperature
+- **Approximate Analytic Option** <a id="approximate-analytic-option"></a>
+  - A method for obtaining an approximate carrier distribution function [15] is available. In this case, is modeled using an analytic non-Maxwellian formulation:f( ) r, E
+  - _Keywords:_ boldsymbol, mathrm, carrier, eHCSDegradation, hHCSDegradation, concentration, method, obtaining
+- **Bond Dispersion** <a id="bond-dispersion"></a>
+  - The reaction rates given by Eq. 625, Eq. 626, and Eq. 630 are for a discrete activation energy. As an option, these rates can be modified to account for bond dispersion by assuming a distribution function for the activation energies:
+  - _Keywords:_ mathrm, boldsymbol, sigma_, activation, reaction, energy, dispersion, energies
+- **Using the HCS Degradation Model** <a id="using-the-hcs-degradation-model"></a>
+  - You can include the HCS degradation model in a transient simulation by specifying the eHCSDegradation option, or the hHCSDegradation option, or both options as part of a Traps specification for the interface of interest. The syntax and o...
+  - _Keywords:_ SHE, BondDispersion, HCS, degradation, eHCSDegradation, hHCSDegradation, specification, Physics
+- **References** <a id="references"></a>
+  - [1] T. Grasser et al., “A Two-Stage Model for Negative Bias Temperature Instability,” in IEEE International Reliability Physics Symposium (IRPS), Montréal, Québec, Canada, pp. 33–44, April 2009. [2] W. Goes et al., “A Model for Switching...
+  - _Keywords:_ IEEE, Temperature, Reliability, Hot, Electron, Degradation, Negative, Bias
+- **Introduction to Organic Device Simulation** <a id="introduction-to-organic-device-simulation"></a>
+  - An organic material or semiconductor is formed from molecule chains, and the primary transport of carriers (electrons and holes) is through a hopping process. The lowest unoccupied molecular orbital (LUMO) and highest occupied molecular ...
+  - _Keywords:_ organic, transport, process, excitons, carriers, electrons, molecular, orbital
+- **References** <a id="references"></a>
+  - [1] F. Kozłowski, Numerical simulation and optimisation of organic light emitting diodes and photovoltaic cells, Ph.D. thesis, Technische Universität Dresden, Germany, 2005. [2] S.-H. Chang et al., “Numerical simulation of optical and el...
+  - _Keywords:_ organic, emitting, Journal, Physics, diodes, optical, Applied, absorption
+- **Overview of Optical Generation** <a id="overview-of-optical-generation"></a>
+  - A unified interface for optical generation computation is available to provide a consistent simulation setup irrespective of the underlying optical solver methods. This allows for a gradual refinement of results and a balance of accuracy...
+  - _Keywords:_ optical, generation, solver, Compute, resulting, source, different, scaling
+- **Specifying the Type of Optical Generation Computation** <a id="specifying-the-type-of-optical-generation-computation"></a>
+  - In the OpticalGeneration section of the command file, at least one of the following methods to compute the optical generation must be specified; otherwise, the optical generation is not computed and is set to zero everywhere:
+  - _Keywords:_ optical, generation, OpticalGeneration, specified, methods, region, ComputeFromMonochromaticSource, material
+- **Optical Generation From Monochromatic Source** <a id="optical-generation-from-monochromatic-source"></a>
+  - Specifying ComputeFromMonochromaticSource (...) in the OpticalGeneration section activates the computation of the optical generation assuming a monochromatic light source. Details of the light source such as angle of incidence, wavelengt...
+  - _Keywords:_ optical, wavelength, Specifying, generation, source, Excitation, Optical, ComputeFromMonochromaticSource
+- **Illumination Spectrum** <a id="illumination-spectrum"></a>
+  - The optical generation resulting from a spectral illumination source, which is sometimes also known as white light generation, can be modeled in Sentaurus Device by superimposing the spectrally resolved generation rates. To this end, Com...
+  - _Keywords:_ optical, spectral, source, generation, spectrum, illumination, ComputeFromSpectrum, keyword
+- **Multidimensional Illumination Spectra** <a id="multidimensional-illumination-spectra"></a>
+  - Often, illumination spectra depend on additional parameters, which might be related to an experimental setup that users want to model. For example, the intensity of the incident light might depend on not only the wavelength but also the ...
+  - _Keywords:_ illumination, spectra, depend, intensity, comment, Often, additional, related
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Specifying the Type of Optical Generation Computation
+  - _Keywords:_ illumination, columns, Optical, specified, Optics, Intensity, spectrum, selected
+- **Enhanced Spectrum Control** <a id="enhanced-spectrum-control"></a>
+  - Being able to filter a given spectrum, based on a user-supplied condition, adds functionality to the computation of the optical generation resulting from a spectral illumination source. Specifying a static condition can be used to select...
+  - _Keywords:_ spectrum, condition, spectra, wavelength, expression, Select, Sentaurus, Device
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Specifying the Type of Optical Generation Computation
+  - _Keywords:_ internal, Wavelength, Var, condition, centralWavelength, Sentaurus, Device, Quasistationary
+- **Loading and Saving Optical Generation From and to Files** <a id="loading-and-saving-optical-generation-from-and-to-files"></a>
+  - Sometimes, solving the optical problem might require long computation times, in which case, it can be useful to save the solution to a file and to load the optical generation or absorbed photon density profile in later simulations whose ...
+  - _Keywords:_ optical, Sometimes, solving, problem, require, computation, useful, solution
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Specifying the Type of Optical Generation Computation
+  - _Keywords:_ optical, generation, Optical, absorbed, photon, density, profile, simulation
+- **Constant Optical Generation** <a id="constant-optical-generation"></a>
+  - Assigning a constant optical generation rate to a certain region or material is achieved by specifying a value for a particular region or material as shown here:
+  - _Keywords:_ generation, Physics, constant, optical, region, material, Optics, OpticalGeneration
+- **Quantum Yield Models** <a id="quantum-yield-models"></a>
+  - The quantum yield model describes how many of the absorbed photons are converted to generated electron–hole pairs. The simplest model, QuantumYield(Unity), assumes that all absorbed photons result in generated charge carriers irrespectiv...
+  - _Keywords:_ quantum, mathrm, absorption, QuantumYield, energy, specifying, bandgap, optical
+- **Optical Absorption Heat** <a id="optical-absorption-heat"></a>
+  - The absorbed photon energy $\mathrm { E _ { p h } }$ is distributed among different processes by quantum yield factors. The following two channels are accounted for:
+  - _Keywords:_ mathrm, energy, boldsymbol, photon, quantum, absorbed, absorption, processes
+- **Specifying Time Dependency for Transient Simulations** <a id="specifying-time-dependency-for-transient-simulations"></a>
+  - To model the electrical response of a light pulse, incident on a device, a description of the light signal over time can be specified either globally or separately for each type of optical generation computation. For the former, TimeDepe...
+  - _Keywords:_ optical, dependency, generation, TimeDependence, Transient, statement, computation, inside
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Specifying the Type of Optical Generation Computation
+  - _Keywords:_ details, summary, expressed, images, Time, Scaling, Rise, linear
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Specifying the Type of Optical Generation Computation
+  - _Keywords:_ dependency, signal, details, summary, interpolation, points, Time, specified
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Specifying the Type of Optical Generation Computation
+  - _Keywords:_ Specifying, Optical, Generation, Computation, TimeDependence, WaveTime, WaveTSlope, WaveTPeriod
+- **Optical Turning Points** <a id="optical-turning-points"></a>
+  - Typically, you specify turning points as described in Time-Stepping on page 90 in the Transient statement to limit the advancing time step. Controlling time-stepping based on knowledge about the device physics and its characteristics can...
+  - _Keywords:_ points, turning, optical, ranges, OpticalTurningPoints, DtPlateau, keyword, Time
+- **Solving the Optical Problem** <a id="solving-the-optical-problem"></a>
+  - ComputeFromMonochromaticSource and ComputeFromSpectrum require the solution of the optical problem for a given excitation to obtain the optical generation rate. Several optical solvers are available and the choice for a specific method i...
+  - _Keywords:_ optical, solution, excitation, ComputeFromMonochromaticSource, ComputeFromSpectrum, require, problem, obtain
+- **Specifying the Optical Solver** <a id="specifying-the-optical-solver"></a>
+  - The following optical solvers are supported:
+  - _Keywords:_ optical, method, solver, simulation, solvers, supported, Transfer, matrix
+- **Transfer Matrix Method** <a id="transfer-matrix-method"></a>
+  - The TMM solver is selected using the following syntax:
+  - _Keywords:_ TMM, solver, selected, syntax, Physics, Optics, OpticalSolver, specific
+- **Finite-Difference Time-Domain Method** <a id="finite-difference-time-domain-method"></a>
+  - In contrast to the TMM solver, the FDTD-specific parameters, such as boundary conditions and extractors, are defined in a separate command file that is set in the File section with the keyword OpticalSolverInput. To provide some basic co...
+  - _Keywords:_ FDTD, Sentaurus, wavelength, solver, Device, tensor, keyword, EMW
+- **Raytracing** <a id="raytracing"></a>
+  - More details about the raytracer can be found in Raytracing on page 604. The raytracer requires the use of the complex refractive index model, and various excitation variables can be ramped. These rampable excitation variables are Intens...
+  - _Keywords:_ vector, integer, raytracer, Raytracing, RayTracing, PolarizationVector, string, vertex
+- **Beam Propagation Method** <a id="beam-propagation-method"></a>
+  - The BPM solver is selected using the following syntax:
+  - _Keywords:_ BPM, specific, solver, selected, syntax, Physics, Optics, OpticalSolver
+- **Loading Solution of Optical Problem From File** <a id="loading-solution-of-optical-problem-from-file"></a>
+  - The solution of the optical problem, which can be either an absorbed photon density profile or an optical generation profile, also can be loaded from a file. In contrast to using OpticalGeneration ( ReadFromFile ( ... ) ), the optical so...
+  - _Keywords:_ optical, FromFile, profile, OpticalGeneration, solver, solution, problem, either
+- **Optical Beam Absorption Method** <a id="optical-beam-absorption-method"></a>
+  - The following syntax is used to select the optical beam absorption method as the optical solver:
+  - _Keywords:_ OptBeam, optical, syntax, select, absorption, method, solver, Physics
+- **Composite Method** <a id="composite-method"></a>
+  - The following syntax is used to select the composite method as the optical solver:
+  - _Keywords:_ Composite, optical, method, solver, solution, syntax, select, composite
+- **Setting the Excitation Parameters** <a id="setting-the-excitation-parameters"></a>
+  - The Excitation section is common to all optical solvers and mainly specifies a plane wave excitation. It contains the following keywords:
+  - _Keywords:_ Theta, Polarization, direction, Phi, PolarizationAngle, propagation, defined, between
+- **Illumination Window** <a id="illumination-window"></a>
+  - The concept of an illumination window to confine the light that is incident on the surface of a device structure plays an important role in various simulation setups for photo-diode devices, such as photodetectors, solar cells, and image...
+  - _Keywords:_ window, illumination, coordinate, system, specified, defined, origin, dimensions
+- **Line** <a id="line"></a>
+  - Line normal to y-axis at y=-10, xmin=-5, xmax=5:
+  - _Keywords:_ Line, Window, Origin, OriginAnchor, normal, West, Center, alternatively
+- **Rectangle** <a id="rectangle"></a>
+  - Rectangle normal to z-axis at z=10, with width=10 and height=5, centered at x=0 and y=0:
+  - _Keywords:_ Rectangle, Window, Origin, normal, height, centered, OriginAnchor, Center
+- **Polygon** <a id="polygon"></a>
+  - Triangle in xz plane at y=4, and corners at (0, 0, 0), (1, 0, 0), and (0, 0, 1):
+  - _Keywords:_ Polygon, polygon, Triangle, corners, Window, Origin, XDirection, YDirection
+- **Circle** <a id="circle"></a>
+  - Circle in xy plane with center at (5, 4, -10) and radius 3:
+  - _Keywords:_ Circle, center, radius, Window, Origin, XDirection, YDirection, Radius
+- **Common Illumination Configurations** <a id="common-illumination-configurations"></a>
+  - The most common cases of illumination are from either the top or the bottom of the device structure. Depending on the coordinate system, the DF–ISE coordinate system or the unified coordinate system (UCS), the bottom-to-top growth orient...
+  - _Keywords:_ UCS, ISE, system, coordinate, Excitation, fromTop, fromBottom, Theta
+- **Moving Illumination Windows Using Parameter Ramping** <a id="moving-illumination-windows-using-parameter-ramping"></a>
+  - The following syntax demonstrates how to move and resize illumination windows during a simulation using the parameter ramping framework:
+  - _Keywords:_ Optics, Window, Excitation, Origin, Goal, ModelParameter, ramping, Line
+- **Spatial Intensity Function Excitation** <a id="spatial-intensity-function-excitation"></a>
+  - With the illumination window feature, you can define a spatial profile within each illumination window (see Illumination Window on page 572). The intensity profile corresponds to a modified Gaussian profile with the shape shown in Figure...
+  - _Keywords:_ Gaussian, spatial, illumination, window, profile, Window, intensity, modified
+- **Comments about the syntax:** <a id="comments-about-the-syntax"></a>
+  - The IntensityDistribution section is specified within the illumination window (Window). It follows the local coordinate system of the window, that is, PeakPosition is taken with reference to the origin of the local coordinate of the wind...
+  - _Keywords:_ Sigma, specified, window, IntensityDistribution, coordinate, Length, Gaussian, TMM
+- **Choosing Refractive Index Model** <a id="choosing-refractive-index-model"></a>
+  - The complex refractive index model as described in Complex Refractive Index Model on page 590 is available for all optical solvers. It must be specified in the Optics section when using the unified interface for optical generation comput...
+  - _Keywords:_ optical, complex, refractive, described, Complex, Refractive, Index, Model
+- **Extracting the Layer Stack** <a id="extracting-the-layer-stack"></a>
+  - The optical solvers TMM (see Transfer Matrix Method on page 638) and OptBeam (see Optical Beam Absorption Method on page 657) require the extraction of a layer stack from the actual device structure as they are based on 1D algorithms who...
+  - _Keywords:_ extraction, window, specified, properties, illumination, material, keyword, LayerStackExtraction
+- **Controlling Computation of Optical Problem in Solve Section** <a id="controlling-computation-of-optical-problem-in-solve-section"></a>
+  - Specifying the keyword Optics in the Solve section triggers the solution of the optical problem. For example, the following is sufficient to compute the optical generation and the optical intensity:
+  - _Keywords:_ optical, Optics, Solve, generation, keyword, problem, statement, simulation
+- **Parameter Ramping** <a id="parameter-ramping"></a>
+  - Sentaurus Device can be used to ramp the values of physical parameters (see Ramping Physical Parameter Values on page 78). For example, it is possible to sweep the wavelength of the incident light to extract the spectral dependency of a ...
+  - _Keywords:_ Optics, interface, ModelParameter, Excitation, OpticalGeneration, Wavelength, material, region
+- **Accurate Absorbed Photon Density for 1D Optical Solvers** <a id="accurate-absorbed-photon-density-for-1d-optical-solvers"></a>
+  - In 1D optical solvers such as TMM, OptBeam, and FromFile, the 1D absorbed photon density (APD) is superimposed onto the projected volume from an illumination window that extends into the 2D or 3D device geometry.
+  - _Keywords:_ APD, vertices, integrated, wireframe, volume, mathrm, window, projected
+- **Some comments about this syntax:** <a id="some-comments-about-this-syntax"></a>
+  - ■ To speed up the wireframe integration of APD, you probe strategic points (three points in two dimensions and five points in three dimensions) in each delta projection window (the illumination window area multiplied by the wireframe cel...
+  - _Keywords:_ window, illumination, layers, wireframe, points, propagation, discretization, integration
+- **Complex Refractive Index Model** <a id="complex-refractive-index-model"></a>
+  - The complex refractive index model in Sentaurus Device allows you to define the refractive index and the extinction coefficient depending on mole fraction, wavelength, temperature, carrier density, and local material gain. In addition, i...
+  - _Keywords:_ Sentaurus, refractive, Device, complex, optical, material, interface, models
+- **Physical Model** <a id="physical-model"></a>
+  - The complex refractive index $\tilde { n }$ can be written as:
+  - _Keywords:_ Delta, lambda, correction, mathrm, wavelength, refractive, composed, include
+- **Wavelength Dependency** <a id="wavelength-dependency"></a>
+  - The complex refractive index model offers different ways to take wavelength dependency into account:
+  - _Keywords:_ lambda, Delta, refractive, wavelength, linear, interpolation, dependency, ComplexRefractiveIndex
+- **Temperature Dependency** <a id="temperature-dependency"></a>
+  - The temperature dependency of the real part of the complex refractive index follows the relation according to:
+  - _Keywords:_ temperature, dependency, complex, refractive, follows, relation, according, Delta
+- **Carrier Dependency** <a id="carrier-dependency"></a>
+  - The change in the real part of the complex refractive index due to free carrier absorption is modeled according to [1]:
+  - _Keywords:_ change, complex, refractive, carrier, absorption, modeled, according, Delta
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Complex Refractive Index Model
+  - _Keywords:_ Complex, Refractive, Index, Model
+- **where:** <a id="where"></a>
+  - $C _ { n , \mathrm { c a r r } }$ is a fitting parameter. $q$ is the elementary charge. ■ is the wavelength.λ ■ is the speed of light in free space.c $\mathfrak { E } _ { 0 }$ is the permittivity.
+  - _Keywords:_ mathrm, wavelength, electron, carrier, dependency, lambda, Gamma_, fitting
+- **where:** <a id="where"></a>
+  - $C _ { k , \mathrm { c a r r } , n } , C _ { k , \mathrm { c a r r } , p } , \Gamma _ { k , \mathrm { c a r r } , n } , \Gamma _ { k , \mathrm { c a r r } , p }$ are fitting parameters. ■ is the wavelength in .λ μm and are the electron a...
+  - _Keywords:_ mathrm, Gamma, wavelength, fitting, Delta, lambda, carrier, Gamma_
+- **Gain Dependency** <a id="gain-dependency"></a>
+  - The complex refractive index model offers different formulas to take into account the gain dependency:
+  - _Keywords:_ mathrm, Delta, complex, refractive, offers, different, formulas, account
+- **Using Complex Refractive Index** <a id="using-complex-refractive-index"></a>
+  - The complex refractive index model is activated by using the ComplexRefractiveIndex statement in the Optics section of the Physics section. When using the unified interface for optical generation computation, ComplexRefractiveIndex can b...
+  - _Keywords:_ interpolation, NumericalTable, wavelength, ComplexRefractiveIndex, refractive, fraction, complex, Formula
+- **Complex Refractive Index Model Interface** <a id="complex-refractive-index-model-interface"></a>
+  - The complex refractive index model interface (CRIMI) allows the addition of new complex refractive index models as a function of almost any internally available variable. These models must be implemented as C++ functions, and Sentaurus D...
+  - _Keywords:_ Sentaurus, Device, complex, refractive, models, interface, These, runtime
+- **C++ Application Programming Interface (API)** <a id="c-application-programming-interface-api"></a>
+  - For each complex refractive index model, two C++ subroutines must be implemented: one to compute the refractive index and one to compute the extinction coefficient. More specifically, a C++ class must be implemented that is derived from ...
+  - _Keywords:_ double, refractive, virtual, complex, interface, CRI_Model, implemented, derived
+- **Runtime Support** <a id="runtime-support"></a>
+  - The base class of CRI\_Model is derived from another class called CRI\_Model\_Interface, which adds several functions that extend the possibilities for defining new complex refractive index models. Among them are functions that query bas...
+  - _Keywords:_ models, variables, complex, refractive, internal, header, CRI, _Model
+- **General utility functions:** <a id="general-utility-functions"></a>
+  - std::string Name() const: Returns the name of the CRIModel as specified in the command file. std::string ReadRegionName() const: Returns the name of the region to which the vertex belongs. std::string ReadMaterialName() const: Returns th...
+  - _Keywords:_ double, Read, refractive, string, variables, variable, interval, specified
+- **Shared Object Code** <a id="shared-object-code"></a>
+  - Sentaurus Device assumes that the shared object code corresponding to a CRI model can be found in the file modelname.so.arch. The base name of this file must be identical to the name of the CRI model. The extension .arch depends on the h...
+  - _Keywords:_ shared, object, CRI, Compact, Models, Guide, Sentaurus, Device
+- **Command File of Sentaurus Device** <a id="command-file-of-sentaurus-device"></a>
+  - To load CRI models into Sentaurus Device, the PMIPath search path must be defined in the File section of the command file. The value of PMIPath consists of a sequence of directories, for example:
+  - _Keywords:_ CRI, PMIPath, ComplexRefractiveIndex, Physics, models, Sentaurus, Device, directories
+- **Raytracing** <a id="raytracing"></a>
+  - Sentaurus Device supports the simulation of photogeneration by raytracing in two and three dimensions for arbitrarily shaped structures, as well as body-of-revolution structures using 2D and cylindrical coordinates. The calculation of re...
+  - _Keywords:_ raytracing, structures, Sentaurus, Device, supports, simulation, photogeneration, dimensions
+- **Raytracer** <a id="raytracer"></a>
+  - In Sentaurus Device, the raytracer has been implemented based on linear polarization. It is optimized for speed and needs to be used in conjunction with the complex refractive index model (see Complex Refractive Index Model on page 590)....
+  - _Keywords:_ mathrm, polarization, coefficients, varepsilon_, vector, transmission, reflection, incidence
+- **Ray Photon Absorption and Optical Generation** <a id="ray-photon-absorption-and-optical-generation"></a>
+  - When there is an imaginary component (extinction coefficient), , to the complex refractiveκ index, absorption of photons occurs. To convert the absorption coefficient to the necessary units, the following formula is used for power/intens...
+  - _Keywords:_ absorption, element, coefficient, intensity, extinction, complex, photons, occurs
+- **Using the Raytracer** <a id="using-the-raytracer"></a>
+  - The raytracer must be invoked within the unified interface for optical generation computation (see Raytracing on page 566) and can have the following options:
+  - _Keywords:_ raytracing, generation, defined, optical, starting, RetraceCRIchange, complex, refractive
+- **Terminating Raytracing** <a id="terminating-raytracing"></a>
+  - Raytracing offers different termination conditions:
+  - _Keywords:_ intensity, Raytracing, becomes, specifies, starting, offers, different, termination
+- **Monte Carlo Raytracing** <a id="monte-carlo-raytracing"></a>
+  - In instances where rays are randomly scattered, for example on rough surfaces, a Monte Carlo–type raytracing is required, since you need to look at the aggregate solution of the raytracing process.
+  - _Keywords:_ Monte, Carlo, raytracing, interface, reflected, scattering, method, transmitted
+- **Multithreading for Raytracer** <a id="multithreading-for-raytracer"></a>
+  - Each raytree traced from the list of starting rays is mutually exclusive, so that the raytracer is an excellent candidate for parallelization.
+  - _Keywords:_ Math, raytree, raytracer, syntax, StackSize, increase, traced, starting
+- **Compact Memory Model for Raytracer** <a id="compact-memory-model-for-raytracer"></a>
+  - The compact memory model for the raytracer does not store the raytree as it is being created, so it reduces the use of significant memory. Only essential information is tracked and stored, and this alleviates the amount of memory require...
+  - _Keywords:_ memory, compact, information, reduced, structure, raytracing, interface, switched
+- **Window of Starting Rays** <a id="window-of-starting-rays"></a>
+  - Two mutually exclusive options for defining a set of starting rays are available: a user-defined set of rays or a distribution window. You can define these in the Physics-Optics-OpticalSolver-Raytracing statement syntax:
+  - _Keywords:_ Two, mutually, exclusive, defining, starting, available, defined, distribution
+- **User-Defined Window of Rays** <a id="user-defined-window-of-rays"></a>
+  - In the UserWindow section, you can enter your own set of starting rays using a text file. This means that you can choose the positions, directions, area, and polarization vector of each starting ray, thereby achieving greater flexibility.
+  - _Keywords:_ vector, polarization, simulations, Area, PolarizationVector, Excitation, Polarization, simulation
+- **Distribution Window of Rays** <a id="distribution-window-of-rays"></a>
+  - When the illumination window (see Illumination Window on page 572) is defined for raytracing, a corresponding RayDistribution section must be created to define how the excitation parameters can be translated in a raytracing context:
+  - _Keywords:_ raytracing, illumination, window, Illumination, Window, defined, corresponding, RayDistribution
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+- **Raytracing** <a id="raytracing"></a>
+  - ```txt Window ("windowname1") ( Origin = (xx, yy) OriginAnchor = Center | North | South | East | West | NorthEast | SouthEast | NorthWest | SouthWest RotationAngles = (phi, theta, psi) xDirection = (x, y, z) yDirection = (x, y, z) # You ...
+  - _Keywords:_ excitation, Mode, RayDistribution, starting, Window, Equidistant, window, Rectangle
+- **Cylindrical Coordinates for Raytracing** <a id="cylindrical-coordinates-for-raytracing"></a>
+  - Body-of-revolution structures can be modeled optically in raytracing by tracing the rays in the 2D cut of the cylindrical structure and taking into account the reflection at the cylindrical axis and the ring volume of revolution.
+  - _Keywords:_ cylindrical, revolution, window, illumination, xAxis, starting, specify, around
+- **Boundary Condition for Raytracing** <a id="boundary-condition-for-raytracing"></a>
+  - Special and spatially arbitrary boundary conditions can be specified in raytracing. There are two ways to define a boundary condition (BC) for raytracing by:
+  - _Keywords:_ contact, boundary, contacts, conditions, definition, Physics, interface, condition
+- **Fresnel Boundary Condition** <a id="fresnel-boundary-condition"></a>
+  - The physics interface–based BC can quickly set many interfaces to a particular type of BC, especially if the material interface contains many region interfaces. What is missing is the disabling of a particular region interface from the g...
+  - _Keywords:_ interface, particular, Fresnel, region, interfaces, syntax, physics, quickly
+- **Constant Reflectivity and Transmittivity Boundary Condition** <a id="constant-reflectivity-and-transmittivity-boundary-condition"></a>
+  - In the command file, constant reflectivity and transmittivity boundaries must be specified by the following syntax:
+  - _Keywords:_ boundary, Reflectivity, condition, device, details, summary, specified, Transmittivity
+- **Raytrace PMI Boundary Condition** <a id="raytrace-pmi-boundary-condition"></a>
+  - A special raytrace PMI BC can be defined. You can obtain useful information about the ray with this raytrace PMI and can modify some parameters of the ray. For details about this PMI and how it can be incorporated into the simulation, se...
+  - _Keywords:_ PMI, raytrace, Newton, standard, RayTraceBC, variables, special, defined
+- **Thin-Layer-Stack Boundary Condition** <a id="thin-layer-stack-boundary-condition"></a>
+  - A thin-layer-stack boundary condition can be used to model interference effects in raytracing. The modeling of antireflective coatings used in solar cells is a typical example of the use of such boundary condition. The coatings are speci...
+  - _Keywords:_ boundary, condition, ReferenceMaterial, Gas, material, specified, contact, raytracer
+- **TMM Optical Generation in Raytracer** <a id="tmm-optical-generation-in-raytracer"></a>
+  - In modern thin-film solar-cell design, the multilayer thin film can be made of materials that can generate carriers by absorbing photons. To cater to such a phenomenon, the TMM contact in the raytracer has been modified to collect optica...
+  - _Keywords:_ optical, TMM, regions, VirtualRegions, generation, MapOptGenToRegions, contact, layers
+- **Diffuse Surface Boundary Condition** <a id="diffuse-surface-boundary-condition"></a>
+  - Rough surfaces can be modeled by diffuse surface boundary conditions. The available diffuse BC models are:
+  - _Keywords:_ scattering, distribution, Phong, Lambert, diffuse, surface, Gaussian, uniform
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Raytracing
+  - _Keywords:_ Raytracing
+- **3D Case** <a id="3d-case"></a>
+  - The mapping requirement is:
+  - _Keywords:_ requirement, mapping, normalization
+- **2D Case** <a id="2d-case"></a>
+  - The mapping requirement is:
+  - _Keywords:_ reflectivity, transmittivity, mapping, scattering, surface, dimension, density, Phong
+- **Periodic Boundary Condition** <a id="periodic-boundary-condition"></a>
+  - The periodic boundaries are limited to parallel X-, Y-, or Z-surfaces, so the device must have parallel surfaces in the direction of the periodicity. No special raytrace contacts need to be drawn onto the device, and you only need to spe...
+  - _Keywords:_ FluxIn, FluxOut, periodic, Side, Periodic, parallel, surfaces, device
+- **Virtual Regions in Raytracer** <a id="virtual-regions-in-raytracer"></a>
+  - This feature is a prelude to the TMM optical generation in the raytracer feature. Virtual regions can be defined in the raytracer such that rays ignore the presence of these regions during the raytracing process. In other words, when ray...
+  - _Keywords:_ regions, feature, raytracer, prelude, TMM, optical, generation, Virtual
+- **External Material in Raytracer** <a id="external-material-in-raytracer"></a>
+  - The default material surrounding a device is assumed to be air. In many cases, especially in LEDs, the device can be immersed in another material such as epoxy or some kind of phosphor. To correctly account for the directional, reflectiv...
+  - _Keywords:_ material, external, device, wavelength, refractive, ExternalMaterialCRIFile, surrounding, assumed
+- **Additional Options for Raytracing** <a id="additional-options-for-raytracing"></a>
+  - Additional options enable better control of raytracing in Sentaurus Device:
+  - _Keywords:_ raytracing, Omitting, performing, Additional, enable, better, control, Sentaurus
+- **Redistributing Power of Stopped Rays** <a id="redistributing-power-of-stopped-rays"></a>
+  - When the raytracing terminates at a designated DepthLimit or MinIntensity value, there is still leftover power in those terminated rays. The sum of the powers contained in all these stopped rays can be redistributed into the raytree. The...
+  - _Keywords:_ mathrm, stopped, raytracing, Total, DepthLimit, MinIntensity, leftover, terminated
+- **Weighted Interpolation for Raytrace Optical Generation** <a id="weighted-interpolation-for-raytrace-optical-generation"></a>
+  - In raytracing, first optical absorption is computed elementwise, and then it is distributed evenly onto the associated vertices of the element. However, as a ray traverses an element, it can be closer to one particular corner or vertex o...
+  - _Keywords:_ optical, absorption, element, vertices, evenly, traverses, center, raytracing
+- **Visualizing Raytracing** <a id="visualizing-raytracing"></a>
+  - The keyword RayTrees can be set in the Plot section to visualize raytracing using the TDR format. Thereby, an additional geometry is added to the plot file representing the ray paths. The following datasets are available for each ray ele...
+  - _Keywords:_ RayTrees, keyword, Plot, visualize, raytracing, TDR, format, Thereby
+- **Reporting Various Powers in Raytracing** <a id="reporting-various-powers-in-raytracing"></a>
+  - Various powers are reported in the log file after a raytracing event, and the format is as follows:
+  - _Keywords:_ powers, defined, refers, Photons, Powers, Escaped, StoppedMinInt, StoppedDepth
+- **Plotting Interface Flux** <a id="plotting-interface-flux"></a>
+  - The photon flux flowing through any interface can be tracked with the PlotInterfaceFlux feature. The tracking is made possible by recording the reflected, transmitted, and absorbed flux flowing through each interface or contact BC. Since...
+  - _Keywords:_ Region, interface, photon, flowing, A21, through, PlotInterfaceFlux, feature
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Raytracing
+  - _Keywords:_ region1, region3, contactname1, region, directional, photon, feature, OpticalIntensity
+- **Far Field and Sensors for Raytracing** <a id="far-field-and-sensors-for-raytracing"></a>
+  - To collect information on the rays that exit a device, the concept of far field and sensors is introduced in the unified raytracer interface.
+  - _Keywords:_ dimensions, sensor, SensorSweep, defined, vector, intensity, Sensor, Rectangle
+- **Dual-Grid Setup for Raytracing** <a id="dual-grid-setup-for-raytracing"></a>
+  - Raytracing in Sentaurus Device is based on tracing the rays in each cell of the simulation mesh. For simulations in which the optical material properties do not vary on a short length scale, this might lead to the unnecessary deteriorati...
+  - _Keywords:_ simulation, raytracing, CIS, material, Current, Plot, Specify, Physics
+- **Transfer Matrix Method** <a id="transfer-matrix-method"></a>
+  - Sentaurus Device can calculate the propagation of plane waves through layered media by using a transfer matrix approach.
+  - _Keywords:_ Sentaurus, Device, calculate, propagation, through, layered, transfer, matrix
+- **Physical Model** <a id="physical-model"></a>
+  - In the underlying model of the optical carrier generation rate, monochromatic plane waves with arbitrary angles of incidence and polarization states penetrating a number of planar, parallel layers are assumed. Each layer must be homogene...
+  - _Keywords:_ mathrm, transfer, matrices, Theta, polarization, amplitudes, downarrow, uparrow
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Transfer Matrix Method
+  - _Keywords:_ absorption, silicon, carrier, photon, region, mathrm, considered, Therefore
+- **Rough Surface Scattering** <a id="rough-surface-scattering"></a>
+  - To model the effect of light trapping due to scattering of incident light at rough interfaces of a planar multilayer structure, the standard TMM approach describing the propagation of coherent light is extended. Part of the coherent ligh...
+  - _Keywords:_ interface, incident, scattered, scattering, lambda, varphi_, coherent, intensity
+- **Using Transfer Matrix Method** <a id="using-transfer-matrix-method"></a>
+  - The transfer matrix method is only supported by the unified interface for optical generation computation (see Overview of Optical Generation on page 543). The OpticalGeneration section activates the computation of the optical generation ...
+  - _Keywords:_ optical, TMM, profile, operatorname, Medium, intensity, generation, Excitation
+- **Using Scattering Solver** <a id="using-scattering-solver"></a>
+  - To model the effect of scattering at rough interfaces, the scattering solver (see Rough Surface Scattering on page 640) must be configured in the command file, and the parameters characterizing each rough interface must be specified in t...
+  - _Keywords:_ scattering, effect, interfaces, solver, Rough, Surface, Scattering, configured
+- **Command File Specification** <a id="command-file-specification"></a>
+  - The scattering solver is activated by specifying a Scattering section within the TMM section. By default, all interfaces are treated as rough. However, whether part of the light incident on a specific interface is actually scattered depe...
+  - _Keywords:_ Scattering, Physics, TMM, interface, scattering, solver, interfaces, specific
+- **Parameter File Specification** <a id="parameter-file-specification"></a>
+  - All parameters characterizing a rough interface are defined in the OpticalSurfaceRoughness section of the respective region or material interface section in the parameter file. The parameters can be classified into two groups: One relate...
+  - _Keywords:_ Constant, varphi, analytic, interface, correction, angular, distribution, mathrm
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Transfer Matrix Method
+  - _Keywords:_ details, summary, images, ADF, Cosine, Constant, OpticalSurfaceRoughness, Analytic
+- **Plot Quantities** <a id="plot-quantities"></a>
+  - When specifying OpticalIntensity and AbsorbedPhotonDensity in the Plot section of the command file, the following additional datasets are written to the plot file:
+  - _Keywords:_ resulting, propagation, Specular, optical, intensity, coherent, Diffuse, incoherent
+- **Loading Solution of Optical Problem From Files** <a id="loading-solution-of-optical-problem-from-files"></a>
+  - In solar-cell and CIS simulations, it is often necessary to load several optical generation profiles as a function of one or more parameters, for example, excitation wavelength or angle of incidence, in Sentaurus Device. These profiles t...
+  - _Keywords:_ optical, profiles, generation, profile, Sentaurus, Device, TDR, Profiles
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Loading Solution of Optical Problem From Files
+  - _Keywords:_ profile, loaded, intensity, profiles, optical, generation, supported, scaled
+- **Importing 1D Profiles Into Higher-Dimensional Grids** <a id="importing-1d-profiles-into-higher-dimensional-grids"></a>
+  - Importing 1D profiles into higher-dimensional grids is supported for files in PLX format. The following example documents the syntax of PLX files for two 1D profiles characterized by three parameters in a single file:
+  - _Keywords:_ profiles, profile, optional, PLX, comments, string, tagging, Wavelength
+- **Ramping Profile Index** <a id="ramping-profile-index"></a>
+  - The optical solver FromFile supports a keyword ProfileIndex, which can be used to address a certain profile directly by its index instead of its identifying parameters. The index is derived from all valid profiles sorted according to the...
+  - _Keywords:_ ProfileIndex, profiles, Quasistationary, statement, ramping, FromFile, profile, identifying
+- **Optical Beam Absorption Method** <a id="optical-beam-absorption-method"></a>
+  - The optical beam absorption method in Sentaurus Device computes optical generation by simple photon absorption using Beer’s law. Thereby, multiple optical beams can be defined to represent the incident light.
+  - _Keywords:_ optical, absorption, method, Sentaurus, Device, computes, generation, simple
+- **Physical Model** <a id="physical-model"></a>
+  - Figure 43 illustrates one optical beam and its optical intensity distribution in a 3D device. ![](images/sdevice_ug_part04_1df38d366f45b2c294b476b0028ffd294922c13bd2452e682231c8e6e8f3d0df.jpg)
+  - _Keywords:_ mathrm, optical, lambda, window, mathbf, absorption, intensity, distribution
+- **Using Optical Beam Absorption Method** <a id="using-optical-beam-absorption-method"></a>
+  - The optical beam absorption method is activated by the optical solver OptBeam. The profile of the absorption coefficient used in Eq. 720 is determined by the LayerStackExtraction section inside the OptBeam section; whereas, the shape of ...
+  - _Keywords:_ LayerStackExtraction, Window, optical, absorption, OptBeam, Excitation, method, specified
+- **Beam Propagation Method** <a id="beam-propagation-method"></a>
+  - In Sentaurus Device, the beam propagation method (BPM) can be applied to find the light propagation and penetration into devices such as photodetectors. Despite being an approximate method, its efficiency and relative accuracy make it at...
+  - _Keywords:_ BPM, Sentaurus, Device, propagation, method, efficiency, solver, applied
+- **Physical Model** <a id="physical-model"></a>
+  - The BPM implemented in Sentaurus Device is based on the fast Fourier transform (FFT) and is a variant of the FFT BPM, which was developed by Feit and Fleck [7].
+  - _Keywords:_ partial, mathrm, Fourier, Delta, refractive, transform, FFT, nabla_
+- **Bidirectional BPM** <a id="bidirectional-bpm"></a>
+  - The bidirectional algorithm is based on two operators as described by Kaczmarski and Lagasse [8]. The first operator defines a unidirectional propagation, which is outlined in the previous section. The second operator accounts for the re...
+  - _Keywords:_ reflections, algorithm, operator, propagation, interfaces, direction, propagating, bidirectional
+- **Boundary Conditions** <a id="boundary-conditions"></a>
+  - Due to the finite size of the computational domain, appropriate boundary conditions must be chosen, which minimize any numeric errors in the propagation of the optical field related to boundary effects. In the standard FFT BPM, any waves...
+  - _Keywords:_ boundary, partial, mathrm, stretching, domain, conditions, optical, PML
+- **Using Beam Propagation Method** <a id="using-beam-propagation-method"></a>
+- **General** <a id="general"></a>
+  - The following code excerpt describes the general setup for using the scalar BPM solver to compute the optical generation. The computation of the optical generation is activated by an OpticalGeneration section, in which the QuantumYield m...
+  - _Keywords:_ refractive, BPM, Excitation, optical, specified, excitation, reference, propagation
+- **Bidirectional BPM** <a id="bidirectional-bpm"></a>
+  - The bidirectional BPM solver is activated by specifying a Bidirectional section in the BPM section:
+  - _Keywords:_ BPM, Bidirectional, iteration, Iterations, Error, forward, backward, iterations
+- **Excitation** <a id="excitation"></a>
+  - In the beam propagation method, a given input field, which is referred to as excitation in the remainder of this section, is propagated through the device structure. Two types of excitation are supported: a Gaussian and a (truncated) Pla...
+  - _Keywords:_ excitation, propagation, Gaussian, Excitation, direction, dimensions, Physics, Optics
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+- **Beam Propagation Method** <a id="beam-propagation-method"></a>
+  - ```txt ) ) ... ) } ```
+  - _Keywords:_ Truncated, excitation, Physics, Optics, OpticalSolver, BPM, Excitation, PlaneWave
+- **Boundary** <a id="boundary"></a>
+  - For every spatial dimension, a separate boundary condition and corresponding parameters can be defined. Periodic boundary conditions inherent to the FFT BPM solver are the default in the transverse dimensions. The specification of PML bo...
+  - _Keywords:_ boundary, PML, Order, GridNodes, spatial, conditions, BPM, direction
+- **Ramping Input Parameters** <a id="ramping-input-parameters"></a>
+  - Several input parameters of the BPM solver such as the wavelength of the incident light can be ramped to obtain device characteristics as a function of the specified parameter. The general concept of ramping the values of physical parame...
+  - _Keywords:_ ramping, Ramping, Several, BPM, solver, wavelength, incident, ramped
+- **Visualizing Results on Native Tensor Grid** <a id="visualizing-results-on-native-tensor-grid"></a>
+  - For an accurate analysis of the BPM results, the complex refractive index, the complex optical field, and the optical intensity can be plotted on the native tensor grid. In general, the results from the BPM solver are interpolated from a...
+  - _Keywords:_ tensor, TensorPlot, dimensions, BPM, results, optical, device, complex
+- **Composite Method** <a id="composite-method"></a>
+  - The composite method is an optical solver that composes an optical solution by summing the results of other optical solvers. Its flexibility targets applications with more complex optical setups that can be modeled as a linear superposit...
+  - _Keywords:_ optical, device, solver, simulation, instance, composite, method, solution
+- **Using the Composite Method** <a id="using-the-composite-method"></a>
+  - A typical simulation setup requires the definition of a named master Device or OpticalDevice (in the case of optics standalone simulations), and one or more additional definitions of OpticalDevice. In the master, the composite method is ...
+  - _Keywords:_ OpticalDevice, Optics, Device, instances, optical, instance, Physics, device
+- **Controlling Interpolation When Loading Optical Generation Profiles** <a id="controlling-interpolation-when-loading-optical-generation-pr"></a>
+  - You can load optical generation and absorbed photon density profiles into Sentaurus Device using either of the following features:
+  - _Keywords:_ interpolation, simulation, element, optical, generation, absorbed, photon, density
+- **21: Optical Generation** <a id="21-optical-generation"></a>
+  - Controlling Interpolation When Loading Optical Generation Profiles
+  - _Keywords:_ source, destination, domain, ImportDomain, interpolation, GridInterpolation, optical, ShiftVector
+- **Optical AC Analysis** <a id="optical-ac-analysis"></a>
+  - An optical AC analysis calculates the quantum efficiency as a function of the frequency of the optical signal intensity. The method is based on the AC analysis technique and provides real and imaginary parts of the quantum efficiency ver...
+  - _Keywords:_ mathrm, optical, perturbation, analysis, quantum, efficiency, frequency, lambda
+- **References** <a id="references"></a>
+  - [1] B. R. Bennett, R. A. Soref, and J. A. Del Alamo, “Carrier-Induced Change in Refractive Index of InP, GaAs, and InGaAsP,” IEEE Journal of Quantum Electronics, vol. 26, no. 1, pp. 113–122, 1990. [2] D. A. Clugston and P. A. Basore, “Mo...
+  - _Keywords:_ Journal, Bennett, Carrier, IEEE, Electronics, Free, Absorption, Solar
+- **21: Optical Generation References** <a id="21-optical-generation-references"></a>
+  - This chapter presents the radiation models used in Sentaurus Device.
+  - _Keywords:_ radiation, models, energy, particles, device, generation, presents, Sentaurus
+- **Generation by Gamma Radiation** <a id="generation-by-gamma-radiation"></a>
+- **Using Gamma Radiation Model** <a id="using-gamma-radiation-model"></a>
+  - The radiation model is activated by specifying the keyword Radiation(...) (with optional parameters) in the Physics section:
+  - _Keywords:_ DoseTime, radiation, DoseRate, specify, exposure, Radiation, optional, Dose
+- **Yield Function** <a id="yield-function"></a>
+  - Generation of electron–hole pairs due to radiation is an electric field–dependent process [1] and is modeled as follows:
+  - _Keywords:_ electron, follows, constants, Generation, radiation, electric, dependent, process
+- **Alpha Particles** <a id="alpha-particles"></a>
+- **Using Alpha Particle Model** <a id="using-alpha-particle-model"></a>
+  - Specify the AlphaParticle in the Physics section:
+  - _Keywords:_ particles, generation, AlphaParticle, Physics, carrier, alpha_, specify, transient
+- **Alpha Particle Model** <a id="alpha-particle-model"></a>
+  - The generation rate caused by an alpha particle with energy is computed by [2]:E
+  - _Keywords:_ mathrm, alpha_, generation, MeV, particle, energy, mathbf, mathbb
+- **Heavy Ions** <a id="heavy-ions"></a>
+  - When a heavy ion penetrates a device structure, it loses energy and creates a trail of electron–hole pairs. These additional electrons and holes might cause a large enough current to switch the logic state of a device, for example, a mem...
+  - _Keywords:_ energy, device, penetrates, structure, creates, electron, These, additional
+- **Using Heavy Ion Model** <a id="using-heavy-ion-model"></a>
+  - The simulation of an SEU caused by a heavy ion impact is activated by using the keyword HeavyIon in an appropriate Physics section:
+  - _Keywords:_ HeavyIon, Physics, generation, simulation, keyword, keyword_options, defined, IonName
+- **Heavy Ion Model** <a id="heavy-ion-model"></a>
+  - ![](images/sdevice_ug_part04_2d28d3acdfe42c679f492579e75944e0699c807f2612aaf32874d6ec41b22145.jpg)
+  - _Keywords:_ mathrm, generation, LET, defined, keyword, length, Gaussian, spatial
+- **Examples: Heavy Ions** <a id="examples-heavy-ions"></a>
+- **Example 1** <a id="example-1"></a>
+  - The track has a constant LET\_f value of across the track. The track length is 0.2 pC ⁄ μm 1 μm ( ) and the heavy ion crosses the device at the time . The unit of LET\_f islmax = 1 μm 0.1 ps and the spatial distribution is Gaussian. Sinc...
+  - _Keywords:_ LET, Length, DopingDependence, constant, across, length, crosses, device
+- **22: Radiation Models** <a id="22-radiation-models"></a>
+  - Heavy Ions
+  - _Keywords:_ Heavy, Ions, LET_f, Gaussian, PicoCoulomb, Plot, eDensity, hDensity
+- **Example 2** <a id="example-2"></a>
+  - The LET\_f and radius (Wt\_hi) values are functions of the position along the track (in this case, ). Values in between the array entries are linearly interpolated. The unit oflmax 1.7 –4 = ×10 cm LET\_f is (because the keyword PicoCoulo...
+  - _Keywords:_ LET, radius, Length, position, between, entries, linearly, interpolated
+- **Example 3** <a id="example-3"></a>
+  - This example illustrates multiple ion strikes in the SEU model.
+  - _Keywords:_ HeavyIon, Direction, Location, Time, Length, LET_f, Wt_hi, Ion1
+- **References** <a id="references"></a>
+  - [1] J.-L. Leray, “Total Dose Effects: Modeling for Present and Future,” IEEE Nuclear and Space Radiation Effects Conference (NSREC) Short Course, 1999. [2] A. Erlebach, Modellierung und Simulation strahlensensitiver Halbleiterbauelemente...
+  - _Keywords:_ variations, device, discusses, analysis, sensitivity, Sentaurus, Device, fluctuations
+- **Using the Impedance Field Method** <a id="using-the-impedance-field-method"></a>
+  - Sentaurus Device treats noise analysis, fluctuation analysis, and sensitivity analysis by the impedance field method, and as extensions of small-signal analysis (see Small-Signal AC Analysis on page 97).
+  - _Keywords:_ Sentaurus, Device, analysis, voltages, assuming, impedance, method, computes
+- **Specifying Variations** <a id="specifying-variations"></a>
+  - To use noise and random fluctuation analysis, specify the physical models for the microscopic origin of the deviations (called the local noise sources, LNS) as options to the keyword Noise in the Physics section of the command file of Se...
+  - _Keywords:_ Physics, string, variations, Noise, specify, specifies, RandomizedVariation, global
+- **Specifying the Solver** <a id="specifying-the-solver"></a>
+  - In any case, use the ObservationNode option to the ACCoupled statement to specify the device nodes for which the noise spectral densities or deviations are required, for example:
+  - _Keywords:_ ObservationNode, ACCoupled, statement, device, Node, n_drain, n_gate, NoisePlot
+- **Analysis at Frequency Zero** <a id="analysis-at-frequency-zero"></a>
+  - You can perform variation analysis at frequency zero. If you specify in the ACCoupled statement the single frequency zero by:
+  - _Keywords:_ analysis, frequency, responses, ACCoupled, statement, enabled, However, cannot
+- **Output of Results** <a id="output-of-results"></a>
+  - The results of the analysis are the noise voltage spectral densities, the noise current spectral densities, and voltage and current deviations. They appear in the ACExtract file (see Table 129) and, in the case of the sIFM, in a separate...
+  - _Keywords:_ NVSD, Real, fluctuations, NVXVSD, spectral, NISD, NIXISD, imaginary
+- **Noise Sources** <a id="noise-sources"></a>
+  - NOTE Noise scales differently with the device width compared to currents or voltages. For all noise sources noted in this section, for 2D devices, the device width is assumed to be given by AreaFactor. Therefore, it is not necessary to p...
+  - _Keywords:_ AreaFactor, structure, device, sources, obtain, correct, Noise, scales
+- **Common Options** <a id="common-options"></a>
+  - All noise sources discussed in this section can be specified with the parameters SpaceMid, SpaceSig, and SpatialShape. These parameters can restrict the noise source to a window. The possible values, the default values, and the modifier ...
+  - _Keywords:_ Noise, source, window, modifier, sources, specified, SpaceMid, SpaceSig
+- **Diffusion Noise** <a id="diffusion-noise"></a>
+  - The diffusion noise source (keyword DiffusionNoise) available in Sentaurus Device reads:
+  - _Keywords:_ stackrel, rightharpoonup, source, temperature, DiffusionNoise, carrier, diffusion, keyword
+- **Equivalent Monopolar Generation–Recombination Noise** <a id="equivalent-monopolar-generation-recombination-noise"></a>
+  - An equivalent monopolar generation–recombination (GR) noise source model (keyword MonopolarGRNoise) for a two-level, GR process can be expressed as a tensor [2]:
+  - _Keywords:_ stackrel, rightharpoonup, mathrm, recombination, equivalent, generation, monopolar, source
+- **Bulk Flicker Noise** <a id="bulk-flicker-noise"></a>
+  - The flicker generation–recombination (GR) noise model (keyword FlickerGRNoise) for electrons (similar for holes) is:
+  - _Keywords:_ stackrel, rightharpoonup, mathrm, frequency, flicker, generation, recombination, electrons
+- **Trapping Noise** <a id="trapping-noise"></a>
+  - The Traps option to Noise activates a trapping noise model that follows the microscopic model in [3]. The trapping noise sources are determined fully by the trap model and, therefore, do not require additional adjustable parameters. For ...
+  - _Keywords:_ trapping, mathrm, electron, capture, source, emission, Traps, Noise
+- **Random Dopant Fluctuations** <a id="random-dopant-fluctuations"></a>
+  - The noise sources for random dopant fluctuations are activated by the Doping keyword. The noise source for acceptor fluctuations reads:
+  - _Keywords:_ mathrm, Doping, stackrel, rightharpoonup, dopant, fluctuations, source, donors
+- **Random Geometric Fluctuations** <a id="random-geometric-fluctuations"></a>
+  - The geometric fluctuation model accounts for random displacements of electrodes on insulator, as well as metal–insulator, insulator–insulator, and semiconductor–insulator interfaces. The noise source reads:
+  - _Keywords:_ mathrm, insulator, stackrel, rightharpoonup, displacements, langle, rangle, geometric
+- **where:** <a id="where"></a>
+  - $\mathsf { \Pi } _ { r _ { 1 } } ^ { \circ }$ and $\mathsf { \Pi } _ { r _ { 2 } } ^ { \circ }$ are positions on the interface. ■ $\hat { \boldsymbol { n } } ( \sp \circ _ { r } )$ is the local interface normal in point $\mathring { r }$...
+  - _Keywords:_ interface, insulator, interfaces, variation, GeometricFluctuations, correlation, surfaces, surface
+- **Random Trap Concentration Fluctuations** <a id="random-trap-concentration-fluctuations"></a>
+  - Trap concentration variations are activated by the TrapConcentration option to Noise. For each trap level, Sentaurus Device uses a noise source of the form:
+  - _Keywords:_ concentration, mathrm, Trap, variations, activated, TrapConcentration, Noise, Sentaurus
+- **Random Workfunction Fluctuations** <a id="random-workfunction-fluctuations"></a>
+  - The random workfunction fluctuations describe the impact of the fluctuation of the workfunction at contacts on insulators and at metal–insulator interfaces. The noise source reads:
+  - _Keywords:_ stackrel, rightharpoonup, WorkfunctionFluctuations, workfunction, lambda, fluctuations, contacts, insulators
+- **Random Band Edge Fluctuations** <a id="random-band-edge-fluctuations"></a>
+  - Random band edge fluctuations describe the effect of the variation of the electron affinity $\delta \chi$ and the band gap $\delta { \cal E } _ { \mathrm { g , t o t } } = \alpha \delta \chi + \delta { \cal E } _ { \mathrm { g } }$ , whe...
+  - _Keywords:_ mathrm, stackrel, rightharpoonup, string, fluctuations, valence, BandEdgeFluctuations, specified
+- **Random Metal Conductivity Fluctuations** <a id="random-metal-conductivity-fluctuations"></a>
+  - Metal conductivity fluctuations are activated by the option ConductivityFluctuations to Noise:
+  - _Keywords:_ conductivity, fluctuations, ConductivityFluctuations, string, Noise, Metal, activated, Physics
+- **Random Dielectric Constant Fluctuations** <a id="random-dielectric-constant-fluctuations"></a>
+  - Random dielectric constant fluctuations are activated by the option EpsilonFluctuations to Noise:
+  - _Keywords:_ dielectric, constant, fluctuations, EpsilonFluctuations, string, Random, Noise, activated
+- **Noise From SPICE Circuit Elements** <a id="noise-from-spice-circuit-elements"></a>
+  - To take into account the noise generated by SPICE circuit elements (see Compact Models User Guide, Chapter 1 on page 1), specify the CircuitNoise option to ACCoupled. The form of the noise source for a particular circuit element is defin...
+  - _Keywords:_ SPICE, circuit, elements, compact, Sentaurus, Device, noiseless, account
+- **Statistical Impedance Field Method** <a id="statistical-impedance-field-method"></a>
+  - The statistical impedance field method (sIFM) can be applied to doping concentration, trap concentration, semiconductor–insulator and insulator–insulator interface positions, and the workfunction at contacts on insulators and metal–insul...
+  - _Keywords:_ RandomizedVariation, variations, string, sIFM, insulator, randomized, device, specified
+- **Options Common to sIFM Variations** <a id="options-common-to-sifm-variations"></a>
+  - All variations supported by sIFM provide the keywords SpatialShape, SpaceMid, and SpaceSig. They allow you to multiply the variation by a space-dependent factor, and they work in the same way as for traps (see Energetic and Spatial Distr...
+  - _Keywords:_ SpatialShape, SpaceSig, SpaceMid, Gaussian, components, variations, variation, dependent
+- **Spatial Correlations and Random Fields** <a id="spatial-correlations-and-random-fields"></a>
+  - Several variations supported by sIFM are spatially correlated. You can specify the statistical properties of the correlation either directly in the specification of the variation or by declaring RandomField in the RandomizedVariation sec...
+  - _Keywords:_ variations, random, components, lambda, variation, spatial, component, lambda_
+- **Doping Variations** <a id="doping-variations"></a>
+  - Doping variations are enabled using the Doping keyword:
+  - _Keywords:_ Doping, randomized, RandomizedVariation, Acceptor, Mobility, BandgapNarrowing, dopants, volume
+- **Trap Concentration Variations** <a id="trap-concentration-variations"></a>
+  - For the sIFM, variations of the random trap concentration are activated with the keyword TrapConcentration:
+  - _Keywords:_ sIFM, concentration, TrapConcentration, vector, variations, random, activated, keyword
+- **Workfunction Variations** <a id="workfunction-variations"></a>
+  - For the sIFM, workfunction variations are activated and controlled using the Workfunction keyword:
+  - _Keywords:_ workfunction, vector, sIFM, GrainWorkfunction, Workfunction, string, Surface, Gaussian
+- **Geometric Variations** <a id="geometric-variations"></a>
+  - For the sIFM, geometric variations are activated and controlled using the Geometric keyword:
+  - _Keywords:_ vector, Geometric, Amplitude, insulator, overset, Random, mathrm, string
+- **Band Edge Variations** <a id="band-edge-variations"></a>
+  - For the sIFM, band edge variations are activated and controlled using the BandEdge keyword:
+  - _Keywords:_ GrainProbability, vector, GrainEg, correlations, mathrm, Gaussian, component, variations
+- **Metal Conductivity Variations** <a id="metal-conductivity-variations"></a>
+  - For the sIFM, metal conductivity variations are activated and controlled using the Conductivity keyword:
+  - _Keywords:_ vector, GrainProbability, conductivity, string, Gaussian, GrainConductivity, correlations, sIFM
+- **Dielectric Constant Variations** <a id="dielectric-constant-variations"></a>
+  - For the sIFM, relative dielectric constant variations are activated and controlled using the Epsilon keyword:
+  - _Keywords:_ vector, dimensionless, constant, GrainProbability, relative, dielectric, string, Gaussian
+- **Doping Profile Variations** <a id="doping-profile-variations"></a>
+  - Doping profile variations are activated and controlled using the DopingVariation keyword:
+  - _Keywords:_ vector, Gaussian, Doping, DopingVariation, string, Amplitude, Mobility, BandgapNarrowing
+- **Deterministic Variations** <a id="deterministic-variations"></a>
+  - For deterministic variations, you specify the variations directly, by specifying the actual deviation in doping, geometry, or model parameters. Sentaurus Device computes the effect of the variations on the observation node voltages and c...
+  - _Keywords:_ variations, deterministic, random, fluctuations, specify, directly, specifying, actual
+- **Deterministic Doping Variations** <a id="deterministic-doping-variations"></a>
+  - Deterministic doping variations are specified as an option to DeterministicVariation in the Physics section:
+  - _Keywords:_ DeterministicVariation, Physics, vector, Deterministic, doping, variations, specified, DopingVariation
+- **23: Noise, Fluctuations, and Sensitivity** <a id="23-noise-fluctuations-and-sensitivity"></a>
+- **Deterministic Variations** <a id="deterministic-variations"></a>
+  - ```txt SpaceSig = <vector> -Mobility -BandgapNarrowing ) ... ) ... } ```
+  - _Keywords:_ concentration, dataset, mathrm, doping, variation, Conc, specified, Mobility
+- **Deterministic Geometric Variations** <a id="deterministic-geometric-variations"></a>
+  - Deterministic geometric variations are specified as an option to DeterministicVariation in the Physics section:
+  - _Keywords:_ Amplitude, vector, Gaussian, keywords, variations, specified, DeterministicVariation, Physics
+- **Parameter Variations** <a id="parameter-variations"></a>
+  - Sentaurus Device allows to compute the linear response to the variation of any parameter that can be ramped. The parameter variations are specified as an option to DeterministicVariation in the Physics section:
+  - _Keywords:_ string, variation, linear, compute, variations, Factor, Summand, specify
+- **IFM Section** <a id="ifm-section"></a>
+  - Instead of defining the noise and variation models in the Math and Physics sections, you can also define all these models in the IFM section as follows:
+  - _Keywords:_ rowspan, Noise, lambda, IFM, Amplitude, models, MonopolarGRNoise, e_alpha
+- **Impedance Field Method** <a id="impedance-field-method"></a>
+  - The impedance field method splits noise and fluctuation analysis into two tasks. The first task is to provide models for local microscopic fluctuations inside the devices. The selection of the appropriate models depends on the problem. Y...
+  - _Keywords:_ current, voltage, Green, called, spectral, fluctuation, models, second
+- **Noise Output Data** <a id="noise-output-data"></a>
+  - Several variables can be plotted during noise analysis. For each device, a NoisePlot section can be specified similar to the Plot section, where the data to be plotted is listed. Besides the standard data, additional noise-specific data ...
+  - _Keywords:_ Real, imaginary, LNVSD, LNS, plotted, device, specified, NoisePlot
+- **References** <a id="references"></a>
+  - [1] F. Bonani et al., “An Efficient Approach to Noise Analysis Through Multidimensional Physics-Based Models,” IEEE Transactions on Electron Devices, vol. 45, no. 1, pp. 261–269, 1998. [2] J.-P. Nougier, “Fluctuations and Noise of Hot Ca...
+  - _Keywords:_ tunneling, devices, models, Noise, Devices, discussed, transport, Tunneling
+- **Overview of Tunneling Models** <a id="overview-of-tunneling-models"></a>
+  - Sentaurus Device provides different tunneling models. The nonlocal tunneling model is the most versatile (see Nonlocal Tunneling at Interfaces, Contacts, and Junctions on page 734) and includes the following features:
+  - _Keywords:_ tunneling, floating, Tunneling, describe, between, through, insulators, additional
+- **Fowler–Nordheim Tunneling** <a id="fowler-nordheim-tunneling"></a>
+  - Fowler–Nordheim tunneling is a special case of tunneling also covered by the nonlocal and direct tunneling models, where tunneling is to the conduction band of the oxide. The Fowler–Nordheim tunneling model is simple and efficient, and h...
+  - _Keywords:_ tunneling, Fowler, Nordheim, special, covered, nonlocal, direct, models
+- **Using Fowler–Nordheim** <a id="using-fowler-nordheim"></a>
+  - To switch on the Fowler–Nordheim tunneling model, specify Fowler as an option to GateCurrent in an appropriate interface Physics section, as follows:
+  - _Keywords:_ Fowler, GateCurrent, tunneling, Nordheim, Physics, interface, MaterialInterface, Silicon
+- **Fowler–Nordheim Model** <a id="fowler-nordheim-model"></a>
+  - The Fowler–Nordheim model reads:
+  - _Keywords:_ tunneling, mathrm, current, electrons, interface, Sentaurus, Device, carrier
+- **Fowler–Nordheim Parameters** <a id="fowler-nordheim-parameters"></a>
+  - The parameters of the Fowler–Nordheim model can be modified in the FowlerModel parameter set. Sentaurus Device uses different parameters (denoted as erase and write) depending on the direction of the electric field between the contact an...
+  - _Keywords:_ contact, Fowler, Nordheim, semiconductor, modified, FowlerModel, Sentaurus, Device
+- **Direct Tunneling** <a id="direct-tunneling"></a>
+  - Direct tunneling is the main gate leakage mechanism for oxides thinner than . It turns into3 nm Fowler–Nordheim tunneling at oxide fields higher than approximately ,6 MV cm⁄ independent of the oxide thickness. This section describes a fu...
+  - _Keywords:_ tunneling, Fowler, Nordheim, direct, Direct, leakage, mechanism, oxides
+- **Using Direct Tunneling** <a id="using-direct-tunneling"></a>
+  - The direct tunneling model is specified as an option of the GateCurrent statement (see Using Fowler–Nordheim on page 728) in an appropriate interface Physics section:
+  - _Keywords:_ Fowler, Nordheim, effect, direct, tunneling, specified, GateCurrent, Physics
+- **Direct Tunneling Model** <a id="direct-tunneling-model"></a>
+  - This section summarizes the model described in the literature [1]. It presents the formulas for electrons only; the hole expressions are analogous. The electron tunneling current density is:
+  - _Keywords:_ mathrm, barrier, Theta_, denotes, energy, electrons, electron, tunneling
+- **Image Force Effect** <a id="image-force-effect"></a>
+  - Ultrathin oxide barriers are affected by the image force effect. If the latter is neglected, $E _ { \mathrm { B } } ( E )$ is the bare barrier height $E _ { \mathrm { B } }$ , which is an input parameter. The image force effect is includ...
+  - _Keywords:_ mathrm, varepsilon_, effect, energy, pseudobarrier, barrier, potential, chosen
+- **Direct Tunneling Parameters** <a id="direct-tunneling-parameters"></a>
+  - The parameters of the direct tunneling model are modified in the DirectTunneling parameter set. The appropriate default parameters for an oxide barrier on silicon are in Table 133. The parameters are specified according to the interface.
+  - _Keywords:_ tunneling, barrier, Effective, insulator, direct, silicon, interface, contact
+- **Nonlocal Tunneling at Interfaces, Contacts, and Junctions** <a id="nonlocal-tunneling-at-interfaces-contacts-and-junctions"></a>
+  - The tunneling current depends on the band edge profile along the entire path between the points connected by tunneling. This makes tunneling a nonlocal process. In general, the band edge profile has a complicated shape, and Sentaurus Dev...
+  - _Keywords:_ tunneling, nonlocal, Nonlocal, profile, physical, Tunneling, current, depends
+- **Defining Nonlocal Meshes** <a id="defining-nonlocal-meshes"></a>
+  - It is necessary to specify a special-purpose nonlocal mesh for each part of the device for which you want to use the nonlocal tunneling model. Nonlocal meshes consist of ‘nonlocal’ lines that represent the tunneling paths for the carriers.
+  - _Keywords:_ nonlocal, tunneling, interface, Permeation, Nonlocal, specify, barrier, NonLocal
+- **Specifying Nonlocal Tunneling Model** <a id="specifying-nonlocal-tunneling-model"></a>
+  - The nonlocal tunneling model is activated and controlled in the global Physics section. Each tunneling event connects two points on a nonlocal line. Sentaurus Device distinguishes between tunneling to the conduction band and to the valen...
+  - _Keywords:_ tunneling, nonlocal, mathrm, conduction, eBarrierTunneling, Band2Band, valence, hBarrierTunneling
+- **Nonlocal Tunneling Parameters** <a id="nonlocal-tunneling-parameters"></a>
+  - The nonlocal tunneling model has several fit parameters. They are specified in the BarrierTunneling parameter set.
+  - _Keywords:_ tunneling, masses, mathrm, meshes, nonlocal, specific, quantum, BarrierTunneling
+- **Visualizing Nonlocal Tunneling** <a id="visualizing-nonlocal-tunneling"></a>
+  - To visualize nonlocal tunneling, specify the keyword eBarrierTunneling or hBarrierTunneling in the Plot section (see Device Plots on page 123). The quantities plotted are in units of and represent the rate at which electrons and holes ar...
+  - _Keywords:_ tunneling, plotted, nonlocal, specify, Peltier, visualize, keyword, eBarrierTunneling
+- **Physics of Nonlocal Tunneling Model** <a id="physics-of-nonlocal-tunneling-model"></a>
+  - The nonlocal tunneling model in Sentaurus Device is based on the approach presented in the literature [2], but provides significant enhancements over the model presented there.
+  - _Keywords:_ presented, nonlocal, tunneling, Sentaurus, Device, approach, literature, provides
+- **WKB Tunneling Probability** <a id="wkb-tunneling-probability"></a>
+  - The computation of the tunneling probabilities $\Gamma _ { \mathrm { C , v } }$ (for carriers tunneling to the -th shiftedν conduction band at the interface or contact) and $\Gamma _ { \mathrm { V , v } }$ (for tunneling to the -th shift...
+  - _Keywords:_ mathrm, varepsilon, tunneling, kappa_, Gamma, specified, dispersion, interface
+- **24: Tunneling** <a id="24-tunneling"></a>
+  - Nonlocal Tunneling at Interfaces, Contacts, and Junctions
+  - _Keywords:_ smaller, RefinedIntervals, feature, BarrierLowering, Nonlocal, Tunneling, Interfaces, Contacts
+- **Schrödinger Equation–Based Tunneling Probability** <a id="schr-dinger-equation-based-tunneling-probability"></a>
+  - In addition to the WKB-based models discussed in WKB Tunneling Probability on page 741, Sentaurus Device can compute tunneling probabilities based on the Schrödinger equation. For the Schrödinger equation–based model, Sentaurus Device co...
+  - _Keywords:_ mathrm, tunneling, Sentaurus, Device, Tunneling, equation, energy, outside
+- **Density Gradient Quantization Correction** <a id="density-gradient-quantization-correction"></a>
+  - Two different quantization corrections to tunneling are available with the density gradient model (see Density Gradient Model on page 298).
+  - _Keywords:_ tunneling, quantization, correction, mathrm, Lambda, direction, problem, energy
+- **Multivalley Band Structure and Geometric Quantization** <a id="multivalley-band-structure-and-geometric-quantization"></a>
+  - When used with the Multivalley option, the tunneling model uses the multivalley band structure as described in Multivalley Band Structure on page 269. In particular, this means:
+  - _Keywords:_ tunneling, multivalley, described, quantization, accounted, valleys, conduction, valence
+- **24: Tunneling** <a id="24-tunneling"></a>
+  - Nonlocal Tunneling at Interfaces, Contacts, and Junctions
+  - _Keywords:_ Tunneling, tunneling, energy, Nonlocal, valley, direction, quantization, mathfrak
+- **Nonlocal Tunneling Current** <a id="nonlocal-tunneling-current"></a>
+  - For a point at , the expression for the net conduction band electron recombination rate due tou tunneling to and from the -th shifted conduction band at pointν $l < u$ with energy is:ε
+  - _Keywords:_ mathrm, varepsilon, conduction, tunneling, second, vartheta, electron, recombination
+- **Band-to-Band Contributions to Nonlocal Tunneling Current** <a id="band-to-band-contributions-to-nonlocal-tunneling-current"></a>
+  - When you specify the Band2Band option to eBarrierTunneling (see Table 232 on page 1427), the total current that flows to the conduction band at point also contains electronsl that originate from the valence band at position $u > l$ .
+  - _Keywords:_ mathrm, varepsilon, tunneling, conduction, valence, current, dispersion, specify
+- **Carrier Heating** <a id="carrier-heating"></a>
+  - In hydrodynamic simulations, carrier transport leads to energy transport and, therefore, to heating or cooling of electrons and holes. The energy transport has a convective and a Peltier part. By default, Sentaurus Device ignores the Pel...
+  - _Keywords:_ transport, Peltier, energy, hydrodynamic, simulations, carrier, therefore, heating
+- **24: Tunneling** <a id="24-tunneling"></a>
+  - Nonlocal Tunneling at Interfaces, Contacts, and Junctions
+  - _Keywords:_ varepsilon, mathrm, Peltier, generation, conduction, tunneling, heating, convective
+- **References** <a id="references"></a>
+  - [1] A. Schenk and G. Heiser, “Modeling and simulation of tunneling through ultra-thin gate dielectrics,” Journal of Applied Physics, vol. 81, no. 12, pp. 7900–7908, 1997. [2] M. Ieong et al., “Comparison of Raised and Schottky Source/Dra...
+  - _Keywords:_ Tunneling, tunneling, Applied, Physics, Model, USA, Device, Schenk
+- **Overview of Hot-Carrier Injection Models** <a id="overview-of-hot-carrier-injection-models"></a>
+  - Hot-carrier injection is a mechanism for gate leakage. The effect is especially important for write operations in EEPROMs. Sentaurus Device provides different built-in hot-carrier injection models and a PMI for user-defined models:
+  - _Keywords:_ carrier, injection, models, distribution, tunneling, Hot, Maxwellian, energy
+- **Destination of Injected Current** <a id="destination-of-injected-current"></a>
+  - The destination of the injection current depends on the user selection and the material properties of the hot interface (interface source for hot carriers).
+  - _Keywords:_ region, semiconductor, interface, floating, charge, contact, boundary, mathrm
+- **Injection Barrier and Image Potential** <a id="injection-barrier-and-image-potential"></a>
+  - All hot-carrier injection models are implemented as a postprocessing computation after each Sentaurus Device simulation point. The lucky electron model and Fiegna model specify some properties of semiconductor–insulator interfaces. The m...
+  - _Keywords:_ mathrm, insulator, mathfrak, interface, varepsilon, barrier, carrier, electron
+- **Effective Field** <a id="effective-field"></a>
+  - The lucky electron model and Fiegna model have an effective electric field $F _ { \mathrm { e f f } }$ as a parameter. In Sentaurus Device, there are three possibilities to calculate the effective field:
+  - _Keywords:_ carrier, keyword, temperature, CarrierTempDrive, electron, effective, electric, switched
+- **Classical Lucky Electron Injection** <a id="classical-lucky-electron-injection"></a>
+  - The classical total lucky electron current from an interface to a gate contact can be written as [1]:
+  - _Keywords:_ mathrm, varepsilon, lambda, electron, probability, lambda_, interface, energy
+- **Fiegna Hot-Carrier Injection** <a id="fiegna-hot-carrier-injection"></a>
+  - The total hot-carrier injection current according to the Fiegna model [2] can be written as:
+  - _Keywords:_ mathrm, varepsilon, electron, energy, current, Fiegna, semiconductor, insulator
+- **SHE Distribution Hot-Carrier Injection** <a id="she-distribution-hot-carrier-injection"></a>
+  - To obtain the hot-carrier injection current, accurate knowledge of the nonequilibrium electronenergy distribution is required. The spherical harmonics expansion (SHE) distribution hotcarrier injection model calculates the hot-carrier inj...
+  - _Keywords:_ mathrm, varepsilon_, varepsilon, injection, distribution, barrier, carrier, SHE
+- **Spherical Harmonics Expansion Method** <a id="spherical-harmonics-expansion-method"></a>
+  - The spherical harmonics expansion (SHE) method computes the microscopic carrier energy distribution function $f ( \stackrel { \cdot } { r } , \varepsilon )$ by solving the lowest-order SHE of the Boltzmann transport equation (BTE) [4]:
+  - _Keywords:_ varepsilon_, mathrm, SHE, spherical, harmonics, expansion, method, computes
+- **where:** <a id="where"></a>
+  - ■ is the occupation probability of electrons ( can be larger than one as nondegeneratef f statistics is assumed). ■ $ \varepsilon _ { \mathrm { t } }$ is the total energy including the conduction band energy $E _ { \mathrm { C } }$ and t...
+  - _Keywords:_ mathrm, varepsilon, energy, scattering, occupation, probability, electrons, larger
+- **where:** <a id="where"></a>
+  - $\begin{array} { r } { \varepsilon = \varepsilon _ { \mathrm { t } } - E _ { \mathrm { C } } \overset { \vartriangle } { \boldsymbol { r } } ) } \end{array}$ 不 is the kinetic energy. $g _ { \mathrm { v } }$ is the valley degeneracy.
+  - _Keywords:_ mathrm, varepsilon, varepsilon_, scattering, mathfrak, phonon, energy, written
+- **Using Spherical Harmonics Expansion Method** <a id="using-spherical-harmonics-expansion-method"></a>
+  - The electron-energy distribution function is calculated from Eq. 804, p. 760 in the semiconductor regions specified by the global, region-specific, or material-specific Physics section:
+  - _Keywords:_ mathrm, varepsilon, energy, method, electrons, Math, mathtt, SHE
+- **Visualizing Spherical Harmonics Expansion Method** <a id="visualizing-spherical-harmonics-expansion-method"></a>
+  - For plotting purposes, the SHE method provides several macroscopic variables that can be obtained from the energy distribution function:
+  - _Keywords:_ varepsilon, mathrm, SHE, energy, electron, distribution, eSHEDistribution, density
+- **Carrier Injection With Explicitly Evaluated Boundary Conditions for Continuity Equations** <a id="carrier-injection-with-explicitly-evaluated-boundary-conditi"></a>
+  - Hot-carrier current can be added as an interface boundary condition for continuity equations in adjacent semiconductor regions. A typical structure (see Figure 50) consists of sequences of semiconductor–insulator–semiconductor regions. H...
+  - _Keywords:_ semiconductor, carrier, current, interface, insulator, region, regions, injection
+- **References** <a id="references"></a>
+  - [1] K. Hasnat et al., “A Pseudo-Lucky Electron Model for Simulation of Electron Gate Current in Submicron NMOSFET’s,” IEEE Transactions on Electron Devices, vol. 43, no. 8, pp. 1264–1273, 1996. [2] C. Fiegna et al., “Simple and Efficient...
+  - _Keywords:_ Electron, Simulation, Devices, Boltzmann, Monte, Carlo, Physics, Gate
+- **Thermionic Emission Current** <a id="thermionic-emission-current"></a>
+  - Conventional transport equations cease to be valid at a heterojunction interface, and currents and energy fluxes at the abrupt interface between two materials are better defined by the interface condition at the heterojunction. In defini...
+  - _Keywords:_ interface, heterojunction, energy, thermionic, Conventional, transport, equations, currents
+- **Using Thermionic Emission Current** <a id="using-thermionic-emission-current"></a>
+  - To activate the thermionic current model for electrons at a region-interface (material-interface) heterojunction, the keyword eThermionic must be specified in the appropriate regioninterface (material-interface) Physics section, for exam...
+  - _Keywords:_ interface, thermionic, keyword, Physics, specified, appropriate, Region, activate
+- **Thermionic Emission Model** <a id="thermionic-emission-model"></a>
+  - Assume that at the heterointerface between materials 1 and 2, the conduction edge jump is positive, that is $\Delta E _ { \mathrm C } > 0$ , where $\Delta E _ { \mathrm { C } } = E _ { \mathrm { C } , 2 } - E _ { \mathrm { C } , 1 }$ (th...
+  - _Keywords:_ mathrm, Delta, electron, density, current, energy, equations, material
+- **Thermionic Emission Model With Fermi Statistics** <a id="thermionic-emission-model-with-fermi-statistics"></a>
+  - With Fermi statistics, the electron current density and the electron energy flux density are:
+  - _Keywords:_ boldsymbol, Formula, Fermi, statistics, mathrm, mathsf, density, electron
+- **Gaussian Transport Across Organic Heterointerfaces** <a id="gaussian-transport-across-organic-heterointerfaces"></a>
+  - A thermionic-like current boundary condition has been introduced to correctly account for carrier transport across organic heterointerfaces. An organic heterointerface is defined in this context as an heterointerface with the Gaussian de...
+  - _Keywords:_ heterointerface, organic, Gaussian, thermionic, current, boundary, condition, introduced
+- **Using Gaussian Transport at Organic Heterointerfaces** <a id="using-gaussian-transport-at-organic-heterointerfaces"></a>
+  - The model is activated by switching to the Gaussian DOS model in both regions of the heterointerface that are meant to be organic:
+  - _Keywords:_ Physics, heterointerface, organic, OrganicRegion_1, OrganicRegion_2, Region, EffectiveMass, GaussianDOS
+- **Gaussian Transport at Organic Heterointerface Model** <a id="gaussian-transport-at-organic-heterointerface-model"></a>
+  - Assuming a positive conduction edge jump and a negative valence edge jump from material 1 to material 2, the boundary conditions at the organic heterointerface are given by:
+  - _Keywords:_ material, Delta, mathrm, Assuming, positive, conduction, negative, valence
+- **where:** <a id="where"></a>
+  - $J _ { n , 2 }$ and $J _ { n , 1 }$ are the electron current densities entering material 2 and leaving material 1, respectively. $J _ { p , 2 }$ and $J _ { p , 1 }$ are the hole current densities leaving material 2 and entering material ...
+  - _Keywords:_ mathrm, material, current, densities, entering, leaving, respectively, Delta
+- **References** <a id="references"></a>
+  - [1] D. Schroeder, Modelling of Interface Carrier Transport for Device Simulation, Wien: Springer, 1994. [2] K. Horio and H. Yanai, “Numerical Modeling of Heterojunctions Including the Thermionic Emission Mechanism at the Heterojunction I...
+  - _Keywords:_ Interface, Schroeder, Modelling, Carrier, Transport, Device, Simulation, Wien
+- **Overview** <a id="overview"></a>
+  - Sentaurus Device provides the possibility to specify some parameters as a ratio of two irrational polynomials. The general form of such ratio is written as:
+  - _Keywords:_ possibility, factor, variable, different, coefficients, intervals, defined, operatorname
+- **Energy-Dependent Energy Relaxation Time** <a id="energy-dependent-energy-relaxation-time"></a>
+  - For the specification of the energy relaxation time, the following modification of Eq. 860 is used:
+  - _Keywords:_ specification, energy, relaxation, modification
+- **27: Energy-Dependent Parameters** <a id="27-energy-dependent-parameters"></a>
+  - Energy-Dependent Energy Relaxation Time
+  - _Keywords:_ tau_w_ele, Wmax, interval, Formula, relaxation, energy, tau_w_hol, Energy
+- **Spline Interpolation** <a id="spline-interpolation"></a>
+  - Sentaurus Device also allows spline approximation of energy relaxation time over energy. In this case, the parameter Formula(tau\_w\_ele) for electron energy relaxation time (and similarly, parameter Formula(tau\_w\_hol) for hole energy ...
+  - _Keywords:_ energy, relaxation, Formula, Sentaurus, Device, allows, spline, approximation
+- **27: Energy-Dependent Parameters** <a id="27-energy-dependent-parameters"></a>
+  - Energy-Dependent Mobility
+  - _Keywords:_ energy, Spline, relaxation, dependent, Energy, specified, tau_w_ele, Dependent
+- **Energy-Dependent Mobility** <a id="energy-dependent-mobility"></a>
+  - In addition to the existing energy-dependent mobility models (such as Caughey–Thomas, where the effective field is computed inside Sentaurus Device as a function of the carrier temperature), a more complex, user-supplied mobility model c...
+  - _Keywords:_ interval, Wmax, mobility, overline, mathrm, Denominator, Numerator, energy
+- **Spline Interpolation** <a id="spline-interpolation"></a>
+  - Instead of the rational polynomial in Eq. 862, a spline interpolation can be used as well. In this case, the option CarrierTempDriveSpline must be used for the high-field mobility model in the command file:
+  - _Keywords:_ spline, points, CarrierTempDriveSpline, mobility, overline, Spline, Instead, rational
+- **Energy-Dependent Peltier Coefficient** <a id="energy-dependent-peltier-coefficient"></a>
+  - Sentaurus Device allows for the following modification of the expression of the energy flux equation:
+  - _Keywords:_ overline, partial, Wmax, interval, factor, Delta, Numerator, Sentaurus
+- **27: Energy-Dependent Parameters** <a id="27-energy-dependent-parameters"></a>
+- **Energy-Dependent Peltier Coefficient** <a id="energy-dependent-peltier-coefficient"></a>
+  - ```txt * A(0) = * P(0) = * A(1) = * P(1) = * G = * } * Denominator(interval)_ele{ * A(0) = * P(0) = * G = * } * Wmax(interval)_hol = * F(interval)_hol = 1 f(0)_ele = 1 Denominator(0)_ele{ A(0) = 1. P(0) = 0. A(1) = 1. P(1) = 2. G = 1.5 }...
+  - _Keywords:_ interval, Denominator, Wmax
+- **Spline Interpolation** <a id="spline-interpolation"></a>
+  - Instead of the rational polynomial in Eq. 867, a spline interpolation can be used as well. The function is defined in the parameter file by a sequence of value pairs:Q w( )
+  - _Keywords:_ spline, points, Spline, Instead, rational, polynomial, interpolation, defined
+- **27: Energy-Dependent Parameters** <a id="27-energy-dependent-parameters"></a>
+  - Energy-Dependent Peltier Coefficient
+  - _Keywords:_ Energy, Dependent, Peltier, Coefficient, discusses, anisotropic, properties, semiconductor
+- **Anisotropic Properties of Semiconductor Devices** <a id="anisotropic-properties-of-semiconductor-devices"></a>
+  - In general, all equations for semiconductor devices can be written in the following form:
+  - _Keywords:_ tensor, coefficient, Anisotropic, matrix, boldsymbol, anisotropic, equation, equations
+- **Anisotropic Approximations** <a id="anisotropic-approximations"></a>
+  - Due to the complexity of anisotropic simulations, Sentaurus Device offers different approximations:
+  - _Keywords:_ approximation, orientation, accuracy, results, accurate, TensorGridAniso, anisotropic, Delaunay
+- **AverageAniso** <a id="averageaniso"></a>
+  - This is the default approximation and it uses a local (vertex-wise) linear transformation, which transforms an anisotropic problem to an isotropic one. After this, Sentaurus Device uses the AverageBoxMethod algorithm to compute control v...
+  - _Keywords:_ approximation, AverageBoxMethod, AverageAniso, vertex, linear, transformation, transforms, anisotropic
+- **TensorGridAniso** <a id="tensorgridaniso"></a>
+  - This approximation is simple and is correct only for tensor grids or grids close to tensor ones. The anisotropic effects are modeled using a tensor-grid approximation. The eigenvalues and eigenvectors of tensor are used as multiplication...
+  - _Keywords:_ tensor, TensorGridAniso, approximation, anisotropic, stress, Math, mobility, Piezo
+- **AnisoSG** <a id="anisosg"></a>
+  - The anisotropic Scharfetter–Gummel (AnisoSG) approximation is available for the Poisson, continuity, and thermodynamics equations. If the anisotropic direction is inconsistent with the mesh, the AverageAniso and TensorGridAniso approxima...
+  - _Keywords:_ AnisoSG, approximation, anisotropic, Math, Scharfetter, Gummel, overrightarrow, continuity
+- **StressSG** <a id="stresssg"></a>
+  - This approximation is implemented for stress problems and it affects anisotropic mobility (see Chapter 31 on page 837). To activate this approximation, specify the StressSG keyword in the global Math section:
+  - _Keywords:_ approximation, StressSG, Math, implemented, stress, problems, affects, anisotropic
+- **Crystal and Simulation Coordinate Systems** <a id="crystal-and-simulation-coordinate-systems"></a>
+  - Sentaurus Device uses the simulation coordinate system (mesh geometry) and the crystal coordinate system. Anisotropic material parameters are defined in the crystal coordinate system.
+  - _Keywords:_ coordinate, system, crystal, simulation, LatticeParameters, defined, Sentaurus, Device
+- **IMPORTANT** <a id="important"></a>
+  - In the 2D case, there is a difference between how Sentaurus Device interprets the X and Y vectors read from a parameter file or directly from a TDR file. All of the general parameter files stored in the \$STROOT/tcad/\$STRELEASE/lib/sdev...
+  - _Keywords:_ Sentaurus, vectors, Device, coordinate, difference, between, interprets, directly
+- **Cylindrical Symmetry** <a id="cylindrical-symmetry"></a>
+  - Sentaurus Device supports only anisotropy with cylindrical symmetry. This means matrix A can be written as:
+  - _Keywords:_ underset, mathbb, matrix, mathrm, dimensions, Sentaurus, Device, supports
+- **Anisotropic Direction in 3D Cases** <a id="anisotropic-direction-in-3d-cases"></a>
+  - The vector $\vec { A _ { z } }$ defines the anisotropic direction in the simulation coordinate system. This direction can be defined in the Aniso subsection of the command file in the crystal coordinate system (default) or the simulation...
+  - _Keywords:_ direction, anisotropic, coordinate, system, Aniso, simulation, vector, defines
+- **Anisotropic Direction in 2D Cases** <a id="anisotropic-direction-in-2d-cases"></a>
+  - The main rule for anisotropic direction in 2D cases is the following:
+  - _Keywords:_ direction, Sentaurus, Device, Aniso, anisotropic, anisotropy, simulation, Subsection
+- **Aniso Subsection With Direction Definition** <a id="aniso-subsection-with-direction-definition"></a>
+  - In this case, the X and Y vectors and direction vector can be 3D vectors (but the z-component of the aniso\_dir vector must be zero).
+  - _Keywords:_ vectors, vector, direction, component, correct, incorrect, definitions
+- **Example 1: SimulationSystem Option** <a id="example-1-simulationsystem-option"></a>
+  - In this case, there is no dependence on the LatticeParameters section.
+  - _Keywords:_ Aniso, direction, SimulationSystem, dependence, LatticeParameters, python, correct, incorrect
+- **Example 2: CrystalSystem Option (Default)** <a id="example-2-crystalsystem-option-default"></a>
+  - There is a dependence on the LatticeParameters section.
+  - _Keywords:_ definition, dependence, LatticeParameters, Aniso, direction, CrystalSystem, Sentaurus, Device
+- **Example 3: LatticeParameters Section** <a id="example-3-latticeparameters-section"></a>
+  - Let the LatticeParameters section be the following:
+  - _Keywords:_ LatticeParameters, Aniso, direction, CrystalSystem, Let, correct, However, incorrect
+- **Aniso Subsection Without Direction Definition** <a id="aniso-subsection-without-direction-definition"></a>
+  - In this case, Sentaurus Device uses only the X and Y vectors to compute aniso\_dir=(ax,ay,az). If az=0, then the definition is correct. Otherwise, the definition is incorrect.
+  - _Keywords:_ Vectors, Sentaurus, Device, vectors, definition, Read, TDR, compute
+- **X and Y Vectors Read From Parameter File** <a id="x-and-y-vectors-read-from-parameter-file"></a>
+  - All the general parameter files have no definition of X and Y vectors. If you define the X and Y vectors in the parameter file for a 2D problem, then Sentaurus Device uses a special agreement regarding coordinate systems in two dimensions:
+  - _Keywords:_ coordinate, vectors, mathrm, system, definition, crystal, general, define
+- **X and Y Vectors Read From TDR File (Sentaurus Process)** <a id="x-and-y-vectors-read-from-tdr-file-sentaurus-process"></a>
+  - Sentaurus Process always uses the 3D crystal coordinate system and creates the same LatticeParameters section for 2D and 3D cases. The z-axis of the crystal coordinate system is the direction of anisotropy.
+  - _Keywords:_ LatticeParameters, definition, crystal, coordinate, system, correct, incorrect, Sentaurus
+- **Aniso(direction) Versus LatticeParameters** <a id="aniso-direction-versus-latticeparameters"></a>
+  - If you know the direction of anisotropy in the simulation coordinate system, then the keyword direction with the SimulationSystem option is the simplest way to define the anisotropic direction. The next examples are equivalent.
+  - _Keywords:_ direction, coordinate, system, SimulationSystem, LatticeParameters, Physics, Aniso, details
+- **Orthogonal Matrix From Eigenvectors Q** <a id="orthogonal-matrix-from-eigenvectors-q"></a>
+  - Let be a vector row and letA x y z = ( ) , , $\stackrel { } { A } = ( x , y , z ) ^ { \prime }$ be a vector column.
+  - _Keywords:_ overrightarrow, mathrm, rightarrow, mathbb, vector, matrix, stackrel, anisotropic
+- **Anisotropic Mobility** <a id="anisotropic-mobility"></a>
+  - In some semiconductors, such as silicon carbide, electrons and holes can exhibit different mobilities along different crystallographic axes.
+  - _Keywords:_ different, semiconductors, silicon, carbide, electrons, exhibit, mobilities, crystallographic
+- **Anisotropy Factor** <a id="anisotropy-factor"></a>
+  - In a 3D simulation, Sentaurus Device assumes that electrons or holes exhibit a mobility μ along the x-axis and y-axis, and an anisotropic mobility $\mu _ { \mathrm { a n i s o } }$ along the z-axis. In a 2D simulation, the regular mobili...
+  - _Keywords:_ mobility, simulation, mathrm, observed, Sentaurus, Device, assumes, electrons
+- **Current Densities** <a id="current-densities"></a>
+  - In the isotropic case, current densities can be expressed by:
+  - _Keywords:_ mathrm, Phi_, mobilities, coordinate, system, isotropic, current, densities
+- **Driving Forces** <a id="driving-forces"></a>
+  - In the isotropic case, the electric field parallel to the electron or hole current is given by (see Eq. 350, p. 373):
+  - _Keywords:_ current, anisotropic, mathrm, isotropic, electric, parallel, electron, mobilities
+- **Total Anisotropic Mobility** <a id="total-anisotropic-mobility"></a>
+  - This is the simplest mode in Sentaurus Device. Only a total anisotropy factor $r _ { e }$ or $r _ { h }$ is specified in the command file:
+  - _Keywords:_ Sentaurus, Device, Total, mobility, simplest, anisotropy, factor, specified
+- **Self-Consistent Anisotropic Mobility** <a id="self-consistent-anisotropic-mobility"></a>
+  - This is the most accurate, but also the most expensive, mode in Sentaurus Device. The electron and hole mobility models specified in the Physics section are evaluated separately for the major and minor crystallographic axes, but with dif...
+  - _Keywords:_ Physics, electron, accurate, expensive, Sentaurus, Device, mobility, models
+- **28: Anisotropic Properties** <a id="28-anisotropic-properties"></a>
+- **Anisotropic Mobility** <a id="anisotropic-mobility"></a>
+  - ```txt } ) ```
+  - _Keywords:_ mobility, anisotropic, PMI, specify, calculations, Isotropic, ConstantMobility, ConstantMobility_aniso
+- **Anisotropic Mobility Visualization** <a id="anisotropic-mobility-visualization"></a>
+  - You can specify various plot names in the Plot section to visualize the anisotropic mobility calculations.
+  - _Keywords:_ mobility, anisotropic, Plot, Electron, Hole, Anisotropic, factor, You
+- **Anisotropic Avalanche Generation** <a id="anisotropic-avalanche-generation"></a>
+  - Sentaurus Device computes the avalanche generation according to Eq. 437, p. 417. In the isotropic case, the terms $n \nu _ { n }$ and $p \nu _ { p }$ can also be written, respectively, as:
+  - _Keywords:_ avalanche, anisotropic, current, direction, Avalanche, isotropic, Sentaurus, Device
+- **Anisotropic Electrical Permittivity** <a id="anisotropic-electrical-permittivity"></a>
+  - The electrical permittivity in Eq. 37, p. 175 can have different values along differentε crystallographic axes. If the crystallographic axes coincide with the coordinate system of Sentaurus Device, the scalar is replaced by the matrix:ε
+  - _Keywords:_ varepsilon, electrical, varepsilon_, permittivity, crystallographic, mathrm, Sentaurus, Device
+- **Anisotropic Thermal Conductivity** <a id="anisotropic-thermal-conductivity"></a>
+  - The thermal conductivity in Eq. 68, p. 194 can have different values along differentκ crystallographic axes. If the crystallographic axes coincide with the coordinate system of Sentaurus Device, the scalar is replaced by the matrix:κ
+  - _Keywords:_ thermal, kappa_, conductivity, crystallographic, mathrm, Sentaurus, Device, matrix
+- **Anisotropic Density Gradient Model** <a id="anisotropic-density-gradient-model"></a>
+  - The density gradient model provides support for anisotropic quantization. See Density Gradient Model on page 298.
+  - _Keywords:_ density, gradient, provides, support, anisotropic, quantization, Density, Gradient
+- **Anisotropic Directions for Density Gradient Model** <a id="anisotropic-directions-for-density-gradient-model"></a>
+  - By default, the anisotropic direction of the density gradient model is the same as in all other models. However, the density gradient model can have other anisotropic directions. Moreover, you can have three different axes of anisotropy.
+  - _Keywords:_ anisotropic, density, gradient, direction, models, However, directions, Moreover
+- **Example 1** <a id="example-1"></a>
+  - Global anisotropic models and density gradient model have different direction:
+  - _Keywords:_ direction, anisotropic, relative, coordinate, system, Global, models, density
+- **28: Anisotropic Properties** <a id="28-anisotropic-properties"></a>
+  - Anisotropic Density Gradient Model
+  - _Keywords:_ isotropic, Anisotropic, Density, Gradient, Model, QuantumPotentialParameters, direction, relative
+- **Example 2** <a id="example-2"></a>
+  - Anisotropic density gradient model has three anisotropic axes: ```txt Aniso( eQuantumPotential( AnisoAxes(SimulationSystem) = { ( 0.6, 0.8, 0) (-0.8, 0.6, 0) } )) ```
+  - _Keywords:_ electric, ferroelectric, materials, polarization, depends, Anisotropic, density, gradient
+- **Using Ferroelectrics** <a id="using-ferroelectrics"></a>
+  - Sentaurus Device implements a model for ferroelectrics that features minor loop nesting and memory wipeout. Figure 51 demonstrates these properties and Ferroelectrics Model on page 815 discusses them further.
+  - _Keywords:_ P_r, P_x, F_c, P_s, polarization, Polarization, ferroelectric, nesting
+- **Ferroelectrics Model** <a id="ferroelectrics-model"></a>
+  - The vector quantity $\scriptstyle { \vec { P } }$ is split into its components along the main axes of the mesh coordinate system. This results in one to three scalar problems. Sentaurus Device handles each problem separately using the mo...
+  - _Keywords:_ mathrm, points, turning, memory, auxiliary, polarization, Sentaurus, Device
+- **Landau–Khalatnikov Equation** <a id="landau-khalatnikov-equation"></a>
+  - Under the correct conditions, ferroelectric material operates in a negative differential capacitance region, which results in an amplification effect of the gate bias. This effect can produce a body factor that leads tom < 1 $S S < 6 0 \...
+  - _Keywords:_ Landau, Khalatnikov, equation, polarization, ferroelectric, effect, mathrm, define
+- **Using the Landau–Khalatnikov Equation** <a id="using-the-landau-khalatnikov-equation"></a>
+  - To activate the Landau–Khalatnikov equation, you must add the keyword FEPolarization to the global or regionwise Physics section in the command file:
+  - _Keywords:_ FEPolarization, polarization, direction, ferroelectric, Transient, simulation, equation, Physics
+- **References** <a id="references"></a>
+  - [1] B. Jiang et al., “Computationally Efficient Ferroelectric Capacitor Model for Circuit Simulation,” in Symposium on VLSI Technology, Kyoto, Japan, pp. 141–142, June 1997. [2] K. Dragosits, Modeling and Simulation of Ferroelectric Devi...
+  - _Keywords:_ Ferroelectric, Simulation, Jiang, Computationally, Efficient, Capacitor, Model, Circuit
+- **Brief Introduction to Spintronics** <a id="brief-introduction-to-spintronics"></a>
+  - Conventional semiconductor devices are based on charge transport. Electrons are treated as charged particles whose motion gives rise to current flow. In addition to their charge, electrons carry an intrinsic angular momentum called the e...
+  - _Keywords:_ magnetic, magnetization, electrons, ferromagnetic, current, devices, transport, angular
+- **Transport Through Magnetic Tunnel Junctions** <a id="transport-through-magnetic-tunnel-junctions"></a>
+  - The magnetic direct tunneling model describes the charge and spin currents flowing through a thin barrier layer sandwiched between two ferromagnetic regions. In contrast to a nonmagnetic tunnel junction, the current across an MTJ depends...
+  - _Keywords:_ tunneling, barrier, junction, across, magnetic, direct, describes, charge
+- **Magnetic Direct Tunneling Model** <a id="magnetic-direct-tunneling-model"></a>
+  - The magnetic direct tunneling model assumes the barrier layer to consist of a single material and treats the tunneling barrier as trapezoidal. Figure 52 shows a schematic band diagram of such an MTJ.
+  - _Keywords:_ tunneling, barrier, magnetic, direct, MTJ, NEGF, Airy, diagram
+- **Using the Magnetic Direct Tunneling Model** <a id="using-the-magnetic-direct-tunneling-model"></a>
+  - The magnetic direct tunneling model is activated by specifying:
+  - _Keywords:_ Tunneling, DirectTunneling, MTJ, Physics, magnetic, direct, tunneling, activated
+- **Physics Parameters for Magnetic Direct Tunneling** <a id="physics-parameters-for-magnetic-direct-tunneling"></a>
+  - The parameters for the magnetic direct tunneling model are defined in the DirectTunneling section of the parameter file pertaining to the required material (or region) interface, for example:
+  - _Keywords:_ tunneling, direct, barrier, ferromagnet, magnetic, ignored, DirectTunneling, required
+- **Math Parameters for Magnetic Direct Tunneling** <a id="math-parameters-for-magnetic-direct-tunneling"></a>
+  - The evaluation of the MTJ tunneling integrals as well as the value caching and interpolation strategy for reusing previous results can be controlled by an MTJ statement in the Math section of the command file, for example:
+  - _Keywords:_ interpolate, MTJ, interpolation, Grid, tunneling, Math, statement, Voltage
+- **Magnetization Dynamics** <a id="magnetization-dynamics"></a>
+  - This section discusses the modeling of the magnetization dynamics inside a free ferromagnetic layer in the presence of STT. The Landau–Lifshitz–Gilbert (LLG) equation is introduced with a discussion of the expression used for the effecti...
+  - _Keywords:_ magnetization, dynamics, discusses, modeling, inside, ferromagnetic, presence, STT
+- **Spin Dynamics of a Free Electron in a Magnetic Field** <a id="spin-dynamics-of-a-free-electron-in-a-magnetic-field"></a>
+  - The spin angular momentum $\vec { \bf \Phi } _ { S } ^ { }$ and the magnetic moment $\vec { \mu }$ of a free electron are related by the gyromagnetic ratio:
+  - _Keywords:_ magnetic, moment, angular, momentum, electron, overset, gamma_, Phi
+- **Magnetization Dynamics in a Ferromagnetic Layer** <a id="magnetization-dynamics-in-a-ferromagnetic-layer"></a>
+  - The magnetization vector can be interpreted as a volume density of magnetic dipolesM N V⁄ . In the absence of damping terms, the magnetization vector will precess around an effectiveμ magnetic field $\overrightarrow { H } _ { \mathrm { e...
+  - _Keywords:_ magnetization, magnetic, gamma_, damping, angular, momentum, ferromagnetic, current
+- **Contributions of the Magnetic Energy Density** <a id="contributions-of-the-magnetic-energy-density"></a>
+  - As shown in Eq. 918, p. 826, the effective magnetic field that drives the magnetization dynamics is related to the energy density . In general, the magnetization can be a positionU and a time-dependent vector field $\vec { M } ( \vec { x...
+  - _Keywords:_ magnetic, mathrm, energy, magnetization, sample, demagnetizing, density, partial
+- **Energy Density and Effective Field in Macrospin Approximation** <a id="energy-density-and-effective-field-in-macrospin-approximatio"></a>
+  - In the macrospin approximation, each magnetic region is considered to consist of a single, perfectly aligned, magnetic domain. This removes the position dependency from the magnetization vector field $\vec { M } ( \vec { x } , t )$ of th...
+  - _Keywords:_ anisotropy, single, magnetization, macrospin, approximation, magnetic, position, energy
+- **Using Magnetization Dynamics in Device Simulations** <a id="using-magnetization-dynamics-in-device-simulations"></a>
+  - Magnetization dynamics is included in the simulation if the equation name LLG is specified in the Solve section of the command file. Usually, transient simulations are required for STT devices.
+  - _Keywords:_ equation, LLG, dynamics, simulation, Solve, STT, Poisson, typical
+- **Domain Selection and Initial Conditions** <a id="domain-selection-and-initial-conditions"></a>
+  - The definition of fixed and pinned regions, and of initial conditions for the magnetization direction is handled by the Magnetism statement in the region-specific Physics sections:
+  - _Keywords:_ Magnetism, mathtt, magnetization, region, Physics, pinned, initial, conditions
+- **Plotting of the Time-Dependent Magnetization** <a id="plotting-of-the-time-dependent-magnetization"></a>
+  - In the macrospin approximation, the magnetization is constant across each region. Then, the full time evolution of the magnetization can be captured by plotting the average direction of the magnetization vector in the free layer. In the ...
+  - _Keywords:_ magnetization, direction, mathtt, plotting, Magnetization, vartheta, macrospin, approximation
+- **Parameters for Magnetization Dynamics** <a id="parameters-for-magnetization-dynamics"></a>
+  - The parameters for magnetization dynamics (LLG equation) are defined in the Magnetism section of the corresponding material or region in the parameter file. Table 147 summarizes the available parameters.
+  - _Keywords:_ magnetization, material, LLG, equation, ferromagnetic, geometry, Exchange, dynamics
+- **Time-Step Control for Magnetization Dynamics** <a id="time-step-control-for-magnetization-dynamics"></a>
+  - To improve time-step control during the transient solution of the LLG equation, you can restrict the maximum change of the magnetization direction during the simulation that might occur during a single time step. If this limit is exceede...
+  - _Keywords:_ during, maximum, change, magnetization, Math, improve, control, transient
+- **Thermal Fluctuations** <a id="thermal-fluctuations"></a>
+  - The magnetization dynamics can be influenced by thermal fluctuations. This effect can be included in the analysis by replacing the deterministic effective field $\dot { H } _ { \mathrm { e f f } }$ with $\acute { H } _ { \mathrm { e f f ...
+  - _Keywords:_ mathrm, thermal, magnetization, dynamics, influenced, fluctuations, effect, included
+- **Using Thermal Fluctuations** <a id="using-thermal-fluctuations"></a>
+  - Modeling of thermal fluctuations is activated by adding the ThermalFluctuations keyword to the Magnetism statement of the Physics section:
+  - _Keywords:_ ThermalFluctuations, Magnetism, Physics, thermal, Modeling, fluctuations, activated, adding
+- **Parallel and Perpendicular Spin Transfer Torque** <a id="parallel-and-perpendicular-spin-transfer-torque"></a>
+  - In an MTJ, it is customary to decompose the STT $\vec { \Gamma } _ { s }$ (Eq. 920, p. 827) into perpendicular and parallel (or in-plane) components, relative to the plane spanned by the magnetization directions on both sides of the tunn...
+  - _Keywords:_ Gamma, parallel, torque, varepsilon_, perpendicular, Phi, stackrel, rightarrow
+- **Magnetization Dynamics Beyond Macrospin: Position-Dependent Exchange and Spin Waves** <a id="magnetization-dynamics-beyond-macrospin-position-dependent-e"></a>
+  - The macrospin approximation is based on the assumption that the effect of the exchange interaction is much stronger than all other magnetic effects. Therefore, the most energetically favorable magnetization configuration is a single perf...
+  - _Keywords:_ magnetization, exchange, torque, majority, interaction, single, domain, behavior
+- **Using Position-Dependent Exchange** <a id="using-position-dependent-exchange"></a>
+  - The exchange term becomes active as soon as the node-merging mechanism of the macrospin approximation is disabled:
+  - _Keywords:_ macrospin, approximation, exchange, becomes, active, merging, mechanism, disabled
+- **User-Defined Contributions to the Effective Magnetic Field of the LLG Equation** <a id="user-defined-contributions-to-the-effective-magnetic-field-o"></a>
+  - Additional contributions to the $\vec { H } _ { \mathrm { e f f } }$ field of the LLG equation (Eq. 922, p. 827) can be defined using the physical model interface (PMI). See Chapter 37 on page 1033 for general information on the PMI and ...
+  - _Keywords:_ PMI, information, Additional, contributions, mathrm, LLG, equation, defined
+- **References** <a id="references"></a>
+  - [1] D. C. Ralph and M. D. Stiles, “Spin transfer torques,” Journal of Magnetism and Magnetic Materials, vol. 320, no. 7, pp. 1190–1216, 2008. [2] Simulation of Magnetization Switching in a CoFeB/MgO/CoFeB Magnetic Tunnel Junction, availa...
+  - _Keywords:_ Spin, Magnetic, transfer, Torque, IEEE, Physical, Review, Stiles
+- **Overview of Mechanical Stress** <a id="overview-of-mechanical-stress"></a>
+  - Stress engineering is a key point to ensuring the high performance of CMOS devices. Mechanical stress can affect workfunction, band gap, effective mass, carrier mobility, and leakage currents. The stress is generated by many technologica...
+  - _Keywords:_ performance, Mechanical, stress, carrier, mobility, change, structure, effects
+- **Stress and Strain in Semiconductors** <a id="stress-and-strain-in-semiconductors"></a>
+  - Generally, the stress tensor $\bar { \sigma }$ is a symmetric matrix. Therefore, it only has six3 3 × independent components, and it is convenient to express it in a contracted six-component vector notation:
+  - _Keywords:_ sigma_, varepsilon_, tensor, rightarrow, contracted, components, compliance, coordinate
+- **Using Stress and Strain** <a id="using-stress-and-strain"></a>
+  - Stress-dependent models are selected in the Physics{Piezo()} section of the command file. Components of the stress and strain tensors (if they are constant over the device or region) also are specified here, as well as the components $\v...
+  - _Keywords:_ system, stress, Piezo, relative, simulation, coordinate, Stress, strain
+- **Stress Tensor** <a id="stress-tensor"></a>
+  - Apart from specifying a constant stress tensor in the Piezo section of the command file, Sentaurus Device also provides different ways to define position-dependent stress values:
+  - _Keywords:_ stress, tensor, Piezo, Stress, specifying, Sentaurus, Device, Mechanics
+- **Strain Tensor** <a id="strain-tensor"></a>
+  - The strain tensor can be computed in one of the following ways:
+  - _Keywords:_ strain, tensor, Piezo, Hooke, Strain, computed, specified, According
+- **Stress Limits** <a id="stress-limits"></a>
+  - Extremely high stress values can sometimes cause stress-dependent models to produce nonphysical results. As an option, you can limit stress values read from files or specified in the command file to a user-specified maximum. This is acco...
+  - _Keywords:_ stress, specified, StressLimit, Math, limited, Extremely, sometimes, dependent
+- **Crystallographic Orientation and Compliance Coefficients** <a id="crystallographic-orientation-and-compliance-coefficients"></a>
+  - The simulation coordinate system relative to the crystal coordinate system can be defined by the X and Y vectors in the LatticeParameters section of the parameter file. The defaults are:
+  - _Keywords:_ system, crystal, LatticeParameters, simulation, relative, CrystalSystem, coordinate, defined
+- **Deformation of Band Structure** <a id="deformation-of-band-structure"></a>
+  - In deformation potential theory [2][9], the strains are considered to be relatively small. The change in energy of each carrier valley or band, caused by the small deformation of the lattice, is a linear function of the strain.
+  - _Keywords:_ mathrm, Delta, varepsilon_, strain, deformation, electron, Xi_, tensor
+- **Using Deformation Potential Model** <a id="using-deformation-potential-model"></a>
+  - To activate the deformation potential models Eq. 942–Eq. 944 with models for electronsk p⋅ and holes, and Eq. 946 for the conduction band and valence band energy shifts, the following must be specified in the Piezo section of the command...
+  - _Keywords:_ deformation, potentials, valleys, energy, Delta, potential, valley, models
+- **Strained Effective Masses and Density-of-States** <a id="strained-effective-masses-and-density-of-states"></a>
+  - Sentaurus Device provides options for computing strain-dependent effective mass for both electrons and holes and, consequently, the strain-dependent conduction band and valence band effective density-of-states (DOS).
+  - _Keywords:_ strain, dependent, effective, Sentaurus, Device, provides, computing, electrons
+- **Strained Electron Effective Mass and DOS** <a id="strained-electron-effective-mass-and-dos"></a>
+  - The conduction band in silicon is approximated by three pairs of equivalent $\Delta _ { 2 }$ valleys. Without stress, the DOS of each valley is:
+  - _Keywords:_ mathrm, Delta, valley, effective, stress, DOS, change, valleys
+- **Strained Hole Effective Mass and DOS** <a id="strained-hole-effective-mass-and-dos"></a>
+  - To compute the hole effective DOS mass for arbitrary strain in silicon, the band structure provided by the six-band method is explicitly integrated assuming Boltzmann statisticsk p⋅ [14][15]. In this approximation, the total hole effecti...
+  - _Keywords:_ mathrm, DOS, effective, strain, method, silicon, structure, valence
+- **Using Strained Effective Masses and DOS** <a id="using-strained-effective-masses-and-dos"></a>
+  - The strain-dependent effective mass and DOS calculations can be selected by specifying DOS(eMass), DOS(hMass), or DOS(eMass hMass) as an argument to Piezo(Model()) in the Physics section of the command file. For example:
+  - _Keywords:_ DOS, eMass, hMass, effective, valleys, lattice, temperature, dependent
+- **Multivalley Band Structure** <a id="multivalley-band-structure"></a>
+  - The multivalley model is an alternative that accounts for the carrier population in various valleys presented in the semiconductor band structure where the stress effect is accounted for in each valley separately. Therefore, this model d...
+  - _Keywords:_ Gamma, valley, stress, effective, energy, effect, Delta, mathrm
+- **Using Multivalley Band Structure** <a id="using-multivalley-band-structure"></a>
+  - The multivalley model is activated with the keyword MultiValley in the Physics section. If the model must be activated only for electrons or holes, the keywords eMultiValley and hMultiValley can be used. All options of the multivalley mo...
+  - _Keywords:_ Multivalley, multivalley, carrier, stress, valley, density, mobility, models
+- **Mobility Modeling** <a id="mobility-modeling"></a>
+  - The presence of mechanical stress in device structures results in anisotropic carrier mobility that must be described by a mobility tensor. The electron and hole current densities under such conditions are given by:
+  - _Keywords:_ mobility, stress, overline, carrier, geometric, current, tensor, without
+- **Multivalley Electron Mobility Model** <a id="multivalley-electron-mobility-model"></a>
+  - To calculate stress-induced electron mobility, Sentaurus Device considers several approaches [6][13][20][21] for the mobility approximation, and it computes the mobility ratio $( 3 \times 3$ tensor), which corrects the relaxed current de...
+  - _Keywords:_ mobility, electron, carrier, Delta, mathrm, silicon, between, stress
+- **Intervalley Scattering** <a id="intervalley-scattering"></a>
+  - Another effect of the stress-induced mobility change is intervalley scattering, which is considered in [20] for the bulk case. According to that model, the total relaxation time in valley is expressed as follows:i
+  - _Keywords:_ mathrm, scattering, Delta_, Delta, valley, relaxation, varepsilon, omega_
+- **Effective Mass** <a id="effective-mass"></a>
+  - It is known that the effective mass of electrons does not change significantly if the stress is applied along the crystal axis, and it allows you to write the stress-induced mobility change in the form of Eq. 969 and Eq. 975. However, an...
+  - _Keywords:_ tensor, interface, stress, inverse, coordinate, system, effective, change
+- **Inversion Layer** <a id="inversion-layer"></a>
+  - Generally, using only the valley data, the total mobility tensor could be written in the following general form, which generalizes Eq. 969, and Eq. 975:
+  - _Keywords:_ mathrm, varepsilon, mobility, scattering, boldsymbol, unstressed, valley, overline
+- **Using Multivalley Electron Mobility Model** <a id="using-multivalley-electron-mobility-model"></a>
+  - The stress-induced mobility model can be activated regionwise or materialwise. To activate the inversion layer model (see Inversion Layer on page 860), the eMultivalley(MLDA) statement must be specified in the Physics section. In this ca...
+  - _Keywords:_ MLDA, stress, mathrm, keyword, scattering, mobility, statement, Fermi
+- **Multivalley Hole Mobility Model** <a id="multivalley-hole-mobility-model"></a>
+  - Similar to the electron stress-induced mobility model (Eq. 979), the total hole mobility tensor can be written in the following general form, which can be applied to both bulk and inversion layer cases [23]:
+  - _Keywords:_ mobility, tensor, overline, inversion, computes, Similar, electron, stress
+- **Effective Mass** <a id="effective-mass"></a>
+  - The inverse mass tensor $( \overline { { m } } _ { \mathrm { c o n d } , i } ) ^ { - 1 }$ of the band in Eq. 981 is based on an averaging of thei reciprocal mass tensor in -space and energy space. If the reciprocal mass tensor at anyk -v...
+  - _Keywords:_ varepsilon, tensor, energy, inverse, mathrm, overline, reciprocal, partial
+- **Scattering** <a id="scattering"></a>
+  - The scattering model defines the ratio of the stressed and unstressed valence-band momentum relaxation times $\tau / \tau _ { 0 }$ . The model considers four scattering mechanisms (which are affected by the stress) for holes in each band...
+  - _Keywords:_ mathrm, varepsilon, phonon, scattering, varepsilon_, mathfrak, relaxation, optical
+- **where:** <a id="where"></a>
+  - $\boldsymbol { \tau } _ { 0 } ^ { \mathrm { p h } }$ is the phonon-limited momentum relaxation time in the valence band for zero stress computed using Eq. 986 and Eq. 987. ■ $N _ { \mathrm { t o t } }$ is the doping concentration. $N _ {...
+  - _Keywords:_ mathrm, stress, fitting, scattering, boldsymbol, relaxation, accounted, independent
+- **Using Multivalley Hole Mobility Model** <a id="using-multivalley-hole-mobility-model"></a>
+  - The stress-induced hole mobility model can be activated with hMultivalley(kpDOS) because the model uses the six-band valence band structure. The model works in twok p⋅ modes: bulk and inversion layer (in the presence of hMultivalley(MLDA...
+  - _Keywords:_ MLDA, keyword, mobility, Fermi, mathrm, stress, hMultivalley, statement
+- **Intel Stress-Induced Hole Mobility Model** <a id="intel-stress-induced-hole-mobility-model"></a>
+  - Intel [24] suggested a mobility model for strained PMOS devices based on the occupancy of different parts of the topmost valence band. As shown in Figure 54, under zero stress, the topmost valence band has a fourfold symmetry with arms a...
+  - _Keywords:_ stress, mathrm, mobility, ellipsoid, change, valleys, Delta, Intel
+- **Stress Dependencies** <a id="stress-dependencies"></a>
+  - Intel decomposes the planar stress tensor in the crystallographic coordinate system as:
+  - _Keywords:_ mathrm, stress, component, applied, biaxial, mobility, enhancement, uniaxial
+- **Generalization of Model** <a id="generalization-of-model"></a>
+  - The original Intel model considered only 2D planes. Therefore, it was extended and generalized in several issues: the three-dimensional case, doping dependence, and carrier redistribution between more than two valleys.
+  - _Keywords:_ mathrm, Delta, stress, carrier, doping, valleys, tensor, system
+- **Using Intel Mobility Model** <a id="using-intel-mobility-model"></a>
+  - To select the Intel stress-induced hole mobility model, you must include the following keyword in the Mobility statement of the Piezo model:
+  - _Keywords:_ Occupancy, ellipsoid, hSixBand, keyword, specified, stress, Mobility, Piezo
+- **Piezoresistance Mobility Model** <a id="piezoresistance-mobility-model"></a>
+  - This approach [5][7][27] focuses on the modeling of the piezoresistive effect. The model is based on an expansion of the mobility enhancement tensor in terms of stress. Sentaurus Device provides options for computing either a first-order...
+  - _Keywords:_ tensor, Pi_, stress, second, sigma_, mobility, piezoresistance, electron
+- **Doping and Temperature Dependency** <a id="doping-and-temperature-dependency"></a>
+  - A simple model for the doping and temperature variation of the first-order and second-order piezoconductance coefficients is given by [7][28]:
+  - _Keywords:_ mathrm, doping, coefficients, Pi_, temperature, Fermi, piezoresistance, variation
+- **Using Piezoresistance Mobility Model** <a id="using-piezoresistance-mobility-model"></a>
+  - The command file syntax for the piezoresistance mobility models, including options, is:
+  - _Keywords:_ FirstOrder, SecondOrder, coefficients, Piezoresistance, piezoresistance, Kanda, keyword, silicon
+- **Named Parameter Sets for Piezoresistance** <a id="named-parameter-sets-for-piezoresistance"></a>
+  - The Piezoresistance parameter set can be named. For example, in the parameter file, you can write the following to declare a parameter set with the name myset:
+  - _Keywords:_ Piezoresistance, declare, specify, ParameterSetName, Tensor, syntax, Mobility, Model
+- **Auto-Orientation for Piezoresistance** <a id="auto-orientation-for-piezoresistance"></a>
+  - The piezoresistance models support the auto-orientation framework (see Auto-Orientation Framework on page 37) that switches between different named parameter sets based on the orientation of the nearest interface. This can be activated b...
+  - _Keywords:_ orientation, piezoresistance, models, support, framework, Auto, Orientation, Framework
+- **Enormal- and MoleFraction-Dependent Piezo Coefficients** <a id="enormal-and-molefraction-dependent-piezo-coefficients"></a>
+  - Measured data shows that the piezoresistive coefficients can have dependencies with respect to the normal electric field $E _ { \perp }$ or the mole fraction or both. Sentaurus Device has a calibrationx option to specify these dependenci...
+  - _Keywords:_ piezoresistive, coefficients, piecewise, dependencies, normal, electric, fraction, Sentaurus
+- **Using Piezoresistive Prefactors Model** <a id="using-piezoresistive-prefactors-model"></a>
+  - To activate this model, add the keyword Enormal to the subsection {e,h}Tensor, for example:
+  - _Keywords:_ Enormal, PMI, keyword, prefactors, eTensor, Piezoresistive, PmiEnormalPiezoResist, activate
+- **Example 1** <a id="example-1"></a>
+  - This example shows the section of the parameter file for purely Enormal-dependent prefactors:
+  - _Keywords:_ Enormal, approximation, spline, linear, prefactors, piecewise, dependence, details
+- **Example 2** <a id="example-2"></a>
+  - This example shows the section of the parameter file for purely MoleFraction-dependent prefactors:
+  - _Keywords:_ MoleFraction, dependent, SiliconGermanium, piecewise, approximation, xMax, prefactors, Mole
+- **Example 3** <a id="example-3"></a>
+  - This example shows the section of the parameter file for Enormal- and MoleFractiondependent prefactors:
+  - _Keywords:_ Enormal, fraction, prefactors, dependent, description, SiliconGermanium, approximation, Spline
+- **Isotropic Factor Models** <a id="isotropic-factor-models"></a>
+  - Sentaurus Device provides options for calculating stress-dependent enhancement factors that are applied to mobility as isotropic factors. These options, known as Factor models, can be used as an alternative to the tensor-based models and...
+  - _Keywords:_ mobility, Factor, models, enhancement, applied, factor, stress, factors
+- **Using Isotropic Factor Models** <a id="using-isotropic-factor-models"></a>
+  - The command file syntax for the isotropic Factor models, including options, is:
+  - _Keywords:_ Factor, isotropic, models, syntax, including, Physics, Piezo, Model
+- **Piezoresistance Factor Models** <a id="piezoresistance-factor-models"></a>
+  - These models are based on the full piezoresistance tensor calculations described in Piezoresistance Mobility Model on page 875.
+  - _Keywords:_ piezoresistance, ChannelDirection, tensor, models, mobility, Piezoresistance, enhancement, coordinate
+- **Effective Stress Model** <a id="effective-stress-model"></a>
+  - The EffectiveStressModel is an isotropic Factor model that relates the mobility enhancement in a device to an effective stress parameter that is calculated from the diagonalγ components of the 3D stress tensor [29]:
+  - _Keywords:_ mathrm, stress, EffectiveStressModel, isotropic, Factor, relates, mobility, enhancement
+- **Effective Stress** <a id="effective-stress"></a>
+  - In Eq. 1009, $S _ { \mathrm { e f f } }$ is an effective stress parameter and is given by:
+  - _Keywords:_ direction, stress, component, mathrm, interface, normal, sigma_, nearest
+- **Effective Stress Model Parameters** <a id="effective-stress-model-parameters"></a>
+  - The EffectiveStressModel parameters can be specified in the EffectiveStressModel parameter set in the parameter file. Table 151 lists the model parameters from [29] for two different surface orientations. The (100) parameters are used by...
+  - _Keywords:_ MPa, EffectiveStressModel, Electrons, Holes, mathrm, normal, specified, different
+- **Mobility Stress Factor PMI Model** <a id="mobility-stress-factor-pmi-model"></a>
+  - A mobility stress factor PMI model (see Mobility Stress Factor on page 1183) created by the user can be utilized to obtain a mobility enhancement factor. In addition to stress, this type of PMI model allows a dependency on the normal ele...
+  - _Keywords:_ mobility, stress, factor, PMI, AutoOrientation, Factor, passed, Mobility
+- **SFactor Dataset or PMI Model** <a id="sfactor-dataset-or-pmi-model"></a>
+  - The SFactor parameter can be used to obtain an isotropic mobility enhancement factor from a dataset or a PMI model.
+  - _Keywords:_ PMI, SFactor, factor, dataset, AutoOrientation, vertex, specified, Factor
+- **Isotropic Factor Model Options** <a id="isotropic-factor-model-options"></a>
+- **Kanda Parameter** <a id="kanda-parameter"></a>
+  - The Kanda parameter can be specified for all isotropic factor models to include a doping and temperature dependency in the enhancement factor calculation. In the case of the FirstOrder and SecondOrder piezoresistance models, this is incl...
+  - _Keywords:_ factor, models, include, enhancement, Kanda, specified, isotropic, doping
+- **Named Parameter Sets and Auto-Orientation** <a id="named-parameter-sets-and-auto-orientation"></a>
+  - The piezoresistance models and the EffectiveStressModel support the use of named parameter sets (see Named Parameter Sets on page 36) and the auto-orientation framework (see Auto-Orientation Framework on page 37). To use one of these cap...
+  - _Keywords:_ piezoresistance, models, EffectiveStressModel, support, Named, orientation, framework, Auto
+- **Factor Models Applied to Mobility Components** <a id="factor-models-applied-to-mobility-components"></a>
+  - By default, the isotropic mobility enhancement factor calculated by a Factor model isγ applied to total low-field mobility. However, the calculated enhancement factor can be applied to select mobility components (for example, only to aco...
+  - _Keywords:_ mobility, factor, stress, enhancement, scaling, applied, models, support
+- **Stress Mobility Model for Minority Carriers** <a id="stress-mobility-model-for-minority-carriers"></a>
+  - Measured data shows that the stress dependency of minority carrier mobility (like the mobility of carriers in the channel of a MOSFET) is different from the stress dependency of majority carrier mobility. For example, the stress effect f...
+  - _Keywords:_ stress, dependency, carrier, doping, mathrm, eMinorityFactor, minority, mobility
+- **Dependency of Saturation Velocity on Stress** <a id="dependency-of-saturation-velocity-on-stress"></a>
+  - Eq. 1020 can be rewritten in the following form (see Current Densities on page 802):
+  - _Keywords:_ mathrm, stress, SaturationFactor, mathsf, mobility, saturation, velocity, factor
+- **Mobility Enhancement Limits** <a id="mobility-enhancement-limits"></a>
+  - With high stress values, the stress-dependent mobility models in Sentaurus Device can sometimes cause the mobility to become negative or, in some cases, to become unrealistically large. This is particularly true for the piezoresistance m...
+  - _Keywords:_ mobility, stress, models, Piezoresistance, become, specified, MinStressFactor, MaxStressFactor
+- **Plotting Mobility Enhancement Factors** <a id="plotting-mobility-enhancement-factors"></a>
+  - The mobility multiplication tensor $\mathit { \overline { { \Pi } } } \overline { { \mu } } / \mu _ { 0 }$ ) can be plotted on the mesh nodes. This tensor is a symmetric matrix and, therefore, has six independent values. To plot these va...
+  - _Keywords:_ tensor, overline, mobility, multiplication, mathit, plotted, symmetric, matrix
+- **Numeric Approximations for Tensor Mobility** <a id="numeric-approximations-for-tensor-mobility"></a>
+- **Tensor Grid Option** <a id="tensor-grid-option"></a>
+  - Due to an applied mechanical stress, the mobility can become a tensor. The numeric approximation of the transport equations with tensor mobility is complicated (see Chapter 28 on page 793). However, if the mesh is a tensor one, the appro...
+  - _Keywords:_ approximation, tensor, stress, mobility, diagonal, elements, regions, simple
+- **Stress Tensor Applied to Low-Field Mobility** <a id="stress-tensor-applied-to-low-field-mobility"></a>
+  - In all the previous models, the stress tensor factor was a linear factor applied to high-field mobility. Sentaurus Device allows also to apply the following diagonal mobility tensor factor to the low-field mobility:
+  - _Keywords:_ mobility, mathrm, tensor, factor, stress, diagonal, elements, overline
+- **Piezoelectric Polarization** <a id="piezoelectric-polarization"></a>
+  - Sentaurus Device provides two models (strain and stress) to compute polarization effects in GaN devices. They can be activated in the Physics section of the command file as follows:
+  - _Keywords:_ Sentaurus, Device, strain, stress, Physics, Piezoelectric_Polarization, provides, models
+- **Strain Model** <a id="strain-model"></a>
+  - The piezoelectric polarization vector can be expressed as a function of the local strain tensorP as follows:ε
+  - _Keywords:_ mathrm, varepsilon_, strain, polarization, vector, Piezo, piezoelectric, quantities
+- **Simplified Strain Model** <a id="simplified-strain-model"></a>
+  - This model is based on the work by Ambacher et al. [30][31]. It captures the first-order effect of polarization vectors in AlGaN/GaN HFETs: The interface charge induced is due to the discontinuity in the vertical component of the polariz...
+  - _Keywords:_ mathrm, polarization, strain, vector, computed, charge, Formula, denotes
+- **Stress Model** <a id="stress-model"></a>
+  - Although, in most practical situations, there are only in-plane stress components due to lattice mismatch, the vertical and shear stress components give rise to in-plane piezopolarization components, which lead to volume charge densities...
+  - _Keywords:_ sigma_, stress, mathrm, polarization, vector, coordinates, components, tensor
+- **Poisson Equation** <a id="poisson-equation"></a>
+  - Based on the polarization vector, the piezoelectric charge is computed according to:
+  - _Keywords:_ mathrm, activation, polarization, vector, charge, Physics, Based, piezoelectric
+- **Parameter File** <a id="parameter-file"></a>
+  - The following parameters can be specified in the parameter file. All of them are mole fraction dependent, except a0 and relax:
+  - _Keywords:_ piezoelectric, coefficients, specified, fraction, dependent, except, python, Piezoelectric_Polarization
+- **Coordinate Systems** <a id="coordinate-systems"></a>
+  - The x-axis and y-axis of the simulation coordinate system are defined in the parameter file:
+  - _Keywords:_ system, simulation, defined, crystal, LatticeParameters, relative, computed, vector
+- **Converse Piezoelectric Field** <a id="converse-piezoelectric-field"></a>
+  - The values of the converse piezoelectric field are very important for applications. The dataset ConversePiezoelectricField can be added to the Plot variables (see Table 181 on page 1332). This dataset is a dimensionless tensor and is com...
+  - _Keywords:_ piezoelectric, dataset, tensor, converse, important, applications, ConversePiezoelectricField, Plot
+- **Piezoelectric Datasets** <a id="piezoelectric-datasets"></a>
+  - The piezoelectric polarization vector and the piezoelectric charge can be plotted by:
+  - _Keywords:_ piezoelectric, vector, polarization, charge, plotted, Plot, PE_Polarization, PE_Charge
+- **Discontinuous Piezoelectric Charge at Heterointerfaces** <a id="discontinuous-piezoelectric-charge-at-heterointerfaces"></a>
+  - Any interface has two sides (side1 and side2). If a vertex lies at the interface and heteromodels are switched on, this vertex is a double point and the piezoelectric charge has two values (q1 and q2). If the polarization vector is a con...
+  - _Keywords:_ charge, interface, piezoelectric, discontinuous, vertex, heteromodels, double, vector
+- **Gate-Dependent Polarization in GaN Devices** <a id="gate-dependent-polarization-in-gan-devices"></a>
+  - In this model, the polarization vector has an additional term along the z-axis in the crystalP system, which is dependent on the component of the electric field [32]:Ez
+  - _Keywords:_ kappa_, bullet, polarization, dependent, component, problem, mathrm, Physics
+- **Two-Dimensional Simulations** <a id="two-dimensional-simulations"></a>
+  - For a 2D simulation, you must ensure that the anisotropic direction (defined in the crystal coordinate system) lies within the xy plane of the simulation system. You can specify explicitly the transformation from the crystal (lattice) co...
+  - _Keywords:_ system, simulation, crystal, LatticeParameters, direction, anisotropic, coordinate, ensure
+- **Mechanics Solver** <a id="mechanics-solver"></a>
+  - NOTE The mechanics solver in Sentaurus Device is an experimental feature, and it might be modified in future releases.
+  - _Keywords:_ Sentaurus, Mechanics, stress, Device, statement, Interconnect, tensor, Solve
+- **Options for the Stress Solver** <a id="options-for-the-stress-solver"></a>
+  - Options for the stress solver can be specified in a Mechanics section within the global Physics section:
+  - _Keywords:_ Mechanics, Physics, stress, solver, specified, within, global, binary
+- **31: Modeling Mechanical Stress Effect** <a id="31-modeling-mechanical-stress-effect"></a>
+  - Mechanics Solver
+  - _Keywords:_ Sentaurus, Interconnect, Mechanics, structure, tensor, statement, Solve, stress
+- **References** <a id="references"></a>
+  - [1] J. Bardeen and W. Shockley, “Deformation Potentials and Mobilities in Non-Planar Crystals,” Physical Review, vol. 80, no. 1, pp. 72–80, 1950. [2] I. Goroff and L. Kleinman, “Deformation Potentials in Silicon. III. Effects of a Genera...
+  - _Keywords:_ Electron, Stress, Devices, Mobility, IEEE, Physical, Effects, Journal
+- **Model Description** <a id="model-description"></a>
+  - For analysis of magnetic field effects in semiconductor devices, the transport equations governing the flow of electrons and holes in the interior of the device must be set up and solved.
+  - _Keywords:_ magnetic, vector, mobility, Hall, transport, equations, governing, electrons
+- **Using Galvanic Transport Model** <a id="using-galvanic-transport-model"></a>
+  - In the Physics section of the command file, specify the magnetic field vector using the keyword MagneticField = (<x>,<y>,<z>). In the following example, a field of 0.1 Tesla is applied parallel to the z-axis:
+  - _Keywords:_ Physics, MagneticField, specify, magnetic, vector, keyword, Tesla, applied
+- **Discretization Scheme for Continuity Equations** <a id="discretization-scheme-for-continuity-equations"></a>
+  - Sentaurus Device uses a modified discretization scheme for continuity equations in a constant magnetic field. This scheme contains an additive term to the effective electric field in the Scharfetter–Gummel approximation, that is, in this...
+  - _Keywords:_ magnetic, convergence, scheme, approximation, discretization, mobility, Sentaurus, Device
+- **References** <a id="references"></a>
+  - [1] W. Allegretto, A. Nathan, and H. Baltes, “Numerical Analysis of Magnetic-Field-Sensitive Bipolar Devices,” IEEE Transactions on Computer-Aided Design, vol. 10, no. 4, pp. 501–511, 1991. [2] C. Riccobene et al., “Operating Principle o...
+  - _Keywords:_ Numerical, Analysis, Magnetic, Devices, IEEE, Transactions, Riccobene, Dimensional
+- **Heat Capacity** <a id="heat-capacity"></a>
+  - Table 154 lists the values of the heat capacity used in the simulator.
+  - _Keywords:_ capacity, mathrm, specify, HeatCapacity, dependent, materials, lattice, coefficients
+- **The pmi\_msc\_heatcapacity Model** <a id="the-pmi-msc-heatcapacity-model"></a>
+  - The model can depend on state occupation probabilities of a multistate configuration (MSC). If no explicit dependency on an MSC is given, it enables a piecewise linear (pwl) dependency on the lattice temperature, that is, it reads:
+  - _Keywords:_ MSC, capacity, mathrm, interpolation, dependency, temperature, specify, global
+- **Thermal Conductivity** <a id="thermal-conductivity"></a>
+  - Sentaurus Device uses the following temperature-dependent thermal conductivity inκ silicon [3]:
+  - _Keywords:_ thermal, Formula, conductivity, Sentaurus, Device, dependent, mathrm, Conductivity
+- **The AllDependent Thermal Conductivity Model** <a id="the-alldependent-thermal-conductivity-model"></a>
+  - In general, thermal conductivity is a function of lattice temperature , doping density ,κ T N layer thickness $d _ { \mathrm { L y } }$ , and mole fraction . Starting with the Boltzmann transport equation forx phonons and with relaxation...
+  - _Keywords:_ relaxation, frequency, general, thermal, conductivity, lattice, temperature, doping
+- **Bulk Thermal Conductivity Computation** <a id="bulk-thermal-conductivity-computation"></a>
+  - The total relaxation time is calculated with given scattering mechanisms. For pure bulk material [5]:
+  - _Keywords:_ mathrm, mathfrak, transverse, mathbf, longitudinal, branch, omega_, velocity
+- **33: Thermal Properties** <a id="33-thermal-properties"></a>
+- **Thermal Conductivity** <a id="thermal-conductivity"></a>
+  - ■ $\tau _ { I } ^ { - 1 }$ and $\tau _ { \mathrm { b } } ^ { - 1 }$ represent scattering due to point defects and the boundary, where:
+  - _Keywords:_ scattering, defects, mathrm, represent, boundary, strength, sample, dimension
+- **Example of Parameter File Segment** <a id="example-of-parameter-file-segment"></a>
+  - ```awk Kappa { ... omega1 = 2.357e13 #[s^-1] omega2 = 2.749e13 #[s^-1] ... } ```
+  - _Keywords:_ mathrm, omega1, omega2, silicon, germanium, relative, Kappa, summarizes
+- **Bulk Relaxation Time With Doping** <a id="bulk-relaxation-time-with-doping"></a>
+  - In the case of doped samples, decreases due to phonon scattering with impurities and freeκ carriers. The phonon-impurity scattering is treated in a similar way to point defects [6]:
+  - _Keywords:_ impurity, phonon, scattering, samples, decreases, impurities, carriers, treated
+- **33: Thermal Properties** <a id="33-thermal-properties"></a>
+- **Thermal Conductivity** <a id="thermal-conductivity"></a>
+  - is the radius of the host atom.R $R _ { \mathrm { d o p e d } }$ is the radius of the impurity atom. $Q _ { 0 }$ is a constant corresponding to the impurity. $A _ { x }$ is a fitting parameter.
+  - _Keywords:_ mathrm, carriers, radius, impurity, varepsilon_, carrier, metallic, constant
+- **Here:** <a id="here"></a>
+  - $\pmb { \varepsilon } _ { s }$ is the dielectric constant. ■ $m _ { e } ~ ( \mathrm { o r } ~ m _ { h } )$ is the electron (or hole) effective mass of the host atom.
+  - _Keywords:_ mathrm, Delta, varepsilon, dielectric, constant, electron, effective, relaxation
+- **where:** <a id="where"></a>
+  - $\Xi _ { u }$ is the shear deformation potential. ■ $\rho$ is the crystal mass density. $w _ { \mathrm { L } } , w _ { \mathrm { T } }$ , and $w _ { \mathrm { T U } }$ are parameters corresponding to each phonon mode.
+  - _Keywords:_ mathrm, doping, samples, silicon, rowspan, concentration, phosphorus, summarizes
+- **Thin-Layer Relaxation Time** <a id="thin-layer-relaxation-time"></a>
+  - For thin layers with thickness $d _ { \mathrm { L y } }$ , the relaxation time decreases [9]:
+  - _Keywords:_ mathrm, thickness, delta_, relaxation, lambda, setting, LayerThickness, integer
+- **Mole Fraction–Dependent Relaxation Time** <a id="mole-fraction-dependent-relaxation-time"></a>
+  - To compute for alloy materials such as SiGe, the parameters are interpolated according toκ the standard Vegard law. This is performed using the built-in MoleFraction-dependent functionality in Sentaurus Device. All parameters in Table 15...
+  - _Keywords:_ integration, materials, MoleFraction, dependent, omega1, Gauss, quadrature, method
+- **The ConnellyThermalConductivity Model** <a id="the-connellythermalconductivity-model"></a>
+  - For thin layers, the scattering of acoustic phonons at interfaces reduces the mean free path and reduces thermal conductivities. In the review paper [10], an integral equation describes the geometric effect of the reduced phonon path. Th...
+  - _Keywords:_ reduces, thermal, layers, scattering, acoustic, phonons, interfaces, conductivities
+- **where:** <a id="where"></a>
+  - ■ is the layer thickness extracted by the simulator for the layer.t ■ $t _ { 0 }$ is the phonon penetration at interfaces. ■ is the phonon mean free path.Λ ■ is the power exponent for the thickness dependency.η $\kappa _ { \mathrm { b u ...
+  - _Keywords:_ thickness, phonon, penetration, interfaces, exponent, Phonon, extracted, simulator
+- **Layer Thickness Computation** <a id="layer-thickness-computation"></a>
+  - The layer thickness is computed internally (see Extracting Layer Thickness on page 314). Byt default, the model uses the layer thickness quantity LayerThickness. Setting UseLayerThicknessField=1 selects the quantity LayerThicknessField.
+  - _Keywords:_ thickness, quantity, computed, internally, Extracting, Layer, Thickness, Byt
+- **Bulk Thermal Conductivity Computation** <a id="bulk-thermal-conductivity-computation"></a>
+  - The bulk thermal conductivity $\kappa _ { \mathrm { b u l k } }$ is computed from parameters found in the section given by the bulkmodel parameter. It recognizes the parameters given in Table 163.
+  - _Keywords:_ thermal, conductivity, ConnellyThermalConductivity, Formula, Symbol, Unit, Range, Description
+- **Example of Parameter File Segment** <a id="example-of-parameter-file-segment"></a>
+  - ```hcl Material = "MyMaterial" { ConnellyThermalConductivity { lambda = 0.3 * [um] ... UseLayerThicknessField = 0 * use LayerThickness/LayerThicknessField bulkmodel = "MyKappa" * bulk model name } MyKappa { * parameter section specified ...
+  - _Keywords:_ bulkmodel, MyKappa, Material, MyMaterial, ConnellyThermalConductivity, lambda, UseLayerThicknessField, LayerThickness
+- **The pmi\_msc\_thermalconductivity Model** <a id="the-pmi-msc-thermalconductivity-model"></a>
+  - This model depends on the lattice temperature and the state occupation probabilities of an MSC. If it does not depend on an MSC, it enables a pwl temperature dependency and reads as:
+  - _Keywords:_ MSC, interpolation, temperature, occupation, probabilities, dependency, thermal, states
+- **Thermoelectric Power (TEP)** <a id="thermoelectric-power-tep"></a>
+  - Sentaurus Device supports the following choices for computing the thermoelectric powers $P _ { n }$ and $P _ { p }$ in semiconductors:
+  - _Keywords:_ thermoelectric, temperature, Use, carrier, defined, lattice, PMI, Sentaurus
+- **Physical Models** <a id="physical-models"></a>
+- **Table-Based TEPower Model** <a id="table-based-tepower-model"></a>
+  - By default, Sentaurus Device computes the thermoelectric powers $P _ { n }$ and $P _ { p }$ using a table of experimental values of TEPs for silicon published by Geballe and Hull [11] as functions of temperature and carrier concentration...
+  - _Keywords:_ temperature, details, summary, Sentaurus, Device, carrier, concentration, TEPs
+- **Analytic TEPower Model** <a id="analytic-tepower-model"></a>
+  - As an alternative, analytic formulas as described in [13][14] can be used to compute the thermoelectric powers in nongenerate semiconductors:
+  - _Keywords:_ analytic, kappa_, mathrm, alternative, formulas, described, compute, thermoelectric
+- **PMI\_ThermoElectricPower Model** <a id="pmi-thermoelectricpower-model"></a>
+  - In the most general case, the TEPs in semiconductors can be computed using the thermoelectric power PMI (see Thermoelectric Power on page 1259) as functions of the lattice temperature and the carrier density. Both the standard and simpli...
+  - _Keywords:_ PMI, general, TEPs, semiconductors, computed, thermoelectric, Thermoelectric, Power
+- **Thermoelectric Power in Metals** <a id="thermoelectric-power-in-metals"></a>
+  - In metals, thermoelectric power is defined as a PMI depending on the gradient of the Fermi potential $\nabla \Phi _ { \mathbf { M } }$ and the lattice temperature (see Metal Thermoelectric Power on page 1264).T It is used in connection w...
+  - _Keywords:_ metals, thermoelectric, defined, PMI, depending, gradient, Fermi, potential
+- **Using Thermoelectric Power** <a id="using-thermoelectric-power"></a>
+  - The thermoelectric powers in semiconductors are computed automatically when the Temperature equation is solved and the keyword Thermodynamic is specified in the global Physics section. By default, tabulated silicon data is used.
+  - _Keywords:_ Physics, PMI, thermoelectric, analytic, formula, TEPower, region1, region2
+- **33: Thermal Properties** <a id="33-thermal-properties"></a>
+  - Heating at Contacts, Metal–Semiconductor and Conductive Insulator–Semiconductor Interfaces
+  - _Keywords:_ Physics, keyword, thermoelectric, Semiconductor, available, analytic, formula, TEP
+- **Heating at Contacts, Metal–Semiconductor and Conductive Insulator–Semiconductor Interfaces** <a id="heating-at-contacts-metal-semiconductor-and-conductive-insul"></a>
+  - The Peltier heat at a contact, or a metal–semiconductor interface, or a conductive insulator–semiconductor interface is modeled as:
+  - _Keywords:_ Delta, mathrm, interface, Phi_, MSPeltierHeat, contact, alpha_, Peltier
+- **References** <a id="references"></a>
+  - [1] S. M. Sze, Physics of Semiconductor Devices, New York: John Wiley & Sons, 2nd ed., 1981. [2] D. J. Dean, Thermal Design of Electronic Circuit Boards and Packages, Ayr, Scotland: Electrochemical Publications Limited, 1985. [3] C. J. G...
+  - _Keywords:_ Thermal, Physics, Silicon, Physical, Review, Conductivity, Journal, Semiconductors
+- **Modeling Light-Emitting Diodes** <a id="modeling-light-emitting-diodes"></a>
+  - From an electronic perspective, light-emitting diodes (LEDs) are similar to lasers operating below the lasing threshold. Consequently, the electronic model contains similar electrothermal parts and quantum-well physics as in the case of ...
+  - _Keywords:_ LED, device, simulation, region, recycling, LEDs, resonant, cavity
+- **Coupling Electronics and Optics in LED Simulations** <a id="coupling-electronics-and-optics-in-led-simulations"></a>
+  - An LED simulation solves the Poisson equation, carrier continuity equations, temperature equation, and Schrödinger equation self-consistently. Figure 60 illustrates the coupling of the various equation systems in an LED simulation.
+  - _Keywords:_ equation, equations, LED, simulation, carrier, continuity, coupling, details
+- **Single-Grid Versus Dual-Grid LED Simulation** <a id="single-grid-versus-dual-grid-led-simulation"></a>
+  - Both single-grid and dual-grid LED simulations are possible. However, in the case of a singlegrid simulation, raytracing takes a longer time for the following reason: Raytracing builds a binary tree for each starting ray. Each branch of ...
+  - _Keywords:_ raytracing, binary, branch, problem, However, simulation, materials, adjoining
+- **Electrical Transport in LEDs** <a id="electrical-transport-in-leds"></a>
+  - Besides the drift-diffusion transport of typical semiconductor devices, the LED requires additional physical models to compute various optical effects. These physical models are described in the following sections.
+  - _Keywords:_ physical, models, Besides, diffusion, transport, typical, semiconductor, devices
+- **Spontaneous Emission Rate and Power** <a id="spontaneous-emission-rate-and-power"></a>
+  - In the active region, the spontaneous emission of photons depletes the carrier population. At each active vertex, the spontaneous emission (or recombination of carriers) rate (units of $\# \mathrm { s } ^ { - 1 } \mathrm { m } ^ { - 3 } ...
+  - _Keywords:_ mathrm, spontaneous, emission, active, energy, integral, density, mathbf
+- **Spontaneous Emission Power Spectrum** <a id="spontaneous-emission-power-spectrum"></a>
+  - The LED spontaneous emission power spectrum can be plotted by activating the GainPlot section. The syntax consists of defining the number of discretized points for the spectrum and the span of the spectrum to plot:
+  - _Keywords:_ spectrum, Range, LED, plotted, GainPlot, discretized, points, Intervals
+- **Current File and Plot Variables for LED Simulation** <a id="current-file-and-plot-variables-for-led-simulation"></a>
+  - When an LED simulation is run, specific LED result variables are output to the plot file. Table 166 and Table 167 on page 940 list the current file output and the plot variables valid for LED simulation.
+  - _Keywords:_ photon, Power, mathrm, LED, simulation, device, emission, Photon
+- **LED Wavelength** <a id="led-wavelength"></a>
+  - There are different ways of computing or inputting the LED wavelength:
+  - _Keywords:_ LED, wavelength, mathrm, AutoPeak, algorithm, photon, search, spontaneous
+- **Optical Absorption Heat** <a id="optical-absorption-heat"></a>
+  - Photon absorption heat in semiconductor materials can be simplified into two processes:
+  - _Keywords:_ energy, photon, absorption, excess, absorbed, lattice, Physics, cutoff
+- **Quantum Well Physics** <a id="quantum-well-physics"></a>
+  - The physics in the quantum well (QW) is described in detail in Chapter 35 on page 975. Due to the size of the LED structure, it is recommended that you start with representing quantum wells as bulk active regions, and then contact TCAD S...
+  - _Keywords:_ quantum, TCAD, Support, physics, described, detail, Due, LED
+- **Accelerating Gain Calculations and LED Simulations** <a id="accelerating-gain-calculations-and-led-simulations"></a>
+  - The computation bottleneck in LED simulations with gain tables is the calculation of the spontaneous emission rate at every Newton step. The spontaneous emission rate (unit is ) iss –1 an energy integral of the spontaneous emission coeff...
+  - _Keywords:_ integration, spontaneous, emission, Gaussian, quadrature, Math, calculation, energy
+- **Discussion of LED Physics** <a id="discussion-of-led-physics"></a>
+  - Many physical effects manifest in an LED structure. Current spreading is important to ensure that the current is channeled to supply the spontaneous emission sources at strategic locations that will provide the optimal extraction efficie...
+  - _Keywords:_ nonactive, region, physical, LED, structure, important, active, photon
+- **LED Optics: Raytracing** <a id="led-optics-raytracing"></a>
+  - Raytracing is used to compute the intensity of light inside an LED, as well as the rays that escape from the LED cavity to give the signature radiation pattern for the LED output. The basic theory of raytracing is presented in Raytracing...
+  - _Keywords:_ LED, raytracing, Raytracing, boundary, define, reflecting, vector, starting
+- **Compact Memory Raytracing** <a id="compact-memory-raytracing"></a>
+  - A compact memory model has been built for LED raytracing. In the compact memory model, the raytrees are no longer saved, and necessary quantities are computed as required and extracted to compact storages of optical generation and optica...
+  - _Keywords:_ compact, memory, LED, raytracing, optical, raytrees, longer, necessary
+- **Isotropic Starting Rays From Spontaneous Emission Sources** <a id="isotropic-starting-rays-from-spontaneous-emission-sources"></a>
+  - The source of radiation from an LED is mainly from spontaneous emissions in the active region (this is further discussed in Spontaneous Emission Rate and Power on page 937). The spontaneous emission in the active region of the LED is ass...
+  - _Keywords:_ active, source, isotropic, isotropy, geodesic, directed, splitting, starting
+- **Anisotropic Starting Rays From Spontaneous Emission Sources** <a id="anisotropic-starting-rays-from-spontaneous-emission-sources"></a>
+  - In some LED designs, the geometry governs the polarization of the optical field in the device. The spontaneous gain is dependent on the direction of this polarization. Consequently, this leads to an anisotropic spontaneous-emission patte...
+  - _Keywords:_ emission, spontaneous, polarization, anisotropic, LED, optical, pattern, different
+- **Randomizing Starting Rays** <a id="randomizing-starting-rays"></a>
+  - Spontaneous emission is a random process. To take into account the random nature of this process and still ensure that the emission of the starting rays from each active vertex source is isotropic, a randomized shift of the entire isotro...
+  - _Keywords:_ random, starting, isotropic, emission, process, active, vertex, entire
+- **Pseudorandom Starting Rays** <a id="pseudorandom-starting-rays"></a>
+  - Randomization of the starting rays is activated by the keyword RaysRandomOffset in the following syntax:
+  - _Keywords:_ RaysRandomOffset, starting, keyword, generator, Randomization, activated, syntax, Physics
+- **Reading Starting Rays From File** <a id="reading-starting-rays-from-file"></a>
+  - The geodesic ray distribution is not truly isotropic. As a result, some percentages of error are incurred when isotropy is really needed. To circumvent this issue, a new feature to allow you to read in a set of source isotropic starting ...
+  - _Keywords:_ isotropic, distribution, starting, RaysPerVertex, SourceRaysFromFile, sourcerays, direction, vectors
+- **Moving Starting Rays on Boundaries** <a id="moving-starting-rays-on-boundaries"></a>
+  - Starting rays from active vertices on boundaries create the problem that half of those rays are propagated directly out of the device. To alleviate this problem, a new feature is implemented to allow you to shift the starting position of...
+  - _Keywords:_ problem, device, Starting, active, vertices, boundaries, create, propagated
+- **Clustering Active Vertices** <a id="clustering-active-vertices"></a>
+  - In 3D LED simulations, the number of active vertices can grow significantly when the electrical mesh is refined. This directly implies that the number of starting rays for raytracing increases significantly because that is a direct funct...
+  - _Keywords:_ active, vertices, starting, raytracing, significantly, memory, LED, simulations
+- **Plane Area Cluster** <a id="plane-area-cluster"></a>
+  - Users select the total number of clusters to be generated. Then, this number is translated into equal area zones (also taking into account the aspect ratio) of the automatically detected QW plane. The active vertices are subsequently gro...
+  - _Keywords:_ clusters, cluster, active, vertices, squarish, elements, details, summary
+- **Nodal Clustering** <a id="nodal-clustering"></a>
+  - A recursive algorithm is used to calculate how to group the active vertices for each cluster, such that each cluster receives, more or less, the same number of active vertices. The algorithm alternates the x- and y-coordinate partitionin...
+  - _Keywords:_ active, vertices, cluster, algorithm, recursive, calculate, receives, alternates
+- **Optical Grid Element Clustering** <a id="optical-grid-element-clustering"></a>
+  - The number of clusters cannot be set by users as it is defined by the number of optical grid elements. Active regions must be defined in both the electrical and optical grids. An effective bulk region in the optical grid is used to descr...
+  - _Keywords:_ optical, active, clusters, defined, elements, electrical, vertices, cluster
+- **Using the Clustering Feature** <a id="using-the-clustering-feature"></a>
+  - The following keywords in the LED framework activate the clustering feature:
+  - _Keywords:_ LED, Nodes, PlaneArea, keywords, framework, activate, clustering, feature
+- **Debugging Raytracing** <a id="debugging-raytracing"></a>
+  - Rays are assumed, by default, to irradiate isotropically from each active vertex. In the case of quantum wells, an artifact of this assumption might cause unrealistic spikes in the radiation pattern. Consider those source rays that are d...
+  - _Keywords:_ quantum, LED, active, vertex, radiation, source, within, These
+- **Print Options in Raytracing** <a id="print-options-in-raytracing"></a>
+  - The original Print feature of raytracing causes all ray paths to be printed. With multiple reflections or refractions and a large number of starting rays, the resultant image can become a black smudge. To reduce the number of ray paths t...
+  - _Keywords:_ Print, raytree, active, filename, feature, raytracing, printed, resultant
+- **Interfacing LED Starting Rays to LightTools** <a id="interfacing-led-starting-rays-to-lighttools"></a>
+  - To facilitate the rapid design of LED structures with its luminaire, the starting rays from active region vertices can be output directly to a ray file formatted for use in the Synopsys LightTools® tool. Figure 65 shows a probable design...
+  - _Keywords:_ LightTools, LED, starting, active, Device, stroke, format, design
+- **Example: n99\_000000\_des\_lighttools.txt** <a id="example-n99-000000-des-lighttools-txt"></a>
+  - This example is an ASCII-formatted LightTools ray file (version 2.0 format): ```python LT_RDF_VERSION: 2.0 DATANAME: SentaurusDeviceRayData LT_DATATYPE: radiant_power LT_RADIANT_FLUX: 1.946806e-04 LT_FAR_FIELD_DATA: NO LT_COLOR_INFO: wav...
+  - _Keywords:_ LightTools, wavelength, micrometers, columns, ASCII, formatted, version, format
+- **LED Radiation Pattern** <a id="led-radiation-pattern"></a>
+  - Raytracing does not contain phase information, so it is not possible to compute the far-field pattern for an LED structure. Instead, the outgoing rays from the LED raytracing are used to produce the radiation pattern.
+  - _Keywords:_ LED, radiation, pattern, center, observation, keyword, device, circle
+- **Two-Dimensional LED Radiation Pattern and Output Files** <a id="two-dimensional-led-radiation-pattern-and-output-files"></a>
+  - Activating the LED radiation plot for a 2D LED simulation produces two different files (using the base name "rad"):
+  - _Keywords:_ radiation, LED, _000000, _LEDRad, normalized, pattern, Sentaurus, simulation
+- **Three-Dimensional LED Radiation Pattern and Output Files** <a id="three-dimensional-led-radiation-pattern-and-output-files"></a>
+  - There are two output files for the radiation pattern in the case of a 3D LED simulation:
+  - _Keywords:_ radiation, pattern, LED, simulation, normalized, details, summary, intensity
+- **Staggered 3D Grid LED Radiation Pattern** <a id="staggered-3d-grid-led-radiation-pattern"></a>
+  - In discretizing a 3D far-field collection sphere with regular longitudinal and latitude lines, the size of each surficial element critically depends on its location on the sphere. At the polar regions, the elements are very small compare...
+  - _Keywords:_ elements, sphere, regions, element, elemental, concentric, collection, surficial
+- **Spectrum-Dependent LED Radiation Pattern** <a id="spectrum-dependent-led-radiation-pattern"></a>
+  - Unlike a laser beam with single-frequency emissions, rays emitting from an LED carry a spectrum of frequencies (or energies). Sentaurus Device monitors the spectrum of each ray as it undergoes the process of raytracing in and out of the ...
+  - _Keywords:_ LED, spectrum, feature, radiation, startenergy, endenergy, numpoints, specified
+- **Tracing Source of Output Rays** <a id="tracing-source-of-output-rays"></a>
+  - Optimizing the extraction efficiency is critical in an LED design. Other than modifying the shape of the device, you can use the fact that the rays originating from certain zones in the active region have a higher escape or extraction ra...
+  - _Keywords:_ LED, extraction, active, feature, efficiency, higher, _TraceSource, TraceSource
+- **Interfacing Far-Field Rays to LightTools** <a id="interfacing-far-field-rays-to-lighttools"></a>
+  - LightTools is a robust raytracer that accepts a list of source rays as input, and it can optimize the packaging design for LEDs, that is, the luminaire. Such a design flow is shown in Figure 69.
+  - _Keywords:_ LED, LightTools, design, wavelength, farfield, device, Sentaurus, Device
+- **Nonactive Region Absorption (Photon Recycling)** <a id="nonactive-region-absorption-photon-recycling"></a>
+  - The default setting for LED simulations includes the contribution of absorbed photons in nonactive regions to the continuity equation as a generation rate. This is the basic concept of the nonactive-region photon recycling. In most cases...
+  - _Keywords:_ nonactive, generation, absorption, LED, regions, continuity, equation, NonActiveAbsorptionOff
+- **Device Physics and Tuning Parameters** <a id="device-physics-and-tuning-parameters"></a>
+  - Unlike a laser diode, an LED does not have a threshold current. Therefore, the carriers in the active region are not limited to any threshold value. This means that the spontaneous gain spectrum continues to grow as the bias current incr...
+  - _Keywords:_ LED, current, efficiency, profile, extraction, active, region, spontaneous
+- **Example of 3D GaN LED Simulation** <a id="example-of-3d-gan-led-simulation"></a>
+  - An LED simulation is best run with a dual-grid approach. The electrical grid must be dense in vicinities where carrier transport details are important. On the other hand, a coarse grid is needed for raytracing. The following is a skeleta...
+  - _Keywords:_ LED, syntax, simulation, important, simulations, Method, ILS, ErrRef
+- **34: Light-Emitting Diodes** <a id="34-light-emitting-diodes"></a>
+- **Device Physics and Tuning Parameters** <a id="device-physics-and-tuning-parameters"></a>
+  - ```txt Grid = "elec_msh.tdr" Parameters = "elecparafile.par" Current = "elsolver" Plot = "elsolver" LEDRadiation = "farfield" Gain = "gainfilename" }
+  - _Keywords:_ Physics, Recombination, SRH, TempDep, Radiative, LED, RegionInterface, Traps
+- **34: Light-Emitting Diodes** <a id="34-light-emitting-diodes"></a>
+- **Device Physics and Tuning Parameters** <a id="device-physics-and-tuning-parameters"></a>
+  - ```awk } Physics(RegionInterface="Barrier0/QW1") {Traps((FixedCharge Conc=1e12))} Physics(RegionInterface="QW1/Barrier1") {Traps((FixedCharge Conc=-1e12))}
+  - _Keywords:_ Physics, simulation, Coupled, Poisson, Electron, Hole, electrical, keyword
+- **References** <a id="references"></a>
+  - [1] W.-C. Ng and M. Pfeiffer, “Generalized Photon Recycling Theory for 2D and 3D LED Simulation in Sentaurus Device,” in 6th International Conference on Numerical Simulation of Optoelectronic Devices (NUSOD-06), Singapore, pp. 127–128, S...
+  - _Keywords:_ quantum, Generalized, Photon, Recycling, LED, Simulation, Device, methods
+- **Overview** <a id="overview"></a>
+  - In this section, the focus is on two aspects of modeling the quantum well:
+  - _Keywords:_ recombination, processes, quantum, important, These, optical, matrix, element
+- **Radiative Recombination and Gain Coefficients** <a id="radiative-recombination-and-gain-coefficients"></a>
+  - After the carriers are captured in the active region, they experience either dark recombination processes (such as Auger and SRH) or radiative recombination processes (such as stimulated and spontaneous emissions), or escape from the act...
+  - _Keywords:_ active, region, recombination, processes, stimulated, spontaneous, emissions, After
+- **Stimulated and Spontaneous Emission Coefficients** <a id="stimulated-and-spontaneous-emission-coefficients"></a>
+  - In the active region of the LED, radiative recombination is treated locally at each active vertex. The stimulated and spontaneous emissions are computed using Fermi’s golden rule.
+  - _Keywords:_ stimulated, mathrm, spontaneous, active, emission, Delta, Phi_, optical
+- **Active Bulk Material Gain** <a id="active-bulk-material-gain"></a>
+  - The stimulated and spontaneous emission coefficients discussed are derived for the quantum well. However, these coefficients can apply to bulk materials with slight modifications. In bulk active materials, it is assumed that the optical ...
+  - _Keywords:_ coefficients, quantum, materials, stimulated, spontaneous, emission, discussed, derived
+- **Stimulated Recombination Rate** <a id="stimulated-recombination-rate"></a>
+  - The radiative emissions contribute to the production of photons but they also deplete the carrier population in the active region. At each active vertex, the stimulated recombination rate of the carriers must be equal to the sum of the p...
+  - _Keywords:_ active, stimulated, vertex, recombination, photon, lasing, emissions, production
+- **Spontaneous Recombination Rate** <a id="spontaneous-recombination-rate"></a>
+  - The spontaneous emission rate and power are described in Spontaneous Emission Rate and Power on page 937. The total spontaneous recombination rates on active vertices can be plotted by including the keyword SpontaneousRecombination in th...
+  - _Keywords:_ spontaneous, emission, described, Spontaneous, Emission, Rate, Power, recombination
+- **Fitting Stimulated and Spontaneous Emission Spectra** <a id="fitting-stimulated-and-spontaneous-emission-spectra"></a>
+  - The stimulated and spontaneous emission spectra can be fine-tuned by scaling and shifting. The spectra can be scaled in magnitude by the keywords StimScaling=<float> and SponScaling=<float> in the Physics-LED section. It is also possible...
+  - _Keywords:_ spectra, emission, stimulated, spontaneous, scaling, shifting, scaled, magnitude
+- **Gain-Broadening Models** <a id="gain-broadening-models"></a>
+  - Three different line-shape broadening models are available: Lorentzian, Landsberg, and hyperbolic-cosine. These line-shape functions, , are embedded in the radiative emissionL E( ) coefficients in Eq. 1110 and Eq. 1111 to account for bro...
+  - _Keywords:_ broadening, Three, different, models, available, Lorentzian, Landsberg, hyperbolic
+- **Lorentzian Broadening** <a id="lorentzian-broadening"></a>
+  - Lorentzian broadening assumes that the probability of finding an electron or a hole in a given state decays exponentially in time [1]. The line-shape function is:
+  - _Keywords:_ Gamma, Lorentzian, broadening, assumes, probability, finding, electron, decays
+- **Landsberg Broadening** <a id="landsberg-broadening"></a>
+  - The Landsberg model gives a narrower, asymmetric line-shape broadening, and its line-shape function is:
+  - _Keywords:_ Gamma, Psi_, Psi, Landsberg, narrower, asymmetric, broadening, Fermi
+- **Hyperbolic-Cosine Broadening** <a id="hyperbolic-cosine-broadening"></a>
+  - The hyperbolic-cosine function has a broader tail on the low-energy side compared to Lorentzian broadening, and the line-shape function is:
+  - _Keywords:_ Gamma, hyperbolic, cosine, broader, energy, compared, Lorentzian, broadening
+- **Syntax to Activate Broadening** <a id="syntax-to-activate-broadening"></a>
+  - You can select only one line-shape function for gain broadening. This is activated by the keyword Broadening in the Physics-LED section of the command file:
+  - _Keywords:_ Broadening, Gamma, broadening, Physics, LED, You, select, activated
+- **Electronic Band Structure for Wurtzite Crystals** <a id="electronic-band-structure-for-wurtzite-crystals"></a>
+  - To account for the strong coupling of the three valence bands (heavy holes (HH), light holes (LH), and crystal-field split-holes (CH)) in wurtzite crystals, the localized quantum-well model in Sentaurus Device supports a parabolic band a...
+  - _Keywords:_ Delta_, varepsilon, varepsilon_, effective, mathrm, strain, specification, lambda_
+- **Optical Transition Matrix Element for Wurtzite Crystals** <a id="optical-transition-matrix-element-for-wurtzite-crystals"></a>
+  - To compute the spontaneous emission spectrum, $r ^ { { \mathrm { s p } } } ( E )$ , in LED simulations as defined in Eq. 1111, p. 976, the optical transition matrix element must be evaluated. For quantum wells grown along the -axis of th...
+  - _Keywords:_ mathrm, Delta_, electron, polarization, theta_, subband, Polarization, simulations
+- **Simple Quantum-Well Subband Model** <a id="simple-quantum-well-subband-model"></a>
+  - This section describes the solution of the Schrödinger equation for a simple finite quantumwell model. This is the default model in Sentaurus Device. This simple quantum-well (QW) subband model is combined with separate QW strain (see St...
+  - _Keywords:_ quantum, equation, wavefunctions, Nc300, subband, effective, partial, fraction
+- **Syntax for Simple Quantum-Well Model** <a id="syntax-for-simple-quantum-well-model"></a>
+  - This simple QW subband model is the default model when the QWTransport model is activated:
+  - _Keywords:_ simple, QWTransport, subband, activated, Physics, LED, Optics, Specify
+- **Strain Effects** <a id="strain-effects"></a>
+  - It is well known that strain of the quantum well modifies the stimulated and spontaneous emission gain spectra. Due to the deformation potentials in the crystal at the well–bulk interface and valence band mixing effects, band structure m...
+  - _Keywords:_ valence, varepsilon, strain, deformation, structure, simple, subband, effective
+- **Syntax for Quantum-Well Strain** <a id="syntax-for-quantum-well-strain"></a>
+  - The strain shift can be activated by the keyword Strain in the Physics-LED section of the command file:
+  - _Keywords:_ strain, Strain, Physics, LED, QWStrain, C_12, C_11, a_active
+- **Localized Quantum-Well Model** <a id="localized-quantum-well-model"></a>
+  - In GaN-based quantum-well systems, the polarization charge sheets at the interfaces of the quantum well or barrier induce a large field within the quantum well. These fields skew the energy bands and cause mismatches in the alignment of ...
+  - _Keywords:_ quantum, states, crystal, effects, localized, QW1, Eigenenergies, Actual
+- **Nonlocal Quantum-Well Model Using 1D Schrödinger Solver** <a id="nonlocal-quantum-well-model-using-1d-schr-dinger-solver"></a>
+  - The most rigorous model available in Sentaurus Device to model quantum wells is the 1D Schrödinger solver on a nonlocal mesh that covers the quantum-well structure (see Nonlocal Mesh for the 1D Schrödinger Equation on page 288). A nonloc...
+  - _Keywords:_ quantum, nonlocal, solver, Equation, QW1, structure, Physics, covers
+- **Importing Gain and Spontaneous Emission Data With PMI** <a id="importing-gain-and-spontaneous-emission-data-with-pmi"></a>
+  - Sentaurus Device can import external stimulated and spontaneous emission data through the physical model interface (PMI). The gain PMI concept is illustrated in Figure 70.
+  - _Keywords:_ PMI, Sentaurus, Device, derivatives, import, through, written, electron
+- **Implementing Gain PMI** <a id="implementing-gain-pmi"></a>
+  - The PMI uses the object-orientation capability of the C++ language (see Chapter 37 on page 1033). A brief outline is given here of the gain PMI.
+  - _Keywords:_ double, virtual, PMI_StimEmissionCoeff, public, PMI, header, PMIModels, defined
+- **35: Modeling Quantum Wells** _(p.29)_ <a id="35-modeling-quantum-wells"></a>
+  - Importing Gain and Spontaneous Emission Data With PMI
+  - _Keywords:_ double, Compute, emission, derivative, PMI, stimulated, coefficient, StimEmissionCoeff
+- **References** <a id="references"></a>
+  - [1] L. A. Coldren and S. W. Corzine, Diode Lasers and Photonic Integrated Circuits, New York: John Wiley & Sons, 1995. [2] S. L. Chuang and C. S. Chang, “A band-structure model of strained quantum-well wurtzite semiconductors,” Semicondu...
+  - _Keywords:_ Quantum, Chuang, Lasers, strained, wurtzite, semiconductors, Chang, Semiconductor
+- **Part III Numeric Methods and External Interfaces** <a id="part-iii-numeric-methods-and-external-interfaces"></a>
+  - This part of the Sentaurus™ Device User Guide contains the following chapters:
+  - _Keywords:_ Sentaurus, Device, Guide, contains, Numeric, Methods, Physical, Model
+- **Discretization** <a id="discretization"></a>
+  - The well-known box discretization [1][2][3] is applied to discretize the partial differential equations (PDEs). This method integrates the PDEs over a test volume such as that shown in Figure 71, which applies the Gaussian theorem and di...
+  - _Keywords:_ Box, method, Omega_i, kappa_, discretization, equations, PDEs, volume
+- **Extended Precision** <a id="extended-precision"></a>
+  - Although the coordinates of vertices of a mesh are stored with “double” precision accuracy, Sentaurus Device computes box method coefficients and control volumes, by default, with “long double” extended-precision accuracy. This is especi...
+  - _Keywords:_ precision, double, method, extended, coordinates, vertices, accuracy, coefficients
+- **Box Method Coefficients in the 3D Case** <a id="box-method-coefficients-in-the-3d-case"></a>
+  - This section describes the coefficients of the box method in the 3D case.
+  - _Keywords:_ describes, coefficients, method
+- **Basic Definitions** <a id="basic-definitions"></a>
+- **Delaunay Mesh** <a id="delaunay-mesh"></a>
+  - A mesh is a Delaunay mesh if the interior of the circumsphere (circumcircle for two dimensions) of each element contains no mesh vertices.
+  - _Keywords:_ Delaunay, interior, circumsphere, circumcircle, dimensions, element, contains, vertices
+- **Obtuse Element** <a id="obtuse-element"></a>
+  - An element is called obtuse if the center of the circumsphere (circumcircle) is outside this element.
+  - _Keywords:_ element, called, obtuse, center, circumsphere, circumcircle, outside
+- **Obtuse Face** <a id="obtuse-face"></a>
+  - Let Pf be the plane that contains the face f of an element. Each plane splits 3D space into two half-spaces Sf1 and Sf2. A face f is called obtuse if the center of the circumsphere of the element and the element itself lie in different h...
+  - _Keywords:_ obtuse, element, spaces, Sf1, Sf2, Let, contains, splits
+- **Non-Delaunay Element** <a id="non-delaunay-element"></a>
+  - An obtuse element is called non-Delaunay if the interior of the circumsphere (circumcircle) around this element contains another mesh vertex.
+  - _Keywords:_ element, obtuse, called, Delaunay, interior, circumsphere, circumcircle, around
+- **Voronoï Element Center and Voronoï Face Center** <a id="vorono-element-center-and-vorono-face-center"></a>
+  - Let be a mesh element. The center circumsphere (circle for two dimensions) around theT element $T$ is called the Voronoï element center $V _ { T }$ . Let $f$ be the face of the element . TheT center circumcircle around the face $f$ is ca...
+  - _Keywords:_ element, center, Let, around, called, circumsphere, circle, dimensions
+- **Voronoï Box and Face of the Voronoï Box** <a id="vorono-box-and-face-of-the-vorono-box"></a>
+  - Let be a vertex of the mesh and let v $e \nu ^ { n } ( 1 \leq n \leq N )$ be the set of edges connected to vertex . Letv $P _ { e \nu } ^ { n }$ be the mid-perpendicular plane for the edge $e { \nu } ^ { n }$ . The plane $P _ { e \nu } ^...
+  - _Keywords:_ boldsymbol, element, vertex, details, summary, V_f, centers, V_T
+- **Element Intersection Box Method Algorithm** <a id="element-intersection-box-method-algorithm"></a>
+  - Sentaurus Device uses the element intersection box method algorithm. Let $S _ { e \mathrm { v } } ^ { T ^ { i } }$ be the area of intersection $F _ { e \mathrm { v } } \cap T ^ { i }$ . For example:
+  - _Keywords:_ mathrm, elements, Area, Delaunay, method, element, algorithm, coefficients
+- **Truncated Obtuse Elements** <a id="truncated-obtuse-elements"></a>
+  - If a mesh has no obtuse elements, you have element-volume conservation for Measure values (see Figure 75 on page 1009):
+  - _Keywords:_ details, summary, volume, conservation, images, flowchart, mermaid, truncation
+- **Weighted Box Method Coefficients** <a id="weighted-box-method-coefficients"></a>
+  - The main goal of any space discretization is the generation of a Delaunay mesh. In this case, the box method coefficients are positive and the finite volume scheme [1] (Eq. 1170, p. 1004) is monotone. For a non-Delaunay mesh, the Average...
+  - _Keywords:_ Delaunay, volume, coefficients, positive, finite, scheme, monotone, approximation
+- **Weighted Points** <a id="weighted-points"></a>
+  - A weighted point $\tilde { p } = ( p , P ^ { 2 } )$ is interpreted as a sphere (circle in two dimensions) with a center and radius . The weighted distance betweenp P $\tilde { p }$ and $\tilde { \boldsymbol { x } } = ( x , X )$ is define...
+  - _Keywords:_ weighted, common, radius, points, centers, orthocircle, sphere, circle
+- **Weighted Voronoï Diagram** <a id="weighted-vorono-diagram"></a>
+  - The weighted generalization of the Voronoï diagram is obtained by substituting a weighted vertex for vertices and an orthosphere (orthocircle) for circumspheres (circumcircles).
+  - _Keywords:_ weighted, diagram, alpha_, details, summary, bisector, middle, overlap
+- **Saving and Restoring Box Method Coefficients** <a id="saving-and-restoring-box-method-coefficients"></a>
+  - Usually, the coefficients needed for discretization are computed inside Sentaurus Device. For experimental purposes, it might be preferred to use externally provided data. Measure and Coefficients ( and from Eq. 1170, p. 1004) can be sto...
+  - _Keywords:_ Measure, Coefficients, element, Sentaurus, Device, numbering, format, numeration
+- **Statistics About Non-Delaunay Elements** <a id="statistics-about-non-delaunay-elements"></a>
+  - Information about region non-Delaunay elements and interface non-Delaunay elements is contained in the log file. For more information, see Utilities User Guide, Chapter 4 on page 25.
+  - _Keywords:_ Delaunay, elements, Information, region, interface, contained, information, Utilities
+- **Region Non-Delaunay Elements** <a id="region-non-delaunay-elements"></a>
+  - A log file contains common data about the mesh and information about non-Delaunay elements per region (for Delaunay mesh DeltaVolume=0 and non-DelaunayVolume=0):
+  - _Keywords:_ Delaunay, elements, DeltaVolume, DelaunayVolume, Region, Elements, contains, common
+- **Interface Non-Delaunay Elements** <a id="interface-non-delaunay-elements"></a>
+  - An interface element is an element that has a face (or edge in two dimensions) lying on the interface. A non-Delaunay element is an interface non-Delaunay element only if its obtuse face lies on the surface of the interface (see Figure 81).
+  - _Keywords:_ Delaunay, interface, element, elements, Elements, details, summary, silicon
+- **Plot Section** <a id="plot-section"></a>
+  - Table 175 lists the plot variables that might be useful for visualizing box method statistics (see Scalar Data on page 1332). See Utilities User Guide, Chapter 4 on page 25 for the definitions of these variables.
+  - _Keywords:_ Element, Vertex, variables, method, Plot, variable, useful, visualizing
+- **AC Simulation** <a id="ac-simulation"></a>
+  - AC simulation is based on small-signal AC analysis. The response of the device to ‘small’ sinusoidal signals superimposed upon an established DC bias is computed as a function of frequency and DC operating point. Steady-state solution is...
+  - _Keywords:_ solution, sinusoidal, simulation, signal, analysis, response, device, signals
+- **AC Response** <a id="ac-response"></a>
+  - The AC response is obtained from the three basic semiconductor equations (see Eq. 37, p. 175 and Eq. 53, p. 183) and from up to three additional energy conservation equations to account for electron, hole, and lattice temperature respons...
+  - _Keywords:_ partial, mathrm, system, vector, solution, matrix, boundary, conditions
+- **AC Current Density Responses** <a id="ac-current-density-responses"></a>
+  - When the AC system is solved, the AC current density responses $\vec { \tilde { \jmath } } _ { \mathrm { D } } , \vec { \tilde { \jmath } } _ { n } , \mathrm { a n d } \vec { \tilde { \jmath } } _ { p }$ are computed using:
+  - _Keywords:_ mathrm, partial, responses, current, density, system, solved, computed
+- **Harmonic Balance Analysis** <a id="harmonic-balance-analysis"></a>
+  - Harmonic balance (HB) analysis is a frequency domain method to solve periodic and quasiperiodic time-dependent problems for steady-state solutions [8][9]. It is a popular method for RF circuit design applications. While transient discret...
+  - _Keywords:_ periodic, problems, Harmonic, method, dependent, balance, analysis, frequency
+- **Harmonic Balance Equation** <a id="harmonic-balance-equation"></a>
+  - In general, the dynamic mixed-mode simulation problem takes the form:
+  - _Keywords:_ Fourier, mathrm, problem, sources, vector, solution, series, omega_
+- **Multitone Harmonic Balance Analysis** <a id="multitone-harmonic-balance-analysis"></a>
+  - The multitone harmonic balance (HB) analysis makes use of the multidimensional Fourier transformation (MDFT). This means that the problem is mapped onto a problem in a multidimensional frequency and multidimensional time domain, hereby e...
+  - _Keywords:_ multidimensional, Fourier, problem, multitone, harmonic, balance, analysis, transformation
+- **Multidimensional Fourier Transformation** <a id="multidimensional-fourier-transformation"></a>
+  - The multidimensional Fourier transformation (MDFT) maps multidimensional functions onto a multidimensional spectrum.
+  - _Keywords:_ underline, multidimensional, mathrm, sampling, points, MDFT, spectrum, Let
+- **Quasi-Periodic Functions** <a id="quasi-periodic-functions"></a>
+  - The multidimensional function $u ^ { \phantom { A } M }$ can be projected onto a one-dimensional time space by:
+  - _Keywords:_ underline, multidimensional, spectrum, phantom, dimensional, domain, different, sample
+- **Multidimensional Frequency Domain Problem** <a id="multidimensional-frequency-domain-problem"></a>
+  - The multitone HB analysis is essentially a translation of (one-dimensional or multidimensional) time-domain problems in a multidimensional frequency domain. Though originally derived from a time-domain problem, the circuit equations are ...
+  - _Keywords:_ multidimensional, domain, Gamma, dimensional, frequency, circuit, Fourier, transformation
+- **One-Tone Harmonic Balance Analysis** <a id="one-tone-harmonic-balance-analysis"></a>
+  - For one-tone HB analysis, the standard discrete Fourier transformation can be used, which includes that the sampling points are defined explicitly in a (one-dimensional) time domain. Therefore, the problem can be extracted directly from ...
+  - _Keywords:_ domain, analysis, standard, discrete, Fourier, transformation, includes, sampling
+- **Solving HB Equation** <a id="solving-hb-equation"></a>
+  - The HB equation (Eq. 1190) is a nonlinear equation in and is solved by the NewtonU algorithm. In each Newton step, the linear equation:
+  - _Keywords:_ partial, Gamma, Fourier, vector, equation, Newton, Jacobian, scalar
+- **Solving HB Newton Step Equation** <a id="solving-hb-newton-step-equation"></a>
+  - The memory requirements for storing the HB Jacobian matrix typically become very large, as its size is increased by a factor of $S ^ { \tilde { 2 } }$ compared to the corresponding DC or transient matrix. For a very small number of harmo...
+  - _Keywords:_ matrix, memory, requirements, storing, Jacobian, typically, become, increased
+- **Restarted GMRES Method** <a id="restarted-gmres-method"></a>
+  - The HB module makes use of a preconditioned restarted generalized minimum residual GMRES(m) method [10], a Krylow subspace method, which does not need to store the Jacobian in memory, as only matrix-vector products have to be computed.
+  - _Keywords:_ preconditioner, matrix, Jacobian, computed, GMRES, method, achieve, convergence
+- **Direct Solver Method** <a id="direct-solver-method"></a>
+  - For the direct solver, the complex-valued linear system (Eq. 1203) is transformed to aS S × real-valued problem, which is possible as only real-valued functions are involved. TheS S× resulting linear system is solved by the direct solver...
+  - _Keywords:_ direct, solver, valued, linear, system, memory, complex, transformed
+- **Transient Simulation** <a id="transient-simulation"></a>
+  - Transient equations used in semiconductor device models and circuit analysis can be formally written as a set of ordinary differential equations:
+  - _Keywords:_ equations, transient, discretization, backward, Transient, semiconductor, device, models
+- **Backward Euler Method** <a id="backward-euler-method"></a>
+  - Backward Euler is a very stable method, but it has only a first-order of approximation over time-step $h _ { n }$ . The discretization can be written as:
+  - _Keywords:_ mathrm, relative, estimated, written, solution, varepsilon_, varepsilon, Backward
+- **TRBDF Composite Method** <a id="trbdf-composite-method"></a>
+  - The transient scheme [12] for the approximation of Eq. 1206 is briefly reviewed in this section. From each time point $t _ { n }$ , the next time point $t _ { n } + h _ { n } \ ( h _ { n }$ is the current step size) is not directly reach...
+  - _Keywords:_ mathrm, estimated, transient, approximation, reached, method, varepsilon_, varepsilon
+- **Controlling Transient Simulations** <a id="controlling-transient-simulations"></a>
+  - By default, Sentaurus Device uses the TRBDF method. To switch to backward Euler (BE), the statement Transient=BE must be specified in the Math section.
+  - _Keywords:_ mathrm, Math, mathfrak, statement, Transient, Sentaurus, Device, specified
+- **Floating Gates** <a id="floating-gates"></a>
+  - During a transient time step, the charge of a floating gate is updated as a function of theQ injection current :i
+  - _Keywords:_ Delta, charge, Digits, transient, ErrRef, Math, Error, floating
+- **Nonlinear Solvers** <a id="nonlinear-solvers"></a>
+  - In the next two sections, the Digits variable corresponds to the keyword Digits, which can be given in the Math section (see Convergence and Error Control on page 139), or in parentheses of each Plugin or Coupled statement.
+  - _Keywords:_ Digits, variable, corresponds, keyword, Math, Convergence, Error, Control
+- **Fully Coupled Solution** <a id="fully-coupled-solution"></a>
+  - For the solution of nonlinear systems, the scheme developed by Bank and Rose [13] is applied. This scheme tries to solve the nonlinear system by the Newton method:g z( ) = 0
+  - _Keywords:_ mathrm, Math, varepsilon_, scheme, Newton, criterion, lambda, Sentaurus
+- **‘Plugin’ Iterations** <a id="plugin-iterations"></a>
+  - This is the traditional scheme, which is also known as ‘Gummel iterations’ in most other device simulators. Consider that there are n sets of nonlinear systems $g _ { j } ( z _ { 1 } . . . z _ { n } ) = 0$ . ( can be, forn example, 3 and...
+  - _Keywords:_ iterations, Rightarrow, plugin, traditional, scheme, Gummel, device, simulators
+- **References** <a id="references"></a>
+  - [1] R. E. Bank, D. J. Rose, and W. Fichtner, “Numerical Methods for Semiconductor Device Simulation,” IEEE Transactions on Electron Devices, vol. ED-30, no. 9, pp. 1031–1041, 1983. [2] R. S. Varga, Matrix Iterative Analysis, Englewood Cl...
+  - _Keywords:_ Analysis, Device, New, Numerical, Methods, Semiconductor, Simulation, Devices
+- **36: Numeric Methods** <a id="36-numeric-methods"></a>
+  - References
+  - _Keywords:_ Circuits, Methods, IEEE, Bank, References, Saad, Iterative, Sparse
+- **Overview of the Physical Model Interface** <a id="overview-of-the-physical-model-interface"></a>
+  - The physical model interface (PMI) provides direct access to certain models in the semiconductor transport equations. You can provide new C++ functions to compute these models, and Sentaurus Device loads the functions at runtime using th...
+  - _Keywords:_ Electron, Band, models, mathrm, Effective, access, You, Sentaurus
+- **37: Physical Model Interface** _(p.30)_ <a id="37-physical-model-interface"></a>
+  - Overview of the Physical Model Interface
+  - _Keywords:_ Model, PMI, interface, Sentaurus, Device, Trap, Newton, models
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - For each PMI model, you must implement a C++ subroutine to evaluate the model. Additional subroutines are necessary to evaluate the derivatives of the model with respect to all the input variables. More specifically, you must implement a...
+  - _Keywords:_ double, virtual, mathrm, recombination, Auger_Recombination, partial, PMI_Recombination, Auger
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - There are PMI models that utilize the simplified C++ interface. Such PMI models, referred to as simplified PMI models, need to implement essentially only one function that computes the numeric value of the quantity of interest at the act...
+  - _Keywords:_ PMI, models, simplified, interface, compute, numeric, quantity, _float
+- **Numeric Data Type pmi\_float** <a id="numeric-data-type-pmi-float"></a>
+  - The simplified interface is based on the data type pmi\_float. This data type behaves similar to a double, and it supports all the usual arithmetic operations:
+  - _Keywords:_ operators, pmi_float, simplified, interface, _float, behaves, similar, double
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+  - Overview of the Physical Model Interface
+  - _Keywords:_ des_t_float, double, ExtendedPrecision, gradient, variable, template, precision, vector
+- **Pseudo-Implementation of a Simplified PMI Model** <a id="pseudo-implementation-of-a-simplified-pmi-model"></a>
+  - Compared to the standard interface, the simplified interface only requires the implementation of a single subroutine to evaluate the model. As in Standard C++ Interface on page 1035, the following discusses how Auger recombination can be...
+  - _Keywords:_ interface, public, Auger_Recombination, PMI_Recombination_Base, pmi_float, simplified, PMI, standard
+- **Nonlocal Interface** <a id="nonlocal-interface"></a>
+  - With the nonlocal interface model, values can be computed based on nonlocal values of the input variables. For example, the generation–recombination rate in a vertex might depend on the carrier densities observed in a remote vertex.
+  - _Keywords:_ vertex, Jacobian, depends, matrices, nonlocal, PMI, interface, variables
+- **Jacobian Matrix** <a id="jacobian-matrix"></a>
+  - Sentaurus Device provides the classes des\_jacobian (standard C++ interface) and sdevice\_jacobian (simplified C++ interface) to represent Jacobian matrices. These classes are used to:
+  - _Keywords:_ matrix, element, Jacobian, des_jacobian_iterator, nonzero, variable, location, columns
+- **Example: Point-to-Point Tunneling Model** <a id="example-point-to-point-tunneling-model"></a>
+  - For a nonlocal generation–recombination model, consider a simple point-to-point tunneling model between two vertices $\nu _ { 1 }$ and $\nu _ { 2 }$ . The model compares the electron and hole quasi-Fermi potentials in these two vertices....
+  - _Keywords:_ vertex, des_data, scalar, rowspan, n_vertices, des_jacobian, des_id, vector
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+  - Overview of the Physical Model Interface
+  - _Keywords:_ des_data, define_element, vertex, double, v_other, des_jacobian, des_id, scalar
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+  - Overview of the Physical Model Interface
+  - _Keywords:_ interface, element, precision, double, deriv_QF, deriv_ECEV, v_other, header
+- **Shared Object Code** <a id="shared-object-code"></a>
+  - Sentaurus Device assumes that the shared object code corresponding to a PMI model can be found in the file modelname.so.arch. The base name of this file must be identical to the name of the PMI model. The extension .arch depends on the h...
+  - _Keywords:_ shared, object, PMI, Sentaurus, Device, assumes, corresponding, modelname
+- **Command File of Sentaurus Device** <a id="command-file-of-sentaurus-device"></a>
+  - To load PMI models into Sentaurus Device, the PMIPath search path must be defined in the File section of the command file. The value of PMIPath consists of a sequence of directories, for example:
+  - _Keywords:_ PMI, models, Physics, pmi_model_name, Sentaurus, Device, defined, fields
+- **Runtime Support for Vertex-Based PMI Models** <a id="runtime-support-for-vertex-based-pmi-models"></a>
+  - Inside vertex-based PMI models, you can access several functions described here. Essentially, they are split into two groups, namely, functions that are valid at the scope of the PMI model and functions that are valid only within the sco...
+  - _Keywords:_ PMI, Inside, vertex, models, access, several, described, Essentially
+- **Runtime Support at Model Scope** <a id="runtime-support-at-model-scope"></a>
+  - A standard vertex-based PMI is derived from the base class PMI\_Vertex\_Interface; whereas, a simplified vertex-based PMI is derived from the base class PMI\_Vertex\_Base. Both base classes are derived from the PMI\_Vertex\_Common\_Base ...
+  - _Keywords:_ PMI, modelName, double, defaultvalue, method, PMI_Vertex_Common_Base, derived, _Vertex
+- **Reaction–Diffusion Species Interface (Model Scope)** <a id="reaction-diffusion-species-interface-model-scope"></a>
+  - The interface to reaction–diffusion (RD) species is the same for both standard and simplified PMI models, as it is provided in the common base class PMI\_Vertex\_Common\_Base. The interface provides the following functions:
+  - _Keywords:_ species, interface, PMI, models, device, defined, actual, standard
+- **Runtime Support at Compute Scope** <a id="runtime-support-at-compute-scope"></a>
+  - The following interface functions depend on the local vertex where a model is evaluated. They are not available in the constructor of the PMI, but should only be called in the Compute function. In the case of the standard interface, thes...
+  - _Keywords:_ double, concentration, vertex, current, chemical, active, interface, PMI
+- **Reaction–Diffusion Species Interface (Compute Scope)** <a id="reaction-diffusion-species-interface-compute-scope"></a>
+  - For simplified PMI models, the class PMI\_Vertex\_Input\_Base provides an interface for the extraction of RD species concentrations. Accessing the species concentrations through this interface supports the automatic derivative computatio...
+  - _Keywords:_ species, interface, actual, RDSpecies, PMI, concentrations, device, models
+- **Experimental Runtime Support Functions** <a id="experimental-runtime-support-functions"></a>
+  - Vertex-based PMI models also have access to the following runtime functions:
+  - _Keywords:_ access, Sentaurus, Device, double, vector, introduce, dependencies, Vertex
+- **Vertex-Based Runtime Support for Multistate Configuration–Dependent Models** <a id="vertex-based-runtime-support-for-multistate-configuration-de"></a>
+  - The base class PMI\_MSC\_Vertex\_Interface provides the same support as PMI\_Vertex\_Interface, plus additional functions needed by models that depend on a multistate configuration (see Chapter 18 on page 483):
+  - _Keywords:_ string, PMI, _Vertex, _MSC, _Interface, multistate, configuration, constructor
+- **Mesh-Based Runtime Support** <a id="mesh-based-runtime-support"></a>
+  - A standard mesh-based PMI is derived from the base class PMI\_Device\_Interface; whereas, a simplified mesh-based PMI is derived from the base class PMI\_Device\_Base. Both base classes provide the following shared functionality:
+  - _Keywords:_ PMI, double, interface, modelName, Device, standard, _Device, whereas
+- **Device Mesh** <a id="device-mesh"></a>
+  - A device mesh of Sentaurus Device consists of a number of regions. A region is either a contact region consisting of a list of contact vertices or a bulk region consisting of a list of elements. An element is described by a list of verti...
+  - _Keywords:_ region, contact, consisting, vertices, device, Sentaurus, Device, consists
+- **Vertex** <a id="vertex"></a>
+  - In the file PMIModels.h, the class des\_vertex is declared as follows:
+  - _Keywords:_ PMIModels, _vertex, declared, follows, des_vertex, public
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Mesh-Based Runtime Support** <a id="mesh-based-runtime-support"></a>
+  - ```txt size_t index () const; size_t element_vertex_index (const des_element* element) const;
+  - _Keywords:_ size_t, vertex, region, element, coordinates, vertices, method, des_element
+- **Edge** <a id="edge"></a>
+  - In the file PMIModels.h, the class des\_edge is declared as follows:
+  - _Keywords:_ size_t, element, region, des_vertex, connected, method, retrieve, PMIModels
+- **Element** <a id="element"></a>
+  - In the file PMIModels.h, the class des\_element is declared as follows:
+  - _Keywords:_ size_t, des_type, PMIModels, _element, declared, follows, des_element, public
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Mesh-Based Runtime Support** <a id="mesh-based-runtime-support"></a>
+  - ```txt size_t size_edge () const; des_edge* edge (size_t i) const;
+  - _Keywords:_ element, size_t, vertices, method, numbering, _vertex, vertex, retrieve
+- **Region** <a id="region"></a>
+  - In the file PMIModels.h, the base class des\_region is declared as follows:
+  - _Keywords:_ region, size_t, public, method, des_type, _region, des_region, vertex
+- **Region Interface** <a id="region-interface"></a>
+  - A region interface separates two bulk regions. It is described by the following class:
+  - _Keywords:_ region, interface, size_t, vertex, regions, des_bulk, Device, Data
+- **Mesh** <a id="mesh"></a>
+  - In the file PMIModels.h, the class des\_mesh is declared as follows:
+  - _Keywords:_ size_t, double, method, element, region, matrix, retrieve, vertex
+- **Device Data** <a id="device-data"></a>
+  - The class des\_data provides the following functionality: ```cpp typedef enum { vertex, edge, element, rivertex, element_vertex } des_location; const double*const* ReadCoefficient (); const double*const* ReadMeasure (); const double*cons...
+  - _Keywords:_ double, vertex, element, size_t, string, update, des_data, region
+- **Parameter File of Sentaurus Device** <a id="parameter-file-of-sentaurus-device"></a>
+  - For each PMI model, a corresponding section with the same name can appear in the parameter file:
+  - _Keywords:_ PMIBaseParam, vector, string, scalar, PMI_model_name, strings, specified, method
+- **Parallelization** <a id="parallelization"></a>
+  - During a parallel simulation, Sentaurus Device can invoke a PMI model concurrently from different threads. Therefore the computational functions must be implemented in a thread-safe manner. The following rules guarantee a thread-safe PMI:
+  - _Keywords:_ variables, computational, PMI, thread, Class, modified, During, parallel
+- **Thread-Local Storage** <a id="thread-local-storage"></a>
+  - The thread-local storage template class PMI\_TLS provides a mechanism to store data per thread. This can be useful to optimize the runtime performance of a PMI. Consider an example where a large data structure is allocated and deallocate...
+  - _Keywords:_ compute, public, BigData, thread, PMI, exists, template, _TLS
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+  - Debugging
+  - _Keywords:_ exists, already, allocated, operator, compute, thread, argument, initialized
+- **Debugging** <a id="debugging"></a>
+  - Print statements represent the simplest approach for debugging a PMI. They can be inserted anywhere in the code to print the values of a variable, for example:
+  - _Keywords:_ PMI, sdevice, sentaurus, debugger, Sentaurus, Device, linux64, shared
+- **Generation–Recombination Model** <a id="generation-recombination-model"></a>
+  - The recombination rate $R _ { \mathrm { n e t } }$ appears in the electron and hole continuity equations (see Eq. 53, p. 183).
+  - _Keywords:_ recombination, mathrm, appears, electron, continuity, equations
+- **Dependencies** <a id="dependencies"></a>
+  - The recombination rate $R _ { \mathrm { n e t } }$ can depend on these variables:
+  - _Keywords:_ Derivative, respect, density, recombination, mathrm, depend, variables, Lattice
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_Recombination : public PMI_Vertex_Interface {
+  - _Keywords:_ double, virtual, PMI, PMI_Recombination, Sentaurus, Device, generation, recombination
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ pmi_float, public, PMI_Recombination_Base, virtual, density, PMI, PMI_Environment, new_PMI_Recombination_Base_func
+- **Example: Auger Recombination** <a id="example-auger-recombination"></a>
+  - See Standard C++ Interface on page 1035 and Simplified C++ Interface on page 1039.
+  - _Keywords:_ Interface, Standard, Simplified
+- **Nonlocal Generation–Recombination Model** <a id="nonlocal-generation-recombination-model"></a>
+  - The nonlocal generation–recombination model computes individual electron and hole recombination rates in Eq. 53, p. 183. The name of the PMI model must appear as a recombination model within the Physics section of the command file:
+  - _Keywords:_ recombination, electron, Physics, Plot, nonlocal, generation, computes, individual
+- **Dependencies** <a id="dependencies"></a>
+  - Nonlocal Interface on page 1043 discusses the supported dependencies of nonlocal models. The actual dependencies must be defined with the method DefineDependencies(), and the Jacobian matrices must be defined with the method DefineJacobi...
+  - _Keywords:_ defined, method, Jacobian, matrices, dependencies, Vector, electron, recombination
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ virtual, PMI_NonLocal_Recombination, public, vector, des_id_to_jacobian_map, vertices, region, double
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ virtual, public, PMI_NonLocal_Recombination_Base, vector, sdevice_id_to_jacobian_map, vertices, region, pmi_float
+- **Example: Point-to-Point Tunneling Model** <a id="example-point-to-point-tunneling-model"></a>
+  - This example is presented in Example: Point-to-Point Tunneling Model on page 1046.
+  - _Keywords:_ Point, presented, Tunneling, Model
+- **Avalanche Generation Model** <a id="avalanche-generation-model"></a>
+  - The generation rate due to impact ionization can be expressed as:
+  - _Keywords:_ ionization, alpha_, generation, impact, expressed, parallel, coefficients, electrons
+- **Dependencies** <a id="dependencies"></a>
+  - The ionization coefficients $\alpha _ { n }$ and $\alpha _ { p }$ can depend on the following variables:
+  - _Keywords:_ currentWoMob, Derivative, respect, temperature, vector, during, calculation, compute
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - Different driving forces for avalanche generation can be selected in the command file. The enumeration type PMI\_AvalancheDrivingForce, defined in PMIModels.h, is used to reflect your selection:
+  - _Keywords:_ double, virtual, currentWoMob, PMI_AvalancheDrivingForce, PMI_Avalanche, new_PMI_Avalanche_func, PMIModels, public
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ pmi_float, public, PMI_Avalanche_Base, PMI_AvalancheDrivingForce, virtual, new_PMI_Avalanche_Base_func, temperature, PMI_Environment
+- **Example: Okuto Model** <a id="example-okuto-model"></a>
+  - Okuto and Crowell propose the following expression for the ionization coefficient :α
+  - _Keywords:_ Okuto, Crowell, Okuto_Avalanche, public, double, propose, expression, ionization
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Avalanche Generation Model** <a id="avalanche-generation-model"></a>
+  - ```cpp ~Okuto_Avalanche ( );
+  - _Keywords:_ double, Okuto_Avalanche, currentWoMob, dalphadF, dalphadt, dalphadbg, dalphadct, dalphadcurrentWoMob
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Avalanche Generation Model** <a id="avalanche-generation-model"></a>
+  - ```cpp Okuto_e_Avalanche (const PMI_Environment& env, const PMI_AvalancheDrivingForce force);
+  - _Keywords:_ InitParameter, PMI_Environment, PMI_AvalancheDrivingForce, Okuto_h_Avalanche, Okuto_e_Avalanche, Okuto_Avalanche, public, extern
+- **Mobility Models** <a id="mobility-models"></a>
+  - Sentaurus Device supports three types of PMI mobility models:
+  - _Keywords:_ mobility, PMI, models, anisotropic, different, Sentaurus, Device, supports
+- **Doping-Dependent Mobility** <a id="doping-dependent-mobility"></a>
+  - A doping-dependent PMI model must account for both the constant mobility and dopingdependent mobility models discussed in Mobility due to Phonon Scattering on page 322 and Doping-Dependent Mobility Degradation on page 322.
+  - _Keywords:_ mobility, Mobility, doping, dependent, PMI, account, constant, dopingdependent
+- **Dependencies** <a id="dependencies"></a>
+  - The constant mobility and doping-dependent mobility $\mu _ { \mathrm { d o p } }$ can depend on the following variables:
+  - _Keywords:_ mathrm, respect, Derivative, compute, mobility, density, PMI, derivatives
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ double, virtual, PMI_DopingDepMobility, PMI_AnisotropyType, new_PMI_DopingDepMobility_func, public, anisoType, PMI_Environment
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ pmi_float, public, PMI_DopingDepMobility_Base, density, acceptor, concentration, declared, PMI
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Doping-Dependent Mobility** <a id="doping-dependent-mobility"></a>
+  - ```txt const PMI_AnisotropyType anisotype); virtual ~PMI_DopingDepMobility_Base(); PMI_AnisotropyType AnisotropyType () const; virtual void compute (const Input& input, Output& output) = 0; }; ```
+  - _Keywords:_ PMI_AnisotropyType, virtual, new_PMI_DopingDepMobility_Base_func, anisotype, PMI_DopingDepMobility_Base, extern, AnisotropyType, compute
+- **Example: Masetti Model** <a id="example-masetti-model"></a>
+  - The built-in Masetti model (see Masetti Model on page 324) can also be implemented as a PMI model: ```cpp #include "PMIModels.h"
+  - _Keywords:_ double, Masetti_DopingDepMobility, public, Exponent, ReadDoping, PMI_Environment, anisotype, Masetti
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Doping-Dependent Mobility** <a id="doping-dependent-mobility"></a>
+  - ```cpp const PMI_AnisotropyType anisotype); ~Masetti_e_DopingDepMobility () {} };
+  - _Keywords:_ InitParameter, anisotype, PMI_AnisotropyType, Masetti_h_DopingDepMobility, PMI_Environment, Masetti_e_DopingDepMobility, Masetti_DopingDepMobility, Exponent
+- **Multistate Configuration–Dependent Bulk Mobility** <a id="multistate-configuration-dependent-bulk-mobility"></a>
+  - This PMI allows you to implement multistate configuration (MSC)–dependent bulk mobility models.
+  - _Keywords:_ PMI, allows, implement, multistate, configuration, MSC, dependent, mobility
+- **Command File** <a id="command-file"></a>
+  - To activate a PMI of this type, as an option to eMobility, hMobility, or Mobility in the Physics section, specify:
+  - _Keywords:_ string, PMIModel, activate, PMI, eMobility, hMobility, Mobility, Physics
+- **Dependencies** <a id="dependencies"></a>
+  - The mobility can depend on the variables:
+  - _Keywords:_ density, mathrm, mobility, depend, variables, Electron, Hole, Lattice
+- **37: Physical Model Interface** _(p.31)_ <a id="37-physical-model-interface"></a>
+  - Multistate Configuration–Dependent Bulk Mobility
+  - _Keywords:_ Derivative, respect, temperature, Multistate, Mobility, configuration, occupation, probabilities
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The PMI offers a base class that presents the following interface:
+  - _Keywords:_ string, PMI_MSC_Mobility, public, PMI_Environment, msconfig_name, model_index, model_string, PMI_AnisotropyType
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_MSC_Mobility_Base : public PMI_MSC_Vertex_Base {
+  - _Keywords:_ pmi_float, public, PMI_MSC_Mobility_Base, string, temperature, virtual, PMI, electron
+- **Mobility Degradation at Interfaces** <a id="mobility-degradation-at-interfaces"></a>
+  - Sentaurus Device uses Mathiessen’s rule:
+  - _Keywords:_ mathrm, mobility, PMI, EnormMinimum, Sentaurus, Device, Mathiessen, enormal
+- **Dependencies** <a id="dependencies"></a>
+  - The mobility degradation at interfaces can depend on the following variables:
+  - _Keywords:_ mathrm, enormal, respect, Derivative, temperature, cmVs, interface, compute
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The enumeration type PMI\_EnormalType describes the type of the normal electric field $F _ { \bot }$ :
+  - _Keywords:_ enumeration, PMI, _EnormalType, describes, normal, electric, PMI_EnormalType, PMI_EnormalToCurrent
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Mobility Degradation at Interfaces** <a id="mobility-degradation-at-interfaces"></a>
+  - The following base class is declared in the file PMIModels.h: ```c class PMI_EnormalMobility : public PMI_Vertex_Interface {
+  - _Keywords:_ double, virtual, PMI_EnormalMobility, PMI_EnormalType, PMI_AnisotropyType, new_PMI_EnormalMobility_func, public, PMI_Environment
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ pmi_float, public, PMI_EnormalMobility_Base, PMI_EnormalType, PMI_AnisotropyType, virtual, new_PMI_EnormalMobility_Base_func, density
+- **Example: Lombardi Model** <a id="example-lombardi-model"></a>
+  - This example illustrates the implementation of a slightly simplified Lombardi model (see Mobility Degradation at Interfaces on page 336) using the PMI. The contribution due to acoustic phonon-scattering has the form:
+  - _Keywords:_ double, mathrm, Lombardi_EnormalMobility, contribution, scattering, lambda, public, illustrates
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Mobility Degradation at Interfaces** <a id="mobility-degradation-at-interfaces"></a>
+  - ```cpp Lombardi_EnormalMobility:: Lombardi_EnormalMobility (const PMI_Environment& env, const PMI_EnormalType type, const PMI_AnisotropyType anisotype) : PMI_EnormalMobility (env, type, anisotype), T0 (300.0) { }
+  - _Keywords:_ double, Lombardi_EnormalMobility, denom_ac_inv, ReadDoping, damping, Lombardi_e_EnormalMobility, anisotype, PMI_Environment
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Mobility Degradation at Interfaces** <a id="mobility-degradation-at-interfaces"></a>
+  - ```cpp Lombardi_EnormalMobility (env, type, anisotype) { // default values B = InitParameter ("B_e", 4.750e7); C = InitParameter ("C_e", 580.0); lambda = InitParameter ("lambda_e", 0.125); delta = InitParameter ("delta_e", 5.82e14); eta ...
+  - _Keywords:_ InitParameter, anisotype, Lombardi_h_EnormalMobility, PMI_Environment, PMI_EnormalType, PMI_AnisotropyType, Lombardi_EnormalMobility, lambda
+- **High-Field Saturation Model** <a id="high-field-saturation-model"></a>
+  - The high-field saturation model computes the final mobility as a function of the low-fieldμ mobility $\mu _ { \mathrm { l o w } }$ and the driving force $F _ { \mathrm { h f s } }$ (see High-Field Saturation Models on page 365).
+  - _Keywords:_ mobility, mathrm, saturation, computes, driving, High, Field, Saturation
+- **Dependencies** <a id="dependencies"></a>
+  - The mobility computed by a high-field mobility model can depend on the followingμ variables:
+  - _Keywords:_ mathrm, respect, Derivative, temperature, mobility, compute, computed, density
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The enumeration type PMI\_HighFieldDrivingForce describes the driving force as specified in the command file:
+  - _Keywords:_ double, virtual, PMI_HighFieldDrivingForce, PMI_HighFieldMobility, PMI_AnisotropyType, new_PMI_HighFieldMobility_func, public, PMI_Environment
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ pmi_float, public, PMI_HighFieldMobility_Base, PMI_AnisotropyType, virtual, new_PMI_HighFieldMobility_Base_func, density, temperature
+- **Example: Canali Model** <a id="example-canali-model"></a>
+  - This example presents the PMI implementation of the Canali model:
+  - _Keywords:_ double, Canali, Canali_HighFieldMobility, public, presents, PMI, implementation, mathrm
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **High-Field Saturation Model** <a id="high-field-saturation-model"></a>
+  - ```cpp const PMI_AnisotropyType anisotype);
+  - _Keywords:_ double, Canali_HighFieldMobility, anisotype, dmudpot, PMI_AnisotropyType, Compute_mu, Compute_dmudpot, Compute_dmudn
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **High-Field Saturation Model** <a id="high-field-saturation-model"></a>
+  - ```cpp const double p, const double t, const double ct, const double mulow, const double F, double& dmudp) { dmudp = 0.0; }
+  - _Keywords:_ double, anisotype, Canali_HighFieldMobility, InitParameter, Canali_e_HighFieldMobility, PMI_Environment, PMI_HighFieldDrivingForce, PMI_AnisotropyType
+- **High-Field Saturation With Two Driving Forces** <a id="high-field-saturation-with-two-driving-forces"></a>
+  - This PMI allows you to compute the final mobility as a function of the low-field mobilityμ and two driving fields (see High-Field Saturation Models on page 365). One field is theμ gradient of the quasi-Fermi energy; the other is derived ...
+  - _Keywords:_ Models, PMI, allows, compute, mobility, driving, fields, High
+- **Command File** <a id="command-file"></a>
+  - The model is specified using PMIModel as an option to HighFieldSaturation, eHighFieldSaturation, or hHighFieldSaturation. The name of the model must be provided with the Name parameter of PMIModel. Optionally, an index and a string can b...
+  - _Keywords:_ PMIModel, string, specified, HighFieldSaturation, eHighFieldSaturation, hHighFieldSaturation, provided, Optionally
+- **Dependencies** <a id="dependencies"></a>
+  - The high-field mobility can depend on the following variables:
+  - _Keywords:_ Derivative, respect, electric, mobility, EprodQF, Epar, density, temperature
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The PMI base class is declared in PMIModels.h as: ```cpp class PMI_HighFieldMobility2 : public PMI_Vertex_Interface {
+  - _Keywords:_ double, PMI_HighFieldMobility2, public, density, temperature, gradient, concentration, PMI
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in PMI.h:
+  - _Keywords:_ pmi_float, public, PMI_HighFieldMobility2_Base, mobility, density, temperature, electric, gradient
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+  - Band Gap
+  - _Keywords:_ string, model_string, PMI_AnisotropyType, virtual, anisotype, PMI_HighFieldMobility2_Base, model_index, new_PMI_HighFieldMobility2_Base_func
+- **Band Gap** <a id="band-gap"></a>
+  - Sentaurus Device provides a PMI to compute the energy band gap in a semiconductor. ItEg can be specified in the Physics section of the command file, for example:
+  - _Keywords:_ Physics, Sentaurus, Device, EffectiveIntrinsicDensity, BandGap, provides, PMI, compute
+- **Dependencies** <a id="dependencies"></a>
+  - The band gap $E _ { \mathrm { g } }$ can depend on:
+  - _Keywords:_ mathrm, depend, Lattice, temperature, PMI, compute, results, Band
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ PMI_BandGap, virtual, double, public, PMI_Environment, new_PMI_BandGap_func, declared, PMIModels
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, declared, PMI, PMI_BandGap_Base, PMI_Vertex_Base, PMI_Vertex_Input_Base, pmi_float, lattice
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+  - Band Gap
+  - _Keywords:_ PMI_BandGap_Base, virtual, PMI_Environment, new_PMI_BandGap_Base_func, Band, Gap, pmi_float, compute
+- **Example: Default Bandgap Model** <a id="example-default-bandgap-model"></a>
+  - Sentaurus Device uses the following default bandgap model:
+  - _Keywords:_ Default_BandGap, double, Eg0, PMI_BandGap, PMI_Environment, InitParameter, mathrm, public
+- **Bandgap Narrowing** <a id="bandgap-narrowing"></a>
+  - Sentaurus Device provides a PMI to compute bandgap narrowing (see Band Gap and Electron Affinity on page 251). A user model is activated with the keyword EffectiveIntrinsicDensity in the Physics section of the command file:
+  - _Keywords:_ EffectiveIntrinsicDensity, Physics, Sentaurus, Device, provides, PMI, compute, bandgap
+- **Dependencies** <a id="dependencies"></a>
+  - A PMI bandgap narrowing model has no explicit dependencies. However, it can depend on doping concentrations through the runtime support.
+  - _Keywords:_ mathrm, PMI, compute, respect, narrowing, However, concentrations, dopant
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ virtual, PMI_BandGapNarrowing, double, public, PMI_Environment, new_PMI_BandGapNarrowing_func, declared, PMIModels
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_BandGapNarrowing_Base, pmi_float, virtual, acceptor, concentration, PMI_Environment, new_PMI_BandGapNarrowing_Base_func
+- **Example: Default Model** <a id="example-default-model"></a>
+  - The default bandgap narrowing model in Sentaurus Device (Bennett–Wilson) is given by:
+  - _Keywords:_ Bennett_BandGapNarrowing, double, Nref, Ebgn, PMI_BandGapNarrowing, PMI_Environment, public, Compute_bgn
+- **Apparent Band-Edge Shift** <a id="apparent-band-edge-shift"></a>
+  - The apparent band-edge shift $\Lambda _ { \mathrm { P M I } }$ is a quantity similar to bandgap narrowing. In contrast to bandgap narrowing, the apparent band-edge shift can depend on the solution variables (electron and hole densities, ...
+  - _Keywords:_ apparent, Lambda, mathrm, Density, Gradient, Model, bandgap, narrowing
+- **Dependencies** <a id="dependencies"></a>
+  - The apparent band-edge shift $\Lambda _ { \mathrm { P M I } }$ can depend on:
+  - _Keywords:_ PMI, Lambda_, mathrm, Derivative, respect, density, eVcm, apparent
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ double, virtual, PMI_ApparentBandEdgeShift, public, PMI_Environment, new_PMI_ApparentBandEdgeShift_func, declared, PMIModels
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, pmi_float, PMI_ApparentBandEdgeShift_Base, virtual, density, PMI_Environment, new_PMI_ApparentBandEdgeShift_Base_func, declared
+- **Multistate Configuration–Dependent Apparent Band-Edge Shift** <a id="multistate-configuration-dependent-apparent-band-edge-shift"></a>
+  - The multistate configuration (MSC)–dependent, apparent band-edge shift model is a variant of the apparent band-edge shift model (see Apparent Band-Edge Shift on page 1134). Besides dependencies on the solution variables, electron and hol...
+  - _Keywords:_ apparent, MSC, Apparent, Band, Edge, Shift, dependencies, allows
+- **Dependencies** <a id="dependencies"></a>
+  - The MSC apparent band-edge shift $\Lambda _ { \mathrm { P M I } }$ can depend on:
+  - _Keywords:_ mathrm, PMI, Derivative, Lambda_, respect, MSC, Lambda, density
+- **Additional Functionality** <a id="additional-functionality"></a>
+  - The PMI model provides additional functionality.
+  - _Keywords:_ PMI, provides, additional, functionality
+- **Using Dependencies** <a id="using-dependencies"></a>
+  - You can use the function set\_dependency\_used to switch on or off the dependencies of this model explicitly (the default is on). For used dependencies, the function computing the corresponding derivative must be provided; for unused dep...
+  - _Keywords:_ dependencies, You, _dependency, switch, explicitly, computing, corresponding, derivative
+- **Updating Actual Status** <a id="updating-actual-status"></a>
+  - Before calling the computation functions (compute\_val and compute\_dval\_dX), the simulator passes the actual values of the dependencies to the model using set\_actual\_status. The model parameters are updated by init\_parameter before ...
+  - _Keywords:_ compute, actual, updated, Before, calling, computation, simulator, passes
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class (here, only an extract) is declared in the file PMIModels.h: ```cpp class PMI_MSC_ApparentBandEdgeShift : public PMI_MSC_Vertex_Interface {
+  - _Keywords:_ virtual, double, PMI_MSC_ApparentBandEdgeShift, public, input_data, size_t, string, msconfig_name
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_MSC_ApparentBandEdgeShift_Base : public PMI_MSC_Vertex_Base { public: class Input : public PMI_Vertex_Input_Base { public: pmi_float n; // electron density pmi_floa...
+  - _Keywords:_ pmi_float, public, PMI_MSC_ApparentBandEdgeShift_Base, temperature, virtual, electron, density, PMI_Environment
+- **Electron Affinity** <a id="electron-affinity"></a>
+  - The electron affinity , that is, the energy separation between the conduction band and vacuumχ level, can be specified by using a PMI. The syntax in the command file is:
+  - _Keywords:_ affinity, Physics, Affinity, electron, energy, separation, between, conduction
+- **Dependencies** <a id="dependencies"></a>
+  - The electron affinity can depend on:χ
+  - _Keywords:_ affinity, electron, depend, Lattice, temperature, PMI, compute, Electron
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ PMI_Affinity, public, virtual, declared, PMIModels, PMI_Vertex_Interface, PMI_Environment, Compute_affinity
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Electron Affinity** <a id="electron-affinity"></a>
+  - ```txt (const double t, double& affinity) = 0; virtual void Compute_daffinitydt (const double t, double& daffinitydt) = 0; }; ```
+  - _Keywords:_ double, virtual, new_PMI_Affinity_func, affinity, Compute_daffinitydt, daffinitydt, prototype, constructor
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_Affinity_Base, virtual, pmi_float, affinity, PMI_Environment, new_PMI_Affinity_Base_func, declared
+- **Example: Default Affinity Model** <a id="example-default-affinity-model"></a>
+  - By default, Sentaurus Device uses this formula to compute :χ
+  - _Keywords:_ Default_Affinity, double, affinity, Affinity0, PMI_Affinity, PMI_Environment, daffinitydt, InitParameter
+- **Effective Mass** <a id="effective-mass"></a>
+  - Sentaurus Device provides a PMI to compute the effective mass of electrons and holes. The effective mass is always expressed as a multiple of the electron mass in vacuum. The name of the PMI model must appear in the Physics section of th...
+  - _Keywords:_ PMI, effective, Physics, Sentaurus, Device, provides, compute, electrons
+- **Dependencies** <a id="dependencies"></a>
+  - The relative effective mass can depend on the following variables:
+  - _Keywords:_ effective, Derivative, respect, relative, depend, variables, Lattice, temperature
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_EffectiveMass : public PMI_Vertex_Interface {
+  - _Keywords:_ double, virtual, PMI_EffectiveMass, new_PMI_EffectiveMass_func, public, PMI_Environment, extern, declared
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_EffectiveMass_Base : public PMI_Vertex_Base { public: class Input : public PMI_Vertex_Input_Base { public: pmi_float t; // lattice temperature pmi_float bg; // band...
+  - _Keywords:_ public, PMI_EffectiveMass_Base, pmi_float, virtual, new_PMI_EffectiveMass_Base_func, PMI_Environment, extern, declared
+- **Example: Linear Effective Mass Model** <a id="example-linear-effective-mass-model"></a>
+  - A simple, linear effective mass model is given by:
+  - _Keywords:_ double, Linear_EffectiveMass, public, PMI_Environment, Linear_e_EffectiveMass, Linear_h_EffectiveMass, dmass_dt, mass_300
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Energy Relaxation Times** <a id="energy-relaxation-times"></a>
+  - ```c { mass_300 = InitParameter ("mass_h_300", 1.15); dmass_dt = InitParameter ("dmass_h_dt", 9.2e-4); }
+  - _Keywords:_ InitParameter, extern, PMI_EffectiveMass, PMI_Environment, mass_300, mass_h_300, dmass_dt, dmass_h_dt
+- **Energy Relaxation Times** <a id="energy-relaxation-times"></a>
+  - The model for the energy relaxation times in Eq. 83 and Eq. 84, p. 199 can be specified inτ the Physics section of the command file. The four available possibilities are:
+  - _Keywords:_ formula, energy, relaxation, constant, irrational, Use, Physics, pmi_model_name
+- **Dependencies** <a id="dependencies"></a>
+  - The energy relaxation time can depend on the variable:τ
+  - _Keywords:_ temperature, relaxation, during, calculation, energy, depend, variable, Carrier
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ PMI_EnergyRelaxationTime, virtual, double, new_PMI_EnergyRelaxationTime_func, public, PMI_Environment, extern, declared
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_EnergyRelaxationTime_Base : public PMI_Vertex_Base { public: class Input : public PMI_Vertex_Input_Base { public: pmi_float ct; // carrier temperature };
+  - _Keywords:_ public, PMI_EnergyRelaxationTime_Base, virtual, new_PMI_EnergyRelaxationTime_Base_func, pmi_float, PMI_Environment, extern, declared
+- **Example: Constant Energy Relaxation Times** <a id="example-constant-energy-relaxation-times"></a>
+  - The following C++ code implements constant energy relaxation times: ```cpp #include "PMIModels.h" class Const_EnergyRelaxationTime : public PMI_EnergyRelaxationTime { protected: double tau_const; public: Const_EnergyRelaxationTime (const...
+  - _Keywords:_ Const_EnergyRelaxationTime, double, public, Const_e_EnergyRelaxationTime, PMI_Environment, tau_const, dtaudct, PMI_EnergyRelaxationTime
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Lifetimes** <a id="lifetimes"></a>
+  - ```cpp public: Const_h_EnergyRelaxationTime (const PMI_Environment& env); ~Const_h_EnergyRelaxationTime () {} };
+  - _Keywords:_ Const_h_EnergyRelaxationTime, PMI_Environment, extern, PMI_EnergyRelaxationTime, public, Const_EnergyRelaxationTime, tau_const, InitParameter
+- **Lifetimes** <a id="lifetimes"></a>
+  - This PMI provides access to the electron and hole lifetimes, and , in the SRHτn τp recombination (see Eq. 276, p. 335) and the coupled defect level (CDL) recombination (see Eq. 394, p. 401). In the command file, the names of the lifetime...
+  - _Keywords:_ CDL, SRH, PMI, recombination, keywords, Physics, Recombination, pmi_model_name
+- **Dependencies** <a id="dependencies"></a>
+  - A PMI lifetime model can depend on the variable:
+  - _Keywords:_ temperature, PMI, lifetime, depend, variable, Lattice, compute, results
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The enumeration type PMI\_LifetimeModel describes where the PMI lifetime is used:
+  - _Keywords:_ PMI_LifetimeModel, PMI_Lifetime, PMI, public, lifetimeModel, virtual, double, enumeration
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Lifetimes** <a id="lifetimes"></a>
+  - ```txt virtual void Compute_dtaudt (const double t, double& dtaudt) = 0; }; ```
+  - _Keywords:_ new_PMI_Lifetime_func, virtual, double, extern, Compute_dtaudt, dtaudt, Two, constructors
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_Lifetime_Base, PMI_LifetimeModel, virtual, new_PMI_Lifetime_Base_func, pmi_float, PMI_Environment, extern
+- **Example: Doping- and Temperature-Dependent Lifetimes** <a id="example-doping-and-temperature-dependent-lifetimes"></a>
+  - The following example combines doping-dependent lifetimes (Scharfetter) and temperature dependence (power law):
+  - _Keywords:_ double, Scharfetter_Lifetime, mathrm, public, PMI_Lifetime, PMI_Environment, PMI_LifetimeModel, Compute_tau
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Lifetimes** <a id="lifetimes"></a>
+  - ```cpp tau = taumin + (taumax - taumin) / (1.0 + pow (Ni/Nref, gamma)); tau *= pow (t/T0, Talpha); }
+  - _Keywords:_ InitParameter, taumin, Scharfetter_e_Lifetime, PMI_Environment, PMI_LifetimeModel, Scharfetter_h_Lifetime, Talpha, Scharfetter_Lifetime
+- **Thermal Conductivity** <a id="thermal-conductivity"></a>
+  - The PMI provides access to the lattice thermal conductivity in Eq. 68, p. 194. To activate it,κ in the Physics section of the command file, specify:
+  - _Keywords:_ PMI, thermal, conductivity, anisotropic, Physics, string, provides, access
+- **Dependencies** <a id="dependencies"></a>
+  - The thermal conductivity can depend on the variable:κ
+  - _Keywords:_ conductivity, Wcm, derivative, thermal, depend, variable, Lattice, temperature
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ PMI_ThermalConductivity, virtual, double, PMI_AnisotropyType, public, PMI_Environment, anisotype, new_PMI_ThermalConductivity_func
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_ThermalConductivity_Base, PMI_AnisotropyType, virtual, pmi_float, PMI_Environment, anisotype, new_PMI_ThermalConductivity_Base_func
+- **Example: Temperature-Dependent Thermal Conductivity** <a id="example-temperature-dependent-thermal-conductivity"></a>
+  - The following C++ code implements the temperature-dependent thermal conductivity:
+  - _Keywords:_ TempDep_ThermalConductivity, public, implements, temperature, dependent, thermal, conductivity, include
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Thermal Conductivity** <a id="thermal-conductivity"></a>
+  - ```cpp (const double t, double& kappa);
+  - _Keywords:_ double, TempDep_ThermalConductivity, anisotype, dkappadt, InitParameter, Compute_dkappadt, PMI_Environment, PMI_AnisotropyType
+- **Example: Thin-Layer Thermal Conductivity** <a id="example-thin-layer-thermal-conductivity"></a>
+  - In this example, thermal conductivity depends on the doping and thickness of layers. In this case, the external LayerThickness command (see Extracting Layer Thickness on page 314) must be specified in the command file:
+  - _Keywords:_ double, doping, thickness, LayerThickness, kappa_, ThinLayer_ThermalConductivity, thermal, conductivity
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Thermal Conductivity** <a id="thermal-conductivity"></a>
+  - ```txt }; ThinLayer_ThermalConductivity:: ThinLayer_ThermalConductivity (const PMI_Environment& env, const PMI_AnisotropyType anisotype) : PMI_ThermalConductivity_Base (env, anisotype) { // default values kappa0 = InitParameter("kappa0",...
+  - _Keywords:_ InitParameter, ThinLayer_ThermalConductivity, pmi_float, anisotype, kappa0, ScaleDoping, ScaleThickness, PMI_Environment
+- **Multistate Configuration–Dependent Thermal Conductivity** <a id="multistate-configuration-dependent-thermal-conductivity"></a>
+  - This PMI provides access to the lattice thermal conductivity in Eq. 68, p. 194 and allows itκ to depend on a multistate configuration (see Chapter 18 on page 483).
+  - _Keywords:_ PMI, provides, access, lattice, thermal, conductivity, allows, depend
+- **Command File** <a id="command-file"></a>
+  - To activate a PMI of this type, in the Physics section, specify:
+  - _Keywords:_ string, PMI, MSConfig, Index, String, multistate, configuration, arguments
+- **Dependencies** <a id="dependencies"></a>
+  - The thermal conductivity can depend on the variables:
+  - _Keywords:_ Wcm, temperature, Derivative, respect, density, conductivity, Electron, mathrm
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The PMI offers a base class that presents the following interface: ```cpp class PMI_MSC_ThermalConductivity : public PMI_MSC_Vertex_Interface { public: class idata { public: double n () const; double p () const; double T () const; double...
+  - _Keywords:_ double, PMI_MSC_ThermalConductivity, public, string, PMI_AnisotropyType, virtual, PMI, size_t
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_MSC_ThermalConductivity_Base : public PMI_MSC_Vertex_Base {
+  - _Keywords:_ pmi_float, public, PMI_MSC_ThermalConductivity_Base, string, temperature, PMI_AnisotropyType, virtual, electron
+- **Heat Capacity** <a id="heat-capacity"></a>
+  - The model for lattice heat capacity in Eq. 68, p. 194 can be specified in the Physics section of the command file. The following two possibilities are available:
+  - _Keywords:_ capacity, constant, Physics, pmi_model_name, lattice, specified, possibilities, available
+- **Dependencies** <a id="dependencies"></a>
+  - The heat capacity $c _ { \mathrm { L } }$ can depend on the variable:
+  - _Keywords:_ capacity, mathrm, depend, variable, Lattice, temperature, PMI, compute
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_HeatCapacity : public PMI_Vertex_Interface { public: PMI_HeatCapacity (const PMI_Environment& env); virtual ~PMI_HeatCapacity (); virtual void Compute_c (cons...
+  - _Keywords:_ PMI_HeatCapacity, virtual, double, public, PMI_Environment, new_PMI_HeatCapacity_func, declared, PMIModels
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_HeatCapacity_Base : public PMI_Vertex_Base {
+  - _Keywords:_ public, PMI_HeatCapacity_Base, virtual, pmi_float, PMI_Environment, new_PMI_HeatCapacity_Base_func, declared, PMI
+- **Example: Constant Heat Capacity** <a id="example-constant-heat-capacity"></a>
+  - The following C++ code implements constant heat capacity:
+  - _Keywords:_ Constant_HeatCapacity, double, PMI_HeatCapacity, PMI_Environment, public, Compute_c, Compute_dcdt, implements
+- **Multistate Configuration–Dependent Heat Capacity** <a id="multistate-configuration-dependent-heat-capacity"></a>
+  - This PMI computes the lattice heat capacity and allows it to depend on a multistate configuration (see Chapter 18 on page 483).
+  - _Keywords:_ PMI, computes, lattice, capacity, allows, depend, multistate, configuration
+- **Command File** <a id="command-file"></a>
+  - To activate a PMI of this type, in the Physics section, specify:
+  - _Keywords:_ string, PMIModel, activate, PMI, Physics, specify, HeatCapacity, MSConfig
+- **Dependencies** <a id="dependencies"></a>
+  - The heat capacity can depend on the variables:
+  - _Keywords:_ temperature, Derivative, respect, Jcm, density, capacity, Electron, mathrm
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The PMI offers a base class that presents the following interface:
+  - _Keywords:_ string, PMI_MSC_HeatCapacity, public, PMI_Environment, msconfig_name, model_index, model_string, Standard
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_MSC_HeatCapacity_Base : public PMI_MSC_Vertex_Base { public: class Input : public PMI_Vertex_Input_Base { public: const pmi_float& n () const; // electron density c...
+  - _Keywords:_ pmi_float, public, string, PMI_MSC_HeatCapacity_Base, temperature, virtual, electron, density
+- **Optical Quantum Yield** <a id="optical-quantum-yield"></a>
+  - The quantum yield factors , ηG $\eta _ { \mathrm { T _ { E g } } }$ , and $\boldsymbol { \eta } _ { \mathrm { T _ { 0 } } }$ defined by Eq. 644, p. 555 can be accessed through a PMI. In the command file, the PMI is specified in the Quant...
+  - _Keywords:_ mathrm, PMI, QuantumYield, quantum, factors, boldsymbol, defined, accessed
+- **Dependencies** <a id="dependencies"></a>
+  - The quantum yield factors $\eta _ { \mathrm { G } } , \eta _ { \mathrm { T _ { E g } } } ,$ , and $\boldsymbol { \mathsf { \Pi } } \boldsymbol { \mathsf { \Pi } } \boldsymbol { \mathsf { \Pi } } \boldsymbol { \mathsf { \Pi } } ^ { }$ can...
+  - _Keywords:_ mathrm, dependent, refractive, boldsymbol, mathsf, coefficient, Wavelength, extinction
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class (public interface) is declared in the file PMIModels.h:
+  - _Keywords:_ double, public, PMI_OpticalQuantumYield, virtual, constructor, PMI_Environment, compute, new_PMI_OpticalQuantumYield_func
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class (public interface) is declared in the file PMI.h:
+  - _Keywords:_ pmi_float, public, PMI_OpticalQuantumYield_Base, virtual, PMI_Environment, new_PMI_OpticalQuantumYield_Base_func, interface, declared
+- **Stress** <a id="stress"></a>
+  - Sentaurus Device supports a PMI for mechanical stress (see Chapter 31 on page 837). The name of the PMI model must appear in the Piezo section of the command file:
+  - _Keywords:_ PMI, Piezo, Sentaurus, Device, supports, mechanical, stress, appear
+- **Dependencies** <a id="dependencies"></a>
+  - A PMI stress model has no explicit dependencies. However, it can depend on doping concentrations and mole fractions through the runtime support.
+  - _Keywords:_ stress, component, tensor, PMI, explicit, dependencies, However, depend
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_Stress : public PMI_Vertex_Interface {
+  - _Keywords:_ virtual, double, PMI_Stress, public, PMI_Environment, new_PMI_Stress_func, declared, PMIModels
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_Stress_Base : public PMI_Vertex_Base {
+  - _Keywords:_ pmi_float, component, stress, public, PMI_Stress_Base, virtual, PMI_Environment, new_PMI_Stress_Base_func
+- **Example: Constant Stress Model** <a id="example-constant-stress-model"></a>
+  - The following code returns constant values for the stress tensor: ```txt #include "PMIModels.h" class Constant_Stress : public PMI_Stress { private: double xx, yy, zz, yz, xz, xy; public: Constant_Stress (const PMI_Environment& env); ```
+  - _Keywords:_ Constant_Stress, double, InitParameter, PMI_Stress, PMI_Environment, stress_xx, stress_yy, stress_zz
+- **Space Factor** <a id="space-factor"></a>
+  - The space distribution of the metal workfunction (see Metal Workfunction on page 244), traps (see Energetic and Spatial Distribution of Traps on page 458), the bond concentration (see Using the Trap Degradation Model on page 505), the ex...
+  - _Keywords:_ Physics, SFactor, PMI, pmi_model_name, Model, AutoOrientation, Traps, eNMP
+- **Dependencies** <a id="dependencies"></a>
+  - A PMI space factor model has no explicit dependencies. The model must compute:
+  - _Keywords:_ factor, PMI, explicit, dependencies, compute, spacefactor, Space
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ PMI_SpaceFactor, virtual, public, PMI_Environment, new_PMI_SpaceFactor_func, declared, PMIModels, PMI_Vertex_Interface
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_SpaceFactor_Base, virtual, PMI_Environment, new_PMI_SpaceFactor_Base_func, declared, PMI, PMI_Vertex_Base
+- **Example: PMI User Field as Space Factor** <a id="example-pmi-user-field-as-space-factor"></a>
+  - The following code reads the space factor from a PMI user field:
+  - _Keywords:_ pmi_spacefactor, PMI_SpaceFactor, PMI_Environment, spacefactor, public, Compute_spacefactor, double, factor
+- **Mobility Stress Factor** <a id="mobility-stress-factor"></a>
+  - Stress-dependent isotropic mobility enhancement factors can be computed by a mobility stress factor PMI. These factors are applied to total low-field mobility or mobility components as described in Isotropic Factor Models on page 886.
+  - _Keywords:_ mobility, Factor, AutoOrientation, stress, factor, PMI, factors, Isotropic
+- **Dependencies** <a id="dependencies"></a>
+  - A mobility stress factor PMI model can depend on the following variable:
+  - _Keywords:_ mobility, factor, stress, PMI, depend, variable, Normal, electric
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ PMI_MobilityStressFactor, virtual, double, new_PMI_MobilityStressFactor_func, public, PMI_Environment, extern, declared
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_MobilityStressFactor_Base, virtual, new_PMI_MobilityStressFactor_Base_func, pmi_float, PMI_Environment, extern, declared
+- **Example: Effective Stress Model** <a id="example-effective-stress-model"></a>
+  - This example illustrates the implementation of the EffectiveStressModel (see Effective Stress Model on page 888) using the standard C++ interface:
+  - _Keywords:_ include, illustrates, implementation, EffectiveStressModel, Effective, Stress, Model, standard
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Mobility Stress Factor** <a id="mobility-stress-factor"></a>
+  - ```cpp protected: int cd, dim; double alpha1, alpha2, alpha3, beta11, beta12, beta13, beta22, beta23, beta33; double mu0, a10, a11, a12, a20, a21, a22, s00, s01, s02, t0, t1, t2, F0;
+  - _Keywords:_ stress, double, pmi_EffectiveStressModel, ReadStress, direction, components, S11, S22
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Mobility Stress Factor** <a id="mobility-stress-factor"></a>
+  - ```cpp // In-plane direction. for (int i=0; i<3; ++i) { for (int j=0; j<3; ++j) { S33 += a[2][i]*a[2][j]*SD[i][j]; } } // Effective stress. const double Seff = alpha1*S11 + alpha2*S22 + alpha3*S33 + beta11*S11*S11 + beta12*S11*S22 + beta...
+  - _Keywords:_ InitParameter, double, S33, dchannelDirection, S11, S22, pmi_e_EffectiveStressModel, pmi_h_EffectiveStressModel
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Trap Capture and Emission Rates** <a id="trap-capture-and-emission-rates"></a>
+  - ```c alpha2 = InitParameter ("alpha2_h", -0.4); alpha3 = InitParameter ("alpha3_h", -0.6); beta11 = InitParameter ("beta11_h", 0.0); beta12 = InitParameter ("beta12_h", 0.0); beta13 = InitParameter ("beta13_h", -0.00004); beta22 = InitPa...
+  - _Keywords:_ InitParameter, extern, PMI_MobilityStressFactor, PMI_Environment, alpha2, alpha2_h, alpha3, alpha3_h
+- **Trap Capture and Emission Rates** <a id="trap-capture-and-emission-rates"></a>
+  - The present PMI model can be used to define either capture and emission rates for traps (see $c _ { \mathrm { C } } ^ { n } , \ \hat { c } _ { \mathrm { V } } ^ { p } , \ e _ { \mathrm { C } } ^ { n }$ , and $e _ { \mathrm { V } } ^ { p ...
+  - _Keywords:_ mathrm, present, PMI, define, either, capture, emission, Trap
+- **Traps** <a id="traps"></a>
+  - In the command file, specify the model with the CBRate and VBRate options to Traps.
+  - _Keywords:_ mathrm, modelX, modelY, CBRate, VBRate, Traps, specified, compute
+- **Multistate Configurations** <a id="multistate-configurations"></a>
+  - The present model is used for transitions of multistate configurations by the keyword CEModel (see Specifying Multistate Configurations on page 485), for example:
+  - _Keywords:_ present, transitions, multistate, configurations, keyword, CEModel, Specifying, Multistate
+- **Dependencies** <a id="dependencies"></a>
+  - The capture and emission rates can depend on the variables:
+  - _Keywords:_ Derivative, respect, capture, emission, mathrm, temperature, Electron, density
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in PMIModels.h:
+  - _Keywords:_ double, virtual, PMI_TrapCaptureEmission, public, PMI_Environment, new_PMI_TrapCaptureEmission_func, declared, PMIModels
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, pmi_float, density, declared, PMI, PMI_TrapCaptureEmission_Base, PMI_Vertex_Base, PMI_Vertex_Input_Base
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+  - Trap Capture and Emission Rates
+  - _Keywords:_ pmi_float, lattice, temperature, effective, PMI_TrapCaptureEmission_Base, virtual, density, capture
+- **Example: CEModel\_ArrheniusLaw** <a id="example-cemodel-arrheniuslaw"></a>
+  - The model has the structure of the Arrhenius law. It depends on the temperature.
+  - _Keywords:_ Arrhenius, energy, mathrm, difference, transition, structure, depends, temperature
+- **Trap Energy Shift** <a id="trap-energy-shift"></a>
+  - The present PMI determines a shift $E _ { \mathrm { s h i f t } }$ of trap energies that depends on the electric field and the lattice temperature at the location of the vertex or at a position given with ReferencePoint (see Energetic an...
+  - _Keywords:_ present, PMI, determines, mathrm, energies, depends, electric, lattice
+- **Command File** <a id="command-file"></a>
+  - The energy shift model is specified by EnergyShift=<model name> or EnergyShift=(<model name>, <int>) as an option to Traps in the Physics section. The optional integer defaults to zero and is passed as the argument id to the virtual cons...
+  - _Keywords:_ specified, EnergyShift, energy, Traps, Physics, optional, integer, passed
+- **Dependencies** <a id="dependencies"></a>
+  - The trap energy shift can depend on the variables:
+  - _Keywords:_ energy, vector, Derivative, respect, depend, variables, Electric, mathrm
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in PMIModels.h:
+  - _Keywords:_ double, virtual, PMI_TrapEnergyShift, public, PMI_Environment, new_PMI_TrapEnergyShift_func, declared, PMIModels
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_TrapEnergyShift_Base, pmi_float, virtual, PMI_Environment, new_PMI_TrapEnergyShift_Base_func, declared, PMI
+- **eNMP Transition Rates** <a id="enmp-transition-rates"></a>
+  - Transition rates used in the extended nonradiative multiphonon (eNMP) model can be computed by an eNMP transition rates PMI model. The computed transition rates are used in the solution of the eNMP model rate equations (see eNMP Model De...
+  - _Keywords:_ eNMP, transition, PMI, StateCharge, states, charge, stroke, computed
+- **Distinction Between Electron and Hole Transitions** <a id="distinction-between-electron-and-hole-transitions"></a>
+  - For transitions involving a change in charge ( and ), the PMI requires a1 4 ↔ 2 3 ↔ distinction between transitions that involve holes (hole capture and hole emission) and electrons (electron capture and electron emission). This distinct...
+  - _Keywords:_ mathrm, capture, emission, electron, transitions, transition, StateCharge, Hole
+- **Transition Rates for All Sample Defects** <a id="transition-rates-for-all-sample-defects"></a>
+  - Since the eNMP model uses a random sampling technique to obtain the average behavior of multiple defects, the eNMP transition rates PMI model must calculate transition rates for all of the sample defects at each vertex. For this purpose,...
+  - _Keywords:_ eNMP, transition, InitParameter, NumberOfSamples, NumberOfVertices, defects, PMI, keyword
+- **Parameter Randomization** <a id="parameter-randomization"></a>
+  - Since transition rates must be obtained for all of the sample defects, it is likely that some model parameters will need to be randomized (either using a uniform distribution or a Gaussian distribution). In this case, the randomized para...
+  - _Keywords:_ double, randomized, NumberOfSamples, InitParameter, NumberOfVertices, transition, obtained, distribution
+- **Dependencies** <a id="dependencies"></a>
+  - The eNMP transition rates PMI can depend on the interface values of the following variables:
+  - _Keywords:_ mathrm, transition, component, Derivatives, respect, Electron, Hole, interface
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ double, vector, derivatives, density, PMI_eNMPTransitionRates, public, virtual, electron
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ pmi_float, PMI_eNMPTransitionRates_Base, public, density, virtual, vertex, effective, states
+- **Example: eNMP Model Transition Rates** <a id="example-enmp-model-transition-rates"></a>
+  - This example illustrates the implementation of the eNMP model transition rates using the standard C++ interface:
+  - _Keywords:_ double, InitParameter, vector, GausRanNum, push_back, eNMPRates, NumberOfSamples, NumberOfVertices
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **eNMP Transition Rates** <a id="enmp-transition-rates"></a>
+  - ```cpp ET2pi.push_back(ET2p); E1p1i.push_back(E1p1); E2p2i.push_back(E2p2); xti.push_back(xt); } }
+  - _Keywords:_ double, NumberOfSamples, resize, R1p1, R3p1, ET2p, push_back, E1p1
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **eNMP Transition Rates** <a id="enmp-transition-rates"></a>
+  - ```javascript const double dk32dp = k32/p; const double dk32dT = k32*(E32/kT)/T; const double dk32dF = k32*(-dE32dF/kT); const double k13 = nu0*exp(-E13/kT); const double dk13dT = k13*(E13/kT)/T; const double k31 = nu0*exp(-E31/kT); cons...
+  - _Keywords:_ double, dkdT, dkdF, dk32dp, dk32dT, dk32dF, E13, dk13dT
+- **Piezoelectric Polarization** <a id="piezoelectric-polarization"></a>
+  - The effects of piezoelectric polarization can be modeled by adding the divergence of the piezoelectric polarization vector as an additional charge term:
+  - _Keywords:_ mathrm, piezoelectric, polarization, vector, charge, PMI, Physics, boundary
+- **Dependencies** <a id="dependencies"></a>
+  - The piezoelectric polarization model does not have explicit dependencies. However, it can use the runtime support. In particular, it has access to the stress fields.
+  - _Keywords:_ polarization, However, vector, dimension, piezoelectric, explicit, dependencies, runtime
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_Polarization : public PMI_Vertex_Interface { public: PMI_Polarization (const PMI_Environment& env); virtual ~PMI_Polarization();
+  - _Keywords:_ PMI_Polarization, virtual, public, PMI_Environment, new_PMI_Polarization_func, declared, PMIModels, PMI_Vertex_Interface
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_Polarization_Base : public PMI_Vertex_Base { public: class Input : public PMI_Vertex_Input_Base { public: };
+  - _Keywords:_ public, PMI_Polarization_Base, virtual, PMI_Environment, new_PMI_Polarization_Base_func, declared, PMI, PMI_Vertex_Base
+- **Example: Gaussian Polarization Model** <a id="example-gaussian-polarization-model"></a>
+  - In this example, the piezoelectric polarization vector $P _ { \mathrm { P E } }$ has a simple Gaussian shape in the x-direction:
+  - _Keywords:_ Gauss_Polarization, double, PMI_Polarization, PMI_Environment, InitParameter, public, Compute_pol, piezoelectric
+- **Incomplete Ionization** <a id="incomplete-ionization"></a>
+  - The ionization factors $G _ { \mathrm { D } } ( T )$ and $G _ { \mathrm { A } } ( T )$ (see Incomplete Ionization Model on page 280) can be defined by a PMI.
+  - _Keywords:_ PMI, Model, Physics, mathrm, defined, IncompleteIonization, Species_name1, Species_name2
+- **Dependencies** <a id="dependencies"></a>
+  - The ionization factors $G _ { \mathrm { D } } ( T )$ and $G _ { \mathrm { A } } ( T )$ can depend on the variable:
+  - _Keywords:_ mathrm, ionization, factors, depend, variable, Lattice, temperature, PMI
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp enum PMI_SpeciesType { PMI_acceptor, PMI_donor };
+  - _Keywords:_ double, PMI_SpeciesType, PMI_DistributionFunction, virtual, PMI_Vertex_Interface, PMI_acceptor, public, speciesType
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_DistributionFunction_Base, PMI_SpeciesType, virtual, pmi_float, PMI_Environment, double, new_PMI_DistributionFunction_Base_func
+- **Example: Matsuura Incomplete Ionization Model** <a id="example-matsuura-incomplete-ionization-model"></a>
+  - The following C++ code implements the Matsuura model [1] for dopant Al in SiC material:
+  - _Keywords:_ mathrm, Delta, SiC, excited, Matsuura_DistributionFunction, double, Matsuura, dopant
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Incomplete Ionization** <a id="incomplete-ionization"></a>
+  - ```cpp void Compute_g (const double T, // lattice temperature double& g); // g = G(T)
+  - _Keywords:_ double, Matsuura_DistributionFunction, nb_item, name_gr, name_dEr, Eex, lattice, temperature
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Incomplete Ionization** <a id="incomplete-ionization"></a>
+  - ```cpp (const double T, // lattice temperature double& dgdt) // dgdt = G'(T) { const double kT = kB_300*T/300;
+  - _Keywords:_ double, nb_item, kB_300, Eex, Matsuura_DistributionFunction, epsilon, Compute_Eex, dEex_dT
+- **Hot-Carrier Injection** <a id="hot-carrier-injection"></a>
+  - Sentaurus Device provides a PMI for implementing hot-carrier injection models and computing the injection currents defined by the model. It is activated in the Physics interface section of the command file, GateCurrent subsection:
+  - _Keywords:_ PMI, carrier, injection, Physics, interface, GateCurrent, electron, _model
+- **Dependencies** <a id="dependencies"></a>
+  - A hot-carrier PMI model has no explicit dependencies. However, it can depend on any field at runtime using the access to device data. The model must compute:
+  - _Keywords:_ region, interface, carrier, current, PMI, explicit, dependencies, However
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ PMI_HotCarrierInjection, PMI_CarrierType, virtual, new_PMI_HotCarrierInjection_func, public, cType, PMI_Device_Environment, region
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_HotCarrierInjection_Base, virtual, new_PMI_HotCarrierInjection_Base_func, region, interfaces, PMI_Device_Environment, extern
+- **Example: Lucky Model** <a id="example-lucky-model"></a>
+  - The following example reimplements the built-in lucky injection model for electrons using the hot-carrier injection PMI:
+  - _Keywords:_ double, PMI_LuckyModel, material, des_data, vertex, regioninterfaces, semReg, ReadScalar
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Hot-Carrier Injection** <a id="hot-carrier-injection"></a>
+  - ```cpp int NearestInterVertexRIind; double NearestDistance = 1.0e50; for(size_t k=0; k < ri->size_vertex(); k++) { des_vertex* interVert = ri->vertex(k); bool isSemiconductor = false; for(size_t i = 0; i < interVert->size_region(); i++) ...
+  - _Keywords:_ double, vertex, NearestInterVertex, size_t, interVert, contact, NearestContVertex, minCoord
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Hot-Carrier Injection** <a id="hot-carrier-injection"></a>
+  - ```txt - eBeta*pow(fabs(eOxField),2.0/3.0); else barrier = eBarrierHeight + (pot[NearestInterVertex->index()] - pot[NearestContVertex->index()]) - eAlfa*sqrt(fabs(eOxField)) - eBeta*pow(fabs(eOxField),2.0/3.0); if(barrier < 0) barrier = ...
+  - _Keywords:_ double, eOxField, node_measure, barrier, eBarrierLoc, eEnergy, measure, risurface
+- **Piezoresistive Coefficients** <a id="piezoresistive-coefficients"></a>
+  - Sentaurus Device provides a PMI for implementing the dependencies of the piezoresistive prefactors over the normal electric field (see Enormal- and MoleFraction-Dependent Piezo Coefficients on page 879). It is activated in the Piezo sect...
+  - _Keywords:_ Piezo, Tensor, Sentaurus, Device, provides, PMI, implementing, dependencies
+- **Dependencies** <a id="dependencies"></a>
+  - The piezoresistive prefactors ePij and hPij can depend on the following variable:
+  - _Keywords:_ prefactors, Enormal, interface, piezoresistive, ePij, hPij, depend, variable
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ double, PMI_PiezoresistanceFactor, virtual, new_PMI_PiezoresistanceFactor_func, public, PMI_Environment, Enormal, extern
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_PiezoresistanceFactor_Base, pmi_float, virtual, piezoresistive, prefactor, new_PMI_PiezoresistanceFactor_Base_func, PMI_Environment
+- **Current Plot File of Sentaurus Device** <a id="current-plot-file-of-sentaurus-device"></a>
+  - The current plot PMI allows user-computed entries to be added to the current plot file. It is specified in the CurrentPlot section of the command file, for example:
+  - _Keywords:_ current, PMI, CurrentPlot, device, allows, computed, entries, specified
+- **Structure of Current Plot File** <a id="structure-of-current-plot-file"></a>
+  - A current plot file consists of a header section and a data section. For each function, the structure can be described as follows:
+  - _Keywords:_ dataset, current, region, contact, consists, header, structure, described
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ Compute, virtual, PMI_CurrentPlot, _Names, public, PMI_Device_Environment, des_string_vector, dataset
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_CurrentPlot_Base, virtual, Output_Header, des_string_vector, dataset, Output_Body, PMI_Device_Environment
+- **Example: Average Electrostatic Potential** <a id="example-average-electrostatic-potential"></a>
+  - The following example computes regionwise averages for the electrostatic potential. This is the same functionality as provided by the built-in current plot command (see Tracking Additional Data in the Current File on page 112):
+  - _Keywords:_ CurrentPlot, regions, double, size_t, des_bulk, des_string_vector, push_back, PMI_CurrentPlot
+- **Postprocess for Transient Simulation** <a id="postprocess-for-transient-simulation"></a>
+  - The postprocess PMI allows you to post-compute data during a transient simulation. The PMI is called after a transient time step has succeeded. It is specified in the Math section of the command file, for example:
+  - _Keywords:_ PMI, transient, Math, device, postprocess, allows, compute, during
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ PMI_PostProcess, public, virtual, declared, PMIModels, PMI_Device_Interface, PMI_Device_Environment, Compute_PostProcess
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_PostProcess_Base : public PMI_Device_Base {
+  - _Keywords:_ public, PMI_PostProcess_Base, virtual, PMI_Device_Environment, compute, new_PMI_PostProcess_Base_func, declared, PMI
+- **Example: Postprocess User-Field** <a id="example-postprocess-user-field"></a>
+  - The following code modifies the user-field depending on the current temperature change and transient step size after the transient time step has succeeded:
+  - _Keywords:_ PostProcess, transient, public, modifies, depending, current, temperature, change
+- **37: Physical Model Interface** _(p.35)_ <a id="37-physical-model-interface"></a>
+  - Preprocessing for Newton Iterations and Newton Step Control
+  - _Keywords:_ PostProcess, des_data, delta_T, double, vertex, Newton, ReadScalar, PMIUserField0
+- **Preprocessing for Newton Iterations and Newton Step Control** <a id="preprocessing-for-newton-iterations-and-newton-step-control"></a>
+  - The Newton step PMI allows you to precompute data during Newton iterations (using a nonlinear solver). This PMI is called after each Newton iteration. The interface provides access to the device mesh and device data (see Mesh-Based Runti...
+  - _Keywords:_ PMI, Coupled, PMI_NewtonStep, Newton, parameter_list, Poisson, pmi_Newton2, device
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_NewtonStep : public PMI_Device_Interface { protected: PMI_Newton::Info *info; public: PMI_NewtonStep (const PMI_Device_Environment& env, PMI_Newton::Info *i=0...
+  - _Keywords:_ PMI_NewtonStep, PMI_Newton, Info, PMIModels, public, virtual, PMI_Result, Compute
+- **Function PMI\_Newton::GetLogFile() and Class PMI\_Newton::Info** <a id="function-pmi-newton-getlogfile-and-class-pmi-newton-info"></a>
+  - The PMIModels.h file contains the function FILE\* PMI\_Newton::GetLogFile(). It returns a pointer to the log file and, therefore, the PMI function can print messages to the log file. See the relevant files of the following example:
+  - _Keywords:_ PMI, corresponding, contains, _NewtonStep, _Newton, pointer, PMIModels, GetLogFile
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ PMI_NewtonStep_Base, public, PMI_Newton, Info, virtual, PMI_Device_Environment, compute, new_PMI_NewtonStep_Base_func
+- **PMI\_NewtonStep Iterations: Flowchart of Computation** <a id="pmi-newtonstep-iterations-flowchart-of-computation"></a>
+  - The following example shows the Quasistationary command (see previous example):
+  - _Keywords:_ PMI_NewtonStep, pmiResult, Is_pmiConverged, Quasistationary, pmi_Newton, Is_pmiDiverged, TimeTo, Iteration
+- **Special Contact PMI for Raytracing** <a id="special-contact-pmi-for-raytracing"></a>
+  - The PMI for raytracing allows you to access and change the parameters of a ray at special contacts. These contacts are drawn in the same manner as electrodes and thermodes (see Boundary Condition for Raytracing on page 616). The raytrace...
+  - _Keywords:_ PMI, change, special, contacts, raytrace, RayTraceBC, contact, raytracer
+- **Dependencies** <a id="dependencies"></a>
+  - The raytrace PMI depends on the following variables:
+  - _Keywords:_ vector, Power, coefficient, position, reflected, transmitted, reflection, transmission
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_RayTraceBoundary : public PMI_Vertex_Interface { public: PMI_RayTraceBoundary (const PMI_Environment& env); virtual ~PMI_RayTraceBoundary();
+  - _Keywords:_ double, changed, PMI_RayTraceBoundary, wavelength, reflected, transm, incident, region
+- **Example: Assessing and Modifying a Ray** <a id="example-assessing-and-modifying-a-ray"></a>
+  - The following example shows how to access the information about a ray that intersects the special raytrace PMI contact, and how you can change the information of the ray:
+  - _Keywords:_ double, Dummy_RayTraceBoundary, changed, transm, PMI, wavelength, incident, reflected
+- **37: Physical Model Interface Special Contact PMI for Raytracing** <a id="37-physical-model-interface-special-contact-pmi-for-raytraci"></a>
+  - ```c // User changeable quantities bool& is_reflectedangle_changed, bool& is_reflecteddirvec_changed, bool& is_transmittedangle_changed, bool& is_transmitteddirvec_changed, bool& is_reflected_new_startposition, bool& is_transmitted_new_s...
+  - _Keywords:_ double, printf, reflected_dirvec, R_TE, T_TE, R_TM, T_TM, incident_dirvec
+- **Spatial Distribution Function** <a id="spatial-distribution-function"></a>
+  - The spatial distribution function can be defined by a PMI (see Heavy Ions onR w l E ( ) , , page 680).
+  - _Keywords:_ Physics, PMI, HeavyIon, SpatialShape, PMI_shape_name, spatial, distribution, defined
+- **Dependencies** <a id="dependencies"></a>
+  - The spatial distribution function depends on the following variables: R w l E ( ) , ,
+  - _Keywords:_ spatial, distribution, depends, variables, Radius, defined, perpendicular, distance
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_SpatialDistributionFunction: public PMI_Vertex_Interface { // * The spatial distribution function: // * // * R(w,l,E) // * // * where // * - l is the coordina...
+  - _Keywords:_ PMI_SpatialDistributionFunction, double, virtual, public, coordinate, PMI_Environment, new_PMI_SpatialDistributionFunction_func, declared
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_SpatialDistributionFunction_Base : public PMI_Vertex_Base { public: class Input : public PMI_Vertex_Input_Base { public: pmi_float w; // radius (perpendicular dista...
+  - _Keywords:_ public, PMI_SpatialDistributionFunction_Base, pmi_float, virtual, PMI_Environment, new_PMI_SpatialDistributionFunction_Base_func, declared, PMI
+- **Example: Gaussian Spatial Distribution Function** <a id="example-gaussian-spatial-distribution-function"></a>
+  - The built-in Gaussian spatial distribution function (see Heavy Ions on page 680) can also be implemented as a PMI model:
+  - _Keywords:_ Gaussian_SpatialDistributionFunction, double, public, PMI_Environment, Gaussian, spatial, distribution, Heavy
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Metal Resistivity** <a id="metal-resistivity"></a>
+  - ```cpp HeavyIonName) : PMI_SpatialDistributionFunction (env, HeavyIonName) {}
+  - _Keywords:_ double, HeavyIonName, Gaussian_SpatialDistributionFunction, PMI_SpatialDistributionFunction, Compute_R, implementation, scaling, factor
+- **Metal Resistivity** <a id="metal-resistivity"></a>
+  - The metal resistivity can be defined by a PMI (see Transport in Metals on page 241).ρ = 1 ⁄ σ
+  - _Keywords:_ PMI, Physics, interface, resistivity, defined, Transport, Metals, specified
+- **Dependencies** <a id="dependencies"></a>
+  - The metal resistivity depends on the variables:
+  - _Keywords:_ mathrm, Resist, resistivity, Derivative, respect, Omega, depends, variables
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ double, virtual, lattice, temperature, electric, MetalResistivity, absolute, resistivity
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ public, PMI_MetalResistivity_Base, pmi_float, virtual, PMI_Environment, declared, PMI, PMI_Vertex_Base
+- **Example: Linear Metal Resistivity** <a id="example-linear-metal-resistivity"></a>
+  - The following C++ code implements linear metal resistivity: ```cpp #include "PMIModels.h"
+  - _Keywords:_ double, MetalResistivity, resistivity, lattice, temperature, electric, AlphaT, absolute
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+  - Heat Generation Rate
+  - _Keywords:_ double, MetalResistivity, AlphaT, dResistdt, dResistdf, Heat, Generation, Rate
+- **Heat Generation Rate** <a id="heat-generation-rate"></a>
+  - The total heat generation rate is the term on the right-hand side of Eq. 69, p. 195. You can specify an additional term pmi\_Heat for a given material or region:
+  - _Keywords:_ specify, _Heat, HeatSource, Physics, generation, You, additional, material
+- **Dependencies** <a id="dependencies"></a>
+  - The heat generation depends on the variables:
+  - _Keywords:_ Heat, Derivative, respect, mathrm, Wcm, generation, density, temperature
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ PMI_Heat_Generation, double, public, virtual, density, declared, PMIModels, PMI_Vertex_Interface
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Heat Generation Rate** <a id="heat-generation-rate"></a>
+  - ```txt const double f[3], // electric field vector const double g[3], // gradient of temperature double& heat) = 0; // heat generation rate
+  - _Keywords:_ double, temperature, density, electric, vector, gradient, virtual, electron
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ pmi_float, public, PMI_HeatGeneration_Base, virtual, density, temperature, PMI_Environment, new_PMI_HeatGenerationFunction_Base_func
+- **Example: Dependency on Electric Field and Gradient of Temperature** <a id="example-dependency-on-electric-field-and-gradient-of-tempera"></a>
+  - In the following example, heat generation has a linear dependency on the electric field and the gradient of temperature:
+  - _Keywords:_ HeatGeneration, PMI_HeatGeneration_Base, PMI_Environment, electric, gradient, temperature, Heat, public
+- **Thermoelectric Power** <a id="thermoelectric-power"></a>
+  - The thermoelectric powers $P _ { n }$ and $P _ { p }$ in semiconductors can be defined by a PMI (see Thermoelectric Power (TEP) on page 929).
+  - _Keywords:_ PMI, Physics, thermoelectric, powers, semiconductors, defined, Thermoelectric, Power
+- **Dependencies** <a id="dependencies"></a>
+  - The semiconductor TEPs can depend on the following variables:
+  - _Keywords:_ Derivative, respect, semiconductor, TEPs, depend, variables, Lattice, temperature
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_ThermoElectricPower : public PMI_Vertex_Interface {
+  - _Keywords:_ double, virtual, PMI_ThermoElectricPower, lattice, temperature, carrier, density, thermoelectric
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_ThermoElectricPower_Base : public PMI_Vertex_Base { public: class Input : public PMI_Vertex_Input_Base { public: pmi_float t; // lattice temperature pmi_float dens;...
+  - _Keywords:_ public, PMI_ThermoElectricPower_Base, pmi_float, virtual, PMI_Environment, declared, PMI, PMI_Vertex_Base
+- **Example: Analytic TEP** <a id="example-analytic-tep"></a>
+  - The following C++ code implements an analytic TEP model (see Thermoelectric Power (TEP) on page 929):
+  - _Keywords:_ double, h_planck, pow_1_5, TEP, electron, constant, implements, analytic
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Thermoelectric Power** <a id="thermoelectric-power"></a>
+  - ```cpp class AnalyticalTEP_ThermoElectricPower : public PMI_ThermoElectricPower { protected: double k_c, s_c; // relative effective mass double m_r; int sign;
+  - _Keywords:_ double, AnalyticalTEP_ThermoElectricPower, PMI_Environment, public, AnalyticalTEP_e_ThermoElectricPower, InitParameter, AnalyticalTEP_h_ThermoElectricPower, PMI_ThermoElectricPower
+- **Metal Thermoelectric Power** <a id="metal-thermoelectric-power"></a>
+  - The metal thermoelectric power in metals can be defined by a PMI (see ThermoelectricP Power (TEP) on page 929).
+  - _Keywords:_ PMI, Physics, thermoelectric, metals, defined, ThermoelectricP, Power, TEP
+- **Dependencies** <a id="dependencies"></a>
+  - The metal thermoelectric power can depend on the following variables:
+  - _Keywords:_ Derivative, respect, vector, thermoelectric, depend, variables, Lattice, temperature
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h:
+  - _Keywords:_ double, virtual, lattice, temperature, Fermi, potential, electric, vector
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_MetalThermoElectricPower_Base : public PMI_Vertex_Base { public: class Input : public PMI_Vertex_Input_Base { public: pmi_float t; // lattice temperature pmi_float ...
+  - _Keywords:_ public, PMI_MetalThermoElectricPower_Base, pmi_float, virtual, PMI_Environment, declared, PMI, PMI_Vertex_Base
+- **Example: Linear Field Dependency of Metal TEP** <a id="example-linear-field-dependency-of-metal-tep"></a>
+  - The following C++ code implements a metal TEP PMI depending linearly on two of the electric field components:
+  - _Keywords:_ double, electric, lattice, temperature, Fermi, potential, vector, MetalThermoElectricPower
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Metal Thermoelectric Power** <a id="metal-thermoelectric-power"></a>
+  - ```cpp double dpowerdf[3]); // derivative of thermoelectric power // with respect to electric field };
+  - _Keywords:_ double, MetalThermoElectricPower, dpowerdf, PMI_Environment, PMI_MetalThermoElectricPower, InitParameter, dpowerdt, dpowerdqf
+- **Diffusivity** <a id="diffusivity"></a>
+  - The diffusivity $D _ { i } \mathrm { e x p } ( - E _ { \mathrm { d } i } / ( k T ) )$ and the prefactor of the thermal diffusion term $\alpha _ { \mathrm { { t d } } }$ can be defined by a PMI (see Hydrogen Transport on page 510).
+  - _Keywords:_ mathrm, PMI, Physics, diffusivity, prefactor, thermal, diffusion, defined
+- **Dependencies** <a id="dependencies"></a>
+  - The diffusivity and the prefactor of the thermal diffusion term can depend on the following variables:
+  - _Keywords:_ mathrm, PMI, prefactor, thermal, diffusion, Diffusivity, diffusivity, depend
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_HydrogenDiffusivity_Base : public PMI_Vertex_Base { public: const PMI_HydrogenType hydrogen_type; class Input : public PMI_Vertex_Input_Base { public: Input (const ...
+  - _Keywords:_ PMI_HydrogenDiffusivity_Base, public, pmi_float, PMI_HydrogenType, virtual, PMI_Environment, declared, PMI
+- **Example: Field-Dependent Hydrogen Diffusivity** <a id="example-field-dependent-hydrogen-diffusivity"></a>
+  - The following C++ code implements a field-dependent hydrogen diffusivity: ```cpp #include "PMIModels.h" class PMI_HydrogenDiffusivity : public PMI_HydrogenDiffusivity_Base { private: double d0; // [cm^2*s^-1] double f0; // [eV] ```
+  - _Keywords:_ double, InitParameter, hydrogen, pmi_HydrogenDiffusivity, public, PMI_HydrogenDiffusivity_Base, PMI_Environment, PMI_HydrogenType
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Diffusivity** <a id="diffusivity"></a>
+  - ```cpp else if(hydrogen_type == PMI_HydrogenIon) { d0 = d0_i; f0 = f0_i; fe = fe_i; ed = ed_i; } else { std::cout << "unexpected hydrogen type!\n"; exit(-1); } pmi_HydrogenDiffusivity:: ~pmi_HydrogenDiffusivity () { }
+  - _Keywords:_ pmi_HydrogenDiffusivity, pmi_float, activation, energy, hydrogen_type, PMI_HydrogenIon, unexpected, hydrogen
+- **Gamma Factor for Density Gradient Model** <a id="gamma-factor-for-density-gradient-model"></a>
+  - The density gradient model (see Density Gradient Model on page 298) contains the fit factor:
+  - _Keywords:_ EffectiveMass, density, gradient, gamma_, mathrm, solution, Physics, Gamma
+- **Dependencies** <a id="dependencies"></a>
+  - The $\gamma _ { \mathrm { p m i } }$ can depend on the following variables:
+  - _Keywords:_ Gamma, Derivative, respect, mathrm, gamma_, normal, Carrier, interface
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_QDDGamma : public PMI_Vertex_Interface {
+  - _Keywords:_ double, carrier, virtual, density, temperature, Enormal, interface, thickness
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ pmi_float, public, PMI_MSC_QDDGamma_Base, temperature, virtual, electron, density, PMI_Environment
+- **Example: Solution-Dependent Gamma Factor** <a id="example-solution-dependent-gamma-factor"></a>
+  - The following C++ code implements a solution-dependent Gamma factor (simplified C++ interface):
+  - _Keywords:_ InitParameter, pmi_float, formula, eQDDGamma, double, PMI_QDDGamma_Base, PMI_Environment, interface
+- **Schottky Resistance Model** <a id="schottky-resistance-model"></a>
+  - The Schottky resistance model (see Resistive Contacts on page 215 and Resistive Interfaces on page 221) emulates the behavior of a Schottky contact or interface. The Schottky resistance PMI allows users to define the contact- or interfac...
+  - _Keywords:_ Schottky, resistance, interface, temperature, effective, density, Physics, Resistive
+- **Dependencies** <a id="dependencies"></a>
+  - The Schottky resistance $R _ { \mathrm { d } }$ can depend on the following variables:
+  - _Keywords:_ Derivative, respect, mathrm, temperatures, density, Schottky, resistance, depend
+- **Standard C++ Interface** <a id="standard-c-interface"></a>
+  - The following base class is declared in the file PMIModels.h: ```cpp class PMI_SchottkyResistanc : public PMI_Vertex_Interface { public: class Input { public: ```
+  - _Keywords:_ public, declared, PMIModels, PMI_SchottkyResistanc, PMI_Vertex_Interface
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Schottky Resistance Model** <a id="schottky-resistance-model"></a>
+  - ```txt double t; // lattice temperature double tn; // electron temperature double tp; // hole temperature double affin; // electron affinity double Eg; // bandgap double Ebgn; // bandgap narrowing double nc; // conduction-band effective ...
+  - _Keywords:_ double, derivative, temperature, effective, electron, bandgap, density, virtual
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h:
+  - _Keywords:_ pmi_float, PMI_SchottkyResistance_Base, public, temperature, effective, density, virtual, electron
+- **Example: Built-in Schottky Resistance Model** <a id="example-built-in-schottky-resistance-model"></a>
+  - The following C++ code reimplements the built-in Schottky resistance model (simplified C++ interface):
+  - _Keywords:_ Builtin_SchottkyResistance, include, public, PMI_Environment, reimplements, Schottky, resistance, simplified
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Schottky Resistance Model** <a id="schottky-resistance-model"></a>
+  - ```cpp PMI_SchottkyResistance_Base (env) {}
+  - _Keywords:_ pmi_float, double, InitModelParameter, E00, SchottkyResistance, Builtin_SchottkyResistance, PhiB, tempDEV
+- **Ferromagnetism and Spin Transport** _(p.36–37)_ <a id="ferromagnetism-and-spin-transport"></a>
+  - The following PMI models for ferromagnetism and spin transport are supported:
+  - _Keywords:_ Defined, PMI, models, ferromagnetism, transport, supported, Interlayer, Exchange
+- **User-Defined Interlayer Exchange Coupling** _(p.37)_ <a id="user-defined-interlayer-exchange-coupling"></a>
+  - Interfaces of ferromagnetic regions separated by thin paramagnetic layers lead to an interlayer coupling energy density $U _ { \mathrm { i n t e r l a y e r } }$ [5]. As usual, the derivative of this energy density with respect to the lo...
+  - _Keywords:_ mathrm, interlayer, energy, density, ferromagnetic, surface, exchange, coupling
+- **Syntax of Command File and Parameter File** <a id="syntax-of-command-file-and-parameter-file"></a>
+  - An interlayer exchange PMI is activated for a particular interface by adding the following line to the corresponding interface Physics section of the command file:
+  - _Keywords:_ interface, PMI, interlayer, exchange, activated, particular, adding, corresponding
+- **Base Class for Interlayer Exchange PMIs** <a id="base-class-for-interlayer-exchange-pmis"></a>
+  - PMI models for the interlayer exchange terms of the LLG equation are derived from the base class PMI\_LLGInterlayerExchange\_Base, which has the following definition:
+  - _Keywords:_ interlayer, exchange, public, magnetization, pmi_float, PMI, PMI_Device_Base, compute
+- **Example: ILE Model With a Simple Oscillatory Thickness Dependency** <a id="example-ile-model-with-a-simple-oscillatory-thickness-depend"></a>
+  - This model implements an interlayer exchange (ILE) surface energy density of the form $U _ { \mathrm { i n t e r l a y e r } } = J _ { 1 } ( \bar { t } ) \vec { m } _ { \mathrm { l o c } } \cdot \vec { m } _ { \mathrm { r e m } }$ .
+  - _Keywords:_ mathrm, thickness, coupling, implements, interlayer, exchange, ILE, surface
+- **Implementation of the Simple Interlayer Exchange PMI** <a id="implementation-of-the-simple-interlayer-exchange-pmi"></a>
+  - To implement the simple interlayer exchange PMI model, you must declare a derived class:
+  - _Keywords:_ pmi_float, Jmax, Lambda, PMI, InterlayerExchange_sin, D_over_D2, Aangstroem, tmax_scaled
+- **User-Defined Bulk or Interface Contributions to the Effective Magnetic Field** <a id="user-defined-bulk-or-interface-contributions-to-the-effectiv"></a>
+  - The base class PMI\_LLGHeff\_Base has been provided for assembling extra generic contributions to the effective magnetic field in bulk regions (unit: A/m) or on interfaces (unit: A).
+  - _Keywords:_ PMI, _LLGHeff, _Base, provided, assembling, generic, contributions, effective
+- **Syntax of Command File and Parameter File** <a id="syntax-of-command-file-and-parameter-file"></a>
+  - PMIs for generic bulk or interface $\vec { H } _ { \mathrm { e f f } }$ contributions are activated by adding the following line to the corresponding region or interface Physics sections of the command file:
+  - _Keywords:_ interface, region, specific, PMIs, generic, mathrm, contributions, activated
+- **Base Class for Generic Bulk or Interface for Effective Magnetic Field PMIs** <a id="base-class-for-generic-bulk-or-interface-for-effective-magne"></a>
+  - PMI models for generic bulk or interface $\vec { H } _ { \mathrm { e f f } }$ contributions are derived from the base class PMI\_LLGHeff\_Base:
+  - _Keywords:_ public, PMI, contributions, PMI_LLGHeff_Base, PMI_Device_Base, models, generic, interface
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+- **Ferromagnetism and Spin Transport** <a id="ferromagnetism-and-spin-transport"></a>
+  - ```cpp UNDEFINED_LOCATION, // < Nothing (only used as initial value) DOMAIN_INTERFACE, // < Subset of a mesh interface (METIS domain) MESH_INTERFACE, // < Full mesh interface DOMAIN_BULK, // < Subset of a mesh bulk region (METIS domain) ...
+  - _Keywords:_ vertex, interface, region, Mesh, vertexList, domain, regionIndex, vector
+- **Example: Exchange Bias** <a id="example-exchange-bias"></a>
+  - $\vec { \mathbf { \psi } _ { m } }$ $\_ { m } ^ { }$ Typical anisotropy models do not distinguish between and . Interfaces between ferromagnetic and anti-ferromagnetic layers, however, might break the symmetry between parallel and anti-p...
+  - _Keywords:_ mathrm, between, ferromagnetic, parallel, interface, mathbf, alignment, magnetization
+- **Implementation of the Exchange Bias PMI** <a id="implementation-of-the-exchange-bias-pmi"></a>
+  - To implement the exchange bias model, you must declare a derived class:
+  - _Keywords:_ biasDir, PMI_LLGHeff_Base, PMI_ExchangeBias, interface, PMI, computeForInterfaceVertex, Ibias, length
+- **Example: Interface Anisotropy** <a id="example-interface-anisotropy"></a>
+  - Frequently, an interface between a ferromagnetic material and adjacent materials gives rise to a contribution to the energy density of the magnetic system that favors perpendicular alignment of the magnetization over in-plane alignment. ...
+  - _Keywords:_ magnetic, interface, alignment, magnetization, anisotropy, density, favors, perpendicular
+- **Implementation of the Interface Anisotropy PMI** <a id="implementation-of-the-interface-anisotropy-pmi"></a>
+  - Like the exchange bias model, the interface anisotropy model is derived from PMI\_LLGHeff\_Base:
+  - _Keywords:_ PMI_LLGHeff_Base, PMI_InterfaceAnisotropy, magnetization, bulk_vi, I_aniso, pmi_float, interface, double
+- **Example: Local Demagnetizing Field** <a id="example-local-demagnetizing-field"></a>
+  - This model implements a local expression for the demagnetizing field in terms of a diagonal demagnetizing tensor : .N diag Nx Ny Nz = ( ) , , H eff, demag = = –NM M– satNm
+  - _Keywords:_ demagnetizing, implements, expression, diagonal, tensor, satNm
+- **Implementation of the Local Demagnetizing Field PMI** <a id="implementation-of-the-local-demagnetizing-field-pmi"></a>
+  - The model is derived from the base class PMI\_LLGHeff\_Base:
+  - _Keywords:_ LocalDemagnetizingField, PMI_LLGHeff_Base, double, magnetization, computeForBulkVertex, pmi_float, direction, demagnetizing
+- **User-Defined Magnetostatic Potential Calculation** <a id="user-defined-magnetostatic-potential-calculation"></a>
+  - For the special case of an effective magnetic field contribution that can be written as the gradient of a magnetostatic potential, $\tilde { \vec { H } } _ { \mathrm { l o n g i t u d i n a l } } = - \vec { \nabla } \Phi _ { \mathrm { m ...
+  - _Keywords:_ magnetic, magnetostatic, potential, mathrm, fields, MagnetostaticPotential, special, effective
+- **Syntax of Command File and Parameter File** <a id="syntax-of-command-file-and-parameter-file"></a>
+  - This special mode is activated by adding the following statement to the global Physics section of the command file:
+  - _Keywords:_ global, parallel, device, special, activated, adding, statement, Physics
+- **Tunneling Parameters** <a id="tunneling-parameters"></a>
+  - For the dynamic nonlocal path band-to-band tunneling model, the conduction and valence band offset energies and the electron and hole tunneling masses can be computed using a PMI (see Dynamic Nonlocal Path Band-to-Band Tunneling Model on...
+  - _Keywords:_ tunneling, Model, Band, Band2Band, NonlocalPath, PMIModel, dynamic, nonlocal
+- **Dependencies** <a id="dependencies"></a>
+  - The tunneling parameters can depend on:
+  - _Keywords:_ tunneling, offset, energy, depend, Lattice, temperature, PMI, compute
+- **Simplified C++ Interface** <a id="simplified-c-interface"></a>
+  - The following base class is declared in the file PMI.h: ```cpp class PMI_DNPBTBT_Base : public PMI_Vertex_Base { public: class Input : public PMI_Vertex_Input_Base { public: Input (const PMI_DNPBTBT_Base* base, const int vertex);
+  - _Keywords:_ PMI_DNPBTBT_Base, public, pmi_float, virtual, offset, energy, tunneling, new_PMI_DNPBTBT_Base_func
+- **Example: Constant Tunneling Parameters Model** <a id="example-constant-tunneling-parameters-model"></a>
+  - A simple constant tunneling parameters model can be implemented as follows: ```cpp #include "PMI.h" class BTBTParameter : public PMI_DNPBTBT_Base { friend class PMI_Device_Base; public: ```
+  - _Keywords:_ BTBTParameter, PMI_DNPBTBT_Base, PMI_Environment, public, compute, simple, constant, tunneling
+- **References** <a id="references"></a>
+  - [1] H. Matsuura, “Influence of Excited States of Deep Acceptors on Hole Concentration in SiC,” in International Conference on Silicon Carbide and Related Materials (ICSCRM), Tsukuba, Japan, pp. 679–682, October 2001. [2] P. Y. Yu and M. ...
+  - _Keywords:_ Materials, Semiconductors, Physics, devices, Cambridge, Matsuura, Influence, Excited
+- **37: Physical Model Interface** <a id="37-physical-model-interface"></a>
+  - References
+  - _Keywords:_ Interlayer, Exchange, Magnetic, III, References, Bruno, Interactions, Multilayers
+- **Overview** <a id="overview"></a>
+  - You can use Tcl scripts to control various aspects of a Sentaurus Device simulation. Tcl scripts can be used in the following circumstances:
+  - _Keywords:_ Tcl, current, Sentaurus, Device, You, scripts, control, interface
+- **Mesh-Based Runtime Support** <a id="mesh-based-runtime-support"></a>
+  - The Tcl runtime environment is accessed through a Tcl pointer tcl\_cp\_adr:
+  - _Keywords:_ Read, tcl_cp_adr, pointer, Device, Tcl, during, transient, simulations
+- **Device Mesh** <a id="device-mesh"></a>
+  - Use a pointer to the Sentaurus Device mesh for the following operations:
+  - _Keywords:_ pointer, Read, element, region, vertex, vertices, regioninterface, Use
+- **Vertex** <a id="vertex"></a>
+  - Use a pointer to a vertex for the following operations:
+  - _Keywords:_ vertex, Read, element, pointer, region, connected, access, coordinates
+- **Edge** <a id="edge"></a>
+  - Use a pointer to an edge for the following operations:
+  - _Keywords:_ pointer, Read, vertex, element, region, Use, operations, access
+- **Element** <a id="element"></a>
+  - Use a pointer to an element for the following operations:
+  - _Keywords:_ element, Read, pointer, vertex, _vertex, Use, operations, access
+- **Region** <a id="region"></a>
+  - Use a pointer to a region for the following operations:
+  - _Keywords:_ region, pointer, Read, vertex, element, Use, operations, _region
+- **Region Interface** <a id="region-interface"></a>
+  - Use a pointer to a region interface for the following operations:
+  - _Keywords:_ region, regioninterface, interface, Read, vertex, pointer, connected, Use
+- **Device Data** <a id="device-data"></a>
+  - Use a pointer to the Sentaurus Device data for the following operations:
+  - _Keywords:_ method, pointer, double, Read, SHE, location, energy, scalar
+- **One-Dimensional Arrays** <a id="one-dimensional-arrays"></a>
+  - Use the following function to allocate a one-dimensional array (C++ data type double\*):
+  - _Keywords:_ Use, dimensional, double, element, allocate, tcl_cp_new_double, tcl_cp_get_double, tcl_cp_set_double
+- **Two-Dimensional Arrays** <a id="two-dimensional-arrays"></a>
+  - Use the following function to read an element of a two-dimensional array (C++ data type double\*\*):
+  - _Keywords:_ Use, element, dimensional, double, _double2, index1, index2
+- **Current Plot File** <a id="current-plot-file"></a>
+  - The current plot Tcl interface can be used to add new entries to the current plot file. It is functionally equivalent to the current plot PMI described in Current Plot File of Sentaurus Device on page 1229. The required Tcl code must be ...
+  - _Keywords:_ Tcl, CurrentPlot, current, specified, interface, entries, functionally, equivalent
+- **Tcl Functions** <a id="tcl-functions"></a>
+  - Users must define Tcl functions for the following purposes:
+  - _Keywords:_ Tcl, _Compute, current, _Names, Compute, header, Sentaurus, Device
+- **tcl\_cp\_constructor** <a id="tcl-cp-constructor"></a>
+  - The constructor is invoked once at the beginning of each Tcl current plot statement:
+  - _Keywords:_ Tcl, current, tcl_cp_adr, namespace, constructor, access, Mesh, invoked
+- **tcl\_cp\_destructor** <a id="tcl-cp-destructor"></a>
+  - This optional procedure can be used to deallocate data structures, or to print statistical output:
+  - _Keywords:_ optional, procedure, deallocate, structures, statistical, tcl_cp_destructor
+- **tcl\_cp\_Compute\_Dataset\_Names** <a id="tcl-cp-compute-dataset-names"></a>
+  - This procedure must return a Tcl list of dataset names, for example:
+  - _Keywords:_ dataset, result, procedure, Tcl, tcl_cp_Compute_Dataset_Names, lappend, channel, eConductivity
+- **tcl\_cp\_Compute\_Function\_Names** <a id="tcl-cp-compute-function-names"></a>
+  - This procedure must return a Tcl list of function names, for example:
+  - _Keywords:_ result, procedure, Tcl, tcl_cp_Compute_Function_Names, lappend, Conductivity, identical, dataset
+- **tcl\_cp\_Compute\_Plot\_Values** <a id="tcl-cp-compute-plot-values"></a>
+  - This procedure must return a Tcl list of current plot values. Use the access functions to the Sentaurus Device mesh and data (see Mesh-Based Runtime Support on page 1301) to compute these values:
+  - _Keywords:_ result, procedure, Tcl, current, Use, access, Sentaurus, Device
+- **Example** <a id="example"></a>
+  - The following example computes the average of the electron conductivity in aσn = qnμn region. This example also can be found in the directory \$STROOT/tcad/\$STRELEASE/lib/ sdevice/src/tcl\_currentplot:
+  - _Keywords:_ Conductivity_Region, tcl_cp_adr, region, result, element, average, lappend, eDensity
+- **Part IV Appendices** _(p.39)_ <a id="part-iv-appendices"></a>
+  - This part of the Sentaurus™ Device User Guide contains the following appendices:
+  - _Keywords:_ density, Electron, Hole, Device, Appendix, vector, Fermi, Sentaurus
+- **File Extensions** _(p.48)_ <a id="file-extensions"></a>
+  - All strings that represent file names containing a dot (.) within their base name are taken literally. Otherwise, Sentaurus Device extends the given strings with the appropriate extension.
+  - _Keywords:_ Device, Sentaurus, extension, strings, extensions, Plot, represent, containing
+- **Starting Sentaurus Device** _(p.48)_ <a id="starting-sentaurus-device"></a>
+  - To start Sentaurus Device, enter:
+  - _Keywords:_ Sentaurus, Device, sdevice, commandfile, appends, automatically, corresponding, extension
+- **Command-Line Options** <a id="command-line-options"></a>
+  - Sentaurus Device interprets the following options:
+  - _Keywords:_ Writes, material, models, Sentaurus, Device, Prints, information, materials
+- **Generating Statistics** <a id="generating-statistics"></a>
+  - The command sdevicestat displays some statistics of a previous run of Sentaurus Device based on the information found in its log file. For example, the command:
+  - _Keywords:_ Total, sdevicestat, statistics, Sentaurus, Device, information, Newton, iterations
+- **Overview** <a id="overview"></a>
+  - Table 181 on page 1332, Table 182 on page 1364, Table 183 on page 1368, and Table 184 on page 1368 list the plot names that are recognized in a Plot section of Sentaurus Device (see Device Plots on page 123) and the data names that are a...
+  - _Keywords:_ Plot, plotted, appending, corresponding, keyword, Device, Vector, Element
+- **Scalar Data** <a id="scalar-data"></a>
+  - Table 181 Scalar data
+  - _Keywords:_ vertex, rowspan, Model, element, Quantum, Specifying, Doping, Species
+- **Vector Data** <a id="vector-data"></a>
+  - Table 182 Vector data
+  - _Keywords:_ vertex, Acm, Current, Density, Responses, Wcm, Vcm, rowspan
+- **Special Vector Data** <a id="special-vector-data"></a>
+  - Table 183 Special vector data
+  - _Keywords:_ eSHEDistribution, vertex, energy, distribution, SHE, Distribution, Hot, Carrier
+- **Tensor Data** <a id="tensor-data"></a>
+  - Table 184 Tensor data
+  - _Keywords:_ Strain, Stress, vertex, tensor, Sentaurus, Tensor, ElasticStrain, Semiconductors
+- **Organization of Command File Overview** <a id="organization-of-command-file-overview"></a>
+  - The tables in this appendix have two or three columns, and their rows are ordered alphabetically with respect to the first (and, as far as applicable, the middle) column. Placeholders (cross references, user-supplied values in angle brac...
+  - _Keywords:_ column, keywords, specific, brackets, middle, appear, indicate, supplied
+- **Top Levels of Command File** <a id="top-levels-of-command-file"></a>
+  - Table 186 lists the top levels in the command file of Sentaurus Device.
+  - _Keywords:_ Device, device, levels, System, Sentaurus, Top, Specification, single
+- **Device** <a id="device"></a>
+  - Table 187 Device{} or single-device specification Chapter 2, p. 9
+  - _Keywords:_ rowspan, Plot, Device, Visualizing, specification, current, Current, Data
+- **File** <a id="file"></a>
+  - In the description of Table 188, it is indicated whether a file is input or output, as well as the extensions (in Courier font) that Sentaurus Device appends to the user-supplied name to obtain the full name. The tags enclosed in at-sign...
+  - _Keywords:_ string, optical, results, Device, simulation, Load, Optical, written
+- **Solve** <a id="solve"></a>
+  - Table 189 Solve{}
+  - _Keywords:_ rowspan, Plot, Newton, current, equation, string, ramped, Solve
+- **System** _(p.96)_ <a id="system"></a>
+  - Table 207 System{} System Section on page 54
+  - _Keywords:_ Print, System, circuit, analysis, Plot, ident1, Initializing, Nodes
+- **Boundary Conditions** <a id="boundary-conditions"></a>
+  - Table 209 Electrode{} Specifying Electrical Boundary Conditions on page 67
+  - _Keywords:_ string, rowspan, Contacts, electrode, boundary, condition, Schottky, contact
+- **IFM** <a id="ifm"></a>
+  - Table 213 IFM{} IFM Section on page 719
+  - _Keywords:_ Noise, IFM, Deterministic, DeterministicVariation, variations, Doping, Variations, sources
+- **Math** _(p.143)_ <a id="math"></a>
+  - Table 214 Math{}
+  - _Keywords:_ Use, rowspan, mobility, driving, Interpolation, Driving, Damping, Method
+- **Physics** <a id="physics"></a>
+  - Table 227 Physics{} Part II on page 173
+  - _Keywords:_ colspan, Model, Multivalley, Band, Structure, rowspan, Use, MLDA
+- **Generation and Recombination** <a id="generation-and-recombination"></a>
+  - Table 228 Recombination() Chapter 16, p. 395
+  - _Keywords:_ Use, rowspan, Model, Band, vector, Specify, optical, Tunneling
+- **LED** <a id="led"></a>
+  - NOTE LED simulations present unique challenges that require problemspecific model and numerics setups. Contact TCAD Support for advice if you are interested in simulating LEDs (see Contacting Your Local TCAD Support Team Directly on page...
+  - _Keywords:_ LED, starting, active, Use, rowspan, LightTools, Optics, Broadening
+- **Mobility** <a id="mobility"></a>
+  - Table 266 Mobility(), eMobility(), hMobility() Chapter 15, p. 321
+  - _Keywords:_ Mobility, Use, mobility, Model, Degradation, Field, High, Scattering
+- **Radiation Models** <a id="radiation-models"></a>
+  - Table 270 AlphaParticle() Alpha Particles on page 678
+  - _Keywords:_ vector, device, Length, Direction, particle, Point, enters, Time
+- **Various** <a id="various"></a>
+  - Table 273 Aniso() Chapter 28, p. 793
+  - _Keywords:_ Use, rowspan, Model, string, Mobility, PMI, distribution, Spatial
+- **Plotting** _(p.165–764)_ <a id="plotting"></a>
+  - Table 323 Plot{} Device Plots on page 123
+  - _Keywords:_ coordinate, Print, MSConfig, Sample, specified, plotted, Device, Plots
+- **Various** _(p.1145)_ <a id="various"></a>
+  - Table 331 Locations, all
+  - _Keywords:_ device, Locations, location, string, interface, Scalar, Bulk, Interface

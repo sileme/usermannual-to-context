@@ -1,0 +1,509 @@
+# smesh_ug — outline
+
+Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
+
+- **Sentaurus™ Mesh User Guide** _(p.1)_ <a id="sentaurus-mesh-user-guide"></a>
+  - Version O-2018.06, June 2018
+  - _Keywords:_ Version, June
+- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
+  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
+  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+- **Disclaimer** <a id="disclaimer"></a>
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+- **Trademarks** <a id="trademarks"></a>
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html.
+  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
+  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+- **About This Guide vii** _(p.3)_ <a id="about-this-guide-vii"></a>
+  - Related Publications . . . vii
+  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
+- **Chapter 1 Introduction to Sentaurus Mesh 1** <a id="chapter-1-introduction-to-sentaurus-mesh-1"></a>
+  - Overview. .
+  - _Keywords:_ Mesh, Overview, Applications, Different, Generators, Starting, Sentaurus, Line
+- **Chapter 2 Command File 5** _(p.4)_ <a id="chapter-2-command-file-5"></a>
+  - Overview. .
+  - _Keywords:_ Mesh, Profiles, Placing, Defining, Regions, Specifying, Boundary, Subsection
+- **Chapter 3 Doping and Refinement Examples 73** _(p.5)_ <a id="chapter-3-doping-and-refinement-examples-73"></a>
+  - Command File for a Simple Diode . . . . 73
+  - _Keywords:_ Refinement, Analytic, Doping, Simple, Profiles, Particle, Mesh, Diode
+- **Chapter 4 Tensor-Product Examples 97** <a id="chapter-4-tensor-product-examples-97"></a>
+  - Simple Cube . . . . 97
+  - _Keywords:_ Simple, Cube, Boundary, Generate, Doping, Refinement, Thin, Regions
+- **Chapter 5 Tools Section 103** <a id="chapter-5-tools-section-103"></a>
+  - Activating the Tools Section. . . . 103
+  - _Keywords:_ Mesh, Slicing, Doping, Activating, Tools, Reflecting, Sweeping, Plane
+- **Chapter 6 Delaunization Algorithm 113** <a id="chapter-6-delaunization-algorithm-113"></a>
+  - Overview. . . 113
+  - _Keywords:_ Ridges, Corners, Overview, Generating, Protecting, Conforming, Delaunay, Triangulation
+- **Appendix A Formulas for Analytic Profiles 117** _(p.6)_ <a id="appendix-a-formulas-for-analytic-profiles-117"></a>
+  - General Concepts . . . 117
+  - _Keywords:_ Profiles, Lateral, Dimensional, Gaussian, Error, General, Models, Concepts
+- **Appendix B Doping Function for Discrete Dopants 129** _(p.7)_ <a id="appendix-b-doping-function-for-discrete-dopants-129"></a>
+  - Doping Function . . . . 129
+  - _Keywords:_ Sentaurus, generator, Synopsys, Mesh, Device, refinement, Doping, Cut
+- **Related Publications** _(p.7)_ <a id="related-publications"></a>
+  - For additional information, see:
+  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
+- **Conventions** <a id="conventions"></a>
+  - The following conventions are used in Synopsys documentation.
+  - _Keywords:_ Identifies, screen, identifies, conventions, Synopsys, documentation, Convention, Description
+- **Customer Support** _(p.8)_ <a id="customer-support"></a>
+  - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
+  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
+- **Accessing SolvNet** _(p.8)_ <a id="accessing-solvnet"></a>
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
+  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+- **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
+  - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
+  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
+- **Contacting Your Local TCAD Support Team Directly** _(p.9)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
+  - Send an e-mail message to:
+  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
+- **Overview** _(p.9–10)_ <a id="overview"></a>
+  - Sentaurus Mesh is a suite of tools that produce finite-element meshes for use in applications such as semiconductor device simulations, process simulations, and electromagnetic simulations. It has three mesh generation engines: an axis-a...
+  - _Keywords:_ Sentaurus, meshes, generator, Mesh, aligned, produce, offsetting, dimensions
+- **Applications of Different Mesh Generators** _(p.11)_ <a id="applications-of-different-mesh-generators"></a>
+  - The choice of which mesh generator to use for a particular application depends largely on the geometry of the device.
+  - _Keywords:_ generator, devices, surfaces, aligned, recommendation, elements, curved, choice
+- **Starting Sentaurus Mesh** _(p.11)_ <a id="starting-sentaurus-mesh"></a>
+  - In Sentaurus Mesh, a mesh is created from two input files, namely, the boundary file and the command file. If the input project is called project\_name, a mesh can be created using the command:
+  - _Keywords:_ project, Sentaurus, Mesh, created, information, namely, boundary, called
+- **Command-Line Options** <a id="command-line-options"></a>
+  - The binary of Sentaurus Mesh is snmesh. It is executed using the syntax:
+  - _Keywords:_ Sentaurus, Mesh, snmesh, backcompat, Displays, information, binary, executed
+- **References** _(p.12)_ <a id="references"></a>
+  - [1] L. Villablanca, Mesh Generation Algorithms for Three-Dimensional Semiconductor Process Simulation, Series in Microelectronics, vol. 97, Konstanz, Germany: Hartung-Gorre, 2000. [2] P. Conti, M. Tomizawa, and A. Yoshii, “Generation of ...
+  - _Keywords:_ Generation, Mesh, Three, Dimensional, International, Numerical, Villablanca, Algorithms
+- **1: Introduction to Sentaurus Mesh** _(p.12–13)_ <a id="1-introduction-to-sentaurus-mesh"></a>
+  - References
+  - _Keywords:_ Device, Simulation, Semiconductor, Germany, References, Unified, Grid, Generation
+- **Overview** _(p.13–14)_ <a id="overview"></a>
+  - In the command file (.cmd), you can specify different parameters for the generation of a mesh as follows:
+  - _Keywords:_ information, controls, different, Sentaurus, Mesh, Definitions, specified, profile
+- **IOControls Section** _(p.14–16)_ <a id="iocontrols-section"></a>
+  - The IOControls section is used to specify the names of input files describing the structure and the name of the output file with the generated result. The input and boundary files can contain either a boundary or a mesh in TDR format.
+  - _Keywords:_ EnableSections, EnableOffset, EnableTensor, EnableTools, verbosity, tensor, product, generator
+- **Definitions Section** _(p.17)_ <a id="definitions-section"></a>
+  - The Definitions section is composed of sets of refinement and profile subsections. Each subsection consists of a reference name, an opening brace, the specification of parameters, and a closing brace.
+  - _Keywords:_ reference, Definitions, definitions, composed, refinement, profile, subsections, subsection
+- **Defining Refinement Regions** _(p.17–19)_ <a id="defining-refinement-regions"></a>
+  - The syntax to define a refinement region is:
+  - _Keywords:_ vector, RefineFunction, Variable, refinement, defined, variable, specified, tensor
+- **Defining Multibox Regions** _(p.20)_ <a id="defining-multibox-regions"></a>
+  - NOTE Using the Multibox subsection is no longer recommended. Instead, use interface refinement with MaxLengthInterface (see Performing Interface Refinement on page 85).
+  - _Keywords:_ refinement, Multibox, multibox, graded, minimum, maximum, element, vector
+- **where:** _(p.20)_ <a id="where"></a>
+  - MaxElementSize and MinElementSize are the same as described in Defining Refinement Regions on page 9. Ratio controls the grading of the element sizes: ratio\_width is the grading factor in the x-direction. ratio\_height is the grading fa...
+  - _Keywords:_ grading, factor, direction, MaxElementSize, MinElementSize, described, Defining, Refinement
+- **Defining Constant Profiles** <a id="defining-constant-profiles"></a>
+  - The syntax to define a constant profile is:
+  - _Keywords:_ constant, profile, Species, Specifies, syntax, define, Constant, reference
+- **Defining Analytic Profiles** _(p.21–22)_ <a id="defining-analytic-profiles"></a>
+  - Profiles can be defined using simple analytic expressions, which have two components. The first component Function represents the values along a direction defined as the normal direction of the ReferenceElement. This is the primary direc...
+  - _Keywords:_ analytic, primary, LateralFunction, direction, lateral, profile, Gauss, Erf
+- **Specifying a Gaussian Function** _(p.22)_ <a id="specifying-a-gaussian-function"></a>
+  - A Gaussian function can be specified with the following primary parameters:
+  - _Keywords:_ Gauss, PeakPosition, PeakValue, Dose, StandardDeviation, StdDev, Length, ValueAtDepth
+- **Specifying an Error Function** <a id="specifying-an-error-function"></a>
+  - An error function can be specified with the following primary parameters:
+  - _Keywords:_ Erf, SymmetryPosition, SymPos, MaxValue, Length, Dose, MaxVal, ValAtDepth
+- **Specifying a 1D External Profile** _(p.23)_ <a id="specifying-a-1d-external-profile"></a>
+  - To specify a 1D external profile, the syntax is:
+  - _Keywords:_ DataScale, Datafile, Scale, Range, profile, subMesh1D, scales, coordinate
+- **Using the General Function Evaluator** _(p.24)_ <a id="using-the-general-function-evaluator"></a>
+  - The general function evaluator can be used in either of two ways:
+  - _Keywords:_ General, primary, string, Eval, direction, lateral, coordinates, specified
+- **Note that:** _(p.25)_ <a id="note-that"></a>
+  - ■ All defined variables are global variables. This means that, if init="a=1" is defined in one function, the same value will be used in all functions. Resetting the variable value in another function command will have no effect. You can ...
+  - _Keywords:_ defined, variables, Eval, lateral, global, Resetting, variable, another
+- **Defining Submeshes** _(p.25)_ <a id="defining-submeshes"></a>
+  - External simulation results given on a mesh can be used to define profiles in the device. The external mesh must have the same spatial dimension as the device. The datasets defined on the external mesh are interpolated to the newly gener...
+  - _Keywords:_ external, device, dimension, submesh, Geofile, string, define, profiles
+- **Defining Particle Profiles** _(p.26)_ <a id="defining-particle-profiles"></a>
+  - Particle definitions can be used to define profiles associated with discrete dopant distributions obtained from kinetic Monte Carlo (KMC) simulations using Sentaurus Process Kinetic Monte Carlo (Sentaurus Process KMC). A continuous profi...
+  - _Keywords:_ discrete, dopant, Particle, define, obtained, Monte, Carlo, KMC
+- **AutoScreeningFactor** _(p.26)_ <a id="autoscreeningfactor"></a>
+  - If this option is specified, Sentaurus Mesh calculates automatically a screening factor for each discrete dopant based on the local density of dopants using $k _ { c } = 2 N ( x _ { 0 } , y _ { 0 } , z _ { 0 } ) ^ { 1 / 3 }$ , where $N (...
+  - _Keywords:_ specified, density, discrete, dopant, ScreeningFactor, Sentaurus, Mesh, calculates
+- **BoundaryExtension** <a id="boundaryextension"></a>
+  - This parameter applies to 2D structures only and is used to obtain continuous doping on a 2D structure from a 3D KMC TDR file containing particle information.
+  - _Keywords:_ structure, information, doping, applies, structures, obtain, continuous, KMC
+- **Divisions (10)** <a id="divisions-10"></a>
+  - This parameter applies to 2D structures only and is used in conjunction with the BoundaryExtension parameter. For each mesh point in a 2D structure, a number of points equal to a number of divisions, each separated by an equal amount, is...
+  - _Keywords:_ points, divisions, amount, doping, applies, structures, conjunction, BoundaryExtension
+- **DopingAssignment ("Sano")** _(p.27)_ <a id="dopingassignment-sano"></a>
+  - The basic refinement method is the Sano method, but this parameter allows you to choose a method by which doping is assigned to a mesh immediately before saving the mesh:
+  - _Keywords:_ method, doping, particle, Sano, nearest, refinement, allows, choose
+- **Normalization** _(p.27)_ <a id="normalization"></a>
+  - Specifying this option compensates for doping loss of dopants located near the boundary.
+  - _Keywords:_ Specifying, compensates, doping, dopants, located, boundary
+- **NumberOfThreads (1)** <a id="numberofthreads-1"></a>
+  - Parallelizes the local screening factor computation. Multithreading is recommended if the simulation contains thousands of particles.
+  - _Keywords:_ Parallelizes, screening, factor, computation, Multithreading, recommended, simulation, contains
+- **ParticleFile** <a id="particlefile"></a>
+  - Specifies the name of the KMC TDR file that contains the particle (discrete dopant) information.
+  - _Keywords:_ Specifies, KMC, TDR, contains, particle, discrete, dopant, information
+- **ScreeningFactor** <a id="screeningfactor"></a>
+  - This is the cut-off parameter, $k _ { c }$ , for the doping function associated with each discrete dopant (see Appendix B on page 129). The ScreeningFactor (given in units of )cm–1 can be used as a fitting parameter; however, a value for...
+  - _Keywords:_ doping, associated, discrete, dopant, Appendix, ScreeningFactor, fitting, however
+- **ScreeningScalingFactor** <a id="screeningscalingfactor"></a>
+  - Controls the degree of smoothness of the profile. It is applied to the screening factor when AutoScreeningFactor is specified.
+  - _Keywords:_ Controls, degree, smoothness, profile, applied, screening, factor, AutoScreeningFactor
+- **Species** <a id="species"></a>
+  - Specifies the name of an active impurity concentration to associate with this definition, for example, ArsenicActiveConcentration and BoronActiveConcentration.
+  - _Keywords:_ active, definition, Specifies, impurity, concentration, associate, ArsenicActiveConcentration, BoronActiveConcentration
+- **Placements Section** _(p.28)_ <a id="placements-section"></a>
+  - The Placements section is composed of sets of refinement and profile instances. Their positions in the device must be specified, and they must reference a definition given in the Definitions section. In other words, each instance or subs...
+  - _Keywords:_ instance, Placements, refinement, profile, instances, regions, important, composed
+- **Geometric Elements** _(p.28–30)_ <a id="geometric-elements"></a>
+  - To specify Placements sections, you must use geometric elements. These elements are geometric objects used to select or locate data, and they are not part of the grid elements. The coordinates of these objects are defined relative to the...
+  - _Keywords:_ elements, geometric, element, polygon, polygons, profiles, material, region
+- **Placing Refinement Regions** _(p.31)_ <a id="placing-refinement-regions"></a>
+  - In the Placements section, a refinement instance is specified by a name, an opening brace, the specification of parameters, and a closing brace. Several refinement instances can refer to the same set of refinement parameters.
+  - _Keywords:_ refinement, instance, Reference, Placements, specified, opening, specification, closing
+- **RefineWindow** <a id="refinewindow"></a>
+  - Defines the location of the refinement instance in the device. (Instead of RefineWindow, you can use its abbreviation RefineWin.) By default, RefineWindow is the bounding box of the device. Table 2 on page 21 lists the geometric elements...
+  - _Keywords:_ refinement, RefineWindow, Refinement, device, RefineWin, instance, specify, region
+- **Placing Multibox Regions** _(p.32)_ <a id="placing-multibox-regions"></a>
+  - In the Placements section, a multibox instance is specified by the keyword Multibox, followed by the name of the multibox window and an opening brace. After the specification of parameters, a closing brace is placed. Several multibox ins...
+  - _Keywords:_ multibox, instance, RefineWindow, device, specified, Multibox, Reference, geometric
+- **Placing Constant Profiles** _(p.32–33)_ <a id="placing-constant-profiles"></a>
+  - The syntax for constant profiles is: ```hcl Constant "instance name" { Reference = "string" EvaluateWindow { Element = geometric element | material [<list>] | region [<list>] DecayLength = value | GaussDecayLength = value } LocalReplace ...
+  - _Keywords:_ profiles, EvaluateWindow, DecayLength, constant, Element, geometric, element, GaussDecayLength
+- **LocalReplace** _(p.33)_ <a id="localreplace"></a>
+  - With the Replace option, all the computed species are set to zero and are set with the value corresponding to the given profile instance. With the LocalReplace option, only species defined in the corresponding Definitions section are set...
+  - _Keywords:_ species, corresponding, profile, instance, LocalReplace, updated, Replace, computed
+- **Replace** <a id="replace"></a>
+  - In general, the values for each profile at each point of the newly generated mesh are computed as the sum of all profile instances defined in the Placements section. The instances are inspected in the same order as they are defined in th...
+  - _Keywords:_ profile, instances, defined, Replace, instance, general, generated, computed
+- **Placing Analytic Profiles** _(p.34–35)_ <a id="placing-analytic-profiles"></a>
+  - The syntax for an analytic profile is:
+  - _Keywords:_ Element, positive, analytic, direction, profile, polygon, ReferenceElement, element
+- **Placing Submeshes** _(p.35–36)_ <a id="placing-submeshes"></a>
+  - The syntax for references to submeshes in the Placements section is: ```hcl SubMesh "instance name" { Reference = "string" Reflect = X | Y | Z Rotation { Angle = value Axis = value } ShiftVector = vector EvaluateWindow { Element = geomet...
+  - _Keywords:_ Rotation, Reflect, coordinate, references, SubMesh, Reference, Angle, Axis
+- **ShiftVector** <a id="shiftvector"></a>
+  - Translates a submesh to a new location. The vector is specified as two or three coordinates enclosed by parentheses.
+  - _Keywords:_ Translates, submesh, location, vector, specified, coordinates, enclosed, parentheses
+- **EvaluateWindow** <a id="evaluatewindow"></a>
+  - Restricts the placement of the submesh to a particular window, material, or region. See description in Placing Constant Profiles on page 24.
+  - _Keywords:_ Restricts, placement, submesh, particular, window, material, region, description
+- **Ignoremat** <a id="ignoremat"></a>
+  - If this option is specified, the material in submeshes is ignored. The standard behavior of submesh interpolation is that the interpolated value is only accepted if the point is in a region with the same material.
+  - _Keywords:_ material, behavior, interpolation, region, Ignoremat, NoName_0, specified, submeshes
+- **LocalReplace** <a id="localreplace"></a>
+  - See description in Placing Constant Profiles on page 24.
+  - _Keywords:_ description, Placing, Constant, Profiles
+- **MatchMaterialType** <a id="matchmaterialtype"></a>
+  - When this option is specified, the submesh attempts to match equivalent material types (for example, semiconductor, insulator, conductor) instead of trying to match material names when looking up values from which to interpolate.
+  - _Keywords:_ material, specified, submesh, attempts, equivalent, semiconductor, insulator, conductor
+- **Replace** <a id="replace"></a>
+  - See description in Placing Constant Profiles on page 24.
+  - _Keywords:_ description, Placing, Constant, Profiles
+- **Placing Particle Profiles** _(p.37)_ <a id="placing-particle-profiles"></a>
+  - The syntax for placing particle profiles in the Placements section is:
+  - _Keywords:_ particle, description, Placing, Constant, Profiles, profiles, Reference, EvaluateWindow
+- **Interpolate Section** _(p.37–38)_ <a id="interpolate-section"></a>
+  - The optional Interpolate section controls data interpolation that is performed after the mesh generators have finished.
+  - _Keywords:_ datasets, Interpolate, performed, interpolateElements, keepTotalConcentration, lateralDiffusion, element, interpolated
+- **AxisAligned Section** _(p.40–46)_ <a id="axisaligned-section"></a>
+  - The AxisAligned section controls the axis-aligned mesh generator in Sentaurus Mesh.
+  - _Keywords:_ algorithm, boundary, refinement, surface, regions, Sentaurus, Mesh, aligned
+- **Offsetting Section** _(p.47–48)_ <a id="offsetting-section"></a>
+  - The offsetting mesh generator uses the Offsetting section to create meshes with layers that follow the device interfaces. The layers are combined with the axis-aligned mesh generated by the axis-aligned mesh generator (see AxisAligned Se...
+  - _Keywords:_ region, offsetting, layers, material, generator, noffset, factor, hlocal
+- **Delaunizer Section** _(p.49–52)_ <a id="delaunizer-section"></a>
+  - The Delaunizer section controls the behavior of the delaunization algorithms in Sentaurus Mesh. The syntax of this section is:
+  - _Keywords:_ Specifies, Delaunay, boundary, algorithm, maximum, elements, points, minimum
+- **Delaunay Tolerance** _(p.52–53)_ <a id="delaunay-tolerance"></a>
+  - The tolerance used to calculate the Delaunay criterion can be adjusted locally based on region, material, or window information:
+  - _Keywords:_ delaunayTolerance, tolerance, boundary, region, material, interior, window, string
+- **Tensor Section** _(p.53)_ <a id="tensor-section"></a>
+  - The Tensor section can contain the following subsections and controls the tensor-product mesh generator:
+  - _Keywords:_ Tensor, IOControls, contain, subsections, controls, tensor, product, generator
+- **Mesh Subsection for Controlling Mesh Generation** _(p.54–57)_ <a id="mesh-subsection-for-controlling-mesh-generation"></a>
+  - Various parameters can be defined in the Mesh subsection of a Tensor section of the command file. These parameters control mesh generation. The syntax of a Mesh subsection is:
+  - _Keywords:_ direction, material, window, interface, Specifies, region, grading, doping
+- **EMW Subsection for Computing Cell Size Automatically** _(p.57–61)_ <a id="emw-subsection-for-computing-cell-size-automatically"></a>
+  - When generating tensor meshes, the maximum cell sizes are computed automatically when the EnableEMW option is specified in the IOControls section of the command file. This application applies to Sentaurus Device Electromagnetic Wave Solv...
+  - _Keywords:_ CRI, wavelength, region, WavelengthDep, direction, material, mathrm, Real
+- **Box Subsection for Plotting** _(p.62)_ <a id="box-subsection-for-plotting"></a>
+  - New regions can be added to the tensor mesh that can be used for plotting purposes in EMW applications. The new regions are specified by the Box subsection of the Tensor section of the command file.
+  - _Keywords:_ endPoint, startPoint, tolerance, Box, boundingBox, region, string, bounding
+- **Tools Section** _(p.63)_ <a id="tools-section"></a>
+  - The Tools section is used to execute geometric operations on either a boundary file or a mesh file. The input mesh can be either a tetrahedral mesh or a hybrid (mixed-element) mesh.
+  - _Keywords:_ Tools, operations, hybrid, operation, either, tetrahedral, converted, Mesh
+- **Appending the Input Structure** <a id="appending-the-input-structure"></a>
+  - This section appends the input structure periodically at the specified position:
+  - _Keywords:_ appends, structure, periodically, specified, position, Tools, Append, stringA
+- **Creating Profiles** _(p.64)_ <a id="creating-profiles"></a>
+  - This section creates profiles in the input mesh with the description given in the command file:
+  - _Keywords:_ profiles, string, creates, description, Tools, CreateProfiles, SrcMesh, CmdFile
+- **Setting a Transformation** _(p.64)_ <a id="setting-a-transformation"></a>
+  - This section sets a transformation matrix to a mesh or a boundary: ```hcl Tools { Set Transformation { translation = (float float [float]) scale = float | scale = (float float float)
+  - _Keywords:_ Transformation, matrix, boundary, translation, rotation, vector, transformation, Apply
+- **Removing Short Features** _(p.65)_ <a id="removing-short-features"></a>
+  - This section removes unwanted short features in a boundary: ```hcl Tools { Decimate { accuracy = float shortedge = float } } ```
+  - _Keywords:_ removes, accuracy, shortedge, unwanted, features, boundary, Tools, Decimate
+- **Rediscretizing the Boundary Using the DelPSC Algorithm** _(p.65–66)_ <a id="rediscretizing-the-boundary-using-the-delpsc-algorithm"></a>
+  - This section rediscretizes the boundary by surface remeshing using the DelPSC algorithm that creates good-quality triangles on non-flat surfaces of the boundary:
+  - _Keywords:_ surface, original, DelPSCAccuracy, curved, triangles, surfaces, boundary, DelPSC
+- **Rediscretizing the Boundary Using the Dual-Contouring Algorithm** <a id="rediscretizing-the-boundary-using-the-dual-contouring-algori"></a>
+  - This section rediscretizes the boundary by surface remeshing using the dual-contouring algorithm. Dual contouring can be useful when the input boundary is low quality, that is, it contains triangles with small planar or dihedral angles. ...
+  - _Keywords:_ boundary, contouring, algorithm, surface, decimation, resolution, minimum, rediscretization
+- **Interpolating a Source Mesh to a Destination Mesh** _(p.67)_ <a id="interpolating-a-source-mesh-to-a-destination-mesh"></a>
+  - This section allows interpolation from the source mesh to the destination mesh:
+  - _Keywords:_ source, destination, interpolation, string, species, Extrapolate, specified, DstMesh
+- **Performing a 2D Slice of 3D Mesh or Boundary** _(p.67–68)_ <a id="performing-a-2d-slice-of-3d-mesh-or-boundary"></a>
+  - This section performs a 2D slice of a 3D mesh or boundary:
+  - _Keywords:_ segment, Endpoint, Startpoint, direction, coordinates, Slice, represent, boundary
+- **Cutting a Mesh With a Plane** _(p.68)_ <a id="cutting-a-mesh-with-a-plane"></a>
+  - This section cuts a mesh with a plane:
+  - _Keywords:_ normal, meshes, Tools, Cut, location, removed, defined, points
+- **Reflecting a Mesh** _(p.69)_ <a id="reflecting-a-mesh"></a>
+  - This section mirrors a mesh about a location and appends it to the original mesh:
+  - _Keywords:_ region, mirrors, location, appends, original, Tools, Reflection, stringA
+- **Extruding a Mesh** _(p.69–70)_ <a id="extruding-a-mesh"></a>
+  - This section extrudes a planar 2D mesh along a nonuniform 1D grid to generate a 3D mesh:
+  - _Keywords:_ cutplanes, zCuts, generated, between, planes, spacingMethod, smooth, distributes
+- **Stretching a Mesh** _(p.70)_ <a id="stretching-a-mesh"></a>
+  - This section stretches an existing mesh by adding a new column of elements at the specified location in the specified direction:
+  - _Keywords:_ direction, length, specified, location, stretches, existing, adding, column
+- **Placing Individual Dopant of Species** _(p.71)_ <a id="placing-individual-dopant-of-species"></a>
+  - This section allows you to place an individual dopant of a species at a specified location:
+  - _Keywords:_ species, specified, dopants, single, region, Replace, dopant, location
+- **Extracting a Boundary From a Mesh** _(p.71)_ <a id="extracting-a-boundary-from-a-mesh"></a>
+  - You can specify the Mesh2bnd option to extract a boundary from a mesh, or you can set the geometric accuracy and short edge to clean up unwanted small features of the input geometry:
+  - _Keywords:_ accuracy, Mesh2bnd, geometric, You, specify, extract, boundary, unwanted
+- **Converting a Tetrahedral Mesh to a Hybrid Mesh** <a id="converting-a-tetrahedral-mesh-to-a-hybrid-mesh"></a>
+  - Hybrid meshes (also referred to as mixed-element meshes) contain hexahedra, prisms, pyramids, and tetrahedra. They are used in some tools such as Sentaurus Device because, compared to tetrahedral meshes, hybrid meshes have fewer elements...
+  - _Keywords:_ meshes, Sentaurus, hybrid, Mesh2Hybrid, Tools, Hybrid, tetrahedral, elements
+- **Specifying Algorithm for Smoothing Noise** _(p.72)_ <a id="specifying-algorithm-for-smoothing-noise"></a>
+  - This section uses a multimaterial level-set (MLS) algorithm to smooth any noise that may be present in the boundary file:
+  - _Keywords:_ curvature, MLS, algorithm, CellSize, numThreads, quality, triangles, specifies
+- **Creating Structures With Randomized Doping Profiles** _(p.74–76)_ <a id="creating-structures-with-randomized-doping-profiles"></a>
+  - This section creates structures with randomized doping profiles based on an original structure obtained from process simulation or created analytically. The section works by atomizing the original continuous doping distribution to create...
+  - _Keywords:_ doping, randomized, ScreeningFactor, AutoScreeningFactor, specified, Species, Dataset, Ignore
+- **Adding or Removing Interfaces From a Mesh** _(p.76)_ <a id="adding-or-removing-interfaces-from-a-mesh"></a>
+  - Some TCAD Sentaurus tools produce meshes that contain an explicit description of the interface between adjacent regions. This description is not understood by some tools and is not produced by other tools, so it is sometimes necessary to...
+  - _Keywords:_ description, remove, addInterfaceRegions, removeInterfaceRegions, interfaces, Some, TCAD, Sentaurus
+- **QualityReport Section** _(p.77–78)_ <a id="qualityreport-section"></a>
+  - The QualityReport section is optional and is used to specify mesh quality limits for mesh generation. Sentaurus Mesh produces a report regardless of whether the limits are satisfied or not. This section of the command file can help to en...
+  - _Keywords:_ limits, Sentaurus, Mesh, element, elements, Specifies, exceeded, variable
+- **Examples** _(p.79)_ <a id="examples"></a>
+  - Generate a report on the mesh quality of the entire mesh using the default limits:
+  - _Keywords:_ report, quality, limits, Generate, entire, QualityReport, Global, Silicon
+- **References** _(p.79–81)_ <a id="references"></a>
+  - [1] S.-W. Cheng, T. K. Dey, and J. A. Levine, “A Practical Delaunay Meshing Algorithm for a Large Class of Domains,” in Proceedings of the 16th International Meshing Roundtable, Seattle, WA, USA, pp. 477–494, October 2007. [2] T. K. Dey ...
+  - _Keywords:_ Meshing, Dual, Contouring, Dey, Levine, Delaunay, International, USA
+- **Command File for a Simple Diode** _(p.81–82)_ <a id="command-file-for-a-simple-diode"></a>
+  - This section describes the command file diode.cmd that is used as an example for the rest of this chapter. The command file contains two types of information: dimension-independent data and dimension-dependent data. The dimension-indepen...
+  - _Keywords:_ region, dimension, Constant, keyword, doping, independent, Species, device
+- **3: Doping and Refinement Examples** _(p.82)_ <a id="3-doping-and-refinement-examples"></a>
+  - Refinement and Evaluation Windows
+  - _Keywords:_ EvaluateWindow, defined, profile, domain, cuboid, region, Element, Reference
+- **Refinement and Evaluation Windows** <a id="refinement-and-evaluation-windows"></a>
+  - The refinement conditions specified inside a Refinement statement can be restricted using refinement windows. The windows can be simple rectangles, polygons, polyhedra, regions, or materials.
+  - _Keywords:_ refinement, windows, conditions, specified, inside, Refinement, statement, restricted
+- **Using Refinement Polygons** _(p.84)_ <a id="using-refinement-polygons"></a>
+  - Figure 1 on page 76 illustrates the use of polygonal domains for specifying a polygonal RefineWindow and for using a polygonal domain as an EvaluateWindow. The domain is a simple rectangular boundary and the command file is:
+  - _Keywords:_ Refinement, polygonal, details, summary, RefineWindow, global, refpol, Reference
+- **Using Composite Elements** _(p.84–85)_ <a id="using-composite-elements"></a>
+  - Geometric elements can be combined to form more complex elements. This can be used to define curved reference elements for analytic profiles, which otherwise cannot be correctly defined using the standard elements. An example of the use ...
+  - _Keywords:_ elements, reference, composite, element, details, summary, Low, Medium
+- **Regionwise and Materialwise Refinement** _(p.85)_ <a id="regionwise-and-materialwise-refinement"></a>
+  - Figure 3 on page 78 illustrates the effect of using regionwise and materialwise refinement. The following command file segment shows the relevant part of the command file:
+  - _Keywords:_ details, summary, materialwise, refinement, Refinement, Reference, RefineWindow, images
+- **Using Analytic Functions for Doping Specification** _(p.86)_ <a id="using-analytic-functions-for-doping-specification"></a>
+  - This example illustrates the use of general analytic functions for defining doping profiles. To use the primary and lateral directions as x and y, the keyword Eval must be specified (instead of General), that is, by using global spatial ...
+  - _Keywords:_ Element, details, summary, images, natural_image, symbols, analytic, doping
+- **Creating 3D Profiles From 2D Cross Sections** <a id="creating-3d-profiles-from-2d-cross-sections"></a>
+  - A 2D profile can be extended into three dimensions by using an EvaluateWindow containing a sweepElement, which is an advanced type of element that allows a 2D geometric element to be either swept along a path or swept about a reference a...
+  - _Keywords:_ element, sweepElement, profile, Element, coordinate, Sweep, normal, vector
+- **3: Doping and Refinement Examples** _(p.87)_ <a id="3-doping-and-refinement-examples"></a>
+  - Creating 3D Profiles From 2D Cross Sections
+  - _Keywords:_ profile, element, normal, direction, rotation, sweepElement, Element, double
+- **Using Particle Profiles to Specify Doping** _(p.88)_ <a id="using-particle-profiles-to-specify-doping"></a>
+  - This example illustrates the use of particle profiles for specifying the doping for a 30-nm n-channel MOSFET. The particle information is generated by Sentaurus Process Kinetic Monte Carlo and is stored in a TDR file named 30nm\_end6.tdr...
+  - _Keywords:_ doping, material, structure, Particle, refinement, particle, profiles, Reference
+- **3: Doping and Refinement Examples** _(p.88)_ <a id="3-doping-and-refinement-examples"></a>
+  - Generating 2D Mesh With Continuous Doping Obtained From 3D KMC File Containing Particle Information
+  - _Keywords:_ Green, Mesh, Yellow, Blue, Doping, generated, structure, details
+- **Generating 2D Mesh With Continuous Doping Obtained From 3D KMC File Containing Particle Information** <a id="generating-2d-mesh-with-continuous-doping-obtained-from-3d-k"></a>
+  - This example illustrates the use of the feature that generates a continuous profile on a 2D mesh from a 3D KMC file containing particle information. This feature allows you to evaluate the 3D doping profile and to transfer those onto a 2...
+  - _Keywords:_ doping, profile, KMC, particle, Particle, boundary, structure, Blue
+- **Performing Interface Refinement** <a id="performing-interface-refinement"></a>
+  - Interface refinement is specified in a similar way to the refinement on analytic functions. To perform interface refinement, define a RefineFunction of type MaxLengthInterface and specify the pair of materials defining the interface, the...
+  - _Keywords:_ Interface, interface, RefineFunction, refinement, refines, MaxLengthInterface, thickness, MaxLenInt
+- **Ignoring Interfaces Between Regions of the Same Material** <a id="ignoring-interfaces-between-regions-of-the-same-material"></a>
+  - When Sentaurus Mesh performs refinement across interfaces, it internally splits the edges crossing the interfaces into segments that are contained completely inside each region. Then, it proceeds to analyze the refinement criteria on eac...
+  - _Keywords:_ refinement, Sentaurus, Mesh, across, interfaces, region, segment, doping
+- **Offsetting Mesh Generation** <a id="offsetting-mesh-generation"></a>
+  - This section presents examples that illustrate using the offsetting mesh generator.
+  - _Keywords:_ presents, illustrate, offsetting, generator
+- **Simple Example** _(p.92)_ <a id="simple-example"></a>
+  - This example shows all the relevant parameters in the Offsetting section that are supported by Sentaurus Mesh. The input structure is shown in Figure 9.
+  - _Keywords:_ structure, details, summary, Refinement, relevant, Offsetting, supported, Sentaurus
+- **3: Doping and Refinement Examples** _(p.92–95)_ <a id="3-doping-and-refinement-examples"></a>
+- **Offsetting Mesh Generation** _(p.92–95)_ <a id="offsetting-mesh-generation"></a>
+  - ```hcl Offsetting { noffset { hlocal=0 } noffset material "Silicon" { maxlevel = 5 } noffset material "Oxide" { maxlevel = 5 } noffset material "Silicon" "Oxide" { hlocal=0.002 factor=1.5 } noffset material "Oxide" "Silicon" { hlocal=0.0...
+  - _Keywords:_ noffset, hlocal, Offsetting, material, factor, maxlevel, details, summary
+- **Localizing the Refinement Using Cuts** <a id="localizing-the-refinement-using-cuts"></a>
+  - By design, the axis-aligned algorithm always creates the mesh by refining an initial box, which contains the whole device. This creates problems when the external shape of the device must be modified, because this will change the boundin...
+  - _Keywords:_ device, initial, refinement, refined, channel, xCuts, NMOS, structure
+- **Using Analytic Functions for Refinement I** <a id="using-analytic-functions-for-refinement-i"></a>
+  - Figure 16 illustrates the use of general analytic functions to specify profiles.
+  - _Keywords:_ ElectrostaticPotential, Region_1, Profile_1, illustrates, analytic, Refinement, AnalyticalProfile, Reference
+- **Using Analytic Functions for Refinement II** _(p.96)_ <a id="using-analytic-functions-for-refinement-ii"></a>
+  - This example illustrates the use of a general analytic function to prescribe 3D refinement based on a 3D analytic function. The domain is a cube. Figure 17 shows the generated mesh.
+  - _Keywords:_ analytic, Region_1, Profile_1, refinement, details, summary, Refinement, ElectrostaticPotential
+- **3: Doping and Refinement Examples** _(p.96–105)_ <a id="3-doping-and-refinement-examples"></a>
+  - Using Analytic Functions for Refinement II
+  - _Keywords:_ Analytic, Refinement, various, demonstrate, applications, Tensor
+- **Simple Cube** _(p.105–106)_ <a id="simple-cube"></a>
+  - This example illustrates the effectiveness of various features such as maxBndCellSize, maxCellSize, refinement using window, and grading. The following is the command file used to generate the tensor-product mesh:
+  - _Keywords:_ direction, maxBndCellSize, window, maxCellSize, grading, tensor, testbox, geometry
+- **4: Tensor-Product Examples** _(p.106)_ <a id="4-tensor-product-examples"></a>
+  - Simple Cube
+  - _Keywords:_ refinement, obtain, window, minNumberOfCells, maxCellSize, specified, within, center
+- **Using Boundary and Command Files to Generate Doping and Refinement** _(p.107–108)_ <a id="using-boundary-and-command-files-to-generate-doping-and-refi"></a>
+  - This example shows how to use the tensor-product mesh generator to represent an approximation of the actual regions defined in a boundary file. The geometry is shown in Figure 20. In this case, the default mesh generation parameters are ...
+  - _Keywords:_ tensor, images, details, summary, approximation, geometry, doping, region
+- **Thin Regions** _(p.108–109)_ <a id="thin-regions"></a>
+  - This example shows how insufficient cell resolution in a region will result in elements that are one dimension less than the model dimension. The geometry contains a thin aluminum region shown in Figure 23. Since the local cell size is n...
+  - _Keywords:_ Blue, Light, region, aluminum, details, summary, tensor, Dark
+- **Computing Cell Size Automatically (EMW Applications)** _(p.110)_ <a id="computing-cell-size-automatically-emw-applications"></a>
+  - This example shows the command file structure that is used to compute cell sizes automatically using the tensor mesh generator. The tensor mesh generator reads the Mesh section of the command file first and then reads the EMW section. Si...
+  - _Keywords:_ tensor, generator, defined, Sentaurus, Device, structure, compute, automatically
+- **4: Tensor-Product Examples** _(p.110–111)_ <a id="4-tensor-product-examples"></a>
+  - Computing Cell Size Automatically (EMW Applications)
+  - _Keywords:_ wavelength, details, summary, computed, Mesh, EMW, materials, corresponding
+- **Activating the Tools Section** _(p.111)_ <a id="activating-the-tools-section"></a>
+  - To activate the Tools section in the command file of Sentaurus Mesh, specify either the EnableSections or the EnableTools option in the IOControls section of the command file (see IOControls Section on page 6).
+  - _Keywords:_ IOControls, activate, Tools, Sentaurus, Mesh, specify, either, EnableSections
+- **Reflecting and Sweeping Mesh** _(p.112)_ <a id="reflecting-and-sweeping-mesh"></a>
+  - In this example, a two-dimensional (2D) structure is taken and reflected. A three-dimensional (3D) mesh is then generated by sweeping the reflected mesh. The command file is:
+  - _Keywords:_ details, summary, reflected, structure, PolyReox, images, direction, dimensional
+- **Slicing a 3D Mesh Using a Plane and Its Location** _(p.113–114)_ <a id="slicing-a-3d-mesh-using-a-plane-and-its-location"></a>
+  - In this example, a 3D mesh is sliced to obtain a 2D mesh. The command file is:
+  - _Keywords:_ details, summary, sliced, location, images, natural_image, symbols, obtain
+- **Cutting a 3D Mesh** _(p.114–115)_ <a id="cutting-a-3d-mesh"></a>
+  - In this example, a cube mesh is taken as an input and three cutting planes are used to create a wedge. The command file used in this example is:
+  - _Keywords:_ cutting, planes, Cut, normal, location, details, summary, create
+- **Converting a Tetrahedral Mesh to a Hybrid Mesh** <a id="converting-a-tetrahedral-mesh-to-a-hybrid-mesh"></a>
+  - The following example translates a mesh and converts it to a hybrid mesh. The command file used in this example is:
+  - _Keywords:_ details, summary, element, hybrid, Transformation, Mesh2Hybrid, images, natural_image
+- **Generating Randomized Doping From Continuous Doping** _(p.116–117)_ <a id="generating-randomized-doping-from-continuous-doping"></a>
+  - The following example illustrates a utility that randomizes a continuous doping. A mesh with continuous doping, along with a command file, is given as input. The command file for this example is:
+  - _Keywords:_ Top, doping, method, Bottom, Right, continuous, Sano, randomized
+- **Slicing a 3D Mesh Using a Segment and a Direction** _(p.118–119)_ <a id="slicing-a-3d-mesh-using-a-segment-and-a-direction"></a>
+  - In this example, a 3D mesh is sliced to obtain a 2D mesh using a segment feature. The command file is:
+  - _Keywords:_ details, summary, boundary, sliced, segment, Tools, information, bounding
+- **Creating Profiles in an Existing Mesh** _(p.119–120)_ <a id="creating-profiles-in-an-existing-mesh"></a>
+  - This example shows the usage of the creating profiles utility. The command file contains information about an existing mesh and a mesh command file containing profile information. The profiles specified in the command file are created in...
+  - _Keywords:_ BoronActiveConcentration, profiles, information, profile, substrateDop, contains, specified, without
+- **Stretching a Mesh** _(p.120–121)_ <a id="stretching-a-mesh"></a>
+  - This example shows the usage of the stretch utility. The command file contains information about the location of the starting point of the stretch, the direction of the stretch, and the length of the stretch. The command file for this ex...
+  - _Keywords:_ stretch, length, details, summary, location, direction, specified, information
+- **Overview** _(p.121–122)_ <a id="overview"></a>
+  - A delaunization algorithm is available for 3D models in Sentaurus Mesh. This algorithm is based on a conforming Delaunay triangulation–type of algorithm, but it is more stable, generating meshes for complex structures with sharp input an...
+  - _Keywords:_ algorithm, Delaunay, triangulation, surface, criterion, refined, delaunization, Sentaurus
+- **Generating Ridges and Corners** _(p.122)_ <a id="generating-ridges-and-corners"></a>
+  - During the first stage, the algorithm detects the faces that are coplanar. Every edge that bounds a coplanar set of faces is labeled a ridge. Every point that connects two non-collinear ridges is labeled a corner.
+  - _Keywords:_ coplanar, Every, labeled, During, algorithm, detects, bounds, connects
+- **Protecting Ridges and Corners** <a id="protecting-ridges-and-corners"></a>
+  - In general, conforming Delaunay algorithms do not perform well if the input contains sharp angles between adjacent faces on the surface (in general, of less than ). A generic algorithm60° would refine excessively around ridges and corner...
+  - _Keywords:_ algorithms, general, Delaunay, surface, generic, around, ridges, corners
+- **Conforming Delaunay Triangulation Algorithm** _(p.123)_ <a id="conforming-delaunay-triangulation-algorithm"></a>
+  - The conforming Delaunay triangulation (CDT) algorithm enables the delaunizer to produce meshes that are near-Delaunay after relaxing the Delaunay criterion.
+  - _Keywords:_ Delaunay, algorithm, criterion, triangulation, CDT, relaxed, background, locations
+- **Optimizing Elements** _(p.123)_ <a id="optimizing-elements"></a>
+  - After the CDT algorithm is finished, the quality of the elements in the mesh may not be optimal. Therefore, the algorithm performs an extra refinement step, which eliminates all elements that do not meet the quality criteria specified by...
+  - _Keywords:_ quality, elements, element, algorithm, criteria, refinement, maximum, neighboring
+- **Eliminating Slivers** <a id="eliminating-slivers"></a>
+  - The last step in the delaunization involves the elimination of sliver elements. To perform this, the algorithm uses a variation of the sliver exudation technique. This technique assigns weights to the nodes in the triangulation and uses ...
+  - _Keywords:_ sliver, triangulation, elimination, algorithm, technique, weights, amount, damage
+- **References** _(p.124)_ <a id="references"></a>
+  - [1] S.-W. Cheng, T. K. Dey, and J. R. Shewchuk, Delaunay Mesh Generation, Boca Raton, Florida: CRC Press, 2013. [2] J. R. Shewchuk, “Mesh Generation for Domains with Small Angles,” in 16th Annual Symposium on Computational Geometry, Hong...
+  - _Keywords:_ Shewchuk, Delaunay, Mesh, Generation, Cheng, Dey, Boca, Raton
+- **6: Delaunization Algorithm** _(p.124–125)_ <a id="6-delaunization-algorithm"></a>
+  - References
+  - _Keywords:_ analytic, Constrained, USA, Sliver, Exudation, models, profiles, Models
+- **General Concepts** <a id="general-concepts"></a>
+  - The impurity concentrations can be represented by a set of 1D, 2D, and 3D analytic models. To describe each analytic model, two main directions must be defined: the primary direction that is perpendicular to the reference region and the ...
+  - _Keywords:_ analytic, direction, defined, primary, reference, region, lateral, impurity
+- **Local Coordinate Systems, Valid Domains, and Reference Regions** _(p.126)_ <a id="local-coordinate-systems-valid-domains-and-reference-regions"></a>
+  - The valid domain for the analytic models depends on the reference region, which is defined using a dimension-dependent geometric element, and it is placed along the lateral direction. By combining the reference region and primary directi...
+  - _Keywords:_ analytic, reference, region, direction, domain, models, depends, defined
+- **One-Dimensional Profiles** _(p.126)_ <a id="one-dimensional-profiles"></a>
+  - One-dimensional profiles require only the definition of the primary function, which is applied along the x-axis. The primary direction and valid domain are defined using a vector. The reference region for a profile is defined by using a ...
+  - _Keywords:_ primary, direction, defined, details, summary, One, dimensional, profiles
+- **Two-Dimensional Profiles** _(p.127)_ <a id="two-dimensional-profiles"></a>
+  - For 2D profiles, the reference region is defined using a baseline. The primary direction is the normal vector to the baseline and the lateral direction is parallel to the baseline. Figure 39 shows the general scheme of the local coordina...
+  - _Keywords:_ direction, lateral, baseline, primary, Lateral, Direction, Primary, defined
+- **Three-Dimensional Profiles** _(p.127)_ <a id="three-dimensional-profiles"></a>
+  - For 3D profiles, the reference region is defined using a surface. The primary direction is the normal vector to the surface and the lateral direction is the plane perpendicular to the primary direction. Figure 40 shows the general scheme...
+  - _Keywords:_ primary, direction, surface, lateral, Direction, defined, vector, domain
+- **General Implantation Models** _(p.128)_ <a id="general-implantation-models"></a>
+  - In general, impurity concentrations can be expressed as:
+  - _Keywords:_ langle, rangle, minimum, represents, primary, coordinate, system, lateral
+- **Gaussian Function** _(p.128)_ <a id="gaussian-function"></a>
+  - The minimum set of parameters to define a Gaussian function is:
+  - _Keywords:_ mathrm, Gaussian, Peak, operatorname, details, summary, minimum, define
+- **Error Function** _(p.129)_ <a id="error-function"></a>
+  - The minimum set of parameters to define an error function as a doping profile is:
+  - _Keywords:_ mathrm, ELength, details, summary, minimum, define, doping, profile
+- **Other Relevant Parameters** <a id="other-relevant-parameters"></a>
+  - To have flexible models, some special parameters must be considered. These are not included in the standard formulation. However, by applying some definitions, the basic set can be obtained from them.
+  - _Keywords:_ flexible, models, special, considered, These, included, standard, formulation
+- **Dose** _(p.130)_ <a id="dose"></a>
+  - From a process simulation perspective, implantation functions are determined giving the dose concentration of the profiles. The peak concentration value can be obtained from the Dose (see Available Models Along the Primary Direction on p...
+  - _Keywords:_ Dose, operatorname, mathrm, ELength, stdDev, concentration, process, simulation
+- **Values at the Junction** <a id="values-at-the-junction"></a>
+  - Junction Concentration and Depth are parameters used to define either Gaussian or error functions. A complete description of these parameters and how they can replace the standard deviation in the basic formulation is explained in Availa...
+  - _Keywords:_ Junction, Concentration, Depth, define, either, Gaussian, complete, description
+- **Length** <a id="length"></a>
+  - For Gaussian functions, GLength represents the distance between the peak position and a place where the concentration decays by a factor of exp(–1) (36%) with respect to the peak concentration (see Figure 41 on page 120). The relationshi...
+  - _Keywords:_ Gaussian, GLength, between, concentration, represents, distance, position, decays
+- **Available Models Along the Primary Direction** _(p.131)_ <a id="available-models-along-the-primary-direction"></a>
+  - The following models in Sentaurus Mesh are applied along the primary direction:
+  - _Keywords:_ models, Sentaurus, Mesh, applied, primary, direction, Gaussian, Error
+- **Gaussian Functions** _(p.131–132)_ <a id="gaussian-functions"></a>
+  - The basic set for Gaussian functions is formed by $C _ { \mathrm { p e a k } } , y _ { \mathrm { p e a k } }$ , and . According to userstdDevy input, the basic set of parameters can be specified in different ways depending on the paramet...
+  - _Keywords:_ mathrm, Dose, Standard, Deviation, computed, stdDev, Peak, Concentration
+- **Error Functions** _(p.132–133)_ <a id="error-functions"></a>
+  - For error functions, the basic set of parameters includes $C _ { \mathrm { m a x } } , y _ { \mathrm { s y m } }$ , and and can beELengthy computed in different ways:
+  - _Keywords:_ ELength, mathrm, Dose, computed, Maximum, Concentration, factor, operatorname
+- **Constant Functions** _(p.133)_ <a id="constant-functions"></a>
+  - Constant functions are useful to define substrate doping mathematically:
+  - _Keywords:_ Constant, useful, define, substrate, doping, mathematically
+- **1D External Profiles** <a id="1d-external-profiles"></a>
+  - Real 1D process simulation results can be read along the primary direction. To complete the 2D profile and 3D profile, you add an analytic lateral function.
+  - _Keywords:_ interpolation, profile, Real, process, simulation, results, primary, direction
+- **Lateral or Decay Functions** _(p.134)_ <a id="lateral-or-decay-functions"></a>
+  - Lateral or decay functions are evaluated on the valid lateral domain (see Figure 39 on page 118 and Figure 40 on page 119). They are defined as the decay along the lateral direction and depend on the distance from the valid primary domai...
+  - _Keywords:_ Lateral, lateral, distance, simulations, domain, reference, evaluated, defined
+- **Lateral Gaussian Function** _(p.134)_ <a id="lateral-gaussian-function"></a>
+  - The equation applied is:
+  - _Keywords:_ operatorname, stdDev, lateral, primary, Low, standard, deviation, direction
+- **Lateral Error Function** _(p.135–136)_ <a id="lateral-error-function"></a>
+  - By default, when specifying an error function as a lateral function in an analytic profile, the following equation is applied:
+  - _Keywords:_ mathrm, lateral, ELength, primary, analytic, profile, length, direction
+- **No Lateral Function** _(p.136–137)_ <a id="no-lateral-function"></a>
+  - This property is valid when Factor is equal to zero. In this case, the value of the lateral function is given by:
+  - _Keywords:_ doping, discrete, Sentaurus, lateral, PrimaryDomain, continuous, profile, dopant
+- **Doping Function** _(p.137–138)_ <a id="doping-function"></a>
+  - It has been suggested [1] that the charge density associated with a discrete dopant be can separated into short-range and long-range portions, and that the long-range portion is appropriate for inclusion in drift-diffusion device simulat...
+  - _Keywords:_ discrete, dopant, density, associated, normalization, factor, suggested, portion
+- **Cut-off Parameter** _(p.138–139)_ <a id="cut-off-parameter"></a>
+  - The inverse of the cut-off parameter, $1 / k _ { c }$ , is the screening length. Different charge screening models suggest different expressions for $k _ { c }$ as a function of impurity concentration. One model suggests that $k _ { c }$...
+  - _Keywords:_ screening, charge, inverse, length, impurity, concentration, mathrm, threshold
+- **References** _(p.139–140)_ <a id="references"></a>
+  - [1] N. Sano et al., “On discrete random dopant modeling in drift-diffusion simulations: physical meaning of ‘atomistic’ dopants,” Microelectronics Reliability, vol. 42, no. 2, pp. 189–199, 2002.
+  - _Keywords:_ Sano, discrete, random, dopant, modeling, diffusion, simulations, physical

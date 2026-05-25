@@ -1,0 +1,8465 @@
+# sense_ug — outline
+
+Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
+
+- **Sentaurus™ Structure Editor User Guide** _(p.1)_ <a id="sentaurus-structure-editor-user-guide"></a>
+  - Version O-2018.06, June 2018
+  - _Keywords:_ Version, June
+- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
+  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
+  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+- **Disclaimer** <a id="disclaimer"></a>
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+- **Trademarks** <a id="trademarks"></a>
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html. All other product or company names may be trademarks of their respective owners.
+  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+- **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
+  - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
+  - _Keywords:_ applicable, Free, Open, Source, Software, FOSS, licensing, notices
+- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
+  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+- **About This Guide xxv** _(p.3)_ <a id="about-this-guide-xxv"></a>
+  - Related Publications . . xxv
+  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
+- **Chapter 1 Introduction to Sentaurus Structure Editor 1** <a id="chapter-1-introduction-to-sentaurus-structure-editor-1"></a>
+  - Functionality of Sentaurus Structure Editor . . .
+  - _Keywords:_ Functionality, Sentaurus, Structure, Editor, ACIS, Geometry, Kernel
+- **Chapter 2 Launching Sentaurus Structure Editor 5** <a id="chapter-2-launching-sentaurus-structure-editor-5"></a>
+  - Starting Sentaurus Structure Editor. . . .
+  - _Keywords:_ Loading, Saving, Sentaurus, Structure, Editor, Mode, Scheme, Script
+- **Chapter 3 Graphical User Interface 13** _(p.4)_ <a id="chapter-3-graphical-user-interface-13"></a>
+  - Introduction to Graphical User Interface 13
+  - _Keywords:_ Window, Graphical, Interface, GUI, Main, Modes, Menu, Bar
+- **Chapter 4 Controlling Views 31** <a id="chapter-4-controlling-views-31"></a>
+  - Zooming, Panning, and Orbiting With Mouse Operations . . . . . 31
+  - _Keywords:_ Selecting, View, Displaying, Visualizing, Zooming, Panning, Orbiting, Mouse
+- **Chapter 5 Generating Geometric Structures 43** _(p.5–6)_ <a id="chapter-5-generating-geometric-structures-43"></a>
+  - Modeling Unit and Modeling Range . . . . 43
+  - _Keywords:_ Shapes, Skinning, Creating, Structure, Edges, Sweep, Regions, Basic
+- **Chapter 6 Structure Generation Using Etching and Deposition 133** _(p.7–8)_ <a id="chapter-6-structure-generation-using-etching-and-deposition-"></a>
+  - Overview. . . 133
+  - _Keywords:_ Deposition, Coordinate, System, Keywords, Etching, Mask, Layout, Process
+- **Chapter 7 Electrical and Thermal Contacts 185** <a id="chapter-7-electrical-and-thermal-contacts-185"></a>
+  - Overview. . . . 185
+  - _Keywords:_ Contact, Contacts, Edges, Faces, Creating, Assigning, Different, Overview
+- **Chapter 8 Generating Mesh and Doping Profiles 197** _(p.9)_ <a id="chapter-8-generating-mesh-and-doping-profiles-197"></a>
+  - Overview. . . . 197
+  - _Keywords:_ Ref, Eval, Doping, Mesh, Windows, Profiles, Extracting, Refinement
+- **Chapter 9 Creating Planar Layer Stacks 245** _(p.10)_ <a id="chapter-9-creating-planar-layer-stacks-245"></a>
+  - Using the sdeepi:create-layerstack Scheme Extension . . . . 245
+  - _Keywords:_ Column, Extension, Global, Refinement, Columns, sdeepi, create, layerstack
+- **Chapter 10 Working With Scheme and Scheme Extensions 265** _(p.10)_ <a id="chapter-10-working-with-scheme-and-scheme-extensions-265"></a>
+  - Scheme Data Types. . . . . . 265
+  - _Keywords:_ Scheme, Data, Basic, Sentaurus, Simple, Operations, Loops, Programming
+- **Chapter 11 Geometric Query Functions 277** <a id="chapter-11-geometric-query-functions-277"></a>
+  - Entity IDs and Attributes . 277
+  - _Keywords:_ Entity, Finding, Vertex, Topological, Supported, Object, Selection, Region
+- **Chapter 12 Miscellaneous Utilities 291** _(p.11)_ <a id="chapter-12-miscellaneous-utilities-291"></a>
+  - Background Image Loader . . . . . . 291
+  - _Keywords:_ Dialog, Box, Defined, Boxes, Step, Define, GUI, Obtaining
+- **Appendix A Commands 297** _(p.12–25)_ <a id="appendix-a-commands-297"></a>
+  - Presentation of Commands . . . 297
+  - _Keywords:_ sdegeo, sdeicwb, define, contact, create, delete, gvector, region
+- **Related Publications** _(p.25)_ <a id="related-publications"></a>
+  - For additional information, see:
+  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
+- **Conventions** _(p.26)_ <a id="conventions"></a>
+  - The following conventions are used in Synopsys documentation.
+  - _Keywords:_ Identifies, screen, identifies, Key, Indicates, New, conventions, Synopsys
+- **Customer Support** _(p.26)_ <a id="customer-support"></a>
+  - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
+  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
+- **Accessing SolvNet** _(p.26)_ <a id="accessing-solvnet"></a>
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
+  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+- **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
+  - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
+  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
+- **Contacting Your Local TCAD Support Team Directly** _(p.27)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
+  - Send an e-mail message to:
+  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
+- **Acknowledgments** _(p.27–29)_ <a id="acknowledgments"></a>
+  - Portions of this software are owned by Spatial Corp. © 1986–2018. All rights reserved.
+  - _Keywords:_ Portions, software, Spatial, Corp, rights, reserved, introduces, Sentaurus
+- **Functionality of Sentaurus Structure Editor** _(p.29)_ <a id="functionality-of-sentaurus-structure-editor"></a>
+  - Sentaurus Structure Editor can be used as a two-dimensional (2D) or three-dimensional (3D) structure editor, and a 3D process emulator to create TCAD devices.
+  - _Keywords:_ Sentaurus, Structure, Editor, Scheme, operations, editor, structures, meshing
+- **1: Introduction to Sentaurus Structure Editor** <a id="1-introduction-to-sentaurus-structure-editor"></a>
+  - Functionality of Sentaurus Structure Editor
+  - _Keywords:_ process, device, scripting, operations, dimensional, provides, meshing, engines
+- **ACIS Geometry Kernel** _(p.30)_ <a id="acis-geometry-kernel"></a>
+  - The geometry operations in Sentaurus Structure Editor are based on the ACIS geometry kernel. The ACIS 3D geometric modeler (ACIS) is an object-oriented 3D geometric modeling engine from Spatial Corp.
+  - _Keywords:_ ACIS, Sentaurus, Structure, Editor, geometry, representation, objects, operations
+- **Starting Sentaurus Structure Editor** _(p.30)_ <a id="starting-sentaurus-structure-editor"></a>
+  - Sentaurus Structure Editor can be started by typing at the command prompt:
+  - _Keywords:_ GUI, Scheme, Sentaurus, Structure, Editor, script, available, scriptname
+- **Batch Mode** <a id="batch-mode"></a>
+  - To run a Scheme script file, for example MyScript.scm, in batch mode, start Sentaurus Structure Editor with the -e option (this disables the graphical display), and use the -l option to give the script to be run:
+  - _Keywords:_ script, MyScript, Scheme, Sentaurus, Structure, Editor, disables, graphical
+- **Heap Size** <a id="heap-size"></a>
+  - By default, Sentaurus Structure Editor uses 1600 MB of heap space. For most applications, the allocated heap space should be sufficient. If Sentaurus Structure Editor does not have enough heap space during script execution, the Scheme er...
+  - _Keywords:_ Sentaurus, Structure, Editor, script, applications, allocated, sufficient, enough
+- **Scheme Script Syntax-Checking** <a id="scheme-script-syntax-checking"></a>
+  - The -S scriptname and -Sl scriptname options invoke the Scheme syntax-checking feature.
+  - _Keywords:_ syntax, script, scriptname, Scheme, checker, complex, report, invoke
+- **Literal Evaluation of Scheme Script** <a id="literal-evaluation-of-scheme-script"></a>
+  - When a Scheme script is executed in batch mode, a log file is created that contains the executed Scheme commands. The log file does not contain the literal evaluation and substitution of the Scheme variables. Therefore, for example, the ...
+  - _Keywords:_ Scheme, script, evaluated, evaluation, variables, during, contain, actual
+- **Interactive Mode** <a id="interactive-mode"></a>
+  - Sentaurus Structure Editor can be used interactively by either using the GUI menu bar and toolbars, or entering the Scheme commands in the command-line window.
+  - _Keywords:_ Sentaurus, Structure, Editor, interactively, either, GUI, toolbars, entering
+- **Loading a Boundary and Mesh Command File at Startup** <a id="loading-a-boundary-and-mesh-command-file-at-startup"></a>
+  - To load a boundary (\*.tdr) file and a mesh command (\*.cmd) file when starting Sentaurus Structure Editor, supply the common file name stem as a command-line option. For example:
+  - _Keywords:_ Sentaurus, Structure, Editor, MyDevice, boundary, starting, supply, common
+- **Loading an ACIS File at Startup** <a id="loading-an-acis-file-at-startup"></a>
+  - To load a file in the native ACIS format (\*.sat) when starting Sentaurus Structure Editor, type the file name as a command-line option. For example:
+  - _Keywords:_ Sentaurus, Structure, Editor, MyDevice, native, ACIS, format, starting
+- **Exiting Sentaurus Structure Editor** <a id="exiting-sentaurus-structure-editor"></a>
+  - To exit Sentaurus Structure Editor:
+  - _Keywords:_ Sentaurus, Structure, Editor, Ctrl, Choose, Exit, corresponding, Scheme
+- **Saving and Loading Files From Graphical User Interface** <a id="saving-and-loading-files-from-graphical-user-interface"></a>
+- **Opening Models** <a id="opening-models"></a>
+  - A model consists of a structure saved in the native ACIS format (filename.sat), as well as an auxiliary Scheme script file (filename.scm), which contain parameter settings, contact definitions, refinement/evaluation (Ref/Eval) windows, s...
+  - _Keywords:_ filename, settings, Scheme, definitions, refinement, related, consists, structure
+- **Saving Models** <a id="saving-models"></a>
+  - To save a model, you can do one of the following:
+  - _Keywords:_ filename, Choose, Save, Model, Scheme, format, Ctrl, corresponding
+- **Saving Boundaries** <a id="saving-boundaries"></a>
+  - To save only the boundary (and not the entire model) in TDR format, you can do one of the following:
+  - _Keywords:_ Choose, Save, Boundary, boundary, entire, TDR, format
+- **Importing Files** <a id="importing-files"></a>
+  - To import a file:
+  - _Keywords:_ filename, Scheme, format, ACIS, importing, structure, active, Boolean
+- **Recording Actions to a File** <a id="recording-actions-to-a-file"></a>
+  - Operations performed using the GUI or command-line window can be recorded in a journal file for replaying or editing later.
+  - _Keywords:_ journal, Choose, Journal, actions, Enter, recording, recorded, suspend
+- **2: Launching Sentaurus Structure Editor** <a id="2-launching-sentaurus-structure-editor"></a>
+  - Saving and Loading Files From Graphical User Interface
+  - _Keywords:_ journal, filename, current, recording, Scheme, journaled, journaling, Saving
+- **Introduction to Graphical User Interface** <a id="introduction-to-graphical-user-interface"></a>
+  - The graphical user interface (GUI) of Sentaurus Structure Editor has three main areas (see Figure 1). The menu bar, toolbars, and list boxes are located in the upper part of the main window, the view window is in the center, and the comm...
+  - _Keywords:_ window, Sentaurus, Structure, Editor, details, summary, Toolbars, View
+- **GUI Modes** <a id="gui-modes"></a>
+  - Sentaurus Structure Editor offers different GUI modes: 3D (default mode) and 2D. To set the GUI mode:
+  - _Keywords:_ GUI, Mode, Ref, Eval, windows, Choose, View, dialog
+- **Menu Bar** <a id="menu-bar"></a>
+  - Table 3 lists the menus that are available from the GUI of Sentaurus Structure Editor. Table 3 Menus
+  - _Keywords:_ Define, preferences, meshing, available, GUI, Sentaurus, Structure, Editor
+- **Toolbars** <a id="toolbars"></a>
+  - Each toolbar contains a set of predefined shortcuts and icons, which are shown in the following tables.
+  - _Keywords:_ images, Button, Description, Ctrl, toolbar, buttons, Plane, Shortcut
+- **3: Graphical User Interface** <a id="3-graphical-user-interface"></a>
+  - Introduction to Graphical User Interface
+  - _Keywords:_ images, Button, Description, Create, toolbar, buttons, window, actions
+- **Restoring GUI Settings From Previous Session** <a id="restoring-gui-settings-from-previous-session"></a>
+  - Some GUI information is saved automatically in the local home directory of the user. On the UNIX operating system, this information is stored in \~/.config/Synopsys/ Sentaurus Structure Editor.conf.
+  - _Keywords:_ GUI, information, stored, session, Some, automatically, directory, UNIX
+- **Manipulating the View** <a id="manipulating-the-view"></a>
+  - Additional shortcut key combinations are available to manipulate the view.
+  - _Keywords:_ Ctrl, window, Arrow, View, Pan, Orbit, Rotate, Shortcut
+- **Lists** <a id="lists"></a>
+  - The main window of Sentaurus Structure Editor contains four lists:
+  - _Keywords:_ Selects, contact, window, Sentaurus, Structure, Editor, contains, Material
+- **View Window** <a id="view-window"></a>
+  - The current device is displayed in the view window. The result of all interactive operations is reflected immediately in the view window.
+  - _Keywords:_ window, current, device, displayed, result, interactive, operations, reflected
+- **Selection Level** <a id="selection-level"></a>
+  - Controls which type of object can be selected by clicking (Select mode). Options are Auto Select, Body, Face, Edge, Vertex, and Ref/Eval Window.
+  - _Keywords:_ Select, Controls, object, selected, clicking, Auto, Body, Face
+- **Toggle Visibility** <a id="toggle-visibility"></a>
+  - Activates or deactivates a light source for shading 3D objects.
+  - _Keywords:_ object, selection, Activates, deactivates, source, shading, objects, Placing
+- **Contacts** <a id="contacts"></a>
+  - If the selection level is set to Edge or Face, contacts are assigned to the selected objects. It also allows for the creation of new contact sets.
+  - _Keywords:_ selection, Edge, Face, contacts, assigned, selected, objects, allows
+- **Delete** <a id="delete"></a>
+  - In many contexts, the object can be deleted by selected this option.
+  - _Keywords:_ contexts, object, deleted, selected
+- **Properties** <a id="properties"></a>
+  - Displays a window with information about the selected object. In some contexts, for example, Ref/Eval windows, properties of the object are editable.
+  - _Keywords:_ Ref, Eval, windows, vertex, coordinates, window, object, editable
+- **Hide** <a id="hide"></a>
+  - If the selection level is set to Body or Ref/Eval Window, the selected entities are hidden.
+  - _Keywords:_ selection, Body, Ref, Eval, Window, selected, entities, hidden
+- **Show All** <a id="show-all"></a>
+  - All the previously hidden bodies and Ref/Eval windows are displayed again.
+  - _Keywords:_ previously, hidden, bodies, Ref, Eval, windows, displayed
+- **Command-Line Window** <a id="command-line-window"></a>
+  - Most GUI operations have an associated Scheme command. After a GUI operation, the corresponding Scheme command is echoed in the command-line window.
+  - _Keywords:_ Scheme, define, echoed, Arrow, keywords, GUI, operations, window
+- **Undoing and Redoing Actions** <a id="undoing-and-redoing-actions"></a>
+  - To undo an action:
+  - _Keywords:_ operations, action, Choose, Edit, Ctrl, corresponding, Scheme, modeler
+- **Customizing Graphical User Interface** <a id="customizing-graphical-user-interface"></a>
+  - The certain parts of the GUI can be customized.
+  - _Keywords:_ certain, GUI, customized
+- **Configuring Command-Line Window** <a id="configuring-command-line-window"></a>
+  - You can configure the command-line window from the menu bar (choose View > Script Win Prefs to display the Script Window Preferences dialog box) or directly using sde:scmwin Scheme commands (see Table 17 on page 23).
+  - _Keywords:_ scmwin, window, height, Script, Samyak, family, Window, Preferences
+- **Changing Attributes of Graphical User Interface** <a id="changing-attributes-of-graphical-user-interface"></a>
+- **Background Color** <a id="background-color"></a>
+  - To change the background color of the view window:
+  - _Keywords:_ background, change, window, Choose, View, Background, Color, corresponding
+- **3: Graphical User Interface** <a id="3-graphical-user-interface"></a>
+  - Customizing Graphical User Interface
+  - _Keywords:_ bottom, background, Customizing, Graphical, Interface, RGB, colors, window
+- **GUI Style** <a id="gui-style"></a>
+  - To change the GUI style:
+  - _Keywords:_ GUI, change, Choose, View, Style, available, styles, Windows
+- **Font Size of Menu Bar of Main Window** <a id="font-size-of-menu-bar-of-main-window"></a>
+  - The font size of the menu bar of the main window can be changed using:
+  - _Keywords:_ menubar, window, changed
+- **Size of Main Window** <a id="size-of-main-window"></a>
+  - The main window can be resized at any time using the mouse, or it can be resized using:
+  - _Keywords:_ window, resized
+- **Position of Main Window** <a id="position-of-main-window"></a>
+  - The main window can be positioned on the screen by moving it using the mouse, or using:
+  - _Keywords:_ window, screen, position, positioned, moving, corner, These, GUI
+- **Restoring Settings of Graphical User Interface** <a id="restoring-settings-of-graphical-user-interface"></a>
+  - To capture figures for presentations or to compare models visually, the state of the GUI graphical view (translation, zoom, rotation) can be recorded and restored using Scheme functions. The sde:get-view-params function is used to return...
+  - _Keywords:_ params, restored, myview, GUI, capture, presentations, compare, models
+- **Selecting Entities** <a id="selecting-entities"></a>
+  - To select an entity:
+  - _Keywords:_ Select, entity, details, summary, Selection, Level, Body, Face
+- **Snapping Modes** <a id="snapping-modes"></a>
+  - The default drawing mode is freehand for creating 2D regions (rectangles, circles, ellipses, and so on). Optional features such as snap-to-grid, exact coordinates, and snap-to-existing vertices can also be used. These features can also b...
+  - _Keywords:_ closest, drawing, Snap, pointer, freehand, features, existing, during
+- **Printing** <a id="printing"></a>
+  - To print the current view of the structure:
+  - _Keywords:_ Print, Select, current, structure, Choose, Ctrl, printer, orientation
+- **Defining Parameters From the Graphical User Interface** <a id="defining-parameters-from-the-graphical-user-interface"></a>
+- **To define parameters:** <a id="to-define-parameters"></a>
+  - 1. Choose Edit > Parameters. 2. Enter the parameter names and values. 3. Click Set.
+  - _Keywords:_ define, myvar1, Scheme, dialog, delete, Min, Max, defined
+- **Parameterizing Dialog Boxes** <a id="parameterizing-dialog-boxes"></a>
+  - The GUI contains several dialog boxes that can be parameterized. The dialog boxes can accept not only numeric inputs, but also Scheme variables and Scheme expressions. The Scheme variables must be defined and initialized before they can ...
+  - _Keywords:_ Scheme, dialog, variables, Exact, Coordinates, expressions, height, rectangle
+- **Zooming, Panning, and Orbiting With Mouse Operations** <a id="zooming-panning-and-orbiting-with-mouse-operations"></a>
+  - To access the different modes of mouse operations:
+  - _Keywords:_ Zoom, operations, details, summary, access, different, Choose, View
+- **Zoom to Extents** <a id="zoom-to-extents"></a>
+  - Resets the zoom factor so that the entire structure is displayed.
+  - _Keywords:_ Resets, factor, entire, structure, displayed
+- **Zoom to Window** <a id="zoom-to-window"></a>
+  - Drag to define a zoom window. The view is updated such that the defined zoom window is displayed as large as possible. (If the aspect ratio of the selected zoom window differs from the current view window aspect ratio, the zooming might ...
+  - _Keywords:_ window, aspect, Drag, define, updated, defined, displayed, possible
+- **Orbit** <a id="orbit"></a>
+  - In this mode, dragging adjusts the camera position in a way that simulates orbiting around the drawn structure. Both the position and path of the pointer during the dragging operation provide an intuitive mechanism for rotation about dif...
+  - _Keywords:_ Orbit, structure, window, camera, dragging, rotates, Rotate, Shift
+- **Zoom** <a id="zoom"></a>
+  - In this mode, dragging upwards zooms in on the structure, and dragging downwards zooms out.
+  - _Keywords:_ dragging, upwards, structure, downwards
+- **Pan** <a id="pan"></a>
+  - In this mode, dragging moves the structure around the view window.
+  - _Keywords:_ dragging, structure, around, window
+- **Interactive Cutting Plane Viewer** <a id="interactive-cutting-plane-viewer"></a>
+  - To access the interactive cutting plane viewer:
+  - _Keywords:_ Plane, Rotate, Cut, Close, details, summary, cutting, viewer
+- **Perspective and Orthographic Views in Three Dimensions** <a id="perspective-and-orthographic-views-in-three-dimensions"></a>
+  - Three-dimensional objects are displayed using either orthographic projection (more distant objects are drawn with their true height and width as closer objects) or perspective (the height and width of more distant objects are reduced acc...
+  - _Keywords:_ objects, orthographic, distant, height, perspective, Perspective, details, summary
+- **Selecting the DATEX Color Scheme** <a id="selecting-the-datex-color-scheme"></a>
+  - The datexcodes.txt file contains two color definitions for each DATEX material. By default, Sentaurus Structure Editor uses the first color definition from the datexcodes.txt file to assign the color for each DATEX material for rendering...
+  - _Keywords:_ definition, DATEX, scheme, datexcodes, material, View, Primary, Datex
+- **Selecting the Rendering Mode** <a id="selecting-the-rendering-mode"></a>
+  - To access the different rendering modes:
+  - _Keywords:_ position, sdegeo, create, cuboid, rendering, boolean, access, different
+- **Facets** <a id="facets"></a>
+  - The faceted model shows a triangulated view in two dimensions and a triangulated surface tessellation in three dimensions. When exporting the boundary file, the 2D faceting algorithm extracts the boundary edges from the tessellated view....
+  - _Keywords:_ boundary, dimensions, faceted, triangulated, surface, exporting, tessellation, faceting
+- **Wireframe** <a id="wireframe"></a>
+  - This rendering mode shows the boundary wires only.
+  - _Keywords:_ rendering, boundary
+- **Flat Shaded** <a id="flat-shaded"></a>
+  - A simple shaded mode where the surface normals are taken from the tessellated (triangulated) mode. Each surface element has a uniform color.
+  - _Keywords:_ surface, simple, shaded, normals, tessellated, triangulated, element, uniform
+- **Gouraud Shaded** <a id="gouraud-shaded"></a>
+  - In this shading method, the surface normals are interpolated (using a simple linear interpolation) between the neighboring surface triangles. In this way, a continuously shaded view is generated.
+  - _Keywords:_ shaded, surface, details, summary, shading, method, normals, interpolated
+- **Hidden Line** <a id="hidden-line"></a>
+  - This mode generates a 3D view in which nonvisible edges are hidden. Additional silhouette edges are added to the view for the correct visualization.
+  - _Keywords:_ generates, nonvisible, hidden, Additional, silhouette, correct, visualization
+- **Wireframe or Hidden Line with Face Parameter Lines** <a id="wireframe-or-hidden-line-with-face-parameter-lines"></a>
+  - To better visualize faces in Wireframe mode or Hidden Line mode, additional face parameter lines can be displayed as well. In this mode, each face is ‘decorated’ with a given number of parametric lines for each orthogonal direction. The ...
+  - _Keywords:_ details, summary, images, natural_image, structure, symbols, direction, Scheme
+- **View Orientation** <a id="view-orientation"></a>
+  - The camera position and orientation can be selected interactively. The resulting orientation of the coordinate axes displayed are given as follows:
+  - _Keywords:_ camera, orientation, position, selected, interactively, resulting, coordinate, displayed
+- **Showing and Hiding Coordinate Axes** <a id="showing-and-hiding-coordinate-axes"></a>
+  - To switch between the display of the coordinates axes in the lower-right corner of the main window:
+  - _Keywords:_ switch, between, display, coordinates, corner, window, Choose, View
+- **Displaying Grid Lines** <a id="displaying-grid-lines"></a>
+  - To display the grid lines:
+  - _Keywords:_ Grid, display, Click, Choose, View, corresponding, toolbar, button
+- **Displaying Rulers** <a id="displaying-rulers"></a>
+  - To switch between the display of rulers in the xy coordinate directions:
+  - _Keywords:_ rulers, coordinate, directions, defined, View, displayed, GUI, Scheme
+- **Scaling View** <a id="scaling-view"></a>
+  - You can scale the view (uniform or nonuniform). Scaling the view does not change the model coordinates; it is applied only to the graphical scene.
+  - _Keywords:_ factor, uniform, Scaling, View, You, nonuniform, change, coordinates
+- **Visualizing Selected Geometric Objects** <a id="visualizing-selected-geometric-objects"></a>
+  - To view geometric entities associated with a selected material, or selected regions, masks, contacts:
+  - _Keywords:_ Entity, Viewer, contact, entities, selected, contacts, display, Exclusive
+- **Quick Access to Placements, Refinements, and Doping Profiles** <a id="quick-access-to-placements-refinements-and-doping-profiles"></a>
+  - To list and access all currently defined Ref/Eval windows, refinements, and doping profiles:
+  - _Keywords:_ Ref, Eval, Placements, Viewer, windows, display, Profiles, through
+- **Visualizing the Internal Entity Representation** <a id="visualizing-the-internal-entity-representation"></a>
+  - To view the internal representation of entities:
+  - _Keywords:_ Body, Topology, Browser, entities, Sentaurus, Structure, Editor, entity
+- **4: Controlling Views** <a id="4-controlling-views"></a>
+  - Visualizing the Internal Entity Representation
+  - _Keywords:_ Visualizing, Internal, Entity, Representation, provides, details, creating, variety
+- **Modeling Unit and Modeling Range** _(p.31)_ <a id="modeling-unit-and-modeling-range"></a>
+  - The geometry operations in Sentaurus Structure Editor are based on the ACIS geometry kernel. Most geometric calculations are performed using finite-precision arithmetic and tolerances. You must be aware of two tolerance values – resabs a...
+  - _Keywords:_ modeling, resnor, Sentaurus, Structure, Editor, geometric, tolerance, resabs
+- **Creating a New Structure** <a id="creating-a-new-structure"></a>
+- **Reinitializing Sentaurus Structure Editor** <a id="reinitializing-sentaurus-structure-editor"></a>
+  - To reset Sentaurus Structure Editor:
+  - _Keywords:_ Scheme, clears, related, Sentaurus, Structure, Editor, Choose, New
+- **Setting Interactive Work Preferences** <a id="setting-interactive-work-preferences"></a>
+- **Exact Coordinates** <a id="exact-coordinates"></a>
+  - In Sentaurus Structure Editor, geometric objects can be drawn free hand. However, for most applications, it is convenient (and sometimes necessary) to specify explicitly the coordinates of the object, for example, to allow for precise al...
+  - _Keywords:_ coordinates, Exact, Coordinates, dialog, Sentaurus, Structure, Editor, geometric
+- **Snapping** <a id="snapping"></a>
+  - Snapping can be used as an alternative or a convenient augmentation of the Exact Coordinates mode for creating 2D regions (rectangles circles, ellipses, and so on). The different snapping modes are activated interactively when drawing sh...
+  - _Keywords:_ vertex, corresponding, toolbar, Snapping, button, pointer, snapping, Exact
+- **Active Material** <a id="active-material"></a>
+  - To select the active material to be used for subsequent actions, use the Material list.
+  - _Keywords:_ material, select, active, subsequent, actions, Material, details, summary
+- **Naming Regions** <a id="naming-regions"></a>
+  - When creating a new region, Sentaurus Structure Editor automatically assigns a default region name. The default region names follow the sequence region\_1, region\_2, region\_3, and so on. To be prompted for a custom region name after cr...
+  - _Keywords:_ region, Sentaurus, Structure, Editor, naming, Region, creating, automatically
+- **Overlap Behavior** <a id="overlap-behavior"></a>
+  - In most applications, a device consists of multiple regions. When creating a device with multiple regions in Sentaurus Structure Editor, later-added regions might intersect existing regions. If this occurs, a predefined scheme is used to...
+  - _Keywords:_ regions, device, multiple, Sentaurus, Structure, Editor, overlap, resolution
+- **Merge** <a id="merge"></a>
+  - The old and new structures merge, and all boundary lines between them are dissolved. The resulting merged structure takes on the region name and material of the last-drawn structure. The corresponding Scheme command is:
+  - _Keywords:_ structure, structures, boundary, between, dissolved, resulting, merged, region
+- **New Replaces Old** <a id="new-replaces-old"></a>
+  - The new structure is created as drawn, and the old structure is adapted. The part of the old structure that overlaps with the new one is deleted, and its boundary is replaced by the boundary of the new structure. Two separate regions rem...
+  - _Keywords:_ structure, boundary, created, adapted, overlaps, deleted, replaced, Two
+- **Old Replaces New** <a id="old-replaces-new"></a>
+  - The new structure is created, but it is adapted so that the old one remains unchanged. The part of the new structure that overlaps with the old one is deleted, and its boundary is replaced by the boundary of the old structure. Two separa...
+  - _Keywords:_ structure, boundary, created, adapted, remains, unchanged, overlaps, deleted
+- **New Overlaps Old** <a id="new-overlaps-old"></a>
+  - The new structure is created as drawn, and the old structure is adapted. The part of the old structure that overlaps with the new structure is deleted. However, the boundary edges of the old structure do not dissolve. Three regions resul...
+  - _Keywords:_ structure, region, original, overlap, created, adapted, overlaps, deleted
+- **Old Overlaps New** <a id="old-overlaps-new"></a>
+  - The new structure is created, but it is adapted so that the old one remains unchanged. The part of the new structure that overlaps the old one is deleted. However, the boundary edges of the new structure do not dissolve. Three regions re...
+  - _Keywords:_ structure, original, overlap, region, created, adapted, remains, unchanged
+- **Unresolved Overlaps** <a id="unresolved-overlaps"></a>
+  - An additional option "XX" is available. The (sdegeo:set-default-boolean "XX") command switches off the automatic overlap region handling, thereby allowing the creation of overlapping regions. This option should be used only by experience...
+  - _Keywords:_ available, additional, sdegeo, boolean, switches, automatic, overlap, region
+- **Current Overlap Behavior** <a id="current-overlap-behavior"></a>
+  - The Scheme command (sdegeo:get-default-boolean) returns information about the currently active overlap resolution behavior.
+  - _Keywords:_ Scheme, sdegeo, boolean, information, currently, active, overlap, resolution
+- **Removing Overlaps** <a id="removing-overlaps"></a>
+  - If the model contains overlapping regions, the overlaps can be removed by using either explicit Boolean operations (sdegeo:bool-intersect, sdegeo:bool-subtract, sdegeo:bool-unite), or the remove-body-ABA or remove-body-BAB command.
+  - _Keywords:_ overlaps, sdegeo, removed, operations, remove, contains, overlapping, regions
+- **Basic 2D Shapes** <a id="basic-2d-shapes"></a>
+- **Rectangles** <a id="rectangles"></a>
+  - To draw a rectangle:
+  - _Keywords:_ rectangle, corresponding, diagonal, vertex, sdegeo, create, position, Choose
+- **Regular Polygons** <a id="regular-polygons"></a>
+  - To draw a regular polygon:
+  - _Keywords:_ polygon, regular, corresponding, radius, sdegeo, create, Choose, Draw
+- **Polygons** <a id="polygons"></a>
+  - To draw a general polygon:
+  - _Keywords:_ polygon, position, button, corresponding, vertex, sdegeo, create, general
+- **Circles** <a id="circles"></a>
+  - To draw a circle:
+  - _Keywords:_ circle, corresponding, radius, sdegeo, create, Choose, Draw, Create
+- **Ellipses** <a id="ellipses"></a>
+  - To draw an ellipse:
+  - _Keywords:_ ellipse, corresponding, button, sdegeo, create, position, Choose, Draw
+- **Ruled Regions** <a id="ruled-regions"></a>
+  - A ruled region is a shape that is defined by two edges. The region is created by connecting the endpoints of the two edges.
+  - _Keywords:_ position, region, sdegeo, create, created, Ruled, details, summary
+- **Other Basic 2D Shapes** <a id="other-basic-2d-shapes"></a>
+  - Other basic 2D shapes are available using Scheme commands such as:
+  - _Keywords:_ Scheme, Other, shapes, available, sdegeo, create, triangle, Index
+- **Editing Shapes in Two Dimensions** <a id="editing-shapes-in-two-dimensions"></a>
+- **Adding a Vertex** <a id="adding-a-vertex"></a>
+- **To add a vertex:** <a id="to-add-a-vertex"></a>
+  - 1. Choose Edit > 2D Edit Tools > Add Vertex, or click the corresponding toolbar button (see Table 9 on page 16).
+  - _Keywords:_ vertex, position, sdegeo, regions, inserted, Edit, corresponding, insert
+- **Moving a Vertex** <a id="moving-a-vertex"></a>
+- **To move a vertex:** <a id="to-move-a-vertex"></a>
+  - 1. Choose Edit > 2D Edit Tools > Move Vertex, or click the corresponding toolbar button (see Table 9 on page 16). 2. Drag the vertex to the required position.
+  - _Keywords:_ vertex, position, sdegeo, vertices, Edit, corresponding, regions, Choose
+- **Moving Region Edges** <a id="moving-region-edges"></a>
+  - To move a region edge in two dimensions:
+  - _Keywords:_ position, linear, sdegeo, region, Edit, corresponding, gvector, regions
+- **Moving Regions** <a id="moving-regions"></a>
+  - To move one or more regions in two dimensions:
+  - _Keywords:_ regions, position, sdegeo, Edit, corresponding, Ctrl, gvector, control
+- **Deleting Vertices** <a id="deleting-vertices"></a>
+  - To delete one or more vertices:
+  - _Keywords:_ position, vertex, vertices, sdegeo, delete, Select, select, Vertex
+- **Rounding** <a id="rounding"></a>
+  - To round one or more corners of a 2D region:
+  - _Keywords:_ fillet, radius, vertex, position, Select, Edit, sdegeo, rectangle
+- **Chamfering** <a id="chamfering"></a>
+  - To chamfer one or more corners of a 2D region:
+  - _Keywords:_ chamfer, vertex, distance, vertices, position, Select, Edit, sdegeo
+- **Cutting** <a id="cutting"></a>
+  - To cut out a rectangular part from a 2D structure:
+  - _Keywords:_ position, sdegeo, rectangular, Edit, diagonal, rectangle, vertex, structure
+- **Creating a Convex Hull** <a id="creating-a-convex-hull"></a>
+  - The Scheme extension sdegeo:chull2d can be used to compute the 2D convex hull of the specified position list. The position list of the computed convex hull is returned.
+  - _Keywords:_ convex, position, details, summary, Scheme, extension, sdegeo, chull2d
+- **Splitting Structures** <a id="splitting-structures"></a>
+  - To split one or more 2D regions by a polygonal line:
+  - _Keywords:_ position, polygonal, vertex, sdegeo, rectangle, details, summary, button
+- **Simplifying 2D Structures** <a id="simplifying-2d-structures"></a>
+  - Sentaurus Structure Editor has a set of functions to simplify 2D structures. Such boundary simplification is sometimes advantageous for structures generated by other tools such as Sentaurus Process. Examples of such simplifications are a...
+  - _Keywords:_ aligned, Sentaurus, structures, boundary, Structure, Editor, simplify, simplification
+- **Aligning Vertices** <a id="aligning-vertices"></a>
+  - To align vertices to an axis horizontally (or vertically):
+  - _Keywords:_ position, Vertices, vertices, vertex, sdegeo, details, summary, Edit
+- **Merging Collinear Edges** <a id="merging-collinear-edges"></a>
+  - To merge collinear edges:
+  - _Keywords:_ sdegeo, position, vertex, collinear, angular, delete, insert, select
+- **5: Generating Geometric Structures** <a id="5-generating-geometric-structures"></a>
+  - Editing Shapes in Two Dimensions
+  - _Keywords:_ Editing, Shapes, Two, Dimensions
+- **For example:** <a id="for-example"></a>
+  - ```lisp (define BODY (sdegeo:create-rectangle (position 0.0 0.0 0) (position 1.0 1.0 0) "Silicon" "R.Substrate")) (sdegeo:insert-vertex (position 0.1 0.0 0)) (sdegeo:insert-vertex (position 0.0 0.1 0)) (sdegeo:insert-vertex (position 0.0...
+  - _Keywords:_ details, summary, position, collinear, sdegeo, vertex, images, vertices
+- **Breaking Nearly Axis-Aligned Edges** <a id="breaking-nearly-axis-aligned-edges"></a>
+  - To break up nearly axis-aligned edges into a staircase of axis-aligned edges:
+  - _Keywords:_ position, aligned, Select, nearly, staircase, select, Edit, sdegeo
+- **5: Generating Geometric Structures** <a id="5-generating-geometric-structures"></a>
+  - Editing Shapes in Two Dimensions
+  - _Keywords:_ details, summary, aligned, images, nearly, natural_image, symbols, boundary
+- **Two-Dimensional Boundary Smoothing** <a id="two-dimensional-boundary-smoothing"></a>
+  - The sdegeo:vsmooth Scheme extension can be used for 2D boundary smoothing. It uses a least squares fit of a small set of consecutive data points (vertices) to a polynomial and takes the calculated central point of the fitted polynomial c...
+  - _Keywords:_ smoothing, details, summary, sdegeo, vsmooth, polynomial, vertex, Scheme
+- **Edge Length Queries** <a id="edge-length-queries"></a>
+  - Edge length query functions help to determine which edges can be considered as too short and, therefore, can be removed. The Scheme commands for edge length queries are:
+  - _Keywords:_ sdegeo, length, position, collinear, specified, Deletes, average, points
+- **Basic 3D Shapes** <a id="basic-3d-shapes"></a>
+- **Cuboids** <a id="cuboids"></a>
+  - To draw a cuboid:
+  - _Keywords:_ cuboid, position, Create, corresponding, button, diagonal, rectangle, vertex
+- **Cylinders** <a id="cylinders"></a>
+  - To draw a cylinder:
+  - _Keywords:_ cylinder, Create, corresponding, button, radius, circle, vertex, sdegeo
+- **Spheres** <a id="spheres"></a>
+- **To draw a sphere:** <a id="to-draw-a-sphere"></a>
+  - 1. Choose Draw > 3D Create Tools > Create Sphere, or click the corresponding toolbar button (see Table 12 on page 17). 2. Drag to draw the radius of the base xy circle in the view window. 3. In Exact Coordinates mode, a dialog box is dis...
+  - _Keywords:_ sphere, Create, corresponding, radius, circle, sdegeo, create, Choose
+- **Ellipsoids** <a id="ellipsoids"></a>
+- **To draw an ellipsoid:** <a id="to-draw-an-ellipsoid"></a>
+  - 1. Choose Draw > 3D Create Tools > Create Ellipsoid, or click the corresponding toolbar button (see Table 12 on page 17). 2. Drag to draw the main axis of the ellipsoid in the xy plane in the view window. 3. Release the mouse button and ...
+  - _Keywords:_ ellipsoid, Create, corresponding, button, sdegeo, create, position, Choose
+- **Other Basic 3D Shapes** <a id="other-basic-3d-shapes"></a>
+  - Other basic 3D shapes are available through the following Scheme commands:
+  - _Keywords:_ sdegeo, create, Other, shapes, available, through, Scheme, pyramid
+- **Import Capability of User-Defined Data** <a id="import-capability-of-user-defined-data"></a>
+  - The build-csv-lens Scheme extension can be used to create a solid body from user-defined data. The input data file is a comma-separated value (CSV) file, which defines the user data over a tensor grid. The solid body is created from the ...
+  - _Keywords:_ CSV, created, extension, tensor, details, summary, Scheme, create
+- **Creating a Layered Lens Structure** <a id="creating-a-layered-lens-structure"></a>
+  - The afm-smooth-layers Scheme extension can create a layered lens structure with a texture map. The texture map is defined in a comma-separated value (CSV) file. Figure 33 shows an example, created using afm-smooth-layers and the Scheme c...
+  - _Keywords:_ display, define, layers, smooth, Scheme, create, layered, structure
+- **Creating a Solid Body From Faces** <a id="creating-a-solid-body-from-faces"></a>
+  - User-defined data (vertex points and a face list) also can be used to define 3D solid bodies. The faces must enclose a watertight volume (no gaps or overlaps are allowed between the faces). The entity:stitch Scheme extension can be used ...
+  - _Keywords:_ define, points, bodies, position, planar, entity, vertex, watertight
+- **Editing Shapes in Three Dimensions** <a id="editing-shapes-in-three-dimensions"></a>
+- **Chamfering Edges** <a id="chamfering-edges"></a>
+  - To chamfer (flatten) the edges of a 3D structure:
+  - _Keywords:_ chamfer, vertex, operation, chamfering, position, Select, adaptive, Edit
+- **Rounding Edges** <a id="rounding-edges"></a>
+  - To round the edges of a 3D structure:
+  - _Keywords:_ fillet, position, radius, vertex, operation, filleting, Select, sdegeo
+- **Tapering** <a id="tapering"></a>
+  - To taper one or more faces of a 3D structure:
+  - _Keywords:_ normal, position, Taper, center, initialized, define, Faces, vector
+- **5: Generating Geometric Structures** <a id="5-generating-geometric-structures"></a>
+  - Editing Shapes in Three Dimensions
+  - _Keywords:_ tapering, sdegeo, FACE, DRAFT_CENTER, DRAFT_NORMAL, normal, Editing, Shapes
+- **For example:** <a id="for-example"></a>
+  - ```lisp (sdegeo:create-cuboid (position 0.0 0.0 0.0) (position 1.0 1.0 1.0) "Silicon" "region_1") (sdegeo:taper-faces (list (car (find-face-id (position 0.5 0.0 0.5))) (car (find-face-id (position 1.0 0.5 0.5))) (car (find-face-id (posit...
+  - _Keywords:_ position, sdegeo, details, summary, tapering, facelist, define, cuboid
+- **Creating 3D Objects From 1D and 2D Objects** <a id="creating-3d-objects-from-1d-and-2d-objects"></a>
+- **Wires** <a id="wires"></a>
+  - A wire is a 1D object that is used to define a sweep path or a wire body for skinning.
+  - _Keywords:_ position, polyline, corresponding, button, vertex, sdegeo, create, spline
+- **Extruding** <a id="extruding"></a>
+  - To extrude a 2D object or a face of a 3D object:
+  - _Keywords:_ position, extrusion, details, summary, sdegeo, Edit, extrude, images
+- **Sweeping a 2D Object** <a id="sweeping-a-2d-object"></a>
+  - A 3D object can be created by sweeping a 2D object along a path. A 3D object can also be modified by sweeping a set of faces of the 3D object. The sweep path can be defined in several different ways. In the simplest case, only the sweep ...
+  - _Keywords:_ object, doping, sweeping, defined, Ref, Eval, profile, elements
+- **Sweep Distance** <a id="sweep-distance"></a>
+  - The sweep distance operation is similar to extrusion. Faces of 2D bodies or 3D bodies can be swept by a distance. The sweep distance option can be used with various sweep options.
+  - _Keywords:_ Sweep, distance, Select, sdegeo, Click, Operations, Profiles, Distance
+- **Sweep Along a Vector** <a id="sweep-along-a-vector"></a>
+  - The sweep along a vector option is similar to the sweep distance option, except that a vector is specified to define the sweep path.
+  - _Keywords:_ Sweep, Select, vector, Vector, Click, Profiles, Along, Selected
+- **Sweep Around an Axis (Regular and Corner Sweeps)** <a id="sweep-around-an-axis-regular-and-corner-sweeps"></a>
+  - The sweep around an axis option can be used to sweep a face (2D or 3D) around an axis. The sweep can be regular or such that only the inside edge is swept, while the outside edge forms an axis-aligned corner.
+  - _Keywords:_ around, regular, inside, outside, aligned, corner
+- **Regular Sweep** <a id="regular-sweep"></a>
+  - To sweep a 2D object or a face of a 3D object using regular sweeping around an axis:
+  - _Keywords:_ Sweep, Select, Click, select, object, around, Edit, displayed
+- **5: Generating Geometric Structures** <a id="5-generating-geometric-structures"></a>
+  - Creating 3D Objects From 1D and 2D Objects
+  - _Keywords:_ Sweep, position, details, summary, sdegeo, images, text_image, Around
+- **Corner Sweep** <a id="corner-sweep"></a>
+  - Use this option to design crown moldings, corbels, and so on.
+  - _Keywords:_ position, sdegeo, corner, vertex, Sweep, select, Corner, Scheme
+- **Sweep Along a Wire** <a id="sweep-along-a-wire"></a>
+  - To sweep a profile along a wire, first, the wire body must be generated either manually by using Scheme functions or by using the GUI. To create a wire, see Wires on page 85.
+  - _Keywords:_ Sweep, Select, position, Click, select, Profiles, Along, Path
+- **5: Generating Geometric Structures** <a id="5-generating-geometric-structures"></a>
+  - Creating 3D Objects From 1D and 2D Objects
+  - _Keywords:_ Objects, details, summary, WIRE, Creating, images, sense_ug_part01_7261e069cc1d6f711e1f331b2a08f37c66b4af6a684de3c25d0dd9dbbbab8e49, text_image
+- **Sweep Options** <a id="sweep-options"></a>
+  - The sweep operation can be performed with different options that affect the outcome of the operation. These options are controlled by the sweep:options command. For example, when a profile is swept along a path, the profile can remain pa...
+  - _Keywords:_ profile, operation, performed, different, affect, outcome, These, controlled
+- **Rigid Sweep** <a id="rigid-sweep"></a>
+  - A rigid sweep is one in which the profile that is swept is translated, but not rotated, along the sweep path. It accomplishes a rigid extrusion of a profile along a path. The rigid option specifies whether to make the cross sections of a...
+  - _Keywords:_ profile, translated, rotated, accomplishes, extrusion, specifies, whether, parallel
+- **Mitering** <a id="mitering"></a>
+  - The miter option determines how a corner miter is created during a sweep operation. The available mitering options are:
+  - _Keywords:_ profile, sdegeo, corner, REC, position, WIRE, continuity, miter_type
+- **Sweeping Examples** <a id="sweeping-examples"></a>
+  - The following example illustrates the creation of a simple MOSFET with a nonaxis-aligned gate stack using different sweep methods.
+  - _Keywords:_ illustrates, creation, simple, MOSFET, nonaxis, aligned, different, methods
+- **Sweep Distance** <a id="sweep-distance"></a>
+  - The substrate with two shallow trench isolations is created by sweeping the 2D cross section a given distance:
+  - _Keywords:_ position, sdegeo, define, create, rectangle, STI_L, STI_R, substrate
+- **Sweep Along a Vector** <a id="sweep-along-a-vector"></a>
+  - In a first version, the 2D gate-stack cross section is swept along a vector:
+  - _Keywords:_ position, vector, sdegeo, sweeping, define, GOX, create, rectangle
+- **Sweep Along a Wire** <a id="sweep-along-a-wire"></a>
+  - In a second version, the 2D gate-stack cross section is swept along a wire:
+  - _Keywords:_ position, second, version, define, WIRE, sdegeo, create, polyline
+- **5: Generating Geometric Structures** <a id="5-generating-geometric-structures"></a>
+  - Creating 3D Objects From 1D and 2D Objects
+  - _Keywords:_ WIRE, sdegeo, GOX, POL, miter_type, Objects, version, crimping
+- **Sweep Around an Axis** <a id="sweep-around-an-axis"></a>
+  - The next example discusses the creation of a simple racetrack LDMOS structure using sweeping along a wire for the curved part and distance sweeping to add the straight parts:
+  - _Keywords:_ position, sdegeo, define, LOCOS, create, racetrack, LDMOS, sweeping
+- **Skinning** <a id="skinning"></a>
+  - A skinning operation can be used to create a 3D body that interpolates a series of wires or faces. The given wires or faces define the cross sections to be interpolated by the resulting 3D body. There must be at least two wire bodies or ...
+  - _Keywords:_ skinning, operation, create, interpolates, series, define, interpolated, resulting
+- **Default Skinning** <a id="default-skinning"></a>
+  - To skin a set of wire bodies or 2D faces using the default options:
+  - _Keywords:_ skinning, sdegeo, Skin, entity, Select, Skinning, Wires, Operations
+- **Skinning With Normals** <a id="skinning-with-normals"></a>
+  - The default options automatically select the sweep tangent vectors at each of the profiles. To select the face normal as the sweep tangent vectors:
+  - _Keywords:_ sdegeo, normal, _Normal, define, position, select, tangent, vectors
+- **Skinning With Vectors** <a id="skinning-with-vectors"></a>
+  - Use the Skin with Vectors option to explicitly control sweep tangent vectors. For each vector, a magnitude is given, which controls how quickly the sweep direction can deviate from the given tangent vector away from the profile. For larg...
+  - _Keywords:_ sdegeo, tangent, vectors, vector, Scheme, gvector, define, position
+- **Skinning With Guides** <a id="skinning-with-guides"></a>
+  - Similar to sweeping along a wire, a set of profiles can be skinned using a wire as a guide. To use this option:
+  - _Keywords:_ position, sdegeo, define, create, Select, Scheme, FACE_1, Silicon
+- **Skinning Example** <a id="skinning-example"></a>
+  - The following example illustrates how to use skinning to emulate line-edge roughness effects in a MOSFET gate stack. First, a set of perturbed wires for the polygate and the gate-oxide cross sections are created (see Figure 63 on page 10...
+  - _Keywords:_ position, define, MakeWires, PolWires, OxiWires, sdegeo, string, append
+- **Editing 2D and 3D Structures** <a id="editing-2d-and-3d-structures"></a>
+- **Explicit Boolean Operations** <a id="explicit-boolean-operations"></a>
+  - To perform Boolean operations on 3D (or 2D) regions:
+  - _Keywords:_ Select, Edit, operations, select, bodies, Tools, perform, Boolean
+- **Unite** <a id="unite"></a>
+  - Dissolves any internal boundaries that exist in touching or overlapping regions and results in one single region with the name of the first region selected before the unite operation was applied.
+  - _Keywords:_ region, Dissolves, internal, boundaries, touching, overlapping, regions, results
+- **For example:** <a id="for-example"></a>
+  - ```lisp (define A (sdegeo:create-cuboid (position 0.0 0.0 0.0) (position 2.0 1.0 1.0) "Silicon" "region_1")) (define B (sdegeo:create-cuboid (position 2.0 0.0 0.0) (position 3.0 3.0 1.0) "Silicon" "region_2")) (sdegeo:bool-unite (list A ...
+  - _Keywords:_ position, sdegeo, define, create, cuboid, Silicon, region_1, region_2
+- **Intersect** <a id="intersect"></a>
+  - This operation is used if the direct ACIS Scheme functions are used to generate parts of the structure or if the automatic overlap resolution is disabled.
+  - _Keywords:_ Scheme, operation, direct, ACIS, generate, structure, automatic, overlap
+- **For example:** <a id="for-example"></a>
+  - ```lisp (sdegeo:set-default=boolean "XX") (define A (sdegeo:create-rectangle (position 0.0 0.0 0) (position 3.0 2.0 0) "Silicon" "region_1")) (define B (sdegeo:create-circle (position 2.5 1.5 0) 1 "Silicon" "region_2")) (sdegeo:bool-inte...
+  - _Keywords:_ sdegeo, position, define, create, rectangle, Silicon, details, summary
+- **Subtract** <a id="subtract"></a>
+  - The first region in the body list is selected as the main region, then subsequent regions are subtracted from the main region.
+  - _Keywords:_ region, selected, subsequent, regions, subtracted, corresponding, Scheme, sdegeo
+- **For example:** <a id="for-example"></a>
+  - ```lisp (sdegeo:set-default=boolean "XX") (define A (sdegeo:create-rectangle (position 0.0 0.0 0) (position 2.0 1.0 0) "Silicon" "region_1")) (define B (sdegeo:create-circle (position 0.5 0.8 0) 0.4 ```
+  - _Keywords:_ sdegeo, position, define, create, Silicon, rectangle, circle, region_2
+- **Changing the Material of a Region** <a id="changing-the-material-of-a-region"></a>
+  - To change the material associated with a region or regions:
+  - _Keywords:_ material, region, Select, bodies, change, select, Material, position
+- **Changing the Name of a Region** <a id="changing-the-name-of-a-region"></a>
+  - To change the name of a region or regions:
+  - _Keywords:_ region, material, Select, change, position, selected, regions, Click
+- **Deleting Regions** <a id="deleting-regions"></a>
+  - To delete one or more regions:
+  - _Keywords:_ delete, Select, select, Delete, sdegeo, Ref, Eval, bodies
+- **Separating Lumps** <a id="separating-lumps"></a>
+  - During model generation, Sentaurus Structure Editor never allows the generation of overlapping regions (unless (sdegeo:set-default-boolean "XX") is used). When the automatic region-naming feature is switched on, a region name is attached...
+  - _Keywords:_ region, regions, sdegeo, position, disjoint, assigned, generation, boolean
+- **Two-Dimensional Cuts From a 3D Structure** <a id="two-dimensional-cuts-from-a-3d-structure"></a>
+  - To generate a 2D cross section from a 3D structure:
+  - _Keywords:_ position, sdegeo, structure, argument, create, cuboid, gvector, Edit
+- **Split–Insert Stretching of a Device** <a id="split-insert-stretching-of-a-device"></a>
+  - For certain applications, such as the computation of the threshold voltage roll-off behavior of a CMOS technology node, it is necessary to create a family of device structures, which are identical in certain regions (here, the source and...
+  - _Keywords:_ insert, position, device, Split, Insert, sdegeo, Device, create
+- **Extending a 2D Device** <a id="extending-a-2d-device"></a>
+  - For certain applications, it is necessary to extend the device at one or more boundaries. For example, the default reflecting boundary conditions might be inappropriate for a given application. In such cases, it can be advantageous to si...
+  - _Keywords:_ device, sdegeo, extend, position, extended, Device, details, summary
+- **Trimming a 3D Structure** <a id="trimming-a-3d-structure"></a>
+  - A 3D structure can be trimmed such that all parts lying outside of a polygonal base plane are removed. The base plane is restricted to the xy plane. The command is not available from the GUI.
+  - _Keywords:_ position, sdegeo, structure, create, cuboid, trimmed, domain, coordinate
+- **Coordinate Systems and Transformations** <a id="coordinate-systems-and-transformations"></a>
+  - Sentaurus Structure Editor uses the concept of work planes to define a coordinate system. The name of the work plane refers to the fact that any 2D geometric object is created in the xy plane of the currently used coordinate system. In a...
+  - _Keywords:_ Sentaurus, Structure, Editor, geometric, length, device, define, coordinate
+- **Work Planes** <a id="work-planes"></a>
+  - To define and activate a new work plane:
+  - _Keywords:_ position, sdegeo, Work, active, define, Planes, create, rectangle
+- **Local Coordinate Systems** <a id="local-coordinate-systems"></a>
+  - In Sentaurus Structure Editor, the coordinate systems feature offers an alternative way to define work planes. The differences are that:
+  - _Keywords:_ coordinate, Coordinate, Systems, define, system, Defined, sdegeo, systems
+- **Device Scaling** <a id="device-scaling"></a>
+  - The Scheme command sdegeo:scale is used to scale all of the geometric bodies and Ref/ Eval windows. The Scheme command sdedr:write-scaled-cmd-file is used to scale all refinement settings while writing the mesh command file.
+  - _Keywords:_ scaled, factor, Scheme, sdegeo, Ref, Eval, windows, device
+- **Entity Transformations: Scaling, Translation, Rotation, and Reflection** <a id="entity-transformations-scaling-translation-rotation-and-refl"></a>
+  - Several different Scheme functions and GUI operations can be used to perform basic geometry transformation operations on some or all top-level entities of the device as well as on Ref/Eval windows.
+  - _Keywords:_ entity, region, transformation, operations, entities, selected, GUI, Transform
+- **Local Scaling of Entities** <a id="local-scaling-of-entities"></a>
+  - To scale one or more entities:
+  - _Keywords:_ scaling, entity, Scale, entities, Transform, sdegeo, Select, Target
+- **Difference Between sdegeo:scale and sdegeo:scale-selected** <a id="difference-between-sdegeo-scale-and-sdegeo-scale-selected"></a>
+  - Different scaling operations are available in Sentaurus Structure Editor as follows:
+  - _Keywords:_ sdegeo, position, selected, scaling, scaled, overlap, scales, geometric
+- **Translation** <a id="translation"></a>
+  - To translate one or more entities:
+  - _Keywords:_ position, sdegeo, Transform, translation, entity, entities, details, summary
+- **Rotation** <a id="rotation"></a>
+  - To rotate one or more entities:
+  - _Keywords:_ rotation, entity, Transform, sdegeo, entities, Axis, rotate, Select
+- **Reflection** <a id="reflection"></a>
+  - To reflect one or more entities:
+  - _Keywords:_ position, sdegeo, entity, Transform, create, cuboid, entities, Select
+- **Scheme Functions for Transformations** <a id="scheme-functions-for-transformations"></a>
+  - Scheme functions are available to perform transformation operations.
+  - _Keywords:_ transform, sdegeo, selected, specified, entities, Creates, Scheme, mirror
+- **Overview** <a id="overview"></a>
+  - The three-dimensional process emulation (Procem) module of Sentaurus Structure Editor offers a set of Scheme functions to emulate TCAD process steps such as deposition, etching, and implantation. The Procem Scheme extensions can be acces...
+  - _Keywords:_ process, Procem, Scheme, operations, emulation, Sentaurus, Structure, Editor
+- **6: Structure Generation Using Etching and Deposition Base Coordinate System** <a id="6-structure-generation-using-etching-and-deposition-base-coo"></a>
+  - ■ Perform anisotropic and isotropic deposition ■ Perform etching operations with or without a protect region (patterned masks) ■ Perform a fill operation ■ Polish a device Generate boundary output for meshing ■ Implant doping species Cre...
+  - _Keywords:_ Perform, operations, Procem, process, generate, deposition, etching, boundary
+- **Base Coordinate System** <a id="base-coordinate-system"></a>
+  - Two different coordinate systems can be used during process emulation.
+  - _Keywords:_ Two, different, coordinate, systems, during, process, emulation
+- **Unified Coordinate System** <a id="unified-coordinate-system"></a>
+  - In the unified coordinate system (UCS), the base of the 3D model is placed in the yz plane (at x = 0 by default), and the open top surface of the model is in the –x-direction (so a ray from -1,0,0 would hit the top exposed surface). When...
+  - _Keywords:_ coordinate, system, surface, direction, unified, UCS, placed, exposed
+- **DF–ISE Coordinate System** <a id="df-ise-coordinate-system"></a>
+  - NOTE Using the DF–ISE coordinate system is not recommended. Use the UCS instead.
+  - _Keywords:_ boundary, domain, direction, coordinate, system, external, process, performed
+- **Selecting the Coordinate System** <a id="selecting-the-coordinate-system"></a>
+  - In the DF–ISE coordinate system for process emulation, the xy plane is the base plane and +z is the up direction. The Scheme command sde:set-process-up-direction is used to specify which coordinate system is used during process emulation...
+  - _Keywords:_ process, direction, coordinate, system, emulation, argument, Sentaurus, Scheme
+- **Mask Layout Input and Mask Generation** <a id="mask-layout-input-and-mask-generation"></a>
+  - Procem supports mask layout file input. There are several ways to define and initialize mask layouts:
+  - _Keywords:_ layout, generate, sdeicwb, window, Procem, exists, ICWB, defined
+- **Mask Generation** <a id="mask-generation"></a>
+  - Examples of mask layout generation are: ```lisp (sde:clear) (sdepe:generate-mask "DEMO-MASK-1" (list (list 2 2 5 2 5 3 2 3) (list 5 6 9 6 7 9))) (sdepe:generate-mask "DEMO-MASK-2" (list (list 14 7 13.73 8 13 8.73 12 9 11 8.73 10.27 8 10 ...
+  - _Keywords:_ generate, DEMO, MASK, layout, details, summary, generation, MASK1
+- **Offsetting (Biasing) Mask** <a id="offsetting-biasing-mask"></a>
+  - The Scheme extension sde:offset-mask can be used to offset (bias) a mask.
+  - _Keywords:_ offset, details, summary, Scheme, extension, images, sense_ug_part01_152734b143a7617fda5a3fa28c82b5ed1279c8b34ee65533dae0a2aa72e1da71, natural_image
+- **TCAD Layout Reader of Sentaurus Structure Editor** <a id="tcad-layout-reader-of-sentaurus-structure-editor"></a>
+  - The TCAD layout reader of Sentaurus Structure Editor provides a file-based interface between IC WorkBench Edit/View Plus (ICWBEV Plus) and Sentaurus Structure Editor.
+  - _Keywords:_ Sentaurus, layout, Component, Structure, Editor, interface, Plus, details
+- **Loading TCAD Layouts** <a id="loading-tcad-layouts"></a>
+  - Before the TCAD layout can be used in Sentaurus Structure Editor, it must be loaded.
+  - _Keywords:_ layout, scaling, TCAD, Sentaurus, Structure, Editor, factor, sdeicwb
+- **Finding Layer Names and Layer IDs** <a id="finding-layer-names-and-layer-ids"></a>
+  - Each layer in the TCAD layout file has a unique ID of the form <int>:<int>, for example, 3:0. A layer can also have an optional explicit layer name such as NWELL. If no explicit layer name has been set in ICWBEV Plus, the TCAD layout rea...
+  - _Keywords:_ TCAD, layout, sdeicwb, explicit, NWELL, reader, defined, define
+- **Applying a Stretch** <a id="applying-a-stretch"></a>
+  - The stretch utility provides a convenient way to parameterize a layout by inserting a uniformly stretched segment into the layout. This feature can be used, for example, to generate a set of transistors that have different gate lengths b...
+  - _Keywords:_ stretch, layout, details, summary, amount, utility, images, text_image
+- **Selecting the Simulation Domain** <a id="selecting-the-simulation-domain"></a>
+  - The active simulation domain is selected with the Scheme command:
+  - _Keywords:_ domain, active, simulation, selected, Scheme, sdeicwb
+- **Finding Coordinates of Bounding Box** <a id="finding-coordinates-of-bounding-box"></a>
+  - To find the coordinates of the bounding box that is defined with regard to the global layout coordinates, use the commands:
+  - _Keywords:_ sdeicwb, define, coordinates, domain, bounding, defined, regard, global
+- **Creating and Using Masks** <a id="creating-and-using-masks"></a>
+  - To create a mask, use:
+  - _Keywords:_ sdeicwb, generate, Active, pattern, create, maskname, layername, created
+- **Coordinate System Support** <a id="coordinate-system-support"></a>
+  - Sentaurus Structure Editor supports both the UCS and the DF–ISE coordinate system (see Base Coordinate System on page 134). Figure 82 shows the conventions for both coordinate systems.
+  - _Keywords:_ UCS, ISE, coordinate, sdeicwb, region, system, Sentaurus, Structure
+- **Layout-Driven Contact Assignment** <a id="layout-driven-contact-assignment"></a>
+  - The sdeicwb:contact command creates contacts, for subsequent device simulations, that are tied to a mask or a text label in the TCAD layout file.
+  - _Keywords:_ sdeicwb, contact, contacts, creates, subsequent, device, simulations, TCAD
+- **Layout-Driven Meshing** <a id="layout-driven-meshing"></a>
+  - Layers can also be used for layout-driven meshing. The command sdeicwb:definerefinement-from-layer serves as an interface between the ICWBEV Plus TCAD layout and the Sentaurus Structure Editor commands sdedr:define-refeval-window, sdedr:...
+  - _Keywords:_ refinement, define, polygon, Node, region, oversize, material, argument
+- **Process Emulation Commands** <a id="process-emulation-commands"></a>
+  - Scheme functions (with the prefix sdepe) are available to perform process emulation operations.
+  - _Keywords:_ Performs, device, Scheme, material, pattern, defined, doping, process
+- **Syntax and Keywords** <a id="syntax-and-keywords"></a>
+  - All process emulation commands (sdepe) use the same conventions for argument specification. In the Procem commands, each variable is preceded by a keyword such as "material", "region", "thickness", and "step". The keywords are followed b...
+  - _Keywords:_ material, keyword, deposdepe, rounding, thickness, deposition, radius, pattern
+- **Process Emulation Algorithms** <a id="process-emulation-algorithms"></a>
+  - Different algorithms can be used during process emulation. In each sdepe function, the algorithm can be specified using the keyword algorithm and the name of the actual algorithm that will be used during the operation. Table 24 on page 1...
+  - _Keywords:_ algorithm, General, emulation, models, Isotropic, algorithms, during, process
+- **The lop-move Algorithm** <a id="the-lop-move-algorithm"></a>
+  - The "lop-move" algorithm is a simple algorithm where the exposed body is translated simply by an offset vector, and Boolean operations are used to find the offset body. This algorithm is very robust and, in some cases (for example, trenc...
+  - _Keywords:_ algorithm, offset, simple, exposed, translated, simply, vector, Boolean
+- **The lopx Algorithm** <a id="the-lopx-algorithm"></a>
+  - The "lopx" algorithm is a string algorithm that moves the individual faces of the exposed top surface, calculates the necessary face–face intersections, and reconstructs the topologically correct offset surface.
+  - _Keywords:_ algorithm, surface, isotropic, operations, string, individual, exposed, calculates
+- **The PT Algorithm** <a id="the-pt-algorithm"></a>
+  - The "PT" algorithm is a special algorithm that has been designed to be a fast and robust algorithm to handle large polyhedral models. Typically, polyhedral models have many planar faces, with possibly high face connectivity.
+  - _Keywords:_ algorithm, chamfer, offset, between, models, cannot, inserted, feature
+- **The sweep Algorithm** <a id="the-sweep-algorithm"></a>
+  - The "sweep" algorithm is a very robust offsetting algorithm, which can be used for anisotropic and directional operations where the topology does not change. When the "sweep" algorithm is used, exposed faces are swept individually and th...
+  - _Keywords:_ algorithm, operations, anisotropic, topology, change, directional, robustly, robust
+- **Restrictions on Handling Mixed Models** <a id="restrictions-on-handling-mixed-models"></a>
+  - If a 3D model is already present, there are some restrictions regarding the model geometry, when additional Procem steps are to be performed on the model:
+  - _Keywords:_ boundary, domain, Procem, device, performed, process, domainboundary, existing
+- **Process Emulation Steps** <a id="process-emulation-steps"></a>
+- **Defining Domain** <a id="defining-domain"></a>
+  - If a device is created from the beginning, the domain boundary must be specified first, using the sdepe:define-pe-domain Scheme extension. All subsequent Procem steps are performed over this domain boundary. If Procem steps are to be per...
+  - _Keywords:_ domain, boundary, device, process, domainboundary, subsequent, Procem, performed
+- **Generating Substrate** <a id="generating-substrate"></a>
+  - The sdepe:add-substrate Scheme extension is used to generate an initial substrate layer.
+  - _Keywords:_ substrate, Scheme, extension, generate, initial
+- **Patterning** <a id="patterning"></a>
+  - The sdepe:pattern Scheme extension is used to perform a pattern process-emulation step.
+  - _Keywords:_ pattern, Scheme, extension, perform, process, emulation
+- **Patterning Keywords and Keyword Combinations** <a id="patterning-keywords-and-keyword-combinations"></a>
+  - Table 26 on page 158 lists all the keywords that the sdepe:pattern command accepts in addition to the keywords that are defined in Table 27 on page 161 for deposition.
+  - _Keywords:_ keywords, pattern, deposition, during, keyword, patterning, explained, Basic
+- **Anisotropic Patterning** <a id="anisotropic-patterning"></a>
+  - Figure 85 was generated using Procem and the following script: ```lisp (sde:clear) ;# Mask definition # (sdepe:generate-mask "MASK1" (list (list 0 0 5 4))) (sdepe:generate-mask "MASK2" (list (list 4 1 7 3))) ;# Process Flow # (sdepe:defi...
+  - _Keywords:_ material, thickness, MASK2, pattern, polarity, generate, MASK1, details
+- **Isotropic Patterning** <a id="isotropic-patterning"></a>
+  - Figure 86 was generated with Procem using the script for the anisotropic patterning operation, except that, in this case, instead of "type" "aniso", the argument "type" "iso" was used. ![](images/sense_ug_part01_20477e1fbba27eb9139785a6b...
+  - _Keywords:_ details, summary, stepped, images, natural_image, diagram, labeled, symbols
+- **Photo Operation** <a id="photo-operation"></a>
+  - The sdepe:photo Scheme extension is used to perform a flat pattern process-emulation step. The operation uses an existing mask to perform a pattern operation. The difference between a pattern step (sdepe:pattern) and a photo step (sdepe:...
+  - _Keywords:_ pattern, perform, operation, Scheme, extension, process, emulation, existing
+- **Photo Keywords and Keyword Combinations** <a id="photo-keywords-and-keyword-combinations"></a>
+  - See the description of sdepe:photo on page 780 for all available keywords and arguments.
+  - _Keywords:_ description, available, keywords, arguments
+- **Example** <a id="example"></a>
+  - Figure 87 on page 160 was generated with Procem using the following script: ```lisp (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 10 10 4) "Silicon" "x1") (sdegeo:create-cuboid (position 0 3 4) (position 4 7 6) "PolySilico...
+  - _Keywords:_ position, height, created, sdegeo, material, Copper, polarity, pattern
+- **Deposition** <a id="deposition"></a>
+  - The sdepe:depo Scheme extension is used to perform a deposition process-emulation step.
+  - _Keywords:_ Scheme, extension, perform, deposition, process, emulation
+- **Deposition Keywords and Keyword Combinations** <a id="deposition-keywords-and-keyword-combinations"></a>
+  - Table 27 on page 161 lists all of the keywords that the sdepe:depo command accepts. It is organized into functional groups:
+  - _Keywords:_ deposition, control, rounding, direction, offset, algorithm, material, keyword
+- **Anisotropic Deposition** <a id="anisotropic-deposition"></a>
+  - ```lisp (sde:clear) (sdepe:generate-mask "MASK1" (list (list 2 2 5 3))) (sdepe:generate-mask "MASK2" (list (list 14 7 13.73 8 13 8.73 12 9 11 8.73 10.27 8 10 7 10.27 6 11 5.27 12 5 13 5.23 13.73 6))) (sdepe:define-pe-domain (list 0 0 15 ...
+  - _Keywords:_ details, summary, material, thickness, images, natural_image, symbols, generate
+- **Isotropic Deposition** <a id="isotropic-deposition"></a>
+- **Example: Isotropic Deposition With blend-vexity = "none"** <a id="example-isotropic-deposition-with-blend-vexity-none"></a>
+  - In this example, this is the same code as used to illustrate anisotropic deposition. The only difference is that the anisotropic step is replaced with:
+  - _Keywords:_ deposition, isotropic, anisotropic, details, summary, performed, illustrate, difference
+- **Example: Isotropic Deposition With blend-vexity = "convex"** <a id="example-isotropic-deposition-with-blend-vexity-convex"></a>
+  - (sdepe:depo "material" "Oxide" "thickness" 0.25 "vexity" "convex" "radius" 0.25)
+  - _Keywords:_ vexity, convex, details, summary, rectangular, material, Oxide, thickness
+- **Example: Isotropic Deposition With blend-vexity = "concave"** <a id="example-isotropic-deposition-with-blend-vexity-concave"></a>
+  - (sdepe:depo "material" "Oxide" "thickness" 0.25 "vexity" "concave" "radius" 0.25)
+  - _Keywords:_ vexity, concave, details, summary, material, Oxide, thickness, radius
+- **Example: Isotropic Deposition With blend-vexity = "all"** <a id="example-isotropic-deposition-with-blend-vexity-all"></a>
+  - (sdepe:depo "material" "Oxide" "thickness" 0.25 "vexity" "all" "radius" 0.25)
+  - _Keywords:_ vexity, details, summary, hexagonal, material, Oxide, thickness, radius
+- **Selective Deposition** <a id="selective-deposition"></a>
+  - By default, deposition is performed on the entire exposed top surface, unless the argument "selective-material" is used, in which case, the deposition is performed only on those selected faces that originally belonged to the specified ma...
+  - _Keywords:_ deposition, performed, material, entire, exposed, surface, unless, argument
+- **Figure 93 on page 166 was generated with Procem using the following script:** <a id="figure-93-on-page-166-was-generated-with-procem-using-the-fo"></a>
+  - ```clojure (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 10 10 4) "Silicon" "x1") (sdegeo:create-cuboid (position 0 3 4) (position 4 7 6) "PolySilicon" "x2") (sdegeo:create-cuboid (position 0 0 3) (position 10 3 4) "Silici...
+  - _Keywords:_ selective, thickness, deposition, position, material, initial, details, summary
+- **Directional Deposition** <a id="directional-deposition"></a>
+  - By default, the Procem operations are performed in the global z-direction, assuming a vertical ray direction. The device is placed in the global xy plane and the exposed top surface of the device points in the +z-direction.
+  - _Keywords:_ device, vector, direction, boundary, operation, directional, gvector, algorithm
+- **Shadowing** <a id="shadowing"></a>
+  - In addition, the shadowing effect can be taken into consideration by adding "shadowing" #t to the Procem argument list. When the shadowing option is used, the following additional steps are performed during process emulation:
+  - _Keywords:_ shadowing, position, sdegeo, visibility, during, imprinted, nonvisible, create
+- **Rounding and Advanced Rounding** <a id="rounding-and-advanced-rounding"></a>
+  - If rounding is used, the rounding radius must be specified. To add more robustness to the rounding operation, the rounding radius is corrected automatically when a small edge is detected on the top exposed surface. If "vexity" is "convex...
+  - _Keywords:_ rounding, radius, position, advanced, sdegeo, corrected, automatically, exposed
+- **Etching** <a id="etching"></a>
+  - The sdepe:etch-material Scheme extension can be used to perform an etching process emulation step.
+  - _Keywords:_ material, Scheme, extension, perform, etching, process, emulation
+- **Etching Keywords and Keyword Combinations** <a id="etching-keywords-and-keyword-combinations"></a>
+  - Table 28 lists all the keywords that the sdepe:etch-material command accepts in addition to the keywords that are defined in Table 27 on page 161 for deposition. It is organized around functional groups.
+  - _Keywords:_ keywords, etching, deposition, groups, keyword, combinations, addition, defined
+- **Example: Etching Operation Using Different Etch Options** <a id="example-etching-operation-using-different-etch-options"></a>
+  - ```lisp (sde:clear) (sdepe:generate-mask "MASK1" (list (list 2 2 8 8) (list 12 2 18 8))) (sdepe:define-pe-domain (list 0 0 20 10)) (sdepe:add-substrate "material" "Silicon" "thickness" 2) (sdepe:pattern "mask" "MASK1" "polarity" "light" ...
+  - _Keywords:_ material, details, summary, substrate, overetch, Silicon, images, natural_image
+- **Example: Multimaterial Etching** <a id="example-multimaterial-etching"></a>
+  - If the "time" parameter is used instead of "depth" and the global variable etchrates is set, multimaterial etching can be performed. The following example illustrates multimaterial etching:
+  - _Keywords:_ position, sdegeo, create, cuboid, etching, multimaterial, Silicide, details
+- **Some Notes About Multimaterial Etching** <a id="some-notes-about-multimaterial-etching"></a>
+  - The multimaterial etching code removes material (according to the etch table rates) only from the initially exposed bodies. If a given material layer is not exposed initially, it will not be etched if the etching is performed in one step...
+  - _Keywords:_ position, initially, exposed, sdegeo, create, cuboid, etching, material
+- **Some Notes About Shadowing** <a id="some-notes-about-shadowing"></a>
+  - In the case of anisotropic etching, the internal buried materials (other than the etch material) will protect the underlying shadowed part. In the case of isotropic etching, the above described shadow protection is disabled, so the etch ...
+  - _Keywords:_ material, materials, layers, etching, buried, protected, exposed, anisotropic
+- **Fill** <a id="fill"></a>
+  - The command sdepe:fill-device can be used to perform a fill process-emulation step. The command (sdepe:fill-device "material" "Gas" "height" 6) was used to demonstrate the fill operation in Figure 103. The optional "region" parameter can...
+  - _Keywords:_ region, device, operation, details, summary, perform, process, emulation
+- **Polishing** <a id="polishing"></a>
+  - The sdepe:polish-device Scheme extension can be used to perform a polishing processemulation step. To perform selective polishing, the optional "material" parameter can be used to specify the bodies to be polished.
+  - _Keywords:_ polish, perform, polishing, device, Scheme, extension, processemulation, selective
+- **Interconnect Layer Generation** <a id="interconnect-layer-generation"></a>
+  - Complex interconnect structures can be created easily with the sdepe:icon\_layer command. The basic assumption is that the initial structure is flat.
+  - _Keywords:_ material, interconnect, polarity, created, _layer, structure, generation, keyword
+- **Example: Generating an Interconnect Structure** <a id="example-generating-an-interconnect-structure"></a>
+  - The following script demonstrates the use of sdepe:icon\_layer and Figure 105 shows the generated structure:
+  - _Keywords:_ material, structure, details, summary, generate, icon_layer, polarity, thickness
+- **Shape Library** <a id="shape-library"></a>
+  - Sentaurus Structure Editor defines a set of commands to create special shapes (2D and 3D solid regions) that can be inserted into a 3D model. The following commands are available as part of the shape library:
+  - _Keywords:_ creates, STI, Sentaurus, shallow, trench, isolation, active, corner
+- **Removing Material** <a id="removing-material"></a>
+  - The command sdepe:remove can be used to remove a top layer (with a given "material" or "region" attribute). If there are multiple exposed bodies with the given material or region name, all these bodies are removed.
+  - _Keywords:_ remove, material, region, bodies, attribute, multiple, exposed, removed
+- **Doping and Implantation** <a id="doping-and-implantation"></a>
+  - For constant doping, see sdepe:doping-constant-placement on page 767.
+  - _Keywords:_ position, doping, define, refinement, RefDef, constant, implantation, sdegeo
+- **Process Emulation Example** <a id="process-emulation-example"></a>
+  - This example illustrates some process emulation commands introduced in this chapter. The example is a complete Scheme script with variable definitions and process emulation commands. It contains commands for mask generation, domain defin...
+  - _Keywords:_ material, domain, thickness, process, deposition, pattern, emulation, substrate
+- **6: Structure Generation Using Etching and Deposition** <a id="6-structure-generation-using-etching-and-deposition"></a>
+  - Process Emulation Example
+  - _Keywords:_ details, summary, images, natural_image, symbols, rectangular, horizontal, diagram
+- **Overview** <a id="overview"></a>
+  - Contacts are interfacial regions where subsequent TCAD tools, such as Sentaurus Device, apply electrical, thermal, or other boundary conditions. They correspond to physical contacts in the real device. Contacts are edges in two dimension...
+  - _Keywords:_ contact, Contacts, boundary, operations, contacts, dimensions, geometry, assigned
+- **Defining and Activating a Contact** <a id="defining-and-activating-a-contact"></a>
+  - To define and activate a contact:
+  - _Keywords:_ contact, Contact, define, displayed, Defined, defined, sdegeo, details
+- **Deleting a Contact** <a id="deleting-a-contact"></a>
+  - To delete a contact definition:
+  - _Keywords:_ contact, delete, Contact, Click, definition, Choose, Contacts, respective
+- **Assigning Edges or Faces to a Contact** <a id="assigning-edges-or-faces-to-a-contact"></a>
+  - To assign edges (2D) or faces (3D) to the currently active contact:
+  - _Keywords:_ contact, selected, Contacts, position, Select, select, Contact, sdegeo
+- **Assigning a Region Boundary to a Contact** <a id="assigning-a-region-boundary-to-a-contact"></a>
+  - To assign all region boundary edges (2D) or all region boundary faces (3D) to the currently active contact:
+  - _Keywords:_ sdegeo, contact, position, remove, create, VIA, region, Select
+- **Removing Edges or Faces From a Contact** <a id="removing-edges-or-faces-from-a-contact"></a>
+  - The procedures to remove edges or faces from a contact are similar to the procedures to assign edges or faces to a contact (see Assigning Edges or Faces to a Contact on page 187 and Assigning a Region Boundary to a Contact on page 188). ...
+  - _Keywords:_ contact, sdegeo, delete, Select, procedures, select, Assigning, Contact
+- **Creating Edges or Faces for Use in Contacts** <a id="creating-edges-or-faces-for-use-in-contacts"></a>
+  - Only an entire edge or face can be assigned to a contact. If the contact should cover only part of an edge or a face, the edge or face must be split explicitly.
+  - _Keywords:_ position, sdegeo, imprint, contact, dimensions, rectangle, polygon, create
+- **Protecting Contacts** <a id="protecting-contacts"></a>
+  - If contacts are assigned to edges and faces using any of the sdegeo contact assignment commands, these contacts are protected.
+  - _Keywords:_ contact, contacts, protected, boundary, assigned, sdegeo, assignment, simplification
+- **Examples of Contact Assignments** <a id="examples-of-contact-assignments"></a>
+  - These examples illustrate how to create different 2D and 3D contacts.
+  - _Keywords:_ These, illustrate, create, different, contacts
+- **Creating Different 2D Contacts** <a id="creating-different-2d-contacts"></a>
+  - Create the device geometry: ```lisp (sdegeo:create-rectangle (position -1.0 0.0 0) (position 1.0 1.0 0) "Silicon" "R.Substrate") (sdegeo:create-rectangle (position -0.4 0.0 0) (position 0.4 -0.05 0) "Oxide" "R.Gox") (sdegeo:create-rectan...
+  - _Keywords:_ position, sdegeo, contact, create, source, rectangle, region, Assign
+- **Creating Different 3D Contacts** <a id="creating-different-3d-contacts"></a>
+  - Create the device geometry: ```clojure (sdegeo:create-cuboid (position -1.0 0.0 0.0) (position 1.0 1.0 -1.0) "Silicon" "R.Substrate") (sdegeo:create-cuboid (position -0.4 0.0 0.0) (position 0.4 1.0 0.05) "Oxide" "R.Gox") (sdegeo:create-c...
+  - _Keywords:_ position, sdegeo, contact, create, cuboid, define, region, thermode
+- **7: Electrical and Thermal Contacts** <a id="7-electrical-and-thermal-contacts"></a>
+- **Examples of Contact Assignments** <a id="examples-of-contact-assignments"></a>
+  - ![](images/sense_ug_part02_7f82839d01a7a6fe4e67e615234c204f73a81ceba50847518f3baca2bdbba150.jpg) Figure 116 Three-dimensional contact creation example: (left) initial device geometry, (middle) structure top view with “drain”, “gate”, and...
+  - _Keywords:_ structure, contacts, images, sense_ug_part02_7f82839d01a7a6fe4e67e615234c204f73a81ceba50847518f3baca2bdbba150, Three, dimensional, contact, creation
+- **Overview** <a id="overview"></a>
+  - In addition to defining the geometry of a structure, doping profiles and refinement parameters can be defined for different parts of the structure. The placement of these profiles and refinements as well as the areas to which the use of ...
+  - _Keywords:_ Ref, Eval, windows, geometric, refinement, profiles, refinements, regular
+- **Defining Areas for Mesh Refinement or Doping** <a id="defining-areas-for-mesh-refinement-or-doping"></a>
+  - Ref/Eval windows are areas in which a certain mesh refinement or doping profile is to be applied. These reference areas can take the form of a line segment, a rectangle, a polygon, a cuboid, or a polygon automatically extracted from a face.
+  - _Keywords:_ polygon, Ref, Eval, windows, certain, refinement, doping, profile
+- **Line-Segment Ref/Eval Windows** <a id="line-segment-ref-eval-windows"></a>
+  - Line-segment Ref/Eval windows are used as reference edges for placing implant-like doping profiles in two dimensions.
+  - _Keywords:_ Line, window, position, segment, Ref, Eval, define, corresponding
+- **Rectangular and Polygonal Ref/Eval Windows** <a id="rectangular-and-polygonal-ref-eval-windows"></a>
+  - Rectangular and polygonal Ref/Eval windows are used for placing mesh refinement or constant profiles in two dimensions, as well as reference faces for placing implant-like doping profiles in three dimensions.
+  - _Keywords:_ Ref, Eval, position, window, windows, define, Placement, polygon
+- **Cuboidal Ref/Eval Windows** <a id="cuboidal-ref-eval-windows"></a>
+  - Cuboidal Ref/Eval windows are used for placing mesh refinement or constant profiles in three dimensions.
+  - _Keywords:_ Ref, Eval, window, Placement, Cuboid, position, windows, define
+- **Extracting Ref/Eval Window From Face** <a id="extracting-ref-eval-window-from-face"></a>
+  - To create a Ref/Eval window that coincides with one or more faces of a 2D body for placing mesh refinement or constant profiles, or faces of a 3D body for placing implant-like doping profiles in three dimensions:
+  - _Keywords:_ Select, position, create, Ref, Eval, placing, profiles, button
+- **Extracting Ref/Eval Window From Body Interface** <a id="extracting-ref-eval-window-from-body-interface"></a>
+  - The Scheme extension sdedr:define-body-interface-refwin can be used to define a refinement window between the interfaces of the specified geometric bodies.
+  - _Keywords:_ define, position, interface, refwin, refinement, Scheme, window, sdegeo
+- **Extracting Ref/Eval Window From 3D Solid Body** <a id="extracting-ref-eval-window-from-3d-solid-body"></a>
+  - The Scheme extension extract-refpolyhedron can be used to convert a 3D geometric body to a polyhedral refinement window. The mesh manager of Sentaurus Structure Editor, which saves the tessellated polyhedral boundary for meshing, convert...
+  - _Keywords:_ refinement, define, position, extract, refpolyhedron, polyhedral, geometric, window
+- **Extracting Ref/Eval Windows From 3D Solid Body Interfaces** <a id="extracting-ref-eval-windows-from-3d-solid-body-interfaces"></a>
+  - The Scheme extensions extract-interface-offset-refwindow and extractinterface-normal-offset-refwindow are used to extract the non-regularized intersection between two solid bodies, and to create a 3D offset body from the non-regularized ...
+  - _Keywords:_ offset, interface, position, create, extract, refwindow, normal, DRS
+- **Deleting Ref/Eval Windows** <a id="deleting-ref-eval-windows"></a>
+  - To delete a Ref/Eval window:
+  - _Keywords:_ window, Ref, Eval, delete, Window, refeval, Click, RefEvalWin_1
+- **Mesh Refinement Definitions** <a id="mesh-refinement-definitions"></a>
+- **Regular Refinement Boxes** <a id="regular-refinement-boxes"></a>
+  - A mesh refinement box allows you to request from the meshing tool that in the specified area the mesh spacing should not exceed a given value and that mesh refinement should stop if the mesh size becomes smaller than a given value. Furth...
+  - _Keywords:_ refinement, smaller, mesher, create, needed, Mesh, Placement, allows
+- **3. Select the Placement Type:** <a id="3-select-the-placement-type"></a>
+  - a) To place the mesh refinement into a previously defined Ref/Eval window, select the required Ref/Eval window from the Ref/Eval Window list. b) To place the mesh refinement into a given region, select the required region name from the R...
+  - _Keywords:_ refinement, Ref, Eval, define, Refinement, window, material, select
+- **Multibox Refinements** <a id="multibox-refinements"></a>
+  - Multibox refinements are similar to regular refinement boxes, but here, the requested minimum mesh spacing can be graded. It starts with the minimum value given at a specified side of the refinement window and is expanded by a given fact...
+  - _Keywords:_ refinement, multibox, Multibox, Placement, minimum, Ref, Eval, define
+- **Sentaurus Mesh AxisAligned Section** <a id="sentaurus-mesh-axisaligned-section"></a>
+  - By default, the bisectional refinement algorithm of Sentaurus Mesh starts from the bounding box of the entire device structure. After all volume refinement criteria have been satisfied, the interfaces are introduced. This can result in m...
+  - _Keywords:_ Axis, Aligned, Mesh, refinement, algorithm, Sentaurus, source, yCuts
+- **Delaunizer Section** <a id="delaunizer-section"></a>
+  - The Delaunizer section contains parameters that control the behavior of the delaunization algorithms found in Sentaurus Mesh.
+  - _Keywords:_ Delaunizer, contains, control, behavior, delaunization, algorithms, Sentaurus, Mesh
+- **1. Choose Mesh > Delaunizer Parameters.** <a id="1-choose-mesh-delaunizer-parameters"></a>
+  - The Delaunizer Parameters dialog box is displayed.
+  - _Keywords:_ Delaunizer, details, summary, dialog, displayed, images, sense_ug_part02_e270f9f20194da94036e108645f2bee5cfcc612a561041c30cf087ac616ffa7d, text_image
+- **3. Click New.** <a id="3-click-new"></a>
+  - The Delaunay Tolerance dialog box is displayed.
+  - _Keywords:_ Delaunay, Tolerance, details, summary, Location, Corner, dialog, displayed
+- **4. Click Save.** <a id="4-click-save"></a>
+  - The corresponding Scheme commands are sdesnmesh:delaunizer on page 787 and sdesnmesh:delaunizer-tolerance on page 789, for example:
+  - _Keywords:_ sdesnmesh, delaunizer, tolerance, boundary, corresponding, Scheme, global, material
+- **Offsetting Refinements** <a id="offsetting-refinements"></a>
+  - The main algorithm in Sentaurus Mesh produces meshes that are mostly axis aligned. Even when refining curved interfaces, an adapted axis-aligned mesh is used by default. Sentaurus
+  - _Keywords:_ aligned, algorithm, curved, offsetting, Sentaurus, Mesh, interfaces, surfaces
+- **1. Choose Mesh > Offsetting Parameters.** <a id="1-choose-mesh-offsetting-parameters"></a>
+  - The Offsetting Parameters dialog box is displayed.
+  - _Keywords:_ Offsetting, details, summary, Block, Interface, region, maxlevel, factor
+- **Tensor Mesh Refinements** <a id="tensor-mesh-refinements"></a>
+  - To define tensor mesh refinements:
+  - _Keywords:_ tensor, Tensor, contents, sdesnmesh, Mesh, Scheme, double, quotation
+- **Tools Section** <a id="tools-section"></a>
+  - To define parameters in the Tools section of the mesh command (.cmd) file:
+  - _Keywords:_ Tools, contents, Mesh, sdesnmesh, double, quotation, Species, ScreeningFactor
+- **Defining Doping Profiles** <a id="defining-doping-profiles"></a>
+- **Constant Doping Profiles** <a id="constant-doping-profiles"></a>
+  - To define a constant doping profile:
+  - _Keywords:_ profile, constant, Placement, define, doping, Constant, defined, length
+- **Analytic Doping Profiles** <a id="analytic-doping-profiles"></a>
+  - To define an analytic doping profile:
+  - _Keywords:_ profile, Eval, Select, Ref, define, analytic, definition, baseline
+- **External 2D and 3D Doping Profiles** <a id="external-2d-and-3d-doping-profiles"></a>
+  - External 2D or 3D doping profiles can be included in a device structure. Such profiles are generated typically by a process simulator, such as Sentaurus Process. Often the extent of the external doping profile matches the device geometry...
+  - _Keywords:_ profile, define, submesh, external, placement, ExternalProfileDefinition_1, details, doping
+- **Particle Doping Profiles** <a id="particle-doping-profiles"></a>
+  - To define a particle doping profile:
+  - _Keywords:_ profile, particle, Placement, define, Particle, select, defined, previously
+- **Controlling the Boundary Tessellation** <a id="controlling-the-boundary-tessellation"></a>
+- **Global Tessellation Settings** <a id="global-tessellation-settings"></a>
+  - Internally, Sentaurus Structure Editor uses a representation of the geometric bodies that can include curved boundaries, for example, regions with circular or spline boundary edges in two dimensions, and regions with cylindrical or spher...
+  - _Keywords:_ tolerance, surface, details, summary, settings, setrefprops, tessellation, length
+- **Tessellating Spherical Faces** <a id="tessellating-spherical-faces"></a>
+  - The default faceter triangulates spherical faces in such a way that a pole is not visible in the tessellated surface. This minimizes the vertex connectivity at each vertex. By default, the "grid mode" faceter control is set to "AF\_GRID\...
+  - _Keywords:_ faceter, vertex, triangulates, spherical, visible, tessellated, surface, minimizes
+- **For example:** <a id="for-example"></a>
+  - ```lisp (sde:clear) (sdegeo:create-cuboid (position -1.0 -1.0 -1.0) (position 1.0 1.0 1.0) "Silicon" "region_1") (sdegeo:fillet (list (car (find-edge-id (position 0 1 1))) ```
+  - _Keywords:_ position, details, summary, sdegeo, spherical, tessellation, images, text_image
+- **Boundary Tessellation in Three Dimensions** <a id="boundary-tessellation-in-three-dimensions"></a>
+  - The TDR boundary output is created in Sentaurus Structure Editor using the so-called faceter component. During model generation, Sentaurus Structure Editor creates a native model with solid bodies that can have nonplanar faces (for examp...
+  - _Keywords:_ boundary, TDR, Sentaurus, Structure, Editor, faceter, component, native
+- **IOControls Section and Interpolate Section** <a id="iocontrols-section-and-interpolate-section"></a>
+  - The inputFile and outputFile parameters in the IOControls section can be defined using the IOControls Parameters dialog box or the sdesnmesh:iocontrols Scheme extension (see sdesnmesh:iocontrols on page 791).
+  - _Keywords:_ IOControls, Mesh, Interpolate, EnableSections, inputFile, defined, dialog, sdesnmesh
+- **QualityReport Section** <a id="qualityreport-section"></a>
+  - You can define the QualityReport section of the Sentaurus Mesh command file. This section can have one global block and multiple material and region blocks.
+  - _Keywords:_ Mesh, Material, Region, Select, QualityReport, Quality, Report, Min
+- **Building the Mesh** <a id="building-the-mesh"></a>
+  - After all refinement and doping specifications have been created, you can mesh the structure using Sentaurus Mesh.
+  - _Keywords:_ Mesh, Build, Sentaurus, Save, doping, created, details, summary
+- **Using the sdeepi:create-layerstack Scheme Extension** <a id="using-the-sdeepi-create-layerstack-scheme-extension"></a>
+  - The sdeepi:create-layerstack Scheme extension is useful for simulating compound semiconductor devices based on epitaxial layer stacks. Such structures are typically grown using epitaxial growth techniques such as metal-organic chemical v...
+  - _Keywords:_ sdeepi, epitaxial, CSV, create, layerstack, Scheme, extension, structure
+- **Command File** <a id="command-file"></a>
+  - The command file sde\_epi.csv contains all the information needed to create the layer stack. The file is preprocessed before execution as usual; therefore, it can include any common preprocessing and Tcl preprocessing statements.
+  - _Keywords:_ GaAs, global, AlGaAs, preprocessing, separated, CSV, commas, ignored
+- **Global Section** <a id="global-section"></a>
+  - The global section of the command file defines variables called global variables, which define the properties of the complete layer stack such as stack width, global refinement, and top and bottom contact names. The value of a particular...
+  - _Keywords:_ global, Yes, variables, direction, UCS, extent, coordinate, system
+- **Size and Position of Structure** <a id="size-and-position-of-structure"></a>
+  - The variables Xmin, Xmax, Ymin, Ymax, Zmin, and Zmax describe the extent of the layer stack in all three directions.
+  - _Keywords:_ UCS, coordinate, system, Ymax, ISE, details, summary, Xmin
+- **Global Refinement Strategy** <a id="global-refinement-strategy"></a>
+  - In addition to layerwise refinements (see Refinement Column on page 259), sdeepi:create-layerstack allows you to define a global refinement that is defined as a refinement window covering the entire layer stack.
+  - _Keywords:_ refinement, global, sdeepi, create, layerstack, entire, element, define
+- **User-Defined Extension Columns** <a id="user-defined-extension-columns"></a>
+  - In addition to the predefined layer properties, sdeepi:create-layerstack allows you to add user-defined layer properties. This can be useful in cases where some tools need additional layer-specific data. For example, to switch on radiati...
+  - _Keywords:_ properties, defined, column, create, additional, Rrad, global, append
+- **Layers Section** <a id="layers-section"></a>
+  - All layers of the layer stack are defined in the layers section, which consists of one line for each layer to be created. Basically, any line not starting with a hash (#) or a dollar sign (\$) is a layer line. Stack generation starts wit...
+  - _Keywords:_ GaAs, layers, Region, Material, Doping, columns, SourceParFile, Thickness
+- **Region Column** <a id="region-column"></a>
+  - The sdeepi:create-layerstack Scheme extension creates a region for each layer. The name of the region is specified in the Region column.
+  - _Keywords:_ region, sdeepi, create, layerstack, Scheme, extension, creates, specified
+- **Material Column** <a id="material-column"></a>
+  - For each layer, the names of materials that Sentaurus Device recognizes are specified in the Material column. For example, for a germanium layer, Germanium is specified in the Material column.
+  - _Keywords:_ materials, Sentaurus, Device, recognizes, specified, Material, column, germanium
+- **SourceParFile Column** <a id="sourceparfile-column"></a>
+  - If MatPar is not used for parameter file generation, the SourceParFile column is ignored and can remain empty.
+  - _Keywords:_ column, MatPar, generation, SourceParFile, ignored, remain, Otherwise, contains
+- **Thickness Column** <a id="thickness-column"></a>
+  - The thickness of each layer in micrometers is specified in the Thickness column. If the Thickness column is empty, or is less than or equal to zero, sdeepi:create-layerstack does not create the layer.
+  - _Keywords:_ Thickness, column, create, thickness, micrometers, specified, sdeepi, layerstack
+- **Doping Column** <a id="doping-column"></a>
+  - The doping information for each layer is specified in the Doping column. Doping values greater than zero create n-type doping using the dataset ArsenicActiveConcentration. Doping values less than zero create p-type doping using the datas...
+  - _Keywords:_ doping, profile, specified, constant, profiles, defined, concentration, Doping
+- **MoleFraction Column** <a id="molefraction-column"></a>
+  - The mole-fraction information of layers consisting of ternary or quaternary compound semiconductor materials is described in the MoleFraction column. The column is empty for elemental or binary semiconductors. A constant mole fraction or...
+  - _Keywords:_ fraction, profile, constant, profiles, colspan, specified, position, general
+- **Refinement Column** <a id="refinement-column"></a>
+  - The Refinement column in the command file offers two different meshing strategies:
+  - _Keywords:_ refinement, element, spacing, starts, direction, multibox, minimum, Grading
+- **Extension Columns** <a id="extension-columns"></a>
+  - In addition to the predefined layer properties, sdeepi:create-layerstack allows you to add multiple user-defined layer properties that are appended to the layer line as additional columns.
+  - _Keywords:_ region, column, Rrad, Tcl, emitter, Extension, sdeepi, additional
+- **Processing the Layer Stack** <a id="processing-the-layer-stack"></a>
+  - The sdeepi:create-layerstack Scheme extension creates a layer stack as it is produced during any nonstructuring deposition process, for example, molecular beam epitaxy (MBE) or metal organic vapor phase epitaxy (MOVPE). Subsequent comman...
+  - _Keywords:_ Scheme, variables, region, sdeepi, structure, details, summary, create
+- **References** <a id="references"></a>
+  - [1] Simulation of 2D Single-Junction GaAs Solar Cell, available from TCAD Sentaurus Version O-2018.06 installation, go to Applications\_Library/Solar/ SolarCell\_SingleJunct\_GaAs.
+  - _Keywords:_ Solar, Sentaurus, Scheme, Simulation, Single, Junction, GaAs, Cell
+- **Scheme Data Types** <a id="scheme-data-types"></a>
+  - The Scheme scripting language is used in Sentaurus Structure Editor and the process emulation module of Sentaurus Structure Editor (Procem).
+  - _Keywords:_ Scheme, entity, POSITION, Sentaurus, Structure, Editor, ACIS, position
+- **Basic Scheme Programming for Users of Sentaurus Structure Editor** <a id="basic-scheme-programming-for-users-of-sentaurus-structure-ed"></a>
+  - Sentaurus Structure Editor uses Scheme, or more precisely, the Elk extension of Scheme. Scheme is a LISP-like programming language that differs significantly from most of the commonly used programming languages. The effective use of Sent...
+  - _Keywords:_ Scheme, Sentaurus, Structure, Editor, Cambridge, Massachusetts, MIT, Press
+- **Basic Scheme Syntax** <a id="basic-scheme-syntax"></a>
+  - A Scheme command is enclosed in parentheses (white spaces are allowed):
+  - _Keywords:_ Scheme, comment, parentheses, several, enclosed, spaces, allowed, semicolon
+- **Defining Simple Variables and Data Types** <a id="defining-simple-variables-and-data-types"></a>
+  - Integers and floating-point numbers are treated as numbers. To declare and define a numeric variable:
+  - _Keywords:_ define, declare, variable, quotation, Hello, World, CHAR, Integers
+- **10: Working With Scheme and Scheme Extensions** <a id="10-working-with-scheme-and-scheme-extensions"></a>
+  - Basic Scheme Programming for Users of Sentaurus Structure Editor
+  - _Keywords:_ variable, Scheme, defined, variables, define, existing, Use, Basic
+- **Printing Text to Standard Output** <a id="printing-text-to-standard-output"></a>
+  - Use the display command to write to standard output. Use newline to create a line break:
+  - _Keywords:_ display, newline, Use, string, contains, standard, create, Hello
+- **String Operations** <a id="string-operations"></a>
+  - To automatically generate identifiers, for example, region names, certain string operations are useful.
+  - _Keywords:_ define, string, TEXTSTRING, RNAME, Region, REGIONNAME, length, STRINGLENGTH
+- **Lists** <a id="lists"></a>
+  - Some Sentaurus Structure Editor commands accept lists as arguments. Lists can also be useful in device parameterization. To define a list:
+  - _Keywords:_ define, Some, Sentaurus, Structure, Editor, accept, arguments, useful
+- **10: Working With Scheme and Scheme Extensions** <a id="10-working-with-scheme-and-scheme-extensions"></a>
+  - Basic Scheme Programming for Users of Sentaurus Structure Editor
+  - _Keywords:_ define, ABCList, reference, element, NUMList, elements, append, FirstElement
+- **Arithmetic Expressions** <a id="arithmetic-expressions"></a>
+  - Some of the most useful arithmetic operators are:
+  - _Keywords:_ define, variable, arithmetic, related, defined, Sentaurus, Structure, Editor
+- **Boolean Operations** <a id="boolean-operations"></a>
+  - True and false constants are denoted by #t and #f, respectively. Use not to invert a Boolean:
+  - _Keywords:_ define, position, Use, operator, string, constants, denoted, respectively
+- **If Blocks** <a id="if-blocks"></a>
+  - To create a simple If block:
+  - _Keywords:_ display, newline, Execute, condition, negative, create, define, Else
+- **Simple Do Loops** <a id="simple-do-loops"></a>
+  - In this example, a simple Do loop is used to create a stack of five silicon squares:
+  - _Keywords:_ define, create, square, REGION, string, position, simple, silicon
+- **For Each Loops** <a id="for-each-loops"></a>
+  - In a For Each loop, an action is taken for each element in a list. In the following example, the For Each loop steps through the lists MATERIALS, WIDTHS, and HEIGHTS, and creates a rectangle for each list element:
+  - _Keywords:_ define, MATERIALS, WIDTHS, HEIGHTS, MATERIAL, HEIGHT, element, rectangle
+- **Procedures** <a id="procedures"></a>
+  - Procedures can be implemented to reuse common code sections or to structure your scripts. The following example creates a ‘Unit Cell’ structure consisting of a slab of silicon with a shallow trench isolation (STI)– like oxide trench at t...
+  - _Keywords:_ define, procedure, string, CreateUnitCell, position, RAD, sdegeo, DEG
+- **System Calls** <a id="system-calls"></a>
+  - To call an external UNIX or TCAD Sentaurus utility:
+  - _Keywords:_ system, external, UNIX, TCAD, Sentaurus, utility, Unix, string
+- **Error Signaling to Sentaurus Workbench** <a id="error-signaling-to-sentaurus-workbench"></a>
+  - If the command system:command is used in a Sentaurus Structure Editor script and you want to signal the status of the executed command back to Sentaurus Workbench, use the following solution:
+  - _Keywords:_ Sentaurus, system, Structure, Editor, signal, executed, Workbench, Mycommand
+- **Entity IDs and Attributes** <a id="entity-ids-and-attributes"></a>
+  - Geometry-related operations in Sentaurus Structure Editor are based on ACIS, which is a boundary representation geometry kernel. Boundary representation uses a complex data structure describing the geometry. The data structure of a geome...
+  - _Keywords:_ bodies, defined, respect, representation, contains, described, internal, circular
+- **11: Geometric Query Functions** <a id="11-geometric-query-functions"></a>
+  - Topological Entity Types
+  - _Keywords:_ region, boundary, material, attribute, entity, format, TDR, bodies
+- **Topological Entity Types** <a id="topological-entity-types"></a>
+  - The valid entity types are:
+  - _Keywords:_ entity, topological, objects, restored, vertices, coedges, contain, vertex
+- **Selecting Geometric Objects** <a id="selecting-geometric-objects"></a>
+- **Graphic-Supported Object Selection** <a id="graphic-supported-object-selection"></a>
+  - Several different operations require the identification of geometric objects (entities). Either the GUI or direct Scheme functions can be used to identify entities. The GUI toolbar buttons (the Select button) can be used for interactive ...
+  - _Keywords:_ selected, entities, entity, Scheme, selection, vertex, different, GUI
+- **Script-Based Object Selection** <a id="script-based-object-selection"></a>
+  - To select all geometric bodies in the structures, use the Scheme command:
+  - _Keywords:_ position, entity, Scheme, geometric, bodies, entities, Ref, Eval
+- **11: Geometric Query Functions** <a id="11-geometric-query-functions"></a>
+- **Selecting Geometric Objects** <a id="selecting-geometric-objects"></a>
+  - For example: ```lisp (sdegeo:create-cuboid (position 0 0 0) (position 1 1 1) "Silicon" "region_1") (find-body-id (position 0.5 0.5 0.5)); -> ([body 5 1]) (find-face-id (position 0 0 0.5))); -> ([face 29 1] #[face 28 1]) (find-edge-id (po...
+  - _Keywords:_ position, sdegeo, vertex, closest, Silicon, region_1, material, region
+- **Finding Region Names and Material Properties** <a id="finding-region-names-and-material-properties"></a>
+  - When the ID of a certain topological entity is identified, the entity can be further investigated. As previously mentioned, each body has several different attributes attached. The function generic:get can be used to query the attributes...
+  - _Keywords:_ entity, generic, material, region, BODY, Silicon, region_1, attributes
+- **Automatic Region-Naming** <a id="automatic-region-naming"></a>
+  - Each body that is to be written to a TDR boundary file must have two attached attributes: the material attribute and region attribute. If the automatic region-naming option (choose Draw > Auto Region Naming) is switched on, each newly cr...
+  - _Keywords:_ region, naming, sdegeo, automatic, attribute, created, automatically, Scheme
+- **11: Geometric Query Functions** <a id="11-geometric-query-functions"></a>
+  - Finding Region Names and Material Properties
+  - _Keywords:_ region, counter, automatically, Scheme, explicitly, sdegeo, TDR, boundary
+- **List of Supported Materials** <a id="list-of-supported-materials"></a>
+  - Sentaurus Structure Editor uses the default datexcodes.txt file to load a list containing the allowable materials. This DATEX material list shows all of the defined DATEX materials and always shows the active DATEX material. If a GUI act...
+  - _Keywords:_ material, DATEX, active, materials, Sentaurus, Structure, Editor, datexcodes
+- **Finding Vertex Positions** <a id="finding-vertex-positions"></a>
+  - When the entity ID of a vertex (vertex\_id) is found (vertex:position vertex\_id), it can be used to return the position of a vertex.
+  - _Keywords:_ position, vertex, display, VERTEX, entity, define, BODY, sdegeo
+- **Vertex–Vertex Distance** <a id="vertex-vertex-distance"></a>
+  - To determine the distance between two vertices:
+  - _Keywords:_ vertex, distance, position, corresponding, sdegeo, Edit, Vertex, window
+- **Debugging Topological Entities** <a id="debugging-topological-entities"></a>
+  - When a geometric entity (for example, a body) is generated, a unique entity ID (an integer) is assigned to the body. This unique entity ID can be used to refer to that particular entity in further operations. The command (part:entities) ...
+  - _Keywords:_ entity, Writes, entities, information, unique, Scheme, debugging, argument
+- **Finding Edges, Faces, and Other Elements of a Body** <a id="finding-edges-faces-and-other-elements-of-a-body"></a>
+  - Several Scheme functions can be used to find edges, faces, and other elements of a body:
+  - _Keywords:_ entity, entities, define, specified, vertex, vertices, position, sdegeo
+- **Bounding Box Query** <a id="bounding-box-query"></a>
+  - To find the bounding box of an entity or a group of entities, use the Scheme command:
+  - _Keywords:_ position, entity, define, GlobalBBBOX, display, BODY1, sdegeo, create
+- **Scheme Functions for Entity Queries** <a id="scheme-functions-for-entity-queries"></a>
+  - Table 38 lists the Scheme functions that can be used to query entities and to find the type of the selected entities.
+  - _Keywords:_ Scheme, Determines, object, circular, elliptical, linear, spline, entity
+- **11: Geometric Query Functions** <a id="11-geometric-query-functions"></a>
+  - Scheme Functions for Entity Queries
+  - _Keywords:_ Scheme, Determines, object, closed, vertex, planar, Entity, Queries
+- **For example:** <a id="for-example"></a>
+  - ```lisp (define BODY (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silicon" "region_1")) (body? BODY) ; -> #t (face? BODY) ; -> #f ```
+  - _Keywords:_ BODY, position, define, sdegeo, create, rectangle, Silicon, region_1
+- **Background Image Loader** <a id="background-image-loader"></a>
+  - Sentaurus Structure Editor supports the creation of device geometries by digitizing images, for example, transmission electron micrographs (TEMs). These images can be loaded as a background image into the view window.
+  - _Keywords:_ format, GIF, GIF87a, GIF89a, Scheme, images, background, filename
+- **User-Defined Dialog Boxes** <a id="user-defined-dialog-boxes"></a>
+  - User-defined dialog boxes can be created to assist with the generation of parametric devices. This feature is accessible only from Scheme.
+  - _Keywords:_ dialog, create, defined, Scheme, necessary, bitmap, created, feature
+- **Example: Defining a Dialog Box** <a id="example-defining-a-dialog-box"></a>
+  - The following example illustrates how to define and use a dialog box.
+  - _Keywords:_ illustrates, define, dialog
+- **Step 1: Define a Scheme Function That the Dialog Box Will Execute** <a id="step-1-define-a-scheme-function-that-the-dialog-box-will-exe"></a>
+  - ```lisp (define create-3d-mosfet (lambda (Lsub Wsub Hsti Wsti Toxi Lgat) (define Hsil 1.0) (define Hpol 0.3) (define Xgat1 (* 0.5 (- Lsub Lgat))) (define Xgat2 (* 0.5 (+ Lsub Lgat))) (sdegeo:create-cuboid (position 0.0 0.0 0.0) (position...
+  - _Keywords:_ dialog, Wsub, Lsub, Hsil, position, create, define, Toxi
+- **Step 3: Launch the Dialog Box** _(p.33)_ <a id="step-3-launch-the-dialog-box"></a>
+  - (sde:dialog-show mos-3d-dialog)
+  - _Keywords:_ dialog, Lsub, defined, Step, details, summary, Lgat, Toxi
+- **Starting Sentaurus Structure Editor With User-Defined Variables** _(p.33–36)_ <a id="starting-sentaurus-structure-editor-with-user-defined-variab"></a>
+  - Scheme variables can be specified at the command line. When Sentaurus Structure Editor is launched, these variables are accessible from the Scheme command-line window (or in batch mode, the variables are defined for script execution). In...
+  - _Keywords:_ variables, varValue, Scheme, script, varName, defined, argument, cmdinputdemo
+- **User-Defined GUI Interactions** <a id="user-defined-gui-interactions"></a>
+- **Dialog Boxes for Obtaining Values** <a id="dialog-boxes-for-obtaining-values"></a>
+  - The following functions can be used to interact with the GUI and to receive user input:
+  - _Keywords:_ integer, string, CMOS, Total, Width, Wtot, interact, GUI
+- **GUI Actions for Obtaining Positions** <a id="gui-actions-for-obtaining-positions"></a>
+  - Simple support functions are also provided to perform interactive model manipulation.
+  - _Keywords:_ position, window, Scheme, interest, select, define, MyPosition, After
+- **Message Boxes** <a id="message-boxes"></a>
+  - To post a message box:
+  - _Keywords:_ message, SDE, dialog, button, clicked, continue, character, needed
+- **Presentation of Commands** <a id="presentation-of-commands"></a>
+  - Each Scheme command, function, or extension accepts zero or more arguments, and can return a value. The type of arguments and the return type are written in uppercase.
+  - _Keywords:_ Scheme, arguments, extension, accepts, written, uppercase, certain, indicated
+- **afm-smooth-layers** <a id="afm-smooth-layers"></a>
+  - Creates a layered structure from imported CSV data.
+  - _Keywords:_ Creates, layered, structure, imported, CSV
+- **Syntax** <a id="syntax"></a>
+  - (afm-smooth-layers fname z0 zplanar layerregion layermaterial layerthickness)
+  - _Keywords:_ REAL, zplanar, layerregion, layermaterial, layerthickness, Argument, STRING, smooth
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a layered lens structure with a texture map. The texture map is defined in a comma-separated value (CSV) file. fname is the name of the input file, z0 is the bottom z-coordinate, and zplanar is the top plana...
+  - _Keywords:_ texture, coordinate, Scheme, extension, creates, layered, structure, defined
+- **Examples** <a id="examples"></a>
+  - ```lisp (define n 10) (define a (* 2 PI)) (define oport (open-output-file "xx.csv")) (display ", " oport) (do ((i 0 (+ i 1))) ((> i n)) (display (/ (* i a) n) oport) (display ", " oport) ) (display "\n" oport) (do ((i 0 (+ i 1))) ((> i n...
+  - _Keywords:_ display, define, layermaterial, layerregion, layerthickness, position, TCO, Copper
+- **bbox** <a id="bbox"></a>
+  - Returns a bounding box of an entity.
+  - _Keywords:_ bounding, entity
+- **Syntax** <a id="syntax"></a>
+  - (bbox entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - POSITION LIST
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the minimum and maximum values corresponding to a diagonal across the bounding box of a body, relative to the active coordinate system.
+  - _Keywords:_ entity, Scheme, extension, bounding, entities, minimum, maximum, corresponding
+- **bbox-exact** <a id="bbox-exact"></a>
+  - Returns a tight bounding box of an entity.
+  - _Keywords:_ bounding, entity
+- **Syntax** <a id="syntax"></a>
+  - (bbox-exact entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - POSTION LIST
+  - _Keywords:_ POSTION
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the exact minimum and maximum values corresponding to a diagonal across the tight bounding box of a body, relative to the active coordinate system.
+  - _Keywords:_ entity, Scheme, extension, bounding, entities, minimum, maximum, corresponding
+- **body?** <a id="body"></a>
+  - Determines if a Scheme object is a body.
+  - _Keywords:_ Determines, Scheme, object
+- **Syntax** <a id="syntax"></a>
+  - (body? object)
+  - _Keywords:_ object, Argument, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if the object is a body; otherwise, it returns #f. The object specifies the Scheme object to be queried.
+  - _Keywords:_ object, Scheme, otherwise, specifies, queried
+- **Examples** <a id="examples"></a>
+  - ```lisp (define myrect (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silicon" "Region_1")) (body? myrect) ;; #t ```
+  - _Keywords:_ myrect, position, define, sdegeo, create, rectangle, Silicon, Region_1
+- **build-csv-lens** <a id="build-csv-lens"></a>
+  - Imports capability for AFM data.
+  - _Keywords:_ Imports, capability, AFM
+- **Syntax** <a id="syntax"></a>
+  - (build-csv-lens fname bottom-z material-name [region-name])
+  - _Keywords:_ bottom, material, region, Argument, STRING, REAL, DATEXMAT, optional
+- **Returns** <a id="returns"></a>
+  - ENTITY ID (body)
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - This Scheme extension can be used to create a solid body from user-defined data.
+  - _Keywords:_ tensor, define, coordinates, points, Scheme, extension, create, defined
+- **color:rgb** <a id="color-rgb"></a>
+  - Creates a red-green-blue (RGB) color object.
+  - _Keywords:_ Creates, RGB, object
+- **Syntax** <a id="syntax"></a>
+  - (color:rgb red green blue)
+  - _Keywords:_ REAL, Argument
+- **Returns** <a id="returns"></a>
+  - COLOR
+  - _Keywords:_ COLOR
+- **Description** <a id="description"></a>
+  - This Scheme extension specifies the red, green, and blue color components with normalized real numbers, ranging from 0 to 1.
+  - _Keywords:_ define, Scheme, extension, specifies, components, normalized, ranging, Some
+- **complete-edge-list** <a id="complete-edge-list"></a>
+  - Appends an edge list with all neighboring linear edges.
+  - _Keywords:_ Appends, neighboring, linear
+- **Syntax** <a id="syntax"></a>
+  - (complete-edge-list edge-list)
+  - _Keywords:_ Argument, complete, EDGE
+- **Returns** <a id="returns"></a>
+  - LIST
+- **Description** <a id="description"></a>
+  - This Scheme extension appends the specified edge list, edge-list, with all neighboring linear edges. If some 2D boundary simplification algorithms are used, which require an edge list as input, it is recommended to extend the edge list w...
+  - _Keywords:_ neighboring, linear, boundary, simplification, Scheme, extension, appends, specified
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define mb1 (sdegeo:create-rectangle (position 0 0 0) (position 10 10 0) "Silicon" "x1")) (define mb2 (sdegeo:create-rectangle (position 5 5 0) (position 15 15 0) "PolySilicon" "x2")) (define elit (entity:edges mb1)) ...
+  - _Keywords:_ define, position, sdegeo, create, rectangle, length, elistc, Silicon
+- **convert-to-degree** <a id="convert-to-degree"></a>
+  - Converts an angle from radian to degree.
+  - _Keywords:_ Converts, radian, degree
+- **Syntax** <a id="syntax"></a>
+  - (convert-to-degree angle)
+  - _Keywords:_ Argument, convert, degree, REAL
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension converts an angle from radian to degree.
+  - _Keywords:_ Scheme, extension, converts, radian, degree
+- **convert-to-radian** <a id="convert-to-radian"></a>
+  - Converts an angle from degree to radian.
+  - _Keywords:_ Converts, degree, radian
+- **Syntax** <a id="syntax"></a>
+  - (convert-to-radian angle)
+  - _Keywords:_ Argument, convert, radian, REAL
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension converts an angle from degree to radian.
+  - _Keywords:_ Scheme, extension, converts, degree, radian
+- **edge?** <a id="edge"></a>
+  - Determines if a Scheme object is an edge.
+  - _Keywords:_ Determines, Scheme, object
+- **Syntax** <a id="syntax"></a>
+  - (edge? object)
+  - _Keywords:_ object, Argument, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if a Scheme object is an edge. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, argument, specifies, queried
+- **edge:circular** <a id="edge-circular"></a>
+  - Creates an arc with the specified center position and radius.
+  - _Keywords:_ Creates, specified, center, position, radius
+- **Syntax** <a id="syntax"></a>
+  - (edge:circular center-position radius [start-angle=0 [end-angle=360]])
+  - _Keywords:_ REAL, center, position, radius, Argument, optional, circular, POSITION
+- **Returns** <a id="returns"></a>
+  - ENTITY (EDGE)
+  - _Keywords:_ ENTITY, EDGE
+- **Description** <a id="description"></a>
+  - For this Scheme function:
+  - _Keywords:_ center, position, specifies, degrees, Scheme, argument, radius, implicit
+- **edge:circular?** <a id="edge-circular"></a>
+  - Determines if a Scheme object is a circular edge.
+  - _Keywords:_ Determines, Scheme, object, circular
+- **Syntax** <a id="syntax"></a>
+  - (edge:circular? object)
+  - _Keywords:_ object, Argument, circular, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if a Scheme object is a circular edge. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, circular, argument, specifies, queried
+- **edge:elliptical?** <a id="edge-elliptical"></a>
+  - Determines if a Scheme object is an elliptical edge.
+  - _Keywords:_ Determines, Scheme, object, elliptical
+- **Syntax** <a id="syntax"></a>
+  - (edge:elliptical? object)
+  - _Keywords:_ object, Argument, elliptical, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if a Scheme object is an elliptical edge. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, elliptical, argument, specifies, queried
+- **edge:end** <a id="edge-end"></a>
+  - Returns the end position of an edge.
+  - _Keywords:_ position
+- **Syntax** <a id="syntax"></a>
+  - (edge:end edge)
+  - _Keywords:_ Argument, EDGE
+- **Returns** <a id="returns"></a>
+  - POSITION
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - This Scheme function returns the end position of an edge. The argument edge is an input edge.
+  - _Keywords:_ Scheme, position, argument
+- **edge:length** <a id="edge-length"></a>
+  - Returns the length of an edge.
+  - _Keywords:_ length
+- **Syntax** <a id="syntax"></a>
+  - (edge:length edge)
+  - _Keywords:_ Argument, length, EDGE
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - For this Scheme function, the argument edge is an input entity.
+  - _Keywords:_ Scheme, argument, entity
+- **edge:linear** <a id="edge-linear"></a>
+  - Creates a linear edge between two locations.
+  - _Keywords:_ Creates, linear, between, locations
+- **Syntax** <a id="syntax"></a>
+  - (edge:linear position position)
+  - _Keywords:_ position, Argument, linear, POSITION
+- **Returns** <a id="returns"></a>
+  - ENTITY (EDGE)
+  - _Keywords:_ ENTITY, EDGE
+- **Description** <a id="description"></a>
+  - This Scheme function specifies locations as positions. The first position argument specifies the start location of the line. The second position argument specifies the end location of the line.
+  - _Keywords:_ specifies, position, argument, location, Scheme, locations, positions, second
+- **Examples** <a id="examples"></a>
+  - ```lisp ; Scheme function ; edge:linear ; Create two linear edges given two positions. (define edge1 (edge:linear (position 0 0 0) (position 30 30 0))) ```
+  - _Keywords:_ linear, position, Scheme, Create, positions, define
+- **edge:linear?** <a id="edge-linear"></a>
+  - Determines if a Scheme object is a linear edge.
+  - _Keywords:_ Determines, Scheme, object, linear
+- **Syntax** <a id="syntax"></a>
+  - (edge:linear? object)
+  - _Keywords:_ object, Argument, linear, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if a Scheme object is a linear edge. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, linear, argument, specifies, queried
+- **Examples** <a id="examples"></a>
+  - ```lisp (define myrect (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silicon" "Region_1")) (define myedges (entity:edges myrect)) (edge:linear? (list-ref myedges 0)) ;; #t ```
+  - _Keywords:_ define, myrect, position, myedges, sdegeo, create, rectangle, Silicon
+- **edge:mid-point** <a id="edge-mid-point"></a>
+  - Returns the midpoint position of an edge.
+  - _Keywords:_ midpoint, position
+- **Syntax** <a id="syntax"></a>
+  - (edge:mid-point edge [approximation=#t])
+  - _Keywords:_ approximation, Argument, EDGE, BOOLEAN, optional
+- **Returns** <a id="returns"></a>
+  - POSITION
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - For this Scheme function, when the argument approximation is set to TRUE, it returns the exact geometric midpoint of the edge, while FALSE returns the midpoint in parameter space. The default is TRUE. The argument edge is an input entity.
+  - _Keywords:_ argument, midpoint, Scheme, approximation, geometric, entity
+- **edge:start** <a id="edge-start"></a>
+  - Returns the starting position of the edge.
+  - _Keywords:_ starting, position
+- **Syntax** <a id="syntax"></a>
+  - (edge:start edge)
+  - _Keywords:_ Argument, EDGE
+- **Returns** <a id="returns"></a>
+  - POSITION
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - This Scheme function returns the starting position of the edge.
+  - _Keywords:_ Scheme, starting, position
+- **edge:type** <a id="edge-type"></a>
+  - Determines the type of an edge.
+  - _Keywords:_ Determines
+- **Syntax** <a id="syntax"></a>
+  - (edge:type edge)
+  - _Keywords:_ Argument, EDGE
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme function determines the type of an edge, where the argument edge specifies an edge.
+  - _Keywords:_ Scheme, determines, argument, specifies
+- **entity:box** <a id="entity-box"></a>
+  - Returns the extrema box of an entity.
+  - _Keywords:_ extrema, entity
+- **Syntax** <a id="syntax"></a>
+  - (entity:box entity-list [create-box])
+  - _Keywords:_ entity, create, Argument, ENTITY, BOOLEAN, optional
+- **Returns** <a id="returns"></a>
+  - POSITION LIST
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - This Scheme function returns the minimum and maximum values corresponding to a diagonal across the bounding box of a body, relative to the active coordinate system.
+  - _Keywords:_ entity, Scheme, argument, entities, minimum, maximum, corresponding, diagonal
+- **entity:copy** <a id="entity-copy"></a>
+  - Copies any entity (such as solid, face, edge) and all entities attached to it.
+  - _Keywords:_ Copies, entity, entities, attached
+- **Syntax** <a id="syntax"></a>
+  - (entity:copy entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - ENTITY | ENTITY LIST
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - For this Scheme function, the argument entity-list specifies an entity or entity list to be copied.
+  - _Keywords:_ entity, Scheme, argument, specifies, copied
+- **entity:debug** <a id="entity-debug"></a>
+  - Prints information about the data structure of an entity.
+  - _Keywords:_ Prints, information, structure, entity
+- **Syntax** <a id="syntax"></a>
+  - (entity:debug entity [level])
+  - _Keywords:_ entity, Argument, ENTITY, INTEGER, optional
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - For this Scheme function, the argument entity specifies the entity to be queried.
+  - _Keywords:_ entity, writes, information, Scheme, argument, specific, associated, entities
+- **entity:deep-copy** <a id="entity-deep-copy"></a>
+  - Deep copies an entity (solid, face, edge, and so on) as well as all attached entities.
+  - _Keywords:_ Deep, copies, entity, attached, entities
+- **Syntax** <a id="syntax"></a>
+  - (entity:deep-copy entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - ENTITY | ENTITY LIST
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - The difference between the Scheme functions entity:deep-copy and entity:copy is that entity:deep-copy makes a copy of splf\_splf; whereas, entity:copy creates a pointer to splf\_splf.
+  - _Keywords:_ entity, between, difference, Scheme, whereas, creates, pointer, functionality
+- **entity:delete** <a id="entity-delete"></a>
+  - Deletes an entity or a list of entities, and any attributes attached to those entities.
+  - _Keywords:_ entities, Deletes, entity, attributes, attached
+- **Syntax** <a id="syntax"></a>
+  - (entity:delete entity-list)
+  - _Keywords:_ entity, Argument, ENTITY, delete
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - For this Scheme function, the argument entity-list specifies an entity or entity list to be deleted.
+  - _Keywords:_ entity, Scheme, argument, specifies, deleted
+- **entity:dist** <a id="entity-dist"></a>
+  - Obtains the minimum distance between two entities, or an entity and a position.
+  - _Keywords:_ Obtains, minimum, distance, between, entities, entity, position
+- **Syntax** <a id="syntax"></a>
+  - (entity:dist part1 part2 [acis-opts])
+  - _Keywords:_ Argument, ENTITY, POSITION, entity, ACIS, optional
+- **Returns** <a id="returns"></a>
+  - (REAL POSITION (ENTITY | ENTITY LIST . STRING))
+  - _Keywords:_ ENTITY, REAL, POSITION, STRING
+- **Description** <a id="description"></a>
+  - Using the two input entities, this Scheme function finds a position on each entity such that the distance between the two is the minimum distance. Supported entities include VERTEX, EDGE, LOOP, FACE, WIRE, SHELL, LUMP, and BODY.
+  - _Keywords:_ distance, entities, Scheme, position, entity, minimum, between, Supported
+- **Limitations** <a id="limitations"></a>
+  - If part1 is defined as a position, part2 must be an entity.
+  - _Keywords:_ defined, position, entity
+- **entity:edges** <a id="entity-edges"></a>
+  - Returns a list of all edge entities of an entity or a list of entities.
+  - _Keywords:_ entities, entity
+- **Syntax** <a id="syntax"></a>
+  - (entity:edges entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - EDGE | EDGE LIST
+  - _Keywords:_ EDGE
+- **Description** <a id="description"></a>
+  - This Scheme function returns a list of the edges for the input entity-list. It returns an empty list when no edges are found.
+  - _Keywords:_ Scheme, entity
+- **entity:erase** <a id="entity-erase"></a>
+  - Erases, but does not remove, the specified entity or list of entities.
+  - _Keywords:_ Erases, remove, specified, entity, entities
+- **Syntax** <a id="syntax"></a>
+  - (entity:erase entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - Input entity-list.
+  - _Keywords:_ entity
+- **Description** <a id="description"></a>
+  - For this Scheme function, the argument entity-list is an entity or a list of entities to be erased from the display. The entities remain available for later redisplay. To redisplay an erased entity or a list of entities, use the Scheme f...
+  - _Keywords:_ entity, entities, Scheme, erased, redisplay, argument, display, remain
+- **entity:faces** <a id="entity-faces"></a>
+  - Returns a list of all face entities of an entity or a list of entities.
+  - _Keywords:_ entities, entity
+- **Syntax** <a id="syntax"></a>
+  - (entity:faces entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - FACE | FACE LIST
+  - _Keywords:_ FACE
+- **Description** <a id="description"></a>
+  - This Scheme function returns an empty list when no faces are found. The input argument is an entity-list from which a list of all faces is to be obtained.
+  - _Keywords:_ Scheme, argument, entity, obtained
+- **entity:loops** <a id="entity-loops"></a>
+  - Returns a list of all loops of an entity or a list of entities.
+  - _Keywords:_ entity, entities
+- **Syntax** <a id="syntax"></a>
+  - (entity:loops entity-list [include-pat])
+  - _Keywords:_ entity, include, Argument, ENTITY, INTEGER, optional
+- **Returns** <a id="returns"></a>
+  - LOOP | LOOP LIST
+  - _Keywords:_ LOOP
+- **Description** <a id="description"></a>
+  - This Scheme function returns a list of all the loops of an entity. If no loops are found, this Scheme function returns an empty list. The argument entity-list specifies an entity or entity list to be queried.
+  - _Keywords:_ objects, entity, patterned, included, argument, Scheme, already, specifies
+- **entity:lumps** <a id="entity-lumps"></a>
+  - Obtains a list of all lumps of an entity or a list of entities.
+  - _Keywords:_ Obtains, entity, entities
+- **Syntax** <a id="syntax"></a>
+  - (entity:lumps entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - LUMP | LUMP LIST
+  - _Keywords:_ LUMP
+- **Description** <a id="description"></a>
+  - This Scheme function returns a list of all the lumps of an entity. If no lumps are found, this Scheme function returns an empty list. The argument entity-list specifies an entity or entity list to be queried.
+  - _Keywords:_ entity, Scheme, argument, specifies, queried
+- **entity:set-color** <a id="entity-set-color"></a>
+  - Sets the display color for an entity or a list of entities.
+  - _Keywords:_ display, entity, entities
+- **Syntax** <a id="syntax"></a>
+  - (entity:set-color entity-list color)
+  - _Keywords:_ entity, Argument, ENTITY, COLOR
+- **Returns** <a id="returns"></a>
+  - Previous color of entity.
+  - _Keywords:_ Previous, entity
+- **Description** <a id="description"></a>
+  - This Scheme function sets the display color for an entity or a list of entities.
+  - _Keywords:_ entity, entities, Scheme, argument, specifies, assigned, display, accept
+- **Examples** <a id="examples"></a>
+  - Example 1 ```txt (sde:clear) (sdegeo:set-default-boolean "ABA") (sdegeo:create-cuboid (position 0 0 0) (position 1 1 1) "Silver" "region_1") (sdegeo:create-sphere (position 1 1 1) 0.5 "SiliconCarbide" "region_2") (entity:set-color (find-...
+  - _Keywords:_ position, sdegeo, entity, create, cuboid, boolean, ABA, Silver
+- **entity:shells** <a id="entity-shells"></a>
+  - Returns a list of shell entities from a topological entity or a list of entities.
+  - _Keywords:_ entities, topological, entity
+- **Syntax** <a id="syntax"></a>
+  - (entity:shells entity-list [include-pat])
+  - _Keywords:_ entity, include, Argument, ENTITY, shells, INTEGER, optional
+- **Returns** <a id="returns"></a>
+  - SHELL | SHELL LIST
+  - _Keywords:_ SHELL
+- **Description** <a id="description"></a>
+  - This Scheme function returns a list of the shells of an entity. If no shell entities are found, this Scheme function returns an empty list.
+  - _Keywords:_ objects, entity, patterned, included, argument, Scheme, entities, already
+- **entity:vertices** <a id="entity-vertices"></a>
+  - Returns a list of all vertices in an entity or a list of entities.
+  - _Keywords:_ vertices, entity, entities
+- **Syntax** <a id="syntax"></a>
+  - (entity:vertices entity-list)
+  - _Keywords:_ entity, Argument, ENTITY, vertices
+- **Returns** <a id="returns"></a>
+  - VERTEX | VERTEX LIST
+  - _Keywords:_ VERTEX
+- **Description** <a id="description"></a>
+  - This Scheme function returns a list of the vertices for the input entity-list. It returns an empty list if no vertices are found.
+  - _Keywords:_ vertices, Scheme, entity
+- **env:set-tolerance** <a id="env-set-tolerance"></a>
+  - Sets the following system tolerances: resabs, resnor, resfit, and resmch.
+  - _Keywords:_ system, tolerances, resabs, resnor, resfit, resmch
+- **Syntax** <a id="syntax"></a>
+  - (env:set-tolerance resabs resnor resfit resmch)
+  - _Keywords:_ REAL, resabs, resnor, resfit, resmch, Argument, tolerance
+- **Returns** <a id="returns"></a>
+  - The set tolerance values: (REAL REAL REAL REAL).
+  - _Keywords:_ REAL, tolerance
+- **Description** <a id="description"></a>
+  - This Scheme function sets the modeling tolerances. The system tolerances are set in the following order: resabs, resnor, resfit, and resmch. The ratio of resabs to resnor is the largest number that can be represented, that is, the modeli...
+  - _Keywords:_ modeling, tolerances, resabs, resnor, Scheme, system, resfit, resmch
+- **The arguments are:** <a id="the-arguments-are"></a>
+  - resabs determines whether two positions in space are equal. This tolerance defines the smallest distance between two distinct points. resnor checks a number for equality with 0. This tolerance checks components of numbers that are 0 to d...
+  - _Keywords:_ whether, tolerance, resnor, checks, BOOLEAN, resabs, determines, positions
+- **env:tolerance** <a id="env-tolerance"></a>
+  - Returns the system tolerances in a list (resabs, resnor, resfit, and resmch).
+  - _Keywords:_ system, tolerances, resabs, resnor, resfit, resmch
+- **Syntax** <a id="syntax"></a>
+  - (env:tolerance)
+  - _Keywords:_ tolerance
+- **Returns** <a id="returns"></a>
+  - The set tolerance values: (REAL REAL REAL REAL).
+  - _Keywords:_ REAL, tolerance
+- **Description** <a id="description"></a>
+  - This Scheme function returns the system tolerances in the following order: resabs, resnor, resfit, resmch. The Scheme function env:set-tolerance explains each tolerance value.
+  - _Keywords:_ Scheme, tolerance, system, tolerances, resabs, resnor, resfit, resmch
+- **See Also** <a id="see-also"></a>
+  - env:set-tolerance on page 329
+  - _Keywords:_ tolerance
+- **erf** <a id="erf"></a>
+  - Error function.
+  - _Keywords:_ Error
+- **Syntax** <a id="syntax"></a>
+  - (erf value)
+  - _Keywords:_ Argument, REAL
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the error function (erf) value of the input.
+  - _Keywords:_ Scheme, extension
+- **erfc** <a id="erfc"></a>
+  - Complementary error function.
+  - _Keywords:_ Complementary
+- **Syntax** <a id="syntax"></a>
+  - (erfc value)
+  - _Keywords:_ Argument, REAL
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the complementary error function (erfc) value of the input.
+  - _Keywords:_ Scheme, extension, complementary
+- **exists-empty-mask-name** <a id="exists-empty-mask-name"></a>
+  - Checks whether the specified empty mask exists.
+  - _Keywords:_ Checks, whether, specified, exists
+- **Syntax** <a id="syntax"></a>
+  - (exists-empty-mask-name maskname)
+  - _Keywords:_ maskname, Argument, exists, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension checks whether the specified empty mask exists.
+  - _Keywords:_ Scheme, extension, checks, whether, specified, exists
+- **exists-mask-name** <a id="exists-mask-name"></a>
+  - Checks whether the specified mask exists.
+  - _Keywords:_ Checks, whether, specified, exists
+- **Syntax** <a id="syntax"></a>
+  - (exists-mask-name maskname)
+  - _Keywords:_ maskname, Argument, exists, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension checks whether the specified mask exists.
+  - _Keywords:_ Scheme, extension, checks, whether, specified, exists
+- **extract-interface-normal-offset-refwindow** <a id="extract-interface-normal-offset-refwindow"></a>
+  - Creates a doping/refinement/submesh (DRS) body by offsetting, in the normal direction, the non-regularized intersection of the two input bodies.
+  - _Keywords:_ Creates, doping, refinement, submesh, DRS, offsetting, normal, direction
+- **Syntax** <a id="syntax"></a>
+  - (extract-interface-normal-offset-refwindow body1 body2 offset-distance refwindowname)
+  - _Keywords:_ offset, distance, refwindowname, Argument, ENTITY, extract, interface, normal
+- **Returns** <a id="returns"></a>
+  - ENTITY ID of the created Ref/Eval window.
+  - _Keywords:_ ENTITY, created, Ref, Eval, window
+- **Description** <a id="description"></a>
+  - This command generates the non-regularized intersection between two bodies, and creates a 3D offset body from the non-regularized intersection, by offsetting the faces of the interface body in the normal direction, and assigns it as a DR...
+  - _Keywords:_ regularized, intersection, generates, between, bodies, creates, offset, offsetting
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define mb1 (sdegeo:create-cuboid (position 0 0 0) (position 10 10 4) "Silicon" "x1")) (define mb2 (sdegeo:create-cylinder (position 5 5 4) (position 5 5 8) 2 "PolySilicon" "x2")) (extract-interface-normal-offset-refw...
+  - _Keywords:_ position, define, sdegeo, create, cuboid, Silicon, cylinder, PolySilicon
+- **extract-interface-offset-refwindow** <a id="extract-interface-offset-refwindow"></a>
+  - Creates a DRS body by offsetting the non-regularized intersection of the two input bodies.
+  - _Keywords:_ Creates, DRS, offsetting, regularized, intersection, bodies
+- **Syntax** <a id="syntax"></a>
+  - (extract-interface-offset-refwindow body1 body2 offset-distance refwindowname)
+  - _Keywords:_ offset, distance, refwindowname, Argument, ENTITY, extract, interface, refwindow
+- **Returns** <a id="returns"></a>
+  - ENTITY ID of the created Ref/Eval window.
+  - _Keywords:_ ENTITY, created, Ref, Eval, window
+- **Description** <a id="description"></a>
+  - This command generates the non-regularized intersection between two bodies, and creates a 3D offset body from the non-regularized intersection and assigns it as a DRS body.
+  - _Keywords:_ regularized, intersection, generates, between, bodies, creates, offset, assigns
+- **Examples** <a id="examples"></a>
+  - ```txt (sde:clear) (define mb1 (sdegeo:create-cuboid (position 0 0 0) (position 10 10 4) "Silicon" "x1")) (define mb2 (sdegeo:create-cylinder (position 5 5 4) (position 5 5 8) 2 "PolySilicon" "x2")) (extract-interface-offset-refwindow mb...
+  - _Keywords:_ position, define, sdegeo, create, cuboid, Silicon, cylinder, PolySilicon
+- **extract-refpolyhedron** <a id="extract-refpolyhedron"></a>
+  - Defines a refinement window, matching the specified 3D solid body.
+  - _Keywords:_ Defines, refinement, window, matching, specified
+- **Syntax** <a id="syntax"></a>
+  - (extract-refpolyhedron bodyid refwindowname)
+  - _Keywords:_ bodyid, refwindowname, Argument, extract, refpolyhedron, ENTITY, STRING
+- **Returns** <a id="returns"></a>
+  - ENTITY
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - This Scheme extension converts a 3D geometric body to a polyhedral refinement window. The mesh manager of Sentaurus Structure Editor, which saves the tessellated polyhedral boundary for meshing, converts the 3D geometric body (possibly w...
+  - _Keywords:_ polyhedral, converts, geometric, refinement, window, Scheme, extension, manager
+- **Examples** <a id="examples"></a>
+  - Example 1
+  - _Keywords:_ define, position, sdegeo, create, Silicon, extract, refpolyhedron, refinement
+- **extract-refwindow** <a id="extract-refwindow"></a>
+  - Defines refinement windows, matching the specified geometry face or faces.
+  - _Keywords:_ Defines, refinement, windows, matching, specified, geometry
+- **Syntax** <a id="syntax"></a>
+  - (extract-refwindow faceid refwindowname)
+  - _Keywords:_ faceid, refwindowname, Argument, FACE, extract, refwindow, EDGE, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the specified face list (or the specified single face list), extracts the vertex list for each face, and defines a separate polygonal refinement window for each face. Planar faces will have the correspo...
+  - _Keywords:_ refinement, polygon, Scheme, extension, specified, single, separate, defined
+- **Examples** <a id="examples"></a>
+- **Example 1** <a id="example-1"></a>
+  - ```lisp (sde:clear) (define mypyramid (sdegeo:create-pyramid (position 0 0 0) 20 40 40 6 12 "PolySilicon" "r1")) (define myface (list-ref (entity:faces mypyramid) 2)) (extract-refwindow myface "refinement1") ```
+  - _Keywords:_ define, position, extract, refwindow, sdegeo, mflist, create, entity
+- **face:area** <a id="face-area"></a>
+  - Obtains the area of a face.
+  - _Keywords:_ Obtains
+- **Syntax** <a id="syntax"></a>
+  - (face:area face)
+  - _Keywords:_ Argument, FACE
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme function calculates the area of a specified face. The accuracy of the calculation is fixed at 0.001 for an area of geometry that cannot be determined analytically. The argument face is an input face.
+  - _Keywords:_ Scheme, calculates, specified, accuracy, calculation, geometry, cannot, determined
+- **face:conical?** <a id="face-conical"></a>
+  - Determines if a Scheme object is a conical face.
+  - _Keywords:_ Determines, Scheme, object, conical
+- **Syntax** <a id="syntax"></a>
+  - (face:conical? object)
+  - _Keywords:_ object, Argument, conical, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if the object is a conical face; otherwise, it returns #f. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ object, Scheme, conical, otherwise, argument, specifies, queried
+- **face:cylindrical?** <a id="face-cylindrical"></a>
+  - Determines if a Scheme object is a cylindrical face.
+  - _Keywords:_ Determines, Scheme, object, cylindrical
+- **Syntax** <a id="syntax"></a>
+  - (face:cylindrical? object)
+  - _Keywords:_ object, Argument, cylindrical, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - In this Scheme function, the returned Boolean specifies whether the supplied entity input is a cylindrical face. The input argument is a cylindrical face and not a solid cylinder. The argument object specifies the Scheme object to be que...
+  - _Keywords:_ Scheme, specifies, cylindrical, argument, object, returned, Boolean, whether
+- **face:planar?** <a id="face-planar"></a>
+  - Determines if a Scheme object is a planar face.
+  - _Keywords:_ Determines, Scheme, object, planar
+- **Syntax** <a id="syntax"></a>
+  - (face:planar? object)
+  - _Keywords:_ object, Argument, planar, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if the specified object is a planar face. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ object, Scheme, specified, planar, argument, specifies, queried
+- **face:plane-normal** <a id="face-plane-normal"></a>
+  - Returns the face normal of a planar face.
+  - _Keywords:_ normal, planar
+- **Syntax** <a id="syntax"></a>
+  - (face:plane-normal face)
+  - _Keywords:_ Argument, normal, ENTITY, FACE
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - This Scheme function returns the face normal of the specified planar face.
+  - _Keywords:_ Scheme, normal, specified, planar
+- **face:spherical?** <a id="face-spherical"></a>
+  - Determines if a Scheme object is a spherical face.
+  - _Keywords:_ Determines, Scheme, object, spherical
+- **Syntax** <a id="syntax"></a>
+  - (face:spherical? object)
+  - _Keywords:_ object, Argument, spherical, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if the specified object is a spherical face. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ object, Scheme, specified, spherical, argument, specifies, queried
+- **face:spline?** <a id="face-spline"></a>
+  - Determines if a Scheme object is a face–spline.
+  - _Keywords:_ Determines, Scheme, object, spline
+- **Syntax** <a id="syntax"></a>
+  - (face:spline? object)
+  - _Keywords:_ object, Argument, spline, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function determines if a Scheme object is a face–spline. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, determines, spline, argument, specifies, queried
+- **face:toroidal?** <a id="face-toroidal"></a>
+  - Determines if a Scheme object is a toroidal face.
+  - _Keywords:_ Determines, Scheme, object, toroidal
+- **Syntax** <a id="syntax"></a>
+  - (face:toroidal? object)
+  - _Keywords:_ object, Argument, toroidal, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function determines if a Scheme object is a toroidal face. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, determines, toroidal, argument, specifies, queried
+- **filter:type** <a id="filter-type"></a>
+  - Creates a filter entity that selects a type of entity.
+  - _Keywords:_ entity, Creates, filter, selects
+- **Syntax** <a id="syntax"></a>
+  - (filter:type type-name)
+  - _Keywords:_ Argument, filter, STRING
+- **Returns** <a id="returns"></a>
+  - FILTER
+  - _Keywords:_ FILTER
+- **Description** <a id="description"></a>
+  - This Scheme function creates the specified type-name as a filter, which specifies the type of entity to be used in another filter operation. If a new type filter is created, it replaces the previously defined type.
+  - _Keywords:_ filter, Scheme, specifies, entity, created, spline, creates, specified
+- **Examples** <a id="examples"></a>
+  - (filter:type "edge:linear?")
+  - _Keywords:_ filter, linear
+- **find-body-id** <a id="find-body-id"></a>
+  - Finds the entity numbers of a body.
+  - _Keywords:_ Finds, entity
+- **Syntax** <a id="syntax"></a>
+  - (find-body-id position)
+  - _Keywords:_ position, Argument, POSITION
+- **Returns** <a id="returns"></a>
+  - BODY LIST
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through all bodies, (get-body-list), and returns the ACIS entity IDs of all bodies that contain the specified position. The position can be lying on a boundary face or vertex, or can be an internal point.
+  - _Keywords:_ bodies, position, Scheme, extension, through, ACIS, entity, IDs
+- **find-body-id-drs** <a id="find-body-id-drs"></a>
+  - Finds the entity numbers of a body for a refinement/evaluation (Ref/Eval) window body.
+  - _Keywords:_ Finds, entity, refinement, evaluation, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (find-body-id-drs position)
+  - _Keywords:_ position, Argument, POSITION
+- **Returns** <a id="returns"></a>
+  - BODY LIST
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the body list of all defined Ref/Eval window bodies and returns the ACIS entity IDs of all bodies that contain the specified position. The position can be lying on a boundary face or can be an internal ...
+  - _Keywords:_ bodies, position, Scheme, extension, through, defined, Ref, Eval
+- **find-drs-id** <a id="find-drs-id"></a>
+  - Returns the entity numbers of a Ref/Eval window body.
+  - _Keywords:_ entity, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (find-drs-id DRSname)
+  - _Keywords:_ DRSname, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - BODY
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through all defined Ref/Eval window bodies and returns the ACIS entity IDs of the Ref/Eval window body that matches the specified DRS name. (The DRS name is a unique identifier of each Ref/Eval window body.)
+  - _Keywords:_ Ref, Eval, window, DRS, Scheme, extension, through, defined
+- **find-edge-id** <a id="find-edge-id"></a>
+  - Finds the entity numbers of an edge.
+  - _Keywords:_ Finds, entity
+- **Syntax** <a id="syntax"></a>
+  - (find-edge-id position body)
+  - _Keywords:_ position, Argument, BODY, POSITION
+- **Returns** <a id="returns"></a>
+  - EDGE LIST
+  - _Keywords:_ EDGE
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the edge list of all defined bodies, (entity:edges (get-body-list)), and returns the ACIS entity IDs of all edges that contain the specified position. The position can be either an end vertex position o...
+  - _Keywords:_ position, Scheme, extension, bodies, entity, through, defined, ACIS
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 1 1 1) "Silicon" "x1") (sdegeo:create-cuboid (position 1 0 0) (position 2 1 1) "PolySilicon" "x2") (define chamferedges (find-edge-id (position 1 0.5 1) (find-material-...
+  - _Keywords:_ position, sdegeo, create, cuboid, Silicon, chamferedges, PolySilicon, define
+- **find-edge-id-drs** <a id="find-edge-id-drs"></a>
+  - Finds the entity numbers of an edge for a Ref/Eval window body.
+  - _Keywords:_ Finds, entity, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (find-edge-id-drs position)
+  - _Keywords:_ position, Argument, POSITION
+- **Returns** <a id="returns"></a>
+  - EDGE LIST
+  - _Keywords:_ EDGE
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the edge list of all defined Ref/Eval window bodies and returns the ACIS entity IDs of all edges that contain the specified position. The position can be either an end vertex position of the edge or an ...
+  - _Keywords:_ position, Scheme, extension, through, defined, Ref, Eval, window
+- **find-face-id** <a id="find-face-id"></a>
+  - Finds the entity numbers of a face.
+  - _Keywords:_ Finds, entity
+- **Syntax** <a id="syntax"></a>
+  - (find-face-id position | gvector)
+  - _Keywords:_ position, gvector, Argument, POSITION, GVECTOR
+- **Returns** <a id="returns"></a>
+  - FACE LIST
+  - _Keywords:_ FACE
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the face list of all defined bodies, (entity:faces (get-body-list)), and returns the ACIS entity IDs of all faces that contain the specified position. The position can be either a position lying on a bo...
+  - _Keywords:_ position, entity, specified, Scheme, extension, through, defined, bodies
+- **find-face-id-drs** <a id="find-face-id-drs"></a>
+  - Finds the entity numbers of a face for a Ref/Eval window body.
+  - _Keywords:_ Finds, entity, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (find-face-id-drs position)
+  - _Keywords:_ position, Argument, POSITION
+- **Returns** <a id="returns"></a>
+  - FACE LIST
+  - _Keywords:_ FACE
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the face list of all defined Ref/Eval window bodies and returns the ACIS entity IDs of all faces that contain the specified position. The position can be either a position lying on a boundary edge or an...
+  - _Keywords:_ position, Scheme, extension, through, defined, Ref, Eval, window
+- **find-material-id** <a id="find-material-id"></a>
+  - Finds and returns all entities that have the given material attribute.
+  - _Keywords:_ Finds, entities, material, attribute
+- **Syntax** <a id="syntax"></a>
+  - (find-material-id material-name)
+  - _Keywords:_ material, Argument, DATEXMAT
+- **Returns** <a id="returns"></a>
+  - BODY | BODY LIST
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through every region in the model and selects all regions that have the specified material-name as the material attribute. If only one body is found with the specified material-name as the material attribute, t...
+  - _Keywords:_ material, attribute, returned, region, specified, entity, Scheme, extension
+- **find-region** <a id="find-region"></a>
+  - Returns the entity IDs for a specific region name.
+  - _Keywords:_ entity, IDs, specific, region
+- **Syntax** <a id="syntax"></a>
+  - (find-region region-name [partial-match])
+  - _Keywords:_ region, partial, Argument, STRING, BOOLEAN, optional
+- **Returns** <a id="returns"></a>
+  - BODY | BODY LIST
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension examines every region in the model and selects all regions that have the specified region-name as the region attribute.
+  - _Keywords:_ region, attribute, returned, Scheme, extension, specified, entity, partial
+- **find-region-id** <a id="find-region-id"></a>
+  - Returns the entity IDs for a specific region name.
+  - _Keywords:_ entity, IDs, specific, region
+- **Syntax** <a id="syntax"></a>
+  - (find-region-id region-name)
+  - _Keywords:_ region, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - BODY | BODY LIST
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through every region in the model and selects all regions that have the specified region-name as the region attribute. If only one body is found with the specified region-name as the region attribute, the entit...
+  - _Keywords:_ region, attribute, returned, specified, entity, Scheme, extension, through
+- **find-vertex-id** <a id="find-vertex-id"></a>
+  - Finds the entity numbers of a vertex.
+  - _Keywords:_ Finds, entity, vertex
+- **Syntax** <a id="syntax"></a>
+  - (find-vertex-id position)
+  - _Keywords:_ position, Argument, vertex, POSITION
+- **Returns** <a id="returns"></a>
+  - VERTEX LIST
+  - _Keywords:_ VERTEX
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the vertex list of all defined bodies, (entity:vertices (get-body-list)), and returns the ACIS entity IDs of all vertices that are placed at the specified position.
+  - _Keywords:_ entity, vertices, Scheme, extension, through, vertex, defined, bodies
+- **find-vertex-id-drs** <a id="find-vertex-id-drs"></a>
+  - Finds the entity numbers of a vertex for a Ref/Eval window body.
+  - _Keywords:_ Finds, entity, vertex, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (find-vertex-id-drs position)
+  - _Keywords:_ position, Argument, vertex, POSITION
+- **Returns** <a id="returns"></a>
+  - VERTEX LIST
+  - _Keywords:_ VERTEX
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the vertex list of all defined Ref/Eval window bodies and returns the ACIS entity IDs of all vertices that contain the specified position.
+  - _Keywords:_ Scheme, extension, through, vertex, defined, Ref, Eval, window
+- **get-body-list** <a id="get-body-list"></a>
+  - Returns a list of all 2D and 3D bodies that are defined in the model.
+  - _Keywords:_ bodies, defined
+- **Syntax** <a id="syntax"></a>
+  - (get-body-list)
+- **Returns** <a id="returns"></a>
+  - BODY LIST
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list of all 2D and 3D bodies that are defined in the model, except the mask bodies and the doping-related or refinement-related Ref/Eval windows. Since mask bodies and Ref/Eval windows are also sheet bodie...
+  - _Keywords:_ bodies, Ref, Eval, windows, Scheme, extension, related, Since
+- **get-drs-list** <a id="get-drs-list"></a>
+  - Returns a list of all the Ref/Eval windows (2D and 3D) that are defined in the model.
+  - _Keywords:_ Ref, Eval, windows, defined
+- **Syntax** <a id="syntax"></a>
+  - (get-drs-list)
+- **Returns** <a id="returns"></a>
+  - BODY LIST
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list of all 2D and 3D Ref/Eval windows that are defined in the model.
+  - _Keywords:_ Scheme, extension, Ref, Eval, windows, defined
+- **get-empty-mask-list** _(p.47)_ <a id="get-empty-mask-list"></a>
+  - Lists all defined empty masks.
+  - _Keywords:_ defined
+- **Syntax** _(p.47)_ <a id="syntax"></a>
+  - (get-empty-mask-list)
+- **Returns** <a id="returns"></a>
+  - LIST
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list of all defined empty masks. If no empty mask is defined, an empty list is returned.
+  - _Keywords:_ defined, Scheme, extension, returned
+- **get-mask-list** <a id="get-mask-list"></a>
+  - Lists all defined masks.
+  - _Keywords:_ defined
+- **Syntax** <a id="syntax"></a>
+  - (get-mask-list)
+- **Returns** <a id="returns"></a>
+  - LIST
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list of all defined (geometric) masks. If no mask is defined, an empty list is returned.
+  - _Keywords:_ defined, Scheme, extension, geometric, returned
+- **gvector** <a id="gvector"></a>
+  - Creates a new gvector with the specified x-, y-, and z-coordinates.
+  - _Keywords:_ Creates, gvector, specified, coordinates
+- **Syntax** <a id="syntax"></a>
+  - (gvector x y z [space=model])
+  - _Keywords:_ REAL, Argument, gvector, STRING, optional
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - For this Scheme function, relative to the active coordinate system, the argument x defines the x-coordinate, y defines the y-coordinate, and z defines the z-coordinate.
+  - _Keywords:_ coordinate, active, system, relative, defines, degrees, argument, optional
+- **gvector?** <a id="gvector"></a>
+  - Determines if a Scheme object is a gvector.
+  - _Keywords:_ Determines, Scheme, object, gvector
+- **Syntax** <a id="syntax"></a>
+  - (gvector? object)
+  - _Keywords:_ object, Argument, gvector, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function determines if a Scheme object is a gvector.
+  - _Keywords:_ Scheme, determines, object, gvector
+- **gvector:+** <a id="gvector"></a>
+  - Adds two gvectors.
+  - _Keywords:_ Adds, gvectors
+- **Syntax** <a id="syntax"></a>
+  - (gvector:+ gvector1 gvector2)
+  - _Keywords:_ gvector1, gvector2, Argument, GVECTOR, gvector
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - This Scheme function returns the result of (gvector1 + gvector2) as a gvector. The argument gvector1 defines the first gvector, and the argument gvector2 defines the second gvector.
+  - _Keywords:_ gvector, gvector1, gvector2, argument, defines, Scheme, result, second
+- **Examples** <a id="examples"></a>
+  - (gvector:+ (gvector 1 3 2) (gvector 2 2 2))
+  - _Keywords:_ gvector
+- **gvector:-** <a id="gvector"></a>
+  - Subtracts two gvectors.
+  - _Keywords:_ Subtracts, gvectors
+- **Syntax** <a id="syntax"></a>
+  - (gvector:- gvector1 gvector2)
+  - _Keywords:_ gvector1, gvector2, Argument, GVECTOR, gvector
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - This Scheme function returns the result of (gvector1 – gvector2) as a gvector. The argument gvector1 defines the start location, and the argument gvector2 defines the end location for both gvectors.
+  - _Keywords:_ gvector1, gvector2, argument, defines, location, Scheme, result, gvector
+- **Examples** <a id="examples"></a>
+  - (gvector:- (gvector 1 3 2) (gvector 2 2 2))
+  - _Keywords:_ gvector
+- **gvector:copy** <a id="gvector-copy"></a>
+  - Creates a gvector by copying an existing gvector.
+  - _Keywords:_ gvector, Creates, copying, existing
+- **Syntax** <a id="syntax"></a>
+  - (gvector:copy gvector)
+  - _Keywords:_ gvector, Argument, GVECTOR
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - This Scheme function creates a gvector by copying an existing gvector.
+  - _Keywords:_ gvector, Scheme, creates, copying, existing
+- **Examples** <a id="examples"></a>
+  - (define gvcopy (gvector:copy (gvector 6 5 2)))
+  - _Keywords:_ gvector, define, gvcopy
+- **gvector:cross** <a id="gvector-cross"></a>
+  - Returns the cross product of two gvectors.
+  - _Keywords:_ product, gvectors
+- **Syntax** <a id="syntax"></a>
+  - (gvector:cross gvector1 gvector2)
+  - _Keywords:_ gvector1, gvector2, Argument, GVECTOR, gvector
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - This Scheme function returns the cross product of two gvectors.
+  - _Keywords:_ Scheme, product, gvectors
+- **gvector:dot** <a id="gvector-dot"></a>
+  - Returns the dot product of two gvectors.
+  - _Keywords:_ product, gvectors
+- **Syntax** <a id="syntax"></a>
+  - (gvector:dot gvector1 gvector2)
+  - _Keywords:_ gvector1, gvector2, Argument, GVECTOR, gvector
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme function returns the dot product of two gvectors.
+  - _Keywords:_ Scheme, product, gvectors
+- **gvector:from-to** <a id="gvector-from-to"></a>
+  - Returns a gvector between two positions.
+  - _Keywords:_ gvector, between, positions
+- **Syntax** <a id="syntax"></a>
+  - (gvector:from-to position1 position2)
+  - _Keywords:_ position1, position2, Argument, POSITION, gvector
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - This Scheme function returns the gvector from position1 to position2.
+  - _Keywords:_ Scheme, gvector, position1, position2
+- **gvector:length** <a id="gvector-length"></a>
+  - Returns the length of a gvector.
+  - _Keywords:_ length, gvector
+- **Syntax** <a id="syntax"></a>
+  - (gvector:length gvector)
+  - _Keywords:_ gvector, Argument, length, GVECTOR
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme function returns the length of a gvector as a real value.
+  - _Keywords:_ Scheme, length, gvector
+- **gvector:parallel?** <a id="gvector-parallel"></a>
+  - Determines if two gvectors are parallel.
+  - _Keywords:_ Determines, gvectors, parallel
+- **Syntax** <a id="syntax"></a>
+  - (gvector:parallel? gvector1 gvector2)
+  - _Keywords:_ gvector1, gvector2, Argument, GVECTOR, gvector, parallel
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if gvector1 and gvector2 are parallel; otherwise, it returns #f. A zero gvector is not parallel to anything including itself, so it causes the Scheme function to return #t.
+  - _Keywords:_ Scheme, parallel, gvector1, gvector2, otherwise, gvector, anything, including
+- **gvector:perpendicular?** <a id="gvector-perpendicular"></a>
+  - Determines if two gvectors are perpendicular.
+  - _Keywords:_ Determines, gvectors, perpendicular
+- **Syntax** <a id="syntax"></a>
+  - (gvector:perpendicular? gvector1 gvector2)
+  - _Keywords:_ gvector1, gvector2, Argument, GVECTOR, gvector, perpendicular
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if the gvectors are perpendicular; otherwise, it returns #f. A zero gvector is perpendicular to all gvectors including itself, and it causes the Scheme function to return #f.
+  - _Keywords:_ Scheme, gvectors, perpendicular, otherwise, gvector, including, itself, causes
+- **gvector:reverse** <a id="gvector-reverse"></a>
+  - Reverses the direction of a gvector.
+  - _Keywords:_ Reverses, direction, gvector
+- **Syntax** <a id="syntax"></a>
+  - (gvector:reverse gvector)
+  - _Keywords:_ gvector, Argument, reverse, GVECTOR
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - This Scheme function reverses the direction of a gvector.
+  - _Keywords:_ Scheme, reverses, direction, gvector
+- **gvector:scale** <a id="gvector-scale"></a>
+  - Multiplies a gvector by a scalar number to produce a new gvector.
+  - _Keywords:_ gvector, Multiplies, scalar, produce
+- **Syntax** <a id="syntax"></a>
+  - (gvector:scale gvector scale)
+  - _Keywords:_ gvector, Argument, GVECTOR, REAL
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - Using this Scheme function, the resulting gvector is the original gvector scaled by the number.
+  - _Keywords:_ gvector, Scheme, resulting, original, scaled
+- **gvector:set!** <a id="gvector-set"></a>
+  - Sets the direction of a gvector given the components of x, y, and z.
+  - _Keywords:_ direction, gvector, components
+- **Syntax** <a id="syntax"></a>
+  - (gvector:set! gvector $\{ \texttt { x y z } \} )$
+  - _Keywords:_ gvector, REAL, Argument, texttt, GVECTOR
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - For this Scheme function, the coordinates are computed relative to the active coordinate system. The argument gvector specifies the original x-, y-, and z-components:
+  - _Keywords:_ gvector, specifies, original, replace, specified, Scheme, coordinates, computed
+- **gvector:set-x!** <a id="gvector-set-x"></a>
+  - Sets the x-direction component of a gvector.
+  - _Keywords:_ direction, component, gvector
+- **Syntax** <a id="syntax"></a>
+  - (gvector:set-x! gvector x)
+  - _Keywords:_ gvector, Argument, GVECTOR, REAL
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - Using this Scheme function, the coordinates are computed relative to the active coordinate system. This Scheme function returns the x-value as a real:
+  - _Keywords:_ Scheme, gvector, specifies, original, coordinates, computed, relative, active
+- **Examples** <a id="examples"></a>
+  - (gvector:set-x! vector1 3)
+  - _Keywords:_ gvector, vector1
+- **gvector:set-y!** <a id="gvector-set-y"></a>
+  - Sets the y-direction component of a gvector.
+  - _Keywords:_ direction, component, gvector
+- **Syntax** <a id="syntax"></a>
+  - (gvector:set-y! gvector y)
+  - _Keywords:_ gvector, Argument, GVECTOR, REAL
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - The coordinates are computed relative to the active coordinate system. This Scheme function returns the y-value as a real:
+  - _Keywords:_ gvector, specifies, original, coordinates, computed, relative, active, coordinate
+- **Examples** <a id="examples"></a>
+  - (gvector:set-y! vector1 3)
+  - _Keywords:_ gvector, vector1
+- **gvector:set-z!** <a id="gvector-set-z"></a>
+  - Sets the z-direction component of a gvector.
+  - _Keywords:_ direction, component, gvector
+- **Syntax** <a id="syntax"></a>
+  - (gvector:set-z! gvector z)
+  - _Keywords:_ gvector, Argument, GVECTOR, REAL
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - The coordinates are computed relative to the active coordinate system. This Scheme function returns the z-value as a real.
+  - _Keywords:_ argument, gvector, specifies, original, coordinates, computed, relative, active
+- **Examples** <a id="examples"></a>
+  - (gvector:set-z! vector1 3)
+  - _Keywords:_ gvector, vector1
+- **gvector:transform** <a id="gvector-transform"></a>
+  - Applies a transform to a gvector.
+  - _Keywords:_ Applies, transform, gvector
+- **Syntax** <a id="syntax"></a>
+  - (gvector:transform gvector transform)
+  - _Keywords:_ gvector, transform, Argument, GVECTOR, TRANSFORM
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - This Scheme function applies a transform to a gvector.
+  - _Keywords:_ Scheme, applies, transform, gvector
+- **gvector:unitize** <a id="gvector-unitize"></a>
+  - Creates a new gvector as a unit vector in the same direction as the specified gvector.
+  - _Keywords:_ gvector, Creates, vector, direction, specified
+- **Syntax** <a id="syntax"></a>
+  - (gvector:unitize gvector)
+  - _Keywords:_ gvector, Argument, unitize, GVECTOR
+- **Returns** <a id="returns"></a>
+  - GVECTOR
+  - _Keywords:_ GVECTOR
+- **Description** <a id="description"></a>
+  - This Scheme function creates a new gvector as a unit vector in the same direction as the specified gvector.
+  - _Keywords:_ gvector, Scheme, creates, vector, direction, specified
+- **gvector:x** <a id="gvector-x"></a>
+  - Returns the x-component of a gvector relative to the active coordinate system.
+  - _Keywords:_ component, gvector, relative, active, coordinate, system
+- **Syntax** <a id="syntax"></a>
+  - (gvector:x gvector)
+  - _Keywords:_ gvector, Argument, GVECTOR
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme function returns the x-coordinate of the gvector, transformed to the active work plane.
+  - _Keywords:_ Scheme, coordinate, gvector, transformed, active
+- **gvector:y** <a id="gvector-y"></a>
+  - Returns the y-component of a gvector relative to the active coordinate system.
+  - _Keywords:_ component, gvector, relative, active, coordinate, system
+- **Syntax** <a id="syntax"></a>
+  - (gvector:y gvector)
+  - _Keywords:_ gvector, Argument, GVECTOR
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme function returns the y-coordinate of the gvector, transformed to the active work plane.
+  - _Keywords:_ Scheme, coordinate, gvector, transformed, active
+- **gvector:z** <a id="gvector-z"></a>
+  - Returns the z-component of a gvector relative to the active coordinate system.
+  - _Keywords:_ component, gvector, relative, active, coordinate, system
+- **Syntax** <a id="syntax"></a>
+  - (gvector:z gvector)
+  - _Keywords:_ gvector, Argument, GVECTOR
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme function returns the z-coordinate of the gvector, transformed to the active work plane.
+  - _Keywords:_ Scheme, coordinate, gvector, transformed, active
+- **journal:abort** <a id="journal-abort"></a>
+  - Terminates the journal single-stepping process.
+  - _Keywords:_ Terminates, journal, single, stepping, process
+- **Syntax** <a id="syntax"></a>
+  - (journal:abort)
+  - _Keywords:_ journal
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - When stepping, this Scheme function terminates the current load without executing the rest of the commands in the file.
+  - _Keywords:_ stepping, Scheme, terminates, current, without, executing
+- **journal:append** <a id="journal-append"></a>
+  - Opens a journal file and appends additional journal data to the end of the file.
+  - _Keywords:_ journal, Opens, appends, additional
+- **Syntax** <a id="syntax"></a>
+  - (journal:append [filename])
+  - _Keywords:_ filename, Argument, journal, append, STRING, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme function opens the optional file filename if it exists, where all future commands are journaled to the file. The time and date of the append to the file are indicated in the journal.
+  - _Keywords:_ filename, journal, unique, created, Scheme, optional, exists, future
+- **journal:clean** <a id="journal-clean"></a>
+  - Cleans the journal file.
+  - _Keywords:_ Cleans, journal
+- **Syntax** <a id="syntax"></a>
+  - (journal:clean jname)
+  - _Keywords:_ Argument, journal, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme function removes all nonexecutable content (comments, return values, and so on) from the specified script file. Only the executable Scheme commands remain; therefore, parameterizing and debugging the journal file are easier i...
+  - _Keywords:_ Scheme, journal, removes, nonexecutable, content, comments, specified, script
+- **journal:load** <a id="journal-load"></a>
+  - Loads a journal file, one line at a time, journaling each command as it is executed.
+  - _Keywords:_ Loads, journal, journaling, executed
+- **Syntax** <a id="syntax"></a>
+  - (journal:load filename)
+  - _Keywords:_ filename, Argument, journal, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme function loads a journal file and runs each command contained in that file. Each line is journaled if journaling is switched on. This Scheme function works like the load primitive, except that the file is evaluated one line a...
+  - _Keywords:_ Scheme, journal, primitive, window, loaded, loading, contained, journaled
+- **journal:off** <a id="journal-off"></a>
+  - Closes the current journal file and switches off journaling.
+  - _Keywords:_ Closes, current, journal, switches, journaling
+- **Syntax** <a id="syntax"></a>
+  - (journal:off)
+  - _Keywords:_ journal
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - Using this Scheme function, all Scheme extensions executed after journaling has been switched off are not retained in the journal file.
+  - _Keywords:_ Scheme, extensions, executed, journaling, switched, retained, journal
+- **journal:on** <a id="journal-on"></a>
+  - Closes the current journal file and opens a new journal file.
+  - _Keywords:_ journal, Closes, current
+- **Syntax** <a id="syntax"></a>
+  - (journal:on [filename])
+  - _Keywords:_ filename, Argument, journal, STRING, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme function opens the optional file filename if it exists, and all future commands are journaled to this file. If filename is not specified, the Scheme function creates a unique name after reading the current directory. The uniq...
+  - _Keywords:_ Scheme, filename, exists, unique, optional, future, journaled, specified
+- **Examples** <a id="examples"></a>
+  - ```clojure ; Scheme function journal:on ; Close the current journal file and open a new journal file called new_jrl. (journal:on "new_jrl") ;; "new_jrl" ; Create solid cuboid. (sdegeo:create-cuboid (position 0 0 0) (position 10 10 10) "S...
+  - _Keywords:_ journal, new_jrl, cuboid, position, clojure, Scheme, Close, current
+- **journal:pause** <a id="journal-pause"></a>
+  - Disables journaling temporarily but leaves the journal file open.
+  - _Keywords:_ Disables, journaling, temporarily, leaves, journal
+- **Syntax** <a id="syntax"></a>
+  - (journal:pause)
+  - _Keywords:_ journal
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme function does not record in the journal file any procedure evaluated while the journal file is paused.
+  - _Keywords:_ journal, Scheme, record, procedure, evaluated, paused
+- **journal:resume** <a id="journal-resume"></a>
+  - Resumes journaling in the journal file after a pause.
+  - _Keywords:_ Resumes, journaling, journal
+- **Syntax** <a id="syntax"></a>
+  - (journal:resume)
+  - _Keywords:_ journal, resume
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme function resumes journaling in the journal file after a pause.
+  - _Keywords:_ Scheme, resumes, journaling, journal
+- **journal:save** <a id="journal-save"></a>
+  - Saves the current journal to a file.
+  - _Keywords:_ Saves, current, journal
+- **Syntax** <a id="syntax"></a>
+  - (journal:save filename)
+  - _Keywords:_ filename, Argument, journal, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The filename specifies the name of the file in which the journal is saved. This Scheme function is ignored if journaling is not active. An error is generated if filename is the same as the current journal file.
+  - _Keywords:_ filename, journal, specifies, Scheme, ignored, journaling, active, generated
+- **See Also** <a id="see-also"></a>
+  - journal:on on page 375
+  - _Keywords:_ journal
+- **journal:step** <a id="journal-step"></a>
+  - Switches on or off single-stepping of journal file.
+  - _Keywords:_ Switches, single, stepping, journal
+- **Syntax** <a id="syntax"></a>
+  - (journal:step value)
+  - _Keywords:_ Argument, journal, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme function sets a flag to control stepping through the journal file. When stepping is switched on, the system waits for input after printing, but before executing each line. A single return causes the line to be executed. Anyth...
+  - _Keywords:_ journal, Scheme, stepping, through, system, control, switched, printing
+- **loop?** <a id="loop"></a>
+  - Determines if a Scheme object is a loop.
+  - _Keywords:_ Determines, Scheme, object
+- **Syntax** <a id="syntax"></a>
+  - (loop? object)
+  - _Keywords:_ object, Argument, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if the object is a loop; otherwise, it returns #f. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ object, Scheme, otherwise, argument, specifies, queried
+- **loop:external?** <a id="loop-external"></a>
+  - Determines if a loop is internal or external.
+  - _Keywords:_ Determines, internal, external
+- **Syntax** <a id="syntax"></a>
+  - (loop:external? loop)
+  - _Keywords:_ Argument, LOOP, external
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Errors** <a id="errors"></a>
+  - Returns an error if the argument loop is not a loop.
+  - _Keywords:_ argument
+- **Description** <a id="description"></a>
+  - This Scheme function determines if a loop is internal or external.
+  - _Keywords:_ Scheme, determines, internal, external
+- **lump?** <a id="lump"></a>
+  - Determines if a Scheme object is a lump.
+  - _Keywords:_ Determines, Scheme, object
+- **Syntax** <a id="syntax"></a>
+  - (lump? object)
+  - _Keywords:_ object, Argument, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function returns #t if the object is a lump; otherwise it returns #f. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ object, Scheme, otherwise, argument, specifies, queried
+- **mask-refevalwin-extract-2d** <a id="mask-refevalwin-extract-2d"></a>
+  - Converts a mask to a 2D Ref/Eval window.
+  - _Keywords:_ Converts, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (mask-refevalwin-extract-2d rwname maskname polarity)
+  - _Keywords:_ STRING, rwname, maskname, polarity, Argument, refevalwin, extract
+- **Returns** <a id="returns"></a>
+  - ENTITY IDs of the created Ref/Eval windows.
+  - _Keywords:_ ENTITY, IDs, created, Ref, Eval, windows
+- **Description** <a id="description"></a>
+  - This Scheme extension extracts a 2D Ref/Eval window from the specified mask. The argument rwname is the name of the extracted mask, maskname is the name (and not the entity ID) of the used mask, and polarity is the polarity that is used ...
+  - _Keywords:_ Scheme, extension, polarity, Ref, Eval, window, specified, rwname
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdepe:define-pe-domain 0 0 40 30) (sdepe:generate-mask "M1" (list (list 0 0 10 10) (list 20 0 30 0 30 10 25 15 20 10))) (mask-refevalwin-extract-2d "RW1" "M1" "light") (mask-refevalwin-extract-2d "RW2" "M1" "dark") ```
+  - _Keywords:_ refevalwin, extract, define, domain, generate, RW1, RW2
+- **mask-refevalwin-extract-3d** <a id="mask-refevalwin-extract-3d"></a>
+  - Converts a mask to a 3D Ref/Eval window.
+  - _Keywords:_ Converts, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (mask-refevalwin-extract-3d rwname maskname polarity minz maxz)
+  - _Keywords:_ STRING, rwname, maskname, polarity, Argument, REAL, refevalwin, extract
+- **Returns** <a id="returns"></a>
+  - ENTITY IDs of the created Ref/Eval windows.
+  - _Keywords:_ ENTITY, IDs, created, Ref, Eval, windows
+- **Description** <a id="description"></a>
+  - This Scheme extension extracts a 3D Ref/Eval window from the specified mask. The argument rwname is the name of the extracted mask, maskname is the name (and not the entity ID) of the used mask, and polarity is the polarity that is used ...
+  - _Keywords:_ Scheme, extension, Ref, Eval, window, polarity, specified, rwname
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdepe:define-pe-domain 0 0 40 30) (sdepe:generate-mask "M1" (list (list 0 0 10 10) (list 20 0 30 0 30 10 25 15 20 10))) (mask-refevalwin-extract-3d "RW1" "M1" "light" -0.1 0.5) (mask-refevalwin-extract-3d "RW2" "M1" ...
+  - _Keywords:_ refevalwin, extract, define, domain, generate, RW1, RW2
+- **member?** <a id="member"></a>
+  - Checks whether the specified element is part of the specified list.
+  - _Keywords:_ specified, Checks, whether, element
+- **Syntax** <a id="syntax"></a>
+  - (member? element list)
+  - _Keywords:_ element, Argument, member, VARIABLE, INTEGER, REAL, STRING, Scheme
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension returns #t if the specified element is part of the specified list and, if not, #f is returned.
+  - _Keywords:_ specified, Scheme, extension, element, returned
+- **Examples** <a id="examples"></a>
+  - ```lisp (member? 2 (list 1 2 3 4)) #t (member? 0 (list 1 2 3 4)) #f (member? "apple" (list 1 2 "apple" 3 4)) #t ```
+  - _Keywords:_ member
+- **merge-collinear-edges-2d** <a id="merge-collinear-edges-2d"></a>
+  - Merges all collinear edges of the specified bodies.
+  - _Keywords:_ Merges, collinear, specified, bodies
+- **Syntax** <a id="syntax"></a>
+  - (merge-collinear-edges-2d body-list [angular-tolerance])
+  - _Keywords:_ angular, tolerance, Argument, collinear, BODY, REAL, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - An optional angular-tolerance value can be specified. In that case, besides the perfectly collinear edges, the edges that close an angle, which is larger than the specified threshold, will also merge (that is, the two edges will be repla...
+  - _Keywords:_ specified, optional, angular, tolerance, besides, perfectly, collinear, larger
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **part:entities** <a id="part-entities"></a>
+  - Obtains a list of all top-level entities in a part.
+  - _Keywords:_ Obtains, entities
+- **Syntax** <a id="syntax"></a>
+  - (part:entities [filter=NULL])
+  - _Keywords:_ filter, Argument, entities, FILTER, optional
+- **Returns** <a id="returns"></a>
+  - ENTITY LIST
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - The optional argument filter controls the kinds of entity that are returned by this Scheme function. The argument filter is an entity-filter, which is a procedural object that selects entities from an entity-list.
+  - _Keywords:_ filter, entity, argument, optional, controls, returned, Scheme, procedural
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silver" "region_3") (part:entities) (part:entities (filter:type "solid?")) ```
+  - _Keywords:_ position, entities, sdegeo, create, rectangle, Silver, region_3, filter
+- **part:load** <a id="part-load"></a>
+  - Loads a part from a file into the active part.
+  - _Keywords:_ Loads, active
+- **Syntax** <a id="syntax"></a>
+  - (part:load filename [textmode=#t] [part=active] [with-history=#f])
+  - _Keywords:_ optional, filename, textmode, history, Argument, BOOLEAN, active, STRING
+- **Returns** <a id="returns"></a>
+  - ENTITY LIST
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - This Scheme function is a merge function, which means that the restore does not replace entities; it adds them to the current working session. A list of entities is returned.
+  - _Keywords:_ filename, argument, specified, textmode, restore, entities, current, working
+- **part:save** <a id="part-save"></a>
+  - Saves all entities in a part to a file.
+  - _Keywords:_ Saves, entities
+- **Syntax** <a id="syntax"></a>
+  - (part:save [filename=partname.sat] [textmode=#t] [part=active] [with-history=#f] [mainline-only=#f])
+  - _Keywords:_ optional, BOOLEAN, filename, textmode, history, mainline, Argument, partname
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - The optional argument filename specifies a file name to be saved in the current working directory or specifies the path that includes the file name to be saved to a directory. If no filename is specified, this Scheme function uses the na...
+  - _Keywords:_ filename, specifies, history, argument, textmode, optional, directory, specified
+- **part:save-selection** <a id="part-save-selection"></a>
+  - Saves a list of entities to a file.
+  - _Keywords:_ Saves, entities
+- **Syntax** <a id="syntax"></a>
+  - (part:save-selection ent-list filename [textmode=#f] [with-history=#f])
+  - _Keywords:_ filename, textmode, history, Argument, ENTITY, BOOLEAN, optional, selection
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - The argument filename specifies a file name to be saved in the current working directory or specifies the path that includes the file name to be saved to a directory. The ent-list is the list of entities to be saved in the output file. I...
+  - _Keywords:_ filename, history, argument, specifies, directory, textmode, entity, current
+- **part:set-name** <a id="part-set-name"></a>
+  - Sets the name of a part.
+- **Syntax** <a id="syntax"></a>
+  - (part:set-name [name] [part=active])
+  - _Keywords:_ Argument, optional, active, STRING, PART
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme function assigns a name to the specified part, or to the active part if part is omitted. If the part is saved without specifying a file name, the part:save extension uses the identification name assigned to the part as the sa...
+  - _Keywords:_ omitted, identification, Scheme, assigns, specified, active, without, specifying
+- **position** <a id="position"></a>
+  - Creates a new position with x-, y-, and z-coordinates.
+  - _Keywords:_ Creates, position, coordinates
+- **Syntax** <a id="syntax"></a>
+  - (position x y z [space="models"])
+  - _Keywords:_ REAL, Argument, position, models, STRING, optional
+- **Returns** <a id="returns"></a>
+  - POSITION
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - Relative to the active coordinate system, the argument x defines the x-coordinate, y defines the y-coordinate, and z defines the z-coordinate. If the model has an origin other than the active work plane, this returns the position relativ...
+  - _Keywords:_ coordinate, active, system, defines, degrees, origin, position, relative
+- **position?** <a id="position"></a>
+  - Determines if a Scheme object is a position.
+  - _Keywords:_ Determines, Scheme, object, position
+- **Syntax** <a id="syntax"></a>
+  - (position? object)
+  - _Keywords:_ object, Argument, position, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function determines if a Scheme object is a position. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, determines, position, argument, specifies, queried
+- **position:+** <a id="position"></a>
+  - Adds a position or gvector to a position or gvector, and returns the sum as a position.
+  - _Keywords:_ position, gvector, Adds
+- **Syntax** <a id="syntax"></a>
+  - (position:+ arg1 arg2)
+  - _Keywords:_ Argument, POSITION, GVECTOR, position
+- **Returns** <a id="returns"></a>
+  - POSITION
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - Adds a position or gvector to a position or gvector, and returns the sum as a position.
+  - _Keywords:_ position, gvector, Adds
+- **position:-** <a id="position"></a>
+  - Subtracts a position or gvector from a position or gvector, and returns the result as a position.
+  - _Keywords:_ position, gvector, Subtracts, result
+- **Syntax** <a id="syntax"></a>
+  - (position:- arg1 arg2)
+  - _Keywords:_ Argument, POSITION, GVECTOR, position
+- **Returns** <a id="returns"></a>
+  - POSITION
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - Subtracts a position or gvector from a position or gvector, and returns the result as a position.
+  - _Keywords:_ position, gvector, Subtracts, result
+- **position:distance** <a id="position-distance"></a>
+  - Returns the distance between two positions.
+  - _Keywords:_ distance, between, positions
+- **Syntax** <a id="syntax"></a>
+  - (position:distance position1 {position2 | ray})
+  - _Keywords:_ position1, position2, Argument, POSITION, position, distance, RAY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - The argument position1 defines the start location, position2 defines the end location, and ray defines the ray to calculate the distance.
+  - _Keywords:_ defines, location, argument, position1, position2, calculate, distance
+- **position:set!** <a id="position-set"></a>
+  - Sets the x-, y-, and z-components of a position.
+  - _Keywords:_ components, position
+- **Syntax** <a id="syntax"></a>
+  - (position:set! position1 {x y z} | {position2})
+  - _Keywords:_ REAL, position1, position2, Argument, POSITION, position
+- **Returns** <a id="returns"></a>
+  - POSITION
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - The argument position1 specifies the position to be set. If the x-, y-, and z-values are specified, they are copied into position1. If position2 is specified, its position value is copied into position1.
+  - _Keywords:_ position1, position, specified, copied, argument, specifies, position2
+- **position:set-x!** <a id="position-set-x"></a>
+  - Sets the x-component of a position.
+  - _Keywords:_ component, position
+- **Syntax** <a id="syntax"></a>
+  - (position:set-x! position x)
+  - _Keywords:_ position, Argument, POSITION, REAL
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - The coordinates are computed relative to the active coordinate system. This Scheme function returns the x-coordinate as a real value:
+  - _Keywords:_ coordinate, position, original, coordinates, computed, relative, active, system
+- **position:set-y!** <a id="position-set-y"></a>
+  - Sets the y-component of a position.
+  - _Keywords:_ component, position
+- **Syntax** <a id="syntax"></a>
+  - (position:set-y! position y)
+  - _Keywords:_ position, Argument, POSITION, REAL
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - The coordinates are computed relative to the active coordinate system. This Scheme function returns the y-coordinate as a real value:
+  - _Keywords:_ coordinate, position, original, coordinates, computed, relative, active, system
+- **position:set-z!** <a id="position-set-z"></a>
+  - Sets the z-component of a position.
+  - _Keywords:_ component, position
+- **Syntax** <a id="syntax"></a>
+  - (position:set-z! position z)
+  - _Keywords:_ position, Argument, POSITION, REAL
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - The coordinates are computed relative to the active coordinate system. This Scheme function returns the z-coordinate as a real value:
+  - _Keywords:_ coordinate, position, original, coordinates, computed, relative, active, system
+- **position:x** <a id="position-x"></a>
+  - Returns the x-component of a position relative to the active coordinate system.
+  - _Keywords:_ component, position, relative, active, coordinate, system
+- **Syntax** <a id="syntax"></a>
+  - (position:x position)
+  - _Keywords:_ position, Argument, POSITION
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme function returns the x-component of a position relative to the active coordinate system. The argument position specifies a position.
+  - _Keywords:_ position, Scheme, component, relative, active, coordinate, system, argument
+- **position:y** <a id="position-y"></a>
+  - Returns the y-component of a position relative to the active coordinate system.
+  - _Keywords:_ component, position, relative, active, coordinate, system
+- **Syntax** <a id="syntax"></a>
+  - (position:y position)
+  - _Keywords:_ position, Argument, POSITION
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme function returns the y-component of a position relative to the active coordinate system. The argument position specifies a position.
+  - _Keywords:_ position, Scheme, component, relative, active, coordinate, system, argument
+- **position:z** <a id="position-z"></a>
+  - Returns the z-component of a position relative to the active coordinate system.
+  - _Keywords:_ component, position, relative, active, coordinate, system
+- **Syntax** <a id="syntax"></a>
+  - (position:z position)
+  - _Keywords:_ position, Argument, POSITION
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme function returns the z-component of a position relative to the active coordinate system. The argument position specifies a position.
+  - _Keywords:_ position, Scheme, component, relative, active, coordinate, system, argument
+- **protect-all-contacts** <a id="protect-all-contacts"></a>
+  - Protects all 2D and 3D contacts against merging and deleting.
+  - _Keywords:_ Protects, contacts, against, merging, deleting
+- **Syntax** <a id="syntax"></a>
+  - (protect-all-contacts)
+  - _Keywords:_ protect, contacts
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function protects all 2D and 3D contacts against merging and deleting. If contacts are assigned to edges and faces using any of the sdegeo contact assignment commands, these contacts are protected. The 2D boundary simplificat...
+  - _Keywords:_ contact, contacts, protected, boundary, Scheme, protects, against, merging
+- **random-sd** <a id="random-sd"></a>
+  - Returns a seeded random number.
+  - _Keywords:_ seeded, random
+- **Syntax** <a id="syntax"></a>
+  - (random-sd [initial-seed])
+  - _Keywords:_ initial, Argument, random, INTEGER
+- **Returns** <a id="returns"></a>
+  - REAL random number, (normalized in [0-1])
+  - _Keywords:_ REAL, random, normalized
+- **Description** <a id="description"></a>
+  - This Scheme function returns a random number. The seeded random number generator always generates the same random number sequence (normalized in [0-1]). This Scheme function uses a hard-coded, fixed seed. A different seed can be set by a...
+  - _Keywords:_ random, Scheme, always, sequence, generated, seeded, generator, generates
+- **Examples** <a id="examples"></a>
+  - (random-sd)
+  - _Keywords:_ random
+- **remove-body-ABA** <a id="remove-body-aba"></a>
+  - Subtracts the input body from all the other existing bodies.
+  - _Keywords:_ Subtracts, existing, bodies
+- **Syntax** <a id="syntax"></a>
+  - (remove-body-ABA rbody)
+  - _Keywords:_ Argument, remove, ABA, ENTITY
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension subtracts the specified input body from all the other existing bodies if there is an overlap between the input body and the other bodies.
+  - _Keywords:_ bodies, overlap, created, automatic, removal, Overlapping, overlaps, Scheme
+- **remove-body-BAB** <a id="remove-body-bab"></a>
+  - Subtracts all other bodies from the input body.
+  - _Keywords:_ Subtracts, bodies
+- **Syntax** <a id="syntax"></a>
+  - (remove-body-BAB rbody)
+  - _Keywords:_ Argument, remove, BAB, ENTITY
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension subtracts all the other existing bodies from the specified input body if there is an overlap between the input body and the other bodies.
+  - _Keywords:_ bodies, overlap, created, automatic, removal, Overlapping, overlaps, Scheme
+- **render:rebuild** <a id="render-rebuild"></a>
+  - Refreshes the display list for a view.
+  - _Keywords:_ Refreshes, display
+- **Syntax** <a id="syntax"></a>
+  - (render:rebuild [clear])
+  - _Keywords:_ Argument, render, rebuild, BOOLEAN, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - Use this Scheme function after changing viewing parameters.
+  - _Keywords:_ argument, window, cleared, display, Use, Scheme, changing, viewing
+- **roll** <a id="roll"></a>
+  - Rolls to a previous or later state.
+  - _Keywords:_ Rolls, previous
+- **Syntax** <a id="syntax"></a>
+  - (roll [num])
+  - _Keywords:_ Argument, INTEGER, optional
+- **Returns** <a id="returns"></a>
+  - INTEGER (number of steps rolled)
+  - _Keywords:_ INTEGER, rolled
+- **Description** <a id="description"></a>
+  - This Scheme function can be used to undo or redo geometry-related and doping-related, or refinement-related operations. The optional argument num specifies the number of states the model can roll. A negative number means to roll to a pre...
+  - _Keywords:_ related, Scheme, geometry, doping, refinement, operations, optional, argument
+- **sde:add-material** <a id="sde-add-material"></a>
+  - Assigns the specified material and region attributes to a body.
+  - _Keywords:_ Assigns, specified, material, region, attributes
+- **Syntax** <a id="syntax"></a>
+  - (sde:add-material body material-name region-name)
+  - _Keywords:_ material, region, Argument, ACIS, ENTITY, DATEXMAT, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension assigns the material and region attributes to a body. The body is defined by the first argument.
+  - _Keywords:_ material, region, argument, attribute, defined, tessellated, boundary, Scheme
+- **sde:back-coord** <a id="sde-back-coord"></a>
+  - Returns the back coordinate of the device.
+  - _Keywords:_ coordinate, device
+- **Syntax** <a id="syntax"></a>
+  - (sde:back-coord body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the back coordinate of the specified body or body-list. The back coordinate depends on the coordinate system used:
+  - _Keywords:_ coordinate, system, minimum, Scheme, extension, specified, depends, unified
+- **sde:bg-image-transparency** <a id="sde-bg-image-transparency"></a>
+  - Sets the transparency of the image.
+  - _Keywords:_ transparency
+- **Syntax** <a id="syntax"></a>
+  - (sde:bg-image-transparency transparency-value)
+  - _Keywords:_ transparency, Argument, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the transparency of the loaded image. The transparency-value argument must be between 0 and 1.
+  - _Keywords:_ transparency, Scheme, extension, loaded, argument, between
+- **sde:bool-regularise** <a id="sde-bool-regularise"></a>
+  - Merges the coplanar faces of 3D bodies.
+  - _Keywords:_ Merges, coplanar, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sde:bool-regularise body-list)
+  - _Keywords:_ Argument, regularise, BODY
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme function merges the coplanar faces of the specified bodies in body-list. After sde:bool-regularise is applied, it is recommended to call (sde:fix-imprint) to ensure a conformal model.
+  - _Keywords:_ Scheme, merges, coplanar, specified, bodies, After, regularise, applied
+- **sde:bottom-coord** <a id="sde-bottom-coord"></a>
+  - Returns the bottom coordinate of the device.
+  - _Keywords:_ bottom, coordinate, device
+- **Syntax** <a id="syntax"></a>
+  - (sde:bottom-coord body | body-list)
+  - _Keywords:_ Argument, BODY, bottom
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the bottom coordinate of the specified body or body-list. The bottom coordinate depends on the coordinate system used:
+  - _Keywords:_ coordinate, bottom, system, Scheme, extension, specified, depends, UCS
+- **sde:build-mesh** <a id="sde-build-mesh"></a>
+  - Generates a tessellated TDR boundary output and a mesh command file, and calls Sentaurus Mesh.
+  - _Keywords:_ Generates, tessellated, TDR, boundary, Sentaurus, Mesh
+- **Syntax** <a id="syntax"></a>
+  - (sde:build-mesh [options] file-basename)
+  - _Keywords:_ basename, Argument, STRING, optional
+- **Returns** <a id="returns"></a>
+  - Prints a message showing a successful or failed meshing. Returns #t or #f to indicate success or failure, respectively.
+  - _Keywords:_ Prints, message, showing, successful, failed, meshing, indicate, success
+- **Description** <a id="description"></a>
+  - This Scheme extension generates a 2D or 3D TDR tessellated boundary output and a mesh command file, and calls Sentaurus Mesh using a system command call. Sentaurus Structure Editor then waits for the meshing to be completed. No further i...
+  - _Keywords:_ basename, string, TDR, boundary, meshing, argument, extension, Sentaurus
+- **sde:change-datex-color-scheme** <a id="sde-change-datex-color-scheme"></a>
+  - Selects the DATEX color visualization scheme (first color definition or second color definition).
+  - _Keywords:_ definition, Selects, DATEX, visualization, scheme, second
+- **Syntax** <a id="syntax"></a>
+  - (sde:change-datex-color-scheme color-scheme)
+  - _Keywords:_ scheme, Argument, DATEXMAT, change, second
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension selects the DATEX color visualization scheme (first color definition or second color definition). The datexcodes.txt file contains two color definitions for each material. By default, Sentaurus Structure Editor uses...
+  - _Keywords:_ definition, DATEX, second, datexcodes, material, Scheme, extension, selects
+- **sde:check-3d-license-status** <a id="sde-check-3d-license-status"></a>
+  - Checks the status of the 3D license.
+  - _Keywords:_ Checks, status, license
+- **Syntax** <a id="syntax"></a>
+  - (sde:check-3d-license-status)
+  - _Keywords:_ license, status
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to check the 3D license status. It returns #t or #f depending on whether a 3D license is checked out.
+  - _Keywords:_ license, Scheme, extension, status, depending, whether, checked
+- **sde:check-model** <a id="sde-check-model"></a>
+  - Performs a detailed model check.
+  - _Keywords:_ Performs, detailed
+- **Syntax** <a id="syntax"></a>
+  - (sde:check-model [filename])
+  - _Keywords:_ filename, Argument, STRING, optional
+- **Returns** <a id="returns"></a>
+  - BODY LIST
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to check a model for possible problems that are reported in a report file including:
+  - _Keywords:_ problems, Scheme, extension, possible, reported, report, including, Mixed
+- **sde:checkout-3d-license** <a id="sde-checkout-3d-license"></a>
+  - Checks out a 3D license.
+  - _Keywords:_ Checks, license
+- **Syntax** <a id="syntax"></a>
+  - (sde:checkout-3d-license)
+  - _Keywords:_ checkout, license
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to check out a 3D license explicitly. By default, Sentaurus Structure Editor starts with a 2D license and only checks out (automatically) a 3D license when it is needed (for 3D solid creation, 2D to 3D opera...
+  - _Keywords:_ license, operations, Scheme, extension, explicitly, Sentaurus, Structure, Editor
+- **sde:clear** <a id="sde-clear"></a>
+  - Clears the modeler.
+  - _Keywords:_ Clears, modeler
+- **Syntax** <a id="syntax"></a>
+  - (sde:clear)
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension clears the database of Sentaurus Structure Editor and restores all settings to their initial values, and it should always be used as the first call when a new script is executed that requires a clean database. This ...
+  - _Keywords:_ Scheme, extension, database, restores, settings, initial, clears, Sentaurus
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension does not clear the Scheme interpreter. If global Scheme variables are used, they are still initialized and valid after an (sde:clear) call.
+  - _Keywords:_ Scheme, extension, interpreter, global, variables, initialized
+- **sde:create-bg-image** <a id="sde-create-bg-image"></a>
+  - Loads an image file (in GIF) into Sentaurus Structure Editor.
+  - _Keywords:_ Loads, GIF, Sentaurus, Structure, Editor
+- **Syntax** <a id="syntax"></a>
+  - (sde:create-bg-image filename horizontal-size vertical-size)
+  - _Keywords:_ filename, horizontal, vertical, Argument, REAL, create, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension loads an image file (in GIF) into Sentaurus Structure Editor. The image is not shown automatically; this Scheme extension must be called to show the image.
+  - _Keywords:_ GIF, Scheme, extension, format, Sentaurus, Structure, Editor, automatically
+- **sde:create-dialog** <a id="sde-create-dialog"></a>
+  - Creates a dialog box.
+  - _Keywords:_ Creates, dialog
+- **Syntax** <a id="syntax"></a>
+  - (sde:create-dialog dlg-name)
+  - _Keywords:_ Argument, create, dialog, STRING
+- **Returns** <a id="returns"></a>
+  - Dialog ID.
+  - _Keywords:_ Dialog
+- **Description** <a id="description"></a>
+  - This Scheme extension creates and registers a dialog object, and returns the dialog entity ID. (The dialog box is handled as a Scheme object.)
+  - _Keywords:_ dialog, Scheme, object, extension, creates, registers, entity, handled
+- **Examples** <a id="examples"></a>
+  - (define dlg (sde:create-dialog "2D MOSFET DEVICE"))
+  - _Keywords:_ define, create, dialog, MOSFET, DEVICE
+- **sde:define-parameter** <a id="sde-define-parameter"></a>
+  - Defines a Scheme parameter.
+  - _Keywords:_ Defines, Scheme
+- **Syntax** <a id="syntax"></a>
+  - (sde:define-parameter parameter-name value | min-value max-value)
+  - _Keywords:_ REAL, Argument, STRING, define
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - The defined parameter can be used later in any Scheme command. The parameter value can be accessed by typing parameter-name. The parameter can hold any Scheme type variable. Typically, it is a REAL or STRING type. For REAL values, two op...
+  - _Keywords:_ Scheme, defined, variable, REAL, contain, define, extension, accessed
+- **sde:delay-graphics-update** <a id="sde-delay-graphics-update"></a>
+  - Switches on and off the view window update.
+  - _Keywords:_ Switches, window, update
+- **Syntax** <a id="syntax"></a>
+  - (sde:delay-graphics-update flag)
+  - _Keywords:_ Argument, graphics, update, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension switches on or off the refreshing or updating of the view window. By default, automatic refreshing of the view window is switched on. When a new body is created or the model is changed in any way that affects the gr...
+  - _Keywords:_ window, Scheme, extension, refreshing, changed, graphical, update, switches
+- **sde:delay-graphics-update?** <a id="sde-delay-graphics-update"></a>
+  - Returns the status of sde:delay-graphics-update.
+  - _Keywords:_ status, graphics, update
+- **Syntax** <a id="syntax"></a>
+  - (sde:delay-graphics-update?)
+  - _Keywords:_ graphics, update
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the status of sde:delay-graphics-update.
+  - _Keywords:_ Scheme, extension, status, graphics, update
+- **sde:delete-bg-image** <a id="sde-delete-bg-image"></a>
+  - Removes the previously loaded image from memory.
+  - _Keywords:_ Removes, previously, loaded, memory
+- **Syntax** <a id="syntax"></a>
+  - (sde:delete-bg-image)
+  - _Keywords:_ delete
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes the previously loaded image from memory.
+  - _Keywords:_ Scheme, extension, removes, previously, loaded, memory
+- **sde:delete-materials** _(p.48)_ <a id="sde-delete-materials"></a>
+  - Deletes the geometric bodies with the specified DATEX material.
+  - _Keywords:_ Deletes, geometric, bodies, specified, DATEX, material
+- **Syntax** _(p.48)_ <a id="syntax"></a>
+  - (sde:delete-materials materials)
+  - _Keywords:_ materials, Argument, DATEXMAT, delete
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the geometric bodies with the specified DATEX materials.
+  - _Keywords:_ Scheme, extension, deletes, geometric, bodies, specified, DATEX, materials
+- **sde:delete-parameter** <a id="sde-delete-parameter"></a>
+  - Deletes a previously defined parameter.
+  - _Keywords:_ Deletes, previously, defined
+- **Syntax** <a id="syntax"></a>
+  - (sde:delete-parameter parameter-name)
+  - _Keywords:_ Argument, delete, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - The parameter must be previously defined using sde:define-parameter.
+  - _Keywords:_ previously, defined, define
+- **See Also** <a id="see-also"></a>
+  - sde:define-parameter on page 415
+  - _Keywords:_ define
+- **sde:dialog-add-input** <a id="sde-dialog-add-input"></a>
+  - Adds an input field to a dialog box.
+  - _Keywords:_ Adds, dialog
+- **Syntax** <a id="syntax"></a>
+  - (sde:dialog-add-input dlgid varname inputstrfield inputtype [default-value])
+  - _Keywords:_ STRING, inputtype, dialog, varname, inputstrfield, Argument, DIALOG, object
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension adds an input field to a dialog box. The argument varname is the Scheme variable name that is passed to the executed Scheme script. The argument inputstrfield is displayed in the input dialog box, and the argument i...
+  - _Keywords:_ Scheme, argument, dialog, extension, varname, variable, passed, executed
+- **Limitations** <a id="limitations"></a>
+  - No default value can be assigned to the input fields and variables.
+  - _Keywords:_ assigned, fields, variables
+- **Examples** <a id="examples"></a>
+  - (sde:dialog-add-input dlg "width1" "Base Width" "real")
+  - _Keywords:_ dialog, width1, Base, Width
+- **See Also** <a id="see-also"></a>
+  - sde:create-dialog on page 414
+  - _Keywords:_ create, dialog
+- **sde:dialog-add-pixmap** <a id="sde-dialog-add-pixmap"></a>
+  - Adds a bitmap image to a dialog box.
+  - _Keywords:_ Adds, bitmap, dialog
+- **Syntax** <a id="syntax"></a>
+  - (sde:dialog-add-pixmap dlgid bmpfilename)
+  - _Keywords:_ dialog, bmpfilename, Argument, STRING, pixmap, DIALOG, object, returned
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension adds a predefined bitmap image to a dialog box. The bitmap image must be scaled to the proper size before it is added to the dialog box.
+  - _Keywords:_ bitmap, dialog, Scheme, extension, predefined, scaled, proper, before
+- **Examples** <a id="examples"></a>
+  - (sde:dialog-add-pixmap dlg "mosfet2d.bmp")
+  - _Keywords:_ dialog, pixmap, mosfet2d
+- **See Also** <a id="see-also"></a>
+  - sde:create-dialog on page 414
+  - _Keywords:_ create, dialog
+- **sde:dialog-delete** <a id="sde-dialog-delete"></a>
+  - Removes a dialog box from memory.
+  - _Keywords:_ Removes, dialog, memory
+- **Syntax** <a id="syntax"></a>
+  - (sde:dialog-delete dlgid)
+  - _Keywords:_ dialog, Argument, delete, STRING, DIALOG, object, returned, create
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to remove a predefined dialog box from the memory.
+  - _Keywords:_ Scheme, extension, remove, predefined, dialog, memory
+- **Examples** <a id="examples"></a>
+  - (sde:dialog-delete dlg)
+  - _Keywords:_ dialog, delete
+- **See Also** <a id="see-also"></a>
+  - sde:create-dialog on page 414
+  - _Keywords:_ create, dialog
+- **sde:dialog-ok-command** <a id="sde-dialog-ok-command"></a>
+  - Binds the OK button of a dialog box to a predefined Scheme function.
+  - _Keywords:_ Binds, button, dialog, predefined, Scheme
+- **Syntax** <a id="syntax"></a>
+  - (sde:dialog-ok-command dlgid schemefnname argument-list)
+  - _Keywords:_ STRING, dialog, schemefnname, argument, Argument, DIALOG, object, returned
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - When the OK button of the dialog box is clicked, this Scheme extension is called with the supplied argument list.
+  - _Keywords:_ button, dialog, clicked, Scheme, extension, called, supplied, argument
+- **Examples** <a id="examples"></a>
+  - (sde:dialog-ok-command dlg "create-2d-mosfet" "width1 width2 width3 height1 height2 height3")
+  - _Keywords:_ dialog, create, mosfet, width1, width2, width3, height1, height2
+- **See Also** <a id="see-also"></a>
+  - sde:create-dialog on page 414
+  - _Keywords:_ create, dialog
+- **sde:dialog-show** <a id="sde-dialog-show"></a>
+  - Displays a dialog box.
+  - _Keywords:_ Displays, dialog
+- **Syntax** <a id="syntax"></a>
+  - (sde:dialog-show dlgid)
+  - _Keywords:_ dialog, Argument, STRING, DIALOG, object, returned, create
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to display a predefined dialog box.
+  - _Keywords:_ Scheme, extension, display, predefined, dialog
+- **Examples** <a id="examples"></a>
+  - (sde:dialog-show dlg)
+  - _Keywords:_ dialog
+- **See Also** <a id="see-also"></a>
+  - sde:create-dialog on page 414
+  - _Keywords:_ create, dialog
+- **sde:display** <a id="sde-display"></a>
+  - Displays a string in the command-line window.
+  - _Keywords:_ Displays, string, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:display string)
+  - _Keywords:_ string, Argument, display, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension displays the specified string in the command-line window. A new line character is required to send the contents of the sde:display buffer to the command-line window.
+  - _Keywords:_ Scheme, extension, window, display, displays, specified, string, character
+- **sde:display-err** <a id="sde-display-err"></a>
+  - Writes a string in a terminal window.
+  - _Keywords:_ Writes, string, terminal, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:display-err string)
+  - _Keywords:_ string, Argument, display, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension writes the specified string in a terminal window. A new line character is added to the argument string.
+  - _Keywords:_ string, Scheme, extension, writes, specified, terminal, window, character
+- **sde:display-std** <a id="sde-display-std"></a>
+  - Writes a string in a terminal window.
+  - _Keywords:_ Writes, string, terminal, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:display-std string)
+  - _Keywords:_ string, Argument, display, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension writes the specified string in a terminal window. A new line character is added to the argument string.
+  - _Keywords:_ Sentaurus, Workbench, Scheme, extension, string, DoE, writes, specified
+- **Examples** <a id="examples"></a>
+  - For the DoE parameter extraction, the output string must contain the DOE: string, followed by the variable name and the value of the variable:
+  - _Keywords:_ DOE, variable, display, string, VARNAME, doping, DoE, extraction
+- **sde:draw-ruler** <a id="sde-draw-ruler"></a>
+  - Draws a user-defined ruler that can be displayed in the GUI.
+  - _Keywords:_ Draws, defined, displayed, GUI
+- **Syntax** <a id="syntax"></a>
+  - (sde:draw-ruler "startpos" startpos "alength" alength "adir" adir "startval" startval "endval" endval ["numdiv" numdiv] ["numdiv2" numdiv2] ["npos" npos] ["acolor" acolor] ["tcolor" tcolor])
+  - _Keywords:_ optional, INTEGER, startpos, alength, startval, endval, numdiv, numdiv2
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension draws a user-defined ruler that can be displayed in the GUI.
+  - _Keywords:_ specifies, argument, Scheme, extension, defined, direction, displayed, GUI
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 5 4 2) "Silicon" "xx") (sde:draw-ruler "startpos" (position 0 4 0) "alength" 6 "adir" 0 "startval" 0 "endval" 6 "numdiv" 6 "numdiv2" 5 "npos" 1 "acolor" GREEN "tcolor" ...
+  - _Keywords:_ position, startpos, alength, startval, endval, numdiv, numdiv2, acolor
+- **See Also** <a id="see-also"></a>
+  - sde:hide-ruler on page 445
+- **sde:dump-non-default-options** <a id="sde-dump-non-default-options"></a>
+  - Saves all nondefault ACIS options to a text file.
+  - _Keywords:_ Saves, nondefault, ACIS
+- **Syntax** <a id="syntax"></a>
+  - (sde:dump-non-default-options fname)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension saves a text file containing all the ACIS options that are set to nondefault values. This helps to debug and report problems because, in some cases, nondefault option settings can cause problems or can trigger a dif...
+  - _Keywords:_ nondefault, problems, Scheme, extension, containing, ACIS, report, because
+- **sde:exact-coords?** <a id="sde-exact-coords"></a>
+  - Checks the status of the Exact Coordinates mode.
+  - _Keywords:_ Checks, status, Exact, Coordinates
+- **Syntax** <a id="syntax"></a>
+  - (sde:exact-coords?)
+  - _Keywords:_ coords
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - If exact coordinates are used, this Scheme extension returns #t.
+  - _Keywords:_ coordinates, Scheme, extension, Exact, Coordinates, switched
+- **sde:extract-tdr-boundary** <a id="sde-extract-tdr-boundary"></a>
+  - Extracts the boundary from a TDR grid file.
+  - _Keywords:_ Extracts, boundary, TDR
+- **Syntax** <a id="syntax"></a>
+  - (sde:extract-tdr-boundary fname [file-name])
+  - _Keywords:_ Argument, STRING, extract, boundary, optional
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension extracts the boundary and saves it in a TDR boundary file from a TDR grid file. This Scheme extension uses Sentaurus Mesh through a system call to extract the boundary. An optional file-name argument can also be spe...
+  - _Keywords:_ boundary, TDR, Scheme, extension, extracts, Sentaurus, Mesh, through
+- **sde:fix-imprint** <a id="sde-fix-imprint"></a>
+  - Generates a conformal model by imprinting the model edges and faces to neighboring bodies.
+  - _Keywords:_ Generates, conformal, imprinting, neighboring, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sde:fix-imprint)
+  - _Keywords:_ imprint
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The generated model must be tessellated before meshing, and several different conformity requirements must be satisfied. One of the most important requirements is that neighboring bodies share the boundary edges (in two dimensions) and t...
+  - _Keywords:_ conformity, generated, tessellated, several, requirements, neighboring, bodies, boundary
+- **sde:fix-orientation** <a id="sde-fix-orientation"></a>
+  - Modifies the orientation of 3D bodies.
+  - _Keywords:_ Modifies, orientation, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sde:fix-orientation)
+  - _Keywords:_ orientation
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension fixes the orientation of 3D regions, with surface normals pointing ‘inside’ the body. Mainly native ACIS models, generated by other CAD tools and imported as .sat files, might have this problem. Direct-geometry gene...
+  - _Keywords:_ surface, normals, pointing, Scheme, extension, orientation, regions, inside
+- **sde:front-coord** <a id="sde-front-coord"></a>
+  - Returns the front coordinate of the device.
+  - _Keywords:_ coordinate, device
+- **Syntax** <a id="syntax"></a>
+  - (sde:front-coord body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the front coordinate of the specified body or body-list. The front coordinate depends on the coordinate system used:
+  - _Keywords:_ coordinate, system, maximum, Scheme, extension, specified, depends, UCS
+- **sde:ft\_scalar** <a id="sde-ft-scalar"></a>
+  - Writes a string in a terminal window.
+  - _Keywords:_ Writes, string, terminal, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:ft\_scalar string)
+  - _Keywords:_ string, Argument, _scalar, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension writes the specified string in a terminal window. A new line character is added to the argument string.
+  - _Keywords:_ Sentaurus, Workbench, Scheme, extension, string, DoE, writes, specified
+- **Examples** <a id="examples"></a>
+  - (sde:ft\_scalar "aval 3")
+  - _Keywords:_ _scalar
+- **sde:get-backwards-compatibility** <a id="sde-get-backwards-compatibility"></a>
+  - Returns the value of the given backward-compatibility parameter.
+  - _Keywords:_ backward, compatibility
+- **Syntax** <a id="syntax"></a>
+  - (sde:get-backwards-compatibility backcompat-param)
+  - _Keywords:_ backcompat, Argument, backwards, compatibility, STRING
+- **Returns** <a id="returns"></a>
+  - Value of the given backward-compatibility parameter backcompat-param; otherwise, returns #f if the given backcompat-param does not exist.
+  - _Keywords:_ backcompat, backward, compatibility, otherwise
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the value of the given backward-compatibility parameter. Backward-compatibility parameters are specific, internally defined, parameters that are used to reproduce certain defined functionality from previous ...
+  - _Keywords:_ compatibility, backward, defined, Scheme, extension, Backward, specific, internally
+- **sde:get-default-material** <a id="sde-get-default-material"></a>
+  - Returns the active DATEX material.
+  - _Keywords:_ active, DATEX, material
+- **Syntax** <a id="syntax"></a>
+  - (sde:get-default-material)
+  - _Keywords:_ material
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the selected DATEX material in a string. The DATEX material can be selected from the GUI using the material list or the Scheme extension sde:setdefault-material.
+  - _Keywords:_ material, Scheme, extension, selected, DATEX, string, GUI, setdefault
+- **sde:get-view-params** <a id="sde-get-view-params"></a>
+  - Records the current GUI settings (rotation, zoom, and so on).
+  - _Keywords:_ Records, current, GUI, settings, rotation
+- **Syntax** <a id="syntax"></a>
+  - (sde:get-view-params)
+  - _Keywords:_ params
+- **Returns** <a id="returns"></a>
+  - A list containing:
+  - _Keywords:_ position, POSITION, REAL, containing, target, vector, GVECTOR, height
+- **Description** <a id="description"></a>
+  - This Scheme extension takes no arguments and returns a list, which contains all the necessary data to restore the GUI view to the recorded state.
+  - _Keywords:_ Scheme, extension, restore, arguments, contains, necessary, GUI, recorded
+- **Examples** <a id="examples"></a>
+  - (define myview (sde:get-view-params)) (sde:set-view-params myview)
+  - _Keywords:_ myview, params, define
+- **See Also** <a id="see-also"></a>
+  - sde:set-view-params on page 488
+  - _Keywords:_ params
+- **sde:gui-get-integer** <a id="sde-gui-get-integer"></a>
+  - Displays a dialog box to define an integer variable.
+  - _Keywords:_ Displays, dialog, define, integer, variable
+- **Syntax** <a id="syntax"></a>
+  - (sde:gui-get-integer variable-name default-value [dialog-name])
+  - _Keywords:_ variable, dialog, Argument, STRING, integer, INTEGER, optional
+- **Returns** <a id="returns"></a>
+  - INTEGER or #f
+  - _Keywords:_ INTEGER
+- **Description** <a id="description"></a>
+  - This Scheme extension displays a dialog box that can be used to enter an integer variable. The variable-name is displayed.
+  - _Keywords:_ dialog, variable, integer, argument, button, clicked, Scheme, extension
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension can be used in GUI mode only.
+  - _Keywords:_ Scheme, extension, GUI
+- **sde:gui-get-real** <a id="sde-gui-get-real"></a>
+  - Displays a dialog box to define a real variable.
+  - _Keywords:_ Displays, dialog, define, variable
+- **Syntax** <a id="syntax"></a>
+  - (sde:gui-get-real variable-name default-value [dialog-name])
+  - _Keywords:_ variable, dialog, Argument, STRING, INTEGER, optional
+- **Returns** <a id="returns"></a>
+  - REAL or #f
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension displays a dialog box that can be used to enter a real variable. The variable-name is displayed.
+  - _Keywords:_ dialog, variable, argument, button, clicked, Scheme, extension, displays
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension can be used in GUI mode only.
+  - _Keywords:_ Scheme, extension, GUI
+- **sde:gui-get-string** <a id="sde-gui-get-string"></a>
+  - Displays a dialog box to define a string variable.
+  - _Keywords:_ Displays, dialog, define, string, variable
+- **Syntax** <a id="syntax"></a>
+  - (sde:gui-get-string variable-name default-value [dialog-name])
+  - _Keywords:_ STRING, variable, dialog, Argument, string, optional
+- **Returns** <a id="returns"></a>
+  - STRING or #f
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension displays a dialog box that can be used to enter a string variable. The variable-name is displayed.
+  - _Keywords:_ dialog, variable, string, argument, button, clicked, Scheme, extension
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension can be used in GUI mode only.
+  - _Keywords:_ Scheme, extension, GUI
+- **sde:hide** <a id="sde-hide"></a>
+  - Removes the specified entity or entities from the view window.
+  - _Keywords:_ Removes, specified, entity, entities, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:hide entity | entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes the specified entities from the view window, and the view window is refreshed. If the entities are already removed from the view window, there is no change in the view window.
+  - _Keywords:_ window, entities, Scheme, extension, removes, specified, refreshed, already
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define r1 (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Photoresist" "r_1")) (define r2 (sdegeo:create-rectangle (position 2 0 0) (position 3 1 0) "Silicon" "r_2")) (define r3 (sdegeo:create-rectangle (...
+  - _Keywords:_ position, define, sdegeo, create, rectangle, Photoresist, Silicon, Resist
+- **sde:hide-bg-image** <a id="sde-hide-bg-image"></a>
+  - Hides the previously loaded image.
+  - _Keywords:_ Hides, previously, loaded
+- **Syntax** <a id="syntax"></a>
+  - (sde:hide-bg-image)
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension hides the previously loaded image.
+  - _Keywords:_ Scheme, extension, previously, loaded
+- **sde:hide-contact** <a id="sde-hide-contact"></a>
+  - Removes from the view window all the regions that have the specified contact attributes.
+  - _Keywords:_ Removes, window, regions, specified, contact, attributes
+- **Syntax** <a id="syntax"></a>
+  - (sde:hide-contact contact-name | contact-name-list)
+  - _Keywords:_ contact, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes from the view window all regions that have contacts defined with the specified contact attributes. Contacts are identified with the attribute name contact. In two dimensions, contacts are edges and, in three...
+  - _Keywords:_ contacts, contact, dimensions, Scheme, extension, removes, window, regions
+- **sde:hide-interface** <a id="sde-hide-interface"></a>
+  - Removes from the view the specified interfaces.
+  - _Keywords:_ Removes, specified, interfaces
+- **Syntax** <a id="syntax"></a>
+  - (sde:hide-interface interface-name | interface-name-list)
+  - _Keywords:_ interface, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes from the view all regions that have interfaces defined with the specified interface attributes. Interfaces are identified with the attribute name interface. In two dimensions, interfaces are edges between ne...
+  - _Keywords:_ regions, interfaces, interface, dimensions, between, neighboring, Scheme, extension
+- **sde:hide-mask** <a id="sde-hide-mask"></a>
+  - Removes the specified masks from the view window.
+  - _Keywords:_ Removes, specified, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:hide-mask mask-name | mask-name-list)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes the specified masks from the view window. Masks are planar wire bodies that have the specified mask-names as ‘mask name’ attributes.
+  - _Keywords:_ specified, Scheme, extension, removes, window, Masks, planar, bodies
+- **sde:hide-material** <a id="sde-hide-material"></a>
+  - Removes the entities with the specified materials from the view window.
+  - _Keywords:_ Removes, entities, specified, materials, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:hide-material datex-material | datex-material-list)
+  - _Keywords:_ material, Argument, DATEXMAT
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes regions that have the specified material names as material attributes from the view window. The region is removed from the view window, and the view window is refreshed.
+  - _Keywords:_ window, material, region, removed, DATEX, Scheme, extension, removes
+- **Examples** <a id="examples"></a>
+  - ```txt (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Photoresist" "region_1") (sdegeo:create-rectangle (position 2 0 0) (position 3 1 0) "Silicon" "region_2") (sdegeo:create-rectangle (position 4 0 0) (position ...
+  - _Keywords:_ position, sdegeo, create, rectangle, Silicon, Photoresist, region_1, region_2
+- **sde:hide-region** <a id="sde-hide-region"></a>
+  - Removes the specified entity or entities from the view window.
+  - _Keywords:_ Removes, specified, entity, entities, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:hide-region region-name | region-name-list)
+  - _Keywords:_ region, Argument, STRING, existing
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes the specified regions from the view window. The bodies that have the specified region names as region attributes are removed from the view window, and the view window is refreshed.
+  - _Keywords:_ window, region, specified, removed, Scheme, extension, removes, regions
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Photoresist" "region_1") (sdegeo:create-rectangle (position 2 0 0) (position 3 1 0) "Silicon" "region_2") (sdegeo:create-rectangle (position 4 0 0) (position...
+  - _Keywords:_ position, sdegeo, create, rectangle, region_1, region_3, region_4, region
+- **sde:hide-ruler** <a id="sde-hide-ruler"></a>
+  - Hides user-defined rulers in the GUI.
+  - _Keywords:_ Hides, defined, rulers, GUI
+- **Syntax** <a id="syntax"></a>
+  - (sde:hide-ruler)
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension hides all user-defined rulers in the GUI.
+  - _Keywords:_ Scheme, extension, defined, rulers, GUI
+- **Examples** <a id="examples"></a>
+  - (sde:hide-ruler)
+- **See Also** <a id="see-also"></a>
+  - sde:draw-ruler on page 427
+- **sde:info** <a id="sde-info"></a>
+  - Returns the attributes of Sentaurus Structure Editor attached to the specified bodies.
+  - _Keywords:_ attributes, Sentaurus, Structure, Editor, attached, specified, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sde:info entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension displays the entity number, and material and region attributes that are attached to the body.
+  - _Keywords:_ Scheme, extension, displays, entity, material, region, attributes, attached
+- **sde:left-coord** <a id="sde-left-coord"></a>
+  - Returns the left coordinate of the device.
+  - _Keywords:_ coordinate, device
+- **Syntax** <a id="syntax"></a>
+  - (sde:left-coord body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the left coordinate of the specified body or body-list. The left coordinate is the minimum y-coordinate.
+  - _Keywords:_ coordinate, Scheme, extension, specified, minimum
+- **sde:load-sat** <a id="sde-load-sat"></a>
+  - Loads a native ACIS .sat file into Sentaurus Structure Editor, with correct overlap handling.
+  - _Keywords:_ Loads, native, ACIS, Sentaurus, Structure, Editor, correct, overlap
+- **Syntax** <a id="syntax"></a>
+  - (sde:load-sat file-name)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The difference between part:load and sde:load-sat is that the latter handles overlapping regions correctly, according to the active Boolean setting. If a .sat file is loaded into the modeler, which already has some bodies defined, the ov...
+  - _Keywords:_ according, Boolean, setting, difference, between, latter, handles, overlapping
+- **sde:material-type** <a id="sde-material-type"></a>
+  - Returns the group type for the specified material.
+  - _Keywords:_ specified, material
+- **Syntax** <a id="syntax"></a>
+  - (sde:material-type material-name)
+  - _Keywords:_ material, Argument, DATEXMAT
+- **Returns** <a id="returns"></a>
+  - group-name or an empty string if the specified material is not found in the datexcodes.txt file.
+  - _Keywords:_ string, specified, material, datexcodes
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the group type from the datexcodes.txt file for the given material. The group type can be Semiconductor, or Conductor, or Insulator.
+  - _Keywords:_ Scheme, extension, datexcodes, material, Semiconductor, Conductor, Insulator
+- **sde:max-x** <a id="sde-max-x"></a>
+  - Returns the maximum x-coordinate.
+  - _Keywords:_ maximum, coordinate
+- **Syntax** <a id="syntax"></a>
+  - (sde:max-x body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the largest x-dimension of the specified body or body-list.
+  - _Keywords:_ Scheme, extension, largest, dimension, specified
+- **sde:max-y** <a id="sde-max-y"></a>
+  - Returns the maximum y-coordinate.
+  - _Keywords:_ maximum, coordinate
+- **Syntax** <a id="syntax"></a>
+  - (sde:max-y body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the largest y-dimension of the specified body or body-list.
+  - _Keywords:_ Scheme, extension, largest, dimension, specified
+- **sde:max-z** <a id="sde-max-z"></a>
+  - Returns the maximum z-coordinate.
+  - _Keywords:_ maximum, coordinate
+- **Syntax** <a id="syntax"></a>
+  - (sde:max-z body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the largest z-dimension of the specified body or body-list.
+  - _Keywords:_ Scheme, extension, largest, dimension, specified
+- **sde:merge-materials** <a id="sde-merge-materials"></a>
+  - Merges the geometric bodies with the specified DATEX material.
+  - _Keywords:_ Merges, geometric, bodies, specified, DATEX, material
+- **Syntax** <a id="syntax"></a>
+  - (sde:merge-materials materials newmaterial)
+  - _Keywords:_ materials, DATEXMAT, newmaterial, Argument
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension merges (unites) a copy of the geometric bodies with the specified DATEX materials, and the newmaterial DATEX material is assigned to the new united body.
+  - _Keywords:_ bodies, DATEX, united, original, delete, Scheme, extension, merges
+- **sde:min-x** <a id="sde-min-x"></a>
+  - Returns the minimum x-coordinate.
+  - _Keywords:_ minimum, coordinate
+- **Syntax** <a id="syntax"></a>
+  - (sde:min-x body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the smallest x-dimension of the specified body or body-list.
+  - _Keywords:_ Scheme, extension, smallest, dimension, specified
+- **sde:min-y** <a id="sde-min-y"></a>
+  - Returns the minimum y-coordinate.
+  - _Keywords:_ minimum, coordinate
+- **Syntax** <a id="syntax"></a>
+  - (sde:min-y body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the smallest y-dimension of the specified body or body-list.
+  - _Keywords:_ Scheme, extension, smallest, dimension, specified
+- **sde:min-z** <a id="sde-min-z"></a>
+  - Returns the minimum z-coordinate.
+  - _Keywords:_ minimum, coordinate
+- **Syntax** <a id="syntax"></a>
+  - (sde:min-z body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the smallest z-dimension of the specified body or body-list.
+  - _Keywords:_ Scheme, extension, smallest, dimension, specified
+- **sde:new-region-name** <a id="sde-new-region-name"></a>
+  - Returns an automatically generated region name.
+  - _Keywords:_ automatically, generated, region
+- **Syntax** <a id="syntax"></a>
+  - (sde:new-region-name)
+  - _Keywords:_ region
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a region name region\_%N, where %N is the actual region counter. If the region counter is set correctly, this Scheme extension always returns a unique region name.
+  - _Keywords:_ region, Scheme, extension, counter, actual, correctly, always, unique
+- **sde:off-lights** <a id="sde-off-lights"></a>
+  - Switches off the lights in the view window.
+  - _Keywords:_ Switches, lights, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:off-lights)
+  - _Keywords:_ lights
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension switches off the lights in the view window.
+  - _Keywords:_ Scheme, extension, switches, lights, window
+- **sde:offset-mask** <a id="sde-offset-mask"></a>
+  - Offsets (or biases) a mask.
+  - _Keywords:_ Offsets, biases
+- **Syntax** <a id="syntax"></a>
+  - (sde:offset-mask mask-name offset-distance)
+  - _Keywords:_ offset, distance, Argument, STRING, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension offsets (biases) the specified mask.
+  - _Keywords:_ Scheme, extension, offsets, biases, specified
+- **sde:on-lights** <a id="sde-on-lights"></a>
+  - Switches on the lights in the view window.
+  - _Keywords:_ Switches, lights, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:on-lights)
+  - _Keywords:_ lights
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension switches on the lights in the view window.
+  - _Keywords:_ Scheme, extension, switches, lights, window
+- **sde:open-model** <a id="sde-open-model"></a>
+  - Loads a complete Sentaurus Structure Editor model.
+  - _Keywords:_ Loads, complete, Sentaurus, Structure, Editor
+- **Syntax** <a id="syntax"></a>
+  - (sde:open-model file-name)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is the counterpart of sde:save-model. It restores the complete state of the modeler. First, filename.sat is loaded if it exists. It is a native ACIS .sat file that contains the geometric description of the model, in...
+  - _Keywords:_ filename, loaded, exists, contains, loader, checks, Sentaurus, Structure
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Chapter 2 on page 5
+  - _Keywords:_ Sentaurus, Mesh, Guide
+- **sde:part-load** <a id="sde-part-load"></a>
+  - Loads a native ACIS .sat file into Sentaurus Structure Editor, with correct overlap handling.
+  - _Keywords:_ Loads, native, ACIS, Sentaurus, Structure, Editor, correct, overlap
+- **Syntax** <a id="syntax"></a>
+  - (sde:part-load file-name [loadoption])
+  - _Keywords:_ loadoption, Argument, STRING, BOOLEAN, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used for automatic overlap control of loaded .sat files.
+  - _Keywords:_ overlap, loaded, control, automatic, overlaps, Boolean, setting, resolved
+- **See Also** <a id="see-also"></a>
+  - sdegeo:get-default-boolean on page 665
+  - _Keywords:_ sdegeo, boolean
+- **sde:pick-point-on-wp** <a id="sde-pick-point-on-wp"></a>
+  - Selects a point on the view window.
+  - _Keywords:_ Selects, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:pick-point-on-wp)
+- **Returns** <a id="returns"></a>
+  - POSITION
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to select a point on the view window. The global xyz coordinates of the selected point are returned as a position entity. The point is always selected in the active work plane. (This Scheme extension draws a...
+  - _Keywords:_ Scheme, extension, coordinates, selected, select, window, global, returned
+- **sde:pick-two-points-on-wp** <a id="sde-pick-two-points-on-wp"></a>
+  - Selects two points on the view window.
+  - _Keywords:_ Selects, points, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:pick-two-points-on-wp)
+  - _Keywords:_ points
+- **Returns** <a id="returns"></a>
+  - POSITION LIST
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to select two points on the view window. The global xyz coordinates of the selected points are returned as a list of two position entities. The points are always selected in the active work plane. (This Sche...
+  - _Keywords:_ Scheme, extension, points, selected, coordinates, returned, button, select
+- **sde:post-message** <a id="sde-post-message"></a>
+  - Displays a dialog box with a message.
+  - _Keywords:_ Displays, dialog, message
+- **Syntax** <a id="syntax"></a>
+  - (sde:post-message message)
+  - _Keywords:_ message, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension displays a message in a dialog box. The OK button of the dialog box must be clicked to cancel the message.
+  - _Keywords:_ message, dialog, Scheme, extension, displays, button, clicked, cancel
+- **Examples** <a id="examples"></a>
+  - (sde:post-message "Hello World")
+  - _Keywords:_ message, Hello, World
+- **sde:project-name** <a id="sde-project-name"></a>
+  - Returns the project name.
+  - _Keywords:_ project
+- **Syntax** <a id="syntax"></a>
+  - (sde:project-name)
+  - _Keywords:_ project
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the project name, which is used in the Build Mesh dialog box to save the created mesh file. The project name can be set using the sde:set-project-name command.
+  - _Keywords:_ project, Scheme, extension, Build, Mesh, dialog, created
+- **See Also** <a id="see-also"></a>
+  - sde:set-project-name on page 482
+  - _Keywords:_ project
+- **sde:refresh** <a id="sde-refresh"></a>
+  - Refreshes and rebuilds the view window.
+  - _Keywords:_ Refreshes, rebuilds, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:refresh)
+  - _Keywords:_ refresh
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension discards the existing entity display list and regenerates it from the entity data. This is useful when the view zooms in on entities, because the display might appear jagged.
+  - _Keywords:_ display, entities, Scheme, extension, existing, entity, regenerates, discards
+- **sde:rename-regions** <a id="sde-rename-regions"></a>
+  - Automatically renames regions based on spatial criteria.
+  - _Keywords:_ Automatically, renames, regions, spatial, criteria
+- **Syntax** <a id="syntax"></a>
+  - (sde:rename-regions entity-list direction)
+  - _Keywords:_ entity, direction, Argument, rename, regions, ENTITY
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension renames the specified geometric bodies.
+  - _Keywords:_ region, bodies, bounding, ordered, direction, attached, minimal, mathrm
+- **sde:restore-cursor** <a id="sde-restore-cursor"></a>
+  - Reverts the pointer to the default pointer.
+  - _Keywords:_ pointer, Reverts
+- **Syntax** <a id="syntax"></a>
+  - (sde:restore-cursor)
+  - _Keywords:_ restore, cursor
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension reverts the pointer to the default pointer.
+  - _Keywords:_ pointer, Scheme, extension, reverts
+- **sde:right-coord** <a id="sde-right-coord"></a>
+  - Returns the right coordinate of the device.
+  - _Keywords:_ coordinate, device
+- **Syntax** <a id="syntax"></a>
+  - (sde:right-coord body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the right coordinate of the specified body or body-list. The right coordinate is the maximum y-coordinate.
+  - _Keywords:_ coordinate, Scheme, extension, specified, maximum
+- **sde:save-model** <a id="sde-save-model"></a>
+  - Saves all information about a model.
+  - _Keywords:_ Saves, information
+- **Syntax** <a id="syntax"></a>
+  - (sde:save-model file-name)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension performs a complex task. It calls several other functions to save the complete model. The Scheme extension sde:open-model is the counterpart of this Scheme extension that loads the model and restores the original mo...
+  - _Keywords:_ Scheme, extension, complete, curved, boundaries, contains, related, restore
+- **sde:save-parameters** <a id="sde-save-parameters"></a>
+  - Saves the defined parameters to a .scm file.
+  - _Keywords:_ Saves, defined
+- **Syntax** <a id="syntax"></a>
+  - (sde:save-parameters file-name)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension saves all defined parameters (Scheme variables) that were created using sde:define-parameter. The saved Scheme file can be edited and used for later sessions to restore the complete previous state of the modeler. So...
+  - _Keywords:_ Scheme, extension, defined, variables, created, define, edited, sessions
+- **sde:save-tcl-parameters** <a id="sde-save-tcl-parameters"></a>
+  - Saves the defined contact colors to a Tcl file.
+  - _Keywords:_ Saves, defined, contact, colors, Tcl
+- **Syntax** <a id="syntax"></a>
+  - (sde:save-tcl-parameters file-name)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension saves the defined contact colors to a Tcl file, using the contact color assignment syntax of Sentaurus Visual. The saved Tcl file can be loaded into Sentaurus Visual, after a TDR file is loaded. The contacts of the ...
+  - _Keywords:_ Sentaurus, Visual, contact, colors, Tcl, loaded, TDR, Scheme
+- **Examples** <a id="examples"></a>
+  - Example 1: ```lisp (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silicon" "x1") (sdegeo:create-rectangle (position 0.3 1 0) (position 0.7 1.5 0) "PolySilicon" "x2") (sdegeo:define-contact-set "red" 4 (color:rgb ...
+  - _Keywords:_ sdegeo, position, define, contact, create, rectangle, Silicon, PolySilicon
+- **A: Commands** <a id="a-commands"></a>
+  - sde:save-tcl-parameters
+  - _Keywords:_ sdegeo, position, define, contact, set_region_prop, create, cuboid, contains
+- **sde:scale-scene** <a id="sde-scale-scene"></a>
+  - Scales the model in the view window.
+  - _Keywords:_ Scales, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:scale-scene xs ys zs)
+  - _Keywords:_ REAL, Argument
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to scale the model in the view window. This is only a view scale. The model coordinates do not change. The operation can be used to magnify, for example, thin layers.
+  - _Keywords:_ Scheme, extension, window, coordinates, change, operation, magnify, layers
+- **sde:scmwin-get-font-families** <a id="sde-scmwin-get-font-families"></a>
+  - Returns the font types used in the command-line window.
+  - _Keywords:_ window
+- **Syntax** <a id="syntax"></a>
+  - (sde:scmwin-get-font-families)
+  - _Keywords:_ scmwin, families
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the available font types that are used in the command-line window.
+  - _Keywords:_ Scheme, extension, available, window
+- **sde:scmwin-get-font-family** <a id="sde-scmwin-get-font-family"></a>
+  - Returns the font type used in the command-line window.
+  - _Keywords:_ window
+- **Syntax** <a id="syntax"></a>
+  - (sde:scmwin-get-font-family)
+  - _Keywords:_ scmwin, family
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the font type that is used in the command-line window.
+  - _Keywords:_ Scheme, extension, window
+- **sde:scmwin-get-font-size** <a id="sde-scmwin-get-font-size"></a>
+  - Returns the font size used in the command-line window.
+  - _Keywords:_ window
+- **Syntax** <a id="syntax"></a>
+  - (sde:scmwin-get-font-size)
+  - _Keywords:_ scmwin
+- **Returns** <a id="returns"></a>
+  - INTEGER
+  - _Keywords:_ INTEGER
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the font size that is used in the command-line window.
+  - _Keywords:_ Scheme, extension, window
+- **sde:scmwin-get-font-style** <a id="sde-scmwin-get-font-style"></a>
+  - Returns the font style used in the command-line window.
+  - _Keywords:_ window
+- **Syntax** <a id="syntax"></a>
+  - (sde:scmwin-get-font-style)
+  - _Keywords:_ scmwin
+- **Returns** <a id="returns"></a>
+  - PAIR
+  - _Keywords:_ PAIR
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the font style that is used in the command-line window. It returns a pair:
+  - _Keywords:_ Scheme, extension, window, Normal, Italic, Oblique, second, either
+- **sde:scmwin-select-font** <a id="sde-scmwin-select-font"></a>
+  - Displays the Select Font dialog box.
+  - _Keywords:_ Displays, Select, Font, dialog
+- **Syntax** <a id="syntax"></a>
+  - (sde:scmwin-select-font)
+  - _Keywords:_ scmwin, select
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension displays the Select Font dialog box, which is used to select the font, the font style, and the size of the command-line window.
+  - _Keywords:_ Scheme, extension, displays, Select, Font, dialog, select, window
+- **sde:scmwin-set-font-family** <a id="sde-scmwin-set-font-family"></a>
+  - Sets the font type to be used in the command-line window.
+  - _Keywords:_ window
+- **Syntax** <a id="syntax"></a>
+  - (sde:scmwin-set-font-family font-type)
+  - _Keywords:_ Argument, scmwin, family, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to set the font type to be used in the command-line window.
+  - _Keywords:_ Scheme, extension, window
+- **sde:scmwin-set-font-size** <a id="sde-scmwin-set-font-size"></a>
+  - Sets the font size to be used in the command-line window.
+  - _Keywords:_ window
+- **Syntax** <a id="syntax"></a>
+  - (sde:scmwin-set-font-size font-size)
+  - _Keywords:_ Argument, scmwin, INTEGER
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the font size to be used in the command-line window.
+  - _Keywords:_ Scheme, extension, window
+- **sde:scmwin-set-prefs** <a id="sde-scmwin-set-prefs"></a>
+  - Sets the preferences of the command-line window.
+  - _Keywords:_ preferences, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:scmwin-set-prefs font-type font-style font-size cmdwin-height)
+  - _Keywords:_ cmdwin, height, Argument, STRING, INTEGER, scmwin
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the preferences of the command-line window. The argument font-type specifies the command-line window font. Use sde:scmwin-get-fontfamilies for the available fonts and sde:scmwin-get-font-family for the active s...
+  - _Keywords:_ window, argument, scmwin, Scheme, extension, specifies, height, preferences
+- **sde:scmwin-set-window-height** <a id="sde-scmwin-set-window-height"></a>
+  - Sets the height (in pixels) of the command line window.
+  - _Keywords:_ height, pixels, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:scmwin-set-window-height height)
+  - _Keywords:_ height, Argument, scmwin, window, INTEGER
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the height of the command-line window.
+  - _Keywords:_ Scheme, extension, height, window
+- **sde:scmwin-suppress-output** <a id="sde-scmwin-suppress-output"></a>
+  - Displays or hides messages in the command-line window.
+  - _Keywords:_ Displays, messages, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:scmwin-suppress-output bool)
+  - _Keywords:_ Argument, scmwin, suppress, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to display or hide messages in the command-line window.
+  - _Keywords:_ Scheme, extension, display, messages, window
+- **sde:selected-entities** <a id="sde-selected-entities"></a>
+  - Returns the currently active selected entities in a Scheme list.
+  - _Keywords:_ currently, active, selected, entities, Scheme
+- **Syntax** <a id="syntax"></a>
+  - (sde:selected-entities)
+  - _Keywords:_ selected, entities
+- **Returns** <a id="returns"></a>
+  - ENTITY LIST
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the currently active selected entities in a Scheme list. The selection tools of the GUI (Select mode) can be used to select geometric entities (body, face, edge, vertex). The selected entities are highlighted.
+  - _Keywords:_ entities, Scheme, selected, extension, currently, active, selection, GUI
+- **sde:selected-refeval-windows** <a id="sde-selected-refeval-windows"></a>
+  - Returns the names of the currently selected Ref/Eval windows in a Scheme list.
+  - _Keywords:_ currently, selected, Ref, Eval, windows, Scheme
+- **Syntax** <a id="syntax"></a>
+  - (sde:selected-refeval-windows)
+  - _Keywords:_ selected, refeval, windows
+- **Returns** <a id="returns"></a>
+  - ENTITY LIST
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - The selection tools of the GUI (Select mode) can be used to select previously defined Ref/Eval windows. The selected Ref/Eval windows are highlighted.
+  - _Keywords:_ Ref, Eval, windows, selection, GUI, Select, select, previously
+- **sde:separate-lumps** <a id="sde-separate-lumps"></a>
+  - Separates the lumps in a body.
+  - _Keywords:_ Separates
+- **Syntax** <a id="syntax"></a>
+  - (sde:separate-lumps [NULL | body | body-list])
+  - _Keywords:_ Argument, BODY, separate
+- **Returns** <a id="returns"></a>
+  - ENTITY LIST
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - Geometric operations can result in models with bodies that have multiple lumps (disjoint parts of a body). Since each body has a unique region-name attribute, these separate lumps in a body will have the same region name. As the Synopsys...
+  - _Keywords:_ region, bodies, separated, position, unique, separate, before, generated
+- **sde:set-background-color** <a id="sde-set-background-color"></a>
+  - Sets the background color of the main window of the GUI.
+  - _Keywords:_ background, window, GUI
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-background-color rtop gtop btop rbottom gbottom bbottom)
+  - _Keywords:_ INTEGER, rbottom, gbottom, bbottom, Argument, background
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The RGB colors for the top and bottom must be specified (0–255). If the top and bottom colors differ, a graded background will be used. If the top and bottom RGB colors match, the background will be uniform.
+  - _Keywords:_ colors, bottom, RGB, background, specified, differ, graded, uniform
+- **sde:set-backwards-compatibility** <a id="sde-set-backwards-compatibility"></a>
+  - Sets the value of the overall backward compatibility or the given backward-compatibility parameter.
+  - _Keywords:_ backward, compatibility, overall
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-backwards-compatibility { backcompat-release | backcompat-param backcompat-release [ backcompat-param2 backcompat-release2 ... ] })
+  - _Keywords:_ backcompat, release, Argument, STRING, backwards, compatibility, param2, release2
+- **Returns** <a id="returns"></a>
+  - Returns #t upon successful setting of overall backward compatibility or backwardcompatibility parameters.
+  - _Keywords:_ successful, setting, overall, backward, compatibility, backwardcompatibility
+- **Description** <a id="description"></a>
+  - This Scheme extension, if called with one parameter, sets the general backward compatibility to the given release string. If one or more pairs of parameters are given, the corresponding backward-compatibility parameters are set to the co...
+  - _Keywords:_ compatibility, backward, release, corresponding, defined, releases, saving, earlier
+- **See Also** <a id="see-also"></a>
+  - sde:get-backwards-compatibility on page 434
+  - _Keywords:_ backwards, compatibility
+- **sde:set-default-material** <a id="sde-set-default-material"></a>
+  - Sets the active DATEX material to the specified value.
+  - _Keywords:_ active, DATEX, material, specified
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-default-material datex-material)
+  - _Keywords:_ material, Argument, DATEXMAT
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to change the active DATEX material. The argument datexmaterial is a string that corresponds to one of the DATEX colors, specified in the datexcodes.txt file.
+  - _Keywords:_ DATEX, Scheme, extension, material, change, active, argument, datexmaterial
+- **sde:set-menubar-font-size** <a id="sde-set-menubar-font-size"></a>
+  - Changes the font size of the menu bar of the GUI.
+  - _Keywords:_ Changes, GUI
+- **Syntax** _(p.52)_ <a id="syntax"></a>
+  - (sde:set-menubar-font-size font-size)
+  - _Keywords:_ Argument, menubar, INTEGER
+- **Returns** _(p.52)_ <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension changes the font size of the menu bar of the GUI. The font-size argument (suggested value [10-14]) specifies the font size.
+  - _Keywords:_ GUI, Scheme, extension, changes, argument, suggested, specifies, View
+- **sde:set-process-up-direction** <a id="sde-set-process-up-direction"></a>
+  - Specifies the up-direction convention to be used during process emulation.
+  - _Keywords:_ Specifies, direction, convention, during, process, emulation
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-process-up-direction up-direction)
+  - _Keywords:_ direction, Argument, process
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to specify which coordinate system convention is used during process emulation. It needs one input argument:
+  - _Keywords:_ Sentaurus, Scheme, coordinate, system, convention, process, emulation, direction
+- **Examples** <a id="examples"></a>
+  - (sde:set-process-up-direction 1)
+  - _Keywords:_ process, direction
+- **sde:set-project-name** <a id="sde-set-project-name"></a>
+  - Sets the name of the project.
+  - _Keywords:_ project
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-project-name project-name)
+  - _Keywords:_ project, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the project name, which is used in the Build Mesh dialog box as the name of the saved mesh.
+  - _Keywords:_ Scheme, extension, project, Build, Mesh, dialog
+- **sde:set-rendering-mode** <a id="sde-set-rendering-mode"></a>
+  - Sets the rendering mode.
+  - _Keywords:_ rendering
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-rendering-mode rendering-mode)
+  - _Keywords:_ rendering, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - Previous setting (STRING).
+  - _Keywords:_ Previous, setting, STRING
+- **Description** <a id="description"></a>
+  - The rendering mode can be facet, wire, flat, gouraud (or alternatively, smooth), and hidden.
+  - _Keywords:_ rendering, gouraud, alternatively, smooth, hidden
+- **sde:set-selection-level** <a id="sde-set-selection-level"></a>
+  - Sets the selection filter to the specified type.
+  - _Keywords:_ selection, filter, specified
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-selection-level filter-type)
+  - _Keywords:_ filter, Argument, selection, vertex
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the selection filter to the specified value. All subsequent selection operations will use the specified filter to select only those entities that correspond to the specified type.
+  - _Keywords:_ specified, selection, filter, Scheme, extension, subsequent, operations, select
+- **Examples** <a id="examples"></a>
+  - (sde:set-selection-level "edge")
+  - _Keywords:_ selection
+- **sde:set-translucency** <a id="sde-set-translucency"></a>
+  - Sets the translucency of the main window of the GUI.
+  - _Keywords:_ translucency, window, GUI
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-translucency body(list) tflag)
+  - _Keywords:_ Argument, ENTITY, translucency, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension takes two arguments where the first is either an entity or a list of entities, and the second argument tflag is a Boolean: true means make translucent and false means make opaque.
+  - _Keywords:_ Scheme, extension, arguments, either, entity, entities, second, argument
+- **sde:set-view-mode** <a id="sde-set-view-mode"></a>
+  - Sets the view.
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-view-mode view-mode)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the view to the specified value, and it also performs a zoom extent operation.
+  - _Keywords:_ points, Scheme, extension, specified, performs, extent, operation, argument
+- **sde:set-view-operator** <a id="sde-set-view-operator"></a>
+  - Sets the view operator to the specified value.
+  - _Keywords:_ operator, specified
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-view-operator op-mode)
+  - _Keywords:_ Argument, operator, STRING
+- **Returns** <a id="returns"></a>
+  - Previous setting (STRING).
+  - _Keywords:_ Previous, setting, STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension manipulates the toolbar, by setting the active actions to the specified mode. The available op-mode options are orbit, zoom, pan, and select.
+  - _Keywords:_ Scheme, extension, manipulates, toolbar, setting, active, actions, specified
+- **sde:set-view-params** <a id="sde-set-view-params"></a>
+  - Sets the GUI view (rotation, zoom, and so on).
+  - _Keywords:_ GUI, rotation
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-view-params view-params)
+  - _Keywords:_ optional, params, Argument, position, REAL, Contains, POSITIONtarget, POSITIONup
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the GUI view to a previously recorded state.
+  - _Keywords:_ params, height, optional, precede, Scheme, extension, GUI, previously
+- **Examples** <a id="examples"></a>
+  - (define myview (sde:get-view-params))
+  - _Keywords:_ myview, params, define
+- **sde:set-window-position** <a id="sde-set-window-position"></a>
+  - Positions the main window of the GUI.
+  - _Keywords:_ Positions, window, GUI
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-window-position xpos ypos)
+  - _Keywords:_ Argument, INTEGER, window, position
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The arguments xpos and ypos are used to specify the horizontal and vertical placements of the GUI, respectively.
+  - _Keywords:_ arguments, specify, horizontal, vertical, placements, GUI, respectively
+- **sde:set-window-size** <a id="sde-set-window-size"></a>
+  - Resizes the main window of the GUI.
+  - _Keywords:_ Resizes, window, GUI
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-window-size xsize ysize)
+  - _Keywords:_ Argument, INTEGER, window
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The arguments xsize and ysize specify the horizontal and vertical sizes (in pixels) of the GUI, respectively.
+  - _Keywords:_ arguments, specify, horizontal, vertical, pixels, GUI, respectively
+- **sde:set-window-style** <a id="sde-set-window-style"></a>
+  - Sets the GUI style.
+  - _Keywords:_ GUI
+- **Syntax** <a id="syntax"></a>
+  - (sde:set-window-style wstyle)
+  - _Keywords:_ wstyle, Argument, window, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to set the GUI style. The available styles are Windows, Motif, Cleanlooks, Plastique, and CDE.
+  - _Keywords:_ Scheme, extension, GUI, available, styles, Windows, Motif, Cleanlooks
+- **sde:setrefprops** <a id="sde-setrefprops"></a>
+  - Sets the refinement properties for the internal faceter.
+  - _Keywords:_ properties, faceter, Scheme, extension, tolerance, refinement, internal, deprecated
+- **Syntax** <a id="syntax"></a>
+  - (sde:setrefprops surface-tolerance normal-tolerance [aspect-ratio max-edge-length])
+  - _Keywords:_ tolerance, REAL, surface, normal, aspect, length, Argument, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension controls the properties of the internal faceter of Sentaurus Structure Editor, which is an important link between Sentaurus Structure Editor and other Synopsys tools. When Sentaurus Structure Editor contains a model...
+  - _Keywords:_ tessellated, Sentaurus, Structure, Editor, between, curved, tolerance, original
+- **A: Commands** <a id="a-commands"></a>
+  - sde:setrefprops
+  - _Keywords:_ aspect, length, optional, controls, maximum, triangles, tessellated, boundary
+- **sde:setup-grid** <a id="sde-setup-grid"></a>
+  - Sets the basic grid parameters.
+- **Syntax** <a id="syntax"></a>
+  - (sde:setup-grid x-spacing y-spacing edge-weight edge-pattern)
+  - _Keywords:_ spacing, weight, pattern, Argument, REAL, INTEGER, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the basic parameters for the grid. The arguments x-spacing and y-spacing specify the horizontal and vertical grid size. The argument edge-weight specifies the line thickness, and edge-pattern specifies the line...
+  - _Keywords:_ alternating, pattern, Dash, spacing, specifies, dashes, Very, Scheme
+- **Examples** <a id="examples"></a>
+  - (sde:setup-grid 1 1 2 "...")
+- **sde:show** <a id="sde-show"></a>
+  - Adds the specified entity or entities to the view window.
+  - _Keywords:_ Adds, specified, entity, entities, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:show entity | entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to show the specified entity or entities in the view window. The bodies are added to the view window, and the view window is refreshed. If the entity is already visible, there is no change in the view window.
+  - _Keywords:_ window, entity, Scheme, extension, specified, entities, bodies, refreshed
+- **Examples** _(p.72)_ <a id="examples"></a>
+  - ```lisp (sde:clear) (define r1 (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Photoresist" "r_1")) (define r2 (sdegeo:create-rectangle (position 2 0 0) (position 3 1 0) "Silicon" "r_2")) (define r3 (sdegeo:create-rectangle (...
+  - _Keywords:_ position, define, sdegeo, create, rectangle, Photoresist, Silicon, Resist
+- **sde:showattribs** <a id="sde-showattribs"></a>
+  - Shows the attributes of Sentaurus Structure Editor attached to a body or bodies.
+  - _Keywords:_ Shows, attributes, Sentaurus, Structure, Editor, attached, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sde:showattribs entity-list | "all")
+  - _Keywords:_ entity, Argument, showattribs, ENTITY
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension shows the attached attributes for the specified entity-list. Instead of an entity-list, the keyword all also can be specified, in which case, all ACIS bodies are shown. This Scheme extension can display the ACIS par...
+  - _Keywords:_ Scheme, extension, attached, attributes, specified, entity, ACIS, bodies
+- **sde:show-bg-image** <a id="sde-show-bg-image"></a>
+  - Displays the previously loaded image.
+  - _Keywords:_ Displays, previously, loaded
+- **Syntax** <a id="syntax"></a>
+  - (sde:show-bg-image)
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension displays the previously loaded image.
+  - _Keywords:_ Scheme, extension, displays, previously, loaded
+- **sde:show-contact** <a id="sde-show-contact"></a>
+  - Adds to the view all the regions that have the specified contact attributes.
+  - _Keywords:_ Adds, regions, specified, contact, attributes
+- **Syntax** <a id="syntax"></a>
+  - (sde:show-contact contact-name | contact-name-list)
+  - _Keywords:_ contact, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension adds to the view all regions that have contacts defined with the specified contact attributes. Contacts are identified with the attribute name contact. In two dimensions, contacts are edges and, in three dimensions,...
+  - _Keywords:_ contacts, contact, dimensions, Scheme, extension, regions, defined, specified
+- **sde:show-grid** <a id="sde-show-grid"></a>
+  - Switches on and off the grid in the view window.
+  - _Keywords:_ Switches, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:show-grid on-off)
+  - _Keywords:_ Argument, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension switches on and off visualization of the grid in the view window.
+  - _Keywords:_ Scheme, extension, switches, visualization, window
+- **sde:show-interface** <a id="sde-show-interface"></a>
+  - Adds the specified interfaces to the view window.
+  - _Keywords:_ Adds, specified, interfaces, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:show-interface interface-name | interface-name-list)
+  - _Keywords:_ interface, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension adds to the view window all regions that have interfaces defined with the specified interface attributes. Interfaces are identified with the attribute name interface.
+  - _Keywords:_ regions, interfaces, interface, dimensions, between, neighboring, Scheme, extension
+- **sde:show-mask** <a id="sde-show-mask"></a>
+  - Adds the specified masks to the view window.
+  - _Keywords:_ Adds, specified, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:show-mask mask-name | mask-name-list)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension adds the specified masks to the view window. Masks are planar wire bodies that have the specified mask-names as ‘mask name’ attributes.
+  - _Keywords:_ specified, Scheme, extension, window, Masks, planar, bodies, attributes
+- **sde:show-material** <a id="sde-show-material"></a>
+  - Adds the entities with the specified materials to the view window.
+  - _Keywords:_ Adds, entities, specified, materials, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:show-material datex-material | datex-material-list)
+  - _Keywords:_ material, Argument, DATEXMAT
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to show the regions that have the specified material names as material attributes. The regions are added to the view window, and the view window is refreshed. If a region is already visible, there is no chan...
+  - _Keywords:_ material, window, regions, DATEX, Scheme, extension, specified, attributes
+- **Examples** <a id="examples"></a>
+  - ```txt (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Photoresist" "region_1") (sdegeo:create-rectangle (position 2 0 0) (position 3 1 0) "Silicon" "region_2") (sdegeo:create-rectangle (position 4 0 0) (position ...
+  - _Keywords:_ position, sdegeo, create, rectangle, Silicon, material, Photoresist, region_1
+- **sde:show-pcurves** <a id="sde-show-pcurves"></a>
+  - Shows the parameter curves.
+  - _Keywords:_ Shows, curves
+- **Syntax** <a id="syntax"></a>
+  - (sde:show-pcurves rendering-flag [u-params [v-params]])
+  - _Keywords:_ params, rendering, Argument, INTEGER, optional, pcurves, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to visualize the parametric curves for each entity, defined in the database. The Boolean argument rendering-flag is used to switch on or off the parameter line visualization. If the optional arguments u-para...
+  - _Keywords:_ params, Scheme, extension, visualize, parametric, curves, entity, defined
+- **Limitations** <a id="limitations"></a>
+  - Only the wire frame view is affected by this Scheme extension, by rendering the parameter lines.
+  - _Keywords:_ affected, Scheme, extension, rendering
+- **sde:show-region** <a id="sde-show-region"></a>
+  - Adds the specified entity or entities to the view window.
+  - _Keywords:_ Adds, specified, entity, entities, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:show-region region-name | region-name-list)
+  - _Keywords:_ region, Argument, STRING, existing
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to show the specified regions in the view window. The bodies that have the specified region name as a region attribute are added to the view window, and the view window is refreshed. If the region is already...
+  - _Keywords:_ window, region, specified, Scheme, extension, regions, bodies, attribute
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Photoresist" "region_1") (sdegeo:create-rectangle (position 2 0 0) (position 3 1 0) "Silicon" "region_2") (sdegeo:create-rectangle (position 4 0 0) (position...
+  - _Keywords:_ position, sdegeo, create, rectangle, region_1, region_3, region_4, region
+- **sde:split-solid** <a id="sde-split-solid"></a>
+  - Splits a solid (2D and 3D) into separate bodies.
+  - _Keywords:_ Splits, separate, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sde:split-solid solid-body base-position plane-normal)
+  - _Keywords:_ position, normal, Argument, BODY, POSITION, GVECTOR
+- **Returns** <a id="returns"></a>
+  - BODY LIST
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - The new split bodies can be treated as high-level entities. They can be deleted, new material and region properties can be assigned to them, and any geometry operations can be applied to them that can be applied to high-level entities on...
+  - _Keywords:_ region, entities, applied, position, variable, normal, bodies, treated
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define my_cube (sdegeo:create-cuboid (position -1 -1 -1) (position 1 1 1) "Silver" "xx")) (sde:split-solid my_cube (position 0 0 0) (gvector 1 1 0)) (sde:split-solid my_cube (position 0 0 0) (gvector 1 -1 0)) ```
+  - _Keywords:_ position, my_cube, gvector, define, sdegeo, create, cuboid, Silver
+- **sde:stripextension** <a id="sde-stripextension"></a>
+  - Deletes the file extension from a string.
+  - _Keywords:_ Deletes, extension, string
+- **Syntax** <a id="syntax"></a>
+  - (sde:stripextension name)
+  - _Keywords:_ Argument, stripextension, STRING
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension locates the last dot (.) in the specified string and removes all characters that follow. The stripped string is returned. If the input string does not have a dot, the input string is returned.
+  - _Keywords:_ string, returned, Scheme, extension, locates, specified, removes, characters
+- **sde:substring** <a id="sde-substring"></a>
+  - Returns a substring.
+  - _Keywords:_ substring
+- **Syntax** <a id="syntax"></a>
+  - (sde:substring string min max)
+  - _Keywords:_ string, Argument, INTEGER, substring, STRING
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a substring of the input string.
+  - _Keywords:_ string, length, denotes, character, position, Scheme, extension, substring
+- **sde:test-entity** <a id="sde-test-entity"></a>
+  - Returns the entity types.
+  - _Keywords:_ entity
+- **Syntax** <a id="syntax"></a>
+  - (sde:test-entity entities)
+  - _Keywords:_ entities, Argument, ENTITY, entity
+- **Returns** <a id="returns"></a>
+  - The possible return values are:
+  - _Keywords:_ manifold, Solid, volume, possible, unknown, positive, Mask, conditions
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the entity types.
+  - _Keywords:_ Scheme, extension, entity
+- **sde:toggle-lights** <a id="sde-toggle-lights"></a>
+  - Switches on or off the lights.
+  - _Keywords:_ Switches, lights
+- **Syntax** <a id="syntax"></a>
+  - (sde:toggle-lights)
+  - _Keywords:_ toggle, lights
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension behaves like a light switch. It switches on or off the lights of the view window.
+  - _Keywords:_ Scheme, extension, behaves, switch, switches, lights, window
+- **sde:top-coord** <a id="sde-top-coord"></a>
+  - Returns the top coordinate of the device.
+  - _Keywords:_ coordinate, device
+- **Syntax** <a id="syntax"></a>
+  - (sde:top-coord body | body-list)
+  - _Keywords:_ Argument, BODY
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the top coordinate of the specified body or body-list. The top coordinate depends on the coordinate system used:
+  - _Keywords:_ coordinate, system, Scheme, extension, specified, depends, UCS, minimum
+- **sde:tr-get** <a id="sde-tr-get"></a>
+  - Returns the transformation used to place the 3D cut on the xy plane, using sdegeo:3d-cut.
+  - _Keywords:_ transformation, sdegeo
+- **Syntax** <a id="syntax"></a>
+  - (sde:tr-get)
+- **Returns** <a id="returns"></a>
+  - LIST
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the transformation that was used to place the 3D cut on the xy plane, using sdegeo:3d-cut. The transformation is composed of a rotation component ( matrix) and a translation component (3D vector). The extens...
+  - _Keywords:_ component, extension, transformation, rotation, matrix, translation, represent, Scheme
+- **sde:view-filter-reset** <a id="sde-view-filter-reset"></a>
+  - Resets the view window.
+  - _Keywords:_ Resets, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:view-filter-reset)
+  - _Keywords:_ filter
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension resets the view window to the default value. All regions and contacts are shown, and interfaces are hidden.
+  - _Keywords:_ Scheme, extension, resets, window, regions, contacts, interfaces, hidden
+- **sde:view-set-light-intensity** <a id="sde-view-set-light-intensity"></a>
+  - Sets the light intensity.
+  - _Keywords:_ intensity
+- **Syntax** <a id="syntax"></a>
+  - (sde:view-set-light-intensity lintensity)
+  - _Keywords:_ lintensity, Argument, intensity, INTEGER
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the light intensity of the GUI view window. The light intensity can be changed to a value between 0 and 1.
+  - _Keywords:_ intensity, Scheme, extension, GUI, window, changed, between
+- **sde:view-set-visible-area** <a id="sde-view-set-visible-area"></a>
+  - Sets the visible screen area.
+  - _Keywords:_ visible, screen
+- **Syntax** <a id="syntax"></a>
+  - (sde:view-set-visible-area xmin xmax ymin ymax)
+  - _Keywords:_ REAL, Argument, visible
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension resizes the GUI drawing area explicitly. If the bounding box of the created device is known, it might be convenient to preset the view area to that size.
+  - _Keywords:_ Scheme, extension, resizes, GUI, drawing, explicitly, bounding, created
+- **sde:wait-cursor** <a id="sde-wait-cursor"></a>
+  - Changes the pointer to an hourglass pointer.
+  - _Keywords:_ pointer, Changes, hourglass
+- **Syntax** <a id="syntax"></a>
+  - (sde:wait-cursor)
+  - _Keywords:_ cursor
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension changes the pointer to an hourglass pointer.
+  - _Keywords:_ pointer, Scheme, extension, changes, hourglass
+- **sde:window-select-2d** <a id="sde-window-select-2d"></a>
+  - Returns a list containing all vertex, edge, or body entities that are inside the specified 2D window.
+  - _Keywords:_ containing, vertex, entities, inside, specified, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:window-select-2d x-left y-left x-right y-right elist stype)
+  - _Keywords:_ REAL, Argument, window, select, BODY, vertex
+- **Returns** <a id="returns"></a>
+  - LIST
+- **Description** <a id="description"></a>
+  - This Scheme extension selects all entities (of the specified type, stype) lying in the specified 2D window. The first four arguments x-left, y-left, x-right, and y-right define the rectangular window that will be used during the selection.
+  - _Keywords:_ returned, selection, entities, specified, window, argument, vertex, Scheme
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ window, select, sdegeo, position, define, Scheme, extension, applies
+- **sde:window-select-3d** <a id="sde-window-select-3d"></a>
+  - Returns a list containing all vertex, edge, or face entities that are inside the specified 3D window.
+  - _Keywords:_ containing, vertex, entities, inside, specified, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:window-select-3d pmin pmax elist stype)
+  - _Keywords:_ Argument, POSITION, window, select, BODY, vertex
+- **Returns** <a id="returns"></a>
+  - LIST
+- **Description** <a id="description"></a>
+  - This Scheme extension selects all entities (of the specified type, stype) lying in the specified 3D window. The first two arguments pmin and pmax define the 3D window (cuboid) that will be used during the selection.
+  - _Keywords:_ returned, selection, entities, specified, window, argument, vertex, Scheme
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 3D models only.
+  - _Keywords:_ Scheme, extension, applies, models, similar, window, select
+- **sde:xshow** <a id="sde-xshow"></a>
+  - Adds the specified entity or entities to the view window and hides all other entities.
+  - _Keywords:_ entities, Adds, specified, entity, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:xshow entity | entity-list)
+  - _Keywords:_ entity, Argument, ENTITY
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to show the specified entities exclusively in the view window. The entities are added to the view window. All other entities are removed from the view window, and the view window is refreshed.
+  - _Keywords:_ window, entities, Scheme, extension, specified, exclusively, removed, refreshed
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define r1 (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Photoresist" "r_1")) (define r2 (sdegeo:create-rectangle (position 2 0 0) (position 3 1 0) "Silicon" "r_2")) (define r3 (sdegeo:create-rectangle (...
+  - _Keywords:_ position, define, sdegeo, create, rectangle, Photoresist, Silicon, Resist
+- **sde:xshow-contact** <a id="sde-xshow-contact"></a>
+  - Adds all the regions to the view that have the specified contact attributes, and removes all other regions.
+  - _Keywords:_ regions, Adds, specified, contact, attributes, removes
+- **Syntax** <a id="syntax"></a>
+  - (sde:xshow-contact contact-name | contact-name-list)
+  - _Keywords:_ contact, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension exclusively adds all regions to the view that have contacts defined with the specified contact attributes. Contacts are identified with the attribute name contact. In two dimensions, contacts are edges and, in three...
+  - _Keywords:_ contacts, contact, dimensions, Scheme, extension, exclusively, regions, defined
+- **sde:xshow-interface** <a id="sde-xshow-interface"></a>
+  - Adds the specified interfaces to the view window, and removes all other interfaces.
+  - _Keywords:_ interfaces, Adds, specified, window, removes
+- **Syntax** <a id="syntax"></a>
+  - (sde:xshow-interface interface-name | interface-name-list)
+  - _Keywords:_ interface, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension exclusively adds all regions to the view window, which have interfaces defined, with the specified interface attributes. Interfaces are identified with the attribute name interface. In two dimensions, interfaces are...
+  - _Keywords:_ regions, interfaces, interface, dimensions, between, neighboring, Scheme, extension
+- **sde:xshow-mask** <a id="sde-xshow-mask"></a>
+  - Adds the specified masks to the view window, and removes all other masks.
+  - _Keywords:_ Adds, specified, window, removes
+- **Syntax** <a id="syntax"></a>
+  - (sde:xshow-mask mask-name | mask-name-list)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension exclusively adds the specified masks to the view window, that is, the specified masks are added and all other masks are removed. Masks are planar wire bodies that have the specified mask-names as ‘mask name’ attribu...
+  - _Keywords:_ specified, Scheme, extension, exclusively, window, removed, Masks, planar
+- **sde:xshow-material** <a id="sde-xshow-material"></a>
+  - Adds the entities with the specified materials to the view window, and hides all other entities.
+  - _Keywords:_ entities, Adds, specified, materials, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:xshow-material datex-material | datex-material-list)
+  - _Keywords:_ material, Argument, DATEXMAT
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to show exclusively the regions that have the specified material names as material attributes. The region is added to the view window, all other regions are removed from the view window, and the view window ...
+  - _Keywords:_ material, window, regions, DATEX, Scheme, extension, exclusively, specified
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Photoresist" "region_1") (sdegeo:create-rectangle (position 2 0 0) (position 3 1 0) "Silicon" "region_2") (sdegeo:create-rectangle (position 4 0 0) (posit...
+  - _Keywords:_ position, sdegeo, create, rectangle, Silicon, clojure, Photoresist, region_1
+- **sde:xshow-region** <a id="sde-xshow-region"></a>
+  - Adds the specified entity or entities to the view window, and hides all other entities.
+  - _Keywords:_ entities, Adds, specified, entity, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:xshow-region region-name | region-name-list)
+  - _Keywords:_ region, Argument, STRING, existing
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to show the specified regions exclusively in the view window. The bodies, which have the specified region names as region attributes, are added to the view window. All other bodies are removed from the view ...
+  - _Keywords:_ window, specified, bodies, region, Scheme, extension, regions, exclusively
+- **Examples** <a id="examples"></a>
+  - ```txt (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Photoresist" "region_1") (sdegeo:create-rectangle (position 2 0 0) (position 3 1 0) "Silicon" "region_2") (sdegeo:create-rectangle (position 4 0 0) (position ...
+  - _Keywords:_ position, sdegeo, create, rectangle, region_1, region_3, region_4, region
+- **sde:zoom-all** <a id="sde-zoom-all"></a>
+  - Fits the model to the view window.
+  - _Keywords:_ Fits, window
+- **Syntax** <a id="syntax"></a>
+  - (sde:zoom-all)
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to fit the model to the view window.
+  - _Keywords:_ Scheme, extension, window
+- **sdedr:append-cmd-file** <a id="sdedr-append-cmd-file"></a>
+  - Appends a text file to a mesh command file.
+  - _Keywords:_ Appends
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:append-cmd-file file-name)
+  - _Keywords:_ Argument, append, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension appends a text file to the end of a mesh command file. The mesh command file is not created by this Scheme extension.
+  - _Keywords:_ Scheme, extension, appends, created, You, append, create
+- **sdedr:clear** <a id="sdedr-clear"></a>
+  - Clears the doping and refinement container class.
+  - _Keywords:_ Clears, doping, refinement, container
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:clear)
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension clears all doping-related and refinement-related data from Sentaurus Structure Editor. A subsequent sdedr:write-cmd-file call creates an empty command file. (Choose Mesh > Clear All > Profiles and Definitions.)
+  - _Keywords:_ related, Scheme, extension, clears, doping, refinement, Sentaurus, Structure
+- **sdedr:clear-multibox-definitions** <a id="sdedr-clear-multibox-definitions"></a>
+  - Deletes all multibox definition–related data.
+  - _Keywords:_ Deletes, multibox, definition, related
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:clear-multibox-definitions)
+  - _Keywords:_ multibox, definitions
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes all multibox definition–related data from the doping and refinement container. (Choose Mesh > Clear All > Multibox Definitions.)
+  - _Keywords:_ Scheme, extension, deletes, multibox, definition, related, doping, refinement
+- **sdedr:clear-multibox-placements** <a id="sdedr-clear-multibox-placements"></a>
+  - Deletes all multibox placement–related data.
+  - _Keywords:_ Deletes, multibox, placement, related
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:clear-multibox-placements)
+  - _Keywords:_ multibox, placements
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes all multibox placement–related data from the doping and refinement container. (Choose Mesh > Clear All > Multibox Placements.)
+  - _Keywords:_ Scheme, extension, deletes, multibox, placement, related, doping, refinement
+- **sdedr:clear-profile-definitions** <a id="sdedr-clear-profile-definitions"></a>
+  - Deletes all profile definition–related data.
+  - _Keywords:_ Deletes, profile, definition, related
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:clear-profile-definitions)
+  - _Keywords:_ profile, definitions
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes all profile definition–related data from the doping and refinement container. (Choose Mesh > Clear All > Profile Definitions.)
+  - _Keywords:_ Scheme, extension, deletes, profile, definition, related, doping, refinement
+- **sdedr:clear-profile-placements** <a id="sdedr-clear-profile-placements"></a>
+  - Deletes all profile placement–related data.
+  - _Keywords:_ Deletes, profile, placement, related
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:clear-profile-placements)
+  - _Keywords:_ profile, placements
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes all profile placement–related data from the doping and refinement container. (Choose Mesh > Clear All > Profile Placements.)
+  - _Keywords:_ Scheme, extension, deletes, profile, placement, related, doping, refinement
+- **sdedr:clear-ref-windows** <a id="sdedr-clear-ref-windows"></a>
+  - Deletes all defined Ref/Eval windows.
+  - _Keywords:_ Deletes, defined, Ref, Eval, windows
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:clear-ref-windows)
+  - _Keywords:_ windows
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes all previously defined Ref/Eval windows from the database. (Choose Mesh > Clear All > Ref/Eval Windows.)
+  - _Keywords:_ Ref, Eval, Scheme, extension, deletes, previously, defined, windows
+- **sdedr:clear-refinement-definitions** <a id="sdedr-clear-refinement-definitions"></a>
+  - Deletes all refinement definition–related data.
+  - _Keywords:_ Deletes, refinement, definition, related
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:clear-refinement-definitions)
+  - _Keywords:_ refinement, definitions
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes all refinement definition–related data from the doping and refinement container. The mesh command files contain all refinement-related data. The command file includes two data sections that are related to do...
+  - _Keywords:_ refinement, Definitions, related, Scheme, extension, deletes, definition, doping
+- **sdedr:clear-refinement-placements** <a id="sdedr-clear-refinement-placements"></a>
+  - Deletes all refinement placement–related data.
+  - _Keywords:_ Deletes, refinement, placement, related
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:clear-refinement-placements)
+  - _Keywords:_ refinement, placements
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes all refinement placement–related data from the doping and refinement container. The mesh command files contain all refinement-related data. The command file includes two data sections that are related to dop...
+  - _Keywords:_ refinement, Placements, related, Scheme, extension, deletes, doping, Definitions
+- **sdedr:clear-submesh-placement-transform** <a id="sdedr-clear-submesh-placement-transform"></a>
+  - Clears the list of all transform operations applied to the named external profile placement.
+  - _Keywords:_ Clears, transform, operations, applied, external, profile, placement
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:clear-submesh-placement-transform placement-name)
+  - _Keywords:_ placement, Argument, submesh, transform, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension clears all transform operations (Reflect, Rotation, and ShiftVector) as defined for the named external profile placement through the Scheme extension sdedr:transform-submesh-placement.
+  - _Keywords:_ Scheme, extension, transform, placement, clears, operations, Reflect, Rotation
+- **See Also** <a id="see-also"></a>
+  - sdedr:transform-submesh-placement on page 578
+  - _Keywords:_ transform, submesh, placement
+- **sdedr:convert-mask-to-drs-body** <a id="sdedr-convert-mask-to-drs-body"></a>
+  - Converts the specified mask to a Ref/Eval window.
+  - _Keywords:_ Converts, specified, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:convert-mask-to-drs-body maskname refwindowname)
+  - _Keywords:_ maskname, refwindowname, Argument, STRING, convert
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension converts the specified mask into a Ref/Eval window. If the mask is not found, the function returns #f; if the conversion is successful, it returns #t.
+  - _Keywords:_ Scheme, extension, converts, specified, Ref, Eval, window, conversion
+- **sdedr:define-1d-external-profile** <a id="sdedr-define-1d-external-profile"></a>
+  - Creates a one-dimensional external profile in the mesh command file.
+  - _Keywords:_ Creates, dimensional, external, profile
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdedr:define-1d-external-profile name filename "Scale" scale "DataScale" data-scale ["Range" range-from range-to] [lateral-function]) ```
+  - _Keywords:_ REAL, lateral, STRING, optional, factor, length, filename, Erf
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a 1D external profile in the mesh command file.
+  - _Keywords:_ profile, Scheme, extension, creates, external, micrometer, lateral, Gaussian
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Analytic Profiles on page 12 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Analytic, Profiles, detailed, descriptions
+- **sdedr:define-analytical-profile** <a id="sdedr-define-analytical-profile"></a>
+  - Creates a user-defined analytic function that describes doping in the mesh command file.
+  - _Keywords:_ Creates, defined, analytic, describes, doping
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-analytical-profile name species initialization function start-value analytical-type [ lateral-type-gauss-erf lateral-parameter lateral-value | "Eval" lateral-eval-init lateral-eval-func ])
+  - _Keywords:_ lateral, STRING, optional, analytical, species, initialization, Eval, Argument
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a user-defined analytic function that describes doping in the mesh command file. Note that the optional definition of lateral diffusion is not available if the definition in the primary direction is the anal...
+  - _Keywords:_ definition, lateral, analytic, diffusion, primary, General, Scheme, extension
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Analytic Profiles on page 12 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Analytic, Profiles, detailed, descriptions
+- **sdedr:define-analytical-profile-placement** <a id="sdedr-define-analytical-profile-placement"></a>
+  - Creates a placement for an analytic profile definition in the mesh command file.
+  - _Keywords:_ Creates, placement, analytic, profile, definition
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-analytical-profile-placement placement-name definition-name ref-eval-window symmetry replacement evaluation eval-window decay-length [ "Gauss" ] eval-window-type)
+  - _Keywords:_ window, STRING, placement, definition, symmetry, replacement, evaluation, length
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The argument decay-length corresponds to the mesh command file parameter "DecayLength" unless the optional string "Gauss" is additionally present, in which case, decay-length is interpreted instead as corresponding to the "GaussDecayLeng...
+  - _Keywords:_ Sentaurus, length, AnalyticalProfile, statement, Mesh, argument, corresponds, DecayLength
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Placing Analytic Profiles on page 25 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Placing, Analytic, Profiles, detailed, descriptions
+- **sdedr:define-body-interface-refwin** <a id="sdedr-define-body-interface-refwin"></a>
+  - Defines a refinement window between the interfaces of the specified geometric bodies.
+  - _Keywords:_ Defines, refinement, window, between, interfaces, specified, geometric, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-body-interface-refwin body-list ref-eval-window)
+  - _Keywords:_ window, Argument, define, interface, refwin, BODY, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension defines a refinement window between the interfaces of the specified geometric bodies. The input arguments are a body list and the name of a refinement window.
+  - _Keywords:_ refinement, window, interface, between, bodies, supported, Scheme, extension
+- **sdedr:define-constant-profile** <a id="sdedr-define-constant-profile"></a>
+  - Creates a definition for a constant doping profile in the mesh command file.
+  - _Keywords:_ Creates, definition, constant, doping, profile
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-constant-profile definition-name species concentration)
+  - _Keywords:_ definition, species, concentration, Argument, STRING, define, constant, profile
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a definition for a constant doping profile in the mesh command file.
+  - _Keywords:_ Scheme, extension, creates, definition, constant, doping, profile
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Constant Profiles on page 12 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Constant, Profiles, detailed, descriptions
+- **sdedr:define-constant-profile-material** <a id="sdedr-define-constant-profile-material"></a>
+  - Creates a constant doping profile placement based on a material in the mesh command file.
+  - _Keywords:_ Creates, constant, doping, profile, placement, material
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-constant-profile-material placement-name definition-name material [decay-length ["Gauss"]] [replace])
+  - _Keywords:_ material, placement, definition, length, replace, Argument, STRING, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a constant doping profile placement based on a material in the mesh command file.
+  - _Keywords:_ length, Scheme, extension, creates, constant, doping, profile, placement
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Constant Profiles on page 12 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Constant, Profiles, detailed, descriptions
+- **sdedr:define-constant-profile-placement** <a id="sdedr-define-constant-profile-placement"></a>
+  - Creates a Ref/Eval window placement of a constant doping profile definition in the mesh command file.
+  - _Keywords:_ Creates, Ref, Eval, window, placement, constant, doping, profile
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-constant-profile-placement placement-name definition-name ref-win-name [decay-length ["Gauss"]] [replace])
+  - _Keywords:_ placement, STRING, definition, length, replace, Argument, optional, define
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The argument decay-length corresponds to the mesh command file parameter "DecayLength" unless the optional string "Gauss" is additionally present, in which case, decay-length is interpreted instead as corresponding to the "GaussDecayLeng...
+  - _Keywords:_ length, argument, corresponds, DecayLength, unless, optional, string, Gauss
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Constant Profiles on page 12 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Constant, Profiles, detailed, descriptions
+- **sdedr:define-constant-profile-region** <a id="sdedr-define-constant-profile-region"></a>
+  - Creates a constant doping profile placement based on a region in the mesh command file.
+  - _Keywords:_ Creates, constant, doping, profile, placement, region
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-constant-profile-region placement-name definition-name region-name [decay-length ["Gauss"]] [replace])
+  - _Keywords:_ region, STRING, placement, definition, length, replace, Argument, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a constant doping profile placement based on a region in the mesh command file.
+  - _Keywords:_ length, Scheme, extension, creates, constant, doping, profile, placement
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Constant Profiles on page 12 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Constant, Profiles, detailed, descriptions
+- **sdedr:define-erf-profile** <a id="sdedr-define-erf-profile"></a>
+  - Creates a definition of an error-function doping profile in the mesh command file.
+  - _Keywords:_ Creates, definition, doping, profile
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdedr:define-erf-profile definition-name species "SymPos" symmetry-position "MaxVal" max-value | "Dose" dose "Junction" junction "ValueAtDepth" value-at-depth "Depth" depth "Length" length "StdDev" standard-deviation [lateral...
+  - _Keywords:_ REAL, lateral, length, STRING, Length, standard, deviation, factor
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a definition of an error-function doping profile in the mesh command file.
+  - _Keywords:_ Scheme, extension, creates, definition, doping, profile
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Constant Profiles on page 12 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Constant, Profiles, detailed, descriptions
+- **sdedr:define-gaussian-profile** <a id="sdedr-define-gaussian-profile"></a>
+  - Creates a definition of a Gaussian-function doping profile in the mesh command file.
+  - _Keywords:_ Creates, definition, Gaussian, doping, profile
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdedr:define-gaussian-profile definition-name species "PeakPos" peak-position { "PeakVal" peak-concentration | "Dose" dose} {"ValueAtDepth" concentration-at-depth "Depth" depth | "Length" diffusion-length | "StdDev" standard-devi...
+  - _Keywords:_ REAL, lateral, length, concentration, STRING, Length, standard, deviation
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a definition of a Gaussian-function doping profile in the mesh command file.
+  - _Keywords:_ Scheme, extension, creates, definition, Gaussian, doping, profile
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Analytic Profiles on page 12 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Analytic, Profiles, detailed, descriptions
+- **sdedr:define-multibox-placement** <a id="sdedr-define-multibox-placement"></a>
+  - Defines the placements part of a multibox definition.
+  - _Keywords:_ Defines, placements, multibox, definition
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-multibox-placement placement-name definition-name refwindow-name)
+  - _Keywords:_ placement, STRING, definition, refwindow, Argument, define, multibox
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension defines the placements part of a multibox definition.
+  - _Keywords:_ Scheme, extension, defines, placements, multibox, definition
+- **Examples** <a id="examples"></a>
+  - (sdedr:define-multibox-placement "p1" "d1" "refwindow1")
+  - _Keywords:_ define, multibox, placement, refwindow1
+- **sdedr:define-multibox-size** <a id="sdedr-define-multibox-size"></a>
+  - Defines the definitions part of a multibox definition.
+  - _Keywords:_ Defines, definitions, multibox, definition
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-multibox-size mbox-name max-x max-y [max-z] min-x min-y [min-z] ratio-x ratio-y [ratio-z])
+  - _Keywords:_ REAL, optional, Argument, define, multibox, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension defines the definitions part of a multibox definition.
+  - _Keywords:_ Scheme, extension, defines, definitions, multibox, definition
+- **Examples** <a id="examples"></a>
+  - ```lisp (sdedr:define-multibox-size "multibox-2d" 10 10 1 1 2 2) (sdedr:define-multibox-size "multibox-3d" 10 10 10 1 1 1 2 2 2) ```
+  - _Keywords:_ multibox, define
+- **sdedr:define-particle-profile** <a id="sdedr-define-particle-profile"></a>
+  - Creates a particle profile that describes doping in the mesh command file.
+  - _Keywords:_ Creates, particle, profile, describes, doping
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdedr:define-particle-profile name file ["AutoScreeningFactor" auto-screening-factor] ["BoundaryExtension" boundary-extension] ["Divisions" divisions] ["DopingAssignment" doping-assignment] ["Normalization" normalization] ["N...
+  - _Keywords:_ optional, screening, factor, STRING, BOOLEAN, boundary, extension, divisions
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a particle doping profile.
+  - _Keywords:_ Scheme, extension, creates, particle, doping, profile
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Particle Profiles on page 17 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Particle, Profiles, detailed, descriptions
+- **sdedr:define-particle-profile-placement** <a id="sdedr-define-particle-profile-placement"></a>
+  - Creates a placement for a particle profile definition in the mesh command file.
+  - _Keywords:_ Creates, placement, particle, profile, definition
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-particle-profile-placement placement-name definition-name "EvalWindow" eval-window eval-window-type ["Replace" replace] ["LocalReplace" local-replace])
+  - _Keywords:_ window, replace, placement, STRING, definition, Argument, BOOLEAN, optional
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a particle profile placement.
+  - _Keywords:_ Scheme, extension, creates, particle, profile, placement, Replace, LocalReplace
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Placing Particle Profiles on page 28 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Placing, Particle, Profiles, detailed, descriptions
+- **sdedr:define-refeval-window** <a id="sdedr-define-refeval-window"></a>
+  - Defines a geometric region that can be used as a Ref/Eval window.
+  - _Keywords:_ Defines, geometric, region, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-refeval-window rfwin-name { single-shape | multi-shape })
+  - _Keywords:_ single, window, Argument, POSITION, define, refeval, STRING, Ref
+- **Returns** <a id="returns"></a>
+  - ENTITY of the ACIS body Ref/Eval window if it was successfully created; otherwise, #f if the operation failed.
+  - _Keywords:_ ENTITY, ACIS, Ref, Eval, window, successfully, created, otherwise
+- **Description** <a id="description"></a>
+  - For rfwin-type:
+  - _Keywords:_ position, define, window, polygon, refeval, argument, Ref, Eval
+- **A: Commands** <a id="a-commands"></a>
+  - sdedr:define-refeval-window
+  - _Keywords:_ position, define, refeval, window, Multiple, multiple_body, Point, Rectangle
+- **sdedr:define-refinement-function** <a id="sdedr-define-refinement-function"></a>
+  - Adds a refinement function to the specified refinement.
+  - _Keywords:_ refinement, Adds, specified
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdedr:define-refinement-function definition-name function-name { "MaxLenInt" mat-reg mat-reg value [factor] ["DoubleSide"] ["UseRegionNames"] | "MaxInterval" "Variable" dopant-name "Cmin" cmin "Cmax" cmax ["Scaling" scaling] ...
+  - _Keywords:_ REAL, STRING, refinement, definition, factor, dopant, scaling, targetLength
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension adds a refinement function to the specified refinement.
+  - _Keywords:_ refinement, Scheme, extension, specified
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Refinement Regions on page 9 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Refinement, Regions, detailed, descriptions
+- **sdedr:define-refinement-material** <a id="sdedr-define-refinement-material"></a>
+  - Defines the placements information for a ‘materialwise’ refinement.
+  - _Keywords:_ Defines, placements, information, materialwise, refinement
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-refinement-material placement-name definition-namematerial-name)
+  - _Keywords:_ material, placement, definition, Argument, STRING, define, refinement, namematerial
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension defines the placements information for a ‘materialwise’ refinement.
+  - _Keywords:_ Scheme, extension, defines, placements, information, materialwise, refinement
+- **Examples** <a id="examples"></a>
+  - (sdedr:define-refinement-material "p1" "d1" "Silicon")
+  - _Keywords:_ define, refinement, material, Silicon
+- **sdedr:define-refinement-placement** <a id="sdedr-define-refinement-placement"></a>
+  - Creates a refinement placement in the mesh command file.
+  - _Keywords:_ Creates, refinement, placement
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-refinement-placement refinement-name definition-name ref-eval-window)
+  - _Keywords:_ refinement, STRING, definition, window, Argument, define, placement
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The ref-eval-window argument can be either a simple string (the name of the defined refinement window) or a list of Ref/Eval windows, materials, and regions in the form:
+  - _Keywords:_ window, refinement, argument, either, simple, string, defined, Ref
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Refinement Regions on page 9 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Refinement, Regions, detailed, descriptions
+- **sdedr:define-refinement-region** <a id="sdedr-define-refinement-region"></a>
+  - Defines the placements information for a ‘regionwise’ refinement.
+  - _Keywords:_ Defines, placements, information, regionwise, refinement
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-refinement-region placement-name definition-name region-name)
+  - _Keywords:_ region, STRING, placement, definition, Argument, define, refinement
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension defines the placements information for a ‘regionwise’ refinement.
+  - _Keywords:_ Scheme, extension, defines, placements, information, regionwise, refinement
+- **Examples** <a id="examples"></a>
+  - (sdedr:define-refinement-region "p1" "d1" "Region\_1")
+  - _Keywords:_ define, refinement, region, Region
+- **sdedr:define-refinement-size** <a id="sdedr-define-refinement-size"></a>
+  - Creates a refinement size definition in the mesh command file.
+  - _Keywords:_ Creates, refinement, definition
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-refinement-size definition-name max-x max-y max-z min-x min-y min-z)
+  - _Keywords:_ REAL, optional, definition, Argument, define, refinement, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a refinement size definition in the mesh command file.
+  - _Keywords:_ Scheme, extension, creates, refinement, definition
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Refinement Regions on page 9 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Refinement, Regions, detailed, descriptions
+- **sdedr:define-submesh** <a id="sdedr-define-submesh"></a>
+  - Creates a 1D external profile in the mesh command file.
+  - _Keywords:_ Creates, external, profile
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:define-submesh definition-name geofile-name file1 mode1 file2 mode2 ... filen moden [ (list field1 field2 fieldn) ])
+  - _Keywords:_ STRING, definition, geofile, Argument, define, submesh, field1, field2
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a 1D external profile in the mesh command file.
+  - _Keywords:_ Scheme, extension, creates, external, profile
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Defining Submeshes on page 17 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Defining, Submeshes, detailed, descriptions
+- **sdedr:define-submesh-placement** <a id="sdedr-define-submesh-placement"></a>
+  - Creates a submesh placement in the mesh command file.
+  - _Keywords:_ Creates, submesh, placement
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdedr:define-submesh-placement placement-name definition-name evaluation-window ["PlacementType" eval-window-type] ["DecayLength" decay-length | "GaussDecayLength" gauss-decay-length] ["Replace" | "NoReplace" | "LocalReplace"] ["...
+  - _Keywords:_ window, length, placement, STRING, definition, evaluation, Argument, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a submesh placement in the mesh command file. The evaluation-window can name a region, material, or Ref/Eval window, depending on the eval-window-type. The default eval-window-type is "evalwin".
+  - _Keywords:_ window, Scheme, extension, submesh, placement, creates, evaluation, region
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Placements Section on page 19 for detailed descriptions of parameters
+  - _Keywords:_ Sentaurus, Mesh, Guide, Placements, detailed, descriptions
+- **sdedr:del-selected-drentity** <a id="sdedr-del-selected-drentity"></a>
+  - Deletes a specified entity or list of entities.
+  - _Keywords:_ Deletes, specified, entity, entities
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:del-selected-drentity entity | entity-list)
+  - _Keywords:_ entity, Argument, ENTITY, selected, drentity
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes a specified entity or list of entities.
+  - _Keywords:_ Scheme, extension, deletes, specified, entity, entities
+- **sdedr:delete-multibox-placement** <a id="sdedr-delete-multibox-placement"></a>
+  - Deletes the specified multibox placement from the placements part of the command file.
+  - _Keywords:_ Deletes, specified, multibox, placement, placements
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:delete-multibox-placement placement-name)
+  - _Keywords:_ placement, Argument, delete, multibox, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the specified multibox placement from the placements part of the command file.
+  - _Keywords:_ Scheme, extension, deletes, specified, multibox, placement, placements
+- **Examples** <a id="examples"></a>
+  - (sdedr:delete-multibox-placement "multibox\_1")
+  - _Keywords:_ multibox, delete, placement
+- **sdedr:delete-profile-placement** <a id="sdedr-delete-profile-placement"></a>
+  - Deletes the specified placement.
+  - _Keywords:_ Deletes, specified, placement
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:delete-profile-placement placement-name)
+  - _Keywords:_ placement, Argument, delete, profile, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the specified placement.
+  - _Keywords:_ Scheme, extension, deletes, specified, placement
+- **sdedr:delete-refeval-window** <a id="sdedr-delete-refeval-window"></a>
+  - Deletes a Ref/Eval window or list of Ref/Eval windows.
+  - _Keywords:_ Ref, Eval, Deletes, window, windows
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:delete-refeval-window bodies)
+  - _Keywords:_ bodies, Argument, BODY, delete, refeval, window
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the specified Ref/Eval windows.
+  - _Keywords:_ Scheme, extension, deletes, specified, Ref, Eval, windows
+- **Examples** <a id="examples"></a>
+  - ```lisp (sdedr:define-refeval-window "rw1" "Rectangle" (position 0 0 0) (position 1 1 0)) (sdedr:define-refeval-window "rw2" "Rectangle" (position 1 0 0) (position 2 1 0)) (sdedr:define-refeval-window "rw3" "Rectangle" (position 2 0 0) (...
+  - _Keywords:_ refeval, window, position, delete, define, Rectangle, windows, selected
+- **sdedr:delete-refinement-placement** <a id="sdedr-delete-refinement-placement"></a>
+  - Deletes the specified refinement placement from the placements part of the command file.
+  - _Keywords:_ Deletes, specified, refinement, placement, placements
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:delete-refinement-placement placement-name)
+  - _Keywords:_ placement, Argument, delete, refinement, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the specified refinement placement from the placements part of the command file.
+  - _Keywords:_ Scheme, extension, deletes, specified, refinement, placement, placements
+- **Examples** <a id="examples"></a>
+  - (sdedr:delete-refinement-placement "refinement\_1")
+  - _Keywords:_ refinement, delete, placement
+- **sdedr:delete-submesh-placement** <a id="sdedr-delete-submesh-placement"></a>
+  - Deletes the specified placement.
+  - _Keywords:_ Deletes, specified, placement
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:delete-submesh-placement placement-name)
+  - _Keywords:_ placement, Argument, delete, submesh, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the specified placement.
+  - _Keywords:_ Scheme, extension, deletes, specified, placement
+- **sdedr:get-cmdprecision** <a id="sdedr-get-cmdprecision"></a>
+  - Returns the precision value of the mesh command file.
+  - _Keywords:_ precision
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:get-cmdprecision)
+  - _Keywords:_ cmdprecision
+- **Returns** <a id="returns"></a>
+  - INTEGER
+  - _Keywords:_ INTEGER
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the precision value of the mesh command file. The default value is 12.
+  - _Keywords:_ Scheme, extension, precision
+- **sdedr:get-definition-list** <a id="sdedr-get-definition-list"></a>
+  - Returns a list of definitions.
+  - _Keywords:_ definitions
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdedr:get-definition-list "profile" | "refinement" | "multibox") ```
+  - _Keywords:_ definition, profile, refinement, multibox
+- **Returns** <a id="returns"></a>
+  - STRING LIST
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list of definition names of the given placement type. The available placement types are "profile", "refinement", or "multibox".
+  - _Keywords:_ placement, Scheme, extension, definition, available, profile, refinement, multibox
+- **sdedr:get-placement-list** <a id="sdedr-get-placement-list"></a>
+  - Returns a list of placements.
+  - _Keywords:_ placements
+- **Syntax** <a id="syntax"></a>
+  - ```typescript (sdedr:get-placement-list "profile" | "refinement" | "multibox") ```
+  - _Keywords:_ typescript, placement, profile, refinement, multibox
+- **Returns** <a id="returns"></a>
+  - STRING LIST
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list of placement names of the given placement type. The available placement types are "profile", "refinement", or "multibox".
+  - _Keywords:_ placement, Scheme, extension, available, profile, refinement, multibox
+- **sdedr:hide-mbox** <a id="sdedr-hide-mbox"></a>
+  - Hides the specified multiboxes.
+  - _Keywords:_ Hides, specified, multiboxes
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:hide-mbox mbox-list)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension displays the specified multiboxes.
+  - _Keywords:_ Scheme, extension, displays, specified, multiboxes
+- **sdedr:hide-profile** <a id="sdedr-hide-profile"></a>
+  - Hides the specified analytic doping profiles.
+  - _Keywords:_ Hides, specified, analytic, doping, profiles
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:hide-profile profile-list)
+  - _Keywords:_ profile, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension hides the specified analytic doping profiles.
+  - _Keywords:_ Scheme, extension, specified, analytic, doping, profiles
+- **sdedr:hide-refinement** <a id="sdedr-hide-refinement"></a>
+  - Hides the specified refinements.
+  - _Keywords:_ Hides, specified, refinements
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:hide-refinement refinement-list)
+  - _Keywords:_ refinement, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension hides the specified refinements.
+  - _Keywords:_ Scheme, extension, specified, refinements
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 10 10 0) "Silicon" "region_1") (sdegeo:create-rectangle (position 4 10 0) (position 6 12 0) "PolySilicon" "region_2") (sdedr:define-refinement-size "ref1" 2 2 2 1 1 ...
+  - _Keywords:_ position, refinement, sdegeo, create, rectangle, region_1, define, Silicon
+- **sdedr:hide-rewin** <a id="sdedr-hide-rewin"></a>
+  - Hides the specified Ref/Eval window or windows.
+  - _Keywords:_ Hides, specified, Ref, Eval, window, windows
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:hide-rewin rewin-list)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension hides the specified Ref/Eval window or windows.
+  - _Keywords:_ Scheme, extension, specified, Ref, Eval, window, windows
+- **Examples** <a id="examples"></a>
+  - ```lisp (sdedr:define-refeval-window "N1" "Rectangle" (position 0 0 0) (position 1 1 0)) (sdedr:define-refeval-window "N2" "Rectangle" (position 2 0 0) (position 3 1 0)) (sdedr:define-refeval-window "N3" "Rectangle" (position 4 0 0) (pos...
+  - _Keywords:_ position, define, refeval, window, Rectangle
+- **sdedr:offset-block** <a id="sdedr-offset-block"></a>
+  - Generates a new offsetting block.
+  - _Keywords:_ Generates, offsetting
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:offset-block "region" region "maxlevel" maxlevel)
+  - _Keywords:_ maxlevel, region, material, offset, Argument, STRING, DATEXMAT, INTEGER
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension generates a new offsetting block inside the Offsetting section of the mesh command file.
+  - _Keywords:_ Scheme, extension, generates, offsetting, inside, Offsetting
+- **sdedr:offset-global** <a id="sdedr-offset-global"></a>
+  - Generates a new global offsetting parameters block.
+  - _Keywords:_ Generates, global, offsetting
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:offset-global "factor" factor "hlocal" hlocal "maxlevel" maxlevel)
+  - _Keywords:_ factor, hlocal, maxlevel, Argument, REAL, offset, global, INTEGER
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension generates a new global offsetting parameters block.
+  - _Keywords:_ Scheme, extension, generates, global, offsetting
+- **See Also** <a id="see-also"></a>
+  - Offsetting Refinements on page 214
+  - _Keywords:_ Offsetting, Refinements
+- **sdedr:offset-interface** <a id="sdedr-offset-interface"></a>
+  - Generates a new offsetting interface block.
+  - _Keywords:_ Generates, offsetting, interface
+- **Syntax** <a id="syntax"></a>
+  - ```lisp (sdedr:offset-interface "region" region1 region2 "hlocal" hlocal "factor" factor "window" x1 y1 z1 x2 y2 z2) (sdedr:offset-interface "material" material1 material2 "hlocal" hlocal "factor" factor "window" x1 y1 z1 x2 y2 z2) ```
+  - _Keywords:_ hlocal, factor, REAL, offset, interface, region, window, material
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension generates a new offsetting interface block inside the Offsetting section of the mesh command file.
+  - _Keywords:_ Scheme, extension, generates, offsetting, interface, inside, Offsetting
+- **sdedr:read-cmd-file** <a id="sdedr-read-cmd-file"></a>
+  - Loads a mesh command file.
+  - _Keywords:_ Loads
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:read-cmd-file cmd-file-name)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension parses a specified mesh command file and initializes the doping-related and refinement-related data structures in Sentaurus Structure Editor. The command file entities can be visualized using the Placements Viewer.
+  - _Keywords:_ Scheme, related, Sentaurus, Structure, Editor, entities, extension, parses
+- **sdedr:redefine-refeval-window** <a id="sdedr-redefine-refeval-window"></a>
+  - Redefines a previously defined geometric Ref/Eval window.
+  - _Keywords:_ Redefines, previously, defined, geometric, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:redefine-refeval-window rfwin-name new-rfwin-name rfwin-type data)
+  - _Keywords:_ window, Argument, STRING, Ref, Eval, POSITION, redefine, refeval
+- **Returns** <a id="returns"></a>
+  - ENTITY ID of the redefined ACIS body Ref/Eval window; otherwise, #f if the operation fails.
+  - _Keywords:_ ENTITY, redefined, ACIS, Ref, Eval, window, otherwise, operation
+- **Description** <a id="description"></a>
+  - For the argument rfwin-type:
+  - _Keywords:_ argument, position, POSITION, Point, Line, Rectangle, Cuboid, opposite
+- **sdedr:refine-box** <a id="sdedr-refine-box"></a>
+  - Defines a refinement window–style refinement box.
+  - _Keywords:_ refinement, Defines, window
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:refine-box refinement\_name pos\_min pos\_max spacing)
+  - _Keywords:_ REAL, refinement, spacing, Argument, POSITION, refine, STRING, pos_min
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension defines a refinement window–style refinement box, where:
+  - _Keywords:_ refinement, spacing, Scheme, extension, defines, coordinate, dimensions, window
+- **sdedr:refine-doping** <a id="sdedr-refine-doping"></a>
+  - Adds a refinement based on doping (field:DopingConcentration) in an entire region or material.
+  - _Keywords:_ Adds, refinement, doping, DopingConcentration, entire, region, material
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdedr:refine-doping spacing | sx sy sz ["MaxTransDiff" asinhdiff] ["material" "m" | "region" "r"]) ```
+  - _Keywords:_ REAL, optional, KEYWORD, spacing, MaxTransDiff, asinhdiff, material, region
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension adds a refinement based on doping (field:DopingConcentration) in an entire region or material:
+  - _Keywords:_ material, region, spacing, refinement, specify, Scheme, extension, doping
+- **sdedr:refine-interface** <a id="sdedr-refine-interface"></a>
+  - Creates a refined mesh at an interface.
+  - _Keywords:_ Creates, refined, interface
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdedr:refine-interface "region" r1 r2 | "material" m1 m2 "hlocal" spacing ["factor" factor] ["window" x1 y1 z1 x2 y2 z2]) ```
+  - _Keywords:_ KEYWORD, factor, STRING, optional, REAL, region, material, hlocal
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a refined mesh at an interface:
+  - _Keywords:_ interface, region, material, denotes, spacing, Scheme, extension, creates
+- **A: Commands** <a id="a-commands"></a>
+  - sdedr:refine-interface
+  - _Keywords:_ window, placement, Sentaurus, optional, refine, interface, factor, determines
+- **sdedr:set-cmdprecision** <a id="sdedr-set-cmdprecision"></a>
+  - Sets the precision value of the mesh command file.
+  - _Keywords:_ precision
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:set-cmdprecision cmdprecision)
+  - _Keywords:_ cmdprecision, Argument, INTEGER
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the precision value of the mesh command file. The number of digits that is written in the mesh command file for Ref/Eval window coordinates can be controlled. The vertex coordinates of the Ref/Eval windows that...
+  - _Keywords:_ Ref, Eval, coordinates, written, window, vertex, Scheme, extension
+- **sdedr:set-title** <a id="sdedr-set-title"></a>
+  - Sets the title of the command file.
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:set-title cmd-file-title)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - Information is written to the Title section of the command file. If this Scheme extension is not called explicitly, the title of the command file is set to Untitled.
+  - _Keywords:_ Information, written, Title, Scheme, extension, called, explicitly, Untitled
+- **sdedr:show-mbox** <a id="sdedr-show-mbox"></a>
+  - Displays the specified multiboxes.
+  - _Keywords:_ Displays, specified, multiboxes
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:show-mbox mbox-list)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension displays the specified multiboxes.
+  - _Keywords:_ Scheme, extension, displays, specified, multiboxes
+- **sdedr:show-profile** <a id="sdedr-show-profile"></a>
+  - Displays the specified analytic doping profiles.
+  - _Keywords:_ Displays, specified, analytic, doping, profiles
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:show-profile profile-list)
+  - _Keywords:_ profile, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension displays the specified analytic doping profiles.
+  - _Keywords:_ Scheme, extension, displays, specified, analytic, doping, profiles
+- **sdedr:show-refinement** <a id="sdedr-show-refinement"></a>
+  - Displays the specified refinements.
+  - _Keywords:_ Displays, specified, refinements
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:show-refinement refinement-list)
+  - _Keywords:_ refinement, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension displays the specified refinements.
+  - _Keywords:_ Scheme, extension, displays, specified, refinements
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 10 10 0) "Silicon" "region_1") (sdegeo:create-rectangle (position 4 10 0) (position 6 12 0) "PolySilicon" "region_2") (sdedr:define-refinement-size "ref1" 2 2 2 1 1 ...
+  - _Keywords:_ position, refinement, sdegeo, create, rectangle, region_1, define, Silicon
+- **sdedr:show-rewin** <a id="sdedr-show-rewin"></a>
+  - Displays the specified Ref/Eval window or windows.
+  - _Keywords:_ Displays, specified, Ref, Eval, window, windows
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:show-rewin rewin-list)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension displays the specified Ref/Eval window or windows.
+  - _Keywords:_ Scheme, extension, displays, specified, Ref, Eval, window, windows
+- **Examples** <a id="examples"></a>
+  - ```lisp (sdedr:define-refeval-window "N1" "Rectangle" (position 0 0 0) (position 1 1 0)) (sdedr:define-refeval-window "N2" "Rectangle" (position 2 0 0) (position 3 1 0)) (sdedr:define-refeval-window "N3" "Rectangle" (position 4 0 0) (pos...
+  - _Keywords:_ position, define, refeval, window, Rectangle
+- **sdedr:transform-submesh-placement** <a id="sdedr-transform-submesh-placement"></a>
+  - Defines transform operations applied to the named external profile placement.
+  - _Keywords:_ Defines, transform, operations, applied, external, profile, placement
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdedr:transform-submesh-placement placement-name [<transform1> <transform2> ... <transformN>]) ```
+  - _Keywords:_ placement, Argument, REAL, transform, submesh, transform1, transform2, transformN
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension defines a transform operation, or a series of transform operations, applied to the named external profile placement. The operation or series of operations is appended to any existing series of operations already app...
+  - _Keywords:_ operations, extension, placement, Scheme, transform, series, operation, applied
+- **sdedr:write-cmd-file** <a id="sdedr-write-cmd-file"></a>
+  - Writes a mesh command file.
+  - _Keywords:_ Writes
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:write-cmd-file cmd-file-name)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension writes all doping-related and refinement-related data to the specified command file. The command file can be used during a subsequent meshing action, together with the generated boundary file. By using a command fil...
+  - _Keywords:_ related, during, meshing, Scheme, extension, writes, doping, refinement
+- **sdedr:write-scaled-cmd-file** <a id="sdedr-write-scaled-cmd-file"></a>
+  - Writes a mesh command file (after scaling some dimensions).
+  - _Keywords:_ Writes, scaling, dimensions
+- **Syntax** <a id="syntax"></a>
+  - (sdedr:write-scaled-cmd-file cmd-file-name scaling-factor)
+  - _Keywords:_ scaling, factor, Argument, scaled, STRING, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension writes all doping-related and refinement-related data to the specified command file, which can be used during a subsequent meshing action, together with the generated boundary file. By using a command file, you can ...
+  - _Keywords:_ related, during, meshing, scaling, factor, Scheme, extension, writes
+- **sdeepi:create-layerstack** <a id="sdeepi-create-layerstack"></a>
+  - Creates a planar layer stack structure from the CSV input data.
+  - _Keywords:_ Creates, planar, structure, CSV
+- **Syntax** <a id="syntax"></a>
+  - (sdeepi:create-layerstack file-name)
+  - _Keywords:_ Argument, sdeepi, create, layerstack, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a planar layer stack structure from the CSV input data.
+  - _Keywords:_ Scheme, global, sdeepi, variables, extension, creates, planar, structure
+- **sdeepi:publish-global-vars** <a id="sdeepi-publish-global-vars"></a>
+  - Defines the epi layer stack variables as global Scheme variables.
+  - _Keywords:_ variables, Defines, global, Scheme
+- **Syntax** <a id="syntax"></a>
+  - (sdeepi:publish-global-vars make-global-vars)
+  - _Keywords:_ global, Argument, sdeepi, publish, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The sdeepi:publish-global-vars Scheme extension defines the global and layer variables of the sdeepi Scheme extensions as global Scheme variables.
+  - _Keywords:_ Scheme, global, variables, sdeepi, extension, publish, defines, extensions
+- **sdeepi:scm** <a id="sdeepi-scm"></a>
+  - Generates a Scheme script for creating a planar layer stack structure from CSV input data.
+  - _Keywords:_ Generates, Scheme, script, creating, planar, structure, CSV
+- **Syntax** <a id="syntax"></a>
+  - (sdeepi:scm file-name [output-file-name])
+  - _Keywords:_ Argument, STRING, sdeepi, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension generates a Scheme script for creating a planar layer stack structure from CSV input data. This can be useful to investigate the layer stack creation in more detail. The Scheme script will be named like file-name bu...
+  - _Keywords:_ Scheme, extension, script, generates, creating, planar, structure, CSV
+- **sdeepi:tcl** <a id="sdeepi-tcl"></a>
+  - Generates a Tcl script that contains all layer stack data from the CSV input file defined as Tcl variables.
+  - _Keywords:_ Tcl, Generates, script, contains, CSV, defined, variables
+- **Syntax** <a id="syntax"></a>
+  - (sdeepi:tcl file-name [output-file-name])
+  - _Keywords:_ Argument, STRING, sdeepi, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a Tcl script that contains all layer stack–specific data from the CSV input file in the form of Tcl variables. This file can be easily sourced in Tcl preprocessing blocks or any other Tcl interpreter such as...
+  - _Keywords:_ Tcl, extension, Scheme, creates, script, contains, specific, CSV
+- **sdegeo:2d-cut** <a id="sdegeo-2d-cut"></a>
+  - Extracts a 2D cut from a 2D device.
+  - _Keywords:_ Extracts, device
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:2d-cut p1 p2)
+  - _Keywords:_ Argument, POSITION, sdegeo
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension extracts a 2D rectangular part from a 2D device. The rectangle is specified by the two opposite corners of the rectangle (p1 and p2).
+  - _Keywords:_ rectangle, Scheme, extension, extracts, rectangular, device, specified, opposite
+- **sdegeo:3d-cut** <a id="sdegeo-3d-cut"></a>
+  - Extracts a 2D slice from a 3D device.
+  - _Keywords:_ Extracts, device
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:3d-cut base-position normal-vector [tr-xy] [tr-record] [tr-axisaligned])
+  - _Keywords:_ BOOLEAN, optional, position, normal, vector, record, axisaligned, Argument
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension cuts a 2D slice from a 3D device. The cut plane is defined by a base point (base-position) and a normal vector to the cut plane (normal-vector). This Scheme extension transfers 3D face contacts to 2D edge contacts.
+  - _Keywords:_ position, sdegeo, global, minimum, normal, coordinates, bounding, contacts
+- **sdegeo:align-horizontal** <a id="sdegeo-align-horizontal"></a>
+  - Aligns points horizontally to a specified position.
+  - _Keywords:_ Aligns, points, horizontally, specified, position
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:align-horizontal vertex-list align-position)
+  - _Keywords:_ vertex, position, Argument, sdegeo, horizontal, VERTEX, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension aligns the specified vertices to a horizontal line. The argument vertex-list contains the list of vertices, and align-position defines the position (ycoordinate) of the line.
+  - _Keywords:_ vertices, position, Scheme, extension, aligns, specified, horizontal, argument
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:align-horizontal-aut** <a id="sdegeo-align-horizontal-aut"></a>
+  - Aligns points horizontally to the average position.
+  - _Keywords:_ Aligns, points, horizontally, average, position
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:align-horizontal-aut vertex-list)
+  - _Keywords:_ vertex, Argument, sdegeo, horizontal, VERTEX
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension aligns the specified vertices to a horizontal line. The argument vertex-list contains the list of vertices. The align position (y-coordinate) of the line is defined using the average y-coordinate of the specified ve...
+  - _Keywords:_ vertices, specified, coordinate, Scheme, extension, aligns, horizontal, argument
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:align-to-line** <a id="sdegeo-align-to-line"></a>
+  - Aligns vertices to a line.
+  - _Keywords:_ Aligns, vertices
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:align-to-line vertex-list pos1 pos2)
+  - _Keywords:_ vertex, Argument, POSITION, sdegeo, VERTEX
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension aligns the specified vertices (given by a vertex list vertex-list) to a line. The line is specified by two points (pos1 and pos2). The points must lie on the same work plane as the vertex-list vertices. The vertices...
+  - _Keywords:_ specified, vertices, vertex, points, Scheme, extension, aligns, projected
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:align-vertical** <a id="sdegeo-align-vertical"></a>
+  - Aligns points vertically to a specified position.
+  - _Keywords:_ Aligns, points, vertically, specified, position
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:align-vertical vertex-list align-position)
+  - _Keywords:_ vertex, position, Argument, sdegeo, vertical, VERTEX, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension aligns the specified vertices to a vertical line. The argument vertexlist contains the list of vertices and align-position defines the new position (xcoordinate) of the line.
+  - _Keywords:_ vertices, position, Scheme, extension, aligns, specified, vertical, argument
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:align-vertical-aut** <a id="sdegeo-align-vertical-aut"></a>
+  - Aligns points vertically to the average position.
+  - _Keywords:_ Aligns, points, vertically, average, position
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:align-vertical-aut vertex-list)
+  - _Keywords:_ vertex, Argument, sdegeo, vertical, VERTEX
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension aligns the specified vertices to a vertical line. The argument vertexlist contains the list of vertices. The align position (x-coordinate) of the line is defined using the average x-coordinate of the specified verti...
+  - _Keywords:_ vertices, specified, coordinate, Scheme, extension, aligns, vertical, argument
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:average-edge-length** <a id="sdegeo-average-edge-length"></a>
+  - Returns the average edge length.
+  - _Keywords:_ average, length
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:average-edge-length edge-list)
+  - _Keywords:_ Argument, sdegeo, average, length, EDGE
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension computes the length of each edge in edge-list and returns the average edge length.
+  - _Keywords:_ length, Scheme, extension, computes, average
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:set-default-boolean "AB") (sdegeo:create-rectangle (position 0 0 0) (position 2 2 0) "Silicon" "region_1") (sdegeo:create-circle (position 1 2 0) 1 "Silicon" "region_2") (define elist (entity:edges (get-body-l...
+  - _Keywords:_ sdegeo, position, create, Silicon, boolean, rectangle, region_1, circle
+- **sdegeo:body-trim** <a id="sdegeo-body-trim"></a>
+  - Trims the model to the specified box.
+  - _Keywords:_ Trims, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:body-trim x0 y0 z0 x1 y1 z1)
+  - _Keywords:_ REAL, Argument, sdegeo
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension trims all bodies to the specified box. All parts of the geometric bodies that lie outside of the specified box are removed.
+  - _Keywords:_ bodies, specified, Scheme, extension, geometric, outside, removed
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-cuboid (position 0 0 5) (position 10 10 10) "Silicon" "x1") (sdegeo:create-cuboid (position 0 0 10) (position 10 10 11) "PolySilicon" "x2") (sdegeo:create-cuboid (position 2 2 11) (position 8 8 14) "...
+  - _Keywords:_ position, sdegeo, create, cuboid, clojure, Silicon, PolySilicon, Copper
+- **sdegeo:bool-intersect** <a id="sdegeo-bool-intersect"></a>
+  - Performs a Boolean intersection operation.
+  - _Keywords:_ Performs, Boolean, intersection, operation
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:bool-intersect body-list)
+  - _Keywords:_ Argument, sdegeo, intersect, BODY
+- **Returns** <a id="returns"></a>
+  - ENTITY | BOOLEAN
+  - _Keywords:_ ENTITY, BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension intersects the first body from the specified body list with the rest of the bodies from the list. The resulting body inherits the DATEX material attribute from the first body. Similarly, the region-name attribute is...
+  - _Keywords:_ Scheme, extension, bodies, specified, attribute, entity, intersects, resulting
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:set-default=boolean "XX") (define b1 (sdegeo:create-rectangle (position 0 0 0) (position 10 10 0) "Silicon" "region_1")) (define b2 (sdegeo:create-rectangle (position 5 5 0) (position 12 12 0) "PolySilicon" "r...
+  - _Keywords:_ sdegeo, position, define, create, rectangle, boolean, Silicon, region_1
+- **sdegeo:bool-subtract** <a id="sdegeo-bool-subtract"></a>
+  - Performs a Boolean subtraction operation.
+  - _Keywords:_ Performs, Boolean, subtraction, operation
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:bool-subtract body-list)
+  - _Keywords:_ Argument, sdegeo, subtract, BODY
+- **Returns** <a id="returns"></a>
+  - ENTITY | BOOLEAN
+  - _Keywords:_ ENTITY, BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension subtracts the first body from the specified body list with the rest of the bodies from the list. The resulting body inherits the DATEX material attribute of the first body. Similarly, the region-name attribute is in...
+  - _Keywords:_ Scheme, extension, bodies, specified, attribute, entity, subtracts, resulting
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:set-default=boolean "XX") (define b1 (sdegeo:create-rectangle (position 0 0 0) (position 10 10 0) "Silicon" "region_1")) (define b2 (sdegeo:create-rectangle (position 5 5 0) (position 12 12 0) "Silicon" "regio...
+  - _Keywords:_ sdegeo, position, define, create, rectangle, Silicon, boolean, region_1
+- **sdegeo:bool-unite** <a id="sdegeo-bool-unite"></a>
+  - Unites the specified bodies.
+  - _Keywords:_ Unites, specified, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:bool-unite body-list)
+  - _Keywords:_ Argument, sdegeo, BODY
+- **Returns** <a id="returns"></a>
+  - ENTITY | BOOLEAN
+  - _Keywords:_ ENTITY, BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension performs a Boolean unite operation on the specified body list. The newly ‘united’ body inherits the DATEX material attribute of the first body from the specified list of bodies. Similarly, the region-name attribute ...
+  - _Keywords:_ Scheme, extension, specified, bodies, Boolean, operation, attribute, entity
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:set-default-boolean "ABA") (sdegeo:create-rectangle (position -10 -8 0) (position -5 -3 0) "Silicon" "region_1") (sdegeo:create-rectangle (position -6 -7 0) (position 1 -4 0) "Silicon" "region_2") (sdegeo:crea...
+  - _Keywords:_ position, sdegeo, create, rectangle, Silicon, boolean, ABA, region_1
+- **sdegeo:break-nearly-axis-aligned-edges** <a id="sdegeo-break-nearly-axis-aligned-edges"></a>
+  - Breaks nearly axis-aligned linear edges into horizontal or vertical components.
+  - _Keywords:_ Breaks, nearly, aligned, linear, horizontal, vertical, components
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:break-nearly-axis-aligned-edges edge-list [angular-tolerance])
+  - _Keywords:_ angular, tolerance, Argument, sdegeo, nearly, aligned, EDGE, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension changes the nearly axis-aligned edges to axis-aligned edges by inserting additional vertices and staircase edges to the model. This step might be needed before meshing because some meshing algorithms (typically, qua...
+  - _Keywords:_ aligned, meshing, between, nearly, horizontal, vertical, angulartolerance, Scheme
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:chamfer** <a id="sdegeo-chamfer"></a>
+  - Performs a 3D edge or vertex chamfering operation.
+  - _Keywords:_ Performs, vertex, chamfering, operation
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:chamfer edge | vertex-list chamfer-dist [adaptive-chamfering])
+  - _Keywords:_ chamfer, vertex, adaptive, chamfering, Argument, sdegeo, EDGE, VERTEX
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension performs edge or vertex chamferings for 3D bodies.
+  - _Keywords:_ operation, chamfering, chamfer, vertex, distance, chamfered, argument, adaptive
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 10 10 10) "Silver" "region_1") (define edge1 (find-edge-id (position 5 0 0))) (sdegeo:chamfer edge1 2) (define face1 (find-face-id (position 5 5 10))) (sdegeo:chamfer (...
+  - _Keywords:_ position, sdegeo, define, chamfer, entity, create, cuboid, Silver
+- **sdegeo:chamfer-2d** <a id="sdegeo-chamfer-2d"></a>
+  - Performs a 2D vertex chamfering operation.
+  - _Keywords:_ Performs, vertex, chamfering, operation
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:chamfer-2d vertex(s) chamfer-dist)
+  - _Keywords:_ chamfer, vertex, Argument, VERTEX, sdegeo, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension performs a chamfering operation on a specified vertex or list of vertices. When you use the GUI, this operation is applied to the selected entities. ((sde:selected-entities) returns the selected entity list.) (Choos...
+  - _Keywords:_ vertices, selected, chamfering, operation, vertex, entities, Edit, Scheme
+- **Limitations** <a id="limitations"></a>
+  - The chamfering distance, chamfer-dist, must be selected so that the operation does not result in an invalid geometry.
+  - _Keywords:_ chamfering, distance, chamfer, selected, operation, result, invalid, geometry
+- **Examples** <a id="examples"></a>
+  - ```lisp (sdegeo:create-rectangle (position 0 0 0) (position 10 10 0) "Silicon" "region_1") (define mybody (car (reverse (part:entities)))) (define myvertices (entity:vertices mybody)) (sdegeo:chamfer-2d (list (list-ref myvertices 0) (lis...
+  - _Keywords:_ myvertices, sdegeo, position, define, mybody, create, rectangle, Silicon
+- **sdegeo:check-overlap** <a id="sdegeo-check-overlap"></a>
+  - Performs an overlap check between bodies.
+  - _Keywords:_ Performs, overlap, between, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:check-overlap body-list [use-bbox-check])
+  - _Keywords:_ Argument, sdegeo, overlap, BODY, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - BODY LIST
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension checks for possible overlaps between geometric bodies. The argument is a body list. If the body list is specified by using the (get-body-list) command, the entire model is checked for overlaps. The default overlap c...
+  - _Keywords:_ overlaps, overlap, Scheme, extension, argument, possible, geometric, bodies
+- **sdegeo:chop-domain** <a id="sdegeo-chop-domain"></a>
+  - Performs a 3D domain boundary cut.
+  - _Keywords:_ Performs, domain, boundary
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:chop-domain point-pairs)
+  - _Keywords:_ Argument, REAL, sdegeo, domain
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - If the base of the device is placed at the xy plane, the device can be cut off to cover only the specified polygonal base. The argument is a list of x, y point pairs.
+  - _Keywords:_ device, placed, specified, polygonal, argument
+- **Limitations** <a id="limitations"></a>
+  - The device must be placed at the –y-plane, and the cut is performed in the z-direction.
+  - _Keywords:_ device, placed, performed, direction
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-cuboid (position 0 0 5) (position 10 10 10) "Silicon" "x1") (sdegeo:create-cuboid (position 0 0 10) (position 10 10 11) "PolySilicon" "x2") (sdegeo:create-cuboid (position 2 2 11) (position 8 8 14) "...
+  - _Keywords:_ position, sdegeo, create, cuboid, clojure, Silicon, PolySilicon, Copper
+- **sdegeo:chull2d** <a id="sdegeo-chull2d"></a>
+  - Computes the 2D convex hull of the specified points (position list).
+  - _Keywords:_ Computes, convex, specified, points, position
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:chull2d position-list)
+  - _Keywords:_ position, Argument, sdegeo, chull2d, POSITION
+- **Returns** <a id="returns"></a>
+  - POSITION LIST
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - This Scheme extension computes the 2D convex hull of the specified position list. The 2D convex hull is returned in a POSITION LIST.
+  - _Keywords:_ convex, Scheme, extension, computes, specified, position, returned, POSITION
+- **Limitations** <a id="limitations"></a>
+  - The input position list must be defined at the xy plane, and the z-coordinate must be 0.
+  - _Keywords:_ position, defined, coordinate
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (define pl1 (list (position 8 4 0) (position 0 0 0) (position 5 -4 0) (position 7 -1 0) (position 10 0 0) (position 10 5 0) (position 2 1 0) (position 4 1 0) (position 4 3 0) (position 8 3 0) (position 9 4 0) (posi...
+  - _Keywords:_ position, sdegeo, clojure, define, create, polygon, chull2d, Silicon
+- **sdegeo:contact-sets** <a id="sdegeo-contact-sets"></a>
+  - Returns the names of all the defined contact sets.
+  - _Keywords:_ defined, contact
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:contact-sets)
+  - _Keywords:_ sdegeo, contact
+- **Returns** <a id="returns"></a>
+  - A Scheme list that contains the names of the defined contact sets.
+  - _Keywords:_ Scheme, contains, defined, contact
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the names of all the defined contact sets.
+  - _Keywords:_ Scheme, extension, defined, contact
+- **sdegeo:create-circle** <a id="sdegeo-create-circle"></a>
+  - Creates a 2D circular region.
+  - _Keywords:_ Creates, circular, region
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-circle center-pos radius region-material region-name [start-angle end-angle])
+  - _Keywords:_ region, REAL, center, radius, material, Argument, optional, sdegeo
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension adds a 2D circular region to the model. The circle is defined by specifying the center position and the radius. If the generated polygon overlaps already existing regions, the default Boolean behavior determines the...
+  - _Keywords:_ region, circular, generated, regions, material, attribute, Scheme, extension
+- **Examples** <a id="examples"></a>
+  - ```txt ; Scheme Extension (sdegeo:create-circle (position 0 0 0) 10 "Silicon" "Region_1") ```
+  - _Keywords:_ Scheme, Extension, sdegeo, create, circle, position, Silicon, Region_1
+- **sdegeo:create-cone** <a id="sdegeo-create-cone"></a>
+  - Creates a circular cone.
+  - _Keywords:_ Creates, circular
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-cone {{start-axis end-axis} | {start-axis-x start-axis-y start-axis-z end-axis-x end-axis-y end-axis-z}} base-radius top-radius [ratio=1 [position3 | {x3 y3 z3}]] region-material region-name)
+  - _Keywords:_ REAL, optional, radius, region, POSITION, position3, material, Argument
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - The argument start-axis specifies the start axis position or base of the cone. The argument end-axis specifies the end axis position or top of the cone. Two syntax formats are available for defining these positional arguments:
+  - _Keywords:_ position3, argument, specifies, arguments, position, positional, radius, specified
+- **Examples** <a id="examples"></a>
+  - ```clojure (sdegeo:create-cone (position -20 -5 -9) (position 15 20 10) 10 2 "Gold" "") (sdegeo:create-cone -20 -5 -9 5 15 7.5 10 2 3 "Silver" "") (sdegeo:create-cone -2 -5 -9 15 20 10 10 2 3 17 22 12 "Copper" "") ```
+  - _Keywords:_ sdegeo, create, position, clojure, Gold, Silver, Copper
+- **sdegeo:create-cuboid** <a id="sdegeo-create-cuboid"></a>
+  - Creates a solid block.
+  - _Keywords:_ Creates
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-cuboid diagonal1 diagonal2 region-material region-name)
+  - _Keywords:_ region, diagonal1, diagonal2, material, Argument, POSITION, sdegeo, create
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - The argument diagonal1 specifies the first diagonal corner and diagonal2 specifies the second diagonal corner. The block is oriented with respect to the current work plane. If the generated body overlaps already existing regions, the def...
+  - _Keywords:_ region, specifies, diagonal, corner, regions, material, attribute, argument
+- **Examples** <a id="examples"></a>
+  - (sdegeo:create-cuboid (position 0 0 0) (position 1 1 1) (sde:get-default-material) "r1")
+  - _Keywords:_ position, sdegeo, create, cuboid, material
+- **sdegeo:create-cylinder** <a id="sdegeo-create-cylinder"></a>
+  - Creates a cylinder.
+  - _Keywords:_ Creates, cylinder
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-cylinder {{start-pos end-pos} | {x-start y-start z-start x-end y-end z-end}} radius [ratio=1 {position3 | {x3 y3 z3}}] region-material region-name)
+  - _Keywords:_ REAL, optional, region, POSITION, radius, position3, material, Argument
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - The argument start-pos (or x-start, y-start, and z-start) specifies the start position of the cylinder. The argument end-pos (or x-end, y-end, and z-end) specifies the end position of the cylinder. Two syntax formats are available for de...
+  - _Keywords:_ cylinder, position3, argument, specifies, position, arguments, specified, syntax
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-cylinder (position 0 0 0) (position 25 25 0) 30 "Gold" "") (sdegeo:create-cylinder 2 2 2 -20 -20 0 15 3 "Gold" "") (sdegeo:create-cylinder 2 2 2 -20 -20 0 15 3 -5 -5 0 "Gold" "") ```
+  - _Keywords:_ sdegeo, create, cylinder, Gold, position, clojure
+- **sdegeo:create-ellipse** <a id="sdegeo-create-ellipse"></a>
+  - Creates a 2D ellipse.
+  - _Keywords:_ Creates, ellipse
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-ellipse position1 position2 ratio lmat lreg)
+  - _Keywords:_ position1, position2, Argument, POSITION, sdegeo, create, ellipse, REAL
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a 2D elliptical region (ellipse). The first argument position1 is the center position of the ellipse, and position2 is the endpoint of the major axis. The argument ratio is the ratio of the major and minor a...
+  - _Keywords:_ Scheme, extension, ellipse, argument, region, active, creates, elliptical
+- **Examples** <a id="examples"></a>
+  - ```clojure ; Scheme Extension (sde:clear) (sdegeo:set-default=boolean "ABA") (sdegeo:create-ellipse (position 0 0 0) (position 10 0 0) 0.5 "PolySi" "x1") (sdegeo:create-ellipse (position 0 0 0) (position 3 0 0) 3 "Silver" "x2") (sdegeo:c...
+  - _Keywords:_ position, sdegeo, create, ellipse, clojure, Scheme, Extension, boolean
+- **sdegeo:create-ellipsoid** <a id="sdegeo-create-ellipsoid"></a>
+  - Creates a 3D ellipsoid.
+  - _Keywords:_ Creates, ellipsoid
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-ellipsoid position1 position2 ratio lmat lreg)
+  - _Keywords:_ position1, position2, Argument, POSITION, sdegeo, create, ellipsoid, REAL
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a 3D ellipsoid.
+  - _Keywords:_ Scheme, extension, argument, ellipse, active, creates, ellipsoid, position1
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:set-default-boolean "ABA") (sdegeo:create-ellipsoid (position 0 0 0) (position 10 0 0) 0.5 "PolySi" "x1") (sdegeo:create-ellipsoid (position 0 0 0) (position 3 0 0) 3 "Silver" "x2") (sdegeo:create-ellipsoid...
+  - _Keywords:_ position, sdegeo, create, ellipsoid, clojure, boolean, ABA, PolySi
+- **sdegeo:create-linear-edge** <a id="sdegeo-create-linear-edge"></a>
+  - Creates a linear edge.
+  - _Keywords:_ Creates, linear
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-linear-edge position1 position2)
+  - _Keywords:_ position1, position2, Argument, POSITION, sdegeo, create, linear
+- **Returns** <a id="returns"></a>
+  - ENTITY (EDGE)
+  - _Keywords:_ ENTITY, EDGE
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a linear edge. The arguments position1 and position2 specify the end positions.
+  - _Keywords:_ Scheme, extension, creates, linear, arguments, position1, position2, specify
+- **sdegeo:create-ot-ellipsoid** <a id="sdegeo-create-ot-ellipsoid"></a>
+  - Creates an oriented and truncated (ot) ellipsoid.
+  - _Keywords:_ Creates, oriented, truncated, ellipsoid
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-ot-ellipsoid center-position major-axis-position ratio truncate-angle-1 truncate-angle-2 region-material region-name)
+  - _Keywords:_ position, truncate, region, REAL, center, material, Argument, POSITION
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension creates an oriented and truncated ellipsoid.
+  - _Keywords:_ position, define, gvector, sdegeo, ellipsoid, argument, region, center
+- **sdegeo:create-ot-sphere** <a id="sdegeo-create-ot-sphere"></a>
+  - Creates an oriented and truncated (ot) sphere.
+  - _Keywords:_ Creates, oriented, truncated, sphere
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-ot-sphere center-position orientation radius truncate-angle-1 truncate-angle-2 region-material region-name)
+  - _Keywords:_ truncate, region, REAL, center, position, orientation, radius, material
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension creates an oriented and truncated sphere.
+  - _Keywords:_ sphere, position, sdegeo, create, gvector, bottom, region, oriented
+- **sdegeo:create-polygon** <a id="sdegeo-create-polygon"></a>
+  - Creates a 2D polygonal region.
+  - _Keywords:_ Creates, polygonal, region
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-polygon vertex-list region-material region-name)
+  - _Keywords:_ region, vertex, material, Argument, sdegeo, create, polygon, POSITION
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension adds a closed 2D polygonal region to the model. The polygon is defined by specifying the vertex list of the polygon (either closed or not closed). If the last vertex is different from the first vertex, the first ver...
+  - _Keywords:_ region, polygon, vertex, closed, regions, attribute, Scheme, extension
+- **sdegeo:create-polyline-wire** <a id="sdegeo-create-polyline-wire"></a>
+  - Creates a polyline wire.
+  - _Keywords:_ Creates, polyline
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-polyline-wire vertex-list)
+  - _Keywords:_ vertex, Argument, sdegeo, create, polyline, POSITION
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension defines a wire body consisting of linear edges only. The vertex positions of the wire are specified in the argument list as a position list. The wire body does not have an attached material or region-name attribute ...
+  - _Keywords:_ Scheme, extension, defines, consisting, linear, vertex, positions, specified
+- **sdegeo:create-prism** <a id="sdegeo-create-prism"></a>
+  - Creates a solid prism.
+  - _Keywords:_ Creates
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-prism centerposition height major-radius minor-radius nsides region-material region-name)
+  - _Keywords:_ radius, region, centerposition, height, nsides, material, Argument, POSITION
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension creates an nsides-sided prism where n is greater than or equal to three. The prism is centered about the center position with its height along the z-axis, the major-radius along the x-axis, and the minor-radius alon...
+  - _Keywords:_ region, height, radius, regions, material, attribute, Scheme, extension
+- **Examples** <a id="examples"></a>
+  - (sdegeo:create-prism (position 0 0 0) 20 40 40 6 "PolySilicon" "")
+  - _Keywords:_ sdegeo, create, position, PolySilicon
+- **sdegeo:create-pyramid** <a id="sdegeo-create-pyramid"></a>
+  - Creates a solid pyramid.
+  - _Keywords:_ Creates, pyramid
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-pyramid centerposition height major-radius minor-radius nsides top region-material region-name)
+  - _Keywords:_ radius, region, REAL, centerposition, height, nsides, material, Argument
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - The number of sides (nsides) must be greater than or equal to three. The pyramid is centered about the origin with its height along the z-axis, the major-radius along the x-axis, and the minor-radius along the y-axis. The argument top sp...
+  - _Keywords:_ region, pyramid, height, radius, regions, material, attribute, nsides
+- **Examples** <a id="examples"></a>
+  - ```txt (sde:clear) (sdegeo:create-pyramid (position 0 0 0) 20 40 40 6 12 "PolySilicon" "") (sdegeo:set-default=boolean "ABA") (sdegeo:create-pyramid (position 0 0 0) 30 30 20 5 5 "Gold" "") ```
+  - _Keywords:_ sdegeo, create, pyramid, position, PolySilicon, boolean, ABA, Gold
+- **sdegeo:create-rectangle** <a id="sdegeo-create-rectangle"></a>
+  - Creates a 2D rectangular region.
+  - _Keywords:_ Creates, rectangular, region
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-rectangle v1 v2 material-name region-name)
+  - _Keywords:_ material, region, Argument, POSITION, sdegeo, create, rectangle, DATEXMAT
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension adds a 2D rectangle to the model. The rectangle is defined by specifying two opposite corner vertices.
+  - _Keywords:_ region, rectangle, regions, material, attribute, Scheme, extension, defined
+- **Examples** <a id="examples"></a>
+  - ```clojure (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0)) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silicon" "sir") ```
+  - _Keywords:_ position, sdegeo, create, rectangle, clojure, Silicon
+- **sdegeo:create-reg-polygon** <a id="sdegeo-create-reg-polygon"></a>
+  - Creates a 2D regular polygonal region.
+  - _Keywords:_ Creates, regular, polygonal, region
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-reg-polygon v1 rad [nsides] [angle] region-material region-name)
+  - _Keywords:_ region, nsides, material, Argument, REAL, optional, sdegeo, create
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension adds a regular 2D polygonal region to the model. The regular polygon is defined by specifying the center position of the polygon, the radius, and the number of segments.
+  - _Keywords:_ region, polygon, regular, regions, material, attribute, arguments, defines
+- **Examples** <a id="examples"></a>
+  - ; Scheme Extension
+  - _Keywords:_ Scheme, Extension, sdegeo, create, polygon, position, Silicon, region
+- **sdegeo:create-ruled-region** <a id="sdegeo-create-ruled-region"></a>
+  - Creates a 2D ruled region.
+  - _Keywords:_ Creates, region
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-ruled-region edge1 edge2 region-material region-name)
+  - _Keywords:_ region, material, Argument, EDGE, sdegeo, create, DATEXMAT, STRING
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension adds a 2D ruled region to the model. The ruled region is defined by specifying two existing edges. Edge orientation is not important, since the ruled region is always created in such a way that a simply connected re...
+  - _Keywords:_ region, existing, created, regions, material, attribute, Scheme, extension
+- **sdegeo:create-sphere** <a id="sdegeo-create-sphere"></a>
+  - Creates a sphere that is centered at a specified position.
+  - _Keywords:_ Creates, sphere, centered, specified, position
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-sphere {center-position | {center-x center-y center-z}} radius region-material region-name)
+  - _Keywords:_ center, region, REAL, position, radius, material, Argument, sdegeo
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - The argument center-position specifies the center position of the sphere. Two syntax formats are available for defining center-position:
+  - _Keywords:_ position, center, syntax, region, argument, sphere, formats, defining
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define sphere1 (sdegeo:create-sphere (position -4 -4 0) 1.5 "Gold" "")) (define sphere2 (sdegeo:create-sphere -30 0 0 15 "Silver" "")) (define sphere3 (sdegeo:create-sphere 10 10 10 5 "Copper" "")) ```
+  - _Keywords:_ define, sdegeo, create, sphere, sphere1, position, Gold, sphere2
+- **sdegeo:create-spline-wire** <a id="sdegeo-create-spline-wire"></a>
+  - Creates a spline wire.
+  - _Keywords:_ Creates, spline
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-spline-wire vertex-list)
+  - _Keywords:_ vertex, Argument, sdegeo, create, spline, POSITION
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension defines a spline wire body. The vertex positions of the wire are specified in the argument list as a position list. The wire body does not have an attached material or region-name attribute, and is not written to th...
+  - _Keywords:_ Scheme, extension, defines, spline, vertex, positions, specified, argument
+- **sdegeo:create-torus** <a id="sdegeo-create-torus"></a>
+  - Creates a solid torus.
+  - _Keywords:_ Creates
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-torus {center-position | {center-x center-y center-z}} major-radius minor-radius region-material region-name)
+  - _Keywords:_ center, REAL, radius, region, position, material, Argument, sdegeo
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a solid torus of given radii centered at the origin. The torus is defined in the xy plane of the active coordinate system and is oriented using the normal gvector of the active coordinate system.
+  - _Keywords:_ radius, center, position, argument, region, active, coordinate, system
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-torus (position -10 -5 -10) 7 3 "Gold" "") (sdegeo:create-torus 10 15 20 10 5 "Gold" "") ```
+  - _Keywords:_ sdegeo, create, Gold, clojure, position
+- **sdegeo:create-triangle** <a id="sdegeo-create-triangle"></a>
+  - Creates a 2D triangular region.
+  - _Keywords:_ Creates, triangular, region
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:create-triangle v1 v2 v3 region-material region-name)
+  - _Keywords:_ region, POSITION, material, Argument, sdegeo, create, triangle, DATEXMAT
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension adds a 2D triangle to the model. The triangle is defined by specifying three vertices.
+  - _Keywords:_ region, triangle, regions, material, attribute, Scheme, extension, defined
+- **Examples** <a id="examples"></a>
+  - (sdegeo:create-triangle (position 0 0 0) (position 1 0 0) (position 0.5 1 0) "Silicon" "sir")
+  - _Keywords:_ position, sdegeo, create, triangle, Silicon
+- **sdegeo:curve-intersect** <a id="sdegeo-curve-intersect"></a>
+  - Returns the intersection positions of the specified curves.
+  - _Keywords:_ intersection, positions, specified, curves
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:curve-intersect edge1 edge2)
+  - _Keywords:_ Argument, EDGE, sdegeo, intersect
+- **Returns** <a id="returns"></a>
+  - POSITION LIST
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - This Scheme extension determines the intersections between the specified curves.
+  - _Keywords:_ Scheme, extension, determines, intersections, between, specified, curves
+- **Examples** <a id="examples"></a>
+  - ```lisp (define e1 (edge:linear (position 0 0 0) (position 10 10 0))) (define e2 (edge:linear (position 0 10 0) (position 10 0 0))) (sdegeo:curve-intersect e1 e2) ; (#[position 5 5 0]) (define e3 (edge:circular (position 5 5 0) 3)) (sdeg...
+  - _Keywords:_ position, define, linear, sdegeo, intersect, circular
+- **sdegeo:define-3d-contact-by-polygon** <a id="sdegeo-define-3d-contact-by-polygon"></a>
+  - Defines a 3D face contact by a polygon.
+  - _Keywords:_ Defines, contact, polygon
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:define-3d-contact-by-polygon pos-list dir-vector contact-name)
+  - _Keywords:_ contact, vector, Argument, sdegeo, define, polygon, POSITION, GVECTOR
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension imprints a general polygon wire to an existing body. The imprinted wire splits the faces of the body. This Scheme extension can be used to define a polygonal contact area. The imprint functions split faces to surfac...
+  - _Keywords:_ polygon, contact, imprint, argument, Scheme, extension, imprinted, contacts
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 10 10 10) "Silicon" "region_1") (sdegeo:define-contact-set "demo" 4 (color:rgb 1 0 0) "##") (sdegeo:set-current-contact-set "demo") (sdegeo:define-3d-contact-by-polygon...
+  - _Keywords:_ position, sdegeo, contact, define, create, cuboid, Silicon, region_1
+- **sdegeo:define-contact-set** <a id="sdegeo-define-contact-set"></a>
+  - Defines a contact set name and initializes the supporting data.
+  - _Keywords:_ Defines, contact, initializes, supporting
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:define-contact-set name [edgeThickness Color] | [Color facePattern])
+  - _Keywords:_ Color, optional, edgeThickness, facePattern, Argument, STRING, sdegeo, define
+- **Returns** <a id="returns"></a>
+  - Unspecified.
+  - _Keywords:_ Unspecified
+- **Description** <a id="description"></a>
+  - The last three arguments are optional and can be given in any order. If the contact set name is already defined, the existing contact set is replaced by the new definition.
+  - _Keywords:_ arguments, argument, Color, Contact, contact, contacts, optional, already
+- **Examples** <a id="examples"></a>
+  - (sdegeo:define-contact-set "Drain")
+  - _Keywords:_ sdegeo, define, contact, Drain, Source
+- **sdegeo:define-coord-sys** <a id="sdegeo-define-coord-sys"></a>
+  - Creates a new coordinate system in the active work plane.
+  - _Keywords:_ Creates, coordinate, system, active
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:define-coord-sys cs-name x-pos y-pos angle)
+  - _Keywords:_ REAL, Argument, sdegeo, define, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - If the active work plane is called awp, the newly created coordinate system is called awp\_csname. The origin of the new coordinate system is based at x-pos and y-pos, relative to the origin of the active work plane. The coordinate syste...
+  - _Keywords:_ active, coordinate, system, called, origin, positive, created, _csname
+- **sdegeo:define-work-plane** <a id="sdegeo-define-work-plane"></a>
+  - Creates a new work plane.
+  - _Keywords:_ Creates
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:define-work-plane wp-name origin x-axis y-axis)
+  - _Keywords:_ POSITION, origin, Argument, sdegeo, define, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - The name of the work plane is wp-name. The origin of the work plane is placed at origin. The x-axis points towards x-axis and the y-axis points towards y-axis. The z-axis is defined by the right-hand rule. The origin must be considered w...
+  - _Keywords:_ origin, points, towards, placed, defined, considered, define
+- **Examples** <a id="examples"></a>
+  - ```lisp ; Define a new working plane, wp1 parallel to the global x-y plane, located at z = 1. (sdegeo:define-work-plane "wp1" (position 0 0 1) (position 1 0 1) (position 0 1 1)) ```
+  - _Keywords:_ position, Define, working, parallel, global, located, sdegeo, define
+- **sdegeo:del-short-edges** <a id="sdegeo-del-short-edges"></a>
+  - Deletes short edges.
+  - _Keywords:_ Deletes
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:del-short-edges entity edge-length angular-tolerance)
+  - _Keywords:_ entity, length, angular, tolerance, Argument, REAL, sdegeo, ENTITY
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes linear edges if the edge length is shorter than the specified edge-length. Ridges can be protected by an angular tolerance, angular-tolerance. If the vertex normal difference is larger than angular-tolerance...
+  - _Keywords:_ length, angular, tolerance, vertex, Scheme, extension, protected, deletes
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:delete-collinear-edges** <a id="sdegeo-delete-collinear-edges"></a>
+  - Deletes collinear edges from the specified edge list.
+  - _Keywords:_ Deletes, collinear, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-collinear-edges edge-list)
+  - _Keywords:_ Argument, sdegeo, delete, collinear, EDGE
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes collinear edges from the specified edge list by merging the neighboring collinear edges into one single-edge entity.
+  - _Keywords:_ collinear, Scheme, extension, removes, specified, merging, neighboring, single
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:delete-contact-boundary-edges** <a id="sdegeo-delete-contact-boundary-edges"></a>
+  - Removes the active contact set attribute from all edges of the specified regions.
+  - _Keywords:_ Removes, active, contact, attribute, specified, regions
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-contact-boundary-edges [body | body-list])
+  - _Keywords:_ Argument, BODY, sdegeo, delete, contact, boundary, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the current contact set attributes from all edges of the selected body or bodies. Alternatively, a body or body list can be given in the argument list. Only the active contacts are removed.
+  - _Keywords:_ Scheme, extension, deletes, current, contact, attributes, selected, bodies
+- **sdegeo:delete-contact-boundary-faces** <a id="sdegeo-delete-contact-boundary-faces"></a>
+  - Deletes a contact attribute from all faces of the specified body or bodies.
+  - _Keywords:_ Deletes, contact, attribute, specified, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-contact-boundary-faces [body | body-list])
+  - _Keywords:_ Argument, BODY, sdegeo, delete, contact, boundary, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes a contact attribute from all faces of each specified body in body-list. If the argument list is empty and body-list is not defined, the Scheme extension takes the body or bodies from (sde:selected-entities)....
+  - _Keywords:_ Scheme, extension, contact, argument, selected, removes, attribute, specified
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:define-contact-set "xx" 4.0 (color:rgb 1 0 0) "##") (sdegeo:set-current-contact-set "xx") (define mycube (sdegeo:create-cuboid (position 0 0 0) (position 1 1 1) "PolySilicon" "region_1")) (sdegeo:set-contact-b...
+  - _Keywords:_ sdegeo, contact, mycube, define, position, boundary, current, create
+- **sdegeo:delete-contact-edges** <a id="sdegeo-delete-contact-edges"></a>
+  - Deletes the current contact set attributes from the selected edges.
+  - _Keywords:_ Deletes, current, contact, attributes, selected
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-contact-edges [edge | edge-list])
+  - _Keywords:_ Argument, EDGE, sdegeo, delete, contact, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the current contact set attributes from the selected edges. Alternatively, an edge or edge list can be given in the argument list. Only the active contacts are removed. (Choose Device > Contacts > Unset Edges.)
+  - _Keywords:_ Scheme, extension, deletes, current, contact, attributes, selected, Alternatively
+- **sdegeo:delete-contact-faces** <a id="sdegeo-delete-contact-faces"></a>
+  - Removes the contact attribute from specified faces.
+  - _Keywords:_ Removes, contact, attribute, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-contact-faces [face | face-list])
+  - _Keywords:_ Argument, FACE, sdegeo, delete, contact, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes a contact attribute from faces. If the argument list is empty and face-list is not defined, the Scheme extension takes the faces from (sde:selectedentities). The name of the active contact set is taken to sp...
+  - _Keywords:_ Scheme, extension, contact, argument, removes, attribute, defined, selectedentities
+- **sdegeo:delete-contact-set** <a id="sdegeo-delete-contact-set"></a>
+  - Deletes the specified contact set.
+  - _Keywords:_ Deletes, specified, contact
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-contact-set) contact-name
+  - _Keywords:_ contact, Argument, sdegeo, delete, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the specified contact set and removes the corresponding contact attributes (either ‘2D contact’ or ‘3D contact’).
+  - _Keywords:_ contact, Scheme, extension, deletes, specified, removes, corresponding, attributes
+- **sdegeo:delete-coord-sys** <a id="sdegeo-delete-coord-sys"></a>
+  - Deletes the specified coordinate system.
+  - _Keywords:_ Deletes, specified, coordinate, system
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-coord-sys cs-name)
+  - _Keywords:_ Argument, sdegeo, delete, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the specified coordinate system.
+  - _Keywords:_ Scheme, extension, deletes, specified, coordinate, system
+- **sdegeo:delete-edges** <a id="sdegeo-delete-edges"></a>
+  - Deletes the specified edges.
+  - _Keywords:_ Deletes, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-edges edge-list [angular-tolerance])
+  - _Keywords:_ angular, tolerance, Argument, sdegeo, delete, EDGE, REAL, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes the specified edges from the model. If there are neighboring regions, edges that are shared by more than one body must be selected from all bodies. Otherwise, model conformity is not preserved.
+  - _Keywords:_ specified, bodies, angular, tolerance, sdegeo, delete, matching, neighbor
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only. Only linear edges can be deleted.
+  - _Keywords:_ Scheme, extension, applies, models, linear, deleted
+- **sdegeo:delete-nearly-collinear-edges** <a id="sdegeo-delete-nearly-collinear-edges"></a>
+  - Deletes nearly collinear edges from the specified edge list.
+  - _Keywords:_ Deletes, nearly, collinear, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-nearly-collinear-edges edge-list dist)
+  - _Keywords:_ Argument, sdegeo, delete, nearly, collinear, EDGE, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - Nearly collinear edges are defined as follows: If the distance from the point between the two edges is closer than the specified distance (dist) to the edge that is defined by the other two noncommon endpoints of the two edges, they are ...
+  - _Keywords:_ collinear, defined, distance, nearly, Nearly, follows, between, closer
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:delete-region** <a id="sdegeo-delete-region"></a>
+  - Deletes the specified region or regions, including Ref/Eval window bodies.
+  - _Keywords:_ Deletes, specified, region, regions, including, Ref, Eval, window
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-region bodies)
+  - _Keywords:_ bodies, Argument, BODY, sdegeo, delete, region
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes the specified body or bodies from the entity list. The body is specified by its entity number. The specified regions are permanently removed from the model.
+  - _Keywords:_ specified, entity, Scheme, extension, removes, bodies, regions, permanently
+- **sdegeo:delete-short-edges** <a id="sdegeo-delete-short-edges"></a>
+  - Deletes all edges from the edge list that are shorter than the specified edge length.
+  - _Keywords:_ Deletes, shorter, specified, length
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-short-edges edge-list max-edge-length)
+  - _Keywords:_ length, Argument, sdegeo, delete, EDGE, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes edges from the specified list of edges. An edge is deleted from the model only if the length of the edge is shorter than the specified edge length, max-edgelength. If there are neighboring regions, edges tha...
+  - _Keywords:_ specified, length, Scheme, extension, removes, deleted, shorter, edgelength
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:delete-vertices** <a id="sdegeo-delete-vertices"></a>
+  - Deletes the specified vertices.
+  - _Keywords:_ Deletes, specified, vertices
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-vertices vertex-list)
+  - _Keywords:_ vertex, Argument, sdegeo, delete, vertices, VERTEX
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes the specified vertices from the model. If there are neighboring regions, vertices that are located at the same position and are shared by more than one body must be selected from all bodies. Otherwise, model...
+  - _Keywords:_ vertices, Scheme, extension, removes, specified, neighboring, regions, located
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only. Only vertices that are shared by linear edges can be deleted.
+  - _Keywords:_ Scheme, extension, applies, models, vertices, shared, linear, deleted
+- **sdegeo:delete-work-plane** <a id="sdegeo-delete-work-plane"></a>
+  - Deletes a work plane.
+  - _Keywords:_ Deletes
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:delete-work-plane wp-name)
+  - _Keywords:_ Argument, sdegeo, delete, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension deletes the specified work plane wp-name.
+  - _Keywords:_ Scheme, extension, deletes, specified
+- **Limitations** <a id="limitations"></a>
+  - The global work plane ‘base’ is created automatically and cannot be deleted.
+  - _Keywords:_ global, created, automatically, cannot, deleted
+- **sdegeo:distance** <a id="sdegeo-distance"></a>
+  - Returns the distance between two vertices.
+  - _Keywords:_ distance, between, vertices
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:distance vertex-list)
+  - _Keywords:_ vertex, Argument, sdegeo, distance, VERTEX
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the distance between two vertices.
+  - _Keywords:_ Scheme, extension, distance, between, vertices
+- **sdegeo:dnce** <a id="sdegeo-dnce"></a>
+  - Deletes nearly collinear edges from a 2D model.
+  - _Keywords:_ Deletes, nearly, collinear
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:dnce angular-tolerance)
+  - _Keywords:_ angular, tolerance, Argument, sdegeo, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes nearly collinear edges from a 2D model. The specified angular tolerance, angular-tolerance, determines which linear edges are removed.
+  - _Keywords:_ angular, tolerance, linear, vertex, Scheme, extension, removes, nearly
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:extend-device** <a id="sdegeo-extend-device"></a>
+  - Extends a device around its axis-aligned perimeter.
+  - _Keywords:_ Extends, device, around, aligned, perimeter
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdegeo:extend-device { "right" rightextension } { "left" leftextension } { "top" topextension } { "bottom" bottomextension }) ```
+  - _Keywords:_ KEYWORD, REAL, rightextension, leftextension, topextension, bottom, bottomextension, Argument
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension extends a device around its axis-aligned perimeter. The keywords specify the direction of the extension. At least one of the keywords must be used in the argument list. More than one keyword can be used together wit...
+  - _Keywords:_ extension, interpreted, direction, device, around, aligned, keywords, corner
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 0.2 0) "Silicon" "xx1") (sdegeo:create-rectangle (position 0 0.2 0) (position 1 0.3 0) "Copper" "xx2") (sdegeo:create-rectangle (position 0 0.3 0) (position 1 0...
+  - _Keywords:_ position, sdegeo, create, rectangle, clojure, Silicon, Copper, Silver
+- **sdegeo:extrude** <a id="sdegeo-extrude"></a>
+  - Extrudes a 2D device to a 3D model.
+  - _Keywords:_ Extrudes, device
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:extrude body-list extrusion-depth [extrude-option])
+  - _Keywords:_ extrude, extrusion, Argument, sdegeo, BODY, REAL, Mixed, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension takes a list of 2D bodies (specified by body-list) and extrudes them in the positive z-direction by extrusion-depth. Instead of body-list, the keyword all can be used, in which case, the complete model is extruded.
+  - _Keywords:_ extruded, position, extrude, extrusion, sdegeo, bodies, Ref, Eval
+- **sdegeo:face-find-interior-point** <a id="sdegeo-face-find-interior-point"></a>
+  - Finds an interior point on a face.
+  - _Keywords:_ Finds, interior
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:face-find-interior-point position)
+  - _Keywords:_ position, Argument, sdegeo, interior, POSITION
+- **Returns** <a id="returns"></a>
+  - ENTITY (FACE)
+  - _Keywords:_ ENTITY, FACE
+- **Description** <a id="description"></a>
+  - This Scheme extension takes a face Scheme object and returns a position object for an interior point of that face.
+  - _Keywords:_ Scheme, object, extension, position, interior
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 10 10 10) "Silicon" "xx") (define myface (car (find-face-id (position 5 5 10)))) (sdegeo:face-find-interior-point myface) ;; #[ position 5 5 10 ]
+  - _Keywords:_ position, sdegeo, myface, define, create, Silicon, interior, mybody
+- **sdegeo:fillet** <a id="sdegeo-fillet"></a>
+  - Performs a 3D edge or vertex rounding operation.
+  - _Keywords:_ Performs, vertex, rounding, operation
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:fillet edge | vertex-list fillet-radius [adaptive-filleting])
+  - _Keywords:_ fillet, vertex, radius, adaptive, filleting, Argument, sdegeo, EDGE
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension performs edge or vertex roundings for 3D bodies.
+  - _Keywords:_ radius, operation, filleting, fillet, argument, rounding, adaptive, vertex
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 10 10 10) "Silver" "region_1") (define edge1 (find-edge-id (position 5 0 0))) (sdegeo:fillet edge1 2) (define face1 (find-face-id (position 5 5 10))) (sdegeo:fillet (en...
+  - _Keywords:_ position, sdegeo, define, fillet, entity, create, cuboid, Silver
+- **sdegeo:fillet-2d** <a id="sdegeo-fillet-2d"></a>
+  - Rounds the specified vertex or vertices.
+  - _Keywords:_ Rounds, specified, vertex, vertices
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:fillet-2d vertex(s) fillet-radius)
+  - _Keywords:_ fillet, vertex, radius, Argument, ACIS, VERTEX, sdegeo, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension rounds the specified vertex or list of vertices.
+  - _Keywords:_ vertices, vertex, selected, Edit, Scheme, extension, rounds, specified
+- **Limitations** <a id="limitations"></a>
+  - The fillet-radius must be selected so that the operation does not result in an invalid geometry. Small roundings can result in an excessive number of small elements during meshing.
+  - _Keywords:_ result, fillet, radius, selected, operation, invalid, geometry, Small
+- **Examples** <a id="examples"></a>
+  - ```lisp (define mybody (sdegeo:create-rectangle (position 0 0 0) (position 10 10 0) "Silicon" "region_1")) (define myvertices (entity:vertices mybody)) (sdegeo:fillet-2d (list (list-ref myvertices 0) (list-ref myvertices 1)) 3) ```
+  - _Keywords:_ myvertices, define, mybody, sdegeo, position, create, rectangle, Silicon
+- **sdegeo:find-closest-edge** <a id="sdegeo-find-closest-edge"></a>
+  - Finds the entity ID of the closest edge to the specified position.
+  - _Keywords:_ Finds, entity, closest, specified, position
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:find-closest-edge position)
+  - _Keywords:_ position, Argument, sdegeo, closest, POSITION
+- **Returns** <a id="returns"></a>
+  - (EDGE.REAL)
+  - _Keywords:_ EDGE, REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the edge list of all defined geometric bodies and returns the entity ID of the closest edge to the specified position.
+  - _Keywords:_ Scheme, extension, through, defined, geometric, bodies, entity, closest
+- **sdegeo:find-closest-face** <a id="sdegeo-find-closest-face"></a>
+  - Finds the entity ID of the closest face to the specified position.
+  - _Keywords:_ Finds, entity, closest, specified, position
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:find-closest-face position)
+  - _Keywords:_ position, Argument, sdegeo, closest, POSITION
+- **Returns** <a id="returns"></a>
+  - (FACE.REAL)
+  - _Keywords:_ FACE, REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the face list of all defined geometric bodies and returns the entity ID of the closest face to the specified position.
+  - _Keywords:_ Scheme, extension, through, defined, geometric, bodies, entity, closest
+- **sdegeo:find-closest-vertex** <a id="sdegeo-find-closest-vertex"></a>
+  - Finds the entity ID of the closest vertex to the specified position.
+  - _Keywords:_ Finds, entity, closest, vertex, specified, position
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:find-closest-vertex position)
+  - _Keywords:_ position, Argument, sdegeo, closest, vertex, POSITION
+- **Returns** <a id="returns"></a>
+  - (VERTEX.REAL)
+  - _Keywords:_ VERTEX, REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension goes through the vertex list of all defined geometric bodies and returns the entity ID of the closest vertex to the specified position.
+  - _Keywords:_ vertex, Scheme, extension, through, defined, geometric, bodies, entity
+- **sdegeo:find-touching-faces** <a id="sdegeo-find-touching-faces"></a>
+  - Finds all touching faces from those specified.
+  - _Keywords:_ Finds, touching, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:find-touching-faces flist)
+  - _Keywords:_ Argument, FACE, sdegeo, touching
+- **Returns** <a id="returns"></a>
+  - ENTITY (FACE PAIR) | (FACE PAIR LIST)
+  - _Keywords:_ FACE, PAIR, ENTITY
+- **Description** <a id="description"></a>
+  - This Scheme extension takes a list of faces and returns a list of pairs. The face pair list contains entries only for those faces from the input list that have neighbor faces. For these faces, the input face entity ID and the entity ID o...
+  - _Keywords:_ entity, Scheme, extension, contains, entries, neighbor, neighboring, touching
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define mb1 (sdegeo:create-cuboid (position 0 0 0) (position 10 10 10) "Silicon" "x1")) (define mb2 (sdegeo:create-cuboid (position 3 3 6) (position 7 7 12) "PolySilicon" "x2")) (define nfl (sdegeo:find-touching-faces...
+  - _Keywords:_ position, define, sdegeo, Silicon, PolySilicon, neighbor, create, cuboid
+- **sdegeo:find-touching-faces-global** <a id="sdegeo-find-touching-faces-global"></a>
+  - Finds all touching faces.
+  - _Keywords:_ Finds, touching
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:find-touching-faces-global flist)
+  - _Keywords:_ Argument, FACE, sdegeo, touching, global
+- **Returns** <a id="returns"></a>
+  - ENTITY FACE LIST
+  - _Keywords:_ ENTITY, FACE
+- **Description** <a id="description"></a>
+  - This Scheme extension takes a list of faces and returns a face list. The returned list contains entries only for those faces from the input list that have neighbor faces. For these faces, the neighboring touching face IDs are returned.
+  - _Keywords:_ returned, Scheme, extension, contains, entries, neighbor, neighboring, touching
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define mb1 (sdegeo:create-cuboid (position 0 0 0) (position 10 10 10) "Silicon" "x1")) (define mb2 (sdegeo:create-cuboid (position 3 3 6) (position 7 7 12) "PolySilicon" "x2")) (define nfl (sdegeo:find-touching-faces...
+  - _Keywords:_ position, define, sdegeo, create, cuboid, touching, global, Silicon
+- **sdegeo:get-active-work-plane** <a id="sdegeo-get-active-work-plane"></a>
+  - Returns the name of the active work plane.
+  - _Keywords:_ active
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:get-active-work-plane)
+  - _Keywords:_ sdegeo, active
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the name of the active work plane.
+  - _Keywords:_ Scheme, extension, active
+- **sdegeo:get-auto-region-naming** <a id="sdegeo-get-auto-region-naming"></a>
+  - Returns the status of the automatic region-naming option.
+  - _Keywords:_ status, automatic, region, naming
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:get-auto-region-naming)
+  - _Keywords:_ sdegeo, region, naming
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension returns #t if the automatic region-naming option is switched on. It returns #f if it is switched off.
+  - _Keywords:_ switched, Scheme, extension, automatic, region, naming
+- **sdegeo:get-contact-edgelist** <a id="sdegeo-get-contact-edgelist"></a>
+  - Returns the edges that have the specified contact set as ‘2D contact’ attributes.
+  - _Keywords:_ contact, specified, attributes
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:get-contact-edgelist contact-set-name)
+  - _Keywords:_ contact, Argument, sdegeo, edgelist, STRING
+- **Returns** <a id="returns"></a>
+  - EDGE LIST
+  - _Keywords:_ EDGE
+- **Description** <a id="description"></a>
+  - This Scheme extension returns all edges that have the specified contact set name attached as a "2d-contact" attribute. The argument contact-set-name is the name of the contact set.
+  - _Keywords:_ contact, Scheme, extension, specified, attached, attribute, argument
+- **sdegeo:get-contact-facelist** <a id="sdegeo-get-contact-facelist"></a>
+  - Returns the faces that have the specified contact set as ‘3D contact’ attributes.
+  - _Keywords:_ contact, specified, attributes
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:get-contact-facelist contact-set-name)
+  - _Keywords:_ contact, Argument, sdegeo, facelist, STRING
+- **Returns** <a id="returns"></a>
+  - FACE LIST
+  - _Keywords:_ FACE
+- **Description** <a id="description"></a>
+  - This Scheme extension returns all faces that have the specified contact set name attached as a "3d-contact" attribute. The argument contact-set-name is the name of the contact set.
+  - _Keywords:_ contact, Scheme, extension, specified, attached, attribute, argument
+- **sdegeo:get-current-contact-set** <a id="sdegeo-get-current-contact-set"></a>
+  - Returns the name of the current (active) contact set.
+  - _Keywords:_ current, active, contact
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:get-current-contact-set)
+  - _Keywords:_ sdegeo, current, contact
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the name of the current (active) contact set.
+  - _Keywords:_ Scheme, extension, current, active, contact
+- **Examples** <a id="examples"></a>
+  - ```lisp (sdegeo:define-contact-set "Drain") (sdegeo:define-contact-set "Source" 4.0 (color:rgb 1.0 0.0 0.0) "##") (sdegeo:set-current-contact-set "Drain") (sdegeo:get-current-contact-set) ```
+  - _Keywords:_ sdegeo, contact, define, Drain, current, Source
+- **sdegeo:get-default-boolean** <a id="sdegeo-get-default-boolean"></a>
+  - Returns the default Boolean behavior.
+  - _Keywords:_ Boolean, behavior
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:get-default-boolean)
+  - _Keywords:_ sdegeo, boolean
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the default Boolean behavior as a string, which can be any of the following predefined values: "AB", "ABA", "BAB", "ABiA", "ABiB", and "XX".
+  - _Keywords:_ Scheme, extension, Boolean, behavior, string, predefined, ABA, BAB
+- **sdegeo:get-region-counter** <a id="sdegeo-get-region-counter"></a>
+  - Returns the region counter.
+  - _Keywords:_ region, counter
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:get-region-counter)
+  - _Keywords:_ sdegeo, region, counter
+- **Returns** <a id="returns"></a>
+  - INTEGER
+  - _Keywords:_ INTEGER
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the valid region counter. By default, region names are assigned automatically to the generated regions. The generated region names are region\_%N, where %N is the region counter. The Scheme extension returns...
+  - _Keywords:_ region, Scheme, extension, counter, generated, assigned, automatically, regions
+- **sdegeo:imprint-circular-wire** <a id="sdegeo-imprint-circular-wire"></a>
+  - Splits boundary faces by imprinting a circular wire to the model.
+  - _Keywords:_ Splits, boundary, imprinting, circular
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:imprint-circular-wire center-position radius)
+  - _Keywords:_ center, position, radius, Argument, sdegeo, imprint, circular, POSITION
+- **Returns** <a id="returns"></a>
+  - FACE ID | FACE ID LIST
+  - _Keywords:_ FACE
+- **Description** <a id="description"></a>
+  - This Scheme extension imprints a circular wire to an existing body. The imprinted wire splits the faces of the existing bodies. This Scheme extension can be used to prescribe a circular contact area.
+  - _Keywords:_ circular, extension, existing, Scheme, imprinted, patches, contacts, center
+- **sdegeo:imprint-contact** <a id="sdegeo-imprint-contact"></a>
+  - Imprints 3D face contacts to neighboring faces.
+  - _Keywords:_ Imprints, contacts, neighboring
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:imprint-contact)
+  - _Keywords:_ sdegeo, imprint, contact
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension imprints all 3D contacts (face contacts) to the neighboring touching faces. The Scheme extension sdegeo:set-contact-boundary-faces does this automatically.
+  - _Keywords:_ contact, contacts, touching, sdegeo, Scheme, extension, neighboring, imprint
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define mb1 (sdegeo:create-cuboid (position 0 0 0) (position 10 10 4) "Silicon" "x1")) (define mb2 (sdegeo:create-cuboid (position 3 3 4) (position 7 7 6) "PolySilicon" "x2")) (sdegeo:define-contact-set "base" 4 (colo...
+  - _Keywords:_ contact, sdegeo, position, define, PolySilicon, create, cuboid, Silicon
+- **sdegeo:imprint-polygonal-wire** <a id="sdegeo-imprint-polygonal-wire"></a>
+  - Splits boundary faces by imprinting a polygonal wire to the model.
+  - _Keywords:_ Splits, boundary, imprinting, polygonal
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:imprint-polygonal-wire vertex-list)
+  - _Keywords:_ vertex, Argument, sdegeo, imprint, polygonal, POSITION
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension imprints a polygonal wire to an existing body. The imprinted wire splits the faces of the existing body. This Scheme extension can be used to prescribe a polygonal contact area. The imprint functions split existing ...
+  - _Keywords:_ existing, Scheme, extension, polygonal, imprinted, imprint, patches, contacts
+- **sdegeo:imprint-rectangular-wire** <a id="sdegeo-imprint-rectangular-wire"></a>
+  - Splits boundary faces by imprinting a rectangular wire to the model.
+  - _Keywords:_ Splits, boundary, imprinting, rectangular
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:imprint-rectangular-wire position1 position2)
+  - _Keywords:_ position1, position2, Argument, POSITION, sdegeo, imprint, rectangular
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension imprints a rectangular wire to an existing body. The imprinted wire splits the faces of the existing body. This Scheme extension can be used to prescribe a rectangular contact area. The imprint functions split exist...
+  - _Keywords:_ rectangular, existing, Scheme, extension, imprinted, patches, contacts, imprints
+- **sdegeo:imprint-triangular-wire** <a id="sdegeo-imprint-triangular-wire"></a>
+  - Splits boundary faces by imprinting a triangular wire to the model.
+  - _Keywords:_ Splits, boundary, imprinting, triangular
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:imprint-triangular-wire position1 position2 position3)
+  - _Keywords:_ POSITION, position1, position2, position3, Argument, sdegeo, imprint, triangular
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension imprints a triangular wire to an existing body. The imprinted wire splits the faces of the existing body. This Scheme extension can be used to prescribe a triangular contact area. The imprint functions split existin...
+  - _Keywords:_ triangular, existing, Scheme, extension, imprinted, patches, contacts, imprints
+- **sdegeo:insert-vertex** <a id="sdegeo-insert-vertex"></a>
+  - Inserts a vertex in a 2D model.
+  - _Keywords:_ Inserts, vertex
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:insert-vertex vertex-list)
+  - _Keywords:_ vertex, Argument, sdegeo, insert, VERTEX
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension inserts a vertex in a 2D model by projecting the specified insert position to the nearest edge.
+  - _Keywords:_ Scheme, extension, inserts, vertex, projecting, specified, insert, position
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **sdegeo:max-edge-length** <a id="sdegeo-max-edge-length"></a>
+  - Returns the length of the longest edge.
+  - _Keywords:_ length, longest
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:max-edge-length edge-list)
+  - _Keywords:_ Argument, sdegeo, length, EDGE
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension computes the length of each edge in edge-list and returns the largest edge length.
+  - _Keywords:_ length, Scheme, extension, computes, largest
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:set-default-boolean "AB") (sdegeo:create-rectangle (position 0 0 0) (position 2 2 0) "Silicon" "region_1") (sdegeo:create-circle (position 1 2 0) 1 "Silicon" "region_2") (define elit (entity:edges (get-body-li...
+  - _Keywords:_ sdegeo, position, create, Silicon, boolean, rectangle, region_1, circle
+- **sdegeo:min-edge-length** <a id="sdegeo-min-edge-length"></a>
+  - Returns the length of the shortest edge.
+  - _Keywords:_ length, shortest
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:min-edge-length edge-list)
+  - _Keywords:_ Argument, sdegeo, length, EDGE
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - This Scheme extension computes the length of each edge in edge-list and returns the smallest edge length.
+  - _Keywords:_ length, Scheme, extension, computes, smallest
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:set-default-boolean "AB") (sdegeo:create-rectangle (position 0 0 0) (position 2 2 0) "Silicon" "region_1") (sdegeo:create-circle (position 1 2 0) 1 "Silicon" "region_2") (define elit (entity:edges (get-body-li...
+  - _Keywords:_ sdegeo, position, create, Silicon, boolean, rectangle, region_1, circle
+- **sdegeo:mirror-selected** <a id="sdegeo-mirror-selected"></a>
+  - Reflects the specified entities.
+  - _Keywords:_ Reflects, specified, entities
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:mirror-selected entity-list transform keep-flag [reverse-DRS-flag])
+  - _Keywords:_ transform, entity, reverse, DRS, Argument, BOOLEAN, sdegeo, mirror
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The reflection data is specified through a transform, which is a transform:reflectiontype transform object.
+  - _Keywords:_ bodies, transform, mirrored, original, doping, merged, Ref, Eval
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define mb (sdegeo:create-rectangle (position 1 1 0) (position 2 2 0) "Silicon" "xx")) (define tr1 (transform:reflection (position 0 0 0) (gvector -1 0 0))) (sdegeo:mirror-selected (get-body-list) tr1 #t) ```
+  - _Keywords:_ position, define, sdegeo, create, rectangle, Silicon, transform, reflection
+- **sdegeo:move-2d-regions** <a id="sdegeo-move-2d-regions"></a>
+  - Moves the specified regions.
+  - _Keywords:_ Moves, specified, regions
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:move-2d-regions body | body-list gvector)
+  - _Keywords:_ gvector, Argument, BODY, sdegeo, regions, GVECTOR
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension moves the specified regions (identified by their entity IDs) to a new location. The new position of the regions is specified by a gvector.
+  - _Keywords:_ specified, regions, Scheme, extension, identified, entity, IDs, location
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define mb1 (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silver" "region_1")) (sdegeo:move-2d-regions mb1 (gvector 1 1 0)) ```
+  - _Keywords:_ sdegeo, position, define, create, rectangle, Silver, region_1, regions
+- **sdegeo:move-edge** <a id="sdegeo-move-edge"></a>
+  - Moves the specified edge.
+  - _Keywords:_ Moves, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:move-edge edge gvector)
+  - _Keywords:_ gvector, Argument, sdegeo, EDGE, GVECTOR
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension moves the specified edge (identified by its entity ID) to a new location. The new position of the edge is specified by a gvector.
+  - _Keywords:_ specified, Scheme, extension, identified, entity, location, position, gvector
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silver" "region_1") (define top-edge (car (find-edge-id (position 0.5 1 0)))) (sdegeo:move-edge top-edge (gvector 0.2 0.2 0)) ```
+  - _Keywords:_ position, sdegeo, create, rectangle, Silver, region_1, define, gvector
+- **sdegeo:move-vertex** <a id="sdegeo-move-vertex"></a>
+  - Moves the selected vertex.
+  - _Keywords:_ Moves, selected, vertex
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:move-vertex ve pe)
+  - _Keywords:_ Argument, VERTEX, POSITION, sdegeo, vertex, GVECTOR
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension moves the specified vertex or vertex list (identified by its entity IDs) to a new location, which is given by a position entity or by a gvector (if a single vertex is the input). If the input is a vertex list, the n...
+  - _Keywords:_ vertex, specified, entity, position, gvector, Scheme, extension, identified
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only. Vertices of 2D geometric bodies, as well as vertices of 2D DRS bodies (Ref/Eval windows), can be used.
+  - _Keywords:_ bodies, Scheme, extension, applies, models, Vertices, geometric, vertices
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silver" "region_1") (define lower-left-vertex (car (find-vertex-id (position 0 0 0)))) (sdegeo:move-vertex lower-left-vertex (position -0.2 0.2 0)) ```
+  - _Keywords:_ position, vertex, sdegeo, create, rectangle, Silver, region_1, define
+- **sdegeo:point-entity-relationship** <a id="sdegeo-point-entity-relationship"></a>
+  - Returns the containment relationship between a body and a point.
+  - _Keywords:_ containment, relationship, between
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:point-entity-relationship body lposition)
+  - _Keywords:_ lposition, Argument, sdegeo, entity, relationship, BODY, POSITION
+- **Returns** <a id="returns"></a>
+  - STRING ("inside", "boundary", "outside")
+  - _Keywords:_ STRING, inside, boundary, outside
+- **Description** <a id="description"></a>
+  - This Scheme extension determines the containment of the specified position with respect to the specified body:
+  - _Keywords:_ Scheme, extension, specified, position, determines, containment, respect, contains
+- **sdegeo:polygonal-split** <a id="sdegeo-polygonal-split"></a>
+  - Splits a 2D device along the specified path.
+  - _Keywords:_ Splits, device, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:polygonal-split plist)
+  - _Keywords:_ Argument, sdegeo, polygonal, POSITION
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension splits a 2D device along the specified path. The first and last positions in the argument list snap to the closest boundary edge. All device bodies are split along the specified path, and a new unique region name is...
+  - _Keywords:_ region, device, specified, Scheme, extension, splits, positions, argument
+- **Examples** <a id="examples"></a>
+  - ```lisp (sdegeo:create-circle (position 7 5 0) 3 "Copper" "r3") (sdegeo:create-rectangle (position 0 0 0) (position 10 5 0) "Silicon" "r1") (sdegeo:create-rectangle (position 3 5 0) (position 7 9 0) "PolySi" "r2") (sdegeo:polygonal-split...
+  - _Keywords:_ position, sdegeo, create, rectangle, circle, Copper, Silicon, PolySi
+- **sdegeo:prune-vertices** _(p.74)_ <a id="sdegeo-prune-vertices"></a>
+  - Merges neighboring edges by pruning the vertices.
+  - _Keywords:_ Merges, neighboring, pruning, vertices
+- **Syntax** _(p.74)_ <a id="syntax"></a>
+  - (sdegeo:prune-vertices {body-list | edge-list | vertex-list} angular-tolerance)
+  - _Keywords:_ vertex, angular, tolerance, Argument, sdegeo, vertices, BODY, EDGE
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension merges neighboring edges by pruning the vertices. The angulartolerance argument specifies the angular threshold for the operation. If the edge normals (at the common vertex position) are less than the specified angu...
+  - _Keywords:_ Scheme, extension, neighboring, angular, common, vertex, sdegeo, merges
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 2D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **See Also** <a id="see-also"></a>
+  - sdegeo:dnce on page 650
+  - _Keywords:_ sdegeo
+- **sdegeo:ray-test** <a id="sdegeo-ray-test"></a>
+  - Obtains the positions where a ray intersects a solid.
+  - _Keywords:_ Obtains, positions, intersects
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:ray-test entity ray radius)
+  - _Keywords:_ entity, radius, Argument, sdegeo, BODY, RAY, REAL
+- **Returns** <a id="returns"></a>
+  - ((ENTITY . POSITION) ...)
+  - _Keywords:_ ENTITY, POSITION
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the positions where a ray intersects a solid as pairs. The first element of each pair is the entity hit by the ray, and the second element of the pair is the position where the ray intersects the solid. The ...
+  - _Keywords:_ intersects, Scheme, extension, element, entity, position, direction, argument
+- **Examples** <a id="examples"></a>
+  - ```lisp ; solid:ray-test ; Create a solid block. (define block1 (solid:block (position 0 0 0) (position 40 40 40))) ; Determine where the ray intersects the solid block. (sdegeo:ray-test block1 (ray (position 10 20 60) (gvector 0 0 -1)) ...
+  - _Keywords:_ position, sdegeo, define, block1, gvector, mysphere, Create, Determine
+- **sdegeo:reflect** <a id="sdegeo-reflect"></a>
+  - Reflects the specified entities.
+  - _Keywords:_ Reflects, specified, entities
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:reflect entity-list base-position base-vector keep-flag)
+  - _Keywords:_ entity, position, vector, Argument, BODY, sdegeo, reflect, POSITION
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - Instead of an entity-list, the keyword all can be used. In this case, the operation is performed on all entities. The base position that is used for the operation is specified by baseposition. The argument base-vector is a gvector specif...
+  - _Keywords:_ parent, region, operation, direction, elements, argument, vector, gvector
+- **Limitations** _(p.75–76)_ <a id="limitations"></a>
+  - This Scheme extension is still available, but it is obsolete. Use sdegeo:mirror-selected.
+  - _Keywords:_ sdegeo, position, create, rectangle, Scheme, extension, available, obsolete
+- **See Also** <a id="see-also"></a>
+  - sdegeo:mirror-selected on page 675
+  - _Keywords:_ sdegeo, mirror, selected
+- **sdegeo:rename-contact** <a id="sdegeo-rename-contact"></a>
+  - Renames an existing contact.
+  - _Keywords:_ Renames, existing, contact
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:rename-contact oldContName newContName)
+  - _Keywords:_ contact, oldContName, newContName, Argument, STRING, sdegeo, rename
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension renames an existing contact.
+  - _Keywords:_ Scheme, extension, renames, existing, contact
+- **sdegeo:revolve** <a id="sdegeo-revolve"></a>
+  - Revolves the specified entity or entities.
+  - _Keywords:_ Revolves, specified, entity, entities
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:revolve entity-list base-position base-vector angle)
+  - _Keywords:_ entity, position, vector, Argument, BODY, sdegeo, revolve, POSITION
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension revolves the specified entity or entities with the specified baseposition and base-vector. The specified entity can be either a single entity or a list of entities. Alternatively, all can be used, in which case, the...
+  - _Keywords:_ entities, specified, entity, operation, revolve, selected, vector, complete
+- **Limitations** <a id="limitations"></a>
+  - When the operation is applied to only some parts of a device, overlapping regions or gaps can be created. In this case, explicit Boolean operations must be performed on the model to avoid overlapping regions.
+  - _Keywords:_ position, sdegeo, create, rectangle, overlapping, regions, gvector, operation
+- **sdegeo:rotate-selected** <a id="sdegeo-rotate-selected"></a>
+  - Rotates the specified entities.
+  - _Keywords:_ Rotates, specified, entities
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdegeo:rotate-selected entity-list transform { [keep-flag] } | { [keep-flag] [overlap-rule] } | { [keep-flag] [repeat-number] } | { [keep-flag] [repeat-number] [overlap-rule] }) ```
+  - _Keywords:_ transform, overlap, repeat, optional, entity, Argument, BODY, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - The rotation data is specified through a transform, which is a transform:rotation-type transform object.
+  - _Keywords:_ overlap, overlaps, sdegeo, specified, removal, removed, transform, argument
+- **sdegeo:scale** <a id="sdegeo-scale"></a>
+  - Scales the specified entity or entities.
+  - _Keywords:_ Scales, specified, entity, entities
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:scale entity-list scale-x scale-y | scale-z)
+  - _Keywords:_ REAL, entity, Argument, BODY, sdegeo, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension scales the specified entity or entities with the specified scaling factors. The specified entity can be either a single entity or a list of entities. Alternatively, all can be used, in which case, the complete devic...
+  - _Keywords:_ entity, entities, specified, selected, scaling, complete, GUI, applied
+- **Limitations** <a id="limitations"></a>
+  - When the operation is applied to only some parts of a device, overlapping regions or gaps can be created. In this case, explicit Boolean operations must be performed on the model to avoid overlapping regions.
+  - _Keywords:_ overlapping, regions, operation, applied, device, created, explicit, Boolean
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:set-default-boolean "ABA") (sdegeo:create-rectangle (position 0 0 0) (position 10 10 0) "Silicon" "region_1") (sdegeo:create-rectangle (position 4 8 0) (position 6 14 0) "PolySilicon" "region_2") (sdegeo:sc...
+  - _Keywords:_ sdegeo, position, create, rectangle, clojure, boolean, ABA, Silicon
+- **See Also** <a id="see-also"></a>
+  - sdegeo:scale-selected
+  - _Keywords:_ sdegeo, selected
+- **sdegeo:scale-selected** <a id="sdegeo-scale-selected"></a>
+  - Scales the specified entities.
+  - _Keywords:_ Scales, specified, entities
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:scale-selected entity-list transform)
+  - _Keywords:_ transform, entity, Argument, BODY, sdegeo, selected, scaling
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The scaling data is specified through a transform, which is a transform:scaling-type transform object.
+  - _Keywords:_ transform, scaling, specified, through, object
+- **sdegeo:set-active-coord-sys** <a id="sdegeo-set-active-coord-sys"></a>
+  - Sets the specified coordinate system as the active coordinate system.
+  - _Keywords:_ coordinate, system, specified, active
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-active-coord-sys cs-name)
+  - _Keywords:_ Argument, sdegeo, active, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the specified coordinate system with cs-name as the active coordinate system. All subsequent geometry creation commands are applied to that coordinate system.
+  - _Keywords:_ coordinate, system, Scheme, extension, specified, active, subsequent, geometry
+- **sdegeo:set-active-work-plane** <a id="sdegeo-set-active-work-plane"></a>
+  - Sets the specified work plane as the active work plane.
+  - _Keywords:_ specified, active
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-active-work-plane wp-name)
+  - _Keywords:_ Argument, sdegeo, active, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the specified work plane with wp-name as the active work plane.
+  - _Keywords:_ Scheme, extension, specified, active, subsequent, geometry, creation, applied
+- **Examples** <a id="examples"></a>
+  - ```txt (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silicon" "region_1") (sdegeo:define-work-plane "wp1" (position 0 0 1) (position 1 0 1) (position 0 1 1)) (sdegeo:set-active-work-plane "wp1") (sdegeo:create-r...
+  - _Keywords:_ position, sdegeo, create, rectangle, Silicon, region_1, define, active
+- **sdegeo:set-auto-region-naming** <a id="sdegeo-set-auto-region-naming"></a>
+  - Switches on or off the automatic region-naming option.
+  - _Keywords:_ Switches, automatic, region, naming
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-auto-region-naming on-off)
+  - _Keywords:_ Argument, sdegeo, region, naming, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension switches on or off the automatic region-naming option. Regions are named using region\_%d, where %d is an increasing integer.
+  - _Keywords:_ region, Scheme, extension, switches, automatic, naming, Regions, increasing
+- **sdegeo:set-contact** <a id="sdegeo-set-contact"></a>
+  - Assigns the active contact to the specified entities.
+  - _Keywords:_ Assigns, active, contact, specified, entities
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-contact entity | entity-list [contact-name ["remove"]])
+  - _Keywords:_ entity, contact, remove, Argument, ENTITY, optional, sdegeo, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension attaches the active contact to the specified entity (or entities) if the optional argument contact-name is not given.
+  - _Keywords:_ contact, entity, defined, sdegeo, Scheme, argument, extension, specified
+- **sdegeo:set-contact-boundary-edges** <a id="sdegeo-set-contact-boundary-edges"></a>
+  - Attaches the name of the active contact set to all edges of a specified body.
+  - _Keywords:_ Attaches, active, contact, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-contact-boundary-edges body | body-list)
+  - _Keywords:_ Argument, BODY, sdegeo, contact, boundary
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension defines all edges of a selected region or regions as contacts, using the name of the active contact set and the selected entities (sde:selected-entities). Alternatively, a body list can be specified in the argument ...
+  - _Keywords:_ selected, entities, specified, Scheme, extension, defines, region, regions
+- **sdegeo:set-contact-boundary-faces** <a id="sdegeo-set-contact-boundary-faces"></a>
+  - Attaches a contact attribute to all faces of the specified body or bodies.
+  - _Keywords:_ Attaches, contact, attribute, specified, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-contact-boundary-faces body | body-list)
+  - _Keywords:_ Argument, BODY, sdegeo, contact, boundary
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension attaches a contact attribute to each face of the specified body or bodies. If the argument list is empty, the Scheme extension takes the bodies from (sde:selectedentities). The name of the active contact set is take...
+  - _Keywords:_ Scheme, extension, contact, bodies, argument, attaches, attribute, specified
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:define-contact-set "xx" 4.0 (color:rgb 1 0 0) "##") (sdegeo:set-current-contact-set "xx") (define mycube (sdegeo:create-cuboid (position 0 0 0) (position 1 1 1) "PolySilicon" "region_1")) (sdegeo:set-contact-b...
+  - _Keywords:_ sdegeo, contact, define, mycube, position, current, create, cuboid
+- **sdegeo:set-contact-edges** <a id="sdegeo-set-contact-edges"></a>
+  - Marks the specified edges as contacts.
+  - _Keywords:_ Marks, specified, contacts
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-contact-edges edge-list contact-set-name)
+  - _Keywords:_ contact, Argument, sdegeo, EDGE, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension marks all edges in edge-list as contacts. The argument contactset-name specifies the contact set to which the contact edges will belong. The specified contact set must be predefined.
+  - _Keywords:_ contact, selected, contacts, GUI, entities, Scheme, extension, argument
+- **sdegeo:set-contact-faces** <a id="sdegeo-set-contact-faces"></a>
+  - Attaches a contact attribute to specified faces.
+  - _Keywords:_ Attaches, contact, attribute, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-contact-faces face | face-list)
+  - _Keywords:_ Argument, FACE, sdegeo, contact
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension attaches a contact attribute to faces. If the argument list is empty, the Scheme extension takes the faces from (sde:selected-entities). The name of the active contact set is taken to specify the contacts. Alternati...
+  - _Keywords:_ Scheme, extension, contact, argument, selected, attaches, attribute, entities
+- **sdegeo:set-contact-faces-by-polygon** <a id="sdegeo-set-contact-faces-by-polygon"></a>
+  - Attaches a ‘3D contact’ attribute to specified polygons.
+  - _Keywords:_ Attaches, contact, attribute, specified, polygons
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-contact-faces-by-polygon polygon-list normal-list contact-set-name)
+  - _Keywords:_ polygon, contact, normal, Argument, sdegeo, POLYGON, POSITION, GVECTOR
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension provides an alternative way to prescribe contacts. It can attach a contact attribute to only a part of an existing face (or list of faces).
+  - _Keywords:_ contact, attribute, existing, specified, imprinted, imprint, Scheme, extension
+- **Examples** <a id="examples"></a>
+  - ```lisp ; to define a polygonal contact region use sde:define-contact ; which is a list of polygons. (a polygon is a list of 3d vertices) ; example: (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 10 10 10) "Silicon" "r1") (...
+  - _Keywords:_ position, contact, sdegeo, gvector, define, polygon, polygonal, region
+- **sdegeo:set-current-contact-set** <a id="sdegeo-set-current-contact-set"></a>
+  - Sets the name of the current (active) contact set.
+  - _Keywords:_ current, active, contact
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-current-contact-set csName)
+  - _Keywords:_ csName, Argument, sdegeo, current, contact, STRING
+- **Returns** <a id="returns"></a>
+  - Name of the previously defined contact set.
+  - _Keywords:_ previously, defined, contact
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the name of the current (active) contact to the specified contact set. An error occurs if the specified contact set is not yet defined.
+  - _Keywords:_ contact, specified, Scheme, extension, current, active, occurs, defined
+- **Examples** <a id="examples"></a>
+  - ```lisp (sdegeo:define-contact-set "Drain") (sdegeo:define-contact-set "Source" 4.0 (color:rgb 1.0 0.0 0.0) "##") (sdegeo:set-current-contact-set "Drain") ```
+  - _Keywords:_ sdegeo, contact, define, Drain, Source, current
+- **sdegeo:set-default-boolean** <a id="sdegeo-set-default-boolean"></a>
+  - Sets the default Boolean behavior.
+  - _Keywords:_ Boolean, behavior
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-default-boolean boolean-value)
+  - _Keywords:_ boolean, Argument, sdegeo, STRING
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - The argument boolean-value can be any of the following predefined values (the default behavior determines how overlapping regions are treated):
+  - _Keywords:_ regions, overlapping, existing, behavior, DATEX, material, created, merged
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:set-default-boolean "AB") (sdegeo:create-rectangle (position 0 0 0) (position 10 10 0) "Silicon" "region_1") (sdegeo:create-rectangle (position 3 8 0) (position 7 13 0) "PolySilicon" "region_2") (sdegeo:set...
+  - _Keywords:_ position, sdegeo, create, rectangle, boolean, Silicon, clojure, region_1
+- **A: Commands** <a id="a-commands"></a>
+  - sdegeo:set-default-boolean
+  - _Keywords:_ position, sdegeo, create, rectangle, boolean, PolySilicon, Silicon, clojure
+- **sdegeo:set-region-counter** <a id="sdegeo-set-region-counter"></a>
+  - Sets the region counter.
+  - _Keywords:_ region, counter
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-region-counter counter)
+  - _Keywords:_ counter, Argument, sdegeo, region, INTEGER
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the region counter explicitly. When the automatic region-naming option is selected, the generated regions are numbered sequentially using the region counter. Regions are named automatically as Region\_1, Region...
+  - _Keywords:_ region, counter, Region, generated, Scheme, extension, explicitly, automatic
+- **sdegeo:set-region-counter-aut** <a id="sdegeo-set-region-counter-aut"></a>
+  - Automatically sets the region counter.
+  - _Keywords:_ Automatically, region, counter
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:set-region-counter-aut)
+  - _Keywords:_ sdegeo, region, counter
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the region counter automatically. The region attribute is checked for each existing regions and, if a Region\_N attribute is found, the region counter attribute is set to the next available number N+1. When a b...
+  - _Keywords:_ region, attribute, Scheme, extension, counter, automatically, checked, existing
+- **sdegeo:skin-wires** <a id="sdegeo-skin-wires"></a>
+  - Creates a sheet body that interpolates a series of wires or faces.
+  - _Keywords:_ Creates, interpolates, series
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:skin-wires body-list [path] [skin-options])
+  - _Keywords:_ Argument, WIRE, optional, sdegeo, FACE, SKIN
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension defines a 3D body such that the given wires or faces define the cross sections to be interpolated by the resulting 3D body. There must be at least two wire bodies or faces specified. The wires can be open or closed....
+  - _Keywords:_ defines, argument, resulting, bodies, profile, skinning, Scheme, extension
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define b1 (sdegeo:create-circle (position 0 0 0) 10 "Copper" "r1")) (define b2 (sdegeo:create-ellipse (position 0 0 20) (position 20 0 20) 0.5 "Copper" "r2")) (define f1 (car (entity:faces b1))) (define f2 (car (enti...
+  - _Keywords:_ define, sdegeo, position, Copper, entity, create, circle, ellipse
+- **sdegeo:skin-wires-guides** <a id="sdegeo-skin-wires-guides"></a>
+  - Creates a sheet body that interpolates a series of wires or faces with a guide curve.
+  - _Keywords:_ Creates, interpolates, series
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:skin-wires-guides body-list guides [skin-options])
+  - _Keywords:_ guides, Argument, sdegeo, WIRE, FACE, EDGE, SKIN, optional
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - The given wires or faces define the cross sections to be interpolated by the resulting sheet body. The wire bodies are assumed to be simple and well-behaved. The wires can be open or closed. The wires are copies, that is, the originals r...
+  - _Keywords:_ skinning, argument, guides, bodies, behaved, continuous, directly, profile
+- **sdegeo:skin-wires-normal** <a id="sdegeo-skin-wires-normal"></a>
+  - Creates a sheet body that interpolates a series of wires or faces with take-off vectors normal to the plane of the wire body.
+  - _Keywords:_ Creates, interpolates, series, vectors, normal
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:skin-wires-normal body-list normal-type [skin-options])
+  - _Keywords:_ normal, Argument, sdegeo, WIRE, FACE, STRING, SKIN, optional
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - The given wires or faces define the cross sections to be interpolated by the resulting sheet body with the additional constraint of the surface take-off vectors leaving normal to the plane of each of the wire bodies. There must be at lea...
+  - _Keywords:_ _normal, bodies, constraint, normal, skinning, argument, applied, define
+- **sdegeo:skin-wires-vectors** <a id="sdegeo-skin-wires-vectors"></a>
+  - Creates a sheet body that interpolates a series of wires with take-off vectors as constraints.
+  - _Keywords:_ Creates, interpolates, series, vectors, constraints
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdegeo:skin-wires-vectors body-list SPAvector-list ([guide-list] | [magnitude-list]) [skin-options]) ```
+  - _Keywords:_ optional, SPAvector, magnitude, Argument, sdegeo, vectors, WIRE, FACE
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - The wires provided in the body-list argument define the cross sections to be interpolated by the resulting sheet body. There must be at least two wire bodies. The wire bodies are assumed to be simple, meaning only the first wire of each ...
+  - _Keywords:_ argument, vector, closed, vectors, provided, bodies, skinning, magnitudes
+- **sdegeo:split-insert-device** <a id="sdegeo-split-insert-device"></a>
+  - Splits the device and inserts a part between the split bodies.
+  - _Keywords:_ Splits, device, inserts, between, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:split-insert-device splitpos splitdir splitlength | splitmerge)
+  - _Keywords:_ splitpos, splitdir, splitlength, splitmerge, Argument, sdegeo, insert, device
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension splits a device at a specified position and inserts a part between the split bodies. The direction of the insertion also can be specified. The Scheme extension applies to both 2D and 3D devices. If splitmerge is set...
+  - _Keywords:_ Scheme, extension, specified, bodies, splits, device, position, inserts
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silicon" "xx") (sdegeo:split-insert-device (position 0.2 0 0) (gvector 1 0 0) 0.4 #t) (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 1 1 1) ...
+  - _Keywords:_ position, sdegeo, create, Silicon, insert, device, gvector, cuboid
+- **sdegeo:split-solid** <a id="sdegeo-split-solid"></a>
+  - Splits the specified solid bodies.
+  - _Keywords:_ Splits, specified, bodies
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:split-solid body-list plane-position plane-normal)
+  - _Keywords:_ position, normal, Argument, ENTITY, sdegeo, POSITION, VECTOR
+- **Returns** <a id="returns"></a>
+  - ENTITY LIST
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - This Scheme extension splits the specified solid or solid list along the specified plane. The plane is defined by a position on the plane, plane-position, and the plane normal, planenormal. The solid list containing all the split solid b...
+  - _Keywords:_ Scheme, extension, specified, position, splits, defined, normal, planenormal
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-cylinder (position 0 0 0) (position 0 0 10) 4 "PolySilicon" "x1") (sdegeo:create-cuboid (position -10 -10 -10) (position 10 10 5) "Silicon" "x2") (sdegeo:split-solid (get-body-list) (position 0 0 0) ...
+  - _Keywords:_ position, sdegeo, create, clojure, cylinder, PolySilicon, cuboid, Silicon
+- **sdegeo:sweep** <a id="sdegeo-sweep"></a>
+  - Performs a sweep operation.
+  - _Keywords:_ Performs, operation
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:sweep profile {path | distance | vector | axis} [sweep-options])
+  - _Keywords:_ profile, distance, vector, Argument, sdegeo, FACE, WIRE, EDGE
+- **Returns** <a id="returns"></a>
+  - ENTITY
+  - _Keywords:_ ENTITY
+- **Errors** <a id="errors"></a>
+  - An error is reported if the result of the sweep operation is unsuccessful.
+  - _Keywords:_ reported, result, operation, unsuccessful
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a sheet body or solid body from a profile and a path. The path can be defined as a path, a distance, a vector, or an axis (position and vector). The argument profile is a pointer to a face, which in turn, de...
+  - _Keywords:_ profile, vector, argument, distance, defines, defined, position, Ref
+- **sdegeo:sweep-corner** <a id="sdegeo-sweep-corner"></a>
+  - Performs a corner sweep operation.
+  - _Keywords:_ Performs, corner, operation
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:sweep-corner profile axis)
+  - _Keywords:_ profile, Argument, FACE, sdegeo, corner, POSITION, VECTOR
+- **Returns** <a id="returns"></a>
+  - ENTITY
+  - _Keywords:_ ENTITY
+- **Errors** <a id="errors"></a>
+  - An error is reported if the result of the corner sweep operation is unsuccessful.
+  - _Keywords:_ reported, result, corner, operation, unsuccessful
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a sheet body or solid body from a profile and an axis (position, vector).
+  - _Keywords:_ position, vector, generated, corner, revolve, Scheme, extension, creates
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-rectangle (position 1 0 0) (position 2 1 0) "Silicon" "region_1") (sdegeo:sweep-corner (find-face-id (position 1.5 1 0)) (position 0 0 0) (gvector 0 1 0)) ```
+  - _Keywords:_ position, sdegeo, clojure, create, rectangle, Silicon, region_1, corner
+- **sdegeo:taper-faces** <a id="sdegeo-taper-faces"></a>
+  - Tapers an array of faces about a point and a supplied draft vector by a given draft angle.
+  - _Keywords:_ Tapers, supplied, vector
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:taper-faces face-list point normal angle)
+  - _Keywords:_ normal, Argument, sdegeo, FACE, POSITION, GVECTOR, REAL
+- **Returns** <a id="returns"></a>
+  - BODY
+  - _Keywords:_ BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension tapers the faces specified by face-list by the supplied draft angle about an axis defined by the intersection between the plane of the face and a taper plane, which is defined by a point and normal given as argument...
+  - _Keywords:_ normal, direction, specifies, Scheme, extension, specified, defined, intersection
+- **Limitations** <a id="limitations"></a>
+  - Only planes, cones, ruled surfaces, and previously plane-tapered surfaces (provided the same taper plane is used) can be plane tapered.
+  - _Keywords:_ surfaces, tapered, planes, previously, provided
+- **sdegeo:translate** <a id="sdegeo-translate"></a>
+  - Translates the specified entity or entities.
+  - _Keywords:_ Translates, specified, entity, entities
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:translate entity-list translate-x translate-y | [translate-z])
+  - _Keywords:_ translate, REAL, entity, Argument, BODY, sdegeo, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension translates the specified entity or entities with the specified distance. The specified entity can be either a single entity or a list of entities. Alternatively, all can be used, in which case, the complete device i...
+  - _Keywords:_ entities, entity, selected, specified, operation, complete, GUI, translate
+- **Limitations** <a id="limitations"></a>
+  - When the Scheme extension is applied only to some parts of a device, overlapping regions or gaps can be created. In this case, explicit Boolean operations must be performed on the model to avoid overlapping regions.
+  - _Keywords:_ position, sdegeo, Scheme, extension, overlapping, regions, create, translate
+- **See Also** <a id="see-also"></a>
+  - sdegeo:translate-selected
+  - _Keywords:_ sdegeo, translate, selected
+- **sdegeo:translate-selected** <a id="sdegeo-translate-selected"></a>
+  - Translates the specified entities.
+  - _Keywords:_ Translates, specified, entities
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:translate-selected entity-list transform keep-flag [repeat-number])
+  - _Keywords:_ transform, entity, repeat, Argument, BODY, sdegeo, translate, selected
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The translate data is specified through a transform, which is a transform:translationtype transform object. If keep-flag is #t and the translated geometric body overlaps the original body, the overlap is removed using the default overlap...
+  - _Keywords:_ transform, overlap, translate, specified, through, translationtype, object, translated
+- **sdegeo:vsmooth** <a id="sdegeo-vsmooth"></a>
+  - Two-dimensional boundary smoothing.
+  - _Keywords:_ Two, dimensional, boundary, smoothing
+- **Syntax** <a id="syntax"></a>
+  - (sdegeo:vsmooth polynomial-degree vertex-list)
+  - _Keywords:_ polynomial, degree, vertex, Argument, sdegeo, vsmooth, INTEGER, VERTEX
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension can be used for 2D boundary smoothing and can be called multiple times. It uses a least squares fit of a small set of consecutive data points (vertices) to a polynomial and takes the calculated central point of the ...
+  - _Keywords:_ polynomial, vertices, Scheme, fitted, smoothed, vertex, argument, extension
+- **sdeicwb:clear** <a id="sdeicwb-clear"></a>
+  - Removes all IC WorkBench (ICWB)–related data from memory.
+  - _Keywords:_ Removes, WorkBench, ICWB, related, memory
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:clear)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes all ICWB-related data from memory.
+  - _Keywords:_ Scheme, extension, removes, ICWB, related, memory
+- **sdeicwb:contact** <a id="sdeicwb-contact"></a>
+  - Creates contacts for subsequent device simulations that are tied to a mask or a text label in the TCAD layout file.
+  - _Keywords:_ Creates, contacts, subsequent, device, simulations, TCAD, layout
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdeicwb:contact ("label.name" label.name | "layer.name" layer.name) ("type" "box" "material" material ["adjacent.material" adjacent.material] (["boxheight" boxheight] | ["hi" <n> "lo" <n>]) | "type" "point" "material" materia...
+  - _Keywords:_ material, optional, STRING, REAL, adjacent, boxheight, height, replace
+- **Returns** <a id="returns"></a>
+  - Returns #t if successful. Otherwise, #f if the contact cannot be created.
+  - _Keywords:_ successful, Otherwise, contact, cannot, created
+- **Description** <a id="description"></a>
+  - The command extracts the lateral placement of a contact from either the mask specified in the layer.name argument or the anchor point location (or locations) of the text label specified in the label.name argument.
+  - _Keywords:_ contact, argument, material, specified, vertical, sdeicwb, extent, determined
+- **Examples** <a id="examples"></a>
+  - The location of contact faces can be defined using different argument combinations. The following examples illustrate the use of the sdeicwb:contact arguments.
+  - _Keywords:_ contact, location, defined, different, argument, combinations, illustrate, sdeicwb
+- **Example 1** <a id="example-1"></a>
+  - The hi and lo arguments define the box extent, where the contact faces are assigned, in the x-direction or z-direction (depending on the up direction, which can be set by the sde:setprocess-up-direction Scheme extension). The following e...
+  - _Keywords:_ position, contact, Silicon, direction, material, assigned, clojure, sdegeo
+- **Example 2** <a id="example-2"></a>
+  - If you use (sde:set-process-up-direction 1), you must reverse the lo and hi coordinates as follows:
+  - _Keywords:_ position, Silicon, process, direction, sdeicwb, contact, material, reverse
+- **Example 3** <a id="example-3"></a>
+  - Instead of using the lo and hi arguments, you can use boxheight. If neither lo nor hi is given, but boxheight is specified, the top of the region is computed (x) and lo is set to x – boxheight and hi is set to x + boxheight:
+  - _Keywords:_ boxheight, position, Silicon, Instead, arguments, neither, specified, region
+- **Example 4** <a id="example-4"></a>
+  - If boxheight is less than the height of the device, the contact is assigned only to the top face as follows:
+  - _Keywords:_ position, Silicon, boxheight, contact, sdegeo, create, cuboid, addmasktomodel
+- **sdeicwb:create-boxes-from-layer** <a id="sdeicwb-create-boxes-from-layer"></a>
+  - Creates cuboids with a lateral extent given by the polygon bounding boxes from the layer in an ICWB TCAD layout. The vertical extent is taken from the argument list.
+  - _Keywords:_ extent, Creates, cuboids, lateral, polygon, bounding, ICWB, TCAD
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:create-boxes-from-layer lname top bot region-material region-name)
+  - _Keywords:_ region, STRING, material, Argument, REAL, coordinate, sdeicwb, create
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension supports layout-driven structural operations, with a syntax independent of the coordinate system used in the currently active ICWB simulation domain.
+  - _Keywords:_ Scheme, extension, supports, layout, driven, structural, operations, syntax
+- **Examples** <a id="examples"></a>
+  - ```lisp (define PoTop (sdeicwb:get-region-top (find-material-id "PolySilicon")) (sdegeo:set-current-contact-set "gate") (sdegeo:set-default=boolean "ABA") (define GATEMETAL (sdeicwb:create-boxes-from-layer "ngate" (sdeicwb:down PoTop 0.0...
+  - _Keywords:_ sdeicwb, sdegeo, PoTop, GATEMETAL, define, region, contact, material
+- **sdeicwb:define-refinement-from-layer** <a id="sdeicwb-define-refinement-from-layer"></a>
+  - Creates refinement windows with a lateral extent given by layers in an ICWB TCAD layout. The vertical extent is taken from the argument list. In addition, it generates 3D refinement size settings with coordinate system–independent syntax.
+  - _Keywords:_ refinement, extent, Creates, windows, lateral, layers, ICWB, TCAD
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:define-refinement-from-layer "lname" lname ["rname" rname] ["oversize" oversize] "top" top "bot" bot "dlrmin" dlrmin "dlrmax" dlrmax "dbtmin" dbtmin "dbtmax" dbtmax ["dbfmin" dbfmin] ["dbfmax" dbfmax] ["material" material] ["reg...
+  - _Keywords:_ refinement, REAL, optional, dimension, STRING, window, oversize, dlrmin
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension supports layout-driven mesh refinements, with a syntax independent of the coordinate system of the currently active ICWB simulation domain.
+  - _Keywords:_ refinement, polygon, argument, region, bounding, material, ICWB, define
+- **Limitations** <a id="limitations"></a>
+  - Layout-driven refinement is available only for the area under the given layer itself, not for the inverse of a layer. If refinement is needed in an area not covered by the layer, you must create the inverse of the layer as an auxiliary l...
+  - _Keywords:_ refinement, inverse, Layout, driven, available, itself, needed, covered
+- **Examples** <a id="examples"></a>
+  - ```clojure (sdeicwb:define-refinement-from-layer "lname" "POLY" "rname" "Channel" "oversize" 0.15 "top" (sdeicwb:up SiTop 0.03) "bot" (sdeicwb:down SiTop 0.1) "dlrmax" 0.05 "dlrmin" 0.025 "dbtmax" 0.02 "dbtmin" 0.01 "dbfmax" 0.05 "dbfmin...
+  - _Keywords:_ sdeicwb, define, refinement, Channel, SiTop, RSize, clojure, POLY
+- **sdeicwb:down** <a id="sdeicwb-down"></a>
+  - Increases or decreases the vertical positions depending on the coordinate system convention.
+  - _Keywords:_ Increases, decreases, vertical, positions, depending, coordinate, system, convention
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:down value increment)
+  - _Keywords:_ increment, Argument, REAL, sdeicwb
+- **Returns** <a id="returns"></a>
+  - For the UCS, sdeicwb:down returns value + increment. For the DF–ISE coordinate system, it returns value – increment.
+  - _Keywords:_ increment, UCS, sdeicwb, ISE, coordinate, system
+- **Description** <a id="description"></a>
+  - These Scheme extensions support layout-driven mesh generation and structural operations, with a syntax independent of the coordinate system of the currently active ICWB simulation domain.
+  - _Keywords:_ points, coordinate, system, These, Scheme, extensions, support, layout
+- **Examples** <a id="examples"></a>
+  - ```lisp (define SiTop (sdeicwb:get-region-top (find-material-id "Silicon")) (define epsilon 0.1) (define AboveSiInterface (sdeicwb:up SiTop epsilon)) (define BelowSiInterface (sdeicwb:down SiTop epsilon)) ```
+  - _Keywords:_ define, SiTop, sdeicwb, epsilon, region, material, Silicon, AboveSiInterface
+- **See Also** <a id="see-also"></a>
+  - sdeicwb:up on page 752
+  - _Keywords:_ sdeicwb
+- **sdeicwb:gds2mac** <a id="sdeicwb-gds2mac"></a>
+  - Converts a GDS layout file to a .mac file.
+  - _Keywords:_ Converts, GDS, layout
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdeicwb:gds2mac "gds.file" gdsfile "cell" cellname "layer.names" lnames "layer.numbers" lnumbers "sim3d" sim3ddomain "scale" scale "domain.name" dname "mac.file" macfile ["recenter" #t | #f] ["stretches" stretches] ["loadmacfile"...
+  - _Keywords:_ STRING, stretches, optional, gdsfile, cellname, lnames, lnumbers, sim3ddomain
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension converts a GDS layout file to a .mac file, which is then loaded automatically and is ready to be processed further by other sdeicwb commands. If the converted .mac file must not be loaded, you must specify "loadmacf...
+  - _Keywords:_ converted, layout, GDS, loaded, argument, sdeicwb, domain, coordinates
+- **Example 1: Layer Names and Layer Numbers Read From External \*.map File** <a id="example-1-layer-names-and-layer-numbers-read-from-external-m"></a>
+  - The usage of sdeicwb:gds2mac requires the specification of the layer names and the layer numbers from the .gds file. You can obtain this information using the sdeicwb:mapreader Scheme extension, which returns the layer names and layer nu...
+  - _Keywords:_ define, sdeicwb, content, LAYERNAMES, LAYERNUMBERS, MAPFILE, GDSFILE, CELLNAME
+- **See Also** <a id="see-also"></a>
+  - sdeicwb:mapreader on page 749
+  - _Keywords:_ sdeicwb, mapreader
+- **sdeicwb:generate-mask-by-layer-name** <a id="sdeicwb-generate-mask-by-layer-name"></a>
+  - Creates a mask based on given ICWB layer names.
+  - _Keywords:_ Creates, ICWB
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:generate-mask-by-layer-name maskname layernames [with-overlaps do-entity-check])
+  - _Keywords:_ STRING, maskname, layernames, overlaps, entity, Argument, BOOLEAN, optional
+- **Returns** <a id="returns"></a>
+  - BODYID (the ENTITY ID of the generated mask).
+  - _Keywords:_ ICWB, contain, BODYID, ENTITY, generated, Empty, defined, polygon
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a mask based on the given layer names referencing an ICWB macro file previously loaded using the Scheme extension (sdeicwb:load-file) and based on the ICWB domain previously selected with (sdeicwb:set-domain).
+  - _Keywords:_ entity, ICWB, overlaps, additional, Scheme, extension, previously, sdeicwb
+- **Limitations** <a id="limitations"></a>
+  - The ICWB macro file must have been previously loaded and the ICWB domain previously selected. The ICWB domain must be three dimensional.
+  - _Keywords:_ ICWB, previously, domain, loaded, selected, dimensional
+- **sdeicwb:get-back** <a id="sdeicwb-get-back"></a>
+  - Returns the back bounding-box coordinate of the current domains in Sentaurus Structure Editor coordinates with stretches already applied.
+  - _Keywords:_ bounding, coordinate, current, domains, Sentaurus, Structure, Editor, coordinates
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-back)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - When sdeicwb:set-domain has set the current domains, the coordinates of the domain bounding box can be obtained.
+  - _Keywords:_ sdeicwb, domain, bounding, current, domains, coordinates, obtained, Calling
+- **sdeicwb:get-dimension** <a id="sdeicwb-get-dimension"></a>
+  - Returns the dimension of the current domain.
+  - _Keywords:_ dimension, current, domain
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-dimension)
+  - _Keywords:_ sdeicwb, dimension
+- **Returns** <a id="returns"></a>
+  - INTEGER
+  - _Keywords:_ INTEGER
+- **Description** <a id="description"></a>
+  - The current domain defines a layout area for simulation. The dimension value as an integer is returned according to the domain type as follows:
+  - _Keywords:_ domain, current, defines, layout, simulation, dimension, integer, returned
+- **Limitations** <a id="limitations"></a>
+  - Sentaurus Structure Editor supports only 3D simulation domains (highlights).
+  - _Keywords:_ Sentaurus, Structure, Editor, supports, simulation, domains, highlights
+- **sdeicwb:get-domains** <a id="sdeicwb-get-domains"></a>
+  - Returns a list of current domain names.
+  - _Keywords:_ current, domain
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-domains)
+  - _Keywords:_ sdeicwb, domains
+- **Returns** <a id="returns"></a>
+  - STRING LIST
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - Current domains are set with sdeicwb:set-domain. The list of current domains is returned with sdeicwb:get-domains. If only one domain is the current domain, a list of length one is returned.
+  - _Keywords:_ domains, domain, sdeicwb, current, returned, Current, length
+- **sdeicwb:get-front** <a id="sdeicwb-get-front"></a>
+  - Returns the front bounding-box coordinate of the current domains in Sentaurus Structure Editor coordinates with stretches already applied.
+  - _Keywords:_ bounding, coordinate, current, domains, Sentaurus, Structure, Editor, coordinates
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-front)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - When sdeicwb:set-domain has set the current domains, the coordinates of the domain bounding box can be obtained.
+  - _Keywords:_ sdeicwb, domain, bounding, current, domains, coordinates, obtained, Calling
+- **sdeicwb:get-global-bot** <a id="sdeicwb-get-global-bot"></a>
+  - Returns the bottom coordinate of the global bounding box using a coordinate system–independent syntax.
+  - _Keywords:_ coordinate, bottom, global, bounding, system, independent, syntax
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-global-bot)
+  - _Keywords:_ sdeicwb, global
+- **Returns** <a id="returns"></a>
+  - For the UCS, sdeicwb:get-global-bot returns the maximum x-coordinate. For the DF–ISE coordinate system, it returns the minimum z-coordinate of the global bounding box.
+  - _Keywords:_ coordinate, global, UCS, sdeicwb, maximum, ISE, system, minimum
+- **Description** <a id="description"></a>
+  - This Scheme extension supports layout-driven mesh generation and structural operations, with a syntax independent of the coordinate system used.
+  - _Keywords:_ coordinate, Scheme, extension, supports, layout, driven, generation, structural
+- **Examples** <a id="examples"></a>
+  - (define GBot (sdeicwb:get-global-bot))
+  - _Keywords:_ define, GBot, sdeicwb, global
+- **See Also** <a id="see-also"></a>
+  - sdeicwb:get-global-top on page 735
+  - _Keywords:_ sdeicwb, global
+- **sdeicwb:get-global-top** <a id="sdeicwb-get-global-top"></a>
+  - Returns the top coordinate of the global bounding box using a coordinate system–independent syntax.
+  - _Keywords:_ coordinate, global, bounding, system, independent, syntax
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-global-top)
+  - _Keywords:_ sdeicwb, global
+- **Returns** <a id="returns"></a>
+  - For the UCS, sdeicwb:get-global-top returns the minimum x-coordinate. For the DF–ISE coordinate system, it returns the maximum z-coordinate of the global bounding box.
+  - _Keywords:_ coordinate, global, UCS, sdeicwb, minimum, ISE, system, maximum
+- **Description** <a id="description"></a>
+  - This Scheme extension supports layout-driven mesh generation and structural operations, with a syntax independent of the coordinate system used.
+  - _Keywords:_ coordinate, Scheme, extension, supports, layout, driven, generation, structural
+- **Examples** <a id="examples"></a>
+  - (define GTop (sdeicwb:get-global-top))
+  - _Keywords:_ define, GTop, sdeicwb, global
+- **See Also** <a id="see-also"></a>
+  - sdeicwb:get-global-bot on page 734
+  - _Keywords:_ sdeicwb, global
+- **sdeicwb:get-label** <a id="sdeicwb-get-label"></a>
+  - Returns a list containing information about the specified label.
+  - _Keywords:_ containing, information, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-label label-name)
+  - _Keywords:_ Argument, sdeicwb, STRING
+- **Returns** <a id="returns"></a>
+  - LIST
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list containing information (the layer name, the text label, and the label text coordinates) that belongs to the specified label name. The layer name and the text label are strings, and the label text coor...
+  - _Keywords:_ coordinates, Scheme, extension, containing, information, belongs, specified, strings
+- **sdeicwb:get-label-for-layer** <a id="sdeicwb-get-label-for-layer"></a>
+  - Returns a list containing the label information of the specified layer.
+  - _Keywords:_ containing, information, specified
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-label-for-layer layer-name)
+  - _Keywords:_ Argument, sdeicwb, STRING
+- **Returns** <a id="returns"></a>
+  - LIST
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list containing label information (the layer name, the text label, and the label text coordinates) that belongs to the specified layer name. The layer name and the text label are strings, and the label tex...
+  - _Keywords:_ coordinates, Scheme, extension, containing, information, belongs, specified, strings
+- **sdeicwb:get-labels** <a id="sdeicwb-get-labels"></a>
+  - Returns the label information list.
+  - _Keywords:_ information
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-labels)
+  - _Keywords:_ sdeicwb, labels
+- **Returns** <a id="returns"></a>
+  - LIST
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list, containing all the label information lists. Each returned list item contains a full label information list (the layer name, the text label, and the label text coordinates).
+  - _Keywords:_ information, Scheme, extension, containing, returned, contains, coordinates
+- **sdeicwb:get-layer-ids** <a id="sdeicwb-get-layer-ids"></a>
+  - Returns a list of layer IDs.
+  - _Keywords:_ IDs
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-layer-ids)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - STRING LIST
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list of layer IDs from the ICWB mask file previously loaded by sdeicwb:load-file.
+  - _Keywords:_ Scheme, extension, IDs, ICWB, previously, loaded, sdeicwb
+- **sdeicwb:get-layer-names** <a id="sdeicwb-get-layer-names"></a>
+  - Returns a list of layer names.
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-layer-names)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - STRING LIST
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a list of layer names from the IC WorkBench mask file previously loaded by sdeicwb:load-file.
+  - _Keywords:_ Scheme, extension, WorkBench, previously, loaded, sdeicwb
+- **sdeicwb:get-layer-polygon-midpoints** <a id="sdeicwb-get-layer-polygon-midpoints"></a>
+  - Computes the midpoints of the segments or polygons in a layer.
+  - _Keywords:_ Computes, midpoints, segments, polygons
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-layer-polygon-midpoints layer-name height)
+  - _Keywords:_ height, Argument, sdeicwb, polygon, midpoints, STRING, REAL
+- **Returns** <a id="returns"></a>
+  - A list of positions given by the midpoints of the polygon bounding box and the height as the third coordinate.
+  - _Keywords:_ positions, midpoints, polygon, bounding, height, coordinate
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to locate objects created by layout-driven operations. For example, for a layout-driven contact assignment, you might want to select a backend metal region using an (auxiliary) layer and turn all its interfa...
+  - _Keywords:_ layout, driven, contact, region, Scheme, extension, locate, objects
+- **Examples** <a id="examples"></a>
+  - ```lisp (sdegeo:set-current-contact-set "drain") (define DRAINMETAL (find-body-id (car (sdeicwb:get-layer-polygon-midpoints "ndrain" (sdeicwb:up SiTop epsilon)))) (sdegeo:set-contact-boundary-faces DRAINMETAL) (sdegeo:delete-region DRAIN...
+  - _Keywords:_ sdegeo, DRAINMETAL, contact, sdeicwb, current, define, polygon, midpoints
+- **sdeicwb:get-left** <a id="sdeicwb-get-left"></a>
+  - Returns the left bounding-box coordinate of the current domains in Sentaurus Structure Editor coordinates with stretches already applied.
+  - _Keywords:_ bounding, coordinate, current, domains, Sentaurus, Structure, Editor, coordinates
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-left)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - When sdeicwb:set-domain has set the current domains, the coordinates of the domain bounding box can be obtained.
+  - _Keywords:_ sdeicwb, domain, bounding, current, domains, coordinates, obtained, Calling
+- **sdeicwb:get-polygon-bounding-boxes-by-layer-name** <a id="sdeicwb-get-polygon-bounding-boxes-by-layer-name"></a>
+  - Returns the bounding boxes of polygons on given layer and the current domain.
+  - _Keywords:_ bounding, polygons, current, domain
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-polygon-bounding-boxes-by-layer-name layer-name)
+  - _Keywords:_ Argument, sdeicwb, polygon, bounding, STRING
+- **Returns** <a id="returns"></a>
+  - POSITION LIST
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the bounding boxes for polygons on a given layer and the given current domain as segments representing the diagonal of the bounding box for that polygon. The returned values are represented as:
+  - _Keywords:_ mathsf, mathrm, bounding, polygon, Scheme, extension, polygons, current
+- **Limitations** <a id="limitations"></a>
+  - The current domain must first be set using the Scheme extension sdeicwb:set-domain.
+  - _Keywords:_ domain, current, Scheme, extension, sdeicwb
+- **sdeicwb:get-polygon-by-name** <a id="sdeicwb-get-polygon-by-name"></a>
+  - Returns polygon coordinates for a given polygon name.
+  - _Keywords:_ polygon, coordinates
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-polygon-by-name polygon-name)
+  - _Keywords:_ polygon, Argument, sdeicwb, STRING
+- **Returns** <a id="returns"></a>
+  - POSITION LIST
+  - _Keywords:_ POSITION
+- **Description** <a id="description"></a>
+  - This Scheme extension returns the polygon coordinates for a given polygon name. Polygons are named as they are read in using sdeicwb:load-file.
+  - _Keywords:_ polygon, Scheme, extension, sdeicwb, coordinates, Polygons, available
+- **sdeicwb:get-polygon-names-by-layer-name** <a id="sdeicwb-get-polygon-names-by-layer-name"></a>
+  - Returns the names of polygons on the given layer.
+  - _Keywords:_ polygons
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-polygon-names-by-layer-name layer-name)
+  - _Keywords:_ Argument, sdeicwb, polygon, STRING
+- **Returns** <a id="returns"></a>
+  - STRING LIST
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - The given layer-name returns a list of names of polygons on that layer.
+  - _Keywords:_ polygons
+- **sdeicwb:get-region-bot** <a id="sdeicwb-get-region-bot"></a>
+  - Returns the bottom coordinate of a given region using a coordinate system–independent syntax.
+  - _Keywords:_ coordinate, bottom, region, system, independent, syntax
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-region-bot body)
+  - _Keywords:_ Argument, sdeicwb, region, BODY
+- **Returns** <a id="returns"></a>
+  - For the UCS, sdeicwb:get-region-bot returns the maximum x-coordinate. For the DF–ISE coordinate system, it returns the minimum z-coordinate of the region bounding box.
+  - _Keywords:_ coordinate, region, UCS, sdeicwb, maximum, ISE, system, minimum
+- **Description** <a id="description"></a>
+  - This Scheme extension supports layout-driven mesh generation and structural operations, with a syntax independent of the coordinate system used.
+  - _Keywords:_ coordinate, Scheme, extension, supports, layout, driven, generation, structural
+- **Examples** <a id="examples"></a>
+  - ```lisp (define SubstrateID (find-material-id "Silicon")) (define SiBottom (sdeicwb:get-region-bot SubstrateID)) (define PolyID (find-material-id "PolySilicon")) (define PoBottom (sdeicwb:get-region-bot PolyID)) ```
+  - _Keywords:_ define, SubstrateID, material, sdeicwb, region, PolyID, Silicon, SiBottom
+- **See Also** <a id="see-also"></a>
+  - sdeicwb:get-region-top on page 744
+  - _Keywords:_ sdeicwb, region
+- **sdeicwb:get-region-top** <a id="sdeicwb-get-region-top"></a>
+  - Returns the top coordinate of a given region using a coordinate system–independent syntax.
+  - _Keywords:_ coordinate, region, system, independent, syntax
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-region-top body)
+  - _Keywords:_ Argument, sdeicwb, region, BODY
+- **Returns** <a id="returns"></a>
+  - For the UCS, sdeicwb:get-region-top returns the minimum x-coordinate. For the DF–ISE coordinate system, it returns the maximum z-coordinate of the region bounding box.
+  - _Keywords:_ coordinate, region, UCS, sdeicwb, minimum, ISE, system, maximum
+- **Description** <a id="description"></a>
+  - This Scheme extension supports layout-driven mesh generation and structural operations, with a syntax independent of the coordinate system used.
+  - _Keywords:_ coordinate, Scheme, extension, supports, layout, driven, generation, structural
+- **Examples** <a id="examples"></a>
+  - ```lisp (define SubstrateID (find-material-id "Silicon")) (define SiTop (sdeicwb:get-region-top SubstrateID)) (define PolyID (find-material-id "PolySilicon")) (define PoTop (sdeicwb:get-region-top PolyID)) ```
+  - _Keywords:_ define, SubstrateID, material, sdeicwb, region, PolyID, Silicon, SiTop
+- **See Also** <a id="see-also"></a>
+  - sdeicwb:get-region-bot on page 743
+  - _Keywords:_ sdeicwb, region
+- **sdeicwb:get-right** <a id="sdeicwb-get-right"></a>
+  - Returns the right bounding-box coordinate of the current domains in Sentaurus Structure Editor coordinates with stretches already applied.
+  - _Keywords:_ bounding, coordinate, current, domains, Sentaurus, Structure, Editor, coordinates
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-right)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - When sdeicwb:set-domain has set the current domains, the coordinates of the domain bounding box can be obtained.
+  - _Keywords:_ sdeicwb, domain, bounding, current, domains, coordinates, obtained, Calling
+- **sdeicwb:get-xmax** <a id="sdeicwb-get-xmax"></a>
+  - Returns the ‘xmax’ bounding-box coordinate of the current domains in ICWB coordinates with stretches already applied.
+  - _Keywords:_ bounding, coordinate, current, domains, ICWB, coordinates, stretches, already
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-xmax)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - When sdeicwb:set-domain has set the current domains, the ‘xmax’ coordinate of the domain bounding box is returned in ICWB coordinates by calling sdeicwb:get-xmax. The bounding box includes all stretches applied by sdeicwb:stretch.
+  - _Keywords:_ sdeicwb, domain, bounding, current, domains, coordinate, returned, ICWB
+- **sdeicwb:get-xmin** <a id="sdeicwb-get-xmin"></a>
+  - Returns the ‘xmin’ bounding-box coordinate of the current domains in ICWB coordinates with stretches already applied.
+  - _Keywords:_ bounding, coordinate, current, domains, ICWB, coordinates, stretches, already
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-xmin)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - When sdeicwb:set-domain has set the current domains, the ‘xmin’ coordinate of the domain bounding box is returned in ICWB coordinates by calling sdeicwb:get-xmin. The bounding box includes all stretches applied by sdeicwb:stretch.
+  - _Keywords:_ sdeicwb, domain, bounding, current, domains, coordinate, returned, ICWB
+- **sdeicwb:get-ymax** <a id="sdeicwb-get-ymax"></a>
+  - Returns the ‘ymax’ bounding-box coordinate of the current domains in ICWB coordinates with stretches already applied.
+  - _Keywords:_ bounding, coordinate, current, domains, ICWB, coordinates, stretches, already
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-ymax)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - When sdeicwb:set-domain has set the current domains, the ‘ymax’ coordinate of the domain bounding box is returned in ICWB coordinates by calling sdeicwb:get-ymax. The bounding box includes all stretches applied by sdeicwb:stretch.
+  - _Keywords:_ sdeicwb, domain, bounding, current, domains, coordinate, returned, ICWB
+- **sdeicwb:get-ymin** <a id="sdeicwb-get-ymin"></a>
+  - Returns the ‘ymin’ bounding-box coordinate of the current domains in ICWB coordinates with stretches already applied.
+  - _Keywords:_ bounding, coordinate, current, domains, ICWB, coordinates, stretches, already
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:get-ymin)
+  - _Keywords:_ sdeicwb
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - When sdeicwb:set-domain has set the current domains, the ‘ymin’ coordinate of the domain bounding box is returned in ICWB coordinates by calling sdeicwb:get-ymin. The bounding box includes all stretches applied by sdeicwb:stretch.
+  - _Keywords:_ sdeicwb, domain, bounding, current, domains, coordinate, returned, ICWB
+- **sdeicwb:load-file** <a id="sdeicwb-load-file"></a>
+  - Loads an ICWB macro file.
+  - _Keywords:_ Loads, ICWB
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:load-file filename [(scale | center?) | (scale center?)])
+  - _Keywords:_ center, filename, Argument, optional, sdeicwb, STRING, REAL, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - Returns #t if successful. Otherwise, #f if the file cannot be read.
+  - _Keywords:_ successful, Otherwise, cannot
+- **Description** <a id="description"></a>
+  - The ICWB macro file must be read in using sdeicwb:load-file as a prerequisite to other sdeicwb Scheme extensions that act on the domains and masks defined in that file.
+  - _Keywords:_ ICWB, sdeicwb, coordinates, optional, argument, center, vertex, coordinate
+- **Limitations** <a id="limitations"></a>
+  - The ICWB macro file must be readable.
+  - _Keywords:_ sdeicwb, ICWB, readable, already, loaded, reloaded, loadfile, gds2mac
+- **sdeicwb:mapreader** <a id="sdeicwb-mapreader"></a>
+  - Parses a .map file, and returns the layer names and the layer numbers.
+  - _Keywords:_ Parses
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:mapreader fname)
+  - _Keywords:_ Argument, sdeicwb, mapreader, STRING
+- **Returns** <a id="returns"></a>
+  - List of two STRING lists.
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension parses a .map file. It returns a list with two lists. The first returned list is the layer name list, and the second is the layer number list. After sdeicwb:mapreader is called, the sdeicwb:gds2mac command can be ca...
+  - _Keywords:_ sdeicwb, called, gds2mac, layernames, Scheme, extension, parses, returned
+- **Map File Format** <a id="map-file-format"></a>
+  - The .map file has a two-column format (<layername> <space or tab> <layernumber>):
+  - _Keywords:_ format, column, exported, layername, layernumber, layername0, layernumber0, layername1
+- **Examples** <a id="examples"></a>
+  - ```lisp (define map-content (sdeicwb:mapreader "layer.map")) (define layernames (list-ref map-content 0)) (define layernumbers (list-ref map-content 1)) ```
+  - _Keywords:_ define, content, sdeicwb, layernames, layernumbers, mapreader, gds2mac, called
+- **See Also** <a id="see-also"></a>
+  - sdeicwb:gds2mac on page 727
+  - _Keywords:_ sdeicwb, gds2mac
+- **sdeicwb:set-domain** <a id="sdeicwb-set-domain"></a>
+  - Sets the current domain.
+  - _Keywords:_ current, domain
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:set-domain domain)
+  - _Keywords:_ domain, Argument, STRING, sdeicwb
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the current domain to the given domain name or list of domain names.
+  - _Keywords:_ domain, current, Scheme, extension, Setting, prerequisite, sdeicwb, extensions
+- **sdeicwb:stretch** <a id="sdeicwb-stretch"></a>
+  - Stretches the current domain using the given stretch by the given amount.
+  - _Keywords:_ Stretches, current, domain, stretch, amount
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:stretch stretch-name stretch-amount)
+  - _Keywords:_ stretch, amount, Argument, sdeicwb, STRING, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension applies the given stretch by the given amount to the current domains. The order of applied stretches is important because the location of other stretches can change given the application of one stretch.
+  - _Keywords:_ stretch, stretches, Scheme, extension, applies, amount, current, domains
+- **sdeicwb:up** <a id="sdeicwb-up"></a>
+  - Increases or decreases the vertical positions depending on the coordinate system convention.
+  - _Keywords:_ Increases, decreases, vertical, positions, depending, coordinate, system, convention
+- **Syntax** <a id="syntax"></a>
+  - (sdeicwb:up value increment)
+  - _Keywords:_ increment, Argument, REAL, sdeicwb
+- **Returns** <a id="returns"></a>
+  - For the UCS, sdeicwb:up returns value – increment. For the DF–ISE coordinate system, it returns value + increment.
+  - _Keywords:_ increment, UCS, sdeicwb, ISE, coordinate, system
+- **Description** <a id="description"></a>
+  - These Scheme extensions support layout-driven mesh generation and structural operations, with a syntax independent of the coordinate system of the currently active ICWB simulation domain.
+  - _Keywords:_ points, coordinate, system, These, Scheme, extensions, support, layout
+- **Examples** <a id="examples"></a>
+  - (define SiTop (sdeicwb:get-region-top (find-material-id "Silicon")))
+  - _Keywords:_ define, SiTop, sdeicwb, epsilon, region, material, Silicon, AboveSiInterface
+- **See Also** <a id="see-also"></a>
+  - sdeicwb:down on page 726
+  - _Keywords:_ sdeicwb
+- **sdeio:read-dfise-mask** <a id="sdeio-read-dfise-mask"></a>
+  - Loads a mask layout file (.lyt) into the modeler.
+  - _Keywords:_ Loads, layout, modeler
+- **Syntax** <a id="syntax"></a>
+  - (sdeio:read-dfise-mask filename)
+  - _Keywords:_ filename, Argument, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN (#t for success, #f for failure)
+  - _Keywords:_ BOOLEAN, success, failure
+- **Description** <a id="description"></a>
+  - This Scheme extension loads the specified layout file and initializes the data structure that defines the mask layouts inside Procem.
+  - _Keywords:_ extension, specified, layout, layouts, Scheme, initializes, structure, defines
+- **sdeio:read-tdr** <a id="sdeio-read-tdr"></a>
+  - Extracts the boundary and loads a TDR boundary file into Sentaurus Structure Editor.
+  - _Keywords:_ boundary, Extracts, TDR, Sentaurus, Structure, Editor
+- **Syntax** <a id="syntax"></a>
+  - (sdeio:read-tdr file-name ["skip-doping"])
+  - _Keywords:_ doping, Argument, STRING, optional
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension performs the following operations:
+  - _Keywords:_ TDR, boundary, unless, Sentaurus, doping, Scheme, extension, performs
+- **sdeio:read-tdr-bnd** <a id="sdeio-read-tdr-bnd"></a>
+  - Loads a TDR boundary file into Sentaurus Structure Editor.
+  - _Keywords:_ Loads, TDR, boundary, Sentaurus, Structure, Editor
+- **Syntax** <a id="syntax"></a>
+  - (sdeio:read-tdr-bnd file-name)
+  - _Keywords:_ Argument, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension loads a TDR boundary file into Sentaurus Structure Editor.
+  - _Keywords:_ converted, ACIS, TDR, region, models, attributes, attached, corresponding
+- **sdeio:save-1d-tdr-bnd** <a id="sdeio-save-1d-tdr-bnd"></a>
+  - Creates a 1D TDR boundary output file extracted from a simple 2D geometry along the up coordinate axis defined by (sde:set-process-up-direction).
+  - _Keywords:_ Creates, TDR, boundary, extracted, simple, geometry, coordinate, defined
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdeio:save-1d-tdr-bnd body-list file-name ["aspect ratio" aspect-ratio] ["aut-tolerance-control" aut-tolerance-control] ["faceter" faceter] ["max edge length" max-edge-length] ["normal tolerance" normal-tolerance] ["surface t...
+  - _Keywords:_ tolerance, optional, REAL, aspect, control, faceter, length, normal
+- **Returns** <a id="returns"></a>
+  - Returns #t if the boundary is saved successfully; otherwise, returns #f.
+  - _Keywords:_ boundary, successfully, otherwise
+- **Description** <a id="description"></a>
+  - The 1D geometry is extracted from the entities listed in body-list in the up direction along the corresponding axis (at x=0 in the vertical direction, or y=0 in the horizontal direction). The 2D geometry should be a simple 2D representat...
+  - _Keywords:_ sdegeo, direction, position, contact, geometry, create, rectangle, substrate
+- **See Also** <a id="see-also"></a>
+  - sde:set-process-up-direction on page 481
+  - _Keywords:_ process, direction
+- **sdeio:save-tdr-bnd** <a id="sdeio-save-tdr-bnd"></a>
+  - Generates an output TDR boundary file.
+  - _Keywords:_ Generates, TDR, boundary
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdeio:save-tdr-bnd body-list file-name ["aspect ratio" aspect-ratio] ["aut tolerance control" aut-tolerance-control] ["faceter" faceter] ["grid mode" grid-mode] ["max edge length" max-edge-length] ["normal tolerance" normal-toler...
+  - _Keywords:_ tolerance, optional, control, REAL, BOOLEAN, aspect, faceter, length
+- **Returns** <a id="returns"></a>
+  - (BOOLEAN, faceter)
+  - _Keywords:_ BOOLEAN, faceter
+- **Description** <a id="description"></a>
+  - This Scheme extension generates a TDR boundary file. Depending on model dimensionality, a 2D or a 3D TDR boundary file is generated. Model dimensionality is determined by the solids in the body-list argument. Mixed dimensionality is not ...
+  - _Keywords:_ tolerance, surface, boundary, faceter, TDR, triangulation, control, refinement
+- **sdepe:add-substrate** <a id="sdepe-add-substrate"></a>
+  - Adds an initial substrate layer to the device.
+  - _Keywords:_ Adds, initial, substrate, device
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:add-substrate "material" material "thickness" thickness ["base" base] ["region" region-name])
+  - _Keywords:_ material, thickness, region, Argument, REAL, optional, substrate, DATEXMAT
+- **Returns** <a id="returns"></a>
+  - ENTITY (BODY)
+  - _Keywords:_ ENTITY, BODY
+- **Description** <a id="description"></a>
+  - This Scheme extension generates the first substrate layer for a device. The domain boundary must be set before this function is called. The keyword "material" identifies the DATEX material of the generated body. The keyword "base" can be...
+  - _Keywords:_ substrate, keyword, material, generated, bottom, placed, region, Scheme
+- **See Also** <a id="see-also"></a>
+  - sdepe:pattern on page 779
+  - _Keywords:_ pattern
+- **sdepe:clean** <a id="sdepe-clean"></a>
+  - Cleans the model before a process emulation operation.
+  - _Keywords:_ Cleans, before, process, emulation, operation
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:clean)
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension regularizes all the bodies and fixes the imprints. It can be used to simplify or clean the Procem model, especially if the input model is generated by other tools and a tessellated boundary is imported to Sentaurus ...
+  - _Keywords:_ Scheme, extension, regularizes, bodies, imprints, simplify, Procem, especially
+- **sdepe:define-pe-domain** <a id="sdepe-define-pe-domain"></a>
+  - Defines a base domain for the process emulation.
+  - _Keywords:_ Defines, domain, process, emulation
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:define-pe-domain {{X0 Y0 X1 Y1} | {polygon}})
+  - _Keywords:_ REAL, polygon, Argument, define, domain
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension creates the simulation domain for subsequent Procem operations. The argument list contains either four real numbers or a list of real pairs.
+  - _Keywords:_ domain, simulation, Procem, domainboundary, defined, boundary, operations, Scheme
+- **Examples** <a id="examples"></a>
+  - ```lisp ; to define a polygonal simulation domain use: (sdepe:define-pe-domain (list 0 0 10 0 15 2.5 10 5 0 5)) ; or equivalently (sdepe:define-pe-domain 0 0 10 0 15 2.5 10 5 0 5) ; to define a rectangular simulation domain use: (sdepe:d...
+  - _Keywords:_ define, domain, simulation, equivalently, polygonal, rectangular
+- **sdepe:depo** <a id="sdepe-depo"></a>
+  - Performs a deposition step.
+  - _Keywords:_ Performs, deposition
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdepe:depo "material" material "thickness" thickness ["region" region-name] ["type" depo-type] ["algorithm" depo-alg] ( ["radius" radius] ["vexity" vexity-type] [ "advanced-rounding" advrounding] | ["rounding" rounding] ) ( [...
+  - _Keywords:_ optional, material, thickness, selective, REAL, vexity, BOOLEAN, rounding
+- **Returns** <a id="returns"></a>
+  - ENTITY of the generated deposit layer.
+  - _Keywords:_ ENTITY, generated, deposit
+- **Description** <a id="description"></a>
+  - This Scheme extension performs a deposition step. For details, see Deposition on page 160. For details regarding the command arguments, see Table 27 on page 161.
+  - _Keywords:_ arguments, Scheme, extension, performs, deposition, details, algorithm, cannot
+- **sdepe:doping-constant-placement** <a id="sdepe-doping-constant-placement"></a>
+  - Defines and applies a constant doping.
+  - _Keywords:_ Defines, applies, constant, doping
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:doping-constant-placement name species concentration region-name)
+  - _Keywords:_ STRING, species, concentration, region, Argument, doping, constant, placement
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension defines and applies a constant doping to a given region. In the case of constant doping, a separate implant command is not necessary, as is the case with Gaussian doping profiles.
+  - _Keywords:_ doping, constant, Scheme, extension, defines, applies, region, separate
+- **sdepe:etch-material** <a id="sdepe-etch-material"></a>
+  - Performs an etching step operation.
+  - _Keywords:_ Performs, etching, operation
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdepe:etch-material "material" material "depth" depth + all deposition arguments listed for sdepe:depo ["overetch" overetch] ["ebl" ebl] [PT keywords and values]) ```
+  - _Keywords:_ material, overetch, optional, deposition, arguments, listed, keywords, Argument
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - The etching step is very similar to the deposition step, except that the deposition is performed on a complementary body. The deposition is performed on the complementary body and, as a last step, this deposited layer is removed from the...
+  - _Keywords:_ specified, material, deposition, attribute, offset, etching, performed, complementary
+- **sdepe:extend-masks** <a id="sdepe-extend-masks"></a>
+  - Extends all masks.
+  - _Keywords:_ Extends
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:extend-masks pminx pminy pmaxx pmaxy extension-distance)
+  - _Keywords:_ REAL, extension, distance, Argument, extend
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension extends all masks about the boundary, which is specified by pminx, pminy, pmaxx, and pmaxy. The extension distance is specified by extension-distance. All existing masks are affected.
+  - _Keywords:_ extension, specified, distance, Scheme, extends, boundary, existing, affected
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (sdepe:generate-mask "M1" (list (list 0 0 10 5))) (sdepe:extend-masks 0 0 10 5 2)
+  - _Keywords:_ extend, generate
+- **sdepe:fill-device** <a id="sdepe-fill-device"></a>
+  - Fills the device with the specified material up to the specified height.
+  - _Keywords:_ specified, Fills, device, material, height
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:fill-device "material" material ["height" height] ["region" region-name])
+  - _Keywords:_ material, height, region, Argument, optional, device, DATEXMAT, REAL
+- **Returns** <a id="returns"></a>
+  - ENTITY of the generated fill region.
+  - _Keywords:_ ENTITY, generated, region
+- **Description** <a id="description"></a>
+  - The material is identified with the "material" keyword and a subsequent DATEX material. The height is specified by using the "height" keyword and a real number. If "height" is not given, the function fills up the device to the top positi...
+  - _Keywords:_ material, height, region, keyword, specified, identified, subsequent, DATEX
+- **sdepe:generate-domainboundary** <a id="sdepe-generate-domainboundary"></a>
+  - Extracts the simulation boundary from an existing model.
+  - _Keywords:_ Extracts, simulation, boundary, existing
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:generate-domainboundary)
+  - _Keywords:_ generate, domainboundary
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension extracts the simulation boundary from an existing model. When Procem is started from an empty model, one of the first commands should be (sdepe:define-pe-domain) to define the domain boundary. All subsequent functio...
+  - _Keywords:_ domain, Scheme, boundary, define, domainboundary, extension, extracts, simulation
+- **Examples** <a id="examples"></a>
+  - ```lisp (sdegeo:set-default-boolean "AB") (sdegeo:create-cylinder (position 0 0 0) (position 0 0 1) 5 "Silicon" "region_1") (sdegeo:create-cuboid (position 0 -5 0) (position 15 5 1) "Silicon" "region_2") (sdepe:generate-domainboundary) (...
+  - _Keywords:_ position, sdegeo, create, Silicon, boolean, cylinder, region_1, cuboid
+- **sdepe:generate-empty-mask** <a id="sdepe-generate-empty-mask"></a>
+  - Creates a new empty mask.
+  - _Keywords:_ Creates
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:generate-empty-mask maskname)
+  - _Keywords:_ maskname, Argument, generate, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension creates a new empty mask. Empty masks behave the same way in Procem operations as ‘regular’ masks, except no geometry is attached to the empty masks. The name of the empty mask is registered, and query functions can...
+  - _Keywords:_ regular, polarity, behaves, simulation, domain, Scheme, extension, creates
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 10 10 4) "Silicon" "base") (sdepe:generate-empty-mask "M1") (sdepe:pattern "mask" "M1" "thickness" 1 "material" "Resist") (sdepe:pattern "mask" "M1" "thickness" 1 "m...
+  - _Keywords:_ position, pattern, thickness, material, Resist, clojure, sdegeo, create
+- **sdepe:generate-mask** <a id="sdepe-generate-mask"></a>
+  - Creates a mask for further process operations.
+  - _Keywords:_ Creates, further, process, operations
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:generate-mask mask-name polygon-list)
+  - _Keywords:_ polygon, Argument, generate, STRING, POLYGON
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to define masks in Procem. The defined masks can be used in further patterning operations. (The used masks are not deleted.) Each mask is defined as a polygon list. When the polygon list is converted to a ma...
+  - _Keywords:_ polygon, generate, vertex, defined, converted, created, DEMO, MASK
+- **sdepe:icon\_layer** <a id="sdepe-icon-layer"></a>
+  - Creates interconnect structures.
+  - _Keywords:_ Creates, interconnect, structures
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdepe:icon_layer {"mask" mname} {"polarity" mpolarity} {"thickness" lth} {"taper-angle" tang} {"ic-material" icmat} {"env-material" envmat} {"ic-region" icr} {"env-region" envr} {"base-coord" bc} {"taper-position" tpos}) ```
+  - _Keywords:_ region, STRING, material, REAL, polarity, mpolarity, thickness, envmat
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension can be used like other sdepe Scheme extensions. The arguments must be added as keyword–value pairs. The "mask" and "thickness" arguments must be specified; all other variables have default values, which are listed i...
+  - _Keywords:_ Scheme, arguments, extension, extensions, keyword, thickness, specified, variables
+- **A: Commands sdepe:icon\_layer** <a id="a-commands-sdepe-icon-layer"></a>
+  - If the region names are not given, different layers will have the same region names ("ic-region" and "env-region"). Before the generation of boundary output, these regions can be united or renamed to have unique region names.
+  - _Keywords:_ region, position, bottom, tapered, interconnect, different, layers, Before
+- **Examples** <a id="examples"></a>
+  - Example: Generating an Interconnect Structure on page 177
+  - _Keywords:_ Generating, Interconnect, Structure
+- **sdepe:implant** <a id="sdepe-implant"></a>
+  - Creates a doping distribution using analytic functions to emulate an implantation operation that can include diffusion.
+  - _Keywords:_ Creates, doping, distribution, analytic, emulate, implantation, operation, include
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdepe:implant doping-name ["flat" ["abs-height" abs-height | "delta-height" delta-height] ["pmat" pmatlist] ["direction" direction]) ```
+  - _Keywords:_ height, optional, direction, doping, pmatlist, Argument, STRING, REAL
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension applies the doping profile doping-name to the top surface of a device. Areas of ‘resist’ and device features covered by resist are protected from doping implantation. The doping profile doping-name must be previousl...
+  - _Keywords:_ doping, profile, surface, define, resist, device, exposed, Scheme
+- **A: Commands** <a id="a-commands"></a>
+  - sdepe:implant
+  - _Keywords:_ implant, height, keyword, coordinate, optional, DATEX, material, exposed
+- **sdepe:pattern** <a id="sdepe-pattern"></a>
+  - Performs a pattern step.
+  - _Keywords:_ Performs, pattern
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:pattern "mask" mask-name "polarity" polarity ["type" depo-type] "material" material ["algorithm" depo-alg] "thickness" thickness ["steps" nsteps] ["region" region] [PT keywords and values])
+  - _Keywords:_ optional, region, polarity, material, thickness, nsteps, keywords, Argument
+- **Returns** <a id="returns"></a>
+  - ENTITY of the generated pattern layer.
+  - _Keywords:_ ENTITY, generated, pattern
+- **Description** <a id="description"></a>
+  - This Scheme extension generates a patterned layer. The "mask" keyword identifies the mask to be used for the pattern operation. (The mask must be already defined.) The mask polarity can be defined using the "polarity" keyword.
+  - _Keywords:_ keyword, pattern, operation, defined, polarity, Scheme, extension, generates
+- **sdepe:photo** <a id="sdepe-photo"></a>
+  - Performs a photo (flat pattern) step.
+  - _Keywords:_ Performs, pattern
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdepe:photo "mask" mask-name "polarity" polarity ["type" depo-type] "material" material { "thickness" thickness | "height" height } ["steps" nsteps] ["region" region]) ```
+  - _Keywords:_ region, polarity, material, thickness, height, optional, nsteps, Argument
+- **Returns** <a id="returns"></a>
+  - ENTITY of the generated pattern layer.
+  - _Keywords:_ ENTITY, generated, pattern
+- **Description** <a id="description"></a>
+  - This Scheme extension generates a photo layer. The "mask" keyword identifies the mask to be used for the operation. (The mask must be already defined.) The mask polarity can be defined using the "polarity" keyword.
+  - _Keywords:_ operation, keyword, defined, polarity, pattern, algorithms, Scheme, extension
+- **sdepe:polish-device** <a id="sdepe-polish-device"></a>
+  - Removes the top part of the device.
+  - _Keywords:_ Removes, device
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdepe:polish-device { ["thickness" thickness] | ["height" height] } ["material" material]) ```
+  - _Keywords:_ thickness, height, material, optional, Argument, REAL, clojure, polish
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - Either the keyword "height" must be specified, in which case, all material above the specified height is removed or "thickness" must be specified, in which case, the distance is measured from the top device position, and all materials fr...
+  - _Keywords:_ specified, material, keyword, height, removed, Either, thickness, distance
+- **sdepe:remove** <a id="sdepe-remove"></a>
+  - Removes the specified region or material.
+  - _Keywords:_ Removes, specified, region, material
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:remove { ["region" region-name] | ["material" material] })
+  - _Keywords:_ region, material, Argument, optional, remove, STRING, DATEXMAT
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension removes either the specified material (in which case, the keyword "material" is used) or the specified region (in the case, the keyword "region" is used).
+  - _Keywords:_ specified, material, keyword, region, Scheme, extension, removes, either
+- **sdepe:trim-masks** <a id="sdepe-trim-masks"></a>
+  - Trims masks so that they do not extend outside the domain boundary.
+  - _Keywords:_ Trims, extend, outside, domain, boundary
+- **Syntax** <a id="syntax"></a>
+  - (sdepe:trim-masks domainboundary)
+  - _Keywords:_ domainboundary, Argument, WIRE, BODY
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension trims masks so that they do not extend outside the domain boundary. When sdepe:define-pe-domain is used to define the simulation domain, the global variable domainboundary is initialized. It is set to the wire body ...
+  - _Keywords:_ domain, boundary, domainboundary, define, variable, Scheme, extension, extend
+- **sdesnmesh:axisaligned** <a id="sdesnmesh-axisaligned"></a>
+  - Sets the axis-aligned parameters.
+  - _Keywords:_ aligned
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdesnmesh:axisaligned ["allowRegionMismatch" allowRegionMismatch] ["binaryTreeSplitBox" binaryTreeSplitBox] ["binaryTreeSplitFactorX" binaryTreeSplitFactorX] ["binaryTreeSplitFactorY" binaryTreeSplitFactorY] ["binaryTreeSplit...
+  - _Keywords:_ REAL, optional, BOOLEAN, allowRegionMismatch, binaryTreeSplitBox, binaryTreeSplitFactorX, binaryTreeSplitFactorY, binaryTreeSplitFactorZ
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the global variables used inside the AxisAligned section of the mesh command file.
+  - _Keywords:_ structures, binaryTreeSplitBox, argument, requires, latticeCellSize, latticeDimensions, require, Scheme
+- **See Also** <a id="see-also"></a>
+  - Sentaurus Mesh AxisAligned Section on page 211
+  - _Keywords:_ Sentaurus, Mesh, AxisAligned
+- **sdesnmesh:delaunizer** <a id="sdesnmesh-delaunizer"></a>
+  - Sets the parameters for the Delaunizer section of the mesh command file.
+  - _Keywords:_ Delaunizer
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdesnmesh:delaunizer "coplanarityAngle" coplanarityAngle "coplanarityDistance" coplanarityDistance "delaunayTolerance" delaunayTolerance "edgeProximity" edgeProximity "faceProximity" faceProximity "maxAngle" maxAngle "maxConn...
+  - _Keywords:_ REAL, coplanarityAngle, coplanarityDistance, delaunayTolerance, edgeProximity, faceProximity, maxAngle, maxConnectivity
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the global variables used inside the Delaunizer section of the mesh command file. These are the parameters for the delaunizer module.
+  - _Keywords:_ Scheme, extension, global, variables, inside, Delaunizer, These, delaunizer
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Delaunizer Section on page 40
+  - _Keywords:_ Sentaurus, Mesh, Guide, Delaunizer
+- **sdesnmesh:delaunizer-tolerance** <a id="sdesnmesh-delaunizer-tolerance"></a>
+  - Sets the delaunizer tolerance.
+  - _Keywords:_ delaunizer, tolerance
+- **Syntax** <a id="syntax"></a>
+  - (sdesnmesh:delaunizer-tolerance tolerance location location-type window)
+  - _Keywords:_ location, tolerance, window, Argument, sdesnmesh, delaunizer, REAL, boundary
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the tolerance parameters for the delaunizer in the Sentaurus Mesh command file.
+  - _Keywords:_ Scheme, extension, tolerance, delaunizer, Sentaurus, Mesh
+- **sdesnmesh:interpolate** <a id="sdesnmesh-interpolate"></a>
+  - Sets the parameters for the Interpolate section of the mesh command file.
+  - _Keywords:_ Interpolate
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdesnmesh:interpolate ["interpolateElements" interpolateElements] ["keepTotalConcentration" keepTotalConcentration] ["lateralDiffusion" lateralDiffusion]) ```
+  - _Keywords:_ interpolateElements, keepTotalConcentration, lateralDiffusion, BOOLEAN, optional, Argument, clojure, sdesnmesh
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the parameters used in the Interpolate section of the mesh command file.
+  - _Keywords:_ Scheme, extension, Interpolate
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, Interpolate Section on page 29
+  - _Keywords:_ Sentaurus, Mesh, Guide, Interpolate
+- **sdesnmesh:iocontrols** <a id="sdesnmesh-iocontrols"></a>
+  - Sets the parameters for the IOcontrols section of the mesh command file.
+  - _Keywords:_ IOcontrols
+- **Syntax** <a id="syntax"></a>
+  - ```txt (sdesnmesh:iocontrols ["inputFile" inputFile] ["outputFile" outputFile] ["EnableSections" EnableSections] ["EnableOffset" EnableOffset] ["EnableTensor" EnableTensor] ["EnableEMW" EnableEMW] ["EnableTools" EnableTools] ["verbosity"...
+  - _Keywords:_ optional, BOOLEAN, inputFile, outputFile, EnableSections, EnableOffset, EnableTensor, EnableEMW
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the parameters used in the IOControls section of the mesh command file.
+  - _Keywords:_ Scheme, extension, IOControls
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, IOControls Section on page 6
+  - _Keywords:_ Sentaurus, Mesh, Guide, IOControls
+- **sdesnmesh:qualityreport** <a id="sdesnmesh-qualityreport"></a>
+  - Sets the parameters of the QualityReport section of the Sentaurus Mesh command file.
+  - _Keywords:_ QualityReport, Sentaurus, Mesh
+- **Syntax** <a id="syntax"></a>
+  - ```clojure (sdesnmesh:qualityreport qrtype qrelements ["limitMaxConnectivity" limitMaxConnectivity] ["limitMaxNonDelaunay" limitMaxNonDelaunay] ["limitMinAngle" limitMinAngle] ["limitMinEdgeLength" limitMinEdgeLength] ["limitMinVolume" l...
+  - _Keywords:_ optional, REAL, limitMaxConnectivity, limitMaxNonDelaunay, limitMinAngle, limitMinEdgeLength, limitMinVolume, qrtype
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - The QualityReport section can contain one global block, and multiple material and region blocks defined by the value of qrtype as follows:
+  - _Keywords:_ limitMaxNonDelaunay, limitMinEdgeLength, QualityReport, region, Global, defines, qrelements, Material
+- **See Also** <a id="see-also"></a>
+  - Sentaurus™ Mesh User Guide, QualityReport Section on page 68
+  - _Keywords:_ Sentaurus, Mesh, Guide, QualityReport
+- **sdesnmesh:tensor** <a id="sdesnmesh-tensor"></a>
+  - Replaces the Tensor section of the mesh command file with the given string.
+  - _Keywords:_ Replaces, Tensor, string
+- **Syntax** <a id="syntax"></a>
+  - (sdesnmesh:tensor value)
+  - _Keywords:_ Argument, sdesnmesh, tensor, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension allows direct manipulation of the Tensor section without syntaxchecking and replaces deprecated commands such as sdesnmesh:set-tensor-box and sdesnmesh:set-tensor-mesh-float.
+  - _Keywords:_ sdesnmesh, tensor, string, Scheme, extension, allows, direct, manipulation
+- **Limitations** <a id="limitations"></a>
+  - These deprecated commands use a different internal data structure unrelated to the data structure used by (sdesnmesh:tensor value). The deprecated commands are still supported for backward compatibility, but not with sdesnmesh:tensor at ...
+  - _Keywords:_ deprecated, structure, sdesnmesh, tensor, These, different, internal, unrelated
+- **sdesnmesh:tools** <a id="sdesnmesh-tools"></a>
+  - Replaces the Tools section of the mesh command file with the given string.
+  - _Keywords:_ Replaces, Tools, string
+- **Syntax** <a id="syntax"></a>
+  - (sdesnmesh:tools value)
+  - _Keywords:_ Argument, sdesnmesh, STRING
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension allows direct manipulation of the Tools section without syntaxchecking.
+  - _Keywords:_ string, Scheme, extension, allows, direct, manipulation, Tools, without
+- **sdesp:begin** <a id="sdesp-begin"></a>
+  - Begins Sentaurus Process and Sentaurus Structure Editor boundary-merging mode.
+  - _Keywords:_ Sentaurus, Begins, Process, Structure, Editor, boundary, merging
+- **Syntax** <a id="syntax"></a>
+  - (sdesp:begin)
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is called before beginning the merging of .sat file boundaries. It must be called before the sdesp:define-step command can be used. For that reason, it is necessary to begin the Sentaurus Process and Sentaurus Struc...
+  - _Keywords:_ called, before, Sentaurus, Scheme, extension, beginning, merging, boundaries
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 3D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **Examples** <a id="examples"></a>
+  - ```txt ; Create Sentaurus Process Tcl file using sdesp commands ; Start Sentaurus Process/Sentaurus Structure Editor mode (sdesp:begin) ; Load .sat files, each time defining a step name to be reproduced ; in Sentaurus Process (sdesp:defi...
+  - _Keywords:_ Sentaurus, Process, define, Tcl, Structure, Editor, Create, Start
+- **sdesp:define-step** <a id="sdesp-define-step"></a>
+  - Merges boundary (in .sat file) and defines a structure step to be reproduced in Sentaurus Process.
+  - _Keywords:_ Merges, boundary, defines, structure, reproduced, Sentaurus, Process
+- **Syntax** <a id="syntax"></a>
+  - (sdesp:define-step step-name file-name)
+  - _Keywords:_ Argument, STRING, define
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension loads a .sat file called file-name. It merges with the currently loaded geometry and associates step-name with the current step.
+  - _Keywords:_ Scheme, extension, called, merges, currently, loaded, geometry, associates
+- **See Also** <a id="see-also"></a>
+  - sdesp:begin on page 796
+- **sdesp:finalize** <a id="sdesp-finalize"></a>
+  - Completes Sentaurus Process and Sentaurus Structure Editor boundary merging and writes a Sentaurus Process Tcl file.
+  - _Keywords:_ Sentaurus, Process, Completes, Structure, Editor, boundary, merging, writes
+- **Syntax** <a id="syntax"></a>
+  - (sdesp:finalize Tcl-file-name)
+  - _Keywords:_ Tcl, Argument, finalize, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension is used to complete the merging of boundaries in the Sentaurus Process and Sentaurus Structure Editor mode. It writes a Tcl file defining the recreate\_step Tcl procedure called from within Sentaurus Process to recr...
+  - _Keywords:_ Sentaurus, Process, Tcl, recreate, Scheme, extension, complete, merging
+- **See Also** <a id="see-also"></a>
+  - sdesp:begin on page 796
+- **sdesp:restore-state** <a id="sdesp-restore-state"></a>
+  - Restores the internal state of Sentaurus Process and Sentaurus Structure Editor to permit the restarting of the boundary-merging process.
+  - _Keywords:_ Sentaurus, Restores, internal, Process, Structure, Editor, permit, restarting
+- **Syntax** <a id="syntax"></a>
+  - (sdesp:restore-state step-name-list)
+  - _Keywords:_ Argument, restore, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - During boundary merging by Sentaurus Process and Sentaurus Structure Editor, you might want to save the state and restore it later (perhaps in a different Sentaurus Structure Editor session) before continuing with the merging leading to ...
+  - _Keywords:_ Sentaurus, merging, Structure, Editor, restore, extension, During, boundary
+- **See Also** <a id="see-also"></a>
+  - sdesp:begin on page 796
+- **set-interface-contact** <a id="set-interface-contact"></a>
+  - Marks the common faces of two 3D regions as contacts.
+  - _Keywords:_ Marks, common, regions, contacts
+- **Syntax** <a id="syntax"></a>
+  - (set-interface-contact region1 region2 contact-name)
+  - _Keywords:_ contact, STRING, region1, region2, Argument, interface
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension attaches a contact attribute to the common faces of the specified regions.
+  - _Keywords:_ Scheme, extension, attaches, contact, attribute, common, specified, regions
+- **Limitations** <a id="limitations"></a>
+  - This Scheme extension applies to 3D models only.
+  - _Keywords:_ Scheme, extension, applies, models
+- **Examples** <a id="examples"></a>
+  - ```clojure (sde:clear) (sdegeo:create-cuboid (position 0 0 0) (position 10 10 10) "Silicon" "mb1") (sdegeo:create-sphere (position 10 10 0) 4 "PolySilicon" "mb2") (sdegeo:define-contact-set "ifcontact" 4 (color:rgb 1 0 0) "##") (set-inte...
+  - _Keywords:_ sdegeo, position, create, contact, ifcontact, clojure, cuboid, Silicon
+- **shell?** <a id="shell"></a>
+  - Determines if a Scheme object is a shell.
+  - _Keywords:_ Determines, Scheme, object
+- **Syntax** <a id="syntax"></a>
+  - (shell? object)
+  - _Keywords:_ object, Argument, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension returns #t if the specified object is a shell; otherwise, it returns #f. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ object, Scheme, extension, specified, otherwise, argument, specifies, queried
+- **skin:options** <a id="skin-options"></a>
+  - Sets the options in the data structure to be used by skinning APIs.
+  - _Keywords:_ structure, skinning, APIs
+- **Syntax** <a id="syntax"></a>
+  - (skin:options {skin-option-name value} [skin-options])
+  - _Keywords:_ Argument, STRING, BOOLEAN, SKIN, optional
+- **Returns** <a id="returns"></a>
+  - sweep-options
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the Scheme object skin-options that is used by the skinning and lofting Scheme extensions.
+  - _Keywords:_ surface, Boolean, lofting, profiles, skinning, tangent, closed, direction
+- **solid?** <a id="solid"></a>
+  - Determines if a Scheme object is a solid.
+  - _Keywords:_ Determines, Scheme, object
+- **Syntax** <a id="syntax"></a>
+  - (solid? object)
+  - _Keywords:_ object, Argument, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme extension determines if a Scheme object is a solid. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, extension, determines, argument, specifies, queried
+- **solid:area** <a id="solid-area"></a>
+  - Returns the surface area of a solid.
+  - _Keywords:_ surface
+- **Syntax** <a id="syntax"></a>
+  - (solid:area solid-body [tolerance=0.01])
+  - _Keywords:_ tolerance, Argument, BODY, REAL, optional
+- **Returns** <a id="returns"></a>
+  - REAL LIST
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - The first argument solid-body specifies a solid body. If the solid body entity has not been explicitly defined, the argument should be (entity # [#]), where the first # is its entity number, and the second # is its part number. The secon...
+  - _Keywords:_ argument, entity, accuracy, specifies, second, tolerance, straight, elliptical
+- **solid:massprop** <a id="solid-massprop"></a>
+  - Analyzes the mass properties of a solid.
+  - _Keywords:_ Analyzes, properties
+- **Syntax** <a id="syntax"></a>
+  - ```txt (solid:massprop entity [integer-type=0 [thickness] tolerance=0.01 {{position=center} | {x=center-x y=center-y z=center-z}} direction=z-axis]) ```
+  - _Keywords:_ optional, REAL, center, entity, integer, thickness, tolerance, position
+- **Returns** <a id="returns"></a>
+  - LIST
+- **Description** <a id="description"></a>
+  - The argument entity must be a solid body to compute the mass properties. The optional integer-type specifies the type of calculation to perform. The argument thickness specifies the thickness required. The optional argument tolerance spe...
+  - _Keywords:_ argument, specifies, position, optional, syntax, thickness, required, formats
+- **A: Commands** <a id="a-commands"></a>
+- **solid:massprop** <a id="solid-massprop"></a>
+  - The optional argument direction specifies the normal to the projection plane for the moments; the default is the z-axis of the active coordinate system. Valid values include:
+  - _Keywords:_ Volume, center, principal, tolerance, thickness, double, moments, inertia
+- **sort** <a id="sort"></a>
+  - Sorts the supplied list.
+  - _Keywords:_ Sorts, supplied
+- **Syntax** <a id="syntax"></a>
+  - (sort sort-criteria sort-list)
+  - _Keywords:_ criteria, Argument
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Errors** <a id="errors"></a>
+  - List.
+- **Description** <a id="description"></a>
+  - This Scheme function sorts the supplied list based on the sort criteria.
+  - _Keywords:_ Scheme, supplied, criteria
+- **Examples** <a id="examples"></a>
+  - (sort < (list 1 2 3 4 9 8 7 6))
+- **string:head** <a id="string-head"></a>
+  - Returns a substring.
+  - _Keywords:_ substring
+- **Syntax** <a id="syntax"></a>
+  - (string:head string snum)
+  - _Keywords:_ string, Argument, STRING, INTEGER
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a substring of the input string. The returned string starts at the first character of the input string and contains snum number of characters. If snum is larger than the string length, an empty string is ret...
+  - _Keywords:_ string, returned, Scheme, extension, substring, starts, character, contains
+- **string:tail** <a id="string-tail"></a>
+  - Returns a substring.
+  - _Keywords:_ substring
+- **Syntax** <a id="syntax"></a>
+  - (string:tail string snum)
+  - _Keywords:_ string, Argument, STRING, INTEGER
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - This Scheme extension returns a substring of the input string. The returned string starts at the snum-th character of the input string and contains string until the last character. If snum is larger than the string length, an empty strin...
+  - _Keywords:_ string, returned, character, Scheme, extension, substring, starts, contains
+- **sweep:law** <a id="sweep-law"></a>
+  - Creates a surface or solid by sweeping a profile along a path.
+  - _Keywords:_ Creates, surface, sweeping, profile
+- **Syntax** <a id="syntax"></a>
+  - (sweep:law profile {path | distance | vector | axis} [sweep-options])
+  - _Keywords:_ profile, distance, vector, Argument, WIRE, BODY, EDGE, GVECTOR
+- **Returns** <a id="returns"></a>
+  - ENTITY
+  - _Keywords:_ ENTITY
+- **Description** <a id="description"></a>
+  - This Scheme function creates a sheet body or solid body from a profile and a path. The path can be defined as a path, a distance, a vector, or an axis (position and vector).
+  - _Keywords:_ Scheme, vector, creates, profile, defined, distance, position, complex
+- **The arguments are:** <a id="the-arguments-are"></a>
+  - profile is a pointer to a wire body, a face, or an edge that, in turn, defines the sweep geometry and becomes the base of the solid or the edge of the surface. A planar sheet body containing nonadjacent faces is also permissible. path is...
+  - _Keywords:_ defines, defined, distance, vector, profile, planar, position, revolve
+- **Examples** <a id="examples"></a>
+  - Sweeping an Edge Along a Vector ```lisp (sde:clear) (define edge1 (wire-body (edge:linear (position 10 0 0) (position 10 10 0)))) (define sweep1 (sweep:law edge1 (gvector 10 0 0))) ```
+  - _Keywords:_ define, position, linear, gvector, Create, block1, Sweeping, Face
+- **A: Commands** <a id="a-commands"></a>
+  - sweep:law
+  - _Keywords:_ define, Create, block1, position, gvector, Sweeping, Planar, Face
+- **See Also** <a id="see-also"></a>
+  - sweep:options on page 815
+- **sweep:options** <a id="sweep-options"></a>
+  - Sets the options for sdegeo:sweep.
+  - _Keywords:_ sdegeo
+- **Syntax** <a id="syntax"></a>
+  - (sweep:options sweep-option-name {value | location direction})
+  - _Keywords:_ location, direction, Argument, STRING, GVECTOR, REAL, ENTITY, BOOLEAN
+- **Returns** <a id="returns"></a>
+  - sweep-options
+- **Description** <a id="description"></a>
+  - This Scheme function defines elements in the sweep-options data structure that are used later for the sdegeo:sweep operation. The argument sweep-option-name is a string. If value is a real, it does not require delimiters. If value is a s...
+  - _Keywords:_ position, define, _angle, linear, profile, string, plist1, start1
+- **See Also** <a id="see-also"></a>
+  - sdegeo:sweep on page 710
+  - _Keywords:_ sdegeo
+- **system:command** <a id="system-command"></a>
+  - Executes a system command.
+  - _Keywords:_ Executes, system
+- **Syntax** <a id="syntax"></a>
+  - (system:command cmd)
+  - _Keywords:_ Argument, system, STRING
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme function executes a system command from the Scheme command-line window. The command results are displayed in the UNIX window. If you use the system:command Scheme function, the return value must be processed correctly; otherw...
+  - _Keywords:_ Scheme, system, window, Sentaurus, Workbench, executes, results, displayed
+- **system:getenv** <a id="system-getenv"></a>
+  - Returns the value of an environment variable.
+  - _Keywords:_ environment, variable
+- **Syntax** <a id="syntax"></a>
+  - (system:getenv name-string)
+  - _Keywords:_ string, Argument, system, getenv, STRING
+- **Returns** <a id="returns"></a>
+  - Value of the environment variable if it is found; otherwise, it returns #f.
+  - _Keywords:_ environment, variable, otherwise
+- **Description** <a id="description"></a>
+  - The argument name-string specifies the name of the environment variable.
+  - _Keywords:_ argument, string, specifies, environment, variable
+- **timer:end** <a id="timer-end"></a>
+  - Stops the timer.
+  - _Keywords:_ Stops
+- **Syntax** <a id="syntax"></a>
+  - (timer:end)
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - The commands timer:start, timer:end, timer:show-time, and timer:get-time are used to measure the performance of a command or a series of commands. They measure only the CPU time required to execute the command and not any delays incurred...
+  - _Keywords:_ measure, performance, series, CPU, required, execute, delays, incurred
+- **timer:get-time** <a id="timer-get-time"></a>
+  - Calculates and returns the amount of time elapsed since timer:start was executed.
+  - _Keywords:_ Calculates, amount, elapsed, executed
+- **Syntax** <a id="syntax"></a>
+  - (timer:get-time)
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - The commands timer:start, timer:end, timer:show-time, and timer:get-time are used to measure the performance of a command or a series of commands. They measure only the CPU time required to execute the command and not any delays incurred...
+  - _Keywords:_ measure, series, required, execute, executed, performance, CPU, delays
+- **timer:show-time** <a id="timer-show-time"></a>
+  - Calculates and returns the amount of time elapsed since timer:start was executed.
+  - _Keywords:_ Calculates, amount, elapsed, executed
+- **Syntax** <a id="syntax"></a>
+  - (timer:show-time)
+- **Returns** <a id="returns"></a>
+  - REAL
+  - _Keywords:_ REAL
+- **Description** <a id="description"></a>
+  - The commands timer:start, timer:end, timer:show-time, and timer:get-time are used to measure the performance of a command or a series of commands. They measure only the CPU time required to execute the command and not any delays incurred...
+  - _Keywords:_ executed, measure, series, performance, CPU, required, execute, delays
+- **timer:start** <a id="timer-start"></a>
+  - Starts an internal clock or timer.
+  - _Keywords:_ Starts, internal
+- **Syntax** <a id="syntax"></a>
+  - (timer:start)
+- **Returns** <a id="returns"></a>
+  - STRING
+  - _Keywords:_ STRING
+- **Description** <a id="description"></a>
+  - The commands timer:start, timer:end, timer:show-time, and timer:get-time are used to measure the performance of a command or a series of commands. They measure only the CPU time required to execute the command and not any delays incurred...
+  - _Keywords:_ measure, performance, series, CPU, required, execute, delays, incurred
+- **transform:reflection** <a id="transform-reflection"></a>
+  - Creates a transform to mirror an object through an axis.
+  - _Keywords:_ Creates, transform, mirror, object, through
+- **Syntax** <a id="syntax"></a>
+  - (transform:reflection plane-position plane-direction)
+  - _Keywords:_ position, direction, Argument, transform, reflection, POSITION, GVECTOR
+- **Returns** <a id="returns"></a>
+  - transform
+  - _Keywords:_ transform
+- **Description** <a id="description"></a>
+  - This Scheme function is used to define a reflection transform, which can be used in sdegeo:mirror-selected. The argument plane-position specifies the location to mirror an object, and plane-direction specifies the normal of the mirror in...
+  - _Keywords:_ mirror, specifies, Scheme, define, reflection, transform, sdegeo, selected
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define mb (sdegeo:create-rectangle (position 1 1 0) (position 2 2 0) "Silicon" "xx")) (define tr1 (transform:reflection (position 0 0 0) (gvector -1 0 0))) (set! tr1 (transform:reflection (position 0 0 0) (gvector 0 ...
+  - _Keywords:_ position, define, sdegeo, transform, reflection, gvector, create, rectangle
+- **transform:rotation** <a id="transform-rotation"></a>
+  - Creates a transform to rotate an object about an axis.
+  - _Keywords:_ Creates, transform, rotate, object
+- **Syntax** <a id="syntax"></a>
+  - (transform:rotation origin-position axis-direction angle)
+  - _Keywords:_ origin, position, direction, Argument, transform, rotation, POSITION, GVECTOR
+- **Returns** <a id="returns"></a>
+  - transform
+  - _Keywords:_ transform
+- **Description** <a id="description"></a>
+  - This Scheme function is used to define a rotation transform, which can be used in sdegeo:rotate-selected. The origin-position specifies the start location of the rotate. The argument axis-direction specifies the axis direction of rotatio...
+  - _Keywords:_ rotation, rotate, specifies, direction, argument, Scheme, define, transform
+- **Examples** _(p.77)_ <a id="examples"></a>
+  - ```lisp (sde:clear) (sdegeo:create-circle (position 0 0 0) 0.1 "PolySilicon" "xx") (define mb (sdegeo:create-rectangle (position 1 1 0) (position 2 2 0) "Silicon" "xx")) (define tr1 (transform:rotation (position 0 0 0) (gvector 0 0 1) 45...
+  - _Keywords:_ position, sdegeo, create, define, circle, PolySilicon, rectangle, Silicon
+- **transform:scaling** <a id="transform-scaling"></a>
+  - Creates a scaling transform.
+  - _Keywords:_ Creates, scaling, transform
+- **Syntax** <a id="syntax"></a>
+  - (transform:scaling x-scale [y-scale z-scale])
+  - _Keywords:_ REAL, Argument, optional, transform, scaling
+- **Returns** <a id="returns"></a>
+  - transform
+  - _Keywords:_ transform
+- **Description** <a id="description"></a>
+  - This Scheme function is used to define a scaling transform, which can be used in sdegeo:scale-selected.
+  - _Keywords:_ scaling, factor, specifies, direction, Scheme, optional, argument, define
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define mb (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silicon" "xx")) (sdegeo:scale-selected mb tr1)(define tr1 (transform:scaling 1.0 2.0 1.0)) ```
+  - _Keywords:_ define, sdegeo, position, create, rectangle, Silicon, selected, transform
+- **transform:translation** <a id="transform-translation"></a>
+  - Creates a translation transform object.
+  - _Keywords:_ Creates, translation, transform, object
+- **Syntax** <a id="syntax"></a>
+  - (transform:translation gvector)
+  - _Keywords:_ gvector, Argument, transform, translation, GVECTOR
+- **Returns** <a id="returns"></a>
+  - transform
+  - _Keywords:_ transform
+- **Description** <a id="description"></a>
+  - This Scheme function is used to define a translation transform, which can be used in sdegeo:translate-selected.
+  - _Keywords:_ Scheme, define, translation, transform, sdegeo, translate, selected
+- **Examples** <a id="examples"></a>
+  - ```lisp (sde:clear) (define mb (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silicon" "xx")) (define tr1 (transform:translation (gvector 3.0 0.0 0.0))) (sdegeo:translate-selected mb tr1 #t 5) ```
+  - _Keywords:_ define, sdegeo, position, create, rectangle, Silicon, transform, translation
+- **util:make-bot-contact** <a id="util-make-bot-contact"></a>
+  - Defines a bottom contact in two dimensions or three dimensions.
+  - _Keywords:_ dimensions, Defines, bottom, contact
+- **Syntax** <a id="syntax"></a>
+  - (util:make-bot-contact contact-name [contact-argument])
+  - _Keywords:_ contact, argument, Argument, STRING, optional, INTEGER, RGB, COLOR
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension assigns a contact to the bottom of a 2D or 3D device. In two dimensions, the bottom edges of the device are defined as contacts. In three dimensions, the bottom faces of the device are defined as contacts. The optio...
+  - _Keywords:_ mathfrak, contact, dimensions, bottom, device, defined, contacts, backslash
+- **Examples** <a id="examples"></a>
+  - Example: Two Dimensions ```lisp (sde:clear) (sdegeo:create-rectangle (position 0 0 0) (position 10 10 0) "Silicon" "x1") (sdegeo:create-rectangle (position 3 10 0) (position 7 14 0) "PolySilicon" "x2") (sdegeo:insert-vertex (position 1 0...
+  - _Keywords:_ position, sdegeo, insert, vertex, create, rectangle, contact, Dimensions
+- **util:make-top-contact** <a id="util-make-top-contact"></a>
+  - Defines a top contact in two dimensions or three dimensions.
+  - _Keywords:_ dimensions, Defines, contact
+- **Syntax** <a id="syntax"></a>
+  - (util:make-top-contact contact-name [contact-argument])
+  - _Keywords:_ contact, argument, Argument, STRING, optional, INTEGER, RGB, COLOR
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension assigns a contact to the top of a 2D or 3D device. In two dimensions, the top edges of the device are defined as contacts. In three dimensions, the top faces of the device are defined as contacts. The optional conta...
+  - _Keywords:_ contact, dimensions, mathrm, device, defined, mathfrak, contacts, Scheme
+- **Examples** <a id="examples"></a>
+  - See examples of util:make-bot-contact on page 824.
+  - _Keywords:_ contact
+- **vertex?** <a id="vertex"></a>
+  - Determines if a Scheme object is a vertex.
+  - _Keywords:_ Determines, Scheme, object, vertex
+- **Syntax** <a id="syntax"></a>
+  - (vertex? object)
+  - _Keywords:_ object, Argument, vertex, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function determines if a Scheme object is a vertex. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, determines, vertex, argument, specifies, queried
+- **view:set-point-size** <a id="view-set-point-size"></a>
+  - Sets the size of the rendered vertices in the main window of the GUI.
+  - _Keywords:_ rendered, vertices, window, GUI
+- **Syntax** <a id="syntax"></a>
+  - (view:set-point-size vertex-size)
+  - _Keywords:_ vertex, Argument, INTEGER
+- **Returns** <a id="returns"></a>
+  - None.
+- **Description** <a id="description"></a>
+  - This Scheme extension sets the size of the rendered vertices in the main window of the GUI. The default size is 10, and 0 switches off the vertex rendering and removes the vertex markings.
+  - _Keywords:_ vertex, Scheme, extension, rendered, vertices, window, GUI, switches
+- **wire?** <a id="wire"></a>
+  - Determines if a Scheme object is a wire.
+  - _Keywords:_ Determines, Scheme, object
+- **Syntax** <a id="syntax"></a>
+  - (wire? object)
+  - _Keywords:_ object, Argument, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function determines if a Scheme object is a wire. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, determines, argument, specifies, queried
+- **wire-body?** <a id="wire-body"></a>
+  - Determines if a Scheme object is a wire body.
+  - _Keywords:_ Determines, Scheme, object
+- **Syntax** <a id="syntax"></a>
+  - (wire-body? object)
+  - _Keywords:_ object, Argument, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function determines if a Scheme object is a wire body. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, determines, argument, specifies, queried
+- **wire:planar?** <a id="wire-planar"></a>
+  - Determines if a Scheme object is a planar wire.
+  - _Keywords:_ Determines, Scheme, object, planar
+- **Syntax** <a id="syntax"></a>
+  - (wire:planar? object)
+  - _Keywords:_ object, Argument, planar, SCHEME, OBJECT
+- **Returns** <a id="returns"></a>
+  - BOOLEAN
+  - _Keywords:_ BOOLEAN
+- **Description** <a id="description"></a>
+  - This Scheme function determines if a Scheme object is a planar wire. The argument object specifies the Scheme object to be queried.
+  - _Keywords:_ Scheme, object, planar, determines, argument, specifies, queried
+- **Index of Scheme Extensions** <a id="index-of-scheme-extensions"></a>
+- **A** <a id="a"></a>
+  - afm-smooth-layers . .. 75, 298
+  - _Keywords:_ smooth, layers
+- **B** <a id="b"></a>
+  - bbox ... ... 300
+- **C** <a id="c"></a>
+  - color rgb .. 186, 304
+  - _Keywords:_ convert, complete, degree, radian, circular, elliptical, linear
+- **D** <a id="d"></a>
+  - define . . 28
+  - _Keywords:_ define
+- **E** _(p.183)_ <a id="e"></a>
+  - edge circular . . 308
+  - _Keywords:_ extract, refwindow, circular, linear, spline, entity, delete, tolerance
+- **G** _(p.306)_ <a id="g"></a>
+  - generic get . . 283 get-body-list .. . 353 get-drs-list . . 353 get-empty-mask-list . 136, 354 get-mask-list .. 136, 354 gvector . 355 . 358 + . 357 copy . 359 cross . 359 dot .. .. 360 from-to .. 360 length .. 361 parallel? .. 361 perpe...
+  - _Keywords:_ gvector, generic, length, parallel, perpendicular, reverse, transform, unitize
+- **J** <a id="j"></a>
+  - journal abort .. 370 append . .. 371 clean .. 12, 372 load . . 12, 373 off . . 12, 374 on . 12, 375 pause . 12, 376 resume . 12, 376 save .... 12, 377 step . 11, 378
+  - _Keywords:_ journal, append, resume
+- **L** <a id="l"></a>
+  - load . . 10
+  - _Keywords:_ external
+- **M** <a id="m"></a>
+  - mask-refevalwin-extract-2d ..136, 381 mask-refevalwin-extract-3d ...136, 382 member? . 383 merge-collinear-edges-2d . 65, 70, 384
+  - _Keywords:_ refevalwin, extract, member, collinear
+- **P** <a id="p"></a>
+  - part entities ..286, 385 load . .. 10, 11, 386 save . .. 387 save-selection . 388 set-name .. 389 position . . 390 392 + . 391 distance 392 set! . 393 set-x! 394 set-y! 395 set-z! . 396 x 397 y 397 z . 398 position? ..289, 391 protect-al...
+  - _Keywords:_ position, entities, selection, distance, protect, contacts
+- **R** <a id="r"></a>
+  - random-sd . 400
+  - _Keywords:_ remove, random, ABA, BAB, render, rebuild
+- **S** <a id="s"></a>
+  - sde add-material .110, 111, 405 back-coord . 406 bg-image-transparency ..... ....292, 407 bool-regularise . 407 bottom-coord . 408 build-mesh . 409 change-datex-color-scheme ....... ......34, 410 check-3d-license-status . 410 check-model...
+  - _Keywords:_ define, profile, placement, scmwin, window, refinement, material, delete
+- **sdeepi** <a id="sdeepi"></a>
+  - create-layerstack .245, 581
+  - _Keywords:_ create, contact, delete, region, polygon, define, imprint, global
+- **sdeio** <a id="sdeio"></a>
+  - read-dfise-mask . ....10, 136, 753
+- **sdepe** <a id="sdepe"></a>
+  - add-substrate ...146, 157, 761
+  - _Keywords:_ generate, device, substrate, define, domain, doping, constant, placement
+- **sdesnmesh** <a id="sdesnmesh"></a>
+  - axisaligned .. .. 784
+  - _Keywords:_ delaunizer, axisaligned, tolerance, interpolate, iocontrols, qualityreport, tensor
+- **sdesp** <a id="sdesp"></a>
+  - begin . .. 796
+  - _Keywords:_ define, finalize, restore, interface, contact
+- **skin** <a id="skin"></a>
+  - options .. 802
+- **solid** <a id="solid"></a>
+  - area 806
+  - _Keywords:_ closed, manifold, massprop
+- **sweep** <a id="sweep"></a>
+  - law . 812
+- **system** <a id="system"></a>
+  - command . 816
+  - _Keywords:_ getenv
+- **T** <a id="t"></a>
+- **timer** <a id="timer"></a>
+  - end . 817
+- **transform** <a id="transform"></a>
+  - reflection ...132, 820
+  - _Keywords:_ reflection, rotation, scaling, translation
+- **U** <a id="u"></a>
+- **util** <a id="util"></a>
+  - make-bot-contact . 824
+  - _Keywords:_ contact
+- **V** <a id="v"></a>
+- **vertex** <a id="vertex"></a>
+  - position . 285
+  - _Keywords:_ position, vertex
+- **view** <a id="view"></a>
+  - set-point-size . .36, 827
+- **W** <a id="w"></a>
+- **wire** <a id="wire"></a>
+  - closed? . 290
+  - _Keywords:_ closed, planar
+- **wire?** _(p.330)_ <a id="wire"></a>
+  - wire-body? ..290, 828

@@ -1,0 +1,1152 @@
+# stopography3d_ug — outline
+
+Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
+
+- **Sentaurus™ Topography 3D User Guide** _(p.1)_ <a id="sentaurus-topography-3d-user-guide"></a>
+  - Version O-2018.06, June 2018
+  - _Keywords:_ Version, June
+- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
+  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
+  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+- **Disclaimer** <a id="disclaimer"></a>
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+- **Trademarks** <a id="trademarks"></a>
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html. All other product or company names may be trademarks of their respective owners.
+  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+- **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
+  - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
+  - _Keywords:_ applicable, Free, Open, Source, Software, FOSS, licensing, notices
+- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
+  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+- **About This Guide xi** _(p.3)_ <a id="about-this-guide-xi"></a>
+  - Related Publications . . xi
+  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
+- **Chapter 1 Getting Started 1** <a id="chapter-1-getting-started-1"></a>
+  - Introduction . . .
+  - _Keywords:_ Sentaurus, TDR, PMC, Introduction, Starting, Topography, Workbench, Line
+- **Chapter 2 Simulation Details 5** _(p.4)_ <a id="chapter-2-simulation-details-5"></a>
+  - Sentaurus Topography 3D Computational Model . . .
+  - _Keywords:_ Boundary, Computational, Model, Method, Structure, Coordinate, Conditions, Parallelization
+- **Chapter 3 Model Descriptions 29** _(p.5)_ <a id="chapter-3-model-descriptions-29"></a>
+  - Level Set–Based Models. . . . 29
+  - _Keywords:_ Deposition, Etching, Models, Plasma, Flux, Modeling, High, Density
+- **Chapter 4 Input Commands 71** _(p.6–7)_ <a id="chapter-4-input-commands-71"></a>
+  - Syntax of Commands and Parameters . . . 71
+  - _Keywords:_ define, Saving, PMC, _properties, _material, _species, _machine, _structure
+- **Chapter 5 Integration With Sentaurus Process and Sentaurus Interconnect 233** <a id="chapter-5-integration-with-sentaurus-process-and-sentaurus-i"></a>
+  - Introduction . . . . 233
+  - _Keywords:_ Behavior, Syntax, Introduction, Supported, Additional, repair, Different, Repair
+- **Chapter 6 Rate Formula Module 239** _(p.8)_ <a id="chapter-6-rate-formula-module-239"></a>
+  - Overview. . . . 239
+  - _Keywords:_ Definition, Machine, Model, Defined, Rate, Specifying, Configuration, Details
+- **Chapter 7 Working With Reaction Models 253** <a id="chapter-7-working-with-reaction-models-253"></a>
+  - Setting Up a Simulation Using a Reaction Model . . . . 253
+  - _Keywords:_ Setting, Simulation, Reaction, Model, Integration, Other, Sentaurus, Topography
+- **Chapter 8 Physical Model Interface for Etching and Deposition 259** <a id="chapter-8-physical-model-interface-for-etching-and-depositio"></a>
+  - Overview. . . 259
+  - _Keywords:_ Interface, Model, Additional, Data, Source, Library, Overview, Implementing
+- **Chapter 9 Known Issues and Limitations 267** _(p.9)_ <a id="chapter-9-known-issues-and-limitations-267"></a>
+  - Description of Known Issues and Limitations . . . . 267
+  - _Keywords:_ Description, Known, Issues, Limitations
+- **Appendix A Examples 271** _(p.9)_ <a id="appendix-a-examples-271"></a>
+  - Initial Structure Generation. . . . 271
+  - _Keywords:_ Etching, Deposition, Plasma, Simple, High, Density, Ion, Vapor
+- **Appendix B EAD File Format 287** _(p.10–11)_ <a id="appendix-b-ead-file-format-287"></a>
+  - Description of the EAD File Format. . . . 287
+  - _Keywords:_ Synopsys, Sentaurus, Topography, software, _solve, modified, Description, EAD
+- **Related Publications** _(p.11)_ <a id="related-publications"></a>
+  - For additional information, see:
+  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
+- **Conventions** <a id="conventions"></a>
+  - The following conventions are used in Synopsys documentation.
+  - _Keywords:_ Identifies, screen, identifies, conventions, Synopsys, documentation, Convention, Description
+- **Customer Support** _(p.12)_ <a id="customer-support"></a>
+  - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
+  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
+- **Accessing SolvNet** _(p.12)_ <a id="accessing-solvnet"></a>
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
+  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+- **Contacting Synopsys Support** <a id="contacting-synopsys-support"></a>
+  - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
+  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
+- **Contacting Your Local TCAD Support Team Directly** _(p.13)_ <a id="contacting-your-local-tcad-support-team-directly"></a>
+  - Send an e-mail message to:
+  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
+- **Introduction** _(p.13)_ <a id="introduction"></a>
+  - Sentaurus Topography 3D is a three-dimensional simulator for evaluating and optimizing critical topography-processing steps such as etching and deposition. Two- and threedimensional structures composed of an arbitrary number of different...
+  - _Keywords:_ processing, etching, deposition, structures, different, TDR, Sentaurus, Topography
+- **Starting Sentaurus Topography 3D** <a id="starting-sentaurus-topography-3d"></a>
+  - Sentaurus Topography 3D can be invoked and used in different modes.
+  - _Keywords:_ Sentaurus, Topography, invoked, different
+- **From Sentaurus Workbench** _(p.14)_ <a id="from-sentaurus-workbench"></a>
+  - Sentaurus Topography 3D is fully integrated in Sentaurus Workbench. On the command line, type the following command to start Sentaurus Workbench:
+  - _Keywords:_ Sentaurus, Workbench, Topography, integrated, Inside, process
+- **From the Command Line** _(p.14)_ <a id="from-the-command-line"></a>
+  - You can start Sentaurus Topography 3D directly from the command line by specifying:
+  - _Keywords:_ processes, specified, Sentaurus, Topography, specify, greater, use_datex, material
+- **Examples** _(p.15)_ <a id="examples"></a>
+  - Start Sentaurus Topography 3D on the local host using one process with four threads:
+  - _Keywords:_ threads, Start, Sentaurus, Topography, process, sptopo3d, commandfile, processes
+- **Input Files** _(p.15)_ <a id="input-files"></a>
+  - Sentaurus Topography 3D uses the following input files depending on the initial information available to start a simulation.
+  - _Keywords:_ Sentaurus, Topography, depending, initial, information, available, simulation
+- **Command File** _(p.15)_ <a id="command-file"></a>
+  - The command file is a text file that contains a sequence of commands that direct the simulation (see Chapter 4 on page 71). The command file can also contain Tcl commands.
+  - _Keywords:_ contains, sequence, direct, simulation, contain, Tcl
+- **TDR File** <a id="tdr-file"></a>
+  - The initial structure for a simulation can be read from a TDR file containing a 2D or 3D boundary, or a 3D GC structure. The 3D boundary must have a rectangular base normal to the positive z-axis.
+  - _Keywords:_ structure, boundary, initial, simulation, TDR, containing, rectangular, normal
+- **PMC File** <a id="pmc-file"></a>
+  - The initial structure for a particle Monte Carlo (PMC) simulation can be read from a PMC file.
+  - _Keywords:_ PMC, initial, structure, particle, Monte, Carlo, simulation
+- **Output Files** <a id="output-files"></a>
+  - The names of output files created by Sentaurus Topography 3D follow a naming convention. The base name of the output files is defined by the base name of the command file. Different extensions are used, depending on the type of the outpu...
+  - _Keywords:_ created, Sentaurus, Topography, follow, naming, convention, defined, Different
+- **Standard Output and Log File** _(p.16)_ <a id="standard-output-and-log-file"></a>
+  - All the commands specified by the input file as well as the messages and output indicating the progress of Sentaurus Topography 3D are, by default, displayed on-screen. Any error or warning condition encountered is also displayed.
+  - _Keywords:_ Sentaurus, Topography, displayed, specified, messages, indicating, progress, screen
+- **TDR Files** _(p.16)_ <a id="tdr-files"></a>
+  - Different TDR file formats can be used to save information about structures modified by a Sentaurus Topography 3D simulation. You can use the save command (see save on page 219), for example, to:
+  - _Keywords:_ information, simulation, structure, TDR, Save, extract, Different, formats
+- **PMC File** _(p.17)_ <a id="pmc-file"></a>
+  - A PMC structure can be saved to a PMC file, which can be subsequently read in to define the initial structure of a new PMC simulation.
+  - _Keywords:_ PMC, structure, subsequently, define, initial, simulation, provides, details
+- **Sentaurus Topography 3D Computational Model** _(p.17–18)_ <a id="sentaurus-topography-3d-computational-model"></a>
+  - Sentaurus Topography 3D simulates deposition, etching, and simultaneous etching and deposition processes using physical and geometric models. Except for the spin-on-glass deposition model, two simulation methods are used to implement the...
+  - _Keywords:_ models, representation, deposition, method, structure, PMC, stored, internally
+- **Computational Model When Using the Level-Set Method** _(p.19)_ <a id="computational-model-when-using-the-level-set-method"></a>
+  - When using the level-set method to simulate a model, the exposed surface (see Boundary Types on page 14) is discretized into a set of surface elements of finite extents, and the processing time is divided into discrete time steps.
+  - _Keywords:_ surface, fluxes, particles, formula, direct, continuum, distribution, indirect
+- **Computational Model When Using the PMC Method** _(p.20)_ <a id="computational-model-when-using-the-pmc-method"></a>
+  - The PMC method uses a stochastic approach to compute the time evolution of a structure. You define interactions between the plasma species and the wafer species in terms of surface reactions (see add\_reaction on page 94, add\_source\_sp...
+  - _Keywords:_ define, species, PMC, method, stochastic, approach, compute, evolution
+- **Computational Model for Spin-on-Glass Deposition** _(p.20)_ <a id="computational-model-for-spin-on-glass-deposition"></a>
+  - The time evolution of the film profile is determined by solving a partial differential equation describing the motion of a fluid driven by surface tension, centrifugal forces, and evaporation (see Spin-on-Glass Deposition Model on page 63).
+  - _Keywords:_ profile, surface, evolution, determined, solving, partial, differential, equation
+- **Discretization Size and Accuracy** _(p.21)_ <a id="discretization-size-and-accuracy"></a>
+  - Numeric simulation methods, in general, only produce approximations to the exact results. Usually, the quality of the approximation can be improved by increasing the computational effort. For the level-set method and the method used to s...
+  - _Keywords:_ discretization, spatial, simulation, method, required, CPU, results, computational
+- **Discretization Size and Accuracy When Using the Level-Set Method** _(p.22)_ <a id="discretization-size-and-accuracy-when-using-the-level-set-me"></a>
+  - In general, the spatial accuracy that can be achieved when using the level-set method is of the order of the spatial discretization. Therefore, you must decide which features of the input structure and the expected output structure are i...
+  - _Keywords:_ spatial, accuracy, achieved, discretization, structure, general, method, Therefore
+- **2: Simulation Details** _(p.22)_ <a id="2-simulation-details"></a>
+  - Discretization Size and Accuracy
+  - _Keywords:_ surface, materials, etching, material, interface, structure, element, deposition
+- **Sentaurus Topography 3D Simulation Flow** _(p.23)_ <a id="sentaurus-topography-3d-simulation-flow"></a>
+  - In Sentaurus Topography 3D, independently of the used numeric method, the simulation of a physical process requires:
+  - _Keywords:_ structure, process, simulation, Sentaurus, Topography, TDR, extract, machine
+- **Machines** _(p.24)_ <a id="machines"></a>
+  - Sentaurus Topography 3D can simulate different topography processes: deposition, etch, and lithography. Each process is represented by a machine that groups all of the parameters necessary to perform a simulation (see define\_deposit\_ma...
+  - _Keywords:_ machine, defined, define, _machine, unique, different, deposition, lithography
+- **Initial Structure Generation** _(p.24)_ <a id="initial-structure-generation"></a>
+  - The input structure to be processed in Sentaurus Topography 3D can be obtained in either of the following ways:
+  - _Keywords:_ structure, Sentaurus, Topography, simple, processed, obtained, either, Load
+- **Creating the Initial Structure** <a id="creating-the-initial-structure"></a>
+  - When a structure is created with Sentaurus Topography 3D, an initial cuboid structure must be defined. This structure constitutes the base for further etch or deposition processes. The following command creates a unit cube made of silico...
+  - _Keywords:_ structure, created, Sentaurus, Topography, initial, cuboid, defined, constitutes
+- **Modifying the Initial Structure** _(p.25–26)_ <a id="modifying-the-initial-structure"></a>
+  - The initial cuboid region can be modified either by adding materials using the deposit command or by removing parts of the structure using the etch command.
+  - _Keywords:_ structure, initial, cuboid, region, deposit, trench, material, deposited
+- **Boundary Types** _(p.26–27)_ <a id="boundary-types"></a>
+  - As described in Input Files on page 3, Sentaurus Topography 3D loads two- or threedimensional TDR boundary files containing all the geometric and material information of the structure that must be processed.
+  - _Keywords:_ structure, details, summary, surface, boundary, exposed, images, natural_image
+- **Simulating Process Steps on 2D and 3D Structures** _(p.27–28)_ <a id="simulating-process-steps-on-2d-and-3d-structures"></a>
+  - When using a level set–based model or the spin-on-glass deposition model, Sentaurus Topography 3D can simulate process steps on both two-dimensional (2D) and threedimensional (3D) structures. Two-dimensional and 3D structures can be simu...
+  - _Keywords:_ structure, structure_3d, deposition, structures, Sentaurus, Topography, _structure, structure_2d
+- **Limitations When Processing 2D Structures** _(p.29)_ <a id="limitations-when-processing-2d-structures"></a>
+  - Table 2 lists commands that are not supported or have some limitations when processing 2D structures.
+  - _Keywords:_ structures, supported, processing, Sentaurus, Lithography, integration, dimensions, except
+- **Coordinate Systems** <a id="coordinate-systems"></a>
+  - This section describes the wafer coordinate system and the simulation coordinate system.
+  - _Keywords:_ coordinate, system, describes, simulation
+- **Wafer Coordinate System** _(p.30)_ <a id="wafer-coordinate-system"></a>
+  - Similar to Sentaurus Process, Sentaurus Topography 3D uses a wafer coordinate system to describe the crystal orientation of the wafer. The wafer coordinate system is a right-handed coordinate system in which the x-axis is parallel to the...
+  - _Keywords:_ coordinate, system, details, summary, Sentaurus, perpendicular, images, text_image
+- **Simulation Coordinate System** _(p.30–31)_ <a id="simulation-coordinate-system"></a>
+  - In contrast to the simulation coordinate system of Sentaurus Process, in the simulation coordinate system of Sentaurus Topography 3D, the x-axis and y-axis lie in the wafer plane, and the z-axis is perpendicular to the wafer surface. The...
+  - _Keywords:_ details, summary, coordinate, system, simulation, images, text_image, Sentaurus
+- **2D Coordinate System** <a id="2d-coordinate-system"></a>
+  - The simulation coordinate system (x/y) used for 2D structures is oriented in such a way that the positive y-axis points upwards in a device. Therefore, the y-coordinate of the simulation coordinate system used for 2D structures correspon...
+  - _Keywords:_ coordinate, simulation, system, structures, oriented, positive, points, upwards
+- **Structure Tilt** _(p.32)_ <a id="structure-tilt"></a>
+  - When a machine is defined using the define\_deposit\_machine command or the define\_etch\_machine command, you can specify the tilt of the structure by setting the parameters tilt and rotation, which represent the tilt and rotation (or t...
+  - _Keywords:_ rotation, coordinate, system, defined, define, _machine, angles, between
+- **Material Names and Aliases** _(p.32)_ <a id="material-names-and-aliases"></a>
+  - By default, when using material names defined in the datexcodes.txt file, these names are translated to the canonical name for the specified material. For example, when specifying PolySilicon, it is translated to the canonical name PolyS...
+  - _Keywords:_ material, translated, canonical, DATEX, aliases, simulation, setups, defined
+- **Boundary Conditions** _(p.33)_ <a id="boundary-conditions"></a>
+  - Similar to other types of simulation, topography simulations usually handle only a small part of a much larger structure. Typical reasons for this are limited computational resources or a limited area of interest. When limiting the simul...
+  - _Keywords:_ boundary, conditions, simulation, domain, interest, sidewalls, larger, structure
+- **Boundary Conditions: reflective** _(p.34)_ <a id="boundary-conditions-reflective"></a>
+  - In general, with reflective boundary conditions, it is assumed that the sidewalls of the simulation domain are symmetry planes. When checking the visibility of the plasma source or other parts of the surface in a specific direction, a ra...
+  - _Keywords:_ surface, simulation, domain, sidewalls, plasma, source, symmetry, planes
+- **Radiosity Method** _(p.34–36)_ <a id="radiosity-method"></a>
+  - The geometric interaction between a pair of surface elements is described by the form factor. The form factor must be calculated for all pairs of elements of the original surface. However, it is also necessary to calculate the form facto...
+  - _Keywords:_ surface, elements, extended, simulation, domain, original, sidewalls, between
+- **Boundary Conditions: none** _(p.36)_ <a id="boundary-conditions-none"></a>
+  - When using the boundary condition type none, there is no reflection and no calculation of the next intersection when the ray hits the sidewall of the simulation domain. Boundary conditions of type none are not supported when using the PM...
+  - _Keywords:_ boundary, condition, sidewall, calculating, surface, indirect, reflection, calculation
+- **Boundary Conditions: periodic** <a id="boundary-conditions-periodic"></a>
+  - When using periodic boundary conditions, the processed structure is supposed to repeat infinitely many times along the direction where periodic boundary conditions are applied.
+  - _Keywords:_ boundary, conditions, periodic, applied, Periodic, simulating, structures, PMC
+- **Units** _(p.37)_ <a id="units"></a>
+  - Sentaurus Topography 3D supports a default unit set (second column in Table 3 on page 25) that is used whenever no unit is specified for a parameter in the command file.
+  - _Keywords:_ second, rowspan, minute, Sentaurus, Topography, micrometer, nanometer, possible
+- **Parallelization** _(p.37)_ <a id="parallelization"></a>
+  - Sentaurus Topography 3D can use multiple CPU cores or CPUs to accelerate simulations on shared-memory computers and on distributed processing (DP) systems. Distributed computation is implemented using the message passing interface (MPI) ...
+  - _Keywords:_ memory, Sentaurus, Topography, multiple, CPU, CPUs, accelerate, simulations
+- **Basic Shared-Memory Parallelization** _(p.37)_ <a id="basic-shared-memory-parallelization"></a>
+  - To activate multithreaded computation, use the command:
+  - _Keywords:_ parallel, threads, activate, multithreaded, computation, determined, automatically, depending
+- **Advanced Shared-Memory Parallelization Options** _(p.38)_ <a id="advanced-shared-memory-parallelization-options"></a>
+  - Advanced users can request a specific number of threads using the command:
+  - _Keywords:_ threads, parallel, _threads, specified, licenses, Advanced, request, specific
+- **Parallelization on Distributed Processing Systems Using MPI** _(p.39)_ <a id="parallelization-on-distributed-processing-systems-using-mpi"></a>
+  - Sentaurus Topography 3D supports parallelization on distributed processing (DP) systems using the message passing interface (MPI) [2].
+  - _Keywords:_ Sentaurus, Parallelization, Topography, processes, performance, systems, TCAD, averaging
+- **References** _(p.40–41)_ <a id="references"></a>
+  - [1] R. Courant, K. Friedrichs, and H. Lewy, “On the Partial Difference Equations of Mathematical Physics,” IBM Journal, vol. 11, no. 2, pp. 215–234, 1967. [2] For information about the MPI Forum, go to https://www.mpi-forum.org/.
+  - _Keywords:_ models, Courant, Friedrichs, Lewy, Partial, Difference, Equations, Mathematical
+- **Level Set–Based Models** _(p.41)_ <a id="level-set-based-models"></a>
+  - This section discusses level set–based models.
+  - _Keywords:_ discusses, models
+- **Modeling of Fluxes and Related Physical Effects** _(p.42–45)_ <a id="modeling-of-fluxes-and-related-physical-effects"></a>
+  - Figure 10 on page 30 shows an overview of the physical processes relevant to the process models implemented in Sentaurus Topography 3D based on the level-set method.
+  - _Keywords:_ surface, fluxes, particles, material, reflection, angular, neutral, sputtered
+- **Neutrals** _(p.45–46)_ <a id="neutrals"></a>
+  - A neutral flux is characterized by an isotropic source distribution that is modeled as .cos θ Neutral particles emitted from the source and arriving at a surface point can directly react onj the point or can be reemitted several times fr...
+  - _Keywords:_ surface, neutral, Gamma_, Gamma, mathrm, incoming, reemitted, between
+- **Ions** <a id="ions"></a>
+  - The ion flux is characterized by a directional angular source distribution. The source distribution is either modeled as , where the exponent controls the flux anisotropy, orcos θm m specified as an arbitrary ion angular distribution (IA...
+  - _Keywords:_ distribution, angular, source, define, characterized, directional, either, modeled
+- **Analytic Ion Angular Distribution** _(p.47)_ <a id="analytic-ion-angular-distribution"></a>
+  - A good approximation to measure IADs can be obtained by defining the IAD analytically as:
+  - _Keywords:_ surface, obtained, integrated, unshadowed, normalized, etching, deposition, approximation
+- **User-Defined Ion Angular Distribution** _(p.47)_ <a id="user-defined-ion-angular-distribution"></a>
+  - The flux models of Sentaurus Topography 3D allow the definition of user-defined IADs, which can have been obtained by measurement or from plasma simulations. Arbitrary IADs can be defined or loaded using the define\_iad command (see defi...
+  - _Keywords:_ defined, IADs, models, define, Sentaurus, Topography, definition, obtained
+- **Sputtering** _(p.48–49)_ <a id="sputtering"></a>
+  - High-energy ions can sputter some substrate material. The sputter etch rate depends greatly on the impact angle $\theta _ { \mathrm { i m } }$ of the ions (the angle between the normal of the surface element and the incoming ion directio...
+  - _Keywords:_ mathrm, distribution, sputtered, angular, material, surface, direction, theta_
+- **Reflection** _(p.49)_ <a id="reflection"></a>
+  - Low-energy ions with a large incident angle have a larger probability of being reflected by walls (see Figure 14). This is an important phenomenon that contributes to microtrenching at the bottom of sidewalls. The probability that an ion...
+  - _Keywords:_ reflected, theta_, mathrm, energy, probability, microtrenching, bottom, reflection
+- **Numeric Modeling** _(p.50–51)_ <a id="numeric-modeling"></a>
+  - The number of incoming (neutral or ion) particles on a surface element is calculated by integrating the various contributions to the total flux. Sentaurus Topography 3D offers two different numeric methods to perform the flux integration...
+  - _Keywords:_ Yes, integration, method, methods, support, models, numeric, perform
+- **Radiosity Method** _(p.51)_ <a id="radiosity-method"></a>
+  - The radiosity method is a numeric method that solves Eq. 2, p. 33 by evaluating the direct flux $\Gamma _ { \mathrm { d i r e c t } }$ and then by inverting the linear system matrix to find the unknown fluxes at each surface point.
+  - _Keywords:_ method, radiosity, system, matrix, inverting, linear, surface, therefore
+- **NOTE The following limitations apply:** <a id="note-the-following-limitations-apply"></a>
+  - The only supported flux integration method for 2D structures is the radiosity method. The boundary condition type reflective is not supported for the indirect flux calculation for 2D structures. The radiosity method does not provide accu...
+  - _Keywords:_ method, structures, supported, radiosity, integration, boundary, condition, reflective
+- **Monte Carlo Method** _(p.52)_ <a id="monte-carlo-method"></a>
+  - In the Monte Carlo method, neutral or ion particles are sent randomly from the top of the simulation domain to the structure. These particles interact with the surface and can be adsorbed or reemitted, and can sputter some material. The ...
+  - _Keywords:_ method, Monte, Carlo, particles, simulation, radiosity, integration, surface
+- **Orientation-Dependent Models** _(p.53)_ <a id="orientation-dependent-models"></a>
+  - Sentaurus Topography 3D supports two methods for orientation-dependent etching or deposition modeling when using the level-set method: the built-in crystal models and the function directional\_value() in the rate formula module (RFM) (se...
+  - _Keywords:_ orientation, crystal, _orientation, RFM, region, directional, _value, formula
+- **Setting Crystallographic Orientations** _(p.53)_ <a id="setting-crystallographic-orientations"></a>
+  - When using a model with orientation-dependent rates, the crystallographic orientations must be defined with respect to the wafer coordinate system.
+  - _Keywords:_ orientation, _orientation, structure, define, _structure, crystallographic, created, vertical
+- **Continuously Rotating and Tilted Structure Modeling** _(p.54)_ <a id="continuously-rotating-and-tilted-structure-modeling"></a>
+  - Sentaurus Topography 3D allows you to model etching, deposition, and simultaneous etching and deposition processes for tilted structures with a continuously increasing value of their rotation angle (see Structure Tilt on page 19).
+  - _Keywords:_ species, equivalence, define, _machine, structure, angular, different, tilted
+- **Modeling Chemical-Mechanical Polishing Processes** _(p.55–56)_ <a id="modeling-chemical-mechanical-polishing-processes"></a>
+  - When using the level-set method, Sentaurus Topography 3D allows you to model chemicalmechanical polishing (CMP) processes at feature scale, using the RFM function pad\_pressure() (see Data Available for Rate Calculation on page 249).
+  - _Keywords:_ _pressure, define, _machine, pressure, distribution, asperities, method, RFM
+- **Flux and Flux-Emulating Models** _(p.56)_ <a id="flux-and-flux-emulating-models"></a>
+  - This section presents an overview of the flux and flux-emulating level set–based models available in Sentaurus Topography 3D. Flux and flux-emulating models require flux computations or approximate flux quantities using purely geometric ...
+  - _Keywords:_ emulating, models, quantities, Models, presents, overview, available, Sentaurus
+- **Flux and Flux-Emulating Deposition Models** <a id="flux-and-flux-emulating-deposition-models"></a>
+  - Table 5 provides an overview of all flux and flux-emulating deposition models available in Sentaurus Topography 3D.
+  - _Keywords:_ Yes, exponent, anisotropy, sticking, redeposition, emulating, deposition, models
+- **Flux and Flux-Emulating Etching and Simultaneous Etching and Deposition Models** _(p.57–58)_ <a id="flux-and-flux-emulating-etching-and-simultaneous-etching-and"></a>
+  - Table 6 and Table 7 on page 46 give an overview of etching, and simultaneous etching and deposition, flux and flux-emulating models available in Sentaurus Topography 3D.
+  - _Keywords:_ Yes, exponent, anisotropy, reflection, sticking, etching, Ion, emulating
+- **Deposition Models** _(p.58)_ <a id="deposition-models"></a>
+- **Simple Deposition** _(p.58–59)_ <a id="simple-deposition"></a>
+  - Set model=simple in the define\_deposit\_machine command to define a simple deposition machine (see define\_deposit\_machine on page 107).
+  - _Keywords:_ deposition, surface, curvature, define, isotropic, vector, simple, _deposit
+- **Physical Vapor Deposition** _(p.60)_ <a id="physical-vapor-deposition"></a>
+  - Set model=pvd in the define\_deposit\_machine command to define a physical vapor deposition (PVD) machine (see define\_deposit\_machine on page 107).
+  - _Keywords:_ deposition, define, surface, _deposit, _machine, physical, PVD, processes
+- **Low-Pressure Chemical Vapor Deposition** <a id="low-pressure-chemical-vapor-deposition"></a>
+  - Set model=lpcvd in the define\_deposit\_machine command to define a low-pressure chemical vapor deposition (LPCVD) machine (see define\_deposit\_machine on page 107).
+  - _Keywords:_ define, deposition, _deposit, _machine, chemical, LPCVD, surface, sticking
+- **Plasma-Enhanced Chemical Vapor Deposition** _(p.61)_ <a id="plasma-enhanced-chemical-vapor-deposition"></a>
+  - Set model=pecvd in the define\_deposit\_machine command to define a plasmaenhanced chemical vapor deposition (PECVD) machine (see define\_deposit\_machine on page 107).
+  - _Keywords:_ deposition, define, _deposit, _machine, defined, Gamma_, plasmaenhanced, chemical
+- **High-Density Plasma Deposition** _(p.61–62)_ <a id="high-density-plasma-deposition"></a>
+  - Set model=hdp in the define\_deposit\_machine command to define a high-density plasma (HDP) deposition machine (see define\_deposit\_machine on page 107).
+  - _Keywords:_ deposition, mathrm, Gamma_, sputtering, surface, sputtered, material, sputter
+- **High-Density Plasma 2 Deposition** _(p.62)_ <a id="high-density-plasma-2-deposition"></a>
+  - Set model=hdp2 in the define\_deposit\_machine command to define a high-density plasma 2 (HDP2) deposition machine (see define\_deposit\_machine on page 107).
+  - _Keywords:_ Gamma, sputter, mathrm, reflection, HDP2, deposition, define, HDP
+- **Electrodeposition** _(p.63–65)_ <a id="electrodeposition"></a>
+  - Set model=electrodeposition in the define\_deposit\_machine command to define an electrodeposition machine (see define\_deposit\_machine on page 107).
+  - _Keywords:_ mathrm, surface, plating, species, concentration, specified, accelerators, overpotential
+- **Electroplating Deposition** _(p.66)_ <a id="electroplating-deposition"></a>
+  - Set model=electroplating in the define\_deposit\_machine command to define an electroplating machine (see define\_deposit\_machine on page 107).
+  - _Keywords:_ surface, coverage, accelerators, trench, define, accelerator, electroplating, _deposit
+- **where:** _(p.66)_ <a id="where"></a>
+  - $R _ { 0 }$ is the deposition rate (parameter rate). $C _ { \mathrm { a c c e l } }$ is the accelerator coverage on the surface. The total number of accelerators is conserved over time. ■ $C _ { \mathrm { i n h i b } }$ is the inhibitor ...
+  - _Keywords:_ coverage, mathrm, surface, inhibitors, deposition, accelerator, accelerators, conserved
+- **Crystallographic Orientation–Dependent Deposition** <a id="crystallographic-orientation-dependent-deposition"></a>
+  - Set model=crystal in the define\_deposit\_machine command to define a crystallographic orientation–dependent deposition machine (see define\_deposit\_machine on page 107).
+  - _Keywords:_ deposition, define, _deposit, _machine, crystallographic, orientation, _orientation, exposed
+- **Etching Models** <a id="etching-models"></a>
+- **Simple Etching** _(p.67)_ <a id="simple-etching"></a>
+  - Set model=simple in the define\_etch\_machine command to define a simple etching machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ surface, etching, curvature, material, define, directional, simple, _machine
+- **Ion-Milling** _(p.68)_ <a id="ion-milling"></a>
+  - Set model=ionmill in the define\_etch\_machine command to define an ion-mill etching machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ define, surface, mathrm, material, _machine, etching, defined, anisotropy
+- **Reactive Ion Etching** _(p.68)_ <a id="reactive-ion-etching"></a>
+  - Set model=rie in the define\_etch\_machine command to define a reactive ion etch (RIE) machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ define, process, anisotropic, _machine, isotropic, emulates, anisotropy, reactive
+- **Reactive Ion Etching 2** _(p.69)_ <a id="reactive-ion-etching-2"></a>
+  - Set model=rie2 in the define\_etch\_machine command to define a reactive ion etch 2 (RIE2) machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ material, define, RIE2, neutral, described, _machine, induced, surface
+- **High-Density Plasma Etching** _(p.70)_ <a id="high-density-plasma-etching"></a>
+  - Set model=hdp in the define\_etch\_machine command to define a high-density plasma (HDP) etching machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ anisotropic, process, isotropic, surface, define, plasma, anisotropy, defined
+- **High-Density Plasma 2 Etching** _(p.70)_ <a id="high-density-plasma-2-etching"></a>
+  - Set model=hdp2 in the define\_etch\_machine command to define a high-density plasma 2 (HDP2) etching machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ material, define, HDP2, neutral, Gamma_, mathrm, _machine, etching
+- **Ion-Enhanced Etching** _(p.71)_ <a id="ion-enhanced-etching"></a>
+  - Set model=ion\_enhanced in the define\_etch\_machine command to define an ionenhanced etching machine. (see define\_etch\_machine on page 115)
+  - _Keywords:_ etching, neutrals, mathrm, surface, material, define, neutral, desorption
+- **Wet Etching** <a id="wet-etching"></a>
+  - Set model=wet in the define\_etch\_machine command to define a wet etching machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ define, etchant, structure, _machine, assumes, surface, etching, machine
+- **Dry Etching** _(p.72)_ <a id="dry-etching"></a>
+  - Set model=dry in the define\_etch\_machine command to define a dry etching machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ define, deposition, _machine, etching, mathrm, surface, sputter, process
+- **Crystallographic Orientation–Dependent Etching** <a id="crystallographic-orientation-dependent-etching"></a>
+  - Set model=crystal in the define\_etch\_machine command to define a crystallographic orientation–dependent etching machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ define, _machine, crystallographic, etching, material, orientation, etched, exposed
+- **Simultaneous Etching and Deposition** _(p.73)_ <a id="simultaneous-etching-and-deposition"></a>
+  - Set model=etchdepo in the define\_etch\_machine command to define a simultaneous etching and deposition machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ deposition, sputter, Gamma_, sputtered, define, etching, process, material
+- **where:** _(p.74)_ <a id="where"></a>
+  - $R _ { \mathrm { d e p o s i t i o n } }$ is the deposition rate on a completely flat surface; parameter rate in the command define\_etch\_machine. $R _ { \mathrm { e t c h } , m }$ is the etching rate on a completely flat surface for ma...
+  - _Keywords:_ material, mathrm, _material, sputter, deposition, completely, surface, etching
+- **Simultaneous Etching and Deposition 2** _(p.74)_ <a id="simultaneous-etching-and-deposition-2"></a>
+  - Set model=etchdepo2 in the define\_etch\_machine command to define a simultaneous etching and deposition 2 machine (see define\_etch\_machine on page 115).
+  - _Keywords:_ deposition, etching, Gamma_, polymer, process, mathrm, define, enhanced
+- **where:** _(p.75)_ <a id="where"></a>
+  - $R _ { \mathrm { d e s } , m }$ is the thermal desorption rate for material m; parameter desorption\_rate in the command add\_material. ■ $A _ { m }$ is the anisotropy for material m; parameter anisotropy in the command add\_material. $\...
+  - _Keywords:_ mathrm, material, _material, Gamma, desorption, anisotropy, neutrals, computed
+- **Spin-on-Glass Deposition Model** _(p.75)_ <a id="spin-on-glass-deposition-model"></a>
+  - The spin\_on model is used to determine the spin-on material profile over a given topographic substrate. The profile evolution of the film is computed by solving the Navier–Stokes equations under the lubrication theory for Newtonian flui...
+  - _Keywords:_ material, profile, density, angular, evolution, computed, initial, centrifugal
+- **Reaction Models** _(p.76)_ <a id="reaction-models"></a>
+  - Reaction models provide a very powerful and flexible means of describing the physical and chemical effects that occur on a wafer surface due to interaction with plasma species. Basic effects such as adsorption, reemission, sputtering, an...
+  - _Keywords:_ species, reaction, define, source, surface, _species, reactions, _reaction
+- **Plasma Models** <a id="plasma-models"></a>
+  - Plasma etching processes depend crucially on the energy and angular distribution (IEAD) of the ions arriving at the wafer surface. These ions are created in the plasma bulk, which can be considered an electrically neutral cloud of free c...
+  - _Keywords:_ plasma, surface, sheath, etching, IEAD, These, different, coupled
+- **Benoit-Cattin Plasma Sheath Model for CCP Reactors** _(p.77–78)_ <a id="benoit-cattin-plasma-sheath-model-for-ccp-reactors"></a>
+  - The Benoit-Cattin plasma sheath model is an analytic model that describes a radio frequency (RF) collisionless plasma sheath in CCP reactors [11][12][13]. You specify the model using the define\_species\_distribution command with type=cc...
+  - _Keywords:_ mathrm, energy, sheath, distribution, voltage, overline, plasma, MHz
+- **Edelberg–Aydil Plasma Sheath Model for ICP Reactors** _(p.79–80)_ <a id="edelberg-aydil-plasma-sheath-model-for-icp-reactors"></a>
+  - The Edelberg–Aydil plasma sheath model is a numeric model of the RF collisionless plasma sheath in ICP reactors [11][15]. You specify the model using the define\_species\_distribution command with type=icp\_sheath (see define\_species\_d...
+  - _Keywords:_ mathrm, sheath, plasma, potential, temperature, current, denotes, Edelberg
+- **Feedback of Surface Reaction Products** _(p.80–81)_ <a id="feedback-of-surface-reaction-products"></a>
+  - During a topography-processing step, a significant amount of surface reaction products is produced, which desorb from the wafer and interact with the plasma source [16]. In the following, these surface reaction products are referred to a...
+  - _Keywords:_ plasma, mathrm, reaction, feedback, SiCl, surface, source, byproducts
+- **References** _(p.81–82)_ <a id="references"></a>
+  - [1] J. Li, Topography Simulation of Intermetal Dielectric Deposition and Interconnection Metal Deposition Processes, Ph.D. thesis, Stanford University, Stanford, CA, USA, March 1996. [2] T. Mizuno et al., “Analytical Model for Oblique Io...
+  - _Keywords:_ Journal, Physics, Topography, Deposition, Stanford, Ion, Surface, IEEE
+- **3: Model Descriptions** _(p.82–83)_ <a id="3-model-descriptions"></a>
+  - References
+  - _Keywords:_ mathrm, Journal, distribution, biased, plasma, Applied, Physics, density
+- **Syntax of Commands and Parameters** _(p.83–86)_ <a id="syntax-of-commands-and-parameters"></a>
+  - All commands in Sentaurus Topography 3D follow the general structure:
+  - _Keywords:_ structure, Defines, reaction, Adds, RFM, deposition, specified, etching
+- **add\_float\_parameter** _(p.86–87)_ <a id="add-float-parameter"></a>
+  - The add\_float\_parameter adds a new user-defined parameter for floating-point values to the specified RFM model.
+  - _Keywords:_ quantity, optional, specified, character, description, material, defined, RFM
+- **4: Input Commands add\_float\_parameter** _(p.88–89)_ <a id="4-input-commands-add-float-parameter"></a>
+  - The parameter default specifies which value to assign to the new added parameter for unknown materials as well as which value to assign if the parameter is optional.
+  - _Keywords:_ specifies, assign, quantity, defined, etching, unknown, materials, optional
+- **add\_flux\_properties** _(p.89–90)_ <a id="add-flux-properties"></a>
+  - The add\_flux\_properties command specifies the parameters of a flux associated with an RFM model. There are different forms of the command for neutral and ion fluxes.
+  - _Keywords:_ material, sticking, machine, sputter, specified, coefficient, add_flux_properties, character
+- **Example** _(p.90–91)_ <a id="example"></a>
+  - ```txt define_model name=m type=deposit description="
+  - _Keywords:_ sticking, sputter, sputter_exponent, deposition, add_flux_properties, Define, enabled, exponent
+- **add\_formula** _(p.91–92)_ <a id="add-formula"></a>
+  - The add\_formula command defines the formula for calculating the deposition or etching rate. To make it easier to develop and maintain an RFM model, you can define subexpressions and use them in the definition of subsequent subexpression...
+  - _Keywords:_ material, subexpression, character, formula, expression, add_formula, _formula, deposition
+- **4: Input Commands** _(p.92–93)_ <a id="4-input-commands"></a>
+  - add\_formula
+  - _Keywords:_ formula, material, _formula, etching, independent, dependent, define, specific
+- **add\_int\_parameter** _(p.93–95)_ <a id="add-int-parameter"></a>
+  - The add\_int\_parameter adds a new user-defined parameter for integer values to the specified RFM model.
+  - _Keywords:_ optional, integer, specified, character, material, defined, description, etching
+- **add\_interface\_layer** _(p.95–97)_ <a id="add-interface-layer"></a>
+  - The add\_interface\_layer command adds a layer across the interface between two different materials, where a numeric material-dependent parameter can take positiondependent values, and specifies the spatially dependent values of that par...
+  - _Keywords:_ material, specified, interface, vector, material1, material2, machine, character
+- **Examples** _(p.97–98)_ <a id="examples"></a>
+  - The following commands define an etch machine using the simple model, where the rate parameter values vary linearly across the interfaces between silicon and oxide:
+  - _Keywords:_ add_material, material, anisotropy, curvature, simple, Silicon, Oxide, define
+- **In particular:** _(p.98)_ <a id="in-particular"></a>
+  - The value of the rate parameter is for points that are located in a region1 μm/min occupied by material Silicon and with a distance from a silicon–oxide interface greater than .0.1 μm The value of the rate parameter is for points that ar...
+  - _Keywords:_ material, silicon, interface, located, points, occupied, Silicon, Oxide
+- **In particular:** _(p.99)_ <a id="in-particular"></a>
+  - The value of the R parameter is for points that are located in a region occupied1 μm/min by material Silicon and with a distance from a silicon–oxide interface greater than 2 nm. The value of the R parameter is for points that are locate...
+  - _Keywords:_ interface, silicon, located, region, piecewise, points, material, distance
+- **add\_ion\_flux** _(p.99–101)_ <a id="add-ion-flux"></a>
+  - The add\_ion\_flux command adds a new ion flux to the specified RFM model.
+  - _Keywords:_ character, material, energy, sputtering, sticking, whether, sputtered, reflection
+- **add\_litho\_command** _(p.101–102)_ <a id="add-litho-command"></a>
+  - The add\_litho\_command command adds a Sentaurus Lithography Tcl command to a lithography machine identified by its name. A lithography machine must be created with the define\_litho\_machine command before using the add\_litho\_command ...
+  - _Keywords:_ Sentaurus, _litho, machine, _command, Lithography, Tcl, lithography, character
+- **add\_material** _(p.102–104)_ <a id="add-material"></a>
+  - The add\_material command defines the material-dependent properties of an etch machine (define\_etch\_machine). The parameters for different models are defined as follows:
+  - _Keywords:_ material, machine, etching, add_material, anisotropy, reflection, _material, sticking
+- **Examples** _(p.104–105)_ <a id="examples"></a>
+  - This command configures the material-dependent parameters of the previously defined machine etchmachine for the material Silicon, with rate of , an anisotropy0.5 μm/minute coefficient of 0.3, and a curvature coefficient of :0.05 μm
+  - _Keywords:_ material, defined, machine, etchmachine, Silicon, coefficient, curvature, configures
+- **add\_neutral\_flux** _(p.105–106)_ <a id="add-neutral-flux"></a>
+  - The add\_neutral\_flux command adds a new neutral flux to the specified RFM model.
+  - _Keywords:_ sticking, neutral, _neutral, RFM, coefficient, character, define, _properties
+- **add\_reaction** _(p.106–107)_ <a id="add-reaction"></a>
+  - The add\_reaction command defines a reaction of a reaction model.
+  - _Keywords:_ reaction, species, _reaction, expression, chemical, character, consists, product
+- **Limitations** _(p.107)_ <a id="limitations"></a>
+  - The following limitations apply:
+  - _Keywords:_ species, reaction, modifier, reactor, tracked, limitations, exactly, reactants
+- **Example of Adsorption Reaction** <a id="example-of-adsorption-reaction"></a>
+  - The following statement adds a reaction named r1 to the model reaction\_model:
+  - _Keywords:_ reaction, SiF, expression, Silicon, molecule, statement, _model, python
+- **Example of Etching Reactions** _(p.108)_ <a id="example-of-etching-reactions"></a>
+  - The following statements add two reactions r2 and r3 to the model reaction\_model:
+  - _Keywords:_ Silicon, reaction, reactor, structure, add_reaction, reaction_model, expression, SiCl
+- **Example of Deposition Reactions** _(p.108)_ <a id="example-of-deposition-reactions"></a>
+  - The following statement adds a reaction named r4 to the model reaction\_model:
+  - _Keywords:_ Silicon, reaction, expression, SiH2, add_reaction, reaction_model, molecule, species
+- **Example of Sputtering Reactions** _(p.109)_ <a id="example-of-sputtering-reactions"></a>
+  - The following statements add two reactions r5 and r6 to the model reaction\_model:
+  - _Keywords:_ Photoresist, reaction, Silicon, sputtered, structure, tracked, add_reaction, reaction_model
+- **Example of Reflection Reaction** _(p.109)_ <a id="example-of-reflection-reaction"></a>
+  - The following statement adds a reaction named r7 to the model reaction\_model:
+  - _Keywords:_ Nitride, reaction, statement, _model, add_reaction, reaction_model, expression, According
+- **Example of Top Plane Reactions** _(p.110)_ <a id="example-of-top-plane-reactions"></a>
+  - The following statement adds a plasma depletion reaction between gaseous surface reaction byproducts and a top plane species in the plasma source:
+  - _Keywords:_ plasma, reaction, SiCl, between, surface, generic, statement, gaseous
+- **add\_reaction\_properties** _(p.110–112)_ <a id="add-reaction-properties"></a>
+  - The add\_reaction\_properties command specifies the parameters of a reaction.
+  - _Keywords:_ reaction, energy, probability, distribution, machine, specified, Specifies, exponent
+- **In Eq. 46:** _(p.113)_ <a id="in-eq-46"></a>
+  - $p ( \boldsymbol { \Theta } )$ denotes the probability specified with the p parameter or the angle-dependent probability function specified with the probability parameter. $E _ { \mathrm { a } }$ denotes the value given to the activation...
+  - _Keywords:_ mathrm, probability, energy, specified, dependent, boldsymbol, denotes, activation
+- **In Eq. 47:** _(p.113–116)_ <a id="in-eq-47"></a>
+  - denotes the probability specified with the p parameter or the angle-dependentp( ) θ probability function specified with the probability parameter. It is the probability when the energy is greater than or equal to the value specified by t...
+  - _Keywords:_ energy, species, product, sputter, _energy, probability, surface, normal
+- **add\_source\_species** _(p.116–117)_ <a id="add-source-species"></a>
+  - The add\_source\_species command adds a new source species to the specified reaction model.
+  - _Keywords:_ source, species, _source, _species, reaction, character, specified, add_source_species
+- **define\_boundary\_conditions** _(p.117)_ <a id="define-boundary-conditions"></a>
+  - The define\_boundary\_conditions command defines the boundary conditions to apply when using a structure in a simulation.
+  - _Keywords:_ reflective, boundary, conditions, simulation, character, domain, structure, minimum
+- **Examples** <a id="examples"></a>
+  - This command sets the boundary conditions on the two x-bounding planes of the structure called default\_structure and uses the default ones on the two y-bounding planes. The plane with the minimum will be considered as a reflective bound...
+  - _Keywords:_ boundary, bounding, planes, reflective, conditions, structure, called, _structure
+- **NOTE The following limitations or conditions apply:** _(p.119)_ <a id="note-the-following-limitations-or-conditions-apply"></a>
+  - When using a level set–based model, the boundary conditions are set automatically to none in the planes in which a user-defined tilt breaks the symmetry. When using the PMC method, periodic boundary conditions are applied automatically t...
+  - _Keywords:_ conditions, boundary, define, _boundary, _conditions, specified, defined, PMC
+- **define\_deposit\_machine** _(p.119–126)_ <a id="define-deposit-machine"></a>
+  - The define\_deposit\_machine command defines a new machine for a deposition process. A deposition model can be specified with the parameter model. Parameters for different models are defined as follows.
+  - _Keywords:_ deposition, material, surface, rotation, concentration, define_deposit_machine, overpotential, deposited
+- **Examples** _(p.126–127)_ <a id="examples"></a>
+  - This command defines a machine with the name simpledepo for a silicon deposition process that uses the model simple. It sets the anisotropy coefficient to 0.5, the curvature coefficient to , and the deposition rate to :0.05 μm 1 μm/minute
+  - _Keywords:_ simpledepo, simple, anisotropy, curvature, deposition, coefficient, define_deposit_machine, material
+- **define\_etch\_machine** _(p.127–131)_ <a id="define-etch-machine"></a>
+  - The define\_etch\_machine command defines a new machine for an etching model, or a simultaneous etching and deposition model, or a deposition reaction model. The parameters defined with the define\_etch\_machine command are material inde...
+  - _Keywords:_ rotation, etching, define_etch_machine, reaction, RFM, character, species, machine
+- **Examples** _(p.132)_ <a id="examples"></a>
+  - This command defines a machine with the name etchmachine for an etching process that uses the model simple:
+  - _Keywords:_ etchmachine, simple, define, _machine, rotation, defines, machine, etching
+- **define\_extraction** _(p.132–134)_ <a id="define-extraction"></a>
+  - The define\_extraction command allows you to define extractions that can be used during a deposition step or an etching step.
+  - _Keywords:_ extraction, character, define, property, defined, region, _extraction, specification
+- **Examples** _(p.134–135)_ <a id="examples"></a>
+  - ```shell define_extraction name=extr axis=z point={0.2 0.2 0} type=probe \ property=length materials=Silicon file=output.tdr define_extraction name=extr axis=z point={0.2 0.2 1} type=interface \ tcl_output_variable=res etch time=1 spacin...
+  - _Keywords:_ extraction, interface, define_extraction, Silicon, extract, specified, result, property
+- **define\_iad** _(p.135–137)_ <a id="define-iad"></a>
+  - The define\_iad command defines a new ion angular distribution (IAD) that can be used in a flux model. IADs can be defined by either using a tabular format, reading them from a TDR file, or specifying the exponent of an analytic distribu...
+  - _Keywords:_ distribution, IAD, define_iad, species, energy, defined, exponent, angular
+- **Examples** _(p.138)_ <a id="examples"></a>
+  - This command loads an IAD with the TDR geometry name iad\_1 from the file iad.tdr:
+  - _Keywords:_ IAD, Tcl, define_iad, variable, angles, column, represents, TDR
+- **define\_layout** _(p.138–139)_ <a id="define-layout"></a>
+  - The define\_layout command reads a GDSII, an OASIS, or a TCAD layout file, which can then be used to create logical masks with the define\_mask command (see define\_mask on page 129).
+  - _Keywords:_ layout, character, GDSII, OASIS, domain, define, TCAD, layer_numbers
+- **Examples** _(p.139–140)_ <a id="examples"></a>
+  - Read a layout from a GDSII file:
+  - _Keywords:_ Read, layout, GDSII, define_layout, A10, domain_max, domain_min, layer_names
+- **define\_litho\_machine** _(p.140–141)_ <a id="define-litho-machine"></a>
+  - The define\_litho\_machine command defines a new machine for a lithography process. A lithography machine and its properties are used in a lithography simulation when the name of the machine is specified with the machine parameter in the...
+  - _Keywords:_ machine, _litho, define, _machine, lithography, process, defined, defines
+- **define\_mask** _(p.141–142)_ <a id="define-mask"></a>
+  - The define\_mask command defines a new logical mask.
+  - _Keywords:_ operation, character, logical, operations, define_mask, complement, polygons, difference
+- **NOTE The following limitations apply:** _(p.142–143)_ <a id="note-the-following-limitations-apply"></a>
+  - When performing an operation on two input masks to create a new mask, the domains of the input masks must match. Since a domain contains only a small part of the layout, shifting the layout might result in the mask only partially coverin...
+  - _Keywords:_ domain, layout, simulation, stroke, details, summary, Transformed, Grid
+- **define\_model** _(p.143–144)_ <a id="define-model"></a>
+  - The define\_model command starts the definition of a new RFM model or a reaction model.
+  - _Keywords:_ define, specified, _model, description, character, defined, assumed, RFM
+- **define\_probability** _(p.144–146)_ <a id="define-probability"></a>
+  - The define\_probability command defines a new energy- and angle-dependent probability (hereafter, referred to as the probability function).
+  - _Keywords:_ energy, probability, define, syntax, dependent, define_probability, expression, specified
+- **define\_reflection** _(p.146–148)_ <a id="define-reflection"></a>
+  - The define\_reflection command specifies the properties of a new reflection function that depends on the ion species, the ion energy, and the surface material.
+  - _Keywords:_ reflection, energy, species, material, define_reflection, specified, define, surface
+- **define\_shape** _(p.148–150)_ <a id="define-shape"></a>
+  - The define\_shape command defines a new shape for a geometric etch or deposit step.
+  - _Keywords:_ circle, cylinder, rectangle, radius, define_shape, refinement, sphere, center
+- **Examples** _(p.150–152)_ <a id="examples"></a>
+  - This command defines a 2D circle with center {0.0 0.0}, radius , and name1.0 μm circle\_1:
+  - _Keywords:_ defines, define_shape, pyramid, radius, subsequent, etching, deposition, point_max
+- **define\_species\_distribution** _(p.152–158)_ <a id="define-species-distribution"></a>
+  - The define\_species\_distribution command defines a new energy and angular distribution that can be used in a reaction model. As a special case, it allows you to define angular distributions that are energy independent.
+  - _Keywords:_ energy, distribution, species, specified, mathrm, angular, plasma, sheath
+- **Examples: HPEM Simulator** _(p.159)_ <a id="examples-hpem-simulator"></a>
+  - An energy and angular distribution computed by the PCMC module of the HPEM simulator for species AR^ and stored in a file named pcmc.prof can be imported with the following command:
+  - _Keywords:_ energy, species, HPEM, define, specified, angular, distribution, computed
+- **Examples: Benoit-Cattin Plasma Sheath Model** <a id="examples-benoit-cattin-plasma-sheath-model"></a>
+  - An energy ion mass $m _ { \mathrm { i } } = 6 . 6 3 \cdot 1 0 ^ { - 2 3 } \mathrm { g }$ ion computed by the, ion temperature $T _ { \mathrm { i } } = 0 . 3 3 \mathrm { e V }$ model for species Ar with, and ion bulk density $n _ { \mathr...
+  - _Keywords:_ mathrm, voltage, species, sheath, temperature, applied, define_species_distribution, my_dist
+- **Examples: Edelberg–Aydil Plasma Sheath Model** _(p.160)_ <a id="examples-edelberg-aydil-plasma-sheath-model"></a>
+  - An energy and angular distribution computed by the Edelberg–Aydil model for species Ar with ion mass $m _ { \mathrm { i } } = 6 . 6 3 \cdot 1 0 ^ { - 2 3 } \mathrm { g }$ , ion temperature $T _ { \mathrm { i } } = 0 . 3 3 \mathrm { e V }...
+  - _Keywords:_ mathrm, species, applied, temperature, current, define_species_distribution, my_dist, icp_sheath
+- **Examples: Importing an EAD File** <a id="examples-importing-an-ead-file"></a>
+  - To import a distribution function from an EAD file my\_sd.txt, use the following command:
+  - _Keywords:_ import, distribution, EAD, define, _species, _distribution, species
+- **Syntax for Expressions** _(p.161–162)_ <a id="syntax-for-expressions"></a>
+  - The syntax for expressions consists of the following components:
+  - _Keywords:_ period, square, _cycle, _pulse, denotes, positive, condition, dependent
+- **define\_species\_properties** _(p.162–163)_ <a id="define-species-properties"></a>
+  - The define\_species\_properties command defines the properties of a species used in a reaction model.
+  - _Keywords:_ species, define, _species, _properties, properties, reaction, character, structure
+- **define\_structure** _(p.163–165)_ <a id="define-structure"></a>
+  - The define\_structure command defines a new structure. The structure can be loaded from a TDR boundary file, or it can be a cuboid (3D) or a rectangle (2D). For a PMC simulation, the structure can also be loaded from a PMC file or from a...
+  - _Keywords:_ structure, character, TDR, PMC, loaded, slice_angle, region, vector
+- **Examples** _(p.165–166)_ <a id="examples"></a>
+  - Example of conformal input:
+  - _Keywords:_ structure, conformal, define, _structure, TDR, geometry, imports, boundaries
+- **Loading a PMC Structure** _(p.166–167)_ <a id="loading-a-pmc-structure"></a>
+  - A PMC structure is loaded from a PMC file with the define\_structure command when the parameter pmc\_file is used.
+  - _Keywords:_ PMC, structure, loaded, initial, _structure, Sentaurus, define, contains
+- **define\_yield** _(p.167–172)_ <a id="define-yield"></a>
+  - The define\_yield command specifies the properties of a new yield function that depends on the species of the incoming particles, its energy, and the target surface material. When defining a yield function for a machine using an RFM mode...
+  - _Keywords:_ energy, species, material, specified, expression, define_yield, sputtering, character
+- **deposit** _(p.172–175)_ <a id="deposit"></a>
+  - The deposit command starts a deposition simulation either by using a machine defined using the define\_deposit\_machine command or by geometrically depositing a shape defined by the define\_shape command.
+  - _Keywords:_ surface, character, engine, machine, Specifies, structure, region, process
+- **NOTE The following limitations apply:** _(p.175–176)_ <a id="note-the-following-limitations-apply"></a>
+  - The parameter structure cannot specify a PMC structure. To process such a structure, an explicit conversion of the structure is needed before calling the deposit command (see Integration With Other Sentaurus Topography 3D Functionality o...
+  - _Keywords:_ structure, supported, written, having, crystal, direction, equivalent, cannot
+- **Examples** _(p.176)_ <a id="examples"></a>
+  - Example of a deposition process using a machine:
+  - _Keywords:_ process, machine, deposit, deposition, depomachine, spacing, structure, simulation
+- **The stop\_plane and stop\_point Parameters** _(p.177–178)_ <a id="the-stop-plane-and-stop-point-parameters"></a>
+  - The parameters stop\_plane and stop\_point of the deposit command allow you to stop time-stepping when a specified plane or point has been reached before the final process time.
+  - _Keywords:_ specified, _point, reached, _plane, exposed, surface, process, computational
+- **Examples:** <a id="examples"></a>
+  - This command specifies a stop plane for deposition on a 2D or 3D structure:
+  - _Keywords:_ specifies, deposition, structure, deposit, spacing, stop_point, stop_plane
+- **TDR Dataset Names for Fluxes** _(p.179)_ <a id="tdr-dataset-names-for-fluxes"></a>
+  - For models that calculate ion or neutral fluxes, the values of the fluxes are written to TDR datasets when using the parameter plot\_interval.
+  - _Keywords:_ surface, element, direct, reactive, incoming, reflected, fluxes, models
+- **etch** _(p.179–186)_ <a id="etch"></a>
+  - The etch command starts an etching simulation or a simultaneous etching and deposition simulation, as well as a deposition simulation based on a reaction model, and can be used in one of the following ways:
+  - _Keywords:_ structure, character, surface, Specifies, etching, method, process, specified
+- **NOTE The following limitations apply:** _(p.186–187)_ <a id="note-the-following-limitations-apply"></a>
+  - When method=pmc, the grid spacing specified with the parameter spacing is ignored if the structure specified with the parameter structure stores the result of a previous simulation using the PMC method. When running a simulation with a m...
+  - _Keywords:_ specified, _interval, written, structure, simulation, vertical, crystal, equivalent
+- **Examples** _(p.187–188)_ <a id="examples"></a>
+  - Example of an etch process using an etch machine:
+  - _Keywords:_ process, machine, surface, etchmachine, spacing, structure, simulation, comment
+- **The stop\_material, stop\_plane, and stop\_point Parameters** <a id="the-stop-material-stop-plane-and-stop-point-parameters"></a>
+  - The stop\_plane and stop\_point parameters can be used with the etch command in the same way as for the deposit command. For details, see The stop\_plane and stop\_point Parameters on page 165.
+  - _Keywords:_ specified, _plane, _point, intersect, computational, domain, addition, exposed
+- **TDR Dataset Names for Fluxes** _(p.189)_ <a id="tdr-dataset-names-for-fluxes"></a>
+  - For models that calculate ion or neutral fluxes, the values of the fluxes are written to TDR datasets when using the parameter plot\_interval.
+  - _Keywords:_ surface, element, direct, reactive, incoming, reflected, fluxes, models
+- **Variance Reduction in PMC Simulations** _(p.190)_ <a id="variance-reduction-in-pmc-simulations"></a>
+  - PMC simulations use pseudo-random numbers to compute the evolution of the structure under the specified process conditions. When the sequence of pseudo-random numbers changes (for example, due to a different scheduling of the threads by ...
+  - _Keywords:_ simulation, PMC, results, structure, specified, different, averaging, average
+- **4: Input Commands etch** _(p.190–191)_ <a id="4-input-commands-etch"></a>
+  - Sentaurus Topography 3D tries to distribute the averaging runs evenly across the available processes, in a round-robin manner. When all PMC simulations are finished, the main process collects the results and averages them.
+  - _Keywords:_ averaging, processes, Use, threads, available, PMC, process, Shared
+- **extend\_structure** _(p.191–192)_ <a id="extend-structure"></a>
+  - The extend\_structure command extends an existing structure by mirroring it, or by copying and shifting it.
+  - _Keywords:_ structure, extend, _structure, initial, extended, mirroring, copying, shifting
+- **Examples** _(p.192–193)_ <a id="examples"></a>
+  - This command extends the default structure by mirroring at the xz plane at the maximum ycoordinate of the simulation domain:
+  - _Keywords:_ structure, details, summary, maximum, extends, mirroring, simulation, domain
+- **extract** _(p.193)_ <a id="extract"></a>
+  - The extract command extracts different properties of a structure. The main categories are:
+  - _Keywords:_ regions, structure, different, materials, extract, properties, between, surface
+- **Specification of Extraction Lines, Planes, and Pairs** _(p.194)_ <a id="specification-of-extraction-lines-planes-and-pairs"></a>
+  - For some extractions, an extraction line, an extraction plane, or extraction pairs of materials or regions must be specified.
+  - _Keywords:_ extraction, different, specified, direction, region, regions, materials, Axis
+- **Extraction Type** <a id="extraction-type"></a>
+  - The extraction type is set with the parameter type.
+  - _Keywords:_ extraction
+- **1D or 2D Cuts** _(p.195)_ <a id="1d-or-2d-cuts"></a>
+  - A 1d\_cut intersects the closed surface of a boundary structure (defined in Boundary Types on page 14) with a line (the parameter structure must denote a boundary structure):
+  - _Keywords:_ structure, boundary, vertex, intersects, closed, surface, denote, extract
+- **Exposed Surface** _(p.196)_ <a id="exposed-surface"></a>
+  - To extract the properties of the exposed surface:
+  - _Keywords:_ structure, exposed, surface, boundary, extract, vertical, coordinate, Extraction
+- **Interface Area** _(p.196)_ <a id="interface-area"></a>
+  - To extract the interface area:
+  - _Keywords:_ structure, interface, extract, between, regions, boundary, Extraction, denote
+- **Areas and Volumes of Regions and Parts** _(p.197)_ <a id="areas-and-volumes-of-regions-and-parts"></a>
+  - To extract geometric properties:
+  - _Keywords:_ structure, region, boundary, extract, Extraction, surface, denote, silent
+- **Region Names and Materials** _(p.197)_ <a id="region-names-and-materials"></a>
+  - To extract region names and materials:
+  - _Keywords:_ structure, boundary, extract, region, materials, Extraction, denote, exposed_only
+- **Region and Part Names** _(p.198)_ <a id="region-and-part-names"></a>
+  - To extract the names of regions and the names of their parts:
+  - _Keywords:_ structure, region, boundary, extract, Extraction, denote, region_parts, exposed_only
+- **Interface Position** _(p.199)_ <a id="interface-position"></a>
+  - Specifying type=interface locates an interface between two different materials, or two different regions, or two different parts along a line in a structure, as well as obtains a vertex for the interface that the line passes through or a...
+  - _Keywords:_ structure, interface, region, different, exposed, surface, boundary, segment
+- **Intersections With a Line** _(p.200)_ <a id="intersections-with-a-line"></a>
+  - Specifying type=probe intersects a structure with a line and returns a segment for each part of a region that the line passes through as well as a property associated with that segment, namely, the material name, or the region and part n...
+  - _Keywords:_ property, structure, region, specified, segments, returned, length, segment
+- **Intersections With a Plane** _(p.201)_ <a id="intersections-with-a-plane"></a>
+  - Specifying type=slice intersects a 3D boundary structure with a plane. The obtained 2D cut represents a 2D boundary that contains information about materials. The 2D boundary is saved into a TDR file:
+  - _Keywords:_ structure, boundary, simulation, obtained, TDR, bottom, domain, liquid
+- **Shortest Distance** _(p.201–202)_ <a id="shortest-distance"></a>
+  - ```txt extract type=shortest_distance <extraction_pair> [name=<c>] [silent=<c>] \ [structure=<c>] ```
+  - _Keywords:_ shortest, structure, distance, different, region, regions, between, materials
+- **Cylindrical Hole Profile** _(p.202)_ <a id="cylindrical-hole-profile"></a>
+  - ```txt extract type=cylinder_hole_profile center=<v> point_max=<v> point_min=<v> \ [file=<c>] [structure=<c>] ```
+  - _Keywords:_ structure, extracted, vertical, PMC, specified, radius, extract, cylinder_hole_profile
+- **Bounding Box of Materials and Regions** <a id="bounding-box-of-materials-and-regions"></a>
+  - To extract the bounding box of regions having any of the specified materials, use the command:
+  - _Keywords:_ specified, structure, regions, materials, bounding, extract, having, bounding_box
+- **Vertical Coordinates of the Top and Bottom of the Bounding Box of Materials and Regions** _(p.203–204)_ <a id="vertical-coordinates-of-the-top-and-bottom-of-the-bounding-b"></a>
+  - To extract the bottom coordinate of the bounding box of the regions of a boundary structure having any of the specified materials, use the command:
+  - _Keywords:_ structure, specified, coordinate, bounding, regions, materials, extract, boundary
+- **Other Properties** _(p.207–208)_ <a id="other-properties"></a>
+  - To extract other properties:
+  - _Keywords:_ Supported, supported, character, region, structure, cutting, extraction, vector
+- **Example of 1d\_cut Extraction Type** _(p.209)_ <a id="example-of-1d-cut-extraction-type"></a>
+  - extract axis=x point={-0.5 0.5 1.3} type=1d\_cut
+  - _Keywords:_ lindex, extract, second, vertex1, passing, through, direction, parallel
+- **Example of 2d\_cut Extraction Type** _(p.209)_ <a id="example-of-2d-cut-extraction-type"></a>
+  - ```txt extract axis=z position=0.5 type=2d_cut ```
+  - _Keywords:_ closed, surface, intersection, TDR, extract, position, normal, parallel
+- **Example of area Extraction Type** <a id="example-of-area-extraction-type"></a>
+  - ```txt extract type=area region=insulation ```
+  - _Keywords:_ extract, insulation, region, surface, extracted, created, Surface_area
+- **Example of bottom\_exposed Extraction Type** <a id="example-of-bottom-exposed-extraction-type"></a>
+  - ```txt extract type=bottom_exposed ```
+  - _Keywords:_ extract, bottom_exposed, minimum, vertical, coordinate, bounding, exposed, surface
+- **Example of bounding\_box\_exposed Extraction Type** _(p.210)_ <a id="example-of-bounding-box-exposed-extraction-type"></a>
+  - ```txt extract type=bounding_box_exposed ```
+  - _Keywords:_ extract, bounding_box_exposed, containing, minimum, maximum, vertices, bounding, exposed
+- **Example of dimension Extraction Type** _(p.210)_ <a id="example-of-dimension-extraction-type"></a>
+  - ```txt extract type=dimension ```
+  - _Keywords:_ extract, dimension, processed, structure, extracted, dimensional, Dimension
+- **Example of interface Extraction Type** <a id="example-of-interface-extraction-type"></a>
+  - ```txt extract type=interface material1=Silicon material2=Oxide point={0.5 0.5 0} \ direction={0 0 1} ```
+  - _Keywords:_ extract, interface, direction, material1, Silicon, material2, Oxide, between
+- **Example of interface\_area Extraction Type** _(p.211)_ <a id="example-of-interface-area-extraction-type"></a>
+  - ```txt extract type=interface_area region_1=substrate region_2=source_contact ```
+  - _Keywords:_ extract, substrate, interface_area, source_contact, region_1, region_2, interface, source
+- **Example of material\_name Extraction Type** <a id="example-of-material-name-extraction-type"></a>
+  - ```txt extract type=material_name region=insulation ```
+  - _Keywords:_ insulation, extract, region, material_name, material, extracted, Material, Oxide
+- **Example of part\_area Extraction Type** <a id="example-of-part-area-extraction-type"></a>
+  - ```txt extract type=part_area region=insulation ```
+  - _Keywords:_ insulation, extract, region, part_area, surface, individual, extracted, separately
+- **Example of part\_volume Extraction Type** _(p.212)_ <a id="example-of-part-volume-extraction-type"></a>
+  - ```txt extract type=part_volume region=insulation ```
+  - _Keywords:_ insulation, extract, region, part_volume, volume, individual, extracted, separately
+- **Example of probe Extraction Type** _(p.212)_ <a id="example-of-probe-extraction-type"></a>
+  - extract type=probe point1={0 0 0} point2={0 0 1} property=material
+  - _Keywords:_ extract, point1, point2, property, material, processed, structure, intersected
+- **Example of region\_names Extraction Type** <a id="example-of-region-names-extraction-type"></a>
+  - extract type=region\_names
+  - _Keywords:_ extract, region, structure, _names, processed, extracted, consists, regions
+- **Example of region\_parts Extraction Type** <a id="example-of-region-parts-extraction-type"></a>
+  - extract type=region\_parts
+  - _Keywords:_ region, extract, extracted, consists, _parts, structure, region_parts, Region_parts
+- **Example of shortest\_distance Extraction Type** _(p.213)_ <a id="example-of-shortest-distance-extraction-type"></a>
+  - extract type=shortest\_distance region\_part1={mask 0} region\_part2={mask 1}
+  - _Keywords:_ shortest, distance, region, extract, returned, shortest_distance, _distance, _part1
+- **Example of slice Extraction Type** <a id="example-of-slice-extraction-type"></a>
+  - extract type=slice point={0 0 0} normal={0 1 0} file=slice.tdr
+  - _Keywords:_ normal, extract, processed, structure, intersected, having, direction, parallel
+- **Example of top\_exposed Extraction Type** <a id="example-of-top-exposed-extraction-type"></a>
+  - extract type=top\_exposed
+  - _Keywords:_ extract, _exposed, maximum, vertical, coordinate, bounding, exposed, surface
+- **Example of volume Extraction Type** _(p.214)_ <a id="example-of-volume-extraction-type"></a>
+  - extract type=volume region=bulk
+  - _Keywords:_ extract, volume, region, processed, structure, extracted, Volume
+- **fill** _(p.214)_ <a id="fill"></a>
+  - The fill command is used to fill up a structure with a material up to a certain height, measured from the top of the existing structure. The result is similar to a deposition followed by a planarization step.
+  - _Keywords:_ structure, material, character, region, thickness, comment, measured, existing
+- **Examples** _(p.215)_ <a id="examples"></a>
+  - This command deposits a region consisting of material Oxide, with a thickness of .0.5 μm The thickness is measured from the top of the existing structure. The comment given to the process step is “oxide fill” and is displayed in the log ...
+  - _Keywords:_ region, thickness, material, Oxide, comment, deposits, consisting, measured
+- **filter\_structure** _(p.215–222)_ <a id="filter-structure"></a>
+  - The filter\_structure command is used to perform different operations.
+  - _Keywords:_ structure, PMC, region, Specifies, material, boundary, spacing, specified
+- **finalize\_model** _(p.222–223)_ <a id="finalize-model"></a>
+  - The finalize\_model command is used to indicate that the definition of the specified model is completed.
+  - _Keywords:_ finalize, _model, specified, _parameter, _reaction, _properties, define, _machine
+- **layout** _(p.223–224)_ <a id="layout"></a>
+  - The layout command queries the properties of a layout that has been created with the define\_layout command (see define\_layout on page 126).
+  - _Keywords:_ layout, silent, domain, character, Query, domains, layers, results
+- **let** _(p.224–225)_ <a id="let"></a>
+  - The let command sets the global properties of the simulator, such as logging verbosity and parallelization options. The command let is followed by one parameter at a time, as listed in Table 48.
+  - _Keywords:_ character, parallel, threads, available, licenses, maximum, simulation, serial
+- **Examples** _(p.225–226)_ <a id="examples"></a>
+  - let log\_level=info
+  - _Keywords:_ parallel, _level, _target, verbosity, directed, screen, _license, _threads
+- **litho** _(p.226–227)_ <a id="litho"></a>
+  - The litho command performs a lithography simulation and adds a resist region.
+  - _Keywords:_ character, structure, region, lithography, material, simulation, Sentaurus, comment
+- **pattern** _(p.227–229)_ <a id="pattern"></a>
+  - This command uses logical masks defined with the define\_mask command to create patterned profiles on top of an existing structure (see define\_mask on page 129).
+  - _Keywords:_ resist, structure, pattern, material, reticle, region, character, deposited
+- **Examples** _(p.230)_ <a id="examples"></a>
+  - This command uses default\_mask to pattern a film consisting of silicon material, with a thickness of , measured from the top of the current structure:0.1 μm
+  - _Keywords:_ pattern, material, thickness, region, consisting, silicon, measured, Silicon
+- **remove\_material** _(p.230)_ <a id="remove-material"></a>
+  - The remove\_material command removes material from a boundary structure or PMC structure.
+  - _Keywords:_ material, structure, character, remove, _material, comment, removed, exposed
+- **Examples** _(p.231)_ <a id="examples"></a>
+  - This command removes all of the exposed silicon material from the structure. Silicon that is completely covered by other material will not be removed. The comment for this process step is “strip silicon” and is displayed in the log file:
+  - _Keywords:_ silicon, material, Silicon, comment, removes, exposed, structure, completely
+- **save** _(p.231–236)_ <a id="save"></a>
+  - The save command saves a boundary structure to a TDR file:
+  - _Keywords:_ structure, species, character, Specifies, PMC, distributions, distribution, TDR
+- **Saving Structures** _(p.236)_ <a id="saving-structures"></a>
+  - As described in Boundary Types on page 14, the following boundary types can be saved:
+  - _Keywords:_ structure, simulation, surface, _surface, created, overwritten, appended, described
+- **Examples** _(p.237)_ <a id="examples"></a>
+  - ```txt save save type=closed_surface ```
+  - _Keywords:_ TDR, structure, mosfet, geometry, closed_surface, second, corresponding, closed
+- **Saving Ion Angular Distributions** _(p.237)_ <a id="saving-ion-angular-distributions"></a>
+  - The save command can save ion angular distributions (IADs) to TDR files.
+  - _Keywords:_ IAD, TDR, angular, distributions, IADs, tdr_geometry, ion_iad
+- **Saving PMC Structures** <a id="saving-pmc-structures"></a>
+  - A PMC structure is stored in a PMC file with the save command when type=pmc.
+  - _Keywords:_ PMC, structure, initial, stored, create, TDR, boundary, required
+- **Examples** _(p.238)_ <a id="examples"></a>
+  - ```txt etch time=0.5 spacing=0.05 method=pmc machine=m_100 save file=pmc_only.pmc type=pmc ```
+  - _Keywords:_ PMC, structure, initial, method, spacing, machine, define_structure, boundary
+- **Saving Boundaries for PMC Structures Using the VBE Method** _(p.239)_ <a id="saving-boundaries-for-pmc-structures-using-the-vbe-method"></a>
+  - To save a boundary structure for a PMC structure that has been created from a boundary structure using a PMC etch or deposition model, you can create a new boundary structure using filter\_structure type=boolean and the initial boundary ...
+  - _Keywords:_ material, structure, boundary, volume, method, PMC, materials, partial
+- **Saving Species Distributions** _(p.240–241)_ <a id="saving-species-distributions"></a>
+  - The save command can save species distributions (EADs and angular distributions) to TDR files or EAD files.
+  - _Keywords:_ energy, species, distribution, EAD, angular, TDR, species_distribution, energy_min
+- **set\_orientation** _(p.241–242)_ <a id="set-orientation"></a>
+  - The set\_orientation command is used to set or change the crystal orientation of a region.
+  - _Keywords:_ region, _orientation, crystal, orientation, structure, Specifies, vector, Miller
+- **truncate** _(p.242)_ <a id="truncate"></a>
+  - The truncate command truncates a structure, cutting away everything that lies outside of a cuboid bounding box.
+  - _Keywords:_ structure, truncate, bounding, comment, decimate, character, accuracy, maximum
+- **Examples** _(p.243)_ <a id="examples"></a>
+  - This command truncates the structure, removing all parts of the structure that lie outside the cuboid bounding box with corners {0 0 0} {1 1 1}. The comment for this process step is “truncation” and is displayed in the log file:
+  - _Keywords:_ structure, comment, truncation, truncates, removing, outside, cuboid, bounding
+- **References** _(p.243–245)_ <a id="references"></a>
+  - [1] T. Mizuno et al., “Analytical Model for Oblique Ion Reflection at the Si Surface,” IEEE Transactions on Electron Devices, vol. 35, no. 12, pp. 2323–2327, 1988. [2] D. Zhang and M. J. Kushner, “Surface kinetics and plasma equipment mo...
+  - _Keywords:_ Physics, Journal, Applied, Sentaurus, Ion, Surface, Kushner, plasma
+- **Introduction** _(p.245)_ <a id="introduction"></a>
+  - The Sentaurus Process and Sentaurus Interconnect executables support a subset of Sentaurus Topography 3D functionality for advanced etching and deposition modeling. This integration enables the users of Sentaurus Process and Sentaurus In...
+  - _Keywords:_ Sentaurus, Process, Interconnect, Topography, etching, deposition, simulation, executables
+- **Supported Commands and Syntax** _(p.246)_ <a id="supported-commands-and-syntax"></a>
+  - Sentaurus Topography 3D functionality is accessible using the topo command in Sentaurus Process. The topo command acts as a prefix and branches into a subset of Sentaurus Topography 3D commands. In general, the topo command is followed b...
+  - _Keywords:_ Sentaurus, Topography, Process, syntax, add_float_parameter, add_flux_properties, add_formula, add_int_parameter
+- **Additional Syntax** _(p.246)_ <a id="additional-syntax"></a>
+  - The topo command and Sentaurus Topography 3D subcommands in Sentaurus Process support specific parameters that are exclusive to Sentaurus Process.
+  - _Keywords:_ Sentaurus, Process, Topography, subcommands, support, specific, exclusive
+- **The info Parameter** _(p.246–247)_ <a id="the-info-parameter"></a>
+  - The info parameter sets the verbosity of the output of the command. See the Sentaurus™ Process User Guide for usage details.
+  - _Keywords:_ verbosity, Sentaurus, Process, Guide, details, within, spacing
+- **The parameters Parameter** _(p.247)_ <a id="the-parameters-parameter"></a>
+  - The topo command can be called with the Boolean flag parameters to print a list of all the supported subcommands and their syntax.
+  - _Keywords:_ supported, subcommands, syntax, called, Boolean, prints, Sentaurus, Topography
+- **The repair Parameter** <a id="the-repair-parameter"></a>
+  - The topo etch and topo deposit subcommands support a Boolean flag in standard Sentaurus Process syntax to switch on boundary repair for etching and deposition steps. By default, boundary repair is switched on. See the Sentaurus™ Process ...
+  - _Keywords:_ repair, deposit, Sentaurus, Process, boundary, subcommands, support, Boolean
+- **Different Default Behavior** <a id="different-default-behavior"></a>
+  - To ensure consistency in the behavior of the Sentaurus Topography 3D commands when they are called from within Sentaurus Process, some commands can have different default behavior. These commands will behave slightly differently when cal...
+  - _Keywords:_ Sentaurus, behavior, Topography, called, within, Process, ensure, consistency
+- **Repair Behavior** _(p.248)_ <a id="repair-behavior"></a>
+  - The repair behavior differs as follows:
+  - _Keywords:_ repair, behavior, Sentaurus, Boundary, activated, differs, follows, Topography
+- **Merge Behavior** _(p.248)_ <a id="merge-behavior"></a>
+  - Both when calling the topo command from Sentaurus Process and when using Sentaurus Topography 3D directly, regions with the same materials are not merged by default.
+  - _Keywords:_ Sentaurus, Process, regions, deposit, Both, calling, Topography, directly
+- **Parallelization** <a id="parallelization"></a>
+  - Parallelization differs as follows:
+  - _Keywords:_ Sentaurus, threads, parallelization, Process, Parallelization, differs, follows, standalone
+- **Limitations and Known Issues** <a id="limitations-and-known-issues"></a>
+  - There are limitations when using Sentaurus Topography 3D from Sentaurus Process.
+  - _Keywords:_ Sentaurus, limitations, Topography, Process
+- **Boundary Conditions** _(p.249)_ <a id="boundary-conditions"></a>
+  - Boundary conditions in Sentaurus Topography 3D are set using the define\_boundary\_conditions command, which is not a supported subcommand of the topo command. Therefore, only the default boundary conditions can be used from within Senta...
+  - _Keywords:_ conditions, Sentaurus, Boundary, Topography, define, _boundary, _conditions, supported
+- **Meshing of Thin Layers** _(p.249–251)_ <a id="meshing-of-thin-layers"></a>
+  - In standalone mode, Sentaurus Topography 3D creates boundary files as a result of process steps. Sentaurus Process, however, needs 3D meshes for most of its functionality. Boundaries are transferred from the topo command to Sentaurus Pro...
+  - _Keywords:_ Sentaurus, Process, Topography, meshed, Meshing, layers, standalone, creates
+- **Overview** _(p.251–252)_ <a id="overview"></a>
+  - The rate formula module (RFM) enables the definition of deposition and etching models in Sentaurus Topography 3D. In contrast to the physical model interface (PMI), which requires C++ programming, the RFM uses only built-in commands. The...
+  - _Keywords:_ Definition, Machine, RFM, Model, Sentaurus, Configuration, formula, models
+- **Model Definition** _(p.253)_ <a id="model-definition"></a>
+  - First, the model must be defined by specifying the fluxes used by the RFM model, the global and material-specific parameters, and the formulas for the etching or deposition rate. This stage is analogous to the creation of a PMI model whe...
+  - _Keywords:_ defined, RFM, fluxes, etching, deposition, PMI, global, specific
+- **Machine Configuration** _(p.253)_ <a id="machine-configuration"></a>
+  - After the definition of a new model, a machine that uses the newly defined model can be defined. This is very similar to setting up a machine using a built-in or a PMI model. However, the specification of model parameters related to ion ...
+  - _Keywords:_ machine, defined, fluxes, After, definition, similar, setting, PMI
+- **Machine Use** <a id="machine-use"></a>
+  - Finally, the machine is used with an etch or a deposit command. This is performed in exactly the same way as with machines that use built-in or PMI models (see deposit on page 160 and etch on page 167).
+  - _Keywords:_ deposit, Finally, machine, performed, exactly, machines, PMI, models
+- **Model Definition Details** _(p.254)_ <a id="model-definition-details"></a>
+  - As previously mentioned, the first stage of the modeling flow with the RFM is the definition of a model, which specifies the rate formula. The definition of a model consists of five steps, two of which are optional:
+  - _Keywords:_ definition, formula, _model, Optional, respectively, _parameter, previously, mentioned
+- **Flux Definition** _(p.254)_ <a id="flux-definition"></a>
+  - This step introduces the ion and neutral fluxes involved in the model and states which physical effects are taken into account for ion fluxes. For neutral fluxes, reemission is always enabled, as discussed in Modeling of Fluxes and Relat...
+  - _Keywords:_ neutral, fluxes, sticking, _neutral, my_model, independent, physical, effects
+- **User-Defined Parameter Definition** _(p.255)_ <a id="user-defined-parameter-definition"></a>
+  - In this step, user-defined parameters are specified. Here, their attributes (for example, name, valid range, and default value) are set without assigning the actual values of the parameters.
+  - _Keywords:_ material, dependent, defined, specified, actual, floating, introduced, _parameter
+- **Rate Formula Definition** _(p.256)_ <a id="rate-formula-definition"></a>
+  - The rate formula is defined with the expression parameter of the add\_formula command.
+  - _Keywords:_ expression, formula, material, add_formula, my_model, defined, fluxes, total_flux
+- **Machine Configuration Details** <a id="machine-configuration-details"></a>
+  - The configuration of a machine based on an RFM model consists of three steps:
+  - _Keywords:_ machine, defined, Specifying, configuration, RFM, consists, Defining, specifying
+- **Defining Machine and Specifying User-Defined Global Parameters** _(p.257)_ <a id="defining-machine-and-specifying-user-defined-global-paramete"></a>
+  - Use the define\_etch\_machine command to configure a machine for models defined with type=etch or type=etchdepo. Use the define\_deposit\_machine command to configure a machine for models defined with type=deposit.
+  - _Keywords:_ specified, collection, reflection, defined, deposit, fluxes, enabled, define
+- **Specifying Flux Parameter Values** <a id="specifying-flux-parameter-values"></a>
+  - The values of the parameters required to compute the indirect fluxes involved in the model are set using the add\_flux\_properties command.
+  - _Keywords:_ fluxes, sticking, coefficient, sputter, involved, _properties, neutral, enabled
+- **Specifying User-Defined Material-Dependent Parameter Values** _(p.258–259)_ <a id="specifying-user-defined-material-dependent-parameter-values"></a>
+  - The values of global parameters are set by the define\_etch\_machine or define\_deposit\_machine command; whereas, the values of material-dependent parameters are set by the add\_material command. Each add\_material command sets the valu...
+  - _Keywords:_ material, dependent, optional, _material, defined, materials, omitted, define
+- **RFM Commands** _(p.259)_ <a id="rfm-commands"></a>
+  - The commands for the creation and use of RFM models are provided in Chapter 4 on page 71.
+  - _Keywords:_ RFM, models, define, _model, _parameter, _machine, creation, provided
+- **Rate Calculation** _(p.260)_ <a id="rate-calculation"></a>
+  - The rate formulas defined with the add\_formula command are used to calculate the deposition or etching rate for each surface element (see add\_formula on page 79):
+  - _Keywords:_ deposition, etching, _formula, formulas, defined, calculate, surface, element
+- **Syntax** _(p.260)_ <a id="syntax"></a>
+  - The syntax for expressions and formulas consists of the following components:
+  - _Keywords:_ expressions, constants, Mathematical, checked, Data, syntax, formulas, consists
+- **Conditional and Relational Functions** _(p.261)_ <a id="conditional-and-relational-functions"></a>
+  - The following functions are available to implement conditions and control flow:
+  - _Keywords:_ expression, Otherwise, threshold, attenuation, numerator, denominator, checked, replacement
+- **Data Available for Rate Calculation** _(p.261–263)_ <a id="data-available-for-rate-calculation"></a>
+  - The following functions are available to access data related to a surface element, which is available for use in the formula for a deposition or an etching rate:
+  - _Keywords:_ surface, element, mathrm, specified, material, sputtered, having, rotation
+- **Examples** _(p.263)_ <a id="examples"></a>
+  - The direct\_flux() function is available to a model with only a neutral flux n. However, the sputtered\_flux() function is not available:
+  - _Keywords:_ syntax, available, python, define_model, deposit, description, Next, causes
+- **Example: Reimplementing and Using ionmill Etching Model** _(p.264)_ <a id="example-reimplementing-and-using-ionmill-etching-model"></a>
+  - The following example demonstrates how the ionmill etching model can be reimplemented and used as an RFM model:
+  - _Keywords:_ mck_ionmill, add_float_parameter, material_dependent, quantity, ionmill, etching, dimensionless, add_material
+- **References** _(p.265)_ <a id="references"></a>
+  - [1] T. K. Chini et al., “The angular dependence of sputtering yields of Ge and Ag,” Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, vol. 72, no. 3–4, pp. 355–358, 1992.
+  - _Keywords:_ PMC, Sentaurus, Topography, Chini, angular, dependence, sputtering, yields
+- **Setting Up a Simulation Using a Reaction Model** _(p.265–266)_ <a id="setting-up-a-simulation-using-a-reaction-model"></a>
+  - This section provides a simple example to start using reaction models. A model for a simple process will be set up and a simulation using that model will be run.
+  - _Keywords:_ reaction, define, species, machine, process, silicon, structure, distribution
+- **Integration With Other Sentaurus Topography 3D Functionality** <a id="integration-with-other-sentaurus-topography-3d-functionality"></a>
+  - The etch command runs a simulation using the selected machine. The name of the resulting structure is specified by the parameter structure of the etch command.
+  - _Keywords:_ structure, stored, simulation, internally, method, result, etching, boundary
+- **Converting a Result Structure to TDR Boundary File Format** <a id="converting-a-result-structure-to-tdr-boundary-file-format"></a>
+  - Whenever any of the commands in Table 56 on page 255 must be executed on the result of a simulation that used the PMC method, an explicit conversion is needed.
+  - _Keywords:_ filter, _structure, simulation, PMC, structure, result, method, stored
+- **Example** <a id="example"></a>
+  - ```tcl define_structure material=Silicon point_min={0 0 0} point_max={1 1 1}
+  - _Keywords:_ structure, stored, TDR, format, boundary, default_structure, internally, reaction_model
+- **7: Working With Reaction Models** _(p.267)_ <a id="7-working-with-reaction-models"></a>
+  - Integration With Other Sentaurus Topography 3D Functionality
+  - _Keywords:_ Integration, Other, Sentaurus, Topography, Functionality, describes, physical, interface
+- **Overview** _(p.267)_ <a id="overview"></a>
+  - The physical model interface (PMI) in Sentaurus Topography 3D gives you the possibility to extend the modeling capabilities of Sentaurus Topography 3D by implementing a new model in the form of a C++ class.
+  - _Keywords:_ Sentaurus, Topography, PMI, interface, surface, direct, deposition, etching
+- **Command File Interface** <a id="command-file-interface"></a>
+  - The add\_material, define\_deposit\_machine, and define\_etch\_machine commands can handle PMI-based models.
+  - _Keywords:_ define, _machine, PMI, models, specified, material, _parameter, _default
+- **C++ Interface** <a id="c-interface"></a>
+  - At the C++ level, the interface consists of several abstract base classes:
+  - _Keywords:_ stroke, PMI, surface, classes, Model, datasets, details, summary
+- **Implementing a New Model** <a id="implementing-a-new-model"></a>
+  - As previously mentioned, to implement a PMI-based model, it is necessary to implement the function describe\_model(). The only argument of this function is a reference to an object derived from Model\_info. This object is used to define ...
+  - _Keywords:_ Model, derived, implement, object, define, deposition, etching, datasets
+- **Information Available to a Model** <a id="information-available-to-a-model"></a>
+  - All input data available to a PMI-based model is provided by the classes Global\_data and Time\_step\_data.
+  - _Keywords:_ available, derived, material, reference, object, Global, Time, materials
+- **Additional Input Data** <a id="additional-input-data"></a>
+  - Additional input data that is too complicated to be read from the command file might be required by a model, for example, complex chemical reactions. This kind of data can be read and stored as member data by the constructor of the deriv...
+  - _Keywords:_ stored, member, derived, Additional, complicated, required, complex, chemical
+- **Data Types Used in Interface** <a id="data-types-used-in-interface"></a>
+  - To avoid linking problems, only C-style data types or types for which the corresponding header files are provided are used in the interface. While this makes handling the data more cumbersome, it helps to prevent problems that are diffic...
+  - _Keywords:_ problems, linking, corresponding, header, provided, interface, handling, cumbersome
+- **Error Handling** <a id="error-handling"></a>
+  - The only safe way to signal to the calling code that an error has occurred in a constructor is to throw an exception. However, C++ does not allow exceptions to cross interfaces as they are used for the PMI.
+  - _Keywords:_ PMI, exceptions, simulation, messages, calling, constructor, exception, thrown
+- **Compiling the Source Code** <a id="compiling-the-source-code"></a>
+  - The source code can be compiled and linked using the cmi tool, which calls the C++ compiler and linker with the correct command-line options for each supported platform.
+  - _Keywords:_ source, compiled, linked, compiler, linker, correct, supported, platform
+- **Using Additional Source Files or Libraries** <a id="using-additional-source-files-or-libraries"></a>
+  - A PMI-based model is not limited to the functionality declared in the abstract base classes of the PMI or directly derived from it. You can use additional source files or libraries, which provide additional functionality, to build the sh...
+  - _Keywords:_ functionality, library, PMI, additional, source, libraries, shared, limited
+- **Using the C++ Standard Library** <a id="using-the-c-standard-library"></a>
+  - When using the features of the C++ Standard Library in the implementation of a PMI-based model, depending on the platform, it might be necessary to link an additional library that provides this functionality. For example, on 64-bit Linux...
+  - _Keywords:_ PMI, necessary, Sentaurus, compiler, compilation, Topography, features, Standard
+- **Loading the Shared Library** <a id="loading-the-shared-library"></a>
+  - During the initialization of the simulator, the current directory and the path defined with the environment variable SPTOPO3D\_PMI\_PATH are searched for shared libraries that conform to the CMI-naming or PMI-naming convention (platform-...
+  - _Keywords:_ shared, simulator, searched, naming, PMI, library, During, initialization
+- **Debugging** <a id="debugging"></a>
+  - Debugging the PMI code is more difficult than debugging a standard program for several reasons:
+  - _Keywords:_ PMI, debugging, Sentaurus, Topography, available, wrapper, script, environment
+- **Input and Output Parameters** <a id="input-and-output-parameters"></a>
+  - This section describes the input parameters available to a PMI-based model.
+  - _Keywords:_ vertices, surface, material, available, specific, between, information, vertex
+- **Description of Known Issues and Limitations** _(p.270)_ <a id="description-of-known-issues-and-limitations"></a>
+  - The following known issues and limitations apply to this version of Sentaurus Topography 3D:
+  - _Keywords:_ supported, define, support, structures, method, rotation, structure, machines
+- **9: Known Issues and Limitations** _(p.279–283)_ <a id="9-known-issues-and-limitations"></a>
+  - Description of Known Issues and Limitations
+  - _Keywords:_ Sentaurus, structure, extract, interface, material, property, Topography, structures
+- **Initial Structure Generation** _(p.283)_ <a id="initial-structure-generation"></a>
+  - The following examples show how to use geometric etch and deposition steps to generate simple initial structures in Sentaurus Topography 3D.
+  - _Keywords:_ geometric, deposition, generate, simple, initial, structures, Sentaurus, Topography
+- **Simple Trench** _(p.284)_ <a id="simple-trench"></a>
+  - This example shows how to create a simple silicon trench:
+  - _Keywords:_ trench, structure, silicon, Define, cuboid, initial, point_min, point_max
+- **Fill** _(p.284)_ <a id="fill"></a>
+  - This example illustrates the use of the fill command when generating an initial structure: ```tcl define_structure material=Silicon point_min={0 0 0} point_max={0.35 0.05 0.07}
+  - _Keywords:_ structure, thickness, initial, Define, material, point_min, point_max, Fill
+- **Mask or Patterning** _(p.285)_ <a id="mask-or-patterning"></a>
+  - This example illustrates the use of the define\_mask and pattern commands: ```python define_structure material=Silicon point_min={0 0 0} point_max={1 1 1}
+  - _Keywords:_ mask_1, material, pattern, Define, Photoresist, illustrates, define, python
+- **Deposition** _(p.285)_ <a id="deposition"></a>
+  - The following examples show the use of the deposition models in Sentaurus Topography 3D.
+  - _Keywords:_ deposition, models, Sentaurus, Topography
+- **Crystallographic Orientation–Dependent Deposition** _(p.286)_ <a id="crystallographic-orientation-dependent-deposition"></a>
+  - This example illustrates the crystallographic orientation–dependent deposition model:
+  - _Keywords:_ material, point_min, point_max, define_shape, deposition, deposit, Silicon, crystallographic
+- **Electrodeposition** _(p.286)_ <a id="electrodeposition"></a>
+  - This example illustrates the electrodeposition model: ```shell define_deposit_machine model=electrodeposition material=Copper \ overpotential=-0.21 bulk_distance=0.05 temperature=300 \ depo_bulk_concentration=2.4e-4 exchange_current_dens...
+  - _Keywords:_ electrodeposition, material, structure, point_min, point_max, illustrates, Define, machine
+- **Electroplating Deposition** _(p.287)_ <a id="electroplating-deposition"></a>
+  - This example illustrates the electroplating deposition model: ```txt define_deposit_machine model=electroplating material=Copper rate=0.1 delta=5 define_structure material=Silicon point_min={0 0 0} point_max={1 1 1} \ region=bulk define_...
+  - _Keywords:_ electroplating, deposition, material, initial, structure, point_min, point_max, illustrates
+- **High-Density Plasma Deposition** _(p.287)_ <a id="high-density-plasma-deposition"></a>
+  - This example illustrates the high-density plasma deposition model: ```python define_deposit_machine model=hdp material=Oxide rate=2.0 anisotropy=0.7 \ exponent=100 redeposition=0.1 sputter_rate=0.95 s1=5.5 s2=-6 sticking=0.1
+  - _Keywords:_ deposition, anisotropy, exponent, material, redeposition, coefficient, sticking, structure
+- **High-Density Plasma 2 Deposition** _(p.288)_ <a id="high-density-plasma-2-deposition"></a>
+  - This example illustrates the high-density plasma 2 deposition model: ```txt define_deposit_machine model=hdp2 material=Oxide rate=2.0 anisotropy=0.7 \ exponent=100 redeposition=0.1 sputter_rate=0.95 s1=5.5 s2=-6 sticking=0.1 \ sputter_ty...
+  - _Keywords:_ deposition, distribution, exponent, coefficient, sputtering, anisotropy, material, redeposition
+- **Low-Pressure Chemical Vapor Deposition** _(p.288)_ <a id="low-pressure-chemical-vapor-deposition"></a>
+  - This example illustrates the low-pressure chemical vapor deposition model:
+  - _Keywords:_ deposition, material, sticking, structure, illustrates, pressure, chemical, Define
+- **Physical Vapor Deposition** <a id="physical-vapor-deposition"></a>
+  - This example illustrates the physical vapor deposition model:
+  - _Keywords:_ deposition, material, exponent, structure, illustrates, physical, Define, machine
+- **Plasma-Enhanced Chemical Vapor Deposition** _(p.289)_ <a id="plasma-enhanced-chemical-vapor-deposition"></a>
+  - This example illustrates the plasma-enhanced chemical vapor deposition model:
+  - _Keywords:_ deposition, anisotropy, exponent, material, sticking, structure, illustrates, plasma
+- **Simple Deposition** _(p.289)_ <a id="simple-deposition"></a>
+  - This example illustrates the use of the simple deposition model: ```tcl define_deposit_machine model=simple material=Oxide rate=1.0 anisotropy=0.3 \ curvature=0.1
+  - _Keywords:_ deposition, simple, structure, material, curvature, illustrates, Define, machine
+- **Spin-on-Glass Deposition** _(p.290)_ <a id="spin-on-glass-deposition"></a>
+  - This example illustrates the spin-on-glass deposition model: ```python define_deposit_machine model=spin_on material=Oxide viscosity=0.015 \ density=1 initial_thickness=2 radial_distance=2e4 surface_tension=27 \ angular_velocity=4000 eva...
+  - _Keywords:_ material, point_min, point_max, deposit, deposition, define_shape, Aluminum, spin_on
+- **Etching** _(p.290)_ <a id="etching"></a>
+  - The following examples show the use of the etching models in Sentaurus Topography 3D.
+  - _Keywords:_ etching, models, Sentaurus, Topography
+- **Crystallographic Orientation–Dependent Etching** _(p.290–291)_ <a id="crystallographic-orientation-dependent-etching"></a>
+  - This example illustrates the crystallographic orientation–dependent etching model:
+  - _Keywords:_ material, region, crystallographic, orientation, etching, crystal, etched, Silicon
+- **Dry Etching** _(p.291)_ <a id="dry-etching"></a>
+  - This example illustrates the dry etching model: ```prolog define_etch_machine model=dry deposit_material=Anyinsulator \ sticking=0.035 rate=0.2
+  - _Keywords:_ material, Define, add_material, machine, sticking, Anyinsulator, structure, illustrates
+- **Wet Etching** _(p.292)_ <a id="wet-etching"></a>
+  - This example illustrates the wet etching model: ```ini define_etch_machine model=wet diffusivity=1e-2 source_distance=1
+  - _Keywords:_ structure, material, Define, diffusivity, process, Silicon, point_min, point_max
+- **Simultaneous Etching and Deposition** _(p.292)_ <a id="simultaneous-etching-and-deposition"></a>
+  - This example illustrates the simultaneous etching and deposition (etchdepo) model:
+  - _Keywords:_ etchdepo, Define, material, machine, exponent, sticking, Anyinsulator, add_material
+- **High-Density Plasma Etching** _(p.293)_ <a id="high-density-plasma-etching"></a>
+  - This example illustrates the high-density plasma etch model:
+  - _Keywords:_ anisotropy, density, plasma, Define, machine, exponent, add_material, material
+- **High-Density Plasma 2 Etching** _(p.293)_ <a id="high-density-plasma-2-etching"></a>
+  - This example illustrates the high-density plasma 2 etch model: ```python define_etch_machine model=hdp2 exponent=100
+  - _Keywords:_ anisotropy, sticking, density, plasma, Define, machine, exponent, add_material
+- **Ion-Enhanced Etching** _(p.294)_ <a id="ion-enhanced-etching"></a>
+  - This example illustrates the ion-enhanced etching model: ```ini define_etch_machine model=ion_enhanced exponent=10
+  - _Keywords:_ anisotropy, sticking, enhanced, Define, machine, exponent, add_material, material
+- **Ion-Milling** _(p.294)_ <a id="ion-milling"></a>
+  - This example illustrates the ion-milling model: ```python define_etch_machine model=ionmill
+  - _Keywords:_ anisotropy, add_material, material, Define, machine, structure, illustrates, milling
+- **PMI Simple Etching** _(p.295)_ <a id="pmi-simple-etching"></a>
+  - This example illustrates the PMI simple etching model: ```txt define_etch_machine model=pmi_simple_etch
+  - _Keywords:_ PMI, pmi_simple_etch, simple, etching, Define, machine, add_material, material
+- **Reactive Ion Etching** <a id="reactive-ion-etching"></a>
+  - This example illustrates the reactive ion etch model:
+  - _Keywords:_ anisotropy, reactive, Define, machine, exponent, add_material, material, structure
+- **Reactive Ion Etching 2** _(p.296)_ <a id="reactive-ion-etching-2"></a>
+  - This example illustrates the reactive ion etch 2 model:
+  - _Keywords:_ material, anisotropy, sticking, structure, Define, add_material, machine, exponent
+- **Simple Etching** _(p.297)_ <a id="simple-etching"></a>
+  - This example illustrates the simple etching model:
+  - _Keywords:_ simple, anisotropy, curvature, Define, machine, add_material, material, structure
+- **Tilt and Units** _(p.297)_ <a id="tilt-and-units"></a>
+  - This example shows how to tilt the wafer using the parameters tilt and rotation. At the same time, nondefault units are set:
+  - _Keywords:_ rotation, deposition, machine, simple, material, anisotropy, curvature, structure
+- **Simulations With 2D Structures** _(p.298)_ <a id="simulations-with-2d-structures"></a>
+  - This example shows how to use Sentaurus Topography 3D to run simulations on twodimensional structures:
+  - _Keywords:_ structure, Define, material, exactly, point_min, point_max, rectangle, simple
+- **Integration With Sentaurus Process** _(p.298–299)_ <a id="integration-with-sentaurus-process"></a>
+  - This example shows how to use the functionality of Sentaurus Topography 3D from within Sentaurus Process. This is a Sentaurus Process command file. Note the use of the init and struct commands instead of define\_structure and save, respe...
+  - _Keywords:_ Sentaurus, Process, functionality, Topography, struct, trench, deposition, simple
+- **Description of the EAD File Format** _(p.299–300)_ <a id="description-of-the-ead-file-format"></a>
+  - EADs can be stored in a tabular file format, defining the values of the EAD at discrete positions , where denotes the energy and is the polar angle.( ) E, θ E θ
+  - _Keywords:_ EAD, Line, energy, format, factor, distribution, details, summary
+- **Mathematical Conventions** <a id="mathematical-conventions"></a>
+  - The total flux of the imported EAD is computed by integrating the EAD. DifferentΓ mathematical conventions are possible as follows:
+  - _Keywords:_ EAD, distribution_format, standard, Gamma, distribution, imported, computed, integrating
+- **Special Cases** _(p.301)_ <a id="special-cases"></a>
+  - If you specify only one energy value , the flux is computed as:E
+  - _Keywords:_ energy, distributions, specify, computed, EAD, Gamma, operatorname, angular
+- **Sampling From the Distribution** _(p.303)_ <a id="sampling-from-the-distribution"></a>
+  - The following methods are available to extract energy and angle samples from the given EAD:
+  - _Keywords:_ method, sampling, define, _species, _distribution, sampling_method, methods, available
+- **A** _(p.303)_ <a id="a"></a>
+- **anisotropy** _(p.303)_ <a id="anisotropy"></a>
+  - The ratio of the directional deposition or etch rate to the total deposition or etch rate, which is a combination of a directional component and an isotropic component.
+  - _Keywords:_ directional, deposition, component, combination, isotropic
+- **C** <a id="c"></a>
+- **CCP** _(p.304)_ <a id="ccp"></a>
+  - Capacitively coupled plasma.
+  - _Keywords:_ Capacitively, coupled, plasma
+- **CDF** _(p.304)_ <a id="cdf"></a>
+  - Cumulative distribution function.
+  - _Keywords:_ Cumulative, distribution
+- **chemical vapor deposition (CVD)** _(p.304)_ <a id="chemical-vapor-deposition-cvd"></a>
+  - The growth of the material from a gaseous medium containing a mixture of reactants that chemically interact and convert to the desired material.
+  - _Keywords:_ material, growth, gaseous, medium, containing, mixture, reactants, chemically
+- **curvature-dependent deposition/etch** <a id="curvature-dependent-deposition-etch"></a>
+  - The deposition rate along a curved surface is a function of the local curvature, which smooths the surface as it evolves.
+  - _Keywords:_ surface, deposition, curved, curvature, smooths, evolves
+- **conformal structure** <a id="conformal-structure"></a>
+  - If all the regions of a structure share the same vertices and faces along region boundaries that touch each other, the structure is conformal. If vertices or faces on shared region borders are not part of both regions, the structure is n...
+  - _Keywords:_ structure, conformal, regions, vertices, region, Sentaurus, Topography, structures
+- **CVD** <a id="cvd"></a>
+  - Chemical vapor deposition.
+  - _Keywords:_ Chemical, deposition
+- **D** <a id="d"></a>
+- **dry etching** <a id="dry-etching"></a>
+  - An etching process that uses plasma gas as the reactive source.
+  - _Keywords:_ etching, process, plasma, reactive, source
+- **E** <a id="e"></a>
+- **EAD** <a id="ead"></a>
+  - Energy angular distribution.
+  - _Keywords:_ Energy, angular, distribution
+- **etching** <a id="etching"></a>
+  - The process that removes materials from the wafer surface.
+  - _Keywords:_ process, removes, materials, surface
+- **H** <a id="h"></a>
+- **HDP** <a id="hdp"></a>
+  - High-density plasma.
+  - _Keywords:_ High, density, plasma
+- **high-density plasma (HDP) deposition** <a id="high-density-plasma-hdp-deposition"></a>
+  - A deposition process that uses high-density plasma sources to produce deposition precursors. Usually, this process results in simultaneous deposition and sputter etching of thin film on the wafer surface, due to highly energetic ions.
+  - _Keywords:_ deposition, process, density, plasma, sources, produce, precursors, Usually
+- **I** <a id="i"></a>
+- **IAD** <a id="iad"></a>
+  - Ion angular distribution. It describes the angular flux distribution of ions in flux models, that is, the probability of an ion traveling at a certain angle.
+  - _Keywords:_ angular, distribution, Ion, describes, models, probability, traveling, certain
+- **ICP** <a id="icp"></a>
+  - Inductively coupled plasma.
+  - _Keywords:_ Inductively, coupled, plasma
+- **IEAD** <a id="iead"></a>
+  - Ion energy and angular distribution. It describes the energy and angular flux distribution of ions in flux models, that is, the probability of an ion traveling at a certain energy and angle.
+  - _Keywords:_ energy, angular, distribution, Ion, describes, models, probability, traveling
+- **ion-milling** _(p.305)_ <a id="ion-milling"></a>
+  - A synonym for ion-mill etch.
+  - _Keywords:_ synonym
+- **ion-mill etch** _(p.305)_ <a id="ion-mill-etch"></a>
+  - An etching process purely caused by physical sputtering of the surface by highly energetic ions. The sputter yield (the number of particles knocked off the surface per incoming ion) is a function of the angle between the surface normal a...
+  - _Keywords:_ surface, incoming, etching, process, purely, caused, physical, sputtering
+- **L** <a id="l"></a>
+- **low-pressure chemical vapor deposition (LPCVD)** <a id="low-pressure-chemical-vapor-deposition-lpcvd"></a>
+  - The deposition environment is at such a low pressure that particle–particle collision based on gas-vapor deposition is negligible compared to particle–surface collision. The particles travel between surfaces in a ballistic trajectory.
+  - _Keywords:_ particle, deposition, collision, environment, pressure, negligible, compared, surface
+- **LPCVD** <a id="lpcvd"></a>
+  - Low-pressure chemical vapor deposition.
+  - _Keywords:_ Low, pressure, chemical, deposition
+- **M** <a id="m"></a>
+- **MPI** <a id="mpi"></a>
+  - Message passing interface.
+  - _Keywords:_ Message, passing, interface
+- **P** <a id="p"></a>
+- **PECVD** <a id="pecvd"></a>
+  - Plasma-enhanced chemical vapor deposition.
+  - _Keywords:_ Plasma, enhanced, chemical, deposition
+- **physical vapor deposition (PVD)** <a id="physical-vapor-deposition-pvd"></a>
+  - The condensation of material from its own vapors.
+  - _Keywords:_ condensation, material, vapors
+- **plasma-enhanced chemical vapor deposition (PECVD)** <a id="plasma-enhanced-chemical-vapor-deposition-pecvd"></a>
+  - A chemical vapor deposition technique that uses a plasma chemical vapor discharge to enhance the deposition characteristics.
+  - _Keywords:_ chemical, deposition, technique, plasma, discharge, enhance, characteristics
+- **PMC** <a id="pmc"></a>
+  - Particle Monte Carlo.
+  - _Keywords:_ Particle, Monte, Carlo
+- **PVD** _(p.306)_ <a id="pvd"></a>
+  - Physical vapor deposition.
+  - _Keywords:_ Physical, deposition
+- **R** _(p.306)_ <a id="r"></a>
+- **reactive ion etch (RIE)** _(p.306)_ <a id="reactive-ion-etch-rie"></a>
+  - An etching process in which chemically reactive ions are the major source of the reaction that removes particles from the surface.
+  - _Keywords:_ etching, process, chemically, reactive, source, reaction, removes, particles
+- **RFM** <a id="rfm"></a>
+  - Rate formula module.
+  - _Keywords:_ Rate, formula, module
+- **RIE** <a id="rie"></a>
+  - Reactive ion etch.
+  - _Keywords:_ Reactive
+- **S** <a id="s"></a>
+- **Sentaurus Lithography** <a id="sentaurus-lithography"></a>
+  - A microlithography process simulator.
+  - _Keywords:_ microlithography, process, simulator
+- **shadowed element** <a id="shadowed-element"></a>
+  - When a surface element has no vertical line of sight to the source because another surface element blocks its view, the element is shadowed.
+  - _Keywords:_ element, surface, vertical, source, because, another, blocks, shadowed
+- **SLO** <a id="slo"></a>
+  - File format used by Sentaurus Lithography.
+  - _Keywords:_ format, Sentaurus, Lithography
+- **sticking coefficient** <a id="sticking-coefficient"></a>
+  - The statistical probability that an incoming precursor will stay on the surface and contribute to the deposition of thin film, contrary to bouncing back to the gas phase. It controls the conformality in a reemission process.
+  - _Keywords:_ statistical, probability, incoming, precursor, surface, contribute, deposition, contrary
+- **T** <a id="t"></a>
+- **TDR** <a id="tdr"></a>
+  - File format used for TCAD Sentaurus tools.
+  - _Keywords:_ format, TCAD, Sentaurus

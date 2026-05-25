@@ -1,0 +1,335 @@
+# mystic_ug — outline
+
+Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
+
+- **Mystic User Guide** _(p.1)_ <a id="mystic-user-guide"></a>
+  - Version O-2018.06, June 2018
+  - _Keywords:_ Version, June
+- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
+  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
+  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+- **Disclaimer** <a id="disclaimer"></a>
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+- **Trademarks** <a id="trademarks"></a>
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html. All other product or company names may be trademarks of their respective owners.
+  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+- **Free and Open-Source Licensing Notices** <a id="free-and-open-source-licensing-notices"></a>
+  - If applicable, Free and Open-Source Software (FOSS) licensing notices are available in the product installation.
+  - _Keywords:_ applicable, Free, Open, Source, Software, FOSS, licensing, notices
+- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
+  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+- **Contents** _(p.3)_ <a id="contents"></a>
+- **1 Introduction and Overview 6** _(p.3)_ <a id="1-introduction-and-overview-6"></a>
+  - 1.1 Mystic Reference Guide 6 1.2 Setup and Installation 7 1.3 Running Mystic 7 1.4 Command Line Options . . 7
+  - _Keywords:_ Mystic, SPICE, Supported, Reference, Guide, Setup, Installation, Running
+- **2 SPICE Model Extraction 12** _(p.4)_ <a id="2-spice-model-extraction-12"></a>
+  - 2.1 Uniform Model Extraction 12
+  - _Keywords:_ Extraction, Data, Sub, Model, Verilog, Models, Circuit, TCAD
+- **3 Mystic Command Reference 31** <a id="3-mystic-command-reference-31"></a>
+  - 3.1 Global Objects 31
+  - _Keywords:_ Global, Objects, Optimisation, Routines, Error, Calculation, Methods, Mean
+- **4 Mystic Database 42** _(p.5)_ <a id="4-mystic-database-42"></a>
+  - 4.1 Loading TCAD Data 42
+  - _Keywords:_ Mystic, Fit, Information, Stage, Extraction, Storing, Creating, Project
+- **A Garand Dataset Type Strings 51** <a id="a-garand-dataset-type-strings-51"></a>
+  - A.1 Id-Vg Simulation 51
+  - _Keywords:_ Simulation
+- **Index 55** _(p.6)_ <a id="index-55"></a>
+- **1 Introduction and Overview** _(p.6)_ <a id="1-introduction-and-overview"></a>
+  - Mystic is a SPICE model extraction tool, specifically designed to facilitate the automated extraction of SPICE models that accurately capture the effects of process and statistical variability on transistor performance. Mystic supports t...
+  - _Keywords:_ SPICE, extraction, Python, Mystic, models, provides, TCAD, designed
+- **1.1 Mystic Reference Guide** _(p.7)_ <a id="1-1-mystic-reference-guide"></a>
+  - The Mystic environment provides a custom Python[3] environment with a range of objects and classes which are designed to aid the process of compact model extraction. Documentation for these objects is provided in the HTML Mystic API Refe...
+  - _Keywords:_ Mystic, environment, objects, STROOT, manuals, browser, classes, _spice
+- **1.2 Setup and Installation** _(p.7)_ <a id="1-2-setup-and-installation"></a>
+  - For detailed setup and installation instructions, see the Synopsys TCAD O-2018.06 installation notes.
+  - _Keywords:_ installation, detailed, instructions, Synopsys, TCAD
+- **1.3 Running Mystic** _(p.7)_ <a id="1-3-running-mystic"></a>
+  - For instructions on setting up Mystic, refer to the Synopsys TCAD installation notes.
+  - _Keywords:_ Mystic, TCAD, instructions, setting, Synopsys, installation, Once, SPICE
+- **1.4 Command Line Options** _(p.8)_ <a id="1-4-command-line-options"></a>
+  - The command line options and optimisers that are supported by Mystic are summarised in Tables 1.1 and 1.3.
+  - _Keywords:_ Optional, Mystic, string, Filename, containing, extraction, strategy, arguments
+- **1.4.1 Enigma Database Connections** _(p.8–9)_ <a id="1-4-1-enigma-database-connections"></a>
+  - As an input Mystic requires a database that contains the target data supplied by the user that is to be used as the fitting target of the SPICE model extraction process. This must be provided via the command line flags -d or --db. All su...
+  - _Keywords:_ Enigma, Mystic, database, dataset, MongoDB, target, extraction, passed
+- **1.4.2 SPICE Simulator** _(p.9)_ <a id="1-4-2-spice-simulator"></a>
+- **Supported SPICE simulators** <a id="supported-spice-simulators"></a>
+  - Support for all simulators apart from Synopsys HSPICE[4] has been removed. The -l flag allows you to pass the location of a specific executable of HSPICE. If this is not supplied, Mystic will use whichever version of HSPICE is loaded int...
+  - _Keywords:_ HSPICE, Support, simulators, Synopsys, removed, allows, location, specific
+- **Simulator Options** <a id="simulator-options"></a>
+  - You can use the -x flag to pass additional arguments to HSPICE. This can be advantageous in situations where you want to set parameters for SPICE or specific models require the running of SPICE with nondefault command line flags.
+  - _Keywords:_ SPICE, You, additional, arguments, HSPICE, advantageous, situations, specific
+- **HSPICE Performance** _(p.10)_ <a id="hspice-performance"></a>
+  - Due to the large number of calls to SPICE required in an optimisation, Mystic extractions using an HSPICE back end can be slowed by license checkouts and software initialisation times.
+  - _Keywords:_ Mystic, HSPICE, server, license, extraction, running, Due, SPICE
+- **1.4.3 Supported SPICE Models** _(p.10)_ <a id="1-4-3-supported-spice-models"></a>
+  - Mystic has native support for a range of SPICE models (See Table 1.2). Note that although Mystic may have native support for a specific SPICE model version, HSPICE must also provide support for this model in order to ensure correct opera...
+  - _Keywords:_ Mystic, SPICE, support, BSIM, Planar, Bulk, SOI, models
+- **1.4.4 Supported Optimisers** _(p.12)_ <a id="1-4-4-supported-optimisers"></a>
+  - The Optimiser library supports four different backends, and each backend provides one or more optimisation method.
+  - _Keywords:_ Trust, Region, optimisation, Bounded, Optimiser, backends, method, Intel
+- **2 SPICE Model Extraction** _(p.12)_ <a id="2-spice-model-extraction"></a>
+  - This section covers the process of running a SPICE model extraction strategy using Mystic and the general steps that an extraction procedure involves.
+  - _Keywords:_ extraction, covers, process, running, SPICE, strategy, Mystic, general
+- **2.1 Uniform Model Extraction** _(p.12)_ <a id="2-1-uniform-model-extraction"></a>
+  - In general, the process of extracting a uniform model is composed of several sub-steps, as documented in [11]. Initially, parameters are extracted against the long channel characteristics of the device in question. From there, parameters...
+  - _Keywords:_ extracted, process, uniform, against, characteristics, device, extraction, general
+- **2.1.1 Exporting TCAD Data** _(p.13)_ <a id="2-1-1-exporting-tcad-data"></a>
+  - Before an extraction can be performed, the TCAD simulation target data must be loaded into an Enigma MongoDB Database so it is accessible through the Mystic DB API. There are multiple different ways this can be done and it will usually b...
+  - _Keywords:_ Enigma, through, performed, TCAD, simulation, MongoDB, Database, Mystic
+- **2.1.2 Loading a SPICE model** _(p.13)_ <a id="2-1-2-loading-a-spice-model"></a>
+  - There are currently three ways for the user to specify the initial model card to be used:
+  - _Keywords:_ Mystic, SPICE, extraction, methods, currently, specify, initial, modelfile
+- **2.1.3 Loading TCAD Simulation Data** _(p.14)_ <a id="2-1-3-loading-tcad-simulation-data"></a>
+  - When the extraction strategy is executed by Mystic, several objects and modules are preloaded into the execution environment and made available to the user. A full list of the pre-loaded objects is provided in Chapter 3. The database pro...
+  - _Keywords:_ object, Load, Mystic, method, loaded, TCAD, objects, environment
+- **2.1.4 Manipulating Data** _(p.14–15)_ <a id="2-1-4-manipulating-data"></a>
+  - In SPICE model extraction, it is often necessary to target the fitting of a parameter within a specific region of the device operational characteristics. Unless otherwise specified, the full range of a dataset will be fitted by default. ...
+  - _Keywords:_ IdVg, Load, target, filter, FilterData, targets, MakeFoMTarget, current
+- **2.1.5 Setting Up Optimisation Parameters** _(p.16)_ <a id="2-1-5-setting-up-optimisation-parameters"></a>
+  - Parameters used in the extraction process must first be set up with appropriate default values and boundaries. Default values can also be loaded from the initial SPICE model using methods in the ExtractionUtils module, which is documente...
+  - _Keywords:_ OptParam, SPICE, Mystic, API, object, extraction, process, appropriate
+- **Parameters:** <a id="parameters"></a>
+  - <table><tr><td>name</td><td>Name of the SPICE model parameter, e.g. vth0.</td></tr><tr><td>default</td><td>Default value to use for the parameter. This is used only if the parameter does not already exist in the SPICE model.</td></tr><tr...
+  - _Keywords:_ minval, maxval, required, specified, factor, SPICE, Minimum, although
+- **Examples** _(p.17)_ <a id="examples"></a>
+  - The following example illustrates the creation of a parameter object for the BSIM parameter vth0, with a default value of 0.2, bounded between 0 and 1 V and with a scaling factor of 0.2.
+  - _Keywords:_ OptParam, BSIM, extracting, circuit, rdrain, capacitance, CGSL, illustrates
+- **2.1.6 Extraction** _(p.17)_ <a id="2-1-6-extraction"></a>
+- **Pre-requisites** _(p.17)_ <a id="pre-requisites"></a>
+  - There are several setup steps necessary before commencing an extraction procedure. As indicated above, data must be exported and then loaded into Mystic, and parameters set up for extraction. For each parameter to be extracted, a new Opt...
+  - _Keywords:_ extraction, created, objects, different, several, necessary, before, commencing
+- **The Extraction Process** <a id="the-extraction-process"></a>
+  - For the extraction process itself, a convenience function called DoStage, is provided by the ExtractionUtils module to automatically set up and run the parameter extraction step. This function has the following API:
+  - _Keywords:_ extraction, DoStage, ExtractionUtils, process, itself, convenience, called, provided
+- **Parameters:** _(p.18)_ <a id="parameters"></a>
+  - ```txt stagename Name of the stage. Used as a prefix for output filenames. model SPICE model to extract parameters for. (Provided by Mystic) simulator Simulator to use for evaluating the model. (Provided by Mystic) parameters List of par...
+  - _Keywords:_ extract, Provided, Mystic, stagename, Simulator, Optimiser, object, extraction
+- **2.1.7 Error Calculation** <a id="2-1-7-error-calculation"></a>
+  - In any optimisation, the goal is to minimise the difference between the output of a function and some reference or target data. The quality of an optimisation or fit is determined by the error associated with the evaluation of the target...
+  - _Keywords:_ optimisation, errors, calculate, Mystic, methods, calculation, PrintErrors, across
+- **2.1.8 Outputting Data** <a id="2-1-8-outputting-data"></a>
+- **PLT and CSV File Output** _(p.19)_ <a id="plt-and-csv-file-output"></a>
+  - Mystic supports the output of data in the Synopsys PLT format which provides compatibilty with Sentaurus Visual. The SimData object has a method called WritePLTFile which allows the user to output
+  - _Keywords:_ object, Mystic, method, WritePLTFile, Load, PLT, Sentaurus, SimData
+- **Parameter History** _(p.20)_ <a id="parameter-history"></a>
+  - The OptParam values are tracked during the course of the optimisation and output to a CSV file at the end of each call to DoStage, with the naming convention stagename-pars.csv. By default, the parameter history accumulates throughout th...
+  - _Keywords:_ Optimiser, DoStage, history, ExtractionUtils, Model, Simulator, Stage2, Stage1
+- **2.2 Statistical Extraction** _(p.20)_ <a id="2-2-statistical-extraction"></a>
+  - Statistical extraction is very similar to the uniform extraction process, except that involves only a small subset of the parameters that were extracted during the uniform model extraction. Consequently, the statistical extraction is a m...
+  - _Keywords:_ extraction, uniform, statistical, single, strategy, process, involves, extracted
+- **2.3 Device CV Parameter Extraction** _(p.21)_ <a id="2-3-device-cv-parameter-extraction"></a>
+  - CV simulation data can be treated in the same way as current-voltage data in an extraction strategy. A simple example showing the fitting of the gate capacitance parameters for a BSIM-CMG model is shown below:
+  - _Keywords:_ OptParam, capacitance, CGG, qmtcencv, ckappas, extraction, Load, deltawcv
+- **2.3.1 Mystic DB CV Variables** _(p.21)_ <a id="2-3-1-mystic-db-cv-variables"></a>
+  - The CV data set types shown in table 2.1 are exported by Garand during CV simulation and can be used in Mystic. See section 4.3.4 in the Garand manual for more information. See Appendix A and the Garand User Guide [12] for a full list of...
+  - _Keywords:_ source, substrate, Gate, Drain, Body, Source, colspan, Garand
+- **2.4 Using Verilog Models** _(p.22–23)_ <a id="2-4-using-verilog-models"></a>
+  - Mystic provides support for the use of SPICE Models written in Verilog. With the advent and rapid development of both BSIM-CMG and BSIM-IMG for FinFET and FDSOI devices, respectively, it has become advantageous to be able to utilise the ...
+  - _Keywords:_ Mystic, Verilog, Model, SPICE, Models, models, HSPICE, BSIM
+- **2.4.1 Debugging Verilog Model Usage** <a id="2-4-1-debugging-verilog-model-usage"></a>
+  - Working out what has gone wrong with a Verilog model can be tricky due to the multiple steps that must execute in the back-end SPICE simulator in order to successfully compile and run a user-provided Verilog model. The following are some...
+  - _Keywords:_ Verilog, Working, tricky, multiple, execute, SPICE, simulator, successfully
+- **Check Paths** <a id="check-paths"></a>
+  - Mystic runs simulations using a secure temporary directory which is created at runtime. In most cases the compiled versions of the Verilog model will be located in this temporary directory by SPICE. Because of this, providing relative pa...
+  - _Keywords:_ SPICE, directory, Verilog, Mystic, temporary, simulations, secure, created
+- **Test with SPICE** _(p.24)_ <a id="test-with-spice"></a>
+  - If Mystic encounters problems when attempting to run a Verilog model extraction, then is is often advisable to check to ensure that the SPICE parameters and setup are correct. This can be facilitated by using the debug commands provided ...
+  - _Keywords:_ Mystic, SPICE, Simulator, extraction, directory, folder, encounters, problems
+- **2.4.2 HSPICE Setup** _(p.24–26)_ <a id="2-4-2-hspice-setup"></a>
+  - In order to work efficiently with Verilog models there are a few setup steps in the extraction environment that greatly improve the performance of extraction when using Synopsys HSPICE. See the HSPICE [4] documentation for more information.
+  - _Keywords:_ Verilog, HSPICE, folder, IMG, _DIR, environment, SPICE, compiled
+- **2.4.3 Examples** _(p.26–27)_ <a id="2-4-3-examples"></a>
+  - Simple Verilog Example ```python Simulator.SetAdditionalSpiceArguments(("hdlpath",\ "/Models/BSIMIMG/106.2.0/code/",\ "--hdl", "/Models/BSIMIMG/106.2.0/code/bsimimg.va")) M=VerilogModel(Model)
+  - _Keywords:_ OptParam, CFD, Simulator, CFS, Models, BSIMIMG, Create, Model
+- **2.5 Sub-Circuit Models** _(p.27)_ <a id="2-5-sub-circuit-models"></a>
+  - Mystic supports the extraction of full sub-circuit netlists. There are a few rules with regards to the contents and structure of the sub-circuit that must be adhered to, in order for Mystic to parse it correctly.All components must be in...
+  - _Keywords:_ circuit, Mystic, supports, extraction, netlists, regards, contents, structure
+- **2.5.1 Sub-Circuit Model-Specific Commands** _(p.28)_ <a id="2-5-1-sub-circuit-model-specific-commands"></a>
+  - The API of the sub-circuit Model object in Mystic is designed to mirror that of a regular Model, so that the transition from using a single SPICE Model to a sub-circuit is as simple as posible. Accessing model parameters within the sub-c...
+  - _Keywords:_ Model, circuit, within, API, object, Mystic, SPICE, SetModelParameter
+- **2.5.2 Sub-Circuit Extraction with Verilog Models** <a id="2-5-2-sub-circuit-extraction-with-verilog-models"></a>
+  - Verilog models within sub-circuits can be defined in two different ways. The first way is to supply the absolute path to the verilog code in the input netlist directly
+  - _Keywords:_ Verilog, Model, netlist, bsimimg, location, GetModel, models, within
+- **2.5.3 Instance Parameters in Sub-Circuits** _(p.29)_ <a id="2-5-3-instance-parameters-in-sub-circuits"></a>
+  - Instance parameters associated with sub-circuits can set in the same way as with a regular SPICE Model, using the SetInstanceParams method. The setup of the sub-circuit will determine how these are propagated down to internal models.
+  - _Keywords:_ instance, Model, SetInstanceParams, associated, SPICE, method, circuit, internal
+- **2.5.4 Example** _(p.31)_ <a id="2-5-4-example"></a>
+  - The initial netlist for a simple parasitic extraction is shown below.
+  - _Keywords:_ extraction, params, Model, OptParam, PHIG, IdVg, source, substrate
+- **3 Mystic Command Reference** _(p.31)_ <a id="3-mystic-command-reference"></a>
+  - For user convenience, several modules and objects are pre-loaded into the Mystic execution environment. All of the automatically created objects and modules are listed and described in this chapter. This section provides a description of...
+  - _Keywords:_ Mystic, modules, objects, environment, API, exceptions, convenience, several
+- **3.1 Global Objects** _(p.32)_ <a id="3-1-global-objects"></a>
+  - The Mystic environment predefines a set of globally accessible variables containing objects and modules which are necessary for performing SPICE model extraction (See Table 3.1).
+  - _Keywords:_ Object, object, Mystic, Python, containing, SPICE, colspan, extraction
+- **Optimiser** _(p.32–33)_ <a id="optimiser"></a>
+  - The optimiser is the engine room of Mystic. By default Mystic injects the optimisation method that the user has selected at run time into the Mystic environment as the Optimiser object.
+  - _Keywords:_ optimisation, Mystic, SPICE, optimiser, routines, bounded, routine, target
+- **3.1.1 Optimisation Routines** <a id="3-1-1-optimisation-routines"></a>
+  - Mystic provides several optimisation algorithms available through different backends, some of which are described in this section of the manual. We will begin with a general overview of the trust region methods since they are used by def...
+  - _Keywords:_ Mystic, provides, several, optimisation, algorithms, available, through, different
+- **Trust Region Algorithms** _(p.34)_ <a id="trust-region-algorithms"></a>
+  - Trust region algorithms are highly reliable optimisation routines which utilises localised modelling of the objective function within some ’trust region’ in order to approximate the unknown function. This local model is then used to calc...
+  - _Keywords:_ region, minimum, optimisers, Trust, algorithms, optimisation, objective, within
+- **Intel MKL Trust Region** _(p.34)_ <a id="intel-mkl-trust-region"></a>
+  - For unbounded implementation of the Trust Region algorithm, see [13] for a detailed discussion on these methods. By default the Trust Region optimiser uses a centred difference to estimate the Jacobian of the target function, the jac con...
+  - _Keywords:_ Trust, Region, difference, unbounded, implementation, algorithm, detailed, discussion
+- **Control Parameters** _(p.36)_ <a id="control-parameters"></a>
+  - The Trust Region optimiser will accept the following control attributes.
+  - _Keywords:_ Jacobian, Trust, objective, region, Minimum, Use, estimation, Region
+- **Intel MKL Bounded Trust Region** _(p.36)_ <a id="intel-mkl-bounded-trust-region"></a>
+  - For bounded implementation of the Trust Region algorithm, see [13] for a detailed discussion on these methods. By default the Trust Region optimiser uses a centred difference to estimate the Jacobian of the target function, the jac contr...
+  - _Keywords:_ Trust, Region, difference, bounded, implementation, algorithm, detailed, discussion
+- **Control Parameters** _(p.37)_ <a id="control-parameters"></a>
+  - The Bounded Trust Region optimiser will accept the same control attributes as the unbounded Trust Region described in Table 3.2.
+  - _Keywords:_ Trust, Region, Bounded, optimiser, accept, control, attributes, unbounded
+- **Scipy Trust Region** _(p.37)_ <a id="scipy-trust-region"></a>
+  - This is the Mystic implementation of the well-known Levenburg-Marquart algorithm[14]. It is an unbounded optimisation routine. The LEVMAR routine uses a forward difference function to approximate the Jacobian of the objective function, a...
+  - _Keywords:_ implementation, Mystic, algorithm, routine, difference, Intel, MKL, Trust
+- **Control Parameters** _(p.38)_ <a id="control-parameters"></a>
+  - As part of the scipy least squares interface, the Trust Region optimiser will accept the following control attributes.
+  - _Keywords:_ objective, Minimum, magnitude, Trust, Region, calculation, colspan, change
+- **Levenberg-Marquardt** _(p.38)_ <a id="levenberg-marquardt"></a>
+  - Mystic can use scipy’s implementation of the well-known Levenberg-Marquart algorithm[14]. It is an unbounded optimisation routine.
+  - _Keywords:_ method, Optimiser, Mystic, implementation, Levenberg, Marquart, algorithm, unbounded
+- **Control Parameters** _(p.39)_ <a id="control-parameters"></a>
+  - As part of the scipy least squares interface, the Levenberg-Marquardt optimiser will accept the following control attributes.
+  - _Keywords:_ objective, Minimum, magnitude, Levenberg, Marquardt, calculation, colspan, change
+- **COBYLA** _(p.39)_ <a id="cobyla"></a>
+  - This optimiser provides, through the scipy\_minimize interface, an implementation of constrained optimisation by linear approximation algorithm[16, 15, 17] which is based on the linear approximation of the objective function within the s...
+  - _Keywords:_ COBYLA, method, _minimize, optimisation, linear, approximation, algorithm, objective
+- **Control Parameters** _(p.40)_ <a id="control-parameters"></a>
+  - The COBYLA optimiser will accept the following control attributes. Since it conforms to the scipy\_minimize interface, the “Additional Parameters” must be passed as a dictionary using the options keyword. For example, to set the stopping...
+  - _Keywords:_ rhobeg, maxiter, COBYLA, Additional, colspan, optimiser, accept, control
+- **3.2 Error Calculation Methods** _(p.40)_ <a id="3-2-error-calculation-methods"></a>
+  - The ErrorCalculator model has been deprecated in favour of in-place error calculation on the target data objects. However, the same single error calculation method can still be supplied to some of the convenience functions in the Extract...
+  - _Keywords:_ calculation, target, single, average, result, dataset, method, Mystic
+- **3.2.1 Mean** _(p.41)_ <a id="3-2-1-mean"></a>
+  - Calculates the average point wise relative error as defined by equation 3.2 expressed as a percentage.
+  - _Keywords:_ Calculates, average, relative, defined, equation, expressed, percentage
+- **3.2.2 RMSD** _(p.41)_ <a id="3-2-2-rmsd"></a>
+  - Calculates the average point wise relative RMS error expressed as a percentage using the expression given in equation 3.3.
+  - _Keywords:_ Calculates, average, relative, RMS, expressed, percentage, expression, equation
+- **3.2.3 NRMSD** _(p.42)_ <a id="3-2-3-nrmsd"></a>
+  - Calculates the Normalised Root Mean Square Deviation. This is the Root Mean Square error normalised by the range of the input data, as given by equation 3.4.
+  - _Keywords:_ Root, Mean, Square, Calculates, Normalised, Deviation, normalised, equation
+- **4 Mystic Database** _(p.42)_ <a id="4-mystic-database"></a>
+  - The overall structure and functionality of the Enigma database is described in the Enigma User Guide[18]. This section introduces the functionality and concepts as they relate to Mystic.
+  - _Keywords:_ Mystic, Enigma, information, functionality, database, described, API, fitting
+- **4.1 Loading TCAD Data** _(p.43)_ <a id="4-1-loading-tcad-data"></a>
+  - TCAD simulation data can be loaded using the Load method of the mdb object.
+  - _Keywords:_ Load, Simulation, Mystic, TCAD, loaded, method, attached, target
+- **4.1.1 Examples** _(p.43–44)_ <a id="4-1-1-examples"></a>
+  - Single IDVG curve ```txt data = mdb.Load(instances={"l":25e-9, "w":25e-9}, bias={"drain":0.05, "substrate":0.0}, n=1) ```
+  - _Keywords:_ Load, instances, substrate, single, curves, IDVG, javascript, device
+- **Loading multiple temperatures** <a id="loading-multiple-temperatures"></a>
+  - ```txt data = mdb.Load(instances={"l":25e-9},dvar='idrain', ivar='vdrain', t=[300.0,250.0]) ```
+  - _Keywords:_ Load, instances, idrain, vdrain, database, simulation, temperature, either
+- **4.2 Storing Mystic Fit Information** <a id="4-2-storing-mystic-fit-information"></a>
+  - In this release, the interaction model with the Enigma database has changed significantly from previous releases. The project and dataset framework is controlled entirely by Enigma and Mystic will push to pre-created datasets that are pa...
+  - _Keywords:_ Enigma, interaction, project, dataset, Mystic, release, database, changed
+- **4.2.1 Creating a Mystic Project** _(p.45)_ <a id="4-2-1-creating-a-mystic-project"></a>
+  - Mystic data is stored in projects within the database. These serve as a method of grouping data together in manageable locations. Project names must be unique within a database in order to allow users to search them and supplying a dupli...
+  - _Keywords:_ Mystic, within, database, Project, project, stored, projects, These
+- **4.2.2 Deleting a Mystic Project** _(p.45)_ <a id="4-2-2-deleting-a-mystic-project"></a>
+  - In general circumstances it is preferable to manage the Enigma database via Enigma directly. However, Mystic does provide functionality to remove projects from the database if required. In order to do this the function DeleteMysticProjec...
+  - _Keywords:_ project, database, general, Enigma, projects, DeleteMysticProject, delete, associated
+- **4.2.3 Creating a Mystic Dataset** _(p.46)_ <a id="4-2-3-creating-a-mystic-dataset"></a>
+  - Datasets (see the DB.MysticDataSet of the Mystic API Reference Manual (Section 1.1)) are the basic unit of data storage for Mystic. The Mystic DB API provides the CreateMysticDataset function to allow users to create datasets based on Si...
+  - _Keywords:_ dataset, Mystic, CreateMysticDataset, API, SimData, project, description, supply
+- **4.2.4 Storing Mystic Fit Information** _(p.46)_ <a id="4-2-4-storing-mystic-fit-information"></a>
+  - Having performed a Mystic extraction for a SPICE model, it needs to be stored in the Enigma database for future use. To facilitate this, the Mystic DB API provides a single, high-level utility function called StoreFitData that takes care...
+  - _Keywords:_ StoreFitData, Mystic, stored, database, SimData, Model, description, object
+- **4.3 Retrieving Mystic Fit Information** <a id="4-3-retrieving-mystic-fit-information"></a>
+- **4.3.1 GetFitData** _(p.47)_ <a id="4-3-1-getfitdata"></a>
+  - The GetFitData function retrieves previously stored fitting data from the Enigma database.
+  - _Keywords:_ GetFitData, previously, stored, fitting, SimData, retrieves, Enigma, database
+- **4.3.2 GetModelCard** _(p.47)_ <a id="4-3-2-getmodelcard"></a>
+  - The GetModelCard utility function returns a string containing a previously stored base model card from a dataset. If no model card is available in the dataset, then None is returned.
+  - _Keywords:_ dataset, project, modeldata, GetModelCard, string, returned, object, MakeModel
+- **4.3.3 GetInitialModel** <a id="4-3-3-getinitialmodel"></a>
+  - The GetInitialModel method goes one step further than GetModelCard, constructing a Model object from the card as it’s pulled from the Database.
+  - _Keywords:_ GetInitialModel, Model, object, dataset, project, method, further, GetModelCard
+- **4.3.4 GetFitParameters** _(p.48)_ <a id="4-3-4-getfitparameters"></a>
+  - The GetfitParameters method returns a dictionary of the fitted model parameters attached to a dataset. This can be used to update the current Model object in the environment. For example/
+  - _Keywords:_ dataset, Model, ensemble_id, params, GetfitParameters, method, dictionary, fitted
+- **4.3.5 GetFitModel** _(p.48)_ <a id="4-3-5-getfitmodel"></a>
+  - GetFitModel is a three step process that, pulls the initial model card from the Database, constructs a Model object, then adds the fitted parameter values stored in the dataset of interest. It takes the same arguements as GetModelCard an...
+  - _Keywords:_ GetFitModel, Model, dataset, process, initial, Database, constructs, object
+- **4.4 Multi-Stage Extraction Example** <a id="4-4-multi-stage-extraction-example"></a>
+  - These examples have been taken from a multi-stage 28nm bulk MOSFET extraction strategy. The first two stages of this extraction strategy are given here as an example of how the Enigma database can be used to transfer information through ...
+  - _Keywords:_ extraction, strategy, stages, These, MOSFET, Enigma, database, transfer
+- **4.4.1 Extraction Stage 1** _(p.49)_ <a id="4-4-1-extraction-stage-1"></a>
+  - In this first stage of the extraction strategy we fit the low drain bias behaviour of our test case device and store the result of the extraction in the Enigma database.
+  - _Keywords:_ OptParam, IdVg25nm_LD, Model, extraction, Simulator, Optimiser, nfactor, SetOptimisationParameter
+- **4.4.2 Extraction Stage 2** _(p.49–51)_ <a id="4-4-2-extraction-stage-2"></a>
+  - In this extraction stage we fit the above threshold behaviour of the test device using mobility and resistance parameters but use the previously stored low drain fitting data as a starting point for the second stage.
+  - _Keywords:_ IdVg25nm_LD, Model, Load, IdVg25nm_LD_Vb0, FilterData, AboveVt, OptParam, ExtractionUtils
+- **A Garand Dataset Type Strings** _(p.51)_ <a id="a-garand-dataset-type-strings"></a>
+  - Numerous types of data can be stored by Garand in the Enigma database. The following provides a list of the string identifiers used in the Enigma database to reference different types of data that can be queried and loaded. See the Garan...
+  - _Keywords:_ Garand, Enigma, database, Numerous, stored, provides, string, identifiers
+- **A.1 Id-Vg Simulation** _(p.51–52)_ <a id="a-1-id-vg-simulation"></a>
+  - The following data types can be queried from Garand IdVg simulations. In this case the independent variable of the data is always the gate voltage.
+  - _Keywords:_ Drain, Source, Gate, Body, source, IdVg, colspan, Contact
+- **A.2 Id-Vd Simulation** _(p.52)_ <a id="a-2-id-vd-simulation"></a>
+  - The following data types can be queried from Garand IdVd simulations. In this case the independent variable of the data is always the drain voltage.
+  - _Keywords:_ Drain, Source, Gate, Body, source, IdVd, colspan, Contact
+- **A.3 Vt Simulation** _(p.53)_ <a id="a-3-vt-simulation"></a>
+  - Only one data type can be queried from Garand Vt search simulations.
+  - _Keywords:_ queried, Garand, search, simulations, Identifier, Dependent, Variable, Description
+- **Bibliography** _(p.53–55)_ <a id="bibliography"></a>
+  - [1] Mark Lutz. Programming Python. O’Reilly, December 2010. [2] Mark Lutz. Dive Into Python. May 2004. [3] Python Software Foundation. Python.org. https://www.python.org/, 2017. [4] Synopsys Inc. HSPICE: The Gold Standard for Accurate Ci...
+  - _Keywords:_ models, Synopsys, Inc, Python, Berkeley, Device, Group, BSIM
+- **Index** _(p.55)_ <a id="index"></a>
+- **B** _(p.55)_ <a id="b"></a>
+  - Bounded Optimisation, 32
+  - _Keywords:_ BSIM, Bounded, Optimisation, CMG, IMG, BSIMIMGVerilogModel
+- **C** <a id="c"></a>
+  - Command Line
+  - _Keywords:_ Line, modelfile, Database, Arguments, script, dataset, location, optimiser
+- **D** _(p.56–57)_ <a id="d"></a>
+  - Database, 13
+  - _Keywords:_ Creating, Storing, project, DeleteMysticProject, Database, CreateMysticDataset, CreateMysticProject, Datasets
+- **E** <a id="e"></a>
+  - Enigma database
+  - _Keywords:_ Extraction, Data, Errors, InputDataError, Enigma, database, Loading, Garand
+- **F** <a id="f"></a>
+  - FDSOI, 21
+  - _Keywords:_ FDSOI, FinFET
+- **G** <a id="g"></a>
+  - Garand Data set types, 51 IdVd, 52 Vt, 52
+  - _Keywords:_ Garand, Data, IdVd, GarandData, IdVg, GetFitData, GetModelCard, Global
+- **H** <a id="h"></a>
+  - HSPICE, 9, 24 HDL\_DIR, 24 PVA\_DIR, 24
+  - _Keywords:_ HSPICE, _DIR, HDL, PVA, performance
+- **L** <a id="l"></a>
+  - Loading a SPICE model, 13
+  - _Keywords:_ Loading, SPICE
+- **M** <a id="m"></a>
+  - MakeFoMTarget, 14 mdb Loading CV values, 21
+  - _Keywords:_ Loading, Mystic, MakeFoMTarget, Line, Arguments, Database, connection, Installation
+- **O** <a id="o"></a>
+  - Optimisation Parameters, 15 Optimiser, 10, 32 Bounded Trust Region, 36 COBYLA, 32, 33, 39
+  - _Keywords:_ Trust, Optimisation, Region, Marquardt, Optimiser, Bounded, COBYLA, Constrained
+- **P** <a id="p"></a>
+  - Parameter History, 19
+  - _Keywords:_ History, PLT, Project, Creating, Deleting
+- **S** <a id="s"></a>
+  - SimData, 14, 18, 29, 43, 46 Simulator SetAdditionalSpiceArguments, 23
+  - _Keywords:_ Simulator, SPICE, Supported, SimData, SetAdditionalSpiceArguments, HSPICE, Simulators, Loading
+- **T** <a id="t"></a>
+  - Temporary directories, 23
+  - _Keywords:_ Temporary, directories
+- **U** <a id="u"></a>
+  - Utility Functions
+  - _Keywords:_ Utility, LoadModel
+- **V** <a id="v"></a>
+  - Verilog, 10
+  - _Keywords:_ Verilog, Models, BSIMIMGVerilogModel, Debugging, HSPICE, SetAdditionalSpiceArguments, Supported

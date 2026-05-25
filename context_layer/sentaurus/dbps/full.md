@@ -1,0 +1,12 @@
+<!-- page:1 -->
+# Database Process Search (DBPS)
+
+The Database Process Search (DBPS) looks for process flows written in Sentaurus™ Process syntax in a directory (such as \$STCALIB/processes\_\*). The processes that match the search criterion are listed in the process list file.
+
+The search criterion – the process search pattern – consists of conditions connected by logical operators &&, ||, !, and grouped by parentheses. The operator && means and, || means or, and ! means not. The conditions consist of a keyword and arguments, for example, impl(element==As) or nimpl>0.
+
+In general, the keyword takes only one argument. Only the impl() and diff() keywords can have more than one argument that are connected by logical operators. Some arguments consist of an argument type and a value connected by comparators: ==, <=, >=, <, >, or !=. Some arguments do not have comparators or argument types.
+
+Table 1 DBPS process flow keywords and syntax allowed in DBPS criterion 
+
+<table><tr><td>Keyword</td><td>Meaning</td><td>Argument</td><td>Example</td></tr><tr><td>impl()</td><td>Implantation statement scan, true if (1)</td><td>element, elemenergy, endosetiltrotation, rot</td><td>impl(elem==as)impl(en&gt;0 &amp;&amp; en&lt;100)impl(dose&gt;=1e12)impl(tilt!=0)impl(rot&lt;1)</td></tr><tr><td>diff()</td><td>Diffusion statement scan, true if (1)</td><td>maxT (maximum temperature)totaltimepeaktime (time at maximum temperature)pn2 (partial pressure for  $N_2$ )po2 (partial pressure for  $O_2$ )ph2o (partial pressure for  $H_2O$ )</td><td>diff(maxT==1000)diff(totaltime&gt;5)diff(peaktime!=0)diff(pn2==1)diff(po2&gt;0 &amp;&amp; po2&lt;1)diff(ph2o!=0)</td></tr><tr><td>plot()</td><td>Plot statement scan, true if (2)</td><td>X, Xtot, Xtotal, Xactive(where X is one of as, p, b, in, ge, sb, ga, al, n)</td><td>plot(bactive)</td></tr><tr><td>nimpl</td><td>Number of implantation statements scan, true if (3)</td><td>-</td><td>nimpl==1</td></tr><tr><td>ndiff</td><td>Number of diffusion statement scan, true if (3)</td><td>-</td><td>ndiff&gt;0</td></tr><tr><td>file()</td><td>File name scan, true if (2)</td><td></td><td>file(USJ)</td></tr><tr><td>grep()</td><td>Process file scan, true if (2)</td><td></td><td>grep(comment)</td></tr><tr><td colspan="4">(1) At least one statement exists in the process file, for which the arguments are evaluated as true.(2) At least one statement exists in the process file, for which the argument is evaluated as true.(3) Comparison is evaluated as true.</td></tr></table>

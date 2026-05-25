@@ -1,0 +1,2215 @@
+# dmc_ug — outline
+
+Navigation only. Confirm any claim against [`./full.md`](./full.md) by reading the passage near the cited `<!-- page:N -->` anchor.
+
+- **Sentaurus™ Device Monte Carlo User Guide** _(p.1)_ <a id="sentaurus-device-monte-carlo-user-guide"></a>
+  - Version O-2018.06, June 2018
+  - _Keywords:_ Version, June
+- **Copyright and Proprietary Information Notice** _(p.1–2)_ <a id="copyright-and-proprietary-information-notice"></a>
+  - © 2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, r...
+  - _Keywords:_ Synopsys, Inc, software, associated, documentation, proprietary, pursuant, conditions
+- **Destination Control Statement** _(p.2)_ <a id="destination-control-statement"></a>
+  - All technical data contained in this publication is subject to the export control laws of the United States of America. Disclosure to nationals of other countries contrary to United States law is prohibited. It is the reader’s responsibi...
+  - _Keywords:_ United, States, technical, contained, publication, subject, export, control
+- **Disclaimer** <a id="disclaimer"></a>
+  - SYNOPSYS, INC., AND ITS LICENSORS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  - _Keywords:_ IMPLIED, SYNOPSYS, INC, ITS, LICENSORS, WARRANTY, KIND, EXPRESS
+- **Trademarks** <a id="trademarks"></a>
+  - Synopsys and certain Synopsys product names are trademarks of Synopsys, as set forth at https://www.synopsys.com/company/legal/trademarks-brands.html.
+  - _Keywords:_ Synopsys, trademarks, product, company, certain, synopsys, brands, respective
+- **Third-Party Links** _(p.3)_ <a id="third-party-links"></a>
+  - Any links to third-party websites included in this document are for your convenience only. Synopsys does not endorse and is not responsible for such websites and their practices, including privacy practices, availability, and content.
+  - _Keywords:_ websites, Synopsys, practices, included, document, convenience, endorse, responsible
+- **About This Guide xv** _(p.3)_ <a id="about-this-guide-xv"></a>
+  - Related Publications . .
+  - _Keywords:_ Support, Contacting, Related, Publications, Conventions, Customer, Accessing, SolvNet
+- **Part I Single-Particle Device Monte Carlo 1** <a id="part-i-single-particle-device-monte-carlo-1"></a>
+- **Chapter 1 Simulation Procedure 3** <a id="chapter-1-simulation-procedure-3"></a>
+  - Initial Sentaurus Device Simulation . . .
+  - _Keywords:_ Device, Simulation, Single, Particle, Monte, Carlo, Initial, Sentaurus
+- **Chapter 2 Input Specification 19** <a id="chapter-2-input-specification-19"></a>
+  - File Section . . . 19
+  - _Keywords:_ Solve, Math, Monte, Carlo, Post, Plot, MonteCarlo, Coordinate
+- **Chapter 3 Physical and Numeric Models 31** _(p.4)_ <a id="chapter-3-physical-and-numeric-models-31"></a>
+  - Models for Band Structure and Scattering Mechanisms. . . 31
+  - _Keywords:_ Scattering, Statistics, Currents, Current, Averages, Quantum, Correction, Visualizing
+- **Chapter 4 Strained Silicon 55** <a id="chapter-4-strained-silicon-55"></a>
+  - Bulk Properties . . . . 55
+  - _Keywords:_ Bulk, Properties, NMOSFETs, Current, Interpretation, PMOSFETs, Arbitrary, Stress
+- **Chapter 5 Surface and Channel Orientations 71** <a id="chapter-5-surface-and-channel-orientations-71"></a>
+  - Changing Surface and Channel Orientations . . . 71
+  - _Keywords:_ Changing, Surface, Channel, Orientations, References
+- **Chapter 6 Stress-Dependent Built-in Analytic Band Structures 75** <a id="chapter-6-stress-dependent-built-in-analytic-band-structures"></a>
+  - Stress Engineering. . . . . 75
+  - _Keywords:_ Band, Structure, Stress, Engineering, Visualizing, Structures, Hole, Electron
+- **Chapter 7 Transport in Strained SiGe 8 5** _(p.5)_ <a id="chapter-7-transport-in-strained-sige-8-5"></a>
+  - Hole Band Structure . . . 85
+  - _Keywords:_ Hole, Band, Structure, Scattering, Mechanisms, Simulation, Procedure, Results
+- **Chapter 8 Electron Transport in InGaAs 91** <a id="chapter-8-electron-transport-in-ingaas-91"></a>
+  - Features of Electron Transport . . 91
+  - _Keywords:_ Features, Electron, Transport, References
+- **Chapter 9 Mobility Reduction in High-k Gate Stacks 9 3** <a id="chapter-9-mobility-reduction-in-high-k-gate-stacks-9-3"></a>
+  - Introduction . . . . 93
+  - _Keywords:_ Scattering, High, Mobility, Interfacial, Oxide, Introduction, Soft, Optical
+- **Chapter 10 Parallelization 101** <a id="chapter-10-parallelization-101"></a>
+  - Parallel Simulation Procedure. . . 101
+  - _Keywords:_ Parallel, Simulation, Procedure, Simulations, Sentaurus, Workbench, Licensing
+- **Chapter 11 Example: NMOS Transistor 105** <a id="chapter-11-example-nmos-transistor-105"></a>
+  - Simulation of an NMOS Transistor . . . 105
+  - _Keywords:_ Simulation, NMOS, Transistor
+- **Part II Band Structure and Mobility Calculation 109** <a id="part-ii-band-structure-and-mobility-calculation-109"></a>
+- **Chapter 12 Using Sentaurus Band Structure 111** _(p.6)_ <a id="chapter-12-using-sentaurus-band-structure-111"></a>
+  - Introduction to Sentaurus Band Structure. . . 1
+  - _Keywords:_ Band, Structure, Mobility, Strain, Sentaurus, Line, Computing, Data
+- **Chapter 13 Empirical Pseudopotential Method 139** _(p.7)_ <a id="chapter-13-empirical-pseudopotential-method-139"></a>
+  - Introduction to Pseudopotentials. . . . . 139
+  - _Keywords:_ Pseudopotential, Strained, Local, Pseudopotentials, Empirical, Crystal, Spin, Orbit
+- **Chapter 14 Analytic Bands for Bulk Crystals 159** <a id="chapter-14-analytic-bands-for-bulk-crystals-159"></a>
+  - Conduction Bands . . . . 159
+  - _Keywords:_ Model, Bands, Conduction, Two, Band, Ellipsoidal, Nonparabolicity, Valence
+- **Chapter 15 Subband and Mobility Calculations 167** _(p.8–10)_ <a id="chapter-15-subband-and-mobility-calculations-167"></a>
+  - Device Structure . . . 167
+  - _Keywords:_ Scattering, Density, Models, Model, Surface, Band, Confined, Equation
+- **Chapter 16 Sentaurus Band Structure/Tcl Command Reference 239** _(p.11–15)_ <a id="chapter-16-sentaurus-band-structure-tcl-command-reference-23"></a>
+  - Overview. . . . 239
+  - _Keywords:_ EPM, Crystal, AnalyticBandSolver, Band, AtomicSpecies, Monte, Carlo, Physics
+- **Related Publications** _(p.16)_ <a id="related-publications"></a>
+  - For additional information, see:
+  - _Keywords:_ SolvNet, available, additional, information, TCAD, Sentaurus, release, Synopsys
+- **Conventions** _(p.16)_ <a id="conventions"></a>
+  - The following conventions are used in Synopsys documentation.
+  - _Keywords:_ Identifies, screen, identifies, conventions, Synopsys, documentation, Convention, Description
+- **Customer Support** <a id="customer-support"></a>
+  - Customer support is available through the Synopsys SolvNet customer support website and by contacting the Synopsys support center.
+  - _Keywords:_ support, Synopsys, Customer, available, through, SolvNet, customer, website
+- **Accessing SolvNet** _(p.17)_ <a id="accessing-solvnet"></a>
+  - The SolvNet support site includes an electronic knowledge base of technical articles and answers to frequently asked questions about Synopsys tools. The site also gives you access to a wide range of Synopsys online services, which includ...
+  - _Keywords:_ Synopsys, SolvNet, access, password, support, includes, electronic, knowledge
+- **Contacting Synopsys Support** _(p.17)_ <a id="contacting-synopsys-support"></a>
+  - If you have problems, questions, or suggestions, you can contact Synopsys support in the following ways:
+  - _Keywords:_ Synopsys, support, Global, Support, Centers, problems, questions, suggestions
+- **Contacting Your Local TCAD Support Team Directly** <a id="contacting-your-local-tcad-support-team-directly"></a>
+  - Send an e-mail message to:
+  - _Keywords:_ support, synopsys, within, America, Send, message, North, South
+- **Acknowledgments** <a id="acknowledgments"></a>
+  - The single-particle device Monte Carlo simulator was codeveloped by Integrated Systems Laboratory of ETH Zurich in the joint research project HYBRID with financial support by the Swiss funding agency CTI.
+  - _Keywords:_ single, particle, device, Monte, Carlo, simulator, codeveloped, Integrated
+- **References** _(p.18)_ <a id="references"></a>
+  - [1] F. M. Bufler, A. Tsibizov, and A. Erlebach, “Scaling of Bulk pMOSFETs: (110) Surface Orientation Versus Uniaxial Compressive Stress,”' IEEE Electron Device Letters, vol. 27, no. 12, pp. 992–994, 2006. [2] R. Hudé et al., “A Simple Ap...
+  - _Keywords:_ Bulk, Bufler, Tsibizov, Erlebach, Scaling, pMOSFETs, Surface, Orientation
+- **About This Guide** _(p.18)_ <a id="about-this-guide"></a>
+  - References
+  - _Keywords:_ References, Bufler, Exploring, Limit, Strain, Induced, Performance, Gain
+- **Part I Single-Particle Device Monte Carlo** _(p.19–21)_ <a id="part-i-single-particle-device-monte-carlo"></a>
+  - This part of the Sentaurus™ Device Monte Carlo User Guide contains the following chapters:
+  - _Keywords:_ simulation, Monte, Carlo, diffusion, density, Sentaurus, Device, window
+- **Initial Sentaurus Device Simulation** _(p.22)_ <a id="initial-sentaurus-device-simulation"></a>
+  - The command file of the drift-diffusion simulation drift\_new.cmd is:
+  - _Keywords:_ drift_new, Vector, diffusion, simulation, n5_msh, current, Plot, eVelocity
+- **1: Simulation Procedure** _(p.22–25)_ <a id="1-simulation-procedure"></a>
+  - Initial Sentaurus Device Simulation
+  - _Keywords:_ Sentaurus, Device, voltage, simulation, electron, Monte, Carlo, defined
+- **Single-Particle Device Monte Carlo Simulation** _(p.26)_ <a id="single-particle-device-monte-carlo-simulation"></a>
+  - When the program finishes, the save file drift\_new\_des.sav is created, which corresponds to a voltage of 1.2 V at the drain contact. This solution is used to start a Monte Carlo simulation using the command file mc\_new.cmd.
+  - _Keywords:_ mc_new, program, finishes, created, corresponds, voltage, contact, solution
+- **1: Simulation Procedure** _(p.26–28)_ <a id="1-simulation-procedure"></a>
+  - Single-Particle Device Monte Carlo Simulation
+  - _Keywords:_ contact, voltage, keyword, current, Monte, Carlo, simulation, Vector
+- **1: Simulation Procedure** _(p.28–29)_ <a id="1-simulation-procedure"></a>
+  - Single-Particle Device Monte Carlo Simulation
+  - _Keywords:_ simulation, interval, intervals, iterations, stationary, current, estimation, variables
+- **Screen Output of Single-Particle Device Monte Carlo Simulation** _(p.30)_ <a id="screen-output-of-single-particle-device-monte-carlo-simulati"></a>
+  - The Monte Carlo simulation is run by typing:
+  - _Keywords:_ simulation, particles, Mean, propagation, injected, propagated, Total, energy
+- **After the first iteration is completed, as shown above, the nonlinear Poisson equation is solved:** _(p.31–32)_ <a id="after-the-first-iteration-is-completed-as-shown-above-the-no"></a>
+  - Computing poisson-equation
+  - _Keywords:_ current, Computing, Rhs, Writing, colspan, _000001, propagation, routine
+- **Single-Particle Device Monte Carlo Results** _(p.33)_ <a id="single-particle-device-monte-carlo-results"></a>
+  - The plot files for the visualization of internal variables, such as density, electron temperature, and velocity, are stored in the files mc\_new\_000024\_des.tdr and so on, and can be viewed using Sentaurus Visual.
+  - _Keywords:_ simulation, _average, current, suffix, averages, stored, stationary, cumulative
+- **Ramping of Boundary Conditions** _(p.33–36)_ <a id="ramping-of-boundary-conditions"></a>
+  - Instead of running one Sentaurus Device Monte Carlo process per bias point, it is possible to combine calculations for multiple bias points in a single Sentaurus Device Monte Carlo run. In conjunction with parallelization (see Chapter 10...
+  - _Keywords:_ Monte, Carlo, simulation, results, current, statement, MonteCarlo, solution
+- **1: Simulation Procedure** _(p.36–37)_ <a id="1-simulation-procedure"></a>
+  - Ramping of Boundary Conditions
+  - _Keywords:_ Monte, Carlo, Sentaurus, Device, Ramping, Boundary, Conditions, specific
+- **File Section** <a id="file-section"></a>
+  - File names for the simulation are specified in this section. Each keyword uses a predefined file extension. If the extension is omitted, it is appended automatically. The following keywords can be defined for Monte Carlo purposes:
+  - _Keywords:_ Monte, Carlo, extension, Defines, MonteCarloPath, directory, simulation, specified
+- **Math Section** _(p.38)_ <a id="math-section"></a>
+  - In addition to the mathematical models described in the Sentaurus™ Device User Guide, the keyword currentweighting, which is associated with terminal currents, is introduced in this section. This keyword defines the domain integration te...
+  - _Keywords:_ keyword, addition, mathematical, models, described, Sentaurus, Device, Guide
+- **Solve Section** _(p.38)_ <a id="solve-section"></a>
+  - This section defines the equations that Sentaurus Device must solve and how Sentaurus Device solves them. You have great flexibility as to which equations are solved and the methods used (refer to the Sentaurus™ Device User Guide).
+  - _Keywords:_ Sentaurus, Device, equations, defines, solves, You, flexibility, solved
+- **Monte Carlo Post-Solve** _(p.38)_ <a id="monte-carlo-post-solve"></a>
+  - To calculate a Monte Carlo post-solve, MonteCarlo can be specified at any point in the Solve section like a partial differential equation. Of course, MonteCarlo cannot be coupled to any of the partial differential equations. However, it ...
+  - _Keywords:_ MonteCarlo, partial, differential, calculate, Monte, Carlo, specified, Solve
+- **Plot Section** _(p.40)_ <a id="plot-section"></a>
+  - In the Plot section, the variables that are to be saved in the plot file are selected. Table 1 lists the Monte Carlo–specific keywords with the corresponding keywords in drift-diffusion simulations.
+  - _Keywords:_ Occupation, valley, carrier, densities, flying, carriers, having, scalar
+- **MonteCarlo Section** _(p.40–48)_ <a id="montecarlo-section"></a>
+  - The parameters for the interface to the Monte Carlo simulation are defined in this section.
+  - _Keywords:_ specifies, vector, scattering, specified, energy, Monte, Carlo, corresponds
+- **Coordinate System** _(p.48–49)_ <a id="coordinate-system"></a>
+  - In the absence of stress and when using the ReadinStress option, Sentaurus Device Monte Carlo can use both the unified coordinate system and the DF–ISE coordinate system in the same way as Sentaurus Device.
+  - _Keywords:_ coordinate, system, Sentaurus, Device, Monte, Carlo, ISE, absence
+- **Models for Band Structure and Scattering Mechanisms** _(p.49–51)_ <a id="models-for-band-structure-and-scattering-mechanisms"></a>
+  - The full band structure for Si is obtained by nonlocal pseudopotential calculations [2] where, in addition, the spin-orbit interaction is taken into account [3]. Four conduction bands and three valence bands are stored on a mesh in momen...
+  - _Keywords:_ scattering, Drift, Velocity, Exp, ToF, MToF, phonon, impurity
+- **where:** _(p.52–53)_ <a id="where"></a>
+  - is the elementary charge.e is the valley index.n $N _ { \mathrm { i m p } }$ is the impurity concentration. ■ is the static dielectric constant of silicon.ε $m _ { \mathrm { d } }$ is the density-of-states mass at the band edge. is the n...
+  - _Keywords:_ doping, silicon, screening, mathrm, impurity, scattering, density, inverse
+- **Surface Roughness Scattering** _(p.53–54)_ <a id="surface-roughness-scattering"></a>
+  - The following models for surface roughness scattering are available:
+  - _Keywords:_ scattering, mathbf, diffusive, specular, effective, surface, density, normal
+- **where:** _(p.54)_ <a id="where"></a>
+  - ■ (RoughnessMeanSquare in units of nm) is the roughness mean square amplitude.Δ ■ (CorrelationLength in units of nm) is the correlation length.L For the exponential model, the exponent (BetaExponentialSurfaceRoughness)β can be specified ...
+  - _Keywords:_ mathbf, scattering, surface, roughness, wavevector, Lombardi, RoughnessMeanSquare, square
+- **Fermi Statistics** <a id="fermi-statistics"></a>
+  - For high doping levels, degeneracy of the carrier gas can have a significant impact on the drain current. The Monte Carlo models affected by Fermi statistics can be split into two groups.
+  - _Keywords:_ doping, levels, degeneracy, carrier, significant, impact, current, Monte
+- **where:** _(p.55–57)_ <a id="where"></a>
+  - is the electron density.n ■ is the hole density.p ■ is the Fermi energy.μ
+  - _Keywords:_ Fermi, density, Monte, mathrm, Carlo, energy, statistics, device
+- **Arbitrary Lattice Temperature** _(p.57)_ <a id="arbitrary-lattice-temperature"></a>
+  - Performing a Monte Carlo simulation for any lattice temperature between and is50 K 500 K possible using, for example, the specification temperature=245.0 in the Physics section of both the initial Sentaurus Device command file and the Se...
+  - _Keywords:_ Monte, Carlo, temperature, Sentaurus, Device, Performing, simulation, lattice
+- **Trajectory Calculation** _(p.57–58)_ <a id="trajectory-calculation"></a>
+  - Along lines that have been developed [25], the time during which the electron is propagated according to Newton’s law is determined as the minimum of four times:
+  - _Keywords:_ scattering, element, momentum, energy, mathbf, flight, interval, simulation
+- **Self-Consistent Single-Particle Approach** _(p.59)_ <a id="self-consistent-single-particle-approach"></a>
+  - In the tool, the total simulation time as given by the second argument of the parameter Range (see Table 2 on page 22) is split into a number of intervals, the number of which is given by the parameter Intervals.
+  - _Keywords:_ simulation, density, interval, particle, contact, Poisson, equation, intervals
+- **Gathering Statistics** _(p.60)_ <a id="gathering-statistics"></a>
+  - During the simulation within a frozen-field iteration, cumulative expectation values of microscopic quantities, such as the group velocity, energy, and impact ionization scattering rate, are collected in each real-space element. Usually,...
+  - _Keywords:_ probability, simulation, region, electron, element, statistics, scheme, scattering
+- **Estimating Currents** _(p.61)_ <a id="estimating-currents"></a>
+  - This section briefly explains how estimations for drain and substrate currents are obtained. These estimations are performed after each frozen-field iteration, before the field is updated for the next iteration by using the nonlinear Poi...
+  - _Keywords:_ simulation, estimations, iteration, certain, iterations, between, different, briefly
+- **Drain Current** _(p.61)_ <a id="drain-current"></a>
+  - The drain current $I _ { D }$ is estimated by either direct particle counting (the default) or the test function method. For details about the latter, refer to the literature and its references [33].
+  - _Keywords:_ current, estimated, either, direct, particle, counting, method, details
+- **Substrate Current** <a id="substrate-current"></a>
+  - The substrate current $I _ { S }$ is calculated by using the expectation value of the impact ionization scattering rate $S _ { I I }$ according to:
+  - _Keywords:_ substrate, mathbf, current, calculated, expectation, impact, ionization, scattering
+- **Contact Resistance** _(p.62)_ <a id="contact-resistance"></a>
+  - A contact resistance occurs, for example, at a silicide–silicon junction, which typically forms the contacts for the source and drain of a MOSFET [34]. The contact produces an additional voltage drop, and this effectively changes the app...
+  - _Keywords:_ contact, Monte, Carlo, Poisson, equation, currents, resistance, voltage
+- **Averages and Statistical Error of the Currents** _(p.63)_ <a id="averages-and-statistical-error-of-the-currents"></a>
+  - The tool computes the drain current and substrate current for each simulation interval as described in Drain Current on page 43 and Substrate Current on page 43. After the tool has reached steady state, it takes cumulative averages of th...
+  - _Keywords:_ simulation, current, intervals, interval, reached, steady, average, Delta
+- **Considering Traps** _(p.64)_ <a id="considering-traps"></a>
+  - The electrostatic effect of acceptor-like border traps, which give rise, in particular, to Fermilevel pinning, or donor-like interface traps can be taken into account in Monte Carlo device simulations by specifying the following in the S...
+  - _Keywords:_ Monte, Carlo, device, Sentaurus, Device, Traps, Frozen, simulation
+- **Quantum Correction** _(p.64)_ <a id="quantum-correction"></a>
+- **Effective Quantum Correction** _(p.64–66)_ <a id="effective-quantum-correction"></a>
+  - Transport in short-channel devices is influenced both by quasiballistic and quantummechanical effects. However, the Boltzmann equation describes only semiclassical transport and does not include quantum confinement explicitly. The main q...
+  - _Keywords:_ simulation, quantum, diffusion, thickness, classical, Monte, Carlo, density
+- **Density-Gradient Monte Carlo** _(p.66)_ <a id="density-gradient-monte-carlo"></a>
+  - As an alternative to the effective quantum correction based on effective oxide thickness and workfunctions, a quantum density profile can be explicitly taken into account in Monte Carlo simulations.
+  - _Keywords:_ quantum, density, effective, profile, gradient, corresponding, alternative, correction
+- **Visualizing Energy Distributions** <a id="visualizing-energy-distributions"></a>
+  - The energy distribution, corresponding to the product of the density-of-states multiplied by the distribution function, can be visualized for up to nine positions in a device by specifying, for example, for a 2D device simulation in unit...
+  - _Keywords:_ energy, distributions, distribution, device, corresponding, product, density, states
+- **Visualizing Valley Occupations** _(p.67)_ <a id="visualizing-valley-occupations"></a>
+  - You can visualize the valley or valence-band occupations in a device by specifying the keyword PlotValleyOccupations in the MonteCarlo section of the Sentaurus Device Monte Carlo command file.
+  - _Keywords:_ valley, Sentaurus, Device, Monte, Carlo, You, visualize, valence
+- **Averages Over Forward- and Backward-Flying Carriers** _(p.68–69)_ <a id="averages-over-forward-and-backward-flying-carriers"></a>
+  - To study carrier transport in more detail, averages of quantities such as group velocity can be computed over a subset of carriers. Specifically, carriers can be divided into forward-flying and backward-flying depending on whether the sc...
+  - _Keywords:_ forward, flying, velocity, backward, carriers, InjectionDirection, details, summary
+- **Ballistic Transport** _(p.69–70)_ <a id="ballistic-transport"></a>
+  - To investigate how far transport is from the ballistic limit, all scattering mechanisms can be switched off (and surface roughness scattering can be set to 100% specular) in a user-defined window in the device. Ballistic transport is act...
+  - _Keywords:_ scattering, ballistic, window, switched, transport, mechanisms, Ballistic, WindowBallistic
+- **References** _(p.70–73)_ <a id="references"></a>
+  - [1] F. M. Bufler, A. Schenk, and W. Fichtner, “Efficient Monte Carlo Device Modeling,” IEEE Transactions on Electron Devices, vol. 47, no. 10, pp. 1891–1897, 2000. [2] M. M. Rieger and P. Vogl, “Electronic-band parameters in strained ${ ...
+  - _Keywords:_ Monte, Carlo, Electron, Devices, Simulation, Physics, Bufler, mathrm
+- **Bulk Properties** _(p.73–79)_ <a id="bulk-properties"></a>
+  - Bulk silicon and bulk germanium have different lattice constants, namely, $a _ { 0 , \mathrm { S i } } = 5 . 4 3 \mathrm { ~ \AA ~ }$ and $a _ { 0 , \mathrm { G e } } = 5 . 6 5 \mathrm { \AA }$ . The lattice constant in the alloy ${ \mat...
+  - _Keywords:_ velocity, strained, direction, strain, silicon, electrons, mathrm, unstrained
+- **NMOSFETs** _(p.80–82)_ <a id="nmosfets"></a>
+  - In this section, the main findings regarding the reported performance of strained-silicon NMOSFETs [5] are discussed. The focus is on the decisive issue of how the strain-induced performance enhancement scales as a function of the gate l...
+  - _Keywords:_ mathrm, strained, unstrained, channel, direction, length, mathbf, strain
+- **On-Current Interpretation** _(p.82–84)_ <a id="on-current-interpretation"></a>
+  - While the simulated performance enhancements by strain in nanoscale NMOSFETs are in good agreement with measurements [18], they are surprising from a physical point of view, because Figure 13 on page 58 shows that the strain-induced velo...
+  - _Keywords:_ velocity, transport, quasiballistic, strain, mathrm, strained, channel, direction
+- **PMOSFETs** _(p.84–85)_ <a id="pmosfets"></a>
+  - In this section, the analogous investigation as in NMOSFETs on page 61 for NMOSFETs is performed for PMOSFETs, that is, the strain-induced performance dependence on scaling is addressed as reported in the literature [6]. In contrast to t...
+  - _Keywords:_ strain, strained, unstrained, current, smaller, NMOSFETs, performance, direction
+- **Arbitrary Stress** _(p.85–87)_ <a id="arbitrary-stress"></a>
+  - Besides MOSFETs under biaxial tensile strain as discussed in the previous section, Sentaurus Device Monte Carlo can simulate devices under arbitrary stress. The corresponding bandstructure data can be generated with Sentaurus Band Struct...
+  - _Keywords:_ SPARTA, lsmith, STRESSTABLE, uni110comp85, reading, structure, strain, Sentaurus
+- **References** _(p.87–89)_ <a id="references"></a>
+  - [1] M. M. Rieger and P. Vogl, “Electronic-band parameters in strained $\mathrm { S i } _ { 1 - x } \mathrm { G e } _ { x }$ alloys on $\mathrm { S i } _ { 1 \mathrm { - y } } \mathrm { G e } _ { y }$ substrates,” Physical Review B, vol. ...
+  - _Keywords:_ mathrm, Electron, Monte, Carlo, Physics, strained, Letters, transport
+- **Changing Surface and Channel Orientations** _(p.89–92)_ <a id="changing-surface-and-channel-orientations"></a>
+  - Apart from stress engineering, changing surface and channel orientations is another possibility to increase the performance of PMOSFETs [1][2]. This effect can be investigated in Sentaurus Device Monte Carlo by specifying the crystallogr...
+  - _Keywords:_ surface, channel, orientations, direction, orientation, stress, Sentaurus, details
+- **References** _(p.92–93)_ <a id="references"></a>
+  - [1] H. Nakamura et al., “Effects of Selecting Channel Direction in Improving Performance of Sub-100 nm MOSFETs Fabricated on (110) Surface Si Substrate,” Japanese Journal of Applied Physics, vol. 43, no. 4B, pp. 1723–1728, 2004. [2] T. M...
+  - _Keywords:_ Channel, Surface, Monte, Carlo, Performance, Strained, Devices, Simulation
+- **Stress Engineering** _(p.93–94)_ <a id="stress-engineering"></a>
+  - Stress engineering requires the frequent computation of the corresponding band structures. Since the accurate pseudopotential calculations are very CPU-intensive, the tool offers as a third possibility – besides using the supplied pseudo...
+  - _Keywords:_ tensor, strain, stress, varepsilon_, engineering, symmetric, MCStrain, Sentaurus
+- **Visualizing Band Structures** _(p.95)_ <a id="visualizing-band-structures"></a>
+  - The new analytic band models for electrons and holes, which are activated by specifying MCStrain in the Sentaurus Device Monte Carlo command file, can also be visualized along a line in the Brillouin zone by giving the initial and final ...
+  - _Keywords:_ wavevectors, KVecEnd, between, analytic, models, electrons, activated, specifying
+- **Hole Band Structure** _(p.95–96)_ <a id="hole-band-structure"></a>
+  - For holes, analytic solutions of the six-band Hamiltonian are used [2]. The values usedk p⋅ for the valence-band parameters and for the deformation potentials are shown in Table 3 together with the elastic constants in silicon. The value...
+  - _Keywords:_ mathsf, mathrm, silicon, Mbar, structure, Monte, Carlo, deformation
+- **Electron Band Structure** _(p.96–100)_ <a id="electron-band-structure"></a>
+  - For electrons, it had been found that the standard analytic band model, which is based on different values for the longitudinal and the transverse mass and uses an isotropic nonparabolicity factor [6], overestimates the drain current at ...
+  - _Keywords:_ analytic, mathrm, pseudopotential, varepsilon_, Delta, electron, details, summary
+- **References** _(p.100–103)_ <a id="references"></a>
+  - [1] F. M. Bufler and R. Gautschi, “On the Influence of the Position-Dependence of Stress on Device Performance,” in ECS Transactions, vol. 3, no. 7, Cancun, Mexico, pp. 439– 442, October 2006. [2] F. M. Bufler, A. Tsibizov, and A. Erleba...
+  - _Keywords:_ Stress, Electron, Physical, Silicon, Bufler, mathrm, Review, Band
+- **Hole Band Structure** _(p.103–105)_ <a id="hole-band-structure"></a>
+  - The full band structure under consideration consists of three valence bands and is obtained from nonlocal empirical pseudopotential calculations in the virtual crystal approximation including spin-orbit interaction [1]. In addition to [1...
+  - _Keywords:_ mathrm, valence, constants, Mbar, lattice, parallel, details, summary
+- **Scattering Mechanisms** _(p.105)_ <a id="scattering-mechanisms"></a>
+  - The scattering mechanisms included in the microscopic transport model are scattering by:
+  - _Keywords:_ scattering, transport, SiGe, phonons, Harrison, Hauser, mobility, measurements
+- **Simulation Procedure and Results** _(p.106–107)_ <a id="simulation-procedure-and-results"></a>
+  - Simulating ${ \mathrm { S i } } _ { { \mathrm { 1 - x } } } { \mathrm { G e } } _ { \mathrm { x } }$ involves specifying the Ge content using xGe in the Sentaurus Device Monte Carlo command file, which defines the contribution of Ge phon...
+  - _Keywords:_ mathrm, phonons, acoustic, inelastic, specifying, scattering, structure, velocity
+- **Electron Transport** _(p.107–108)_ <a id="electron-transport"></a>
+  - The scattering mechanisms and the phonon-coupling constants for electrons in silicon as well as for electrons in germanium are the same as given by Jacoboni and Reggiani [9]. The only changed values are those for intravalley scattering i...
+  - _Keywords:_ electrons, scattering, germanium, Jacoboni, Reggiani, velocity, characteristics, details
+- **References** _(p.108–109)_ <a id="references"></a>
+  - [1] J. M. Hinckley and J. Singh, “Hole transport theory in pseudomorphic ${ \mathrm { S i } } _ { { \mathrm { 1 - x } } } { \mathrm { G e } } _ { \mathrm { x } }$ alloys grown on Si(001) substrates,” Physical Review B, vol. 41, no. 5, pp...
+  - _Keywords:_ mathrm, transport, Journal, Bufler, Physics, Physical, Applied, Monte
+- **Features of Electron Transport** _(p.109–110)_ <a id="features-of-electron-transport"></a>
+  - With regard to InGaAs, you can simulate electrons in relaxed InGaAs using the available pseudopotential tables for GaAs (xGe=100), InAs (xGe=0), and InGaAs (xGe=47).
+  - _Keywords:_ InGaAs, measured, velocity, characteristics, details, summary, electrons, scattering
+- **References** _(p.110–111)_ <a id="references"></a>
+  - [1] M. Lundstrom, Fundamentals of carrier transport, Cambridge: Cambridge University Press, 2nd ed., 2000. [2] J. G. Ruch and G. S. Kino, “Transport Properties of GaAs,” Physical Review, vol. 174, no. 3, pp. 921–931, 1968. [3] T. H. Wind...
+  - _Keywords:_ GaAs, Applied, Physics, Letters, Electron, mathrm, Cambridge, Windhorn
+- **Introduction** _(p.111–112)_ <a id="introduction"></a>
+  - The scaling rules require that a further reduction of the gate length is accompanied by a reduction of the equivalent oxide thickness (EOT). However, further reduction of the physical (nitrided) silicon-dioxide $( \mathrm { S i O } _ { 2...
+  - _Keywords:_ mathrm, material, dielectric, reduction, thickness, constant, channel, semiconductor
+- **Soft-Optical Phonon Scattering** _(p.112–113)_ <a id="soft-optical-phonon-scattering"></a>
+  - To illustrate the principal ingredients of soft-optical (SO) phonon scattering, the simplest case is described of a single interface between a semiconductor and an infinitely thick oxide with a single insulator transverse-optical (TO) ph...
+  - _Keywords:_ mathrm, varepsilon_, phonon, omega_, scattering, TOT, mathfrak, mathbf
+- **High-k Mobility in the Presence of an Interfacial Oxide** _(p.114–115)_ <a id="high-k-mobility-in-the-presence-of-an-interfacial-oxide"></a>
+  - In the presence of an interfacial oxide (HighKModus=2), you also only consider the lowestenergy TO phonons of the two oxides, that is, $\mathrm { S i O } _ { 2 }$ and the high-k oxide, because these modes are the most important ones for ...
+  - _Keywords:_ phonon, varepsilon_, scattering, energy, interfacial, interface, material, mathrm
+- **High-k Mobility in the Absence of an Interfacial Oxide** _(p.115–116)_ <a id="high-k-mobility-in-the-absence-of-an-interfacial-oxide"></a>
+  - In the absence of an interfacial oxide, the previous model (HighKModus=2) can still be applied. In this case, however, an extended model, activated by HighKModus=1, can be used. Here, not only the lowest-energy TO phonon mode, but also t...
+  - _Keywords:_ phonon, interfacial, varepsilon_, HighKModus, lowest, energy, TO1, TO2
+- **Remote Coulomb Scattering** _(p.116–117)_ <a id="remote-coulomb-scattering"></a>
+  - Another possible source for mobility degradation is scattering from interface charges between the high-k insulator and the interfacial oxide. In analogy to Eq. 47, the corresponding inverse microscopic relaxation time for unscreened remo...
+  - _Keywords:_ RCS, varepsilon_, scattering, interface, charges, insulator, mathbf, dielectric
+- **References** _(p.117–119)_ <a id="references"></a>
+  - [1] M. V. Fischetti, D. A. Neumayer, and E. A. Cartier, “Effective electron mobility in Si inversion layers in metal–oxide–semiconductor systems with a high- insulator: Theκ role of remote phonon scattering,” Journal of Applied Physics, ...
+  - _Keywords:_ Gate, Fischetti, Physical, Transport, IEEE, Transactions, Electron, Devices
+- **Parallel Simulation Procedure** _(p.119–120)_ <a id="parallel-simulation-procedure"></a>
+  - The parallelization of single-particle device Monte Carlo uses several threads of execution, each of which propagates its own particle through the device. Independent propagation of #threads particles for a time Ttotal/#threads gives ris...
+  - _Keywords:_ threads, Monte, Carlo, simulation, particle, speedup, parallel, NumberOfSolverThreads
+- **Parallel Simulations and Sentaurus Workbench** _(p.120–121)_ <a id="parallel-simulations-and-sentaurus-workbench"></a>
+  - When scheduling parallel jobs using Sentaurus Workbench, be sure to communicate the number of threads to the scheduler; otherwise, multiple parallel simulations can be scheduled on the same machine, resulting in an excessive CPU load. Th...
+  - _Keywords:_ Sentaurus, WB_tool, sdeviceMC, simulations, SGE, Device, sdevice, threads
+- **Licensing** _(p.121–123)_ <a id="licensing"></a>
+  - Parallel Sentaurus Device Monte Carlo is based on the Sentaurus Device parallel feature and uses the same licensing. For every four threads, you need one parallel license.
+  - _Keywords:_ Sentaurus, Device, Monte, Carlo, parallel, Parallelization, Parallel, feature
+- **Simulation of an NMOS Transistor** _(p.123–125)_ <a id="simulation-of-an-nmos-transistor"></a>
+  - This example is a realistic 2D NMOS transistor with 100 nm gate length obtained from a process simulation. The geometry and the doping of the transistor are defined in a file named, for example, n5\_msh.tdr.
+  - _Keywords:_ details, summary, simulation, Monte, Carlo, diffusion, images, current
+- **Part II Band Structure and Mobility Calculation** _(p.125–129)_ <a id="part-ii-band-structure-and-mobility-calculation"></a>
+  - This part of the Sentaurus™ Device Monte Carlo User Guide contains the following chapters:
+  - _Keywords:_ Sentaurus, Band, Structure, Device, Monte, Carlo, Guide, contains
+- **Introduction to Sentaurus Band Structure** _(p.129)_ <a id="introduction-to-sentaurus-band-structure"></a>
+  - Sentaurus Band Structure is a program for computing band-structure data for bulk crystalline solids, and the subband structure and inversion mobility of 1D and 2D devices.
+  - _Keywords:_ structure, Sentaurus, Band, Structure, program, computing, crystalline, solids
+- **Bulk Band Structure** <a id="bulk-band-structure"></a>
+  - The bulk band-structure capabilities of Sentaurus Band Structure include:
+  - _Keywords:_ Band, Structure, structure, Sentaurus, method, EPM, bandsk, supports
+- **Subband Structure and Inversion Mobility** _(p.130)_ <a id="subband-structure-and-inversion-mobility"></a>
+  - The self-consistent subband dispersion in 1D and 2D device structures, for arbitrary surface orientation and strain, can be computed using several approaches:
+  - _Keywords:_ equation, subband, dispersion, consistent, device, structures, arbitrary, surface
+- **Tcl Interface** <a id="tcl-interface"></a>
+  - To allow for maximum flexibility, Sentaurus Band Structure is driven by a Tcl interpreter into which band-structure and mobility computation capabilities have been added as applicationspecific Tcl commands. For an introduction to Tcl, re...
+  - _Keywords:_ Sentaurus, Tcl, TCAD, STROOT, STRELEASE, indicates, Synopsys, maximum
+- **Starting Sentaurus Band Structure** _(p.131)_ <a id="starting-sentaurus-band-structure"></a>
+  - The simplest way to start Sentaurus Band Structure is from the command line by typing:
+  - _Keywords:_ Sentaurus, Band, Structure, sBand, Tcl, version, simplest, typing
+- **Command-Line Arguments** _(p.131)_ <a id="command-line-arguments"></a>
+  - The Sentaurus Band Structure executable sband supports both interactive and batch sessions. The complete startup syntax (see Notational Conventions of Syntax Description on page 240) of the executable is:
+  - _Keywords:_ Sentaurus, Band, Structure, parallel, available, licenses, interactive, noLicense
+- **Example of Use of Command-Line Arguments** _(p.132)_ <a id="example-of-use-of-command-line-arguments"></a>
+  - In this example, an interactive (-) Sentaurus Band Structure session is started with three command-line arguments: arg1, arg2, and arg3. It is performed by typing on the command line:
+  - _Keywords:_ interactive, Sentaurus, Band, Structure, session, started, arguments, performed
+- **12: Using Sentaurus Band Structure** _(p.132)_ <a id="12-using-sentaurus-band-structure"></a>
+  - EPM Band-Structure Tutorial
+  - _Keywords:_ Result, Band, Structure, session, arguments, stored, Tcl, EPM
+- **EPM Band-Structure Tutorial** <a id="epm-band-structure-tutorial"></a>
+  - This is an introduction to the EPM band-structure calculation. You will be shown how to compute the band energies of unstrained silicon at selected -vectors.k
+  - _Keywords:_ introduction, EPM, structure, calculation, You, compute, energies, unstrained
+- **Creating a Silicon Crystal** _(p.133)_ <a id="creating-a-silicon-crystal"></a>
+  - First, you need to create an EPM::Crystal for unstrained silicon:
+  - _Keywords:_ EPM, bulkSi, Crystal, unstrained, silicon, Result, object, status
+- **Computing Band-Structure Data** _(p.134)_ <a id="computing-band-structure-data"></a>
+  - Next, you need to specify the -vectors at which band-structure data is needed. For example,k you can select the zone center, , and the conduction-band minimum in theΓ = ( ) 0 0 0 , , -direction, x $\Delta = \left( 0 . 8 5 \cdot \frac { 2...
+  - _Keywords:_ vectors, Delta, Band, structure, Gamma, Sentaurus, Structure, crystals
+- **Output:** _(p.134)_ <a id="output"></a>
+  - ```txt writing "energy.dat" writing "velocity.dat" Band-structure calculation complete! ```
+  - _Keywords:_ writing, Band, energy, velocity, structure, calculation, complete, bulkSi
+- **The line:** <a id="the-line"></a>
+  - bulkSi computeBandstructure kVectors=[list \$Gamma \$Delta]
+  - _Keywords:_ EPM, Crystal, computeBandstructure, bulkSi, kVectors, Delta, object, sBandGet
+- **Inspecting the Results** <a id="inspecting-the-results"></a>
+  - Band-energy results of the call to bulkSi computeBandstructure are stored in a bandstructure\_t container object of name bulkSi.bandstructure. To store the band energies at the -point in a Tcl variable EGamma, use:Γ
+  - _Keywords:_ bulkSi, bandstructure, EGamma, Band, energy, results, computeBandstructure, stored
+- **Result:** _(p.135–136)_ <a id="result"></a>
+  - ```csv -12.4325779396 -0.0434084085113 0.0 0.0 3.34924141875 3.37860208567 3.37860208567 4.28964364273 ```
+  - _Keywords:_ energy, groupVelocity, lindex, bandstructure, bulkSi, mathrm, mathbf, result
+- **Result:** _(p.136)_ <a id="result"></a>
+  - $\left\{ \begin{array}{l} -4.86118497298e-16 5.96545799415e-16 -1.20600149345e-15 \\ \{7.01328040343e-15 2.95588548854e-15 3.12817509024e-15\} \\ \{-1.00799393365e-14 -6.64426133894e-15 6.86148234339e-15\} \\ \{-8.3453929703e-15 -9.35143...
+  - _Keywords:_ velocity, Delta, numeric, results, bulkSi, groupVelocity, kVector, Result
+- **Finding Band Minima** _(p.137)_ <a id="finding-band-minima"></a>
+  - Sentaurus Band Structure can be used to find the position of a local minimum of an energy band (default: the lowest conduction band, band=4) near a starting vector.
+  - _Keywords:_ minimum, conduction, Delta, position, starting, magnitude, Sentaurus, Band
+- **Computing Effective Masses** _(p.137)_ <a id="computing-effective-masses"></a>
+  - Now that you have found the position of the conduction-band minimum, you can compute the effective electron masses at the minimum. To do this, you need to enable the computation of second derivatives of the band energies – the reciprocal...
+  - _Keywords:_ effective, partial, Now, minimum, compute, masses, derivatives, energies
+- **Output:** <a id="output"></a>
+  - ```txt writing "energy.dat" writing "velocity.dat" writing "eInvMass.dat" Band-structure calculation complete! ```
+  - _Keywords:_ writing, inverseMass, bulkSi, Delta, energy, velocity, eInvMass, Band
+- **Result:** _(p.138)_ <a id="result"></a>
+  - $\{1.09441250877 1.87446738737e - 08 - 1.08349502291e - 08\}$ $\{1.87446738737e - 08 5.10579737043 4.86819561794e - 10\}$ $\{-1.08349502291e - 08 4.86819561794e - 10 5.10579746899\}$
+  - _Keywords:_ effective, masses, reciprocal, tensor, represented, vectors3, signature, Double
+- **12: Using Sentaurus Band Structure** _(p.138)_ <a id="12-using-sentaurus-band-structure"></a>
+- **Parallelization** _(p.138)_ <a id="parallelization"></a>
+  - Result: $\{0.913732246283 - 3.3545422434e - 09 1.93902000089e - 09\}$ $\{-3.3545422434e - 09 0.195855794394 - 1.86741579405e - 11\}$ $\{1.93902000089e - 09 - 1.86741579405e - 11 0.195855790613\}$
+  - _Keywords:_ lindex, Result, markdown, longitudinal, transverse, These, electron, Comparing
+- **Parallelization** _(p.139)_ <a id="parallelization"></a>
+  - To take full advantage of modern multicore architectures, Sentaurus Band Structure supports multithreading for the computationally expensive pseudopotential calculations. The default number of worker threads is 1.
+  - _Keywords:_ Sentaurus, Band, Structure, threads, worker, specifying, nThreads, sBandSet
+- **Applying Strain** _(p.139)_ <a id="applying-strain"></a>
+  - For crystals of cubic symmetry, Sentaurus Band Structure can compute the displacement of the atoms in the crystal lattice in response to mechanical strain (including the effect of internal strain; see Bulk Strain and Internal Strain on p...
+  - _Keywords:_ strain, effect, Strain, tensor, EPM, Crystal, strainedSi, crystals
+- **Biaxial Strain** _(p.140)_ <a id="biaxial-strain"></a>
+  - Biaxial strain resulting from growing a pseudomorphic material layer on top of a thick substrate can be computed by calling the method apply biaxialStrain on the pseudomorphic layer.
+  - _Keywords:_ strain, substrate, pseudomorphic, silicon_layer, material, biaxialStrain, interface, inPlaneStrain
+- **Uniaxial Strain** _(p.140)_ <a id="uniaxial-strain"></a>
+  - In situations where there is only a single direction of stress, the strain tensor can be computed from the direction of the stress dir (specified as a real 3D vector) and its magnitude (in Pa) where positive is tensile and negative is co...
+  - _Keywords:_ stress, germanium, direction, strain, situations, single, tensor, computed
+- **Strain Tensor From Stress Tensor in Principal-Axis System** <a id="strain-tensor-from-stress-tensor-in-principal-axis-system"></a>
+  - If you know the stress tensor in the principal-axis coordinate system of a cubic crystal, Sentaurus Band Structure can convert it to strain by using the anisotropic Hooke’s law (Einstein convention implied):
+  - _Keywords:_ tensor, rightarrow, strain, stress, coordinate, system, Hooke, vector
+- **Generating Band-Structure Tables From k-Vector Files** _(p.141)_ <a id="generating-band-structure-tables-from-k-vector-files"></a>
+  - Full-band Monte Carlo simulation requires band energies and group velocities on a large number of -vectors distributed throughout the Brillouin zone. For this situation, thek computeBandstructure method of EPM::Crystal allows you to supp...
+  - _Keywords:_ vectors, writing, computeBandstructure, vector, sBandSet, energy, Full, Monte
+- **Taking Advantage of Band-Structure Symmetries** <a id="taking-advantage-of-band-structure-symmetries"></a>
+  - For certain applications such as 3D plotting or full-band Monte-Carlo, it might be necessary or convenient to store band-structure data on a region that is larger than the irreducible wedge of the Brillouin zone. For crystals in the cubi...
+  - _Keywords:_ symmetry, structure, strain, vectors, calculation, vector, stress, symmetries
+- **File Formats for Storing Band Data** <a id="file-formats-for-storing-band-data"></a>
+  - Sentaurus Band Structure supports different formats for storing band data:
+  - _Keywords:_ _FORMAT, format, Band, Sentaurus, selected, Structure, formats, SHORT
+- **File Format \$SHORT\_FORMAT** <a id="file-format-short-format"></a>
+  - Table 10 Format of band-energy files (energy.dat)
+  - _Keywords:_ varepsilon_, nabla_, mathbf, vector, velocity, Format, energy, colspan
+- **12: Using Sentaurus Band Structure** _(p.142)_ <a id="12-using-sentaurus-band-structure"></a>
+  - Taking Advantage of Band-Structure Symmetries
+  - _Keywords:_ Taking, Advantage, Band, Structure, Symmetries
+- **Reciprocal Effective Mass Files** _(p.142)_ <a id="reciprocal-effective-mass-files"></a>
+  - If derivOrder is set to 2, Sentaurus Band Structure computes electron and hole reciprocal effective masses and outputs them to the files eInvMass.dat and hInvMass.dat, respectively.
+  - _Keywords:_ partial, varepsilon_, reciprocal, effective, electron, eInvMass, hInvMass, Format
+- **File Format \$LONG\_FORMAT** _(p.143)_ <a id="file-format-long-format"></a>
+  - In long format, data for all bands is written into files. The same sign conventions are used for electron and hole states.
+  - _Keywords:_ partial, varepsilon_, colspan, Format, velocity, nabla_, mathbf, components
+- **Creating Band Data for Sentaurus Device Monte Carlo** <a id="creating-band-data-for-sentaurus-device-monte-carlo"></a>
+  - Band-structure tables for single-particle device Monte Carlo can be created using the command createMonteCarloFiles. The following example generates Monte Carlo input files for silicon under 3 GPa compressive stress in the SPARTA subdire...
+  - _Keywords:_ Monte, Carlo, createMonteCarloFiles, structure, stress, Band, single, particle
+- **Analytic Band-Structure Models** <a id="analytic-band-structure-models"></a>
+  - In addition to EPM, Sentaurus Band Structure supports a six-band method for thek p⋅ computation of valence-band energies and group velocities as well as analytic expressions for the lowest two conduction bands. Analytic band structures a...
+  - _Keywords:_ analytic, valence, conduction, EPM, silicon, bandstructure, method, computation
+- **Visualization** <a id="visualization"></a>
+  - Sentaurus Band Structure is linked with the Tk and BLT extensions to Tcl. They are activated by the Tcl commands package require Tk and package require BLT, respectively.
+  - _Keywords:_ Line, Red, BLT, Sentaurus, Band, Structure, details, summary
+- **Complex Band Structures** <a id="complex-band-structures"></a>
+  - The dispersion relation for tunneling processes can be obtained by solving theE – κ eigenvalue problem for the analytic continuation of the EPM Hamiltonian to complex -vectors.k
+  - _Keywords:_ complex, vectors, structure, kList, valence, conduction, tunneling, eigenvalue
+- **Calculating Electron Subbands and Mobility** <a id="calculating-electron-subbands-and-mobility"></a>
+  - This section introduces the subband and mobility calculation features of Sentaurus Band Structure. It describes how to compute the self-consistent subbands of a 1D device as well as the electron inversion mobility. The commands described...
+  - _Keywords:_ mobility, introduces, subband, calculation, features, Sentaurus, Band, Structure
+- **Loading a 1D Device Structure** <a id="loading-a-1d-device-structure"></a>
+  - In this example, a 1D bulk NMOS capacitor is simulated. The device structure is in a 1D TDR file called nmoscap.tdr. The device structure is loaded into Sentaurus Band Structure using the LoadDevice command:
+  - _Keywords:_ models, device, structure, TDR, nmoscap, loaded, LoadDevice, several
+- **Specifying Top-Level Physics Parameters** <a id="specifying-top-level-physics-parameters"></a>
+  - The orientation of the device axes and the temperature are specified using the top-level parameters of the Physics command:
+  - _Keywords:_ temperature, Physics, orientation, device, specified, surfaceOrientation, xDirection, surface
+- **Performing an Initial Solve** <a id="performing-an-initial-solve"></a>
+  - Before solving the Schrödinger equation self-consistently, it is advisable to first solve with the classical density models. Since no Schrödinger solvers have yet been defined in this example, the following Solve command uses the default...
+  - _Keywords:_ equation, density, models, Solve, initial, Before, solving, consistently
+- **Defining a Nonlocal Line** <a id="defining-a-nonlocal-line"></a>
+  - To compute the inversion layer, a nonlocal line is defined immediately under the oxide–silicon interface. This is performed using the Math command:
+  - _Keywords:_ nonlocal, interface, silicon, Math, NL1, compute, inversion, defined
+- **Specifying a Schrödinger Solver** <a id="specifying-a-schr-dinger-solver"></a>
+  - After the nonlocal line is defined, the Physics command is used to associate a Schrödinger solver to the nonlocal line for computing the confined carrier density:
+  - _Keywords:_ nonlocal, solver, valleys, specified, Physics, computing, NL1, Delta1
+- **Specifying a Mobility Calculator** <a id="specifying-a-mobility-calculator"></a>
+  - After a nonlocal line and Schrödinger solver for that nonlocal line have been defined, you can specify a mobility calculator to use for the same nonlocal line using another Physics command:
+  - _Keywords:_ nonlocal, mobility, specify, calculator, Physics, KGFromK, Nphi, After
+- **Performing a Self-Consistent Solve With the Schrödinger Equation** <a id="performing-a-self-consistent-solve-with-the-schr-dinger-equa"></a>
+  - After a nonlocal line and Schrödinger solver for that nonlocal line have been defined, subsequent solutions of the Poisson equation will solve the Poisson equation self-consistently with your specified Schrödinger equation. To solve at t...
+  - _Keywords:_ equation, Poisson, nonlocal, After, solver, defined, subsequent, solutions
+- **Computing the Mobility** <a id="computing-the-mobility"></a>
+  - After the Schrödinger equation has been solved, which necessarily computes the subband dispersion and wavefunctions, the inversion mobility can be computed with the previously defined mobility calculator using the ComputeMobility command:
+  - _Keywords:_ mobility, computes, previously, defined, ComputeMobility, active, calculation, After
+- **Saving Models Over the Device Structure** <a id="saving-models-over-the-device-structure"></a>
+  - Various physical models over the 1D device structure are saved to an xy TDR file using the Save command:
+  - _Keywords:_ models, energy, Save, eQuickStartZ, subband, Delta3, Various, physical
+- **Saving Models Over 2D k-Space** <a id="saving-models-over-2d-k-space"></a>
+  - Details of the subband dispersion and the momentum relaxation rates can be investigated by saving a 2D TDR file with -space models for the subband dispersion and inverse momentumk relaxation time (IMRT). These models are saved using the ...
+  - _Keywords:_ subband, models, dispersion, IMRT, relaxation, SaveK, eQuickStartK, Details
+- **Ramping the Bias** _(p.144)_ <a id="ramping-the-bias"></a>
+  - While no built-in bias ramping feature is available, bias ramps can be performed using the Tcl commands for or foreach. For example, the following command block ramps the gate bias over three values. For each bias, a Solve is performed a...
+  - _Keywords:_ effective, mobility, Eeff, Solve, computed, Extract, eEeffIntegrand, performed
+- **12: Using Sentaurus Band Structure** _(p.144)_ <a id="12-using-sentaurus-band-structure"></a>
+  - Calculating Electron Subbands and Mobility
+  - _Keywords:_ Calculating, Electron, Subbands, Mobility, discusses, empirical, pseudopotential, method
+- **Introduction to Pseudopotentials** <a id="introduction-to-pseudopotentials"></a>
+  - The empirical pseudopotential method (EPM) is used to compute the electronic structure of crystalline solids. To make this problem computationally tractable, the many-electron system of the crystal is approximated by a single-electron mo...
+  - _Keywords:_ rangle, mathbf, electrons, states, electron, pseudopotential, method, valence
+- **13: Empirical Pseudopotential Method** <a id="13-empirical-pseudopotential-method"></a>
+  - Introduction to Pseudopotentials
+  - _Keywords:_ mathbf, wavefunction, rangle, potential, nonlocal, energy, boldsymbol, pseudo
+- **Empirical Pseudopotentials** <a id="empirical-pseudopotentials"></a>
+  - In principle, the orthogonalization potential $\boldsymbol { V } ^ { R }$ can be obtained by solving the electronic structure of each atomic species in the crystal and by attaching projectors onto the resulting core electron states to ea...
+  - _Keywords:_ mathbf, mathrm, crystal, lattice, pseudopotential, structure, however, potential
+- **Using the Crystal Symmetry** <a id="using-the-crystal-symmetry"></a>
+  - Depending on the crystal symmetry, a large number of matrix elements will vanish even within the cut-off sphere: The (pseudo)potential inside a crystal is the (pseudo)potential around an individual ion (valence electrons removed) convolv...
+  - _Keywords:_ mathbf, crystal, pseudo, potential, species, Depending, symmetry, matrix
+- **13: Empirical Pseudopotential Method** <a id="13-empirical-pseudopotential-method"></a>
+  - Introduction to Pseudopotentials
+  - _Keywords:_ mathbf, structure, factor, lattice, Fourier, delta_, definition, reciprocal
+- **Nonlocal Corrections to the Pseudopotential** <a id="nonlocal-corrections-to-the-pseudopotential"></a>
+  - To obtain a better fit to data, it is usual to introduce nonlocal corrections to the purely local empirical pseudopotential of the previous section. The nonlocal contribution to the atomic form-factor of species is usually expressed as:α
+  - _Keywords:_ nonlocal, mathrm, mathbf, angular, momentum, textbf, obtain, better
+- **13: Empirical Pseudopotential Method** <a id="13-empirical-pseudopotential-method"></a>
+  - Introduction to Pseudopotentials
+  - _Keywords:_ mathbf, Omega, mathrm, potential, spherical, langle, rangle, Gaussian
+- **Spin-Orbit Coupling** <a id="spin-orbit-coupling"></a>
+  - Following the literature [1], spin-orbit coupling is included in the calculation by adding a nonlocal spin-orbit coupling potential to the atomic structure factor of each species :α
+  - _Keywords:_ coupling, mathbf, literature, included, calculation, adding, nonlocal, potential
+- **13: Empirical Pseudopotential Method** <a id="13-empirical-pseudopotential-method"></a>
+  - Introduction to Pseudopotentials
+  - _Keywords:_ mathbf, mathrm, rangle, langle, lambda, Omega_, radial, integral
+- **Evaluating Radial Overlap Integrals** <a id="evaluating-radial-overlap-integrals"></a>
+  - In Sentaurus Band Structure, analytic hydrogen-like radial functions are used to evaluate the overlap integrals $B _ { n l } ^ { ( \alpha ) }$ . The wavefunctions of the hydrogen atom have the form:
+  - _Keywords:_ overlap, mathrm, mathbf, Sentaurus, Band, Structure, hydrogen, radial
+- **Normalizing the Spin-Orbit Term** <a id="normalizing-the-spin-orbit-term"></a>
+  - It is customary (compare to [2] for example) to drop all real constant prefactorbit matrix element of Eq. 87, p. 147, to replace the spin vector-operator $\mathrm { ~ \bf ~ S ~ } = \frac { \hbar } { \mathit { \omega } } \sigma$ the spin-...
+  - _Keywords:_ mathbf, mathrm, dimensionless, Omega, matrix, element, replace, vector
+- **Strained Materials** <a id="strained-materials"></a>
+- **Bulk Strain and Internal Strain** <a id="bulk-strain-and-internal-strain"></a>
+  - Homogeneous strain has two effects on a crystalline material:
+  - _Keywords:_ strain, tetrahedron, internal, central, mathbf, circumcenter, barycenter, deformed
+- **Empirical Pseudopotential Method for Strained Materials** <a id="empirical-pseudopotential-method-for-strained-materials"></a>
+  - To apply EPM to strained materials, the rigid-ion approximation [5] is invoked, that is, it is assumed that the pseudopotential around an atom does not change shape as the crystal is deformed. The effect of strain on the EPM pseudo-Hamil...
+  - _Keywords:_ mathbf, vectors, varepsilon, crystal, strain, vector, strained, momentum
+- **Local Pseudopotential in Strained Crystals** <a id="local-pseudopotential-in-strained-crystals"></a>
+  - To describe the local pseudopotential in an unstrained diamond-structure crystal, it is sufficient to know the atomic form-factors at $\left\| \mathbf { q } \right\| \in { \frac { 2 \pi } { a _ { 0 } } } \{ { \sqrt { 3 } } , { \sqrt { 8 ...
+  - _Keywords:_ crystal, atomic, mathbf, describe, pseudopotential, unstrained, diamond, structure
+- **13: Empirical Pseudopotential Method** <a id="13-empirical-pseudopotential-method"></a>
+- **Strained Materials** <a id="strained-materials"></a>
+  - This requires an analytic expression for the local form-factor $\hat { V } _ { \alpha } ^ { \mathrm { i o n } } ( \left\| \tilde { \mathbf { q } } \right\| )$ . In the literature, there are two choices for expanding the local pseudopoten...
+  - _Keywords:_ analytic, requires, expression, factor, mathrm, mathbf, literature, choices
+- **Cubic Spline Interpolation of Local Pseudopotential** <a id="cubic-spline-interpolation-of-local-pseudopotential"></a>
+  - In this approach, the local pseudopotential $V ( q )$ for arbitrary $q$ is obtained by putting a cubic spline through the pseudopotential sample values of the unstrained crystal (for example, V q( ) at $q \in \frac { 2 \pi } { a _ { 0 } ...
+  - _Keywords:_ spline, strain, sample, response, structure, fulfilled, pseudopotential, through
+- **Friedel Interpolation Formula for Local Pseudopotential** <a id="friedel-interpolation-formula-for-local-pseudopotential"></a>
+  - Friedel et al. [6] propose an analytic expression for the local pseudopotential of diamondstructure crystals with six free parameters $a _ { 1 } , . . . , a _ { 6 }$ :
+  - _Keywords:_ Friedel, propose, analytic, expression, pseudopotential, diamondstructure, crystals, Omega_
+- **Plane-Wave Normalization in Strained Crystals** <a id="plane-wave-normalization-in-strained-crystals"></a>
+  - When going from an unstrained crystal to a strained crystal, the volume of the unit cell changes by a factor $F : = { ( \Omega _ { c } ^ { \mathrm { s t r a i n e d } } / \Omega _ { c } ^ { \mathrm { r e f } } ) } \stackrel { \cdot } { =...
+  - _Keywords:_ crystal, Omega, mathrm, strained, unstrained, factor, volume, normalized
+- **Alloys and the Virtual Crystal Approximation** <a id="alloys-and-the-virtual-crystal-approximation"></a>
+  - The band structure of statistical alloys such as ${ \mathrm { S i } } _ { 1 - x } { \mathrm { G e } } _ { x }$ can be treated by putting virtual ${ \mathrm { S i } } _ { 1 - x } { \mathrm { G e } } _ { x }$ atoms on the lattice sites of ...
+  - _Keywords:_ mathrm, lattice, species, volume, statistical, alloys, virtual, constituent
+- **EPM Model Defaults** <a id="epm-model-defaults"></a>
+  - By default, Sentaurus Band Structure uses cubic spline interpolation for the local pseudopotential. Nonlocal potential contributions and spin-orbit coupling are enabled. The default parameters for Si and Ge are summarized in Table 17.
+  - _Keywords:_ factor, nonlocal, rowspan, Vloc, Local, Sentaurus, Band, Structure
+- **Group Velocities and Effective Masses** <a id="group-velocities-and-effective-masses"></a>
+  - Many applications (for example, Monte Carlo simulation) require the knowledge of group velocities:
+  - _Keywords:_ mathbf, partial, derivatives, Hamiltonian, nabla_, effective, applications, velocities
+- **13: Empirical Pseudopotential Method** <a id="13-empirical-pseudopotential-method"></a>
+  - Group Velocities and Effective Masses
+  - _Keywords:_ partial, rangle, langle, effective, change, masses, degeneracy, Velocities
+- **References** <a id="references"></a>
+  - [1] M. M. Rieger and P. Vogl, “Electronic-band parameters in strained ${ \mathrm { S i } } _ { { \mathrm { 1 - x } } } { \mathrm { G e } } _ { \mathrm { x } }$ alloys on $\mathrm { S i _ { 1 - y } G e _ { y } }$ substrates,” Physical Rev...
+  - _Keywords:_ Physical, Review, mathrm, Silicon, pseudopotential, structure, Structure, Strain
+- **Conduction Bands** <a id="conduction-bands"></a>
+  - The conduction band in silicon is usually approximated by three pairs of equivalent minima located close to the X-point of the Brillouin zone $( 0 . 1 5 \frac { 2 \pi } { a _ { . } }$ away from the X-point in the direction of the -point)...
+  - _Keywords:_ strain, mathfrak, conduction, minima, constant, defined, mathrm, components
+- **Two-Band k.p Model** <a id="two-band-k-p-model"></a>
+  - As it is well described in the literature [1], the two-band model considers the firstk p⋅ conduction band $\Delta _ { 1 } ( i \ = \ 1 )$ and the second conduction band $\Delta _ { 2 ^ { \prime } } ( i = 2 )$ that are degenerate exactly a...
+  - _Keywords:_ mathrm, conduction, stress, boldsymbol, pounds, direction, deformation, potential
+- **Ellipsoidal Model** <a id="ellipsoidal-model"></a>
+  - This model provides pure parabolic bands with a stress-induced change of effective masses and band minima position. Analytic derivation of these changes is performed in [1] and is based on an evaluation of Eq. 113.
+  - _Keywords:_ Delta, minima, mathrm, stress, direction, energy, parabolic, effective
+- **Nonparabolicity Model** <a id="nonparabolicity-model"></a>
+  - Generally, nonparabolic electron dispersion $E ^ { n p } ( \mathbf { k } )$ of a band with the effective mass ism introduced by $E ^ { n p } ( 1 + \alpha E ^ { n p } ) \ : = \ : \hbar ^ { 2 } \mathbf { \hat { \| } } k \mathbf { \| } ^ { ...
+  - _Keywords:_ mathbf, dispersion, mathrm, nonparabolic, electron, nonparabolicity, Delta, Generally
+- **Model Parameters** <a id="model-parameters"></a>
+  - All parameters of the analytic conduction-band model are listed in Table 18 with default values that can be modified.
+  - _Keywords:_ conduction, Xi_, _alpha, second, analytic, listed, modified, Model
+- **Valence Bands** <a id="valence-bands"></a>
+  - The analytic band model for valence bands in diamond-type and zinc-blende-type semiconductors is based on the six-band approach. This approach is computationallyk p⋅ inexpensive, while at the same time, it considers both the warped and n...
+  - _Keywords:_ valence, approach, arbitrary, method, analytic, diamond, blende, semiconductors
+- **Theory** <a id="theory"></a>
+  - The method is a perturbative approach for solving the one-electron Schrödinger equation,k p⋅ typically around an extremum of the band structure [2]. Using the Bloch theorem, the wavefunction for a state in band with wavevector can be wri...
+  - _Keywords:_ mathbf, states, strain, Hamiltonian, perturbation, method, approach, solving
+- **Luttinger–Kohn or Bir–Pikus Hamiltonian** <a id="luttinger-kohn-or-bir-pikus-hamiltonian"></a>
+  - In the $\Gamma _ { \nu }$ basis of total angular momentum (Luttinger–Kohn basis) that diagonalizes the spinorbit Hamiltonian at the -point in the absence of strain, the Γ $6 \times 6$ Luttinger–Kohn Hamiltonian augmented by the Bir–Pikus...
+  - _Keywords:_ rangle, varepsilon_, varepsilon, gamma_, Luttinger, strain, states, momentum
+- **Model Parameters** <a id="model-parameters"></a>
+  - Table 19 lists the user-adjustable parameters for the six-band model for Si and Ge. Thek p⋅ default values were extracted from Sentaurus Band Structure EPM calculations (exception: values for the deformation potential are taken from Van ...
+  - _Keywords:_ adjustable, Thek, extracted, Sentaurus, Band, Structure, EPM, calculations
+- **References** <a id="references"></a>
+  - [1] V. Sverdlov et al., “Effects of Shear Strain on the Conduction Band in Silicon: An Efficient Two-Band Theory,” in Proceedings of the 37th European Solid-Statek p⋅ Device Research Conference (ESSDERC), Munich, Germany, pp. 386–389, Se...
+  - _Keywords:_ structure, Strain, Band, Silicon, Properties, effects, valence, SiGe
+- **Device Structure** <a id="device-structure"></a>
+  - Subband and mobility calculations are performed on device structures that are typically MOS capacitors. These structures are read from a TDR file that can be created, for example, by Sentaurus Process.
+  - _Keywords:_ structures, Subband, mobility, calculations, performed, device, typically, MOS
+- **Regions and Materials** <a id="regions-and-materials"></a>
+  - As shown in Figure 45, the different materials of a device structure are represented as regions. Each region has one material and there can be multiple regions of the same material. The materials silicon, polysilicon, and oxide $( \mathr...
+  - _Keywords:_ region, material, Contact, materials, device, structure, regions, Silicon
+- **Contacts** <a id="contacts"></a>
+  - Contacts are used to apply bias to a device and are read automatically from the TDR file. The workfunction of a contact can be modified using the Physics contact command.
+  - _Keywords:_ contact, Contacts, device, automatically, TDR, workfunction, modified, Physics
+- **Nonlocal Lines and Nonlocal Areas** <a id="nonlocal-lines-and-nonlocal-areas"></a>
+  - The calculation of the confined carrier density by the solution to the Schrödinger equation and the calculation of the inversion mobility are confined to so-called nonlocal lines for 1D devices and nonlocal areas for 2D devices.
+  - _Keywords:_ nonlocal, calculation, confined, mobility, devices, associated, Physics, carrier
+- **Device Coordinate Axes** <a id="device-coordinate-axes"></a>
+  - The convention used to define the device coordinate axes depends on the dimensionality of the device structure.
+  - _Keywords:_ UCS, coordinate, device, system, xDirection, Axes, details, summary
+- **Files Used by Subband and Mobility Calculations** <a id="files-used-by-subband-and-mobility-calculations"></a>
+  - Sentaurus Band Structure uses several files to compute subband structure and mobility. With the name of the command file given by <base>.cmd, the various files are described here.
+  - _Keywords:_ Sentaurus, Band, Structure, several, compute, subband, structure, mobility
+- **Input Files** <a id="input-files"></a>
+  - The input files for Sentaurus Band Structure are:
+  - _Keywords:_ Sentaurus, Band, Structure, Tcl, device, structure, consists, described
+- **Output Files** <a id="output-files"></a>
+  - The output files for Sentaurus Band Structure are:
+  - _Keywords:_ TDR, models, structures, contact, contains, simulation, Solve, mobility
+- **Poisson Equation** <a id="poisson-equation"></a>
+  - For a self-consistent solution, the Poisson equation must be solved in conjunction with models for the electron and hole carrier densities:
+  - _Keywords:_ density, Poisson, equation, electron, charge, permittivity, solution, densities
+- **Boundary Conditions** <a id="boundary-conditions"></a>
+  - At an insulator–contact boundary, a Dirichlet boundary condition is used:
+  - _Keywords:_ boundary, insulator, contact, Dirichlet, condition, Psi_, Phi_, mathrm
+- **15: Subband and Mobility Calculations** <a id="15-subband-and-mobility-calculations"></a>
+- **Poisson Equation** <a id="poisson-equation"></a>
+  - where $V _ { \mathrm { a p p } }$ is the applied bias at the contact and $\Phi _ { \mathrm { M } }$ is the contact workfunction that can be set using the workfunction parameter of the Physics command. The workfunction value is in units o...
+  - _Keywords:_ contact, workfunction, mathrm, device, applied, Phi, Physics, semiconductor
+- **Electric Field** <a id="electric-field"></a>
+  - The electric field is computed from the vacuum potential:
+  - _Keywords:_ electric, computed, vacuum, potential, materials, accessed, visualization, extraction
+- **Convergence** <a id="convergence"></a>
+  - The Poisson equation is a nonlinear equation that is solved using the Newton method. Solving the Poisson equation with carrier densities computed using one of the Schrödinger equations can lead to degraded convergence. Several parameters...
+  - _Keywords:_ convergence, equation, Poisson, Newton, criteria, potential, program, improve
+- **Valley Models** <a id="valley-models"></a>
+  - The conduction and valence bands in most semiconductors are composed of multiple valleys or multiple bands or both. For example, in silicon, the conduction band is composed of states from three pairs of valleys, while the valence band is...
+  - _Keywords:_ valley, composed, multiple, ValleyModel, models, conduction, valence, valleys
+- **Common Syntax** <a id="common-syntax"></a>
+  - All valley models share a common syntax, as shown in this example:
+  - _Keywords:_ valley, degeneracy, models, ValleyModel, particular, common, syntax, Physics
+- **Automatic Generation of Bulk Density and Band-Edge Models** <a id="automatic-generation-of-bulk-density-and-band-edge-models"></a>
+  - One of the reasons for creating a valley model is to provide parameters for computing the bulk carrier density for the valley. Specifying one of the parameters useForEBulkDensity or useForHBulkDensity causes a corresponding bulk carrier-...
+  - _Keywords:_ valley, density, created, carrier, automatically, Delta1, computing, visualization
+- **Ellipsoidal Valleys** <a id="ellipsoidal-valleys"></a>
+  - Some valleys, such as the valleys in silicon, can be modeled as ellipsoids. Two models areΔ available for this type of valley.
+  - _Keywords:_ valleys, Some, silicon, modeled, ellipsoids, Two, models, available
+- **ConstantEllipsoid** <a id="constantellipsoid"></a>
+  - The valley model ConstantEllipsoid models an ellipsoidal valley in which the effective masses and band-edge shifts of the valley are constant. The three principal axes and masses can be specified independently. When used for the paraboli...
+  - _Keywords:_ valley, principal, specified, ConstantEllipsoid, masses, transverse, effective, constant
+- **2kpEllipsoid** <a id="2kpellipsoid"></a>
+  - The valley model 2kpEllipsoid provides a more accurate, strain-dependent, ellipsoidal model for the valleys in silicon. This model treats the effective masses and band-edge shiftsΔ as a function of strain using the Ellipsoidal Model on p...
+  - _Keywords:_ valley, ellipsoidal, ValleyModel, longAxis, Linear, deformation, potential, strain
+- **Valleys Based on k.p Theory** <a id="valleys-based-on-k-p-theory"></a>
+  - Models based on theory allow for a more detailed treatment of band dispersion includingk p⋅ warping and anisotropic nonparabolicity. Different models based on this approach are available.
+  - _Keywords:_ Models, theory, detailed, treatment, dispersion, includingk, warping, anisotropic
+- **The 6kpValley Model** <a id="the-6kpvalley-model"></a>
+  - The hole band structure in most semiconductors is very warped but can be modeled analytically using six-band , or Luttinger–Kohn, theory. The valley model 6kpValley is based on thek p⋅ Luttinger–Kohn model (see Luttinger–Kohn or Bir–Piku...
+  - _Keywords:_ Luttinger, Kohn, potential, valley, Three, gamma1, gamma2, determine
+- **The 3kpValley Model** <a id="the-3kpvalley-model"></a>
+  - Sentaurus Band Structure provides the three-band valley model, which is a simplifiedk p⋅ version of the six-band valley model. In the case of weak spin-orbit interaction, thek p⋅ resulting (subband) dispersions are very similar and, in t...
+  - _Keywords:_ valley, interaction, Sentaurus, Band, Structure, provides, simplifiedk, version
+- **The 8kpValley Model** <a id="the-8kpvalley-model"></a>
+  - The valley model 8kpValley describes the lowest conduction band and three valence bands around the -point. It is a suitable band structure model for direct bandgap materials.Γ Compared to the 6kpValley model, this model has the following...
+  - _Keywords:_ mathrm, conduction, potential, Deformation, effective, Luttinger, Kohn, valley
+- **Spurious Solutions** <a id="spurious-solutions"></a>
+  - The eight-band model is prone to spurious solutions, but only if certain rules for its inputk p⋅ parameters are violated. Therefore, when the 8kpValley model is used in a Schrödinger equation as explained in Usage of Eight-Band k.p Schrö...
+  - _Keywords:_ spurious, solutions, certain, inputk, violated, Therefore, equation, explained
+- **The 2kpValley Model** <a id="the-2kpvalley-model"></a>
+  - The valley model 2kpValley is used to model the valleys in the silicon conduction bandΔ using a warped, nonparabolic, strain-dependent dispersion, going beyond the simple ellipsoid approximation (see Two-Band k.p Model on page 159). The ...
+  - _Keywords:_ valley, deformation, potential, valleys, conduction, Two, Band, relaxed
+- **Default Valley Models in Silicon** <a id="default-valley-models-in-silicon"></a>
+  - Table 28 on page 180 lists the set of valley models and corresponding bulk density and bandedge models that are created by default for all silicon and polysilicon regions.
+  - _Keywords:_ models, Longitudinal, direction, valley, silicon, corresponding, density, bandedge
+- **Electrostatic Models** <a id="electrostatic-models"></a>
+  - The electrostatic models used in the solution of the Poisson equation are described here.
+  - _Keywords:_ electrostatic, models, solution, Poisson, equation, described
+- **Permittivity** <a id="permittivity"></a>
+  - The dielectric permittivity is modeled as a constant value relative to the vacuum permittivity and can be set using:
+  - _Keywords:_ permittivity, Silicon, Permittivity, epsilon, dielectric, modeled, constant, relative
+- **Relaxed Band Models** <a id="relaxed-band-models"></a>
+  - ![](images/dmc_ug_part01_7659e4c4789683cdb3ad6a9a23f6647d777697576b6590044ea5cded4a61b7b9.jpg)
+  - _Keywords:_ models, relaxed, Silicon, specification, affinity, details, summary, E_F
+- **Quasi-Fermi Levels** <a id="quasi-fermi-levels"></a>
+  - In addition to the band models, the quasi-Fermi levels are used in the calculation of the carrier densities. The quasi-Fermi levels are defined only for semiconductor regions and are modeled as fixed values tied to a particular contact v...
+  - _Keywords:_ Fermi, models, region, contact, levels, semiconductor, particular, energy
+- **Carrier Density** <a id="carrier-density"></a>
+  - Several models are provided for computing the carrier densities for electrons and holes. Distinctions are made between models that treat confined carriers and those that model bulk densities, as well as between models that treat strain o...
+  - _Keywords:_ models, densities, between, strain, Several, provided, computing, carrier
+- **Bulk Versus Confined Carrier Density** <a id="bulk-versus-confined-carrier-density"></a>
+  - When a Schrödinger equation is defined for a carrier over a segment of the device, as determined by a nonlocal line, the carrier density over the nonlocal line is computed by integrating the subband dispersion as described in Calculating...
+  - _Keywords:_ density, carrier, nonlocal, eHybridDensity, confined, automatically, calculation, equation
+- **Fermi–Dirac Bulk Density Model** <a id="fermi-dirac-bulk-density-model"></a>
+  - Assuming parabolic dispersion within a set of valleys or bands with the same band extrema, the carrier density for electrons and holes under a Fermi–Dirac distribution function is given by:
+  - _Keywords:_ mathrm, Assuming, parabolic, dispersion, within, valleys, extrema, carrier
+- **where:** <a id="where"></a>
+  - $N _ { C }$ and $N _ { V }$ are the conduction and valence effective band density-of-states (DOS) at 300 K, respectively. $E _ { F n }$ and $E _ { F p }$ are the electron and hole quasi-Fermi energies, respectively. ■ $E _ { C }$ and $E ...
+  - _Keywords:_ respectively, Fermi, Physics, Silicon, conduction, valence, density, Dirac
+- **Bulk Density Model Based on an Ellipsoidal Valley** <a id="bulk-density-model-based-on-an-ellipsoidal-valley"></a>
+  - For one band of an ellipsoidal ValleyModel, such as ConstantEllipsoid or 2kpEllipsoid, the bulk carrier densities, assuming parabolic dispersion and Fermi–Dirac statistics, can be computed using the models eEllipsoidalDensity and hEllips...
+  - _Keywords:_ valley, mathrm, Delta, ellipsoidal, ValleyModel, computed, masses, relaxed
+- **Bulk Hole Density Model Based on 6kp** <a id="bulk-hole-density-model-based-on-6kp"></a>
+  - The valence band in silicon is composed of three bands at the point. In relaxed silicon, theseΓ are usually referred to as the heavy-hole, light-hole, and split-off bands. Under general strain, however, the bands and effective masses bec...
+  - _Keywords:_ mathrm, valence, silicon, DOS, relaxed, strain, effective, accurate
+- **Multivalley Bulk Density Model** <a id="multivalley-bulk-density-model"></a>
+  - The conduction and valence bands in most semiconductors are composed of multiple valleys or multiple bands or both. For example, in silicon, the conduction band is composed of states from three pairs of valleys, while the valence band is...
+  - _Keywords:_ density, models, composed, conduction, valence, multiple, valleys, valley
+- **Default Models for Carrier Density** <a id="default-models-for-carrier-density"></a>
+  - To treat both confined and bulk carrier densities for multiple valleys and bands, the following set of models is activated by default:
+  - _Keywords:_ Physics, material, semiconductor, models, confined, carrier, densities, multiple
+- **Maxwell–Boltzmann Statistics** <a id="maxwell-boltzmann-statistics"></a>
+  - By default, the models that compute the carrier densities use Fermi–Dirac statistics. Optionally, you can select to use Maxwell–Boltzmann statistics. In that case, the Fermi–Dirac integrals are replaced by exponential functions. This opt...
+  - _Keywords:_ Fermi, statistics, Dirac, Boltzmann, CarrierStatistics, Maxwell, Physics, specify
+- **Doping Concentration** <a id="doping-concentration"></a>
+  - The main doping quantities are:
+  - _Keywords:_ TDR, doping, dopants, DopingConcentration, TotalConcentration, DonorConcentration, concentration, active
+- **Net Density** <a id="net-density"></a>
+  - The bulk net density within a semiconductor region is given simply by the RHS of the Poisson equation (Eq. 125, p. 171), excluding the interface charge, in units of . This model can becm–3 saved for visualization purposes using the model...
+  - _Keywords:_ density, within, semiconductor, region, simply, RHS, Poisson, equation
+- **Interface Charge** <a id="interface-charge"></a>
+  - Either a fixed charge or trapped charge at region interfaces can be specified using the TrapModel keyword in the Physics command (see Physics on page 333). More than one value of the interface charge can be specified by issuing multiple ...
+  - _Keywords:_ specified, interface, region, charge, interfaces, Physics, materials, regions
+- **Fixed Interface Charge** <a id="fixed-interface-charge"></a>
+  - A fixed interface charge is specified using TrapModel=FixedCharge. This model has only the parameter conc that specifies the interface charge in units of $\mathrm { c m } ^ { - 2 }$ . Here is an example of specifying fixed charges at int...
+  - _Keywords:_ charge, specified, mathtt, interface, TrapModel, FixedCharge, specifying, charges
+- **Interface Traps** <a id="interface-traps"></a>
+  - An interface trap is specified using either TrapModel=Donor for donor-type traps or TrapModel=Acceptor for acceptor-type traps. Donor traps are positively charge when occupied by a hole; acceptor traps are negatively charged when occupie...
+  - _Keywords:_ mathrm, interface, Donor, acceptor, occupancy, TrapModel, Acceptor, charge
+- **where:** _(p.148)_ <a id="where"></a>
+  - ■ $E _ { \mathrm { F } }$ is the quasi-Fermi energy of the carrier specified using the carrierType parameter. g is a degeneracy parameter. Its default value is 1, which makes $f _ { D } ^ { + } ( E )$ and $f _ { A } ^ { - } ( E )$ both a...
+  - _Keywords:_ profile, mathrm, relaxed, energy, valence, specified, EnergyMid, relative
+- **Visualization of Interface Charge** _(p.148)_ <a id="visualization-of-interface-charge"></a>
+  - The spatial profile of a trapped interface charge can be saved to a TDR structure file using the Save command with the model parameters eInterfaceTrappedCharge and hInterfaceTrappedCharge for the total negative trapped charge and the tot...
+  - _Keywords:_ trapped, interface, charge, quantities, energy, profile, TDR, Indicated
+- **Effective Field for Universal Mobility** <a id="effective-field-for-universal-mobility"></a>
+  - The effective field concept has proven useful for simplifying the modeling and characterization of inversion-layer mobility in silicon MOSFETs [5]. Experimentally, the effective field is defined as a linear combination of inversion sheet...
+  - _Keywords:_ effective, region, density, Extract, integral, inversion, defined, mathrm
+- **Strain** <a id="strain"></a>
+  - The strain tensor in the crystallographic coordinate system is set using the CrystalStrain model keyword. Only constant strain within a region is supported. The strain tensor can be computed using the elasticity features of Sentaurus Ban...
+  - _Keywords:_ strain, tensor, CrystalStrain, mySi, keyword, stress, strainTensor, crystallographic
+- **Calculating Subbands** <a id="calculating-subbands"></a>
+  - The confined carrier density, the subband dispersion, and the wavefunctions within an inversion layer can be computed using different Schrödinger solvers. These solvers compute the subband dispersion and wavefunctions in -space over prev...
+  - _Keywords:_ subband, confined, carrier, density, dispersion, wavefunctions, solvers, These
+- **Polar Grid for 2D k-Space** <a id="polar-grid-for-2d-k-space"></a>
+  - For 1D device structures, the Schrödinger solvers are solved over a 2D -space grid in polark coordinates. To reduce the computation time, these solves are performed only over the angular section of the polar grid that is unique from a sy...
+  - _Keywords:_ symmetry, specified, dispersion, mathbf, Nphi, subband, IW4, Phi
+- **Grid for 1D k-Space** <a id="grid-for-1d-k-space"></a>
+  - For 2D device structures, the solution of the 2D Schrödinger equation requires computing the dispersion on a 1D grid in -space. This -grid can be specified in the Physics nonlocalk k command using the Nk and Kmax parameters or using the ...
+  - _Keywords:_ device, structures, solution, equation, requires, computing, dispersion, specified
+- **Ladders** <a id="ladders"></a>
+  - The bands of many semiconductors are often composed of more than one valley. For example, the conduction band in silicon is composed of three pairs of valleys. The solution of aΔ Schrödinger equation in each valley produces a ladder of s...
+  - _Keywords:_ valleys, composed, valley, solution, equation, ladder, subbands, specified
+- **Calculating Confined Carrier Density** <a id="calculating-confined-carrier-density"></a>
+  - The confined carrier density is computed directly from the subband dispersion and wavefunctions using:
+  - _Keywords:_ mathrm, subband, dispersion, boldsymbol, distribution, carrier, density, confinement
+- **Calculating the Thermal Injection Velocity** <a id="calculating-the-thermal-injection-velocity"></a>
+  - The thermal injection velocity for valley along the direction υ $\hat { u }$ is computed as the occupancy-weighted average of the group velocity over one-half of -space.k
+  - _Keywords:_ mathrm, injection, velocity, valley, computed, thermal, weighted, Subbands
+- **Calculating the Transport Mass** <a id="calculating-the-transport-mass"></a>
+  - The transport mass is computed from the occupancy-weighted inverse transport mass. The occupancy-weighted inverse transport mass is computed as one component of the inverse mass tensor integrated over all -space and weighted by the equil...
+  - _Keywords:_ mathrm, inverse, transport, weighted, valley, computed, occupancy, component
+- **Automatically Created Models for Visualization and Extraction** <a id="automatically-created-models-for-visualization-and-extractio"></a>
+  - All Schrödinger solvers automatically create for each subband a set of models for the subband energy minimum, the wavefunction value and norm at the center of the polar grid, and the carrier density profile in each subband. These models ...
+  - _Keywords:_ Delta1, subband, models, automatically, wavefunction, valley, _WavefunctionValue, TDR
+- **Parabolic Schrödinger Solver** <a id="parabolic-schr-dinger-solver"></a>
+  - The Schrödinger solver named Parabolic is based on the solution of the parabolic Schrödinger equation with a correction for nonparabolicity computed using perturbation theory. This solver is most relevant for electrons. For an ellipsoida...
+  - _Keywords:_ solver, parabolic, equation, Psi, Parabolic, solution, correction, nonparabolicity
+- **where:** <a id="where"></a>
+  - is the reduced Planck’s constant.h ■ $W _ { c }$ is the inverse mass tensor for the ladder for the confinement direction or directions. $\Psi$ is the wavefunction. is the eigenenergy at the center -point of the dispersion.E k $\tilde { E...
+  - _Keywords:_ models, nonlocal, equation, valley, reduced, Planck, constant, inverse
+- **Dispersion** <a id="dispersion"></a>
+  - For a parabolic band, the eigenenergy for a subband, $\boldsymbol { E } _ { \mathrm { v } } ^ { 0 }$ , is combined with a parabolic dispersion function to compute the total dispersion, $E _ { \mathrm { v } } ( k )$ , over the -space grid:k
+  - _Keywords:_ mathrm, boldsymbol, dispersion, correction, subband, gamma_, nonparabolicity, minimum
+- **Surface Orientation and Effective Masses** <a id="surface-orientation-and-effective-masses"></a>
+  - Changes in surface orientation alter the inverse mass tensor that goes into the parabolic Schrödinger equation as well as the inverse mass tensor that is used for the dispersion. These tensors are computed automatically by transforming t...
+  - _Keywords:_ details, summary, inverse, tensor, valley, orientations, directions, images
+- **Usage** <a id="usage"></a>
+  - The Parabolic Schrödinger solver is selected using a Physics command of the type:
+  - _Keywords:_ mathrm, specified, Parabolic, solver, valley, confinement, computed, uniformly
+- **Confined k.p Schrödinger Solvers** <a id="confined-k-p-schr-dinger-solvers"></a>
+  - In contrast to the Parabolic Schrödinger solver, which is based on the single-band effective mass approximation, the confined Schrödinger solvers are based on a perturbationk p⋅ method involving multiple bands.
+  - _Keywords:_ partial, Hamiltonian, confining, operator, method, potential, results, vector
+- **Arbitrary Surface Orientations** <a id="arbitrary-surface-orientations"></a>
+  - In the discussion of analytic bulk band structures (see Chapter 14 on page 159), coordinates were always assumed to be in the crystallographic coordinate system, that is, the x-, y-, and zaxes are aligned with the (100) directions of the...
+  - _Keywords:_ mathrm, confinement, coordinates, coordinate, system, crystal, device, boldsymbol
+- **Reordering the Subband Dispersion** <a id="reordering-the-subband-dispersion"></a>
+  - For 2D confined systems, an algorithm is available to reorder the numerically computed subband dispersion, following the concepts outlined in [11]. As shown in Figure 51, reordering a 6kp subband dispersion allows the formation of light ...
+  - _Keywords:_ Reordering, subband, dispersion, allows, formation, subbands, Nonlocal, details
+- **Confined Six-Band k.p Schrödinger Equation Solver** <a id="confined-six-band-k-p-schr-dinger-equation-solver"></a>
+  - The implementation of the confined six-band method follows [1][12]. The k p⋅ $6 \times 6$ k p⋅ Hamiltonian associated with the Luttinger–Kohn basis states can be expressed based on the $3 \times 3$ spin degenerate Hamiltonian associated ...
+  - _Keywords:_ mathrm, mathbf, Hamiltonian, states, expressed, associated, Luttinger, Kohn
+- **15: Subband and Mobility Calculations** <a id="15-subband-and-mobility-calculations"></a>
+- **Calculating Subbands** <a id="calculating-subbands"></a>
+  - For an arbitrary surface orientation, $\mathbf { M } ^ { \alpha \beta }$ can be determined as follow:
+  - _Keywords:_ mathrm, overline, IW4, symmetry, iwSymmetry, stress, mathbf, confinement
+- **Usage of Six-Band k.p Schrödinger Equation Solver** <a id="usage-of-six-band-k-p-schr-dinger-equation-solver"></a>
+  - The six-band Schrödinger solver is selected using the name 6kp for the hSchrodingerk p⋅ parameter of the Physics nonlocal command. For example, the 6kp solver for 1D confinement can be selected using:
+  - _Keywords:_ subband, specified, Physics, nonlocal, AUTO, useKdependentWF, useNonsymBulkKPHamil, solver
+- **Confined Three-Band k.p Schrödinger Equation Solver** <a id="confined-three-band-k-p-schr-dinger-equation-solver"></a>
+  - The spin degenerate Hamiltonian can be expressed using the chemical basis states3 3 × k p⋅ as outlined in Confined Six-Band k.p Schrödinger Equation Solver on page 202.
+  - _Keywords:_ degenerate, Hamiltonian, expressed, chemical, states3, outlined, Confined, Six
+- **Usage of Three-Band k.p Schrödinger Equation Solver** <a id="usage-of-three-band-k-p-schr-dinger-equation-solver"></a>
+  - The Physics input has been extended to enable the three-band valley model, with thek p⋅ 3kpValley keyword for the ValleyModel parameter, for example:
+  - _Keywords:_ Physics, keyword, ValleyModel, Gamma, hSchrodinger, extended, enable, valley
+- **Confined Two-Band k.p Schrödinger Equation Solver** <a id="confined-two-band-k-p-schr-dinger-equation-solver"></a>
+  - The Hamiltonian for two nondegenerate conduction bands associated with the 2 2 × k p⋅ Z valley is given by:
+  - _Keywords:_ mathrm, mathbf, boldsymbol, valley, rotation, components, confinement, Hamiltonian
+- **Usage of Two-Band k.p Schrödinger Equation Solver** <a id="usage-of-two-band-k-p-schr-dinger-equation-solver"></a>
+  - The two-band Schrödinger solver is selected using the name 2kp for the eSchrodingerk p⋅ parameter of the Physics nonlocal command. For example, the 2kp solver for 1D confinement can be selected using:
+  - _Keywords:_ Physics, valleyDir, nonlocal, valley, material, Silicon, ValleyModel, degeneracy
+- **Confined Eight-Band k.p Schrödinger Equation Solver** <a id="confined-eight-band-k-p-schr-dinger-equation-solver"></a>
+  - This implementation is very similar to the $6 \times 6$ described in Confined Six-Band k.pk p⋅ Schrödinger Equation Solver on page 202. What is different here are the terms for the conduction band $H _ { \mathrm { { c c } } }$ and the co...
+  - _Keywords:_ mathrm, conduction, valence, Hamiltonian, Confined, Six, Band, Equation
+- **15: Subband and Mobility Calculations** <a id="15-subband-and-mobility-calculations"></a>
+- **Calculating Subbands** <a id="calculating-subbands"></a>
+  - However, instead of the $6 \times 6 \ \mathrm { \ k \cdot \ p }$ parameters , , and , you use the renormalizedL M N parameters [2]:
+  - _Keywords:_ mathrm, varepsilon_, Delta_, Hamiltonian, strain, coupling, states, diagonal
+- **Usage of Eight-Band k.p Schrödinger Equation Solver** <a id="usage-of-eight-band-k-p-schr-dinger-equation-solver"></a>
+  - The 8kpValley described in The 8kpValley Model on page 177 can be used in a Schrödinger equation, which is associated with the carrier type. Using the keyword eSchrodinger, the electron subbands are calculated and, using the keyword hSch...
+  - _Keywords:_ Physics, iwSymmetry, AUTO, useNonsymBulkKPHamil, equation, keyword, eSchrodinger, electron
+- **Handling of Subband Degeneracies** <a id="handling-of-subband-degeneracies"></a>
+  - In calculations using the band models, subband degeneracies often arise.k p⋅
+  - _Keywords:_ degeneracies, calculations, models, subband, numeric, issues, degrade, accuracy
+- **Interface Potential Spike** <a id="interface-potential-spike"></a>
+  - A delta-function spike in the confining band-edge potential can be specified at region interfaces using the SpikeModel keyword in the Physics command (see Physics for Interface Potential Spike Models on page 343). The SpikeModel keyword ...
+  - _Keywords:_ potential, SpikeModel, interface, specified, Physics, region, valleys, creates
+- **Visualizing the Interface Potential Spike** <a id="visualizing-the-interface-potential-spike"></a>
+  - The spatial profile of a specified SpikeModel can be saved to a TDR structure file using the Save command. To save a particular SpikeModel, specify the SpikeModel name in the model list for the models parameter. For example, to save the ...
+  - _Keywords:_ SpikeModel, Save, models, DeltaSpike, spatial, profile, specified, TDR
+- **Using Sentaurus Band Structure as an External Schrödinger Solver for Sentaurus Device** <a id="using-sentaurus-band-structure-as-an-external-schr-dinger-so"></a>
+  - Sentaurus Device and Sentaurus Band Structure can cooperate to run 3D device simulations with 2D Schrödinger confinement. In this cooperative simulation mode, Sentaurus Device handles the 3D device structure and solves a system of equati...
+  - _Keywords:_ Sentaurus, Device, Band, Structure, device, slices, ExternalSchroedinger, process
+- **Calculating Mobility** <a id="calculating-mobility"></a>
+  - The calculation of the inversion-layer mobility combines the subband dispersion computed by one of the Schrödinger solvers along with a set of user-defined scattering models within either the Kubo–Greenwood formalism or using a direct so...
+  - _Keywords:_ mobility, calculation, inversion, combines, subband, dispersion, computed, solvers
+- **Kubo–Greenwood Formalism** <a id="kubo-greenwood-formalism"></a>
+  - A linearization of the Boltzmann transport equation in the driving electric field gives the following Kubo–Greenwood expression for the component of the low-field mobility tensorij in subband :ν
+  - _Keywords:_ mathrm, partial, subband, boldsymbol, linearization, Boltzmann, transport, equation
+- **15: Subband and Mobility Calculations** <a id="15-subband-and-mobility-calculations"></a>
+- **Calculating Mobility** <a id="calculating-mobility"></a>
+  - $E _ { \mathrm { v } }$ is the subband energy dispersion. $f _ { 0 }$ is the equilibrium Fermi–Dirac distribution function. is the dimension of -space.d k
+  - _Keywords:_ mathrm, subband, Tot, energy, dispersion, equilibrium, Fermi, Dirac
+- **Momentum Relaxation Time** <a id="momentum-relaxation-time"></a>
+  - The inverse momentum relaxation time (IMRT) for a given scattering mechanism for transport along the -th axis, for example, is given by an integral over final states by:i
+  - _Keywords:_ boldsymbol, mathrm, scattering, IMRT, subband, momentum, relaxation, mechanism
+- **Linear Boltzmann Transport Equation** <a id="linear-boltzmann-transport-equation"></a>
+  - In the limit of the vanishing driving field, , the carrier distribution function can be written asF a small perturbation, $g _ { \mathrm { v } } ( k )$ , to the equilibrium Fermi–Dirac distribution, $f _ { 0 }$ :
+  - _Keywords:_ mathrm, boldsymbol, distribution, perturbation, BTE, linear, partial, subband
+- **Mobility Calculators** <a id="mobility-calculators"></a>
+  - Within Sentaurus Band Structure, the evaluation of the IMRTs and the Kubo–Greenwood integral (Eq. 194) or the solution of the linear BTE is handled by a mobility calculator defined on a nonlocal line or nonlocal area.
+  - _Keywords:_ calculator, nonlocal, mobility, defined, IMRTs, integral, KGFromK, LinearBTE
+- **k-Space Grid** <a id="k-space-grid"></a>
+  - The -space grid used for the evaluation of the mobility must be specified independently ofk the -space grid used for the calculation of the subband dispersion from the Schrödingerk equation. The grid spacing of the specified -grid and -g...
+  - _Keywords:_ specified, evaluation, mobility, independently, calculation, subband, dispersion, equation
+- **Usage** <a id="usage"></a>
+  - Using a mobility calculator involves three main steps:
+  - _Keywords:_ mobility, calculator, nonlocal, Specify, scattering, models, specified, Physics
+- **Visualization Quantities** <a id="visualization-quantities"></a>
+  - The -space quantities related to the calculation of mobility can be saved to the -space TDRk k file using the SaveK command. For both mobility calculators, the IMRT can be saved using a model name of the form valley-name\_subband-index\_...
+  - _Keywords:_ mobility, _IMRT, Delta1, LinearBTE, quantities, related, calculation, TDRk
+- **Coulomb Green’s Function** <a id="coulomb-green-s-function"></a>
+  - The solution of the Green’s function for the Poisson equation, known here as the Coulomb Green’s function, is used in two aspects of mobility calculations. First, it computes the Lindhard dielectric screening function, which can be used ...
+  - _Keywords:_ boundary, boldsymbol, conditions, Green, Coulomb, solution, scattering, equation
+- **Spatial Mobility Profile** <a id="spatial-mobility-profile"></a>
+  - The mobility computed using the ComputeMobility command represents an effective mobility value for all subbands over the entire nonlocal line or area. This mobility value has no explicit spatial dependency.
+  - _Keywords:_ mobility, computed, ComputeMobility, represents, effective, subbands, entire, nonlocal
+- **15: Subband and Mobility Calculations** <a id="15-subband-and-mobility-calculations"></a>
+- **Scattering Models** <a id="scattering-models"></a>
+  - However, by weighting each subband mobility value by the subband inversion charge and the wavefunction norm, a spatial profile for the mobility can be computed [16]:
+  - _Keywords:_ mobility, subband, spatial, profile, inversion, charge, wavefunction, respectively
+- **Scattering Models** <a id="scattering-models"></a>
+  - Scattering models compute the transition rate for carriers to scatter from initial to final states due to various scattering mechanisms. Currently, phonon scattering, alloy disorder scattering, surface scattering, and Coulomb scattering ...
+  - _Keywords:_ scattering, Scattering, models, compute, transition, carriers, scatter, initial
+- **Common Parameters** <a id="common-parameters"></a>
+  - As described here, several common parameters are used by different scattering models, including the list of allowed valleys involved in the transition, the type of transition, the approach for computing the momentum transfer, and, for so...
+  - _Keywords:_ models, transition, approach, computing, described, several, common, different
+- **Valleys** <a id="valleys"></a>
+  - All scattering models require a description of the allowed transitions between valleys. This description consists of a list of the allowed initial/final valley pairs, as given by the valleys parameter of the Physics command, and a descri...
+  - _Keywords:_ transitions, valley, allowed, Delta1, Delta2, description, between, valleys
+- **Transition Type** <a id="transition-type"></a>
+  - In addition to a list of the allowed valley pairs, the type of the transition must be specified using the transitionType parameter. In general, transitions can occur between states in the same subband (intra-subband), or between states t...
+  - _Keywords:_ allowed, transitions, transition, between, valleys, specified, subband, degeneracy
+- **Momentum Relaxation Factor** <a id="momentum-relaxation-factor"></a>
+  - For the Kubo–Greenwood approach, the calculation of the IMRT from the transition rate involves a factor that models the momentum transfer during scattering, that is, the momentum relaxation factor. This factor is given by:
+  - _Keywords:_ mrFactor, factor, scattering, mathbf, boldsymbol, Consider, change, models
+- **Screening** <a id="screening"></a>
+  - Some scattering mechanisms, namely, surface roughness, Coulomb, alloy, and polar-optical phonon scattering, can be screened by carriers in inversion layers. Two different approaches for computing this dielectric screening are provided: t...
+  - _Keywords:_ scattering, Some, mechanisms, namely, surface, roughness, Coulomb, optical
+- **Tensor-Based Lindhard Screening** <a id="tensor-based-lindhard-screening"></a>
+  - In the tensor-based approach to dielectric screening, the screened matrix elements, $M _ { \mathrm { v v ^ { \prime } } } ^ { \mathrm { s c r } }$ , for a particular scattering mechanism are related to the unscreened matrix elements, $M ...
+  - _Keywords:_ mathrm, boldsymbol, tensor, dielectric, subbands, screened, matrix, elements
+- **Scalar Lindhard Screening** <a id="scalar-lindhard-screening"></a>
+  - For bulk or single-gate MOS capacitor structures, some simplifying approximations can be used to reduce the complexity of the dielectric screening calculation. In this scalar Lindhard dielectric function approach [17], all nondegenerate ...
+  - _Keywords:_ mathrm, dielectric, subband, matrix, elements, single, MOS, capacitor
+- **15: Subband and Mobility Calculations** <a id="15-subband-and-mobility-calculations"></a>
+- **Scattering Models** <a id="scattering-models"></a>
+  - where a scalar version of the dielectric function, , is given by:ε( ) q
+  - _Keywords:_ mathrm, degenerate, subbands, scalar, dielectric, varepsilon, version, Pi_
+- **Usage** <a id="usage"></a>
+  - Screening can be activated for those scattering mechanisms that support it by using the screening parameter. In general, the following options are available, although some scattering models allow only the scalar approach:
+  - _Keywords:_ screening, Lindhard, scattering, scalar, selects, dielectric, Screening, activated
+- **Scattering Model Availability by Device Dimension** <a id="scattering-model-availability-by-device-dimension"></a>
+  - Table 40 lists which scattering models are available depending on the dimensionality of the simulated device.
+  - _Keywords:_ Yes, noneLindhardLindhardtDF, Available, phonon, scattering, models, device, devices
+- **Phonon Scattering** <a id="phonon-scattering"></a>
+  - Models for acoustic and inelastic phonon scattering for a heterostructure channel containing multi–SiGe layers are available.
+  - _Keywords:_ Models, acoustic, inelastic, phonon, scattering, heterostructure, channel, containing
+- **Acoustic Phonon Scattering** <a id="acoustic-phonon-scattering"></a>
+  - Acoustic phonon scattering is treated as an elastic isotropic process within the energy equipartition approximation.
+  - _Keywords:_ mathrm, scattering, isotropic, Acoustic, phonon, treated, elastic, process
+- **15: Subband and Mobility Calculations** <a id="15-subband-and-mobility-calculations"></a>
+- **Scattering Models** <a id="scattering-models"></a>
+- **where:** <a id="where"></a>
+  - ■ is the layer index.ι ■ $x _ { \imath }$ is the mole fraction of layer .ι $\rho ^ { \mathrm { { s i } } } ( \rho ^ { \mathrm { { G e } } } )$ is the mass density of Si (Ge). $u _ { l } ^ { \mathrm { S i } } ( u _ { l } ^ { \mathrm { G e...
+  - _Keywords:_ mathrm, density, phonon, wavefunction, factor, boldsymbol, velocity, potential
+- **Inelastic Phonon Scattering** <a id="inelastic-phonon-scattering"></a>
+  - Inelastic phonon scattering is treated in an isotropic approximation and assumes constant phonon energy dispersion with energy $\hbar \omega ^ { \mathrm { S i } }$ and $\hbar \omega ^ { \mathrm { { \mathrm { { G e } } } } }$
+  - _Keywords:_ mathrm, phonon, scattering, energy, DtK, absorption, emission, processes
+- **Evaluating the Wavefunction Overlap Form-Factor** <a id="evaluating-the-wavefunction-overlap-form-factor"></a>
+  - For the 6kp Schrödinger solver, the wavefunction overlap form-factor (Eq. 211, p. 226) is, in general, dependent on the wavevector of the initial and final states. This -dependency can bek treated in one of two ways as set by the kdepFF ...
+  - _Keywords:_ factor, initial, subband, overlap, wavevector, dependency, kdepFF, solver
+- **Polar-Optical Phonon Scattering** <a id="polar-optical-phonon-scattering"></a>
+  - Polar-optical phonon (POP) scattering is an important scattering mechanism in materials with polar bonds such as III–Vs. POP scattering is treated as an intravalley, anisotropic scattering mechanism with a constant phonon-energy dispersi...
+  - _Keywords:_ mathrm, scattering, varepsilon_, phonon, POP, overrightarrow, Psi_, mathbf
+- **Alloy Disorder Scattering** <a id="alloy-disorder-scattering"></a>
+  - A model for alloy disorder scattering for a heterostructure channel containing multiple semiconductor layers is available.
+  - _Keywords:_ mathrm, scattering, disorder, isotropic, constant, Alloy, elastic, matrix
+- **Surface Roughness Scattering** <a id="surface-roughness-scattering"></a>
+  - Surface roughness scattering due to semiconductor–insulator interfaces is treated as an elastic but anisotropic process. All models for surface roughness scattering share some common modeling options and user-modifiable parameters. These...
+  - _Keywords:_ roughness, scattering, surface, Surface, semiconductor, insulator, interfaces, treated
+- **Surface-Roughness Power Spectrum** <a id="surface-roughness-power-spectrum"></a>
+  - The surface roughness of a semiconductor–insulator interface can be characterized by a powerspectral density function, . is a function of the magnitude of the difference inS q( ) S q( ) wavevectors between initial and final states: $q \ ...
+  - _Keywords:_ Lambda, Delta, models, spectrum, surface, roughness, density, Gaussian
+- **Common Parameters** <a id="common-parameters"></a>
+  - By default, mrFactor=2 is used to compute the momentum transfer. For the transition type, transitions due to surface roughness are typically limited to either intra-subband or intravalley transitions. For screening, surface roughness sca...
+  - _Keywords:_ transitions, surface, roughness, either, screening, mrFactor, compute, momentum
+- **Surface Roughness Scattering From Parabolic Schrödinger for 1D** <a id="surface-roughness-scattering-from-parabolic-schr-dinger-for-"></a>
+  - This formulation requires that the Parabolic Schrödinger equation be used. For an SOI device, the two semiconductor–insulator interfaces are assumed to be uncorrelated and, therefore, this model is applied to both interfaces using the sa...
+  - _Keywords:_ mathrm, Psi_, mathbf, boldsymbol, subband, formulation, Parabolic, SOI
+- **Surface Roughness Scattering From 6kp Schrödinger for 1D** <a id="surface-roughness-scattering-from-6kp-schr-dinger-for-1d"></a>
+  - Based on the 6kp Schrödinger solver, the unscreened matrix element for surface scattering is given by [21]:
+  - _Keywords:_ mathrm, partial, mathbf, surface, scattering, Gamma_, Psi, semiconductor
+- **Isotropic Prange–Nee Surface Roughness Scattering From 6kp Schrödinger for 1D** <a id="isotropic-prange-nee-surface-roughness-scattering-from-6kp-s"></a>
+  - Based on the 6kp Schrödinger solver and the Prange–Nee unscreened matrix element for surface scattering, the matrix element for an isotropic formulation of the surface roughness model is given by [22]:
+  - _Keywords:_ mathrm, varphi, surface, matrix, element, scattering, isotropic, roughness
+- **Usage for 1D** <a id="usage-for-1d"></a>
+  - The names of the surface-roughness scattering models and their parameters are specified in the Physics command. For example, to specify an SRFromParabolic model, use a command of the form:
+  - _Keywords:_ SRFromParabolic, surface, roughness, scattering, Physics, Delta1, mrFactor, screening
+- **Surface Roughness Scattering for 2D** <a id="surface-roughness-scattering-for-2d"></a>
+  - For 2D device structures, surface roughness scattering is implemented as a generalization of the Prange–Nee model as applied to semiconductor–insulator boundaries of arbitrary shape [23]. The model is called SRFor2D.
+  - _Keywords:_ mathrm, surface, amplitude, perimeter, roughness, semiconductor, insulator, matrix
+- **Usage for 2D** <a id="usage-for-2d"></a>
+  - As an example, to specify an SRFor2D model for a silicon device, use a command of the form:
+  - _Keywords:_ SRFor2D, silicon, valleys, mrFactor, lambda, surface, selected, spectrum
+- **Coulomb Scattering** <a id="coulomb-scattering"></a>
+  - Coulomb scattering due to bulk impurities and interface charge is activated using the model name Coulomb and is treated as an elastic, intravalley scattering mechanism. The norm of the overall screened matrix element for Coulomb scatteri...
+  - _Keywords:_ mathrm, boldsymbol, Coulomb, scattering, impurities, interface, charge, activated
+- **where:** <a id="where"></a>
+  - $M _ { \mu \mu ^ { \mathrm { ( } q ) } } ^ { \mathrm { s c r } } ( q )$ is the overall screened matrix element, evaluated as a function of the magnitude of the wavevector difference, $q \ = \ \vert k ^ { \prime } - k \vert$ , between the...
+  - _Keywords:_ boldsymbol, charge, mathrm, matrix, element, screened, scriptstyle, Coulomb
+- **Common Parameters** <a id="common-parameters"></a>
+  - By default, mrFactor=2 is used to compute the momentum transfer. For the transition type, Coulomb scattering must always be treated as an intravalley mechanism. For screening, Coulomb scattering must not remain unscreened. Either the sca...
+  - _Keywords:_ Coulomb, scattering, screening, mrFactor, compute, momentum, transfer, transition
+- **Speeding Up the Matrix Element Calculation** <a id="speeding-up-the-matrix-element-calculation"></a>
+  - The calculation of the unscreened matrix element, Eq. 227, can be time consuming when bulk doping is treated in a large 2D cross section. An algorithm to speed up this calculation is activated by default. This algorithm uses additional m...
+  - _Keywords:_ additional, memory, calculation, algorithm, applications, consumption, unscreened, matrix
+- **Usage** <a id="usage"></a>
+  - Besides setting the required screening approach, the only adjustable parameter for Coulomb scattering is the scaleFactor parameter. For each region in which Coulomb scattering is activated, the bulk TotalConcentration at all region nodes...
+  - _Keywords:_ Coulomb, scattering, region, screening, scaleFactor, interface, charges, considered
+- **Default Scattering Models** <a id="default-scattering-models"></a>
+  - Based on the default valley models created for silicon listed in Table 31 on page 181, a set of scattering models for silicon is specified by default. Parameters common to several of the scattering models are listed in Table 46, the acou...
+  - _Keywords:_ scattering, models, InelasticPhonon, silicon, listed, phonon, Intravalley, Intervalley
+- **Notes:** <a id="notes"></a>
+  - ■ Both emission and absorption versions of the models in Table 48 are specified. fValleys refers to the valley pairs {Delta1 Delta2}, {Delta1 Delta3}, {Delta2 Delta1}, {Delta2 Delta3}, {Delta3 Delta1}, and {Delta3 Delta2}. gValleys refer...
+  - _Keywords:_ Delta1, Delta2, Delta3, models, refers, ElectronSR, HoleSR, Both
+- **References** <a id="references"></a>
+  - [1] B. A. Foreman, “Elimination of spurious solutions from eight-band theory,”k p⋅ Physical Review B, vol. 56, no. 20, pp. R12748–R12751, 1997. [2] T. B. Bahder, “Eight-band model of strained zinc-blende crystals,” Physicalk p⋅ Review B,...
+  - _Keywords:_ Review, Physical, Electron, Modeling, Devices, Jungemann, IEEE, Transactions
+- **Overview** <a id="overview"></a>
+  - Sentaurus Band Structure extends the Tcl syntax by adding named argument (name=value) parsing, type checking, support for real/complex 3D vector/matrix arithmetic, and applicationspecific commands for band-structure calculation. The type...
+  - _Keywords:_ Tcl, structure, subclass, arbitrary, elements, Band, vector, matrix
+- **Notational Conventions of Syntax Description** <a id="notational-conventions-of-syntax-description"></a>
+  - Sentaurus Band Structure supports different ways of passing arguments to commands: positional arguments and named arguments.
+  - _Keywords:_ arguments, argument, Sentaurus, Band, Structure, supports, different, passing
+- **Positional Arguments** <a id="positional-arguments"></a>
+  - This is the usual way of passing arguments in Tcl: the argument values are listed on the command line in the sequence in which they appear in the procedure definition.
+  - _Keywords:_ arguments, vector3D, Tcl, vectorSubtract, subtracts, syntax, passing, argument
+- **Named Arguments** <a id="named-arguments"></a>
+  - In named-argument parsing, the meaning of a parameter is not determined by its position in the argument list. Instead, the receiving command parses its argument list for sequences of the form name=value (or -name value) and sets up a map...
+  - _Keywords:_ argument, String, object, converted, Tcl, described, Integer, string
+- **Object-Oriented Tcl Commands** <a id="object-oriented-tcl-commands"></a>
+  - In the object-oriented approach to Tcl commands, each object is represented by a command with the same name as the object. The first argument to this command specifies the method to perform on the object [1]. Many of the commands of Sent...
+  - _Keywords:_ object, bulkSi, status, method, EPM, Crystal, oriented, approach
+- **General Settings** <a id="general-settings"></a>
+- **sBandGet/sBandSet** <a id="sbandget-sbandset"></a>
+  - Syntax ```txt sBandGet automaticBandstructureFiles | cutOffEnergy | dbPath | derivOrder | degeneratePerturbationTheory | deltaK | derivOrder | fileFormat | nThreads | outputPostfix | outputPrefix | Qcutoff | Q2cutoff | shearStrainInKVecT...
+  - _Keywords:_ Boolean, derivOrder, Double, String, Integer, automaticBandstructureFiles, cutOffEnergy, dbPath
+- **Description** <a id="description"></a>
+  - The command sBandGet is used to retrieve the global Sentaurus Band Structure flags, and the command sBandSet is used to set the global flags.
+  - _Keywords:_ effective, energies, SHORT_FORMAT, global, automaticBandstructureFiles, automatic, energy, Supported
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+- **General Settings** <a id="general-settings"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>Qcutoff, Q2cutoff</td><td>Specifies the maximum $\|\mathbf{q}\|$ (in $2\pi/a$ ) or $\|\mathbf{q}\|^2$ (in $(2\pi/a)^2$ ) for evaluating the local part of the atomic form factor...
+  - _Keywords:_ Supported, structure, Controls, conduction, maximum, strain, shiftConductionBands, shiftValenceBands
+- **Examples** <a id="examples"></a>
+  - sBandGet derivOrder
+  - _Keywords:_ derivOrder, energies, derivatives, sBandGet, compute, velocities, sBandSet, Enables
+- **Classes for Band-Structure Calculation** <a id="classes-for-band-structure-calculation"></a>
+  - Sentaurus Band Structure supports two band-structure calculation approaches: EPM and analytic band-structure formulas. For each approach, there is a band-structure calculator class; their names are EPM::Crystal and AnalyticBandSolver.
+  - _Keywords:_ structure, EPM, bandstructure, Crystal, Band, energy, object, effective
+- **Creating EPM::Crystal Objects** <a id="creating-epm-crystal-objects"></a>
+  - Sentaurus Band Structure contains commands for easy creation of standard crystals (for example, bulk silicon, bulk germanium, and silicon germanium). If your crystal is not supported by these commands, you can define a custom crystal usi...
+  - _Keywords:_ silicon, germanium, crystal, Crystal, Sentaurus, Band, Structure, contains
+- **SiliconCrystal** <a id="siliconcrystal"></a>
+- **Syntax** <a id="syntax"></a>
+  - SiliconCrystal name=String
+  - _Keywords:_ SiliconCrystal, String
+- **Description** <a id="description"></a>
+  - This command calls DiamondCrystal (see DiamondCrystal on page 250) to create a silicon crystal for the EPM band-structure calculation. If no AtomicSpecies of name Si exists when the SiliconCrystal command is called, the atomic species is...
+  - _Keywords:_ DiamondCrystal, create, silicon, crystal, EPM, structure, calculation, AtomicSpecies
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of EPM::Crystal object created by this call.</td></tr></table>
+  - _Keywords:_ Argument, Description, EPM, Crystal, object, created
+- **Examples** <a id="examples"></a>
+  - SiliconCrystal name=bulk
+  - _Keywords:_ SiliconCrystal, Creates, silicon, crystal, called, EPM
+- **GermaniumCrystal** <a id="germaniumcrystal"></a>
+- **Syntax** <a id="syntax"></a>
+  - GermaniumCrystal name=String
+  - _Keywords:_ GermaniumCrystal, String
+- **Description** <a id="description"></a>
+  - This command calls DiamondCrystal (see DiamondCrystal on page 250) to create a germanium crystal for EPM band-structure calculation. If no AtomicSpecies of name Ge exists when the GermaniumCrystal command is called, the atomic species is...
+  - _Keywords:_ DiamondCrystal, create, germanium, crystal, EPM, structure, calculation, AtomicSpecies
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of EPM::Crystal object created by this call.</td></tr></table>
+  - _Keywords:_ Argument, Description, EPM, Crystal, object, created
+- **Examples** <a id="examples"></a>
+  - GermaniumCrystal name=bulk
+  - _Keywords:_ GermaniumCrystal, Creates, crystal, called, EPM
+- **compute\_SiGe\_a0** <a id="compute-sige-a0"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt compute_SiGe_a0 xGe ```
+  - _Keywords:_ compute_SiGe_a0
+- **Description** <a id="description"></a>
+  - This command returns the relaxed lattice constant (in $\mathring \mathrm { A } )$ of a SiGe crystal with germanium mole fraction xGe according to the formula [2]:
+  - _Keywords:_ mathrm, SiGe, relaxed, lattice, constant, mathring, crystal, germanium
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>xGe</td><td>Positional argument of type Double. The germanium mole fraction.</td></tr></table>
+  - _Keywords:_ Argument, Description, Positional, argument, Double, germanium, fraction
+- **Examples** <a id="examples"></a>
+  - ```batch compute_SiGe_a0 0.5 ```
+  - _Keywords:_ mathrm, compute_SiGe_a0, Result, Relaxed, lattice, constant
+- **SiGeCrystal** <a id="sigecrystal"></a>
+- **Syntax** <a id="syntax"></a>
+  - SiGeCrystal name=String xGe=Double
+  - _Keywords:_ SiGeCrystal, String, Double
+- **Description** <a id="description"></a>
+  - This command calls DiamondCrystal (see DiamondCrystal on page 250) to create a ${ \mathrm { S i } } _ { { \mathrm { 1 - x } } } { \mathrm { G e } } _ { \mathrm { x } }$ crystal for EPM band-structure calculation in the virtual crystal ap...
+  - _Keywords:_ mathrm, DiamondCrystal, crystal, interpolated, compute, _SiGe, create, EPM
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of EPM::Crystal object created by this call.</td></tr><tr><td>xGe</td><td>Germanium mole fraction.</td></tr></table>
+  - _Keywords:_ Argument, Description, EPM, Crystal, object, created, Germanium, fraction
+- **Examples** <a id="examples"></a>
+  - SiGeCrystal name=SiGe30 xGe=0.3
+  - _Keywords:_ SiGe30, mathrm, SiGeCrystal, Creates, crystal
+- **DiamondCrystal** <a id="diamondcrystal"></a>
+- **Syntax** <a id="syntax"></a>
+  - DiamondCrystal name=String species=EPM::AtomicSpecies [a0=Double]
+  - _Keywords:_ DiamondCrystal, String, species, EPM, AtomicSpecies, Double
+- **Description** <a id="description"></a>
+  - This command creates a diamond structure crystal for EPM band-structure calculation. If no EPM::AtomicSpecies of name \$species exists when the DiamondCrystal command is called, the atomic species is created automatically using default p...
+  - _Keywords:_ species, structure, EPM, creates, diamond, crystal, calculation, AtomicSpecies
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>a0</td><td>Lattice constant of the crystal (in Å). If a0 is not specified, the reference lattice spacing of species is used.</td></tr><tr><td>name</td><td>Name of EPM::Crystal ...
+  - _Keywords:_ species, crystal, Argument, Description, Lattice, constant, specified, reference
+- **Examples** <a id="examples"></a>
+  - DiamondCrystal name=bulk species=Si
+  - _Keywords:_ DiamondCrystal, species, equivalent, SiliconCrystal
+- **Creating User-Defined Crystals** <a id="creating-user-defined-crystals"></a>
+- **Crystal** <a id="crystal"></a>
+- **Syntax** <a id="syntax"></a>
+  - Crystal name=String a0=Double [primitiveBasis=List#3/RealVector3D]
+  - _Keywords:_ Double, RealVector3D, Crystal, String, primitiveBasis, strain
+- **Description** <a id="description"></a>
+  - The Crystal command is a low-level command for creating a new EPM::Crystal object. All the standard crystal commands of the previous section rely on Crystal for the actual creation of the new EPM::Crystal object.
+  - _Keywords:_ Crystal, EPM, object, creating, standard, crystal, previous, actual
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>a0</td><td>Lattice constant for the new crystal (in Å).</td></tr><tr><td>atoms</td><td>This list specifies the species and positions of atoms within the unit cell of the crysta...
+  - _Keywords:_ strain, crystal, Crystal, vectors, species, positions, EPM, object
+- **Examples** <a id="examples"></a>
+  - ```txt requireAtomicSpecies Si Crystal name=bulk a0=[Si get latticeConstant] \ primitiveBasis=[list {0 0.5 0.5} {0.5 0 0.5} {0.5 0.5 0}] \ atoms=[list species=Si pos=[list {0.125 0.125 0.125} \ {-0.125 -0.125 -0.125}]] ```
+  - _Keywords:_ Crystal, requireAtomicSpecies, latticeConstant, primitiveBasis, species, Constructs, silicon, crystal
+- **Alternative Constructor** <a id="alternative-constructor"></a>
+- **StrainedCrystal** <a id="strainedcrystal"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt StrainedCrystal name=String unstrained=EPM::Crystal [strain=RealMatrix3D] [zeta=Double] ```
+  - _Keywords:_ StrainedCrystal, String, unstrained, EPM, Crystal, strain, RealMatrix3D, Double
+- **Description** <a id="description"></a>
+  - This procedure builds an EPM::Crystal from an unstrained crystal, the strain tensor (default: zero strain) and (optionally) the internal strain parameter zeta. If zeta is not specified, its value is inherited from the unstrained crystal....
+  - _Keywords:_ Crystal, strain, EPM, unstrained, crystal, procedure, builds, tensor
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of EPM::Crystal object created by this call.</td></tr><tr><td>unstrained</td><td>The unstrained EPM::Crystal object from which the strained crystal will be bu...
+  - _Keywords:_ strain, unstrained, crystal, EPM, Crystal, object, internal, Argument
+- **Examples** <a id="examples"></a>
+  - ```txt SiliconCrystal name=unstrainedSi set strain [[unstrained get elasticity] biaxialStrain dir=[list 0 1 1] \ inPlaneStrain=0.01] StrainedCrystal name=strainedSi unstrained=unstrainedSi strain=$strain ```
+  - _Keywords:_ unstrainedSi, strain, unstrained, crystal, strainedSi, created, SiliconCrystal, elasticity
+- **Using EPM::Crystal Objects** <a id="using-epm-crystal-objects"></a>
+  - EPM::Crystal objects are accessed by using their name as a Tcl command name. This is denoted as <EPM::Crystal>.
+  - _Keywords:_ EPM, Crystal, argument, methods, objects, accessed, Tcl, denoted
+- **<EPM::Crystal> addAtom** <a id="epm-crystal-addatom"></a>
+- **Syntax** <a id="syntax"></a>
+  - <EPM::Crystal> addAtom species=EPM::AtomicSpecies pos=RealVector3D
+  - _Keywords:_ EPM, Crystal, addAtom, species, AtomicSpecies, RealVector3D
+- **Description** <a id="description"></a>
+  - This method adds an atom to the unit cell of the crystal.
+  - _Keywords:_ method, crystal
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>pos</td><td>Position of the new atom. Unit: lattice spacing $a_0$ .</td></tr><tr><td>species</td><td>The type of atom to be added to the unit cell.</td></tr></table>
+  - _Keywords:_ Argument, Description, Position, Unit, lattice, spacing, species
+- **Examples** <a id="examples"></a>
+  - ```shell source [sBandGet dbPath]/Si param.tcl ;# load Si parameters Crystal name=myCrystal ;# create an empty crystal myCrystal set a0=5.43 ;# lattice spacing is 5.43 A myCrystal addAtom species=Si pos=[list 0.125 0.125 0.125] ;# insert...
+  - _Keywords:_ myCrystal, crystal, addAtom, species, insert, source, sBandGet, dbPath
+- **Result:** <a id="result"></a>
+  - ```ini myCrystal is an EPM::Crystal object. lattice constant = 5.43 [AAngstroems] cell spanning vectors: not yet defined. atoms in the unit cell: species: "Si" {0.125 0.125 0.125} {-0.125 -0.125 -0.125} ```
+  - _Keywords:_ myCrystal, EPM, Crystal, object, lattice, constant, AAngstroems, spanning
+- **<EPM::Crystal> apply** <a id="epm-crystal-apply"></a>
+- **Syntax** <a id="syntax"></a>
+  - <EPM::Crystal> apply method arg...
+  - _Keywords:_ EPM, Crystal, method
+- **Description** <a id="description"></a>
+  - This method uses the elasticity of the material described by the EPM::Crystal object to apply certain strain conditions. The first argument to <EPM::Crystal> apply must be the name of a method of elasticity that returns a strain tensor, ...
+  - _Keywords:_ EPM, Crystal, method, elasticity, strain, material, described, object
+- **Examples** <a id="examples"></a>
+  - Apply 1 GPa of tensile stress along to a silicon crystal.d = ( ) 1 1 0 , , ⁄ 2
+  - _Keywords:_ stress, Apply, GPa, tensile, silicon, crystal, SiliconCrystal, uniaxialStrain
+- **Special Case** <a id="special-case"></a>
+  - <EPM::Crystal> apply biaxial dir=vector3D|String substrate=EPM::Crystal|AnalyticBandSolver
+  - _Keywords:_ EPM, Crystal, substrate, biaxial, vector3D, String, AnalyticBandSolver, computes
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+  - Using EPM::Crystal Objects
+  - _Keywords:_ EPM, Crystal, Objects
+- **Example:** <a id="example"></a>
+  - ```txt SiliconCrystal name=silicon; SiGeCrystal name=SiGe30 xGe=0.3 silicon apply biaxialStrain substrate=SiGe30 dir=[list 0 0 1] puts [silicon get strain] ```
+  - _Keywords:_ silicon, SiGe30, substrate, strain, SiliconCrystal, SiGeCrystal, biaxialStrain, Computes
+- **<EPM::Crystal> computeBandstructure** <a id="epm-crystal-computebandstructure"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```ini <EPM::Crystal> computeBandstructure {kFile=String | kVectors=List/vector3D} [bandstructure=bandstructure_t] [groupVelocity=groupVelocity_t] [inverseMass=inverseMass_t] [nBands=Integer] [symmetry=List/List#3/Integer] [remainingOnly...
+  - _Keywords:_ Integer, EPM, Crystal, computeBandstructure, kFile, String, kVectors, vector3D
+- **Description** <a id="description"></a>
+  - Computes band-structure data.
+  - _Keywords:_ Computes, structure
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>kFile</td><td>Name of a file containing one k-vector per line as a space-separated list of three Doubles. Unit: $2\pi/a_{xyz}$ </td></tr><tr><td>kVectors</td><td>The k-vectors ...
+  - _Keywords:_ bandstructure, results, groupVelocity, inverseMass, storing, argument, omitted, object
+- **Examples** <a id="examples"></a>
+  - ```shell SiliconCrystal name=bulk set Gamma {0 0 0}; set Delta {0.85 0 0} bulk computeBandstructure kVectors=[list $Gamma $Delta] puts "Gamma: [bulk.bandstructure get kVector=$Gamma]" puts "Delta: [bulk.bandstructure get kVector=$Delta]"...
+  - _Keywords:_ Gamma, Delta, bandstructure, kVector, SiliconCrystal, computeBandstructure, kVectors, silicon
+- **Output:** <a id="output"></a>
+  - ```txt writing "energy.dat" writing "velocity.dat" Gamma: -12.4325779396 -0.0434084085113 0.0 0.0 3.34924141875 3.37860208567 3.37860208567 4.28964364273 Delta: -9.3238120997 -6.92864680226 -2.94277507525 -2.94061556233 1.06286616589 1.5...
+  - _Keywords:_ writing, energy, velocity, Gamma, Delta
+- **<EPM::Crystal> computeDOS** <a id="epm-crystal-computedos"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt <EPM::Crystal> compute DOS nk=Integer carrierType=String [DOSfile=String] [band=Integer] [nE=Integer] [maxE=Double] [maxK=Double] [bandstructure=bandstructure_t] [algorithm=String] ```
+  - _Keywords:_ Integer, String, Double, EPM, Crystal, compute, DOS, carrierType
+- **Description** <a id="description"></a>
+  - Computes density-of-states (DOS) data and returns it as a list of energy/DOS(energy) pairs and, optionally, writes it to a file. Band energies are computed automatically unless they are already present in bandstructure. Units: energy [eV...
+  - _Keywords:_ DOS, energy, Computes, density, states, optionally, writes, Band
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>algorithm</td><td>The numeric algorithm used for DOS calculation:•scm: State-counting method (default)•tet: Tetrahedral integration methodThe tetrahedral integration method is ...
+  - _Keywords:_ DOS, calculation, method, energy, bandstructure, counting, intervals, algorithm
+- **Examples** <a id="examples"></a>
+  - SiliconCrystal name=bulk
+  - _Keywords:_ computeDOS, SiliconCrystal, carrierType, DOSfile, computes, density, states, unstrained
+- **<EPM::Crystal> destroy** <a id="epm-crystal-destroy"></a>
+- **Syntax** <a id="syntax"></a>
+  - <EPM::Crystal> destroy
+  - _Keywords:_ EPM, Crystal, destroy
+- **Description** <a id="description"></a>
+  - This method destroys the EPM::Crystal object. It has no arguments.
+  - _Keywords:_ method, destroys, EPM, Crystal, object, arguments
+- **<EPM::Crystal> get** <a id="epm-crystal-get"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt <EPM::Crystal> get a0 | zeta | strain | elasticity | cellVolume | primitiveBasis ```
+  - _Keywords:_ EPM, Crystal, strain, elasticity, cellVolume, primitiveBasis
+- **Description** <a id="description"></a>
+  - This method provides read access to crystal parameters.
+  - _Keywords:_ method, provides, access, crystal
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>a0</td><td>Lattice constant $a_0$ in Å.</td></tr><tr><td>cellVolume</td><td>The volume of the unit cell in Å $^3$ .</td></tr><tr><td>elasticity</td><td>Name of the object descr...
+  - _Keywords:_ strain, elasticity, Argument, Description, Lattice, constant, cellVolume, volume
+- **Examples** <a id="examples"></a>
+  - GermaniumCrystal name=bulkGe bulkGe get a0
+  - _Keywords:_ bulkGe, GermaniumCrystal, lattice, spacing, germanium
+- **<EPM::Crystal> scaleKvector** <a id="epm-crystal-scalekvector"></a>
+- **Syntax** <a id="syntax"></a>
+  - <EPM::Crystal> scaleKvector K=vector3D
+  - _Keywords:_ EPM, Crystal, scaleKvector, vector3D
+- **Description** <a id="description"></a>
+  - This method returns K converted to units of $1 / r _ { \mathrm { B o h r } }$
+  - _Keywords:_ method, converted, mathrm
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>K</td><td>A k-vector in $2\pi/a_{x/y/z}$ .</td></tr></table>
+  - _Keywords:_ Argument, Description, vector
+- **<EPM::Crystal> set** <a id="epm-crystal-set"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```typescript <EPM::Crystal> set a0=Double | primitiveBasis=List#3/RealVector3D | elasticity=Elasticity | cellVolume=Double | strain=RealMatrix3D | zeta=Double ```
+  - _Keywords:_ Double, typescript, EPM, Crystal, primitiveBasis, RealVector3D, elasticity, Elasticity
+- **Description** <a id="description"></a>
+  - This method provides write access to crystal parameters in the format parameter=new value.
+  - _Keywords:_ method, provides, access, crystal, format, You, specify, exactly
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>a0</td><td>Lattice constant $a_0$ in Å.</td></tr><tr><td>cellVolume</td><td>The volume of the unit cell in Å $^3$ .</td></tr><tr><td>elasticity</td><td>Name of an object descri...
+  - _Keywords:_ strain, constant, elasticity, Argument, Description, Lattice, cellVolume, volume
+- **Examples** <a id="examples"></a>
+  - This example completes the manual construction of a silicon crystal started in the example for <EPM::Crystal> addAtom on page 254:
+  - _Keywords:_ myCrystal, completes, manual, construction, silicon, crystal, started, EPM
+- **Result:** <a id="result"></a>
+  - ```txt myCrystal is an EPM::Crystal object. lattice constant = 5.43 [AAngstroems] internal strain parameter: 0.53 unit cell spanned by (unit: lattice constant): {0 0.5 0.5} {0.5 0 0.5} {0.5 0.5 0} ```
+  - _Keywords:_ lattice, constant, myCrystal, EPM, Crystal, object, AAngstroems, internal
+- **<EPM::Crystal> status** <a id="epm-crystal-status"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```cpp <EPM::Crystal> status ```
+  - _Keywords:_ EPM, Crystal, status
+- **Description** <a id="description"></a>
+  - Return status information on the EPM::Crystal objects. It has no arguments.
+  - _Keywords:_ status, information, EPM, Crystal, objects, arguments
+- **Examples** <a id="examples"></a>
+  - ```txt SiliconCrystal name=bulk bulk status ```
+  - _Keywords:_ lattice, constant, SiliconCrystal, status, Result, EPM, Crystal, object
+- **<EPM::Crystal> unscaleKvector** <a id="epm-crystal-unscalekvector"></a>
+- **Syntax** <a id="syntax"></a>
+  - <EPM::Crystal> unscaleKvector K=vector3D
+  - _Keywords:_ EPM, Crystal, unscaleKvector, vector3D
+- **Description** <a id="description"></a>
+  - This method returns K converted to units of $2 \pi / a _ { x / y / z }$
+  - _Keywords:_ method, converted
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>K</td><td>A k-vector in $1/r_{\text{Bohr}}$ .</td></tr></table>
+  - _Keywords:_ Argument, Description, vector, Bohr
+- **Creating EPM::AtomicSpecies Objects** <a id="creating-epm-atomicspecies-objects"></a>
+- **AtomicSpecies** <a id="atomicspecies"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt AtomicSpecies name=String { nValence=Integer latticeConstant=Double muLS=Double zetaLS=Double nLS=Integer A0=Double B0=Double R0=Double A2=Double R2=Double [Qcutoff=Double | Q2cutoff=Double] Vloc=Array | { [Vloc=Array] a1=Double a...
+  - _Keywords:_ Double, AtomicSpecies, Vloc, Array, String, Integer, EPM, nValence
+- **Description** <a id="description"></a>
+  - This command creates a new EPM::AtomicSpecies object. The command has two variants for building:
+  - _Keywords:_ atomic, species, creates, EPM, AtomicSpecies, object, variants, building
+- **Arguments for Building a ‘Normal’ Atomic Species** <a id="arguments-for-building-a-normal-atomic-species"></a>
+  - This variant of the command builds an EPM::AtomicSpecies object of dynamic type EPM::RealAtomicSpecies.
+  - _Keywords:_ mathbf, EPM, Energy, prefactor, nonlocal, pseudopotential, object, RealAtomicSpecies
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+  - Creating EPM::AtomicSpecies Objects
+  - _Keywords:_ pseudopotential, EPM, Friedel, Bohr, procedure, mathbf, VlocProc, Tcl
+- **Arguments for Building a ‘Virtual’ Atomic Species** <a id="arguments-for-building-a-virtual-atomic-species"></a>
+  - This variant of the command builds an EPM::AtomicSpecies object of dynamic type EPM::VirtualAtomicSpecies. Such an object represents a statistical mixture of two atomic species in the spirit of the virtual crystal approximation (VCA), th...
+  - _Keywords:_ species, virtual, EPM, object, VirtualAtomicSpecies, atomic, constituent, species2
+- **Examples** <a id="examples"></a>
+  - requireAtomicSpecies Si
+  - _Keywords:_ requireAtomicSpecies, mathrm, AtomicSpecies, SiGe, species1, species2, moleFraction, Builds
+- **Arguments for Combining the Pseudopotentials of Two Species** <a id="arguments-for-combining-the-pseudopotentials-of-two-species"></a>
+  - This variant of the command builds an EPM::AtomicSpecies object of dynamic type EPM::VirtualAtomicSpecies. Such an object represents a statistical mixture of two atomic species in the spirit of the VCA, that is, the atomic form factors o...
+  - _Keywords:_ species, EPM, object, VirtualAtomicSpecies, atomic, factors, species1, constituent
+- **Examples** <a id="examples"></a>
+  - ```txt AtomicSpecies name=Loc VlocProc=myVlocProc Q2cutoff=1000
+  - _Keywords:_ pseudopotential, procedure, rBohr, factor, myVlocProc, Vloc, factors, global
+- **Autoloading Atomic Species** <a id="autoloading-atomic-species"></a>
+- **requireAtomicSpecies** <a id="requireatomicspecies"></a>
+- **Syntax** <a id="syntax"></a>
+  - requireAtomicSpecies name
+  - _Keywords:_ requireAtomicSpecies
+- **Description** <a id="description"></a>
+  - The command requireAtomicSpecies provides an automatic loading mechanism for default atomic species from parameter files. If an EPM::AtomicSpecies object called name is not yet present, Sentaurus Band Structure searches its database dire...
+  - _Keywords:_ species, Sentaurus, Band, Structure, atomic, called, requireAtomicSpecies, provides
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Positional argument of type String.</td></tr></table>
+  - _Keywords:_ Argument, Description, Positional, argument, String
+- **Examples** <a id="examples"></a>
+  - requireAtomicSpecies Si
+  - _Keywords:_ requireAtomicSpecies, Sentaurus, Band, Structuredatabase, _param
+- **Using EPM::AtomicSpecies Objects** <a id="using-epm-atomicspecies-objects"></a>
+  - An EPM::AtomicSpecies object is accessed by using its name <EPM::AtomicSpecies> as a Tcl command name.
+  - _Keywords:_ object, EPM, AtomicSpecies, Tcl, accessed, without, arguments, causes
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+  - Using EPM::AtomicSpecies Objects
+  - _Keywords:_ EPM, AtomicSpecies, methods, Objects, available, destroy, dynamicType, rename
+- **<EPM::AtomicSpecies> destroy** <a id="epm-atomicspecies-destroy"></a>
+- **Syntax** <a id="syntax"></a>
+  - <EPM::AtomicSpecies> destroy
+  - _Keywords:_ EPM, AtomicSpecies, destroy
+- **Description** <a id="description"></a>
+  - This method destroys the EPM::AtomicSpecies object. It has no arguments.
+  - _Keywords:_ method, destroys, EPM, AtomicSpecies, object, arguments
+- **<EPM::AtomicSpecies> dynamicType** <a id="epm-atomicspecies-dynamictype"></a>
+- **Syntax** <a id="syntax"></a>
+  - <EPM::AtomicSpecies> dynamicType
+  - _Keywords:_ EPM, AtomicSpecies, dynamicType
+- **Description** <a id="description"></a>
+  - This method returns the dynamic type of the associated EPM::AtomicSpecies object, that is, one of the subclasses:
+  - _Keywords:_ EPM, RealAtomicSpecies, method, dynamic, associated, AtomicSpecies, object, subclasses
+- **Examples** <a id="examples"></a>
+  - ```tcl source [sBandGet dbPath]/Si_param.tcl puts "Si has dynamic type: [Si dynamicType]" source [sBandGet dbPath]/Ge_param.tcl AtomicSpecies name=SiGe species1=Si species2=Ge moleFraction=0.3 puts "SiGe has dynamic type: [SiGe dynamicTy...
+  - _Keywords:_ dynamic, SiGe, source, sBandGet, dbPath, dynamicType, EPM, Si_param
+- **<EPM::AtomicSpecies> get** <a id="epm-atomicspecies-get"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```typescript <EPM::AtomicSpecies> get nValence | latticeConstant | Vloc | VlocProc | muLS | zetaLS | nLS | A0 | B0 | R0 | A2 | R2 | a1 | a2 | a3 | a4 | a5 | a6 | moleFraction | Qcutoff | Q2cutoff ```
+  - _Keywords:_ typescript, EPM, AtomicSpecies, nValence, latticeConstant, Vloc, VlocProc, muLS
+- **Description** <a id="description"></a>
+  - This method returns the value of one of the settable parameters of AtomicSpecies objects (all the parameters of the AtomicSpecies command with the exception of name and species1 and species2 of an EPM::VirtualAtomicSpecies).
+  - _Keywords:_ Tcl, AtomicSpecies, EPM, arrays, Vloc, method, settable, objects
+- **<EPM::AtomicSpecies> rename** <a id="epm-atomicspecies-rename"></a>
+- **Syntax** <a id="syntax"></a>
+  - <EPM::AtomicSpecies> rename newName=String
+  - _Keywords:_ EPM, AtomicSpecies, rename, newName, String
+- **Description** <a id="description"></a>
+  - This method changes the Tcl command name that is the handle associated with the AtomicSpecies object and the name field of the AtomicSpecies object to newName.
+  - _Keywords:_ AtomicSpecies, object, method, changes, Tcl, handle, associated, newName
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>newName</td><td>This string becomes the new Tcl command name and handle string.</td></tr></table>
+  - _Keywords:_ string, Argument, Description, newName, becomes, Tcl, handle
+- **<EPM::AtomicSpecies> set** <a id="epm-atomicspecies-set"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt <EPM::AtomicSpecies> set [nValence=Integer] [latticeConstant=Double] [[Vloc=Array] [VlocProc=String] [muLS=Double] [zetaLS=Double] [nLS=Integer] [A0=Double] [B0=Double] [R0=Double] [A2=Double] [R2=Double] [a1=Double] [a2=Double] [...
+  - _Keywords:_ Double, Integer, EPM, AtomicSpecies, nValence, latticeConstant, Vloc, Array
+- **Description** <a id="description"></a>
+  - This method allows you to modify one or several parameters of the associated EPM::AtomicSpecies object. At this time, accessible parameters are all of the parameters listed in AtomicSpecies except for name and the constituent species, sp...
+  - _Keywords:_ EPM, AtomicSpecies, associated, object, accessible, method, allows, modify
+- **<EPM::AtomicSpecies> status** <a id="epm-atomicspecies-status"></a>
+- **Syntax** <a id="syntax"></a>
+  - <EPM::AtomicSpecies> status
+  - _Keywords:_ EPM, AtomicSpecies, status
+- **Description** <a id="description"></a>
+  - This command outputs status information about the associated EPM::AtomicSpecies object. It has no arguments.
+  - _Keywords:_ status, information, associated, EPM, AtomicSpecies, object, arguments
+- **Examples** <a id="examples"></a>
+  - requireAtomicSpecies Ge ;# load germanium parameters Ge status
+  - _Keywords:_ Vloc, AAngstroem, Qcutoff, requireAtomicSpecies, germanium, status, result, species
+- **Determining Symmetries of Band Structure From the Strain Tensor** <a id="determining-symmetries-of-band-structure-from-the-strain-ten"></a>
+- **determineSymmetry** <a id="determinesymmetry"></a>
+- **Syntax** <a id="syntax"></a>
+  - determineSymmetry crystalClass=String strain=Matrix3D
+  - _Keywords:_ determineSymmetry, crystalClass, String, strain, Matrix3D
+- **Description** <a id="description"></a>
+  - This command returns a list of symmetries for use by <EPM::Crystal> computeBandstructure on page 256. These symmetries are generators of the symmetry group that results from deforming a crystal of class crystalClass by applying strain. E...
+  - _Keywords:_ symmetry, mathrm, symmetries, EPM, Crystal, computeBandstructure, These, generators
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>crystalClass</td><td>The name of the symmetry class of the crystal.Supported values:&quot;cubic&quot;: The relaxed crystal has cubic symmetry.&quot;generic&quot;: Use if the cr...
+  - _Keywords:_ symmetry, crystal, strain, Argument, Description, crystalClass, Supported, relaxed
+- **Examples** <a id="examples"></a>
+  - See Creating Band Data for Sentaurus Device Monte Carlo on page 128.
+  - _Keywords:_ Creating, Band, Data, Sentaurus, Device, Monte, Carlo
+- **Input Files for Single-Particle Device Monte Carlo** <a id="input-files-for-single-particle-device-monte-carlo"></a>
+- **createMonteCarloFiles** <a id="createmontecarlofiles"></a>
+- **Syntax** <a id="syntax"></a>
+  - createMonteCarloFiles crystal=EPM::Crystal|AnalyticBandSolver
+  - _Keywords:_ String, createMonteCarloFiles, crystal, EPM, Crystal, AnalyticBandSolver, crystalClass, directory
+- **Description** <a id="description"></a>
+  - This command determines the symmetry of the strained crystal (assuming cubic symmetry unless specified otherwise), performs band-structure calculation including symmetry effects, writes band-structure data files for Sentaurus Device Mont...
+  - _Keywords:_ Sentaurus, Device, symmetry, directory, strained, specified, structure, Monte
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>crystal</td><td>Calculates band-structure data using this band-structure calculator object. crystal can be either an EPM::Crystal object or an AnalyticBandSolver.</td></tr><tr>...
+  - _Keywords:_ crystal, directory, structure, object, Argument, Description, Calculates, calculator
+- **Examples** <a id="examples"></a>
+  - See Creating Band Data for Sentaurus Device Monte Carlo on page 128.
+  - _Keywords:_ Creating, Band, Data, Sentaurus, Device, Monte, Carlo
+- **Finding Conduction Band Valley Positions** <a id="finding-conduction-band-valley-positions"></a>
+- **findBandMinimum** <a id="findbandminimum"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```ini findBandMinimum crystal=EPM::Crystal kStart=RealVector3D [band=Integer] [dK_max=Double] [v_max=Double] [damping=Double] [bandstructure=String] [groupVelocity=String] [inverseMass=String] ```
+  - _Keywords:_ Double, String, findBandMinimum, crystal, EPM, Crystal, kStart, RealVector3D
+- **Description** <a id="description"></a>
+  - This command uses a 3D Newton search to find the minimum of band band of crystal crystal. The search starts at -vector kStart. k
+  - _Keywords:_ search, crystal, vector, Newton, minimum, starts, kStart, either
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>band</td><td>Finds a minimum of the band with index band. Default: 4</td></tr><tr><td>bandstructure, groupVelocity, inverseMass</td><td>These parameters can be supplied to spec...
+  - _Keywords:_ objects, findBandMinimum, structure, vector, minimum, container, velocity, Newton
+- **Examples** <a id="examples"></a>
+  - ```txt SiliconCrystal name=bulkSi findBandMinimum crystal=bulkSi kStart=[list 1 0 0] ```
+  - _Keywords:_ bulkSi, SiliconCrystal, findBandMinimum, crystal, kStart, Result
+- **findBandMinima** <a id="findbandminima"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```ini findBandMinima crystal=EPM::Crystal kStart=List/RealVector3D [band=Integer] [dK_max=Double] [v_max=Double] [damping=Double] [bandstructure=String] [groupVelocity=String] [inverseMass=String] [variables=List/String] ```
+  - _Keywords:_ String, Double, findBandMinima, crystal, EPM, Crystal, kStart, RealVector3D
+- **Description** <a id="description"></a>
+  - This command uses 3D Newton searches to find minima of band band of crystal crystal near each of the -vectors contained in the list kStart. All the searches are performed ink parallel.
+  - _Keywords:_ findBandMinima, minima, vectors, kStart, crystal, vector, Convergence, structure
+- **Examples** <a id="examples"></a>
+  - ```tcl SiliconCrystal name=silicon silicon apply uniaxialStrain dir=[list 1 1 0] stress=3.0e9 findBandMinima crystal=silicon kStart=[list {0.85 0 0} {0 0 0.85} \ variables=[list DeltaX DeltaZ] puts "DeltaX: \{$DeltaX \}" puts "DeltaZ: \{...
+  - _Keywords:_ DeltaX, DeltaZ, silicon, variables, minima, SiliconCrystal, uniaxialStrain, stress
+- **Output:** <a id="output"></a>
+  - ```txt 0: K = 0.851077 -0.008973 -0.000000; |dK|=9.037e-03; |v| = 2.777e-02 1: K = -0.000000 -0.000000 0.865961; |dK|=1.596e-02; |v| = 8.967e-03 0: K = 0.851145 -0.008965 0.000000; |dK|=6.910e-05; |v| = 5.026e-05 1: K = -0.000000 0.00000...
+  - _Keywords:_ DeltaX, DeltaZ
+- **Computing Analytic Band Structures** <a id="computing-analytic-band-structures"></a>
+- **AnalyticBandSolverFromSpecies** <a id="analyticbandsolverfromspecies"></a>
+- **Syntax** <a id="syntax"></a>
+  - AnalyticBandSolverFromSpecies name=String species=EPM::AtomicSpecies
+  - _Keywords:_ AnalyticBandSolverFromSpecies, String, species, EPM, AtomicSpecies
+- **Description** <a id="description"></a>
+  - The parameter files of the atomic species distributed with Sentaurus Band Structure contain EPM parameters, elasticity data, and templates for AnalyticBandSolver objects that approximate the EPM band structures.
+  - _Keywords:_ atomic, species, EPM, AnalyticBandSolver, distributed, Sentaurus, Band, Structure
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of the new AnalyticBandSolver object.</td></tr><tr><td>species</td><td>Use parameters from parameter file for species species.</td></tr></table>
+  - _Keywords:_ species, Argument, Description, AnalyticBandSolver, object, Use
+- **Examples** <a id="examples"></a>
+  - AnalyticBandSolverFromSpecies name=analytic species=Si
+  - _Keywords:_ AnalyticBandSolverFromSpecies, analytic, species, Builds, AnalyticBandSolver, object, suitable, silicon
+- **AnalyticBandSolver** <a id="analyticbandsolver"></a>
+- **Syntax** <a id="syntax"></a>
+  - AnalyticBandSolver name=String
+  - _Keywords:_ AnalyticBandSolver, String
+- **Description** <a id="description"></a>
+  - This command creates a new AnalyticBandSolver object. The name argument becomes the command name of a new Tcl command for accessing the AnalyticBandSolver object (see Accessing AnalyticBandSolver Objects).
+  - _Keywords:_ AnalyticBandSolver, object, creates, argument, becomes, Tcl, accessing, Accessing
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of AnalyticBandSolver object created by this call.</td></tr></table>
+  - _Keywords:_ Argument, Description, AnalyticBandSolver, object, created
+- **Accessing AnalyticBandSolver Objects** <a id="accessing-analyticbandsolver-objects"></a>
+  - AnalyticBandSolver objects are accessed by using their name as a Tcl command. This is denoted as <AnalyticBandSolver>.
+  - _Keywords:_ AnalyticBandSolver, argument, methods, objects, accessed, Tcl, denoted, message
+- **<AnalyticBandSolver> apply** <a id="analyticbandsolver-apply"></a>
+- **Syntax** <a id="syntax"></a>
+  - <AnalyticBandSolver> apply method arg...
+  - _Keywords:_ AnalyticBandSolver, method
+- **Description** <a id="description"></a>
+  - This method uses the elasticity of the material described by the AnalyticBandSolver object to apply certain strain conditions. The first argument to <AnalyticBandSolver> apply must be the name of a method of elasticity that returns a str...
+  - _Keywords:_ AnalyticBandSolver, method, elasticity, strain, material, described, object, certain
+- **Examples** <a id="examples"></a>
+  - Apply 1 GPa of tensile stress along $\mathbf { d } = ( 1 , 1 , 0 ) / \sqrt { 2 }$ to an AnalyticBandSolver object for silicon:
+  - _Keywords:_ stress, Apply, GPa, tensile, mathbf, AnalyticBandSolver, object, silicon
+- **<AnalyticBandSolver> computeBandstructure** <a id="analyticbandsolver-computebandstructure"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```toml <AnalyticBandSolver> computeBandstructure {kFile=String | kVectors=List/Vector3D} [bandstructure=bandstructure_t] [groupVelocity=groupVelocity_t] [remainingOnly] [symmetry=List/List#3/Integer] ```
+  - _Keywords:_ AnalyticBandSolver, computeBandstructure, kFile, String, kVectors, Vector3D, bandstructure, bandstructure_t
+- **Description** <a id="description"></a>
+  - This command computes band-structure data.
+  - _Keywords:_ computes, structure
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>kFile</td><td>Name of a file that contains one k-vector per line as space-separated list of three Doubles. Unit: $2\pi/a_{x/y/z}$ .</td></tr><tr><td>kVectors</td><td>The k-vect...
+  - _Keywords:_ bandstructure, groupVelocity, Unit, vectors, structure, storing, argument, omitted
+- **<AnalyticBandSolver> computeDOS** <a id="analyticbandsolver-computedos"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```ini <AnalyticBandSolver> computeDOS nk=Integer carrierType=String [DOSfile=String] [band=Integer] [nE=Integer] [maxE=Double] [maxK=Double] [bandstructure=bandstructure_t] [algorithm=String] ```
+  - _Keywords:_ Integer, String, Double, AnalyticBandSolver, computeDOS, carrierType, DOSfile, maxE
+- **Description** <a id="description"></a>
+  - Computes density-of-states (DOS) data and returns it as a list of energy/DOS(energy) pairs and, optionally, writes it to a file. Band energies are computed automatically unless they are already present in bandstructure. Units: energy [eV...
+  - _Keywords:_ DOS, energy, Computes, density, states, optionally, writes, Band
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>algorithm</td><td>The numeric algorithm used for DOS calculation:•scm: State-counting method (default)•tet: Tetrahedral integration methodThe tetrahedral integration method is ...
+  - _Keywords:_ DOS, calculation, method, energy, bandstructure, counting, intervals, algorithm
+- **Examples** <a id="examples"></a>
+  - AnalyticBandSolverFromSpecies name=kpSi species=Si kpSi computeDOS nk=100 carrierType=h DOSfile=dos\_e.dat maxK=0.2
+  - _Keywords:_ kpSi, AnalyticBandSolverFromSpecies, species, computeDOS, carrierType, DOSfile, maxK, computes
+- **<AnalyticBandSolver> copy** <a id="analyticbandsolver-copy"></a>
+- **Syntax** <a id="syntax"></a>
+  - <AnalyticBandSolver> copy newName=String
+  - _Keywords:_ AnalyticBandSolver, newName, String
+- **Description** <a id="description"></a>
+  - This method duplicates an AnalyticBandSolver object.
+  - _Keywords:_ method, duplicates, AnalyticBandSolver, object
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>newName</td><td>Name of the copy of the AnalyticBandSolver object.</td></tr></table>
+  - _Keywords:_ Argument, Description, newName, AnalyticBandSolver, object
+- **<AnalyticBandSolver> destroy** <a id="analyticbandsolver-destroy"></a>
+- **Syntax** <a id="syntax"></a>
+  - <AnalyticBandSolver> destroy
+  - _Keywords:_ AnalyticBandSolver, destroy
+- **Description** <a id="description"></a>
+  - This method destroys the AnalyticBandSolver object. It has no arguments.
+  - _Keywords:_ method, destroys, AnalyticBandSolver, object, arguments
+- **<AnalyticBandSolver> get** <a id="analyticbandsolver-get"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt <AnalyticBandSolver> get valenceBands | conductionBands | a0 | strain | gamma1 | gamma2 | gamma3 | Delta | a_v | b | d | method | M | K0 | ml | mt | el_alpha | kp_alpha | Xi_u | Xi_d | Xi_s | dbs ```
+  - _Keywords:_ AnalyticBandSolver, valenceBands, conductionBands, strain, gamma1, gamma2, gamma3, Delta
+- **Description** <a id="description"></a>
+  - This method returns the value of one of the parameters of the analytic band-structure solver. See <AnalyticBandSolver> set for descriptions of the accessible parameters.
+  - _Keywords:_ method, analytic, structure, solver, AnalyticBandSolver, descriptions, accessible
+- **<AnalyticBandSolver> set** <a id="analyticbandsolver-set"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```ini <AnalyticBandSolver> set [valenceBands=Boolean] [conductionBands=Boolean] [a0=Double] [elasticity=Elasticity] [strain=RealMatrix3D] [gamma1=Double] [gamma2=Double] [gamma3=Double] [Delta=Double] [a_v=Double] [b=Double] [d=Double] ...
+  - _Keywords:_ Double, Boolean, AnalyticBandSolver, valenceBands, conductionBands, elasticity, Elasticity, strain
+- **Description** <a id="description"></a>
+  - This method sets one or more parameters of the analytic band-structure solver.
+  - _Keywords:_ method, analytic, structure, solver
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td colspan="2">General parameters</td></tr><tr><td>strain</td><td>Strain tensor as a 3 × 3 matrix represented by a list of 3D row vectors.</td></tr><tr><td>valenceBands</td><td>Su...
+  - _Keywords:_ Supported, compute, valence, Compute, conduction, Argument, Description, colspan
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+- **Computing Analytic Band Structures** <a id="computing-analytic-band-structures"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td colspan="2">Valence band parameters</td></tr><tr><td>gamma1, gamma2, gamma3</td><td>Luttinger band parameters in atomic units.</td></tr><tr><td>Delta</td><td>Spin-orbit splitti...
+  - _Keywords:_ conduction, second, applies, lowest, colspan, deformation, potentials, Conduction
+- **<AnalyticBandSolver> status** <a id="analyticbandsolver-status"></a>
+- **Syntax** <a id="syntax"></a>
+  - <AnalyticBandSolver> status
+  - _Keywords:_ AnalyticBandSolver, status
+- **Description** <a id="description"></a>
+  - The command returns status information about the AnalyticBandSolver object. It has no arguments.
+  - _Keywords:_ status, information, AnalyticBandSolver, object, arguments
+- **Container Classes for Band-Structure Results** <a id="container-classes-for-band-structure-results"></a>
+- **Constructor: bandstructure\_t** <a id="constructor-bandstructure-t"></a>
+- **Syntax** <a id="syntax"></a>
+  - bandstructure\_t name=String
+  - _Keywords:_ bandstructure, String
+- **Description** <a id="description"></a>
+  - This command creates a new bandstructure\_t object. The name argument becomes the name of a new Tcl command for accessing the bandstructure\_t object.
+  - _Keywords:_ bandstructure, object, creates, argument, becomes, Tcl, accessing
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of bandstructure_t object created by this call.</td></tr></table>
+  - _Keywords:_ Argument, Description, bandstructure_t, object, created
+- **Tcl Access Command <bandstructure\_t>** <a id="tcl-access-command-bandstructure-t"></a>
+  - This procedure is used to access a bandstructure\_t object from Tcl.
+  - _Keywords:_ bandstructure, kVector, energies, object, argument, vector, associated, vector3D
+- **Constructor: groupVelocity\_t** <a id="constructor-groupvelocity-t"></a>
+- **Syntax** <a id="syntax"></a>
+  - groupVelocity\_t name=String
+  - _Keywords:_ groupVelocity, String
+- **Description** <a id="description"></a>
+  - This command creates a new groupVelocity\_t object. The name argument becomes the command name of a new Tcl command for accessing the groupVelocity\_t object.
+  - _Keywords:_ groupVelocity, object, creates, argument, becomes, Tcl, accessing
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of groupVelocity_t object created by this call.</td></tr></table>
+  - _Keywords:_ Argument, Description, groupVelocity_t, object, created
+- **Tcl Access Command <groupVelocity\_t>** <a id="tcl-access-command-groupvelocity-t"></a>
+  - This procedure is used to access a groupVelocity\_t object from Tcl.
+  - _Keywords:_ groupVelocity, object, argument, kVector, associated, velocity, vector, status
+- **Constructor: inverseMass\_t** <a id="constructor-inversemass-t"></a>
+- **Syntax** <a id="syntax"></a>
+  - inverseMass\_t name=String
+  - _Keywords:_ inverseMass, String
+- **Description** <a id="description"></a>
+  - This command creates a new inverseMass\_t object. The name argument becomes the name of a new Tcl command for accessing the inverseMass\_t object.
+  - _Keywords:_ inverseMass, object, creates, argument, becomes, Tcl, accessing
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of inverseMass_t object created by this call.</td></tr></table>
+  - _Keywords:_ Argument, Description, inverseMass_t, object, created
+- **Tcl Access Command <inverseMass\_t>** <a id="tcl-access-command-inversemass-t"></a>
+  - This procedure is used to access an inverseMass\_t object from Tcl.
+  - _Keywords:_ inverseMass, object, argument, kVector, associated, reciprocal, effective, vector
+- **Plotting Band-Structure Data** <a id="plotting-band-structure-data"></a>
+- **bandstructurePlot** <a id="bandstructureplot"></a>
+- **Syntax** <a id="syntax"></a>
+  - bandstructurePlot bands=bandstructure\_t [graph=String] [title=String]
+  - _Keywords:_ String, bandstructurePlot, bandstructure, xlabel, kVectors, vector3D
+- **Description** <a id="description"></a>
+  - This command uses the BLT and Tk Tcl packages to create xy band-structure plots.
+  - _Keywords:_ BLT, Tcl, packages, create, structure
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>bands</td><td>Takes band-structure data from this container object.</td></tr><tr><td>graph</td><td>Name of the target blt::graph widget for the plot. Default: .g</td></tr><tr><...
+  - _Keywords:_ kVectors, xlabel, vector, Argument, Description, Takes, structure, container
+- **Examples** <a id="examples"></a>
+  - For usage examples, see Visualization on page 130 and Complex Band Structures on page 132.
+  - _Keywords:_ Visualization, Complex, Band, Structures
+- **attachZoomStack** <a id="attachzoomstack"></a>
+  - This command adds interactive zooming capabilities to a blt::graph object.
+  - _Keywords:_ interactive, zooming, capabilities, object, Tcl, syntax, positional, arguments
+- **Describing Elastic Properties of Materials** <a id="describing-elastic-properties-of-materials"></a>
+- **Elasticity** <a id="elasticity"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt Elasticity name=String { type=String { s11=Double s12=Double s44=Double } | { c11=Double c12=Double c44=Double } | { e1=Elasticity e2=Elasticity x2=Double } ```
+  - _Keywords:_ Double, Elasticity, String
+- **Description** <a id="description"></a>
+  - Sentaurus Band Structure uses Elasticity objects to describe the elastic properties of materials. The information stored in an Elasticity object consists of a symmetry class and a sequence of elasticities $s _ { i j }$ (in %/GPa) that un...
+  - _Keywords:_ Elasticity, objects, symmetry, Sentaurus, Band, Structure, describe, elastic
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of Elasticity object created by this call.</td></tr><tr><td>type</td><td>Symmetry class of the crystal. Supported values: Cubic.</td></tr><tr><td>s11, s12, s4...
+  - _Keywords:_ Elasticity, object, Components, tensor, GPa, Mbar, status, biaxialStrain
+- **<Elasticity> biaxialStrain** <a id="elasticity-biaxialstrain"></a>
+- **Syntax** <a id="syntax"></a>
+  - biaxialStrain dir=vector3D|String inPlaneStrain=Double
+  - _Keywords:_ biaxialStrain, vector3D, String, inPlaneStrain, Double
+- **Description** <a id="description"></a>
+  - This method returns the biaxial strain tensor for a pseudomorphic material layer epitaxially grown on an infinitely thick substrate.
+  - _Keywords:_ method, biaxial, strain, tensor, pseudomorphic, material, epitaxially, infinitely
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>dir</td><td>The normal direction of the interface between substrate and material as vector3D.For backward compatibility, the fixed strings 100 and 111 are recognized as synonym...
+  - _Keywords:_ normal, between, substrate, material, Argument, Description, direction, interface
+- **Examples** <a id="examples"></a>
+  - Elasticity name=E type=Cubic c11=1.675 c12=0.65 c44=0.8 E biaxialStrain dir=100 inPlaneStrain=0.01
+  - _Keywords:_ Elasticity, Cubic, biaxialStrain, inPlaneStrain, Result
+- **<Elasticity> biaxialStrainRatio** <a id="elasticity-biaxialstrainratio"></a>
+- **Syntax** <a id="syntax"></a>
+  - computeStrainRatio dir=String
+  - _Keywords:_ computeStrainRatio, String
+- **Description** <a id="description"></a>
+  - This command returns the ratio between out-of-plane and in-plane strain for a pseudomorphic material layer epitaxially grown on an infinitely thick substrate.
+  - _Keywords:_ between, strain, pseudomorphic, material, epitaxially, infinitely, substrate
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>dir</td><td>Direction of the interface between substrate and material. Supported values are 100 and 111.</td></tr></table>
+  - _Keywords:_ Argument, Description, Direction, interface, between, substrate, material, Supported
+- **Examples** <a id="examples"></a>
+  - Elasticity name=E type=Cubic s11=0.762 s12=-0.213 s44=1.25
+  - _Keywords:_ strain, Elasticity, Cubic, biaxialStrainRatio, result, tensile, compressive, normal
+- **<Elasticity> strainFromStress** <a id="elasticity-strainfromstress"></a>
+- **Syntax** <a id="syntax"></a>
+  - computeStrainFromStress stress=RealMatrix3D
+  - _Keywords:_ computeStrainFromStress, stress, RealMatrix3D
+- **Description** <a id="description"></a>
+  - This command returns the strain tensor that corresponds to the stress tensor stress.
+  - _Keywords:_ tensor, stress, strain, coordinate, Sentaurus, corresponds, Both, resulting
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>stress</td><td>Stress tensor represented as a list of 3D row vectors (unit: Pa).</td></tr></table>
+  - _Keywords:_ Argument, Description, stress, Stress, tensor, represented, vectors
+- **Examples** <a id="examples"></a>
+  - Elasticity name=E type=Cubic c11=1.675 c12=0.650 c44=0.8 set stress {{1.0e9 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}} E strainFromStress stress=\$stress
+  - _Keywords:_ stress, Elasticity, Cubic, strainFromStress
+- **Result:** <a id="result"></a>
+  - $\{0.00762451321992 0.0 0.0\}$ $\{0.0 - 0.00213158434106 0.0\}$ $\{0.0 0.0 - 0.00213158434106\}$
+- **<Elasticity> uniaxialStrain** <a id="elasticity-uniaxialstrain"></a>
+- **Syntax** <a id="syntax"></a>
+  - uniaxialStrain dir=RealVector3D stress=Double
+  - _Keywords:_ uniaxialStrain, RealVector3D, stress, Double
+- **Description** <a id="description"></a>
+  - This command returns the strain tensor resulting from uniaxial stress along direction dir.
+  - _Keywords:_ strain, tensor, resulting, uniaxial, stress, direction
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>dir</td><td>Direction of uniaxial stress as a three-component vector. This vector does not need to be normalized.</td></tr><tr><td>stress</td><td>The stress in direction dir in...
+  - _Keywords:_ stress, vector, Argument, Description, Direction, uniaxial, component, normalized
+- **Examples** <a id="examples"></a>
+  - SiliconCrystal name=Silicon
+  - _Keywords:_ Silicon, SiliconCrystal, elasticity, uniaxialStrain, stress
+- **Result:** <a id="result"></a>
+  - {0.00112044817927 0.00208333333333 0.00208333333333}
+- **3D Vector/Matrix Auxiliary Commands** <a id="3d-vector-matrix-auxiliary-commands"></a>
+- **crossProduct** <a id="crossproduct"></a>
+  - This command returns the cross product .u v ×
+  - _Keywords:_ vector3D, product, Tcl, syntax, positional, arguments, crossProduct
+- **Examples** <a id="examples"></a>
+  - crossProduct {1 0 0} {0 1 0}
+  - _Keywords:_ crossProduct
+- **invertMatrix** <a id="invertmatrix"></a>
+  - This command returns the inverse $\mathbf { M } ^ { - 1 }$ of a matrix M.3 3 ×
+  - _Keywords:_ inverse, mathbf, matrix, Tcl, syntax, positional, arguments, invertMatrix
+- **Examples** <a id="examples"></a>
+  - invertMatrix {{0.5 -0.5 0.0} {0.5 0.5 0.0} {0.0 0.0 2.0}}
+  - _Keywords:_ invertMatrix, Result
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+- **3D Vector/Matrix Auxiliary Commands** <a id="3d-vector-matrix-auxiliary-commands"></a>
+  - ```txt invertMatrix {{1 0 0} {0 1 0} {0 0 0}} ```
+  - _Keywords:_ invertMatrix
+- **Result:** <a id="result"></a>
+  - ```txt Caught an exception of type std::domain error. Description: Cannot invert a singular matrix! ```
+  - _Keywords:_ Caught, exception, domain, Description, Cannot, invert, singular, matrix
+- **Result:** <a id="result"></a>
+  - $\{0(-0,1)0\} \{(0,-1)00\} \{001\}$
+  - _Keywords:_ complex, matrix, inverse
+- **matrixProduct** <a id="matrixproduct"></a>
+  - This command returns the matrix product AB.
+  - _Keywords:_ matrix3D, matrix, product, Tcl, syntax, positional, arguments, matrixProduct
+- **Examples** <a id="examples"></a>
+  - ```txt matrixProduct {{0 1 0} {1 0 0} {0 0 2}} {{0 1 0} {1 0 0} {0 0 0.5}} ```
+  - _Keywords:_ matrixProduct
+- **Result:** <a id="result"></a>
+  - $\{1.0\ 0.0\ 0.0\}\ \{0.0\ 1.0\ 0.0\}\ \{0.0\ 0.0\ 1.0\}$
+- **matrixVectorProduct** <a id="matrixvectorproduct"></a>
+  - This command returns the vector .y := Mx
+  - _Keywords:_ vector, Tcl, syntax, positional, arguments, matrixVectorProduct, matrix3D, vector3D
+- **Examples** <a id="examples"></a>
+  - ```txt matrixVectorProduct {{0.5 0.5 0} {{0.5 -0.5 0} {0 0 2}} {1 0 1} ```
+  - _Keywords:_ matrixVectorProduct, Result
+- **scalarProduct** <a id="scalarproduct"></a>
+  - This command returns the scalar product .u v⋅
+  - _Keywords:_ vector3D, scalar, product, Tcl, syntax, positional, arguments, scalarProduct
+- **Examples** <a id="examples"></a>
+  - ```txt scalarProduct {1 0 0} {0 1 0} ```
+  - _Keywords:_ scalarProduct, Result, vectors, orthogonal
+- **solveLinearEquation** <a id="solvelinearequation"></a>
+- **Syntax** <a id="syntax"></a>
+  - solveLinearEquation M=matrix3D b=vector3D
+  - _Keywords:_ solveLinearEquation, matrix3D, vector3D
+- **Description** <a id="description"></a>
+  - This command solves the linear equation and returns the solution vector .Mx b = x
+  - _Keywords:_ solves, linear, equation, solution, vector, argument, parsing
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>M</td><td>A 3 × 3 matrix M.</td></tr><tr><td>b</td><td>A three-dimensional vector b .</td></tr></table>
+  - _Keywords:_ Argument, Description, matrix, dimensional, vector
+- **Examples** <a id="examples"></a>
+  - ```txt set A {{0.5 -0.5 0.0} {0.5 0.5 0.5} {0.0 0.0 2.0}} solveLinearEquation M=$A b=[list 1 0 0] ```
+  - _Keywords:_ argument, Tcl, mathrm, solveLinearEquation, Result, vector, wrapped, around
+- **transposeMatrix** <a id="transposematrix"></a>
+  - This command returns the transposed matrix .3 3 × MT
+  - _Keywords:_ transposed, matrix, Tcl, syntax, positional, arguments, transposeMatrix, matrix3D
+- **Examples** <a id="examples"></a>
+  - transposeMatrix {{1 2 3} {0 4 5} {0 0 6}}
+  - _Keywords:_ transposeMatrix, Result
+- **unitVec** <a id="unitvec"></a>
+  - This command returns a unit vector along the direction of .v
+  - _Keywords:_ vector, direction, Tcl, syntax, positional, arguments, unitVec, vector3D
+- **Examples** <a id="examples"></a>
+  - unitVec {1 1 1}
+  - _Keywords:_ unitVec, Result, vector, Caught, exception, domain, Description, Cannot
+- **vectorAdd** <a id="vectoradd"></a>
+  - This command adds vectors and returns the result .u v +
+  - _Keywords:_ vector3D, vectors, result, Tcl, syntax, positional, arguments, vectorAdd
+- **Examples** <a id="examples"></a>
+  - ```txt vectorAdd {1 0 0} {1 1 0} ```
+  - _Keywords:_ vectorAdd, Result
+- **vectorDivide** <a id="vectordivide"></a>
+  - This command divides a vector by a scalar and returns the result .v x v ⁄ x
+  - _Keywords:_ divides, vector, scalar, result, Tcl, syntax, positional, arguments
+- **Examples** <a id="examples"></a>
+  - ```txt vectorDivide {2 1 0} 2 ```
+  - _Keywords:_ result, vectorDivide, Result, divisor, promoted, automatically, Double, unexpected
+- **vectorLength** <a id="vectorlength"></a>
+  - This command returns the length of vector .v
+  - _Keywords:_ length, vector, Tcl, syntax, positional, arguments, vectorLength, vector3D
+- **Examples** <a id="examples"></a>
+  - ```txt vectorLength {1 1 0} ```
+  - _Keywords:_ vectorLength, Result
+- **vectorMultiply** <a id="vectormultiply"></a>
+- **Syntax** <a id="syntax"></a>
+  - vectorMultiply v=vector3D x=Double
+  - _Keywords:_ vectorMultiply, vector3D, Double
+- **Description** <a id="description"></a>
+  - This command multiplies a vector by a scalar and returns the result .xv
+  - _Keywords:_ multiplies, vector, scalar, result, argument, parsing
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>v</td><td>A 3D vector.</td></tr><tr><td>x</td><td>A scalar.</td></tr></table>
+  - _Keywords:_ Argument, Description, vector, scalar
+- **Examples** <a id="examples"></a>
+  - vectorMultiply v=[list 1 2 3] x=1.5
+  - _Keywords:_ vectorMultiply, Result
+- **vectorSubtract** <a id="vectorsubtract"></a>
+  - This command takes two vector arguments and returns the vector difference .u v –
+  - _Keywords:_ vector, arguments, vector3D, difference, Tcl, syntax, positional, vectorSubtract
+- **Examples** <a id="examples"></a>
+  - ```tcl vectorSubtract {3.0 2.0 1.0} {1.0 2.0 3.0} ```
+  - _Keywords:_ vectorSubtract, Result
+- **Tcl Support for Complex Numbers** <a id="tcl-support-for-complex-numbers"></a>
+- **imaginaryPart** <a id="imaginarypart"></a>
+  - This command returns the imaginary part of a complex number.
+  - _Keywords:_ imaginary, complex, Tcl, syntax, positional, arguments, imaginaryPart, Complex
+- **Examples** <a id="examples"></a>
+  - imaginaryPart (1.5,-2.0)
+  - _Keywords:_ imaginaryPart, Result
+- **realPart** <a id="realpart"></a>
+  - This command returns the real part of a complex number.
+  - _Keywords:_ complex, Tcl, syntax, positional, arguments, realPart, Complex
+- **Examples** <a id="examples"></a>
+  - realPart (1.5,-2.0)
+  - _Keywords:_ realPart, Result
+- **Tcl Support for Named-Argument Parsing** <a id="tcl-support-for-named-argument-parsing"></a>
+- **check\_args** <a id="check-args"></a>
+- **Syntax** <a id="syntax"></a>
+  - check\_args arrayName
+  - _Keywords:_ arrayName
+- **Description** <a id="description"></a>
+  - This command returns an error if the named argument array \$arrayName contains unknown arguments in the sense of get\_unknown\_args (see get\_unknown\_args on page 310).
+  - _Keywords:_ _unknown, argument, arrayName, contains, unknown, arguments
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>arrayName</td><td>Positional argument of type Array, which is usually a named argument array from parse_args.</td></tr></table>
+  - _Keywords:_ argument, myProcXY, undefined, yString, procedure, Argument, Description, arrayName
+- **get\_arg** <a id="get-arg"></a>
+- **Syntax** <a id="syntax"></a>
+  - get\_arg arrayName name [type]
+  - _Keywords:_ arrayName
+- **Description** <a id="description"></a>
+  - This command obtains a named argument name from a named argument array arrayName (typically created by a call to parse\_args (see parse\_args on page 314)). If array arrayName does not have an entry at key name, an error is thrown.
+  - _Keywords:_ argument, arrayName, thrown, obtains, typically, created, optional, second
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+  - Tcl Support for Named-Argument Parsing
+  - _Keywords:_ argument, Positional, Argument, Tcl, Support, Named, Parsing, Arguments
+- **Examples** <a id="examples"></a>
+  - ```txt parse args para { x=1.5 } puts "test1: [get arg para "x"]" ```
+  - _Keywords:_ Result, Double, Integer, Successful, mismatch, argument, expected, Argument
+- **get\_known\_args** <a id="get-known-args"></a>
+- **Syntax** <a id="syntax"></a>
+  - get\_known\_args arrayName
+  - _Keywords:_ _known, arrayName
+- **Description** <a id="description"></a>
+  - Extracts a list of known argument names from the named argument array \$arrayName in the scope of the calling procedure. An argument name becomes known by being passed as the name argument to has\_arg (see has\_arg on page 311) or get\_a...
+  - _Keywords:_ argument, Extracts, arrayName, calling, procedure, becomes, passed, intended
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>arrayName</td><td>Positional argument of type Array, which is usually a named argument array from parse_args.</td></tr></table>
+  - _Keywords:_ argument, Argument, Description, arrayName, Positional, Array, usually, parse_args
+- **Examples** <a id="examples"></a>
+  - parse\_args para { x=3.0 y=test } get\_known args para
+  - _Keywords:_ _known, Result, arguments, argument, Initially, unknown, contained, Array
+- **get\_unknown\_args** <a id="get-unknown-args"></a>
+- **Syntax** <a id="syntax"></a>
+  - get\_unknown\_args arrayName
+  - _Keywords:_ _unknown, arrayName
+- **Description** <a id="description"></a>
+  - Extracts a list of unknown argument names from named argument array \$arrayName in the scope of the calling procedure. An argument name becomes known by being passed as the name argument to has\_arg (see has\_arg on page 311) or get\_arg...
+  - _Keywords:_ argument, unknown, Extracts, arrayName, calling, procedure, becomes, passed
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>arrayName</td><td>Positional argument of type Array, which is usually a named argument array from parse_args.</td></tr></table>
+  - _Keywords:_ argument, Argument, Description, arrayName, Positional, Array, usually, parse_args
+- **Examples** <a id="examples"></a>
+  - ```txt parse_args para { x=3.0 y=test } get_unknown_args para ```
+  - _Keywords:_ argument, Result, parse_args, get_unknown_args, Initially, arguments, unknown, get_arg
+- **has\_arg** <a id="has-arg"></a>
+- **Syntax** <a id="syntax"></a>
+  - has\_arg arrayName name
+  - _Keywords:_ arrayName
+- **Description** <a id="description"></a>
+  - This command queries whether the array \$arrayName in the scope of the calling procedure contains an entry for \$name (return value: 1) or not (return value: 0). As a side effect, name is added to the list of known arguments.
+  - _Keywords:_ queries, whether, arrayName, calling, procedure, contains, effect, arguments
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>arrayName</td><td>Positional argument of type Array, which is usually a named argument array from parse_args.</td></tr><tr><td>name</td><td>Positional argument. Check for the p...
+  - _Keywords:_ argument, Positional, Argument, Description, arrayName, Array, usually, parse_args
+- **Examples** <a id="examples"></a>
+  - ```tcl parse args para { x=0 } puts "looking for x: [has arg para x]" puts "looking for y: [has arg para y]" ```
+  - _Keywords:_ looking
+- **Result:** <a id="result"></a>
+  - looking for x: 1 Found in named argument array para.
+  - _Keywords:_ looking, argument, Found
+- **init\_arg** <a id="init-arg"></a>
+- **Syntax** <a id="syntax"></a>
+  - init\_arg arrayName name defaultValue [type]
+  - _Keywords:_ arrayName, defaultValue
+- **Description** <a id="description"></a>
+  - This command queries whether the array \$arrayName in the scope of the calling procedure contains a value at key \$name. If successful, this value is returned; otherwise, the procedure returns \$defaultValue.
+  - _Keywords:_ argument, procedure, queries, whether, arrayName, calling, contains, successful
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>arrayName</td><td>Positional argument of type Array, which is usually a named argument array from parse_args.</td></tr><tr><td>defaultValue</td><td>Positional argument. Default...
+  - _Keywords:_ argument, Positional, defaultValue, convertible, Argument, Description, arrayName, Array
+- **Examples** <a id="examples"></a>
+  - ```txt parse_args para1 { x=5.0 } set x [init_arg para1 "x" 1.0] set y [init_arg para1 "y" 2.0] puts "x: $x; y: $y" ```
+  - _Keywords:_ init_arg, parse_args, Result, listed
+- **Result:** <a id="result"></a>
+  - ```txt Type mismatch error in argument "x": "(0,1)" has type Complex --- expected type: Double. ```
+  - _Keywords:_ argument, Complex, Double, mismatch, expected, because, actual, differs
+- **Result:** <a id="result"></a>
+  - ```txt "x: (0,1)" ```
+- **parse\_args** <a id="parse-args"></a>
+- **Syntax** <a id="syntax"></a>
+  - parse\_args arrayName argv
+  - _Keywords:_ arrayName
+- **Description** <a id="description"></a>
+  - This command extracts named-argument declarations from the List \$argv and stores the results of this search in an array of name \$arrayName in the scope of the calling procedure. The command parse\_args supports two syntactic forms for ...
+  - _Keywords:_ argument, arrayName, object, passed, extracts, declarations, stores, results
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>argv</td><td>A List of command-line arguments.</td></tr><tr><td>arrayName</td><td>Name of output Array in scope of calling function.</td></tr></table>
+  - _Keywords:_ Argument, Description, arguments, arrayName, Array, calling
+- **Examples** <a id="examples"></a>
+  - parse\_args A {x=5 y="string with spaces" z=word -myList {a b c}} puts "x: \$A(x); y: \$A(y); z; \$A(z); myList: \$A(myList)."
+  - _Keywords:_ myProc, myList, argument, string, spaces, Array, Result, procedure
+- **Tcl Support for Type Checking** <a id="tcl-support-for-type-checking"></a>
+- **get\_type** <a id="get-type"></a>
+- **Syntax** <a id="syntax"></a>
+  - get\_type obj
+- **Description** <a id="description"></a>
+  - This command returns the type of object obj.
+  - _Keywords:_ object
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>obj</td><td>Positional argument. Find the type of this object.</td></tr></table>
+  - _Keywords:_ allowed, Argument, Description, Positional, argument, Find, object, recognizes
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+  - Tcl Support for Type Checking
+  - _Keywords:_ elements, Tcl, arbitrary, EPM, String, structure, Integer, Support
+- **Examples** <a id="examples"></a>
+  - ```tcl get_type {{1 2} {1 2 3} {1 2}} ```
+  - _Keywords:_ get_type, Integer, arbitrary, length, integers, common, element, String
+- **check\_type** <a id="check-type"></a>
+- **Syntax** <a id="syntax"></a>
+  - check\_type obj=String type=String
+  - _Keywords:_ String
+- **Description** <a id="description"></a>
+  - This command checks if the object obj can be converted to type type. If so, the function returns; otherwise, an exception is thrown.
+  - _Keywords:_ argument, checks, object, converted, otherwise, exception, thrown, parsing
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>obj</td><td>A Tcl object or the Tcl command associated with a C++ object.</td></tr><tr><td>type</td><td>A type signature string (see get_type on page 315).</td></tr></table>
+  - _Keywords:_ Tcl, object, Argument, Description, associated, signature, string, get_type
+- **Examples** <a id="examples"></a>
+  - check\_type obj=1.5 type=Double
+  - _Keywords:_ Integer, Double, Result, expected, success, message
+- **common\_type** <a id="common-type"></a>
+- **Syntax** <a id="syntax"></a>
+  - common\_type type1 type2
+  - _Keywords:_ common
+- **Description** <a id="description"></a>
+  - This command takes two type signature strings type1 and type2, and returns the most specialized type to which objects of both types can be propagated.
+  - _Keywords:_ signature, strings, specialized, objects, propagated
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>type1, type2</td><td>Positional arguments: type signature strings.</td></tr></table>
+  - _Keywords:_ Argument, Description, Positional, arguments, signature, strings
+- **Examples** <a id="examples"></a>
+  - common\_type Double Complex
+  - _Keywords:_ Double, common, Complex, because, Integer, propagated, length, promoted
+- **General Utility Procedures** <a id="general-utility-procedures"></a>
+- **import\_array** <a id="import-array"></a>
+- **Syntax** <a id="syntax"></a>
+  - import\_array arrayName [localName]
+  - _Keywords:_ import, _array, arrayName, localName
+- **Description** <a id="description"></a>
+  - This command brings the array \$arrayName from the scope two levels up to the scope of the calling function under the name localName. If localName is not given, it defaults to theArray.
+  - _Keywords:_ localName, brings, arrayName, levels, calling, theArray
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>arrayName</td><td>Positional argument. An Array in the scope of the caller of the caller of import_array.</td></tr><tr><td>localName</td><td>Positional argument. New name for t...
+  - _Keywords:_ caller, Positional, argument, import_array, Argument, Description, arrayName, Array
+- **Examples** <a id="examples"></a>
+  - ```tcl proc myProc {} { puts "A before import: [array exists A]" puts "X before import: [array exists X]" import array X A puts "A after import: [array exists A]" puts "A(1) = $A(1)" } set X(1) 5 myProc ```
+  - _Keywords:_ import, myProc, before, exists, _array, Array, visible, inside
+- **Syntax** <a id="syntax"></a>
+  - tee file message
+  - _Keywords:_ message
+- **Description** <a id="description"></a>
+  - This command outputs a message message both to the screen and the file descriptor file.
+  - _Keywords:_ message, screen, descriptor
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>file</td><td>Positional argument. A Tcl file descriptor.</td></tr><tr><td>message</td><td>Positional argument. Output this message.</td></tr></table>
+  - _Keywords:_ Positional, argument, message, Argument, Description, Tcl, descriptor
+- **Examples** <a id="examples"></a>
+  - set f [open "tmp.file" "w"]
+  - _Keywords:_ writing, writes, message, screen, closes, finally, displays, contents
+- **Material Parameter Files** <a id="material-parameter-files"></a>
+  - In Sentaurus Band Structure, material parameters files are Tcl input files that can be source’d to make a given material available in a session. The installation directory of the default parameter files is \${STROOT\_LIB}/sband, and the ...
+  - _Keywords:_ material, directory, Sentaurus, Band, Structure, Tcl, source, available
+- **Subband and Mobility Calculations** <a id="subband-and-mobility-calculations"></a>
+  - This section describes the commands used for subband and mobility calculations.
+  - _Keywords:_ describes, subband, mobility, calculations
+- **AddToLogFile** <a id="addtologfile"></a>
+- **Syntax** <a id="syntax"></a>
+  - AddToLogFile name=String value=Double
+  - _Keywords:_ AddToLogFile, String, Double
+- **Description** <a id="description"></a>
+  - This command adds a scalar value to the bias log file at the current bias.
+  - _Keywords:_ scalar, current
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of the new field to appear in the bias log file.</td></tr><tr><td>value</td><td>Scalar value to add to the bias log file.</td></tr></table>
+  - _Keywords:_ Argument, Description, appear, Scalar
+- **Examples** <a id="examples"></a>
+  - AddToLogFile name=Ec1 value=\$Ec
+  - _Keywords:_ Ec1, AddToLogFile, called, current, Tcl, variable
+- **ComputeMass** <a id="computemass"></a>
+- **Syntax** <a id="syntax"></a>
+  - ComputeMass {xx | xy | yy} direction=RealVector3D [Nk=Integer]
+  - _Keywords:_ Integer, ComputeMass, direction, RealVector3D, nonlocal, String, Nphi, subbands
+- **Description** <a id="description"></a>
+  - This command computes a particular component of the inverse transport mass tensor, expressed as an effective mass in units of the free electron mass based on the last Schrödinger solution. For 2D devices, the transport direction is known...
+  - _Keywords:_ calculation, subbands, particular, transport, specified, computed, computes, component
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>direction</td><td>Specifies the direction, relative to the in-plane device axes, for which the directed mass tensor component should be computed. For 1D devices only.</td></tr>...
+  - _Keywords:_ devices, Specifies, tensor, component, computed, calculation, nonlocal, subbands
+- **Examples** <a id="examples"></a>
+  - set mass [ComputeMass yy subbands=[list Delta3\_0]]
+  - _Keywords:_ Delta3, ComputeMass, subbands, computes, transport, tensor, component, device
+- **ComputeMobility** <a id="computemobility"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt ComputeMobility {xx | yy | xy | direction=RealVector3D} [nonlocal=String] [writeMobilityPerValley] ```
+  - _Keywords:_ ComputeMobility, direction, RealVector3D, nonlocal, String, writeMobilityPerValley
+- **Description** <a id="description"></a>
+  - This command computes one component of the mobility tensor for a particular nonlocal line or nonlocal area based on the last Schrödinger solution. One tensor component in the device coordinate system can be specified, or the mobility com...
+  - _Keywords:_ component, mobility, tensor, particular, nonlocal, computed, computes, solution
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>direction</td><td>Specifies the direction, relative to the in-plane device axes, for which the directed mobility tensor component should be computed. For 1D devices only.</td><...
+  - _Keywords:_ mobility, Specifies, tensor, component, computed, devices, nonlocal, direction
+- **Examples** <a id="examples"></a>
+  - set mobility [ComputeMobility direction=[list 1 1 0]]
+  - _Keywords:_ mobility, direction, ComputeMobility, computes, device, structure, result, automatically
+- **ComputeVinj** <a id="computevinj"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt ComputeVinj {x | y | direction=RealVector3D} [nonlocal=String] [Nk=Integer] [Nphi=Integer] [subbands=List] ```
+  - _Keywords:_ Integer, ComputeVinj, direction, RealVector3D, nonlocal, String, Nphi, subbands
+- **Description** <a id="description"></a>
+  - This command computes the thermal injection velocity in units of cm/s along the user-specified direction based on the last Schrödinger solution. For 2D devices, the transport direction is known and need not be specified. The calculation ...
+  - _Keywords:_ calculation, velocity, specified, subbands, direction, computed, computes, thermal
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>direction</td><td>Specifies the direction, relative to the in-plane device axes, for which the velocity is computed. For 1D only.</td></tr><tr><td>Nk</td><td>Number of radial k...
+  - _Keywords:_ velocity, Specifies, computed, calculation, nonlocal, subbands, direction, points
+- **Examples** <a id="examples"></a>
+  - set velocity [ComputeVinj direction=[list 1 1 0]]
+  - _Keywords:_ velocity, direction, device, ComputeVinj, computes, thermal, injection, relative
+- **Dopant** <a id="dopant"></a>
+- **Syntax** <a id="syntax"></a>
+  - Dopant material=String name=String symbol=String type=String
+  - _Keywords:_ String, Dopant, material, symbol, remove, removeAll
+- **Description** <a id="description"></a>
+  - This command defines a new dopant. After a dopant is defined, the active concentration of the dopant will be read from the TDR file during the next LoadDevice command.
+  - _Keywords:_ dopant, defines, After, defined, active, concentration, TDR, during
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>material</td><td>Specifies the material for which the dopant is defined. You also can use all, insulator, or semiconductor.</td></tr><tr><td>name</td><td>Name of the dopant, fo...
+  - _Keywords:_ dopant, defined, material, symbol, dopants, Removes, Argument, Description
+- **Examples** <a id="examples"></a>
+  - Dopant material=Silicon name=Boron symbol=B type=acceptor
+  - _Keywords:_ symbol, acceptor, Dopant, material, Silicon, Boron, defines, dopant
+- **Extract** <a id="extract"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```hcl Extract model=String { z=Double | {x=Double y=Double} | { {region=String | nonlocal=String} integral } } ```
+  - _Keywords:_ String, Double, Extract, region, nonlocal, integral
+- **Description** <a id="description"></a>
+  - This command extracts a scalar value from the named model. It can either extract a model value at a point or integrate the model over a region or a nonlocal line or nonlocal area.
+  - _Keywords:_ nonlocal, extracts, scalar, either, extract, integrate, region
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>integral</td><td>Indicates that the model should be integrated over the specified region.</td></tr><tr><td>model</td><td>A valid model keyword.</td></tr><tr><td>nonlocal</td><t...
+  - _Keywords:_ region, nonlocal, coordinate, extracted, integrate, Argument, Description, integral
+- **Examples** <a id="examples"></a>
+  - set Ec [Extract model=ConductionBandEnergy z=0.0]
+  - _Keywords:_ Extract, ConductionBandEnergy, extracts, conduction, energy, coordinate, places, result
+- **GetLast** <a id="getlast"></a>
+- **Syntax** <a id="syntax"></a>
+  - GetLast name=String
+  - _Keywords:_ GetLast, String
+- **Description** <a id="description"></a>
+  - This command obtains the latest value of the named field from the bias log file.
+  - _Keywords:_ obtains, latest
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>name</td><td>Name of the field from the bias log file.</td></tr></table>
+  - _Keywords:_ Argument, Description
+- **Examples** <a id="examples"></a>
+  - set Vgate [GetLast name="V(Gate)"]
+  - _Keywords:_ Vgate, Gate, GetLast, extracts, latest, Tcl, variable
+- **LoadDevice** <a id="loaddevice"></a>
+- **Syntax** <a id="syntax"></a>
+  - LoadDevice tdrFile=String [ignoreDopants=Integer]
+  - _Keywords:_ LoadDevice, tdrFile, String, ignoreDopants, Integer
+- **Description** <a id="description"></a>
+  - This command loads a 1D or 2D device structure from a TDR file.
+  - _Keywords:_ device, structure, TDR
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>ignoreDopants</td><td>When set to 1, individual active dopants in the TDR file are ignored. Default=0, that is, known dopants are read from the TDR file.</td></tr><tr><td>tdrFi...
+  - _Keywords:_ TDR, dopants, Argument, Description, ignoreDopants, individual, active, ignored
+- **Examples** <a id="examples"></a>
+  - LoadDevice tdrFile=moscap.tdr
+  - _Keywords:_ moscap, LoadDevice, tdrFile, TDR, including, doping, related, fields
+- **Material** <a id="material"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt Material {name=String type=String} | {getType name=String} | getNames |スポList ```
+  - _Keywords:_ String, Material, getType, getNames
+- **Description** <a id="description"></a>
+  - This command is used to add new materials to Sentaurus Band Structure or to obtain information about the existing materials.
+  - _Keywords:_ materials, Sentaurus, Band, Structure, obtain, information, existing
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>toList</td><td>Obtain a Tcl list of known materials and their material type.</td></tr><tr><td>getNames</td><td>Obtain a Tcl list of known materials by name.</td></tr><tr><td>ge...
+  - _Keywords:_ material, Obtain, Tcl, materials, Argument, Description, toList, getNames
+- **Examples** <a id="examples"></a>
+  - Material name=Germanium type=semiconductor
+  - _Keywords:_ Germanium, semiconductor, material, specified, Material, Models
+- **Math** <a id="math"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt Math { nonlocal name=String [regions=List] { [minZ=Double] [maxZ=Double] } | { [minX=Double] [maxX=Double] [minY=Double] [maxY=Double] } } | { [potentialUpdateTolerance=Double] [potentialUpdateClamp=Double] [residualTolerance=Doub...
+  - _Keywords:_ Double, Integer, Boolean, Math, nonlocal, String, regions, minZ
+- **Description** <a id="description"></a>
+  - This command is used either to create the geometry of a nonlocal line or nonlocal area to set parameters related to the solution of the Poisson and Schrödinger equations, and the mobility calculations. For the specification of a nonlocal...
+  - _Keywords:_ nonlocal, geometry, either, create, related, solution, Poisson, equations
+- **Arguments** <a id="arguments"></a>
+  - NOTE Convergence of the Poisson equation requires that both the update and residual tolerances be met.
+  - _Keywords:_ nonlocal, coordinate, Specifies, Poisson, equation, damping, Maximum, Convergence
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+  - Subband and Mobility Calculations
+  - _Keywords:_ Subband, Mobility, Calculations
+- **Examples** <a id="examples"></a>
+  - Math nonlocal name=NL1 minZ=0 maxZ=20.0e-3 regions=[List sil]
+  - _Keywords:_ eigensolver, calculation, Math, nonlocal, NL1, Lapack, calculating, wavefunctions
+- **Physics** <a id="physics"></a>
+  - The Physics command is used to specify a range of physical models and parameters. The types of model and parameter that can be specified are separated into different groups:
+  - _Keywords:_ models, physical, Physics, specify, specified, separated, different, groups
+- **Physics for Top-Level Parameters** <a id="physics-for-top-level-parameters"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt Physics { [surfaceOrientation=RealVector3D] [xDirection=RealVector3D]} | { [xDirection=RealVector3D] [yDirection=RealVector3D]} | [temperature=Double] [print] ```
+  - _Keywords:_ RealVector3D, xDirection, Physics, surfaceOrientation, yDirection, temperature, Double
+- **Description** <a id="description"></a>
+  - This command sets the top-level, global device parameters that define the device axes and temperature. In addition, it enables printing of all defined models.
+  - _Keywords:_ device, global, define, temperature, addition, enables, printing, defined
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>print</td><td>Prints a table of all models in all regions.</td></tr><tr><td>surfaceOrientation</td><td>1D: Surface orientation relative to the crystal axes. Default: [list 0 0 ...
+  - _Keywords:_ relative, crystal, Direction, confinement, Argument, Description, Prints, models
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+  - Subband and Mobility Calculations
+  - _Keywords:_ Subband, Mobility, Calculations
+- **Examples** <a id="examples"></a>
+  - Physics surfaceOrientation=[list 0 1 1] xDirection=[list 1 0 0] \ temperature=77.0
+  - _Keywords:_ temperature, Physics, surfaceOrientation, xDirection, device, surface, orientation, direction
+- **Physics for Contacts** <a id="physics-for-contacts"></a>
+- **Syntax** <a id="syntax"></a>
+  - Physics contact=String workfunction=Double
+  - _Keywords:_ Physics, contact, String, workfunction, Double
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>contact</td><td>Name of the contact.</td></tr><tr><td>workfunction</td><td>Workfunction value for the contact in eV. Default: 4.10</td></tr></table>
+  - _Keywords:_ contact, Argument, Description, workfunction, Workfunction
+- **Examples** <a id="examples"></a>
+  - Physics contact=gate workfunction=5.2
+  - _Keywords:_ contact, workfunction, Physics
+- **Physics for Electrostatic Models** <a id="physics-for-electrostatic-models"></a>
+  - Various electrostatic models are used during the solution of the Poisson equation. These models are specified for particular regions or materials. Each model is identified by a model keyword for which a particular model can be selected. ...
+  - _Keywords:_ models, specified, particular, selected, Various, electrostatic, during, solution
+- **Syntax** <a id="syntax"></a>
+  - Physics {material=String | region=String} <ModelKeyword>=String <paraName1>=<value1> ...
+  - _Keywords:_ String, Physics, material, region, ModelKeyword, paraName1, value1
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>material</td><td>Name of a material in the device. All regions of this material will have the same model and parameters set. Specify either material or region but not both. Con...
+  - _Keywords:_ material, regions, region, device, Specify, either, semiconductor, insulator
+- **Examples** <a id="examples"></a>
+  - Physics material=Silicon eDensity=eFermiDensity Nc=2.9e19
+  - _Keywords:_ eDensity, eFermiDensity, Physics, material, Silicon, electron, density, keyword
+- **Modifying Parameters** <a id="modifying-parameters"></a>
+  - When a physical model and an initial set of parameters have been specified, the model parameters can be subsequently modified with another Physics command using only the model keyword. For example, if the eDensity model was already set t...
+  - _Keywords:_ modified, Physics, eDensity, physical, initial, specified, subsequently, another
+- **Switching Models** <a id="switching-models"></a>
+  - The selected model for a model keyword can be changed with another Physics command that specifies the new model name. For example, the following commands first set the eDensity model to the Fermi–Dirac model and then change it to the mul...
+  - _Keywords:_ Physics, eDensity, material, Silicon, selected, keyword, changed, another
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+  - Subband and Mobility Calculations
+  - _Keywords:_ Subband, Mobility, Calculations, selected, Subsequently, reverting, original, recover
+- **Physics for Valley Models** <a id="physics-for-valley-models"></a>
+  - Valley models are a special category of model. They hold parameters representing the band structure around valley extrema in -space. Valley models are multimodels in that more thank one ValleyModel can be defined for each region. To be a...
+  - _Keywords:_ ValleyModel, Valley, models, special, category, representing, structure, around
+- **Syntax** <a id="syntax"></a>
+  - ```txt Physics {material=String | region=String} ValleyModel=String name=String degeneracy=Integer [{useForEBulkDensity=Boolean | useForHBulkDensity=Boolean}] [remove] [removeAll] <paraName1>=<value1> ... ```
+  - _Keywords:_ String, Boolean, Physics, material, region, ValleyModel, degeneracy, Integer
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>degeneracy</td><td>The valley degeneracy.</td></tr><tr><td>material</td><td>Name of a material in the device. All regions of this material will have the same model and paramete...
+  - _Keywords:_ valley, created, material, regions, region, indicate, Bulk, degeneracy
+- **Examples** <a id="examples"></a>
+  - Physics material=Silicon ValleyModel=2kpEllipsoid name=Delta1 \ degeneracy=2 longAxis=100 useForEBulkDensity=1 ml=0.92
+  - _Keywords:_ valley, Delta1, degeneracy, useForEBulkDensity, creates, Physics, material, Silicon
+- **Modifying Parameters** <a id="modifying-parameters"></a>
+  - When a valley model and an initial set of parameters have been specified, the model parameters can be modified subsequently by another Physics command using only the ValleyModel keyword and the name of the valley. For example, the Delta1...
+  - _Keywords:_ valley, modified, Physics, ValleyModel, Delta1, initial, specified, subsequently
+- **Switching Models** <a id="switching-models"></a>
+  - The selected model for a valley model can be changed by another Physics command that specifies the new model name along with the name of the original valley. For example, the model for the Delta1 valley created in the previous examples c...
+  - _Keywords:_ valley, selected, changed, Physics, original, Delta1, ValleyModel, another
+- **Removing Valley Models** <a id="removing-valley-models"></a>
+  - A valley model can be removed from use by Sentaurus Band Structure by specifying the ValleyModel keyword and valley name along with the remove keyword. For example, using the Delta1 example above:
+  - _Keywords:_ valley, ValleyModel, keyword, remove, Delta1, removed, Sentaurus, Band
+- **16: Sentaurus Band Structure/Tcl Command Reference** <a id="16-sentaurus-band-structure-tcl-command-reference"></a>
+  - Subband and Mobility Calculations
+  - _Keywords:_ removeAll, Subband, Mobility, Calculations, valley, models, Sentaurus, Band
+- **Physics for Scattering Models** <a id="physics-for-scattering-models"></a>
+  - Scattering models are a special category of model. They represent the different scattering mechanisms used during the mobility calculation. Multiple scattering models can be specified using multiple Physics ScatteringModel commands.
+  - _Keywords:_ models, scattering, Scattering, special, category, represent, different, mechanisms
+- **Syntax** <a id="syntax"></a>
+  - Physics {material=String | region=String} ScatteringModel=String name=String valleys=List transitionType=String inelasticType=String hbarOmega=Double [remove] [removeAll] <paraName1>=<value1> ...
+  - _Keywords:_ String, Physics, material, region, ScatteringModel, valleys, transitionType, inelasticType
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>hbarOmega</td><td>For inelastic phonon models, the phonon energy in eV. Default: 0.0</td></tr><tr><td>inelasticType</td><td>For inelastic models, indicates whether the transiti...
+  - _Keywords:_ material, region, scattering, models, inelastic, phonon, device, regions
+- **Examples** <a id="examples"></a>
+  - Physics material=Silicon ScatteringModel=ElasticAcousticPhonon name=AC1 \ valleys=[list Delta1 Delta2 Delta3] transitionType=Intravalley Dac=6.8
+  - _Keywords:_ specified, valleys, Delta1, Delta2, Delta3, phonon, transitions, transition
+- **Modifying Parameters** <a id="modifying-parameters"></a>
+  - When a scattering model and an initial set of parameters have been specified, the model parameters can be subsequently modified by another Physics command using only the ScatteringModel keyword and the unique name of the model. For examp...
+  - _Keywords:_ modified, Physics, ScatteringModel, _ABS, scattering, initial, specified, subsequently
+- **Switching Models** <a id="switching-models"></a>
+  - The selected model for a ScatteringModel can be changed by another Physics command that specifies the new model name along with the name of the original model.
+  - _Keywords:_ selected, ScatteringModel, original, changed, another, Physics, specifies, Subsequently
+- **Removing Scattering Models** <a id="removing-scattering-models"></a>
+  - A scattering model can be removed from use by Sentaurus Band Structure by specifying the ScatteringModel keyword and model name along with the remove keyword. For example, using the fIV\_ABS example above:
+  - _Keywords:_ ScatteringModel, keyword, scattering, removed, Sentaurus, Band, Structure, remove
+- **Physics for Trap Models** <a id="physics-for-trap-models"></a>
+  - Trap models are a special category of model that enables the specification of interface charge. Two types of interface charge can be specified: fixed charge and donor (or acceptor) traps. Multiple values of interface charge can be specif...
+  - _Keywords:_ charge, interface, specified, Trap, models, special, category, enables
+- **Syntax** <a id="syntax"></a>
+  - ```txt Physics {materialInterface=String | regionInterface=String} TrapModel=String [name=String] [remove] [removeAll] conc=Double # For TrapModel=FixedCharge carrierType=String } For DitProfile=String } TrapModel=Donor [conc=Double] [Di...
+  - _Keywords:_ String, TrapModel, Double, Physics, materialInterface, regionInterface, remove, removeAll
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>conc</td><td>Interface trap concentration:For fixed charge, this specifies a fixed charge in units of $cm^{-2}$ and can be positive or negative.For donor or acceptor traps, thi...
+  - _Keywords:_ energy, profiles, profile, CondBand, ValBand, MidBandGap, interfaces, semiconductor
+- **Examples** <a id="examples"></a>
+  - Physics regionInterface="si1/ox1" TrapModel=FixedCharge name=Nss1 conc=1e12
+  - _Keywords:_ interface, charge, Physics, regionInterface, TrapModel, Nss1, between, regions
+- **Modifying Parameters** <a id="modifying-parameters"></a>
+  - When a trap model and an initial set of parameters have been specified, the model parameters can be subsequently modified by another Physics command using only the TrapModel keyword and the unique name of the model. For example, the mode...
+  - _Keywords:_ modified, Physics, TrapModel, Nss1, initial, specified, subsequently, another
+- **Removing Trap Models** <a id="removing-trap-models"></a>
+  - A trap model can be removed from use by Sentaurus Band Structure by specifying the TrapModel keyword and the model name along with the remove keyword. For example, using the Nss1 example:
+  - _Keywords:_ TrapModel, keyword, removed, Sentaurus, Band, Structure, remove, Nss1
+- **Physics for Interface Potential Spike Models** <a id="physics-for-interface-potential-spike-models"></a>
+  - Potential spike models are a special category of model that enables the specification of spikelike potential barriers or wells at region interfaces. Multiple interface spike models can specified using multiple Physics SpikeModel commands.
+  - _Keywords:_ models, Potential, special, category, enables, specification, spikelike, potential
+- **Syntax** <a id="syntax"></a>
+  - ```txt Physics {materialInterface=String | regionInterface=String} SpikeModel=String valleys=List value=Double [name=String] [remove] [removeAll] ```
+  - _Keywords:_ String, Physics, materialInterface, regionInterface, SpikeModel, valleys, Double, remove
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>materialInterface</td><td>Name of region interfaces between two materials. Material names must be separated by a slash (/), for example, &quot;Silicon/Oxide&quot;. All interfac...
+  - _Keywords:_ materialInterface, between, regionInterface, interface, interfaces, materials, separated, regions
+- **Examples** <a id="examples"></a>
+  - Physics regionInterface="si1/ox1" SpikeModel=ConstantSpike name=DeltaSpike \ value=2.0e-9 valleys=[list Delta1 Delta2 Delta3]
+  - _Keywords:_ valleys, DeltaSpike, Delta1, Delta2, Delta3, potential, Physics, regionInterface
+- **Modifying Parameters** <a id="modifying-parameters"></a>
+  - After you specify a spike model and an initial set of parameters, the model parameters can be subsequently modified by another Physics command using only the SpikeModel keyword and the unique name of a model. For example, the model named...
+  - _Keywords:_ modified, Physics, SpikeModel, DeltaSpike, After, specify, initial, subsequently
+- **Removing Spike Models** <a id="removing-spike-models"></a>
+  - A spike model can be removed from use by Sentaurus Band Structure by specifying the SpikeModel keyword, the model name, and the remove option. For example, using the DeltaSpike model:
+  - _Keywords:_ SpikeModel, remove, Sentaurus, Band, Structure, DeltaSpike, Physics, regionInterface
+- **Physics of Nonlocal Lines or Nonlocal Areas** <a id="physics-of-nonlocal-lines-or-nonlocal-areas"></a>
+  - Nonlocal lines or nonlocal areas are used to indicate where a Schrödinger solve and mobility calculation should be performed. Nonlocal lines or nonlocal areas are created using the Math command. Using the Physics command, one Schrödinger...
+  - _Keywords:_ nonlocal, mobility, Nonlocal, solver, calculator, indicate, calculation, performed
+- **Syntax** <a id="syntax"></a>
+  - For specifying a Schrödinger solver:
+  - _Keywords:_ nonlocal, solver, dispersion, String, Integer, calculation, Double, mobility
+- **Examples** <a id="examples"></a>
+  - Physics nonlocal=NL1 eSchrodinger=Parabolic \ valleys=[list Delta1 Delta2 Delta3] Nk=8 Nphi=16 phi=0.0 iwSymmetry=IW4 \ Kmax=0.25 Nsubbands=8 correction=3
+  - _Keywords:_ nonlocal, NL1, Parabolic, Kmax, correction, solver, specified, points
+- **Modifying Parameters** <a id="modifying-parameters"></a>
+  - When a Schrödinger solver or mobility calculator has been defined for a nonlocal line or nonlocal area, and an initial set of parameters has been specified, the parameters can be subsequently modified by another Physics command using onl...
+  - _Keywords:_ nonlocal, solver, defined, modified, Physics, eSchrodinger, NL1, mobility
+- **Switching Schrödinger Solvers and Mobility Calculators** <a id="switching-schr-dinger-solvers-and-mobility-calculators"></a>
+  - The selected Schrödinger solver or mobility calculator for a nonlocal line or nonlocal area can be changed by another Physics command that specifies the new Schrödinger solver or mobility calculator name along with the name of the nonloc...
+  - _Keywords:_ solver, mobility, calculator, nonlocal, original, selected, changed, another
+- **Removing Schrödinger Solvers and Mobility Calculators** <a id="removing-schr-dinger-solvers-and-mobility-calculators"></a>
+  - A Schrödinger solver or mobility calculator can be removed from use by Sentaurus Band Structure by specifying the eSchrodinger, hSchrodinger, eMobilityCalculator, or hMobilityCalculator keyword along with the name of the nonlocal line or...
+  - _Keywords:_ nonlocal, eSchrodinger, keyword, remove, NL1, solver, mobility, calculator
+- **Syntax** <a id="syntax"></a>
+  - To save to a TDR file:
+  - _Keywords:_ String, Save, models, TDR, tdrFile, noXYTDR, dataFile, noHeader
+- **Description** <a id="description"></a>
+  - This command saves a real-space TDR file or a text file with the specified models as a function of the real-space device coordinates.
+  - _Keywords:_ TDR, specified, models, device, coordinates
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>dataFile</td><td>Name of the xy text file to save.</td></tr><tr><td>highPrecision</td><td>If not specified, data with low precision is saved. If specified, data with higher pre...
+  - _Keywords:_ specified, TDR, precision, models, header, Solve, String, structures
+- **Examples** <a id="examples"></a>
+  - Save tdrFile=solution.tdr models=[list eDensity hDensity ConductionBandEnergy]
+  - _Keywords:_ Solve, Save, models, solutions, device, structure, tdrFile, solution
+- **SaveDitProfile** <a id="saveditprofile"></a>
+- **Syntax** <a id="syntax"></a>
+  - ```txt SaveDitProfile tdrFile=String trapName=String { {x=Double y=Double} | z=Double } ```
+  - _Keywords:_ Double, String, SaveDitProfile, tdrFile, trapName
+- **Description** <a id="description"></a>
+  - This command saves a TDR file containing profile information for interface trap–related quantities. These quantities are extracted for the interface node closest to the specified coordinates.
+  - _Keywords:_ interface, quantities, TDR, containing, profile, information, related, These
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>tdrFile</td><td>Name of the TDR file.</td></tr><tr><td>trapName</td><td>Name of the trap for which the interface trap quantities are extracted.</td></tr><tr><td>x</td><td>The x...
+  - _Keywords:_ coordinate, simulations, Argument, Description, tdrFile, TDR, trapName, interface
+- **SaveK** <a id="savek"></a>
+- **Syntax** <a id="syntax"></a>
+  - SaveK tdrFile=String models=List/String [nonlocal=String] [Nk=Integer] [Kmax=Double]
+  - _Keywords:_ String, SaveK, tdrFile, models, nonlocal, Integer, Kmax, Double
+- **Description** <a id="description"></a>
+  - This command saves a TDR file containing -space models for the subbands over a uniformlyk spaced, Cartesian, tensor-product mesh.
+  - _Keywords:_ TDR, containing, models, subbands, uniformlyk, spaced, Cartesian, tensor
+- **Arguments** <a id="arguments"></a>
+  - <table><tr><td>Argument</td><td>Description</td></tr><tr><td>Kmax</td><td>Maximum k -value in the Cartesian tensor-product mesh for the TDR file. The default value is determined from the k -space grid of the nonlocal line or nonlocal are...
+  - _Keywords:_ subband, nonlocal, TDR, models, Cartesian, tensor, product, valley
+- **Examples** <a id="examples"></a>
+  - ```txt SaveK tdrFile=kspace.tdr nonlocal=NL1 \ models=[list Delta1_1_Dispersion Delta2_0_IMRT] ```
+  - _Keywords:_ nonlocal, NL1, models, subband, valley, SaveK, tdrFile, kspace
+- **Solve** <a id="solve"></a>
+- **Syntax** <a id="syntax"></a>
+  - For a self-consistent solve where biases are specified:
+  - _Keywords:_ String, Solve, Double, consistent, initial, logFile, saveVacuumPotToFile, potential
+- **Description** <a id="description"></a>
+  - This command is used to solve the Poisson and Schrödinger equations.
+  - _Keywords:_ potential, vacuum, specified, column, columns, spatial, coordinate, second
+- **Examples** _(p.152–175)_ <a id="examples"></a>
+  - Solve V(Gate)=1.0 V(Substrate)=0.0 initial logFile=mydata.plt
+  - _Keywords:_ initial, equation, Solve, mydata, solves, Poisson, vacuum, potential
+- **References** _(p.175–262)_ <a id="references"></a>
+  - [1] J. K. Ousterhout, Tcl and the Tk Toolkit, Reading, Massachusetts: Addison-Wesley, 1994. [2] M. M. Rieger and P. Vogl, “Electronic band parameters in strained Si1–xGex alloys on $\mathrm { S i _ { 1 - y } G e _ { y } }$ substrates,” P...
+  - _Keywords:_ Band, Tcl, Ousterhout, Toolkit, Reading, Massachusetts, Addison, Wesley

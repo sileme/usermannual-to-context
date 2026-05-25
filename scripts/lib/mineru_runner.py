@@ -9,12 +9,18 @@ must hold for the rest of the pipeline (02_markdown_to_context.py) is:
 
     For each input <doc>.pdf, the engine MUST produce, somewhere under
     <output_dir>/<doc>/, the two files:
-        <doc>.md
-        <doc>_content_list.json   (minerU schema: list of blocks with
+        <doc>.md                   human-readable continuous markdown
+                                   (for spot-checking; 02 reads this too)
+        <doc>_content_list.json    AI-readable structured block list
+                                   (minerU schema: list of blocks with
                                    {type, page_idx, text, ...} preserving
-                                   reading order)
+                                   reading order — 02 uses this as its
+                                   primary source for provenance.json)
     Images may be placed under any subdirectory, referenced from <doc>.md
     by relative path.
+
+    The two files contain the same text; the JSON adds per-block metadata
+    (page_idx, bbox, type).  Humans read .md, downstream scripts read .json.
 """
 from __future__ import annotations
 
