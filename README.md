@@ -1,4 +1,4 @@
-# software_usermanual_context
+# usermannual_to_context
 
 > 把工程软件的官方 user manual 转成 **Claude Code 可按需加载的背景知识层**。不熟悉该软件的人也能通过对话查用法、理解参数、生成脚本，而不用从头读几百页 PDF；并且每条回答都附 PDF 页码出处，避免 LLM 编造。
 
